@@ -41,6 +41,10 @@ interface AppState {
   setFontSize: (size: 'small' | 'normal' | 'large' | 'xlarge') => void;
   highContrast: boolean;
   setHighContrast: (on: boolean) => void;
+
+  // Onboarding
+  onboardingDone: boolean;
+  setOnboardingDone: (done: boolean) => void;
 }
 
 export const useAppStore = create<AppState>()(
@@ -144,6 +148,10 @@ export const useAppStore = create<AppState>()(
         set({ fontSize });
         document.documentElement.setAttribute('data-fontsize', fontSize);
       },
+      // Onboarding
+      onboardingDone: false,
+      setOnboardingDone: (done) => set({ onboardingDone: done }),
+
       highContrast: false,
       setHighContrast: (highContrast) => {
         set({ highContrast });
@@ -165,6 +173,7 @@ export const useAppStore = create<AppState>()(
         fontFamily: state.fontFamily,
         fontSize: state.fontSize,
         highContrast: state.highContrast,
+        onboardingDone: state.onboardingDone,
       }),
     }
   )

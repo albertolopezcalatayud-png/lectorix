@@ -6,6 +6,8 @@ import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { Stars } from '@/components/ui/Stars';
+import { ModuleBarChart } from '@/components/charts/ModuleBarChart';
+import { SkillRadar } from '@/components/charts/SkillRadar';
 
 export default function ParentPanel() {
   const user = useAppStore((s) => s.user);
@@ -68,8 +70,51 @@ export default function ParentPanel() {
           </Card>
         </motion.div>
 
-        {/* Per-module detail */}
+        {/* Module Progress Chart */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }}>
+          <Card>
+            <h3 className="font-heading font-extrabold text-sm mb-3">📊 Progreso por módulo</h3>
+            <ModuleBarChart
+              data={MODULES.map((mod) => {
+                const modProgress = progress.filter((p) => p.module === mod.id);
+                const completed = modProgress.filter((p) => p.stars > 0).length;
+                return {
+                  id: mod.id,
+                  name: mod.name,
+                  icon: mod.icon,
+                  color: mod.color,
+                  value: Math.round((completed / mod.levels) * 100),
+                };
+              })}
+            />
+          </Card>
+        </motion.div>
+
+        {/* Skill Radar */}
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
+          <Card>
+            <h3 className="font-heading font-extrabold text-sm mb-3">🎯 Mapa de habilidades</h3>
+            <SkillRadar
+              skills={MODULES.map((mod) => {
+                const modProgress = progress.filter((p) => p.module === mod.id);
+                const modAvg = modProgress.length > 0
+                  ? Math.round(modProgress.reduce((s, p) => s + p.best_score, 0) / modProgress.length)
+                  : 0;
+                return {
+                  label: mod.name.split(' ')[0],
+                  value: modAvg,
+                  color: mod.color,
+                };
+              })}
+            />
+            <p className="text-[10px] text-fg-muted text-center mt-2">
+              Puntuación media por área de habilidad
+            </p>
+          </Card>
+        </motion.div>
+
+        {/* Per-module detail */}
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}>
           <Card>
             <h3 className="font-heading font-extrabold text-sm mb-3">Detalle por módulo</h3>
             <div className="space-y-4">
@@ -116,7 +161,7 @@ export default function ParentPanel() {
         </motion.div>
 
         {/* Recommendations */}
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}>
           <Card className="border-mint/20 bg-mint-pale/20">
             <h3 className="font-heading font-extrabold text-sm mb-2">💡 Recomendaciones</h3>
             <ul className="text-xs text-fg-muted space-y-1.5">

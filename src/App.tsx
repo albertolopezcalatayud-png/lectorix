@@ -2,6 +2,8 @@ import { lazy, Suspense, useEffect } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { BottomNav } from '@/components/layout/BottomNav';
+import { OfflineBanner } from '@/components/ui/OfflineBanner';
+import { Onboarding } from '@/components/onboarding/Onboarding';
 import { useAppStore } from '@/stores/useAppStore';
 
 // Lazy load pages
@@ -35,6 +37,8 @@ export default function App() {
   const fontSize = useAppStore((s) => s.fontSize);
   const highContrast = useAppStore((s) => s.highContrast);
   const theme = useAppStore((s) => s.theme);
+  const onboardingDone = useAppStore((s) => s.onboardingDone);
+  const setOnboardingDone = useAppStore((s) => s.setOnboardingDone);
 
   // Apply persisted accessibility settings on mount
   useEffect(() => {
@@ -52,9 +56,14 @@ export default function App() {
     }
   }, []);
 
+  if (!onboardingDone) {
+    return <Onboarding onComplete={() => setOnboardingDone(true)} />;
+  }
+
   return (
     <HashRouter>
       <div className="min-h-screen bg-bg text-fg">
+        <OfflineBanner />
         <Suspense fallback={<LoadingSpinner />}>
           <Routes>
             <Route path="/" element={<Dashboard />} />
