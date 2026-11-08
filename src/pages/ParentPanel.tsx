@@ -8,6 +8,7 @@ import { ProgressBar } from '@/components/ui/ProgressBar';
 import { Stars } from '@/components/ui/Stars';
 import { ModuleBarChart } from '@/components/charts/ModuleBarChart';
 import { SkillRadar } from '@/components/charts/SkillRadar';
+import { generateParentReport, downloadReport, printReport } from '@/services/pdfExport';
 
 export default function ParentPanel() {
   const user = useAppStore((s) => s.user);
@@ -28,6 +29,30 @@ export default function ParentPanel() {
       <Header title="Panel para padres" showBack />
 
       <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
+        {/* Export buttons */}
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex gap-2 justify-end">
+          <button
+            onClick={() => {
+              const html = generateParentReport({ user, progress });
+              const name = user?.display_name || 'estudiante';
+              const date = new Date().toISOString().slice(0, 10);
+              downloadReport(html, `informe-lectorix-${name}-${date}.html`);
+            }}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-accent text-white text-xs font-bold hover:bg-accent/90 transition-colors"
+          >
+            📥 Descargar informe
+          </button>
+          <button
+            onClick={() => {
+              const html = generateParentReport({ user, progress });
+              printReport(html);
+            }}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-bg-card border border-border text-xs font-bold hover:bg-accent-pale/30 transition-colors"
+          >
+            🖨️ Imprimir
+          </button>
+        </motion.div>
+
         {/* Student summary */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
           <Card className="bg-accent-pale/30 border-accent/20">
