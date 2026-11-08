@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.lectorix.app",
+    "sha256_cert_fingerprints": [
+      "DB:DD:D6:86:E7:43:CB:80:AE:EA:14:3E:B0:61:F3:90:7D:F5:6B:64:20:55:83:AF:5B:91:52:72:DB:68:EC:00"
+    ]
+  }
+}]
