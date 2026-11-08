@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { UserProfile, StudentProgress, Subscription, ModuleId, SessionResult } from '@/types';
+import type { MascotCustomization } from '@/components/mascot/MascotAvatar';
 
 interface AppState {
   // Auth
@@ -45,6 +46,13 @@ interface AppState {
   // Session History
   sessionHistory: SessionResult[];
   addSession: (session: SessionResult) => void;
+
+  // Mascot
+  mascot: MascotCustomization;
+  setMascotColor: (color: string) => void;
+  setMascotHat: (hat: string | null) => void;
+  setMascotAccessory: (accessory: string | null) => void;
+  setMascotBackground: (background: string | null) => void;
 
   // Onboarding
   onboardingDone: boolean;
@@ -159,6 +167,17 @@ export const useAppStore = create<AppState>()(
           sessionHistory: [session, ...state.sessionHistory].slice(0, 100), // Keep last 100
         })),
 
+      // Mascot
+      mascot: { color: 'purple', hat: null, accessory: null, background: null },
+      setMascotColor: (color) =>
+        set((state) => ({ mascot: { ...state.mascot, color } })),
+      setMascotHat: (hat) =>
+        set((state) => ({ mascot: { ...state.mascot, hat } })),
+      setMascotAccessory: (accessory) =>
+        set((state) => ({ mascot: { ...state.mascot, accessory } })),
+      setMascotBackground: (background) =>
+        set((state) => ({ mascot: { ...state.mascot, background } })),
+
       // Onboarding
       onboardingDone: false,
       setOnboardingDone: (done) => set({ onboardingDone: done }),
@@ -186,6 +205,7 @@ export const useAppStore = create<AppState>()(
         highContrast: state.highContrast,
         onboardingDone: state.onboardingDone,
         sessionHistory: state.sessionHistory,
+        mascot: state.mascot,
       }),
     }
   )

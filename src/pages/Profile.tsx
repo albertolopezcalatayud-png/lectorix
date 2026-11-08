@@ -7,11 +7,13 @@ import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { Badge } from '@/components/ui/Badge';
+import { MascotAvatar } from '@/components/mascot/MascotAvatar';
 
 export default function Profile() {
   const navigate = useNavigate();
   const user = useAppStore((s) => s.user);
   const progress = useAppStore((s) => s.progress);
+  const mascot = useAppStore((s) => s.mascot);
   const totalXP = user?.total_xp || 0;
   const streak = user?.streak_days || 0;
   const { level, currentXP, nextLevelXP } = calculateXPLevel(totalXP);
@@ -31,9 +33,12 @@ export default function Profile() {
           animate={{ opacity: 1, y: 0 }}
           className="flex flex-col items-center text-center"
         >
-          <div className="w-20 h-20 rounded-full bg-accent-pale flex items-center justify-center text-4xl mb-3">
-            {user?.avatar || '🧑‍🎓'}
-          </div>
+          <button onClick={() => navigate('/mascota')} className="mb-3 relative group">
+            <MascotAvatar customization={mascot} size={100} />
+            <span className="absolute bottom-0 right-0 bg-accent text-white text-[9px] px-1.5 py-0.5 rounded-full font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+              Editar
+            </span>
+          </button>
           <h2 className="font-heading font-black text-xl">{user?.display_name || 'Estudiante'}</h2>
           <p className="text-sm text-fg-muted">{user?.email || ''}</p>
           <div className="flex gap-2 mt-2">
@@ -122,6 +127,14 @@ export default function Profile() {
 
         {/* Actions */}
         <div className="space-y-2">
+          <button
+            onClick={() => navigate('/mascota')}
+            className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
+          >
+            <span>🦉</span>
+            <span className="text-sm font-bold">Mi mascota</span>
+            <span className="ml-auto text-fg-muted">→</span>
+          </button>
           <button
             onClick={() => navigate('/historial')}
             className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"

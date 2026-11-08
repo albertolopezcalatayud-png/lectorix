@@ -6,11 +6,13 @@ import { MODULES } from '@/data/modules';
 import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { Header } from '@/components/layout/Header';
+import { MascotAvatar } from '@/components/mascot/MascotAvatar';
 
 export default function Dashboard() {
   const navigate = useNavigate();
   const user = useAppStore((s) => s.user);
   const progress = useAppStore((s) => s.progress);
+  const mascot = useAppStore((s) => s.mascot);
   const xpInfo = user ? calculateXPLevel(user.total_xp) : { level: 1, currentXP: 0, nextLevelXP: 100, progress: 0 };
 
   return (
@@ -18,12 +20,19 @@ export default function Dashboard() {
       <Header />
 
       <div className="px-4 py-5 max-w-lg mx-auto space-y-5">
-        {/* Welcome */}
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-          <h2 className="font-heading font-black text-xl">
-            ¡Hola, {user?.display_name || 'Estudiante'}! 👋
-          </h2>
-          <p className="text-fg-muted text-sm mt-1">¿Listo para practicar hoy?</p>
+        {/* Welcome + Mascot */}
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
+          className="flex items-center gap-4"
+        >
+          <button onClick={() => navigate('/mascota')} className="flex-shrink-0">
+            <MascotAvatar customization={mascot} size={72} />
+          </button>
+          <div>
+            <h2 className="font-heading font-black text-xl">
+              ¡Hola, {user?.display_name || 'Estudiante'}! 👋
+            </h2>
+            <p className="text-fg-muted text-sm mt-1">¿Listo para practicar hoy?</p>
+          </div>
         </motion.div>
 
         {/* XP Card */}
