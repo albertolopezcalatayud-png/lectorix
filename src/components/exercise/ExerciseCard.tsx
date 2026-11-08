@@ -1,7 +1,9 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { Exercise } from '@/types';
 import { OptionButton } from './OptionButton';
+import sounds from '@/services/sounds';
+import tts from '@/services/tts';
 
 interface ExerciseCardProps {
   exercise: Exercise;
@@ -14,6 +16,40 @@ export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswe
   const [selected, setSelected] = useState<number | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const [startTime] = useState(Date.now());
+  const [isSpeaking, setIsSpeaking] = useState(false);
+
+  const handleSpeak = useCallback(async (text: string) => {
+    if (isSpeaking) {
+      tts.stop();
+      setIsSpeaking(false);
+      return;
+    }
+    setIsSpeaking(true);
+    try {
+      await tts.speak(text);
+    } finally {
+      setIsSpeaking(false);
+    }
+  }, [isSpeaking]);
+
+  const handleSpeakWord = useCallback(async () => {
+    if (!exercise.word) return;
+    if (isSpeaking) {
+      tts.stop();
+      setIsSpeaking(false);
+      return;
+    }
+    setIsSpeaking(true);
+    try {
+      if (exercise.syllables && Array.isArray(exercise.syllables)) {
+        await tts.speakSyllables(exercise.syllables);
+      } else {
+        await tts.speak(exercise.word);
+      }
+    } finally {
+      setIsSpeaking(false);
+    }
+  }, [exercise.word, exercise.syllables, isSpeaking]);
 
   const handleSelect = (index: number) => {
     if (showFeedback) return;
@@ -22,6 +58,13 @@ export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswe
 
     const isCorrect = index === exercise.correct;
     const timeMs = Date.now() - startTime;
+
+    // Play sound effect
+    if (isCorrect) {
+      sounds.correct();
+    } else {
+      sounds.incorrect();
+    }
 
     // Delay to show feedback before advancing
     setTimeout(() => {
@@ -57,27 +100,65 @@ export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswe
 
         {/* Passage (for comprehension exercises) */}
         {exercise.passage && (
-          <div className="bg-accent-pale/50 rounded-[14px] p-4 text-sm leading-relaxed border border-border">
+          <div className="bg-accent-pale/50 rounded-[14px] p-4 text-sm leading-relaxed border border-border relative">
             {exercise.passage}
+            {tts.isAvailable() && (
+              <button
+                onClick={() => handleSpeak(exercise.passage!)}
+                className={`absolute top-2 right-2 w-8 h-8 rounded-full flex items-center justify-center transition-colors ${
+                  isSpeaking ? 'bg-accent text-white' : 'bg-white/80 text-accent hover:bg-accent/10'
+                }`}
+                aria-label={isSpeaking ? 'Detener lectura' : 'Escuchar pasaje'}
+                title={isSpeaking ? 'Detener' : 'Escuchar'}
+              >
+                {isSpeaking ? '⏹' : '🔊'}
+              </button>
+            )}
           </div>
         )}
 
         {/* Word display */}
         {exercise.word && (
-          <div className="text-center">
+          <div className="text-center relative">
             <span className="text-3xl font-heading font-black text-accent">
               {exercise.word}
             </span>
             {exercise.syllables && (
               <p className="text-sm text-fg-muted mt-1">{Array.isArray(exercise.syllables) ? exercise.syllables.join(' - ') : exercise.syllables}</p>
             )}
+            {tts.isAvailable() && (
+              <button
+                onClick={handleSpeakWord}
+                className={`inline-flex items-center justify-center w-8 h-8 rounded-full ml-2 align-middle transition-colors ${
+                  isSpeaking ? 'bg-accent text-white' : 'bg-accent/10 text-accent hover:bg-accent/20'
+                }`}
+                aria-label={isSpeaking ? 'Detener' : 'Escuchar palabra'}
+                title={isSpeaking ? 'Detener' : 'Escuchar'}
+              >
+                {isSpeaking ? '⏹' : '🔊'}
+              </button>
+            )}
           </div>
         )}
 
         {/* Prompt */}
-        <h2 className="font-heading font-extrabold text-lg text-center px-2">
-          {exercise.prompt}
-        </h2>
+        <div className="flex items-center justify-center gap-2 px-2">
+          <h2 className="font-heading font-extrabold text-lg text-center">
+            {exercise.prompt}
+          </h2>
+          {tts.isAvailable() && (
+            <button
+              onClick={() => handleSpeak(exercise.prompt)}
+              className={`flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-xs transition-colors ${
+                isSpeaking ? 'bg-accent text-white' : 'bg-accent/10 text-accent hover:bg-accent/20'
+              }`}
+              aria-label="Escuchar pregunta"
+              title="Escuchar"
+            >
+              🔊
+            </button>
+          )}
+        </div>
 
         {/* Options */}
         <div className="flex flex-col gap-2.5">

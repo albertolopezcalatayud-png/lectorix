@@ -1,7 +1,10 @@
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '@/stores/useAppStore';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
+import { isSoundEnabled, setSoundEnabled } from '@/services/sounds';
+import { isTTSEnabled, setTTSEnabled, isTTSAvailable, getTTSRate, setTTSRate } from '@/services/tts';
 
 export default function Settings() {
   const navigate = useNavigate();
@@ -11,6 +14,10 @@ export default function Settings() {
   const setLanguage = useAppStore((s) => s.setLanguage);
   const user = useAppStore((s) => s.user);
   const setUser = useAppStore((s) => s.setUser);
+
+  const [soundOn, setSoundOn] = useState(isSoundEnabled());
+  const [ttsOn, setTtsOn] = useState(isTTSEnabled());
+  const [ttsRate, setTtsRate] = useState(getTTSRate());
 
   const themes = [
     { value: 'system' as const, label: 'Automático', icon: '💻' },
@@ -69,6 +76,91 @@ export default function Settings() {
                 {language === l.value && <span className="ml-auto">✓</span>}
               </button>
             ))}
+          </div>
+        </Card>
+
+        {/* Audio */}
+        <Card>
+          <h3 className="font-heading font-extrabold text-sm mb-3">Audio</h3>
+          <div className="space-y-3">
+            {/* Sound effects toggle */}
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <span className="text-lg">🔊</span>
+                <span className="text-sm font-bold">Efectos de sonido</span>
+              </div>
+              <button
+                onClick={() => {
+                  const next = !soundOn;
+                  setSoundOn(next);
+                  setSoundEnabled(next);
+                }}
+                className={`relative w-11 h-6 rounded-full transition-colors ${
+                  soundOn ? 'bg-accent' : 'bg-border'
+                }`}
+              >
+                <span
+                  className={`absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform ${
+                    soundOn ? 'translate-x-5' : 'translate-x-0'
+                  }`}
+                />
+              </button>
+            </div>
+
+            {/* TTS toggle */}
+            {isTTSAvailable() && (
+              <>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <span className="text-lg">🗣️</span>
+                    <span className="text-sm font-bold">Leer en voz alta</span>
+                  </div>
+                  <button
+                    onClick={() => {
+                      const next = !ttsOn;
+                      setTtsOn(next);
+                      setTTSEnabled(next);
+                    }}
+                    className={`relative w-11 h-6 rounded-full transition-colors ${
+                      ttsOn ? 'bg-accent' : 'bg-border'
+                    }`}
+                  >
+                    <span
+                      className={`absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform ${
+                        ttsOn ? 'translate-x-5' : 'translate-x-0'
+                      }`}
+                    />
+                  </button>
+                </div>
+
+                {/* TTS Speed */}
+                {ttsOn && (
+                  <div className="pl-8">
+                    <div className="flex items-center justify-between text-xs text-fg-muted mb-1">
+                      <span>Velocidad de lectura</span>
+                      <span className="font-bold">{ttsRate.toFixed(1)}x</span>
+                    </div>
+                    <input
+                      type="range"
+                      min="0.5"
+                      max="1.5"
+                      step="0.1"
+                      value={ttsRate}
+                      onChange={(e) => {
+                        const val = parseFloat(e.target.value);
+                        setTtsRate(val);
+                        setTTSRate(val);
+                      }}
+                      className="w-full accent-accent"
+                    />
+                    <div className="flex justify-between text-[10px] text-fg-muted">
+                      <span>🐢 Lento</span>
+                      <span>🐇 Rápido</span>
+                    </div>
+                  </div>
+                )}
+              </>
+            )}
           </div>
         </Card>
 

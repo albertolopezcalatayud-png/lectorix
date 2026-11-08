@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { shouldUnlockNextLevel } from '@/services/gamification';
@@ -5,11 +6,39 @@ import { getModule, LEVEL_NAMES } from '@/data/modules';
 import { Card } from '@/components/ui/Card';
 import { Stars } from '@/components/ui/Stars';
 import { Button } from '@/components/ui/Button';
+import sounds from '@/services/sounds';
 
 export default function Results() {
   const location = useLocation();
   const navigate = useNavigate();
   const result = location.state?.result;
+  const soundPlayed = useRef(false);
+
+  useEffect(() => {
+    if (!result || soundPlayed.current) return;
+    soundPlayed.current = true;
+
+    const unlocked = shouldUnlockNextLevel(result.correct_answers, result.total_questions);
+
+    // Play result sounds with staggered timing
+    const t1 = setTimeout(() => sounds.complete(), 300);
+    const t2 = setTimeout(() => {
+      for (let i = 0; i < result.stars; i++) {
+        setTimeout(() => sounds.star(), i * 250);
+      }
+    }, 700);
+    const t3 = setTimeout(() => sounds.xp(), 700 + result.stars * 250 + 200);
+    const t4 = unlocked && result.level < 5
+      ? setTimeout(() => sounds.levelUp(), 1200 + result.stars * 250)
+      : null;
+
+    return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+      clearTimeout(t3);
+      if (t4) clearTimeout(t4);
+    };
+  }, [result]);
 
   if (!result) {
     navigate('/');
