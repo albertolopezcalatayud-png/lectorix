@@ -1,9 +1,10 @@
 import { lazy, Suspense, useEffect } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { motion, AnimatePresence } from 'framer-motion';
 import { BottomNav } from '@/components/layout/BottomNav';
 import { OfflineBanner } from '@/components/ui/OfflineBanner';
 import { Onboarding } from '@/components/onboarding/Onboarding';
+import { PageTransition } from '@/components/layout/PageTransition';
 import { useAppStore } from '@/stores/useAppStore';
 
 // Lazy load pages
@@ -29,6 +30,29 @@ function LoadingSpinner() {
         className="w-10 h-10 border-3 border-accent border-t-transparent rounded-full"
       />
     </div>
+  );
+}
+
+function AnimatedRoutes() {
+  const location = useLocation();
+
+  return (
+    <AnimatePresence mode="wait">
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<PageTransition><Dashboard /></PageTransition>} />
+        <Route path="/login" element={<PageTransition><Login /></PageTransition>} />
+        <Route path="/modulos" element={<PageTransition><Modules /></PageTransition>} />
+        <Route path="/modulos/:moduleId" element={<PageTransition><Levels /></PageTransition>} />
+        <Route path="/ejercicio/:moduleId/:levelStr" element={<PageTransition><Exercise /></PageTransition>} />
+        <Route path="/resultados" element={<PageTransition><Results /></PageTransition>} />
+        <Route path="/reto-diario" element={<PageTransition><DailyChallenge /></PageTransition>} />
+        <Route path="/logros" element={<PageTransition><Achievements /></PageTransition>} />
+        <Route path="/perfil" element={<PageTransition><Profile /></PageTransition>} />
+        <Route path="/ajustes" element={<PageTransition><Settings /></PageTransition>} />
+        <Route path="/premium" element={<PageTransition><Premium /></PageTransition>} />
+        <Route path="/panel-padres" element={<PageTransition><ParentPanel /></PageTransition>} />
+      </Routes>
+    </AnimatePresence>
   );
 }
 
@@ -65,20 +89,7 @@ export default function App() {
       <div className="min-h-screen bg-bg text-fg">
         <OfflineBanner />
         <Suspense fallback={<LoadingSpinner />}>
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/modulos" element={<Modules />} />
-            <Route path="/modulos/:moduleId" element={<Levels />} />
-            <Route path="/ejercicio/:moduleId/:levelStr" element={<Exercise />} />
-            <Route path="/resultados" element={<Results />} />
-            <Route path="/reto-diario" element={<DailyChallenge />} />
-            <Route path="/logros" element={<Achievements />} />
-            <Route path="/perfil" element={<Profile />} />
-            <Route path="/ajustes" element={<Settings />} />
-            <Route path="/premium" element={<Premium />} />
-            <Route path="/panel-padres" element={<ParentPanel />} />
-          </Routes>
+          <AnimatedRoutes />
         </Suspense>
         <BottomNav />
       </div>

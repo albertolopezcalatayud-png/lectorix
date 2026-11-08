@@ -71,7 +71,7 @@ export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswe
       onAnswer(index, isCorrect, timeMs);
       setSelected(null);
       setShowFeedback(false);
-    }, 1500);
+    }, 1800);
   };
 
   return (
@@ -179,17 +179,40 @@ export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswe
         <AnimatePresence>
           {showFeedback && (
             <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, scale: 0.9, y: 10 }}
+              animate={
+                selected === exercise.correct
+                  ? { opacity: 1, scale: 1, y: 0 }
+                  : {
+                      opacity: 1,
+                      scale: 1,
+                      y: 0,
+                      x: [0, -6, 6, -4, 4, 0],
+                    }
+              }
               exit={{ opacity: 0 }}
-              className={`p-3 rounded-[14px] text-sm font-semibold ${
+              transition={
+                selected === exercise.correct
+                  ? { type: 'spring', stiffness: 300 }
+                  : { duration: 0.4 }
+              }
+              className={`p-3 rounded-[14px] text-sm font-semibold flex items-start gap-2 ${
                 selected === exercise.correct
                   ? 'bg-mint-pale text-mint border border-mint/30'
                   : 'bg-red-pale text-red border border-red/30'
               }`}
             >
-              {selected === exercise.correct ? '✅ ¡Correcto!' : '❌ Incorrecto'}{' '}
-              <span className="font-normal text-fg-muted">{exercise.explanation}</span>
+              <span className="text-xl flex-shrink-0">
+                {selected === exercise.correct ? '✅' : '❌'}
+              </span>
+              <div>
+                <span className="font-bold">
+                  {selected === exercise.correct ? '¡Correcto!' : 'Incorrecto'}
+                </span>
+                <span className="block text-xs font-normal text-fg-muted mt-0.5">
+                  {exercise.explanation}
+                </span>
+              </div>
             </motion.div>
           )}
         </AnimatePresence>
