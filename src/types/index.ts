@@ -3,7 +3,7 @@ export interface Exercise {
   id: string;
   module: ModuleId;
   level: number;
-  type: string;
+  type: 'multiple_choice' | 'drag_order' | 'drag_fill';
   prompt: string;
   options: string[];
   correct: number;
@@ -11,6 +11,12 @@ export interface Exercise {
   word?: string;
   passage?: string;
   syllables?: string[];
+  // Drag & drop fields
+  pieces?: string[];           // Items to drag (shuffled for display)
+  correctOrder?: string[];     // Correct ordering of pieces (for drag_order)
+  sentence?: string;           // Sentence with ___ blanks (for drag_fill)
+  blanks?: string[];           // Correct words for each blank (for drag_fill)
+  distractors?: string[];      // Extra wrong items mixed in (for drag_fill)
 }
 
 export type ModuleId =

@@ -2399,6 +2399,391 @@
       "correct": 1,
       "explanation": "La idea principal resume el contenido del texto",
       "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_l2_031",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ ladra y la ___ maúlla.",
+      "blanks": [
+        "perro",
+        "gata"
+      ],
+      "distractors": [
+        "pez",
+        "árbol"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El perro ladra y la gata maúlla. Los animales hacen sonidos diferentes."
+    },
+    {
+      "id": "comprension_l2_032",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "En ___ hace frío y en ___ hace calor.",
+      "blanks": [
+        "invierno",
+        "verano"
+      ],
+      "distractors": [
+        "casa",
+        "escuela"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "En invierno hace frío y en verano hace calor. Son estaciones opuestas."
+    },
+    {
+      "id": "comprension_l2_033",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Uso el ___ para escribir y la ___ para borrar.",
+      "blanks": [
+        "lápiz",
+        "goma"
+      ],
+      "distractors": [
+        "silla",
+        "mesa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El lápiz sirve para escribir y la goma para borrar."
+    },
+    {
+      "id": "comprension_l2_034",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ brilla de noche y el ___ brilla de día.",
+      "blanks": [
+        "luna",
+        "sol"
+      ],
+      "distractors": [
+        "nube",
+        "estrella"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La luna brilla de noche y el sol brilla de día."
+    },
+    {
+      "id": "comprension_l2_035",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Mi ___ es azul y mi ___ es roja.",
+      "blanks": [
+        "camisa",
+        "falda"
+      ],
+      "distractors": [
+        "diente",
+        "pelo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Mi camisa es azul y mi falda es roja. Son prendas de vestir."
+    },
+    {
+      "id": "comprension_l3_031",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Los ___ vuelan por el cielo y los ___ nadan en el mar.",
+      "blanks": [
+        "pájaros",
+        "peces"
+      ],
+      "distractors": [
+        "libros",
+        "coches"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los pájaros vuelan por el cielo y los peces nadan en el mar."
+    },
+    {
+      "id": "comprension_l3_032",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ es el rey de la selva y el ___ es el animal más alto.",
+      "blanks": [
+        "león",
+        "jirafa"
+      ],
+      "distractors": [
+        "ratón",
+        "hormiga"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El león es el rey de la selva y la jirafa es el animal más alto."
+    },
+    {
+      "id": "comprension_l3_033",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la oración",
+      "sentence": "Para ___ necesito un libro y para ___ necesito una pelota.",
+      "blanks": [
+        "leer",
+        "jugar"
+      ],
+      "distractors": [
+        "dormir",
+        "comer"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Para leer necesito un libro y para jugar necesito una pelota."
+    },
+    {
+      "id": "comprension_l3_034",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la oración",
+      "sentence": "El ___ cocina la comida y el ___ cura a los enfermos.",
+      "blanks": [
+        "cocinero",
+        "médico"
+      ],
+      "distractors": [
+        "bombero",
+        "piloto"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El cocinero cocina la comida y el médico cura a los enfermos."
+    },
+    {
+      "id": "comprension_l3_035",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la oración",
+      "sentence": "Las ___ crecen en el jardín y los ___ crecen en los árboles.",
+      "blanks": [
+        "flores",
+        "frutos"
+      ],
+      "distractors": [
+        "piedras",
+        "nubes"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Las flores crecen en el jardín y los frutos crecen en los árboles."
+    },
+    {
+      "id": "comprension_l4_031",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El agua se ___ a 100 grados y se ___ a 0 grados.",
+      "blanks": [
+        "evapora",
+        "congela"
+      ],
+      "distractors": [
+        "derrite",
+        "enfría"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El agua se evapora a 100°C y se congela a 0°C."
+    },
+    {
+      "id": "comprension_l4_032",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "Los ___ absorben CO₂ y producen ___.",
+      "blanks": [
+        "árboles",
+        "oxígeno"
+      ],
+      "distractors": [
+        "ríos",
+        "carbón"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los árboles absorben dióxido de carbono y producen oxígeno mediante la fotosíntesis."
+    },
+    {
+      "id": "comprension_l4_033",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "La Tierra gira alrededor del ___ y la ___ gira alrededor de la Tierra.",
+      "blanks": [
+        "Sol",
+        "Luna"
+      ],
+      "distractors": [
+        "Marte",
+        "estrella"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La Tierra orbita el Sol, y la Luna orbita la Tierra."
+    },
+    {
+      "id": "comprension_l4_034",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "Los ___ son animales de sangre fría y los ___ son de sangre caliente.",
+      "blanks": [
+        "reptiles",
+        "mamíferos"
+      ],
+      "distractors": [
+        "insectos",
+        "plantas"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los reptiles son ectotermos (sangre fría) y los mamíferos son endotermos (sangre caliente)."
+    },
+    {
+      "id": "comprension_l4_035",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "El ___ transporta la sangre por el cuerpo y los ___ nos permiten respirar.",
+      "blanks": [
+        "corazón",
+        "pulmones"
+      ],
+      "distractors": [
+        "cerebro",
+        "huesos"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El corazón bombea la sangre y los pulmones realizan el intercambio de gases."
+    },
+    {
+      "id": "comprension_l5_031",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ es la capacidad de un cuerpo para resistir cambios en su ___.",
+      "blanks": [
+        "inercia",
+        "movimiento"
+      ],
+      "distractors": [
+        "gravedad",
+        "velocidad",
+        "energía"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La inercia es la capacidad de un cuerpo para resistir cambios en su movimiento (Primera Ley de Newton)."
+    },
+    {
+      "id": "comprension_l5_032",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "En una ___ los electrones fluyen desde el polo ___ al polo positivo.",
+      "blanks": [
+        "batería",
+        "negativo"
+      ],
+      "distractors": [
+        "lámpara",
+        "neutro",
+        "magnético"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "En una batería los electrones fluyen del polo negativo al positivo."
+    },
+    {
+      "id": "comprension_l5_033",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "La ___ es el estudio de los seres vivos y la ___ es el estudio de las sustancias.",
+      "blanks": [
+        "biología",
+        "química"
+      ],
+      "distractors": [
+        "historia",
+        "física",
+        "geografía"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La biología estudia los seres vivos y la química estudia las sustancias y sus transformaciones."
+    },
+    {
+      "id": "comprension_l5_034",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "El ___ es un verbo en pasado y ___ es un verbo en futuro.",
+      "blanks": [
+        "cantó",
+        "cantará"
+      ],
+      "distractors": [
+        "canta",
+        "cantando",
+        "cantaría"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "'Cantó' es pretérito perfecto simple y 'cantará' es futuro simple del indicativo."
+    },
+    {
+      "id": "comprension_l5_035",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "Un ___ tiene tres lados y un ___ tiene cuatro lados iguales.",
+      "blanks": [
+        "triángulo",
+        "cuadrado"
+      ],
+      "distractors": [
+        "círculo",
+        "pentágono",
+        "hexágono"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Un triángulo tiene 3 lados y un cuadrado tiene 4 lados iguales."
     }
   ]
 }

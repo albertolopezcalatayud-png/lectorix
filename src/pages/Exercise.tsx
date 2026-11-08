@@ -7,6 +7,7 @@ import { useAppStore } from '@/stores/useAppStore';
 import { buildSessionResult } from '@/services/gamification';
 import { getModule } from '@/data/modules';
 import { ExerciseCard } from '@/components/exercise/ExerciseCard';
+import { DragDropExercise } from '@/components/exercise/DragDropExercise';
 
 export default function Exercise() {
   const { moduleId, levelStr } = useParams<{ moduleId: string; levelStr: string }>();
@@ -112,12 +113,21 @@ export default function Exercise() {
 
       {/* Exercise */}
       <div className="px-4 py-6 max-w-lg mx-auto">
-        <ExerciseCard
-          exercise={exercises[currentIndex]}
-          questionNumber={currentIndex + 1}
-          totalQuestions={exercises.length}
-          onAnswer={handleAnswer}
-        />
+        {exercises[currentIndex].type === 'drag_order' || exercises[currentIndex].type === 'drag_fill' ? (
+          <DragDropExercise
+            exercise={exercises[currentIndex]}
+            questionNumber={currentIndex + 1}
+            totalQuestions={exercises.length}
+            onAnswer={handleAnswer}
+          />
+        ) : (
+          <ExerciseCard
+            exercise={exercises[currentIndex]}
+            questionNumber={currentIndex + 1}
+            totalQuestions={exercises.length}
+            onAnswer={handleAnswer}
+          />
+        )}
       </div>
     </div>
   );

@@ -2249,6 +2249,238 @@
       ],
       "correct": 1,
       "explanation": "'iba' sin h, con b"
+    },
+    {
+      "id": "escritura_l2_031",
+      "module": "escritura",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "El",
+        "gato",
+        "come",
+        "pescado"
+      ],
+      "correctOrder": [
+        "El",
+        "gato",
+        "come",
+        "pescado"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El gato come pescado. 🐱🐟"
+    },
+    {
+      "id": "escritura_l2_032",
+      "module": "escritura",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Mi",
+        "mamá",
+        "cocina",
+        "bien"
+      ],
+      "correctOrder": [
+        "Mi",
+        "mamá",
+        "cocina",
+        "bien"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Mi mamá cocina bien. 👩‍🍳"
+    },
+    {
+      "id": "escritura_l2_033",
+      "module": "escritura",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Los",
+        "niños",
+        "juegan",
+        "juntos"
+      ],
+      "correctOrder": [
+        "Los",
+        "niños",
+        "juegan",
+        "juntos"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los niños juegan juntos. 👦👧"
+    },
+    {
+      "id": "escritura_l2_034",
+      "module": "escritura",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Hoy",
+        "hace",
+        "mucho",
+        "sol"
+      ],
+      "correctOrder": [
+        "Hoy",
+        "hace",
+        "mucho",
+        "sol"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Hoy hace mucho sol. ☀️"
+    },
+    {
+      "id": "escritura_l2_035",
+      "module": "escritura",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "La",
+        "flor",
+        "es",
+        "roja"
+      ],
+      "correctOrder": [
+        "La",
+        "flor",
+        "es",
+        "roja"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La flor es roja. 🌹"
+    },
+    {
+      "id": "escritura_l3_031",
+      "module": "escritura",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "El",
+        "perro",
+        "grande",
+        "corre",
+        "rápido"
+      ],
+      "correctOrder": [
+        "El",
+        "perro",
+        "grande",
+        "corre",
+        "rápido"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El perro grande corre rápido. 🐕💨"
+    },
+    {
+      "id": "escritura_l3_032",
+      "module": "escritura",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "María",
+        "lee",
+        "un",
+        "libro",
+        "interesante"
+      ],
+      "correctOrder": [
+        "María",
+        "lee",
+        "un",
+        "libro",
+        "interesante"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "María lee un libro interesante. 📖"
+    },
+    {
+      "id": "escritura_l3_033",
+      "module": "escritura",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Ayer",
+        "fuimos",
+        "al",
+        "parque",
+        "todos"
+      ],
+      "correctOrder": [
+        "Ayer",
+        "fuimos",
+        "al",
+        "parque",
+        "todos"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Ayer fuimos al parque todos. 🌳"
+    },
+    {
+      "id": "escritura_l3_034",
+      "module": "escritura",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Los",
+        "pájaros",
+        "cantan",
+        "por",
+        "la",
+        "mañana"
+      ],
+      "correctOrder": [
+        "Los",
+        "pájaros",
+        "cantan",
+        "por",
+        "la",
+        "mañana"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los pájaros cantan por la mañana. 🐦🌅"
+    },
+    {
+      "id": "escritura_l3_035",
+      "module": "escritura",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Mi",
+        "hermana",
+        "tiene",
+        "ocho",
+        "años"
+      ],
+      "correctOrder": [
+        "Mi",
+        "hermana",
+        "tiene",
+        "ocho",
+        "años"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Mi hermana tiene ocho años. 👧"
     }
   ]
 }

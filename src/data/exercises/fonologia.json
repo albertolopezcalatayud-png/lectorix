@@ -3023,6 +3023,508 @@
         "ne",
         "o"
       ]
+    },
+    {
+      "id": "fonologia_l2_031",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "mariposa",
+      "pieces": [
+        "ma",
+        "ri",
+        "po",
+        "sa"
+      ],
+      "correctOrder": [
+        "ma",
+        "ri",
+        "po",
+        "sa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ma-ri-po-sa = mariposa 🦋"
+    },
+    {
+      "id": "fonologia_l2_032",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "elefante",
+      "pieces": [
+        "e",
+        "le",
+        "fan",
+        "te"
+      ],
+      "correctOrder": [
+        "e",
+        "le",
+        "fan",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "e-le-fan-te = elefante 🐘"
+    },
+    {
+      "id": "fonologia_l2_033",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "pelota",
+      "pieces": [
+        "pe",
+        "lo",
+        "ta"
+      ],
+      "correctOrder": [
+        "pe",
+        "lo",
+        "ta"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "pe-lo-ta = pelota ⚽"
+    },
+    {
+      "id": "fonologia_l2_034",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "zapato",
+      "pieces": [
+        "za",
+        "pa",
+        "to"
+      ],
+      "correctOrder": [
+        "za",
+        "pa",
+        "to"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "za-pa-to = zapato 👟"
+    },
+    {
+      "id": "fonologia_l2_035",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "ventana",
+      "pieces": [
+        "ven",
+        "ta",
+        "na"
+      ],
+      "correctOrder": [
+        "ven",
+        "ta",
+        "na"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ven-ta-na = ventana 🪟"
+    },
+    {
+      "id": "fonologia_l3_031",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "chocolate",
+      "pieces": [
+        "cho",
+        "co",
+        "la",
+        "te"
+      ],
+      "correctOrder": [
+        "cho",
+        "co",
+        "la",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "cho-co-la-te = chocolate 🍫"
+    },
+    {
+      "id": "fonologia_l3_032",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "biblioteca",
+      "pieces": [
+        "bi",
+        "blio",
+        "te",
+        "ca"
+      ],
+      "correctOrder": [
+        "bi",
+        "blio",
+        "te",
+        "ca"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "bi-blio-te-ca = biblioteca 📚"
+    },
+    {
+      "id": "fonologia_l3_033",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "dinosaurio",
+      "pieces": [
+        "di",
+        "no",
+        "sau",
+        "rio"
+      ],
+      "correctOrder": [
+        "di",
+        "no",
+        "sau",
+        "rio"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "di-no-sau-rio = dinosaurio 🦕"
+    },
+    {
+      "id": "fonologia_l3_034",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "helicóptero",
+      "pieces": [
+        "he",
+        "li",
+        "cóp",
+        "te",
+        "ro"
+      ],
+      "correctOrder": [
+        "he",
+        "li",
+        "cóp",
+        "te",
+        "ro"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "he-li-cóp-te-ro = helicóptero 🚁"
+    },
+    {
+      "id": "fonologia_l3_035",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "computadora",
+      "pieces": [
+        "com",
+        "pu",
+        "ta",
+        "do",
+        "ra"
+      ],
+      "correctOrder": [
+        "com",
+        "pu",
+        "ta",
+        "do",
+        "ra"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "com-pu-ta-do-ra = computadora 💻"
+    },
+    {
+      "id": "fonologia_l4_031",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "estetoscopio",
+      "pieces": [
+        "es",
+        "te",
+        "tos",
+        "co",
+        "pio"
+      ],
+      "correctOrder": [
+        "es",
+        "te",
+        "tos",
+        "co",
+        "pio"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "es-te-tos-co-pio = estetoscopio 🩺"
+    },
+    {
+      "id": "fonologia_l4_032",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "extraordinario",
+      "pieces": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ],
+      "correctOrder": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ex-tra-or-di-na-rio = extraordinario ✨"
+    },
+    {
+      "id": "fonologia_l4_033",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "murciélago",
+      "pieces": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ],
+      "correctOrder": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "mur-cié-la-go = murciélago 🦇"
+    },
+    {
+      "id": "fonologia_l4_034",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "hipopótamo",
+      "pieces": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ],
+      "correctOrder": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "hi-po-pó-ta-mo = hipopótamo 🦛"
+    },
+    {
+      "id": "fonologia_l4_035",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "refrigerador",
+      "pieces": [
+        "re",
+        "fri",
+        "ge",
+        "ra",
+        "dor"
+      ],
+      "correctOrder": [
+        "re",
+        "fri",
+        "ge",
+        "ra",
+        "dor"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "re-fri-ge-ra-dor = refrigerador 🧊"
+    },
+    {
+      "id": "fonologia_l5_031",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "otorrinolaringólogo",
+      "pieces": [
+        "o",
+        "to",
+        "rri",
+        "no",
+        "la",
+        "rin",
+        "gó",
+        "lo",
+        "go"
+      ],
+      "correctOrder": [
+        "o",
+        "to",
+        "rri",
+        "no",
+        "la",
+        "rin",
+        "gó",
+        "lo",
+        "go"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "o-to-rri-no-la-rin-gó-lo-go = otorrinolaringólogo 👨‍⚕️"
+    },
+    {
+      "id": "fonologia_l5_032",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "desafortunadamente",
+      "pieces": [
+        "de",
+        "sa",
+        "for",
+        "tu",
+        "na",
+        "da",
+        "men",
+        "te"
+      ],
+      "correctOrder": [
+        "de",
+        "sa",
+        "for",
+        "tu",
+        "na",
+        "da",
+        "men",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "de-sa-for-tu-na-da-men-te = desafortunadamente"
+    },
+    {
+      "id": "fonologia_l5_033",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "electrocardiograma",
+      "pieces": [
+        "e",
+        "lec",
+        "tro",
+        "car",
+        "dio",
+        "gra",
+        "ma"
+      ],
+      "correctOrder": [
+        "e",
+        "lec",
+        "tro",
+        "car",
+        "dio",
+        "gra",
+        "ma"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "e-lec-tro-car-dio-gra-ma = electrocardiograma 💓"
+    },
+    {
+      "id": "fonologia_l5_034",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "inconstitucional",
+      "pieces": [
+        "in",
+        "cons",
+        "ti",
+        "tu",
+        "cio",
+        "nal"
+      ],
+      "correctOrder": [
+        "in",
+        "cons",
+        "ti",
+        "tu",
+        "cio",
+        "nal"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "in-cons-ti-tu-cio-nal = inconstitucional ⚖️"
+    },
+    {
+      "id": "fonologia_l5_035",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "paralelepípedo",
+      "pieces": [
+        "pa",
+        "ra",
+        "le",
+        "le",
+        "pí",
+        "pe",
+        "do"
+      ],
+      "correctOrder": [
+        "pa",
+        "ra",
+        "le",
+        "le",
+        "pí",
+        "pe",
+        "do"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "pa-ra-le-le-pí-pe-do = paralelepípedo 📐"
     }
   ]
 }
