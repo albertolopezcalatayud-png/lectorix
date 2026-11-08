@@ -1,0 +1,2254 @@
+{
+  "exercises": [
+    {
+      "id": "retos_rapidos_l1_001",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es sinónimo de 'bonito'?",
+      "options": [
+        "feo",
+        "hermoso",
+        "grande",
+        "rápido"
+      ],
+      "correct": 1,
+      "explanation": "'hermoso' y 'bonito' significan lo mismo"
+    },
+    {
+      "id": "retos_rapidos_l1_002",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el antónimo de 'alto'?",
+      "options": [
+        "grande",
+        "bajo",
+        "gordo",
+        "largo"
+      ],
+      "correct": 1,
+      "explanation": "'bajo' es lo contrario de 'alto'"
+    },
+    {
+      "id": "retos_rapidos_l1_003",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra NO pertenece al grupo?",
+      "options": [
+        "manzana",
+        "pera",
+        "zanahoria",
+        "uva"
+      ],
+      "correct": 2,
+      "explanation": "La zanahoria es una verdura, las demás son frutas"
+    },
+    {
+      "id": "retos_rapidos_l1_004",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Completa la serie: lunes, martes, __",
+      "options": [
+        "jueves",
+        "miércoles",
+        "viernes",
+        "sábado"
+      ],
+      "correct": 1,
+      "explanation": "Miércoles va después de martes"
+    },
+    {
+      "id": "retos_rapidos_l1_005",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas letras tiene 'elefante'?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "e-l-e-f-a-n-t-e = 8 letras"
+    },
+    {
+      "id": "retos_rapidos_l1_006",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un verbo?",
+      "options": [
+        "mesa",
+        "rojo",
+        "correr",
+        "grande"
+      ],
+      "correct": 2,
+      "explanation": "'correr' es una acción (verbo)"
+    },
+    {
+      "id": "retos_rapidos_l1_007",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de 'pez'?",
+      "options": [
+        "pezes",
+        "peces",
+        "pezs",
+        "pecez"
+      ],
+      "correct": 1,
+      "explanation": "pez → peces"
+    },
+    {
+      "id": "retos_rapidos_l1_008",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un adjetivo?",
+      "options": [
+        "casa",
+        "correr",
+        "azul",
+        "arriba"
+      ],
+      "correct": 2,
+      "explanation": "'azul' describe una cualidad (adjetivo)"
+    },
+    {
+      "id": "retos_rapidos_l1_009",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el femenino de 'actor'?",
+      "options": [
+        "actora",
+        "actriz",
+        "actora",
+        "actress"
+      ],
+      "correct": 1,
+      "explanation": "actor → actriz"
+    },
+    {
+      "id": "retos_rapidos_l1_010",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué significa 'veloz'?",
+      "options": [
+        "Lento",
+        "Rápido",
+        "Alto",
+        "Fuerte"
+      ],
+      "correct": 1,
+      "explanation": "'veloz' significa rápido"
+    },
+    {
+      "id": "retos_rapidos_l1_011",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'rápidamente'?",
+      "options": [
+        "Adjetivo",
+        "Sustantivo",
+        "Adverbio",
+        "Verbo"
+      ],
+      "correct": 2,
+      "explanation": "Termina en '-mente': es un adverbio"
+    },
+    {
+      "id": "retos_rapidos_l1_012",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es sinónimo de 'contento'?",
+      "options": [
+        "triste",
+        "alegre",
+        "enfadado",
+        "cansado"
+      ],
+      "correct": 1,
+      "explanation": "'contento' y 'alegre' son sinónimos"
+    },
+    {
+      "id": "retos_rapidos_l1_013",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está en diminutivo?",
+      "options": [
+        "casa",
+        "casita",
+        "casona",
+        "caserón"
+      ],
+      "correct": 1,
+      "explanation": "'casita' es diminutivo de casa"
+    },
+    {
+      "id": "retos_rapidos_l1_014",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es antónimo de 'fácil'?",
+      "options": [
+        "sencillo",
+        "simple",
+        "difícil",
+        "cómodo"
+      ],
+      "correct": 2,
+      "explanation": "'difícil' es contrario de 'fácil'"
+    },
+    {
+      "id": "retos_rapidos_l1_015",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas vocales tiene 'murciélago'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "u-i-é-a-o = 5 vocales"
+    },
+    {
+      "id": "retos_rapidos_l1_016",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un sustantivo?",
+      "options": [
+        "correr",
+        "azul",
+        "perro",
+        "rápido"
+      ],
+      "correct": 2,
+      "explanation": "'perro' nombra un ser (sustantivo)"
+    },
+    {
+      "id": "retos_rapidos_l1_017",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Los pájaros __ en el cielo'",
+      "options": [
+        "nada",
+        "vuelan",
+        "corren",
+        "saltan"
+      ],
+      "correct": 1,
+      "explanation": "Los pájaros vuelan"
+    },
+    {
+      "id": "retos_rapidos_l1_018",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es aumentativo de 'casa'?",
+      "options": [
+        "casita",
+        "casona",
+        "casilla",
+        "casucha"
+      ],
+      "correct": 1,
+      "explanation": "'casona' es aumentativo de casa"
+    },
+    {
+      "id": "retos_rapidos_l1_019",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene prefijo 're-'?",
+      "options": [
+        "remar",
+        "repetir",
+        "remo",
+        "resta"
+      ],
+      "correct": 1,
+      "explanation": "'repetir' tiene prefijo re- (volver a hacer)"
+    },
+    {
+      "id": "retos_rapidos_l1_020",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el diminutivo de 'perro'?",
+      "options": [
+        "perrazo",
+        "perrito",
+        "perruno",
+        "perrera"
+      ],
+      "correct": 1,
+      "explanation": "'perrito' es diminutivo de perro"
+    },
+    {
+      "id": "retos_rapidos_l1_021",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración es interrogativa?",
+      "options": [
+        "Hace calor.",
+        "¡Qué calor!",
+        "¿Hace calor?",
+        "Hace mucho calor"
+      ],
+      "correct": 2,
+      "explanation": "Los signos ¿? indican interrogación"
+    },
+    {
+      "id": "retos_rapidos_l1_022",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es sinónimo de 'caminar'?",
+      "options": [
+        "correr",
+        "andar",
+        "saltar",
+        "nadar"
+      ],
+      "correct": 1,
+      "explanation": "'andar' y 'caminar' son sinónimos"
+    },
+    {
+      "id": "retos_rapidos_l1_023",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué letra es siempre mayúscula al inicio de nombre propio?",
+      "options": [
+        "Cualquiera",
+        "La primera",
+        "La última",
+        "Ninguna"
+      ],
+      "correct": 1,
+      "explanation": "Los nombres propios empiezan con mayúscula"
+    },
+    {
+      "id": "retos_rapidos_l1_024",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un pronombre?",
+      "options": [
+        "casa",
+        "bonito",
+        "ella",
+        "rápido"
+      ],
+      "correct": 2,
+      "explanation": "'ella' sustituye un nombre (pronombre)"
+    },
+    {
+      "id": "retos_rapidos_l1_025",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas consonantes tiene 'estrella'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "s-t-r-ll = 5 consonantes"
+    },
+    {
+      "id": "retos_rapidos_l1_026",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de oración es '¡Qué bonito!'?",
+      "options": [
+        "Interrogativa",
+        "Exclamativa",
+        "Enunciativa",
+        "Imperativa"
+      ],
+      "correct": 1,
+      "explanation": "Los signos ¡! indican exclamación"
+    },
+    {
+      "id": "retos_rapidos_l1_027",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es antónimo de 'oscuro'?",
+      "options": [
+        "negro",
+        "claro",
+        "gris",
+        "opaco"
+      ],
+      "correct": 1,
+      "explanation": "'claro' es contrario de 'oscuro'"
+    },
+    {
+      "id": "retos_rapidos_l1_028",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra lleva el sufijo '-ción'?",
+      "options": [
+        "cantar",
+        "canción",
+        "cantante",
+        "cantado"
+      ],
+      "correct": 1,
+      "explanation": "'canción' tiene sufijo -ción"
+    },
+    {
+      "id": "retos_rapidos_l1_029",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de 'lápiz'?",
+      "options": [
+        "lápizes",
+        "lápicez",
+        "lápices",
+        "lápizs"
+      ],
+      "correct": 2,
+      "explanation": "lápiz → lápices"
+    },
+    {
+      "id": "retos_rapidos_l1_030",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración es imperativa?",
+      "options": [
+        "Llueve mucho.",
+        "¿Llueve?",
+        "¡Cierra la puerta!",
+        "Es bonito."
+      ],
+      "correct": 2,
+      "explanation": "Da una orden: imperativa"
+    },
+    {
+      "id": "retos_rapidos_l2_001",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es sinónimo de 'bonito'?",
+      "options": [
+        "feo",
+        "hermoso",
+        "grande",
+        "rápido"
+      ],
+      "correct": 1,
+      "explanation": "'hermoso' y 'bonito' significan lo mismo"
+    },
+    {
+      "id": "retos_rapidos_l2_002",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el antónimo de 'alto'?",
+      "options": [
+        "grande",
+        "bajo",
+        "gordo",
+        "largo"
+      ],
+      "correct": 1,
+      "explanation": "'bajo' es lo contrario de 'alto'"
+    },
+    {
+      "id": "retos_rapidos_l2_003",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra NO pertenece al grupo?",
+      "options": [
+        "manzana",
+        "pera",
+        "zanahoria",
+        "uva"
+      ],
+      "correct": 2,
+      "explanation": "La zanahoria es una verdura, las demás son frutas"
+    },
+    {
+      "id": "retos_rapidos_l2_004",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Completa la serie: lunes, martes, __",
+      "options": [
+        "jueves",
+        "miércoles",
+        "viernes",
+        "sábado"
+      ],
+      "correct": 1,
+      "explanation": "Miércoles va después de martes"
+    },
+    {
+      "id": "retos_rapidos_l2_005",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas letras tiene 'elefante'?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "e-l-e-f-a-n-t-e = 8 letras"
+    },
+    {
+      "id": "retos_rapidos_l2_006",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un verbo?",
+      "options": [
+        "mesa",
+        "rojo",
+        "correr",
+        "grande"
+      ],
+      "correct": 2,
+      "explanation": "'correr' es una acción (verbo)"
+    },
+    {
+      "id": "retos_rapidos_l2_007",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de 'pez'?",
+      "options": [
+        "pezes",
+        "peces",
+        "pezs",
+        "pecez"
+      ],
+      "correct": 1,
+      "explanation": "pez → peces"
+    },
+    {
+      "id": "retos_rapidos_l2_008",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un adjetivo?",
+      "options": [
+        "casa",
+        "correr",
+        "azul",
+        "arriba"
+      ],
+      "correct": 2,
+      "explanation": "'azul' describe una cualidad (adjetivo)"
+    },
+    {
+      "id": "retos_rapidos_l2_009",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el femenino de 'actor'?",
+      "options": [
+        "actora",
+        "actriz",
+        "actora",
+        "actress"
+      ],
+      "correct": 1,
+      "explanation": "actor → actriz"
+    },
+    {
+      "id": "retos_rapidos_l2_010",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué significa 'veloz'?",
+      "options": [
+        "Lento",
+        "Rápido",
+        "Alto",
+        "Fuerte"
+      ],
+      "correct": 1,
+      "explanation": "'veloz' significa rápido"
+    },
+    {
+      "id": "retos_rapidos_l2_011",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'rápidamente'?",
+      "options": [
+        "Adjetivo",
+        "Sustantivo",
+        "Adverbio",
+        "Verbo"
+      ],
+      "correct": 2,
+      "explanation": "Termina en '-mente': es un adverbio"
+    },
+    {
+      "id": "retos_rapidos_l2_012",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es sinónimo de 'contento'?",
+      "options": [
+        "triste",
+        "alegre",
+        "enfadado",
+        "cansado"
+      ],
+      "correct": 1,
+      "explanation": "'contento' y 'alegre' son sinónimos"
+    },
+    {
+      "id": "retos_rapidos_l2_013",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está en diminutivo?",
+      "options": [
+        "casa",
+        "casita",
+        "casona",
+        "caserón"
+      ],
+      "correct": 1,
+      "explanation": "'casita' es diminutivo de casa"
+    },
+    {
+      "id": "retos_rapidos_l2_014",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es antónimo de 'fácil'?",
+      "options": [
+        "sencillo",
+        "simple",
+        "difícil",
+        "cómodo"
+      ],
+      "correct": 2,
+      "explanation": "'difícil' es contrario de 'fácil'"
+    },
+    {
+      "id": "retos_rapidos_l2_015",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas vocales tiene 'murciélago'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "u-i-é-a-o = 5 vocales"
+    },
+    {
+      "id": "retos_rapidos_l2_016",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un sustantivo?",
+      "options": [
+        "correr",
+        "azul",
+        "perro",
+        "rápido"
+      ],
+      "correct": 2,
+      "explanation": "'perro' nombra un ser (sustantivo)"
+    },
+    {
+      "id": "retos_rapidos_l2_017",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Los pájaros __ en el cielo'",
+      "options": [
+        "nada",
+        "vuelan",
+        "corren",
+        "saltan"
+      ],
+      "correct": 1,
+      "explanation": "Los pájaros vuelan"
+    },
+    {
+      "id": "retos_rapidos_l2_018",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es aumentativo de 'casa'?",
+      "options": [
+        "casita",
+        "casona",
+        "casilla",
+        "casucha"
+      ],
+      "correct": 1,
+      "explanation": "'casona' es aumentativo de casa"
+    },
+    {
+      "id": "retos_rapidos_l2_019",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene prefijo 're-'?",
+      "options": [
+        "remar",
+        "repetir",
+        "remo",
+        "resta"
+      ],
+      "correct": 1,
+      "explanation": "'repetir' tiene prefijo re- (volver a hacer)"
+    },
+    {
+      "id": "retos_rapidos_l2_020",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el diminutivo de 'perro'?",
+      "options": [
+        "perrazo",
+        "perrito",
+        "perruno",
+        "perrera"
+      ],
+      "correct": 1,
+      "explanation": "'perrito' es diminutivo de perro"
+    },
+    {
+      "id": "retos_rapidos_l2_021",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración es interrogativa?",
+      "options": [
+        "Hace calor.",
+        "¡Qué calor!",
+        "¿Hace calor?",
+        "Hace mucho calor"
+      ],
+      "correct": 2,
+      "explanation": "Los signos ¿? indican interrogación"
+    },
+    {
+      "id": "retos_rapidos_l2_022",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es sinónimo de 'caminar'?",
+      "options": [
+        "correr",
+        "andar",
+        "saltar",
+        "nadar"
+      ],
+      "correct": 1,
+      "explanation": "'andar' y 'caminar' son sinónimos"
+    },
+    {
+      "id": "retos_rapidos_l2_023",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué letra es siempre mayúscula al inicio de nombre propio?",
+      "options": [
+        "Cualquiera",
+        "La primera",
+        "La última",
+        "Ninguna"
+      ],
+      "correct": 1,
+      "explanation": "Los nombres propios empiezan con mayúscula"
+    },
+    {
+      "id": "retos_rapidos_l2_024",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un pronombre?",
+      "options": [
+        "casa",
+        "bonito",
+        "ella",
+        "rápido"
+      ],
+      "correct": 2,
+      "explanation": "'ella' sustituye un nombre (pronombre)"
+    },
+    {
+      "id": "retos_rapidos_l2_025",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas consonantes tiene 'estrella'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "s-t-r-ll = 5 consonantes"
+    },
+    {
+      "id": "retos_rapidos_l2_026",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de oración es '¡Qué bonito!'?",
+      "options": [
+        "Interrogativa",
+        "Exclamativa",
+        "Enunciativa",
+        "Imperativa"
+      ],
+      "correct": 1,
+      "explanation": "Los signos ¡! indican exclamación"
+    },
+    {
+      "id": "retos_rapidos_l2_027",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es antónimo de 'oscuro'?",
+      "options": [
+        "negro",
+        "claro",
+        "gris",
+        "opaco"
+      ],
+      "correct": 1,
+      "explanation": "'claro' es contrario de 'oscuro'"
+    },
+    {
+      "id": "retos_rapidos_l2_028",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra lleva el sufijo '-ción'?",
+      "options": [
+        "cantar",
+        "canción",
+        "cantante",
+        "cantado"
+      ],
+      "correct": 1,
+      "explanation": "'canción' tiene sufijo -ción"
+    },
+    {
+      "id": "retos_rapidos_l2_029",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de 'lápiz'?",
+      "options": [
+        "lápizes",
+        "lápicez",
+        "lápices",
+        "lápizs"
+      ],
+      "correct": 2,
+      "explanation": "lápiz → lápices"
+    },
+    {
+      "id": "retos_rapidos_l2_030",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración es imperativa?",
+      "options": [
+        "Llueve mucho.",
+        "¿Llueve?",
+        "¡Cierra la puerta!",
+        "Es bonito."
+      ],
+      "correct": 2,
+      "explanation": "Da una orden: imperativa"
+    },
+    {
+      "id": "retos_rapidos_l3_001",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es sinónimo de 'bonito'?",
+      "options": [
+        "feo",
+        "hermoso",
+        "grande",
+        "rápido"
+      ],
+      "correct": 1,
+      "explanation": "'hermoso' y 'bonito' significan lo mismo"
+    },
+    {
+      "id": "retos_rapidos_l3_002",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el antónimo de 'alto'?",
+      "options": [
+        "grande",
+        "bajo",
+        "gordo",
+        "largo"
+      ],
+      "correct": 1,
+      "explanation": "'bajo' es lo contrario de 'alto'"
+    },
+    {
+      "id": "retos_rapidos_l3_003",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra NO pertenece al grupo?",
+      "options": [
+        "manzana",
+        "pera",
+        "zanahoria",
+        "uva"
+      ],
+      "correct": 2,
+      "explanation": "La zanahoria es una verdura, las demás son frutas"
+    },
+    {
+      "id": "retos_rapidos_l3_004",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Completa la serie: lunes, martes, __",
+      "options": [
+        "jueves",
+        "miércoles",
+        "viernes",
+        "sábado"
+      ],
+      "correct": 1,
+      "explanation": "Miércoles va después de martes"
+    },
+    {
+      "id": "retos_rapidos_l3_005",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas letras tiene 'elefante'?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "e-l-e-f-a-n-t-e = 8 letras"
+    },
+    {
+      "id": "retos_rapidos_l3_006",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un verbo?",
+      "options": [
+        "mesa",
+        "rojo",
+        "correr",
+        "grande"
+      ],
+      "correct": 2,
+      "explanation": "'correr' es una acción (verbo)"
+    },
+    {
+      "id": "retos_rapidos_l3_007",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de 'pez'?",
+      "options": [
+        "pezes",
+        "peces",
+        "pezs",
+        "pecez"
+      ],
+      "correct": 1,
+      "explanation": "pez → peces"
+    },
+    {
+      "id": "retos_rapidos_l3_008",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un adjetivo?",
+      "options": [
+        "casa",
+        "correr",
+        "azul",
+        "arriba"
+      ],
+      "correct": 2,
+      "explanation": "'azul' describe una cualidad (adjetivo)"
+    },
+    {
+      "id": "retos_rapidos_l3_009",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el femenino de 'actor'?",
+      "options": [
+        "actora",
+        "actriz",
+        "actora",
+        "actress"
+      ],
+      "correct": 1,
+      "explanation": "actor → actriz"
+    },
+    {
+      "id": "retos_rapidos_l3_010",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué significa 'veloz'?",
+      "options": [
+        "Lento",
+        "Rápido",
+        "Alto",
+        "Fuerte"
+      ],
+      "correct": 1,
+      "explanation": "'veloz' significa rápido"
+    },
+    {
+      "id": "retos_rapidos_l3_011",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'rápidamente'?",
+      "options": [
+        "Adjetivo",
+        "Sustantivo",
+        "Adverbio",
+        "Verbo"
+      ],
+      "correct": 2,
+      "explanation": "Termina en '-mente': es un adverbio"
+    },
+    {
+      "id": "retos_rapidos_l3_012",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es sinónimo de 'contento'?",
+      "options": [
+        "triste",
+        "alegre",
+        "enfadado",
+        "cansado"
+      ],
+      "correct": 1,
+      "explanation": "'contento' y 'alegre' son sinónimos"
+    },
+    {
+      "id": "retos_rapidos_l3_013",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está en diminutivo?",
+      "options": [
+        "casa",
+        "casita",
+        "casona",
+        "caserón"
+      ],
+      "correct": 1,
+      "explanation": "'casita' es diminutivo de casa"
+    },
+    {
+      "id": "retos_rapidos_l3_014",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es antónimo de 'fácil'?",
+      "options": [
+        "sencillo",
+        "simple",
+        "difícil",
+        "cómodo"
+      ],
+      "correct": 2,
+      "explanation": "'difícil' es contrario de 'fácil'"
+    },
+    {
+      "id": "retos_rapidos_l3_015",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas vocales tiene 'murciélago'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "u-i-é-a-o = 5 vocales"
+    },
+    {
+      "id": "retos_rapidos_l3_016",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un sustantivo?",
+      "options": [
+        "correr",
+        "azul",
+        "perro",
+        "rápido"
+      ],
+      "correct": 2,
+      "explanation": "'perro' nombra un ser (sustantivo)"
+    },
+    {
+      "id": "retos_rapidos_l3_017",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Los pájaros __ en el cielo'",
+      "options": [
+        "nada",
+        "vuelan",
+        "corren",
+        "saltan"
+      ],
+      "correct": 1,
+      "explanation": "Los pájaros vuelan"
+    },
+    {
+      "id": "retos_rapidos_l3_018",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es aumentativo de 'casa'?",
+      "options": [
+        "casita",
+        "casona",
+        "casilla",
+        "casucha"
+      ],
+      "correct": 1,
+      "explanation": "'casona' es aumentativo de casa"
+    },
+    {
+      "id": "retos_rapidos_l3_019",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene prefijo 're-'?",
+      "options": [
+        "remar",
+        "repetir",
+        "remo",
+        "resta"
+      ],
+      "correct": 1,
+      "explanation": "'repetir' tiene prefijo re- (volver a hacer)"
+    },
+    {
+      "id": "retos_rapidos_l3_020",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el diminutivo de 'perro'?",
+      "options": [
+        "perrazo",
+        "perrito",
+        "perruno",
+        "perrera"
+      ],
+      "correct": 1,
+      "explanation": "'perrito' es diminutivo de perro"
+    },
+    {
+      "id": "retos_rapidos_l3_021",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración es interrogativa?",
+      "options": [
+        "Hace calor.",
+        "¡Qué calor!",
+        "¿Hace calor?",
+        "Hace mucho calor"
+      ],
+      "correct": 2,
+      "explanation": "Los signos ¿? indican interrogación"
+    },
+    {
+      "id": "retos_rapidos_l3_022",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es sinónimo de 'caminar'?",
+      "options": [
+        "correr",
+        "andar",
+        "saltar",
+        "nadar"
+      ],
+      "correct": 1,
+      "explanation": "'andar' y 'caminar' son sinónimos"
+    },
+    {
+      "id": "retos_rapidos_l3_023",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué letra es siempre mayúscula al inicio de nombre propio?",
+      "options": [
+        "Cualquiera",
+        "La primera",
+        "La última",
+        "Ninguna"
+      ],
+      "correct": 1,
+      "explanation": "Los nombres propios empiezan con mayúscula"
+    },
+    {
+      "id": "retos_rapidos_l3_024",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un pronombre?",
+      "options": [
+        "casa",
+        "bonito",
+        "ella",
+        "rápido"
+      ],
+      "correct": 2,
+      "explanation": "'ella' sustituye un nombre (pronombre)"
+    },
+    {
+      "id": "retos_rapidos_l3_025",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas consonantes tiene 'estrella'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "s-t-r-ll = 5 consonantes"
+    },
+    {
+      "id": "retos_rapidos_l3_026",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de oración es '¡Qué bonito!'?",
+      "options": [
+        "Interrogativa",
+        "Exclamativa",
+        "Enunciativa",
+        "Imperativa"
+      ],
+      "correct": 1,
+      "explanation": "Los signos ¡! indican exclamación"
+    },
+    {
+      "id": "retos_rapidos_l3_027",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es antónimo de 'oscuro'?",
+      "options": [
+        "negro",
+        "claro",
+        "gris",
+        "opaco"
+      ],
+      "correct": 1,
+      "explanation": "'claro' es contrario de 'oscuro'"
+    },
+    {
+      "id": "retos_rapidos_l3_028",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra lleva el sufijo '-ción'?",
+      "options": [
+        "cantar",
+        "canción",
+        "cantante",
+        "cantado"
+      ],
+      "correct": 1,
+      "explanation": "'canción' tiene sufijo -ción"
+    },
+    {
+      "id": "retos_rapidos_l3_029",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de 'lápiz'?",
+      "options": [
+        "lápizes",
+        "lápicez",
+        "lápices",
+        "lápizs"
+      ],
+      "correct": 2,
+      "explanation": "lápiz → lápices"
+    },
+    {
+      "id": "retos_rapidos_l3_030",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración es imperativa?",
+      "options": [
+        "Llueve mucho.",
+        "¿Llueve?",
+        "¡Cierra la puerta!",
+        "Es bonito."
+      ],
+      "correct": 2,
+      "explanation": "Da una orden: imperativa"
+    },
+    {
+      "id": "retos_rapidos_l4_001",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es sinónimo de 'bonito'?",
+      "options": [
+        "feo",
+        "hermoso",
+        "grande",
+        "rápido"
+      ],
+      "correct": 1,
+      "explanation": "'hermoso' y 'bonito' significan lo mismo"
+    },
+    {
+      "id": "retos_rapidos_l4_002",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el antónimo de 'alto'?",
+      "options": [
+        "grande",
+        "bajo",
+        "gordo",
+        "largo"
+      ],
+      "correct": 1,
+      "explanation": "'bajo' es lo contrario de 'alto'"
+    },
+    {
+      "id": "retos_rapidos_l4_003",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra NO pertenece al grupo?",
+      "options": [
+        "manzana",
+        "pera",
+        "zanahoria",
+        "uva"
+      ],
+      "correct": 2,
+      "explanation": "La zanahoria es una verdura, las demás son frutas"
+    },
+    {
+      "id": "retos_rapidos_l4_004",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Completa la serie: lunes, martes, __",
+      "options": [
+        "jueves",
+        "miércoles",
+        "viernes",
+        "sábado"
+      ],
+      "correct": 1,
+      "explanation": "Miércoles va después de martes"
+    },
+    {
+      "id": "retos_rapidos_l4_005",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas letras tiene 'elefante'?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "e-l-e-f-a-n-t-e = 8 letras"
+    },
+    {
+      "id": "retos_rapidos_l4_006",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un verbo?",
+      "options": [
+        "mesa",
+        "rojo",
+        "correr",
+        "grande"
+      ],
+      "correct": 2,
+      "explanation": "'correr' es una acción (verbo)"
+    },
+    {
+      "id": "retos_rapidos_l4_007",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de 'pez'?",
+      "options": [
+        "pezes",
+        "peces",
+        "pezs",
+        "pecez"
+      ],
+      "correct": 1,
+      "explanation": "pez → peces"
+    },
+    {
+      "id": "retos_rapidos_l4_008",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un adjetivo?",
+      "options": [
+        "casa",
+        "correr",
+        "azul",
+        "arriba"
+      ],
+      "correct": 2,
+      "explanation": "'azul' describe una cualidad (adjetivo)"
+    },
+    {
+      "id": "retos_rapidos_l4_009",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el femenino de 'actor'?",
+      "options": [
+        "actora",
+        "actriz",
+        "actora",
+        "actress"
+      ],
+      "correct": 1,
+      "explanation": "actor → actriz"
+    },
+    {
+      "id": "retos_rapidos_l4_010",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué significa 'veloz'?",
+      "options": [
+        "Lento",
+        "Rápido",
+        "Alto",
+        "Fuerte"
+      ],
+      "correct": 1,
+      "explanation": "'veloz' significa rápido"
+    },
+    {
+      "id": "retos_rapidos_l4_011",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'rápidamente'?",
+      "options": [
+        "Adjetivo",
+        "Sustantivo",
+        "Adverbio",
+        "Verbo"
+      ],
+      "correct": 2,
+      "explanation": "Termina en '-mente': es un adverbio"
+    },
+    {
+      "id": "retos_rapidos_l4_012",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es sinónimo de 'contento'?",
+      "options": [
+        "triste",
+        "alegre",
+        "enfadado",
+        "cansado"
+      ],
+      "correct": 1,
+      "explanation": "'contento' y 'alegre' son sinónimos"
+    },
+    {
+      "id": "retos_rapidos_l4_013",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está en diminutivo?",
+      "options": [
+        "casa",
+        "casita",
+        "casona",
+        "caserón"
+      ],
+      "correct": 1,
+      "explanation": "'casita' es diminutivo de casa"
+    },
+    {
+      "id": "retos_rapidos_l4_014",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es antónimo de 'fácil'?",
+      "options": [
+        "sencillo",
+        "simple",
+        "difícil",
+        "cómodo"
+      ],
+      "correct": 2,
+      "explanation": "'difícil' es contrario de 'fácil'"
+    },
+    {
+      "id": "retos_rapidos_l4_015",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas vocales tiene 'murciélago'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "u-i-é-a-o = 5 vocales"
+    },
+    {
+      "id": "retos_rapidos_l4_016",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un sustantivo?",
+      "options": [
+        "correr",
+        "azul",
+        "perro",
+        "rápido"
+      ],
+      "correct": 2,
+      "explanation": "'perro' nombra un ser (sustantivo)"
+    },
+    {
+      "id": "retos_rapidos_l4_017",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Los pájaros __ en el cielo'",
+      "options": [
+        "nada",
+        "vuelan",
+        "corren",
+        "saltan"
+      ],
+      "correct": 1,
+      "explanation": "Los pájaros vuelan"
+    },
+    {
+      "id": "retos_rapidos_l4_018",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es aumentativo de 'casa'?",
+      "options": [
+        "casita",
+        "casona",
+        "casilla",
+        "casucha"
+      ],
+      "correct": 1,
+      "explanation": "'casona' es aumentativo de casa"
+    },
+    {
+      "id": "retos_rapidos_l4_019",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene prefijo 're-'?",
+      "options": [
+        "remar",
+        "repetir",
+        "remo",
+        "resta"
+      ],
+      "correct": 1,
+      "explanation": "'repetir' tiene prefijo re- (volver a hacer)"
+    },
+    {
+      "id": "retos_rapidos_l4_020",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el diminutivo de 'perro'?",
+      "options": [
+        "perrazo",
+        "perrito",
+        "perruno",
+        "perrera"
+      ],
+      "correct": 1,
+      "explanation": "'perrito' es diminutivo de perro"
+    },
+    {
+      "id": "retos_rapidos_l4_021",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración es interrogativa?",
+      "options": [
+        "Hace calor.",
+        "¡Qué calor!",
+        "¿Hace calor?",
+        "Hace mucho calor"
+      ],
+      "correct": 2,
+      "explanation": "Los signos ¿? indican interrogación"
+    },
+    {
+      "id": "retos_rapidos_l4_022",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es sinónimo de 'caminar'?",
+      "options": [
+        "correr",
+        "andar",
+        "saltar",
+        "nadar"
+      ],
+      "correct": 1,
+      "explanation": "'andar' y 'caminar' son sinónimos"
+    },
+    {
+      "id": "retos_rapidos_l4_023",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué letra es siempre mayúscula al inicio de nombre propio?",
+      "options": [
+        "Cualquiera",
+        "La primera",
+        "La última",
+        "Ninguna"
+      ],
+      "correct": 1,
+      "explanation": "Los nombres propios empiezan con mayúscula"
+    },
+    {
+      "id": "retos_rapidos_l4_024",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un pronombre?",
+      "options": [
+        "casa",
+        "bonito",
+        "ella",
+        "rápido"
+      ],
+      "correct": 2,
+      "explanation": "'ella' sustituye un nombre (pronombre)"
+    },
+    {
+      "id": "retos_rapidos_l4_025",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas consonantes tiene 'estrella'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "s-t-r-ll = 5 consonantes"
+    },
+    {
+      "id": "retos_rapidos_l4_026",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de oración es '¡Qué bonito!'?",
+      "options": [
+        "Interrogativa",
+        "Exclamativa",
+        "Enunciativa",
+        "Imperativa"
+      ],
+      "correct": 1,
+      "explanation": "Los signos ¡! indican exclamación"
+    },
+    {
+      "id": "retos_rapidos_l4_027",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es antónimo de 'oscuro'?",
+      "options": [
+        "negro",
+        "claro",
+        "gris",
+        "opaco"
+      ],
+      "correct": 1,
+      "explanation": "'claro' es contrario de 'oscuro'"
+    },
+    {
+      "id": "retos_rapidos_l4_028",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra lleva el sufijo '-ción'?",
+      "options": [
+        "cantar",
+        "canción",
+        "cantante",
+        "cantado"
+      ],
+      "correct": 1,
+      "explanation": "'canción' tiene sufijo -ción"
+    },
+    {
+      "id": "retos_rapidos_l4_029",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de 'lápiz'?",
+      "options": [
+        "lápizes",
+        "lápicez",
+        "lápices",
+        "lápizs"
+      ],
+      "correct": 2,
+      "explanation": "lápiz → lápices"
+    },
+    {
+      "id": "retos_rapidos_l4_030",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración es imperativa?",
+      "options": [
+        "Llueve mucho.",
+        "¿Llueve?",
+        "¡Cierra la puerta!",
+        "Es bonito."
+      ],
+      "correct": 2,
+      "explanation": "Da una orden: imperativa"
+    },
+    {
+      "id": "retos_rapidos_l5_001",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es sinónimo de 'bonito'?",
+      "options": [
+        "feo",
+        "hermoso",
+        "grande",
+        "rápido"
+      ],
+      "correct": 1,
+      "explanation": "'hermoso' y 'bonito' significan lo mismo"
+    },
+    {
+      "id": "retos_rapidos_l5_002",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el antónimo de 'alto'?",
+      "options": [
+        "grande",
+        "bajo",
+        "gordo",
+        "largo"
+      ],
+      "correct": 1,
+      "explanation": "'bajo' es lo contrario de 'alto'"
+    },
+    {
+      "id": "retos_rapidos_l5_003",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra NO pertenece al grupo?",
+      "options": [
+        "manzana",
+        "pera",
+        "zanahoria",
+        "uva"
+      ],
+      "correct": 2,
+      "explanation": "La zanahoria es una verdura, las demás son frutas"
+    },
+    {
+      "id": "retos_rapidos_l5_004",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Completa la serie: lunes, martes, __",
+      "options": [
+        "jueves",
+        "miércoles",
+        "viernes",
+        "sábado"
+      ],
+      "correct": 1,
+      "explanation": "Miércoles va después de martes"
+    },
+    {
+      "id": "retos_rapidos_l5_005",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas letras tiene 'elefante'?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "e-l-e-f-a-n-t-e = 8 letras"
+    },
+    {
+      "id": "retos_rapidos_l5_006",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un verbo?",
+      "options": [
+        "mesa",
+        "rojo",
+        "correr",
+        "grande"
+      ],
+      "correct": 2,
+      "explanation": "'correr' es una acción (verbo)"
+    },
+    {
+      "id": "retos_rapidos_l5_007",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de 'pez'?",
+      "options": [
+        "pezes",
+        "peces",
+        "pezs",
+        "pecez"
+      ],
+      "correct": 1,
+      "explanation": "pez → peces"
+    },
+    {
+      "id": "retos_rapidos_l5_008",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un adjetivo?",
+      "options": [
+        "casa",
+        "correr",
+        "azul",
+        "arriba"
+      ],
+      "correct": 2,
+      "explanation": "'azul' describe una cualidad (adjetivo)"
+    },
+    {
+      "id": "retos_rapidos_l5_009",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el femenino de 'actor'?",
+      "options": [
+        "actora",
+        "actriz",
+        "actora",
+        "actress"
+      ],
+      "correct": 1,
+      "explanation": "actor → actriz"
+    },
+    {
+      "id": "retos_rapidos_l5_010",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué significa 'veloz'?",
+      "options": [
+        "Lento",
+        "Rápido",
+        "Alto",
+        "Fuerte"
+      ],
+      "correct": 1,
+      "explanation": "'veloz' significa rápido"
+    },
+    {
+      "id": "retos_rapidos_l5_011",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'rápidamente'?",
+      "options": [
+        "Adjetivo",
+        "Sustantivo",
+        "Adverbio",
+        "Verbo"
+      ],
+      "correct": 2,
+      "explanation": "Termina en '-mente': es un adverbio"
+    },
+    {
+      "id": "retos_rapidos_l5_012",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es sinónimo de 'contento'?",
+      "options": [
+        "triste",
+        "alegre",
+        "enfadado",
+        "cansado"
+      ],
+      "correct": 1,
+      "explanation": "'contento' y 'alegre' son sinónimos"
+    },
+    {
+      "id": "retos_rapidos_l5_013",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está en diminutivo?",
+      "options": [
+        "casa",
+        "casita",
+        "casona",
+        "caserón"
+      ],
+      "correct": 1,
+      "explanation": "'casita' es diminutivo de casa"
+    },
+    {
+      "id": "retos_rapidos_l5_014",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es antónimo de 'fácil'?",
+      "options": [
+        "sencillo",
+        "simple",
+        "difícil",
+        "cómodo"
+      ],
+      "correct": 2,
+      "explanation": "'difícil' es contrario de 'fácil'"
+    },
+    {
+      "id": "retos_rapidos_l5_015",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas vocales tiene 'murciélago'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "u-i-é-a-o = 5 vocales"
+    },
+    {
+      "id": "retos_rapidos_l5_016",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un sustantivo?",
+      "options": [
+        "correr",
+        "azul",
+        "perro",
+        "rápido"
+      ],
+      "correct": 2,
+      "explanation": "'perro' nombra un ser (sustantivo)"
+    },
+    {
+      "id": "retos_rapidos_l5_017",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Los pájaros __ en el cielo'",
+      "options": [
+        "nada",
+        "vuelan",
+        "corren",
+        "saltan"
+      ],
+      "correct": 1,
+      "explanation": "Los pájaros vuelan"
+    },
+    {
+      "id": "retos_rapidos_l5_018",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es aumentativo de 'casa'?",
+      "options": [
+        "casita",
+        "casona",
+        "casilla",
+        "casucha"
+      ],
+      "correct": 1,
+      "explanation": "'casona' es aumentativo de casa"
+    },
+    {
+      "id": "retos_rapidos_l5_019",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene prefijo 're-'?",
+      "options": [
+        "remar",
+        "repetir",
+        "remo",
+        "resta"
+      ],
+      "correct": 1,
+      "explanation": "'repetir' tiene prefijo re- (volver a hacer)"
+    },
+    {
+      "id": "retos_rapidos_l5_020",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el diminutivo de 'perro'?",
+      "options": [
+        "perrazo",
+        "perrito",
+        "perruno",
+        "perrera"
+      ],
+      "correct": 1,
+      "explanation": "'perrito' es diminutivo de perro"
+    },
+    {
+      "id": "retos_rapidos_l5_021",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración es interrogativa?",
+      "options": [
+        "Hace calor.",
+        "¡Qué calor!",
+        "¿Hace calor?",
+        "Hace mucho calor"
+      ],
+      "correct": 2,
+      "explanation": "Los signos ¿? indican interrogación"
+    },
+    {
+      "id": "retos_rapidos_l5_022",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es sinónimo de 'caminar'?",
+      "options": [
+        "correr",
+        "andar",
+        "saltar",
+        "nadar"
+      ],
+      "correct": 1,
+      "explanation": "'andar' y 'caminar' son sinónimos"
+    },
+    {
+      "id": "retos_rapidos_l5_023",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué letra es siempre mayúscula al inicio de nombre propio?",
+      "options": [
+        "Cualquiera",
+        "La primera",
+        "La última",
+        "Ninguna"
+      ],
+      "correct": 1,
+      "explanation": "Los nombres propios empiezan con mayúscula"
+    },
+    {
+      "id": "retos_rapidos_l5_024",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es un pronombre?",
+      "options": [
+        "casa",
+        "bonito",
+        "ella",
+        "rápido"
+      ],
+      "correct": 2,
+      "explanation": "'ella' sustituye un nombre (pronombre)"
+    },
+    {
+      "id": "retos_rapidos_l5_025",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas consonantes tiene 'estrella'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "s-t-r-ll = 5 consonantes"
+    },
+    {
+      "id": "retos_rapidos_l5_026",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de oración es '¡Qué bonito!'?",
+      "options": [
+        "Interrogativa",
+        "Exclamativa",
+        "Enunciativa",
+        "Imperativa"
+      ],
+      "correct": 1,
+      "explanation": "Los signos ¡! indican exclamación"
+    },
+    {
+      "id": "retos_rapidos_l5_027",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es antónimo de 'oscuro'?",
+      "options": [
+        "negro",
+        "claro",
+        "gris",
+        "opaco"
+      ],
+      "correct": 1,
+      "explanation": "'claro' es contrario de 'oscuro'"
+    },
+    {
+      "id": "retos_rapidos_l5_028",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra lleva el sufijo '-ción'?",
+      "options": [
+        "cantar",
+        "canción",
+        "cantante",
+        "cantado"
+      ],
+      "correct": 1,
+      "explanation": "'canción' tiene sufijo -ción"
+    },
+    {
+      "id": "retos_rapidos_l5_029",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de 'lápiz'?",
+      "options": [
+        "lápizes",
+        "lápicez",
+        "lápices",
+        "lápizs"
+      ],
+      "correct": 2,
+      "explanation": "lápiz → lápices"
+    },
+    {
+      "id": "retos_rapidos_l5_030",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración es imperativa?",
+      "options": [
+        "Llueve mucho.",
+        "¿Llueve?",
+        "¡Cierra la puerta!",
+        "Es bonito."
+      ],
+      "correct": 2,
+      "explanation": "Da una orden: imperativa"
+    }
+  ]
+}

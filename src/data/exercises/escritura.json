@@ -1,0 +1,2254 @@
+{
+  "exercises": [
+    {
+      "id": "escritura_l1_001",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la forma correcta?",
+      "options": [
+        "a ver",
+        "haber",
+        "haver",
+        "a ber"
+      ],
+      "correct": 0,
+      "explanation": "'a ver' (mirar) vs 'haber' (existir)"
+    },
+    {
+      "id": "escritura_l1_002",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ que estudiar más'",
+      "options": [
+        "Hay",
+        "Ahí",
+        "Ay",
+        "Hai"
+      ],
+      "correct": 0,
+      "explanation": "'Hay' del verbo haber"
+    },
+    {
+      "id": "escritura_l1_003",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "hecho",
+        "echo",
+        "hecho",
+        "echo"
+      ],
+      "correct": 0,
+      "explanation": "'hecho' (participio de hacer)"
+    },
+    {
+      "id": "escritura_l1_004",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Selecciona la correcta:",
+      "options": [
+        "porque",
+        "por que",
+        "porqué",
+        "por qué"
+      ],
+      "correct": 3,
+      "explanation": "'por qué' para preguntas"
+    },
+    {
+      "id": "escritura_l1_005",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál lleva tilde?",
+      "options": [
+        "el",
+        "él",
+        "El",
+        "eL"
+      ],
+      "correct": 1,
+      "explanation": "'él' (pronombre) lleva tilde"
+    },
+    {
+      "id": "escritura_l1_006",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué signo va al final de una pregunta?",
+      "options": [
+        ".",
+        "!",
+        "?",
+        "..."
+      ],
+      "correct": 2,
+      "explanation": "Las preguntas terminan con '?'"
+    },
+    {
+      "id": "escritura_l1_007",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Me __ mucho verte'",
+      "options": [
+        "alegra",
+        "halegra",
+        "alegrra",
+        "haleghra"
+      ],
+      "correct": 0,
+      "explanation": "'alegra' sin h"
+    },
+    {
+      "id": "escritura_l1_008",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien puntuada?",
+      "options": [
+        "hola, ¿cómo estás?",
+        "hola ¿cómo estás?",
+        "Hola, ¿cómo estás?",
+        "Hola ¿Cómo estás?"
+      ],
+      "correct": 2,
+      "explanation": "Mayúscula + coma + signos de interrogación"
+    },
+    {
+      "id": "escritura_l1_009",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está bien?",
+      "options": [
+        "también",
+        "tanvién",
+        "tanbién",
+        "tamvién"
+      ],
+      "correct": 0,
+      "explanation": "'también' con mb"
+    },
+    {
+      "id": "escritura_l1_010",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ en la mesa'",
+      "options": [
+        "Está",
+        "Esta",
+        "Ésta",
+        "Èsta"
+      ],
+      "correct": 0,
+      "explanation": "'Está' con tilde (verbo estar)"
+    },
+    {
+      "id": "escritura_l1_011",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "a habido",
+        "ha habido",
+        "ha avido",
+        "a avido"
+      ],
+      "correct": 1,
+      "explanation": "'ha habido' con h"
+    },
+    {
+      "id": "escritura_l1_012",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es correcta?",
+      "options": [
+        "vamos",
+        "bamos",
+        "bvamos",
+        "bamos"
+      ],
+      "correct": 0,
+      "explanation": "'vamos' con v"
+    },
+    {
+      "id": "escritura_l1_013",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Elige la correcta:",
+      "options": [
+        "tubo",
+        "tuvo",
+        "tuvo",
+        "tubo"
+      ],
+      "correct": 1,
+      "explanation": "'tuvo' (verbo tener) con v"
+    },
+    {
+      "id": "escritura_l1_014",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál tiene buena ortografía?",
+      "options": [
+        "decisión",
+        "desición",
+        "decisión",
+        "desisión"
+      ],
+      "correct": 0,
+      "explanation": "'decisión' con c"
+    },
+    {
+      "id": "escritura_l1_015",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'El niño __ contento'",
+      "options": [
+        "está",
+        "esta",
+        "ésta",
+        "éstá"
+      ],
+      "correct": 0,
+      "explanation": "'está' verbo estar"
+    },
+    {
+      "id": "escritura_l1_016",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál necesita tilde?",
+      "options": [
+        "examen",
+        "examén",
+        "exàmen",
+        "ecsamen"
+      ],
+      "correct": 0,
+      "explanation": "'examen' es llana terminada en n: NO lleva tilde"
+    },
+    {
+      "id": "escritura_l1_017",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué frase es correcta?",
+      "options": [
+        "boi a casa",
+        "boy a casa",
+        "voy a casa",
+        "voi a casa"
+      ],
+      "correct": 2,
+      "explanation": "'voy' con v y y"
+    },
+    {
+      "id": "escritura_l1_018",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__  lloviendo'",
+      "options": [
+        "Esta",
+        "Está",
+        "Ésta",
+        "Èsta"
+      ],
+      "correct": 1,
+      "explanation": "'Está' (verbo) con tilde"
+    },
+    {
+      "id": "escritura_l1_019",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien?",
+      "options": [
+        "hacerca",
+        "acerca",
+        "aserca",
+        "aserka"
+      ],
+      "correct": 1,
+      "explanation": "'acerca' sin h"
+    },
+    {
+      "id": "escritura_l1_020",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra lleva h?",
+      "options": [
+        "ora",
+        "hora",
+        "orra",
+        "horra"
+      ],
+      "correct": 1,
+      "explanation": "'hora' lleva h"
+    },
+    {
+      "id": "escritura_l1_021",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Selecciona la correcta:",
+      "options": [
+        "lla",
+        "ya",
+        "ia",
+        "iia"
+      ],
+      "correct": 1,
+      "explanation": "'ya' con y"
+    },
+    {
+      "id": "escritura_l1_022",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "haver",
+        "haber",
+        "aver",
+        "abér"
+      ],
+      "correct": 1,
+      "explanation": "'haber' con h y b"
+    },
+    {
+      "id": "escritura_l1_023",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'No __ nada'",
+      "options": [
+        "ai",
+        "hay",
+        "ay",
+        "ahi"
+      ],
+      "correct": 1,
+      "explanation": "'hay' del verbo haber"
+    },
+    {
+      "id": "escritura_l1_024",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué frase tiene correcta puntuación?",
+      "options": [
+        "que bien!",
+        "¡Qué bien!",
+        "¡que bien",
+        "Que bien!"
+      ],
+      "correct": 1,
+      "explanation": "Signos de apertura y cierre + mayúscula"
+    },
+    {
+      "id": "escritura_l1_025",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "travajo",
+        "trabajo",
+        "travaxo",
+        "trabaxo"
+      ],
+      "correct": 1,
+      "explanation": "'trabajo' con b y j"
+    },
+    {
+      "id": "escritura_l1_026",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ con cuidado'",
+      "options": [
+        "Anda",
+        "Handa",
+        "Annda",
+        "Hannda"
+      ],
+      "correct": 0,
+      "explanation": "'Anda' sin h"
+    },
+    {
+      "id": "escritura_l1_027",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál lleva tilde correctamente?",
+      "options": [
+        "arbol",
+        "árbol",
+        "àrbol",
+        "ärbol"
+      ],
+      "correct": 1,
+      "explanation": "'árbol' es llana terminada en l: lleva tilde"
+    },
+    {
+      "id": "escritura_l1_028",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es correcta?",
+      "options": [
+        "recivir",
+        "resibir",
+        "recibir",
+        "resivir"
+      ],
+      "correct": 2,
+      "explanation": "'recibir' con c y b"
+    },
+    {
+      "id": "escritura_l1_029",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Él __ un libro'",
+      "options": [
+        "leyo",
+        "leyó",
+        "leio",
+        "lello"
+      ],
+      "correct": 1,
+      "explanation": "'leyó' con y y tilde"
+    },
+    {
+      "id": "escritura_l1_030",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la forma correcta?",
+      "options": [
+        "hiba",
+        "iba",
+        "hiva",
+        "iva"
+      ],
+      "correct": 1,
+      "explanation": "'iba' sin h, con b"
+    },
+    {
+      "id": "escritura_l2_001",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la forma correcta?",
+      "options": [
+        "a ver",
+        "haber",
+        "haver",
+        "a ber"
+      ],
+      "correct": 0,
+      "explanation": "'a ver' (mirar) vs 'haber' (existir)"
+    },
+    {
+      "id": "escritura_l2_002",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ que estudiar más'",
+      "options": [
+        "Hay",
+        "Ahí",
+        "Ay",
+        "Hai"
+      ],
+      "correct": 0,
+      "explanation": "'Hay' del verbo haber"
+    },
+    {
+      "id": "escritura_l2_003",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "hecho",
+        "echo",
+        "hecho",
+        "echo"
+      ],
+      "correct": 0,
+      "explanation": "'hecho' (participio de hacer)"
+    },
+    {
+      "id": "escritura_l2_004",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Selecciona la correcta:",
+      "options": [
+        "porque",
+        "por que",
+        "porqué",
+        "por qué"
+      ],
+      "correct": 3,
+      "explanation": "'por qué' para preguntas"
+    },
+    {
+      "id": "escritura_l2_005",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál lleva tilde?",
+      "options": [
+        "el",
+        "él",
+        "El",
+        "eL"
+      ],
+      "correct": 1,
+      "explanation": "'él' (pronombre) lleva tilde"
+    },
+    {
+      "id": "escritura_l2_006",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué signo va al final de una pregunta?",
+      "options": [
+        ".",
+        "!",
+        "?",
+        "..."
+      ],
+      "correct": 2,
+      "explanation": "Las preguntas terminan con '?'"
+    },
+    {
+      "id": "escritura_l2_007",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Me __ mucho verte'",
+      "options": [
+        "alegra",
+        "halegra",
+        "alegrra",
+        "haleghra"
+      ],
+      "correct": 0,
+      "explanation": "'alegra' sin h"
+    },
+    {
+      "id": "escritura_l2_008",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien puntuada?",
+      "options": [
+        "hola, ¿cómo estás?",
+        "hola ¿cómo estás?",
+        "Hola, ¿cómo estás?",
+        "Hola ¿Cómo estás?"
+      ],
+      "correct": 2,
+      "explanation": "Mayúscula + coma + signos de interrogación"
+    },
+    {
+      "id": "escritura_l2_009",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está bien?",
+      "options": [
+        "también",
+        "tanvién",
+        "tanbién",
+        "tamvién"
+      ],
+      "correct": 0,
+      "explanation": "'también' con mb"
+    },
+    {
+      "id": "escritura_l2_010",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ en la mesa'",
+      "options": [
+        "Está",
+        "Esta",
+        "Ésta",
+        "Èsta"
+      ],
+      "correct": 0,
+      "explanation": "'Está' con tilde (verbo estar)"
+    },
+    {
+      "id": "escritura_l2_011",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "a habido",
+        "ha habido",
+        "ha avido",
+        "a avido"
+      ],
+      "correct": 1,
+      "explanation": "'ha habido' con h"
+    },
+    {
+      "id": "escritura_l2_012",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es correcta?",
+      "options": [
+        "vamos",
+        "bamos",
+        "bvamos",
+        "bamos"
+      ],
+      "correct": 0,
+      "explanation": "'vamos' con v"
+    },
+    {
+      "id": "escritura_l2_013",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Elige la correcta:",
+      "options": [
+        "tubo",
+        "tuvo",
+        "tuvo",
+        "tubo"
+      ],
+      "correct": 1,
+      "explanation": "'tuvo' (verbo tener) con v"
+    },
+    {
+      "id": "escritura_l2_014",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál tiene buena ortografía?",
+      "options": [
+        "decisión",
+        "desición",
+        "decisión",
+        "desisión"
+      ],
+      "correct": 0,
+      "explanation": "'decisión' con c"
+    },
+    {
+      "id": "escritura_l2_015",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'El niño __ contento'",
+      "options": [
+        "está",
+        "esta",
+        "ésta",
+        "éstá"
+      ],
+      "correct": 0,
+      "explanation": "'está' verbo estar"
+    },
+    {
+      "id": "escritura_l2_016",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál necesita tilde?",
+      "options": [
+        "examen",
+        "examén",
+        "exàmen",
+        "ecsamen"
+      ],
+      "correct": 0,
+      "explanation": "'examen' es llana terminada en n: NO lleva tilde"
+    },
+    {
+      "id": "escritura_l2_017",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué frase es correcta?",
+      "options": [
+        "boi a casa",
+        "boy a casa",
+        "voy a casa",
+        "voi a casa"
+      ],
+      "correct": 2,
+      "explanation": "'voy' con v y y"
+    },
+    {
+      "id": "escritura_l2_018",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__  lloviendo'",
+      "options": [
+        "Esta",
+        "Está",
+        "Ésta",
+        "Èsta"
+      ],
+      "correct": 1,
+      "explanation": "'Está' (verbo) con tilde"
+    },
+    {
+      "id": "escritura_l2_019",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien?",
+      "options": [
+        "hacerca",
+        "acerca",
+        "aserca",
+        "aserka"
+      ],
+      "correct": 1,
+      "explanation": "'acerca' sin h"
+    },
+    {
+      "id": "escritura_l2_020",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra lleva h?",
+      "options": [
+        "ora",
+        "hora",
+        "orra",
+        "horra"
+      ],
+      "correct": 1,
+      "explanation": "'hora' lleva h"
+    },
+    {
+      "id": "escritura_l2_021",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Selecciona la correcta:",
+      "options": [
+        "lla",
+        "ya",
+        "ia",
+        "iia"
+      ],
+      "correct": 1,
+      "explanation": "'ya' con y"
+    },
+    {
+      "id": "escritura_l2_022",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "haver",
+        "haber",
+        "aver",
+        "abér"
+      ],
+      "correct": 1,
+      "explanation": "'haber' con h y b"
+    },
+    {
+      "id": "escritura_l2_023",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'No __ nada'",
+      "options": [
+        "ai",
+        "hay",
+        "ay",
+        "ahi"
+      ],
+      "correct": 1,
+      "explanation": "'hay' del verbo haber"
+    },
+    {
+      "id": "escritura_l2_024",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué frase tiene correcta puntuación?",
+      "options": [
+        "que bien!",
+        "¡Qué bien!",
+        "¡que bien",
+        "Que bien!"
+      ],
+      "correct": 1,
+      "explanation": "Signos de apertura y cierre + mayúscula"
+    },
+    {
+      "id": "escritura_l2_025",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "travajo",
+        "trabajo",
+        "travaxo",
+        "trabaxo"
+      ],
+      "correct": 1,
+      "explanation": "'trabajo' con b y j"
+    },
+    {
+      "id": "escritura_l2_026",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ con cuidado'",
+      "options": [
+        "Anda",
+        "Handa",
+        "Annda",
+        "Hannda"
+      ],
+      "correct": 0,
+      "explanation": "'Anda' sin h"
+    },
+    {
+      "id": "escritura_l2_027",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál lleva tilde correctamente?",
+      "options": [
+        "arbol",
+        "árbol",
+        "àrbol",
+        "ärbol"
+      ],
+      "correct": 1,
+      "explanation": "'árbol' es llana terminada en l: lleva tilde"
+    },
+    {
+      "id": "escritura_l2_028",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es correcta?",
+      "options": [
+        "recivir",
+        "resibir",
+        "recibir",
+        "resivir"
+      ],
+      "correct": 2,
+      "explanation": "'recibir' con c y b"
+    },
+    {
+      "id": "escritura_l2_029",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Él __ un libro'",
+      "options": [
+        "leyo",
+        "leyó",
+        "leio",
+        "lello"
+      ],
+      "correct": 1,
+      "explanation": "'leyó' con y y tilde"
+    },
+    {
+      "id": "escritura_l2_030",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la forma correcta?",
+      "options": [
+        "hiba",
+        "iba",
+        "hiva",
+        "iva"
+      ],
+      "correct": 1,
+      "explanation": "'iba' sin h, con b"
+    },
+    {
+      "id": "escritura_l3_001",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la forma correcta?",
+      "options": [
+        "a ver",
+        "haber",
+        "haver",
+        "a ber"
+      ],
+      "correct": 0,
+      "explanation": "'a ver' (mirar) vs 'haber' (existir)"
+    },
+    {
+      "id": "escritura_l3_002",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ que estudiar más'",
+      "options": [
+        "Hay",
+        "Ahí",
+        "Ay",
+        "Hai"
+      ],
+      "correct": 0,
+      "explanation": "'Hay' del verbo haber"
+    },
+    {
+      "id": "escritura_l3_003",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "hecho",
+        "echo",
+        "hecho",
+        "echo"
+      ],
+      "correct": 0,
+      "explanation": "'hecho' (participio de hacer)"
+    },
+    {
+      "id": "escritura_l3_004",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Selecciona la correcta:",
+      "options": [
+        "porque",
+        "por que",
+        "porqué",
+        "por qué"
+      ],
+      "correct": 3,
+      "explanation": "'por qué' para preguntas"
+    },
+    {
+      "id": "escritura_l3_005",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál lleva tilde?",
+      "options": [
+        "el",
+        "él",
+        "El",
+        "eL"
+      ],
+      "correct": 1,
+      "explanation": "'él' (pronombre) lleva tilde"
+    },
+    {
+      "id": "escritura_l3_006",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué signo va al final de una pregunta?",
+      "options": [
+        ".",
+        "!",
+        "?",
+        "..."
+      ],
+      "correct": 2,
+      "explanation": "Las preguntas terminan con '?'"
+    },
+    {
+      "id": "escritura_l3_007",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Me __ mucho verte'",
+      "options": [
+        "alegra",
+        "halegra",
+        "alegrra",
+        "haleghra"
+      ],
+      "correct": 0,
+      "explanation": "'alegra' sin h"
+    },
+    {
+      "id": "escritura_l3_008",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien puntuada?",
+      "options": [
+        "hola, ¿cómo estás?",
+        "hola ¿cómo estás?",
+        "Hola, ¿cómo estás?",
+        "Hola ¿Cómo estás?"
+      ],
+      "correct": 2,
+      "explanation": "Mayúscula + coma + signos de interrogación"
+    },
+    {
+      "id": "escritura_l3_009",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está bien?",
+      "options": [
+        "también",
+        "tanvién",
+        "tanbién",
+        "tamvién"
+      ],
+      "correct": 0,
+      "explanation": "'también' con mb"
+    },
+    {
+      "id": "escritura_l3_010",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ en la mesa'",
+      "options": [
+        "Está",
+        "Esta",
+        "Ésta",
+        "Èsta"
+      ],
+      "correct": 0,
+      "explanation": "'Está' con tilde (verbo estar)"
+    },
+    {
+      "id": "escritura_l3_011",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "a habido",
+        "ha habido",
+        "ha avido",
+        "a avido"
+      ],
+      "correct": 1,
+      "explanation": "'ha habido' con h"
+    },
+    {
+      "id": "escritura_l3_012",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es correcta?",
+      "options": [
+        "vamos",
+        "bamos",
+        "bvamos",
+        "bamos"
+      ],
+      "correct": 0,
+      "explanation": "'vamos' con v"
+    },
+    {
+      "id": "escritura_l3_013",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Elige la correcta:",
+      "options": [
+        "tubo",
+        "tuvo",
+        "tuvo",
+        "tubo"
+      ],
+      "correct": 1,
+      "explanation": "'tuvo' (verbo tener) con v"
+    },
+    {
+      "id": "escritura_l3_014",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál tiene buena ortografía?",
+      "options": [
+        "decisión",
+        "desición",
+        "decisión",
+        "desisión"
+      ],
+      "correct": 0,
+      "explanation": "'decisión' con c"
+    },
+    {
+      "id": "escritura_l3_015",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'El niño __ contento'",
+      "options": [
+        "está",
+        "esta",
+        "ésta",
+        "éstá"
+      ],
+      "correct": 0,
+      "explanation": "'está' verbo estar"
+    },
+    {
+      "id": "escritura_l3_016",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál necesita tilde?",
+      "options": [
+        "examen",
+        "examén",
+        "exàmen",
+        "ecsamen"
+      ],
+      "correct": 0,
+      "explanation": "'examen' es llana terminada en n: NO lleva tilde"
+    },
+    {
+      "id": "escritura_l3_017",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué frase es correcta?",
+      "options": [
+        "boi a casa",
+        "boy a casa",
+        "voy a casa",
+        "voi a casa"
+      ],
+      "correct": 2,
+      "explanation": "'voy' con v y y"
+    },
+    {
+      "id": "escritura_l3_018",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__  lloviendo'",
+      "options": [
+        "Esta",
+        "Está",
+        "Ésta",
+        "Èsta"
+      ],
+      "correct": 1,
+      "explanation": "'Está' (verbo) con tilde"
+    },
+    {
+      "id": "escritura_l3_019",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien?",
+      "options": [
+        "hacerca",
+        "acerca",
+        "aserca",
+        "aserka"
+      ],
+      "correct": 1,
+      "explanation": "'acerca' sin h"
+    },
+    {
+      "id": "escritura_l3_020",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra lleva h?",
+      "options": [
+        "ora",
+        "hora",
+        "orra",
+        "horra"
+      ],
+      "correct": 1,
+      "explanation": "'hora' lleva h"
+    },
+    {
+      "id": "escritura_l3_021",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Selecciona la correcta:",
+      "options": [
+        "lla",
+        "ya",
+        "ia",
+        "iia"
+      ],
+      "correct": 1,
+      "explanation": "'ya' con y"
+    },
+    {
+      "id": "escritura_l3_022",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "haver",
+        "haber",
+        "aver",
+        "abér"
+      ],
+      "correct": 1,
+      "explanation": "'haber' con h y b"
+    },
+    {
+      "id": "escritura_l3_023",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'No __ nada'",
+      "options": [
+        "ai",
+        "hay",
+        "ay",
+        "ahi"
+      ],
+      "correct": 1,
+      "explanation": "'hay' del verbo haber"
+    },
+    {
+      "id": "escritura_l3_024",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué frase tiene correcta puntuación?",
+      "options": [
+        "que bien!",
+        "¡Qué bien!",
+        "¡que bien",
+        "Que bien!"
+      ],
+      "correct": 1,
+      "explanation": "Signos de apertura y cierre + mayúscula"
+    },
+    {
+      "id": "escritura_l3_025",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "travajo",
+        "trabajo",
+        "travaxo",
+        "trabaxo"
+      ],
+      "correct": 1,
+      "explanation": "'trabajo' con b y j"
+    },
+    {
+      "id": "escritura_l3_026",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ con cuidado'",
+      "options": [
+        "Anda",
+        "Handa",
+        "Annda",
+        "Hannda"
+      ],
+      "correct": 0,
+      "explanation": "'Anda' sin h"
+    },
+    {
+      "id": "escritura_l3_027",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál lleva tilde correctamente?",
+      "options": [
+        "arbol",
+        "árbol",
+        "àrbol",
+        "ärbol"
+      ],
+      "correct": 1,
+      "explanation": "'árbol' es llana terminada en l: lleva tilde"
+    },
+    {
+      "id": "escritura_l3_028",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es correcta?",
+      "options": [
+        "recivir",
+        "resibir",
+        "recibir",
+        "resivir"
+      ],
+      "correct": 2,
+      "explanation": "'recibir' con c y b"
+    },
+    {
+      "id": "escritura_l3_029",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Él __ un libro'",
+      "options": [
+        "leyo",
+        "leyó",
+        "leio",
+        "lello"
+      ],
+      "correct": 1,
+      "explanation": "'leyó' con y y tilde"
+    },
+    {
+      "id": "escritura_l3_030",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la forma correcta?",
+      "options": [
+        "hiba",
+        "iba",
+        "hiva",
+        "iva"
+      ],
+      "correct": 1,
+      "explanation": "'iba' sin h, con b"
+    },
+    {
+      "id": "escritura_l4_001",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la forma correcta?",
+      "options": [
+        "a ver",
+        "haber",
+        "haver",
+        "a ber"
+      ],
+      "correct": 0,
+      "explanation": "'a ver' (mirar) vs 'haber' (existir)"
+    },
+    {
+      "id": "escritura_l4_002",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ que estudiar más'",
+      "options": [
+        "Hay",
+        "Ahí",
+        "Ay",
+        "Hai"
+      ],
+      "correct": 0,
+      "explanation": "'Hay' del verbo haber"
+    },
+    {
+      "id": "escritura_l4_003",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "hecho",
+        "echo",
+        "hecho",
+        "echo"
+      ],
+      "correct": 0,
+      "explanation": "'hecho' (participio de hacer)"
+    },
+    {
+      "id": "escritura_l4_004",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Selecciona la correcta:",
+      "options": [
+        "porque",
+        "por que",
+        "porqué",
+        "por qué"
+      ],
+      "correct": 3,
+      "explanation": "'por qué' para preguntas"
+    },
+    {
+      "id": "escritura_l4_005",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál lleva tilde?",
+      "options": [
+        "el",
+        "él",
+        "El",
+        "eL"
+      ],
+      "correct": 1,
+      "explanation": "'él' (pronombre) lleva tilde"
+    },
+    {
+      "id": "escritura_l4_006",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué signo va al final de una pregunta?",
+      "options": [
+        ".",
+        "!",
+        "?",
+        "..."
+      ],
+      "correct": 2,
+      "explanation": "Las preguntas terminan con '?'"
+    },
+    {
+      "id": "escritura_l4_007",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Me __ mucho verte'",
+      "options": [
+        "alegra",
+        "halegra",
+        "alegrra",
+        "haleghra"
+      ],
+      "correct": 0,
+      "explanation": "'alegra' sin h"
+    },
+    {
+      "id": "escritura_l4_008",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien puntuada?",
+      "options": [
+        "hola, ¿cómo estás?",
+        "hola ¿cómo estás?",
+        "Hola, ¿cómo estás?",
+        "Hola ¿Cómo estás?"
+      ],
+      "correct": 2,
+      "explanation": "Mayúscula + coma + signos de interrogación"
+    },
+    {
+      "id": "escritura_l4_009",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está bien?",
+      "options": [
+        "también",
+        "tanvién",
+        "tanbién",
+        "tamvién"
+      ],
+      "correct": 0,
+      "explanation": "'también' con mb"
+    },
+    {
+      "id": "escritura_l4_010",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ en la mesa'",
+      "options": [
+        "Está",
+        "Esta",
+        "Ésta",
+        "Èsta"
+      ],
+      "correct": 0,
+      "explanation": "'Está' con tilde (verbo estar)"
+    },
+    {
+      "id": "escritura_l4_011",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "a habido",
+        "ha habido",
+        "ha avido",
+        "a avido"
+      ],
+      "correct": 1,
+      "explanation": "'ha habido' con h"
+    },
+    {
+      "id": "escritura_l4_012",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es correcta?",
+      "options": [
+        "vamos",
+        "bamos",
+        "bvamos",
+        "bamos"
+      ],
+      "correct": 0,
+      "explanation": "'vamos' con v"
+    },
+    {
+      "id": "escritura_l4_013",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Elige la correcta:",
+      "options": [
+        "tubo",
+        "tuvo",
+        "tuvo",
+        "tubo"
+      ],
+      "correct": 1,
+      "explanation": "'tuvo' (verbo tener) con v"
+    },
+    {
+      "id": "escritura_l4_014",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál tiene buena ortografía?",
+      "options": [
+        "decisión",
+        "desición",
+        "decisión",
+        "desisión"
+      ],
+      "correct": 0,
+      "explanation": "'decisión' con c"
+    },
+    {
+      "id": "escritura_l4_015",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'El niño __ contento'",
+      "options": [
+        "está",
+        "esta",
+        "ésta",
+        "éstá"
+      ],
+      "correct": 0,
+      "explanation": "'está' verbo estar"
+    },
+    {
+      "id": "escritura_l4_016",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál necesita tilde?",
+      "options": [
+        "examen",
+        "examén",
+        "exàmen",
+        "ecsamen"
+      ],
+      "correct": 0,
+      "explanation": "'examen' es llana terminada en n: NO lleva tilde"
+    },
+    {
+      "id": "escritura_l4_017",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué frase es correcta?",
+      "options": [
+        "boi a casa",
+        "boy a casa",
+        "voy a casa",
+        "voi a casa"
+      ],
+      "correct": 2,
+      "explanation": "'voy' con v y y"
+    },
+    {
+      "id": "escritura_l4_018",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__  lloviendo'",
+      "options": [
+        "Esta",
+        "Está",
+        "Ésta",
+        "Èsta"
+      ],
+      "correct": 1,
+      "explanation": "'Está' (verbo) con tilde"
+    },
+    {
+      "id": "escritura_l4_019",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien?",
+      "options": [
+        "hacerca",
+        "acerca",
+        "aserca",
+        "aserka"
+      ],
+      "correct": 1,
+      "explanation": "'acerca' sin h"
+    },
+    {
+      "id": "escritura_l4_020",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra lleva h?",
+      "options": [
+        "ora",
+        "hora",
+        "orra",
+        "horra"
+      ],
+      "correct": 1,
+      "explanation": "'hora' lleva h"
+    },
+    {
+      "id": "escritura_l4_021",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Selecciona la correcta:",
+      "options": [
+        "lla",
+        "ya",
+        "ia",
+        "iia"
+      ],
+      "correct": 1,
+      "explanation": "'ya' con y"
+    },
+    {
+      "id": "escritura_l4_022",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "haver",
+        "haber",
+        "aver",
+        "abér"
+      ],
+      "correct": 1,
+      "explanation": "'haber' con h y b"
+    },
+    {
+      "id": "escritura_l4_023",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'No __ nada'",
+      "options": [
+        "ai",
+        "hay",
+        "ay",
+        "ahi"
+      ],
+      "correct": 1,
+      "explanation": "'hay' del verbo haber"
+    },
+    {
+      "id": "escritura_l4_024",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué frase tiene correcta puntuación?",
+      "options": [
+        "que bien!",
+        "¡Qué bien!",
+        "¡que bien",
+        "Que bien!"
+      ],
+      "correct": 1,
+      "explanation": "Signos de apertura y cierre + mayúscula"
+    },
+    {
+      "id": "escritura_l4_025",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "travajo",
+        "trabajo",
+        "travaxo",
+        "trabaxo"
+      ],
+      "correct": 1,
+      "explanation": "'trabajo' con b y j"
+    },
+    {
+      "id": "escritura_l4_026",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ con cuidado'",
+      "options": [
+        "Anda",
+        "Handa",
+        "Annda",
+        "Hannda"
+      ],
+      "correct": 0,
+      "explanation": "'Anda' sin h"
+    },
+    {
+      "id": "escritura_l4_027",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál lleva tilde correctamente?",
+      "options": [
+        "arbol",
+        "árbol",
+        "àrbol",
+        "ärbol"
+      ],
+      "correct": 1,
+      "explanation": "'árbol' es llana terminada en l: lleva tilde"
+    },
+    {
+      "id": "escritura_l4_028",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es correcta?",
+      "options": [
+        "recivir",
+        "resibir",
+        "recibir",
+        "resivir"
+      ],
+      "correct": 2,
+      "explanation": "'recibir' con c y b"
+    },
+    {
+      "id": "escritura_l4_029",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Él __ un libro'",
+      "options": [
+        "leyo",
+        "leyó",
+        "leio",
+        "lello"
+      ],
+      "correct": 1,
+      "explanation": "'leyó' con y y tilde"
+    },
+    {
+      "id": "escritura_l4_030",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la forma correcta?",
+      "options": [
+        "hiba",
+        "iba",
+        "hiva",
+        "iva"
+      ],
+      "correct": 1,
+      "explanation": "'iba' sin h, con b"
+    },
+    {
+      "id": "escritura_l5_001",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la forma correcta?",
+      "options": [
+        "a ver",
+        "haber",
+        "haver",
+        "a ber"
+      ],
+      "correct": 0,
+      "explanation": "'a ver' (mirar) vs 'haber' (existir)"
+    },
+    {
+      "id": "escritura_l5_002",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ que estudiar más'",
+      "options": [
+        "Hay",
+        "Ahí",
+        "Ay",
+        "Hai"
+      ],
+      "correct": 0,
+      "explanation": "'Hay' del verbo haber"
+    },
+    {
+      "id": "escritura_l5_003",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "hecho",
+        "echo",
+        "hecho",
+        "echo"
+      ],
+      "correct": 0,
+      "explanation": "'hecho' (participio de hacer)"
+    },
+    {
+      "id": "escritura_l5_004",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Selecciona la correcta:",
+      "options": [
+        "porque",
+        "por que",
+        "porqué",
+        "por qué"
+      ],
+      "correct": 3,
+      "explanation": "'por qué' para preguntas"
+    },
+    {
+      "id": "escritura_l5_005",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál lleva tilde?",
+      "options": [
+        "el",
+        "él",
+        "El",
+        "eL"
+      ],
+      "correct": 1,
+      "explanation": "'él' (pronombre) lleva tilde"
+    },
+    {
+      "id": "escritura_l5_006",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué signo va al final de una pregunta?",
+      "options": [
+        ".",
+        "!",
+        "?",
+        "..."
+      ],
+      "correct": 2,
+      "explanation": "Las preguntas terminan con '?'"
+    },
+    {
+      "id": "escritura_l5_007",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Me __ mucho verte'",
+      "options": [
+        "alegra",
+        "halegra",
+        "alegrra",
+        "haleghra"
+      ],
+      "correct": 0,
+      "explanation": "'alegra' sin h"
+    },
+    {
+      "id": "escritura_l5_008",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien puntuada?",
+      "options": [
+        "hola, ¿cómo estás?",
+        "hola ¿cómo estás?",
+        "Hola, ¿cómo estás?",
+        "Hola ¿Cómo estás?"
+      ],
+      "correct": 2,
+      "explanation": "Mayúscula + coma + signos de interrogación"
+    },
+    {
+      "id": "escritura_l5_009",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está bien?",
+      "options": [
+        "también",
+        "tanvién",
+        "tanbién",
+        "tamvién"
+      ],
+      "correct": 0,
+      "explanation": "'también' con mb"
+    },
+    {
+      "id": "escritura_l5_010",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ en la mesa'",
+      "options": [
+        "Está",
+        "Esta",
+        "Ésta",
+        "Èsta"
+      ],
+      "correct": 0,
+      "explanation": "'Está' con tilde (verbo estar)"
+    },
+    {
+      "id": "escritura_l5_011",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "a habido",
+        "ha habido",
+        "ha avido",
+        "a avido"
+      ],
+      "correct": 1,
+      "explanation": "'ha habido' con h"
+    },
+    {
+      "id": "escritura_l5_012",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es correcta?",
+      "options": [
+        "vamos",
+        "bamos",
+        "bvamos",
+        "bamos"
+      ],
+      "correct": 0,
+      "explanation": "'vamos' con v"
+    },
+    {
+      "id": "escritura_l5_013",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Elige la correcta:",
+      "options": [
+        "tubo",
+        "tuvo",
+        "tuvo",
+        "tubo"
+      ],
+      "correct": 1,
+      "explanation": "'tuvo' (verbo tener) con v"
+    },
+    {
+      "id": "escritura_l5_014",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál tiene buena ortografía?",
+      "options": [
+        "decisión",
+        "desición",
+        "decisión",
+        "desisión"
+      ],
+      "correct": 0,
+      "explanation": "'decisión' con c"
+    },
+    {
+      "id": "escritura_l5_015",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'El niño __ contento'",
+      "options": [
+        "está",
+        "esta",
+        "ésta",
+        "éstá"
+      ],
+      "correct": 0,
+      "explanation": "'está' verbo estar"
+    },
+    {
+      "id": "escritura_l5_016",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál necesita tilde?",
+      "options": [
+        "examen",
+        "examén",
+        "exàmen",
+        "ecsamen"
+      ],
+      "correct": 0,
+      "explanation": "'examen' es llana terminada en n: NO lleva tilde"
+    },
+    {
+      "id": "escritura_l5_017",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué frase es correcta?",
+      "options": [
+        "boi a casa",
+        "boy a casa",
+        "voy a casa",
+        "voi a casa"
+      ],
+      "correct": 2,
+      "explanation": "'voy' con v y y"
+    },
+    {
+      "id": "escritura_l5_018",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__  lloviendo'",
+      "options": [
+        "Esta",
+        "Está",
+        "Ésta",
+        "Èsta"
+      ],
+      "correct": 1,
+      "explanation": "'Está' (verbo) con tilde"
+    },
+    {
+      "id": "escritura_l5_019",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien?",
+      "options": [
+        "hacerca",
+        "acerca",
+        "aserca",
+        "aserka"
+      ],
+      "correct": 1,
+      "explanation": "'acerca' sin h"
+    },
+    {
+      "id": "escritura_l5_020",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra lleva h?",
+      "options": [
+        "ora",
+        "hora",
+        "orra",
+        "horra"
+      ],
+      "correct": 1,
+      "explanation": "'hora' lleva h"
+    },
+    {
+      "id": "escritura_l5_021",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Selecciona la correcta:",
+      "options": [
+        "lla",
+        "ya",
+        "ia",
+        "iia"
+      ],
+      "correct": 1,
+      "explanation": "'ya' con y"
+    },
+    {
+      "id": "escritura_l5_022",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "haver",
+        "haber",
+        "aver",
+        "abér"
+      ],
+      "correct": 1,
+      "explanation": "'haber' con h y b"
+    },
+    {
+      "id": "escritura_l5_023",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'No __ nada'",
+      "options": [
+        "ai",
+        "hay",
+        "ay",
+        "ahi"
+      ],
+      "correct": 1,
+      "explanation": "'hay' del verbo haber"
+    },
+    {
+      "id": "escritura_l5_024",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué frase tiene correcta puntuación?",
+      "options": [
+        "que bien!",
+        "¡Qué bien!",
+        "¡que bien",
+        "Que bien!"
+      ],
+      "correct": 1,
+      "explanation": "Signos de apertura y cierre + mayúscula"
+    },
+    {
+      "id": "escritura_l5_025",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "travajo",
+        "trabajo",
+        "travaxo",
+        "trabaxo"
+      ],
+      "correct": 1,
+      "explanation": "'trabajo' con b y j"
+    },
+    {
+      "id": "escritura_l5_026",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Completa: '__ con cuidado'",
+      "options": [
+        "Anda",
+        "Handa",
+        "Annda",
+        "Hannda"
+      ],
+      "correct": 0,
+      "explanation": "'Anda' sin h"
+    },
+    {
+      "id": "escritura_l5_027",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál lleva tilde correctamente?",
+      "options": [
+        "arbol",
+        "árbol",
+        "àrbol",
+        "ärbol"
+      ],
+      "correct": 1,
+      "explanation": "'árbol' es llana terminada en l: lleva tilde"
+    },
+    {
+      "id": "escritura_l5_028",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es correcta?",
+      "options": [
+        "recivir",
+        "resibir",
+        "recibir",
+        "resivir"
+      ],
+      "correct": 2,
+      "explanation": "'recibir' con c y b"
+    },
+    {
+      "id": "escritura_l5_029",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Completa: 'Él __ un libro'",
+      "options": [
+        "leyo",
+        "leyó",
+        "leio",
+        "lello"
+      ],
+      "correct": 1,
+      "explanation": "'leyó' con y y tilde"
+    },
+    {
+      "id": "escritura_l5_030",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la forma correcta?",
+      "options": [
+        "hiba",
+        "iba",
+        "hiva",
+        "iva"
+      ],
+      "correct": 1,
+      "explanation": "'iba' sin h, con b"
+    }
+  ]
+}

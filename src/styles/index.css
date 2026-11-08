@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+/* ─── Google Fonts ─── */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Nunito+Sans:wght@400;600;700&display=swap');
+
+/* ─── Design Tokens ─── */
+@theme {
+  --color-bg: #F7F5FF;
+  --color-bg-card: #FFFFFF;
+  --color-fg: #2D2640;
+  --color-fg-muted: #7A6F94;
+  --color-accent: #8B5CF6;
+  --color-accent-pale: #EDE9FF;
+  --color-mint: #34D399;
+  --color-mint-pale: #ECFDF5;
+  --color-peach: #FB923C;
+  --color-peach-pale: #FFF4EC;
+  --color-sky: #38BDF8;
+  --color-sky-pale: #F0F9FF;
+  --color-yellow: #FBBF24;
+  --color-yellow-pale: #FFFBEB;
+  --color-red: #F87171;
+  --color-red-pale: #FEF2F2;
+  --color-border: #E8E3F5;
+
+  --font-heading: 'Nunito', sans-serif;
+  --font-body: 'Nunito Sans', sans-serif;
+
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+  --radius-full: 9999px;
+}
+
+/* ─── Dark mode ─── */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #1A1626;
+    --color-bg-card: #241E35;
+    --color-fg: #F0EBF8;
+    --color-fg-muted: #A89DC4;
+    --color-accent: #A78BFA;
+    --color-accent-pale: #2E2250;
+    --color-mint: #6EE7B7;
+    --color-mint-pale: #1A2E26;
+    --color-peach: #FDBA74;
+    --color-peach-pale: #2E2218;
+    --color-sky: #7DD3FC;
+    --color-sky-pale: #1A2430;
+    --color-yellow: #FCD34D;
+    --color-yellow-pale: #2E2A18;
+    --color-red: #FCA5A5;
+    --color-red-pale: #2E1A1A;
+    --color-border: #3D3458;
+  }
+}
+
+:root[data-theme="dark"] {
+  --color-bg: #1A1626;
+  --color-bg-card: #241E35;
+  --color-fg: #F0EBF8;
+  --color-fg-muted: #A89DC4;
+  --color-accent: #A78BFA;
+  --color-accent-pale: #2E2250;
+  --color-mint: #6EE7B7;
+  --color-mint-pale: #1A2E26;
+  --color-peach: #FDBA74;
+  --color-peach-pale: #2E2218;
+  --color-sky: #7DD3FC;
+  --color-sky-pale: #1A2430;
+  --color-yellow: #FCD34D;
+  --color-yellow-pale: #2E2A18;
+  --color-red: #FCA5A5;
+  --color-red-pale: #2E1A1A;
+  --color-border: #3D3458;
+}
+
+/* ─── Base ─── */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* ─── PWA standalone safe area ─── */
+@supports (padding-top: env(safe-area-inset-top)) {
+  body {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* ─── Scrollbar styling ─── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+
+/* ─── Animations ─── */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.animate-shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+.animate-pop {
+  animation: pop 0.3s ease-out;
+}

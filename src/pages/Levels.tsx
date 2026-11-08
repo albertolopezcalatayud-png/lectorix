@@ -1,0 +1,113 @@
+import { useParams, useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { getModule, LEVEL_NAMES } from '@/data/modules';
+import { useAppStore } from '@/stores/useAppStore';
+import { Card } from '@/components/ui/Card';
+import { Stars } from '@/components/ui/Stars';
+import { Header } from '@/components/layout/Header';
+
+export default function Levels() {
+  const { moduleId } = useParams<{ moduleId: string }>();
+  const navigate = useNavigate();
+  const mod = getModule(moduleId || '');
+  const progress = useAppStore((s) => s.progress);
+  const isLevelUnlocked = useAppStore((s) => s.isLevelUnlocked);
+  const isPremium = useAppStore((s) => s.isPremium);
+
+  if (!mod) {
+    navigate('/modulos');
+    return null;
+  }
+
+  const levels = Array.from({ length: mod.levels }, (_, i) => i + 1);
+
+  return (
+    <div className="min-h-screen pb-24">
+      <Header title={mod.name} showBack />
+
+      <div className="px-4 py-5 max-w-lg mx-auto">
+        {/* Module header */}
+        <div className="flex items-center gap-3 mb-6">
+          <div
+            className="w-14 h-14 flex items-center justify-center rounded-2xl text-3xl"
+            style={{ backgroundColor: mod.colorPale }}
+          >
+            {mod.icon}
+          </div>
+          <div>
+            <h2 className="font-heading font-extrabold text-lg">{mod.name}</h2>
+            <p className="text-xs text-fg-muted">{mod.description}</p>
+          </div>
+        </div>
+
+        {/* Level cards */}
+        <div className="space-y-3">
+          {levels.map((level, i) => {
+            const unlocked = isLevelUnlocked(mod.id, level);
+            const levelProgress = progress.find((p) => p.module === mod.id && p.level === level);
+            const isFree = mod.id === 'fonologia' && level === 1; // Free tier content
+            const needsPremium = !isFree && !isPremium() && level > 1;
+
+            return (
+              <motion.div
+                key={level}
+                initial={{ opacity: 0, y: 15 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.06 }}
+              >
+                <Card
+                  hover={unlocked && !needsPremium}
+                  onClick={() => {
+                    if (needsPremium) {
+                      navigate('/premium');
+                    } else if (unlocked) {
+                      navigate(`/ejercicio/${mod.id}/${level}`);
+                    }
+                  }}
+                  className={!unlocked ? 'opacity-50' : ''}
+                >
+                  <div className="flex items-center gap-4">
+                    <div
+                      className="w-12 h-12 flex items-center justify-center rounded-xl font-heading font-black text-lg"
+                      style={{
+                        backgroundColor: unlocked ? mod.colorPale : 'var(--color-border)',
+                        color: unlocked ? mod.color : 'var(--color-fg-muted)',
+                      }}
+                    >
+                      {unlocked ? level : '🔒'}
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-2">
+                        <h3 className="font-heading font-extrabold text-sm">
+                          Nivel {level} · {LEVEL_NAMES[level]}
+                        </h3>
+                        {needsPremium && (
+                          <span className="text-[10px] font-extrabold bg-yellow-pale text-yellow px-2 py-0.5 rounded-full">
+                            PREMIUM
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-xs text-fg-muted mt-0.5">
+                        {levelProgress
+                          ? `Mejor: ${levelProgress.best_score}% · ${levelProgress.attempts} intentos`
+                          : '30 ejercicios · 3 tipos'}
+                      </p>
+                    </div>
+                    <div className="flex flex-col items-end gap-1">
+                      {levelProgress && <Stars count={levelProgress.stars} size={16} />}
+                      {unlocked && !needsPremium && (
+                        <span className="text-xs font-bold text-accent">
+                          {levelProgress ? 'Repetir' : 'Empezar'} →
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                </Card>
+              </motion.div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+}

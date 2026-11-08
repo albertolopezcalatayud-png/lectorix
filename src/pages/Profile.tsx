@@ -1,0 +1,145 @@
+import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { useAppStore } from '@/stores/useAppStore';
+import { calculateXPLevel } from '@/services/gamification';
+import { MODULES } from '@/data/modules';
+import { Header } from '@/components/layout/Header';
+import { Card } from '@/components/ui/Card';
+import { ProgressBar } from '@/components/ui/ProgressBar';
+import { Badge } from '@/components/ui/Badge';
+
+export default function Profile() {
+  const navigate = useNavigate();
+  const user = useAppStore((s) => s.user);
+  const progress = useAppStore((s) => s.progress);
+  const totalXP = user?.total_xp || 0;
+  const streak = user?.streak_days || 0;
+  const { level, currentXP, nextLevelXP } = calculateXPLevel(totalXP);
+
+  const totalStars = progress.reduce((sum, p) => sum + p.stars, 0);
+  const completedLevels = progress.filter((p) => p.stars > 0).length;
+  const totalAttempts = progress.reduce((sum, p) => sum + p.attempts, 0);
+
+  return (
+    <div className="min-h-screen pb-24">
+      <Header title="Mi Perfil" />
+
+      <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
+        {/* Avatar & Name */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="flex flex-col items-center text-center"
+        >
+          <div className="w-20 h-20 rounded-full bg-accent-pale flex items-center justify-center text-4xl mb-3">
+            {user?.avatar || '🧑‍🎓'}
+          </div>
+          <h2 className="font-heading font-black text-xl">{user?.display_name || 'Estudiante'}</h2>
+          <p className="text-sm text-fg-muted">{user?.email || ''}</p>
+          <div className="flex gap-2 mt-2">
+            <Badge color="accent">Nivel {level}</Badge>
+            <Badge color="yellow">🔥 {streak} días</Badge>
+          </div>
+        </motion.div>
+
+        {/* XP Progress */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+        >
+          <Card>
+            <div className="flex justify-between items-center mb-2">
+              <span className="text-sm font-bold">Experiencia</span>
+              <span className="text-xs text-fg-muted">{totalXP} XP total</span>
+            </div>
+            <ProgressBar
+              value={(currentXP / nextLevelXP) * 100}
+              color="var(--color-accent)"
+              height={8}
+            />
+            <p className="text-[10px] text-fg-muted mt-1">
+              {currentXP} / {nextLevelXP} XP para nivel {level + 1}
+            </p>
+          </Card>
+        </motion.div>
+
+        {/* Stats */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.15 }}
+        >
+          <Card>
+            <h3 className="font-heading font-extrabold text-sm mb-3">Estadísticas</h3>
+            <div className="grid grid-cols-3 gap-4 text-center">
+              <div>
+                <div className="text-2xl font-heading font-black text-yellow">⭐ {totalStars}</div>
+                <div className="text-[10px] text-fg-muted">Estrellas</div>
+              </div>
+              <div>
+                <div className="text-2xl font-heading font-black text-mint">{completedLevels}</div>
+                <div className="text-[10px] text-fg-muted">Niveles</div>
+              </div>
+              <div>
+                <div className="text-2xl font-heading font-black text-sky">{totalAttempts}</div>
+                <div className="text-[10px] text-fg-muted">Intentos</div>
+              </div>
+            </div>
+          </Card>
+        </motion.div>
+
+        {/* Module progress */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+        >
+          <Card>
+            <h3 className="font-heading font-extrabold text-sm mb-3">Progreso por módulo</h3>
+            <div className="space-y-3">
+              {MODULES.map((mod) => {
+                const modProgress = progress.filter((p) => p.module === mod.id);
+                const completed = modProgress.filter((p) => p.stars > 0).length;
+                const pct = (completed / mod.levels) * 100;
+
+                return (
+                  <div key={mod.id} className="flex items-center gap-3">
+                    <span className="text-xl">{mod.icon}</span>
+                    <div className="flex-1">
+                      <div className="flex justify-between text-xs mb-1">
+                        <span className="font-bold">{mod.name}</span>
+                        <span className="text-fg-muted">{completed}/{mod.levels}</span>
+                      </div>
+                      <ProgressBar value={pct} color={mod.color} height={5} />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </Card>
+        </motion.div>
+
+        {/* Actions */}
+        <div className="space-y-2">
+          <button
+            onClick={() => navigate('/ajustes')}
+            className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
+          >
+            <span>⚙️</span>
+            <span className="text-sm font-bold">Ajustes</span>
+            <span className="ml-auto text-fg-muted">→</span>
+          </button>
+          <button
+            onClick={() => navigate('/panel-padres')}
+            className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
+          >
+            <span>👨‍👩‍👧</span>
+            <span className="text-sm font-bold">Panel para padres</span>
+            <span className="ml-auto text-fg-muted">→</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}

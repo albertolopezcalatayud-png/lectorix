@@ -1,0 +1,115 @@
+import type { AnswerResult } from '@/types';
+
+// XP multipliers per level
+const LEVEL_MULTIPLIERS: Record<number, number> = {
+  1: 1.0,
+  2: 1.5,
+  3: 2.0,
+  4: 2.5,
+  5: 3.0,
+};
+
+const BASE_XP = 10;
+const STREAK_BONUS = 5;
+const STREAK_THRESHOLD = 3;
+
+// ─── XP Calculation ───
+export function calculateSessionXP(args: {
+  level: number;
+  answers: { correct: boolean }[];
+}): number {
+  const multiplier = LEVEL_MULTIPLIERS[args.level] ?? 1;
+  let xp = 0;
+  let streak = 0;
+
+  for (const answer of args.answers) {
+    if (answer.correct) {
+      xp += BASE_XP * multiplier;
+      streak++;
+      if (streak > 0 && streak % STREAK_THRESHOLD === 0) {
+        xp += STREAK_BONUS;
+      }
+    } else {
+      streak = 0;
+    }
+  }
+
+  return Math.round(xp);
+}
+
+// ─── Stars (1-3) ───
+export function calculateStars(correct: number, total: number): number {
+  if (total === 0) return 0;
+  const pct = (correct / total) * 100;
+  if (pct >= 90) return 3;
+  if (pct >= 80) return 2;
+  if (pct >= 70) return 1;
+  return 0;
+}
+
+// ─── Level Unlock (≥70%) ───
+export function shouldUnlockNextLevel(correct: number, total: number): boolean {
+  if (total === 0) return false;
+  return (correct / total) * 100 >= 70;
+}
+
+// ─── XP → Level (100 XP per level, exponential) ───
+export function calculateXPLevel(totalXP: number): {
+  level: number;
+  currentXP: number;
+  nextLevelXP: number;
+  progress: number;
+} {
+  let level = 1;
+  let xpNeeded = 100;
+  let remaining = totalXP;
+
+  while (remaining >= xpNeeded) {
+    remaining -= xpNeeded;
+    level++;
+    xpNeeded = Math.floor(100 * Math.pow(1.2, level - 1));
+  }
+
+  return {
+    level,
+    currentXP: remaining,
+    nextLevelXP: xpNeeded,
+    progress: remaining / xpNeeded,
+  };
+}
+
+// ─── Score percentage ───
+export function calculateScore(correct: number, total: number): number {
+  if (total === 0) return 0;
+  return Math.round((correct / total) * 100);
+}
+
+// ─── Session summary ───
+export function buildSessionResult(args: {
+  module: string;
+  level: number;
+  answers: AnswerResult[];
+  startTime: number;
+}) {
+  const correct = args.answers.filter((a) => a.is_correct).length;
+  const total = args.answers.length;
+  const score = calculateScore(correct, total);
+  const stars = calculateStars(correct, total);
+  const xp = calculateSessionXP({
+    level: args.level,
+    answers: args.answers.map((a) => ({ correct: a.is_correct })),
+  });
+
+  return {
+    module: args.module,
+    level: args.level,
+    total_questions: total,
+    correct_answers: correct,
+    score_percent: score,
+    stars,
+    xp_earned: xp,
+    time_ms: Date.now() - args.startTime,
+    answers: args.answers,
+    completed_at: new Date().toISOString(),
+  };
+}
