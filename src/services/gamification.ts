@@ -1,4 +1,4 @@
-import type { AnswerResult } from '@/types';
+import type { AnswerResult, ModuleId, SessionResult } from '@/types';
 
 // XP multipliers per level
 const LEVEL_MULTIPLIERS: Record<number, number> = {
@@ -86,11 +86,11 @@ export function calculateScore(correct: number, total: number): number {
 
 // ─── Session summary ───
 export function buildSessionResult(args: {
-  module: string;
+  module: ModuleId;
   level: number;
   answers: AnswerResult[];
   startTime: number;
-}) {
+}): SessionResult {
   const correct = args.answers.filter((a) => a.is_correct).length;
   const total = args.answers.length;
   const score = calculateScore(correct, total);
@@ -101,7 +101,8 @@ export function buildSessionResult(args: {
   });
 
   return {
-    module: args.module,
+    id: `${args.module}_l${args.level}_${Date.now()}`,
+    module: args.module as ModuleId,
     level: args.level,
     total_questions: total,
     correct_answers: correct,

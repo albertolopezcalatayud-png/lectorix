@@ -123,6 +123,14 @@ export default function Profile() {
         {/* Actions */}
         <div className="space-y-2">
           <button
+            onClick={() => navigate('/historial')}
+            className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
+          >
+            <span>📋</span>
+            <span className="text-sm font-bold">Historial de sesiones</span>
+            <span className="ml-auto text-fg-muted">→</span>
+          </button>
+          <button
             onClick={() => navigate('/ajustes')}
             className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
           >

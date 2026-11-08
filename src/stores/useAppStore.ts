@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import type { UserProfile, StudentProgress, Subscription, ModuleId } from '@/types';
+import type { UserProfile, StudentProgress, Subscription, ModuleId, SessionResult } from '@/types';
 
 interface AppState {
   // Auth
@@ -41,6 +41,10 @@ interface AppState {
   setFontSize: (size: 'small' | 'normal' | 'large' | 'xlarge') => void;
   highContrast: boolean;
   setHighContrast: (on: boolean) => void;
+
+  // Session History
+  sessionHistory: SessionResult[];
+  addSession: (session: SessionResult) => void;
 
   // Onboarding
   onboardingDone: boolean;
@@ -148,6 +152,13 @@ export const useAppStore = create<AppState>()(
         set({ fontSize });
         document.documentElement.setAttribute('data-fontsize', fontSize);
       },
+      // Session History
+      sessionHistory: [],
+      addSession: (session) =>
+        set((state) => ({
+          sessionHistory: [session, ...state.sessionHistory].slice(0, 100), // Keep last 100
+        })),
+
       // Onboarding
       onboardingDone: false,
       setOnboardingDone: (done) => set({ onboardingDone: done }),
@@ -174,6 +185,7 @@ export const useAppStore = create<AppState>()(
         fontSize: state.fontSize,
         highContrast: state.highContrast,
         onboardingDone: state.onboardingDone,
+        sessionHistory: state.sessionHistory,
       }),
     }
   )

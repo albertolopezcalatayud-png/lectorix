@@ -24,6 +24,7 @@ export default function Exercise() {
   const updateProgress = useAppStore((s) => s.updateProgress);
   const addXP = useAppStore((s) => s.addXP);
   const updateStreak = useAppStore((s) => s.updateStreak);
+  const addSession = useAppStore((s) => s.addSession);
 
   const handleAnswer = useCallback(
     (selectedIndex: number, isCorrect: boolean, timeMs: number) => {
@@ -61,6 +62,7 @@ export default function Exercise() {
         });
         addXP(result.xp_earned);
         updateStreak();
+        addSession(result);
 
         // Navigate to results
         navigate('/resultados', { state: { result }, replace: true });

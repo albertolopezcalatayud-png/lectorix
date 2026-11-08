@@ -19,6 +19,7 @@ const Profile = lazy(() => import('@/pages/Profile'));
 const Settings = lazy(() => import('@/pages/Settings'));
 const Premium = lazy(() => import('@/pages/Premium'));
 const ParentPanel = lazy(() => import('@/pages/ParentPanel'));
+const History = lazy(() => import('@/pages/History'));
 const Login = lazy(() => import('@/pages/Login'));
 
 function LoadingSpinner() {
@@ -50,6 +51,7 @@ function AnimatedRoutes() {
         <Route path="/perfil" element={<PageTransition><Profile /></PageTransition>} />
         <Route path="/ajustes" element={<PageTransition><Settings /></PageTransition>} />
         <Route path="/premium" element={<PageTransition><Premium /></PageTransition>} />
+        <Route path="/historial" element={<PageTransition><History /></PageTransition>} />
         <Route path="/panel-padres" element={<PageTransition><ParentPanel /></PageTransition>} />
       </Routes>
     </AnimatePresence>
