@@ -33,6 +33,14 @@ interface AppState {
   // Language
   language: 'es' | 'ca' | 'en';
   setLanguage: (lang: 'es' | 'ca' | 'en') => void;
+
+  // Accessibility
+  fontFamily: 'default' | 'dyslexic';
+  setFontFamily: (font: 'default' | 'dyslexic') => void;
+  fontSize: 'small' | 'normal' | 'large' | 'xlarge';
+  setFontSize: (size: 'small' | 'normal' | 'large' | 'xlarge') => void;
+  highContrast: boolean;
+  setHighContrast: (on: boolean) => void;
 }
 
 export const useAppStore = create<AppState>()(
@@ -120,6 +128,31 @@ export const useAppStore = create<AppState>()(
       // Language
       language: 'es',
       setLanguage: (language) => set({ language }),
+
+      // Accessibility
+      fontFamily: 'default',
+      setFontFamily: (fontFamily) => {
+        set({ fontFamily });
+        if (fontFamily === 'dyslexic') {
+          document.documentElement.setAttribute('data-font', 'dyslexic');
+        } else {
+          document.documentElement.removeAttribute('data-font');
+        }
+      },
+      fontSize: 'normal',
+      setFontSize: (fontSize) => {
+        set({ fontSize });
+        document.documentElement.setAttribute('data-fontsize', fontSize);
+      },
+      highContrast: false,
+      setHighContrast: (highContrast) => {
+        set({ highContrast });
+        if (highContrast) {
+          document.documentElement.setAttribute('data-contrast', 'high');
+        } else {
+          document.documentElement.removeAttribute('data-contrast');
+        }
+      },
     }),
     {
       name: 'lectorix-store',
@@ -129,6 +162,9 @@ export const useAppStore = create<AppState>()(
         subscription: state.subscription,
         theme: state.theme,
         language: state.language,
+        fontFamily: state.fontFamily,
+        fontSize: state.fontSize,
+        highContrast: state.highContrast,
       }),
     }
   )

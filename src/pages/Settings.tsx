@@ -14,6 +14,12 @@ export default function Settings() {
   const setLanguage = useAppStore((s) => s.setLanguage);
   const user = useAppStore((s) => s.user);
   const setUser = useAppStore((s) => s.setUser);
+  const fontFamily = useAppStore((s) => s.fontFamily);
+  const setFontFamily = useAppStore((s) => s.setFontFamily);
+  const fontSize = useAppStore((s) => s.fontSize);
+  const setFontSize = useAppStore((s) => s.setFontSize);
+  const highContrast = useAppStore((s) => s.highContrast);
+  const setHighContrast = useAppStore((s) => s.setHighContrast);
 
   const [soundOn, setSoundOn] = useState(isSoundEnabled());
   const [ttsOn, setTtsOn] = useState(isTTSEnabled());
@@ -161,6 +167,89 @@ export default function Settings() {
                 )}
               </>
             )}
+          </div>
+        </Card>
+
+        {/* Accessibility */}
+        <Card>
+          <h3 className="font-heading font-extrabold text-sm mb-3">Accesibilidad</h3>
+          <div className="space-y-4">
+            {/* Font family */}
+            <div>
+              <span className="text-xs text-fg-muted block mb-2">Tipografía</span>
+              <div className="flex gap-2">
+                <button
+                  onClick={() => setFontFamily('default')}
+                  className={`flex-1 py-2.5 px-3 rounded-xl text-center text-sm font-bold transition-colors ${
+                    fontFamily === 'default'
+                      ? 'bg-accent text-white'
+                      : 'bg-bg border border-border'
+                  }`}
+                >
+                  <span className="block text-base mb-0.5" style={{ fontFamily: 'Nunito, sans-serif' }}>Aa</span>
+                  Estándar
+                </button>
+                <button
+                  onClick={() => setFontFamily('dyslexic')}
+                  className={`flex-1 py-2.5 px-3 rounded-xl text-center text-sm font-bold transition-colors ${
+                    fontFamily === 'dyslexic'
+                      ? 'bg-accent text-white'
+                      : 'bg-bg border border-border'
+                  }`}
+                >
+                  <span className="block text-base mb-0.5" style={{ fontFamily: 'OpenDyslexic, sans-serif' }}>Aa</span>
+                  Dislexia
+                </button>
+              </div>
+              <p className="text-[10px] text-fg-muted mt-1.5">
+                La fuente OpenDyslexic facilita la lectura para personas con dislexia
+              </p>
+            </div>
+
+            {/* Font size */}
+            <div>
+              <span className="text-xs text-fg-muted block mb-2">Tamaño del texto</span>
+              <div className="flex gap-1.5">
+                {([
+                  { value: 'small' as const, label: 'A', size: 'text-xs' },
+                  { value: 'normal' as const, label: 'A', size: 'text-sm' },
+                  { value: 'large' as const, label: 'A', size: 'text-lg' },
+                  { value: 'xlarge' as const, label: 'A', size: 'text-xl' },
+                ]).map((s) => (
+                  <button
+                    key={s.value}
+                    onClick={() => setFontSize(s.value)}
+                    className={`flex-1 py-2 rounded-xl text-center font-bold transition-colors ${s.size} ${
+                      fontSize === s.value
+                        ? 'bg-accent text-white'
+                        : 'bg-bg border border-border'
+                    }`}
+                  >
+                    {s.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* High contrast */}
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <span className="text-lg">◑</span>
+                <span className="text-sm font-bold">Alto contraste</span>
+              </div>
+              <button
+                onClick={() => setHighContrast(!highContrast)}
+                className={`relative w-11 h-6 rounded-full transition-colors ${
+                  highContrast ? 'bg-accent' : 'bg-border'
+                }`}
+              >
+                <span
+                  className={`absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform ${
+                    highContrast ? 'translate-x-5' : 'translate-x-0'
+                  }`}
+                />
+              </button>
+            </div>
           </div>
         </Card>
 

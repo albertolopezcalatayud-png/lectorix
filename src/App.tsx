@@ -1,7 +1,8 @@
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { BottomNav } from '@/components/layout/BottomNav';
+import { useAppStore } from '@/stores/useAppStore';
 
 // Lazy load pages
 const Dashboard = lazy(() => import('@/pages/Dashboard'));
@@ -30,6 +31,27 @@ function LoadingSpinner() {
 }
 
 export default function App() {
+  const fontFamily = useAppStore((s) => s.fontFamily);
+  const fontSize = useAppStore((s) => s.fontSize);
+  const highContrast = useAppStore((s) => s.highContrast);
+  const theme = useAppStore((s) => s.theme);
+
+  // Apply persisted accessibility settings on mount
+  useEffect(() => {
+    if (fontFamily === 'dyslexic') {
+      document.documentElement.setAttribute('data-font', 'dyslexic');
+    }
+    if (fontSize !== 'normal') {
+      document.documentElement.setAttribute('data-fontsize', fontSize);
+    }
+    if (highContrast) {
+      document.documentElement.setAttribute('data-contrast', 'high');
+    }
+    if (theme !== 'system') {
+      document.documentElement.setAttribute('data-theme', theme);
+    }
+  }, []);
+
   return (
     <HashRouter>
       <div className="min-h-screen bg-bg text-fg">

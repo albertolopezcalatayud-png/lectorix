@@ -6,6 +6,7 @@ import { getModule, LEVEL_NAMES } from '@/data/modules';
 import { Card } from '@/components/ui/Card';
 import { Stars } from '@/components/ui/Stars';
 import { Button } from '@/components/ui/Button';
+import { Confetti } from '@/components/ui/Confetti';
 import sounds from '@/services/sounds';
 
 export default function Results() {
@@ -52,6 +53,9 @@ export default function Results() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-4 py-8">
+      {/* Confetti for 3 stars or level unlock */}
+      <Confetti active={result.stars >= 3 || unlocked} />
+
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}

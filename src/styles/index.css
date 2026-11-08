@@ -3,6 +3,10 @@
 /* ─── Google Fonts ─── */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Nunito+Sans:wght@400;600;700&display=swap');
 
+/* ─── OpenDyslexic (accessibility font) ─── */
+@import "@fontsource/opendyslexic/400.css";
+@import "@fontsource/opendyslexic/700.css";
+
 /* ─── Design Tokens ─── */
 @theme {
   --color-bg: #F7F5FF;
@@ -82,11 +86,55 @@ body {
   color: var(--color-fg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: var(--font-size-base, 16px);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
 }
+
+/* ─── OpenDyslexic font mode ─── */
+:root[data-font="dyslexic"] body,
+:root[data-font="dyslexic"] h1,
+:root[data-font="dyslexic"] h2,
+:root[data-font="dyslexic"] h3,
+:root[data-font="dyslexic"] h4,
+:root[data-font="dyslexic"] h5,
+:root[data-font="dyslexic"] h6,
+:root[data-font="dyslexic"] button,
+:root[data-font="dyslexic"] input,
+:root[data-font="dyslexic"] select,
+:root[data-font="dyslexic"] textarea {
+  font-family: 'OpenDyslexic', sans-serif !important;
+  letter-spacing: 0.05em;
+  word-spacing: 0.15em;
+}
+
+/* ─── High contrast mode ─── */
+:root[data-contrast="high"] {
+  --color-fg: #000000;
+  --color-fg-muted: #333333;
+  --color-bg: #FFFFFF;
+  --color-bg-card: #F5F5F5;
+  --color-border: #999999;
+  --color-accent: #6D28D9;
+}
+
+:root[data-contrast="high"][data-theme="dark"],
+:root[data-contrast="high"]:not([data-theme="light"]) {
+  --color-fg: #FFFFFF;
+  --color-fg-muted: #CCCCCC;
+  --color-bg: #000000;
+  --color-bg-card: #1A1A1A;
+  --color-border: #666666;
+  --color-accent: #C4B5FD;
+}
+
+/* ─── Font size scaling ─── */
+:root[data-fontsize="small"] { --font-size-base: 14px; }
+:root[data-fontsize="normal"] { --font-size-base: 16px; }
+:root[data-fontsize="large"] { --font-size-base: 19px; }
+:root[data-fontsize="xlarge"] { --font-size-base: 22px; }
 
 /* ─── PWA standalone safe area ─── */
 @supports (padding-top: env(safe-area-inset-top)) {
