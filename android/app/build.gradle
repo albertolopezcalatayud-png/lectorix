@@ -1,0 +1,43 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.lectorix.app'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.lectorix.app"
+        minSdk 24
+        targetSdk 36
+        versionCode (System.getenv('VERSION_CODE') ?: '1') as int
+        versionName "1.0.0"
+
+        // TWA configuration
+        manifestPlaceholders = [
+            hostName   : "albertolopezcalatayud-png.github.io",
+            defaultUrl : "https://albertolopezcalatayud-png.github.io/lectorix/",
+            launcherName: "Lectorix",
+            assetStatements: '[{ "relation": ["delegate_permission/common.handle_all_urls"], ' +
+                    '"target": { "namespace": "web", "site": "https://albertolopezcalatayud-png.github.io" } }]'
+        ]
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.browser:browser:1.8.0'
+    implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.5.0'
+}
