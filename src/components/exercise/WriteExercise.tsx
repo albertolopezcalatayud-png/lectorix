@@ -28,6 +28,31 @@ function stripAccents(str: string): string {
   return str.normalize('NFD').replace(/́/g, '').normalize('NFC');
 }
 
+type DiffWord = { text: string; ok: boolean };
+
+/** Marks which typed words match the expected sentence (longest common subsequence) */
+export function diffWords(typed: string, expected: string): { typed: DiffWord[]; missing: string[] } {
+  const a = typed.trim().split(/\s+/).filter(Boolean);
+  const b = expected.trim().split(/\s+/).filter(Boolean);
+  const na = a.map(normalizeAnswer);
+  const nb = b.map(normalizeAnswer);
+  const dp: number[][] = Array.from({ length: a.length + 1 }, () => Array(b.length + 1).fill(0));
+  for (let i = a.length - 1; i >= 0; i--)
+    for (let j = b.length - 1; j >= 0; j--)
+      dp[i][j] = na[i] === nb[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+  const okA = new Set<number>();
+  const okB = new Set<number>();
+  for (let i = 0, j = 0; i < a.length && j < b.length; ) {
+    if (na[i] === nb[j]) { okA.add(i); okB.add(j); i++; j++; }
+    else if (dp[i + 1][j] >= dp[i][j + 1]) i++;
+    else j++;
+  }
+  return {
+    typed: a.map((text, i) => ({ text, ok: okA.has(i) })),
+    missing: b.filter((_, j) => !okB.has(j)).map((w) => w.replace(/[.,;:!?¿¡"']/g, '')),
+  };
+}
+
 export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnswer, examMode }: WriteExerciseProps) {
   const [userInput, setUserInput] = useState('');
   const [showFeedback, setShowFeedback] = useState(false);
@@ -36,11 +61,15 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
   const [showHint, setShowHint] = useState(false);
   const [startTime] = useState(Date.now());
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [diff, setDiff] = useState<{ typed: DiffWord[]; missing: string[] } | null>(null);
+  const answerRef = useRef<{ correct: boolean; timeMs: number } | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const { t } = useI18n();
 
   // Dictation: the word is only heard, never shown
   const isDictation = !!exercise.word && /^escucha/i.test(exercise.prompt);
+  const isSentence = (exercise.answer || '').trim().includes(' ');
+  const dictationRate = isSentence ? 0.75 : 0.7;
 
   useEffect(() => {
     // Focus input on mount
@@ -50,13 +79,13 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
     if (isDictation && tts.isAvailable()) {
       playTimer = setTimeout(async () => {
         setIsSpeaking(true);
-        try { await tts.speak(exercise.word!, { rate: 0.7 }); } finally { setIsSpeaking(false); }
+        try { await tts.speak(exercise.word!, { rate: dictationRate }); } finally { setIsSpeaking(false); }
       }, 500);
     }
     return () => { clearTimeout(focusTimer); if (playTimer) clearTimeout(playTimer); };
   }, [exercise.id]);
 
-  const handleSpeak = useCallback(async (text: string) => {
+  const handleSpeak = useCallback(async (text: string, rate?: number) => {
     if (isSpeaking) {
       tts.stop();
       setIsSpeaking(false);
@@ -64,7 +93,7 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
     }
     setIsSpeaking(true);
     try {
-      await tts.speak(text);
+      await tts.speak(text, rate ? { rate } : undefined);
     } finally {
       setIsSpeaking(false);
     }
@@ -84,28 +113,38 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
     setIsCorrect(correct);
     setIsClose(close);
     setShowFeedback(true);
+    setDiff(!correct && isSentence ? diffWords(userInput, correctAnswer) : null);
 
     const timeMs = Date.now() - startTime;
+    answerRef.current = { correct, timeMs };
 
     if (correct) {
       sounds.correct();
+      setTimeout(goNext, 1500);
     } else {
       sounds.incorrect();
+      // On a mistake the student moves on when ready: time to read the correction
     }
+  };
 
-    setTimeout(() => {
-      onAnswer(correct ? 0 : -1, correct, timeMs);
-      setUserInput('');
-      setShowFeedback(false);
-      setShowHint(false);
-      setIsCorrect(false);
-      setIsClose(false);
-    }, 2000);
+  const goNext = () => {
+    const a = answerRef.current;
+    if (!a) return;
+    answerRef.current = null;
+    tts.stop();
+    onAnswer(a.correct ? 0 : -1, a.correct, a.timeMs);
+    setUserInput('');
+    setShowFeedback(false);
+    setShowHint(false);
+    setIsCorrect(false);
+    setIsClose(false);
+    setDiff(null);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
-      checkAnswer();
+      if (showFeedback) goNext();
+      else checkAnswer();
     }
   };
 
@@ -135,9 +174,9 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
 
         {/* Dictation: big listen button only */}
         {isDictation && (
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center gap-3">
             <button
-              onClick={() => handleSpeak(exercise.word!)}
+              onClick={() => handleSpeak(exercise.word!, dictationRate)}
               className={`w-20 h-20 rounded-full text-3xl flex items-center justify-center transition-colors ${
                 isSpeaking ? 'bg-accent text-white' : 'bg-accent-pale text-accent hover:bg-accent/20'
               }`}
@@ -145,6 +184,15 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
             >
               {isSpeaking ? '⏹' : '🔊'}
             </button>
+            {tts.isAvailable() && (
+              <button
+                onClick={() => handleSpeak(exercise.word!, 0.5)}
+                className="h-11 px-3 rounded-full bg-mint-pale text-mint text-sm font-bold hover:bg-mint/20 transition-colors"
+                aria-label={t('dict_slow')}
+              >
+                🐢 {t('dict_slow')}
+              </button>
+            )}
           </div>
         )}
 
@@ -194,7 +242,7 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
             value={userInput}
             onChange={(e) => setUserInput(e.target.value)}
             onKeyDown={handleKeyDown}
-            disabled={showFeedback}
+            readOnly={showFeedback}
             placeholder={t('write_placeholder')}
             autoComplete="off"
             autoCapitalize="off"
@@ -277,6 +325,23 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
                 {isClose && (
                   <span className="block text-xs font-semibold mt-0.5">{t('write_close')}</span>
                 )}
+                {diff && (
+                  <span className="block mt-2 text-fg">
+                    <span className="block text-[11px] font-bold text-fg-muted mb-1">{t('dict_your_sentence')}</span>
+                    <span className="flex flex-wrap gap-1">
+                      {diff.typed.map((w, i) => (
+                        <span key={i} className={`px-1.5 py-0.5 rounded-md text-sm ${w.ok ? 'bg-mint-pale text-mint' : 'bg-red-pale text-red line-through decoration-2'}`}>
+                          {w.text}
+                        </span>
+                      ))}
+                    </span>
+                    {diff.missing.length > 0 && (
+                      <span className="block text-[11px] font-bold text-fg-muted mt-1.5">
+                        {t('dict_missing')}: <span className="text-fg">{diff.missing.join(', ')}</span>
+                      </span>
+                    )}
+                  </span>
+                )}
                 {!examMode && exercise.explanation && (
                   <span className="block text-xs font-normal text-fg-muted mt-0.5">
                     {exercise.explanation}
@@ -286,6 +351,27 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
             </motion.div>
           )}
         </AnimatePresence>
+
+        {/* After a mistake: listen again and continue when ready */}
+        {showFeedback && !isCorrect && (
+          <div className="flex gap-2">
+            {isDictation && tts.isAvailable() && (
+              <button
+                onClick={() => handleSpeak(exercise.word!, 0.5)}
+                className="flex-1 py-3 rounded-[14px] bg-accent-pale text-accent font-heading font-extrabold text-sm"
+              >
+                🔊 {t('dict_listen_again')}
+              </button>
+            )}
+            <motion.button
+              whileTap={{ scale: 0.97 }}
+              onClick={goNext}
+              className="flex-1 py-3 rounded-[14px] bg-accent text-white font-heading font-extrabold text-sm"
+            >
+              {t('ex_next')} →
+            </motion.button>
+          </div>
+        )}
       </motion.div>
     </AnimatePresence>
   );

@@ -10,7 +10,7 @@ import { ExerciseCard } from '@/components/exercise/ExerciseCard';
 import { DragDropExercise } from '@/components/exercise/DragDropExercise';
 import { WriteExercise } from '@/components/exercise/WriteExercise';
 import { useI18n } from '@/i18n';
-import notifications from '@/services/notifications';
+import { recordSession } from '@/services/session';
 
 export default function Exercise() {
   const { moduleId, levelStr } = useParams<{ moduleId: string; levelStr: string }>();
@@ -42,9 +42,6 @@ export default function Exercise() {
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const updateProgress = useAppStore((s) => s.updateProgress);
-  const addXP = useAppStore((s) => s.addXP);
-  const updateStreak = useAppStore((s) => s.updateStreak);
-  const addSession = useAppStore((s) => s.addSession);
   const { t } = useI18n();
 
   // Exam timer effect
@@ -102,21 +99,10 @@ export default function Exercise() {
         unlocked: true,
       });
     }
-    const prevStreak = useAppStore.getState().user?.streak_days || 0;
-    addXP(result.xp_earned);
-    updateStreak();
-    addSession(result);
-
-    // Celebrate streak milestones (3, 7, 14, 30...) with a notification
-    const newStreak = useAppStore.getState().user?.streak_days || 0;
-    // Tell the reminder server today is done (no reminder today) + save streak for the push text
-    void notifications.markPracticed(newStreak, useAppStore.getState().language);
-    if (newStreak > prevStreak && [3, 7, 14, 30, 60, 100].includes(newStreak) && notifications.isEnabled()) {
-      notifications.showStreak(newStreak);
-    }
+    recordSession(result);
 
     navigate('/resultados', { state: { result, examMode }, replace: true });
-  }, [module, level, startTime, sessionMode, examMode, updateProgress, addXP, updateStreak, addSession, navigate]);
+  }, [module, level, startTime, sessionMode, examMode, updateProgress, navigate]);
 
   const handleAnswer = useCallback(
     (selectedIndex: number, isCorrect: boolean, timeMs: number) => {
@@ -205,6 +191,7 @@ export default function Exercise() {
       <div className="px-4 py-6 max-w-lg mx-auto">
         {currentExercise.type === 'write' ? (
           <WriteExercise
+            key={currentExercise.id}
             exercise={currentExercise}
             questionNumber={currentIndex + 1}
             totalQuestions={exercises.length}
@@ -213,6 +200,7 @@ export default function Exercise() {
           />
         ) : currentExercise.type === 'drag_order' || currentExercise.type === 'drag_fill' ? (
           <DragDropExercise
+            key={currentExercise.id}
             exercise={currentExercise}
             questionNumber={currentIndex + 1}
             totalQuestions={exercises.length}
@@ -220,6 +208,7 @@ export default function Exercise() {
           />
         ) : (
           <ExerciseCard
+            key={currentExercise.id}
             exercise={currentExercise}
             questionNumber={currentIndex + 1}
             totalQuestions={exercises.length}

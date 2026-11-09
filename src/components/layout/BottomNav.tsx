@@ -16,7 +16,7 @@ export function BottomNav() {
   const { t } = useI18n();
 
   // Hide on exercise pages
-  if (location.pathname.startsWith('/ejercicio') || location.pathname === '/resultados' || location.pathname === '/reto-diario') return null;
+  if (location.pathname.startsWith('/ejercicio') || location.pathname === '/resultados' || location.pathname === '/reto-diario' || location.pathname === '/dictado' || location.pathname.startsWith('/lectura/')) return null;
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 bg-bg-card border-t border-border z-50 pb-[env(safe-area-inset-bottom)]">

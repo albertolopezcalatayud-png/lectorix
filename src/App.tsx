@@ -22,6 +22,9 @@ const ParentPanel = lazy(() => import('@/pages/ParentPanel'));
 const History = lazy(() => import('@/pages/History'));
 const Mascot = lazy(() => import('@/pages/Mascot'));
 const Login = lazy(() => import('@/pages/Login'));
+const Dictation = lazy(() => import('@/pages/Dictation'));
+const ReadingList = lazy(() => import('@/pages/ReadingList'));
+const Reading = lazy(() => import('@/pages/Reading'));
 
 function LoadingSpinner() {
   return (
@@ -55,6 +58,9 @@ function AnimatedRoutes() {
         <Route path="/historial" element={<PageTransition><History /></PageTransition>} />
         <Route path="/mascota" element={<PageTransition><Mascot /></PageTransition>} />
         <Route path="/panel-padres" element={<PageTransition><ParentPanel /></PageTransition>} />
+        <Route path="/dictado" element={<PageTransition><Dictation /></PageTransition>} />
+        <Route path="/lectura" element={<PageTransition><ReadingList /></PageTransition>} />
+        <Route path="/lectura/:readingId" element={<PageTransition><Reading /></PageTransition>} />
       </Routes>
     </AnimatePresence>
   );

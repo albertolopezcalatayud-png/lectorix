@@ -1,0 +1,844 @@
+{
+  "readings": [
+    {
+      "id": "lectura_l1_gato",
+      "level": 1,
+      "title": "El gato Tom",
+      "emoji": "🐱",
+      "text": "Tom es un gato gris. Vive en una casa con jardín. Por la mañana, Tom toma leche. Por la tarde, juega con una bola de lana. Por la noche, duerme en su cama. Tom es un gato feliz.",
+      "questions": [
+        {
+          "id": "lectura_l1_gato_q1",
+          "prompt": "¿De qué color es Tom?",
+          "options": [
+            "Blanco",
+            "Negro",
+            "Gris"
+          ],
+          "correct": 2,
+          "explanation": "«Tom es un gato gris.»"
+        },
+        {
+          "id": "lectura_l1_gato_q2",
+          "prompt": "¿Con qué juega Tom?",
+          "options": [
+            "Con una pelota",
+            "Con una bola de lana",
+            "Con un ratón"
+          ],
+          "correct": 1,
+          "explanation": "«Por la tarde, juega con una bola de lana.»"
+        },
+        {
+          "id": "lectura_l1_gato_q3",
+          "prompt": "¿Qué hace Tom por la noche?",
+          "options": [
+            "Juega en el jardín",
+            "Toma leche",
+            "Duerme en su cama"
+          ],
+          "correct": 2,
+          "explanation": "«Por la noche, duerme en su cama.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l1_playa",
+      "level": 1,
+      "title": "La playa",
+      "emoji": "🏖️",
+      "text": "Hoy vamos a la playa. Papá lleva la sombrilla. Mamá lleva la comida. Yo llevo mi cubo y mi pala. En la arena hago un castillo. Luego me baño en el mar. ¡Qué bien lo paso!",
+      "questions": [
+        {
+          "id": "lectura_l1_playa_q1",
+          "prompt": "¿Quién lleva la sombrilla?",
+          "options": [
+            "Papá",
+            "Mamá",
+            "El niño"
+          ],
+          "correct": 0,
+          "explanation": "«Papá lleva la sombrilla.»"
+        },
+        {
+          "id": "lectura_l1_playa_q2",
+          "prompt": "¿Qué hace el niño en la arena?",
+          "options": [
+            "Un castillo",
+            "Un dibujo",
+            "Un hoyo"
+          ],
+          "correct": 0,
+          "explanation": "«En la arena hago un castillo.»"
+        },
+        {
+          "id": "lectura_l1_playa_q3",
+          "prompt": "¿Qué lleva el niño?",
+          "options": [
+            "La comida",
+            "La sombrilla",
+            "Su cubo y su pala"
+          ],
+          "correct": 2,
+          "explanation": "«Yo llevo mi cubo y mi pala.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l1_luna",
+      "level": 1,
+      "title": "Mi amiga Luna",
+      "emoji": "👧",
+      "text": "Luna es mi amiga. Tiene el pelo largo y rizado. Vamos juntas al cole. En el recreo saltamos a la comba. A Luna le gustan los dibujos de animales. Yo le regalo un dibujo de un caballo.",
+      "questions": [
+        {
+          "id": "lectura_l1_luna_q1",
+          "prompt": "¿Cómo tiene el pelo Luna?",
+          "options": [
+            "Corto y liso",
+            "Largo y rizado",
+            "Corto y rizado"
+          ],
+          "correct": 1,
+          "explanation": "«Tiene el pelo largo y rizado.»"
+        },
+        {
+          "id": "lectura_l1_luna_q2",
+          "prompt": "¿A qué juegan en el recreo?",
+          "options": [
+            "Al escondite",
+            "Al fútbol",
+            "A la comba"
+          ],
+          "correct": 2,
+          "explanation": "«En el recreo saltamos a la comba.»"
+        },
+        {
+          "id": "lectura_l1_luna_q3",
+          "prompt": "¿Qué dibujo le regala a Luna?",
+          "options": [
+            "Un gato",
+            "Un perro",
+            "Un caballo"
+          ],
+          "correct": 2,
+          "explanation": "«Yo le regalo un dibujo de un caballo.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l1_lluvia",
+      "level": 1,
+      "title": "La lluvia",
+      "emoji": "🌧️",
+      "text": "Hoy llueve mucho. Me pongo las botas y el chubasquero. Salto en los charcos. ¡Plof, plof! El agua salpica. Cuando sale el sol, veo un arcoíris en el cielo. Tiene muchos colores.",
+      "questions": [
+        {
+          "id": "lectura_l1_lluvia_q1",
+          "prompt": "¿Qué se pone para salir?",
+          "options": [
+            "Una bufanda",
+            "El bañador",
+            "Las botas y el chubasquero"
+          ],
+          "correct": 2,
+          "explanation": "«Me pongo las botas y el chubasquero.»"
+        },
+        {
+          "id": "lectura_l1_lluvia_q2",
+          "prompt": "¿Dónde salta?",
+          "options": [
+            "En los charcos",
+            "En la cama",
+            "En la arena"
+          ],
+          "correct": 0,
+          "explanation": "«Salto en los charcos.»"
+        },
+        {
+          "id": "lectura_l1_lluvia_q3",
+          "prompt": "¿Qué ve cuando sale el sol?",
+          "options": [
+            "La luna",
+            "Una estrella",
+            "Un arcoíris"
+          ],
+          "correct": 2,
+          "explanation": "«Cuando sale el sol, veo un arcoíris en el cielo.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l2_cumple",
+      "level": 2,
+      "title": "El cumpleaños de Pablo",
+      "emoji": "🎂",
+      "text": "Hoy es el cumpleaños de Pablo. Cumple ocho años. Sus amigos llegan a las cinco con regalos. La abuela ha hecho una tarta de chocolate con ocho velas. Todos cantan y Pablo sopla muy fuerte. ¡Se apagan todas las velas a la vez!\n\nDespués juegan a buscar un tesoro escondido en el jardín. El tesoro es una caja llena de caramelos.",
+      "questions": [
+        {
+          "id": "lectura_l2_cumple_q1",
+          "prompt": "¿Cuántos años cumple Pablo?",
+          "options": [
+            "Ocho",
+            "Nueve",
+            "Siete"
+          ],
+          "correct": 0,
+          "explanation": "«Cumple ocho años.» Además, la tarta tiene ocho velas."
+        },
+        {
+          "id": "lectura_l2_cumple_q2",
+          "prompt": "¿Quién ha hecho la tarta?",
+          "options": [
+            "La abuela",
+            "Pablo",
+            "Su madre"
+          ],
+          "correct": 0,
+          "explanation": "«La abuela ha hecho una tarta de chocolate.»"
+        },
+        {
+          "id": "lectura_l2_cumple_q3",
+          "prompt": "¿Qué hay dentro de la caja del tesoro?",
+          "options": [
+            "Juguetes",
+            "Caramelos",
+            "Monedas"
+          ],
+          "correct": 1,
+          "explanation": "«El tesoro es una caja llena de caramelos.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l2_hormiga",
+      "level": 2,
+      "title": "La hormiga Rita",
+      "emoji": "🐜",
+      "text": "En verano, la hormiga Rita trabaja sin parar. Lleva semillas y migas a su hormiguero. Su vecina, la cigarra, canta todo el día bajo un árbol.\n\n—¿Por qué trabajas tanto? —le pregunta.\n\n—Porque llegará el invierno —responde Rita.\n\nCuando llega el frío, Rita tiene comida de sobra. Como es generosa, invita a la cigarra a comer con ella.",
+      "questions": [
+        {
+          "id": "lectura_l2_hormiga_q1",
+          "prompt": "¿Qué hace la cigarra en verano?",
+          "options": [
+            "Canta bajo un árbol",
+            "Trabaja sin parar",
+            "Duerme en el hormiguero"
+          ],
+          "correct": 0,
+          "explanation": "«La cigarra canta todo el día bajo un árbol.»"
+        },
+        {
+          "id": "lectura_l2_hormiga_q2",
+          "prompt": "¿Por qué trabaja tanto Rita?",
+          "options": [
+            "Porque está aburrida",
+            "Porque le gusta correr",
+            "Porque llegará el invierno"
+          ],
+          "correct": 2,
+          "explanation": "Rita responde: «Porque llegará el invierno»."
+        },
+        {
+          "id": "lectura_l2_hormiga_q3",
+          "prompt": "¿Qué hace Rita al final?",
+          "options": [
+            "Invita a la cigarra a comer",
+            "Se va de viaje",
+            "Se enfada con la cigarra"
+          ],
+          "correct": 0,
+          "explanation": "«Como es generosa, invita a la cigarra a comer con ella.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l2_granja",
+      "level": 2,
+      "title": "Un día en la granja",
+      "emoji": "🐄",
+      "text": "El sábado fuimos a la granja de mi tío Andrés. Allí vimos vacas, ovejas y un caballo marrón. Mi tío me enseñó a ordeñar una vaca. ¡Era más difícil de lo que parecía!\n\nTambién recogimos huevos en el gallinero. Por la tarde, dimos de comer a los cerdos. Volví a casa cansado, pero muy contento.",
+      "questions": [
+        {
+          "id": "lectura_l2_granja_q1",
+          "prompt": "¿De quién es la granja?",
+          "options": [
+            "De un vecino",
+            "De su abuelo",
+            "De su tío Andrés"
+          ],
+          "correct": 2,
+          "explanation": "«Fuimos a la granja de mi tío Andrés.»"
+        },
+        {
+          "id": "lectura_l2_granja_q2",
+          "prompt": "¿Qué recogieron en el gallinero?",
+          "options": [
+            "Leche",
+            "Manzanas",
+            "Huevos"
+          ],
+          "correct": 2,
+          "explanation": "«Recogimos huevos en el gallinero.»"
+        },
+        {
+          "id": "lectura_l2_granja_q3",
+          "prompt": "¿Cómo volvió a casa?",
+          "options": [
+            "Cansado, pero muy contento",
+            "Enfadado",
+            "Triste"
+          ],
+          "correct": 0,
+          "explanation": "«Volví a casa cansado, pero muy contento.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l2_robot",
+      "level": 2,
+      "title": "El robot Pipo",
+      "emoji": "🤖",
+      "text": "Lucía construyó un robot con cajas de cartón. Lo llamó Pipo. Pipo tenía botones de colores y unos ojos hechos con tapones. Lucía jugaba a que Pipo hablaba con voz de lata.\n\nUn día, su hermano pequeño le pintó una sonrisa. Desde entonces, Pipo es el robot más simpático de la casa.",
+      "questions": [
+        {
+          "id": "lectura_l2_robot_q1",
+          "prompt": "¿Con qué construyó Lucía el robot?",
+          "options": [
+            "Con madera",
+            "Con cajas de cartón",
+            "Con piezas de metal"
+          ],
+          "correct": 1,
+          "explanation": "«Lucía construyó un robot con cajas de cartón.»"
+        },
+        {
+          "id": "lectura_l2_robot_q2",
+          "prompt": "¿Con qué hizo los ojos?",
+          "options": [
+            "Con tapones",
+            "Con pegatinas",
+            "Con botones"
+          ],
+          "correct": 0,
+          "explanation": "«Unos ojos hechos con tapones.»"
+        },
+        {
+          "id": "lectura_l2_robot_q3",
+          "prompt": "¿Qué le pintó su hermano?",
+          "options": [
+            "Unas gafas",
+            "Un sombrero",
+            "Una sonrisa"
+          ],
+          "correct": 2,
+          "explanation": "«Su hermano pequeño le pintó una sonrisa.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l3_abejas",
+      "level": 3,
+      "title": "Las abejas",
+      "emoji": "🐝",
+      "text": "Las abejas viven en grupos muy grandes llamados colmenas. En cada colmena hay una reina, que pone los huevos, y miles de obreras. Las obreras salen a buscar el néctar de las flores. Con él fabrican la miel, que guardan en celdas de cera con forma de hexágono.\n\nAdemás, cuando van de flor en flor, transportan el polen. Así ayudan a que crezcan frutas como las manzanas o las fresas. Sin las abejas, muchas plantas no podrían reproducirse. Por eso es tan importante cuidarlas.",
+      "questions": [
+        {
+          "id": "lectura_l3_abejas_q1",
+          "prompt": "¿Quién pone los huevos en la colmena?",
+          "options": [
+            "La reina",
+            "Las obreras",
+            "Los zánganos"
+          ],
+          "correct": 0,
+          "explanation": "«Hay una reina, que pone los huevos.»"
+        },
+        {
+          "id": "lectura_l3_abejas_q2",
+          "prompt": "¿Qué forma tienen las celdas de cera?",
+          "options": [
+            "De hexágono",
+            "Cuadrada",
+            "Redonda"
+          ],
+          "correct": 0,
+          "explanation": "«Celdas de cera con forma de hexágono.»"
+        },
+        {
+          "id": "lectura_l3_abejas_q3",
+          "prompt": "¿Por qué son importantes las abejas para las plantas?",
+          "options": [
+            "Porque transportan el polen",
+            "Porque las riegan",
+            "Porque se comen las hojas"
+          ],
+          "correct": 0,
+          "explanation": "Al ir de flor en flor transportan el polen y así las plantas pueden reproducirse."
+        }
+      ]
+    },
+    {
+      "id": "lectura_l3_faro",
+      "level": 3,
+      "title": "El faro",
+      "emoji": "🏝️",
+      "text": "En lo alto de un acantilado había un viejo faro. Cada noche, su luz giraba sobre el mar para avisar a los barcos de que había rocas cerca. El farero se llamaba Marcos y vivía allí con su perra, Brisa.\n\nUna noche de tormenta, la luz se apagó. Marcos subió los ciento veinte escalones con una linterna y cambió la bombilla justo a tiempo. Un pesquero que se acercaba pudo cambiar de rumbo. Al día siguiente, los pescadores le llevaron una cesta de pescado para darle las gracias.",
+      "questions": [
+        {
+          "id": "lectura_l3_faro_q1",
+          "prompt": "¿Para qué servía la luz del faro?",
+          "options": [
+            "Para iluminar la playa",
+            "Para avisar a los barcos de las rocas",
+            "Para buscar peces"
+          ],
+          "correct": 1,
+          "explanation": "«Para avisar a los barcos de que había rocas cerca.»"
+        },
+        {
+          "id": "lectura_l3_faro_q2",
+          "prompt": "¿Qué pasó la noche de tormenta?",
+          "options": [
+            "Se rompió una ventana",
+            "Se apagó la luz",
+            "Se escapó Brisa"
+          ],
+          "correct": 1,
+          "explanation": "«Una noche de tormenta, la luz se apagó.»"
+        },
+        {
+          "id": "lectura_l3_faro_q3",
+          "prompt": "¿Cómo le dieron las gracias los pescadores?",
+          "options": [
+            "Con una carta",
+            "Con una fiesta",
+            "Con una cesta de pescado"
+          ],
+          "correct": 2,
+          "explanation": "«Le llevaron una cesta de pescado para darle las gracias.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l3_biblioteca",
+      "level": 3,
+      "title": "La biblioteca mágica",
+      "emoji": "📚",
+      "text": "Cuando Nora abrió aquel libro de tapas azules, las letras empezaron a moverse. De repente, se encontró dentro de la historia, en un bosque lleno de árboles que hablaban. Un búho con gafas le explicó que solo podría volver si encontraba la última página.\n\nNora recorrió el bosque, cruzó un río sobre una hoja gigante y resolvió la adivinanza de un dragón. Por fin, en lo alto de una torre, encontró la página perdida. Al leerla en voz alta, apareció de nuevo en la biblioteca, con el libro entre las manos.",
+      "questions": [
+        {
+          "id": "lectura_l3_biblioteca_q1",
+          "prompt": "¿Qué pasó cuando Nora abrió el libro?",
+          "options": [
+            "Se quedó dormida",
+            "Las letras empezaron a moverse",
+            "El libro se rompió"
+          ],
+          "correct": 1,
+          "explanation": "«Las letras empezaron a moverse.»"
+        },
+        {
+          "id": "lectura_l3_biblioteca_q2",
+          "prompt": "¿Quién le explicó cómo volver?",
+          "options": [
+            "Un búho con gafas",
+            "Un dragón",
+            "Un árbol que hablaba"
+          ],
+          "correct": 0,
+          "explanation": "«Un búho con gafas le explicó que solo podría volver si encontraba la última página.»"
+        },
+        {
+          "id": "lectura_l3_biblioteca_q3",
+          "prompt": "¿Dónde encontró la última página?",
+          "options": [
+            "Bajo una piedra",
+            "En lo alto de una torre",
+            "En el río"
+          ],
+          "correct": 1,
+          "explanation": "«En lo alto de una torre, encontró la página perdida.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l3_agua",
+      "level": 3,
+      "title": "El agua que bebemos",
+      "emoji": "💧",
+      "text": "El agua que sale del grifo hace un largo viaje. Primero, la lluvia y la nieve llenan los ríos y los embalses. Desde allí, el agua viaja por grandes tuberías hasta una planta potabilizadora.\n\nEn ella se limpia: se quitan la tierra y las hojas, y se eliminan los microbios. Después, el agua limpia se guarda en depósitos y llega a nuestras casas. Como el agua potable cuesta mucho trabajo y no es infinita, debemos cerrar el grifo mientras nos lavamos los dientes.",
+      "questions": [
+        {
+          "id": "lectura_l3_agua_q1",
+          "prompt": "¿Dónde se limpia el agua?",
+          "options": [
+            "En el grifo",
+            "En una planta potabilizadora",
+            "En el embalse"
+          ],
+          "correct": 1,
+          "explanation": "«El agua viaja por grandes tuberías hasta una planta potabilizadora. En ella se limpia.»"
+        },
+        {
+          "id": "lectura_l3_agua_q2",
+          "prompt": "¿Qué se elimina al limpiar el agua?",
+          "options": [
+            "El color",
+            "La sal",
+            "Los microbios"
+          ],
+          "correct": 2,
+          "explanation": "«Se eliminan los microbios.»"
+        },
+        {
+          "id": "lectura_l3_agua_q3",
+          "prompt": "¿Qué consejo da el texto?",
+          "options": [
+            "Cerrar el grifo al lavarnos los dientes",
+            "Beber mucha agua",
+            "No bañarse en los ríos"
+          ],
+          "correct": 0,
+          "explanation": "«Debemos cerrar el grifo mientras nos lavamos los dientes.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l4_volcanes",
+      "level": 4,
+      "title": "Los volcanes",
+      "emoji": "🌋",
+      "text": "Bajo la corteza terrestre hay roca fundida a altísimas temperaturas, llamada magma. Cuando la presión aumenta, el magma busca una salida y asciende por grietas hasta la superficie. Así se forma un volcán. Cuando el magma sale al exterior, pasa a llamarse lava.\n\nAlgunos volcanes entran en erupción de forma violenta y expulsan ceniza y gases a kilómetros de altura; otros dejan salir la lava lentamente, como un río incandescente. En España hay volcanes en las islas Canarias. En 2021, el volcán de La Palma estuvo casi tres meses en erupción.\n\nAunque son peligrosos, los volcanes también crean tierras nuevas y suelos muy fértiles para la agricultura.",
+      "questions": [
+        {
+          "id": "lectura_l4_volcanes_q1",
+          "prompt": "¿Cómo se llama el magma cuando sale al exterior?",
+          "options": [
+            "Lava",
+            "Ceniza",
+            "Cráter"
+          ],
+          "correct": 0,
+          "explanation": "«Cuando el magma sale al exterior, pasa a llamarse lava.»"
+        },
+        {
+          "id": "lectura_l4_volcanes_q2",
+          "prompt": "¿Dónde hay volcanes en España, según el texto?",
+          "options": [
+            "En las islas Canarias",
+            "En los Pirineos",
+            "En Madrid"
+          ],
+          "correct": 0,
+          "explanation": "«En España hay volcanes en las islas Canarias.»"
+        },
+        {
+          "id": "lectura_l4_volcanes_q3",
+          "prompt": "¿Qué aspecto positivo tienen los volcanes?",
+          "options": [
+            "Crean suelos muy fértiles",
+            "Enfrían el planeta",
+            "Producen agua potable"
+          ],
+          "correct": 0,
+          "explanation": "«Crean tierras nuevas y suelos muy fértiles para la agricultura.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l4_carrera",
+      "level": 4,
+      "title": "La carrera",
+      "emoji": "🏃",
+      "text": "Marta llevaba meses entrenando para la carrera del colegio. Cada tarde corría alrededor del parque, aunque hiciera frío. El día de la prueba, salió muy rápido y se colocó primera.\n\nSin embargo, a mitad de recorrido vio que Iván, su compañero, se había caído y se sujetaba el tobillo. Marta dudó un segundo. Después se detuvo, le ayudó a levantarse y le acompañó hasta donde estaba la profesora. Cuando volvió a la carrera, varios corredores la habían adelantado y terminó en sexto lugar.\n\nAun así, en la entrega de medallas, el director le dio un premio especial al compañerismo. Marta pensó que había ganado algo más importante que una carrera.",
+      "questions": [
+        {
+          "id": "lectura_l4_carrera_q1",
+          "prompt": "¿Por qué se detuvo Marta?",
+          "options": [
+            "Para ayudar a Iván, que se había caído",
+            "Porque estaba cansada",
+            "Porque se le desató la zapatilla"
+          ],
+          "correct": 0,
+          "explanation": "Vio que Iván se había caído y se detuvo para ayudarle."
+        },
+        {
+          "id": "lectura_l4_carrera_q2",
+          "prompt": "¿En qué puesto terminó la carrera?",
+          "options": [
+            "Sexto",
+            "Tercero",
+            "Primero"
+          ],
+          "correct": 0,
+          "explanation": "«Terminó en sexto lugar.»"
+        },
+        {
+          "id": "lectura_l4_carrera_q3",
+          "prompt": "¿Qué premio recibió Marta?",
+          "options": [
+            "Un trofeo de velocidad",
+            "La medalla de oro",
+            "Un premio al compañerismo"
+          ],
+          "correct": 2,
+          "explanation": "«El director le dio un premio especial al compañerismo.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l4_imprenta",
+      "level": 4,
+      "title": "La imprenta",
+      "emoji": "💡",
+      "text": "Antes del siglo quince, en Europa los libros se copiaban a mano, letra a letra. Copiar un solo libro podía llevar meses, por eso eran muy caros y pocas personas sabían leer.\n\nHacia 1450, el alemán Johannes Gutenberg inventó una imprenta con letras de metal que se podían mover y combinar. Con ella se podían hacer muchas copias de un texto en poco tiempo.\n\nLos libros se abarataron, las ideas viajaron más deprisa y cada vez más gente aprendió a leer. Por eso, muchos historiadores consideran la imprenta uno de los inventos más importantes de la historia.",
+      "questions": [
+        {
+          "id": "lectura_l4_imprenta_q1",
+          "prompt": "¿Cómo se hacían los libros antes de la imprenta?",
+          "options": [
+            "Se tallaban en piedra",
+            "Se copiaban a mano",
+            "Se imprimían con ordenador"
+          ],
+          "correct": 1,
+          "explanation": "«Los libros se copiaban a mano, letra a letra.»"
+        },
+        {
+          "id": "lectura_l4_imprenta_q2",
+          "prompt": "¿Quién inventó la imprenta de letras móviles?",
+          "options": [
+            "Leonardo da Vinci",
+            "Isaac Newton",
+            "Johannes Gutenberg"
+          ],
+          "correct": 2,
+          "explanation": "«El alemán Johannes Gutenberg inventó una imprenta con letras de metal.»"
+        },
+        {
+          "id": "lectura_l4_imprenta_q3",
+          "prompt": "¿Qué consecuencia tuvo la imprenta?",
+          "options": [
+            "Más gente aprendió a leer",
+            "Los libros se volvieron más caros",
+            "Se dejaron de escribir libros"
+          ],
+          "correct": 0,
+          "explanation": "«Los libros se abarataron [...] y cada vez más gente aprendió a leer.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l4_desvan",
+      "level": 4,
+      "title": "El secreto del desván",
+      "emoji": "🗝️",
+      "text": "Durante las vacaciones, Hugo y su prima Elena exploraron el desván de la casa de su abuela. Entre telarañas y muebles viejos, encontraron un baúl cerrado con un candado oxidado. En la tapa había una nota: «La llave está donde el tiempo se detiene».\n\nElena pensó en el reloj de pared del salón, que llevaba años parado a las tres y cuarto. Bajaron corriendo, abrieron la puertecita del reloj y, efectivamente, allí estaba la llave.\n\nDentro del baúl encontraron cartas, fotografías antiguas y un diario. Era de su abuela, cuando tenía su edad. Esa noche, la abuela les contó historias de su infancia hasta muy tarde.",
+      "questions": [
+        {
+          "id": "lectura_l4_desvan_q1",
+          "prompt": "¿Dónde encontraron el baúl?",
+          "options": [
+            "En el desván",
+            "En el sótano",
+            "En el jardín"
+          ],
+          "correct": 0,
+          "explanation": "«Exploraron el desván [...] encontraron un baúl.»"
+        },
+        {
+          "id": "lectura_l4_desvan_q2",
+          "prompt": "¿Dónde estaba la llave?",
+          "options": [
+            "Dentro del diario",
+            "Dentro del reloj de pared",
+            "Debajo de la alfombra"
+          ],
+          "correct": 1,
+          "explanation": "La nota decía «donde el tiempo se detiene»: el reloj parado del salón."
+        },
+        {
+          "id": "lectura_l4_desvan_q3",
+          "prompt": "¿De quién era el diario?",
+          "options": [
+            "De la abuela",
+            "De un pirata",
+            "De Elena"
+          ],
+          "correct": 0,
+          "explanation": "«Era de su abuela, cuando tenía su edad.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l5_cerebro",
+      "level": 5,
+      "title": "Así aprende el cerebro",
+      "emoji": "🧠",
+      "text": "Cada vez que aprendemos algo nuevo, nuestro cerebro cambia. Está formado por unos ochenta y seis mil millones de neuronas, células que se comunican entre sí mediante señales eléctricas y químicas.\n\nCuando practicamos una habilidad, como leer o tocar un instrumento, las conexiones entre ciertas neuronas se refuerzan, igual que un sendero se marca más cuanto más se recorre. Esta capacidad de transformarse se denomina plasticidad cerebral. Por eso, equivocarse forma parte del aprendizaje: cada error obliga al cerebro a ajustar sus conexiones.\n\nAdemás, dormir bien es fundamental, ya que durante el sueño se consolidan los recuerdos del día. En definitiva, nadie nace sabiendo: el cerebro se construye, poco a poco, con esfuerzo y constancia.",
+      "questions": [
+        {
+          "id": "lectura_l5_cerebro_q1",
+          "prompt": "¿Cómo se llama la capacidad del cerebro de transformarse?",
+          "options": [
+            "Plasticidad cerebral",
+            "Inteligencia artificial",
+            "Memoria eléctrica"
+          ],
+          "correct": 0,
+          "explanation": "«Esta capacidad de transformarse se denomina plasticidad cerebral.»"
+        },
+        {
+          "id": "lectura_l5_cerebro_q2",
+          "prompt": "¿Con qué compara el texto el refuerzo de las conexiones?",
+          "options": [
+            "Con un río que se seca",
+            "Con un sendero que se marca al recorrerlo",
+            "Con una carretera nueva"
+          ],
+          "correct": 1,
+          "explanation": "«Igual que un sendero se marca más cuanto más se recorre.»"
+        },
+        {
+          "id": "lectura_l5_cerebro_q3",
+          "prompt": "Según el texto, ¿por qué es importante dormir bien?",
+          "options": [
+            "Porque durante el sueño se consolidan los recuerdos",
+            "Porque así el cerebro olvida los errores",
+            "Porque cada noche nacen neuronas nuevas"
+          ],
+          "correct": 0,
+          "explanation": "«Durante el sueño se consolidan los recuerdos del día.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l5_alhambra",
+      "level": 5,
+      "title": "La Alhambra",
+      "emoji": "🏰",
+      "text": "En lo alto de una colina de Granada se alza la Alhambra, uno de los monumentos más visitados de España. Fue construida principalmente entre los siglos trece y catorce por la dinastía nazarí, la última que gobernó un reino musulmán en la península. Su nombre significa «la roja», probablemente por el color de sus murallas al atardecer.\n\nEn su interior destacan los palacios, decorados con azulejos, yeserías y techos de madera tallada, y el famoso Patio de los Leones, con una fuente sostenida por doce leones de mármol. El agua tiene un papel protagonista: estanques, acequias y fuentes refrescan el ambiente y crean reflejos.\n\nEn 1984, la Alhambra fue declarada Patrimonio de la Humanidad por la Unesco.",
+      "questions": [
+        {
+          "id": "lectura_l5_alhambra_q1",
+          "prompt": "¿Qué significa el nombre «Alhambra»?",
+          "options": [
+            "La del agua",
+            "La roja",
+            "La grande"
+          ],
+          "correct": 1,
+          "explanation": "«Su nombre significa la roja.»"
+        },
+        {
+          "id": "lectura_l5_alhambra_q2",
+          "prompt": "¿Cuántos leones sostienen la fuente del patio?",
+          "options": [
+            "Doce",
+            "Cuatro",
+            "Ocho"
+          ],
+          "correct": 0,
+          "explanation": "«Una fuente sostenida por doce leones de mármol.»"
+        },
+        {
+          "id": "lectura_l5_alhambra_q3",
+          "prompt": "¿Qué elemento tiene un papel protagonista en la Alhambra?",
+          "options": [
+            "Los cactus",
+            "El agua",
+            "El fuego"
+          ],
+          "correct": 1,
+          "explanation": "«El agua tiene un papel protagonista: estanques, acequias y fuentes.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l5_bosque",
+      "level": 5,
+      "title": "El último bosque",
+      "emoji": "🌳",
+      "text": "Aquel verano, Iker se mudó con su familia a un pueblo rodeado de montañas. Junto a su casa había un bosque de hayas tan espeso que, a mediodía, parecía de noche. Pronto descubrió que el ayuntamiento planeaba talarlo para construir un aparcamiento.\n\nIker no se resignó. Con ayuda de su vecina Amaia, recorrió el bosque con un cuaderno y anotó cada especie que encontraba: ardillas, búhos, setas que no aparecían en ningún libro. Después prepararon una presentación y la expusieron en el pleno del ayuntamiento.\n\nAl principio, algunos adultos sonrieron con indiferencia; sin embargo, cuando una bióloga confirmó que allí vivía una especie protegida de pájaro carpintero, el proyecto se paralizó. Hoy, un cartel a la entrada del bosque lleva sus nombres.",
+      "questions": [
+        {
+          "id": "lectura_l5_bosque_q1",
+          "prompt": "¿Qué querían construir en lugar del bosque?",
+          "options": [
+            "Un aparcamiento",
+            "Un centro comercial",
+            "Un colegio"
+          ],
+          "correct": 0,
+          "explanation": "«El ayuntamiento planeaba talarlo para construir un aparcamiento.»"
+        },
+        {
+          "id": "lectura_l5_bosque_q2",
+          "prompt": "¿Qué hicieron Iker y Amaia?",
+          "options": [
+            "Plantaron árboles nuevos",
+            "Escribieron una carta al periódico",
+            "Anotaron las especies del bosque y lo explicaron en el pleno"
+          ],
+          "correct": 2,
+          "explanation": "Recorrieron el bosque anotando especies y presentaron lo que encontraron."
+        },
+        {
+          "id": "lectura_l5_bosque_q3",
+          "prompt": "¿Qué hizo que se paralizara el proyecto?",
+          "options": [
+            "Que allí vivía una especie protegida",
+            "Que no había dinero",
+            "Que los vecinos se manifestaron"
+          ],
+          "correct": 0,
+          "explanation": "«Cuando una bióloga confirmó que allí vivía una especie protegida [...] el proyecto se paralizó.»"
+        }
+      ]
+    },
+    {
+      "id": "lectura_l5_palabras",
+      "level": 5,
+      "title": "Palabras viajeras",
+      "emoji": "🌍",
+      "text": "Muchas palabras del español han llegado desde muy lejos. Del árabe, que se habló en la península durante casi ocho siglos, proceden más de cuatro mil palabras, como «aceite», «almohada», «azúcar» u «ojalá».\n\nDel náhuatl, la lengua de los aztecas, tomamos «chocolate» y «tomate», que llegaron a Europa con esos alimentos tras los viajes a América. El inglés nos ha prestado términos deportivos, como «fútbol», y, más recientemente, tecnológicos. Incluso algunas palabras españolas han viajado en sentido contrario: «mosquito» o «patio» se usan hoy en inglés.\n\nLas lenguas, por tanto, no son algo cerrado, sino que cambian y se enriquecen con el contacto entre pueblos. Conocer el origen de una palabra es, en cierto modo, conocer un pedazo de historia.",
+      "questions": [
+        {
+          "id": "lectura_l5_palabras_q1",
+          "prompt": "¿De qué lengua procede la palabra «ojalá»?",
+          "options": [
+            "Del náhuatl",
+            "Del inglés",
+            "Del árabe"
+          ],
+          "correct": 2,
+          "explanation": "«Del árabe [...] proceden palabras como aceite, almohada, azúcar u ojalá.»"
+        },
+        {
+          "id": "lectura_l5_palabras_q2",
+          "prompt": "¿Qué palabras vienen del náhuatl?",
+          "options": [
+            "Chocolate y tomate",
+            "Aceite y azúcar",
+            "Fútbol y patio"
+          ],
+          "correct": 0,
+          "explanation": "«Del náhuatl, la lengua de los aztecas, tomamos chocolate y tomate.»"
+        },
+        {
+          "id": "lectura_l5_palabras_q3",
+          "prompt": "¿Cuál es la idea principal del texto?",
+          "options": [
+            "El inglés no toma palabras de otras lenguas",
+            "El español es la lengua más antigua",
+            "Las lenguas cambian y se enriquecen con el contacto entre pueblos"
+          ],
+          "correct": 2,
+          "explanation": "El texto concluye que las lenguas «cambian y se enriquecen con el contacto entre pueblos»."
+        }
+      ]
+    }
+  ]
+}

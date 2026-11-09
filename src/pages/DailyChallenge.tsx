@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import type { Exercise, AnswerResult, ModuleId } from '@/types';
-import { useAppStore } from '@/stores/useAppStore';
+import { recordSession } from '@/services/session';
 import { buildSessionResult } from '@/services/gamification';
 import { MODULES } from '@/data/modules';
 import { ExerciseCard } from '@/components/exercise/ExerciseCard';
@@ -18,8 +18,6 @@ export default function DailyChallenge() {
   const [startTime] = useState(Date.now());
   const [loading, setLoading] = useState(true);
 
-  const addXP = useAppStore((s) => s.addXP);
-  const updateStreak = useAppStore((s) => s.updateStreak);
   const { t } = useI18n();
 
   useEffect(() => {
@@ -31,7 +29,9 @@ export default function DailyChallenge() {
         for (const mod of MODULES) {
           try {
             const data = await import(`@/data/exercises/${mod.id}.json`);
-            const modExercises = data.default?.exercises || data.exercises || [];
+            // The daily challenge renders multiple-choice cards only
+            const modExercises = (data.default?.exercises || data.exercises || [])
+              .filter((e: Exercise) => e.type === 'multiple_choice');
             if (modExercises.length > 0) {
               const randomIndex = Math.floor(Math.random() * modExercises.length);
               allExercises.push(modExercises[randomIndex]);
@@ -78,13 +78,13 @@ export default function DailyChallenge() {
           startTime,
         });
 
-        addXP(result.xp_earned);
-        updateStreak();
+        result.mode = 'daily';
+        recordSession(result);
 
         navigate('/resultados', { state: { result }, replace: true });
       }
     },
-    [exercises, currentIndex, answers, startTime, addXP, updateStreak, navigate]
+    [exercises, currentIndex, answers, startTime, navigate]
   );
 
   if (loading) {
@@ -131,6 +131,7 @@ export default function DailyChallenge() {
 
       <div className="px-4 py-6 max-w-lg mx-auto">
         <ExerciseCard
+          key={exercises[currentIndex].id}
           exercise={exercises[currentIndex]}
           questionNumber={currentIndex + 1}
           totalQuestions={exercises.length}

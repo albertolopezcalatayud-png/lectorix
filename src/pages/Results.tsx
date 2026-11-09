@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/Button';
 import { Confetti } from '@/components/ui/Confetti';
 import sounds from '@/services/sounds';
 import { useI18n } from '@/i18n';
+import { getReading } from '@/data/readings';
 
 export default function Results() {
   const location = useLocation();
@@ -60,6 +61,12 @@ export default function Results() {
   const hasErrors = failedIds.length > 0;
   const isReview = result.mode === 'review';
   const isExam = examMode || result.mode === 'exam';
+  const isDictation = result.mode === 'dictation';
+  const isReading = result.mode === 'reading';
+  const isDaily = result.mode === 'daily';
+  // Dictation, reading and the daily challenge don't belong to a module level
+  const isStandalone = isDictation || isReading || isDaily;
+  const reading = isReading ? getReading(result.reading_id) : undefined;
 
   // Exam grade
   const examPassed = result.score_percent >= 50;
@@ -97,7 +104,13 @@ export default function Results() {
         transition={{ delay: 0.4 }}
         className="text-fg-muted text-sm mb-6"
       >
-        {mod?.name} · {t('dash_level', { level: result.level })} · {LEVEL_NAMES[result.level]}
+        {isDictation
+          ? `${t('dict_title')} · ${t('dash_level', { level: result.level })}`
+          : isReading
+            ? `${reading?.emoji ?? '📖'} ${reading?.title ?? t('read_title')}`
+            : isDaily
+              ? t('daily_title')
+              : `${mod?.name} · ${t('dash_level', { level: result.level })} · ${LEVEL_NAMES[result.level]}`}
       </motion.p>
 
       {/* Exam grade badge */}
@@ -164,7 +177,7 @@ export default function Results() {
       </motion.div>
 
       {/* Level unlocked notification */}
-      {unlocked && result.level < 5 && !isExam && !isReview && (
+      {unlocked && result.level < 5 && !isExam && !isReview && !isStandalone && (
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -187,22 +200,24 @@ export default function Results() {
         className="w-full max-w-sm mt-6 space-y-2.5"
       >
         {/* Review mistakes button */}
-        {hasErrors && !isReview && (
+        {hasErrors && !isReview && !isReading && !isDaily && (
           <Button
             fullWidth
             variant="secondary"
             onClick={() =>
-              navigate(`/ejercicio/${result.module}/${result.level}`, {
-                replace: true,
-                state: { reviewExerciseIds: failedIds },
-              })
+              isDictation
+                ? navigate('/dictado', { replace: true, state: { level: result.level, reviewIds: failedIds } })
+                : navigate(`/ejercicio/${result.module}/${result.level}`, {
+                    replace: true,
+                    state: { reviewExerciseIds: failedIds },
+                  })
             }
           >
             {t('rev_btn', { n: failedIds.length })}
           </Button>
         )}
 
-        {unlocked && result.level < 5 && !isExam && !isReview && (
+        {unlocked && result.level < 5 && !isExam && !isReview && !isStandalone && (
           <Button
             fullWidth
             onClick={() => navigate(`/ejercicio/${result.module}/${result.level + 1}`, { replace: true })}
@@ -213,10 +228,27 @@ export default function Results() {
         <Button
           variant="secondary"
           fullWidth
-          onClick={() => navigate(`/ejercicio/${result.module}/${result.level}`, { replace: true })}
+          onClick={() =>
+            isDictation
+              ? navigate('/dictado', { replace: true, state: { level: result.level } })
+              : isReading
+                ? navigate(`/lectura/${result.reading_id}`, { replace: true })
+                : isDaily
+                  ? navigate('/reto-diario', { replace: true })
+                  : navigate(`/ejercicio/${result.module}/${result.level}`, { replace: true })
+          }
         >
           {t('res_retry')}
         </Button>
+        {(isDictation || isReading) && (
+          <Button
+            variant="secondary"
+            fullWidth
+            onClick={() => navigate(isDictation ? '/dictado' : '/lectura', { replace: true })}
+          >
+            {isDictation ? t('dict_other') : t('read_other')}
+          </Button>
+        )}
         <Button
           variant="ghost"
           fullWidth

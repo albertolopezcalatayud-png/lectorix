@@ -76,7 +76,8 @@ export interface SessionResult {
   answers: AnswerResult[];
   completed_at: string;
   avg_time_per_exercise?: number; // ms average per exercise
-  mode?: 'normal' | 'review' | 'exam'; // session mode
+  mode?: 'normal' | 'review' | 'exam' | 'dictation' | 'reading' | 'daily'; // session mode
+  reading_id?: string; // guided reading text, when mode === 'reading'
 }
 
 export interface AnswerResult {

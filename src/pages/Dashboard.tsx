@@ -72,6 +72,22 @@ export default function Dashboard() {
           </Card>
         </motion.div>
 
+        {/* Dictation & guided reading */}
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.18 }}
+          className="grid grid-cols-2 gap-2.5"
+        >
+          <Card hover onClick={() => navigate('/dictado')} className="border-sky/30">
+            <span className="text-2xl">🎧</span>
+            <h3 className="font-heading font-extrabold text-sm mt-1">{t('dict_title').replace('🎧 ', '')}</h3>
+            <p className="text-[11px] text-fg-muted leading-snug mt-0.5">{t('dict_desc')}</p>
+          </Card>
+          <Card hover onClick={() => navigate('/lectura')} className="border-mint/30">
+            <span className="text-2xl">📖</span>
+            <h3 className="font-heading font-extrabold text-sm mt-1">{t('read_title').replace('📖 ', '')}</h3>
+            <p className="text-[11px] text-fg-muted leading-snug mt-0.5">{t('read_desc')}</p>
+          </Card>
+        </motion.div>
+
         {/* Modules */}
         <div>
           <div className="flex items-center justify-between mb-3">

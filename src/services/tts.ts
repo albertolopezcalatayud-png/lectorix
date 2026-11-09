@@ -111,6 +111,68 @@ export function speak(text: string, options?: { rate?: number; pitch?: number })
   });
 }
 
+// Keep a reference so the utterance isn't garbage-collected mid-speech (Chrome bug)
+let trackedUtterance: SpeechSynthesisUtterance | null = null;
+
+export interface TrackedResult {
+  /** false when the voice failed (no voices installed, engine error) */
+  ok: boolean;
+  /** true when the engine reported word boundaries for this utterance */
+  boundaries: boolean;
+  /** true when it was stopped on purpose (pause, new speech) */
+  interrupted: boolean;
+}
+
+/**
+ * Speak text and report the character index of each word as it is spoken.
+ * Not every engine fires word boundaries (e.g. Chrome's online Google voices),
+ * so callers must be ready to estimate timing when `boundaries` stays false.
+ */
+export function speakTracked(
+  text: string,
+  options: { rate?: number; onStart?: () => void; onWord?: (charIndex: number) => void } = {},
+): Promise<TrackedResult> {
+  return new Promise((resolve) => {
+    if (!isTTSAvailable() || !isTTSEnabled()) {
+      resolve({ ok: false, boundaries: false, interrupted: false });
+      return;
+    }
+    stopSpeaking();
+
+    let boundaries = false;
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'es-ES';
+    u.rate = options.rate ?? getTTSRate();
+    const voice = getSpanishVoice();
+    if (voice) u.voice = voice;
+
+    u.onstart = () => options.onStart?.();
+    u.onboundary = (e) => {
+      if (e.name && e.name !== 'word') return;
+      boundaries = true;
+      options.onWord?.(e.charIndex);
+    };
+    u.onend = () => {
+      if (trackedUtterance === u) trackedUtterance = null;
+      resolve({ ok: true, boundaries, interrupted: false });
+    };
+    u.onerror = (e) => {
+      if (trackedUtterance === u) trackedUtterance = null;
+      const interrupted = e.error === 'interrupted' || e.error === 'canceled';
+      resolve({ ok: interrupted, boundaries, interrupted });
+    };
+
+    trackedUtterance = u;
+    window.speechSynthesis.speak(u);
+  });
+}
+
+/** Rough syllable count for Spanish (vowel groups), used to estimate speech timing */
+export function estimateSyllables(word: string): number {
+  const groups = word.toLowerCase().match(/[aeiouáéíóúüy]+/g);
+  return Math.max(1, groups ? groups.length : 1);
+}
+
 /**
  * Speak a word slowly, syllable by syllable.
  * Useful for phonology exercises.
@@ -167,6 +229,7 @@ if (isTTSAvailable()) {
 
 const tts = {
   speak,
+  speakTracked,
   speakSyllables,
   speakPassage,
   speakPrompt,
