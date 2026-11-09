@@ -109,6 +109,8 @@ export default function Exercise() {
 
     // Celebrate streak milestones (3, 7, 14, 30...) with a notification
     const newStreak = useAppStore.getState().user?.streak_days || 0;
+    // Tell the reminder server today is done (no reminder today) + save streak for the push text
+    void notifications.markPracticed(newStreak, useAppStore.getState().language);
     if (newStreak > prevStreak && [3, 7, 14, 30, 60, 100].includes(newStreak) && notifications.isEnabled()) {
       notifications.showStreak(newStreak);
     }

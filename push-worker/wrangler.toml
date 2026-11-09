@@ -1,0 +1,13 @@
+name = "lectorix-push"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[triggers]
+crons = ["0 * * * *"]
+
+[[kv_namespaces]]
+binding = "SUBS"
+id = "__KV_ID__"
+
+[vars]
+VAPID_SUBJECT = "mailto:inorderwords@gmail.com"
