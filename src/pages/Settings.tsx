@@ -307,10 +307,6 @@ export default function Settings() {
           <h3 className="font-heading font-extrabold text-sm mb-3">{t('set_account')}</h3>
           <div className="space-y-2">
             <div className="flex justify-between text-sm">
-              <span className="text-fg-muted">Email</span>
-              <span className="font-bold">{user?.email || 'No registrado'}</span>
-            </div>
-            <div className="flex justify-between text-sm">
               <span className="text-fg-muted">Plan</span>
               <span className="font-bold">{user?.plan === 'premium' ? 'Premium' : 'Gratuito'}</span>
             </div>

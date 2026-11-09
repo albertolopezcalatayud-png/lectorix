@@ -21,7 +21,6 @@ const Premium = lazy(() => import('@/pages/Premium'));
 const ParentPanel = lazy(() => import('@/pages/ParentPanel'));
 const History = lazy(() => import('@/pages/History'));
 const Mascot = lazy(() => import('@/pages/Mascot'));
-const Login = lazy(() => import('@/pages/Login'));
 const Dictation = lazy(() => import('@/pages/Dictation'));
 const ReadingList = lazy(() => import('@/pages/ReadingList'));
 const Reading = lazy(() => import('@/pages/Reading'));
@@ -45,7 +44,6 @@ function AnimatedRoutes() {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<PageTransition><Dashboard /></PageTransition>} />
-        <Route path="/login" element={<PageTransition><Login /></PageTransition>} />
         <Route path="/modulos" element={<PageTransition><Modules /></PageTransition>} />
         <Route path="/modulos/:moduleId" element={<PageTransition><Levels /></PageTransition>} />
         <Route path="/ejercicio/:moduleId/:levelStr" element={<PageTransition><Exercise /></PageTransition>} />
