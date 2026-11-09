@@ -15,7 +15,6 @@ export default function Settings() {
   const language = useAppStore((s) => s.language);
   const setLanguage = useAppStore((s) => s.setLanguage);
   const user = useAppStore((s) => s.user);
-  const setUser = useAppStore((s) => s.setUser);
   const fontFamily = useAppStore((s) => s.fontFamily);
   const setFontFamily = useAppStore((s) => s.setFontFamily);
   const fontSize = useAppStore((s) => s.fontSize);
@@ -340,8 +339,21 @@ export default function Settings() {
           <button
             onClick={() => {
               if (confirm('¿Seguro que quieres borrar todo tu progreso? Esta acción no se puede deshacer.')) {
-                setUser(null);
-                navigate('/');
+                // Wipe everything stored by Lectorix: profile, progress, history, mascot,
+                // settings, and the reminder subscription on the server.
+                void (async () => {
+                  await notifications.disable();
+                  try {
+                    Object.keys(localStorage)
+                      .filter((k) => k.startsWith('lectorix'))
+                      .forEach((k) => localStorage.removeItem(k));
+                  } catch {
+                    // ignore
+                  }
+                  if ('caches' in window) await caches.delete('lectorix-meta').catch(() => false);
+                  // No store update here: it would write the old state back to storage
+                  window.location.replace(import.meta.env.BASE_URL);
+                })();
               }
             }}
             className="w-full py-2.5 rounded-xl border border-red/30 text-red font-bold text-sm"
