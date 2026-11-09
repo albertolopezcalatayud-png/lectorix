@@ -79,7 +79,7 @@ function getSpanishVoice(): SpeechSynthesisVoice | null {
  * Returns a promise that resolves when speaking finishes.
  */
 export function speak(text: string, options?: { rate?: number; pitch?: number }): Promise<void> {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     if (!isTTSAvailable() || !isTTSEnabled()) {
       resolve();
       return;
@@ -102,11 +102,9 @@ export function speak(text: string, options?: { rate?: number; pitch?: number })
     utterance.onend = () => resolve();
     utterance.onerror = (e) => {
       // Don't reject on "interrupted" — it just means new speech started
-      if (e.error === 'interrupted' || e.error === 'canceled') {
-        resolve();
-      } else {
-        reject(e);
-      }
+      // Never break the exercise because of a voice problem (e.g. no voices installed)
+      void e;
+      resolve();
     };
 
     window.speechSynthesis.speak(utterance);

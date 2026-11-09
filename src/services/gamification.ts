@@ -100,6 +100,11 @@ export function buildSessionResult(args: {
     answers: args.answers.map((a) => ({ correct: a.is_correct })),
   });
 
+  const totalTimeMs = Date.now() - args.startTime;
+  const avgTime = total > 0
+    ? Math.round(args.answers.reduce((s, a) => s + a.time_ms, 0) / total)
+    : 0;
+
   return {
     id: `${args.module}_l${args.level}_${Date.now()}`,
     module: args.module as ModuleId,
@@ -109,8 +114,9 @@ export function buildSessionResult(args: {
     score_percent: score,
     stars,
     xp_earned: xp,
-    time_ms: Date.now() - args.startTime,
+    time_ms: totalTimeMs,
     answers: args.answers,
     completed_at: new Date().toISOString(),
+    avg_time_per_exercise: avgTime,
   };
 }

@@ -1,5 +1,5 @@
-import { useState, useCallback } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useState, useCallback, useEffect, useRef } from 'react';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import type { ModuleId, AnswerResult } from '@/types';
 import { useExercises } from '@/hooks/useExercises';
@@ -8,25 +8,113 @@ import { buildSessionResult } from '@/services/gamification';
 import { getModule } from '@/data/modules';
 import { ExerciseCard } from '@/components/exercise/ExerciseCard';
 import { DragDropExercise } from '@/components/exercise/DragDropExercise';
+import { WriteExercise } from '@/components/exercise/WriteExercise';
 import { useI18n } from '@/i18n';
+import notifications from '@/services/notifications';
 
 export default function Exercise() {
   const { moduleId, levelStr } = useParams<{ moduleId: string; levelStr: string }>();
   const navigate = useNavigate();
+  const location = useLocation();
   const module = moduleId as ModuleId;
   const level = parseInt(levelStr || '1', 10);
   const mod = getModule(moduleId || '');
 
-  const { exercises, loading, error } = useExercises(module, level);
+  // Check for review mode (specific exercise IDs passed via state)
+  const reviewExerciseIds: string[] | undefined = location.state?.reviewExerciseIds;
+  const examMode: boolean = location.state?.examMode || false;
+  const examTimeLimit: number = location.state?.examTimeLimit || 0; // ms, 0 = no limit
+  const sessionMode = reviewExerciseIds ? 'review' : examMode ? 'exam' : 'normal';
+
+  const { exercises: allExercises, loading, error } = useExercises(module, level, reviewExerciseIds ? 1000 : 10);
+
+  // Filter exercises for review mode
+  const exercises = reviewExerciseIds
+    ? allExercises.filter(ex => reviewExerciseIds.includes(ex.id))
+    : allExercises;
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<AnswerResult[]>([]);
   const [startTime] = useState(Date.now());
+
+  // Exam timer
+  const [examTimeLeft, setExamTimeLeft] = useState(examTimeLimit);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const updateProgress = useAppStore((s) => s.updateProgress);
   const addXP = useAppStore((s) => s.addXP);
   const updateStreak = useAppStore((s) => s.updateStreak);
   const addSession = useAppStore((s) => s.addSession);
   const { t } = useI18n();
+
+  // Exam timer effect
+  useEffect(() => {
+    if (examMode && examTimeLimit > 0 && exercises.length > 0) {
+      setExamTimeLeft(examTimeLimit);
+      timerRef.current = setInterval(() => {
+        setExamTimeLeft(prev => {
+          if (prev <= 1000) {
+            // Time's up — force finish
+            if (timerRef.current) clearInterval(timerRef.current);
+            return 0;
+          }
+          return prev - 1000;
+        });
+      }, 1000);
+
+      return () => {
+        if (timerRef.current) clearInterval(timerRef.current);
+      };
+    }
+  }, [examMode, examTimeLimit, exercises.length]);
+
+  // Handle time-up
+  useEffect(() => {
+    if (examMode && examTimeLimit > 0 && examTimeLeft === 0 && exercises.length > 0) {
+      finishSession(answers);
+    }
+  }, [examTimeLeft]);
+
+  const finishSession = useCallback((finalAnswers: AnswerResult[]) => {
+    if (timerRef.current) clearInterval(timerRef.current);
+
+    const result = buildSessionResult({
+      module,
+      level,
+      answers: finalAnswers,
+      startTime,
+    });
+
+    // Add mode and avg time
+    result.mode = sessionMode;
+    result.avg_time_per_exercise = finalAnswers.length > 0
+      ? Math.round(finalAnswers.reduce((s, a) => s + a.time_ms, 0) / finalAnswers.length)
+      : 0;
+
+    // Only update progress in normal mode
+    if (sessionMode === 'normal') {
+      updateProgress({
+        module,
+        level,
+        stars: result.stars,
+        best_score: result.score_percent,
+        attempts: 1,
+        unlocked: true,
+      });
+    }
+    const prevStreak = useAppStore.getState().user?.streak_days || 0;
+    addXP(result.xp_earned);
+    updateStreak();
+    addSession(result);
+
+    // Celebrate streak milestones (3, 7, 14, 30...) with a notification
+    const newStreak = useAppStore.getState().user?.streak_days || 0;
+    if (newStreak > prevStreak && [3, 7, 14, 30, 60, 100].includes(newStreak) && notifications.isEnabled()) {
+      notifications.showStreak(newStreak);
+    }
+
+    navigate('/resultados', { state: { result, examMode }, replace: true });
+  }, [module, level, startTime, sessionMode, examMode, updateProgress, addXP, updateStreak, addSession, navigate]);
 
   const handleAnswer = useCallback(
     (selectedIndex: number, isCorrect: boolean, timeMs: number) => {
@@ -45,32 +133,10 @@ export default function Exercise() {
       if (currentIndex + 1 < exercises.length) {
         setCurrentIndex(currentIndex + 1);
       } else {
-        // Session complete
-        const result = buildSessionResult({
-          module,
-          level,
-          answers: newAnswers,
-          startTime,
-        });
-
-        // Update store
-        updateProgress({
-          module,
-          level,
-          stars: result.stars,
-          best_score: result.score_percent,
-          attempts: 1,
-          unlocked: true,
-        });
-        addXP(result.xp_earned);
-        updateStreak();
-        addSession(result);
-
-        // Navigate to results
-        navigate('/resultados', { state: { result }, replace: true });
+        finishSession(newAnswers);
       }
     },
-    [exercises, currentIndex, answers, module, level, startTime, updateProgress, addXP, updateStreak, navigate]
+    [exercises, currentIndex, answers, finishSession]
   );
 
   if (loading) {
@@ -96,6 +162,14 @@ export default function Exercise() {
     );
   }
 
+  const formatTime = (ms: number) => {
+    const mins = Math.floor(ms / 60000);
+    const secs = Math.floor((ms % 60000) / 1000);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  };
+
+  const currentExercise = exercises[currentIndex];
+
   return (
     <div className="min-h-screen">
       {/* Top bar */}
@@ -107,9 +181,19 @@ export default function Exercise() {
           ✕
         </button>
         <div className="flex-1">
-          <h3 className="font-heading font-extrabold text-sm">{mod?.name || module}</h3>
+          <h3 className="font-heading font-extrabold text-sm">
+            {sessionMode === 'review' ? t('rev_title') : sessionMode === 'exam' ? t('exam_title') : (mod?.name || module)}
+          </h3>
           <p className="text-[10px] text-fg-muted">{t('dash_level', { level })}</p>
         </div>
+        {/* Exam timer */}
+        {examMode && examTimeLimit > 0 && (
+          <div className={`px-2.5 py-1 rounded-lg text-xs font-bold ${
+            examTimeLeft < 60000 ? 'bg-red-pale text-red animate-pulse' : 'bg-accent-pale text-accent'
+          }`}>
+            ⏱ {formatTime(examTimeLeft)}
+          </div>
+        )}
         <span className="text-xs font-bold text-fg-muted">
           {t('ex_question', { n: currentIndex + 1, total: exercises.length })}
         </span>
@@ -117,19 +201,29 @@ export default function Exercise() {
 
       {/* Exercise */}
       <div className="px-4 py-6 max-w-lg mx-auto">
-        {exercises[currentIndex].type === 'drag_order' || exercises[currentIndex].type === 'drag_fill' ? (
+        {currentExercise.type === 'write' ? (
+          <WriteExercise
+            exercise={currentExercise}
+            questionNumber={currentIndex + 1}
+            totalQuestions={exercises.length}
+            onAnswer={handleAnswer}
+            examMode={examMode}
+          />
+        ) : currentExercise.type === 'drag_order' || currentExercise.type === 'drag_fill' ? (
           <DragDropExercise
-            exercise={exercises[currentIndex]}
+            exercise={currentExercise}
             questionNumber={currentIndex + 1}
             totalQuestions={exercises.length}
             onAnswer={handleAnswer}
           />
         ) : (
           <ExerciseCard
-            exercise={exercises[currentIndex]}
+            exercise={currentExercise}
             questionNumber={currentIndex + 1}
             totalQuestions={exercises.length}
             onAnswer={handleAnswer}
+            examMode={examMode}
+            autoPlayAudio={module === 'fonologia'}
           />
         )}
       </div>

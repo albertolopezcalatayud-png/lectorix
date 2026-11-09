@@ -6,6 +6,7 @@ import { Card } from '@/components/ui/Card';
 import { isSoundEnabled, setSoundEnabled } from '@/services/sounds';
 import { isTTSEnabled, setTTSEnabled, isTTSAvailable, getTTSRate, setTTSRate } from '@/services/tts';
 import { useI18n } from '@/i18n';
+import notifications from '@/services/notifications';
 
 export default function Settings() {
   const navigate = useNavigate();
@@ -25,6 +26,8 @@ export default function Settings() {
   const [soundOn, setSoundOn] = useState(isSoundEnabled());
   const [ttsOn, setTtsOn] = useState(isTTSEnabled());
   const [ttsRate, setTtsRate] = useState(getTTSRate());
+  const [notifOn, setNotifOn] = useState(notifications.isEnabled() && notifications.getPermission() === 'granted');
+  const [notifHour, setNotifHour] = useState(notifications.getReminderHour());
   const { t } = useI18n();
 
   const themes = [
@@ -254,6 +257,50 @@ export default function Settings() {
             </div>
           </div>
         </Card>
+
+        {/* Reminders */}
+        {notifications.isSupported() && (
+          <Card>
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <span className="text-lg">🔔</span>
+                <span className="text-sm font-bold">{notifOn ? t('push_enabled') : t('push_enable')}</span>
+              </div>
+              <button
+                onClick={async () => {
+                  if (notifOn) {
+                    notifications.disable();
+                    setNotifOn(false);
+                  } else {
+                    setNotifOn(await notifications.request());
+                  }
+                }}
+                className={`relative w-11 h-6 rounded-full transition-colors ${notifOn ? 'bg-accent' : 'bg-border'}`}
+                aria-label={notifOn ? t('push_disable') : t('push_enable')}
+              >
+                <span className={`absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-all ${notifOn ? 'left-[22px]' : 'left-0.5'}`} />
+              </button>
+            </div>
+            {notifOn && (
+              <div className="flex items-center justify-between mt-3">
+                <span className="text-sm text-fg-muted">{t('push_time')}</span>
+                <select
+                  value={notifHour}
+                  onChange={(e) => {
+                    const h = parseInt(e.target.value, 10);
+                    setNotifHour(h);
+                    notifications.setReminderHour(h);
+                  }}
+                  className="px-2 py-1 rounded-lg border border-border bg-bg-card text-sm font-bold"
+                >
+                  {Array.from({ length: 15 }, (_, i) => i + 8).map((h) => (
+                    <option key={h} value={h}>{h}:00</option>
+                  ))}
+                </select>
+              </div>
+            )}
+          </Card>
+        )}
 
         {/* Account */}
         <Card>

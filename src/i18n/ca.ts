@@ -57,6 +57,7 @@ export const ca: Record<TranslationKey, string> = {
   res_stars: 'Estrelles',
   res_xp: 'XP guanyat',
   res_time: 'Temps',
+  res_correct: 'Encerts',
   res_retry: 'Repetir nivell',
   res_continue: 'Continuar',
   res_next_level: 'Següent nivell',
@@ -295,6 +296,56 @@ export const ca: Record<TranslationKey, string> = {
   level_3: 'Intermedi',
   level_4: 'Avançat',
   level_5: 'Expert',
+
+  // Review mode
+  rev_title: 'Repassar errors',
+  rev_desc: 'Repassa els {n} exercicis que has fallat',
+  rev_btn: '🔄 Repassar errors ({n})',
+  rev_no_errors: 'Sense errors! 🎉',
+  rev_complete: 'Repàs completat!',
+
+  // Write exercise
+  write_placeholder: 'Escriu la teva resposta...',
+  write_check: 'Comprovar',
+  write_hint: '💡 Pista',
+  write_correct: 'Molt bé!',
+  write_incorrect: 'La resposta correcta és: {answer}',
+  write_close: 'Gairebé: revisa els accents',
+
+  // Audio
+  audio_listen: 'Escoltar',
+  audio_stop: 'Aturar',
+  audio_listen_word: 'Escoltar paraula',
+
+  // Exam mode
+  exam_title: '📝 Mode Examen',
+  exam_desc: 'Sense pistes · Sense explicacions · Amb temporitzador',
+  exam_start: 'Començar examen',
+  exam_time_left: 'Temps restant',
+  exam_time_up: '⏰ S\'ha acabat el temps!',
+  exam_btn: '📝 Mode examen',
+  exam_results: 'Resultat de l\'examen',
+  exam_grade: 'Qualificació',
+  exam_passed: '✅ Aprovat',
+  exam_failed: '❌ Suspès',
+
+  // Parent panel time stats
+  parent_time_per_ex: 'Temps mitjà/exercici',
+  parent_time_by_type: '⏱ Temps per tipus d\'exercici',
+  parent_type_mc: 'Selecció múltiple',
+  parent_type_drag: 'Arrossegar i deixar anar',
+  parent_type_write: 'Escriptura lliure',
+  parent_seconds: '{n}s',
+
+  // Push notifications
+  push_streak_title: '🔥 No perdis la ratxa!',
+  push_streak_body: 'Portes {n} dies seguits. No ho deixis avui!',
+  push_reminder_title: '📚 Hora de practicar!',
+  push_reminder_body: 'Només 10 minuts al dia marquen la diferència.',
+  push_enable: 'Activar recordatoris',
+  push_disable: 'Desactivar recordatoris',
+  push_enabled: 'Recordatoris activats',
+  push_time: 'Hora del recordatori',
 
   // Module names
   mod_fonologia: 'Fonologia',

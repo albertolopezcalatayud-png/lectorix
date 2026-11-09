@@ -55,6 +55,7 @@ export const es = {
   res_stars: 'Estrellas',
   res_xp: 'XP ganado',
   res_time: 'Tiempo',
+  res_correct: 'Aciertos',
   res_retry: 'Repetir nivel',
   res_continue: 'Continuar',
   res_next_level: 'Siguiente nivel',
@@ -293,6 +294,56 @@ export const es = {
   level_3: 'Intermedio',
   level_4: 'Avanzado',
   level_5: 'Experto',
+
+  // Review mode
+  rev_title: 'Repasar errores',
+  rev_desc: 'Repasa los {n} ejercicios que fallaste',
+  rev_btn: '🔄 Repasar errores ({n})',
+  rev_no_errors: '¡Sin errores! 🎉',
+  rev_complete: '¡Repaso completado!',
+
+  // Write exercise
+  write_placeholder: 'Escribe tu respuesta...',
+  write_check: 'Comprobar',
+  write_hint: '💡 Pista',
+  write_correct: '¡Muy bien!',
+  write_incorrect: 'La respuesta correcta es: {answer}',
+  write_close: 'Casi: revisa las tildes',
+
+  // Audio
+  audio_listen: 'Escuchar',
+  audio_stop: 'Detener',
+  audio_listen_word: 'Escuchar palabra',
+
+  // Exam mode
+  exam_title: '📝 Modo Examen',
+  exam_desc: 'Sin pistas · Sin explicaciones · Con temporizador',
+  exam_start: 'Comenzar examen',
+  exam_time_left: 'Tiempo restante',
+  exam_time_up: '⏰ ¡Se acabó el tiempo!',
+  exam_btn: '📝 Modo examen',
+  exam_results: 'Resultado del examen',
+  exam_grade: 'Calificación',
+  exam_passed: '✅ Aprobado',
+  exam_failed: '❌ Suspenso',
+
+  // Parent panel time stats
+  parent_time_per_ex: 'Tiempo medio/ejercicio',
+  parent_time_by_type: '⏱ Tiempo por tipo de ejercicio',
+  parent_type_mc: 'Selección múltiple',
+  parent_type_drag: 'Arrastrar y soltar',
+  parent_type_write: 'Escritura libre',
+  parent_seconds: '{n}s',
+
+  // Push notifications
+  push_streak_title: '🔥 ¡No pierdas tu racha!',
+  push_streak_body: 'Llevas {n} días seguidos. ¡No lo dejes hoy!',
+  push_reminder_title: '📚 ¡Hora de practicar!',
+  push_reminder_body: 'Solo 10 minutos al día marcan la diferencia.',
+  push_enable: 'Activar recordatorios',
+  push_disable: 'Desactivar recordatorios',
+  push_enabled: 'Recordatorios activados',
+  push_time: 'Hora del recordatorio',
 
   // Module names
   mod_fonologia: 'Fonología',

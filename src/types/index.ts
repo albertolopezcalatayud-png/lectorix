@@ -3,7 +3,7 @@ export interface Exercise {
   id: string;
   module: ModuleId;
   level: number;
-  type: 'multiple_choice' | 'drag_order' | 'drag_fill';
+  type: 'multiple_choice' | 'drag_order' | 'drag_fill' | 'write';
   prompt: string;
   options: string[];
   correct: number;
@@ -17,6 +17,10 @@ export interface Exercise {
   sentence?: string;           // Sentence with ___ blanks (for drag_fill)
   blanks?: string[];           // Correct words for each blank (for drag_fill)
   distractors?: string[];      // Extra wrong items mixed in (for drag_fill)
+  // Write exercise fields
+  answer?: string;             // Correct answer text (for write exercises)
+  hint?: string;               // Optional hint shown to the student
+  acceptableAnswers?: string[]; // Alternative correct answers (case-insensitive)
 }
 
 export type ModuleId =
@@ -71,6 +75,8 @@ export interface SessionResult {
   time_ms: number;
   answers: AnswerResult[];
   completed_at: string;
+  avg_time_per_exercise?: number; // ms average per exercise
+  mode?: 'normal' | 'review' | 'exam'; // session mode
 }
 
 export interface AnswerResult {

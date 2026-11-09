@@ -18,12 +18,19 @@ export default function ParentPanel() {
   const { level } = calculateXPLevel(totalXP);
   const { t, language } = useI18n();
 
+  const sessionHistory = useAppStore((s) => s.sessionHistory);
   const totalStars = progress.reduce((sum, p) => sum + p.stars, 0);
   const maxStars = MODULES.reduce((sum, m) => sum + m.levels * 3, 0);
   const completedLevels = progress.filter((p) => p.stars > 0).length;
   const totalLevels = MODULES.reduce((sum, m) => sum + m.levels, 0);
   const avgScore = progress.length > 0
     ? Math.round(progress.reduce((sum, p) => sum + p.best_score, 0) / progress.length)
+    : 0;
+
+  // Compute average time per exercise from session history
+  const sessionsWithTime = sessionHistory.filter(s => s.avg_time_per_exercise && s.avg_time_per_exercise > 0);
+  const overallAvgTime = sessionsWithTime.length > 0
+    ? Math.round(sessionsWithTime.reduce((s, r) => s + (r.avg_time_per_exercise || 0), 0) / sessionsWithTime.length / 1000)
     : 0;
 
   return (
@@ -139,6 +146,44 @@ export default function ParentPanel() {
             </p>
           </Card>
         </motion.div>
+
+        {/* Time statistics */}
+        {sessionsWithTime.length > 0 && (
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.22 }}>
+            <Card>
+              <h3 className="font-heading font-extrabold text-sm mb-3">{t('parent_time_by_type')}</h3>
+              <div className="text-center mb-3">
+                <div className="text-2xl font-heading font-black text-sky">{overallAvgTime}s</div>
+                <div className="text-[10px] text-fg-muted">{t('parent_time_per_ex')}</div>
+              </div>
+              <div className="space-y-2">
+                {MODULES.map((mod) => {
+                  const modSessions = sessionsWithTime.filter(s => s.module === mod.id);
+                  const modAvgTime = modSessions.length > 0
+                    ? Math.round(modSessions.reduce((s, r) => s + (r.avg_time_per_exercise || 0), 0) / modSessions.length / 1000)
+                    : 0;
+                  if (modAvgTime === 0) return null;
+                  const maxTime = 30; // 30s scale
+                  return (
+                    <div key={mod.id} className="flex items-center gap-2">
+                      <span className="text-xs w-20 truncate">{mod.icon} {mod.name.split(' ')[0]}</span>
+                      <div className="flex-1 h-3 bg-border rounded-full overflow-hidden">
+                        <div
+                          className="h-full rounded-full transition-all"
+                          style={{
+                            width: `${Math.min(100, (modAvgTime / maxTime) * 100)}%`,
+                            backgroundColor: mod.color,
+                          }}
+                        />
+                      </div>
+                      <span className="text-xs font-bold w-8 text-right">{modAvgTime}s</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </Card>
+          </motion.div>
+        )}
 
         {/* Per-module detail */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}>

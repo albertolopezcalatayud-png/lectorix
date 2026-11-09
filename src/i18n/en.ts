@@ -57,6 +57,7 @@ export const en: Record<TranslationKey, string> = {
   res_stars: 'Stars',
   res_xp: 'XP earned',
   res_time: 'Time',
+  res_correct: 'Correct',
   res_retry: 'Retry level',
   res_continue: 'Continue',
   res_next_level: 'Next level',
@@ -295,6 +296,56 @@ export const en: Record<TranslationKey, string> = {
   level_3: 'Intermediate',
   level_4: 'Advanced',
   level_5: 'Expert',
+
+  // Review mode
+  rev_title: 'Review mistakes',
+  rev_desc: 'Review the {n} exercises you got wrong',
+  rev_btn: '🔄 Review mistakes ({n})',
+  rev_no_errors: 'No mistakes! 🎉',
+  rev_complete: 'Review complete!',
+
+  // Write exercise
+  write_placeholder: 'Type your answer...',
+  write_check: 'Check',
+  write_hint: '💡 Hint',
+  write_correct: 'Well done!',
+  write_incorrect: 'The correct answer is: {answer}',
+  write_close: 'Almost: check the accents',
+
+  // Audio
+  audio_listen: 'Listen',
+  audio_stop: 'Stop',
+  audio_listen_word: 'Listen to word',
+
+  // Exam mode
+  exam_title: '📝 Exam Mode',
+  exam_desc: 'No hints · No explanations · With timer',
+  exam_start: 'Start exam',
+  exam_time_left: 'Time remaining',
+  exam_time_up: '⏰ Time\'s up!',
+  exam_btn: '📝 Exam mode',
+  exam_results: 'Exam result',
+  exam_grade: 'Grade',
+  exam_passed: '✅ Passed',
+  exam_failed: '❌ Failed',
+
+  // Parent panel time stats
+  parent_time_per_ex: 'Avg time/exercise',
+  parent_time_by_type: '⏱ Time by exercise type',
+  parent_type_mc: 'Multiple choice',
+  parent_type_drag: 'Drag and drop',
+  parent_type_write: 'Free writing',
+  parent_seconds: '{n}s',
+
+  // Push notifications
+  push_streak_title: '🔥 Don\'t lose your streak!',
+  push_streak_body: 'You\'re on a {n}-day streak. Don\'t stop now!',
+  push_reminder_title: '📚 Time to practice!',
+  push_reminder_body: 'Just 10 minutes a day makes a difference.',
+  push_enable: 'Enable reminders',
+  push_disable: 'Disable reminders',
+  push_enabled: 'Reminders enabled',
+  push_time: 'Reminder time',
 
   // Module names
   mod_fonologia: 'Phonology',

@@ -42,6 +42,35 @@ export default function Levels() {
           </div>
         </div>
 
+        {/* Exam mode button */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="mb-4"
+        >
+          <Card
+            hover
+            onClick={() => {
+              const firstUnlocked = levels.find(l => isLevelUnlocked(mod.id, l));
+              if (firstUnlocked) {
+                navigate(`/ejercicio/${mod.id}/${firstUnlocked}`, {
+                  state: { examMode: true, examTimeLimit: 5 * 60 * 1000 }, // 5 min
+                });
+              }
+            }}
+            className="border-accent/20 bg-accent-pale/20"
+          >
+            <div className="flex items-center gap-3">
+              <span className="text-2xl">📝</span>
+              <div className="flex-1">
+                <h3 className="font-heading font-extrabold text-sm">{t('exam_btn')}</h3>
+                <p className="text-[10px] text-fg-muted">{t('exam_desc')}</p>
+              </div>
+              <span className="text-xs font-bold text-accent">→</span>
+            </div>
+          </Card>
+        </motion.div>
+
         {/* Level cards */}
         <div className="space-y-3">
           {levels.map((level, i) => {

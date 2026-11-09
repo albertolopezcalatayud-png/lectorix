@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { Exercise } from '@/types';
 import { OptionButton } from './OptionButton';
@@ -10,13 +10,34 @@ interface ExerciseCardProps {
   questionNumber: number;
   totalQuestions: number;
   onAnswer: (selectedIndex: number, isCorrect: boolean, timeMs: number) => void;
+  examMode?: boolean;
+  autoPlayAudio?: boolean;
 }
 
-export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswer }: ExerciseCardProps) {
+export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswer, examMode, autoPlayAudio }: ExerciseCardProps) {
   const [selected, setSelected] = useState<number | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const [startTime] = useState(Date.now());
   const [isSpeaking, setIsSpeaking] = useState(false);
+
+  // Auto-play audio for fonología exercises
+  useEffect(() => {
+    if (autoPlayAudio && tts.isAvailable() && exercise.word) {
+      const timer = setTimeout(async () => {
+        setIsSpeaking(true);
+        try {
+          if (exercise.syllables && Array.isArray(exercise.syllables)) {
+            await tts.speakSyllables(exercise.syllables);
+          } else {
+            await tts.speak(exercise.word!);
+          }
+        } finally {
+          setIsSpeaking(false);
+        }
+      }, 500);
+      return () => clearTimeout(timer);
+    }
+  }, [exercise.id, autoPlayAudio]);
 
   const handleSpeak = useCallback(async (text: string) => {
     if (isSpeaking) {
@@ -209,9 +230,11 @@ export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswe
                 <span className="font-bold">
                   {selected === exercise.correct ? '¡Correcto!' : 'Incorrecto'}
                 </span>
-                <span className="block text-xs font-normal text-fg-muted mt-0.5">
-                  {exercise.explanation}
-                </span>
+                {!examMode && (
+                  <span className="block text-xs font-normal text-fg-muted mt-0.5">
+                    {exercise.explanation}
+                  </span>
+                )}
               </div>
             </motion.div>
           )}
