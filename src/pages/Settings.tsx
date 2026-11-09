@@ -325,6 +325,19 @@ export default function Settings() {
           )}
         </Card>
 
+        {/* Privacy policy (required by Google Play to be reachable inside the app) */}
+        <Card>
+          <a
+            href={`${import.meta.env.BASE_URL}privacidad.html`}
+            target="_blank"
+            rel="noopener"
+            className="flex items-center justify-between text-sm font-bold text-accent"
+          >
+            <span>🔒 {t('set_privacy')}</span>
+            <span>↗</span>
+          </a>
+        </Card>
+
         {/* Danger zone */}
         <Card>
           <h3 className="font-heading font-extrabold text-sm mb-3 text-red">Zona peligrosa</h3>

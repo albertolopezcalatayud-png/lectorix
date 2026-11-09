@@ -124,6 +124,7 @@ export const en: Record<TranslationKey, string> = {
   set_contrast: 'High contrast',
   set_account: 'Account',
   set_premium: 'Go Premium',
+  set_privacy: 'Privacy policy',
   set_logout: 'Log out',
 
   // Achievements

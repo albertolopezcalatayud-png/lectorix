@@ -122,6 +122,7 @@ export const es = {
   set_contrast: 'Alto contraste',
   set_account: 'Cuenta',
   set_premium: 'Hazte Premium',
+  set_privacy: 'Política de privacidad',
   set_logout: 'Cerrar sesión',
 
   // Achievements

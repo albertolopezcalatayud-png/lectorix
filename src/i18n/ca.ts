@@ -124,6 +124,7 @@ export const ca: Record<TranslationKey, string> = {
   set_contrast: 'Alt contrast',
   set_account: 'Compte',
   set_premium: 'Fes-te Premium',
+  set_privacy: 'Política de privacitat',
   set_logout: 'Tancar sessió',
 
   // Achievements
