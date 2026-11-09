@@ -238,6 +238,8 @@ export const ca: Record<TranslationKey, string> = {
   prem_family_price: '7,99€',
   prem_family_desc: 'Fins a 4 estudiants · Tots els continguts',
   prem_subscribe: 'Subscriure\'s',
+  prem_soon: 'Properament',
+  prem_soon_desc: 'Les subscripcions arribaran molt aviat. Mentrestant, tot el contingut de Lectorix és gratuït.',
   prem_disclaimer: 'Cancel·la quan vulguis. Sense compromís. Els pagaments es processen a través de Google Play.',
 
   // Mascot Rewards

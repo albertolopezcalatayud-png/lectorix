@@ -1,4 +1,3 @@
-import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAppStore } from '@/stores/useAppStore';
 import { Header } from '@/components/layout/Header';
@@ -17,9 +16,7 @@ const FEATURES: { icon: string; titleKey: TranslationKey; descKey: TranslationKe
 ];
 
 export default function Premium() {
-  const navigate = useNavigate();
   const isPremium = useAppStore((s) => s.isPremium);
-  const setSubscription = useAppStore((s) => s.setSubscription);
   const { t } = useI18n();
 
   if (isPremium()) {
@@ -35,18 +32,8 @@ export default function Premium() {
     );
   }
 
-  const handleSubscribe = (planId: 'individual' | 'family') => {
-    // In production this would open Google Play billing
-    // For now, simulate subscription
-    setSubscription({
-      plan_id: planId,
-      status: 'active',
-      started_at: new Date().toISOString(),
-      expires_at: new Date(Date.now() + 30 * 86400000).toISOString(),
-    });
-    navigate('/', { replace: true });
-  };
-
+  // Subscriptions need Google Play Billing (not integrated yet): show them as coming soon.
+  // Until then every feature is free for everyone.
   return (
     <div className="min-h-screen pb-24">
       <Header title={t('prem_title')} showBack />
@@ -103,8 +90,8 @@ export default function Premium() {
                 <span className="text-sm text-fg-muted">{t('prem_month')}</span>
               </div>
               <p className="text-xs text-fg-muted mt-1 mb-3">{t('prem_individual_desc')}</p>
-              <Button fullWidth onClick={() => handleSubscribe('individual')}>
-                {t('prem_subscribe')}
+              <Button fullWidth disabled>
+                {t('prem_soon')}
               </Button>
             </Card>
           </motion.div>
@@ -121,15 +108,15 @@ export default function Premium() {
                 <span className="text-sm text-fg-muted">{t('prem_month')}</span>
               </div>
               <p className="text-xs text-fg-muted mt-1 mb-3">{t('prem_family_desc')}</p>
-              <Button variant="secondary" fullWidth onClick={() => handleSubscribe('family')}>
-                {t('prem_subscribe')}
+              <Button variant="secondary" fullWidth disabled>
+                {t('prem_soon')}
               </Button>
             </Card>
           </motion.div>
         </div>
 
         <p className="text-[10px] text-fg-muted text-center mt-4">
-          {t('prem_disclaimer')}
+          {t('prem_soon_desc')}
         </p>
       </div>
     </div>

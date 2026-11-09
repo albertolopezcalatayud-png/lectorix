@@ -238,6 +238,8 @@ export const en: Record<TranslationKey, string> = {
   prem_family_price: '€7.99',
   prem_family_desc: 'Up to 4 students · All content',
   prem_subscribe: 'Subscribe',
+  prem_soon: 'Coming soon',
+  prem_soon_desc: 'Subscriptions are coming soon. Until then, all of Lectorix is free.',
   prem_disclaimer: 'Cancel anytime. No commitment. Payments processed through Google Play.',
 
   // Mascot Rewards

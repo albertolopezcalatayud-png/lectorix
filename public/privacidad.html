@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Lectorix</title>
+<style>
+  :root { --bg:#F7F5FF; --card:#fff; --fg:#2D2640; --muted:#7A6F94; --accent:#8B5CF6; --pale:#EDE9FF; --mint:#ECFDF5; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1A1626; --card:#241E35; --fg:#F0EBF8; --muted:#A89DC4; --pale:#2E2250; --mint:#1A2E26; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  .card { background:var(--card); border-radius:20px; padding:24px; margin-bottom:16px; box-shadow:0 2px 12px rgba(139,92,246,.08); }
+  h1 { font-size:1.8rem; margin:0 0 4px; color:var(--accent); }
+  h2 { font-size:1.15rem; margin:0 0 8px; }
+  .muted { color:var(--muted); font-size:.92rem; }
+  .summary { background:var(--mint); border-radius:16px; padding:16px 20px; }
+  ul { padding-left: 1.2em; margin: 8px 0; }
+  a { color: var(--accent); }
+  table { width:100%; border-collapse: collapse; font-size:.93rem; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--pale); vertical-align: top; }
+  th { color: var(--muted); font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>📚 Política de privacidad de Lectorix</h1>
+    <p class="muted">Última actualización: 9 de noviembre de 2026</p>
+    <div class="summary">
+      <strong>En resumen:</strong> Lectorix no tiene anuncios, no usa analítica ni rastreadores, no vende ni comparte datos y no pide datos personales para funcionar. El progreso del alumno se guarda <strong>solo en su propio dispositivo</strong>. Si se activan los recordatorios, se guarda en nuestro servidor lo mínimo para poder enviarlos, sin nombres ni correos.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>1. Quién es el responsable</h2>
+    <p>Lectorix es una aplicación educativa desarrollada por <strong>Inorderwords</strong>. Para cualquier cuestión sobre privacidad puedes escribir a <a href="mailto:inorderwords@gmail.com">inorderwords@gmail.com</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2>2. Qué datos se tratan y dónde</h2>
+    <table>
+      <tr><th>Dato</th><th>Dónde se guarda</th><th>Para qué</th></tr>
+      <tr><td>Nombre o apodo que se escribe en la app, progreso, estrellas, puntos, historial de sesiones, mascota y ajustes de accesibilidad</td><td>Solo en el dispositivo (almacenamiento local del navegador o de la app). No se envía a ningún servidor.</td><td>Mostrar el progreso y el panel para familias.</td></tr>
+      <tr><td><em>Solo si se activan los recordatorios:</em> la dirección técnica de suscripción a notificaciones que genera el navegador, la hora elegida, la zona horaria y la fecha de la última práctica</td><td>Servidor de Lectorix alojado en Cloudflare.</td><td>Enviar un aviso diario a la hora elegida, y no enviarlo si ese día ya se ha practicado.</td></tr>
+    </table>
+    <p>Los datos de recordatorios no incluyen nombre, correo, edad ni ningún dato que identifique a la persona. Se borran en cuanto se desactivan los recordatorios en Ajustes o cuando el navegador anula la suscripción.</p>
+  </div>
+
+  <div class="card">
+    <h2>3. Servicios técnicos que intervienen</h2>
+    <ul>
+      <li><strong>GitHub Pages</strong> aloja la aplicación. Como cualquier servidor web, puede registrar de forma técnica la dirección IP para servir las páginas.</li>
+      <li><strong>Google Fonts</strong> sirve las tipografías de la app; al descargarlas, el navegador se conecta a los servidores de Google.</li>
+      <li><strong>Cloudflare</strong> aloja el servidor de recordatorios (solo si se activan).</li>
+      <li><strong>Lectura en voz alta:</strong> usa el motor de voz del propio dispositivo. Según el dispositivo, ese motor puede procesar el texto que se lee con servicios de su fabricante (por ejemplo, Google o Apple).</li>
+      <li><strong>Servicios de notificaciones del navegador</strong> (por ejemplo, Firebase Cloud Messaging en Android y Chrome) transportan el aviso diario. El aviso viaja vacío: el texto lo genera el propio dispositivo.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>4. Niñas y niños</h2>
+    <p>Lectorix está pensada para alumnado de Primaria y Secundaria. Por eso está diseñada para no necesitar datos personales: no hay registro obligatorio, no hay chat ni contenido de otros usuarios, no hay publicidad y no hay compras dentro de la app. Recomendamos que el uso se haga con el acompañamiento de la familia o del profesorado.</p>
+  </div>
+
+  <div class="card">
+    <h2>5. Tus derechos</h2>
+    <p>Como los datos de progreso solo están en el dispositivo, puedes borrarlos en cualquier momento borrando los datos de la app o del navegador, o desinstalándola. Para los datos de recordatorios basta con desactivarlos en Ajustes. También puedes ejercer tus derechos de acceso, rectificación, supresión, oposición y limitación escribiendo a <a href="mailto:inorderwords@gmail.com">inorderwords@gmail.com</a>, y presentar una reclamación ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">www.aepd.es</a>).</p>
+  </div>
+
+  <div class="card">
+    <h2>6. Cambios</h2>
+    <p>Si cambiamos esta política, actualizaremos la fecha de arriba y explicaremos los cambios importantes dentro de la app.</p>
+  </div>
+</main>
+</body>
+</html>

@@ -80,7 +80,8 @@ function DragOrderExercise({
     if (isSpeaking) { tts.stop(); setIsSpeaking(false); return; }
     setIsSpeaking(true);
     try {
-      await tts.speakSyllables(correctOrder);
+      // Whole word: reading the syllables one by one would dictate the answer
+      await tts.speak(exercise.word || correctOrder.join(''), { rate: 0.7 });
     } finally {
       setIsSpeaking(false);
     }
@@ -103,20 +104,18 @@ function DragOrderExercise({
           </div>
         </div>
 
-        {/* Word display */}
-        {exercise.word && (
-          <div className="text-center">
-            <span className="text-3xl font-heading font-black text-accent">{exercise.word}</span>
-            {tts.isAvailable() && (
-              <button
-                onClick={handleSpeak}
-                className={`inline-flex items-center justify-center w-8 h-8 rounded-full ml-2 align-middle transition-colors ${
-                  isSpeaking ? 'bg-accent text-white' : 'bg-accent/10 text-accent'
-                }`}
-              >
-                {isSpeaking ? '⏹' : '🔊'}
-              </button>
-            )}
+        {/* The target word is heard, not shown: showing it would turn the task into copying */}
+        {exercise.word && tts.isAvailable() && (
+          <div className="flex justify-center">
+            <button
+              onClick={handleSpeak}
+              aria-label="Escuchar la palabra"
+              className={`w-16 h-16 rounded-full text-2xl flex items-center justify-center transition-colors ${
+                isSpeaking ? 'bg-accent text-white' : 'bg-accent-pale text-accent hover:bg-accent/20'
+              }`}
+            >
+              {isSpeaking ? '⏹' : '🔊'}
+            </button>
           </div>
         )}
 

@@ -236,6 +236,8 @@ export const es = {
   prem_family_price: '7,99€',
   prem_family_desc: 'Hasta 4 estudiantes · Todos los contenidos',
   prem_subscribe: 'Suscribirse',
+  prem_soon: 'Próximamente',
+  prem_soon_desc: 'Las suscripciones llegarán muy pronto. Mientras tanto, todo el contenido de Lectorix es gratis.',
   prem_disclaimer: 'Cancela cuando quieras. Sin compromiso. Los pagos se procesan a través de Google Play.',
 
   // Mascot Rewards
