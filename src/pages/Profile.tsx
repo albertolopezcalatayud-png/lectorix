@@ -8,12 +8,14 @@ import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { Badge } from '@/components/ui/Badge';
 import { MascotAvatar } from '@/components/mascot/MascotAvatar';
+import { useI18n } from '@/i18n';
 
 export default function Profile() {
   const navigate = useNavigate();
   const user = useAppStore((s) => s.user);
   const progress = useAppStore((s) => s.progress);
   const mascot = useAppStore((s) => s.mascot);
+  const { t } = useI18n();
   const totalXP = user?.total_xp || 0;
   const streak = user?.streak_days || 0;
   const { level, currentXP, nextLevelXP } = calculateXPLevel(totalXP);
@@ -24,7 +26,7 @@ export default function Profile() {
 
   return (
     <div className="min-h-screen pb-24">
-      <Header title="Mi Perfil" />
+      <Header title={t('prof_title')} />
 
       <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
         {/* Avatar & Name */}
@@ -42,8 +44,8 @@ export default function Profile() {
           <h2 className="font-heading font-black text-xl">{user?.display_name || 'Estudiante'}</h2>
           <p className="text-sm text-fg-muted">{user?.email || ''}</p>
           <div className="flex gap-2 mt-2">
-            <Badge color="accent">Nivel {level}</Badge>
-            <Badge color="yellow">🔥 {streak} días</Badge>
+            <Badge color="accent">{t('dash_level', { level })}</Badge>
+            <Badge color="yellow">🔥 {t('dash_streak', { days: streak })}</Badge>
           </div>
         </motion.div>
 
@@ -55,8 +57,8 @@ export default function Profile() {
         >
           <Card>
             <div className="flex justify-between items-center mb-2">
-              <span className="text-sm font-bold">Experiencia</span>
-              <span className="text-xs text-fg-muted">{totalXP} XP total</span>
+              <span className="text-sm font-bold">{t('prof_experience')}</span>
+              <span className="text-xs text-fg-muted">{t('prof_xp_total', { xp: totalXP })}</span>
             </div>
             <ProgressBar
               value={(currentXP / nextLevelXP) * 100}
@@ -64,7 +66,7 @@ export default function Profile() {
               height={8}
             />
             <p className="text-[10px] text-fg-muted mt-1">
-              {currentXP} / {nextLevelXP} XP para nivel {level + 1}
+              {t('prof_xp_next', { current: currentXP, next: nextLevelXP, level: level + 1 })}
             </p>
           </Card>
         </motion.div>
@@ -76,19 +78,19 @@ export default function Profile() {
           transition={{ delay: 0.15 }}
         >
           <Card>
-            <h3 className="font-heading font-extrabold text-sm mb-3">Estadísticas</h3>
+            <h3 className="font-heading font-extrabold text-sm mb-3">{t('prof_stats')}</h3>
             <div className="grid grid-cols-3 gap-4 text-center">
               <div>
                 <div className="text-2xl font-heading font-black text-yellow">⭐ {totalStars}</div>
-                <div className="text-[10px] text-fg-muted">Estrellas</div>
+                <div className="text-[10px] text-fg-muted">{t('prof_stars')}</div>
               </div>
               <div>
                 <div className="text-2xl font-heading font-black text-mint">{completedLevels}</div>
-                <div className="text-[10px] text-fg-muted">Niveles</div>
+                <div className="text-[10px] text-fg-muted">{t('prof_levels')}</div>
               </div>
               <div>
                 <div className="text-2xl font-heading font-black text-sky">{totalAttempts}</div>
-                <div className="text-[10px] text-fg-muted">Intentos</div>
+                <div className="text-[10px] text-fg-muted">{t('prof_attempts')}</div>
               </div>
             </div>
           </Card>
@@ -101,7 +103,7 @@ export default function Profile() {
           transition={{ delay: 0.2 }}
         >
           <Card>
-            <h3 className="font-heading font-extrabold text-sm mb-3">Progreso por módulo</h3>
+            <h3 className="font-heading font-extrabold text-sm mb-3">{t('prof_by_module')}</h3>
             <div className="space-y-3">
               {MODULES.map((mod) => {
                 const modProgress = progress.filter((p) => p.module === mod.id);
@@ -132,7 +134,7 @@ export default function Profile() {
             className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
           >
             <span>🦉</span>
-            <span className="text-sm font-bold">Mi mascota</span>
+            <span className="text-sm font-bold">{t('prof_mascot')}</span>
             <span className="ml-auto text-fg-muted">→</span>
           </button>
           <button
@@ -140,7 +142,7 @@ export default function Profile() {
             className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
           >
             <span>📋</span>
-            <span className="text-sm font-bold">Historial de sesiones</span>
+            <span className="text-sm font-bold">{t('prof_history')}</span>
             <span className="ml-auto text-fg-muted">→</span>
           </button>
           <button
@@ -148,7 +150,7 @@ export default function Profile() {
             className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
           >
             <span>⚙️</span>
-            <span className="text-sm font-bold">Ajustes</span>
+            <span className="text-sm font-bold">{t('prof_settings')}</span>
             <span className="ml-auto text-fg-muted">→</span>
           </button>
           <button
@@ -156,7 +158,7 @@ export default function Profile() {
             className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
           >
             <span>👨‍👩‍👧</span>
-            <span className="text-sm font-bold">Panel para padres</span>
+            <span className="text-sm font-bold">{t('prof_parents')}</span>
             <span className="ml-auto text-fg-muted">→</span>
           </button>
         </div>

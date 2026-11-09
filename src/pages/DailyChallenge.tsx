@@ -6,6 +6,7 @@ import { useAppStore } from '@/stores/useAppStore';
 import { buildSessionResult } from '@/services/gamification';
 import { MODULES } from '@/data/modules';
 import { ExerciseCard } from '@/components/exercise/ExerciseCard';
+import { useI18n } from '@/i18n';
 
 const DAILY_COUNT = 5;
 
@@ -19,6 +20,7 @@ export default function DailyChallenge() {
 
   const addXP = useAppStore((s) => s.addXP);
   const updateStreak = useAppStore((s) => s.updateStreak);
+  const { t } = useI18n();
 
   useEffect(() => {
     async function loadDailyExercises() {
@@ -101,9 +103,9 @@ export default function DailyChallenge() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center px-6 text-center">
         <span className="text-4xl mb-4">😕</span>
-        <h2 className="font-heading font-extrabold text-lg mb-2">Sin ejercicios</h2>
-        <p className="text-sm text-fg-muted mb-4">No se pudieron cargar los ejercicios del reto diario.</p>
-        <button onClick={() => navigate('/')} className="text-accent font-bold">← Volver al inicio</button>
+        <h2 className="font-heading font-extrabold text-lg mb-2">{t('daily_no_exercises')}</h2>
+        <p className="text-sm text-fg-muted mb-4">{t('daily_no_exercises_desc')}</p>
+        <button onClick={() => navigate('/')} className="text-accent font-bold">{t('daily_back')}</button>
       </div>
     );
   }
@@ -119,8 +121,8 @@ export default function DailyChallenge() {
           ✕
         </button>
         <div className="flex-1">
-          <h3 className="font-heading font-extrabold text-sm">⚡ Reto Diario</h3>
-          <p className="text-[10px] text-fg-muted">5 preguntas variadas</p>
+          <h3 className="font-heading font-extrabold text-sm">{t('daily_title')}</h3>
+          <p className="text-[10px] text-fg-muted">{t('daily_subtitle')}</p>
         </div>
         <span className="text-xs font-bold text-fg-muted">
           {currentIndex + 1} / {exercises.length}

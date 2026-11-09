@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAppStore } from '@/stores/useAppStore';
 import { Button } from '@/components/ui/Button';
+import { useI18n } from '@/i18n';
 
 export default function Login() {
   const navigate = useNavigate();
@@ -12,6 +13,7 @@ export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
+  const { t } = useI18n();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -58,8 +60,8 @@ export default function Login() {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-8"
       >
-        <h1 className="font-heading font-black text-4xl text-accent mb-1">Lectorix</h1>
-        <p className="text-sm text-fg-muted">Aprende a leer y escribir mejor</p>
+        <h1 className="font-heading font-black text-4xl text-accent mb-1">{t('login_title')}</h1>
+        <p className="text-sm text-fg-muted">{t('login_subtitle')}</p>
       </motion.div>
 
       <motion.form
@@ -72,7 +74,7 @@ export default function Login() {
         {mode === 'register' && (
           <input
             type="text"
-            placeholder="Nombre"
+            placeholder={t('login_name')}
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
@@ -81,7 +83,7 @@ export default function Login() {
         )}
         <input
           type="email"
-          placeholder="Email"
+          placeholder={t('login_email')}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
@@ -89,7 +91,7 @@ export default function Login() {
         />
         <input
           type="password"
-          placeholder="Contraseña"
+          placeholder={t('login_password')}
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
@@ -98,7 +100,7 @@ export default function Login() {
         />
 
         <Button type="submit" fullWidth loading={loading}>
-          {mode === 'login' ? 'Iniciar sesión' : 'Crear cuenta'}
+          {mode === 'login' ? t('login_submit') : t('login_register')}
         </Button>
 
         <button
@@ -106,7 +108,7 @@ export default function Login() {
           onClick={() => setMode(mode === 'login' ? 'register' : 'login')}
           className="w-full text-center text-sm text-accent font-bold py-2"
         >
-          {mode === 'login' ? '¿No tienes cuenta? Regístrate' : '¿Ya tienes cuenta? Inicia sesión'}
+          {mode === 'login' ? t('login_switch_register') : t('login_switch_login')}
         </button>
       </motion.form>
 
@@ -117,7 +119,7 @@ export default function Login() {
         onClick={handleSkip}
         className="mt-6 text-xs text-fg-muted underline"
       >
-        Continuar sin cuenta
+        {t('login_skip')}
       </motion.button>
     </div>
   );

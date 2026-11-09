@@ -5,6 +5,7 @@ import { useAppStore } from '@/stores/useAppStore';
 import { Card } from '@/components/ui/Card';
 import { Stars } from '@/components/ui/Stars';
 import { Header } from '@/components/layout/Header';
+import { useI18n } from '@/i18n';
 
 export default function Levels() {
   const { moduleId } = useParams<{ moduleId: string }>();
@@ -13,6 +14,7 @@ export default function Levels() {
   const progress = useAppStore((s) => s.progress);
   const isLevelUnlocked = useAppStore((s) => s.isLevelUnlocked);
   const isPremium = useAppStore((s) => s.isPremium);
+  const { t } = useI18n();
 
   if (!mod) {
     navigate('/modulos');
@@ -79,7 +81,7 @@ export default function Levels() {
                     <div className="flex-1">
                       <div className="flex items-center gap-2">
                         <h3 className="font-heading font-extrabold text-sm">
-                          Nivel {level} · {LEVEL_NAMES[level]}
+                          {t('dash_level', { level })} · {LEVEL_NAMES[level]}
                         </h3>
                         {needsPremium && (
                           <span className="text-[10px] font-extrabold bg-yellow-pale text-yellow px-2 py-0.5 rounded-full">
@@ -89,15 +91,15 @@ export default function Levels() {
                       </div>
                       <p className="text-xs text-fg-muted mt-0.5">
                         {levelProgress
-                          ? `Mejor: ${levelProgress.best_score}% · ${levelProgress.attempts} intentos`
-                          : '30 ejercicios · 3 tipos'}
+                          ? t('lvl_best', { score: levelProgress.best_score, attempts: levelProgress.attempts })
+                          : t('lvl_info')}
                       </p>
                     </div>
                     <div className="flex flex-col items-end gap-1">
                       {levelProgress && <Stars count={levelProgress.stars} size={16} />}
                       {unlocked && !needsPremium && (
                         <span className="text-xs font-bold text-accent">
-                          {levelProgress ? 'Repetir' : 'Empezar'} →
+                          {levelProgress ? t('lvl_retry') : t('lvl_start')} →
                         </span>
                       )}
                     </div>

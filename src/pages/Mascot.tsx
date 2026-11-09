@@ -10,18 +10,21 @@ import {
   type RewardItem,
 } from '@/components/mascot/MascotAvatar';
 import { sounds } from '@/services/sounds';
+import { useI18n } from '@/i18n';
+import type { TranslationKey } from '@/i18n';
 
 type TabId = 'color' | 'hat' | 'accessory' | 'background';
 
-const TABS: { id: TabId; label: string; icon: string }[] = [
-  { id: 'color', label: 'Color', icon: '🎨' },
-  { id: 'hat', label: 'Gorros', icon: '🧢' },
-  { id: 'accessory', label: 'Accesorios', icon: '⭐' },
-  { id: 'background', label: 'Fondos', icon: '🌈' },
+const TABS: { id: TabId; labelKey: TranslationKey; icon: string }[] = [
+  { id: 'color', labelKey: 'mascot_color', icon: '🎨' },
+  { id: 'hat', labelKey: 'mascot_hats', icon: '🧢' },
+  { id: 'accessory', labelKey: 'mascot_accessories', icon: '⭐' },
+  { id: 'background', labelKey: 'mascot_backgrounds', icon: '🌈' },
 ];
 
 export default function Mascot() {
   const [activeTab, setActiveTab] = useState<TabId>('color');
+  const { t } = useI18n();
   const mascot = useAppStore((s) => s.mascot);
   const setMascotColor = useAppStore((s) => s.setMascotColor);
   const setMascotHat = useAppStore((s) => s.setMascotHat);
@@ -86,7 +89,7 @@ export default function Mascot() {
 
   return (
     <div className="min-h-screen pb-24">
-      <Header title="Mi Mascota" />
+      <Header title={t('mascot_title')} />
 
       <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
         {/* Mascot Preview */}
@@ -99,10 +102,10 @@ export default function Mascot() {
             <MascotAvatar customization={mascot} size={160} />
           </div>
           <h2 className="font-heading font-black text-lg mt-3">
-            {user?.display_name ? `El búho de ${user.display_name}` : 'Tu búho'}
+            {user?.display_name ? t('mascot_owl', { name: user.display_name }) : t('mascot_your_owl')}
           </h2>
           <p className="text-xs text-fg-muted mt-1">
-            {unlockedCount}/{totalCount} recompensas desbloqueadas
+            {t('mascot_unlocked', { n: unlockedCount, total: totalCount })}
           </p>
         </motion.div>
 
@@ -122,7 +125,7 @@ export default function Mascot() {
               }`}
             >
               <span>{tab.icon}</span>
-              <span className="hidden min-[360px]:inline">{tab.label}</span>
+              <span className="hidden min-[360px]:inline">{t(tab.labelKey)}</span>
             </button>
           ))}
         </div>
@@ -160,8 +163,8 @@ export default function Mascot() {
                   }`}
                 >
                   <span className="text-2xl block mb-1">🚫</span>
-                  <p className="text-xs font-bold">Ninguno</p>
-                  <p className="text-[10px] text-fg-muted">Quitar</p>
+                  <p className="text-xs font-bold">{t('mascot_none')}</p>
+                  <p className="text-[10px] text-fg-muted">{t('mascot_remove')}</p>
                 </button>
               </motion.div>
             )}
@@ -192,16 +195,16 @@ export default function Mascot() {
                       <span className="text-2xl">{item.emoji}</span>
                       {equipped && (
                         <span className="text-[10px] bg-accent text-white px-1.5 py-0.5 rounded-full font-bold">
-                          Puesto
+                          {t('mascot_equipped')}
                         </span>
                       )}
                       {!unlocked && (
                         <span className="text-[10px]">🔒</span>
                       )}
                     </div>
-                    <p className="text-xs font-bold truncate">{item.name}</p>
+                    <p className="text-xs font-bold truncate">{t(item.nameKey as TranslationKey)}</p>
                     <p className={`text-[10px] ${unlocked ? 'text-mint' : 'text-fg-muted'}`}>
-                      {unlocked ? '✓ Desbloqueado' : item.requirement}
+                      {unlocked ? t('mascot_unlocked_item') : t(item.requirementKey as TranslationKey, item.requirementParams)}
                     </p>
                   </button>
                 </motion.div>

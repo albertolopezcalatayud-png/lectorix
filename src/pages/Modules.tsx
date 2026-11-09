@@ -5,14 +5,16 @@ import { useAppStore } from '@/stores/useAppStore';
 import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { Header } from '@/components/layout/Header';
+import { useI18n } from '@/i18n';
 
 export default function Modules() {
   const navigate = useNavigate();
   const progress = useAppStore((s) => s.progress);
+  const { t } = useI18n();
 
   return (
     <div className="min-h-screen pb-24">
-      <Header title="Módulos" showBack />
+      <Header title={t('mod_title')} showBack />
 
       <div className="px-4 py-5 max-w-lg mx-auto space-y-3">
         {MODULES.map((mod, i) => {
@@ -46,8 +48,8 @@ export default function Modules() {
                       </span>
                     </div>
                     <div className="flex gap-3 mt-2">
-                      <span className="text-xs text-fg-muted">⭐ {totalStars} estrellas</span>
-                      <span className="text-xs text-fg-muted">{mod.levels} niveles</span>
+                      <span className="text-xs text-fg-muted">⭐ {totalStars} {t('prof_stars').toLowerCase()}</span>
+                      <span className="text-xs text-fg-muted">{t('mod_levels', { n: mod.levels })}</span>
                     </div>
                   </div>
                 </div>

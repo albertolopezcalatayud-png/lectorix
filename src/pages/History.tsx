@@ -5,8 +5,10 @@ import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { getModule } from '@/data/modules';
 import { LEVEL_NAMES } from '@/data/modules';
+import { useI18n } from '@/i18n';
+import type { TranslationKey } from '@/i18n';
 
-function formatDate(iso: string): string {
+function formatDate(iso: string, t: (key: TranslationKey, params?: Record<string, string | number>) => string): string {
   const d = new Date(iso);
   const now = new Date();
   const diff = now.getTime() - d.getTime();
@@ -14,12 +16,12 @@ function formatDate(iso: string): string {
   const hours = Math.floor(diff / 3600000);
   const days = Math.floor(diff / 86400000);
 
-  if (mins < 1) return 'Ahora mismo';
-  if (mins < 60) return `Hace ${mins} min`;
-  if (hours < 24) return `Hace ${hours}h`;
-  if (days === 1) return 'Ayer';
-  if (days < 7) return `Hace ${days} días`;
-  return d.toLocaleDateString('es-ES', { day: 'numeric', month: 'short' });
+  if (mins < 1) return t('hist_now');
+  if (mins < 60) return t('hist_min_ago', { n: mins });
+  if (hours < 24) return t('hist_hours_ago', { n: hours });
+  if (days === 1) return t('hist_yesterday');
+  if (days < 7) return t('hist_days_ago', { n: days });
+  return d.toLocaleDateString(undefined, { day: 'numeric', month: 'short' });
 }
 
 function formatTime(ms: number): string {
@@ -36,19 +38,20 @@ const starsDisplay = (stars: number) => {
 export default function History() {
   const sessionHistory = useAppStore((s) => s.sessionHistory);
   const navigate = useNavigate();
+  const { t } = useI18n();
 
   // Group sessions by date
   const grouped: Record<string, typeof sessionHistory> = {};
   for (const session of sessionHistory) {
     const d = new Date(session.completed_at);
-    const key = d.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long' });
+    const key = d.toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'long' });
     if (!grouped[key]) grouped[key] = [];
     grouped[key].push(session);
   }
 
   return (
     <div className="min-h-screen pb-24">
-      <Header title="Historial" />
+      <Header title={t('hist_title')} />
 
       <div className="px-4 py-5 max-w-lg mx-auto">
         {sessionHistory.length === 0 ? (
@@ -58,15 +61,15 @@ export default function History() {
             className="text-center py-12"
           >
             <span className="text-5xl block mb-4">📋</span>
-            <h2 className="font-heading font-extrabold text-lg mb-2">Sin sesiones aún</h2>
+            <h2 className="font-heading font-extrabold text-lg mb-2">{t('hist_empty')}</h2>
             <p className="text-sm text-fg-muted mb-4">
-              Completa ejercicios para ver tu historial aquí
+              {t('hist_empty_desc')}
             </p>
             <button
               onClick={() => navigate('/modulos')}
               className="text-accent font-bold text-sm"
             >
-              Ir a módulos →
+              {t('hist_go_modules')}
             </button>
           </motion.div>
         ) : (
@@ -82,7 +85,7 @@ export default function History() {
                     <p className="font-heading font-black text-xl text-accent">
                       {sessionHistory.length}
                     </p>
-                    <p className="text-[10px] text-fg-muted">Sesiones</p>
+                    <p className="text-[10px] text-fg-muted">{t('hist_sessions')}</p>
                   </div>
                   <div>
                     <p className="font-heading font-black text-xl text-mint">
@@ -90,13 +93,13 @@ export default function History() {
                         sessionHistory.reduce((s, r) => s + r.score_percent, 0) / sessionHistory.length
                       )}%
                     </p>
-                    <p className="text-[10px] text-fg-muted">Media</p>
+                    <p className="text-[10px] text-fg-muted">{t('hist_avg')}</p>
                   </div>
                   <div>
                     <p className="font-heading font-black text-xl text-peach">
                       {sessionHistory.reduce((s, r) => s + r.xp_earned, 0)}
                     </p>
-                    <p className="text-[10px] text-fg-muted">XP total</p>
+                    <p className="text-[10px] text-fg-muted">{t('hist_xp_total')}</p>
                   </div>
                 </div>
               </Card>
@@ -133,12 +136,12 @@ export default function History() {
                                 {mod?.name || session.module}
                               </p>
                               <span className="text-[10px] text-fg-muted flex-shrink-0">
-                                {formatDate(session.completed_at)}
+                                {formatDate(session.completed_at, t)}
                               </span>
                             </div>
                             <div className="flex items-center gap-2 mt-0.5">
                               <span className="text-[10px] text-fg-muted">
-                                Nivel {session.level} · {LEVEL_NAMES[session.level] || ''}
+                                {t('parent_level_label', { level: session.level })} · {LEVEL_NAMES[session.level] || ''}
                               </span>
                             </div>
                             <div className="flex items-center gap-3 mt-1">

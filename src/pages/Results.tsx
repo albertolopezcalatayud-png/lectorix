@@ -8,12 +8,14 @@ import { Stars } from '@/components/ui/Stars';
 import { Button } from '@/components/ui/Button';
 import { Confetti } from '@/components/ui/Confetti';
 import sounds from '@/services/sounds';
+import { useI18n } from '@/i18n';
 
 export default function Results() {
   const location = useLocation();
   const navigate = useNavigate();
   const result = location.state?.result;
   const soundPlayed = useRef(false);
+  const { t } = useI18n();
 
   useEffect(() => {
     if (!result || soundPlayed.current) return;
@@ -71,7 +73,7 @@ export default function Results() {
         transition={{ delay: 0.3 }}
         className="font-heading font-black text-2xl text-center mb-1"
       >
-        {result.stars >= 3 ? '¡Perfecto!' : result.stars >= 1 ? '¡Bien hecho!' : '¡Sigue practicando!'}
+        {t('res_title')}
       </motion.h1>
 
       <motion.p
@@ -80,7 +82,7 @@ export default function Results() {
         transition={{ delay: 0.4 }}
         className="text-fg-muted text-sm mb-6"
       >
-        {mod?.name} · Nivel {result.level} · {LEVEL_NAMES[result.level]}
+        {mod?.name} · {t('dash_level', { level: result.level })} · {LEVEL_NAMES[result.level]}
       </motion.p>
 
       {/* Stars */}
@@ -104,19 +106,19 @@ export default function Results() {
           <div className="grid grid-cols-2 gap-4">
             <div className="text-center">
               <div className="text-2xl font-heading font-black text-accent">{result.score_percent}%</div>
-              <div className="text-xs text-fg-muted">Puntuación</div>
+              <div className="text-xs text-fg-muted">{t('res_score')}</div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-heading font-black text-mint">+{result.xp_earned}</div>
-              <div className="text-xs text-fg-muted">XP ganados</div>
+              <div className="text-xs text-fg-muted">{t('res_xp')}</div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-heading font-black">{result.correct_answers}/{result.total_questions}</div>
-              <div className="text-xs text-fg-muted">Aciertos</div>
+              <div className="text-xs text-fg-muted">{t('res_stars')}</div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-heading font-black">{minutes}:{seconds.toString().padStart(2, '0')}</div>
-              <div className="text-xs text-fg-muted">Tiempo</div>
+              <div className="text-xs text-fg-muted">{t('res_time')}</div>
             </div>
           </div>
         </Card>
@@ -132,7 +134,7 @@ export default function Results() {
         >
           <Card className="border-mint/30 bg-mint-pale/30 text-center">
             <span className="text-2xl">🔓</span>
-            <p className="font-heading font-extrabold mt-1">¡Nivel {result.level + 1} desbloqueado!</p>
+            <p className="font-heading font-extrabold mt-1">{t('res_unlocked', { level: result.level + 1 })}</p>
             <p className="text-xs text-fg-muted">{LEVEL_NAMES[result.level + 1]}</p>
           </Card>
         </motion.div>
@@ -150,7 +152,7 @@ export default function Results() {
             fullWidth
             onClick={() => navigate(`/ejercicio/${result.module}/${result.level + 1}`, { replace: true })}
           >
-            Siguiente nivel →
+            {t('res_next')} →
           </Button>
         )}
         <Button
@@ -158,14 +160,14 @@ export default function Results() {
           fullWidth
           onClick={() => navigate(`/ejercicio/${result.module}/${result.level}`, { replace: true })}
         >
-          Repetir nivel
+          {t('res_retry')}
         </Button>
         <Button
           variant="ghost"
           fullWidth
           onClick={() => navigate('/', { replace: true })}
         >
-          Volver al inicio
+          {t('res_home')}
         </Button>
       </motion.div>
     </div>

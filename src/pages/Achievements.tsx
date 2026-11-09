@@ -2,12 +2,14 @@ import { motion } from 'framer-motion';
 import { useAppStore } from '@/stores/useAppStore';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
+import { useI18n } from '@/i18n';
+import type { TranslationKey } from '@/i18n';
 
 interface AchievementDef {
   id: string;
   icon: string;
-  title: string;
-  description: string;
+  titleKey: TranslationKey;
+  descKey: TranslationKey;
   check: (stats: Stats) => boolean;
   progress?: (stats: Stats) => { current: number; target: number };
   color: string;
@@ -24,62 +26,62 @@ interface Stats {
 
 const ACHIEVEMENTS: AchievementDef[] = [
   {
-    id: 'first_step', icon: '👣', title: 'Primer paso', description: 'Completa tu primer ejercicio',
+    id: 'first_step', icon: '👣', titleKey: 'ach_first_step', descKey: 'ach_first_step_desc',
     check: (s) => s.attempts >= 1, progress: (s) => ({ current: Math.min(s.attempts, 1), target: 1 }),
     color: '#8B5CF6',
   },
   {
-    id: 'star_collector', icon: '⭐', title: 'Coleccionista', description: 'Consigue 10 estrellas',
+    id: 'star_collector', icon: '⭐', titleKey: 'ach_star_collector', descKey: 'ach_star_collector_desc',
     check: (s) => s.totalStars >= 10, progress: (s) => ({ current: Math.min(s.totalStars, 10), target: 10 }),
     color: '#FBBF24',
   },
   {
-    id: 'star_master', icon: '🌟', title: 'Maestro estelar', description: 'Consigue 50 estrellas',
+    id: 'star_master', icon: '🌟', titleKey: 'ach_star_master', descKey: 'ach_star_master_desc',
     check: (s) => s.totalStars >= 50, progress: (s) => ({ current: Math.min(s.totalStars, 50), target: 50 }),
     color: '#FBBF24',
   },
   {
-    id: 'xp_100', icon: '💎', title: 'Centenario', description: 'Acumula 100 XP',
+    id: 'xp_100', icon: '💎', titleKey: 'ach_xp_100', descKey: 'ach_xp_100_desc',
     check: (s) => s.totalXP >= 100, progress: (s) => ({ current: Math.min(s.totalXP, 100), target: 100 }),
     color: '#38BDF8',
   },
   {
-    id: 'xp_500', icon: '💠', title: 'Medio millar', description: 'Acumula 500 XP',
+    id: 'xp_500', icon: '💠', titleKey: 'ach_xp_500', descKey: 'ach_xp_500_desc',
     check: (s) => s.totalXP >= 500, progress: (s) => ({ current: Math.min(s.totalXP, 500), target: 500 }),
     color: '#38BDF8',
   },
   {
-    id: 'xp_1000', icon: '🏆', title: 'Leyenda', description: 'Acumula 1000 XP',
+    id: 'xp_1000', icon: '🏆', titleKey: 'ach_xp_1000', descKey: 'ach_xp_1000_desc',
     check: (s) => s.totalXP >= 1000, progress: (s) => ({ current: Math.min(s.totalXP, 1000), target: 1000 }),
     color: '#FB923C',
   },
   {
-    id: 'streak_3', icon: '🔥', title: 'En racha', description: '3 días seguidos practicando',
+    id: 'streak_3', icon: '🔥', titleKey: 'ach_streak_3', descKey: 'ach_streak_3_desc',
     check: (s) => s.streak >= 3, progress: (s) => ({ current: Math.min(s.streak, 3), target: 3 }),
     color: '#F87171',
   },
   {
-    id: 'streak_7', icon: '🔥', title: 'Semana perfecta', description: '7 días seguidos',
+    id: 'streak_7', icon: '🔥', titleKey: 'ach_streak_7', descKey: 'ach_streak_7_desc',
     check: (s) => s.streak >= 7, progress: (s) => ({ current: Math.min(s.streak, 7), target: 7 }),
     color: '#F87171',
   },
   {
-    id: 'streak_30', icon: '🔥', title: 'Imparable', description: '30 días seguidos',
+    id: 'streak_30', icon: '🔥', titleKey: 'ach_streak_30', descKey: 'ach_streak_30_desc',
     check: (s) => s.streak >= 30, progress: (s) => ({ current: Math.min(s.streak, 30), target: 30 }),
     color: '#F87171',
   },
   {
-    id: 'explorer', icon: '🧭', title: 'Explorador', description: 'Prueba los 5 módulos',
+    id: 'explorer', icon: '🧭', titleKey: 'ach_explorer', descKey: 'ach_explorer_desc',
     check: (s) => s.modulesStarted >= 5, progress: (s) => ({ current: Math.min(s.modulesStarted, 5), target: 5 }),
     color: '#34D399',
   },
   {
-    id: 'level_5', icon: '🎓', title: 'Graduado', description: 'Completa 5 niveles',
+    id: 'level_5', icon: '🎓', titleKey: 'ach_level_5', descKey: 'ach_level_5_desc',
     check: (s) => s.completedLevels >= 5, progress: (s) => ({ current: Math.min(s.completedLevels, 5), target: 5 }),
     color: '#A78BFA',
   },
   {
-    id: 'level_15', icon: '🏅', title: 'Campeón', description: 'Completa 15 niveles',
+    id: 'level_15', icon: '🏅', titleKey: 'ach_level_15', descKey: 'ach_level_15_desc',
     check: (s) => s.completedLevels >= 15, progress: (s) => ({ current: Math.min(s.completedLevels, 15), target: 15 }),
     color: '#A78BFA',
   },
@@ -119,6 +121,7 @@ function BadgeRing({ progress, color, size = 72, children }: { progress: number;
 export default function Achievements() {
   const progress = useAppStore((s) => s.progress);
   const user = useAppStore((s) => s.user);
+  const { t } = useI18n();
 
   const stats: Stats = {
     totalXP: user?.total_xp || 0,
@@ -135,7 +138,7 @@ export default function Achievements() {
 
   return (
     <div className="min-h-screen pb-24">
-      <Header title="Logros" />
+      <Header title={t('ach_title')} />
 
       <div className="px-4 py-5 max-w-lg mx-auto">
         {/* Summary */}
@@ -149,9 +152,9 @@ export default function Achievements() {
           </BadgeRing>
           <div>
             <h2 className="font-heading font-black text-lg">
-              {unlocked.length} de {ACHIEVEMENTS.length}
+              {t('ach_of', { n: unlocked.length, total: ACHIEVEMENTS.length })}
             </h2>
-            <p className="text-xs text-fg-muted">logros desbloqueados</p>
+            <p className="text-xs text-fg-muted">{t('ach_unlocked_count')}</p>
           </div>
         </motion.div>
 
@@ -159,7 +162,7 @@ export default function Achievements() {
         {unlocked.length > 0 && (
           <div className="mb-6">
             <h3 className="font-heading font-extrabold text-xs uppercase text-fg-muted mb-3">
-              Desbloqueados 🎉
+              {t('ach_section_unlocked')}
             </h3>
             <div className="grid grid-cols-3 gap-3">
               {unlocked.map((a, i) => (
@@ -193,9 +196,9 @@ export default function Achievements() {
                       </BadgeRing>
                     </div>
                     <p className="font-heading font-extrabold text-[11px] leading-tight mt-1.5 relative">
-                      {a.title}
+                      {t(a.titleKey)}
                     </p>
-                    <p className="text-[9px] text-fg-muted mt-0.5 relative">{a.description}</p>
+                    <p className="text-[9px] text-fg-muted mt-0.5 relative">{t(a.descKey)}</p>
                   </Card>
                 </motion.div>
               ))}
@@ -207,7 +210,7 @@ export default function Achievements() {
         {locked.length > 0 && (
           <div>
             <h3 className="font-heading font-extrabold text-xs uppercase text-fg-muted mb-3">
-              Por desbloquear 🔒
+              {t('ach_section_locked')}
             </h3>
             <div className="space-y-2">
               {locked.map((a, i) => {
@@ -226,8 +229,8 @@ export default function Achievements() {
                         <span className="text-lg grayscale">{a.icon}</span>
                       </BadgeRing>
                       <div className="flex-1 min-w-0">
-                        <p className="font-heading font-extrabold text-sm">{a.title}</p>
-                        <p className="text-[10px] text-fg-muted">{a.description}</p>
+                        <p className="font-heading font-extrabold text-sm">{t(a.titleKey)}</p>
+                        <p className="text-[10px] text-fg-muted">{t(a.descKey)}</p>
                         {prog && (
                           <div className="flex items-center gap-2 mt-1">
                             <div className="flex-1 h-1.5 bg-border rounded-full overflow-hidden">

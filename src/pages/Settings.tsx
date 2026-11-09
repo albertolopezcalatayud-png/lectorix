@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { isSoundEnabled, setSoundEnabled } from '@/services/sounds';
 import { isTTSEnabled, setTTSEnabled, isTTSAvailable, getTTSRate, setTTSRate } from '@/services/tts';
+import { useI18n } from '@/i18n';
 
 export default function Settings() {
   const navigate = useNavigate();
@@ -24,11 +25,12 @@ export default function Settings() {
   const [soundOn, setSoundOn] = useState(isSoundEnabled());
   const [ttsOn, setTtsOn] = useState(isTTSEnabled());
   const [ttsRate, setTtsRate] = useState(getTTSRate());
+  const { t } = useI18n();
 
   const themes = [
-    { value: 'system' as const, label: 'Automático', icon: '💻' },
-    { value: 'light' as const, label: 'Claro', icon: '☀️' },
-    { value: 'dark' as const, label: 'Oscuro', icon: '🌙' },
+    { value: 'system' as const, label: t('set_theme_system'), icon: '💻' },
+    { value: 'light' as const, label: t('set_theme_light'), icon: '☀️' },
+    { value: 'dark' as const, label: t('set_theme_dark'), icon: '🌙' },
   ];
 
   const languages = [
@@ -39,25 +41,25 @@ export default function Settings() {
 
   return (
     <div className="min-h-screen pb-24">
-      <Header title="Ajustes" showBack />
+      <Header title={t('set_title')} showBack />
 
       <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
         {/* Theme */}
         <Card>
-          <h3 className="font-heading font-extrabold text-sm mb-3">Apariencia</h3>
+          <h3 className="font-heading font-extrabold text-sm mb-3">{t('set_display')}</h3>
           <div className="flex gap-2">
-            {themes.map((t) => (
+            {themes.map((th) => (
               <button
-                key={t.value}
-                onClick={() => setTheme(t.value)}
+                key={th.value}
+                onClick={() => setTheme(th.value)}
                 className={`flex-1 py-2.5 px-3 rounded-xl text-center text-sm font-bold transition-colors ${
-                  theme === t.value
+                  theme === th.value
                     ? 'bg-accent text-white'
                     : 'bg-bg border border-border'
                 }`}
               >
-                <span className="block text-lg mb-0.5">{t.icon}</span>
-                {t.label}
+                <span className="block text-lg mb-0.5">{th.icon}</span>
+                {th.label}
               </button>
             ))}
           </div>
@@ -65,7 +67,7 @@ export default function Settings() {
 
         {/* Language */}
         <Card>
-          <h3 className="font-heading font-extrabold text-sm mb-3">Idioma</h3>
+          <h3 className="font-heading font-extrabold text-sm mb-3">{t('set_language')}</h3>
           <div className="space-y-1.5">
             {languages.map((l) => (
               <button
@@ -172,11 +174,11 @@ export default function Settings() {
 
         {/* Accessibility */}
         <Card>
-          <h3 className="font-heading font-extrabold text-sm mb-3">Accesibilidad</h3>
+          <h3 className="font-heading font-extrabold text-sm mb-3">{t('set_access')}</h3>
           <div className="space-y-4">
             {/* Font family */}
             <div>
-              <span className="text-xs text-fg-muted block mb-2">Tipografía</span>
+              <span className="text-xs text-fg-muted block mb-2">{t('set_font')}</span>
               <div className="flex gap-2">
                 <button
                   onClick={() => setFontFamily('default')}
@@ -187,7 +189,7 @@ export default function Settings() {
                   }`}
                 >
                   <span className="block text-base mb-0.5" style={{ fontFamily: 'Nunito, sans-serif' }}>Aa</span>
-                  Estándar
+                  {t('set_font_default')}
                 </button>
                 <button
                   onClick={() => setFontFamily('dyslexic')}
@@ -198,7 +200,7 @@ export default function Settings() {
                   }`}
                 >
                   <span className="block text-base mb-0.5" style={{ fontFamily: 'OpenDyslexic, sans-serif' }}>Aa</span>
-                  Dislexia
+                  {t('set_font_dyslexic')}
                 </button>
               </div>
               <p className="text-[10px] text-fg-muted mt-1.5">
@@ -208,7 +210,7 @@ export default function Settings() {
 
             {/* Font size */}
             <div>
-              <span className="text-xs text-fg-muted block mb-2">Tamaño del texto</span>
+              <span className="text-xs text-fg-muted block mb-2">{t('set_font_size')}</span>
               <div className="flex gap-1.5">
                 {([
                   { value: 'small' as const, label: 'A', size: 'text-xs' },
@@ -235,7 +237,7 @@ export default function Settings() {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-lg">◑</span>
-                <span className="text-sm font-bold">Alto contraste</span>
+                <span className="text-sm font-bold">{t('set_contrast')}</span>
               </div>
               <button
                 onClick={() => setHighContrast(!highContrast)}
@@ -255,7 +257,7 @@ export default function Settings() {
 
         {/* Account */}
         <Card>
-          <h3 className="font-heading font-extrabold text-sm mb-3">Cuenta</h3>
+          <h3 className="font-heading font-extrabold text-sm mb-3">{t('set_account')}</h3>
           <div className="space-y-2">
             <div className="flex justify-between text-sm">
               <span className="text-fg-muted">Email</span>
@@ -271,7 +273,7 @@ export default function Settings() {
               onClick={() => navigate('/premium')}
               className="w-full mt-3 py-2.5 rounded-xl bg-accent text-white font-bold text-sm"
             >
-              Hazte Premium ⭐
+              {t('set_premium')} ⭐
             </button>
           )}
         </Card>

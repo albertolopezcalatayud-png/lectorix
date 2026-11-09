@@ -138,39 +138,40 @@ export function MascotAvatar({ customization, size = 120, animate = true }: Masc
 export interface RewardItem {
   id: string;
   category: 'color' | 'hat' | 'accessory' | 'background';
-  name: string;
+  nameKey: string;
   emoji: string;
-  requirement: string;
+  requirementKey: string;
+  requirementParams?: Record<string, string | number>;
   check: (stats: { xp: number; stars: number; levels: number; streak: number; sessions: number }) => boolean;
 }
 
 export const REWARD_CATALOG: RewardItem[] = [
   // Colors (unlocked by default: purple)
-  { id: 'color_blue', category: 'color', name: 'Azul cielo', emoji: '🔵', requirement: '10 estrellas', check: (s) => s.stars >= 10 },
-  { id: 'color_green', category: 'color', name: 'Verde menta', emoji: '🟢', requirement: '25 estrellas', check: (s) => s.stars >= 25 },
-  { id: 'color_orange', category: 'color', name: 'Naranja', emoji: '🟠', requirement: '50 estrellas', check: (s) => s.stars >= 50 },
-  { id: 'color_pink', category: 'color', name: 'Rosa', emoji: '🩷', requirement: '75 estrellas', check: (s) => s.stars >= 75 },
+  { id: 'color_blue', category: 'color', nameKey: 'reward_blue', emoji: '🔵', requirementKey: 'reward_req_stars', requirementParams: { n: 10 }, check: (s) => s.stars >= 10 },
+  { id: 'color_green', category: 'color', nameKey: 'reward_green', emoji: '🟢', requirementKey: 'reward_req_stars', requirementParams: { n: 25 }, check: (s) => s.stars >= 25 },
+  { id: 'color_orange', category: 'color', nameKey: 'reward_orange', emoji: '🟠', requirementKey: 'reward_req_stars', requirementParams: { n: 50 }, check: (s) => s.stars >= 50 },
+  { id: 'color_pink', category: 'color', nameKey: 'reward_pink', emoji: '🩷', requirementKey: 'reward_req_stars', requirementParams: { n: 75 }, check: (s) => s.stars >= 75 },
 
   // Hats
-  { id: 'hat_gorra', category: 'hat', name: 'Gorra', emoji: '🧢', requirement: 'Completa 3 niveles', check: (s) => s.levels >= 3 },
-  { id: 'hat_corona', category: 'hat', name: 'Corona', emoji: '👑', requirement: '100 XP', check: (s) => s.xp >= 100 },
-  { id: 'hat_sombrero', category: 'hat', name: 'Sombrero', emoji: '🎩', requirement: '250 XP', check: (s) => s.xp >= 250 },
-  { id: 'hat_graduation', category: 'hat', name: 'Birrete', emoji: '🎓', requirement: 'Completa 10 niveles', check: (s) => s.levels >= 10 },
-  { id: 'hat_wizard', category: 'hat', name: 'Mago', emoji: '🧙', requirement: '500 XP', check: (s) => s.xp >= 500 },
+  { id: 'hat_gorra', category: 'hat', nameKey: 'reward_gorra', emoji: '🧢', requirementKey: 'reward_req_levels', requirementParams: { n: 3 }, check: (s) => s.levels >= 3 },
+  { id: 'hat_corona', category: 'hat', nameKey: 'reward_corona', emoji: '👑', requirementKey: 'reward_req_xp', requirementParams: { n: 100 }, check: (s) => s.xp >= 100 },
+  { id: 'hat_sombrero', category: 'hat', nameKey: 'reward_sombrero', emoji: '🎩', requirementKey: 'reward_req_xp', requirementParams: { n: 250 }, check: (s) => s.xp >= 250 },
+  { id: 'hat_graduation', category: 'hat', nameKey: 'reward_birrete', emoji: '🎓', requirementKey: 'reward_req_levels', requirementParams: { n: 10 }, check: (s) => s.levels >= 10 },
+  { id: 'hat_wizard', category: 'hat', nameKey: 'reward_mago', emoji: '🧙', requirementKey: 'reward_req_xp', requirementParams: { n: 500 }, check: (s) => s.xp >= 500 },
 
   // Accessories
-  { id: 'acc_gafas', category: 'accessory', name: 'Gafas', emoji: '👓', requirement: '5 sesiones', check: (s) => s.sessions >= 5 },
-  { id: 'acc_estrella', category: 'accessory', name: 'Estrella', emoji: '⭐', requirement: '20 estrellas', check: (s) => s.stars >= 20 },
-  { id: 'acc_medalla', category: 'accessory', name: 'Medalla', emoji: '🏅', requirement: 'Racha de 7 días', check: (s) => s.streak >= 7 },
-  { id: 'acc_varita', category: 'accessory', name: 'Varita mágica', emoji: '🪄', requirement: '750 XP', check: (s) => s.xp >= 750 },
-  { id: 'acc_libro', category: 'accessory', name: 'Libro', emoji: '📖', requirement: '15 sesiones', check: (s) => s.sessions >= 15 },
+  { id: 'acc_gafas', category: 'accessory', nameKey: 'reward_gafas', emoji: '👓', requirementKey: 'reward_req_sessions', requirementParams: { n: 5 }, check: (s) => s.sessions >= 5 },
+  { id: 'acc_estrella', category: 'accessory', nameKey: 'reward_estrella', emoji: '⭐', requirementKey: 'reward_req_stars', requirementParams: { n: 20 }, check: (s) => s.stars >= 20 },
+  { id: 'acc_medalla', category: 'accessory', nameKey: 'reward_medalla', emoji: '🏅', requirementKey: 'reward_req_streak', requirementParams: { n: 7 }, check: (s) => s.streak >= 7 },
+  { id: 'acc_varita', category: 'accessory', nameKey: 'reward_varita', emoji: '🪄', requirementKey: 'reward_req_xp', requirementParams: { n: 750 }, check: (s) => s.xp >= 750 },
+  { id: 'acc_libro', category: 'accessory', nameKey: 'reward_libro', emoji: '📖', requirementKey: 'reward_req_sessions', requirementParams: { n: 15 }, check: (s) => s.sessions >= 15 },
 
   // Backgrounds
-  { id: 'bg_bosque', category: 'background', name: 'Bosque', emoji: '🌳', requirement: 'Completa 5 niveles', check: (s) => s.levels >= 5 },
-  { id: 'bg_playa', category: 'background', name: 'Playa', emoji: '🏖️', requirement: '200 XP', check: (s) => s.xp >= 200 },
-  { id: 'bg_espacio', category: 'background', name: 'Espacio', emoji: '🚀', requirement: '400 XP', check: (s) => s.xp >= 400 },
-  { id: 'bg_castillo', category: 'background', name: 'Castillo', emoji: '🏰', requirement: 'Racha de 14 días', check: (s) => s.streak >= 14 },
-  { id: 'bg_arcoiris', category: 'background', name: 'Arcoíris', emoji: '🌈', requirement: '1000 XP', check: (s) => s.xp >= 1000 },
+  { id: 'bg_bosque', category: 'background', nameKey: 'reward_bosque', emoji: '🌳', requirementKey: 'reward_req_levels', requirementParams: { n: 5 }, check: (s) => s.levels >= 5 },
+  { id: 'bg_playa', category: 'background', nameKey: 'reward_playa', emoji: '🏖️', requirementKey: 'reward_req_xp', requirementParams: { n: 200 }, check: (s) => s.xp >= 200 },
+  { id: 'bg_espacio', category: 'background', nameKey: 'reward_espacio', emoji: '🚀', requirementKey: 'reward_req_xp', requirementParams: { n: 400 }, check: (s) => s.xp >= 400 },
+  { id: 'bg_castillo', category: 'background', nameKey: 'reward_castillo', emoji: '🏰', requirementKey: 'reward_req_streak', requirementParams: { n: 14 }, check: (s) => s.streak >= 14 },
+  { id: 'bg_arcoiris', category: 'background', nameKey: 'reward_arcoiris', emoji: '🌈', requirementKey: 'reward_req_xp', requirementParams: { n: 1000 }, check: (s) => s.xp >= 1000 },
 ];
 
 export const COLOR_MAP: Record<string, string> = {

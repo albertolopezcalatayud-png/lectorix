@@ -7,12 +7,14 @@ import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { Header } from '@/components/layout/Header';
 import { MascotAvatar } from '@/components/mascot/MascotAvatar';
+import { useI18n } from '@/i18n';
 
 export default function Dashboard() {
   const navigate = useNavigate();
   const user = useAppStore((s) => s.user);
   const progress = useAppStore((s) => s.progress);
   const mascot = useAppStore((s) => s.mascot);
+  const { t } = useI18n();
   const xpInfo = user ? calculateXPLevel(user.total_xp) : { level: 1, currentXP: 0, nextLevelXP: 100, progress: 0 };
 
   return (
@@ -29,9 +31,9 @@ export default function Dashboard() {
           </button>
           <div>
             <h2 className="font-heading font-black text-xl">
-              ¡Hola, {user?.display_name || 'Estudiante'}! 👋
+              {t('dash_hello', { name: user?.display_name || 'Estudiante' })}
             </h2>
-            <p className="text-fg-muted text-sm mt-1">¿Listo para practicar hoy?</p>
+            <p className="text-fg-muted text-sm mt-1">{t('dash_ready')}</p>
           </div>
         </motion.div>
 
@@ -39,18 +41,18 @@ export default function Dashboard() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
           <Card>
             <div className="flex items-center justify-between mb-2">
-              <span className="font-heading font-extrabold text-sm">Nivel {xpInfo.level}</span>
+              <span className="font-heading font-extrabold text-sm">{t('dash_level', { level: xpInfo.level })}</span>
               <span className="text-xs text-fg-muted">{xpInfo.currentXP}/{xpInfo.nextLevelXP} XP</span>
             </div>
             <ProgressBar value={xpInfo.progress * 100} />
             <div className="flex gap-3 mt-3">
               <div className="flex items-center gap-1.5 text-sm">
                 <span>🔥</span>
-                <span className="font-bold">{user?.streak_days || 0} días</span>
+                <span className="font-bold">{t('dash_streak', { days: user?.streak_days || 0 })}</span>
               </div>
               <div className="flex items-center gap-1.5 text-sm">
                 <span>⭐</span>
-                <span className="font-bold">{user?.total_xp || 0} XP total</span>
+                <span className="font-bold">{t('dash_xp', { xp: user?.total_xp || 0 })}</span>
               </div>
             </div>
           </Card>
@@ -62,10 +64,10 @@ export default function Dashboard() {
             <div className="flex items-center gap-3">
               <span className="text-3xl">⚡</span>
               <div className="flex-1">
-                <h3 className="font-heading font-extrabold">Reto del día</h3>
-                <p className="text-xs text-fg-muted">5 preguntas aleatorias · Gana 50 XP extra</p>
+                <h3 className="font-heading font-extrabold">{t('dash_daily')}</h3>
+                <p className="text-xs text-fg-muted">{t('dash_daily_desc')}</p>
               </div>
-              <span className="text-accent font-extrabold text-sm">Jugar →</span>
+              <span className="text-accent font-extrabold text-sm">{t('dash_play')}</span>
             </div>
           </Card>
         </motion.div>
@@ -73,9 +75,9 @@ export default function Dashboard() {
         {/* Modules */}
         <div>
           <div className="flex items-center justify-between mb-3">
-            <h3 className="font-heading font-extrabold">Módulos</h3>
+            <h3 className="font-heading font-extrabold">{t('dash_modules')}</h3>
             <button onClick={() => navigate('/modulos')} className="text-xs font-bold text-accent">
-              Ver todos →
+              {t('dash_view_all')}
             </button>
           </div>
 

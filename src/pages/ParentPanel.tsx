@@ -9,12 +9,14 @@ import { Stars } from '@/components/ui/Stars';
 import { ModuleBarChart } from '@/components/charts/ModuleBarChart';
 import { SkillRadar } from '@/components/charts/SkillRadar';
 import { generateParentReport, downloadReport, printReport } from '@/services/pdfExport';
+import { useI18n } from '@/i18n';
 
 export default function ParentPanel() {
   const user = useAppStore((s) => s.user);
   const progress = useAppStore((s) => s.progress);
   const totalXP = user?.total_xp || 0;
   const { level } = calculateXPLevel(totalXP);
+  const { t, language } = useI18n();
 
   const totalStars = progress.reduce((sum, p) => sum + p.stars, 0);
   const maxStars = MODULES.reduce((sum, m) => sum + m.levels * 3, 0);
@@ -26,30 +28,30 @@ export default function ParentPanel() {
 
   return (
     <div className="min-h-screen pb-24">
-      <Header title="Panel para padres" showBack />
+      <Header title={t('parent_title')} showBack />
 
       <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
         {/* Export buttons */}
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex gap-2 justify-end">
           <button
             onClick={() => {
-              const html = generateParentReport({ user, progress });
+              const html = generateParentReport({ user, progress, language });
               const name = user?.display_name || 'estudiante';
               const date = new Date().toISOString().slice(0, 10);
               downloadReport(html, `informe-lectorix-${name}-${date}.html`);
             }}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-accent text-white text-xs font-bold hover:bg-accent/90 transition-colors"
           >
-            📥 Descargar informe
+            {t('parent_download')}
           </button>
           <button
             onClick={() => {
-              const html = generateParentReport({ user, progress });
+              const html = generateParentReport({ user, progress, language });
               printReport(html);
             }}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-bg-card border border-border text-xs font-bold hover:bg-accent-pale/30 transition-colors"
           >
-            🖨️ Imprimir
+            {t('parent_print')}
           </button>
         </motion.div>
 
@@ -61,8 +63,8 @@ export default function ParentPanel() {
                 {user?.avatar || '🧑‍🎓'}
               </div>
               <div>
-                <h2 className="font-heading font-black text-lg">{user?.display_name || 'Estudiante'}</h2>
-                <p className="text-xs text-fg-muted">Nivel {level} · {totalXP} XP · 🔥 {user?.streak_days || 0} días</p>
+                <h2 className="font-heading font-black text-lg">{user?.display_name || t('parent_student')}</h2>
+                <p className="text-xs text-fg-muted">{t('dash_level', { level })} · {totalXP} XP · 🔥 {t('parent_days', { n: user?.streak_days || 0 })}</p>
               </div>
             </div>
           </Card>
@@ -71,25 +73,25 @@ export default function ParentPanel() {
         {/* Global stats */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
           <Card>
-            <h3 className="font-heading font-extrabold text-sm mb-3">Resumen general</h3>
+            <h3 className="font-heading font-extrabold text-sm mb-3">{t('parent_summary')}</h3>
             <div className="grid grid-cols-2 gap-4">
               <div className="text-center">
                 <div className="text-2xl font-heading font-black text-accent">{avgScore}%</div>
-                <div className="text-[10px] text-fg-muted">Puntuación media</div>
+                <div className="text-[10px] text-fg-muted">{t('parent_avg_score')}</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-heading font-black text-yellow">⭐ {totalStars}/{maxStars}</div>
-                <div className="text-[10px] text-fg-muted">Estrellas</div>
+                <div className="text-[10px] text-fg-muted">{t('parent_stars')}</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-heading font-black text-mint">{completedLevels}/{totalLevels}</div>
-                <div className="text-[10px] text-fg-muted">Niveles completados</div>
+                <div className="text-[10px] text-fg-muted">{t('parent_levels')}</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-heading font-black text-sky">
                   {progress.reduce((s, p) => s + p.attempts, 0)}
                 </div>
-                <div className="text-[10px] text-fg-muted">Sesiones totales</div>
+                <div className="text-[10px] text-fg-muted">{t('parent_sessions')}</div>
               </div>
             </div>
           </Card>
@@ -98,7 +100,7 @@ export default function ParentPanel() {
         {/* Module Progress Chart */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }}>
           <Card>
-            <h3 className="font-heading font-extrabold text-sm mb-3">📊 Progreso por módulo</h3>
+            <h3 className="font-heading font-extrabold text-sm mb-3">{t('parent_module_progress')}</h3>
             <ModuleBarChart
               data={MODULES.map((mod) => {
                 const modProgress = progress.filter((p) => p.module === mod.id);
@@ -118,7 +120,7 @@ export default function ParentPanel() {
         {/* Skill Radar */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
           <Card>
-            <h3 className="font-heading font-extrabold text-sm mb-3">🎯 Mapa de habilidades</h3>
+            <h3 className="font-heading font-extrabold text-sm mb-3">{t('parent_skill_map')}</h3>
             <SkillRadar
               skills={MODULES.map((mod) => {
                 const modProgress = progress.filter((p) => p.module === mod.id);
@@ -133,7 +135,7 @@ export default function ParentPanel() {
               })}
             />
             <p className="text-[10px] text-fg-muted text-center mt-2">
-              Puntuación media por área de habilidad
+              {t('parent_skill_avg')}
             </p>
           </Card>
         </motion.div>
@@ -141,7 +143,7 @@ export default function ParentPanel() {
         {/* Per-module detail */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}>
           <Card>
-            <h3 className="font-heading font-extrabold text-sm mb-3">Detalle por módulo</h3>
+            <h3 className="font-heading font-extrabold text-sm mb-3">{t('parent_detail')}</h3>
             <div className="space-y-4">
               {MODULES.map((mod) => {
                 const modProgress = progress.filter((p) => p.module === mod.id);
@@ -156,13 +158,13 @@ export default function ParentPanel() {
                     <div className="flex items-center gap-2 mb-1.5">
                       <span className="text-lg">{mod.icon}</span>
                       <span className="font-heading font-extrabold text-sm">{mod.name}</span>
-                      <span className="ml-auto text-xs text-fg-muted">{completed}/{mod.levels} niveles</span>
+                      <span className="ml-auto text-xs text-fg-muted">{t('parent_levels_label', { n: completed, total: mod.levels })}</span>
                     </div>
                     <ProgressBar value={(completed / mod.levels) * 100} color={mod.color} height={5} />
                     <div className="flex gap-4 mt-1 text-[10px] text-fg-muted">
                       <span>⭐ {modStars}/{mod.levels * 3}</span>
-                      <span>Media: {modAvg}%</span>
-                      <span>{modProgress.reduce((s, p) => s + p.attempts, 0)} intentos</span>
+                      <span>{t('parent_avg_label', { score: modAvg })}</span>
+                      <span>{t('parent_attempts_label', { n: modProgress.reduce((s, p) => s + p.attempts, 0) })}</span>
                     </div>
 
                     {/* Level breakdown */}
@@ -170,7 +172,7 @@ export default function ParentPanel() {
                       <div className="mt-2 ml-7 space-y-1">
                         {modProgress.map((p) => (
                           <div key={`${p.module}-${p.level}`} className="flex items-center gap-2 text-[11px]">
-                            <span className="text-fg-muted w-16">Nivel {p.level}</span>
+                            <span className="text-fg-muted w-16">{t('parent_level_label', { level: p.level })}</span>
                             <Stars count={p.stars} size={10} />
                             <span className="font-bold">{p.best_score}%</span>
                             <span className="text-fg-muted">({p.attempts}x)</span>
@@ -188,21 +190,21 @@ export default function ParentPanel() {
         {/* Recommendations */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}>
           <Card className="border-mint/20 bg-mint-pale/20">
-            <h3 className="font-heading font-extrabold text-sm mb-2">💡 Recomendaciones</h3>
+            <h3 className="font-heading font-extrabold text-sm mb-2">{t('parent_recs')}</h3>
             <ul className="text-xs text-fg-muted space-y-1.5">
               {completedLevels === 0 && (
-                <li>• Anima a tu hijo/a a completar su primer nivel para ver su progreso aquí.</li>
+                <li>• {t('parent_rec_first')}</li>
               )}
               {(user?.streak_days || 0) < 3 && (
-                <li>• Practicar 10-15 minutos diarios mejora significativamente la lectura.</li>
+                <li>• {t('parent_rec_practice')}</li>
               )}
               {avgScore > 0 && avgScore < 70 && (
-                <li>• La puntuación media está por debajo del 70%. Prueba a repetir los niveles para reforzar.</li>
+                <li>• {t('parent_rec_low')}</li>
               )}
               {avgScore >= 80 && (
-                <li>• ¡Excelente rendimiento! Tu hijo/a está progresando muy bien. 🎉</li>
+                <li>• {t('parent_rec_great')}</li>
               )}
-              <li>• Los módulos de Fonología y Comprensión Lectora son los más importantes para la dislexia.</li>
+              <li>• {t('parent_rec_important')}</li>
             </ul>
           </Card>
         </motion.div>

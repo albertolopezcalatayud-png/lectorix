@@ -1,16 +1,19 @@
 import { useLocation, useNavigate } from 'react-router-dom';
+import { useI18n } from '@/i18n';
+import type { TranslationKey } from '@/i18n';
 
-const NAV_ITEMS = [
-  { path: '/', icon: '🏠', label: 'Inicio' },
-  { path: '/modulos', icon: '📚', label: 'Módulos' },
-  { path: '/reto-diario', icon: '⚡', label: 'Reto' },
-  { path: '/logros', icon: '🏆', label: 'Logros' },
-  { path: '/perfil', icon: '👤', label: 'Perfil' },
+const NAV_ITEMS: { path: string; icon: string; labelKey: TranslationKey }[] = [
+  { path: '/', icon: '🏠', labelKey: 'nav_home' },
+  { path: '/modulos', icon: '📚', labelKey: 'nav_modules' },
+  { path: '/reto-diario', icon: '⚡', labelKey: 'nav_challenge' },
+  { path: '/logros', icon: '🏆', labelKey: 'nav_achievements' },
+  { path: '/perfil', icon: '👤', labelKey: 'nav_profile' },
 ];
 
 export function BottomNav() {
   const location = useLocation();
   const navigate = useNavigate();
+  const { t } = useI18n();
 
   // Hide on exercise pages
   if (location.pathname.startsWith('/ejercicio') || location.pathname === '/resultados' || location.pathname === '/reto-diario') return null;
@@ -29,7 +32,7 @@ export function BottomNav() {
               }`}
             >
               <span className="text-xl">{item.icon}</span>
-              <span className="text-[10px] font-bold">{item.label}</span>
+              <span className="text-[10px] font-bold">{t(item.labelKey)}</span>
             </button>
           );
         })}

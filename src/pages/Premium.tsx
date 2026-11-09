@@ -4,29 +4,32 @@ import { useAppStore } from '@/stores/useAppStore';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
+import { useI18n } from '@/i18n';
+import type { TranslationKey } from '@/i18n';
 
-const FEATURES = [
-  { icon: '📚', title: 'Todos los módulos', desc: '5 módulos con 5 niveles cada uno' },
-  { icon: '🎯', title: '750 ejercicios', desc: 'Biblioteca completa de ejercicios' },
-  { icon: '📊', title: 'Estadísticas avanzadas', desc: 'Seguimiento detallado del progreso' },
-  { icon: '👨‍👩‍👧', title: 'Panel para padres', desc: 'Monitoriza el avance de tus hijos' },
-  { icon: '🔊', title: 'Lectura en voz alta', desc: 'TTS para todos los ejercicios' },
-  { icon: '🚫', title: 'Sin anuncios', desc: 'Experiencia limpia y sin distracciones' },
+const FEATURES: { icon: string; titleKey: TranslationKey; descKey: TranslationKey }[] = [
+  { icon: '📚', titleKey: 'prem_feat_modules', descKey: 'prem_feat_modules_desc' },
+  { icon: '🎯', titleKey: 'prem_feat_exercises', descKey: 'prem_feat_exercises_desc' },
+  { icon: '📊', titleKey: 'prem_feat_stats', descKey: 'prem_feat_stats_desc' },
+  { icon: '👨‍👩‍👧', titleKey: 'prem_feat_parents', descKey: 'prem_feat_parents_desc' },
+  { icon: '🔊', titleKey: 'prem_feat_tts', descKey: 'prem_feat_tts_desc' },
+  { icon: '🚫', titleKey: 'prem_feat_noads', descKey: 'prem_feat_noads_desc' },
 ];
 
 export default function Premium() {
   const navigate = useNavigate();
   const isPremium = useAppStore((s) => s.isPremium);
   const setSubscription = useAppStore((s) => s.setSubscription);
+  const { t } = useI18n();
 
   if (isPremium()) {
     return (
       <div className="min-h-screen pb-24">
-        <Header title="Premium" showBack />
+        <Header title={t('prem_title')} showBack />
         <div className="px-4 py-10 max-w-lg mx-auto text-center">
           <span className="text-6xl block mb-4">🎉</span>
-          <h2 className="font-heading font-black text-2xl mb-2">¡Ya eres Premium!</h2>
-          <p className="text-sm text-fg-muted">Disfruta de todos los contenidos sin límites.</p>
+          <h2 className="font-heading font-black text-2xl mb-2">{t('prem_already')}</h2>
+          <p className="text-sm text-fg-muted">{t('prem_already_desc')}</p>
         </div>
       </div>
     );
@@ -46,7 +49,7 @@ export default function Premium() {
 
   return (
     <div className="min-h-screen pb-24">
-      <Header title="Premium" showBack />
+      <Header title={t('prem_title')} showBack />
 
       <div className="px-4 py-5 max-w-lg mx-auto">
         {/* Hero */}
@@ -56,8 +59,8 @@ export default function Premium() {
           className="text-center mb-6"
         >
           <span className="text-5xl block mb-3">⭐</span>
-          <h2 className="font-heading font-black text-2xl mb-1">Lectorix Premium</h2>
-          <p className="text-sm text-fg-muted">Desbloquea todo el potencial de aprendizaje</p>
+          <h2 className="font-heading font-black text-2xl mb-1">{t('prem_hero')}</h2>
+          <p className="text-sm text-fg-muted">{t('prem_hero_desc')}</p>
         </motion.div>
 
         {/* Features */}
@@ -70,11 +73,11 @@ export default function Premium() {
           <Card>
             <div className="space-y-3">
               {FEATURES.map((f) => (
-                <div key={f.title} className="flex items-center gap-3">
+                <div key={f.titleKey} className="flex items-center gap-3">
                   <span className="text-xl">{f.icon}</span>
                   <div>
-                    <p className="text-sm font-bold">{f.title}</p>
-                    <p className="text-[11px] text-fg-muted">{f.desc}</p>
+                    <p className="text-sm font-bold">{t(f.titleKey)}</p>
+                    <p className="text-[11px] text-fg-muted">{t(f.descKey)}</p>
                   </div>
                   <span className="ml-auto text-mint text-sm">✓</span>
                 </div>
@@ -92,16 +95,16 @@ export default function Premium() {
           >
             <Card className="border-accent/30 relative overflow-hidden">
               <div className="absolute top-0 right-0 bg-accent text-white text-[9px] font-bold px-3 py-0.5 rounded-bl-lg">
-                POPULAR
+                {t('prem_popular')}
               </div>
-              <h3 className="font-heading font-black text-lg">Individual</h3>
+              <h3 className="font-heading font-black text-lg">{t('prem_individual')}</h3>
               <div className="flex items-baseline gap-1 mt-1">
-                <span className="font-heading font-black text-3xl text-accent">4,99€</span>
-                <span className="text-sm text-fg-muted">/mes</span>
+                <span className="font-heading font-black text-3xl text-accent">{t('prem_individual_price')}</span>
+                <span className="text-sm text-fg-muted">{t('prem_month')}</span>
               </div>
-              <p className="text-xs text-fg-muted mt-1 mb-3">1 estudiante · Todos los contenidos</p>
+              <p className="text-xs text-fg-muted mt-1 mb-3">{t('prem_individual_desc')}</p>
               <Button fullWidth onClick={() => handleSubscribe('individual')}>
-                Suscribirse
+                {t('prem_subscribe')}
               </Button>
             </Card>
           </motion.div>
@@ -112,21 +115,21 @@ export default function Premium() {
             transition={{ delay: 0.25 }}
           >
             <Card>
-              <h3 className="font-heading font-black text-lg">Familia</h3>
+              <h3 className="font-heading font-black text-lg">{t('prem_family')}</h3>
               <div className="flex items-baseline gap-1 mt-1">
-                <span className="font-heading font-black text-3xl">7,99€</span>
-                <span className="text-sm text-fg-muted">/mes</span>
+                <span className="font-heading font-black text-3xl">{t('prem_family_price')}</span>
+                <span className="text-sm text-fg-muted">{t('prem_month')}</span>
               </div>
-              <p className="text-xs text-fg-muted mt-1 mb-3">Hasta 4 estudiantes · Todos los contenidos</p>
+              <p className="text-xs text-fg-muted mt-1 mb-3">{t('prem_family_desc')}</p>
               <Button variant="secondary" fullWidth onClick={() => handleSubscribe('family')}>
-                Suscribirse
+                {t('prem_subscribe')}
               </Button>
             </Card>
           </motion.div>
         </div>
 
         <p className="text-[10px] text-fg-muted text-center mt-4">
-          Cancela cuando quieras. Sin compromiso. Los pagos se procesan a través de Google Play.
+          {t('prem_disclaimer')}
         </p>
       </div>
     </div>

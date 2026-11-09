@@ -8,6 +8,7 @@ import { buildSessionResult } from '@/services/gamification';
 import { getModule } from '@/data/modules';
 import { ExerciseCard } from '@/components/exercise/ExerciseCard';
 import { DragDropExercise } from '@/components/exercise/DragDropExercise';
+import { useI18n } from '@/i18n';
 
 export default function Exercise() {
   const { moduleId, levelStr } = useParams<{ moduleId: string; levelStr: string }>();
@@ -25,6 +26,7 @@ export default function Exercise() {
   const addXP = useAppStore((s) => s.addXP);
   const updateStreak = useAppStore((s) => s.updateStreak);
   const addSession = useAppStore((s) => s.addSession);
+  const { t } = useI18n();
 
   const handleAnswer = useCallback(
     (selectedIndex: number, isCorrect: boolean, timeMs: number) => {
@@ -87,9 +89,9 @@ export default function Exercise() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center px-6 text-center">
         <span className="text-4xl mb-4">😕</span>
-        <h2 className="font-heading font-extrabold text-lg mb-2">No hay ejercicios</h2>
-        <p className="text-sm text-fg-muted mb-4">{error || 'No se encontraron ejercicios para este nivel.'}</p>
-        <button onClick={() => navigate(-1)} className="text-accent font-bold">← Volver</button>
+        <h2 className="font-heading font-extrabold text-lg mb-2">{t('ex_no_exercises')}</h2>
+        <p className="text-sm text-fg-muted mb-4">{error || t('ex_no_exercises_desc')}</p>
+        <button onClick={() => navigate(-1)} className="text-accent font-bold">← {t('back')}</button>
       </div>
     );
   }
@@ -106,10 +108,10 @@ export default function Exercise() {
         </button>
         <div className="flex-1">
           <h3 className="font-heading font-extrabold text-sm">{mod?.name || module}</h3>
-          <p className="text-[10px] text-fg-muted">Nivel {level}</p>
+          <p className="text-[10px] text-fg-muted">{t('dash_level', { level })}</p>
         </div>
         <span className="text-xs font-bold text-fg-muted">
-          {currentIndex + 1} / {exercises.length}
+          {t('ex_question', { n: currentIndex + 1, total: exercises.length })}
         </span>
       </div>
 
