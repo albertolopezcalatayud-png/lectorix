@@ -3525,6 +3525,1245 @@
       "options": [],
       "correct": 0,
       "explanation": "pa-ra-le-le-pí-pe-do = paralelepípedo 📐"
+    },
+    {
+      "id": "fonologia_l1_201",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "mesa",
+      "pieces": [
+        "me",
+        "sa"
+      ],
+      "correctOrder": [
+        "me",
+        "sa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "me-sa = mesa"
+    },
+    {
+      "id": "fonologia_l1_202",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "luna",
+      "pieces": [
+        "lu",
+        "na"
+      ],
+      "correctOrder": [
+        "lu",
+        "na"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "lu-na = luna 🌙"
+    },
+    {
+      "id": "fonologia_l1_203",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "pato",
+      "pieces": [
+        "pa",
+        "to"
+      ],
+      "correctOrder": [
+        "pa",
+        "to"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "pa-to = pato 🦆"
+    },
+    {
+      "id": "fonologia_l1_204",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "casa",
+      "pieces": [
+        "ca",
+        "sa"
+      ],
+      "correctOrder": [
+        "ca",
+        "sa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ca-sa = casa 🏠"
+    },
+    {
+      "id": "fonologia_l1_205",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "vaso",
+      "pieces": [
+        "va",
+        "so"
+      ],
+      "correctOrder": [
+        "va",
+        "so"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "va-so = vaso"
+    },
+    {
+      "id": "fonologia_l1_206",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "bota",
+      "pieces": [
+        "bo",
+        "ta"
+      ],
+      "correctOrder": [
+        "bo",
+        "ta"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "bo-ta = bota 👢"
+    },
+    {
+      "id": "fonologia_l1_207",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "dado",
+      "pieces": [
+        "da",
+        "do"
+      ],
+      "correctOrder": [
+        "da",
+        "do"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "da-do = dado 🎲"
+    },
+    {
+      "id": "fonologia_l1_208",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "ropa",
+      "pieces": [
+        "ro",
+        "pa"
+      ],
+      "correctOrder": [
+        "ro",
+        "pa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ro-pa = ropa"
+    },
+    {
+      "id": "fonologia_l2_209",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "camisa",
+      "pieces": [
+        "ca",
+        "mi",
+        "sa"
+      ],
+      "correctOrder": [
+        "ca",
+        "mi",
+        "sa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ca-mi-sa = camisa 👕"
+    },
+    {
+      "id": "fonologia_l2_210",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "zapato",
+      "pieces": [
+        "za",
+        "pa",
+        "to"
+      ],
+      "correctOrder": [
+        "za",
+        "pa",
+        "to"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "za-pa-to = zapato 👞"
+    },
+    {
+      "id": "fonologia_l2_211",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "pelota",
+      "pieces": [
+        "pe",
+        "lo",
+        "ta"
+      ],
+      "correctOrder": [
+        "pe",
+        "lo",
+        "ta"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "pe-lo-ta = pelota ⚽"
+    },
+    {
+      "id": "fonologia_l2_212",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "tomate",
+      "pieces": [
+        "to",
+        "ma",
+        "te"
+      ],
+      "correctOrder": [
+        "to",
+        "ma",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "to-ma-te = tomate 🍅"
+    },
+    {
+      "id": "fonologia_l2_213",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "helado",
+      "pieces": [
+        "he",
+        "la",
+        "do"
+      ],
+      "correctOrder": [
+        "he",
+        "la",
+        "do"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "he-la-do = helado 🍦"
+    },
+    {
+      "id": "fonologia_l2_214",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "conejo",
+      "pieces": [
+        "co",
+        "ne",
+        "jo"
+      ],
+      "correctOrder": [
+        "co",
+        "ne",
+        "jo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "co-ne-jo = conejo 🐰"
+    },
+    {
+      "id": "fonologia_l2_215",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "morado",
+      "pieces": [
+        "mo",
+        "ra",
+        "do"
+      ],
+      "correctOrder": [
+        "mo",
+        "ra",
+        "do"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "mo-ra-do = morado 💜"
+    },
+    {
+      "id": "fonologia_l2_216",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "bonito",
+      "pieces": [
+        "bo",
+        "ni",
+        "to"
+      ],
+      "correctOrder": [
+        "bo",
+        "ni",
+        "to"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "bo-ni-to = bonito"
+    },
+    {
+      "id": "fonologia_l3_217",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "chocolate",
+      "pieces": [
+        "cho",
+        "co",
+        "la",
+        "te"
+      ],
+      "correctOrder": [
+        "cho",
+        "co",
+        "la",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "cho-co-la-te = chocolate 🍫"
+    },
+    {
+      "id": "fonologia_l3_218",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "elefante",
+      "pieces": [
+        "e",
+        "le",
+        "fan",
+        "te"
+      ],
+      "correctOrder": [
+        "e",
+        "le",
+        "fan",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "e-le-fan-te = elefante 🐘"
+    },
+    {
+      "id": "fonologia_l3_219",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "cocodrilo",
+      "pieces": [
+        "co",
+        "co",
+        "dri",
+        "lo"
+      ],
+      "correctOrder": [
+        "co",
+        "co",
+        "dri",
+        "lo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "co-co-dri-lo = cocodrilo 🐊"
+    },
+    {
+      "id": "fonologia_l3_220",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "dinosaurio",
+      "pieces": [
+        "di",
+        "no",
+        "sau",
+        "rio"
+      ],
+      "correctOrder": [
+        "di",
+        "no",
+        "sau",
+        "rio"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "di-no-sau-rio = dinosaurio 🦕"
+    },
+    {
+      "id": "fonologia_l3_221",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "bicicleta",
+      "pieces": [
+        "bi",
+        "ci",
+        "cle",
+        "ta"
+      ],
+      "correctOrder": [
+        "bi",
+        "ci",
+        "cle",
+        "ta"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "bi-ci-cle-ta = bicicleta 🚲"
+    },
+    {
+      "id": "fonologia_l3_222",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "computadora",
+      "pieces": [
+        "com",
+        "pu",
+        "ta",
+        "do",
+        "ra"
+      ],
+      "correctOrder": [
+        "com",
+        "pu",
+        "ta",
+        "do",
+        "ra"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "com-pu-ta-do-ra = computadora 💻"
+    },
+    {
+      "id": "fonologia_l3_223",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "helicoptero",
+      "pieces": [
+        "he",
+        "li",
+        "cop",
+        "te",
+        "ro"
+      ],
+      "correctOrder": [
+        "he",
+        "li",
+        "cop",
+        "te",
+        "ro"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "he-li-cóp-te-ro = helicóptero 🚁"
+    },
+    {
+      "id": "fonologia_l4_224",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "refrigerador",
+      "pieces": [
+        "re",
+        "fri",
+        "ge",
+        "ra",
+        "dor"
+      ],
+      "correctOrder": [
+        "re",
+        "fri",
+        "ge",
+        "ra",
+        "dor"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "re-fri-ge-ra-dor = refrigerador"
+    },
+    {
+      "id": "fonologia_l4_225",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "supermercado",
+      "pieces": [
+        "su",
+        "per",
+        "mer",
+        "ca",
+        "do"
+      ],
+      "correctOrder": [
+        "su",
+        "per",
+        "mer",
+        "ca",
+        "do"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "su-per-mer-ca-do = supermercado 🛒"
+    },
+    {
+      "id": "fonologia_l4_226",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "comunicacion",
+      "pieces": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "cion"
+      ],
+      "correctOrder": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "cion"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "co-mu-ni-ca-ción = comunicación"
+    },
+    {
+      "id": "fonologia_l4_227",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "extraordinario",
+      "pieces": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ],
+      "correctOrder": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ex-tra-or-di-na-rio = extraordinario"
+    },
+    {
+      "id": "fonologia_l4_228",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "multiplicacion",
+      "pieces": [
+        "mul",
+        "ti",
+        "pli",
+        "ca",
+        "cion"
+      ],
+      "correctOrder": [
+        "mul",
+        "ti",
+        "pli",
+        "ca",
+        "cion"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "mul-ti-pli-ca-ción = multiplicación ✖️"
+    },
+    {
+      "id": "fonologia_l4_229",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "independencia",
+      "pieces": [
+        "in",
+        "de",
+        "pen",
+        "den",
+        "cia"
+      ],
+      "correctOrder": [
+        "in",
+        "de",
+        "pen",
+        "den",
+        "cia"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "in-de-pen-den-cia = independencia"
+    },
+    {
+      "id": "fonologia_l4_230",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "hipopotamo",
+      "pieces": [
+        "hi",
+        "po",
+        "po",
+        "ta",
+        "mo"
+      ],
+      "correctOrder": [
+        "hi",
+        "po",
+        "po",
+        "ta",
+        "mo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "hi-po-pó-ta-mo = hipopótamo 🦛"
+    },
+    {
+      "id": "fonologia_l5_231",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "electrodomestico",
+      "pieces": [
+        "e",
+        "lec",
+        "tro",
+        "do",
+        "mes",
+        "ti",
+        "co"
+      ],
+      "correctOrder": [
+        "e",
+        "lec",
+        "tro",
+        "do",
+        "mes",
+        "ti",
+        "co"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "e-lec-tro-do-més-ti-co = electrodoméstico"
+    },
+    {
+      "id": "fonologia_l5_232",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "telecomunicacion",
+      "pieces": [
+        "te",
+        "le",
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "cion"
+      ],
+      "correctOrder": [
+        "te",
+        "le",
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "cion"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "te-le-co-mu-ni-ca-ción"
+    },
+    {
+      "id": "fonologia_l5_233",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "condicionalidad",
+      "pieces": [
+        "con",
+        "di",
+        "cio",
+        "na",
+        "li",
+        "dad"
+      ],
+      "correctOrder": [
+        "con",
+        "di",
+        "cio",
+        "na",
+        "li",
+        "dad"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "con-di-cio-na-li-dad"
+    },
+    {
+      "id": "fonologia_l5_234",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "inconstitucional",
+      "pieces": [
+        "in",
+        "cons",
+        "ti",
+        "tu",
+        "cio",
+        "nal"
+      ],
+      "correctOrder": [
+        "in",
+        "cons",
+        "ti",
+        "tu",
+        "cio",
+        "nal"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "in-cons-ti-tu-cio-nal"
+    },
+    {
+      "id": "fonologia_l5_235",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "multidisciplinario",
+      "pieces": [
+        "mul",
+        "ti",
+        "dis",
+        "ci",
+        "pli",
+        "na",
+        "rio"
+      ],
+      "correctOrder": [
+        "mul",
+        "ti",
+        "dis",
+        "ci",
+        "pli",
+        "na",
+        "rio"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "mul-ti-dis-ci-pli-na-rio"
+    },
+    {
+      "id": "fonologia_l5_236",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "desafortunadamente",
+      "pieces": [
+        "des",
+        "a",
+        "for",
+        "tu",
+        "na",
+        "da",
+        "men",
+        "te"
+      ],
+      "correctOrder": [
+        "des",
+        "a",
+        "for",
+        "tu",
+        "na",
+        "da",
+        "men",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "des-a-for-tu-na-da-men-te"
+    },
+    {
+      "id": "fonologia_l1_237",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra rima con 'sol'?",
+      "options": [
+        "col",
+        "pan",
+        "mes",
+        "fin"
+      ],
+      "correct": 0,
+      "explanation": "'Sol' rima con 'col': -ol"
+    },
+    {
+      "id": "fonologia_l1_238",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra empieza con el mismo sonido que 'perro'?",
+      "options": [
+        "pato",
+        "toro",
+        "gato",
+        "rana"
+      ],
+      "correct": 0,
+      "explanation": "'Pato' y 'perro' empiezan con /p/"
+    },
+    {
+      "id": "fonologia_l1_239",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'sol'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "Sol = 1 sílaba (monosílaba)"
+    },
+    {
+      "id": "fonologia_l1_240",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra rima con 'ratón'?",
+      "options": [
+        "camión",
+        "mesa",
+        "libro",
+        "nube"
+      ],
+      "correct": 0,
+      "explanation": "'Ratón' rima con 'camión': -ón"
+    },
+    {
+      "id": "fonologia_l1_241",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Con qué letra empieza 'mariposa'?",
+      "options": [
+        "m",
+        "p",
+        "s",
+        "r"
+      ],
+      "correct": 0,
+      "explanation": "Ma-ri-po-sa empieza con M"
+    },
+    {
+      "id": "fonologia_l1_242",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra termina como 'gato'?",
+      "options": [
+        "plato",
+        "mesa",
+        "sol",
+        "flor"
+      ],
+      "correct": 0,
+      "explanation": "'Gato' y 'plato' terminan en -ato"
+    },
+    {
+      "id": "fonologia_l1_243",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'elefante'?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 2,
+      "explanation": "e-le-fan-te = 4 sílabas"
+    },
+    {
+      "id": "fonologia_l2_244",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene 3 sílabas?",
+      "options": [
+        "mariposa",
+        "pájaro",
+        "sol",
+        "flor"
+      ],
+      "correct": 1,
+      "explanation": "pá-ja-ro = 3 sílabas"
+    },
+    {
+      "id": "fonologia_l2_245",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra rima con 'camión'?",
+      "options": [
+        "avión",
+        "casa",
+        "perro",
+        "agua"
+      ],
+      "correct": 0,
+      "explanation": "'Camión' rima con 'avión': -ón"
+    },
+    {
+      "id": "fonologia_l2_246",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la sílaba tónica de 'música'?",
+      "options": [
+        "mú",
+        "si",
+        "ca",
+        "mu"
+      ],
+      "correct": 0,
+      "explanation": "MÚ-si-ca: la sílaba tónica es 'mú'"
+    },
+    {
+      "id": "fonologia_l2_247",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra empieza con 'ch'?",
+      "options": [
+        "chocolate",
+        "zapato",
+        "fuente",
+        "regalo"
+      ],
+      "correct": 0,
+      "explanation": "Chocolate empieza con 'ch'"
+    },
+    {
+      "id": "fonologia_l2_248",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué dos palabras empiezan igual?",
+      "options": [
+        "cama-camisa",
+        "sol-luna",
+        "perro-gato",
+        "mesa-silla"
+      ],
+      "correct": 0,
+      "explanation": "Cama y camisa empiezan con 'ca'"
+    },
+    {
+      "id": "fonologia_l2_249",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene un diptongo?",
+      "options": [
+        "cielo",
+        "mesa",
+        "pato",
+        "sol"
+      ],
+      "correct": 0,
+      "explanation": "'Cielo' tiene el diptongo 'ie'"
+    },
+    {
+      "id": "fonologia_l3_250",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es esdrújula?",
+      "options": [
+        "brújula",
+        "camión",
+        "pared",
+        "papel"
+      ],
+      "correct": 0,
+      "explanation": "'Brú-ju-la': esdrújula"
+    },
+    {
+      "id": "fonologia_l3_251",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene un hiato?",
+      "options": [
+        "poeta",
+        "cielo",
+        "bueno",
+        "auto"
+      ],
+      "correct": 0,
+      "explanation": "'Po-e-ta' tiene hiato"
+    },
+    {
+      "id": "fonologia_l3_252",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'teléfono':",
+      "options": [
+        "te",
+        "lé",
+        "fo",
+        "no"
+      ],
+      "correct": 1,
+      "explanation": "te-LÉ-fo-no"
+    },
+    {
+      "id": "fonologia_l3_253",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es aguda?",
+      "options": [
+        "reloj",
+        "mesa",
+        "pájaro",
+        "lápiz"
+      ],
+      "correct": 0,
+      "explanation": "'Re-loj': aguda"
+    },
+    {
+      "id": "fonologia_l3_254",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué par de palabras son parónimas?",
+      "options": [
+        "efecto/afecto",
+        "grande/alto",
+        "sol/luna",
+        "gato/perro"
+      ],
+      "correct": 0,
+      "explanation": "Se parecen pero significan diferente"
+    },
+    {
+      "id": "fonologia_l4_255",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra contiene un triptongo?",
+      "options": [
+        "buey",
+        "poeta",
+        "aire",
+        "reina"
+      ],
+      "correct": 0,
+      "explanation": "'Buey' contiene el triptongo 'uey'"
+    },
+    {
+      "id": "fonologia_l4_256",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es una palabra sobreesdrújula?",
+      "options": [
+        "dígamelo",
+        "teléfono",
+        "camión",
+        "reloj"
+      ],
+      "correct": 0,
+      "explanation": "'Dí-ga-me-lo': sobreesdrújula"
+    },
+    {
+      "id": "fonologia_l4_257",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué fenómeno ocurre en 'aéreo'?",
+      "options": [
+        "Hiato",
+        "Diptongo",
+        "Triptongo",
+        "Sinalefa"
+      ],
+      "correct": 0,
+      "explanation": "'A-é-re-o' tiene hiato"
+    },
+    {
+      "id": "fonologia_l4_258",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene prefijo?",
+      "options": [
+        "deshacer",
+        "caminar",
+        "bonito",
+        "rápido"
+      ],
+      "correct": 0,
+      "explanation": "'Des-hacer': 'des-' es prefijo"
+    },
+    {
+      "id": "fonologia_l4_259",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la raíz de 'panadería'?",
+      "options": [
+        "pan",
+        "pana",
+        "ería",
+        "der"
+      ],
+      "correct": 0,
+      "explanation": "Pan-ad-ería: raíz = 'pan'"
+    },
+    {
+      "id": "fonologia_l5_260",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué es una sinalefa?",
+      "options": [
+        "Unión de vocales entre palabras",
+        "Una vocal doble",
+        "Una consonante muda",
+        "Un acento"
+      ],
+      "correct": 0,
+      "explanation": "La sinalefa une vocales entre palabras"
+    },
+    {
+      "id": "fonologia_l5_261",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de acento tiene 'aún'?",
+      "options": [
+        "Diacrítico",
+        "Prosódico",
+        "Ortográfico",
+        "Métrico"
+      ],
+      "correct": 0,
+      "explanation": "'Aún' lleva acento diacrítico"
+    },
+    {
+      "id": "fonologia_l5_262",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica el morfema derivativo en 'florería':",
+      "options": [
+        "-ería",
+        "flor-",
+        "-ía",
+        "flore-"
+      ],
+      "correct": 0,
+      "explanation": "'-ería' indica 'lugar de'"
+    },
+    {
+      "id": "fonologia_l5_263",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué figura fonética hay en 'el ruido del río'?",
+      "options": [
+        "Aliteración",
+        "Onomatopeya",
+        "Hiato",
+        "Diptongo"
+      ],
+      "correct": 0,
+      "explanation": "Repetición del sonido /r/ = aliteración"
     }
   ]
 }

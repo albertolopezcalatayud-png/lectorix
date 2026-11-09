@@ -2481,6 +2481,831 @@
       "options": [],
       "correct": 0,
       "explanation": "Mi hermana tiene ocho años. 👧"
+    },
+    {
+      "id": "escritura_l1_201",
+      "module": "escritura",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "La",
+        "niña",
+        "come",
+        "pan"
+      ],
+      "correctOrder": [
+        "La",
+        "niña",
+        "come",
+        "pan"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La niña come pan 🍞"
+    },
+    {
+      "id": "escritura_l1_202",
+      "module": "escritura",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "El",
+        "sol",
+        "brilla",
+        "mucho"
+      ],
+      "correctOrder": [
+        "El",
+        "sol",
+        "brilla",
+        "mucho"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El sol brilla mucho ☀️"
+    },
+    {
+      "id": "escritura_l1_203",
+      "module": "escritura",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Mi",
+        "perro",
+        "es",
+        "grande"
+      ],
+      "correctOrder": [
+        "Mi",
+        "perro",
+        "es",
+        "grande"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Mi perro es grande 🐕"
+    },
+    {
+      "id": "escritura_l1_204",
+      "module": "escritura",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Yo",
+        "quiero",
+        "un",
+        "helado"
+      ],
+      "correctOrder": [
+        "Yo",
+        "quiero",
+        "un",
+        "helado"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Yo quiero un helado 🍦"
+    },
+    {
+      "id": "escritura_l1_205",
+      "module": "escritura",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "La",
+        "flor",
+        "es",
+        "roja"
+      ],
+      "correctOrder": [
+        "La",
+        "flor",
+        "es",
+        "roja"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La flor es roja 🌹"
+    },
+    {
+      "id": "escritura_l1_206",
+      "module": "escritura",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "El",
+        "pájaro",
+        "vuela",
+        "alto"
+      ],
+      "correctOrder": [
+        "El",
+        "pájaro",
+        "vuela",
+        "alto"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El pájaro vuela alto 🐦"
+    },
+    {
+      "id": "escritura_l2_207",
+      "module": "escritura",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "María",
+        "va",
+        "al",
+        "colegio",
+        "cada",
+        "día"
+      ],
+      "correctOrder": [
+        "María",
+        "va",
+        "al",
+        "colegio",
+        "cada",
+        "día"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "María va al colegio cada día 🏫"
+    },
+    {
+      "id": "escritura_l2_208",
+      "module": "escritura",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Los",
+        "niños",
+        "juegan",
+        "en",
+        "el",
+        "parque"
+      ],
+      "correctOrder": [
+        "Los",
+        "niños",
+        "juegan",
+        "en",
+        "el",
+        "parque"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los niños juegan en el parque 🏞️"
+    },
+    {
+      "id": "escritura_l2_209",
+      "module": "escritura",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Mi",
+        "mamá",
+        "cocina",
+        "una",
+        "sopa",
+        "rica"
+      ],
+      "correctOrder": [
+        "Mi",
+        "mamá",
+        "cocina",
+        "una",
+        "sopa",
+        "rica"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Mi mamá cocina una sopa rica 🍲"
+    },
+    {
+      "id": "escritura_l2_210",
+      "module": "escritura",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "El",
+        "tren",
+        "llega",
+        "a",
+        "las",
+        "ocho"
+      ],
+      "correctOrder": [
+        "El",
+        "tren",
+        "llega",
+        "a",
+        "las",
+        "ocho"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El tren llega a las ocho 🚂"
+    },
+    {
+      "id": "escritura_l2_211",
+      "module": "escritura",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Las",
+        "estrellas",
+        "brillan",
+        "en",
+        "la",
+        "noche"
+      ],
+      "correctOrder": [
+        "Las",
+        "estrellas",
+        "brillan",
+        "en",
+        "la",
+        "noche"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Las estrellas brillan en la noche ⭐"
+    },
+    {
+      "id": "escritura_l3_212",
+      "module": "escritura",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Ayer",
+        "fuimos",
+        "al",
+        "museo",
+        "de",
+        "ciencias"
+      ],
+      "correctOrder": [
+        "Ayer",
+        "fuimos",
+        "al",
+        "museo",
+        "de",
+        "ciencias"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Ayer fuimos al museo de ciencias 🏛️"
+    },
+    {
+      "id": "escritura_l3_213",
+      "module": "escritura",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "El",
+        "científico",
+        "descubrió",
+        "una",
+        "nueva",
+        "especie"
+      ],
+      "correctOrder": [
+        "El",
+        "científico",
+        "descubrió",
+        "una",
+        "nueva",
+        "especie"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El científico descubrió una nueva especie 🔬"
+    },
+    {
+      "id": "escritura_l3_214",
+      "module": "escritura",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Los",
+        "estudiantes",
+        "prepararon",
+        "una",
+        "obra",
+        "de",
+        "teatro"
+      ],
+      "correctOrder": [
+        "Los",
+        "estudiantes",
+        "prepararon",
+        "una",
+        "obra",
+        "de",
+        "teatro"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los estudiantes prepararon una obra de teatro 🎭"
+    },
+    {
+      "id": "escritura_l3_215",
+      "module": "escritura",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Aunque",
+        "llovía",
+        "salimos",
+        "a",
+        "pasear"
+      ],
+      "correctOrder": [
+        "Aunque",
+        "llovía",
+        "salimos",
+        "a",
+        "pasear"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Aunque llovía, salimos a pasear 🌧️"
+    },
+    {
+      "id": "escritura_l4_216",
+      "module": "escritura",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Si",
+        "estudias",
+        "todos",
+        "los",
+        "días",
+        "aprobarás",
+        "el",
+        "examen"
+      ],
+      "correctOrder": [
+        "Si",
+        "estudias",
+        "todos",
+        "los",
+        "días",
+        "aprobarás",
+        "el",
+        "examen"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Si estudias todos los días, aprobarás el examen 📚"
+    },
+    {
+      "id": "escritura_l4_217",
+      "module": "escritura",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "El",
+        "explorador",
+        "atravesó",
+        "el",
+        "desierto",
+        "durante",
+        "tres",
+        "días"
+      ],
+      "correctOrder": [
+        "El",
+        "explorador",
+        "atravesó",
+        "el",
+        "desierto",
+        "durante",
+        "tres",
+        "días"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El explorador atravesó el desierto durante tres días 🏜️"
+    },
+    {
+      "id": "escritura_l4_218",
+      "module": "escritura",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Cuando",
+        "termines",
+        "la",
+        "tarea",
+        "podrás",
+        "salir"
+      ],
+      "correctOrder": [
+        "Cuando",
+        "termines",
+        "la",
+        "tarea",
+        "podrás",
+        "salir"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Cuando termines la tarea, podrás salir ✅"
+    },
+    {
+      "id": "escritura_l5_219",
+      "module": "escritura",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "A",
+        "pesar",
+        "de",
+        "las",
+        "dificultades",
+        "el",
+        "equipo",
+        "logró",
+        "su",
+        "objetivo"
+      ],
+      "correctOrder": [
+        "A",
+        "pesar",
+        "de",
+        "las",
+        "dificultades",
+        "el",
+        "equipo",
+        "logró",
+        "su",
+        "objetivo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "A pesar de las dificultades, el equipo logró su objetivo 🏆"
+    },
+    {
+      "id": "escritura_l5_220",
+      "module": "escritura",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "La",
+        "tecnología",
+        "ha",
+        "transformado",
+        "nuestra",
+        "comunicación"
+      ],
+      "correctOrder": [
+        "La",
+        "tecnología",
+        "ha",
+        "transformado",
+        "nuestra",
+        "comunicación"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La tecnología ha transformado nuestra comunicación 📱"
+    },
+    {
+      "id": "escritura_l5_221",
+      "module": "escritura",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las palabras para formar una frase correcta",
+      "pieces": [
+        "Mientras",
+        "unos",
+        "descansaban",
+        "otros",
+        "trabajaban",
+        "sin",
+        "parar"
+      ],
+      "correctOrder": [
+        "Mientras",
+        "unos",
+        "descansaban",
+        "otros",
+        "trabajaban",
+        "sin",
+        "parar"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Mientras unos descansaban, otros trabajaban sin parar 💪"
+    },
+    {
+      "id": "escritura_l1_222",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se escribe correctamente?",
+      "options": [
+        "mamá",
+        "mama",
+        "mámá",
+        "mamà"
+      ],
+      "correct": 0,
+      "explanation": "'Mamá' lleva acento en la última 'a'"
+    },
+    {
+      "id": "escritura_l1_223",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está bien escrita?",
+      "options": [
+        "burro",
+        "buro",
+        "vurro",
+        "burro "
+      ],
+      "correct": 0,
+      "explanation": "'Burro' con 'b' y doble 'r'"
+    },
+    {
+      "id": "escritura_l1_224",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la forma correcta?",
+      "options": [
+        "hola",
+        "ola",
+        "Hola",
+        "olla"
+      ],
+      "correct": 0,
+      "explanation": "'Hola' = saludo, 'ola' = onda de mar"
+    },
+    {
+      "id": "escritura_l1_225",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Con qué letra empieza 'huevo'?",
+      "options": [
+        "h",
+        "u",
+        "g",
+        "w"
+      ],
+      "correct": 0,
+      "explanation": "'Huevo' con H muda"
+    },
+    {
+      "id": "escritura_l1_226",
+      "module": "escritura",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué frase tiene buena puntuación?",
+      "options": [
+        "¡Hola, Juan!",
+        "hola Juan",
+        "Hola juan!",
+        "¡hola, juan"
+      ],
+      "correct": 0,
+      "explanation": "¡! y mayúsculas en nombres propios"
+    },
+    {
+      "id": "escritura_l2_227",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el plural de 'lápiz'?",
+      "options": [
+        "lápices",
+        "lápizs",
+        "lápize",
+        "lápis"
+      ],
+      "correct": 0,
+      "explanation": "'Lápiz' → 'lápices'"
+    },
+    {
+      "id": "escritura_l2_228",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración tiene el verbo en pasado?",
+      "options": [
+        "Yo comí una manzana",
+        "Yo como una manzana",
+        "Yo comeré",
+        "Yo comería"
+      ],
+      "correct": 0,
+      "explanation": "'Comí' = pasado"
+    },
+    {
+      "id": "escritura_l2_229",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Elige la opción con tilde correcta:",
+      "options": [
+        "música",
+        "musica",
+        "músicà",
+        "musicá"
+      ],
+      "correct": 0,
+      "explanation": "'Mú-si-ca' esdrújula = tilde"
+    },
+    {
+      "id": "escritura_l2_230",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "Hay muchos gatos",
+        "Ahí muchos gatos",
+        "Ay muchos gatos",
+        "Hai muchos gatos"
+      ],
+      "correct": 0,
+      "explanation": "'Hay' = existir"
+    },
+    {
+      "id": "escritura_l2_231",
+      "module": "escritura",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra necesita tilde?",
+      "options": [
+        "canción",
+        "cancion",
+        "cansion",
+        "canción "
+      ],
+      "correct": 0,
+      "explanation": "Can-ción: aguda terminada en 'n'"
+    },
+    {
+      "id": "escritura_l3_232",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué conector indica causa?",
+      "options": [
+        "porque",
+        "pero",
+        "sin embargo",
+        "además"
+      ],
+      "correct": 0,
+      "explanation": "'Porque' introduce causa"
+    },
+    {
+      "id": "escritura_l3_233",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál usa correctamente 'sino'?",
+      "options": [
+        "No es rojo, sino azul",
+        "No es rojo si no azul",
+        "No es rojo, si no azul",
+        "No es rojo cino azul"
+      ],
+      "correct": 0,
+      "explanation": "'Sino' (junto) = contraposición"
+    },
+    {
+      "id": "escritura_l3_234",
+      "module": "escritura",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Dónde va la coma?",
+      "options": [
+        "Carlos, ven aquí",
+        "Carlos ven, aquí",
+        "Carlos ven aquí,",
+        "Carlos ven aquí"
+      ],
+      "correct": 0,
+      "explanation": "Vocativo se separa con coma"
+    },
+    {
+      "id": "escritura_l4_235",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración está en voz pasiva?",
+      "options": [
+        "La carta fue escrita por Ana",
+        "Ana escribió la carta",
+        "Ana escribe cartas",
+        "Ana escribirá la carta"
+      ],
+      "correct": 0,
+      "explanation": "Voz pasiva: ser + participio"
+    },
+    {
+      "id": "escritura_l4_236",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál usa correctamente el subjuntivo?",
+      "options": [
+        "Espero que vengas",
+        "Espero que vienes",
+        "Espero que vendrás",
+        "Espero que viniste"
+      ],
+      "correct": 0,
+      "explanation": "'Espero que' + subjuntivo"
+    },
+    {
+      "id": "escritura_l4_237",
+      "module": "escritura",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué figura hay en 'sus cabellos de oro'?",
+      "options": [
+        "Metáfora",
+        "Símil",
+        "Hipérbole",
+        "Personificación"
+      ],
+      "correct": 0,
+      "explanation": "Metáfora: compara sin 'como'"
+    },
+    {
+      "id": "escritura_l5_238",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué oración tiene subordinada adjetiva?",
+      "options": [
+        "El libro que leí es bueno",
+        "Leí el libro y me gustó",
+        "El libro es bueno",
+        "Leí porque quise"
+      ],
+      "correct": 0,
+      "explanation": "'Que leí' describe 'el libro'"
+    },
+    {
+      "id": "escritura_l5_239",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es coordinada copulativa?",
+      "options": [
+        "Canto y bailo",
+        "Canto pero no bailo",
+        "Canto o bailo",
+        "Cuando canto, bailo"
+      ],
+      "correct": 0,
+      "explanation": "'Y' une oraciones copulativamente"
+    },
+    {
+      "id": "escritura_l5_240",
+      "module": "escritura",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué recurso usa 'era tan alto que tocaba las nubes'?",
+      "options": [
+        "Hipérbole",
+        "Metáfora",
+        "Símil",
+        "Aliteración"
+      ],
+      "correct": 0,
+      "explanation": "La hipérbole exagera"
     }
   ]
 }

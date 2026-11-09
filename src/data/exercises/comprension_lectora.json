@@ -2784,6 +2784,527 @@
       "options": [],
       "correct": 0,
       "explanation": "Un triángulo tiene 3 lados y un cuadrado tiene 4 lados iguales."
+    },
+    {
+      "id": "comprension_l1_201",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ vuela por el cielo.",
+      "blanks": [
+        "pájaro"
+      ],
+      "distractors": [
+        "pez",
+        "piedra"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los pájaros vuelan 🐦"
+    },
+    {
+      "id": "comprension_l1_202",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ da leche.",
+      "blanks": [
+        "vaca"
+      ],
+      "distractors": [
+        "gallina",
+        "rana"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La vaca da leche 🐄"
+    },
+    {
+      "id": "comprension_l1_203",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Los peces viven en el ___.",
+      "blanks": [
+        "agua"
+      ],
+      "distractors": [
+        "aire",
+        "fuego"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los peces viven en el agua 🐟"
+    },
+    {
+      "id": "comprension_l1_204",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Las ___ crecen en el jardín.",
+      "blanks": [
+        "flores"
+      ],
+      "distractors": [
+        "nubes",
+        "piedras"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Las flores crecen en el jardín 🌺"
+    },
+    {
+      "id": "comprension_l1_205",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Usamos un ___ para escribir.",
+      "blanks": [
+        "lápiz"
+      ],
+      "distractors": [
+        "tenedor",
+        "zapato"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El lápiz sirve para escribir ✏️"
+    },
+    {
+      "id": "comprension_l1_206",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ sale por la mañana.",
+      "blanks": [
+        "sol"
+      ],
+      "distractors": [
+        "luna",
+        "búho"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El sol sale por la mañana ☀️"
+    },
+    {
+      "id": "comprension_l2_207",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ es el rey de la selva y vive en ___.",
+      "blanks": [
+        "león",
+        "África"
+      ],
+      "distractors": [
+        "mar",
+        "Europa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El león vive en África 🦁"
+    },
+    {
+      "id": "comprension_l2_208",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "En ___ hace mucho frío y cae ___.",
+      "blanks": [
+        "invierno",
+        "nieve"
+      ],
+      "distractors": [
+        "verano",
+        "lluvia"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "En invierno cae nieve ❄️"
+    },
+    {
+      "id": "comprension_l2_209",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ tiene ocho ___.",
+      "blanks": [
+        "pulpo",
+        "tentáculos"
+      ],
+      "distractors": [
+        "gato",
+        "alas"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El pulpo tiene 8 tentáculos 🐙"
+    },
+    {
+      "id": "comprension_l2_210",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Los ___ orbitan alrededor del ___.",
+      "blanks": [
+        "planetas",
+        "Sol"
+      ],
+      "distractors": [
+        "peces",
+        "mar"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los planetas giran alrededor del Sol 🪐"
+    },
+    {
+      "id": "comprension_l2_211",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ nos protege de la ___.",
+      "blanks": [
+        "sombrilla",
+        "lluvia"
+      ],
+      "distractors": [
+        "mesa",
+        "música"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La sombrilla protege de la lluvia ☂️"
+    },
+    {
+      "id": "comprension_l3_212",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ produce ___ y truenos.",
+      "blanks": [
+        "rayo",
+        "luz"
+      ],
+      "distractors": [
+        "viento",
+        "calor"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los rayos producen luz ⚡"
+    },
+    {
+      "id": "comprension_l3_213",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ es el satélite natural de la ___.",
+      "blanks": [
+        "Luna",
+        "Tierra"
+      ],
+      "distractors": [
+        "estrella",
+        "galaxia"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La Luna orbita la Tierra 🌎"
+    },
+    {
+      "id": "comprension_l3_214",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Las ___ transforman la luz del sol en ___.",
+      "blanks": [
+        "plantas",
+        "energía"
+      ],
+      "distractors": [
+        "rocas",
+        "agua"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Fotosíntesis 🌱"
+    },
+    {
+      "id": "comprension_l3_215",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ bombea la ___ por todo el cuerpo.",
+      "blanks": [
+        "corazón",
+        "sangre"
+      ],
+      "distractors": [
+        "cerebro",
+        "comida"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El corazón bombea sangre ❤️"
+    },
+    {
+      "id": "comprension_l4_216",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ rodea la Tierra y nos protege de la ___ solar.",
+      "blanks": [
+        "atmósfera",
+        "radiación"
+      ],
+      "distractors": [
+        "corteza",
+        "gravedad"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La atmósfera filtra la radiación 🌍"
+    },
+    {
+      "id": "comprension_l4_217",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Los ___ son vertebrados de sangre ___.",
+      "blanks": [
+        "reptiles",
+        "fría"
+      ],
+      "distractors": [
+        "insectos",
+        "caliente"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los reptiles son de sangre fría 🦎"
+    },
+    {
+      "id": "comprension_l4_218",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ convierte agua en ___ al calentarse.",
+      "blanks": [
+        "evaporación",
+        "vapor"
+      ],
+      "distractors": [
+        "congelación",
+        "hielo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Evaporación: agua → vapor 💨"
+    },
+    {
+      "id": "comprension_l5_219",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ atribuye cualidades ___ a objetos inanimados.",
+      "blanks": [
+        "personificación",
+        "humanas"
+      ],
+      "distractors": [
+        "metáfora",
+        "animales"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La personificación humaniza lo no humano"
+    },
+    {
+      "id": "comprension_l5_220",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ nervioso incluye el cerebro y la médula ___.",
+      "blanks": [
+        "sistema",
+        "espinal"
+      ],
+      "distractors": [
+        "aparato",
+        "ósea"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Sistema nervioso central 🧠"
+    },
+    {
+      "id": "comprension_l5_221",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ industrial fue una transformación social y ___.",
+      "blanks": [
+        "revolución",
+        "económica"
+      ],
+      "distractors": [
+        "guerra",
+        "artística"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La Revolución Industrial transformó la economía"
+    },
+    {
+      "id": "comprension_l1_222",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿De qué color es Rocky?",
+      "options": [
+        "Negro",
+        "Blanco",
+        "Marrón",
+        "Gris"
+      ],
+      "correct": 0,
+      "explanation": "'Rocky es grande y negro'",
+      "passage": "El perro de Pablo se llama Rocky. Rocky es grande y negro. Le gusta correr en el parque."
+    },
+    {
+      "id": "comprension_l1_223",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué hace Mimi todo el día?",
+      "options": [
+        "Duerme",
+        "Come",
+        "Juega",
+        "Corre"
+      ],
+      "correct": 0,
+      "explanation": "'Mimi duerme todo el día'",
+      "passage": "Ana tiene una gata. La gata se llama Mimi. Mimi duerme todo el día."
+    },
+    {
+      "id": "comprension_l1_224",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo está la manzana?",
+      "options": [
+        "Dulce",
+        "Ácida",
+        "Amarga",
+        "Salada"
+      ],
+      "correct": 0,
+      "explanation": "'La manzana está muy dulce'",
+      "passage": "Pedro come una manzana roja. La manzana está muy dulce."
+    },
+    {
+      "id": "comprension_l2_225",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué prepararon al volver?",
+      "options": [
+        "Ensalada de frutas",
+        "Un pastel",
+        "Sopa",
+        "Tortilla"
+      ],
+      "correct": 0,
+      "explanation": "'Prepararon una ensalada de frutas'",
+      "passage": "María fue al mercado. Compraron frutas: manzanas, peras y plátanos. También compraron pan y leche. Al volver, prepararon una ensalada de frutas."
+    },
+    {
+      "id": "comprension_l2_226",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se comunica el delfín?",
+      "options": [
+        "Con sonidos y silbidos",
+        "Con colores",
+        "Con movimientos",
+        "No se comunica"
+      ],
+      "correct": 0,
+      "explanation": "'Con sonidos y silbidos'",
+      "passage": "El delfín es un mamífero marino inteligente. Vive en grupos llamados manadas. Se comunica con sonidos y silbidos."
+    },
+    {
+      "id": "comprension_l3_227",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Por qué son importantes las abejas?",
+      "options": [
+        "Porque polinizan las flores",
+        "Porque producen cera",
+        "Porque son rápidas",
+        "Porque son pequeñas"
+      ],
+      "correct": 0,
+      "explanation": "Las abejas polinizan las flores 🐝",
+      "passage": "Las abejas son insectos importantes para el ecosistema. Sin ellas, muchas plantas no podrían reproducirse, ya que polinizan las flores al recoger néctar."
+    },
+    {
+      "id": "comprension_l4_228",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué inicia el ciclo del agua?",
+      "options": [
+        "El calor del sol",
+        "La lluvia",
+        "El viento",
+        "Las nubes"
+      ],
+      "correct": 0,
+      "explanation": "El sol calienta el agua, iniciando la evaporación",
+      "passage": "El ciclo del agua es un proceso continuo. El sol calienta el agua de los océanos, que se evapora y forma nubes. Las nubes se enfrían y el agua cae como lluvia."
+    },
+    {
+      "id": "comprension_l5_229",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la conclusión?",
+      "options": [
+        "Hay que ser intolerante con la intolerancia",
+        "Toda tolerancia es mala",
+        "No hay solución",
+        "La sociedad siempre se destruye"
+      ],
+      "correct": 0,
+      "explanation": "La tolerancia requiere limitar la intolerancia",
+      "passage": "La paradoja de la tolerancia sostiene que una sociedad completamente tolerante será destruida por los intolerantes. Para mantenerla, debe ser intolerante con la intolerancia."
     }
   ]
 }

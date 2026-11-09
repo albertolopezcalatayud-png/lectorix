@@ -2249,6 +2249,599 @@
       ],
       "correct": 2,
       "explanation": "Da una orden: imperativa"
+    },
+    {
+      "id": "retos_rapidos_l1_201",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena para formar 'MESA'",
+      "pieces": [
+        "M",
+        "E",
+        "S",
+        "A"
+      ],
+      "correctOrder": [
+        "M",
+        "E",
+        "S",
+        "A"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "M-E-S-A = MESA"
+    },
+    {
+      "id": "retos_rapidos_l1_202",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las letras: CASA",
+      "pieces": [
+        "C",
+        "A",
+        "S",
+        "A"
+      ],
+      "correctOrder": [
+        "C",
+        "A",
+        "S",
+        "A"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "C-A-S-A = CASA 🏠"
+    },
+    {
+      "id": "retos_rapidos_l1_203",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena del más pequeño al más grande: hormiga, gato, elefante",
+      "pieces": [
+        "hormiga",
+        "gato",
+        "elefante"
+      ],
+      "correctOrder": [
+        "hormiga",
+        "gato",
+        "elefante"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "🐜 < 🐱 < 🐘"
+    },
+    {
+      "id": "retos_rapidos_l1_204",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena: desayuno, almuerzo, cena",
+      "pieces": [
+        "desayuno",
+        "almuerzo",
+        "cena"
+      ],
+      "correctOrder": [
+        "desayuno",
+        "almuerzo",
+        "cena"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Las comidas del día 🍳🍝🍽️"
+    },
+    {
+      "id": "retos_rapidos_l2_205",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena del más liviano al más pesado: pluma, libro, coche",
+      "pieces": [
+        "pluma",
+        "libro",
+        "coche"
+      ],
+      "correctOrder": [
+        "pluma",
+        "libro",
+        "coche"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "🪶 < 📖 < 🚗"
+    },
+    {
+      "id": "retos_rapidos_l2_206",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena cronológicamente: semilla, brote, flor, fruto",
+      "pieces": [
+        "semilla",
+        "brote",
+        "flor",
+        "fruto"
+      ],
+      "correctOrder": [
+        "semilla",
+        "brote",
+        "flor",
+        "fruto"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Ciclo de una planta 🌱"
+    },
+    {
+      "id": "retos_rapidos_l2_207",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena de frío a caliente: hielo, agua, vapor",
+      "pieces": [
+        "hielo",
+        "agua",
+        "vapor"
+      ],
+      "correctOrder": [
+        "hielo",
+        "agua",
+        "vapor"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "🧊 < 💧 < ♨️"
+    },
+    {
+      "id": "retos_rapidos_l3_208",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las letras para el antónimo de 'pequeño': GRANDE",
+      "pieces": [
+        "G",
+        "R",
+        "A",
+        "N",
+        "D",
+        "E"
+      ],
+      "correctOrder": [
+        "G",
+        "R",
+        "A",
+        "N",
+        "D",
+        "E"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El antónimo es 'grande'"
+    },
+    {
+      "id": "retos_rapidos_l3_209",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena de lento a rápido: tortuga, persona, guepardo",
+      "pieces": [
+        "tortuga",
+        "persona",
+        "guepardo"
+      ],
+      "correctOrder": [
+        "tortuga",
+        "persona",
+        "guepardo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "🐢 < 🏃 < 🐆"
+    },
+    {
+      "id": "retos_rapidos_l3_210",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena la oración: '¿Cómo te llamas?'",
+      "pieces": [
+        "¿Cómo",
+        "te",
+        "llamas?"
+      ],
+      "correctOrder": [
+        "¿Cómo",
+        "te",
+        "llamas?"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "¿Cómo te llamas?"
+    },
+    {
+      "id": "retos_rapidos_l4_211",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena: problema, análisis, solución, evaluación",
+      "pieces": [
+        "problema",
+        "análisis",
+        "solución",
+        "evaluación"
+      ],
+      "correctOrder": [
+        "problema",
+        "análisis",
+        "solución",
+        "evaluación"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Método de resolución 🧠"
+    },
+    {
+      "id": "retos_rapidos_l4_212",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena los prefijos: uni, bi, tri, multi",
+      "pieces": [
+        "uni",
+        "bi",
+        "tri",
+        "multi"
+      ],
+      "correctOrder": [
+        "uni",
+        "bi",
+        "tri",
+        "multi"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "uni(1), bi(2), tri(3), multi(muchos)"
+    },
+    {
+      "id": "retos_rapidos_l5_213",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena el método científico: observación, hipótesis, experimento, conclusión",
+      "pieces": [
+        "observación",
+        "hipótesis",
+        "experimento",
+        "conclusión"
+      ],
+      "correctOrder": [
+        "observación",
+        "hipótesis",
+        "experimento",
+        "conclusión"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Método científico 🔬"
+    },
+    {
+      "id": "retos_rapidos_l5_214",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena el refrán: 'Más vale pájaro en mano que ciento volando'",
+      "pieces": [
+        "Más",
+        "vale",
+        "pájaro",
+        "en",
+        "mano",
+        "que",
+        "ciento",
+        "volando"
+      ],
+      "correctOrder": [
+        "Más",
+        "vale",
+        "pájaro",
+        "en",
+        "mano",
+        "que",
+        "ciento",
+        "volando"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Más vale pájaro en mano que ciento volando"
+    },
+    {
+      "id": "retos_rapidos_l1_215",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el antónimo de 'grande'?",
+      "options": [
+        "pequeño",
+        "alto",
+        "gordo",
+        "largo"
+      ],
+      "correct": 0,
+      "explanation": "Grande ↔ Pequeño"
+    },
+    {
+      "id": "retos_rapidos_l1_216",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué animal tiene 4 patas?",
+      "options": [
+        "perro",
+        "pájaro",
+        "pez",
+        "serpiente"
+      ],
+      "correct": 0,
+      "explanation": "El perro tiene 4 patas 🐕"
+    },
+    {
+      "id": "retos_rapidos_l1_217",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra empieza con vocal?",
+      "options": [
+        "elefante",
+        "perro",
+        "gato",
+        "tortuga"
+      ],
+      "correct": 0,
+      "explanation": "'Elefante' empieza con 'e' 🐘"
+    },
+    {
+      "id": "retos_rapidos_l1_218",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas vocales tiene 'murciélago'?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct": 0,
+      "explanation": "Tiene las 5 vocales: u, i, e, a, o"
+    },
+    {
+      "id": "retos_rapidos_l1_219",
+      "module": "retos_rapidos",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es más larga?",
+      "options": [
+        "mariposa",
+        "sol",
+        "pan",
+        "luz"
+      ],
+      "correct": 0,
+      "explanation": "'Mariposa' tiene 8 letras"
+    },
+    {
+      "id": "retos_rapidos_l2_220",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el sinónimo de 'triste'?",
+      "options": [
+        "apenado",
+        "contento",
+        "enojado",
+        "asustado"
+      ],
+      "correct": 0,
+      "explanation": "'Apenado' = 'triste'"
+    },
+    {
+      "id": "retos_rapidos_l2_221",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué no pertenece: mesa, silla, sofá, manzana?",
+      "options": [
+        "manzana",
+        "mesa",
+        "silla",
+        "sofá"
+      ],
+      "correct": 0,
+      "explanation": "'Manzana' es fruta, el resto muebles 🍎"
+    },
+    {
+      "id": "retos_rapidos_l2_222",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el femenino de 'actor'?",
+      "options": [
+        "actriz",
+        "actora",
+        "actresa",
+        "actora"
+      ],
+      "correct": 0,
+      "explanation": "Actor → Actriz"
+    },
+    {
+      "id": "retos_rapidos_l2_223",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene doble 'r'?",
+      "options": [
+        "perro",
+        "pero",
+        "pera",
+        "peru"
+      ],
+      "correct": 0,
+      "explanation": "'Perro' con rr 🐕"
+    },
+    {
+      "id": "retos_rapidos_l2_224",
+      "module": "retos_rapidos",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Si 'pre' = 'antes', ¿qué es 'predecir'?",
+      "options": [
+        "Decir antes",
+        "Decir después",
+        "Decir otra vez",
+        "No decir"
+      ],
+      "correct": 0,
+      "explanation": "Pre + decir = decir antes"
+    },
+    {
+      "id": "retos_rapidos_l3_225",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué figura retórica usa 'el viento susurra'?",
+      "options": [
+        "Personificación",
+        "Metáfora",
+        "Símil",
+        "Hipérbole"
+      ],
+      "correct": 0,
+      "explanation": "Acción humana al viento = personificación"
+    },
+    {
+      "id": "retos_rapidos_l3_226",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'rápidamente'?",
+      "options": [
+        "Adverbio",
+        "Adjetivo",
+        "Sustantivo",
+        "Verbo"
+      ],
+      "correct": 0,
+      "explanation": "Modifica al verbo → adverbio"
+    },
+    {
+      "id": "retos_rapidos_l3_227",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es un homófono de 'vaca'?",
+      "options": [
+        "baca",
+        "vaco",
+        "vaquita",
+        "vaga"
+      ],
+      "correct": 0,
+      "explanation": "'Vaca' y 'baca' suenan igual"
+    },
+    {
+      "id": "retos_rapidos_l3_228",
+      "module": "retos_rapidos",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué significa el prefijo 'bio'?",
+      "options": [
+        "Vida",
+        "Dos",
+        "Agua",
+        "Fuego"
+      ],
+      "correct": 0,
+      "explanation": "'Bio' = vida"
+    },
+    {
+      "id": "retos_rapidos_l4_229",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué es una onomatopeya?",
+      "options": [
+        "Palabra que imita un sonido",
+        "Palabra larga",
+        "Palabra sin significado",
+        "Palabra extranjera"
+      ],
+      "correct": 0,
+      "explanation": "¡Boom!, ¡Miau!, ¡Ring!"
+    },
+    {
+      "id": "retos_rapidos_l4_230",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de texto es una fábula?",
+      "options": [
+        "Narrativo con moraleja",
+        "Informativo",
+        "Poético",
+        "Argumentativo"
+      ],
+      "correct": 0,
+      "explanation": "Fábula = relato con moraleja"
+    },
+    {
+      "id": "retos_rapidos_l4_231",
+      "module": "retos_rapidos",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué es un oxímoron?",
+      "options": [
+        "Combinación de opuestos",
+        "Exageración",
+        "Comparación",
+        "Repetición"
+      ],
+      "correct": 0,
+      "explanation": "'Silencio atronador'"
+    },
+    {
+      "id": "retos_rapidos_l5_232",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué es la prolepsis en narrativa?",
+      "options": [
+        "Anticipación de hechos futuros",
+        "Retroceso al pasado",
+        "Descripción del presente",
+        "Monólogo interior"
+      ],
+      "correct": 0,
+      "explanation": "Prolepsis = flash-forward"
+    },
+    {
+      "id": "retos_rapidos_l5_233",
+      "module": "retos_rapidos",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es un neologismo?",
+      "options": [
+        "tuitear",
+        "caminar",
+        "dormir",
+        "comer"
+      ],
+      "correct": 0,
+      "explanation": "'Tuitear': palabra nueva por tecnología"
     }
   ]
 }
