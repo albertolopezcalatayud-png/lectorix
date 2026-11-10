@@ -1,0 +1,168 @@
+11-10 13:14:20.397  5350  5350 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-10 13:14:20.399  1736  1736 I A       : Created gRPC endpoint to "search" for service class com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService
+11-10 13:14:20.403  4306  4879 I BugleRcsEngine: [79] brnl.h: RCS Configuration storage in Bugle is disabled by p/h flag, using ProvisioningEngineStateCacheUtil.getProvisioningConfigurationForGivenSimIfExist()
+11-10 13:14:20.404  4306  4442 W BugleAction: Null config in BugleSharedPrefs
+11-10 13:14:20.404  4306  4442 W BugleAction: Failed to get msisdn from Bugle
+11-10 13:14:20.404  4306  4442 W BugleAction: Failed to get msisdn from RcsProfileService
+11-10 13:14:20.404  4306  4442 W BugleAction: cksi: Jibe SDK Service not available. Is the Jibe SDK service running? Did you call connect() and wait for the notification before calling an API function?
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at cksa.b(PG:2)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at com.google.android.rcs.client.profile.RcsProfileService.g(PG:1)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at com.google.android.rcs.client.profile.RcsProfileService.getMsisdn(PG:3)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at awsw.aj(PG:17)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at awsw.z(PG:2)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at aule.k(PG:1)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at aulc.call(Unknown Source:2)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at cnsg.a(PG:1)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at cnpm.a(PG:3)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at ctfv.a(PG:1)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at ctet.run(PG:4)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at ctfx.run(PG:1)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at bxfd.run(PG:1)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at bxef.run(PG:2)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at java.lang.Thread.run(Thread.java:1012)
+11-10 13:14:20.404  4306  4442 W BugleAction: 	at bxfj.run(PG:5)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: Bugle: SubscriptionMetadataUtils get: unexpected subId = -2, replacing with -1
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: cpwb: FULL
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at bdsy.h(PG:6)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at bdvp.a(PG:1)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at bgit.<init>(PG:1)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at bgiu.a(PG:1)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at awsw.ai(PG:3)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at awsw.aj(PG:25)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at awsw.z(PG:2)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at aule.k(PG:1)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at aulc.call(Unknown Source:2)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at cnsg.a(PG:1)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at cnpm.a(PG:3)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at ctfv.a(PG:1)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at ctet.run(PG:4)
+11-10 13:14:20.404  4306  4442 W SubscriptionMetadataUti: 	at ctfx.run(PG:1)
+--
+11-10 13:14:20.412  5350  5350 I AndroidRuntime: Using default boot image
+11-10 13:14:20.412  5350  5350 I AndroidRuntime: Leaving lock profiling enabled
+11-10 13:14:20.414  5350  5350 I app_process: Using CollectorTypeCC GC.
+11-10 13:14:20.431  1736  2100 I A       : Creating in-process transport to InProcessServerAddress[com.google.android.googlequicksearchbox/OnDeviceServer[Hash:154791093]]
+11-10 13:14:20.442  1736  1736 I BgTaskExecutorImpl: Starting EXCLUSIVE background task FETCH_CONFIGS_FROM_PHENOTYPE.
+11-10 13:14:20.445  4861  4861 I BugleRcsEngine: [2] JibeService.onBind: JibeService: onBind in state STARTING, intent action = com.google.android.ims.rcs.engine.IRcsEngineTemporaryController
+11-10 13:14:20.445  4861  5362 I BugleRcsEngine: [82] bscr.run: Creating JibeServiceComponent
+11-10 13:14:20.446  4306  4441 I RcsClientLib: com.google.android.rcs.client.lifecycle.RcsEngineLifecycleService connected
+11-10 13:14:20.447  4306  4878 W RcsClientLib: Error while stopping RCS engine.
+11-10 13:14:20.447  4306  4878 W RcsClientLib: java.lang.IllegalStateException: JibeService Not Initialized
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3065)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at android.os.Parcel.createException(Parcel.java:3041)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at android.os.Parcel.readException(Parcel.java:3024)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at android.os.Parcel.readException(Parcel.java:2966)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at com.google.android.aidl.BaseProxy.transactAndReadExceptionReturnVoid(PG:3)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at com.google.android.ims.rcs.engine.IRcsEngineTemporaryController$Stub$Proxy.triggerStopRcsStack(PG:3)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at com.google.android.rcs.client.lifecycle.RcsEngineLifecycleService.triggerStopRcsStack(PG:2)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at awzl.call(PG:1)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at cnsg.a(PG:1)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at cnpm.a(PG:3)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at ctfv.a(PG:1)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at ctet.run(PG:4)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at ctfx.run(PG:1)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at bxfd.run(PG:1)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at bxef.run(PG:2)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at java.lang.Thread.run(Thread.java:1012)
+11-10 13:14:20.447  4306  4878 W RcsClientLib: 	at bxfj.run(PG:5)
+11-10 13:14:20.450  1736  1736 W A       : Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-10 13:14:20.453  4861  5362 I BugleRcsEngine: [82] bscd.o: (Sim): Processing an intent
+11-10 13:14:20.453  4861  5362 I BugleRcsEngine: [82] bscd.z: (Sim): Ignoring duplicate SIM state: LOADED
+11-10 13:14:20.453  4861  5362 I BugleRcsEngine: [82] bqbp.a: Initializing Carrier Services Logging.
+11-10 13:14:20.453  4861  5362 D BugleRcsEngine: log_saver already enabled
+11-10 13:14:20.454  4861  5362 I BugleRcsEngine: [82] RcsEngineProxyImpl.initializeRcsEngineForBugle: RcsEngineProxyImpl:[4ef7c7a2-ae4f]: Initializing RCS Engine for Bugle host.
+11-10 13:14:20.455  4861  5362 I BugleRcsEngine: [82] bscd.o: (Sim): Processing an intent
+11-10 13:14:20.455  4861  5362 I BugleRcsEngine: [82] bscd.z: (Sim): Ignoring duplicate SIM state: LOADED
+11-10 13:14:20.458  1351  1358 W gle.android.gms: Cleared Reference was only reachable from finalizer (only reported once)
+11-10 13:14:20.462  1351  1358 I gle.android.gms: Background concurrent copying GC freed 217588(9189KB) AllocSpace objects, 48(4476KB) LOS objects, 49% free, 13MB/27MB, paused 20us,21us total 276.354ms
+11-10 13:14:20.469  1303  5339 I NamespaceManager: Package com.google.android.nfcservices name not found! Using module version.
+11-10 13:14:20.470  1303  5339 I NamespaceManager: Package com.google.android.webapp name not found! Using module version.
+11-10 13:14:20.470  1303  5339 I NamespaceManager: Package com.google.android.telephonycore name not found! Using module version.
+--
+11-10 13:14:20.674  5350  5350 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+11-10 13:14:20.682  5350  5350 W Monkey  : args: [-p, com.lectorix.app, -c, android.intent.category.LAUNCHER, 1]
+11-10 13:14:20.682  5350  5350 W Monkey  :  arg: "-p"
+11-10 13:14:20.682  5350  5350 W Monkey  :  arg: "com.lectorix.app"
+11-10 13:14:20.682  5350  5350 W Monkey  :  arg: "-c"
+11-10 13:14:20.682  5350  5350 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+11-10 13:14:20.682  5350  5350 W Monkey  :  arg: "1"
+11-10 13:14:20.682  5350  5350 W Monkey  : data="com.lectorix.app"
+11-10 13:14:20.682  5350  5350 W Monkey  : data="android.intent.category.LAUNCHER"
+11-10 13:14:20.683   500   896 W WindowManager: Exception thrown during dispatchAppVisibility Window{75d2282 u0 com.lectorix.app/com.google.androidbrowserhelper.trusted.LauncherActivity EXITING}
+11-10 13:14:20.683   500   896 W WindowManager: android.os.DeadObjectException
+11-10 13:14:20.683   500   896 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+11-10 13:14:20.683   500   896 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+11-10 13:14:20.683   500   896 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:546)
+11-10 13:14:20.683   500   896 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3271)
+11-10 13:14:20.683   500   896 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1221)
+11-10 13:14:20.683   500   896 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:409)
+11-10 13:14:20.683   500   896 W WindowManager: 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:6946)
+11-10 13:14:20.683   500   896 W WindowManager: 	at com.android.server.wm.ActivityRecord.postApplyAnimation(ActivityRecord.java:5637)
+11-10 13:14:20.683   500   896 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5580)
+11-10 13:14:20.683   500   896 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1151)
+11-10 13:14:20.683   500   896 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:868)
+11-10 13:14:20.683   500   896 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:396)
+11-10 13:14:20.683   500   896 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:286)
+11-10 13:14:20.683   500   896 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:181)
+11-10 13:14:20.683   500   896 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1339)
+11-10 13:14:20.683   500   896 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1275)
+11-10 13:14:20.683   500   896 I Process : Sending signal. PID: 3352 SIG: 9
+11-10 13:14:20.684   500   516 V WindowManager: Finish Transition #7: created at 11-10 13:14:20.056 collect-started=0.044ms request-sent=1.209ms started=34.423ms ready=34.411ms sent=582.73ms finished=612.606ms
+11-10 13:14:20.669  5350  5350 W main    : type=1400 audit(0.0:48): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=85 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+11-10 13:14:20.696  1736  2100 I A       : incrementApaDataDownloadStoreStatus(latency = PT0.105S, appVersion = 13.17.16.23, status = NOT_FOUND, locale = *, fileGroupnames = apa_head_suggest, accountScoped = false, localGroupsAvailable = false, timeSinceSearchBoot = Optional[PT59.654S] (THIRTY_SECONDS_TO_ONE_MINUTE), timeSinceDataDownloadInit = PT0.14S (ZERO_TO_TWO_SECONDS))
+11-10 13:14:20.701   792   825 V WindowManagerShell: Track 0 became idle
+11-10 13:14:20.701   792   825 V WindowManagerShell: All active transition animations finished
+11-10 13:14:20.702   500  1641 I ImeTracker: com.google.android.apps.nexuslauncher:ff40bf2e: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-10 13:14:20.702   500  1641 I ImeTracker: com.google.android.apps.nexuslauncher:ff40bf2e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-10 13:14:20.669  5350  5350 W main    : type=1400 audit(0.0:49): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=85 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+11-10 13:14:20.705   500   573 D CompatibilityChangeReporter: Compat change id reported: 218533173; UID 10132; state: DISABLED
+11-10 13:14:20.706   500   573 D CompatibilityChangeReporter: Compat change id reported: 262645982; UID 10132; state: DISABLED
+11-10 13:14:20.706   500   573 D CompatibilityChangeReporter: Compat change id reported: 171306433; UID 10132; state: ENABLED
+11-10 13:14:20.706   500   573 D CompatibilityChangeReporter: Compat change id reported: 226439802; UID 10132; state: DISABLED
+11-10 13:14:20.710   398   398 E BpTransactionCompletedListener: Failed to transact (-32)
+--
+11-10 13:14:20.880  5350  5350 I AndroidRuntime: VM exiting with result code 0.
+11-10 13:14:20.890  1303  5332 I NamespaceManager: Package com.android.refreshratecontrol name not found! Using module version.
+11-10 13:14:20.891  1303  5332 I NamespaceManager: Package com.google.oslo name not found! Using module version.
+11-10 13:14:20.891  1303  5332 I NamespaceManager: Package com.android.media name not found! Using module version.
+11-10 13:14:20.891  1303  5332 I NamespaceManager: Package com.android.media.swcodec name not found! Using module version.
+11-10 13:14:20.891  1303  5332 I NamespaceManager: Package com.android.neuralnetworks name not found! Using module version.
+11-10 13:14:20.891  1303  5332 I NamespaceManager: Package com.android.media name not found! Using module version.
+11-10 13:14:20.892  1303  5332 I NamespaceManager: Package 1 name not found! Using module version.
+11-10 13:14:20.892  1303  5332 I NamespaceManager: Package rkpd name not found! Using module version.
+11-10 13:14:20.892  1303  5332 I NamespaceManager: Package android.companion name not found! Using module version.
+11-10 13:14:20.892  1303  5332 I NamespaceManager: Package com.google.android.aicore name not found! Using module version.
+11-10 13:14:20.893  1303  5332 I NamespaceManager: Package com.google.android.audioproxy name not found! Using module version.
+11-10 13:14:20.893  5159  5159 I PhenotypeBackgroundRecv: Skipping com.google.android.libraries.search.googleapp.user#com.google.android.googlequicksearchbox which doesn't use ProcessStable flags.
+11-10 13:14:20.894  1303  5332 I NamespaceManager: Package com.google.android.apps.pixel.psi name not found! Using module version.
+11-10 13:14:20.896  1351  5320 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+11-10 13:14:20.897  1351  5320 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+11-10 13:14:20.897  1351  5320 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+11-10 13:14:20.897  1351  5320 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+11-10 13:14:20.899  1351  5321 I MdiSyncModule: flag handling is skipping irrelevant intent.
+11-10 13:14:20.899  1351  5321 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+11-10 13:14:20.899  1351  5321 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.platformconfigurator [CONTEXT service_id=340 ]
+11-10 13:14:20.901  1351  5324 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+11-10 13:14:20.901  1351  5324 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+11-10 13:14:20.901  1351  5324 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+11-10 13:14:20.901  1351  5324 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+11-10 13:14:20.902  1303  5332 I NamespaceManager: Package com.google.android.apps.safetycore name not found! Using module version.
+11-10 13:14:20.903  5159  5159 I PhenotypeBackgroundRecv: Skipping com.google.android.apps.search.assistant.mobile.user#com.google.android.googlequicksearchbox which doesn't use ProcessStable flags.
+11-10 13:14:20.904  5159  5159 I PhenotypeBackgroundRecv: Skipping com.google.android.libraries.search.assistant.invocation.device#com.google.android.googlequicksearchbox which doesn't use ProcessStable flags.
+11-10 13:14:20.908   500   603 W PackageConfigPersister: App-specific configuration not found for packageName: com.android.vending and userId: 0
+11-10 13:14:20.908   500   603 W PackageConfigPersister: App-specific configuration not found for packageName: com.android.vending and userId: 0
+11-10 13:14:20.910   500   728 E AppOps  : attributionTag VCN not declared in manifest of android
+11-10 13:14:20.914  1303  5332 I NamespaceManager: Package com.google.android.crashrecovery name not found! Using module version.
+11-10 13:14:20.914   500   762 I SdkSandboxManager: No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10131, mPackageName='com.android.vending, mAppProcessToken='null'}
+11-10 13:14:20.915  1303  5332 I NamespaceManager: Package com.google.android.profiling name not found! Using module version.
+11-10 13:14:20.916  1303  5332 I NamespaceManager: Package com.google.android.bt name not found! Using module version.
+11-10 13:14:20.916  1303  5332 I NamespaceManager: Package com.google.android.nfcservices name not found! Using module version.
+11-10 13:14:20.917  1303  5332 I NamespaceManager: Package com.google.android.webapp name not found! Using module version.
+11-10 13:14:20.917  1303  5332 I NamespaceManager: Package com.google.android.telephonycore name not found! Using module version.
+11-10 13:14:20.918  1303  5332 I NamespaceManager: Package com.google.android.uprobestats name not found! Using module version.
+11-10 13:14:20.921  1303  5332 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.gms.ulr [CONTEXT service_id=204 ]
+11-10 13:14:20.921  1303  5332 W PhenotypeConfigurationU: bwix: No package exists for config package: com.google.android.gms.ulr

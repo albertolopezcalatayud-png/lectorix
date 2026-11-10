@@ -1,0 +1,2 @@
+    topResumedActivity=ActivityRecord{d10dce u0 com.lectorix.app/com.google.androidbrowserhelper.trusted.LauncherActivity t8}
+  ResumedActivity: ActivityRecord{d10dce u0 com.lectorix.app/com.google.androidbrowserhelper.trusted.LauncherActivity t8}

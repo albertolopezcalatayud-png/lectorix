@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.lectorix.app/com.google.androidbrowserhelper.trusted.LauncherActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.lectorix.app/com.google.androidbrowserhelper.trusted.LauncherActivity
+TotalTime: 2653
+WaitTime: 2656
+Complete

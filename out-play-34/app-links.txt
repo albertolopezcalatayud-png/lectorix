@@ -1,0 +1,5 @@
+  com.lectorix.app:
+    ID: 6564148a-ebae-4290-9dc8-b162338a413d
+    Signatures: [88:B1:E5:E9:02:A2:FA:A8:1B:BB:AC:30:AC:BE:9C:0B:E8:D7:0C:B1:18:2A:32:76:C9:00:25:17:A3:AD:95:95]
+    Domain verification state:
+      albertolopezcalatayud-png.github.io: verified
