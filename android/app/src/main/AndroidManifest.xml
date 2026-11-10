@@ -36,6 +36,10 @@
         </provider>
     </application>
 
+    <!-- Portrait is preferred, not required: keeps tablets, TVs and car screens compatible on Play -->
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
     <!-- Permissions -->
 
     <uses-permission android:name="android.permission.INTERNET" />
