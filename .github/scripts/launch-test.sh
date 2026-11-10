@@ -20,6 +20,13 @@ sleep 20
 adb exec-out screencap -p > "$OUT/screen-45s.png"
 adb shell dumpsys activity activities | grep -E 'mResumedActivity|topResumedActivity|ResumedActivity' > "$OUT/top-activity.txt"
 adb shell pidof com.lectorix.app > "$OUT/pid.txt"
+# Second launch from the launcher, like a user reopening the app
+adb shell am force-stop com.lectorix.app
+adb shell monkey -p com.lectorix.app -c android.intent.category.LAUNCHER 1 > "$OUT/relaunch.txt" 2>&1
+sleep 20
+adb exec-out screencap -p > "$OUT/screen-relaunch.png"
+adb shell dumpsys activity activities | grep -E 'topResumedActivity|mResumedActivity' > "$OUT/top-activity-relaunch.txt"
+adb shell pm get-app-links com.lectorix.app > "$OUT/app-links.txt" 2>&1
 adb logcat -d > "$OUT/logcat-full.txt"
 grep -E -A40 'FATAL EXCEPTION|AndroidRuntime' "$OUT/logcat-full.txt" > "$OUT/crash.txt"
 grep -i -E 'lectorix|TWA|TrustedWeb|browserhelper|ActivityTaskManager' "$OUT/logcat-full.txt" > "$OUT/logcat-app.txt"
