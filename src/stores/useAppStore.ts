@@ -34,6 +34,9 @@ interface AppState {
   // Language
   language: 'es' | 'ca' | 'en';
   setLanguage: (lang: 'es' | 'ca' | 'en') => void;
+  /** Language of exercises, dictations, readings and voice. 'auto' = same as the menus */
+  practiceLanguage: 'auto' | 'es' | 'ca' | 'en';
+  setPracticeLanguage: (lang: 'auto' | 'es' | 'ca' | 'en') => void;
 
   // Accessibility
   fontFamily: 'default' | 'dyslexic';
@@ -144,6 +147,8 @@ export const useAppStore = create<AppState>()(
       // Language
       language: 'es',
       setLanguage: (language) => set({ language }),
+      practiceLanguage: 'auto',
+      setPracticeLanguage: (practiceLanguage) => set({ practiceLanguage }),
 
       // Accessibility
       fontFamily: 'default',
@@ -200,6 +205,7 @@ export const useAppStore = create<AppState>()(
         subscription: state.subscription,
         theme: state.theme,
         language: state.language,
+        practiceLanguage: state.practiceLanguage,
         fontFamily: state.fontFamily,
         fontSize: state.fontSize,
         highContrast: state.highContrast,
@@ -210,3 +216,10 @@ export const useAppStore = create<AppState>()(
     }
   )
 );
+
+/** Effective practice language (resolves 'auto' to the menu language) */
+export function resolvePracticeLang(s: { language: 'es' | 'ca' | 'en'; practiceLanguage?: 'auto' | 'es' | 'ca' | 'en' }) {
+  return !s.practiceLanguage || s.practiceLanguage === 'auto' ? s.language : s.practiceLanguage;
+}
+
+export const usePracticeLang = () => useAppStore((s) => resolvePracticeLang(s));

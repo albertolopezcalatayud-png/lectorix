@@ -2,14 +2,14 @@ import { useEffect, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { shouldUnlockNextLevel } from '@/services/gamification';
-import { getModule, LEVEL_NAMES } from '@/data/modules';
+import {MODULE_TEXT, getModule, levelNameKey } from '@/data/modules';
 import { Card } from '@/components/ui/Card';
 import { Stars } from '@/components/ui/Stars';
 import { Button } from '@/components/ui/Button';
 import { Confetti } from '@/components/ui/Confetti';
 import sounds from '@/services/sounds';
 import { useI18n } from '@/i18n';
-import { getReading } from '@/data/readings';
+import { useReading } from '@/data/readings';
 
 export default function Results() {
   const location = useLocation();
@@ -18,6 +18,7 @@ export default function Results() {
   const examMode = location.state?.examMode || false;
   const soundPlayed = useRef(false);
   const { t } = useI18n();
+  const readingFound = useReading(result?.mode === 'reading' ? result.reading_id : undefined);
 
   useEffect(() => {
     if (!result || soundPlayed.current) return;
@@ -66,7 +67,7 @@ export default function Results() {
   const isDaily = result.mode === 'daily';
   // Dictation, reading and the daily challenge don't belong to a module level
   const isStandalone = isDictation || isReading || isDaily;
-  const reading = isReading ? getReading(result.reading_id) : undefined;
+  const reading = readingFound ?? undefined;
 
   // Exam grade
   const examPassed = result.score_percent >= 50;
@@ -110,7 +111,7 @@ export default function Results() {
             ? `${reading?.emoji ?? '📖'} ${reading?.title ?? t('read_title')}`
             : isDaily
               ? t('daily_title')
-              : `${mod?.name} · ${t('dash_level', { level: result.level })} · ${LEVEL_NAMES[result.level]}`}
+              : `${(mod ? t(MODULE_TEXT[mod.id].name) : '')} · ${t('dash_level', { level: result.level })} · ${t(levelNameKey(result.level))}`}
       </motion.p>
 
       {/* Exam grade badge */}
@@ -187,7 +188,7 @@ export default function Results() {
           <Card className="border-mint/30 bg-mint-pale/30 text-center">
             <span className="text-2xl">🔓</span>
             <p className="font-heading font-extrabold mt-1">{t('res_unlocked', { level: result.level + 1 })}</p>
-            <p className="text-xs text-fg-muted">{LEVEL_NAMES[result.level + 1]}</p>
+            <p className="text-xs text-fg-muted">{t(levelNameKey(result.level + 1))}</p>
           </Card>
         </motion.div>
       )}

@@ -7,6 +7,8 @@ import { buildSessionResult } from '@/services/gamification';
 import { MODULES } from '@/data/modules';
 import { ExerciseCard } from '@/components/exercise/ExerciseCard';
 import { useI18n } from '@/i18n';
+import { loadModule } from '@/data/content';
+import { usePracticeLang } from '@/stores/useAppStore';
 
 const DAILY_COUNT = 5;
 
@@ -19,6 +21,7 @@ export default function DailyChallenge() {
   const [loading, setLoading] = useState(true);
 
   const { t } = useI18n();
+  const lang = usePracticeLang();
 
   useEffect(() => {
     async function loadDailyExercises() {
@@ -28,9 +31,9 @@ export default function DailyChallenge() {
 
         for (const mod of MODULES) {
           try {
-            const data = await import(`@/data/exercises/${mod.id}.json`);
+            const data = await loadModule(lang, mod.id);
             // The daily challenge renders multiple-choice cards only
-            const modExercises = (data.default?.exercises || data.exercises || [])
+            const modExercises = data
               .filter((e: Exercise) => e.type === 'multiple_choice');
             if (modExercises.length > 0) {
               const randomIndex = Math.floor(Math.random() * modExercises.length);
@@ -52,7 +55,7 @@ export default function DailyChallenge() {
     }
 
     loadDailyExercises();
-  }, []);
+  }, [lang]);
 
   const handleAnswer = useCallback(
     (selectedIndex: number, isCorrect: boolean, timeMs: number) => {

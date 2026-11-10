@@ -5,7 +5,7 @@ import type { ModuleId, AnswerResult } from '@/types';
 import { useExercises } from '@/hooks/useExercises';
 import { useAppStore } from '@/stores/useAppStore';
 import { buildSessionResult } from '@/services/gamification';
-import { getModule } from '@/data/modules';
+import {MODULE_TEXT, getModule } from '@/data/modules';
 import { ExerciseCard } from '@/components/exercise/ExerciseCard';
 import { DragDropExercise } from '@/components/exercise/DragDropExercise';
 import { WriteExercise } from '@/components/exercise/WriteExercise';
@@ -170,7 +170,7 @@ export default function Exercise() {
         </button>
         <div className="flex-1">
           <h3 className="font-heading font-extrabold text-sm">
-            {sessionMode === 'review' ? t('rev_title') : sessionMode === 'exam' ? t('exam_title') : (mod?.name || module)}
+            {sessionMode === 'review' ? t('rev_title') : sessionMode === 'exam' ? t('exam_title') : ((mod ? t(MODULE_TEXT[mod.id].name) : '') || module)}
           </h3>
           <p className="text-[10px] text-fg-muted">{t('dash_level', { level })}</p>
         </div>

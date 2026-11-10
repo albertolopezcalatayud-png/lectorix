@@ -4,30 +4,21 @@ import { motion } from 'framer-motion';
 import type { Exercise, AnswerResult, ModuleId } from '@/types';
 import { buildSessionResult } from '@/services/gamification';
 import { recordSession } from '@/services/session';
-import { LEVEL_NAMES } from '@/data/modules';
+import {levelNameKey } from '@/data/modules';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { WriteExercise } from '@/components/exercise/WriteExercise';
 import tts from '@/services/tts';
 import { useI18n } from '@/i18n';
+import { loadModule, isDictationExercise, type PracticeLang } from '@/data/content';
+import { usePracticeLang } from '@/stores/useAppStore';
 
 const WORDS_PER_SESSION = 6;
 const SENTENCES_PER_SESSION = 4;
 
-export function isDictationExercise(e: Exercise) {
-  return e.type === 'write' && !!e.word && /^escucha/i.test(e.prompt);
-}
-
-async function loadDictations(): Promise<Exercise[]> {
-  const [fon, esc] = await Promise.all([
-    import('@/data/exercises/fonologia.json'),
-    import('@/data/exercises/escritura.json'),
-  ]);
-  const all = [
-    ...(fon.default.exercises as unknown as Exercise[]),
-    ...(esc.default.exercises as unknown as Exercise[]),
-  ];
-  return all.filter(isDictationExercise);
+async function loadDictations(lang: PracticeLang): Promise<Exercise[]> {
+  const [fon, esc] = await Promise.all([loadModule(lang, 'fonologia'), loadModule(lang, 'escritura')]);
+  return [...fon, ...esc].filter(isDictationExercise);
 }
 
 const shuffle = <T,>(arr: T[]) => [...arr].sort(() => Math.random() - 0.5);
@@ -37,6 +28,7 @@ export default function Dictation() {
   const navigate = useNavigate();
   const location = useLocation();
   const { t } = useI18n();
+  const lang = usePracticeLang();
 
   const reviewIds: string[] | undefined = location.state?.reviewIds;
   const initialLevel: number | undefined = location.state?.level;
@@ -49,8 +41,9 @@ export default function Dictation() {
   const [startTime, setStartTime] = useState(Date.now());
 
   useEffect(() => {
-    loadDictations().then(setPool).catch(() => setPool([]));
-  }, []);
+    setPool(null);
+    loadDictations(lang).then(setPool).catch(() => setPool([]));
+  }, [lang]);
 
   // Build the session once a level is chosen (or for a review of mistakes)
   useEffect(() => {
@@ -122,7 +115,7 @@ export default function Dictation() {
                       {l}
                     </span>
                     <div className="flex-1">
-                      <h4 className="font-heading font-extrabold text-sm">{LEVEL_NAMES[l]}</h4>
+                      <h4 className="font-heading font-extrabold text-sm">{t(levelNameKey(l))}</h4>
                       <p className="text-xs text-fg-muted">{t('dict_level_desc', { n: count })}</p>
                     </div>
                     <span className="text-accent font-extrabold text-sm">→</span>
@@ -149,7 +142,7 @@ export default function Dictation() {
         </button>
         <div className="flex-1">
           <h3 className="font-heading font-extrabold text-sm">{reviewIds ? t('rev_title') : t('dict_title')}</h3>
-          <p className="text-[10px] text-fg-muted">{t('dash_level', { level })} · {LEVEL_NAMES[level]}</p>
+          <p className="text-[10px] text-fg-muted">{t('dash_level', { level })} · {t(levelNameKey(level))}</p>
         </div>
         <span className="text-xs font-bold text-fg-muted">
           {t('ex_question', { n: currentIndex + 1, total: exercises.length })}

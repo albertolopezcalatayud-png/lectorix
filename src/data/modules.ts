@@ -1,4 +1,16 @@
-import type { ModuleInfo } from '@/types';
+import type { ModuleInfo, ModuleId } from '@/types';
+import type { TranslationKey } from '@/i18n/es';
+
+/** Translated name and description of each module */
+export const MODULE_TEXT: Record<ModuleId, { name: TranslationKey; desc: TranslationKey }> = {
+  fonologia: { name: 'mod_fonologia', desc: 'mod_desc_fonologia' },
+  memoria_visual: { name: 'mod_memoria', desc: 'mod_desc_memoria_visual' },
+  comprension_lectora: { name: 'mod_comprension', desc: 'mod_desc_comprension_lectora' },
+  escritura: { name: 'mod_escritura', desc: 'mod_desc_escritura' },
+  retos_rapidos: { name: 'mod_retos', desc: 'mod_desc_retos_rapidos' },
+};
+
+export const levelNameKey = (level: number) => `lvl_name_${level}` as TranslationKey;
 
 export const MODULES: ModuleInfo[] = [
   {

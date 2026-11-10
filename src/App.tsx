@@ -5,7 +5,8 @@ import { BottomNav } from '@/components/layout/BottomNav';
 import { OfflineBanner } from '@/components/ui/OfflineBanner';
 import { Onboarding } from '@/components/onboarding/Onboarding';
 import { PageTransition } from '@/components/layout/PageTransition';
-import { useAppStore } from '@/stores/useAppStore';
+import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
+import { setSpeechLang } from '@/services/tts';
 
 // Lazy load pages
 const Dashboard = lazy(() => import('@/pages/Dashboard'));
@@ -71,6 +72,14 @@ export default function App() {
   const theme = useAppStore((s) => s.theme);
   const onboardingDone = useAppStore((s) => s.onboardingDone);
   const setOnboardingDone = useAppStore((s) => s.setOnboardingDone);
+  const language = useAppStore((s) => s.language);
+  const practiceLang = usePracticeLang();
+
+  // The voice follows the practice language
+  setSpeechLang(practiceLang);
+  useEffect(() => {
+    document.documentElement.lang = language === 'ca' ? 'ca-ES-valencia' : language === 'en' ? 'en-GB' : 'es';
+  }, [language]);
 
   // Apply persisted accessibility settings on mount
   useEffect(() => {

@@ -3,8 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '@/stores/useAppStore';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
-import { getModule } from '@/data/modules';
-import { LEVEL_NAMES } from '@/data/modules';
+import {MODULE_TEXT, getModule, levelNameKey } from '@/data/modules';
 import { useI18n } from '@/i18n';
 import type { TranslationKey } from '@/i18n';
 
@@ -133,7 +132,7 @@ export default function History() {
                           <div className="flex-1 min-w-0">
                             <div className="flex items-center gap-2">
                               <p className="font-heading font-extrabold text-sm truncate">
-                                {mod?.name || session.module}
+                                {(mod ? t(MODULE_TEXT[mod.id].name) : '') || session.module}
                               </p>
                               <span className="text-[10px] text-fg-muted flex-shrink-0">
                                 {formatDate(session.completed_at, t)}
@@ -141,7 +140,7 @@ export default function History() {
                             </div>
                             <div className="flex items-center gap-2 mt-0.5">
                               <span className="text-[10px] text-fg-muted">
-                                {t('parent_level_label', { level: session.level })} · {LEVEL_NAMES[session.level] || ''}
+                                {t('parent_level_label', { level: session.level })} · {t(levelNameKey(session.level))}
                               </span>
                             </div>
                             <div className="flex items-center gap-3 mt-1">

@@ -1,17 +1,10 @@
 import { useState, useEffect } from 'react';
 import type { Exercise, ModuleId } from '@/types';
-
-// Import all exercise JSON data
-// In production these would come from Supabase, but for now we load from static JSON
-const exerciseModules: Record<string, () => Promise<{ default: { exercises: Exercise[] } }>> = {
-  fonologia: () => import('@/data/exercises/fonologia.json').then(m => ({ default: { exercises: m.default.exercises as unknown as Exercise[] } })),
-  memoria_visual: () => import('@/data/exercises/memoria_visual.json').then(m => ({ default: { exercises: m.default.exercises as unknown as Exercise[] } })),
-  comprension_lectora: () => import('@/data/exercises/comprension_lectora.json').then(m => ({ default: { exercises: m.default.exercises as unknown as Exercise[] } })),
-  escritura: () => import('@/data/exercises/escritura.json').then(m => ({ default: { exercises: m.default.exercises as unknown as Exercise[] } })),
-  retos_rapidos: () => import('@/data/exercises/retos_rapidos.json').then(m => ({ default: { exercises: m.default.exercises as unknown as Exercise[] } })),
-};
+import { loadModule } from '@/data/content';
+import { usePracticeLang } from '@/stores/useAppStore';
 
 export function useExercises(module: ModuleId, level: number, count: number = 10) {
+  const lang = usePracticeLang();
   const [exercises, setExercises] = useState<Exercise[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -24,13 +17,7 @@ export function useExercises(module: ModuleId, level: number, count: number = 10
       setError(null);
 
       try {
-        const loader = exerciseModules[module];
-        if (!loader) {
-          throw new Error(`Module ${module} not found`);
-        }
-
-        const data = await loader();
-        const allExercises = data.default.exercises || [];
+        const allExercises = await loadModule(lang, module);
 
         // Filter by level
         const levelExercises = allExercises.filter((ex: Exercise) => ex.level === level);
@@ -49,7 +36,7 @@ export function useExercises(module: ModuleId, level: number, count: number = 10
         }
       } catch (err) {
         if (!cancelled) {
-          setError(err instanceof Error ? err.message : 'Error cargando ejercicios');
+          setError(err instanceof Error ? err.message : 'Error');
           setLoading(false);
         }
       }
@@ -57,7 +44,7 @@ export function useExercises(module: ModuleId, level: number, count: number = 10
 
     load();
     return () => { cancelled = true; };
-  }, [module, level, count]);
+  }, [module, level, count, lang]);
 
   return { exercises, loading, error };
 }

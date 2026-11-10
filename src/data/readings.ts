@@ -1,5 +1,7 @@
-import data from '@/data/lecturas.json';
+import { useEffect, useState } from 'react';
 import type { Exercise } from '@/types';
+import { loadReadings } from './content';
+import { usePracticeLang } from '@/stores/useAppStore';
 
 export interface ReadingQuestion {
   id: string;
@@ -18,9 +20,30 @@ export interface Reading {
   questions: ReadingQuestion[];
 }
 
-export const READINGS: Reading[] = (data as { readings: Reading[] }).readings;
+/** Readings of the current practice language (null while loading) */
+export function useReadings(): Reading[] | null {
+  const lang = usePracticeLang();
+  const [list, setList] = useState<{ lang: string; items: Reading[] } | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    loadReadings(lang).then((items) => { if (!cancelled) setList({ lang, items }); }).catch(() => { if (!cancelled) setList({ lang, items: [] }); });
+    return () => { cancelled = true; };
+  }, [lang]);
+  return list && list.lang === lang ? list.items : null;
+}
 
-export const getReading = (id: string) => READINGS.find((r) => r.id === id);
+/** A reading by id from any language bank (ids are unique across languages) */
+export function useReading(id: string | undefined): Reading | undefined | null {
+  const [found, setFound] = useState<Reading | undefined | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    if (!id) { setFound(undefined); return; }
+    Promise.all((['es', 'ca', 'en'] as const).map((l) => loadReadings(l).catch(() => [] as Reading[])))
+      .then((banks) => { if (!cancelled) setFound(banks.flat().find((r) => r.id === id)); });
+    return () => { cancelled = true; };
+  }, [id]);
+  return found;
+}
 
 export const wordCount = (r: Reading) => r.text.split(/\s+/).filter(Boolean).length;
 

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useAppStore } from '@/stores/useAppStore';
 import { calculateXPLevel } from '@/services/gamification';
-import { MODULES } from '@/data/modules';
+import {MODULES, MODULE_TEXT } from '@/data/modules';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
@@ -114,7 +114,7 @@ export default function ParentPanel() {
                 const completed = modProgress.filter((p) => p.stars > 0).length;
                 return {
                   id: mod.id,
-                  name: mod.name,
+                  name: t(MODULE_TEXT[mod.id].name),
                   icon: mod.icon,
                   color: mod.color,
                   value: Math.round((completed / mod.levels) * 100),
@@ -135,7 +135,7 @@ export default function ParentPanel() {
                   ? Math.round(modProgress.reduce((s, p) => s + p.best_score, 0) / modProgress.length)
                   : 0;
                 return {
-                  label: mod.name.split(' ')[0],
+                  label: t(MODULE_TEXT[mod.id].name).split(' ')[0],
                   value: modAvg,
                   color: mod.color,
                 };
@@ -166,7 +166,7 @@ export default function ParentPanel() {
                   const maxTime = 30; // 30s scale
                   return (
                     <div key={mod.id} className="flex items-center gap-2">
-                      <span className="text-xs w-20 truncate">{mod.icon} {mod.name.split(' ')[0]}</span>
+                      <span className="text-xs w-20 truncate">{mod.icon} {t(MODULE_TEXT[mod.id].name).split(' ')[0]}</span>
                       <div className="flex-1 h-3 bg-border rounded-full overflow-hidden">
                         <div
                           className="h-full rounded-full transition-all"
@@ -202,7 +202,7 @@ export default function ParentPanel() {
                   <div key={mod.id}>
                     <div className="flex items-center gap-2 mb-1.5">
                       <span className="text-lg">{mod.icon}</span>
-                      <span className="font-heading font-extrabold text-sm">{mod.name}</span>
+                      <span className="font-heading font-extrabold text-sm">{t(MODULE_TEXT[mod.id].name)}</span>
                       <span className="ml-auto text-xs text-fg-muted">{t('parent_levels_label', { n: completed, total: mod.levels })}</span>
                     </div>
                     <ProgressBar value={(completed / mod.levels) * 100} color={mod.color} height={5} />

@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { getModule, LEVEL_NAMES } from '@/data/modules';
+import {MODULE_TEXT, getModule, levelNameKey } from '@/data/modules';
 import { useAppStore } from '@/stores/useAppStore';
 import { Card } from '@/components/ui/Card';
 import { Stars } from '@/components/ui/Stars';
@@ -25,7 +25,7 @@ export default function Levels() {
 
   return (
     <div className="min-h-screen pb-24">
-      <Header title={mod.name} showBack />
+      <Header title={t(MODULE_TEXT[mod.id].name)} showBack />
 
       <div className="px-4 py-5 max-w-lg mx-auto">
         {/* Module header */}
@@ -37,8 +37,8 @@ export default function Levels() {
             {mod.icon}
           </div>
           <div>
-            <h2 className="font-heading font-extrabold text-lg">{mod.name}</h2>
-            <p className="text-xs text-fg-muted">{mod.description}</p>
+            <h2 className="font-heading font-extrabold text-lg">{t(MODULE_TEXT[mod.id].name)}</h2>
+            <p className="text-xs text-fg-muted">{t(MODULE_TEXT[mod.id].desc)}</p>
           </div>
         </div>
 
@@ -110,7 +110,7 @@ export default function Levels() {
                     <div className="flex-1">
                       <div className="flex items-center gap-2">
                         <h3 className="font-heading font-extrabold text-sm">
-                          {t('dash_level', { level })} · {LEVEL_NAMES[level]}
+                          {t('dash_level', { level })} · {t(levelNameKey(level))}
                         </h3>
                         {needsPremium && (
                           <span className="text-[10px] font-extrabold bg-yellow-pale text-yellow px-2 py-0.5 rounded-full">

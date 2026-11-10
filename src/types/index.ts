@@ -21,6 +21,7 @@ export interface Exercise {
   answer?: string;             // Correct answer text (for write exercises)
   hint?: string;               // Optional hint shown to the student
   acceptableAnswers?: string[]; // Alternative correct answers (case-insensitive)
+  dictation?: boolean;          // The word/sentence is heard, not shown
 }
 
 export type ModuleId =

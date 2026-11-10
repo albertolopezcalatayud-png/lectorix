@@ -1,3 +1,5 @@
+import { getTranslator } from '@/i18n';
+import { useAppStore } from '@/stores/useAppStore';
 /**
  * Lectorix reminder service
  *
@@ -222,14 +224,21 @@ async function show(title: string, body: string, tag: string) {
   }
 }
 
+/** Translator for the current menu language (works outside React) */
+function uiT() {
+  return getTranslator(useAppStore.getState().language);
+}
+
 /** Streak milestone, shown right after finishing a session */
 export function showStreakNotification(streakDays: number) {
-  void show('🔥 ¡Racha de ' + streakDays + ' días!', 'Sigue así, estás mejorando día a día.', 'streak');
+  const t = uiT();
+  void show(t('notif_streak_title', { n: streakDays }), t('notif_streak_body'), 'streak');
 }
 
 export function showReminderNotification() {
   if (!isNotificationEnabled()) return;
-  void show('📚 ¡Hora de practicar!', 'Solo 10 minutos al día marcan la diferencia. ¡Vamos!', 'reminder');
+  const t = uiT();
+  void show(t('notif_reminder_title'), t('notif_reminder_body'), 'reminder');
 }
 
 // ── Fallback scheduling (only while the app is open) ─────

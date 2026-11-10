@@ -1,6 +1,6 @@
 import type { UserProfile, StudentProgress } from '@/types';
 import { calculateXPLevel } from '@/services/gamification';
-import { MODULES, LEVEL_NAMES } from '@/data/modules';
+import {MODULES, MODULE_TEXT, levelNameKey } from '@/data/modules';
 import { getTranslator } from '@/i18n';
 import type { TranslationKey } from '@/i18n';
 
@@ -41,7 +41,7 @@ export function generateParentReport({ user, progress, language }: ExportData): 
 
     const levelDetails = mp.map((p) => `
       <tr class="level-row">
-        <td style="padding-left:32px;">${t('pdf_level_row' as TranslationKey, { level: p.level, name: LEVEL_NAMES[p.level] || '' })}</td>
+        <td style="padding-left:32px;">${t('pdf_level_row' as TranslationKey, { level: p.level, name: t(levelNameKey(p.level)) })}</td>
         <td>${'★'.repeat(p.stars)}${'☆'.repeat(3 - p.stars)}</td>
         <td>${p.best_score}%</td>
         <td>${p.attempts}</td>
@@ -50,7 +50,7 @@ export function generateParentReport({ user, progress, language }: ExportData): 
 
     return `
       <tr class="module-row">
-        <td><strong>${mod.icon} ${escapeHtml(mod.name)}</strong></td>
+        <td><strong>${mod.icon} ${escapeHtml(t(MODULE_TEXT[mod.id].name))}</strong></td>
         <td>${modStars}/${mod.levels * 3} ★</td>
         <td>${modAvg}%</td>
         <td>${attempts}</td>
@@ -74,7 +74,7 @@ export function generateParentReport({ user, progress, language }: ExportData): 
       : 0;
     return `
       <div class="skill-bar-row">
-        <span class="skill-label">${mod.icon} ${escapeHtml(mod.name.split(' ')[0])}</span>
+        <span class="skill-label">${mod.icon} ${escapeHtml(t(MODULE_TEXT[mod.id].name).split(' ')[0])}</span>
         <div class="skill-bar">
           <div class="skill-fill" style="width:${modAvg}%; background:${mod.color};"></div>
         </div>

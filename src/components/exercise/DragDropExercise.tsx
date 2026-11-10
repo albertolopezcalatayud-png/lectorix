@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react';
+import { useI18n } from '@/i18n';
 import { motion, AnimatePresence, Reorder } from 'framer-motion';
 import type { Exercise } from '@/types';
 import sounds from '@/services/sounds';
@@ -45,6 +46,7 @@ function DragOrderExercise({
   onAnswer,
   startTime,
 }: DragDropExerciseProps & { startTime: number }) {
+  const { t } = useI18n();
   const correctOrder = exercise.correctOrder || [];
   const [items, setItems] = useState(() => {
     const shuffled = [...(exercise.pieces || correctOrder)];
@@ -109,7 +111,7 @@ function DragOrderExercise({
           <div className="flex justify-center">
             <button
               onClick={handleSpeak}
-              aria-label="Escuchar la palabra"
+              aria-label={t('ex_listen_word')}
               className={`w-16 h-16 rounded-full text-2xl flex items-center justify-center transition-colors ${
                 isSpeaking ? 'bg-accent text-white' : 'bg-accent-pale text-accent hover:bg-accent/20'
               }`}
@@ -124,7 +126,7 @@ function DragOrderExercise({
 
         {/* Drag area */}
         <div className="bg-accent-pale/30 rounded-[16px] p-4 border border-border">
-          <p className="text-[10px] text-fg-muted text-center mb-3">Mantén pulsado y arrastra para ordenar</p>
+          <p className="text-[10px] text-fg-muted text-center mb-3">{t('ex_drag_hint')}</p>
           <Reorder.Group
             axis="x"
             values={items}
@@ -181,7 +183,7 @@ function DragOrderExercise({
             >
               <span className="text-xl flex-shrink-0">{isCorrect ? '✅' : '❌'}</span>
               <div>
-                <span className="font-bold">{isCorrect ? '¡Correcto!' : 'Incorrecto'}</span>
+                <span className="font-bold">{isCorrect ? t('ex_correct') : t('ex_incorrect')}</span>
                 <span className="block text-xs font-normal text-fg-muted mt-0.5">
                   {isCorrect ? exercise.explanation : `El orden correcto es: ${correctOrder.join(exercise.word ? '' : ' ')}`}
                 </span>
@@ -202,6 +204,7 @@ function DragFillExercise({
   onAnswer,
   startTime,
 }: DragDropExerciseProps & { startTime: number }) {
+  const { t } = useI18n();
   const blanks = exercise.blanks || [];
   const sentence = exercise.sentence || '';
   const parts = sentence.split('___');
@@ -338,7 +341,7 @@ function DragFillExercise({
 
         {/* Available words */}
         <div>
-          <p className="text-[10px] text-fg-muted text-center mb-2">Pulsa una palabra para colocarla</p>
+          <p className="text-[10px] text-fg-muted text-center mb-2">{t('ex_tap_hint')}</p>
           <div className="flex flex-wrap gap-2 justify-center">
             {availableWords.map((word, i) => (
               <motion.button
@@ -385,7 +388,7 @@ function DragFillExercise({
             >
               <span className="text-xl flex-shrink-0">{isCorrect ? '✅' : '❌'}</span>
               <div>
-                <span className="font-bold">{isCorrect ? '¡Correcto!' : 'Incorrecto'}</span>
+                <span className="font-bold">{isCorrect ? t('ex_correct') : t('ex_incorrect')}</span>
                 <span className="block text-xs font-normal text-fg-muted mt-0.5">
                   {exercise.explanation}
                 </span>

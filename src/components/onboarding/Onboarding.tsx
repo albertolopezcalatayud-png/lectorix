@@ -1,46 +1,32 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
+import { useI18n, type TranslationKey } from '@/i18n';
+import { useAppStore } from '@/stores/useAppStore';
 
 interface OnboardingProps {
   onComplete: () => void;
 }
 
 const SLIDES = [
-  {
-    emoji: '📖',
-    title: '¡Bienvenido a Lectorix!',
-    description: 'Tu compañero de lectura y escritura. Practica a tu ritmo con ejercicios divertidos diseñados para ti.',
-    bg: 'bg-accent-pale/50',
-  },
-  {
-    emoji: '🧩',
-    title: '5 módulos de práctica',
-    description: 'Fonología, Memoria Visual, Comprensión Lectora, Escritura y Retos Rápidos. Cada uno con 5 niveles de dificultad.',
-    bg: 'bg-sky-pale/50',
-  },
-  {
-    emoji: '⭐',
-    title: 'Gana estrellas y XP',
-    description: 'Cada ejercicio te da puntos de experiencia. Consigue 3 estrellas para desbloquear el siguiente nivel.',
-    bg: 'bg-yellow-pale/50',
-  },
-  {
-    emoji: '🔊',
-    title: 'Lee y escucha',
-    description: 'Pulsa el botón 🔊 para escuchar cualquier texto en voz alta. Ajusta la velocidad en Ajustes.',
-    bg: 'bg-mint-pale/50',
-  },
-  {
-    emoji: '♿',
-    title: 'Hecho para ti',
-    description: 'Fuente OpenDyslexic, tamaño de texto ajustable y modo de alto contraste. Todo en Ajustes > Accesibilidad.',
-    bg: 'bg-peach-pale/50',
-  },
+  { emoji: '📖', title: 'onb_s1_title', description: 'onb_s1_desc', bg: 'bg-accent-pale/50' },
+  { emoji: '🧩', title: 'onb_s2_title', description: 'onb_s2_desc', bg: 'bg-sky-pale/50' },
+  { emoji: '⭐', title: 'onb_s3_title', description: 'onb_s3_desc', bg: 'bg-yellow-pale/50' },
+  { emoji: '🔊', title: 'onb_s4_title', description: 'onb_s4_desc', bg: 'bg-mint-pale/50' },
+  { emoji: '♿', title: 'onb_s5_title', description: 'onb_s5_desc', bg: 'bg-peach-pale/50' },
+] as const satisfies readonly { emoji: string; title: TranslationKey; description: TranslationKey; bg: string }[];
+
+const LANGS = [
+  { value: 'es' as const, label: 'Español', flag: '🇪🇸' },
+  { value: 'ca' as const, label: 'Valencià', flag: '🟧' },
+  { value: 'en' as const, label: 'English', flag: '🇬🇧' },
 ];
 
 export function Onboarding({ onComplete }: OnboardingProps) {
   const [current, setCurrent] = useState(0);
+  const { t } = useI18n();
+  const language = useAppStore((st) => st.language);
+  const setLanguage = useAppStore((st) => st.setLanguage);
   const slide = SLIDES[current];
   const isLast = current === SLIDES.length - 1;
 
@@ -60,8 +46,26 @@ export function Onboarding({ onComplete }: OnboardingProps) {
             <span className="text-6xl">{slide.emoji}</span>
           </div>
 
-          <h1 className="font-heading font-black text-2xl mb-3">{slide.title}</h1>
-          <p className="text-fg-muted text-sm leading-relaxed">{slide.description}</p>
+          <h1 className="font-heading font-black text-2xl mb-3">{t(slide.title)}</h1>
+          <p className="text-fg-muted text-sm leading-relaxed">{t(slide.description)}</p>
+          {current === 0 && (
+            <div className="mt-6 w-full">
+              <p className="text-xs font-bold text-fg-muted mb-2">{t('onb_lang')}</p>
+              <div className="flex gap-2 justify-center">
+                {LANGS.map((l) => (
+                  <button
+                    key={l.value}
+                    onClick={() => setLanguage(l.value)}
+                    className={`px-3 py-2 rounded-xl text-sm font-bold border transition-colors ${
+                      language === l.value ? 'bg-accent text-white border-accent' : 'bg-bg border-border'
+                    }`}
+                  >
+                    {l.flag} {l.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
         </motion.div>
       </AnimatePresence>
 
@@ -90,12 +94,12 @@ export function Onboarding({ onComplete }: OnboardingProps) {
             }
           }}
         >
-          {isLast ? '¡Empezar! 🚀' : 'Siguiente →'}
+          {isLast ? t('onb_start') : t('onb_next')}
         </Button>
 
         {!isLast && (
           <Button variant="ghost" fullWidth onClick={onComplete}>
-            Saltar tutorial
+            {t('onb_skip')}
           </Button>
         )}
       </div>

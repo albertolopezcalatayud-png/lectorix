@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAppStore } from '@/stores/useAppStore';
 import { calculateXPLevel } from '@/services/gamification';
-import { MODULES } from '@/data/modules';
+import {MODULES, MODULE_TEXT } from '@/data/modules';
 import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { Header } from '@/components/layout/Header';
@@ -31,7 +31,7 @@ export default function Dashboard() {
           </button>
           <div>
             <h2 className="font-heading font-black text-xl">
-              {t('dash_hello', { name: user?.display_name || 'Estudiante' })}
+              {t('dash_hello', { name: user?.display_name || t('student_default') })}
             </h2>
             <p className="text-fg-muted text-sm mt-1">{t('dash_ready')}</p>
           </div>
@@ -117,8 +117,8 @@ export default function Dashboard() {
                         {mod.icon}
                       </span>
                       <div className="flex-1 min-w-0">
-                        <h4 className="font-heading font-extrabold text-sm">{mod.name}</h4>
-                        <p className="text-xs text-fg-muted truncate">{mod.description}</p>
+                        <h4 className="font-heading font-extrabold text-sm">{t(MODULE_TEXT[mod.id].name)}</h4>
+                        <p className="text-xs text-fg-muted truncate">{t(MODULE_TEXT[mod.id].desc)}</p>
                         <div className="mt-1.5">
                           <ProgressBar value={pct} color={mod.color} height={4} />
                         </div>

@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAppStore } from '@/stores/useAppStore';
 import { calculateXPLevel } from '@/services/gamification';
-import { MODULES } from '@/data/modules';
+import {MODULES, MODULE_TEXT } from '@/data/modules';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
@@ -41,7 +41,7 @@ export default function Profile() {
               Editar
             </span>
           </button>
-          <h2 className="font-heading font-black text-xl">{user?.display_name || 'Estudiante'}</h2>
+          <h2 className="font-heading font-black text-xl">{user?.display_name || t('student_default')}</h2>
           <p className="text-sm text-fg-muted">{user?.email || ''}</p>
           <div className="flex gap-2 mt-2">
             <Badge color="accent">{t('dash_level', { level })}</Badge>
@@ -115,7 +115,7 @@ export default function Profile() {
                     <span className="text-xl">{mod.icon}</span>
                     <div className="flex-1">
                       <div className="flex justify-between text-xs mb-1">
-                        <span className="font-bold">{mod.name}</span>
+                        <span className="font-bold">{t(MODULE_TEXT[mod.id].name)}</span>
                         <span className="text-fg-muted">{completed}/{mod.levels}</span>
                       </div>
                       <ProgressBar value={pct} color={mod.color} height={5} />

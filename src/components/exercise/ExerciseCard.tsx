@@ -1,4 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
+import { useI18n } from '@/i18n';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { Exercise } from '@/types';
 import { OptionButton } from './OptionButton';
@@ -15,6 +16,7 @@ interface ExerciseCardProps {
 }
 
 export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswer, examMode, autoPlayAudio }: ExerciseCardProps) {
+  const { t } = useI18n();
   const [selected, setSelected] = useState<number | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const [startTime] = useState(Date.now());
@@ -129,8 +131,8 @@ export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswe
                 className={`absolute top-2 right-2 w-8 h-8 rounded-full flex items-center justify-center transition-colors ${
                   isSpeaking ? 'bg-accent text-white' : 'bg-white/80 text-accent hover:bg-accent/10'
                 }`}
-                aria-label={isSpeaking ? 'Detener lectura' : 'Escuchar pasaje'}
-                title={isSpeaking ? 'Detener' : 'Escuchar'}
+                aria-label={isSpeaking ? t('ex_stop_reading') : t('ex_listen_passage')}
+                title={isSpeaking ? t('ex_stop') : t('ex_listen')}
               >
                 {isSpeaking ? '⏹' : '🔊'}
               </button>
@@ -153,8 +155,8 @@ export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswe
                 className={`inline-flex items-center justify-center w-8 h-8 rounded-full ml-2 align-middle transition-colors ${
                   isSpeaking ? 'bg-accent text-white' : 'bg-accent/10 text-accent hover:bg-accent/20'
                 }`}
-                aria-label={isSpeaking ? 'Detener' : 'Escuchar palabra'}
-                title={isSpeaking ? 'Detener' : 'Escuchar'}
+                aria-label={isSpeaking ? t('ex_stop') : t('ex_listen_word')}
+                title={isSpeaking ? t('ex_stop') : t('ex_listen')}
               >
                 {isSpeaking ? '⏹' : '🔊'}
               </button>
@@ -173,8 +175,8 @@ export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswe
               className={`flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-xs transition-colors ${
                 isSpeaking ? 'bg-accent text-white' : 'bg-accent/10 text-accent hover:bg-accent/20'
               }`}
-              aria-label="Escuchar pregunta"
-              title="Escuchar"
+              aria-label={t('ex_listen_question')}
+              title={t('ex_listen')}
             >
               🔊
             </button>
@@ -228,7 +230,7 @@ export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswe
               </span>
               <div>
                 <span className="font-bold">
-                  {selected === exercise.correct ? '¡Correcto!' : 'Incorrecto'}
+                  {selected === exercise.correct ? t('ex_correct') : t('ex_incorrect')}
                 </span>
                 {!examMode && (
                   <span className="block text-xs font-normal text-fg-muted mt-0.5">

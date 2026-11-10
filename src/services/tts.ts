@@ -58,24 +58,43 @@ export function stopSpeaking() {
   }
 }
 
-/** Get the best Spanish voice available */
-function getSpanishVoice(): SpeechSynthesisVoice | null {
+// ── Language of speech (follows the practice language) ───
+
+export type SpeechLang = 'es' | 'ca' | 'en';
+const BCP47: Record<SpeechLang, string> = { es: 'es-ES', ca: 'ca-ES', en: 'en-GB' };
+let speechLang: SpeechLang = 'es';
+
+export function setSpeechLang(lang: SpeechLang) {
+  speechLang = lang;
+}
+
+export function getSpeechLang(): SpeechLang {
+  return speechLang;
+}
+
+/** Best voice for a language. English prefers British voices; Valencian uses Catalan voices. */
+function getVoiceFor(lang: SpeechLang): SpeechSynthesisVoice | null {
   const voices = window.speechSynthesis.getVoices();
-
-  // Prefer es-ES voices, then any es- variant
-  const esES = voices.find(
-    (v) => v.lang === 'es-ES' && (v.localService || v.name.toLowerCase().includes('google'))
+  const norm = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-').toLowerCase();
+  const tag = BCP47[lang].toLowerCase();
+  const good = (v: SpeechSynthesisVoice) => v.localService || v.name.toLowerCase().includes('google');
+  return (
+    voices.find((v) => norm(v) === tag && good(v)) ||
+    voices.find((v) => norm(v) === tag) ||
+    voices.find((v) => norm(v).startsWith(lang + '-')) ||
+    voices.find((v) => norm(v) === lang) ||
+    null
   );
-  if (esES) return esES;
+}
 
-  const anySpanish = voices.find((v) => v.lang.startsWith('es'));
-  if (anySpanish) return anySpanish;
-
-  return null;
+/** true when the device has a voice for the language (false while voices are still loading) */
+export function hasVoiceFor(lang: SpeechLang): boolean {
+  if (!isTTSAvailable()) return false;
+  return getVoiceFor(lang) !== null;
 }
 
 /**
- * Speak text aloud in Spanish.
+ * Speak text aloud in the current practice language.
  * Returns a promise that resolves when speaking finishes.
  */
 export function speak(text: string, options?: { rate?: number; pitch?: number }): Promise<void> {
@@ -89,12 +108,12 @@ export function speak(text: string, options?: { rate?: number; pitch?: number })
     stopSpeaking();
 
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'es-ES';
+    utterance.lang = BCP47[speechLang];
     utterance.rate = options?.rate ?? getTTSRate();
     utterance.pitch = options?.pitch ?? 1.0;
     utterance.volume = 1.0;
 
-    const voice = getSpanishVoice();
+    const voice = getVoiceFor(speechLang);
     if (voice) {
       utterance.voice = voice;
     }
@@ -141,9 +160,9 @@ export function speakTracked(
 
     let boundaries = false;
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'es-ES';
+    u.lang = BCP47[speechLang];
     u.rate = options.rate ?? getTTSRate();
-    const voice = getSpanishVoice();
+    const voice = getVoiceFor(speechLang);
     if (voice) u.voice = voice;
 
     u.onstart = () => options.onStart?.();
@@ -167,9 +186,9 @@ export function speakTracked(
   });
 }
 
-/** Rough syllable count for Spanish (vowel groups), used to estimate speech timing */
+/** Rough syllable count (vowel groups), used to estimate speech timing */
 export function estimateSyllables(word: string): number {
-  const groups = word.toLowerCase().match(/[aeiouáéíóúüy]+/g);
+  const groups = word.toLowerCase().match(/[aeiouáéíóúàèòïüy]+/g);
   return Math.max(1, groups ? groups.length : 1);
 }
 
@@ -240,6 +259,8 @@ const tts = {
   setEnabled: setTTSEnabled,
   getRate: getTTSRate,
   setRate: setTTSRate,
+  setLang: setSpeechLang,
+  hasVoiceFor,
 };
 
 export default tts;

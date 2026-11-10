@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAppStore } from '@/stores/useAppStore';
-import { READINGS, wordCount, readingMinutes } from '@/data/readings';
-import { LEVEL_NAMES } from '@/data/modules';
+import { useReadings, wordCount, readingMinutes } from '@/data/readings';
+import {levelNameKey } from '@/data/modules';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { useI18n } from '@/i18n';
@@ -11,6 +11,7 @@ export default function ReadingList() {
   const navigate = useNavigate();
   const { t } = useI18n();
   const sessionHistory = useAppStore((s) => s.sessionHistory);
+  const readings = useReadings() ?? [];
   const done = new Set(sessionHistory.filter((s) => s.mode === 'reading').map((s) => s.reading_id));
 
   return (
@@ -21,10 +22,10 @@ export default function ReadingList() {
         {[1, 2, 3, 4, 5].map((level) => (
           <section key={level}>
             <h3 className="font-heading font-extrabold text-sm mb-2.5">
-              {t('dash_level', { level })} · {LEVEL_NAMES[level]}
+              {t('dash_level', { level })} · {t(levelNameKey(level))}
             </h3>
             <div className="space-y-2.5">
-              {READINGS.filter((r) => r.level === level).map((r, i) => (
+              {readings.filter((r) => r.level === level).map((r, i) => (
                 <motion.div key={r.id} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.04 }}>
                   <Card hover onClick={() => navigate(`/lectura/${r.id}`)}>
                     <div className="flex items-center gap-3">

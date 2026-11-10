@@ -2,7 +2,7 @@ import { useState, useCallback, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import type { AnswerResult, ModuleId } from '@/types';
-import { getReading, questionsAsExercises } from '@/data/readings';
+import { useReading, questionsAsExercises } from '@/data/readings';
 import { buildSessionResult } from '@/services/gamification';
 import { recordSession } from '@/services/session';
 import { GuidedReader } from '@/components/reading/GuidedReader';
@@ -14,7 +14,7 @@ export default function Reading() {
   const { readingId } = useParams<{ readingId: string }>();
   const navigate = useNavigate();
   const { t } = useI18n();
-  const reading = getReading(readingId || '');
+  const reading = useReading(readingId);
   const questions = useMemo(() => (reading ? questionsAsExercises(reading) : []), [reading]);
 
   const [phase, setPhase] = useState<'reading' | 'questions'>('reading');
@@ -48,6 +48,10 @@ export default function Reading() {
     },
     [reading, questions, qIndex, answers, startTime, navigate],
   );
+
+  if (reading === null) {
+    return <div className="min-h-screen flex items-center justify-center"><span className="text-3xl animate-pulse">📖</span></div>;
+  }
 
   if (!reading) {
     return (

@@ -4,6 +4,7 @@ import type { Exercise } from '@/types';
 import sounds from '@/services/sounds';
 import tts from '@/services/tts';
 import { useI18n } from '@/i18n';
+import { isDictationExercise } from '@/data/content';
 
 interface WriteExerciseProps {
   exercise: Exercise;
@@ -13,19 +14,22 @@ interface WriteExerciseProps {
   examMode?: boolean;
 }
 
-// Keeps accents (they matter in a spelling app); ignores case, punctuation and extra spaces
+// Keeps accents and apostrophes (they matter in a spelling app: l'aigua, don't);
+// ignores case, other punctuation and extra spaces
 function normalizeAnswer(str: string): string {
   return str
     .toLowerCase()
     .trim()
     .normalize('NFC')
-    .replace(/[.,;:!?¿¡"']/g, '')
+    .replace(/[\u2018\u2019\u02BC]/g, "'")
+    .replace(/[\u0387\u2027\u22C5]/g, '\u00B7')
+    .replace(/[.,;:!?¿¡"«»]/g, '')
     .replace(/\s+/g, ' ');
 }
 
 function stripAccents(str: string): string {
-  // Keep ñ and ü distinctions out of scope: only strips acute accents
-  return str.normalize('NFD').replace(/́/g, '').normalize('NFC');
+  // Only for the "almost right" hint: drops acute, grave and diaeresis marks
+  return str.normalize('NFD').replace(/[\u0300\u0301\u0308]/g, '').normalize('NFC');
 }
 
 type DiffWord = { text: string; ok: boolean };
@@ -49,7 +53,7 @@ export function diffWords(typed: string, expected: string): { typed: DiffWord[];
   }
   return {
     typed: a.map((text, i) => ({ text, ok: okA.has(i) })),
-    missing: b.filter((_, j) => !okB.has(j)).map((w) => w.replace(/[.,;:!?¿¡"']/g, '')),
+    missing: b.filter((_, j) => !okB.has(j)).map((w) => w.replace(/[.,;:!?¿¡"«»]/g, '')),
   };
 }
 
@@ -67,7 +71,7 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
   const { t } = useI18n();
 
   // Dictation: the word is only heard, never shown
-  const isDictation = !!exercise.word && /^escucha/i.test(exercise.prompt);
+  const isDictation = isDictationExercise(exercise);
   const isSentence = (exercise.answer || '').trim().includes(' ');
   const dictationRate = isSentence ? 0.75 : 0.7;
 

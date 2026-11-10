@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { MODULES } from '@/data/modules';
+import {MODULES, MODULE_TEXT } from '@/data/modules';
 import { useAppStore } from '@/stores/useAppStore';
 import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
@@ -39,8 +39,8 @@ export default function Modules() {
                     {mod.icon}
                   </div>
                   <div className="flex-1">
-                    <h3 className="font-heading font-extrabold">{mod.name}</h3>
-                    <p className="text-xs text-fg-muted mt-0.5">{mod.description}</p>
+                    <h3 className="font-heading font-extrabold">{t(MODULE_TEXT[mod.id].name)}</h3>
+                    <p className="text-xs text-fg-muted mt-0.5">{t(MODULE_TEXT[mod.id].desc)}</p>
                     <div className="flex items-center gap-3 mt-2">
                       <ProgressBar value={pct} color={mod.color} height={6} />
                       <span className="text-xs font-bold text-fg-muted whitespace-nowrap">

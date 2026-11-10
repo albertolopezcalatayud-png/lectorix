@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAppStore } from '@/stores/useAppStore';
+import { useAppStore, resolvePracticeLang } from '@/stores/useAppStore';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { isSoundEnabled, setSoundEnabled } from '@/services/sounds';
-import { isTTSEnabled, setTTSEnabled, isTTSAvailable, getTTSRate, setTTSRate } from '@/services/tts';
+import tts, { isTTSEnabled, setTTSEnabled, isTTSAvailable, getTTSRate, setTTSRate } from '@/services/tts';
 import { useI18n } from '@/i18n';
 import notifications from '@/services/notifications';
 
@@ -14,6 +14,18 @@ export default function Settings() {
   const setTheme = useAppStore((s) => s.setTheme);
   const language = useAppStore((s) => s.language);
   const setLanguage = useAppStore((s) => s.setLanguage);
+  const practiceLanguage = useAppStore((s) => s.practiceLanguage);
+  const setPracticeLanguage = useAppStore((s) => s.setPracticeLanguage);
+  const effectivePractice = resolvePracticeLang({ language, practiceLanguage });
+  // Voices load asynchronously: only warn about a missing voice once they are known
+  const [voicesReady, setVoicesReady] = useState(() => isTTSAvailable() && window.speechSynthesis.getVoices().length > 0);
+  useEffect(() => {
+    if (!isTTSAvailable() || voicesReady) return;
+    const check = () => setVoicesReady(window.speechSynthesis.getVoices().length > 0);
+    window.speechSynthesis.addEventListener('voiceschanged', check);
+    const id = window.setTimeout(check, 1500);
+    return () => { window.speechSynthesis.removeEventListener('voiceschanged', check); window.clearTimeout(id); };
+  }, [voicesReady]);
   const user = useAppStore((s) => s.user);
   const fontFamily = useAppStore((s) => s.fontFamily);
   const setFontFamily = useAppStore((s) => s.setFontFamily);
@@ -37,7 +49,7 @@ export default function Settings() {
 
   const languages = [
     { value: 'es' as const, label: 'Español', flag: '🇪🇸' },
-    { value: 'ca' as const, label: 'Català', flag: '🏴' },
+    { value: 'ca' as const, label: 'Valencià', flag: '🟧' },
     { value: 'en' as const, label: 'English', flag: '🇬🇧' },
   ];
 
@@ -89,15 +101,41 @@ export default function Settings() {
           </div>
         </Card>
 
+        {/* Practice language */}
+        <Card>
+          <h3 className="font-heading font-extrabold text-sm mb-1">{t('set_practice_lang')}</h3>
+          <p className="text-xs text-fg-muted mb-3">{t('set_practice_desc')}</p>
+          <div className="space-y-1.5">
+            {[{ value: 'auto' as const, label: t('set_practice_auto'), flag: '🔁' }, ...languages].map((l) => (
+              <button
+                key={l.value}
+                onClick={() => setPracticeLanguage(l.value)}
+                className={`w-full flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm font-bold transition-colors ${
+                  practiceLanguage === l.value
+                    ? 'bg-accent-pale text-accent border border-accent/20'
+                    : 'bg-bg border border-border'
+                }`}
+              >
+                <span className="text-lg">{l.flag}</span>
+                {l.label}
+                {practiceLanguage === l.value && <span className="ml-auto">✓</span>}
+              </button>
+            ))}
+          </div>
+          {isTTSAvailable() && voicesReady && !tts.hasVoiceFor(effectivePractice) && (
+            <p className="mt-3 text-xs rounded-xl bg-yellow-pale px-3 py-2">🔇 {t('set_voice_missing')}</p>
+          )}
+        </Card>
+
         {/* Audio */}
         <Card>
-          <h3 className="font-heading font-extrabold text-sm mb-3">Audio</h3>
+          <h3 className="font-heading font-extrabold text-sm mb-3">{t('set_audio')}</h3>
           <div className="space-y-3">
             {/* Sound effects toggle */}
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-lg">🔊</span>
-                <span className="text-sm font-bold">Efectos de sonido</span>
+                <span className="text-sm font-bold">{t('set_sound_effects')}</span>
               </div>
               <button
                 onClick={() => {
@@ -123,7 +161,7 @@ export default function Settings() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     <span className="text-lg">🗣️</span>
-                    <span className="text-sm font-bold">Leer en voz alta</span>
+                    <span className="text-sm font-bold">{t('set_read_aloud')}</span>
                   </div>
                   <button
                     onClick={() => {
@@ -147,7 +185,7 @@ export default function Settings() {
                 {ttsOn && (
                   <div className="pl-8">
                     <div className="flex items-center justify-between text-xs text-fg-muted mb-1">
-                      <span>Velocidad de lectura</span>
+                      <span>{t('set_read_speed')}</span>
                       <span className="font-bold">{ttsRate.toFixed(1)}x</span>
                     </div>
                     <input
@@ -306,8 +344,8 @@ export default function Settings() {
           <h3 className="font-heading font-extrabold text-sm mb-3">{t('set_account')}</h3>
           <div className="space-y-2">
             <div className="flex justify-between text-sm">
-              <span className="text-fg-muted">Plan</span>
-              <span className="font-bold">{user?.plan === 'premium' ? 'Premium' : 'Gratuito'}</span>
+              <span className="text-fg-muted">{t('set_plan')}</span>
+              <span className="font-bold">{user?.plan === 'premium' ? 'Premium' : t('set_plan_free')}</span>
             </div>
           </div>
           {user?.plan !== 'premium' && (
@@ -335,10 +373,10 @@ export default function Settings() {
 
         {/* Danger zone */}
         <Card>
-          <h3 className="font-heading font-extrabold text-sm mb-3 text-red">Zona peligrosa</h3>
+          <h3 className="font-heading font-extrabold text-sm mb-3 text-red">{t('set_danger')}</h3>
           <button
             onClick={() => {
-              if (confirm('¿Seguro que quieres borrar todo tu progreso? Esta acción no se puede deshacer.')) {
+              if (confirm(t('set_reset_confirm'))) {
                 // Wipe everything stored by Lectorix: profile, progress, history, mascot,
                 // settings, and the reminder subscription on the server.
                 void (async () => {
@@ -358,18 +396,14 @@ export default function Settings() {
             }}
             className="w-full py-2.5 rounded-xl border border-red/30 text-red font-bold text-sm"
           >
-            Borrar progreso
+            {t('set_reset')}
           </button>
         </Card>
 
         {/* App info */}
         <div className="text-center text-xs text-fg-muted pt-2">
-          <p>Lectorix v1.0.0</p>
-          <p className="mt-1">
-            <button onClick={() => navigate('/legal/privacidad')} className="underline">Privacidad</button>
-            {' · '}
-            <button onClick={() => navigate('/legal/terminos')} className="underline">Términos</button>
-          </p>
+          <p>Lectorix v{__APP_VERSION__}</p>
+
         </div>
       </div>
     </div>
