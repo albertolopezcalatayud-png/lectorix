@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Notification icon: open book (white silhouette, as Android requires) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M12,6.5C10.2,5.2 7.6,4.5 4.5,4.5L3,4.5L3,18.5L4.5,18.5C7.4,18.5 9.9,19.2 11.5,20.4L12,20.8L12.5,20.4C14.1,19.2 16.6,18.5 19.5,18.5L21,18.5L21,4.5L19.5,4.5C16.4,4.5 13.8,5.2 12,6.5ZM11,18.3C9.3,17.4 7.2,16.8 5,16.6L5,6.5C7.4,6.7 9.5,7.4 11,8.5L11,18.3ZM19,16.6C16.8,16.8 14.7,17.4 13,18.3L13,8.5C14.5,7.4 16.6,6.7 19,6.5L19,16.6Z"/>
+</vector>

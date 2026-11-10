@@ -9,6 +9,7 @@ import { MODULE_TEXT } from '@/data/modules';
 import { HOME_TIPS } from '@/data/homeTips';
 import { FAM_LANGS, FAM_STR, FAM_TIPS, famT, type FamLang } from '@/data/familyLangs';
 import { Card } from '@/components/ui/Card';
+import tts from '@/services/tts';
 import { useI18n } from '@/i18n';
 
 /** Language chosen for the family summary: 'ui' = same as the app */
@@ -29,32 +30,15 @@ function useSpeaker(bcp47: string) {
   const [hasVoice, setHasVoice] = useState(true);
   const [speaking, setSpeaking] = useState(false);
   useEffect(() => {
-    if (!('speechSynthesis' in window)) { setHasVoice(false); return; }
-    const check = () => {
-      const vs = window.speechSynthesis.getVoices();
-      if (vs.length === 0) return; // not loaded yet
-      const base = bcp47.split('-')[0].toLowerCase();
-      setHasVoice(vs.some((v) => v.lang.toLowerCase().replace('_', '-').startsWith(base)));
-    };
-    check();
-    window.speechSynthesis.addEventListener?.('voiceschanged', check);
-    return () => window.speechSynthesis.removeEventListener?.('voiceschanged', check);
+    let off = false;
+    void tts.canSpeak(bcp47).then((ok) => { if (!off) setHasVoice(ok); });
+    return () => { off = true; };
   }, [bcp47]);
   const speak = (text: string) => {
-    if (!('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = bcp47;
-    const base = bcp47.split('-')[0].toLowerCase();
-    const v = window.speechSynthesis.getVoices().find((x) => x.lang.toLowerCase().replace('_', '-').startsWith(base));
-    if (v) u.voice = v;
-    u.rate = 0.9;
-    u.onend = () => setSpeaking(false);
-    u.onerror = () => setSpeaking(false);
     setSpeaking(true);
-    window.speechSynthesis.speak(u);
+    void tts.speakIn(text, bcp47).then(() => setSpeaking(false));
   };
-  const stop = () => { window.speechSynthesis?.cancel(); setSpeaking(false); };
+  const stop = () => { tts.stop(); setSpeaking(false); };
   return { hasVoice, speaking, speak, stop };
 }
 

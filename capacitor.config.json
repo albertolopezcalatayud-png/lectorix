@@ -1,0 +1,23 @@
+{
+  "appId": "com.lectorix.app",
+  "appName": "Lectorix",
+  "webDir": "dist-app",
+  "android": {
+    "backgroundColor": "#F7F5FF",
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "backgroundColor": "#F7F5FF",
+      "androidScaleType": "CENTER_INSIDE",
+      "showSpinner": false
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_lectorix",
+      "iconColor": "#8B5CF6"
+    }
+  }
+}

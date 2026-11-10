@@ -1,17 +1,17 @@
 name: Build Android app bundle
 
-# Builds an UNSIGNED release bundle. Signing is done outside GitHub with the
-# upload key, which is never stored in this repository.
+# Builds the native Android app (Capacitor) as an UNSIGNED release bundle.
+# Signing is done outside GitHub with the upload key, never stored here.
 on:
   push:
     branches: [main]
-    paths: ['android/**', '.github/workflows/android.yml']
+    paths: ['android/**', 'src/**', 'public/**', 'capacitor.config.json', 'package.json', '.github/workflows/android.yml']
   workflow_dispatch:
     inputs:
       version_code:
         description: 'versionCode (must increase on every Play upload)'
         required: false
-        default: '2'
+        default: '3'
 
 permissions:
   contents: write
@@ -21,34 +21,39 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 17
-      - uses: gradle/actions/setup-gradle@v4
-        with:
-          gradle-version: '8.13'
+          java-version: 21
+      - name: Build web app for the Android package
+        run: |
+          npm ci
+          npm run build:app
+          npx cap sync android
       - name: Build release bundle
         working-directory: android
         env:
-          VERSION_CODE: ${{ github.event.inputs.version_code || '2' }}
-        # GitHub runners ship with the Android SDK (ANDROID_HOME) and accepted licenses
+          VERSION_CODE: ${{ github.event.inputs.version_code || '3' }}
         run: |
           echo "sdk.dir=$ANDROID_HOME" > local.properties
           yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36" "build-tools;36.0.0" > /dev/null || true
-          gradle bundleRelease --no-daemon --stacktrace
+          chmod +x gradlew
+          ./gradlew bundleRelease --no-daemon --stacktrace
       - uses: actions/upload-artifact@v4
         with:
           name: lectorix-unsigned-aab
           path: android/app/build/outputs/bundle/release/*.aab
           retention-days: 7
-      # Also publish the unsigned bundle on the android-build branch (reachable via git)
       - name: Publish unsigned bundle to android-build branch
         run: |
           mkdir -p /tmp/out && cp android/app/build/outputs/bundle/release/*.aab /tmp/out/app-release-unsigned.aab
           cd /tmp/out && git init -q && git checkout -q -b android-build
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          echo "Unsigned build of ${GITHUB_SHA}" > README.md
+          echo "Unsigned build of ${GITHUB_SHA} (versionCode ${{ github.event.inputs.version_code || '3' }})" > README.md
           git add . && git commit -q -m "Unsigned AAB from ${GITHUB_SHA}"
           git push -q -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" android-build

@@ -25,7 +25,7 @@ export default function Settings() {
   const setPracticeLanguage = useAppStore((s) => s.setPracticeLanguage);
   const effectivePractice = resolvePracticeLang({ language, practiceLanguage });
   // Voices load asynchronously: only warn about a missing voice once they are known
-  const [voicesReady, setVoicesReady] = useState(() => isTTSAvailable() && window.speechSynthesis.getVoices().length > 0);
+  const [voicesReady, setVoicesReady] = useState(() => isTTSAvailable() && (!('speechSynthesis' in window) || window.speechSynthesis.getVoices().length > 0));
   useEffect(() => {
     if (!isTTSAvailable() || voicesReady) return;
     const check = () => setVoicesReady(window.speechSynthesis.getVoices().length > 0);

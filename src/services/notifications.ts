@@ -1,5 +1,36 @@
 import { getTranslator } from '@/i18n';
 import { useAppStore } from '@/stores/useAppStore';
+import { Capacitor } from '@capacitor/core';
+import { LocalNotifications } from '@capacitor/local-notifications';
+
+/** In the Android app, reminders are local notifications scheduled on the device (no server) */
+const NATIVE = Capacitor.isNativePlatform();
+const NATIVE_IDS = Array.from({ length: 14 }, (_, i) => 1000 + i);
+const PRACTICED_KEY = 'lectorix-last-practiced';
+
+async function nativeReschedule() {
+  try {
+    await LocalNotifications.cancel({ notifications: NATIVE_IDS.map((id) => ({ id })) });
+    if (!isNotificationEnabled()) return;
+    const t = getTranslator(useAppStore.getState().language);
+    const hour = getReminderHour();
+    let practicedToday = false;
+    try { practicedToday = localStorage.getItem(PRACTICED_KEY) === localDate(); } catch { /* ignore */ }
+    const now = new Date();
+    const list = [];
+    for (let d = 0; d < NATIVE_IDS.length; d++) {
+      const at = new Date(now);
+      at.setDate(now.getDate() + d);
+      at.setHours(hour, 0, 0, 0);
+      if (at.getTime() <= now.getTime()) continue;
+      if (d === 0 && practicedToday) continue;
+      list.push({ id: NATIVE_IDS[d], title: t('notif_reminder_title'), body: t('notif_reminder_body'), schedule: { at, allowWhileIdle: true }, smallIcon: 'ic_stat_lectorix' });
+    }
+    if (list.length) await LocalNotifications.schedule({ notifications: list });
+  } catch {
+    // notifications not available
+  }
+}
 /**
  * Lectorix reminder service
  *
@@ -37,6 +68,7 @@ const ICON = `${import.meta.env.BASE_URL}icons/icon-192.png`;
 const BADGE = `${import.meta.env.BASE_URL}icons/maskable-192.png`;
 
 export function isNotificationSupported(): boolean {
+  if (NATIVE) return true;
   return typeof window !== 'undefined' && 'Notification' in window;
 }
 
@@ -57,7 +89,16 @@ export function isNotificationEnabled(): boolean {
   }
 }
 
+let nativePermission: NotificationPermission = 'default';
+if (NATIVE) {
+  void LocalNotifications.checkPermissions().then((p) => {
+    nativePermission = p.display === 'granted' ? 'granted' : p.display === 'denied' ? 'denied' : 'default';
+    if (nativePermission === 'granted' && isNotificationEnabled()) void nativeReschedule();
+  }).catch(() => undefined);
+}
+
 export function getPermissionStatus(): NotificationPermission | 'unsupported' {
+  if (NATIVE) return isNotificationEnabled() ? 'granted' : nativePermission;
   if (!isNotificationSupported()) return 'unsupported';
   return Notification.permission;
 }
@@ -163,6 +204,18 @@ async function registerPush(): Promise<boolean> {
 }
 
 export async function requestPermission(): Promise<boolean> {
+  if (NATIVE) {
+    try {
+      const p = await LocalNotifications.requestPermissions();
+      const granted = p.display === 'granted';
+      nativePermission = granted ? 'granted' : 'denied';
+      localStorage.setItem(PERMISSION_KEY, String(granted));
+      if (granted) await nativeReschedule();
+      return granted;
+    } catch {
+      return false;
+    }
+  }
   if (!isNotificationSupported()) return false;
   try {
     const permission = await Notification.requestPermission();
@@ -185,6 +238,10 @@ export async function disableNotifications() {
     // ignore
   }
   clearScheduledReminders();
+  if (NATIVE) {
+    await nativeReschedule();
+    return;
+  }
   const sub = await getSubscription(false);
   if (sub) {
     await api('/unsubscribe', { endpoint: sub.endpoint });
@@ -199,6 +256,10 @@ export function setReminderHour(hour: number) {
     // ignore
   }
   if (!isNotificationEnabled()) return;
+  if (NATIVE) {
+    void nativeReschedule();
+    return;
+  }
   void registerPush().then((pushed) => {
     if (!pushed) scheduleReminder();
   });
@@ -206,6 +267,11 @@ export function setReminderHour(hour: number) {
 
 /** Call after every finished session: the server skips today's reminder. */
 export async function markPracticed(streak: number, lang: string) {
+  if (NATIVE) {
+    try { localStorage.setItem(PRACTICED_KEY, localDate()); } catch { /* ignore */ }
+    if (isNotificationEnabled()) await nativeReschedule();
+    return;
+  }
   await saveMeta({ streak, lang });
   if (!isNotificationEnabled()) return;
   const sub = await getSubscription(false);
@@ -213,6 +279,12 @@ export async function markPracticed(streak: number, lang: string) {
 }
 
 async function show(title: string, body: string, tag: string) {
+  if (NATIVE) {
+    try {
+      await LocalNotifications.schedule({ notifications: [{ id: tag === 'streak' ? 2000 : 2001, title, body, smallIcon: 'ic_stat_lectorix' }] });
+    } catch { /* ignore */ }
+    return;
+  }
   if (!isNotificationSupported() || Notification.permission !== 'granted') return;
   try {
     // Prefer the service worker: required on Android, where `new Notification` throws
@@ -267,7 +339,7 @@ export function scheduleReminder() {
 }
 
 // On load: keep the server subscription fresh, or fall back to the in-page timer
-if (isNotificationEnabled() && getPermissionStatus() === 'granted') {
+if (!NATIVE && isNotificationEnabled() && getPermissionStatus() === 'granted') {
   void registerPush().then((pushed) => {
     if (!pushed) scheduleReminder();
   });

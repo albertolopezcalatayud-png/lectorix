@@ -5,6 +5,8 @@
  * prompts, and passages they're working with.
  */
 
+import { isNative, nativeHas, nativeSpeak, nativeSpeakTracked, nativeStop, nativeCheck } from './nativeTts';
+
 const STORAGE_KEY = 'lectorix-tts-enabled';
 const RATE_KEY = 'lectorix-tts-rate';
 
@@ -48,11 +50,15 @@ export function setTTSRate(rate: number) {
 
 /** Check if the browser supports speech synthesis */
 export function isTTSAvailable(): boolean {
-  return 'speechSynthesis' in window;
+  return isNative || 'speechSynthesis' in window;
 }
 
 /** Stop any currently playing speech */
 export function stopSpeaking() {
+  if (isNative) {
+    void nativeStop();
+    return;
+  }
   if (isTTSAvailable()) {
     window.speechSynthesis.cancel();
   }
@@ -89,6 +95,7 @@ function getVoiceFor(lang: SpeechLang): SpeechSynthesisVoice | null {
 
 /** true when the device has a voice for the language (false while voices are still loading) */
 export function hasVoiceFor(lang: SpeechLang): boolean {
+  if (isNative) return nativeHas(BCP47[lang]);
   if (!isTTSAvailable()) return false;
   return getVoiceFor(lang) !== null;
 }
@@ -101,6 +108,11 @@ export function speak(text: string, options?: { rate?: number; pitch?: number })
   return new Promise((resolve) => {
     if (!isTTSAvailable() || !isTTSEnabled()) {
       resolve();
+      return;
+    }
+
+    if (isNative) {
+      void nativeSpeak(text, BCP47[speechLang], options?.rate ?? getTTSRate(), options?.pitch ?? 1).then(() => resolve());
       return;
     }
 
@@ -154,6 +166,10 @@ export function speakTracked(
   return new Promise((resolve) => {
     if (!isTTSAvailable() || !isTTSEnabled()) {
       resolve({ ok: false, boundaries: false, interrupted: false });
+      return;
+    }
+    if (isNative) {
+      void nativeSpeakTracked(text, BCP47[speechLang], options.rate ?? getTTSRate(), options.onStart, options.onWord).then(resolve);
       return;
     }
     stopSpeaking();
@@ -235,9 +251,38 @@ export async function spellWord(word: string, delayMs = 350): Promise<void> {
   }
 }
 
+/** Speak in any language tag (used by the family panel). Resolves when finished. */
+export function speakIn(text: string, tag: string, rate = 0.9): Promise<void> {
+  if (isNative) return nativeSpeak(text, tag, rate).then(() => undefined);
+  return new Promise((resolve) => {
+    if (!('speechSynthesis' in window)) return resolve();
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = tag;
+    const base = tag.split('-')[0].toLowerCase();
+    const v = window.speechSynthesis.getVoices().find((x) => x.lang.toLowerCase().replace('_', '-').startsWith(base));
+    if (v) u.voice = v;
+    u.rate = rate;
+    u.onend = () => resolve();
+    u.onerror = () => resolve();
+    window.speechSynthesis.speak(u);
+  });
+}
+
+/** Whether a language tag can be spoken on this device (async, waits for voices) */
+export async function canSpeak(tag: string): Promise<boolean> {
+  if (isNative) return nativeCheck(tag);
+  if (!('speechSynthesis' in window)) return false;
+  const base = tag.split('-')[0].toLowerCase();
+  const find = () => window.speechSynthesis.getVoices().some((v) => v.lang.toLowerCase().replace('_', '-').startsWith(base));
+  if (window.speechSynthesis.getVoices().length) return find();
+  await new Promise((r) => setTimeout(r, 1200));
+  return find();
+}
+
 // ── Initialize voices ────────────────────────────────────
 // Voices load asynchronously in some browsers
-if (isTTSAvailable()) {
+if (!isNative && isTTSAvailable()) {
   window.speechSynthesis.getVoices();
   if (window.speechSynthesis.onvoiceschanged !== undefined) {
     window.speechSynthesis.onvoiceschanged = () => {
@@ -261,6 +306,8 @@ const tts = {
   setRate: setTTSRate,
   setLang: setSpeechLang,
   hasVoiceFor,
+  speakIn,
+  canSpeak,
 };
 
 export default tts;
