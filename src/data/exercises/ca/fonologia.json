@@ -1,1 +1,4354 @@
-{"exercises":[]}
+{
+ "exercises": [
+  {
+   "id": "ca_fonologia_l1_m001",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «sol»?",
+   "options": [
+    "3",
+    "4",
+    "2",
+    "1"
+   ],
+   "correct": 3,
+   "explanation": "sol = 1 síl·laba",
+   "word": "sol",
+   "syllables": [
+    "sol"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l1_m002",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «pa»?",
+   "options": [
+    "1",
+    "4",
+    "3",
+    "2"
+   ],
+   "correct": 0,
+   "explanation": "pa = 1 síl·laba",
+   "word": "pa",
+   "syllables": [
+    "pa"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l1_m003",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «casa»?",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "correct": 0,
+   "explanation": "ca-sa = 2 síl·labes",
+   "word": "casa",
+   "syllables": [
+    "ca",
+    "sa"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l1_m004",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «gat»?",
+   "options": [
+    "4",
+    "3",
+    "1",
+    "2"
+   ],
+   "correct": 2,
+   "explanation": "gat = 1 síl·laba",
+   "word": "gat",
+   "syllables": [
+    "gat"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l1_m005",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «lluna»?",
+   "options": [
+    "3",
+    "4",
+    "1",
+    "2"
+   ],
+   "correct": 3,
+   "explanation": "llu-na = 2 síl·labes",
+   "word": "lluna",
+   "syllables": [
+    "llu",
+    "na"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l1_m006",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «taula»?",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "correct": 2,
+   "explanation": "tau-la = 2 síl·labes",
+   "word": "taula",
+   "syllables": [
+    "tau",
+    "la"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l1_m007",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «pilota»?",
+   "options": [
+    "4",
+    "1",
+    "3",
+    "2"
+   ],
+   "correct": 2,
+   "explanation": "pi-lo-ta = 3 síl·labes",
+   "word": "pilota",
+   "syllables": [
+    "pi",
+    "lo",
+    "ta"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l1_m008",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «mona»?",
+   "options": [
+    "2",
+    "4",
+    "1",
+    "3"
+   ],
+   "correct": 0,
+   "explanation": "mo-na = 2 síl·labes",
+   "word": "mona",
+   "syllables": [
+    "mo",
+    "na"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l1_m009",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «peix»?",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "peix = 1 síl·laba",
+   "word": "peix",
+   "syllables": [
+    "peix"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l1_m010",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «cadira»?",
+   "options": [
+    "4",
+    "1",
+    "3",
+    "2"
+   ],
+   "correct": 2,
+   "explanation": "ca-di-ra = 3 síl·labes",
+   "word": "cadira",
+   "syllables": [
+    "ca",
+    "di",
+    "ra"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l1_m011",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «poma»?",
+   "options": [
+    "4",
+    "2",
+    "1",
+    "3"
+   ],
+   "correct": 1,
+   "explanation": "po-ma = 2 síl·labes",
+   "word": "poma",
+   "syllables": [
+    "po",
+    "ma"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l1_m012",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «nina»?",
+   "options": [
+    "4",
+    "1",
+    "2",
+    "3"
+   ],
+   "correct": 2,
+   "explanation": "ni-na = 2 síl·labes",
+   "word": "nina",
+   "syllables": [
+    "ni",
+    "na"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l1_o001",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "ca",
+    "sa"
+   ],
+   "correctOrder": [
+    "ca",
+    "sa"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ca-sa = casa",
+   "word": "casa"
+  },
+  {
+   "id": "ca_fonologia_l1_o002",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "llu",
+    "na"
+   ],
+   "correctOrder": [
+    "llu",
+    "na"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "llu-na = lluna",
+   "word": "lluna"
+  },
+  {
+   "id": "ca_fonologia_l1_o003",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "tau",
+    "la"
+   ],
+   "correctOrder": [
+    "tau",
+    "la"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "tau-la = taula",
+   "word": "taula"
+  },
+  {
+   "id": "ca_fonologia_l1_o004",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "pi",
+    "lo",
+    "ta"
+   ],
+   "correctOrder": [
+    "pi",
+    "lo",
+    "ta"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "pi-lo-ta = pilota",
+   "word": "pilota"
+  },
+  {
+   "id": "ca_fonologia_l1_o005",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "mo",
+    "na"
+   ],
+   "correctOrder": [
+    "mo",
+    "na"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "mo-na = mona",
+   "word": "mona"
+  },
+  {
+   "id": "ca_fonologia_l1_o006",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "ca",
+    "di",
+    "ra"
+   ],
+   "correctOrder": [
+    "ca",
+    "di",
+    "ra"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ca-di-ra = cadira",
+   "word": "cadira"
+  },
+  {
+   "id": "ca_fonologia_l1_o007",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "po",
+    "ma"
+   ],
+   "correctOrder": [
+    "po",
+    "ma"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "po-ma = poma",
+   "word": "poma"
+  },
+  {
+   "id": "ca_fonologia_l1_o008",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "ni",
+    "na"
+   ],
+   "correctOrder": [
+    "ni",
+    "na"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ni-na = nina",
+   "word": "nina"
+  },
+  {
+   "id": "ca_fonologia_l1_m013",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «gat»?",
+   "options": [
+    "plat",
+    "gel",
+    "got",
+    "gol"
+   ],
+   "correct": 0,
+   "explanation": "«gat» i «plat» acaben amb el mateix so.",
+   "word": "gat"
+  },
+  {
+   "id": "ca_fonologia_l1_m014",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «sol»?",
+   "options": [
+    "sec",
+    "sac",
+    "sal",
+    "col"
+   ],
+   "correct": 3,
+   "explanation": "«sol» i «col» acaben amb el mateix so.",
+   "word": "sol"
+  },
+  {
+   "id": "ca_fonologia_l1_m015",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «mà»?",
+   "options": [
+    "mol",
+    "mi",
+    "mel",
+    "pa"
+   ],
+   "correct": 3,
+   "explanation": "«mà» i «pa» acaben amb el mateix so.",
+   "word": "mà"
+  },
+  {
+   "id": "ca_fonologia_l1_m016",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «lluna»?",
+   "options": [
+    "una",
+    "llum",
+    "lloc",
+    "llet"
+   ],
+   "correct": 0,
+   "explanation": "«lluna» i «una» acaben amb el mateix so.",
+   "word": "lluna"
+  },
+  {
+   "id": "ca_fonologia_l1_m017",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «pilota»?",
+   "options": [
+    "gota",
+    "pala",
+    "pera",
+    "pipa"
+   ],
+   "correct": 0,
+   "explanation": "«pilota» i «gota» acaben amb el mateix so.",
+   "word": "pilota"
+  },
+  {
+   "id": "ca_fonologia_l1_m018",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «casa»?",
+   "options": [
+    "cosa",
+    "cara",
+    "coca",
+    "brasa"
+   ],
+   "correct": 3,
+   "explanation": "«casa» i «brasa» acaben amb el mateix so.",
+   "word": "casa"
+  },
+  {
+   "id": "ca_fonologia_l1_m019",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «mona»?",
+   "options": [
+    "moda",
+    "mina",
+    "dona",
+    "mena"
+   ],
+   "correct": 2,
+   "explanation": "«mona» i «dona» acaben amb el mateix so.",
+   "word": "mona"
+  },
+  {
+   "id": "ca_fonologia_l1_m020",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «peix»?",
+   "options": [
+    "pot",
+    "creix",
+    "pas",
+    "pou"
+   ],
+   "correct": 1,
+   "explanation": "«peix» i «creix» acaben amb el mateix so.",
+   "word": "peix"
+  },
+  {
+   "id": "ca_fonologia_l1_m021",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «sol»?",
+   "options": [
+    "mel",
+    "gat",
+    "sopa",
+    "pa"
+   ],
+   "correct": 2,
+   "explanation": "sol i sopa comencen pel so /s/.",
+   "word": "sol"
+  },
+  {
+   "id": "ca_fonologia_l1_m022",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «mare»?",
+   "options": [
+    "mel",
+    "nas",
+    "pa",
+    "dit"
+   ],
+   "correct": 0,
+   "explanation": "mare i mel comencen pel so /m/.",
+   "word": "mare"
+  },
+  {
+   "id": "ca_fonologia_l1_m023",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «bou»?",
+   "options": [
+    "barca",
+    "dit",
+    "gel",
+    "pa"
+   ],
+   "correct": 0,
+   "explanation": "bou i barca comencen per b. Compte: b i d s'assemblen!",
+   "word": "bou"
+  },
+  {
+   "id": "ca_fonologia_l1_m024",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «dit»?",
+   "options": [
+    "dau",
+    "bou",
+    "tot",
+    "pit"
+   ],
+   "correct": 0,
+   "explanation": "dit i dau comencen pel so /d/.",
+   "word": "dit"
+  },
+  {
+   "id": "ca_fonologia_l1_m025",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «pa»?",
+   "options": [
+    "dau",
+    "pera",
+    "bou",
+    "fum"
+   ],
+   "correct": 1,
+   "explanation": "pa i pera comencen pel so /p/.",
+   "word": "pa"
+  },
+  {
+   "id": "ca_fonologia_l1_m026",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «lloc»?",
+   "options": [
+    "ull",
+    "llet",
+    "lot",
+    "nas"
+   ],
+   "correct": 1,
+   "explanation": "lloc i llet comencen per ll.",
+   "word": "lloc"
+  },
+  {
+   "id": "ca_fonologia_l1_d001",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "sol",
+   "hint": "Té 3 lletres",
+   "explanation": "s-o-l.",
+   "dictation": true,
+   "word": "sol"
+  },
+  {
+   "id": "ca_fonologia_l1_d002",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "pa",
+   "hint": "Té 2 lletres",
+   "explanation": "p-a.",
+   "dictation": true,
+   "word": "pa"
+  },
+  {
+   "id": "ca_fonologia_l1_d003",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "gat",
+   "hint": "Té 3 lletres",
+   "explanation": "g-a-t.",
+   "dictation": true,
+   "word": "gat"
+  },
+  {
+   "id": "ca_fonologia_l1_d004",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "mel",
+   "hint": "Té 3 lletres",
+   "explanation": "m-e-l.",
+   "dictation": true,
+   "word": "mel"
+  },
+  {
+   "id": "ca_fonologia_l1_d005",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "casa",
+   "hint": "Té 4 lletres",
+   "explanation": "c-a-s-a.",
+   "dictation": true,
+   "word": "casa"
+  },
+  {
+   "id": "ca_fonologia_l1_d006",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "lluna",
+   "hint": "Té 5 lletres",
+   "explanation": "l-l-u-n-a.",
+   "dictation": true,
+   "word": "lluna"
+  },
+  {
+   "id": "ca_fonologia_l1_d007",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "mona",
+   "hint": "Té 4 lletres",
+   "explanation": "m-o-n-a.",
+   "dictation": true,
+   "word": "mona"
+  },
+  {
+   "id": "ca_fonologia_l1_d008",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "pera",
+   "hint": "Té 4 lletres",
+   "explanation": "p-e-r-a.",
+   "dictation": true,
+   "word": "pera"
+  },
+  {
+   "id": "ca_fonologia_l1_d009",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "dit",
+   "hint": "Té 3 lletres",
+   "explanation": "d-i-t.",
+   "dictation": true,
+   "word": "dit"
+  },
+  {
+   "id": "ca_fonologia_l1_d010",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "peu",
+   "hint": "Té 3 lletres",
+   "explanation": "p-e-u.",
+   "dictation": true,
+   "word": "peu"
+  },
+  {
+   "id": "ca_fonologia_l1_d011",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "nas",
+   "hint": "Té 3 lletres",
+   "explanation": "n-a-s.",
+   "dictation": true,
+   "word": "nas"
+  },
+  {
+   "id": "ca_fonologia_l1_d012",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "poma",
+   "hint": "Té 4 lletres",
+   "explanation": "p-o-m-a.",
+   "dictation": true,
+   "word": "poma"
+  },
+  {
+   "id": "ca_fonologia_l2_m001",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «xiquet»?",
+   "options": [
+    "3",
+    "1",
+    "4",
+    "2"
+   ],
+   "correct": 3,
+   "explanation": "xi-quet = 2 síl·labes",
+   "word": "xiquet",
+   "syllables": [
+    "xi",
+    "quet"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l2_m002",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «finestra»?",
+   "options": [
+    "2",
+    "3",
+    "1",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "fi-nes-tra = 3 síl·labes",
+   "word": "finestra",
+   "syllables": [
+    "fi",
+    "nes",
+    "tra"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l2_m003",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «tomaca»?",
+   "options": [
+    "3",
+    "1",
+    "4",
+    "2"
+   ],
+   "correct": 0,
+   "explanation": "to-ma-ca = 3 síl·labes",
+   "word": "tomaca",
+   "syllables": [
+    "to",
+    "ma",
+    "ca"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l2_m004",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «muntanya»?",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "correct": 0,
+   "explanation": "mun-ta-nya = 3 síl·labes",
+   "word": "muntanya",
+   "syllables": [
+    "mun",
+    "ta",
+    "nya"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l2_m005",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «cotxe»?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "cot-xe = 2 síl·labes",
+   "word": "cotxe",
+   "syllables": [
+    "cot",
+    "xe"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l2_m006",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «formiga»?",
+   "options": [
+    "3",
+    "4",
+    "1",
+    "2"
+   ],
+   "correct": 0,
+   "explanation": "for-mi-ga = 3 síl·labes",
+   "word": "formiga",
+   "syllables": [
+    "for",
+    "mi",
+    "ga"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l2_m007",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «platja»?",
+   "options": [
+    "4",
+    "3",
+    "1",
+    "2"
+   ],
+   "correct": 3,
+   "explanation": "plat-ja = 2 síl·labes",
+   "word": "platja",
+   "syllables": [
+    "plat",
+    "ja"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l2_m008",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «conill»?",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "correct": 2,
+   "explanation": "co-nill = 2 síl·labes",
+   "word": "conill",
+   "syllables": [
+    "co",
+    "nill"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l2_m009",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «granota»?",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "correct": 2,
+   "explanation": "gra-no-ta = 3 síl·labes",
+   "word": "granota",
+   "syllables": [
+    "gra",
+    "no",
+    "ta"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l2_m010",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «caixa»?",
+   "options": [
+    "3",
+    "2",
+    "1",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "cai-xa = 2 síl·labes",
+   "word": "caixa",
+   "syllables": [
+    "cai",
+    "xa"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l2_m011",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «gallina»?",
+   "options": [
+    "3",
+    "4",
+    "2",
+    "1"
+   ],
+   "correct": 0,
+   "explanation": "ga-lli-na = 3 síl·labes",
+   "word": "gallina",
+   "syllables": [
+    "ga",
+    "lli",
+    "na"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l2_m012",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «llibre»?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ],
+   "correct": 1,
+   "explanation": "lli-bre = 2 síl·labes",
+   "word": "llibre",
+   "syllables": [
+    "lli",
+    "bre"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l2_o001",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "xi",
+    "quet"
+   ],
+   "correctOrder": [
+    "xi",
+    "quet"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "xi-quet = xiquet",
+   "word": "xiquet"
+  },
+  {
+   "id": "ca_fonologia_l2_o002",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "fi",
+    "nes",
+    "tra"
+   ],
+   "correctOrder": [
+    "fi",
+    "nes",
+    "tra"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "fi-nes-tra = finestra",
+   "word": "finestra"
+  },
+  {
+   "id": "ca_fonologia_l2_o003",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "to",
+    "ma",
+    "ca"
+   ],
+   "correctOrder": [
+    "to",
+    "ma",
+    "ca"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "to-ma-ca = tomaca",
+   "word": "tomaca"
+  },
+  {
+   "id": "ca_fonologia_l2_o004",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "mun",
+    "ta",
+    "nya"
+   ],
+   "correctOrder": [
+    "mun",
+    "ta",
+    "nya"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "mun-ta-nya = muntanya",
+   "word": "muntanya"
+  },
+  {
+   "id": "ca_fonologia_l2_o005",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "cot",
+    "xe"
+   ],
+   "correctOrder": [
+    "cot",
+    "xe"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "cot-xe = cotxe",
+   "word": "cotxe"
+  },
+  {
+   "id": "ca_fonologia_l2_o006",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "for",
+    "mi",
+    "ga"
+   ],
+   "correctOrder": [
+    "for",
+    "mi",
+    "ga"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "for-mi-ga = formiga",
+   "word": "formiga"
+  },
+  {
+   "id": "ca_fonologia_l2_o007",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "plat",
+    "ja"
+   ],
+   "correctOrder": [
+    "plat",
+    "ja"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "plat-ja = platja",
+   "word": "platja"
+  },
+  {
+   "id": "ca_fonologia_l2_o008",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "co",
+    "nill"
+   ],
+   "correctOrder": [
+    "co",
+    "nill"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "co-nill = conill",
+   "word": "conill"
+  },
+  {
+   "id": "ca_fonologia_l2_o009",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "gra",
+    "no",
+    "ta"
+   ],
+   "correctOrder": [
+    "gra",
+    "no",
+    "ta"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "gra-no-ta = granota",
+   "word": "granota"
+  },
+  {
+   "id": "ca_fonologia_l2_m013",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «xiquet»?",
+   "options": [
+    "xocolate",
+    "xicoteta",
+    "xiular",
+    "paquet"
+   ],
+   "correct": 3,
+   "explanation": "«xiquet» i «paquet» acaben amb el mateix so.",
+   "word": "xiquet"
+  },
+  {
+   "id": "ca_fonologia_l2_m014",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «bufanda»?",
+   "options": [
+    "bufar",
+    "bosc",
+    "bota",
+    "banda"
+   ],
+   "correct": 3,
+   "explanation": "«bufanda» i «banda» acaben amb el mateix so.",
+   "word": "bufanda"
+  },
+  {
+   "id": "ca_fonologia_l2_m015",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «conill»?",
+   "options": [
+    "cuc",
+    "coll",
+    "fill",
+    "cova"
+   ],
+   "correct": 2,
+   "explanation": "«conill» i «fill» acaben amb el mateix so.",
+   "word": "conill"
+  },
+  {
+   "id": "ca_fonologia_l2_m016",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «formiga»?",
+   "options": [
+    "amiga",
+    "forma",
+    "fona",
+    "forn"
+   ],
+   "correct": 0,
+   "explanation": "«formiga» i «amiga» acaben amb el mateix so.",
+   "word": "formiga"
+  },
+  {
+   "id": "ca_fonologia_l2_m017",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «finestra»?",
+   "options": [
+    "fira",
+    "fosc",
+    "mestra",
+    "fideu"
+   ],
+   "correct": 2,
+   "explanation": "«finestra» i «mestra» acaben amb el mateix so.",
+   "word": "finestra"
+  },
+  {
+   "id": "ca_fonologia_l2_m018",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «caixa»?",
+   "options": [
+    "cara",
+    "baixa",
+    "cuina",
+    "col"
+   ],
+   "correct": 1,
+   "explanation": "«caixa» i «baixa» acaben amb el mateix so.",
+   "word": "caixa"
+  },
+  {
+   "id": "ca_fonologia_l2_m019",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «gallina»?",
+   "options": [
+    "gota",
+    "farina",
+    "gana",
+    "gall"
+   ],
+   "correct": 1,
+   "explanation": "«gallina» i «farina» acaben amb el mateix so.",
+   "word": "gallina"
+  },
+  {
+   "id": "ca_fonologia_l2_m020",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «pinzell»?",
+   "options": [
+    "pi",
+    "pinya",
+    "castell",
+    "pinta"
+   ],
+   "correct": 2,
+   "explanation": "«pinzell» i «castell» acaben amb el mateix so.",
+   "word": "pinzell"
+  },
+  {
+   "id": "ca_fonologia_l2_m021",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «xiquet»?",
+   "options": [
+    "cotxe",
+    "jardí",
+    "xocolate",
+    "sopa"
+   ],
+   "correct": 2,
+   "explanation": "xiquet i xocolate comencen pel so /tx/ escrit amb x.",
+   "word": "xiquet"
+  },
+  {
+   "id": "ca_fonologia_l2_m022",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «cotxe»?",
+   "options": [
+    "gat",
+    "casa",
+    "xiquet",
+    "sol"
+   ],
+   "correct": 1,
+   "explanation": "cotxe i casa comencen pel so /k/.",
+   "word": "cotxe"
+  },
+  {
+   "id": "ca_fonologia_l2_m023",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «gat»?",
+   "options": [
+    "gel",
+    "goma",
+    "jardí",
+    "girafa"
+   ],
+   "correct": 1,
+   "explanation": "Davant de a, o, u, la g sona /g/: gat i goma.",
+   "word": "gat"
+  },
+  {
+   "id": "ca_fonologia_l2_m024",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «jardí»?",
+   "options": [
+    "gat",
+    "goma",
+    "got",
+    "gerro"
+   ],
+   "correct": 3,
+   "explanation": "j i g davant de e, i fan el mateix so: jardí i gerro.",
+   "word": "jardí"
+  },
+  {
+   "id": "ca_fonologia_l2_m025",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «ceba»?",
+   "options": [
+    "cua",
+    "cotxe",
+    "casa",
+    "sabata"
+   ],
+   "correct": 3,
+   "explanation": "Davant de e, i, la c sona /s/: ceba i sabata.",
+   "word": "ceba"
+  },
+  {
+   "id": "ca_fonologia_l2_m026",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «queixal»?",
+   "options": [
+    "cel",
+    "ceba",
+    "cine",
+    "cua"
+   ],
+   "correct": 3,
+   "explanation": "qu i c davant de a, o, u fan el so /k/.",
+   "word": "queixal"
+  },
+  {
+   "id": "ca_fonologia_l2_m027",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO porta el so /ny/?",
+   "options": [
+    "nina",
+    "any",
+    "muntanya",
+    "canya"
+   ],
+   "correct": 0,
+   "explanation": "nina porta n, no ny."
+  },
+  {
+   "id": "ca_fonologia_l2_m028",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO porta el so de la x de xiquet?",
+   "options": [
+    "cotxe",
+    "sabó",
+    "xocolate",
+    "xiular"
+   ],
+   "correct": 1,
+   "explanation": "sabó comença per s."
+  },
+  {
+   "id": "ca_fonologia_l2_d001",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "xiquet",
+   "hint": "Té 6 lletres",
+   "explanation": "x-i-q-u-e-t. x a l'inici.",
+   "dictation": true,
+   "word": "xiquet"
+  },
+  {
+   "id": "ca_fonologia_l2_d002",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "cotxe",
+   "hint": "Té 5 lletres",
+   "explanation": "c-o-t-x-e. tx entre vocals.",
+   "dictation": true,
+   "word": "cotxe"
+  },
+  {
+   "id": "ca_fonologia_l2_d003",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "caixa",
+   "hint": "Té 5 lletres",
+   "explanation": "c-a-i-x-a. ix entre vocals.",
+   "dictation": true,
+   "word": "caixa"
+  },
+  {
+   "id": "ca_fonologia_l2_d004",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "platja",
+   "hint": "Té 6 lletres",
+   "explanation": "p-l-a-t-j-a. tj davant de a.",
+   "dictation": true,
+   "word": "platja"
+  },
+  {
+   "id": "ca_fonologia_l2_d005",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "conill",
+   "hint": "Té 6 lletres",
+   "explanation": "c-o-n-i-l-l. ll al final.",
+   "dictation": true,
+   "word": "conill"
+  },
+  {
+   "id": "ca_fonologia_l2_d006",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "llibre",
+   "hint": "Té 6 lletres",
+   "explanation": "l-l-i-b-r-e.",
+   "dictation": true,
+   "word": "llibre"
+  },
+  {
+   "id": "ca_fonologia_l2_d007",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "any",
+   "hint": "Té 3 lletres",
+   "explanation": "a-n-y. ny al final.",
+   "dictation": true,
+   "word": "any"
+  },
+  {
+   "id": "ca_fonologia_l2_d008",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "gallina",
+   "hint": "Té 7 lletres",
+   "explanation": "g-a-l-l-i-n-a. ll entre vocals.",
+   "dictation": true,
+   "word": "gallina"
+  },
+  {
+   "id": "ca_fonologia_l2_d009",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "peix",
+   "hint": "Té 4 lletres",
+   "explanation": "p-e-i-x. ix al final.",
+   "dictation": true,
+   "word": "peix"
+  },
+  {
+   "id": "ca_fonologia_l2_d010",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "formiga",
+   "hint": "Té 7 lletres",
+   "explanation": "f-o-r-m-i-g-a.",
+   "dictation": true,
+   "word": "formiga"
+  },
+  {
+   "id": "ca_fonologia_l2_d011",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "cadira",
+   "hint": "Té 6 lletres",
+   "explanation": "c-a-d-i-r-a.",
+   "dictation": true,
+   "word": "cadira"
+  },
+  {
+   "id": "ca_fonologia_l2_d012",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "finestra",
+   "hint": "Té 8 lletres",
+   "explanation": "f-i-n-e-s-t-r-a.",
+   "dictation": true,
+   "word": "finestra"
+  },
+  {
+   "id": "ca_fonologia_l3_m001",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «papallona»?",
+   "options": [
+    "3",
+    "4",
+    "2",
+    "5"
+   ],
+   "correct": 1,
+   "explanation": "pa-pa-llo-na = 4 síl·labes",
+   "word": "papallona",
+   "syllables": [
+    "pa",
+    "pa",
+    "llo",
+    "na"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l3_m002",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «bicicleta»?",
+   "options": [
+    "5",
+    "4",
+    "3",
+    "2"
+   ],
+   "correct": 1,
+   "explanation": "bi-ci-cle-ta = 4 síl·labes",
+   "word": "bicicleta",
+   "syllables": [
+    "bi",
+    "ci",
+    "cle",
+    "ta"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l3_m003",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «taronja»?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "correct": 0,
+   "explanation": "ta-ron-ja = 3 síl·labes",
+   "word": "taronja",
+   "syllables": [
+    "ta",
+    "ron",
+    "ja"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l3_m004",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «elefant»?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "correct": 1,
+   "explanation": "e-le-fant = 3 síl·labes",
+   "word": "elefant",
+   "syllables": [
+    "e",
+    "le",
+    "fant"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l3_m005",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «cocodril»?",
+   "options": [
+    "5",
+    "2",
+    "4",
+    "3"
+   ],
+   "correct": 3,
+   "explanation": "co-co-dril = 3 síl·labes",
+   "word": "cocodril",
+   "syllables": [
+    "co",
+    "co",
+    "dril"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l3_m006",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «dinosaure»?",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "di-no-sau-re = 4 síl·labes",
+   "word": "dinosaure",
+   "syllables": [
+    "di",
+    "no",
+    "sau",
+    "re"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l3_m007",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «camioneta»?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ],
+   "correct": 3,
+   "explanation": "ca-mi-o-ne-ta = 5 síl·labes",
+   "word": "camioneta",
+   "syllables": [
+    "ca",
+    "mi",
+    "o",
+    "ne",
+    "ta"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l3_m008",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «paraigua»?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "correct": 1,
+   "explanation": "pa-rai-gua = 3 síl·labes",
+   "word": "paraigua",
+   "syllables": [
+    "pa",
+    "rai",
+    "gua"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l3_m009",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «pel·lícula»?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ],
+   "correct": 1,
+   "explanation": "pel-lí-cu-la = 4 síl·labes",
+   "word": "pel·lícula",
+   "syllables": [
+    "pel",
+    "lí",
+    "cu",
+    "la"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l3_m010",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «ordinador»?",
+   "options": [
+    "5",
+    "4",
+    "3",
+    "2"
+   ],
+   "correct": 1,
+   "explanation": "or-di-na-dor = 4 síl·labes",
+   "word": "ordinador",
+   "syllables": [
+    "or",
+    "di",
+    "na",
+    "dor"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l3_m011",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «esquirol»?",
+   "options": [
+    "5",
+    "4",
+    "3",
+    "2"
+   ],
+   "correct": 2,
+   "explanation": "es-qui-rol = 3 síl·labes",
+   "word": "esquirol",
+   "syllables": [
+    "es",
+    "qui",
+    "rol"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l3_m012",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «biblioteca»?",
+   "options": [
+    "5",
+    "3",
+    "2",
+    "4"
+   ],
+   "correct": 0,
+   "explanation": "bi-bli-o-te-ca = 5 síl·labes",
+   "word": "biblioteca",
+   "syllables": [
+    "bi",
+    "bli",
+    "o",
+    "te",
+    "ca"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l3_o001",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "pa",
+    "pa",
+    "llo",
+    "na"
+   ],
+   "correctOrder": [
+    "pa",
+    "pa",
+    "llo",
+    "na"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "pa-pa-llo-na = papallona",
+   "word": "papallona"
+  },
+  {
+   "id": "ca_fonologia_l3_o002",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "bi",
+    "ci",
+    "cle",
+    "ta"
+   ],
+   "correctOrder": [
+    "bi",
+    "ci",
+    "cle",
+    "ta"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "bi-ci-cle-ta = bicicleta",
+   "word": "bicicleta"
+  },
+  {
+   "id": "ca_fonologia_l3_o003",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "ta",
+    "ron",
+    "ja"
+   ],
+   "correctOrder": [
+    "ta",
+    "ron",
+    "ja"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ta-ron-ja = taronja",
+   "word": "taronja"
+  },
+  {
+   "id": "ca_fonologia_l3_o004",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "e",
+    "le",
+    "fant"
+   ],
+   "correctOrder": [
+    "e",
+    "le",
+    "fant"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "e-le-fant = elefant",
+   "word": "elefant"
+  },
+  {
+   "id": "ca_fonologia_l3_o005",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "co",
+    "co",
+    "dril"
+   ],
+   "correctOrder": [
+    "co",
+    "co",
+    "dril"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "co-co-dril = cocodril",
+   "word": "cocodril"
+  },
+  {
+   "id": "ca_fonologia_l3_o006",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "di",
+    "no",
+    "sau",
+    "re"
+   ],
+   "correctOrder": [
+    "di",
+    "no",
+    "sau",
+    "re"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "di-no-sau-re = dinosaure",
+   "word": "dinosaure"
+  },
+  {
+   "id": "ca_fonologia_l3_o007",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "ca",
+    "mi",
+    "o",
+    "ne",
+    "ta"
+   ],
+   "correctOrder": [
+    "ca",
+    "mi",
+    "o",
+    "ne",
+    "ta"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ca-mi-o-ne-ta = camioneta",
+   "word": "camioneta"
+  },
+  {
+   "id": "ca_fonologia_l3_o008",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "pa",
+    "rai",
+    "gua"
+   ],
+   "correctOrder": [
+    "pa",
+    "rai",
+    "gua"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "pa-rai-gua = paraigua",
+   "word": "paraigua"
+  },
+  {
+   "id": "ca_fonologia_l3_o009",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "pel",
+    "lí",
+    "cu",
+    "la"
+   ],
+   "correctOrder": [
+    "pel",
+    "lí",
+    "cu",
+    "la"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "pel-lí-cu-la = pel·lícula",
+   "word": "pel·lícula"
+  },
+  {
+   "id": "ca_fonologia_l3_m013",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «taronja»?",
+   "options": [
+    "tauló",
+    "tard",
+    "monja",
+    "taula"
+   ],
+   "correct": 2,
+   "explanation": "«taronja» i «monja» acaben amb el mateix so.",
+   "word": "taronja"
+  },
+  {
+   "id": "ca_fonologia_l3_m014",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «papallona»?",
+   "options": [
+    "palau",
+    "pala",
+    "corona",
+    "palla"
+   ],
+   "correct": 2,
+   "explanation": "«papallona» i «corona» acaben amb el mateix so.",
+   "word": "papallona"
+  },
+  {
+   "id": "ca_fonologia_l3_m015",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «cançó»?",
+   "options": [
+    "lleó",
+    "cama",
+    "canya",
+    "camí"
+   ],
+   "correct": 0,
+   "explanation": "«cançó» i «lleó» acaben amb el mateix so.",
+   "word": "cançó"
+  },
+  {
+   "id": "ca_fonologia_l3_m016",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «camió»?",
+   "options": [
+    "avió",
+    "camisa",
+    "camí",
+    "camp"
+   ],
+   "correct": 0,
+   "explanation": "«camió» i «avió» acaben amb el mateix so.",
+   "word": "camió"
+  },
+  {
+   "id": "ca_fonologia_l3_m017",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «esquirol»?",
+   "options": [
+    "esquena",
+    "escola",
+    "caragol",
+    "estiu"
+   ],
+   "correct": 2,
+   "explanation": "«esquirol» i «caragol» acaben amb el mateix so.",
+   "word": "esquirol"
+  },
+  {
+   "id": "ca_fonologia_l3_m018",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «bicicleta»?",
+   "options": [
+    "bitllet",
+    "maleta",
+    "bici",
+    "bossa"
+   ],
+   "correct": 1,
+   "explanation": "«bicicleta» i «maleta» acaben amb el mateix so.",
+   "word": "bicicleta"
+  },
+  {
+   "id": "ca_fonologia_l3_m019",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «elefant»?",
+   "options": [
+    "ell",
+    "elm",
+    "gegant",
+    "ella"
+   ],
+   "correct": 2,
+   "explanation": "«elefant» i «gegant» acaben amb el mateix so.",
+   "word": "elefant"
+  },
+  {
+   "id": "ca_fonologia_l3_m020",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «paraigua»?",
+   "options": [
+    "paper",
+    "parada",
+    "aigua",
+    "paret"
+   ],
+   "correct": 2,
+   "explanation": "«paraigua» i «aigua» acaben amb el mateix so.",
+   "word": "paraigua"
+  },
+  {
+   "id": "ca_fonologia_l3_m021",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «hora»?",
+   "options": [
+    "olla",
+    "hort",
+    "home",
+    "herba"
+   ],
+   "correct": 0,
+   "explanation": "La h no sona: hora comença pel so de la o, com olla.",
+   "word": "hora"
+  },
+  {
+   "id": "ca_fonologia_l3_m022",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «zero»?",
+   "options": [
+    "sol",
+    "zona",
+    "cel",
+    "sopa"
+   ],
+   "correct": 1,
+   "explanation": "zero i zona comencen pel so /z/ (sonor).",
+   "word": "zero"
+  },
+  {
+   "id": "ca_fonologia_l3_m023",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «ganivet»?",
+   "options": [
+    "gel",
+    "girafa",
+    "gerro",
+    "galta"
+   ],
+   "correct": 3,
+   "explanation": "gan- i gal- tenen el so /g/.",
+   "word": "ganivet"
+  },
+  {
+   "id": "ca_fonologia_l3_m024",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «guitarra»?",
+   "options": [
+    "gel",
+    "gos",
+    "jove",
+    "gir"
+   ],
+   "correct": 1,
+   "explanation": "gui- sona /g/, com gos.",
+   "word": "guitarra"
+  },
+  {
+   "id": "ca_fonologia_l3_m025",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «ull»?",
+   "options": [
+    "olla",
+    "lluna",
+    "illa",
+    "ungla"
+   ],
+   "correct": 3,
+   "explanation": "ull i ungla comencen pel so de la u.",
+   "word": "ull"
+  },
+  {
+   "id": "ca_fonologia_l3_m026",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «herba»?",
+   "options": [
+    "estrela",
+    "hora",
+    "home",
+    "hort"
+   ],
+   "correct": 0,
+   "explanation": "La h no sona: herba comença pel so de la e, com estrela.",
+   "word": "herba"
+  },
+  {
+   "id": "ca_fonologia_l3_m027",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO té la h muda al principi?",
+   "options": [
+    "hora",
+    "orella",
+    "herba",
+    "home"
+   ],
+   "correct": 1,
+   "explanation": "orella no porta h."
+  },
+  {
+   "id": "ca_fonologia_l3_m028",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "En quina paraula la u NO sona?",
+   "options": [
+    "llengua",
+    "pingüí",
+    "aigua",
+    "guitarra"
+   ],
+   "correct": 3,
+   "explanation": "En guitarra, gui- fa /gi/ i la u no sona."
+  },
+  {
+   "id": "ca_fonologia_l3_d001",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "cançó",
+   "hint": "Té 5 lletres",
+   "explanation": "c-a-n-ç-ó. Davant de o, la ç sona /s/.",
+   "dictation": true,
+   "word": "cançó"
+  },
+  {
+   "id": "ca_fonologia_l3_d002",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "plaça",
+   "hint": "Té 5 lletres",
+   "explanation": "p-l-a-ç-a. Davant de a, la ç sona /s/.",
+   "dictation": true,
+   "word": "plaça"
+  },
+  {
+   "id": "ca_fonologia_l3_d003",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "dolç",
+   "hint": "Té 4 lletres",
+   "explanation": "d-o-l-ç. Al final de paraula, ç.",
+   "dictation": true,
+   "word": "dolç"
+  },
+  {
+   "id": "ca_fonologia_l3_d004",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "taronja",
+   "hint": "Té 7 lletres",
+   "explanation": "t-a-r-o-n-j-a. j davant de a.",
+   "dictation": true,
+   "word": "taronja"
+  },
+  {
+   "id": "ca_fonologia_l3_d005",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "jardí",
+   "hint": "Té 5 lletres",
+   "explanation": "j-a-r-d-í. j davant de a.",
+   "dictation": true,
+   "word": "jardí"
+  },
+  {
+   "id": "ca_fonologia_l3_d006",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "gerro",
+   "hint": "Té 5 lletres",
+   "explanation": "g-e-r-r-o. g davant de e.",
+   "dictation": true,
+   "word": "gerro"
+  },
+  {
+   "id": "ca_fonologia_l3_d007",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "guitarra",
+   "hint": "Té 8 lletres",
+   "explanation": "g-u-i-t-a-r-r-a. gui: la u no sona.",
+   "dictation": true,
+   "word": "guitarra"
+  },
+  {
+   "id": "ca_fonologia_l3_d008",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "aigua",
+   "hint": "Té 5 lletres",
+   "explanation": "a-i-g-u-a. gua: la u sí que sona.",
+   "dictation": true,
+   "word": "aigua"
+  },
+  {
+   "id": "ca_fonologia_l3_d009",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "camió",
+   "hint": "Té 5 lletres",
+   "explanation": "c-a-m-i-ó. Porta accent tancat a la o.",
+   "dictation": true,
+   "word": "camió"
+  },
+  {
+   "id": "ca_fonologia_l3_d010",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "avió",
+   "hint": "Té 4 lletres",
+   "explanation": "a-v-i-ó. Porta accent tancat a la o.",
+   "dictation": true,
+   "word": "avió"
+  },
+  {
+   "id": "ca_fonologia_l3_d011",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "lleó",
+   "hint": "Té 4 lletres",
+   "explanation": "l-l-e-ó. Porta accent tancat a la o.",
+   "dictation": true,
+   "word": "lleó"
+  },
+  {
+   "id": "ca_fonologia_l3_d012",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "braç",
+   "hint": "Té 4 lletres",
+   "explanation": "b-r-a-ç. Al final de paraula, ç.",
+   "dictation": true,
+   "word": "braç"
+  },
+  {
+   "id": "ca_fonologia_l4_m001",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «col·legi»?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ],
+   "correct": 2,
+   "explanation": "col-le-gi = 3 síl·labes",
+   "word": "col·legi",
+   "syllables": [
+    "col",
+    "le",
+    "gi"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l4_m002",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «hipopòtam»?",
+   "options": [
+    "3",
+    "5",
+    "2",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "hi-po-pò-tam = 4 síl·labes",
+   "word": "hipopòtam",
+   "syllables": [
+    "hi",
+    "po",
+    "pò",
+    "tam"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l4_m003",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «helicòpter»?",
+   "options": [
+    "5",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "he-li-còp-ter = 4 síl·labes",
+   "word": "helicòpter",
+   "syllables": [
+    "he",
+    "li",
+    "còp",
+    "ter"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l4_m004",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «matemàtiques»?",
+   "options": [
+    "2",
+    "5",
+    "4",
+    "3"
+   ],
+   "correct": 1,
+   "explanation": "ma-te-mà-ti-ques = 5 síl·labes",
+   "word": "matemàtiques",
+   "syllables": [
+    "ma",
+    "te",
+    "mà",
+    "ti",
+    "ques"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l4_m005",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «calculadora»?",
+   "options": [
+    "4",
+    "5",
+    "2",
+    "3"
+   ],
+   "correct": 1,
+   "explanation": "cal-cu-la-do-ra = 5 síl·labes",
+   "word": "calculadora",
+   "syllables": [
+    "cal",
+    "cu",
+    "la",
+    "do",
+    "ra"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l4_m006",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «supermercat»?",
+   "options": [
+    "5",
+    "4",
+    "2",
+    "3"
+   ],
+   "correct": 1,
+   "explanation": "su-per-mer-cat = 4 síl·labes",
+   "word": "supermercat",
+   "syllables": [
+    "su",
+    "per",
+    "mer",
+    "cat"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l4_m007",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «televisió»?",
+   "options": [
+    "4",
+    "3",
+    "2",
+    "5"
+   ],
+   "correct": 3,
+   "explanation": "te-le-vi-si-ó = 5 síl·labes",
+   "word": "televisió",
+   "syllables": [
+    "te",
+    "le",
+    "vi",
+    "si",
+    "ó"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l4_m008",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «tramvia»?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ],
+   "correct": 2,
+   "explanation": "tram-vi-a = 3 síl·labes",
+   "word": "tramvia",
+   "syllables": [
+    "tram",
+    "vi",
+    "a"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l4_m009",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «intel·ligent»?",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "in-tel-li-gent = 4 síl·labes",
+   "word": "intel·ligent",
+   "syllables": [
+    "in",
+    "tel",
+    "li",
+    "gent"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l4_m010",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «primavera»?",
+   "options": [
+    "2",
+    "5",
+    "4",
+    "3"
+   ],
+   "correct": 2,
+   "explanation": "pri-ma-ve-ra = 4 síl·labes",
+   "word": "primavera",
+   "syllables": [
+    "pri",
+    "ma",
+    "ve",
+    "ra"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l4_m011",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «meravellós»?",
+   "options": [
+    "4",
+    "5",
+    "2",
+    "3"
+   ],
+   "correct": 0,
+   "explanation": "me-ra-ve-llós = 4 síl·labes",
+   "word": "meravellós",
+   "syllables": [
+    "me",
+    "ra",
+    "ve",
+    "llós"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l4_m012",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «tranquil·la»?",
+   "options": [
+    "5",
+    "4",
+    "2",
+    "3"
+   ],
+   "correct": 3,
+   "explanation": "tran-quil-la = 3 síl·labes",
+   "word": "tranquil·la",
+   "syllables": [
+    "tran",
+    "quil",
+    "la"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l4_o001",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "col",
+    "le",
+    "gi"
+   ],
+   "correctOrder": [
+    "col",
+    "le",
+    "gi"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "col-le-gi = col·legi",
+   "word": "col·legi"
+  },
+  {
+   "id": "ca_fonologia_l4_o002",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "hi",
+    "po",
+    "pò",
+    "tam"
+   ],
+   "correctOrder": [
+    "hi",
+    "po",
+    "pò",
+    "tam"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "hi-po-pò-tam = hipopòtam",
+   "word": "hipopòtam"
+  },
+  {
+   "id": "ca_fonologia_l4_o003",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "he",
+    "li",
+    "còp",
+    "ter"
+   ],
+   "correctOrder": [
+    "he",
+    "li",
+    "còp",
+    "ter"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "he-li-còp-ter = helicòpter",
+   "word": "helicòpter"
+  },
+  {
+   "id": "ca_fonologia_l4_o004",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "ma",
+    "te",
+    "mà",
+    "ti",
+    "ques"
+   ],
+   "correctOrder": [
+    "ma",
+    "te",
+    "mà",
+    "ti",
+    "ques"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ma-te-mà-ti-ques = matemàtiques",
+   "word": "matemàtiques"
+  },
+  {
+   "id": "ca_fonologia_l4_o005",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "cal",
+    "cu",
+    "la",
+    "do",
+    "ra"
+   ],
+   "correctOrder": [
+    "cal",
+    "cu",
+    "la",
+    "do",
+    "ra"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "cal-cu-la-do-ra = calculadora",
+   "word": "calculadora"
+  },
+  {
+   "id": "ca_fonologia_l4_o006",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "su",
+    "per",
+    "mer",
+    "cat"
+   ],
+   "correctOrder": [
+    "su",
+    "per",
+    "mer",
+    "cat"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "su-per-mer-cat = supermercat",
+   "word": "supermercat"
+  },
+  {
+   "id": "ca_fonologia_l4_o007",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "te",
+    "le",
+    "vi",
+    "si",
+    "ó"
+   ],
+   "correctOrder": [
+    "te",
+    "le",
+    "vi",
+    "si",
+    "ó"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "te-le-vi-si-ó = televisió",
+   "word": "televisió"
+  },
+  {
+   "id": "ca_fonologia_l4_o008",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "tram",
+    "vi",
+    "a"
+   ],
+   "correctOrder": [
+    "tram",
+    "vi",
+    "a"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "tram-vi-a = tramvia",
+   "word": "tramvia"
+  },
+  {
+   "id": "ca_fonologia_l4_o009",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "in",
+    "tel",
+    "li",
+    "gent"
+   ],
+   "correctOrder": [
+    "in",
+    "tel",
+    "li",
+    "gent"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "in-tel-li-gent = intel·ligent",
+   "word": "intel·ligent"
+  },
+  {
+   "id": "ca_fonologia_l4_m013",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «col·legi»?",
+   "options": [
+    "privilegi",
+    "coll",
+    "colla",
+    "col·lecció"
+   ],
+   "correct": 0,
+   "explanation": "«col·legi» i «privilegi» acaben amb el mateix so.",
+   "word": "col·legi"
+  },
+  {
+   "id": "ca_fonologia_l4_m014",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «primavera»?",
+   "options": [
+    "primer",
+    "carrera",
+    "prim",
+    "premi"
+   ],
+   "correct": 1,
+   "explanation": "«primavera» i «carrera» acaben amb el mateix so.",
+   "word": "primavera"
+  },
+  {
+   "id": "ca_fonologia_l4_m015",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «televisió»?",
+   "options": [
+    "il·lusió",
+    "telèfon",
+    "tele",
+    "tela"
+   ],
+   "correct": 0,
+   "explanation": "«televisió» i «il·lusió» acaben amb el mateix so.",
+   "word": "televisió"
+  },
+  {
+   "id": "ca_fonologia_l4_m016",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «tranquil·la»?",
+   "options": [
+    "vila",
+    "tren",
+    "tramvia",
+    "trona"
+   ],
+   "correct": 0,
+   "explanation": "«tranquil·la» i «vila» acaben amb el mateix so.",
+   "word": "tranquil·la"
+  },
+  {
+   "id": "ca_fonologia_l4_m017",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «calculadora»?",
+   "options": [
+    "cala",
+    "calent",
+    "calma",
+    "senyora"
+   ],
+   "correct": 3,
+   "explanation": "«calculadora» i «senyora» acaben amb el mateix so.",
+   "word": "calculadora"
+  },
+  {
+   "id": "ca_fonologia_l4_m018",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «meravellós»?",
+   "options": [
+    "mel",
+    "mena",
+    "mera",
+    "famós"
+   ],
+   "correct": 3,
+   "explanation": "«meravellós» i «famós» acaben amb el mateix so.",
+   "word": "meravellós"
+  },
+  {
+   "id": "ca_fonologia_l4_m019",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «intel·ligent»?",
+   "options": [
+    "interior",
+    "valent",
+    "illa",
+    "intent"
+   ],
+   "correct": 1,
+   "explanation": "«intel·ligent» i «valent» acaben amb el mateix so.",
+   "word": "intel·ligent"
+  },
+  {
+   "id": "ca_fonologia_l4_m020",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «ordinador»?",
+   "options": [
+    "nadador",
+    "oli",
+    "ordre",
+    "orella"
+   ],
+   "correct": 0,
+   "explanation": "«ordinador» i «nadador» acaben amb el mateix so.",
+   "word": "ordinador"
+  },
+  {
+   "id": "ca_fonologia_l4_m021",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «llengua»?",
+   "options": [
+    "nata",
+    "lent",
+    "lila",
+    "llaurador"
+   ],
+   "correct": 3,
+   "explanation": "llengua i llaurador comencen per ll, no per l.",
+   "word": "llengua"
+  },
+  {
+   "id": "ca_fonologia_l4_m022",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «nyora»?",
+   "options": [
+    "nas",
+    "nyap",
+    "niu",
+    "nap"
+   ],
+   "correct": 1,
+   "explanation": "nyora i nyap comencen pel so /ny/.",
+   "word": "nyora"
+  },
+  {
+   "id": "ca_fonologia_l4_m023",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «pou»?",
+   "options": [
+    "bou",
+    "dau",
+    "fum",
+    "pa"
+   ],
+   "correct": 3,
+   "explanation": "pou i pa comencen pel so /p/.",
+   "word": "pou"
+  },
+  {
+   "id": "ca_fonologia_l4_m024",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «figa»?",
+   "options": [
+    "vaca",
+    "pou",
+    "bou",
+    "foc"
+   ],
+   "correct": 3,
+   "explanation": "figa i foc comencen pel so /f/.",
+   "word": "figa"
+  },
+  {
+   "id": "ca_fonologia_l4_m025",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «nas»?",
+   "options": [
+    "nit",
+    "mel",
+    "llum",
+    "món"
+   ],
+   "correct": 0,
+   "explanation": "nas i nit comencen pel so /n/.",
+   "word": "nas"
+  },
+  {
+   "id": "ca_fonologia_l4_m026",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «mel»?",
+   "options": [
+    "nit",
+    "niu",
+    "nas",
+    "món"
+   ],
+   "correct": 3,
+   "explanation": "mel i món comencen pel so /m/.",
+   "word": "mel"
+  },
+  {
+   "id": "ca_fonologia_l4_m027",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO porta ela geminada?",
+   "options": [
+    "pala",
+    "pel·lícula",
+    "col·legi",
+    "il·lusió"
+   ],
+   "correct": 0,
+   "explanation": "pala porta una sola l."
+  },
+  {
+   "id": "ca_fonologia_l4_m028",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO porta dièresi?",
+   "options": [
+    "veïna",
+    "raïm",
+    "camí",
+    "pingüí"
+   ],
+   "correct": 2,
+   "explanation": "camí porta accent, però no dièresi."
+  },
+  {
+   "id": "ca_fonologia_l4_d001",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "col·legi",
+   "hint": "Té 7 lletres",
+   "explanation": "c-o-l·l-e-g-i. Amb ela geminada (l·l).",
+   "dictation": true,
+   "word": "col·legi"
+  },
+  {
+   "id": "ca_fonologia_l4_d002",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "pel·lícula",
+   "hint": "Té 9 lletres",
+   "explanation": "p-e-l·l-í-c-u-l-a. Amb ela geminada (l·l) i accent a la í.",
+   "dictation": true,
+   "word": "pel·lícula"
+  },
+  {
+   "id": "ca_fonologia_l4_d003",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "il·lusió",
+   "hint": "Té 7 lletres",
+   "explanation": "i-l·l-u-s-i-ó. Amb ela geminada (l·l).",
+   "dictation": true,
+   "word": "il·lusió"
+  },
+  {
+   "id": "ca_fonologia_l4_d004",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "tranquil·la",
+   "hint": "Té 10 lletres",
+   "explanation": "t-r-a-n-q-u-i-l·l-a. Amb ela geminada (l·l).",
+   "dictation": true,
+   "word": "tranquil·la"
+  },
+  {
+   "id": "ca_fonologia_l4_d005",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "hora",
+   "hint": "Té 4 lletres",
+   "explanation": "h-o-r-a. Amb h, que no sona.",
+   "dictation": true,
+   "word": "hora"
+  },
+  {
+   "id": "ca_fonologia_l4_d006",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "herba",
+   "hint": "Té 5 lletres",
+   "explanation": "h-e-r-b-a. Amb h, que no sona.",
+   "dictation": true,
+   "word": "herba"
+  },
+  {
+   "id": "ca_fonologia_l4_d007",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "zero",
+   "hint": "Té 4 lletres",
+   "explanation": "z-e-r-o. Amb z, so sonor.",
+   "dictation": true,
+   "word": "zero"
+  },
+  {
+   "id": "ca_fonologia_l4_d008",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "onze",
+   "hint": "Té 4 lletres",
+   "explanation": "o-n-z-e. Amb z, so sonor.",
+   "dictation": true,
+   "word": "onze"
+  },
+  {
+   "id": "ca_fonologia_l4_d009",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "pingüí",
+   "hint": "Té 6 lletres",
+   "explanation": "p-i-n-g-ü-í. Amb dièresi: la u sona.",
+   "dictation": true,
+   "word": "pingüí"
+  },
+  {
+   "id": "ca_fonologia_l4_d010",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "raïm",
+   "hint": "Té 4 lletres",
+   "explanation": "r-a-ï-m. Amb dièresi a la ï: ra-ïm.",
+   "dictation": true,
+   "word": "raïm"
+  },
+  {
+   "id": "ca_fonologia_l4_d011",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "veïna",
+   "hint": "Té 5 lletres",
+   "explanation": "v-e-ï-n-a. Amb dièresi a la ï: ve-ï-na.",
+   "dictation": true,
+   "word": "veïna"
+  },
+  {
+   "id": "ca_fonologia_l4_d012",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "país",
+   "hint": "Té 4 lletres",
+   "explanation": "p-a-í-s. Accent a la í: pa-ís.",
+   "dictation": true,
+   "word": "país"
+  },
+  {
+   "id": "ca_fonologia_l5_m001",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «extraordinari»?",
+   "options": [
+    "7",
+    "5",
+    "6",
+    "4"
+   ],
+   "correct": 2,
+   "explanation": "ex-tra-or-di-na-ri = 6 síl·labes",
+   "word": "extraordinari",
+   "syllables": [
+    "ex",
+    "tra",
+    "or",
+    "di",
+    "na",
+    "ri"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l5_m002",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «electricitat»?",
+   "options": [
+    "7",
+    "4",
+    "6",
+    "5"
+   ],
+   "correct": 3,
+   "explanation": "e-lec-tri-ci-tat = 5 síl·labes",
+   "word": "electricitat",
+   "syllables": [
+    "e",
+    "lec",
+    "tri",
+    "ci",
+    "tat"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l5_m003",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «comunicació»?",
+   "options": [
+    "4",
+    "7",
+    "6",
+    "5"
+   ],
+   "correct": 2,
+   "explanation": "co-mu-ni-ca-ci-ó = 6 síl·labes",
+   "word": "comunicació",
+   "syllables": [
+    "co",
+    "mu",
+    "ni",
+    "ca",
+    "ci",
+    "ó"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l5_m004",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «responsabilitat»?",
+   "options": [
+    "5",
+    "4",
+    "7",
+    "6"
+   ],
+   "correct": 3,
+   "explanation": "res-pon-sa-bi-li-tat = 6 síl·labes",
+   "word": "responsabilitat",
+   "syllables": [
+    "res",
+    "pon",
+    "sa",
+    "bi",
+    "li",
+    "tat"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l5_m005",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «imaginació»?",
+   "options": [
+    "6",
+    "5",
+    "4",
+    "7"
+   ],
+   "correct": 0,
+   "explanation": "i-ma-gi-na-ci-ó = 6 síl·labes",
+   "word": "imaginació",
+   "syllables": [
+    "i",
+    "ma",
+    "gi",
+    "na",
+    "ci",
+    "ó"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l5_m006",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «universitat»?",
+   "options": [
+    "4",
+    "7",
+    "5",
+    "6"
+   ],
+   "correct": 2,
+   "explanation": "u-ni-ver-si-tat = 5 síl·labes",
+   "word": "universitat",
+   "syllables": [
+    "u",
+    "ni",
+    "ver",
+    "si",
+    "tat"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l5_m007",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «Mediterrani»?",
+   "options": [
+    "7",
+    "5",
+    "6",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "Me-di-ter-ra-ni = 5 síl·labes",
+   "word": "Mediterrani",
+   "syllables": [
+    "Me",
+    "di",
+    "ter",
+    "ra",
+    "ni"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l5_m008",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «il·lustració»?",
+   "options": [
+    "5",
+    "7",
+    "4",
+    "6"
+   ],
+   "correct": 0,
+   "explanation": "il-lus-tra-ci-ó = 5 síl·labes",
+   "word": "il·lustració",
+   "syllables": [
+    "il",
+    "lus",
+    "tra",
+    "ci",
+    "ó"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l5_m009",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «refrigerador»?",
+   "options": [
+    "4",
+    "7",
+    "6",
+    "5"
+   ],
+   "correct": 3,
+   "explanation": "re-fri-ge-ra-dor = 5 síl·labes",
+   "word": "refrigerador",
+   "syllables": [
+    "re",
+    "fri",
+    "ge",
+    "ra",
+    "dor"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l5_m010",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «veterinària»?",
+   "options": [
+    "5",
+    "6",
+    "7",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "ve-te-ri-nà-ri-a = 6 síl·labes",
+   "word": "veterinària",
+   "syllables": [
+    "ve",
+    "te",
+    "ri",
+    "nà",
+    "ri",
+    "a"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l5_m011",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «arqueòleg»?",
+   "options": [
+    "7",
+    "4",
+    "6",
+    "5"
+   ],
+   "correct": 1,
+   "explanation": "ar-que-ò-leg = 4 síl·labes",
+   "word": "arqueòleg",
+   "syllables": [
+    "ar",
+    "que",
+    "ò",
+    "leg"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l5_m012",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «biodiversitat»?",
+   "options": [
+    "6",
+    "4",
+    "5",
+    "7"
+   ],
+   "correct": 0,
+   "explanation": "bi-o-di-ver-si-tat = 6 síl·labes",
+   "word": "biodiversitat",
+   "syllables": [
+    "bi",
+    "o",
+    "di",
+    "ver",
+    "si",
+    "tat"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l5_o001",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "ex",
+    "tra",
+    "or",
+    "di",
+    "na",
+    "ri"
+   ],
+   "correctOrder": [
+    "ex",
+    "tra",
+    "or",
+    "di",
+    "na",
+    "ri"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ex-tra-or-di-na-ri = extraordinari",
+   "word": "extraordinari"
+  },
+  {
+   "id": "ca_fonologia_l5_o002",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "e",
+    "lec",
+    "tri",
+    "ci",
+    "tat"
+   ],
+   "correctOrder": [
+    "e",
+    "lec",
+    "tri",
+    "ci",
+    "tat"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "e-lec-tri-ci-tat = electricitat",
+   "word": "electricitat"
+  },
+  {
+   "id": "ca_fonologia_l5_o003",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "co",
+    "mu",
+    "ni",
+    "ca",
+    "ci",
+    "ó"
+   ],
+   "correctOrder": [
+    "co",
+    "mu",
+    "ni",
+    "ca",
+    "ci",
+    "ó"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "co-mu-ni-ca-ci-ó = comunicació",
+   "word": "comunicació"
+  },
+  {
+   "id": "ca_fonologia_l5_o004",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "res",
+    "pon",
+    "sa",
+    "bi",
+    "li",
+    "tat"
+   ],
+   "correctOrder": [
+    "res",
+    "pon",
+    "sa",
+    "bi",
+    "li",
+    "tat"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "res-pon-sa-bi-li-tat = responsabilitat",
+   "word": "responsabilitat"
+  },
+  {
+   "id": "ca_fonologia_l5_o005",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "i",
+    "ma",
+    "gi",
+    "na",
+    "ci",
+    "ó"
+   ],
+   "correctOrder": [
+    "i",
+    "ma",
+    "gi",
+    "na",
+    "ci",
+    "ó"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "i-ma-gi-na-ci-ó = imaginació",
+   "word": "imaginació"
+  },
+  {
+   "id": "ca_fonologia_l5_o006",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "u",
+    "ni",
+    "ver",
+    "si",
+    "tat"
+   ],
+   "correctOrder": [
+    "u",
+    "ni",
+    "ver",
+    "si",
+    "tat"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "u-ni-ver-si-tat = universitat",
+   "word": "universitat"
+  },
+  {
+   "id": "ca_fonologia_l5_o007",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "Me",
+    "di",
+    "ter",
+    "ra",
+    "ni"
+   ],
+   "correctOrder": [
+    "Me",
+    "di",
+    "ter",
+    "ra",
+    "ni"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Me-di-ter-ra-ni = Mediterrani",
+   "word": "Mediterrani"
+  },
+  {
+   "id": "ca_fonologia_l5_o008",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "il",
+    "lus",
+    "tra",
+    "ci",
+    "ó"
+   ],
+   "correctOrder": [
+    "il",
+    "lus",
+    "tra",
+    "ci",
+    "ó"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "il-lus-tra-ci-ó = il·lustració",
+   "word": "il·lustració"
+  },
+  {
+   "id": "ca_fonologia_l5_o009",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "re",
+    "fri",
+    "ge",
+    "ra",
+    "dor"
+   ],
+   "correctOrder": [
+    "re",
+    "fri",
+    "ge",
+    "ra",
+    "dor"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "re-fri-ge-ra-dor = refrigerador",
+   "word": "refrigerador"
+  },
+  {
+   "id": "ca_fonologia_l5_m013",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «comunicació»?",
+   "options": [
+    "estació",
+    "cama",
+    "cosí",
+    "comú"
+   ],
+   "correct": 0,
+   "explanation": "«comunicació» i «estació» acaben amb el mateix so.",
+   "word": "comunicació"
+  },
+  {
+   "id": "ca_fonologia_l5_m014",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «electricitat»?",
+   "options": [
+    "eleccions",
+    "elèctric",
+    "ciutat",
+    "electró"
+   ],
+   "correct": 2,
+   "explanation": "«electricitat» i «ciutat» acaben amb el mateix so.",
+   "word": "electricitat"
+  },
+  {
+   "id": "ca_fonologia_l5_m015",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «universitat»?",
+   "options": [
+    "amistat",
+    "unió",
+    "univers",
+    "única"
+   ],
+   "correct": 0,
+   "explanation": "«universitat» i «amistat» acaben amb el mateix so.",
+   "word": "universitat"
+  },
+  {
+   "id": "ca_fonologia_l5_m016",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «imaginació»?",
+   "options": [
+    "emoció",
+    "imatge",
+    "imant",
+    "imperi"
+   ],
+   "correct": 0,
+   "explanation": "«imaginació» i «emoció» acaben amb el mateix so.",
+   "word": "imaginació"
+  },
+  {
+   "id": "ca_fonologia_l5_m017",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «arqueòleg»?",
+   "options": [
+    "arquer",
+    "arena",
+    "geòleg",
+    "arc"
+   ],
+   "correct": 2,
+   "explanation": "«arqueòleg» i «geòleg» acaben amb el mateix so.",
+   "word": "arqueòleg"
+  },
+  {
+   "id": "ca_fonologia_l5_m018",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «Mediterrani»?",
+   "options": [
+    "metge",
+    "urani",
+    "metro",
+    "medalla"
+   ],
+   "correct": 1,
+   "explanation": "«Mediterrani» i «urani» acaben amb el mateix so.",
+   "word": "Mediterrani"
+  },
+  {
+   "id": "ca_fonologia_l5_m019",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «refrigerador»?",
+   "options": [
+    "corredor",
+    "refresc",
+    "reflex",
+    "refugi"
+   ],
+   "correct": 0,
+   "explanation": "«refrigerador» i «corredor» acaben amb el mateix so.",
+   "word": "refrigerador"
+  },
+  {
+   "id": "ca_fonologia_l5_m020",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula rima amb «biodiversitat»?",
+   "options": [
+    "biologia",
+    "bisó",
+    "bitllet",
+    "llibertat"
+   ],
+   "correct": 3,
+   "explanation": "«biodiversitat» i «llibertat» acaben amb el mateix so.",
+   "word": "biodiversitat"
+  },
+  {
+   "id": "ca_fonologia_l5_m021",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «psicòleg»?",
+   "options": [
+    "port",
+    "pou",
+    "pala",
+    "sabó"
+   ],
+   "correct": 3,
+   "explanation": "En psicòleg la p no sona: comença pel so /s/.",
+   "word": "psicòleg"
+  },
+  {
+   "id": "ca_fonologia_l5_m022",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «geni»?",
+   "options": [
+    "got",
+    "gust",
+    "jove",
+    "gana"
+   ],
+   "correct": 2,
+   "explanation": "ge- i jo- tenen el mateix so.",
+   "word": "geni"
+  },
+  {
+   "id": "ca_fonologia_l5_m023",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «química»?",
+   "options": [
+    "cine",
+    "cera",
+    "cel",
+    "casa"
+   ],
+   "correct": 3,
+   "explanation": "qui- sona /k/, com ca-.",
+   "word": "química"
+  },
+  {
+   "id": "ca_fonologia_l5_m024",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «hipopòtam»?",
+   "options": [
+    "hort",
+    "illa",
+    "hora",
+    "home"
+   ],
+   "correct": 1,
+   "explanation": "La h no sona: hipopòtam comença pel so de la i, com illa.",
+   "word": "hipopòtam"
+  },
+  {
+   "id": "ca_fonologia_l5_m025",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «zebra»?",
+   "options": [
+    "cel",
+    "zero",
+    "sopa",
+    "sac"
+   ],
+   "correct": 1,
+   "explanation": "zebra i zero comencen pel so /z/ (sonor).",
+   "word": "zebra"
+  },
+  {
+   "id": "ca_fonologia_l5_m026",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula comença amb el mateix so que «hivern»?",
+   "options": [
+    "hort",
+    "home",
+    "hora",
+    "illa"
+   ],
+   "correct": 3,
+   "explanation": "La h no sona: hivern comença pel so de la i.",
+   "word": "hivern"
+  },
+  {
+   "id": "ca_fonologia_l5_m027",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO porta accent obert (`)?",
+   "options": [
+    "anglés",
+    "pàgina",
+    "història",
+    "perquè"
+   ],
+   "correct": 0,
+   "explanation": "anglés porta accent tancat (´)."
+  },
+  {
+   "id": "ca_fonologia_l5_m028",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO porta accent tancat (´)?",
+   "options": [
+    "café",
+    "només",
+    "època",
+    "anglés"
+   ],
+   "correct": 2,
+   "explanation": "època porta accent obert (`)."
+  },
+  {
+   "id": "ca_fonologia_l5_d001",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "intel·ligent",
+   "hint": "Té 11 lletres",
+   "explanation": "i-n-t-e-l·l-i-g-e-n-t. Amb ela geminada (l·l).",
+   "dictation": true,
+   "word": "intel·ligent"
+  },
+  {
+   "id": "ca_fonologia_l5_d002",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "història",
+   "hint": "Té 8 lletres",
+   "explanation": "h-i-s-t-ò-r-i-a. Accent obert a la ò.",
+   "dictation": true,
+   "word": "història"
+  },
+  {
+   "id": "ca_fonologia_l5_d003",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "música",
+   "hint": "Té 6 lletres",
+   "explanation": "m-ú-s-i-c-a. Accent a la ú.",
+   "dictation": true,
+   "word": "música"
+  },
+  {
+   "id": "ca_fonologia_l5_d004",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "pàgina",
+   "hint": "Té 6 lletres",
+   "explanation": "p-à-g-i-n-a. Accent obert a la à.",
+   "dictation": true,
+   "word": "pàgina"
+  },
+  {
+   "id": "ca_fonologia_l5_d005",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "anglés",
+   "hint": "Té 6 lletres",
+   "explanation": "a-n-g-l-é-s. En valencià, accent tancat: anglés.",
+   "dictation": true,
+   "word": "anglés"
+  },
+  {
+   "id": "ca_fonologia_l5_d006",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "café",
+   "hint": "Té 4 lletres",
+   "explanation": "c-a-f-é. En valencià, accent tancat: café.",
+   "dictation": true,
+   "word": "café"
+  },
+  {
+   "id": "ca_fonologia_l5_d007",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "perquè",
+   "hint": "Té 6 lletres",
+   "explanation": "p-e-r-q-u-è. Accent obert a la è.",
+   "dictation": true,
+   "word": "perquè"
+  },
+  {
+   "id": "ca_fonologia_l5_d008",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "aqüeducte",
+   "hint": "Té 9 lletres",
+   "explanation": "a-q-ü-e-d-u-c-t-e. Amb dièresi: la u sona.",
+   "dictation": true,
+   "word": "aqüeducte"
+  },
+  {
+   "id": "ca_fonologia_l5_d009",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "qüestió",
+   "hint": "Té 7 lletres",
+   "explanation": "q-ü-e-s-t-i-ó. Amb dièresi: la u sona.",
+   "dictation": true,
+   "word": "qüestió"
+  },
+  {
+   "id": "ca_fonologia_l5_d010",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "rellotge",
+   "hint": "Té 8 lletres",
+   "explanation": "r-e-l-l-o-t-g-e. tg davant de e.",
+   "dictation": true,
+   "word": "rellotge"
+  },
+  {
+   "id": "ca_fonologia_l5_d011",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "metge",
+   "hint": "Té 5 lletres",
+   "explanation": "m-e-t-g-e. tg davant de e.",
+   "dictation": true,
+   "word": "metge"
+  },
+  {
+   "id": "ca_fonologia_l5_d012",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "fetge",
+   "hint": "Té 5 lletres",
+   "explanation": "f-e-t-g-e. tg davant de e.",
+   "dictation": true,
+   "word": "fetge"
+  }
+ ]
+}

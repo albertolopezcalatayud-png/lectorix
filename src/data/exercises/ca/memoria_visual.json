@@ -1,1 +1,3527 @@
-{"exercises":[]}
+{
+ "exercises": [
+  {
+   "id": "ca_memoria_visual_l1_m001",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "casa",
+    "caas",
+    "casaa",
+    "csaa"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «casa»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m002",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "gatt",
+    "gat",
+    "gta",
+    "agt"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «gat»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m003",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "slo",
+    "osl",
+    "sol",
+    "sool"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «sol»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m004",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "pa",
+    "paa",
+    "ap",
+    "pá"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «pa»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m005",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "mell",
+    "mel",
+    "lem",
+    "mle"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «mel»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m006",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "llnua",
+    "lluna",
+    "lluan",
+    "luna"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «lluna»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m007",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "monna",
+    "moan",
+    "mona",
+    "mnoa"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «mona»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m008",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "tid",
+    "ditt",
+    "dti",
+    "dit"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «dit»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m009",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "buo",
+    "bou",
+    "dou",
+    "boou"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «bou»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m010",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "perra",
+    "pera",
+    "pear",
+    "peraa"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «pera»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m011",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "peeu",
+    "peú",
+    "peu",
+    "pue"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «peu»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m012",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "nsa",
+    "nass",
+    "nas",
+    "naz"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «nas»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m013",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "poma",
+    "poama",
+    "pmoa",
+    "pomma"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «poma»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m014",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "daau",
+    "dua",
+    "dauu",
+    "dau"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «dau»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m015",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "let",
+    "lelt",
+    "llet",
+    "lleet"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «llet»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m016",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "bota",
+    "btoa",
+    "botta",
+    "boat"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «bota»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m017",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "qipa",
+    "ppia",
+    "pipa",
+    "pipá"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «pipa»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m018",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "nian",
+    "niña",
+    "nnia",
+    "nina"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «nina»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m019",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "ccu",
+    "cuc",
+    "kuk",
+    "cucc"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «cuc»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m020",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "ull",
+    "lul",
+    "ulll",
+    "ul"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «ull»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m021",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "ou",
+    "ow",
+    "uo",
+    "oou"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «ou»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m022",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "goot",
+    "got",
+    "gto",
+    "gotd"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «got»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m023",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "roij",
+    "roig",
+    "roich",
+    "rojg"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «roig»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m024",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "foc",
+    "fock",
+    "fco",
+    "foq"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «foc»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m025",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: b, d, b, b?",
+   "options": [
+    "la 1a",
+    "la 3a",
+    "la 2a",
+    "la 4a"
+   ],
+   "correct": 2,
+   "explanation": "És la 2a: «d». Les altres són «b»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m026",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: p, p, p, q?",
+   "options": [
+    "la 1a",
+    "la 4a",
+    "la 2a",
+    "la 3a"
+   ],
+   "correct": 1,
+   "explanation": "És la 4a: «q». Les altres són «p»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m027",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: n, u, n, n?",
+   "options": [
+    "la 2a",
+    "la 3a",
+    "la 1a",
+    "la 4a"
+   ],
+   "correct": 0,
+   "explanation": "És la 2a: «u». Les altres són «n»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m028",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: m, m, m, w?",
+   "options": [
+    "la 3a",
+    "la 2a",
+    "la 1a",
+    "la 4a"
+   ],
+   "correct": 3,
+   "explanation": "És la 4a: «w». Les altres són «m»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m029",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: b, p, b, b?",
+   "options": [
+    "la 3a",
+    "la 2a",
+    "la 1a",
+    "la 4a"
+   ],
+   "correct": 1,
+   "explanation": "És la 2a: «p». Les altres són «b»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m030",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: d, d, d, q?",
+   "options": [
+    "la 3a",
+    "la 1a",
+    "la 4a",
+    "la 2a"
+   ],
+   "correct": 2,
+   "explanation": "És la 4a: «q». Les altres són «d»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m031",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «sol»",
+   "options": [
+    "osl",
+    "sol",
+    "slo",
+    "los"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: s-o-l."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m032",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «pas»",
+   "options": [
+    "pas",
+    "spa",
+    "sap",
+    "psa"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: p-a-s."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m033",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «nap»",
+   "options": [
+    "pna",
+    "nap",
+    "pan",
+    "anp"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: n-a-p."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m034",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «dau»",
+   "options": [
+    "dau",
+    "bau",
+    "adu",
+    "dua"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: d-a-u."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m035",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «bou»",
+   "options": [
+    "obu",
+    "dou",
+    "bou",
+    "buo"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: b-o-u."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m036",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «roc»",
+   "options": [
+    "roc",
+    "orc",
+    "rco",
+    "cor"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: r-o-c."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m037",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: sol, los, sol, sol?",
+   "options": [
+    "la 4a",
+    "la 1a",
+    "la 2a",
+    "la 3a"
+   ],
+   "correct": 2,
+   "explanation": "És la 2a: «los», no «sol»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m038",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: pas, pas, sap, pas?",
+   "options": [
+    "la 2a",
+    "la 4a",
+    "la 3a",
+    "la 1a"
+   ],
+   "correct": 2,
+   "explanation": "És la 3a: «sap», no «pas»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m039",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: nap, nap, nap, pan?",
+   "options": [
+    "la 3a",
+    "la 1a",
+    "la 4a",
+    "la 2a"
+   ],
+   "correct": 2,
+   "explanation": "És la 4a: «pan», no «nap»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m040",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: bau, dau, dau, dau?",
+   "options": [
+    "la 1a",
+    "la 3a",
+    "la 2a",
+    "la 4a"
+   ],
+   "correct": 0,
+   "explanation": "És la 1a: «bau», no «dau»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_m041",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: bou, dou, bou, bou?",
+   "options": [
+    "la 1a",
+    "la 4a",
+    "la 2a",
+    "la 3a"
+   ],
+   "correct": 2,
+   "explanation": "És la 2a: «dou», no «bou»."
+  },
+  {
+   "id": "ca_memoria_visual_l1_o001",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres alfabèticament",
+   "pieces": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correctOrder": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: A, B, C, D."
+  },
+  {
+   "id": "ca_memoria_visual_l1_o002",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres alfabèticament",
+   "pieces": [
+    "E",
+    "F",
+    "G",
+    "H"
+   ],
+   "correctOrder": [
+    "E",
+    "F",
+    "G",
+    "H"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: E, F, G, H."
+  },
+  {
+   "id": "ca_memoria_visual_l1_o003",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres alfabèticament",
+   "pieces": [
+    "L",
+    "M",
+    "N",
+    "O"
+   ],
+   "correctOrder": [
+    "L",
+    "M",
+    "N",
+    "O"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: L, M, N, O."
+  },
+  {
+   "id": "ca_memoria_visual_l1_o004",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres alfabèticament",
+   "pieces": [
+    "R",
+    "S",
+    "T",
+    "U"
+   ],
+   "correctOrder": [
+    "R",
+    "S",
+    "T",
+    "U"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: R, S, T, U."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m001",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "xicuet",
+    "xiquet",
+    "xiket",
+    "chiquet"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «xiquet»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m002",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "kaixa",
+    "caixa",
+    "caxa",
+    "caicha"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «caixa». ix entre vocals."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m003",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "cotxe",
+    "cotche",
+    "cotxé",
+    "coche"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «cotxe». tx entre vocals."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m004",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "pex",
+    "peixx",
+    "peix",
+    "peich"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «peix»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m005",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "playa",
+    "plaja",
+    "platxa",
+    "platja"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «platja». tj davant de a."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m006",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "muntanyá",
+    "montaña",
+    "muntanya",
+    "muntaña"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «muntanya». ny, no ñ."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m007",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "ani",
+    "any",
+    "anny",
+    "añ"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «any». ny, no ñ."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m008",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "kanya",
+    "caña",
+    "canya",
+    "cania"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «canya». ny, no ñ."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m009",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "conilll",
+    "conil",
+    "conill",
+    "coni"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «conill»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m010",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "gaiina",
+    "gallina",
+    "galina",
+    "gallinna"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «gallina»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m011",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "llibra",
+    "llibre",
+    "lliber",
+    "libre"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «llibre»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m012",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "cadira",
+    "cabira",
+    "cadria",
+    "cadirra"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «cadira»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m013",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "finestra",
+    "finestre",
+    "fenestra",
+    "finesta"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «finestra»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m014",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "formiga",
+    "furmiga",
+    "fromiga",
+    "formigga"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «formiga»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m015",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "granoata",
+    "granota",
+    "grnota",
+    "granotta"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «granota»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m016",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "naranja",
+    "taronxa",
+    "taronja",
+    "tarongja"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «taronja»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m017",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "jardí",
+    "xardí",
+    "jardín",
+    "jardi"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «jardí»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m018",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "menyar",
+    "mengar",
+    "menjar",
+    "menxar"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «menjar»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m019",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "pujar",
+    "pugar",
+    "pujjar",
+    "puxar"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «pujar»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m020",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "relloje",
+    "relotge",
+    "rellotge",
+    "rellotje"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «rellotge». tg davant de e."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m021",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "metje",
+    "mege",
+    "metge",
+    "metxe"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «metge». tg davant de e."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m022",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "flecha",
+    "fletxa",
+    "flexa",
+    "fletja"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «fletxa». tx entre vocals."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m023",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "maduixa",
+    "madujxa",
+    "maduxa",
+    "maduicha"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «maduixa». ix entre vocals."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m024",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "pinyya",
+    "pinya",
+    "piña",
+    "pinia"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «pinya». ny, no ñ."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m025",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: b, b, d, b?",
+   "options": [
+    "la 1a",
+    "la 4a",
+    "la 2a",
+    "la 3a"
+   ],
+   "correct": 3,
+   "explanation": "És la 3a: «d». Les altres són «b»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m026",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: q, p, p, p?",
+   "options": [
+    "la 1a",
+    "la 2a",
+    "la 4a",
+    "la 3a"
+   ],
+   "correct": 0,
+   "explanation": "És la 1a: «q». Les altres són «p»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m027",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: n, n, u, n?",
+   "options": [
+    "la 1a",
+    "la 4a",
+    "la 2a",
+    "la 3a"
+   ],
+   "correct": 3,
+   "explanation": "És la 3a: «u». Les altres són «n»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m028",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: w, m, m, m?",
+   "options": [
+    "la 3a",
+    "la 4a",
+    "la 2a",
+    "la 1a"
+   ],
+   "correct": 3,
+   "explanation": "És la 1a: «w». Les altres són «m»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m029",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: d, d, b, d?",
+   "options": [
+    "la 2a",
+    "la 3a",
+    "la 4a",
+    "la 1a"
+   ],
+   "correct": 1,
+   "explanation": "És la 3a: «b». Les altres són «d»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m030",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: p, q, q, q?",
+   "options": [
+    "la 1a",
+    "la 3a",
+    "la 4a",
+    "la 2a"
+   ],
+   "correct": 0,
+   "explanation": "És la 1a: «p». Les altres són «q»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m031",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «cama»",
+   "options": [
+    "cama",
+    "cmaa",
+    "acam",
+    "maca"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: c-a-m-a."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m032",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «rata»",
+   "options": [
+    "rata",
+    "tara",
+    "ratta",
+    "arta"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: r-a-t-a."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m033",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «mola»",
+   "options": [
+    "mloa",
+    "amol",
+    "mola",
+    "loma"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: m-o-l-a."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m034",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «sopa»",
+   "options": [
+    "aspo",
+    "sapo",
+    "sopa",
+    "posa"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: s-o-p-a."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m035",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «roda»",
+   "options": [
+    "rado",
+    "orda",
+    "dora",
+    "roda"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: r-o-d-a."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m036",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «lona»",
+   "options": [
+    "alon",
+    "lnoa",
+    "lona",
+    "nola"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: l-o-n-a."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m037",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: cama, cama, maca, cama?",
+   "options": [
+    "la 4a",
+    "la 1a",
+    "la 3a",
+    "la 2a"
+   ],
+   "correct": 2,
+   "explanation": "És la 3a: «maca», no «cama»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m038",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: rata, rata, rata, tara?",
+   "options": [
+    "la 3a",
+    "la 2a",
+    "la 4a",
+    "la 1a"
+   ],
+   "correct": 2,
+   "explanation": "És la 4a: «tara», no «rata»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m039",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: loma, mola, mola, mola?",
+   "options": [
+    "la 4a",
+    "la 1a",
+    "la 3a",
+    "la 2a"
+   ],
+   "correct": 1,
+   "explanation": "És la 1a: «loma», no «mola»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m040",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: sopa, posa, sopa, sopa?",
+   "options": [
+    "la 2a",
+    "la 1a",
+    "la 3a",
+    "la 4a"
+   ],
+   "correct": 0,
+   "explanation": "És la 2a: «posa», no «sopa»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_m041",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: roda, roda, dora, roda?",
+   "options": [
+    "la 2a",
+    "la 4a",
+    "la 1a",
+    "la 3a"
+   ],
+   "correct": 3,
+   "explanation": "És la 3a: «dora», no «roda»."
+  },
+  {
+   "id": "ca_memoria_visual_l2_o001",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres alfabèticament",
+   "pieces": [
+    "B",
+    "D",
+    "G",
+    "J",
+    "P"
+   ],
+   "correctOrder": [
+    "B",
+    "D",
+    "G",
+    "J",
+    "P"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: B, D, G, J, P."
+  },
+  {
+   "id": "ca_memoria_visual_l2_o002",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres alfabèticament",
+   "pieces": [
+    "A",
+    "E",
+    "I",
+    "O",
+    "U"
+   ],
+   "correctOrder": [
+    "A",
+    "E",
+    "I",
+    "O",
+    "U"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: A, E, I, O, U."
+  },
+  {
+   "id": "ca_memoria_visual_l2_o003",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres alfabèticament",
+   "pieces": [
+    "C",
+    "F",
+    "J",
+    "M",
+    "R"
+   ],
+   "correctOrder": [
+    "C",
+    "F",
+    "J",
+    "M",
+    "R"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: C, F, J, M, R."
+  },
+  {
+   "id": "ca_memoria_visual_l2_o004",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres alfabèticament",
+   "pieces": [
+    "D",
+    "H",
+    "L",
+    "S",
+    "X"
+   ],
+   "correctOrder": [
+    "D",
+    "H",
+    "L",
+    "S",
+    "X"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: D, H, L, S, X."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m001",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "canço",
+    "cançó",
+    "cansó",
+    "canzó"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «cançó». ç davant de o."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m002",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "plaça",
+    "plasa",
+    "plaza",
+    "plaçça"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «plaça». ç davant de a."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m003",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "doltç",
+    "dolç",
+    "dolz",
+    "dolss"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «dolç». ç a final de paraula."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m004",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "braz",
+    "braçç",
+    "bras",
+    "braç"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «braç». ç a final de paraula."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m005",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "caçcar",
+    "cazar",
+    "kaçar",
+    "caçar"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «caçar». ç davant de a."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m006",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "casolla",
+    "cassola",
+    "casola",
+    "cazola"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «cassola»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m007",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "roosa",
+    "rosa",
+    "rosaa",
+    "roza"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «rosa»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m008",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "pasetg",
+    "passetj",
+    "paseig",
+    "passeig"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «passeig»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m009",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "zeró",
+    "cero",
+    "zero",
+    "sero"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «zero». z al principi."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m010",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "onze",
+    "onçe",
+    "onse",
+    "once"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «onze». z entre consonant i vocal."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m011",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "dotce",
+    "dotze",
+    "dodze",
+    "doce"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «dotze». tz entre vocals."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m012",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "tretze",
+    "trece",
+    "treze",
+    "tretse"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «tretze». tz entre vocals."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m013",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "camión",
+    "camió",
+    "camio",
+    "càmio"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «camió»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m014",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "avió",
+    "avvió",
+    "abió",
+    "avión"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «avió»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m015",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "lleo",
+    "león",
+    "lleó",
+    "lléo"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «lleó»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m016",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "kafé",
+    "caffé",
+    "café",
+    "cafe"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «café». En valencià, accent tancat: café."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m017",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "aci",
+    "ací",
+    "açí",
+    "así"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «ací»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m018",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "aixi",
+    "asi",
+    "axí",
+    "així"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «així»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m019",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "tanbé",
+    "tambe",
+    "també",
+    "tambè"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «també»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m020",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "bicicleda",
+    "biciclta",
+    "bisicleta",
+    "bicicleta"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «bicicleta»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m021",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "paraigua",
+    "paraigüa",
+    "paraiguas",
+    "paragua"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «paraigua»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m022",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "aigüa",
+    "agua",
+    "aigua",
+    "aygua"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «aigua»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m023",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "llengua",
+    "llenga",
+    "lengua",
+    "llengüa"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «llengua»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m024",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "gitarra",
+    "guiterra",
+    "guitarra",
+    "güitarra"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «guitarra»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m025",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: b, b, b, d, b?",
+   "options": [
+    "la 3a",
+    "la 4a",
+    "la 2a",
+    "la 1a"
+   ],
+   "correct": 1,
+   "explanation": "És la 4a: «d». Les altres són «b»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m026",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: q, p, p, p, p?",
+   "options": [
+    "la 1a",
+    "la 4a",
+    "la 2a",
+    "la 3a"
+   ],
+   "correct": 0,
+   "explanation": "És la 1a: «q». Les altres són «p»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m027",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: n, n, h, n, n?",
+   "options": [
+    "la 4a",
+    "la 1a",
+    "la 2a",
+    "la 3a"
+   ],
+   "correct": 3,
+   "explanation": "És la 3a: «h». Les altres són «n»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m028",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: m, m, m, m, n?",
+   "options": [
+    "la 1a",
+    "la 5a",
+    "la 3a",
+    "la 2a"
+   ],
+   "correct": 1,
+   "explanation": "És la 5a: «n». Les altres són «m»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m029",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: i, j, i, i, i?",
+   "options": [
+    "la 2a",
+    "la 3a",
+    "la 1a",
+    "la 4a"
+   ],
+   "correct": 0,
+   "explanation": "És la 2a: «j». Les altres són «i»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m030",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: t, t, t, f, t?",
+   "options": [
+    "la 3a",
+    "la 2a",
+    "la 1a",
+    "la 4a"
+   ],
+   "correct": 3,
+   "explanation": "És la 4a: «f». Les altres són «t»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m031",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «parc»",
+   "options": [
+    "pacr",
+    "prac",
+    "carp",
+    "parc"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: p-a-r-c."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m032",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «corda»",
+   "options": [
+    "dorca",
+    "cordá",
+    "croda",
+    "corda"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: c-o-r-d-a."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m033",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «tomba»",
+   "options": [
+    "tobma",
+    "tomda",
+    "bomta",
+    "tomba"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: t-o-m-b-a."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m034",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «barca»",
+   "options": [
+    "braca",
+    "barca",
+    "barka",
+    "darca"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: b-a-r-c-a."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m035",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «pinta»",
+   "options": [
+    "pitna",
+    "pinta",
+    "binta",
+    "pianta"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: p-i-n-t-a."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m036",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «forma»",
+   "options": [
+    "fomra",
+    "froma",
+    "morfa",
+    "forma"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: f-o-r-m-a."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m037",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: parc, parc, parc, pacr?",
+   "options": [
+    "la 2a",
+    "la 1a",
+    "la 3a",
+    "la 4a"
+   ],
+   "correct": 3,
+   "explanation": "És la 4a: «pacr», no «parc»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m038",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: cordá, corda, corda, corda?",
+   "options": [
+    "la 2a",
+    "la 3a",
+    "la 4a",
+    "la 1a"
+   ],
+   "correct": 3,
+   "explanation": "És la 1a: «cordá», no «corda»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m039",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: tomba, bomta, tomba, tomba?",
+   "options": [
+    "la 4a",
+    "la 1a",
+    "la 3a",
+    "la 2a"
+   ],
+   "correct": 3,
+   "explanation": "És la 2a: «bomta», no «tomba»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m040",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: barca, barca, braca, barca?",
+   "options": [
+    "la 3a",
+    "la 2a",
+    "la 4a",
+    "la 1a"
+   ],
+   "correct": 0,
+   "explanation": "És la 3a: «braca», no «barca»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_m041",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: pinta, pinta, pinta, pianta?",
+   "options": [
+    "la 4a",
+    "la 2a",
+    "la 3a",
+    "la 1a"
+   ],
+   "correct": 0,
+   "explanation": "És la 4a: «pianta», no «pinta»."
+  },
+  {
+   "id": "ca_memoria_visual_l3_o001",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "abella",
+    "bou",
+    "cavall"
+   ],
+   "correctOrder": [
+    "abella",
+    "bou",
+    "cavall"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: abella, bou, cavall."
+  },
+  {
+   "id": "ca_memoria_visual_l3_o002",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "dofí",
+    "foca",
+    "gos"
+   ],
+   "correctOrder": [
+    "dofí",
+    "foca",
+    "gos"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: dofí, foca, gos."
+  },
+  {
+   "id": "ca_memoria_visual_l3_o003",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "lleó",
+    "mona",
+    "ós"
+   ],
+   "correctOrder": [
+    "lleó",
+    "mona",
+    "ós"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: lleó, mona, ós."
+  },
+  {
+   "id": "ca_memoria_visual_l3_o004",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "barca",
+    "cotxe",
+    "tren"
+   ],
+   "correctOrder": [
+    "barca",
+    "cotxe",
+    "tren"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: barca, cotxe, tren."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m001",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "col·lègi",
+    "col·legi",
+    "coll·egi",
+    "colegi"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «col·legi». Porta ela geminada: l·l."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m002",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "pellícula",
+    "pel·lícula",
+    "película",
+    "pel·licula"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «pel·lícula». Ela geminada i accent a la í."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m003",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "ilusió",
+    "il·lusio",
+    "il·lusió",
+    "illusió"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «il·lusió». Ela geminada: l·l."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m004",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "tranquila",
+    "tranquil·a",
+    "tranquil·la",
+    "tranquilla"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «tranquil·la». Ela geminada: l·l."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m005",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "intel·ligent",
+    "inteligent",
+    "intel·ligen",
+    "intelligent"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «intel·ligent». Ela geminada: l·l."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m006",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "novela",
+    "novel·la",
+    "novel·a",
+    "novvel·la"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «novel·la». Ela geminada: l·l."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m007",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "hòra",
+    "hoora",
+    "hora",
+    "horra"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «hora». Porta h, encara que no sona."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m008",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "herva",
+    "erba",
+    "hierba",
+    "herba"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «herba». Porta h, encara que no sona."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m009",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "invierno",
+    "hivern",
+    "hiver",
+    "ivern"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «hivern». Porta h, encara que no sona."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m010",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "home",
+    "hòme",
+    "ome",
+    "hombre"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «home». Porta h, encara que no sona."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m011",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "huy",
+    "hoi",
+    "uí",
+    "hui"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «hui». Porta h, encara que no sona."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m012",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "històría",
+    "hystòria",
+    "istòria",
+    "història"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «història». Porta h i accent obert a la ò."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m013",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "rahim",
+    "raïm",
+    "raím",
+    "raim"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «raïm». La dièresi separa la a i la i: ra-ïm."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m014",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "veïna",
+    "veína",
+    "veyna",
+    "veina"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «veïna». La dièresi separa: ve-ï-na."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m015",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "paìs",
+    "pais",
+    "paiss",
+    "país"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «país». Accent a la í: pa-ís."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m016",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "pingui",
+    "pinguí",
+    "pingüí",
+    "pingüi"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «pingüí». La dièresi fa sonar la u."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m017",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "acueducte",
+    "aqüaducte",
+    "aqüeducte",
+    "aqueducte"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «aqüeducte». La dièresi fa sonar la u."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m018",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "qüestió",
+    "qüestio",
+    "cuestió",
+    "questió"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «qüestió». La dièresi fa sonar la u."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m019",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "l aigua",
+    "la aigua",
+    "l'aigua",
+    "laigua"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «l'aigua». Davant de vocal, l'article s'apostrofa."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m020",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "el arbre",
+    "larbre",
+    "l'arbre",
+    "la arbre"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «l'arbre». Davant de vocal, l'article s'apostrofa."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m021",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "daigua",
+    "d aigua",
+    "de aigua",
+    "d'aigua"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «d'aigua». Davant de vocal, de s'apostrofa."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m022",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "l'escola",
+    "la escola",
+    "l escola",
+    "lescola"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «l'escola». Davant de vocal, l'article s'apostrofa."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m023",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "lahistòria",
+    "l'història",
+    "la istòria",
+    "la història"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «la història». Davant de hi- àtona, la no s'apostrofa."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m024",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "launiversitat",
+    "la universitad",
+    "l'universitat",
+    "la universitat"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «la universitat». Davant de u- àtona, la no s'apostrofa."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m025",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: bd, bd, bd, bd, db?",
+   "options": [
+    "la 3a",
+    "la 5a",
+    "la 2a",
+    "la 1a"
+   ],
+   "correct": 1,
+   "explanation": "És la 5a: «db». Les altres són «bd»."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m026",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: pq, qp, pq, pq, pq?",
+   "options": [
+    "la 1a",
+    "la 4a",
+    "la 2a",
+    "la 3a"
+   ],
+   "correct": 2,
+   "explanation": "És la 2a: «qp». Les altres són «pq»."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m027",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: nu, nu, nu, un, nu?",
+   "options": [
+    "la 1a",
+    "la 4a",
+    "la 3a",
+    "la 2a"
+   ],
+   "correct": 1,
+   "explanation": "És la 4a: «un». Les altres són «nu»."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m028",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: ad, ab, ab, ab, ab?",
+   "options": [
+    "la 3a",
+    "la 1a",
+    "la 2a",
+    "la 4a"
+   ],
+   "correct": 1,
+   "explanation": "És la 1a: «ad». Les altres són «ab»."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m029",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: ib, ib, id, ib, ib?",
+   "options": [
+    "la 4a",
+    "la 3a",
+    "la 2a",
+    "la 1a"
+   ],
+   "correct": 1,
+   "explanation": "És la 3a: «id». Les altres són «ib»."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m030",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: ob, ob, ob, ob, od?",
+   "options": [
+    "la 2a",
+    "la 1a",
+    "la 5a",
+    "la 3a"
+   ],
+   "correct": 2,
+   "explanation": "És la 5a: «od». Les altres són «ob»."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m031",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «presa»",
+   "options": [
+    "presa",
+    "perssa",
+    "presà",
+    "pressa"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: p-r-e-s-a."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m032",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «cosa»",
+   "options": [
+    "cossa",
+    "coça",
+    "cosa",
+    "coza"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: c-o-s-a."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m033",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «casa»",
+   "options": [
+    "cassa",
+    "caça",
+    "caza",
+    "casa"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: c-a-s-a."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m034",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «rosa»",
+   "options": [
+    "rossa",
+    "rosa",
+    "roça",
+    "roza"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: r-o-s-a."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m035",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «posar»",
+   "options": [
+    "passar",
+    "posar",
+    "pozar",
+    "poçar"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: p-o-s-a-r."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m036",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «desert»",
+   "options": [
+    "desserts",
+    "deserta",
+    "desert",
+    "dessert"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: d-e-s-e-r-t."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m037",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: pressa, presa, presa, presa?",
+   "options": [
+    "la 1a",
+    "la 4a",
+    "la 3a",
+    "la 2a"
+   ],
+   "correct": 0,
+   "explanation": "És la 1a: «pressa», no «presa»."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m038",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: cosa, cossa, cosa, cosa?",
+   "options": [
+    "la 3a",
+    "la 2a",
+    "la 1a",
+    "la 4a"
+   ],
+   "correct": 1,
+   "explanation": "És la 2a: «cossa», no «cosa»."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m039",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: casa, casa, caça, casa?",
+   "options": [
+    "la 1a",
+    "la 2a",
+    "la 3a",
+    "la 4a"
+   ],
+   "correct": 2,
+   "explanation": "És la 3a: «caça», no «casa»."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m040",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: rosa, rosa, rosa, rossa?",
+   "options": [
+    "la 1a",
+    "la 3a",
+    "la 4a",
+    "la 2a"
+   ],
+   "correct": 2,
+   "explanation": "És la 4a: «rossa», no «rosa»."
+  },
+  {
+   "id": "ca_memoria_visual_l4_m041",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: passar, posar, posar, posar?",
+   "options": [
+    "la 3a",
+    "la 1a",
+    "la 4a",
+    "la 2a"
+   ],
+   "correct": 1,
+   "explanation": "És la 1a: «passar», no «posar»."
+  },
+  {
+   "id": "ca_memoria_visual_l4_o001",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "pera",
+    "plàtan",
+    "poma",
+    "préssec"
+   ],
+   "correctOrder": [
+    "pera",
+    "plàtan",
+    "poma",
+    "préssec"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: pera, plàtan, poma, préssec."
+  },
+  {
+   "id": "ca_memoria_visual_l4_o002",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "cadira",
+    "llit",
+    "sofà",
+    "taula"
+   ],
+   "correctOrder": [
+    "cadira",
+    "llit",
+    "sofà",
+    "taula"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: cadira, llit, sofà, taula."
+  },
+  {
+   "id": "ca_memoria_visual_l4_o003",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "gall",
+    "gat",
+    "gos",
+    "guineu"
+   ],
+   "correctOrder": [
+    "gall",
+    "gat",
+    "gos",
+    "guineu"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: gall, gat, gos, guineu."
+  },
+  {
+   "id": "ca_memoria_visual_l4_o004",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "roda",
+    "roig",
+    "rosa",
+    "ruc"
+   ],
+   "correctOrder": [
+    "roda",
+    "roig",
+    "rosa",
+    "ruc"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: roda, roig, rosa, ruc."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m001",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "anglesh",
+    "anglées",
+    "anglés",
+    "englés"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «anglés». En valencià, accent tancat: anglés."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m002",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "frances",
+    "fransés",
+    "francéss",
+    "francés"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «francés». En valencià, accent tancat: francés."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m003",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "conéxer",
+    "coneixer",
+    "conéixer",
+    "conéicher"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «conéixer». En valencià, accent tancat: conéixer."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m004",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "perquè",
+    "perque",
+    "perké",
+    "perqué"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «perquè». Accent obert a la è."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m005",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "epoca",
+    "èpoka",
+    "època",
+    "época"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «època»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m006",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "musica",
+    "músika",
+    "música",
+    "mùsica"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «música»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m007",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "pàjina",
+    "pagína",
+    "pàgina",
+    "pàgína"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «pàgina»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m008",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "àbia",
+    "àvia",
+    "ávia",
+    "àvvia"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «àvia»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m009",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "teléfon",
+    "telèfono",
+    "telefon",
+    "telèfon"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «telèfon»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m010",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "diumenje",
+    "diumenge",
+    "domenge",
+    "diumentge"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «diumenge»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m011",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "dimecres",
+    "dimecrés",
+    "dimicres",
+    "dimècres"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «dimecres»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m012",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "dijous",
+    "digous",
+    "dixous",
+    "dijóus"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «dijous»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m013",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "semana",
+    "setmanna",
+    "setamana",
+    "setmana"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «setmana»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m014",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "mitjnit",
+    "mijanit",
+    "mitxanit",
+    "mitjanit"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «mitjanit»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m015",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "ajuntament",
+    "ajutament",
+    "ajuntamient",
+    "ajuntamen"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «ajuntament»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m016",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "ciutad",
+    "ciudat",
+    "siutat",
+    "ciutat"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «ciutat»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m017",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "nessesitat",
+    "necessitat",
+    "necessitad",
+    "necesitat"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «necessitat»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m018",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "ejercici",
+    "exercici",
+    "exercisi",
+    "exercící"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «exercici»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m019",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "eczamen",
+    "exàmen",
+    "exàmenn",
+    "examen"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «examen»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m020",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "excurssió",
+    "escursió",
+    "excursió",
+    "excursio"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «excursió»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m021",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "Mediterrani",
+    "Meditarrani",
+    "Mediterràni",
+    "Mediterrany"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «Mediterrani»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m022",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "trenta",
+    "trenda",
+    "treinta",
+    "trènta"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «trenta»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m023",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "cinquanta",
+    "cinquenta",
+    "cincuenta",
+    "cinqüanta"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «cinquanta»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m024",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "dinosauri",
+    "dinosaurre",
+    "dinosaure",
+    "dinosàure"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «dinosaure»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m025",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: bou, bou, bou, bou, bou, dou?",
+   "options": [
+    "la 1a",
+    "la 2a",
+    "la 3a",
+    "la 6a"
+   ],
+   "correct": 3,
+   "explanation": "És la 6a: «dou». Les altres són «bou»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m026",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: pas, bas, pas, pas, pas, pas?",
+   "options": [
+    "la 2a",
+    "la 1a",
+    "la 4a",
+    "la 3a"
+   ],
+   "correct": 0,
+   "explanation": "És la 2a: «bas». Les altres són «pas»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m027",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: dau, dau, dau, bau, dau, dau?",
+   "options": [
+    "la 4a",
+    "la 3a",
+    "la 2a",
+    "la 1a"
+   ],
+   "correct": 0,
+   "explanation": "És la 4a: «bau». Les altres són «dau»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m028",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: pot, pot, pot, pot, pot, bot?",
+   "options": [
+    "la 3a",
+    "la 2a",
+    "la 6a",
+    "la 1a"
+   ],
+   "correct": 2,
+   "explanation": "És la 6a: «bot». Les altres són «pot»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m029",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: nap, pan, nap, nap, nap, nap?",
+   "options": [
+    "la 3a",
+    "la 1a",
+    "la 2a",
+    "la 4a"
+   ],
+   "correct": 2,
+   "explanation": "És la 2a: «pan». Les altres són «nap»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m030",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina és diferent: cor, cor, cor, roc, cor, cor?",
+   "options": [
+    "la 2a",
+    "la 1a",
+    "la 4a",
+    "la 3a"
+   ],
+   "correct": 2,
+   "explanation": "És la 4a: «roc». Les altres són «cor»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m031",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «conservació»",
+   "options": [
+    "conservació",
+    "conversació",
+    "consevació",
+    "conservacio"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: c-o-n-s-e-r-v-a-c-i-ó."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m032",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «acceptar»",
+   "options": [
+    "accetar",
+    "acceptar",
+    "exceptar",
+    "aceptar"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: a-c-c-e-p-t-a-r."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m033",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «efecte»",
+   "options": [
+    "efecte",
+    "efecta",
+    "efete",
+    "afecte"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: e-f-e-c-t-e."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m034",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «adoptar»",
+   "options": [
+    "adaptar",
+    "adobtar",
+    "adoptat",
+    "adoptar"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: a-d-o-p-t-a-r."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m035",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «respirar»",
+   "options": [
+    "resprirar",
+    "inspirar",
+    "respirar",
+    "respitar"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: r-e-s-p-i-r-a-r."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m036",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «rodó»",
+   "options": [
+    "rodó",
+    "rodós",
+    "rodà",
+    "rodo"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: r-o-d-ó."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m037",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: conservació, conversació, conservació, conservació?",
+   "options": [
+    "la 1a",
+    "la 2a",
+    "la 3a",
+    "la 4a"
+   ],
+   "correct": 1,
+   "explanation": "És la 2a: «conversació», no «conservació»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m038",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: acceptar, acceptar, exceptar, acceptar?",
+   "options": [
+    "la 1a",
+    "la 3a",
+    "la 4a",
+    "la 2a"
+   ],
+   "correct": 1,
+   "explanation": "És la 3a: «exceptar», no «acceptar»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m039",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: efecte, efecte, efecte, afecte?",
+   "options": [
+    "la 4a",
+    "la 1a",
+    "la 3a",
+    "la 2a"
+   ],
+   "correct": 0,
+   "explanation": "És la 4a: «afecte», no «efecte»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m040",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: adaptar, adoptar, adoptar, adoptar?",
+   "options": [
+    "la 3a",
+    "la 2a",
+    "la 1a",
+    "la 4a"
+   ],
+   "correct": 2,
+   "explanation": "És la 1a: «adaptar», no «adoptar»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_m041",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: respirar, inspirar, respirar, respirar?",
+   "options": [
+    "la 2a",
+    "la 4a",
+    "la 1a",
+    "la 3a"
+   ],
+   "correct": 0,
+   "explanation": "És la 2a: «inspirar», no «respirar»."
+  },
+  {
+   "id": "ca_memoria_visual_l5_o001",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "cara",
+    "carro",
+    "casa",
+    "castell",
+    "catifa"
+   ],
+   "correctOrder": [
+    "cara",
+    "carro",
+    "casa",
+    "castell",
+    "catifa"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: cara, carro, casa, castell, catifa."
+  },
+  {
+   "id": "ca_memoria_visual_l5_o002",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "mar",
+    "marc",
+    "mare",
+    "marit",
+    "marró"
+   ],
+   "correctOrder": [
+    "mar",
+    "marc",
+    "mare",
+    "marit",
+    "marró"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: mar, marc, mare, marit, marró."
+  },
+  {
+   "id": "ca_memoria_visual_l5_o003",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "pa",
+    "pal",
+    "pala",
+    "palau",
+    "palla"
+   ],
+   "correctOrder": [
+    "pa",
+    "pal",
+    "pala",
+    "palau",
+    "palla"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: pa, pal, pala, palau, palla."
+  },
+  {
+   "id": "ca_memoria_visual_l5_o004",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "sal",
+    "salt",
+    "salut",
+    "sant",
+    "sardina"
+   ],
+   "correctOrder": [
+    "sal",
+    "salt",
+    "salut",
+    "sant",
+    "sardina"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: sal, salt, salut, sant, sardina."
+  }
+ ]
+}

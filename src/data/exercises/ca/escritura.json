@@ -1,1 +1,3473 @@
-{"exercises":[]}
+{
+ "exercises": [
+  {
+   "id": "ca_escritura_l1_m001",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina frase comença bé?",
+   "options": [
+    "el gat és negre.",
+    "eL gat és negre.",
+    "El gat és negre.",
+    "el Gat és negre."
+   ],
+   "correct": 2,
+   "explanation": "Les frases comencen amb majúscula."
+  },
+  {
+   "id": "ca_escritura_l1_m002",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quin nom està ben escrit?",
+   "options": [
+    "pAu",
+    "Pau",
+    "paU",
+    "pau"
+   ],
+   "correct": 1,
+   "explanation": "Els noms de persona comencen amb majúscula."
+  },
+  {
+   "id": "ca_escritura_l1_m003",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Què posem al final d'una frase que explica alguna cosa?",
+   "options": [
+    "Una coma (,)",
+    "Res",
+    "Un punt (.)",
+    "Un interrogant (?)"
+   ],
+   "correct": 2,
+   "explanation": "Les frases que expliquen acaben amb punt."
+  },
+  {
+   "id": "ca_escritura_l1_m004",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Què posem al final d'una pregunta?",
+   "options": [
+    "Un punt (.)",
+    "Una coma (,)",
+    "Un interrogant (?)",
+    "Un apòstrof (')"
+   ],
+   "correct": 2,
+   "explanation": "Les preguntes acaben amb interrogant."
+  },
+  {
+   "id": "ca_escritura_l1_m005",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina pregunta està ben escrita en valencià?",
+   "options": [
+    "Com et dius.",
+    "¿Com et dius",
+    "¿Com et dius?",
+    "Com et dius?"
+   ],
+   "correct": 3,
+   "explanation": "En valencià només posem l'interrogant al final."
+  },
+  {
+   "id": "ca_escritura_l1_m006",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria la paraula: «Tinc ___ gat.»",
+   "options": [
+    "una",
+    "un",
+    "uns",
+    "unes"
+   ],
+   "correct": 1,
+   "explanation": "«gat» és masculí: un gat."
+  },
+  {
+   "id": "ca_escritura_l1_m007",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria la paraula: «Tinc ___ poma.»",
+   "options": [
+    "una",
+    "un",
+    "uns",
+    "el"
+   ],
+   "correct": 0,
+   "explanation": "«poma» és femení: una poma."
+  },
+  {
+   "id": "ca_escritura_l1_m008",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'un gat?",
+   "options": [
+    "gatz",
+    "gates",
+    "gatos",
+    "gats"
+   ],
+   "correct": 3,
+   "explanation": "Afegim -s: gats."
+  },
+  {
+   "id": "ca_escritura_l1_m009",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'un llibre?",
+   "options": [
+    "libres",
+    "llibras",
+    "llibres",
+    "llibrs"
+   ],
+   "correct": 2,
+   "explanation": "Afegim -s: llibres."
+  },
+  {
+   "id": "ca_escritura_l1_m010",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu el dia de la setmana enmig d'una frase?",
+   "options": [
+    "Dilluns",
+    "diluns",
+    "dillúns",
+    "dilluns"
+   ],
+   "correct": 3,
+   "explanation": "Els dies de la setmana s'escriuen amb minúscula."
+  },
+  {
+   "id": "ca_escritura_l1_m011",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina frase és correcta?",
+   "options": [
+    "M'agraden les pomes?",
+    "m'agraden les pomes.",
+    "M'agraden les pomes.",
+    "M'agraden les pomes"
+   ],
+   "correct": 2,
+   "explanation": "Majúscula al principi i punt al final."
+  },
+  {
+   "id": "ca_escritura_l1_m012",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria la paraula: «Ella ___ un barret.»",
+   "options": [
+    "tens",
+    "tenen",
+    "té",
+    "tinc"
+   ],
+   "correct": 2,
+   "explanation": "Ella té."
+  },
+  {
+   "id": "ca_escritura_l1_m013",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria la paraula: «Ells ___ contents.»",
+   "options": [
+    "està",
+    "estàs",
+    "estan",
+    "estic"
+   ],
+   "correct": 2,
+   "explanation": "Ells estan."
+  },
+  {
+   "id": "ca_escritura_l1_m014",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria la paraula: «Jo ___ set anys.»",
+   "options": [
+    "tenen",
+    "té",
+    "tens",
+    "tinc"
+   ],
+   "correct": 3,
+   "explanation": "Jo tinc."
+  },
+  {
+   "id": "ca_escritura_l1_m015",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'una casa?",
+   "options": [
+    "cass",
+    "cases",
+    "casos",
+    "casas"
+   ],
+   "correct": 1,
+   "explanation": "Les paraules acabades en -a fan el plural en -es: cases."
+  },
+  {
+   "id": "ca_escritura_l1_m016",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'una taula?",
+   "options": [
+    "tauls",
+    "taulas",
+    "taules",
+    "taulos"
+   ],
+   "correct": 2,
+   "explanation": "-a → -es: taules."
+  },
+  {
+   "id": "ca_escritura_l1_m017",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina frase és una pregunta?",
+   "options": [
+    "Tinc una motxilla.",
+    "La motxilla és ací.",
+    "On és la meua motxilla?",
+    "La motxilla és roja."
+   ],
+   "correct": 2,
+   "explanation": "Pregunta alguna cosa i acaba amb ?"
+  },
+  {
+   "id": "ca_escritura_l1_m018",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria la paraula: «El gat està ___ la cadira.»",
+   "options": [
+    "dins d'",
+    "fins",
+    "damunt de",
+    "entre"
+   ],
+   "correct": 2,
+   "explanation": "El gat està damunt de la cadira."
+  },
+  {
+   "id": "ca_escritura_l1_m019",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu el número 8 en valencià?",
+   "options": [
+    "uit",
+    "huitt",
+    "huiht",
+    "huit"
+   ],
+   "correct": 3,
+   "explanation": "En valencià escrivim «huit»."
+  },
+  {
+   "id": "ca_escritura_l1_m020",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "xicotetta",
+    "xicoteta",
+    "chicoteta",
+    "xiqoteta"
+   ],
+   "correct": 1,
+   "explanation": "x-i-c-o-t-e-t-a."
+  },
+  {
+   "id": "ca_escritura_l1_m021",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "moolt",
+    "molth",
+    "mlt",
+    "molt"
+   ],
+   "correct": 3,
+   "explanation": "m-o-l-t."
+  },
+  {
+   "id": "ca_escritura_l1_m022",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "huy",
+    "huí",
+    "hui",
+    "uí"
+   ],
+   "correct": 2,
+   "explanation": "«hui» porta h."
+  },
+  {
+   "id": "ca_escritura_l1_m023",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "tambe",
+    "també",
+    "tanbé",
+    "tambè"
+   ],
+   "correct": 1,
+   "explanation": "També porta accent tancat a la é."
+  },
+  {
+   "id": "ca_escritura_l1_m024",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Tria la paraula: «Ahir ___ al parc.»",
+   "options": [
+    "va anem",
+    "anirem",
+    "vam anar",
+    "anem"
+   ],
+   "correct": 2,
+   "explanation": "El passat d'anar: vam anar."
+  },
+  {
+   "id": "ca_escritura_l1_w001",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "gats",
+   "hint": "Afegix una lletra",
+   "explanation": "gat → gats",
+   "word": "gat"
+  },
+  {
+   "id": "ca_escritura_l1_w002",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "llibres",
+   "hint": "Afegix una lletra",
+   "explanation": "llibre → llibres",
+   "word": "llibre"
+  },
+  {
+   "id": "ca_escritura_l1_w003",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "cases",
+   "hint": "La a canvia",
+   "explanation": "casa → cases",
+   "word": "casa"
+  },
+  {
+   "id": "ca_escritura_l1_w004",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "taules",
+   "hint": "La a canvia",
+   "explanation": "taula → taules",
+   "word": "taula"
+  },
+  {
+   "id": "ca_escritura_l1_w005",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escriu el femení de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "xiqueta",
+   "hint": "Afegix una lletra",
+   "explanation": "xiquet → xiqueta",
+   "word": "xiquet"
+  },
+  {
+   "id": "ca_escritura_l1_w006",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escriu el femení de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "gata",
+   "hint": "Afegix una lletra",
+   "explanation": "gat → gata",
+   "word": "gat"
+  },
+  {
+   "id": "ca_escritura_l1_d001",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El gat dorm al sofà.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "El gat dorm al sofà."
+  },
+  {
+   "id": "ca_escritura_l1_d002",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Tinc un gos xicotet.",
+   "hint": "Té 4 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Tinc un gos xicotet."
+  },
+  {
+   "id": "ca_escritura_l1_d003",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La lluna és blanca.",
+   "hint": "Té 4 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "La lluna és blanca."
+  },
+  {
+   "id": "ca_escritura_l1_d004",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Mon pare fa el pa.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Mon pare fa el pa."
+  },
+  {
+   "id": "ca_escritura_l1_d005",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hui fa molt de sol.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Hui fa molt de sol."
+  },
+  {
+   "id": "ca_escritura_l1_d006",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La mona menja plàtans.",
+   "hint": "Té 4 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "La mona menja plàtans."
+  },
+  {
+   "id": "ca_escritura_l1_d007",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El llibre és nou.",
+   "hint": "Té 4 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "El llibre és nou."
+  },
+  {
+   "id": "ca_escritura_l1_d008",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Juguem al parc.",
+   "hint": "Té 3 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Juguem al parc."
+  },
+  {
+   "id": "ca_escritura_l1_o001",
+   "module": "escritura",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "El",
+    "gos",
+    "és",
+    "gran."
+   ],
+   "correctOrder": [
+    "El",
+    "gos",
+    "és",
+    "gran."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El gos és gran."
+  },
+  {
+   "id": "ca_escritura_l1_o002",
+   "module": "escritura",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "M'agrada",
+    "el",
+    "meu",
+    "gat."
+   ],
+   "correctOrder": [
+    "M'agrada",
+    "el",
+    "meu",
+    "gat."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "M'agrada el meu gat."
+  },
+  {
+   "id": "ca_escritura_l1_o003",
+   "module": "escritura",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Nosaltres",
+    "correm",
+    "molt."
+   ],
+   "correctOrder": [
+    "Nosaltres",
+    "correm",
+    "molt."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Nosaltres correm molt."
+  },
+  {
+   "id": "ca_escritura_l1_o004",
+   "module": "escritura",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "El",
+    "sol",
+    "crema."
+   ],
+   "correctOrder": [
+    "El",
+    "sol",
+    "crema."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El sol crema."
+  },
+  {
+   "id": "ca_escritura_l1_o005",
+   "module": "escritura",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "El",
+    "meu",
+    "barret",
+    "és",
+    "roig."
+   ],
+   "correctOrder": [
+    "El",
+    "meu",
+    "barret",
+    "és",
+    "roig."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El meu barret és roig."
+  },
+  {
+   "id": "ca_escritura_l1_o006",
+   "module": "escritura",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Veig",
+    "un",
+    "ocell."
+   ],
+   "correctOrder": [
+    "Veig",
+    "un",
+    "ocell."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Veig un ocell."
+  },
+  {
+   "id": "ca_escritura_l2_m001",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'una vaca?",
+   "options": [
+    "vaces",
+    "vacques",
+    "vaques",
+    "vacas"
+   ],
+   "correct": 2,
+   "explanation": "La c es convertix en qu davant de e: vaques."
+  },
+  {
+   "id": "ca_escritura_l2_m002",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'una plaça?",
+   "options": [
+    "plasses",
+    "plaçes",
+    "plaças",
+    "places"
+   ],
+   "correct": 3,
+   "explanation": "La ç es convertix en c davant de e: places."
+  },
+  {
+   "id": "ca_escritura_l2_m003",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'una pluja?",
+   "options": [
+    "pluxes",
+    "plujes",
+    "plujas",
+    "pluges"
+   ],
+   "correct": 3,
+   "explanation": "La j es convertix en g davant de e: pluges."
+  },
+  {
+   "id": "ca_escritura_l2_m004",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'una amiga?",
+   "options": [
+    "amiges",
+    "amigües",
+    "amigas",
+    "amigues"
+   ],
+   "correct": 3,
+   "explanation": "La g es convertix en gu davant de e: amigues."
+  },
+  {
+   "id": "ca_escritura_l2_m005",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'un peix?",
+   "options": [
+    "peixets",
+    "peixos",
+    "peixes",
+    "peixs"
+   ],
+   "correct": 1,
+   "explanation": "Les paraules acabades en -ix fan -ixos: peixos."
+  },
+  {
+   "id": "ca_escritura_l2_m006",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'un braç?",
+   "options": [
+    "braces",
+    "braços",
+    "braçs",
+    "brasos"
+   ],
+   "correct": 1,
+   "explanation": "braç → braços."
+  },
+  {
+   "id": "ca_escritura_l2_m007",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'un gos?",
+   "options": [
+    "gossos",
+    "goss",
+    "gosos",
+    "gosses"
+   ],
+   "correct": 0,
+   "explanation": "gos → gossos (amb dues s)."
+  },
+  {
+   "id": "ca_escritura_l2_m008",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'un camió?",
+   "options": [
+    "camions",
+    "camións",
+    "camiós",
+    "camiones"
+   ],
+   "correct": 0,
+   "explanation": "camió → camions (perd l'accent)."
+  },
+  {
+   "id": "ca_escritura_l2_m009",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com es diu més d'un lleó?",
+   "options": [
+    "lleóns",
+    "lleones",
+    "lleós",
+    "lleons"
+   ],
+   "correct": 3,
+   "explanation": "lleó → lleons."
+  },
+  {
+   "id": "ca_escritura_l2_m010",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina frase té bé les majúscules?",
+   "options": [
+    "vam anar a València al maig.",
+    "Vam anar a València al maig.",
+    "Vam anar a València al Maig.",
+    "Vam anar a valència al maig."
+   ],
+   "correct": 1,
+   "explanation": "Les ciutats amb majúscula; els mesos amb minúscula."
+  },
+  {
+   "id": "ca_escritura_l2_m011",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu?",
+   "options": [
+    "muntanya",
+    "muntaña",
+    "montaña",
+    "montanya"
+   ],
+   "correct": 0,
+   "explanation": "En valencià, el so /ny/ s'escriu ny."
+  },
+  {
+   "id": "ca_escritura_l2_m012",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu?",
+   "options": [
+    "any",
+    "ani",
+    "anny",
+    "añ"
+   ],
+   "correct": 0,
+   "explanation": "ny al final: any."
+  },
+  {
+   "id": "ca_escritura_l2_m013",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu?",
+   "options": [
+    "cotche",
+    "cotxe",
+    "coxe",
+    "coche"
+   ],
+   "correct": 1,
+   "explanation": "tx entre vocals: cotxe."
+  },
+  {
+   "id": "ca_escritura_l2_m014",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu?",
+   "options": [
+    "caicha",
+    "caixa",
+    "caisa",
+    "caxa"
+   ],
+   "correct": 1,
+   "explanation": "ix entre vocals: caixa."
+  },
+  {
+   "id": "ca_escritura_l2_m015",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu?",
+   "options": [
+    "relloje",
+    "rellotge",
+    "rellotje",
+    "rellodge"
+   ],
+   "correct": 1,
+   "explanation": "tg davant de e: rellotge."
+  },
+  {
+   "id": "ca_escritura_l2_m016",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu?",
+   "options": [
+    "plaja",
+    "platja",
+    "playa",
+    "platxa"
+   ],
+   "correct": 1,
+   "explanation": "tj davant de a: platja."
+  },
+  {
+   "id": "ca_escritura_l2_m017",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Tria la paraula: «Hui ___ plou.»",
+   "options": [
+    "ni",
+    "no",
+    "n'",
+    "non"
+   ],
+   "correct": 1,
+   "explanation": "Hui no plou."
+  },
+  {
+   "id": "ca_escritura_l2_m018",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Tria l'enllaç: «Tenia fred, ___ em vaig posar l'abric.»",
+   "options": [
+    "si",
+    "així que",
+    "o",
+    "però"
+   ],
+   "correct": 1,
+   "explanation": "«així que» introduïx la conseqüència."
+  },
+  {
+   "id": "ca_escritura_l2_m019",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Tria l'enllaç: «M'agraden les pomes ___ no les peres.»",
+   "options": [
+    "perquè",
+    "i",
+    "però",
+    "així que"
+   ],
+   "correct": 2,
+   "explanation": "«però» indica contrast."
+  },
+  {
+   "id": "ca_escritura_l2_m020",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "perque",
+    "perqué",
+    "perquè",
+    "perké"
+   ],
+   "correct": 2,
+   "explanation": "perquè porta accent obert a la è."
+  },
+  {
+   "id": "ca_escritura_l2_m021",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "ascola",
+    "escuela",
+    "escoula",
+    "escola"
+   ],
+   "correct": 3,
+   "explanation": "e-s-co-la."
+  },
+  {
+   "id": "ca_escritura_l2_m022",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "dimicres",
+    "dimecres",
+    "miercoles",
+    "dimècres"
+   ],
+   "correct": 1,
+   "explanation": "di-me-cres."
+  },
+  {
+   "id": "ca_escritura_l2_m023",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina forma està ben escrita?",
+   "options": [
+    "la meua Mare",
+    "la meua mare",
+    "la mehua mare",
+    "la mía mare"
+   ],
+   "correct": 1,
+   "explanation": "la meua mare: possessiu valencià i mare amb minúscula."
+  },
+  {
+   "id": "ca_escritura_l2_m024",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina forma és correcta?",
+   "options": [
+    "ese llibre",
+    "esto llibre",
+    "este llibre",
+    "aquest llibres"
+   ],
+   "correct": 2,
+   "explanation": "«este» és valencià normatiu."
+  },
+  {
+   "id": "ca_escritura_l2_w001",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "vaques",
+   "hint": "c → qu",
+   "explanation": "vaca → vaques",
+   "word": "vaca"
+  },
+  {
+   "id": "ca_escritura_l2_w002",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "places",
+   "hint": "ç → c",
+   "explanation": "plaça → places",
+   "word": "plaça"
+  },
+  {
+   "id": "ca_escritura_l2_w003",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "peixos",
+   "hint": "Acaba en -os",
+   "explanation": "peix → peixos",
+   "word": "peix"
+  },
+  {
+   "id": "ca_escritura_l2_w004",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "gossos",
+   "hint": "Dues s",
+   "explanation": "gos → gossos",
+   "word": "gos"
+  },
+  {
+   "id": "ca_escritura_l2_w005",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "camions",
+   "hint": "Perd l'accent",
+   "explanation": "camió → camions",
+   "word": "camió"
+  },
+  {
+   "id": "ca_escritura_l2_w006",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escriu el femení de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "amiga",
+   "hint": "c → g",
+   "explanation": "amic → amiga",
+   "word": "amic"
+  },
+  {
+   "id": "ca_escritura_l2_d001",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El xiquet menja peix.",
+   "hint": "Té 4 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "El xiquet menja peix."
+  },
+  {
+   "id": "ca_escritura_l2_d002",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La platja té molta arena.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "La platja té molta arena."
+  },
+  {
+   "id": "ca_escritura_l2_d003",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Tinc una caixa de colors.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Tinc una caixa de colors."
+  },
+  {
+   "id": "ca_escritura_l2_d004",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El cotxe de ma mare és roig.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "El cotxe de ma mare és roig."
+  },
+  {
+   "id": "ca_escritura_l2_d005",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Les vaques mengen herba.",
+   "hint": "Té 4 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Les vaques mengen herba."
+  },
+  {
+   "id": "ca_escritura_l2_d006",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Cada any anem a la muntanya.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Cada any anem a la muntanya."
+  },
+  {
+   "id": "ca_escritura_l2_d007",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El conill bota pel camp.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "El conill bota pel camp."
+  },
+  {
+   "id": "ca_escritura_l2_d008",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Ma germana llig un conte.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Ma germana llig un conte."
+  },
+  {
+   "id": "ca_escritura_l2_o001",
+   "module": "escritura",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "L'ànec",
+    "nada",
+    "a",
+    "la",
+    "bassa."
+   ],
+   "correctOrder": [
+    "L'ànec",
+    "nada",
+    "a",
+    "la",
+    "bassa."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "L'ànec nada a la bassa."
+  },
+  {
+   "id": "ca_escritura_l2_o002",
+   "module": "escritura",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Em",
+    "pots",
+    "ajudar?"
+   ],
+   "correctOrder": [
+    "Em",
+    "pots",
+    "ajudar?"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Em pots ajudar?"
+  },
+  {
+   "id": "ca_escritura_l2_o003",
+   "module": "escritura",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Ella",
+    "té",
+    "una",
+    "gata",
+    "negra."
+   ],
+   "correctOrder": [
+    "Ella",
+    "té",
+    "una",
+    "gata",
+    "negra."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ella té una gata negra."
+  },
+  {
+   "id": "ca_escritura_l2_o004",
+   "module": "escritura",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Hui",
+    "dinem",
+    "paella."
+   ],
+   "correctOrder": [
+    "Hui",
+    "dinem",
+    "paella."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Hui dinem paella."
+  },
+  {
+   "id": "ca_escritura_l2_o005",
+   "module": "escritura",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "El",
+    "meu",
+    "amic",
+    "viu",
+    "ací."
+   ],
+   "correctOrder": [
+    "El",
+    "meu",
+    "amic",
+    "viu",
+    "ací."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El meu amic viu ací."
+  },
+  {
+   "id": "ca_escritura_l2_o006",
+   "module": "escritura",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "La",
+    "granota",
+    "bota",
+    "molt."
+   ],
+   "correctOrder": [
+    "La",
+    "granota",
+    "bota",
+    "molt."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La granota bota molt."
+  },
+  {
+   "id": "ca_escritura_l3_m001",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "On va l'apòstrof?",
+   "options": [
+    "el arbre",
+    "l arbre",
+    "larbre",
+    "l'arbre"
+   ],
+   "correct": 3,
+   "explanation": "Davant de vocal, «el» s'apostrofa: l'arbre."
+  },
+  {
+   "id": "ca_escritura_l3_m002",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "On va l'apòstrof?",
+   "options": [
+    "làvia",
+    "la àvia",
+    "l'àvia",
+    "l àvia"
+   ],
+   "correct": 2,
+   "explanation": "Davant de vocal tònica, «la» s'apostrofa: l'àvia."
+  },
+  {
+   "id": "ca_escritura_l3_m003",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina forma és correcta?",
+   "options": [
+    "launiversitat",
+    "le universitat",
+    "l'universitat",
+    "la universitat"
+   ],
+   "correct": 3,
+   "explanation": "Davant de u- àtona, «la» no s'apostrofa."
+  },
+  {
+   "id": "ca_escritura_l3_m004",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina forma és correcta?",
+   "options": [
+    "un got de aigua",
+    "un got d'aigua",
+    "un got daigua",
+    "un got d' aigua"
+   ],
+   "correct": 1,
+   "explanation": "Davant de vocal, «de» s'apostrofa."
+  },
+  {
+   "id": "ca_escritura_l3_m005",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina contracció és correcta?",
+   "options": [
+    "Vaig a el parc.",
+    "Vaig a'l parc.",
+    "Vaig el parc.",
+    "Vaig al parc."
+   ],
+   "correct": 3,
+   "explanation": "a + el = al."
+  },
+  {
+   "id": "ca_escritura_l3_m006",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina contracció és correcta?",
+   "options": [
+    "Vinc d'el mercat.",
+    "Vinc del mercat.",
+    "Vinc dels mercat.",
+    "Vinc de el mercat."
+   ],
+   "correct": 1,
+   "explanation": "de + el = del."
+  },
+  {
+   "id": "ca_escritura_l3_m007",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina contracció és correcta?",
+   "options": [
+    "Passegem pel parc.",
+    "Passegem per el parc.",
+    "Passegem pe'l parc.",
+    "Passegem pels parc."
+   ],
+   "correct": 0,
+   "explanation": "per + el = pel."
+  },
+  {
+   "id": "ca_escritura_l3_m008",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Este regal és ___ tu.»",
+   "options": [
+    "per",
+    "per a",
+    "pera",
+    "pa"
+   ],
+   "correct": 1,
+   "explanation": "«per a» indica destinatari."
+  },
+  {
+   "id": "ca_escritura_l3_m009",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Gràcies ___ ajudar-me.»",
+   "options": [
+    "per a",
+    "per",
+    "pera",
+    "pa"
+   ],
+   "correct": 1,
+   "explanation": "«per» indica causa."
+  },
+  {
+   "id": "ca_escritura_l3_m010",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta accent?",
+   "options": [
+    "cami",
+    "camió",
+    "camio",
+    "camion"
+   ],
+   "correct": 1,
+   "explanation": "Les agudes acabades en vocal porten accent: camió."
+  },
+  {
+   "id": "ca_escritura_l3_m011",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO porta accent?",
+   "options": [
+    "sofà",
+    "cafè",
+    "rellotge",
+    "camió"
+   ],
+   "correct": 2,
+   "explanation": "rellotge és plana acabada en -e: no porta accent."
+  },
+  {
+   "id": "ca_escritura_l3_m012",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta accent obert (`)?",
+   "options": [
+    "café",
+    "anglés",
+    "també",
+    "sofà"
+   ],
+   "correct": 3,
+   "explanation": "La a sempre porta accent obert: sofà."
+  },
+  {
+   "id": "ca_escritura_l3_m013",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta dièresi?",
+   "options": [
+    "raïm",
+    "raím",
+    "rahim",
+    "raim"
+   ],
+   "correct": 0,
+   "explanation": "La dièresi separa la a i la i: ra-ïm."
+  },
+  {
+   "id": "ca_escritura_l3_m014",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta dièresi?",
+   "options": [
+    "pinguí",
+    "pingui",
+    "pingüí",
+    "pingüi"
+   ],
+   "correct": 2,
+   "explanation": "La dièresi fa sonar la u: pingüí."
+  },
+  {
+   "id": "ca_escritura_l3_m015",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu?",
+   "options": [
+    "canço",
+    "cansó",
+    "canzó",
+    "cançó"
+   ],
+   "correct": 3,
+   "explanation": "ç davant de o."
+  },
+  {
+   "id": "ca_escritura_l3_m016",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu?",
+   "options": [
+    "dotce",
+    "dodze",
+    "dotze",
+    "doce"
+   ],
+   "correct": 2,
+   "explanation": "tz entre vocals."
+  },
+  {
+   "id": "ca_escritura_l3_m017",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu?",
+   "options": [
+    "zero",
+    "sero",
+    "cero",
+    "çero"
+   ],
+   "correct": 0,
+   "explanation": "z al principi."
+  },
+  {
+   "id": "ca_escritura_l3_m018",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu?",
+   "options": [
+    "caçola",
+    "cassola",
+    "cazola",
+    "casola"
+   ],
+   "correct": 1,
+   "explanation": "Entre vocals, el so /s/ sord s'escriu ss."
+  },
+  {
+   "id": "ca_escritura_l3_m019",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu?",
+   "options": [
+    "posar",
+    "pozar",
+    "poçar",
+    "possar"
+   ],
+   "correct": 0,
+   "explanation": "Entre vocals, el so /z/ sonor s'escriu s."
+  },
+  {
+   "id": "ca_escritura_l3_m020",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina frase té bé la puntuació?",
+   "options": [
+    "Ostres, que bonic!",
+    "¡Ostres, que bonic!",
+    "Ostres que bonic.",
+    "Ostres, que bonic?"
+   ],
+   "correct": 0,
+   "explanation": "En valencià l'exclamació només va al final."
+  },
+  {
+   "id": "ca_escritura_l3_m021",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina enumeració està ben puntuada?",
+   "options": [
+    "He comprat ous llet i pa.",
+    "He comprat, ous, llet, i, pa.",
+    "He comprat ous llet, i pa.",
+    "He comprat ous, llet i pa."
+   ],
+   "correct": 3,
+   "explanation": "Les comes separen els elements d'una llista."
+  },
+  {
+   "id": "ca_escritura_l3_m022",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "gitarra",
+    "güitarra",
+    "guitarra",
+    "guiterra"
+   ],
+   "correct": 2,
+   "explanation": "gui: la u no sona però s'escriu."
+  },
+  {
+   "id": "ca_escritura_l3_m023",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "aygua",
+    "aigüa",
+    "agua",
+    "aigua"
+   ],
+   "correct": 3,
+   "explanation": "ai-gua."
+  },
+  {
+   "id": "ca_escritura_l3_m024",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina forma verbal és valenciana?",
+   "options": [
+    "Jo canti.",
+    "Jo canto.",
+    "Jo cante.",
+    "Jo cantu."
+   ],
+   "correct": 2,
+   "explanation": "En valencià: jo cante."
+  },
+  {
+   "id": "ca_escritura_l3_w001",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escriu la forma apostrofada",
+   "options": [],
+   "correct": 0,
+   "answer": "l'arbre",
+   "hint": "Usa l'apòstrof",
+   "explanation": "el arbre → l'arbre",
+   "word": "el + arbre"
+  },
+  {
+   "id": "ca_escritura_l3_w002",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escriu la forma apostrofada",
+   "options": [],
+   "correct": 0,
+   "answer": "d'aigua",
+   "hint": "Usa l'apòstrof",
+   "explanation": "de aigua → d'aigua",
+   "word": "de + aigua"
+  },
+  {
+   "id": "ca_escritura_l3_w003",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escriu la contracció",
+   "options": [],
+   "correct": 0,
+   "answer": "al",
+   "hint": "Són dues lletres",
+   "explanation": "a + el = al",
+   "word": "a + el"
+  },
+  {
+   "id": "ca_escritura_l3_w004",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escriu la contracció",
+   "options": [],
+   "correct": 0,
+   "answer": "dels",
+   "hint": "Són quatre lletres",
+   "explanation": "de + els = dels",
+   "word": "de + els"
+  },
+  {
+   "id": "ca_escritura_l3_w005",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "pluges",
+   "hint": "j → g",
+   "explanation": "pluja → pluges",
+   "word": "pluja"
+  },
+  {
+   "id": "ca_escritura_l3_w006",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "amigues",
+   "hint": "g → gu",
+   "explanation": "amiga → amigues",
+   "word": "amiga"
+  },
+  {
+   "id": "ca_escritura_l3_d001",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hui hem fet una cançó molt bonica.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Hui hem fet una cançó molt bonica."
+  },
+  {
+   "id": "ca_escritura_l3_d002",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La plaça del poble és gran.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "La plaça del poble és gran."
+  },
+  {
+   "id": "ca_escritura_l3_d003",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Tinc dotze llapis de colors.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Tinc dotze llapis de colors."
+  },
+  {
+   "id": "ca_escritura_l3_d004",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'àvia fa una cassola d'arròs.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "L'àvia fa una cassola d'arròs."
+  },
+  {
+   "id": "ca_escritura_l3_d005",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El camió porta taronges.",
+   "hint": "Té 4 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "El camió porta taronges."
+  },
+  {
+   "id": "ca_escritura_l3_d006",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Anem al mercat a comprar pa.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Anem al mercat a comprar pa."
+  },
+  {
+   "id": "ca_escritura_l3_d007",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El pingüí viu en un lloc fred.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "El pingüí viu en un lloc fred."
+  },
+  {
+   "id": "ca_escritura_l3_d008",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Vull un got d'aigua fresca.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Vull un got d'aigua fresca."
+  },
+  {
+   "id": "ca_escritura_l3_o001",
+   "module": "escritura",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Diumenge",
+    "vam",
+    "anar",
+    "a",
+    "la",
+    "platja."
+   ],
+   "correctOrder": [
+    "Diumenge",
+    "vam",
+    "anar",
+    "a",
+    "la",
+    "platja."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Diumenge vam anar a la platja."
+  },
+  {
+   "id": "ca_escritura_l3_o002",
+   "module": "escritura",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "On",
+    "l'has",
+    "trobat?"
+   ],
+   "correctOrder": [
+    "On",
+    "l'has",
+    "trobat?"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "On l'has trobat?"
+  },
+  {
+   "id": "ca_escritura_l3_o003",
+   "module": "escritura",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Els",
+    "xiquets",
+    "juguen",
+    "a",
+    "la",
+    "pluja."
+   ],
+   "correctOrder": [
+    "Els",
+    "xiquets",
+    "juguen",
+    "a",
+    "la",
+    "pluja."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Els xiquets juguen a la pluja."
+  },
+  {
+   "id": "ca_escritura_l3_o004",
+   "module": "escritura",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "L'àvia",
+    "fa",
+    "els",
+    "millors",
+    "pastissos."
+   ],
+   "correctOrder": [
+    "L'àvia",
+    "fa",
+    "els",
+    "millors",
+    "pastissos."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "L'àvia fa els millors pastissos."
+  },
+  {
+   "id": "ca_escritura_l3_o005",
+   "module": "escritura",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Sent",
+    "arribar",
+    "el",
+    "tren."
+   ],
+   "correctOrder": [
+    "Sent",
+    "arribar",
+    "el",
+    "tren."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Sent arribar el tren."
+  },
+  {
+   "id": "ca_escritura_l3_o006",
+   "module": "escritura",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Es",
+    "posen",
+    "els",
+    "abrics."
+   ],
+   "correctOrder": [
+    "Es",
+    "posen",
+    "els",
+    "abrics."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Es posen els abrics."
+  },
+  {
+   "id": "ca_escritura_l4_m001",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Ell ___ un gos.»",
+   "options": [
+    "te",
+    "tée",
+    "tè",
+    "té"
+   ],
+   "correct": 3,
+   "explanation": "té (verb tindre) porta accent; te és pronom."
+  },
+  {
+   "id": "ca_escritura_l4_m002",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «___ porte un regal.»",
+   "options": [
+    "Tè",
+    "Te",
+    "Tée",
+    "Té"
+   ],
+   "correct": 1,
+   "explanation": "te (pronom) no porta accent."
+  },
+  {
+   "id": "ca_escritura_l4_m003",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «La meua germana ___ alta.»",
+   "options": [
+    "és",
+    "éss",
+    "ès",
+    "es"
+   ],
+   "correct": 0,
+   "explanation": "és (verb ser) porta accent."
+  },
+  {
+   "id": "ca_escritura_l4_m004",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Ell ___ renta les mans.»",
+   "options": [
+    "ess",
+    "ès",
+    "és",
+    "es"
+   ],
+   "correct": 3,
+   "explanation": "es (pronom) no porta accent."
+  },
+  {
+   "id": "ca_escritura_l4_m005",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Vull ___ pa, per favor.»",
+   "options": [
+    "méss",
+    "mes",
+    "més",
+    "mès"
+   ],
+   "correct": 2,
+   "explanation": "més (quantitat) porta accent; mes és un període de temps."
+  },
+  {
+   "id": "ca_escritura_l4_m006",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Gener és el primer ___ de l'any.»",
+   "options": [
+    "mès",
+    "més",
+    "méss",
+    "mes"
+   ],
+   "correct": 3,
+   "explanation": "mes (de l'any) no porta accent."
+  },
+  {
+   "id": "ca_escritura_l4_m007",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Ells ___ germans.»",
+   "options": [
+    "son",
+    "sónn",
+    "són",
+    "sòn"
+   ],
+   "correct": 2,
+   "explanation": "són (verb ser) porta accent; son és somni."
+  },
+  {
+   "id": "ca_escritura_l4_m008",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Tinc molta ___.»",
+   "options": [
+    "són",
+    "sòn",
+    "son",
+    "sónn"
+   ],
+   "correct": 2,
+   "explanation": "son (ganes de dormir) no porta accent."
+  },
+  {
+   "id": "ca_escritura_l4_m009",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «No ___ la resposta.»",
+   "options": [
+    "sée",
+    "sé",
+    "sè",
+    "se"
+   ],
+   "correct": 1,
+   "explanation": "sé (verb saber) porta accent."
+  },
+  {
+   "id": "ca_escritura_l4_m010",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «El gat té el ___ suau.»",
+   "options": [
+    "pél",
+    "pèll",
+    "pèl",
+    "pel"
+   ],
+   "correct": 2,
+   "explanation": "pèl (cabell) porta accent; pel és per + el."
+  },
+  {
+   "id": "ca_escritura_l4_m011",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «___, vull un gelat.»",
+   "options": [
+    "Si",
+    "Sì",
+    "Síi",
+    "Sí"
+   ],
+   "correct": 3,
+   "explanation": "sí (afirmació) porta accent; si (condició) no en porta."
+  },
+  {
+   "id": "ca_escritura_l4_m012",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «___ de fer els deures.»",
+   "options": [
+    "Em",
+    "Emm",
+    "Hem",
+    "Hém"
+   ],
+   "correct": 2,
+   "explanation": "Hem (verb haver) porta h."
+  },
+  {
+   "id": "ca_escritura_l4_m013",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Joan ___ menjat.»",
+   "options": [
+    "a",
+    "ha",
+    "há",
+    "ah"
+   ],
+   "correct": 1,
+   "explanation": "ha (verb haver) porta h; a és preposició."
+  },
+  {
+   "id": "ca_escritura_l4_m014",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Vaig ___ l'escola.»",
+   "options": [
+    "ah",
+    "hà",
+    "ha",
+    "a"
+   ],
+   "correct": 3,
+   "explanation": "a és preposició: vaig a l'escola."
+  },
+  {
+   "id": "ca_escritura_l4_m015",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «En la caixa ___ ha pomes.»",
+   "options": [
+    "i",
+    "hy",
+    "hi",
+    "y"
+   ],
+   "correct": 2,
+   "explanation": "hi ha porta h."
+  },
+  {
+   "id": "ca_escritura_l4_m016",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Pomes ___ peres.»",
+   "options": [
+    "hi",
+    "hy",
+    "i",
+    "y"
+   ],
+   "correct": 2,
+   "explanation": "i (conjunció) no porta h."
+  },
+  {
+   "id": "ca_escritura_l4_m017",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta ela geminada?",
+   "options": [
+    "colleg·i",
+    "col.legi",
+    "col·legi",
+    "colegi"
+   ],
+   "correct": 2,
+   "explanation": "col·legi: ela geminada (l·l)."
+  },
+  {
+   "id": "ca_escritura_l4_m018",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta ela geminada?",
+   "options": [
+    "illusió",
+    "ilusió",
+    "il.lusió",
+    "il·lusió"
+   ],
+   "correct": 3,
+   "explanation": "il·lusió."
+  },
+  {
+   "id": "ca_escritura_l4_m019",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "pel·licula",
+    "pel·lícula",
+    "pellícula",
+    "película"
+   ],
+   "correct": 1,
+   "explanation": "pel·lícula: ela geminada i accent."
+  },
+  {
+   "id": "ca_escritura_l4_m020",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "tranquil·a",
+    "tranquilla",
+    "tranquil·la",
+    "tranquila"
+   ],
+   "correct": 2,
+   "explanation": "tranquil·la: ela geminada."
+  },
+  {
+   "id": "ca_escritura_l4_m021",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "herba",
+    "herva",
+    "hierba",
+    "erba"
+   ],
+   "correct": 0,
+   "explanation": "herba porta h."
+  },
+  {
+   "id": "ca_escritura_l4_m022",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "hivern",
+    "hiver",
+    "invern",
+    "ivern"
+   ],
+   "correct": 0,
+   "explanation": "hivern porta h."
+  },
+  {
+   "id": "ca_escritura_l4_m023",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "istòria",
+    "història",
+    "hystòria",
+    "històría"
+   ],
+   "correct": 1,
+   "explanation": "història: h i accent obert."
+  },
+  {
+   "id": "ca_escritura_l4_m024",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina frase és correcta?",
+   "options": [
+    "I ha menys cotxes hui.",
+    "Hi ha menys cotxes hui.",
+    "Hi ha menys cotxes ui.",
+    "Hi han menys cotxes hui."
+   ],
+   "correct": 1,
+   "explanation": "hi ha (sempre en singular)."
+  },
+  {
+   "id": "ca_escritura_l4_w001",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escriu el femení amb ela geminada",
+   "options": [],
+   "correct": 0,
+   "answer": "tranquil·la",
+   "hint": "Usa l·l",
+   "explanation": "tranquil → tranquil·la",
+   "word": "tranquil"
+  },
+  {
+   "id": "ca_escritura_l4_w002",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "col·legis",
+   "hint": "Afegix una lletra",
+   "explanation": "col·legi → col·legis",
+   "word": "col·legi"
+  },
+  {
+   "id": "ca_escritura_l4_w003",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escriu el plural de la paraula",
+   "options": [],
+   "correct": 0,
+   "answer": "lleons",
+   "hint": "Perd l'accent",
+   "explanation": "lleó → lleons",
+   "word": "lleó"
+  },
+  {
+   "id": "ca_escritura_l4_w004",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escriu el diminutiu",
+   "options": [],
+   "correct": 0,
+   "answer": "gatet",
+   "hint": "Acaba en -et",
+   "explanation": "gat → gatet",
+   "word": "gat"
+  },
+  {
+   "id": "ca_escritura_l4_w005",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escriu el contrari amb un prefix",
+   "options": [],
+   "correct": 0,
+   "answer": "infeliç",
+   "hint": "Usa in-",
+   "explanation": "feliç → infeliç",
+   "word": "feliç"
+  },
+  {
+   "id": "ca_escritura_l4_w006",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escriu el contrari amb un prefix",
+   "options": [],
+   "correct": 0,
+   "answer": "impossible",
+   "hint": "Usa im-",
+   "explanation": "possible → impossible",
+   "word": "possible"
+  },
+  {
+   "id": "ca_escritura_l4_d001",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Al col·legi hem vist una pel·lícula.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Al col·legi hem vist una pel·lícula."
+  },
+  {
+   "id": "ca_escritura_l4_d002",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hi ha herba a l'hort de l'avi.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Hi ha herba a l'hort de l'avi."
+  },
+  {
+   "id": "ca_escritura_l4_d003",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La meua veïna té un gat negre.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "La meua veïna té un gat negre."
+  },
+  {
+   "id": "ca_escritura_l4_d004",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "A l'hivern fa fred i plou.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "A l'hivern fa fred i plou."
+  },
+  {
+   "id": "ca_escritura_l4_d005",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Esta història és molt antiga.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Esta història és molt antiga."
+  },
+  {
+   "id": "ca_escritura_l4_d006",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El raïm és la fruita de la tardor.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "El raïm és la fruita de la tardor."
+  },
+  {
+   "id": "ca_escritura_l4_d007",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Tinc la il·lusió de viatjar.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Tinc la il·lusió de viatjar."
+  },
+  {
+   "id": "ca_escritura_l4_d008",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Ell té un pèl molt suau.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Ell té un pèl molt suau."
+  },
+  {
+   "id": "ca_escritura_l4_o001",
+   "module": "escritura",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Després",
+    "de",
+    "l'escola,",
+    "vam",
+    "anar",
+    "a",
+    "la",
+    "biblioteca."
+   ],
+   "correctOrder": [
+    "Després",
+    "de",
+    "l'escola,",
+    "vam",
+    "anar",
+    "a",
+    "la",
+    "biblioteca."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Després de l'escola, vam anar a la biblioteca."
+  },
+  {
+   "id": "ca_escritura_l4_o002",
+   "module": "escritura",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "El",
+    "cavall",
+    "té",
+    "set."
+   ],
+   "correctOrder": [
+    "El",
+    "cavall",
+    "té",
+    "set."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El cavall té set."
+  },
+  {
+   "id": "ca_escritura_l4_o003",
+   "module": "escritura",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "El",
+    "germà",
+    "de",
+    "Pau",
+    "ha",
+    "guanyat."
+   ],
+   "correctOrder": [
+    "El",
+    "germà",
+    "de",
+    "Pau",
+    "ha",
+    "guanyat."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El germà de Pau ha guanyat."
+  },
+  {
+   "id": "ca_escritura_l4_o004",
+   "module": "escritura",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Demà",
+    "plourà",
+    "molt."
+   ],
+   "correctOrder": [
+    "Demà",
+    "plourà",
+    "molt."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Demà plourà molt."
+  },
+  {
+   "id": "ca_escritura_l4_o005",
+   "module": "escritura",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "De",
+    "qui",
+    "és",
+    "esta",
+    "motxilla?"
+   ],
+   "correctOrder": [
+    "De",
+    "qui",
+    "és",
+    "esta",
+    "motxilla?"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "De qui és esta motxilla?"
+  },
+  {
+   "id": "ca_escritura_l4_o006",
+   "module": "escritura",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Ella",
+    "va",
+    "caminar",
+    "a",
+    "poc",
+    "a",
+    "poc."
+   ],
+   "correctOrder": [
+    "Ella",
+    "va",
+    "caminar",
+    "a",
+    "poc",
+    "a",
+    "poc."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ella va caminar a poc a poc."
+  },
+  {
+   "id": "ca_escritura_l5_m001",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina forma és la valenciana?",
+   "options": [
+    "anglesh",
+    "anglés",
+    "angles",
+    "englés"
+   ],
+   "correct": 1,
+   "explanation": "En valencià, accent tancat: anglés."
+  },
+  {
+   "id": "ca_escritura_l5_m002",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina forma és la valenciana?",
+   "options": [
+    "conéixer",
+    "conocer",
+    "coneixer",
+    "conéxer"
+   ],
+   "correct": 0,
+   "explanation": "En valencià, accent tancat: conéixer."
+  },
+  {
+   "id": "ca_escritura_l5_m003",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina forma és la valenciana?",
+   "options": [
+    "cinque",
+    "cinqué",
+    "cinkè",
+    "quinté"
+   ],
+   "correct": 1,
+   "explanation": "En valencià, accent tancat: cinqué."
+  },
+  {
+   "id": "ca_escritura_l5_m004",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina forma verbal és correcta?",
+   "options": [
+    "Ell lligen un conte.",
+    "Ell lleix un conte.",
+    "Ell llig un conte.",
+    "Ell llixc un conte."
+   ],
+   "correct": 2,
+   "explanation": "Verb llegir: ell llig."
+  },
+  {
+   "id": "ca_escritura_l5_m005",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina forma verbal és correcta?",
+   "options": [
+    "Ella servixen el dinar.",
+    "Ella servix el dinar.",
+    "Ella servisc el dinar.",
+    "Ella sirve el dinar."
+   ],
+   "correct": 1,
+   "explanation": "Verb servir: ella servix."
+  },
+  {
+   "id": "ca_escritura_l5_m006",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina forma verbal és correcta?",
+   "options": [
+    "Nosaltres eixim prompte.",
+    "Nosaltres salim prompte.",
+    "Nosaltres eixem prompte.",
+    "Nosaltres ixim prompte."
+   ],
+   "correct": 0,
+   "explanation": "Verb eixir: nosaltres eixim."
+  },
+  {
+   "id": "ca_escritura_l5_m007",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina forma verbal és correcta?",
+   "options": [
+    "Vosaltres veniu a casa.",
+    "Vosaltres vens a casa.",
+    "Vosaltres veníu a casa.",
+    "Vosaltres venen a casa."
+   ],
+   "correct": 0,
+   "explanation": "Verb vindre: vosaltres veniu."
+  },
+  {
+   "id": "ca_escritura_l5_m008",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta accent?",
+   "options": [
+    "músic",
+    "música",
+    "musica",
+    "musicà"
+   ],
+   "correct": 1,
+   "explanation": "Les esdrúixoles sempre porten accent: mú-si-ca."
+  },
+  {
+   "id": "ca_escritura_l5_m009",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta accent?",
+   "options": [
+    "pàgina",
+    "pagina",
+    "paginà",
+    "pagína"
+   ],
+   "correct": 0,
+   "explanation": "Les esdrúixoles sempre porten accent: pà-gi-na."
+  },
+  {
+   "id": "ca_escritura_l5_m010",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "exàmen",
+    "exámen",
+    "examén",
+    "examen"
+   ],
+   "correct": 3,
+   "explanation": "Compte: examen és plana acabada en -en i no porta accent."
+  },
+  {
+   "id": "ca_escritura_l5_m011",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta accent?",
+   "options": [
+    "telefon",
+    "telèfon",
+    "teléfon",
+    "telefòn"
+   ],
+   "correct": 1,
+   "explanation": "Plana que no acaba en vocal, -es, -is, -en ni -in: porta accent."
+  },
+  {
+   "id": "ca_escritura_l5_m012",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina frase usa bé els dos punts?",
+   "options": [
+    "Necessitaràs un: llapis.",
+    "Necessitaràs: un llapis, un regle i una goma.",
+    "Necessitaràs un llapis: un regle i una goma.",
+    "Necessitaràs: un llapis: un regle i una goma."
+   ],
+   "correct": 1,
+   "explanation": "Els dos punts poden introduir una llista."
+  },
+  {
+   "id": "ca_escritura_l5_m013",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina frase usa bé els parèntesis?",
+   "options": [
+    "El meu oncle (que viu a Alcoi) és cuiner.",
+    "El meu oncle que (viu a Alcoi) és cuiner.",
+    "El meu oncle que viu a Alcoi (és cuiner.",
+    "El meu (oncle que viu) a Alcoi és cuiner."
+   ],
+   "correct": 0,
+   "explanation": "Els parèntesis tanquen informació extra."
+  },
+  {
+   "id": "ca_escritura_l5_m014",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina frase usa bé el guionet?",
+   "options": [
+    "Dona-mela.",
+    "Dona-me-la.",
+    "Dona me la.",
+    "Donamela."
+   ],
+   "correct": 1,
+   "explanation": "Els pronoms darrere del verb van amb guionet."
+  },
+  {
+   "id": "ca_escritura_l5_m015",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "nessesitat",
+    "necesitat",
+    "necessitat",
+    "neccessitat"
+   ],
+   "correct": 2,
+   "explanation": "ne-ces-si-tat: c i després ss."
+  },
+  {
+   "id": "ca_escritura_l5_m016",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "exercisi",
+    "exercici",
+    "ejercici",
+    "exercící"
+   ],
+   "correct": 1,
+   "explanation": "e-xer-ci-ci."
+  },
+  {
+   "id": "ca_escritura_l5_m017",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "excurssió",
+    "excursio",
+    "excursió",
+    "escursió"
+   ],
+   "correct": 2,
+   "explanation": "ex-cur-si-ó."
+  },
+  {
+   "id": "ca_escritura_l5_m018",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "qüestionari",
+    "cuestionari",
+    "qüestionàri",
+    "questionari"
+   ],
+   "correct": 0,
+   "explanation": "La dièresi fa sonar la u."
+  },
+  {
+   "id": "ca_escritura_l5_m019",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "inteligència",
+    "intel·ligencia",
+    "intel·ligència",
+    "intelligència"
+   ],
+   "correct": 2,
+   "explanation": "Ela geminada i accent obert."
+  },
+  {
+   "id": "ca_escritura_l5_m020",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "ajuntament",
+    "ayuntament",
+    "ajutament",
+    "ajuntamen"
+   ],
+   "correct": 0,
+   "explanation": "a-jun-ta-ment."
+  },
+  {
+   "id": "ca_escritura_l5_m021",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "biblioteca",
+    "bibliotèca",
+    "vibloteca",
+    "biblioteka"
+   ],
+   "correct": 0,
+   "explanation": "bi-bli-o-te-ca."
+  },
+  {
+   "id": "ca_escritura_l5_m022",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "dissapte",
+    "disabte",
+    "dissàbte",
+    "dissabte"
+   ],
+   "correct": 3,
+   "explanation": "dis-sab-te."
+  },
+  {
+   "id": "ca_escritura_l5_m023",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Este pastís és boníssim; ___ el vull tot.»",
+   "options": [
+    "per a",
+    "pera",
+    "per això",
+    "perquè"
+   ],
+   "correct": 2,
+   "explanation": "«per això» introduïx una conseqüència."
+  },
+  {
+   "id": "ca_escritura_l5_m024",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina frase és correcta?",
+   "options": [
+    "Ni Pau o Marc hi eren.",
+    "Ni Pau ni Marc hi eren.",
+    "Ni Pau ni Marc i eren.",
+    "Ni Pau ni Marc hi era."
+   ],
+   "correct": 1,
+   "explanation": "ni ... ni ..., i el pronom hi porta h."
+  },
+  {
+   "id": "ca_escritura_l5_w001",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escriu el nom que ve del verb",
+   "options": [],
+   "correct": 0,
+   "answer": "decisió",
+   "hint": "Acaba en -ció o -sió",
+   "explanation": "decidir → decisió",
+   "word": "decidir"
+  },
+  {
+   "id": "ca_escritura_l5_w002",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escriu el nom que ve del verb",
+   "options": [],
+   "correct": 0,
+   "answer": "invenció",
+   "hint": "Acaba en -ció",
+   "explanation": "inventar → invenció",
+   "word": "inventar",
+   "acceptableAnswers": [
+    "invent"
+   ]
+  },
+  {
+   "id": "ca_escritura_l5_w003",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escriu l'adjectiu que ve del nom",
+   "options": [],
+   "correct": 0,
+   "answer": "perillós",
+   "hint": "Acaba en -ós",
+   "explanation": "perill → perillós",
+   "word": "perill"
+  },
+  {
+   "id": "ca_escritura_l5_w004",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escriu el femení de l'adjectiu",
+   "options": [],
+   "correct": 0,
+   "answer": "perillosa",
+   "hint": "Perd l'accent",
+   "explanation": "perillós → perillosa",
+   "word": "perillós"
+  },
+  {
+   "id": "ca_escritura_l5_w005",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escriu el contrari amb un prefix",
+   "options": [],
+   "correct": 0,
+   "answer": "il·legal",
+   "hint": "Usa il- (amb ela geminada)",
+   "explanation": "legal → il·legal",
+   "word": "legal"
+  },
+  {
+   "id": "ca_escritura_l5_w006",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escriu la forma de primera persona",
+   "options": [],
+   "correct": 0,
+   "answer": "cante",
+   "hint": "Jo ...",
+   "explanation": "jo cante",
+   "word": "cantar"
+  },
+  {
+   "id": "ca_escritura_l5_d001",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El meu cosí estudia anglés i francés.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "El meu cosí estudia anglés i francés."
+  },
+  {
+   "id": "ca_escritura_l5_d002",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Vull conéixer la història de València.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Vull conéixer la història de València."
+  },
+  {
+   "id": "ca_escritura_l5_d003",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La música ens fa sentir bé.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "La música ens fa sentir bé."
+  },
+  {
+   "id": "ca_escritura_l5_d004",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Dissabte anirem d'excursió a la muntanya.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Dissabte anirem d'excursió a la muntanya."
+  },
+  {
+   "id": "ca_escritura_l5_d005",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La biblioteca obri a les deu del matí.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "La biblioteca obri a les deu del matí."
+  },
+  {
+   "id": "ca_escritura_l5_d006",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Ella llig una pàgina cada nit.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Ella llig una pàgina cada nit."
+  },
+  {
+   "id": "ca_escritura_l5_d007",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Necessitem exercici per a estar sans.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "Necessitem exercici per a estar sans."
+  },
+  {
+   "id": "ca_escritura_l5_d008",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'aqüeducte romà és molt antic.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi i el punt del final.",
+   "dictation": true,
+   "word": "L'aqüeducte romà és molt antic."
+  },
+  {
+   "id": "ca_escritura_l5_o001",
+   "module": "escritura",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Encara",
+    "que",
+    "era",
+    "tard,",
+    "vam",
+    "continuar",
+    "llegint."
+   ],
+   "correctOrder": [
+    "Encara",
+    "que",
+    "era",
+    "tard,",
+    "vam",
+    "continuar",
+    "llegint."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Encara que era tard, vam continuar llegint."
+  },
+  {
+   "id": "ca_escritura_l5_o002",
+   "module": "escritura",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "La",
+    "finestra",
+    "es",
+    "va",
+    "trencar",
+    "amb",
+    "la",
+    "pilota."
+   ],
+   "correctOrder": [
+    "La",
+    "finestra",
+    "es",
+    "va",
+    "trencar",
+    "amb",
+    "la",
+    "pilota."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La finestra es va trencar amb la pilota."
+  },
+  {
+   "id": "ca_escritura_l5_o003",
+   "module": "escritura",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "La",
+    "meua",
+    "tia,",
+    "que",
+    "és",
+    "metgessa,",
+    "viu",
+    "a",
+    "Elx."
+   ],
+   "correctOrder": [
+    "La",
+    "meua",
+    "tia,",
+    "que",
+    "és",
+    "metgessa,",
+    "viu",
+    "a",
+    "Elx."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La meua tia, que és metgessa, viu a Elx."
+  },
+  {
+   "id": "ca_escritura_l5_o004",
+   "module": "escritura",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Ni",
+    "Pau",
+    "ni",
+    "Marc",
+    "hi",
+    "eren."
+   ],
+   "correctOrder": [
+    "Ni",
+    "Pau",
+    "ni",
+    "Marc",
+    "hi",
+    "eren."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ni Pau ni Marc hi eren."
+  },
+  {
+   "id": "ca_escritura_l5_o005",
+   "module": "escritura",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Necessitem",
+    "farina,",
+    "ous",
+    "i",
+    "llet."
+   ],
+   "correctOrder": [
+    "Necessitem",
+    "farina,",
+    "ous",
+    "i",
+    "llet."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Necessitem farina, ous i llet."
+  },
+  {
+   "id": "ca_escritura_l5_o006",
+   "module": "escritura",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Malauradament,",
+    "la",
+    "botiga",
+    "estava",
+    "tancada."
+   ],
+   "correctOrder": [
+    "Malauradament,",
+    "la",
+    "botiga",
+    "estava",
+    "tancada."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Malauradament, la botiga estava tancada."
+  }
+ ]
+}

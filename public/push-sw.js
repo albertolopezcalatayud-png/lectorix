@@ -16,8 +16,8 @@ const TEXTS = {
   ca: {
     title: '📚 Hora de practicar!',
     body: 'Només 10 minuts al dia marquen la diferència.',
-    streakTitle: '🔥 No perdis la ratxa!',
-    streakBody: (n) => `Portes ${n} dies seguits. No ho deixis avui!`,
+    streakTitle: '🔥 No perdes la ratxa!',
+    streakBody: (n) => `Portes ${n} dies seguits. No ho deixes hui!`,
   },
   en: {
     title: '📚 Time to practice!',

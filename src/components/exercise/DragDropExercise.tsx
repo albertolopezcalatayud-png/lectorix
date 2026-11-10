@@ -155,7 +155,7 @@ function DragOrderExercise({
 
         {/* Preview of current order */}
         <div className="text-center">
-          <span className="text-sm text-fg-muted">Resultado: </span>
+          <span className="text-sm text-fg-muted">{t('ex_result')} </span>
           <span className="font-heading font-bold text-accent">{items.join(exercise.word ? '' : ' ')}</span>
         </div>
 
@@ -166,7 +166,7 @@ function DragOrderExercise({
             className="w-full py-3 rounded-xl bg-accent text-white font-heading font-bold text-base shadow-md"
             whileTap={{ scale: 0.97 }}
           >
-            Comprobar ✓
+            {t('ex_check')} ✓
           </motion.button>
         )}
 
@@ -371,7 +371,7 @@ function DragFillExercise({
             whileTap={allFilled ? { scale: 0.97 } : undefined}
             disabled={!allFilled}
           >
-            Comprobar ✓
+            {t('ex_check')} ✓
           </motion.button>
         )}
 

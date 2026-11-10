@@ -202,8 +202,8 @@ export default function Settings() {
                       className="w-full accent-accent"
                     />
                     <div className="flex justify-between text-[10px] text-fg-muted">
-                      <span>🐢 Lento</span>
-                      <span>🐇 Rápido</span>
+                      <span>{t('set_slow')}</span>
+                      <span>{t('set_fast')}</span>
                     </div>
                   </div>
                 )}

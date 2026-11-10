@@ -295,7 +295,7 @@
     "th",
     "teh",
     "the",
-    "thee"
+    "tthe"
    ],
    "correct": 2,
    "explanation": "t-h-e."
@@ -337,9 +337,9 @@
    "type": "multiple_choice",
    "prompt": "Which word is spelled correctly?",
    "options": [
-    "cum",
+    "kum",
     "kome",
-    "comm",
+    "cume",
     "come"
    ],
    "correct": 3,

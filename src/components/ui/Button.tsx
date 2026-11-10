@@ -1,5 +1,6 @@
 import { type ButtonHTMLAttributes, forwardRef } from 'react';
 import { motion } from 'framer-motion';
+import { useI18n } from '@/i18n';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'ghost' | 'danger';
@@ -23,6 +24,7 @@ const sizes = {
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ variant = 'primary', size = 'md', fullWidth, loading, children, className = '', disabled, ...props }, ref) => {
+    const { t } = useI18n();
     return (
       <motion.button
         ref={ref}
@@ -41,7 +43,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         {loading ? (
           <span className="flex items-center justify-center gap-2">
             <span className="w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin" />
-            Cargando...
+            {t('loading')}
           </span>
         ) : (
           children

@@ -434,6 +434,10 @@ export const es = {
   notif_streak_body: 'Sigue así, estás mejorando día a día.',
   notif_reminder_title: '📚 ¡Hora de practicar!',
   notif_reminder_body: 'Solo 10 minutos al día marcan la diferencia. ¡Vamos!',
+  ex_result: 'Resultado:',
+  set_slow: '🐢 Lento',
+  set_fast: '🐇 Rápido',
+  edit: 'Editar',
 } as const;
 
 export type TranslationKey = keyof typeof es;

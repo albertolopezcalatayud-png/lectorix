@@ -127,7 +127,7 @@
    "type": "multiple_choice",
    "prompt": "Which word is spelled correctly?",
    "options": [
-    "bas",
+    "buz",
     "dus",
     "bus",
     "bsu"
@@ -265,7 +265,7 @@
     "bidr",
     "bird",
     "brid",
-    "drib"
+    "bierd"
    ],
    "correct": 1,
    "explanation": "The correct spelling is 'bird'."
@@ -1586,7 +1586,7 @@
    "type": "multiple_choice",
    "prompt": "Choose the word that is spelled right:",
    "options": [
-    "homme",
+    "hoome",
     "home",
     "hom",
     "hoem"
@@ -2223,7 +2223,7 @@
    "options": [
     "mowse",
     "mouse",
-    "moues",
+    "mouce",
     "muose"
    ],
    "correct": 1,
@@ -2897,7 +2897,7 @@
     "lamb",
     "lmab",
     "lamd",
-    "lam"
+    "lambb"
    ],
    "correct": 0,
    "explanation": "The correct spelling is 'lamb'."

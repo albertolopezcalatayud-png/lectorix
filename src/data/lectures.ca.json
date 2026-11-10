@@ -1,1 +1,844 @@
-{"readings":[]}
+{
+ "readings": [
+  {
+   "id": "lectura_ca_l1_estel",
+   "level": 1,
+   "title": "L'estel roig",
+   "emoji": "🪁",
+   "text": "Pau té un estel roig. Hui fa vent. Pau i sa mare pugen a la muntanyeta. Pau solta l'estel. Amunt, amunt! L'estel vola alt en el cel. Pareix un ocellet. Pau està molt content.",
+   "questions": [
+    {
+     "id": "lectura_ca_l1_estel_q1",
+     "prompt": "De quin color és l'estel?",
+     "options": [
+      "Groc",
+      "Roig",
+      "Blau"
+     ],
+     "correct": 1,
+     "explanation": "«Pau té un estel roig.»"
+    },
+    {
+     "id": "lectura_ca_l1_estel_q2",
+     "prompt": "Amb qui puja Pau a la muntanyeta?",
+     "options": [
+      "Amb sa mare",
+      "Amb son pare",
+      "Amb un amic"
+     ],
+     "correct": 0,
+     "explanation": "«Pau i sa mare pugen a la muntanyeta.»"
+    },
+    {
+     "id": "lectura_ca_l1_estel_q3",
+     "prompt": "A què s'assembla l'estel?",
+     "options": [
+      "A un núvol",
+      "A un avió",
+      "A un ocellet"
+     ],
+     "correct": 2,
+     "explanation": "«Pareix un ocellet.»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l1_bassa",
+   "level": 1,
+   "title": "A la bassa",
+   "emoji": "🦆",
+   "text": "Laia i l'àvia van a la bassa. Porten pa per als ànecs. Un ànec gran i blanc nada cap a elles. Després arriben tres aneguets marrons. Laia els tira el pa. Els ànecs se'l mengen tot. Quec, quec!",
+   "questions": [
+    {
+     "id": "lectura_ca_l1_bassa_q1",
+     "prompt": "Què porten a la bassa?",
+     "options": [
+      "Pastís",
+      "Llavors",
+      "Pa"
+     ],
+     "correct": 2,
+     "explanation": "«Porten pa per als ànecs.»"
+    },
+    {
+     "id": "lectura_ca_l1_bassa_q2",
+     "prompt": "Quants aneguets arriben?",
+     "options": [
+      "Quatre",
+      "Tres",
+      "Dos"
+     ],
+     "correct": 1,
+     "explanation": "«arriben tres aneguets marrons»"
+    },
+    {
+     "id": "lectura_ca_l1_bassa_q3",
+     "prompt": "De quin color és l'ànec gran?",
+     "options": [
+      "Blanc",
+      "Negre",
+      "Marró"
+     ],
+     "correct": 0,
+     "explanation": "«Un ànec gran i blanc»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l1_bany",
+   "level": 1,
+   "title": "L'hora del bany",
+   "emoji": "🛁",
+   "text": "És l'hora del bany del gos Rufo. A Rufo no li agrada banyar-se. S'amaga davall del llit. Son pare el troba i el posa a la banyera. Xof! Ara Rufo està net. Es sacseja i son pare també s'esquitxa!",
+   "questions": [
+    {
+     "id": "lectura_ca_l1_bany_q1",
+     "prompt": "Qui és Rufo?",
+     "options": [
+      "Un gat",
+      "Un xiquet",
+      "Un gos"
+     ],
+     "correct": 2,
+     "explanation": "«el gos Rufo»"
+    },
+    {
+     "id": "lectura_ca_l1_bany_q2",
+     "prompt": "On s'amaga Rufo?",
+     "options": [
+      "Davall del llit",
+      "Darrere de la porta",
+      "Al jardí"
+     ],
+     "correct": 0,
+     "explanation": "«S'amaga davall del llit.»"
+    },
+    {
+     "id": "lectura_ca_l1_bany_q3",
+     "prompt": "Per què s'esquitxa son pare?",
+     "options": [
+      "Rufo es sacseja",
+      "Plou",
+      "Cau a la banyera"
+     ],
+     "correct": 0,
+     "explanation": "«Es sacseja i son pare també s'esquitxa!»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l1_neu",
+   "level": 1,
+   "title": "Un dia de neu",
+   "emoji": "⛄",
+   "text": "Quan Aitana es desperta, el jardí és blanc. Neva! Es posa la gorra de llana, la bufanda i els guants. Fa un ninot de neu amb son germà. Li posen una pastanaga de nas i dos pedres d'ulls.",
+   "questions": [
+    {
+     "id": "lectura_ca_l1_neu_q1",
+     "prompt": "Què veu Aitana quan es desperta?",
+     "options": [
+      "Sol",
+      "Neu",
+      "Pluja"
+     ],
+     "correct": 1,
+     "explanation": "«el jardí és blanc. Neva!»"
+    },
+    {
+     "id": "lectura_ca_l1_neu_q2",
+     "prompt": "Amb qui fa el ninot de neu?",
+     "options": [
+      "Amb son germà",
+      "Amb son pare",
+      "Amb sa germana"
+     ],
+     "correct": 0,
+     "explanation": "«amb son germà»"
+    },
+    {
+     "id": "lectura_ca_l1_neu_q3",
+     "prompt": "Què és el nas del ninot?",
+     "options": [
+      "Una pedra",
+      "Un botó",
+      "Una pastanaga"
+     ],
+     "correct": 2,
+     "explanation": "«una pastanaga de nas»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l2_ninot",
+   "level": 2,
+   "title": "El ninot perdut",
+   "emoji": "🧸",
+   "text": "Tornant de comprar, Lluc va perdre el seu ós de peluix. No se'n va adonar fins a l'hora de dormir. Estava molt trist i no podia agafar el son. L'endemà de matí, Lluc i son pare van tornar pel mateix carrer. Allí, assegut damunt d'un mur, hi havia l'ós! Una veïna amable l'havia posat allí perquè fora fàcil de trobar.",
+   "questions": [
+    {
+     "id": "lectura_ca_l2_ninot_q1",
+     "prompt": "Quan es va adonar Lluc que havia perdut l'ós?",
+     "options": [
+      "A la botiga",
+      "A l'hora d'esmorzar",
+      "A l'hora de dormir"
+     ],
+     "correct": 2,
+     "explanation": "«No se'n va adonar fins a l'hora de dormir.»"
+    },
+    {
+     "id": "lectura_ca_l2_ninot_q2",
+     "prompt": "On el van trobar?",
+     "options": [
+      "Davall d'un cotxe",
+      "En una botiga",
+      "Damunt d'un mur"
+     ],
+     "correct": 2,
+     "explanation": "«assegut damunt d'un mur»"
+    },
+    {
+     "id": "lectura_ca_l2_ninot_q3",
+     "prompt": "Per què estava allí?",
+     "options": [
+      "Un gos l'havia portat",
+      "Una veïna l'havia posat",
+      "Lluc l'havia deixat"
+     ],
+     "correct": 1,
+     "explanation": "«Una veïna amable l'havia posat allí»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l2_formigues",
+   "level": 2,
+   "title": "Formigues treballadores",
+   "emoji": "🐜",
+   "text": "Les formigues són molt xicotetes, però són molt fortes. Una formiga pot portar coses que pesen molt més que el seu cos. Viuen juntes en grups grans que s'anomenen colònies. Cada formiga té una faena: unes cuiden els ous, altres busquen menjar i altres vigilen el formiguer. Quan una formiga troba menjar, deixa un rastre d'olor perquè les altres la seguisquen.",
+   "questions": [
+    {
+     "id": "lectura_ca_l2_formigues_q1",
+     "prompt": "Com s'anomena un grup de formigues?",
+     "options": [
+      "Colònia",
+      "Ramat",
+      "Bandada"
+     ],
+     "correct": 0,
+     "explanation": "«grups grans que s'anomenen colònies»"
+    },
+    {
+     "id": "lectura_ca_l2_formigues_q2",
+     "prompt": "Què pot portar una formiga?",
+     "options": [
+      "Res",
+      "Coses que pesen més que el seu cos",
+      "Només fulles"
+     ],
+     "correct": 1,
+     "explanation": "«coses que pesen molt més que el seu cos»"
+    },
+    {
+     "id": "lectura_ca_l2_formigues_q3",
+     "prompt": "Per què deixa un rastre d'olor?",
+     "options": [
+      "Per a espantar els ocells",
+      "Per a marcar el seu llit",
+      "Perquè les altres troben el menjar"
+     ],
+     "correct": 2,
+     "explanation": "«perquè les altres la seguisquen»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l2_horta",
+   "level": 2,
+   "title": "Un dia a l'horta",
+   "emoji": "🍅",
+   "text": "A l'estiu, Empar va passar uns dies a l'horta del seu oncle. Cada matí s'alçava prompte per a ajudar. Primer, donava menjar a les gallines. Després, mirava com el seu oncle regava les tomaqueres. A la vesprada, collien melons i tomaques. A la nit, Empar estava cansada però contenta. Ja tenia ganes de tornar l'estiu següent.",
+   "questions": [
+    {
+     "id": "lectura_ca_l2_horta_q1",
+     "prompt": "De qui era l'horta?",
+     "options": [
+      "Del seu oncle",
+      "De la seua àvia",
+      "De la seua mestra"
+     ],
+     "correct": 0,
+     "explanation": "«l'horta del seu oncle»"
+    },
+    {
+     "id": "lectura_ca_l2_horta_q2",
+     "prompt": "Què feia primer cada matí?",
+     "options": [
+      "Donava menjar a les gallines",
+      "Regava",
+      "Collia melons"
+     ],
+     "correct": 0,
+     "explanation": "«Primer, donava menjar a les gallines.»"
+    },
+    {
+     "id": "lectura_ca_l2_horta_q3",
+     "prompt": "Com se sentia a la nit?",
+     "options": [
+      "Enfadada",
+      "Trista i avorrida",
+      "Cansada però contenta"
+     ],
+     "correct": 2,
+     "explanation": "«Empar estava cansada però contenta.»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l2_robot",
+   "level": 2,
+   "title": "El robot Pipo",
+   "emoji": "🤖",
+   "text": "Jordi va construir un robot amb caixes, taps de botelles i cables vells. Li va posar Pipo de nom. Pipo no podia caminar ni parlar, però Jordi feia com si poguera. Junts viatjaven a la Lluna i al fons de la mar. Un dia, la germana de Jordi va dibuixar un somriure gran a la cara de Pipo. Ara Pipo pareixia tan content com Jordi.",
+   "questions": [
+    {
+     "id": "lectura_ca_l2_robot_q1",
+     "prompt": "Amb què va fer Jordi el robot?",
+     "options": [
+      "Amb metall i cargols",
+      "Amb fusta i claus",
+      "Amb caixes, taps i cables"
+     ],
+     "correct": 2,
+     "explanation": "«amb caixes, taps de botelles i cables vells»"
+    },
+    {
+     "id": "lectura_ca_l2_robot_q2",
+     "prompt": "Podia parlar Pipo de veritat?",
+     "options": [
+      "No",
+      "Sí",
+      "Només de nit"
+     ],
+     "correct": 0,
+     "explanation": "«Pipo no podia caminar ni parlar»"
+    },
+    {
+     "id": "lectura_ca_l2_robot_q3",
+     "prompt": "Què va fer la germana de Jordi?",
+     "options": [
+      "Va pintar Pipo de blau",
+      "Va dibuixar un somriure a Pipo",
+      "Va trencar Pipo"
+     ],
+     "correct": 1,
+     "explanation": "«va dibuixar un somriure gran a la cara de Pipo»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l3_mussols",
+   "level": 3,
+   "title": "Caçadors de nit",
+   "emoji": "🦉",
+   "text": "Els mussols són ocells que cacen de nit. Els seus ulls enormes els ajuden a veure a fosques, però no els poden moure com nosaltres. En canvi, un mussol pot girar el cap quasi una volta sencera. També tenen una oïda increïble. Les seues plomes suaus els permeten volar sense fer gens de soroll, així els ratolins no els senten arribar. Després de menjar, el mussol escup una bola amb els ossos i el pèl que no pot digerir.",
+   "questions": [
+    {
+     "id": "lectura_ca_l3_mussols_q1",
+     "prompt": "Per què els mussols giren tant el cap?",
+     "options": [
+      "Tenen el coll molt llarg",
+      "No poden moure els ulls",
+      "Sempre estan perduts"
+     ],
+     "correct": 1,
+     "explanation": "«no els poden moure ... En canvi, un mussol pot girar el cap»"
+    },
+    {
+     "id": "lectura_ca_l3_mussols_q2",
+     "prompt": "Com volen sense fer soroll?",
+     "options": [
+      "No tenen ales",
+      "Tenen les plomes suaus",
+      "Volen molt a poc a poc"
+     ],
+     "correct": 1,
+     "explanation": "«Les seues plomes suaus els permeten volar sense fer gens de soroll»"
+    },
+    {
+     "id": "lectura_ca_l3_mussols_q3",
+     "prompt": "Què és la bola que escupen?",
+     "options": [
+      "El seu niu",
+      "Un ou",
+      "Ossos i pèl que no poden digerir"
+     ],
+     "correct": 2,
+     "explanation": "«una bola amb els ossos i el pèl que no pot digerir»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l3_biblioteca",
+   "level": 3,
+   "title": "La porta secreta",
+   "emoji": "📚",
+   "text": "En un racó de la biblioteca de l'escola hi havia una porteta de fusta que ningú obria mai. Un dia de pluja, a l'hora del pati, Júlia va veure que estava un poc oberta. Dins va trobar una saleta plena de llibres vells, una butaca polsosa i un llum. Damunt de la taula hi havia una nota: «Esta sala de lectura és per a tothom a qui li agraden les històries. Cuida-la.» Des d'aquell dia, Júlia hi passava totes les estones de pati dels dies de pluja, ficada en una nova aventura.",
+   "questions": [
+    {
+     "id": "lectura_ca_l3_biblioteca_q1",
+     "prompt": "On era la porteta?",
+     "options": [
+      "Al pati",
+      "A la classe",
+      "En un racó de la biblioteca"
+     ],
+     "correct": 2,
+     "explanation": "«En un racó de la biblioteca de l'escola»"
+    },
+    {
+     "id": "lectura_ca_l3_biblioteca_q2",
+     "prompt": "Què va trobar Júlia dins?",
+     "options": [
+      "Un armari de joguets",
+      "Una saleta de lectura",
+      "Un túnel secret"
+     ],
+     "correct": 1,
+     "explanation": "«una saleta plena de llibres vells, una butaca polsosa i un llum»"
+    },
+    {
+     "id": "lectura_ca_l3_biblioteca_q3",
+     "prompt": "Què demanava la nota?",
+     "options": [
+      "Que se n'anaren prompte",
+      "Que cuidaren la sala",
+      "Que tancaren la porta"
+     ],
+     "correct": 1,
+     "explanation": "«Cuida-la.»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l3_volca",
+   "level": 3,
+   "title": "Un volcà de mentida",
+   "emoji": "🌋",
+   "text": "Per a la fira de ciències, Jamal va decidir fer un volcà. Va modelar una muntanya de fang al voltant d'una botella buida i la va pintar de marró i gris. Després va posar bicarbonat dins de la botella. Quan hi va abocar vinagre amb unes gotes de colorant roig, va pujar una escuma que queia pels costats com si fora lava. Tothom va aplaudir. Jamal va explicar que el bicarbonat i el vinagre reaccionen i fan un gas que empeny l'escuma cap a fora.",
+   "questions": [
+    {
+     "id": "lectura_ca_l3_volca_q1",
+     "prompt": "Per què va fer Jamal un volcà?",
+     "options": [
+      "Per a un aniversari",
+      "Per a la fira de ciències",
+      "Per a la classe de plàstica"
+     ],
+     "correct": 1,
+     "explanation": "«Per a la fira de ciències»"
+    },
+    {
+     "id": "lectura_ca_l3_volca_q2",
+     "prompt": "Què va fer roja l'escuma?",
+     "options": [
+      "El colorant",
+      "La pintura",
+      "La tomaca"
+     ],
+     "correct": 0,
+     "explanation": "«unes gotes de colorant roig»"
+    },
+    {
+     "id": "lectura_ca_l3_volca_q3",
+     "prompt": "Per què ix l'escuma?",
+     "options": [
+      "La reacció fa un gas",
+      "La botella està calenta",
+      "Jamal la sacseja"
+     ],
+     "correct": 0,
+     "explanation": "«fan un gas que empeny l'escuma cap a fora»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l3_aigua",
+   "level": 3,
+   "title": "Estalviem aigua",
+   "emoji": "💧",
+   "text": "L'aigua neta és un tresor. Encara que la major part del planeta està coberta d'aigua, només una part molt xicoteta és aigua dolça que podem beure. A casa hi ha moltes maneres fàcils d'estalviar-ne. Pots tancar l'aixeta mentre et rentes les dents, dutxar-te en compte de banyar-te i arreglar les aixetes que gotegen. Una aixeta que goteja pot malgastar més de quinze litres d'aigua cada dia!",
+   "questions": [
+    {
+     "id": "lectura_ca_l3_aigua_q1",
+     "prompt": "Quina aigua podem beure?",
+     "options": [
+      "L'aigua dolça",
+      "Qualsevol aigua",
+      "L'aigua de la mar"
+     ],
+     "correct": 0,
+     "explanation": "«només una part molt xicoteta és aigua dolça que podem beure»"
+    },
+    {
+     "id": "lectura_ca_l3_aigua_q2",
+     "prompt": "Què cal fer mentre et rentes les dents?",
+     "options": [
+      "Banyar-te",
+      "Tancar l'aixeta",
+      "Deixar-la oberta"
+     ],
+     "correct": 1,
+     "explanation": "«tancar l'aixeta mentre et rentes les dents»"
+    },
+    {
+     "id": "lectura_ca_l3_aigua_q3",
+     "prompt": "Quanta aigua pot malgastar una aixeta que goteja?",
+     "options": [
+      "Més de quinze litres al dia",
+      "Mig litre",
+      "Un got"
+     ],
+     "correct": 0,
+     "explanation": "«més de quinze litres d'aigua cada dia»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l4_cursa",
+   "level": 4,
+   "title": "La cursa",
+   "emoji": "🏃",
+   "text": "Kofi s'havia entrenat durant mesos per a la cursa de camp a través de l'escola. Aquell dia feia fred i hi havia molt de fang. A mitja cursa, anava segon quan va veure que un xiquet més menut relliscava i queia al fang. Kofi podia haver continuat, però es va parar i el va ajudar a alçar-se. Quan van tornar a córrer, tres corredors els havien avançat. Kofi va arribar cinqué. Al final del dia, la directora li va donar un premi especial a l'esportivitat, i Kofi va entendre que n'estava més orgullós que de qualsevol medalla.",
+   "questions": [
+    {
+     "id": "lectura_ca_l4_cursa_q1",
+     "prompt": "Quin temps feia?",
+     "options": [
+      "Neu",
+      "Fred i fang",
+      "Calor i sol"
+     ],
+     "correct": 1,
+     "explanation": "«feia fred i hi havia molt de fang»"
+    },
+    {
+     "id": "lectura_ca_l4_cursa_q2",
+     "prompt": "Per què es va parar Kofi?",
+     "options": [
+      "Per a ajudar un xiquet que havia caigut",
+      "Estava cansat",
+      "Va perdre una sabata"
+     ],
+     "correct": 0,
+     "explanation": "«es va parar i el va ajudar a alçar-se»"
+    },
+    {
+     "id": "lectura_ca_l4_cursa_q3",
+     "prompt": "Per què estava orgullós Kofi?",
+     "options": [
+      "Va guanyar la cursa",
+      "Era el més ràpid",
+      "Havia fet el que era correcte"
+     ],
+     "correct": 2,
+     "explanation": "Li van donar un premi a l'esportivitat."
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l4_impremta",
+   "level": 4,
+   "title": "La impremta",
+   "emoji": "🖨️",
+   "text": "Abans del segle XV, a Europa els llibres es copiaven a mà, normalment en els monestirs. Copiar un sol llibre podia costar mesos, per això els llibres eren escassos i caríssims. Cap a l'any 1440, Johannes Gutenberg va inventar una impremta amb lletres de metall que es podien moure i tornar a usar. De sobte, es podien imprimir centenars de còpies ràpidament. Els llibres es van abaratir, més gent va aprendre a llegir i les idees es van estendre més de pressa que mai.",
+   "questions": [
+    {
+     "id": "lectura_ca_l4_impremta_q1",
+     "prompt": "On es copiaven els llibres abans de la impremta?",
+     "options": [
+      "En les escoles",
+      "En els monestirs",
+      "En els castells"
+     ],
+     "correct": 1,
+     "explanation": "«normalment en els monestirs»"
+    },
+    {
+     "id": "lectura_ca_l4_impremta_q2",
+     "prompt": "Què tenien d'especial les lletres de Gutenberg?",
+     "options": [
+      "Eren molt grans",
+      "Eren d'or",
+      "Es podien moure i tornar a usar"
+     ],
+     "correct": 2,
+     "explanation": "«lletres de metall que es podien moure i tornar a usar»"
+    },
+    {
+     "id": "lectura_ca_l4_impremta_q3",
+     "prompt": "Quina en va ser una conseqüència?",
+     "options": [
+      "Els llibres es van encarir",
+      "Més gent va aprendre a llegir",
+      "Les idees es van estendre més a poc a poc"
+     ],
+     "correct": 1,
+     "explanation": "«més gent va aprendre a llegir»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l4_golfa",
+   "level": 4,
+   "title": "El secret de la golfa",
+   "emoji": "🗝️",
+   "text": "Mentre ajudava l'àvia a buidar la golfa, Rosa va trobar una caixeta de llanda amagada darrere d'un munt de cortines velles. Dins hi havia fotografies en blanc i negre, una medalla i un feix de cartes lligades amb una cinta. L'àvia es va asseure a poc a poc i va somriure. «Eren de mon pare», va dir. «Li les escrivia a ma mare quan treballava d'infermer lluny de casa.» Aquella vesprada, Rosa va escoltar històries que no havia sentit mai, i la golfa polsosa li va semblar un cofre del tresor.",
+   "questions": [
+    {
+     "id": "lectura_ca_l4_golfa_q1",
+     "prompt": "On era la caixeta?",
+     "options": [
+      "Darrere d'unes cortines velles",
+      "Al jardí",
+      "Davall del llit"
+     ],
+     "correct": 0,
+     "explanation": "«amagada darrere d'un munt de cortines velles»"
+    },
+    {
+     "id": "lectura_ca_l4_golfa_q2",
+     "prompt": "De qui eren les cartes?",
+     "options": [
+      "De la mestra de Rosa",
+      "De la germana de l'àvia",
+      "Del pare de l'àvia"
+     ],
+     "correct": 2,
+     "explanation": "«Eren de mon pare»"
+    },
+    {
+     "id": "lectura_ca_l4_golfa_q3",
+     "prompt": "Per què la golfa li va semblar un cofre del tresor?",
+     "options": [
+      "Va descobrir històries de la família",
+      "Van trobar monedes d'or",
+      "Estava plena de joguets"
+     ],
+     "correct": 0,
+     "explanation": "Va escoltar històries que no havia sentit mai."
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l4_abelles",
+   "level": 4,
+   "title": "Per què necessitem les abelles",
+   "emoji": "🐝",
+   "text": "Aproximadament una tercera part del que mengem depén de la pol·linització, i les abelles són unes de les millors pol·linitzadores. Quan una abella visita les flors per a arreplegar nèctar, el pol·len se li apega al cos pelut i el porta a la flor següent. Això ajuda les plantes a fer fruits i llavors. Malauradament, cada vegada hi ha menys abelles per la pèrdua dels seus hàbitats, els pesticides i les malalties. Plantar flors silvestres, no usar productes químics i deixar créixer l'herba en alguns racons són maneres senzilles d'ajudar-les.",
+   "questions": [
+    {
+     "id": "lectura_ca_l4_abelles_q1",
+     "prompt": "Quina part del que mengem depén de la pol·linització?",
+     "options": [
+      "Quasi res",
+      "Tot",
+      "Una tercera part"
+     ],
+     "correct": 2,
+     "explanation": "«una tercera part del que mengem»"
+    },
+    {
+     "id": "lectura_ca_l4_abelles_q2",
+     "prompt": "Com viatja el pol·len?",
+     "options": [
+      "Se li apega a l'abella",
+      "Només amb el vent",
+      "Les abelles se'l mengen"
+     ],
+     "correct": 0,
+     "explanation": "«el pol·len se li apega al cos pelut»"
+    },
+    {
+     "id": "lectura_ca_l4_abelles_q3",
+     "prompt": "Quina és una manera d'ajudar les abelles?",
+     "options": [
+      "Usar més productes químics",
+      "Plantar flors silvestres",
+      "Tallar tota l'herba"
+     ],
+     "correct": 1,
+     "explanation": "«Plantar flors silvestres»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l5_cervell",
+   "level": 5,
+   "title": "Així aprén el cervell",
+   "emoji": "🧠",
+   "text": "Cada vegada que aprens alguna cosa nova, unes cèl·lules diminutes del cervell que s'anomenen neurones creen connexions noves entre elles. Com més practiques, més fortes es fan estes connexions, igual que un caminet en un camp, que es veu més clar cada vegada que algú hi passa. Per això practicar un poc cada dia és més eficaç que fer-ho molt una sola vegada a la setmana. El son també és molt important: mentre descanses, el cervell ordena i reforça el que has aprés durant el dia. Equivocar-se, practicar i dormir bé formen part de l'aprenentatge.",
+   "questions": [
+    {
+     "id": "lectura_ca_l5_cervell_q1",
+     "prompt": "Què són les neurones?",
+     "options": [
+      "Músculs",
+      "Cèl·lules del cervell",
+      "Ossos"
+     ],
+     "correct": 1,
+     "explanation": "«unes cèl·lules diminutes del cervell que s'anomenen neurones»"
+    },
+    {
+     "id": "lectura_ca_l5_cervell_q2",
+     "prompt": "Per què es compara el cervell amb un caminet?",
+     "options": [
+      "Els camins són difícils de trobar",
+      "El cervell és verd",
+      "Les connexions es fan més fortes amb l'ús"
+     ],
+     "correct": 2,
+     "explanation": "«es veu més clar cada vegada que algú hi passa»"
+    },
+    {
+     "id": "lectura_ca_l5_cervell_q3",
+     "prompt": "Què passa mentre dormim?",
+     "options": [
+      "El cervell ho oblida tot",
+      "Les neurones desapareixen",
+      "El cervell reforça el que hem aprés"
+     ],
+     "correct": 2,
+     "explanation": "«el cervell ordena i reforça el que has aprés»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l5_albufera",
+   "level": 5,
+   "title": "L'Albufera",
+   "emoji": "🦩",
+   "text": "Al sud de la ciutat de València hi ha l'Albufera, un llac d'aigua dolça separat de la mar per una franja d'arena i pins que s'anomena la Devesa. Al voltant del llac s'estenen els arrossars, on es cultiva l'arròs que fem servir per a la paella. Cada any, milers d'ocells com els flamencs, les garses i els ànecs hi passen l'hivern o hi fan el niu. Per això l'Albufera és un parc natural protegit. Al capvespre, molta gent hi va per a veure la posta de sol damunt de l'aigua, un dels espectacles més bonics de la nostra terra.",
+   "questions": [
+    {
+     "id": "lectura_ca_l5_albufera_q1",
+     "prompt": "Què separa l'Albufera de la mar?",
+     "options": [
+      "La Devesa",
+      "Una muntanya",
+      "Un mur"
+     ],
+     "correct": 0,
+     "explanation": "«separat de la mar per una franja d'arena i pins que s'anomena la Devesa»"
+    },
+    {
+     "id": "lectura_ca_l5_albufera_q2",
+     "prompt": "Què es cultiva al voltant del llac?",
+     "options": [
+      "Blat",
+      "Taronges",
+      "Arròs"
+     ],
+     "correct": 2,
+     "explanation": "«els arrossars, on es cultiva l'arròs»"
+    },
+    {
+     "id": "lectura_ca_l5_albufera_q3",
+     "prompt": "Per què l'Albufera és un parc natural protegit?",
+     "options": [
+      "Hi viuen i passen l'hivern molts ocells",
+      "Hi ha una fàbrica",
+      "Hi ha molts cotxes"
+     ],
+     "correct": 0,
+     "explanation": "«milers d'ocells ... hi passen l'hivern o hi fan el niu»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l5_bosc",
+   "level": 5,
+   "title": "L'últim bosc",
+   "emoji": "🌳",
+   "text": "Quan l'empresa va anunciar que talaria el bosc de la Vall, el poble es va dividir. Uns pensaven que la nova fàbrica portaria treball; altres no s'imaginaven el poble sense els seus arbres centenaris. Nàdia, de catorze anys, va fer una pàgina web on la gent podia compartir els seus records del bosc: el primer berenar amb la família, la primera vegada que van veure un esquirol, les excursions de l'escola. En unes setmanes s'hi havien publicat milers d'històries. Els propietaris de l'empresa les van llegir i van decidir construir en un solar buit. El bosc encara hi és, i la web de Nàdia s'ha convertit en una guia per a altres pobles que volen protegir els seus espais verds.",
+   "questions": [
+    {
+     "id": "lectura_ca_l5_bosc_q1",
+     "prompt": "Per què alguns estaven a favor de la fàbrica?",
+     "options": [
+      "Era una escola",
+      "Podia portar treball",
+      "No els agradaven els arbres"
+     ],
+     "correct": 1,
+     "explanation": "«la nova fàbrica portaria treball»"
+    },
+    {
+     "id": "lectura_ca_l5_bosc_q2",
+     "prompt": "Què arreplegava la web de Nàdia?",
+     "options": [
+      "Els records de la gent sobre el bosc",
+      "Fotos de la fàbrica",
+      "Diners"
+     ],
+     "correct": 0,
+     "explanation": "«compartir els seus records del bosc»"
+    },
+    {
+     "id": "lectura_ca_l5_bosc_q3",
+     "prompt": "Què va fer canviar d'opinió els propietaris?",
+     "options": [
+      "Una sentència",
+      "Una tempesta",
+      "Llegir les històries"
+     ],
+     "correct": 2,
+     "explanation": "«les van llegir i van decidir construir en un solar buit»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l5_paraules",
+   "level": 5,
+   "title": "Paraules viatgeres",
+   "emoji": "🌍",
+   "text": "El valencià està ple de paraules viatgeres que han arribat d'altres llengües al llarg dels segles. La major part provenen del llatí, la llengua dels romans. De l'àrab tenim paraules com «séquia», «albercoc», «safareig» i «carxofa», que ens recorden com es regava i es cultivava l'horta fa molts segles. Més tard van arribar paraules d'Amèrica, com «xocolate», «tomaca» i «cacau», i, en els últims anys, de l'anglés, com «esport» o «web». Cada vegada que parlem, fem servir paraules que han creuat mars i segles per a arribar fins a nosaltres.",
+   "questions": [
+    {
+     "id": "lectura_ca_l5_paraules_q1",
+     "prompt": "D'on ve la major part del valencià?",
+     "options": [
+      "De l'anglés",
+      "Del japonés",
+      "Del llatí"
+     ],
+     "correct": 2,
+     "explanation": "«La major part provenen del llatí, la llengua dels romans.»"
+    },
+    {
+     "id": "lectura_ca_l5_paraules_q2",
+     "prompt": "Quina paraula ens ve de l'àrab?",
+     "options": [
+      "Web",
+      "Séquia",
+      "Xocolate"
+     ],
+     "correct": 1,
+     "explanation": "«De l'àrab tenim paraules com «séquia»»"
+    },
+    {
+     "id": "lectura_ca_l5_paraules_q3",
+     "prompt": "Quina és la idea principal del text?",
+     "options": [
+      "Els romans parlaven àrab",
+      "El valencià té paraules de moltes llengües",
+      "El valencià no canvia mai"
+     ],
+     "correct": 1,
+     "explanation": "El text explica l'origen de moltes paraules."
+    }
+   ]
+  }
+ ]
+}

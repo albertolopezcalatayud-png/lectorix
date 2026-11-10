@@ -1,1 +1,2419 @@
-{"exercises":[]}
+{
+ "exercises": [
+  {
+   "id": "ca_retos_rapidos_l1_m001",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «gran»?",
+   "options": [
+    "enorme",
+    "roig",
+    "lent",
+    "xicotet"
+   ],
+   "correct": 0,
+   "explanation": "«gran» i «enorme» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m002",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «content»?",
+   "options": [
+    "tard",
+    "fred",
+    "trist",
+    "alegre"
+   ],
+   "correct": 3,
+   "explanation": "«content» i «alegre» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m003",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «ràpid»?",
+   "options": [
+    "veloç",
+    "lent",
+    "alt",
+    "banyat"
+   ],
+   "correct": 0,
+   "explanation": "«ràpid» i «veloç» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m004",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «xicotet»?",
+   "options": [
+    "vell",
+    "gegant",
+    "menut",
+    "sorollós"
+   ],
+   "correct": 2,
+   "explanation": "«xicotet» i «menut» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m005",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «tancar»?",
+   "options": [
+    "obrir",
+    "cloure",
+    "cantar",
+    "botar"
+   ],
+   "correct": 1,
+   "explanation": "«tancar» i «cloure» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m006",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «bonic»?",
+   "options": [
+    "lleig",
+    "preciós",
+    "fred",
+    "fort"
+   ],
+   "correct": 1,
+   "explanation": "«bonic» i «preciós» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m007",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «calent»?",
+   "options": [
+    "tebi",
+    "gran",
+    "roig",
+    "fred"
+   ],
+   "correct": 3,
+   "explanation": "El contrari de «calent» és «fred»."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m008",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «dalt»?",
+   "options": [
+    "damunt",
+    "alt",
+    "baix",
+    "ací"
+   ],
+   "correct": 2,
+   "explanation": "El contrari de «dalt» és «baix»."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m009",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «dia»?",
+   "options": [
+    "migdia",
+    "sol",
+    "setmana",
+    "nit"
+   ],
+   "correct": 3,
+   "explanation": "El contrari de «dia» és «nit»."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m010",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «vell»?",
+   "options": [
+    "nou",
+    "gran",
+    "alt",
+    "lent"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «vell» és «nou»."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m011",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «banyat»?",
+   "options": [
+    "sec",
+    "ple",
+    "suau",
+    "fred"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «banyat» és «sec»."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m012",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «content»?",
+   "options": [
+    "alegre",
+    "amable",
+    "ràpid",
+    "trist"
+   ],
+   "correct": 3,
+   "explanation": "El contrari de «content» és «trist»."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m013",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: gat, gos, vaca o poma?",
+   "options": [
+    "vaca",
+    "gat",
+    "gos",
+    "poma"
+   ],
+   "correct": 3,
+   "explanation": "La poma és una fruita; els altres són animals."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m014",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: roig, blau, verd o cadira?",
+   "options": [
+    "roig",
+    "cadira",
+    "blau",
+    "verd"
+   ],
+   "correct": 1,
+   "explanation": "La cadira és un moble; els altres són colors."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m015",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: un, dos, tres o pastís?",
+   "options": [
+    "un",
+    "dos",
+    "tres",
+    "pastís"
+   ],
+   "correct": 3,
+   "explanation": "El pastís és menjar; els altres són números."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m016",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un animal?",
+   "options": [
+    "blau",
+    "botar",
+    "cavall",
+    "taula"
+   ],
+   "correct": 2,
+   "explanation": "El cavall és un animal."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m017",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un color?",
+   "options": [
+    "llapis",
+    "porc",
+    "pot",
+    "rosa"
+   ],
+   "correct": 3,
+   "explanation": "Rosa és un color."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m018",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Completa la sèrie: dilluns, dimarts, ___",
+   "options": [
+    "dimecres",
+    "dilluns",
+    "diumenge",
+    "divendres"
+   ],
+   "correct": 0,
+   "explanation": "El següent és «dimecres»."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m019",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Completa la sèrie: un, dos, tres, ___",
+   "options": [
+    "deu",
+    "cinc",
+    "quatre",
+    "sis"
+   ],
+   "correct": 2,
+   "explanation": "El següent és «quatre»."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m020",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «gat»?",
+   "options": [
+    "4",
+    "5",
+    "3",
+    "2"
+   ],
+   "correct": 2,
+   "explanation": "g-a-t = 3 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m021",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «lluna»?",
+   "options": [
+    "5",
+    "6",
+    "7",
+    "4"
+   ],
+   "correct": 0,
+   "explanation": "l-l-u-n-a = 5 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m022",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «sol»?",
+   "options": [
+    "4",
+    "5",
+    "3",
+    "2"
+   ],
+   "correct": 2,
+   "explanation": "s-o-l = 3 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m023",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «peix»?",
+   "options": [
+    "4",
+    "5",
+    "3",
+    "6"
+   ],
+   "correct": 0,
+   "explanation": "p-e-i-x = 4 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m024",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula va primer en el diccionari?",
+   "options": [
+    "gos",
+    "abella",
+    "gat",
+    "porc"
+   ],
+   "correct": 1,
+   "explanation": "Ordre alfabètic: abella, gat, gos, porc."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m025",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula va primer en el diccionari?",
+   "options": [
+    "sol",
+    "llit",
+    "nas",
+    "mar"
+   ],
+   "correct": 1,
+   "explanation": "Ordre alfabètic: llit, mar, nas, sol."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m026",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quin és el plural de «gat»?",
+   "options": [
+    "gatz",
+    "gatos",
+    "gates",
+    "gats"
+   ],
+   "correct": 3,
+   "explanation": "un gat, dos gats."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m027",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quin és el plural de «poma»?",
+   "options": [
+    "pomos",
+    "pomes",
+    "pomas",
+    "poms"
+   ],
+   "correct": 1,
+   "explanation": "una poma, dues pomes."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m028",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula forma una paraula nova amb «cap»?",
+   "options": [
+    "pa",
+    "nas",
+    "gat",
+    "vespre"
+   ],
+   "correct": 3,
+   "explanation": "cap + vespre = capvespre."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_m029",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula forma una paraula nova amb «sobre»?",
+   "options": [
+    "llit",
+    "gat",
+    "taula",
+    "peu"
+   ],
+   "correct": 2,
+   "explanation": "sobre + taula = sobretaula."
+  },
+  {
+   "id": "ca_retos_rapidos_l1_o001",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «GOS»",
+   "pieces": [
+    "G",
+    "O",
+    "S"
+   ],
+   "correctOrder": [
+    "G",
+    "O",
+    "S"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "G-O-S = GOS"
+  },
+  {
+   "id": "ca_retos_rapidos_l1_o002",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «SOL»",
+   "pieces": [
+    "S",
+    "O",
+    "L"
+   ],
+   "correctOrder": [
+    "S",
+    "O",
+    "L"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "S-O-L = SOL"
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m001",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «començar»?",
+   "options": [
+    "iniciar",
+    "dormir",
+    "acabar",
+    "parar"
+   ],
+   "correct": 0,
+   "explanation": "«començar» i «iniciar» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m002",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «cridar»?",
+   "options": [
+    "cantar",
+    "xiuxiuejar",
+    "vociferar",
+    "somriure"
+   ],
+   "correct": 2,
+   "explanation": "«cridar» i «vociferar» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m003",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «espantat»?",
+   "options": [
+    "avorrit",
+    "content",
+    "atemorit",
+    "valent"
+   ],
+   "correct": 2,
+   "explanation": "«espantat» i «atemorit» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m004",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «cansat»?",
+   "options": [
+    "afamat",
+    "enfadat",
+    "esgotat",
+    "descansat"
+   ],
+   "correct": 2,
+   "explanation": "«cansat» i «esgotat» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m005",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «mirar»?",
+   "options": [
+    "menjar",
+    "escoltar",
+    "córrer",
+    "observar"
+   ],
+   "correct": 3,
+   "explanation": "«mirar» i «observar» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m006",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «fàcil»?",
+   "options": [
+    "senzill",
+    "difícil",
+    "llarg",
+    "fosc"
+   ],
+   "correct": 0,
+   "explanation": "«fàcil» i «senzill» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m007",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «obert»?",
+   "options": [
+    "ple",
+    "ample",
+    "tancat",
+    "buit"
+   ],
+   "correct": 2,
+   "explanation": "El contrari de «obert» és «tancat»."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m008",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «prompte»?",
+   "options": [
+    "ràpid",
+    "abans",
+    "primer",
+    "tard"
+   ],
+   "correct": 3,
+   "explanation": "El contrari de «prompte» és «tard»."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m009",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «pesat»?",
+   "options": [
+    "fort",
+    "gran",
+    "gros",
+    "lleuger"
+   ],
+   "correct": 3,
+   "explanation": "El contrari de «pesat» és «lleuger»."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m010",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «sorollós»?",
+   "options": [
+    "agut",
+    "fort",
+    "silenciós",
+    "fondo"
+   ],
+   "correct": 2,
+   "explanation": "El contrari de «sorollós» és «silenciós»."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m011",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «empényer»?",
+   "options": [
+    "prémer",
+    "agafar",
+    "xutar",
+    "estirar"
+   ],
+   "correct": 3,
+   "explanation": "El contrari de «empényer» és «estirar»."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m012",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «guanyar»?",
+   "options": [
+    "jugar",
+    "marcar",
+    "perdre",
+    "véncer"
+   ],
+   "correct": 2,
+   "explanation": "El contrari de «guanyar» és «perdre»."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m013",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: plàtan, pera, raïm o pastanaga?",
+   "options": [
+    "raïm",
+    "pera",
+    "plàtan",
+    "pastanaga"
+   ],
+   "correct": 3,
+   "explanation": "La pastanaga és una hortalissa; els altres són fruites."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m014",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: dilluns, divendres, diumenge o març?",
+   "options": [
+    "març",
+    "divendres",
+    "diumenge",
+    "dilluns"
+   ],
+   "correct": 0,
+   "explanation": "Març és un mes; els altres són dies."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m015",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: cotxe, autobús, tren o pont?",
+   "options": [
+    "tren",
+    "pont",
+    "cotxe",
+    "autobús"
+   ],
+   "correct": 1,
+   "explanation": "Un pont no és un vehicle."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m016",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un verb (una acció)?",
+   "options": [
+    "gos",
+    "roig",
+    "córrer",
+    "caixa"
+   ],
+   "correct": 2,
+   "explanation": "«córrer» és una acció: un verb."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m017",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un nom (una cosa)?",
+   "options": [
+    "content",
+    "cantar",
+    "cadira",
+    "ràpidament"
+   ],
+   "correct": 2,
+   "explanation": "Una cadira és una cosa: un nom."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m018",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Completa la sèrie: gener, febrer, ___",
+   "options": [
+    "juny",
+    "abril",
+    "març",
+    "maig"
+   ],
+   "correct": 2,
+   "explanation": "El següent és «març»."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m019",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Completa la sèrie: primavera, estiu, ___",
+   "options": [
+    "maig",
+    "hivern",
+    "primavera",
+    "tardor"
+   ],
+   "correct": 3,
+   "explanation": "El següent és «tardor»."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m020",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «cadira»?",
+   "options": [
+    "8",
+    "6",
+    "5",
+    "7"
+   ],
+   "correct": 1,
+   "explanation": "c-a-d-i-r-a = 6 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m021",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «conill»?",
+   "options": [
+    "7",
+    "5",
+    "8",
+    "6"
+   ],
+   "correct": 3,
+   "explanation": "c-o-n-i-l-l = 6 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m022",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «platja»?",
+   "options": [
+    "6",
+    "5",
+    "8",
+    "7"
+   ],
+   "correct": 0,
+   "explanation": "p-l-a-t-j-a = 6 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m023",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «muntanya»?",
+   "options": [
+    "9",
+    "7",
+    "8",
+    "10"
+   ],
+   "correct": 2,
+   "explanation": "m-u-n-t-a-n-y-a = 8 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m024",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula va primer en el diccionari?",
+   "options": [
+    "meló",
+    "pera",
+    "poma",
+    "plàtan"
+   ],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: meló, pera, plàtan, poma."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m025",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula va primer en el diccionari?",
+   "options": [
+    "llum",
+    "cadira",
+    "taula",
+    "porta"
+   ],
+   "correct": 1,
+   "explanation": "Ordre alfabètic: cadira, llum, porta, taula."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m026",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quin és el plural de «vaca»?",
+   "options": [
+    "vacques",
+    "vaces",
+    "vacas",
+    "vaques"
+   ],
+   "correct": 3,
+   "explanation": "una vaca, dues vaques."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m027",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quin és el plural de «peix»?",
+   "options": [
+    "peixets",
+    "peixs",
+    "peixos",
+    "peixes"
+   ],
+   "correct": 2,
+   "explanation": "un peix, dos peixos."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m028",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula forma una paraula nova amb «para»?",
+   "options": [
+    "taules",
+    "llibres",
+    "gossos",
+    "caigudes"
+   ],
+   "correct": 3,
+   "explanation": "para + caigudes = paracaigudes."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_m029",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula forma una paraula nova amb «escura»?",
+   "options": [
+    "pomes",
+    "portes",
+    "dents",
+    "cadires"
+   ],
+   "correct": 2,
+   "explanation": "escura + dents = escuradents."
+  },
+  {
+   "id": "ca_retos_rapidos_l2_o001",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «PEIX»",
+   "pieces": [
+    "P",
+    "E",
+    "I",
+    "X"
+   ],
+   "correctOrder": [
+    "P",
+    "E",
+    "I",
+    "X"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "P-E-I-X = PEIX"
+  },
+  {
+   "id": "ca_retos_rapidos_l2_o002",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «LLIT»",
+   "pieces": [
+    "L",
+    "L",
+    "I",
+    "T"
+   ],
+   "correctOrder": [
+    "L",
+    "L",
+    "I",
+    "T"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "L-L-I-T = LLIT"
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m001",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «enorme»?",
+   "options": [
+    "primerenc",
+    "immens",
+    "diminut",
+    "silenciós"
+   ],
+   "correct": 1,
+   "explanation": "«enorme» i «immens» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m002",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «silenciós»?",
+   "options": [
+    "sorollós",
+    "callat",
+    "divertit",
+    "assolellat"
+   ],
+   "correct": 1,
+   "explanation": "«silenciós» i «callat» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m003",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «valent»?",
+   "options": [
+    "gandul",
+    "coratjós",
+    "maleducat",
+    "poruc"
+   ],
+   "correct": 1,
+   "explanation": "«valent» i «coratjós» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m004",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «difícil»?",
+   "options": [
+    "complicat",
+    "fàcil",
+    "lleuger",
+    "suau"
+   ],
+   "correct": 0,
+   "explanation": "«difícil» i «complicat» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m005",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «ordenat»?",
+   "options": [
+    "desordenat",
+    "brut",
+    "ocupat",
+    "endreçat"
+   ],
+   "correct": 3,
+   "explanation": "«ordenat» i «endreçat» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m006",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «ric»?",
+   "options": [
+    "feble",
+    "pobre",
+    "prim",
+    "adinerat"
+   ],
+   "correct": 3,
+   "explanation": "«ric» i «adinerat» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m007",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «valent»?",
+   "options": [
+    "poruc",
+    "orgullós",
+    "atrevit",
+    "fort"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «valent» és «poruc»."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m008",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «generós»?",
+   "options": [
+    "simpàtic",
+    "amable",
+    "egoista",
+    "educat"
+   ],
+   "correct": 2,
+   "explanation": "El contrari de «generós» és «egoista»."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m009",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «arribar»?",
+   "options": [
+    "quedar-se",
+    "entrar",
+    "aplegar",
+    "anar-se'n"
+   ],
+   "correct": 3,
+   "explanation": "El contrari de «arribar» és «anar-se'n»."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m010",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «antic»?",
+   "options": [
+    "vell",
+    "modern",
+    "polsós",
+    "històric"
+   ],
+   "correct": 1,
+   "explanation": "El contrari de «antic» és «modern»."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m011",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «superficial»?",
+   "options": [
+    "pla",
+    "curt",
+    "profund",
+    "estret"
+   ],
+   "correct": 2,
+   "explanation": "El contrari de «superficial» és «profund»."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m012",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «aspre»?",
+   "options": [
+    "suau",
+    "irregular",
+    "sec",
+    "dur"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «aspre» és «suau»."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m013",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: tauró, balena, dofí o àguila?",
+   "options": [
+    "tauró",
+    "dofí",
+    "balena",
+    "àguila"
+   ],
+   "correct": 3,
+   "explanation": "L'àguila vola; els altres viuen a la mar."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m014",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: violí, guitarra, piano o martell?",
+   "options": [
+    "violí",
+    "piano",
+    "guitarra",
+    "martell"
+   ],
+   "correct": 3,
+   "explanation": "El martell és una eina, no un instrument."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m015",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: primavera, estiu, tardor o dimarts?",
+   "options": [
+    "dimarts",
+    "primavera",
+    "tardor",
+    "estiu"
+   ],
+   "correct": 0,
+   "explanation": "Dimarts és un dia; els altres són estacions."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m016",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un adjectiu (descriu)?",
+   "options": [
+    "jardí",
+    "lentament",
+    "suau",
+    "botar"
+   ],
+   "correct": 2,
+   "explanation": "«suau» descriu: un adjectiu."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m017",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un verb?",
+   "options": [
+    "coixí",
+    "suau",
+    "xiuxiuejar",
+    "silenciós"
+   ],
+   "correct": 2,
+   "explanation": "«xiuxiuejar» és una acció: un verb."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m018",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Completa la sèrie: dijous, divendres, ___",
+   "options": [
+    "dilluns",
+    "dimarts",
+    "dissabte",
+    "diumenge"
+   ],
+   "correct": 2,
+   "explanation": "El següent és «dissabte»."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m019",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Completa la sèrie: deu, vint, trenta, ___",
+   "options": [
+    "quaranta",
+    "cinquanta",
+    "tretze",
+    "quatre"
+   ],
+   "correct": 0,
+   "explanation": "El següent és «quaranta»."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m020",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «elefant»?",
+   "options": [
+    "9",
+    "8",
+    "6",
+    "7"
+   ],
+   "correct": 3,
+   "explanation": "e-l-e-f-a-n-t = 7 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m021",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «taronja»?",
+   "options": [
+    "9",
+    "6",
+    "7",
+    "8"
+   ],
+   "correct": 2,
+   "explanation": "t-a-r-o-n-j-a = 7 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m022",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «guitarra»?",
+   "options": [
+    "8",
+    "9",
+    "7",
+    "10"
+   ],
+   "correct": 0,
+   "explanation": "g-u-i-t-a-r-r-a = 8 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m023",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «cançó»?",
+   "options": [
+    "7",
+    "6",
+    "4",
+    "5"
+   ],
+   "correct": 3,
+   "explanation": "c-a-n-ç-ó = 5 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m024",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula va primer en el diccionari?",
+   "options": [
+    "caixa",
+    "bou",
+    "bufanda",
+    "bota"
+   ],
+   "correct": 3,
+   "explanation": "Ordre alfabètic: bota, bou, bufanda, caixa."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m025",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula va primer en el diccionari?",
+   "options": [
+    "coca",
+    "got",
+    "cotxe",
+    "cuc"
+   ],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: coca, cotxe, cuc, got."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m026",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quin és el plural de «plaça»?",
+   "options": [
+    "plaças",
+    "places",
+    "plaçes",
+    "plasses"
+   ],
+   "correct": 1,
+   "explanation": "una plaça, dues places."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m027",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quin és el plural de «pluja»?",
+   "options": [
+    "pluxes",
+    "plujes",
+    "pluges",
+    "plujas"
+   ],
+   "correct": 2,
+   "explanation": "una pluja, dues pluges."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m028",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula forma una paraula nova amb «renta»?",
+   "options": [
+    "gossos",
+    "plats",
+    "taules",
+    "llibres"
+   ],
+   "correct": 1,
+   "explanation": "renta + plats = rentaplats."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_m029",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula forma una paraula nova amb «trenca»?",
+   "options": [
+    "llunes",
+    "closques",
+    "flors",
+    "cases"
+   ],
+   "correct": 1,
+   "explanation": "trenca + closques = trencaclosques."
+  },
+  {
+   "id": "ca_retos_rapidos_l3_o001",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «PLANTA»",
+   "pieces": [
+    "P",
+    "L",
+    "A",
+    "N",
+    "T",
+    "A"
+   ],
+   "correctOrder": [
+    "P",
+    "L",
+    "A",
+    "N",
+    "T",
+    "A"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "P-L-A-N-T-A = PLANTA"
+  },
+  {
+   "id": "ca_retos_rapidos_l3_o002",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «TREN»",
+   "pieces": [
+    "T",
+    "R",
+    "E",
+    "N"
+   ],
+   "correctOrder": [
+    "T",
+    "R",
+    "E",
+    "N"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "T-R-E-N = TREN"
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m001",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «antic»?",
+   "options": [
+    "molt xicotet",
+    "nou de trinca",
+    "molt vell",
+    "molt ràpid"
+   ],
+   "correct": 2,
+   "explanation": "«antic» i «molt vell» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m002",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «furiós»?",
+   "options": [
+    "molt tranquil",
+    "molt fred",
+    "molt enfadat",
+    "molt cansat"
+   ],
+   "correct": 2,
+   "explanation": "«furiós» i «molt enfadat» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m003",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «fràgil»?",
+   "options": [
+    "que es trenca fàcilment",
+    "molt brillant",
+    "molt fort",
+    "molt pesat"
+   ],
+   "correct": 0,
+   "explanation": "«fràgil» i «que es trenca fàcilment» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m004",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «esgotat»?",
+   "options": [
+    "molt afamat",
+    "molt emocionat",
+    "molt despert",
+    "molt cansat"
+   ],
+   "correct": 3,
+   "explanation": "«esgotat» i «molt cansat» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m005",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «encantat»?",
+   "options": [
+    "molt content",
+    "molt avorrit",
+    "molt espantat",
+    "molt molest"
+   ],
+   "correct": 0,
+   "explanation": "«encantat» i «molt content» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m006",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «gegantí»?",
+   "options": [
+    "estret",
+    "minúscul",
+    "normal",
+    "enorme"
+   ],
+   "correct": 3,
+   "explanation": "«gegantí» i «enorme» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m007",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «victòria»?",
+   "options": [
+    "premi",
+    "èxit",
+    "derrota",
+    "triomf"
+   ],
+   "correct": 2,
+   "explanation": "El contrari de «victòria» és «derrota»."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m008",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «eixamplar»?",
+   "options": [
+    "créixer",
+    "estrényer",
+    "estirar",
+    "allargar"
+   ],
+   "correct": 1,
+   "explanation": "El contrari de «eixamplar» és «estrényer»."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m009",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «permanent»?",
+   "options": [
+    "durador",
+    "fix",
+    "temporal",
+    "estable"
+   ],
+   "correct": 2,
+   "explanation": "El contrari de «permanent» és «temporal»."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m010",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «innocent»?",
+   "options": [
+    "culpable",
+    "pur",
+    "sincer",
+    "tranquil"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «innocent» és «culpable»."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m011",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «incloure»?",
+   "options": [
+    "excloure",
+    "afegir",
+    "contindre",
+    "implicar"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «incloure» és «excloure»."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m012",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «màxim»?",
+   "options": [
+    "mínim",
+    "superior",
+    "total",
+    "major"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «màxim» és «mínim»."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m013",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: Mart, Venus, Júpiter o Lluna?",
+   "options": [
+    "Mart",
+    "Júpiter",
+    "Venus",
+    "Lluna"
+   ],
+   "correct": 3,
+   "explanation": "La Lluna no és un planeta."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m014",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: triangle, quadrat, cercle o cub?",
+   "options": [
+    "cub",
+    "triangle",
+    "cercle",
+    "quadrat"
+   ],
+   "correct": 0,
+   "explanation": "El cub té tres dimensions; els altres són figures planes."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m015",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: córrer, botar, nadar o content?",
+   "options": [
+    "nadar",
+    "córrer",
+    "botar",
+    "content"
+   ],
+   "correct": 3,
+   "explanation": "«content» és un adjectiu; els altres són verbs."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m016",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un adverbi?",
+   "options": [
+    "cura",
+    "acurat",
+    "descurat",
+    "acuradament"
+   ],
+   "correct": 3,
+   "explanation": "«acuradament» diu com: un adverbi."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m017",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un pronom?",
+   "options": [
+    "ràpid",
+    "davall",
+    "taula",
+    "ells"
+   ],
+   "correct": 3,
+   "explanation": "«ells» substituïx un nom: un pronom."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m018",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Completa la sèrie: octubre, novembre, ___",
+   "options": [
+    "gener",
+    "setembre",
+    "desembre",
+    "agost"
+   ],
+   "correct": 2,
+   "explanation": "El següent és «desembre»."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m019",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Completa la sèrie: primer, segon, tercer, ___",
+   "options": [
+    "catorze",
+    "cinqué",
+    "quart",
+    "quatre"
+   ],
+   "correct": 2,
+   "explanation": "El següent és «quart»."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m020",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «papallona»?",
+   "options": [
+    "9",
+    "8",
+    "11",
+    "10"
+   ],
+   "correct": 0,
+   "explanation": "p-a-p-a-l-l-o-n-a = 9 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m021",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «xocolate»?",
+   "options": [
+    "7",
+    "10",
+    "9",
+    "8"
+   ],
+   "correct": 3,
+   "explanation": "x-o-c-o-l-a-t-e = 8 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m022",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «important»?",
+   "options": [
+    "9",
+    "10",
+    "8",
+    "11"
+   ],
+   "correct": 0,
+   "explanation": "i-m-p-o-r-t-a-n-t = 9 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m023",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «dinosaure»?",
+   "options": [
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "correct": 1,
+   "explanation": "d-i-n-o-s-a-u-r-e = 9 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m024",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula va primer en el diccionari?",
+   "options": [
+    "sol",
+    "sec",
+    "sal",
+    "suc"
+   ],
+   "correct": 2,
+   "explanation": "Ordre alfabètic: sal, sec, sol, suc."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m025",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula va primer en el diccionari?",
+   "options": [
+    "pa",
+    "pala",
+    "pal",
+    "pallasso"
+   ],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: pa, pal, pala, pallasso."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m026",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quin és el plural de «lleó»?",
+   "options": [
+    "lleós",
+    "lleones",
+    "lleóns",
+    "lleons"
+   ],
+   "correct": 3,
+   "explanation": "un lleó, dos lleons."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m027",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quin és el plural de «col·legi»?",
+   "options": [
+    "colegis",
+    "col·legios",
+    "col·legies",
+    "col·legis"
+   ],
+   "correct": 3,
+   "explanation": "un col·legi, dos col·legis."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m028",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula forma una paraula nova amb «porta»?",
+   "options": [
+    "mar",
+    "cel",
+    "veu",
+    "sol"
+   ],
+   "correct": 2,
+   "explanation": "porta + veu = portaveu."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_m029",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula forma una paraula nova amb «salva»?",
+   "options": [
+    "llibres",
+    "peixos",
+    "taules",
+    "vides"
+   ],
+   "correct": 3,
+   "explanation": "salva + vides = salvavides."
+  },
+  {
+   "id": "ca_retos_rapidos_l4_o001",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «ARANYA»",
+   "pieces": [
+    "A",
+    "R",
+    "A",
+    "N",
+    "Y",
+    "A"
+   ],
+   "correctOrder": [
+    "A",
+    "R",
+    "A",
+    "N",
+    "Y",
+    "A"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "A-R-A-N-Y-A = ARANYA"
+  },
+  {
+   "id": "ca_retos_rapidos_l4_o002",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «JARDÍ»",
+   "pieces": [
+    "J",
+    "A",
+    "R",
+    "D",
+    "Í"
+   ],
+   "correctOrder": [
+    "J",
+    "A",
+    "R",
+    "D",
+    "Í"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "J-A-R-D-Í = JARDÍ"
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m001",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «reticent»?",
+   "options": [
+    "poc disposat",
+    "entusiasta",
+    "descuidat",
+    "sincer"
+   ],
+   "correct": 0,
+   "explanation": "«reticent» i «poc disposat» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m002",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «prudent»?",
+   "options": [
+    "curiós",
+    "alegre",
+    "imprudent",
+    "cautelós"
+   ],
+   "correct": 3,
+   "explanation": "«prudent» i «cautelós» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m003",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «abundant»?",
+   "options": [
+    "copiós",
+    "escàs",
+    "fràgil",
+    "silenciós"
+   ],
+   "correct": 0,
+   "explanation": "«abundant» i «copiós» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m004",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «vívid»?",
+   "options": [
+    "apagat",
+    "intens",
+    "lent",
+    "aspre"
+   ],
+   "correct": 1,
+   "explanation": "«vívid» i «intens» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m005",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «sovint»?",
+   "options": [
+    "freqüentment",
+    "rarament",
+    "mai",
+    "lentament"
+   ],
+   "correct": 0,
+   "explanation": "«sovint» i «freqüentment» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m006",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «amagar»?",
+   "options": [
+    "ocultar",
+    "seguir",
+    "mostrar",
+    "construir"
+   ],
+   "correct": 0,
+   "explanation": "«amagar» i «ocultar» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m007",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «transparent»?",
+   "options": [
+    "opac",
+    "brillant",
+    "clar",
+    "cristal·lí"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «transparent» és «opac»."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m008",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «optimista»?",
+   "options": [
+    "positiu",
+    "esperançat",
+    "alegre",
+    "pessimista"
+   ],
+   "correct": 3,
+   "explanation": "El contrari de «optimista» és «pessimista»."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m009",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «escàs»?",
+   "options": [
+    "curt",
+    "abundant",
+    "rar",
+    "limitat"
+   ],
+   "correct": 1,
+   "explanation": "El contrari de «escàs» és «abundant»."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m010",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «lloar»?",
+   "options": [
+    "aplaudir",
+    "criticar",
+    "admirar",
+    "agrair"
+   ],
+   "correct": 1,
+   "explanation": "El contrari de «lloar» és «criticar»."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m011",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «voluntari»?",
+   "options": [
+    "obligatori",
+    "opcional",
+    "lliure",
+    "disposat"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «voluntari» és «obligatori»."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m012",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «pujar»?",
+   "options": [
+    "alçar",
+    "enfilar-se",
+    "baixar",
+    "escalar"
+   ],
+   "correct": 2,
+   "explanation": "El contrari de «pujar» és «baixar»."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m013",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: ràpidament, lentament, fortament o valent?",
+   "options": [
+    "valent",
+    "lentament",
+    "fortament",
+    "ràpidament"
+   ],
+   "correct": 0,
+   "explanation": "«valent» és un adjectiu; els altres són adverbis."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m014",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: París, Madrid, Roma o França?",
+   "options": [
+    "Madrid",
+    "París",
+    "França",
+    "Roma"
+   ],
+   "correct": 2,
+   "explanation": "França és un país; els altres són capitals."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m015",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: líquid, sòlid, gas o metall?",
+   "options": [
+    "sòlid",
+    "metall",
+    "líquid",
+    "gas"
+   ],
+   "correct": 1,
+   "explanation": "El metall és un material; els altres són estats de la matèria."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m016",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és una preposició?",
+   "options": [
+    "davall",
+    "bonic",
+    "creure",
+    "perquè"
+   ],
+   "correct": 0,
+   "explanation": "«davall» indica lloc: una preposició."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m017",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és una conjunció?",
+   "options": [
+    "sempre",
+    "ja",
+    "quasi",
+    "encara que"
+   ],
+   "correct": 3,
+   "explanation": "«encara que» unix dues idees: una conjunció."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m018",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Completa la sèrie: passat, present, ___",
+   "options": [
+    "història",
+    "ahir",
+    "pretèrit",
+    "futur"
+   ],
+   "correct": 3,
+   "explanation": "El següent és «futur»."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m019",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Completa la sèrie: sòlid, líquid, ___",
+   "options": [
+    "aigua",
+    "gel",
+    "gas",
+    "vapor d'aigua"
+   ],
+   "correct": 2,
+   "explanation": "El següent és «gas»."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m020",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «dimecres»?",
+   "options": [
+    "9",
+    "7",
+    "10",
+    "8"
+   ],
+   "correct": 3,
+   "explanation": "d-i-m-e-c-r-e-s = 8 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m021",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «necessitat»?",
+   "options": [
+    "11",
+    "10",
+    "9",
+    "12"
+   ],
+   "correct": 1,
+   "explanation": "n-e-c-e-s-s-i-t-a-t = 10 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m022",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «biblioteca»?",
+   "options": [
+    "9",
+    "10",
+    "12",
+    "11"
+   ],
+   "correct": 1,
+   "explanation": "b-i-b-l-i-o-t-e-c-a = 10 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m023",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quantes lletres té «ajuntament»?",
+   "options": [
+    "10",
+    "11",
+    "9",
+    "12"
+   ],
+   "correct": 0,
+   "explanation": "a-j-u-n-t-a-m-e-n-t = 10 lletres."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m024",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula va primer en el diccionari?",
+   "options": [
+    "plaça",
+    "plat",
+    "ploma",
+    "platja"
+   ],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: plaça, plat, platja, ploma."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m025",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula va primer en el diccionari?",
+   "options": [
+    "estudi",
+    "estel",
+    "estiu",
+    "estrela"
+   ],
+   "correct": 1,
+   "explanation": "Ordre alfabètic: estel, estiu, estrela, estudi."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m026",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quin és el plural de «llapis»?",
+   "options": [
+    "llapises",
+    "llapissos",
+    "llapiss",
+    "llapis"
+   ],
+   "correct": 3,
+   "explanation": "un llapis, dos llapis."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m027",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quin és el plural de «braç»?",
+   "options": [
+    "braces",
+    "braços",
+    "brasos",
+    "braçs"
+   ],
+   "correct": 1,
+   "explanation": "un braç, dos braços."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m028",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula forma una paraula nova amb «passa»?",
+   "options": [
+    "llapis",
+    "cadires",
+    "muntanyes",
+    "finestres"
+   ],
+   "correct": 2,
+   "explanation": "passa + muntanyes = passamuntanyes."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_m029",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula forma una paraula nova amb «obre»?",
+   "options": [
+    "ulls",
+    "llibres",
+    "portes",
+    "llaunes"
+   ],
+   "correct": 3,
+   "explanation": "obre + llaunes = obrellaunes."
+  },
+  {
+   "id": "ca_retos_rapidos_l5_o001",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «CASTELL»",
+   "pieces": [
+    "C",
+    "A",
+    "S",
+    "T",
+    "E",
+    "L",
+    "L"
+   ],
+   "correctOrder": [
+    "C",
+    "A",
+    "S",
+    "T",
+    "E",
+    "L",
+    "L"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "C-A-S-T-E-L-L = CASTELL"
+  },
+  {
+   "id": "ca_retos_rapidos_l5_o002",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «FINESTRA»",
+   "pieces": [
+    "F",
+    "I",
+    "N",
+    "E",
+    "S",
+    "T",
+    "R",
+    "A"
+   ],
+   "correctOrder": [
+    "F",
+    "I",
+    "N",
+    "E",
+    "S",
+    "T",
+    "R",
+    "A"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "F-I-N-E-S-T-R-A = FINESTRA"
+  }
+ ]
+}

@@ -85,7 +85,7 @@ export const en: Record<TranslationKey, string> = {
   mascot_owl: '{name}\'s owl',
   mascot_your_owl: 'Your owl',
   mascot_unlocked: '{n}/{total} rewards unlocked',
-  mascot_color: 'Color',
+  mascot_color: 'Colour',
   mascot_hats: 'Hats',
   mascot_accessories: 'Accessories',
   mascot_backgrounds: 'Backgrounds',
@@ -146,7 +146,7 @@ export const en: Record<TranslationKey, string> = {
   ach_xp_1000: 'Legend',
   ach_xp_1000_desc: 'Accumulate 1000 XP',
   ach_streak_3: 'On a roll',
-  ach_streak_3_desc: '3 days in a row practicing',
+  ach_streak_3_desc: '3 days in a row practising',
   ach_streak_7: 'Perfect week',
   ach_streak_7_desc: '7 days in a row',
   ach_streak_30: 'Unstoppable',
@@ -173,7 +173,7 @@ export const en: Record<TranslationKey, string> = {
   parent_detail: 'Module detail',
   parent_recs: '💡 Recommendations',
   parent_rec_first: 'Encourage your child to complete their first level to see progress here.',
-  parent_rec_practice: 'Practicing 10-15 minutes daily significantly improves reading.',
+  parent_rec_practice: 'Practising 10–15 minutes a day significantly improves reading.',
   parent_rec_low: 'Average score is below 70%. Try repeating levels to reinforce.',
   parent_rec_great: 'Excellent performance! Your child is progressing very well. 🎉',
   parent_rec_important: 'The Phonology and Reading Comprehension modules are the most important for dyslexia.',
@@ -287,7 +287,7 @@ export const en: Record<TranslationKey, string> = {
   pdf_level_row: 'Level {level} — {name}',
   pdf_recs: 'Recommendations',
   pdf_rec_first: 'Encourage your child to complete their first level to see progress here.',
-  pdf_rec_practice: 'Practicing 10-15 minutes daily significantly improves reading.',
+  pdf_rec_practice: 'Practising 10–15 minutes a day significantly improves reading.',
   pdf_rec_low: 'Average score is below 70%. Repeating levels helps reinforce learning.',
   pdf_rec_great: 'Excellent performance. The student is progressing very well.',
   pdf_rec_important: 'The Phonology and Reading Comprehension modules are the most important for dyslexia.',
@@ -333,7 +333,7 @@ export const en: Record<TranslationKey, string> = {
   exam_failed: '❌ Failed',
 
   // Parent panel time stats
-  parent_time_per_ex: 'Avg time/exercise',
+  parent_time_per_ex: 'Average time per activity',
   parent_time_by_type: '⏱ Time by exercise type',
   parent_type_mc: 'Multiple choice',
   parent_type_drag: 'Drag and drop',
@@ -380,7 +380,7 @@ export const en: Record<TranslationKey, string> = {
   read_other: '📖 Another reading',
 
   // Module names
-  mod_fonologia: 'Phonology',
+  mod_fonologia: 'Phonics',
   mod_memoria: 'Visual Memory',
   mod_comprension: 'Reading Comprehension',
   mod_escritura: 'Writing',
@@ -436,4 +436,8 @@ export const en: Record<TranslationKey, string> = {
   notif_streak_body: 'Keep it up, you are getting better every day.',
   notif_reminder_title: '📚 Time to practise!',
   notif_reminder_body: 'Just 10 minutes a day makes a difference. Let’s go!',
+  ex_result: 'Result:',
+  set_slow: '🐢 Slow',
+  set_fast: '🐇 Fast',
+  edit: 'Edit',
 };

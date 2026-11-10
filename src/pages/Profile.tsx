@@ -38,7 +38,7 @@ export default function Profile() {
           <button onClick={() => navigate('/mascota')} className="mb-3 relative group">
             <MascotAvatar customization={mascot} size={100} />
             <span className="absolute bottom-0 right-0 bg-accent text-white text-[9px] px-1.5 py-0.5 rounded-full font-bold opacity-0 group-hover:opacity-100 transition-opacity">
-              Editar
+              {t('edit')}
             </span>
           </button>
           <h2 className="font-heading font-black text-xl">{user?.display_name || t('student_default')}</h2>

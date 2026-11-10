@@ -44,7 +44,7 @@ for w, t in texts:
         where[tok].append(w)
 
 words = sorted(where)
-out = subprocess.run(['hunspell', '-d', dic, '-l'], input='\n'.join(words), capture_output=True, text=True).stdout.split()
+out = subprocess.run(['hunspell', '-i', 'utf-8', '-d', dic, '-l'], input='\n'.join(words), capture_output=True, text=True).stdout.split()
 bad = [w for w in dict.fromkeys(out) if w not in allow and w.lower() not in allow]
 for w in bad:
     print(f"{w:20s} {len(where[w]):3d}  {', '.join(where[w][:3])}")
