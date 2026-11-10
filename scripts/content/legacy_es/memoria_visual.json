@@ -1,0 +1,3071 @@
+{
+  "exercises": [
+    {
+      "id": "memoria_visual_l1_001",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué letra es diferente en esta serie: b, d, b, b?",
+      "options": [
+        "La 1ª",
+        "La 2ª",
+        "La 3ª",
+        "La 4ª"
+      ],
+      "correct": 1,
+      "explanation": "La 2ª letra es 'd', las demás son 'b'"
+    },
+    {
+      "id": "memoria_visual_l1_002",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está escrita correctamente?",
+      "options": [
+        "queso",
+        "cueso",
+        "keso",
+        "qeso"
+      ],
+      "correct": 0,
+      "explanation": "'queso' es la grafía correcta"
+    },
+    {
+      "id": "memoria_visual_l1_003",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál de estas palabras existe?",
+      "options": [
+        "baca",
+        "vaka",
+        "bacca",
+        "vakka"
+      ],
+      "correct": 0,
+      "explanation": "'baca' (portaequipajes) es correcta"
+    },
+    {
+      "id": "memoria_visual_l1_004",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Encuentra la letra diferente: p, p, q, p",
+      "options": [
+        "La 1ª",
+        "La 2ª",
+        "La 3ª",
+        "La 4ª"
+      ],
+      "correct": 2,
+      "explanation": "La 3ª letra es 'q', las demás son 'p'"
+    },
+    {
+      "id": "memoria_visual_l1_005",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está bien escrita?",
+      "options": [
+        "havía",
+        "habia",
+        "había",
+        "abía"
+      ],
+      "correct": 2,
+      "explanation": "'había' con h y tilde en la í"
+    },
+    {
+      "id": "memoria_visual_l1_006",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la imagen espejo de 'b'?",
+      "options": [
+        "d",
+        "p",
+        "q",
+        "b"
+      ],
+      "correct": 0,
+      "explanation": "'d' es la imagen espejo de 'b'"
+    },
+    {
+      "id": "memoria_visual_l1_007",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué secuencia repite el patrón a-b-a?",
+      "options": [
+        "a-b-a",
+        "a-a-b",
+        "b-a-a",
+        "b-b-a"
+      ],
+      "correct": 0,
+      "explanation": "El patrón a-b-a alterna correctamente"
+    },
+    {
+      "id": "memoria_visual_l1_008",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra NO cambia al girarla?",
+      "options": [
+        "oso",
+        "gato",
+        "dado",
+        "pelo"
+      ],
+      "correct": 0,
+      "explanation": "Las letras de 'oso' son simétricas"
+    },
+    {
+      "id": "memoria_visual_l1_009",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Identifica la palabra correcta:",
+      "options": [
+        "bueno",
+        "vueno",
+        "güeno",
+        "wueno"
+      ],
+      "correct": 0,
+      "explanation": "'bueno' con 'b' es correcto"
+    },
+    {
+      "id": "memoria_visual_l1_010",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué número está al revés: 3, 5, 2, Ɛ?",
+      "options": [
+        "3",
+        "5",
+        "2",
+        "Ɛ"
+      ],
+      "correct": 3,
+      "explanation": "Ɛ es un 3 al revés"
+    },
+    {
+      "id": "memoria_visual_l1_011",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está bien escrita?",
+      "options": [
+        "hola",
+        "ola",
+        "olla",
+        "holla"
+      ],
+      "correct": 0,
+      "explanation": "'hola' (saludo) con h"
+    },
+    {
+      "id": "memoria_visual_l1_012",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Encuentra el par diferente: bd, bd, db, bd",
+      "options": [
+        "El 1º",
+        "El 2º",
+        "El 3º",
+        "El 4º"
+      ],
+      "correct": 2,
+      "explanation": "El 3º par es 'db', los demás son 'bd'"
+    },
+    {
+      "id": "memoria_visual_l1_013",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "vien",
+        "bien",
+        "vién",
+        "bién"
+      ],
+      "correct": 1,
+      "explanation": "'bien' con b, sin tilde"
+    },
+    {
+      "id": "memoria_visual_l1_014",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué letra falta en '_asa'?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "s"
+      ],
+      "correct": 0,
+      "explanation": "casa: la 'c' completa la palabra"
+    },
+    {
+      "id": "memoria_visual_l1_015",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está bien?",
+      "options": [
+        "inbierno",
+        "imbierno",
+        "invierno",
+        "imvierno"
+      ],
+      "correct": 2,
+      "explanation": "'invierno' con 'nv'"
+    },
+    {
+      "id": "memoria_visual_l1_016",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Encuentra la letra girada: d, d, d, p",
+      "options": [
+        "La 1ª",
+        "La 2ª",
+        "La 3ª",
+        "La 4ª"
+      ],
+      "correct": 3,
+      "explanation": "'p' es una 'd' girada"
+    },
+    {
+      "id": "memoria_visual_l1_017",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "llabe",
+        "yave",
+        "llave",
+        "yabe"
+      ],
+      "correct": 2,
+      "explanation": "'llave' con 'll'"
+    },
+    {
+      "id": "memoria_visual_l1_018",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué secuencia es diferente?",
+      "options": [
+        "pqpq",
+        "pqpq",
+        "qpqp",
+        "pqpq"
+      ],
+      "correct": 2,
+      "explanation": "La 3ª secuencia invierte el patrón"
+    },
+    {
+      "id": "memoria_visual_l1_019",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es correcta?",
+      "options": [
+        "burro",
+        "vurro",
+        "buro",
+        "vuro"
+      ],
+      "correct": 0,
+      "explanation": "'burro' con b y rr"
+    },
+    {
+      "id": "memoria_visual_l1_020",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Identifica la diferente: m, m, w, m",
+      "options": [
+        "La 1ª",
+        "La 2ª",
+        "La 3ª",
+        "La 4ª"
+      ],
+      "correct": 2,
+      "explanation": "'w' está invertida respecto a 'm'"
+    },
+    {
+      "id": "memoria_visual_l1_021",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "girasol",
+        "jirasol",
+        "girazol",
+        "jirazol"
+      ],
+      "correct": 0,
+      "explanation": "'girasol' con g y s"
+    },
+    {
+      "id": "memoria_visual_l1_022",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué letra completa '_ato'?",
+      "options": [
+        "g",
+        "j",
+        "h",
+        "k"
+      ],
+      "correct": 0,
+      "explanation": "gato: la 'g' es correcta"
+    },
+    {
+      "id": "memoria_visual_l1_023",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es correcta?",
+      "options": [
+        "haber",
+        "haver",
+        "aver",
+        "abér"
+      ],
+      "correct": 0,
+      "explanation": "'haber' con h y b"
+    },
+    {
+      "id": "memoria_visual_l1_024",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Encuentra el intruso: 6, 6, 9, 6",
+      "options": [
+        "El 1º",
+        "El 2º",
+        "El 3º",
+        "El 4º"
+      ],
+      "correct": 2,
+      "explanation": "9 es un 6 invertido"
+    },
+    {
+      "id": "memoria_visual_l1_025",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es correcta?",
+      "options": [
+        "zebra",
+        "cebra",
+        "zevra",
+        "cevra"
+      ],
+      "correct": 1,
+      "explanation": "'cebra' con c y b"
+    },
+    {
+      "id": "memoria_visual_l1_026",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien?",
+      "options": [
+        "hombre",
+        "ombre",
+        "honbre",
+        "onbre"
+      ],
+      "correct": 0,
+      "explanation": "'hombre' con h y mb"
+    },
+    {
+      "id": "memoria_visual_l1_027",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Identifica el diferente: n, n, u, n",
+      "options": [
+        "El 1º",
+        "El 2º",
+        "El 3º",
+        "El 4º"
+      ],
+      "correct": 2,
+      "explanation": "'u' es una 'n' invertida"
+    },
+    {
+      "id": "memoria_visual_l1_028",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra está correcta?",
+      "options": [
+        "ventana",
+        "bentana",
+        "ventanna",
+        "bentanna"
+      ],
+      "correct": 0,
+      "explanation": "'ventana' con v"
+    },
+    {
+      "id": "memoria_visual_l1_029",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la correcta?",
+      "options": [
+        "havitación",
+        "habitación",
+        "avitación",
+        "abitación"
+      ],
+      "correct": 1,
+      "explanation": "'habitación' con h y b"
+    },
+    {
+      "id": "memoria_visual_l1_030",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué grupo tiene todas las letras iguales?",
+      "options": [
+        "bdbd",
+        "bbbb",
+        "bdbp",
+        "dbdb"
+      ],
+      "correct": 1,
+      "explanation": "'bbbb' repite la misma letra"
+    },
+    {
+      "id": "memoria_visual_l2_001",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l2_002",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l2_003",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l2_004",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l2_005",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l2_006",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l2_007",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l2_008",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l2_009",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l2_010",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l2_011",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l2_012",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l2_013",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l2_014",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l2_015",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l2_016",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l2_017",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l2_018",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l2_019",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l2_020",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l2_021",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l2_022",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l2_023",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l2_024",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l2_025",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l2_026",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l2_027",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l2_028",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l2_029",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l2_030",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l3_001",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l3_002",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l3_003",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l3_004",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l3_005",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l3_006",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l3_007",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l3_008",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l3_009",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l3_010",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l3_011",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l3_012",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l3_013",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l3_014",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l3_015",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l3_016",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l3_017",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l3_018",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l3_019",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l3_020",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l3_021",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l3_022",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l3_023",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l3_024",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l3_025",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l3_026",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l3_027",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l3_028",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l3_029",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l3_030",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l4_001",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l4_002",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l4_003",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l4_004",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l4_005",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l4_006",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l4_007",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l4_008",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l4_009",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l4_010",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l4_011",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l4_012",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l4_013",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l4_014",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l4_015",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l4_016",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l4_017",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l4_018",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l4_019",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l4_020",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l4_021",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l4_022",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l4_023",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l4_024",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l4_025",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l4_026",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l4_027",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l4_028",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l4_029",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l4_030",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l5_001",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l5_002",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l5_003",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l5_004",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l5_005",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l5_006",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l5_007",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l5_008",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l5_009",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l5_010",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l5_011",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l5_012",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l5_013",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l5_014",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l5_015",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l5_016",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l5_017",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l5_018",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l5_019",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l5_020",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l5_021",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l5_022",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l5_023",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l5_024",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l5_025",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la escritura correcta?",
+      "options": [
+        "abejas",
+        "avejas",
+        "abehas",
+        "avehas"
+      ],
+      "correct": 0,
+      "explanation": "abejas: con b y j"
+    },
+    {
+      "id": "memoria_visual_l5_026",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica la grafía correcta:",
+      "options": [
+        "huevo",
+        "güevo",
+        "wuevo",
+        "uevo"
+      ],
+      "correct": 0,
+      "explanation": "huevo: con h"
+    },
+    {
+      "id": "memoria_visual_l5_027",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene buena ortografía?",
+      "options": [
+        "zanahoria",
+        "sanaoria",
+        "çanahoria",
+        "zanaoria"
+      ],
+      "correct": 0,
+      "explanation": "zanahoria: con z y h"
+    },
+    {
+      "id": "memoria_visual_l5_028",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál NO tiene error?",
+      "options": [
+        "maravilla",
+        "marabilla",
+        "maraviya",
+        "marabiya"
+      ],
+      "correct": 0,
+      "explanation": "maravilla: con v y ll"
+    },
+    {
+      "id": "memoria_visual_l5_029",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Señala la escritura correcta:",
+      "options": [
+        "excelente",
+        "ecelente",
+        "exelente",
+        "ecselente"
+      ],
+      "correct": 0,
+      "explanation": "excelente: con xc"
+    },
+    {
+      "id": "memoria_visual_l5_030",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál está bien escrita?",
+      "options": [
+        "exhausto",
+        "exausto",
+        "egsausto",
+        "esausto"
+      ],
+      "correct": 0,
+      "explanation": "exhausto: con xh"
+    },
+    {
+      "id": "memoria_visual_l1_201",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las letras de la A a la D",
+      "pieces": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El orden alfabético es A, B, C, D"
+    },
+    {
+      "id": "memoria_visual_l1_202",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena los números del 1 al 4",
+      "pieces": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctOrder": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "1, 2, 3, 4"
+    },
+    {
+      "id": "memoria_visual_l1_203",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena estas letras para formar 'SOL'",
+      "pieces": [
+        "S",
+        "O",
+        "L"
+      ],
+      "correctOrder": [
+        "S",
+        "O",
+        "L"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "S-O-L = SOL ☀️"
+    },
+    {
+      "id": "memoria_visual_l1_204",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena estas letras para formar 'LUZ'",
+      "pieces": [
+        "L",
+        "U",
+        "Z"
+      ],
+      "correctOrder": [
+        "L",
+        "U",
+        "Z"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "L-U-Z = LUZ 💡"
+    },
+    {
+      "id": "memoria_visual_l1_205",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena los colores del arcoíris: rojo, naranja, amarillo",
+      "pieces": [
+        "rojo",
+        "naranja",
+        "amarillo"
+      ],
+      "correctOrder": [
+        "rojo",
+        "naranja",
+        "amarillo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Rojo → naranja → amarillo 🌈"
+    },
+    {
+      "id": "memoria_visual_l1_206",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena de menor a mayor lados: triángulo, cuadrado, pentágono",
+      "pieces": [
+        "triángulo",
+        "cuadrado",
+        "pentágono"
+      ],
+      "correctOrder": [
+        "triángulo",
+        "cuadrado",
+        "pentágono"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Triángulo (3), cuadrado (4), pentágono (5)"
+    },
+    {
+      "id": "memoria_visual_l2_207",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena estas letras para formar 'LIBRO'",
+      "pieces": [
+        "L",
+        "I",
+        "B",
+        "R",
+        "O"
+      ],
+      "correctOrder": [
+        "L",
+        "I",
+        "B",
+        "R",
+        "O"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "L-I-B-R-O = LIBRO 📖"
+    },
+    {
+      "id": "memoria_visual_l2_208",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena de menor a mayor: 5, 2, 8, 1",
+      "pieces": [
+        "1",
+        "2",
+        "5",
+        "8"
+      ],
+      "correctOrder": [
+        "1",
+        "2",
+        "5",
+        "8"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Orden: 1, 2, 5, 8"
+    },
+    {
+      "id": "memoria_visual_l2_209",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena los meses: enero, febrero, marzo",
+      "pieces": [
+        "enero",
+        "febrero",
+        "marzo"
+      ],
+      "correctOrder": [
+        "enero",
+        "febrero",
+        "marzo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Enero → febrero → marzo"
+    },
+    {
+      "id": "memoria_visual_l2_210",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las vocales: a, e, i, o, u",
+      "pieces": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "correctOrder": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Las vocales en orden"
+    },
+    {
+      "id": "memoria_visual_l2_211",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena los días: lunes, martes, miércoles",
+      "pieces": [
+        "lunes",
+        "martes",
+        "miércoles"
+      ],
+      "correctOrder": [
+        "lunes",
+        "martes",
+        "miércoles"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Lunes → martes → miércoles"
+    },
+    {
+      "id": "memoria_visual_l3_212",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena para formar 'ESCUELA'",
+      "pieces": [
+        "E",
+        "S",
+        "C",
+        "U",
+        "E",
+        "L",
+        "A"
+      ],
+      "correctOrder": [
+        "E",
+        "S",
+        "C",
+        "U",
+        "E",
+        "L",
+        "A"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "E-S-C-U-E-L-A = ESCUELA 🏫"
+    },
+    {
+      "id": "memoria_visual_l3_213",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena la secuencia: 2, 4, 6, 8",
+      "pieces": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctOrder": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Números pares: 2, 4, 6, 8"
+    },
+    {
+      "id": "memoria_visual_l3_214",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena de mayor a menor: 100, 50, 25, 10",
+      "pieces": [
+        "100",
+        "50",
+        "25",
+        "10"
+      ],
+      "correctOrder": [
+        "100",
+        "50",
+        "25",
+        "10"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "100 > 50 > 25 > 10"
+    },
+    {
+      "id": "memoria_visual_l3_215",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena los planetas: Mercurio, Venus, Tierra, Marte",
+      "pieces": [
+        "Mercurio",
+        "Venus",
+        "Tierra",
+        "Marte"
+      ],
+      "correctOrder": [
+        "Mercurio",
+        "Venus",
+        "Tierra",
+        "Marte"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Orden desde el Sol 🪐"
+    },
+    {
+      "id": "memoria_visual_l3_216",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena el abecedario: M, N, Ñ, O, P",
+      "pieces": [
+        "M",
+        "N",
+        "Ñ",
+        "O",
+        "P"
+      ],
+      "correctOrder": [
+        "M",
+        "N",
+        "Ñ",
+        "O",
+        "P"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "En español: M, N, Ñ, O, P"
+    },
+    {
+      "id": "memoria_visual_l4_217",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena la secuencia Fibonacci: 1, 1, 2, 3, 5",
+      "pieces": [
+        "1",
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "correctOrder": [
+        "1",
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Cada número es la suma de los dos anteriores"
+    },
+    {
+      "id": "memoria_visual_l4_218",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena de menor a mayor: XII, V, I, X",
+      "pieces": [
+        "I",
+        "V",
+        "X",
+        "XII"
+      ],
+      "correctOrder": [
+        "I",
+        "V",
+        "X",
+        "XII"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Romanos: I(1), V(5), X(10), XII(12)"
+    },
+    {
+      "id": "memoria_visual_l4_219",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las estaciones: primavera, verano, otoño, invierno",
+      "pieces": [
+        "primavera",
+        "verano",
+        "otoño",
+        "invierno"
+      ],
+      "correctOrder": [
+        "primavera",
+        "verano",
+        "otoño",
+        "invierno"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Las estaciones del año"
+    },
+    {
+      "id": "memoria_visual_l4_220",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena: huevo, oruga, crisálida, mariposa",
+      "pieces": [
+        "huevo",
+        "oruga",
+        "crisálida",
+        "mariposa"
+      ],
+      "correctOrder": [
+        "huevo",
+        "oruga",
+        "crisálida",
+        "mariposa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Ciclo de la mariposa 🦋"
+    },
+    {
+      "id": "memoria_visual_l5_221",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena: amanecer, mediodía, atardecer, noche",
+      "pieces": [
+        "amanecer",
+        "mediodía",
+        "atardecer",
+        "noche"
+      ],
+      "correctOrder": [
+        "amanecer",
+        "mediodía",
+        "atardecer",
+        "noche"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El ciclo del día ☀️🌙"
+    },
+    {
+      "id": "memoria_visual_l5_222",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena la tabla del 3: 3, 6, 9, 12, 15",
+      "pieces": [
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ],
+      "correctOrder": [
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Tabla del 3"
+    },
+    {
+      "id": "memoria_visual_l5_223",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena alfabéticamente: biblioteca, diccionario, enciclopedia, manual",
+      "pieces": [
+        "biblioteca",
+        "diccionario",
+        "enciclopedia",
+        "manual"
+      ],
+      "correctOrder": [
+        "biblioteca",
+        "diccionario",
+        "enciclopedia",
+        "manual"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "B, D, E, M"
+    },
+    {
+      "id": "memoria_visual_l5_224",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena: infantil, primaria, secundaria, universidad",
+      "pieces": [
+        "infantil",
+        "primaria",
+        "secundaria",
+        "universidad"
+      ],
+      "correctOrder": [
+        "infantil",
+        "primaria",
+        "secundaria",
+        "universidad"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Niveles educativos 🎓"
+    },
+    {
+      "id": "memoria_visual_l1_225",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué letra falta en la serie: a, _, c, d?",
+      "options": [
+        "b",
+        "e",
+        "f",
+        "g"
+      ],
+      "correct": 0,
+      "explanation": "La serie es a, b, c, d"
+    },
+    {
+      "id": "memoria_visual_l1_226",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué número viene después de 3, 4, 5, __?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 0,
+      "explanation": "La serie continúa: 6"
+    },
+    {
+      "id": "memoria_visual_l1_227",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué símbolo es diferente: ★ ★ ☆ ★?",
+      "options": [
+        "El 1°",
+        "El 2°",
+        "El 3°",
+        "El 4°"
+      ],
+      "correct": 2,
+      "explanation": "El 3° es ☆"
+    },
+    {
+      "id": "memoria_visual_l1_228",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas letras 'a' hay en 'abracadabra'?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "correct": 0,
+      "explanation": "a-b-r-a-c-a-d-a-b-r-a = 5"
+    },
+    {
+      "id": "memoria_visual_l1_229",
+      "module": "memoria_visual",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra se lee igual al revés?",
+      "options": [
+        "oso",
+        "sol",
+        "pan",
+        "luz"
+      ],
+      "correct": 0,
+      "explanation": "'Oso' es palíndromo"
+    },
+    {
+      "id": "memoria_visual_l2_230",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué letra está repetida en 'llover'?",
+      "options": [
+        "l",
+        "o",
+        "v",
+        "r"
+      ],
+      "correct": 0,
+      "explanation": "'Llover' tiene la 'l' repetida"
+    },
+    {
+      "id": "memoria_visual_l2_231",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué patrón sigue: AB, AB, AB, __?",
+      "options": [
+        "AB",
+        "BA",
+        "AA",
+        "BB"
+      ],
+      "correct": 0,
+      "explanation": "El patrón se repite: AB"
+    },
+    {
+      "id": "memoria_visual_l2_232",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas veces aparece 'ma' en 'mamá, mamut'?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correct": 0,
+      "explanation": "ma-má, ma-mut = 3 veces"
+    },
+    {
+      "id": "memoria_visual_l2_233",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué grupo tiene todas las letras iguales?",
+      "options": [
+        "bbb",
+        "bdb",
+        "bpb",
+        "bdq"
+      ],
+      "correct": 0,
+      "explanation": "'bbb' todas iguales"
+    },
+    {
+      "id": "memoria_visual_l2_234",
+      "module": "memoria_visual",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Encuentra el intruso: p, p, q, p",
+      "options": [
+        "El 3°",
+        "El 1°",
+        "El 2°",
+        "El 4°"
+      ],
+      "correct": 0,
+      "explanation": "La 'q' es diferente de las 'p'"
+    },
+    {
+      "id": "memoria_visual_l3_235",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra se lee igual al revés?",
+      "options": [
+        "reconocer",
+        "abecedario",
+        "mariposa",
+        "elefante"
+      ],
+      "correct": 0,
+      "explanation": "'Reconocer' es palíndromo"
+    },
+    {
+      "id": "memoria_visual_l3_236",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué secuencia es correcta? aabb, aabb, __",
+      "options": [
+        "aabb",
+        "abab",
+        "bbaa",
+        "abba"
+      ],
+      "correct": 0,
+      "explanation": "El patrón repite 'aabb'"
+    },
+    {
+      "id": "memoria_visual_l3_237",
+      "module": "memoria_visual",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas diferencias hay entre 'gato' y 'dato'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correct": 0,
+      "explanation": "Solo cambia g→d"
+    },
+    {
+      "id": "memoria_visual_l4_238",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué anagrama forma 'roma'?",
+      "options": [
+        "amor",
+        "ramo",
+        "mora",
+        "Todas"
+      ],
+      "correct": 3,
+      "explanation": "Todas son anagramas de 'roma'"
+    },
+    {
+      "id": "memoria_visual_l4_239",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas 'e' hay en 'elefante elegante'?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "correct": 0,
+      "explanation": "5 letras 'e'"
+    },
+    {
+      "id": "memoria_visual_l4_240",
+      "module": "memoria_visual",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué cambio transforma 'paso' en 'peso'?",
+      "options": [
+        "a→e",
+        "p→b",
+        "s→z",
+        "o→u"
+      ],
+      "correct": 0,
+      "explanation": "Cambiando a por e"
+    },
+    {
+      "id": "memoria_visual_l5_241",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas palabras diferentes puedes formar con 'S, O, L'?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "SOL y LOS"
+    },
+    {
+      "id": "memoria_visual_l5_242",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué patrón sigue: 1a, 2b, 3c, __?",
+      "options": [
+        "4d",
+        "4c",
+        "3d",
+        "5e"
+      ],
+      "correct": 0,
+      "explanation": "Número + letra correlativa: 4d"
+    },
+    {
+      "id": "memoria_visual_l5_243",
+      "module": "memoria_visual",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas letras comparten 'computadora' y 'comunicación'?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct": 0,
+      "explanation": "c, o, m, u, a = 5 letras"
+    }
+  ]
+}

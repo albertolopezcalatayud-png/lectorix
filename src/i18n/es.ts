@@ -218,7 +218,7 @@ export const es = {
   prem_hero_desc: 'Desbloquea todo el potencial de aprendizaje',
   prem_feat_modules: 'Todos los módulos',
   prem_feat_modules_desc: '5 módulos con 5 niveles cada uno',
-  prem_feat_exercises: 'Más de 1.100 ejercicios',
+  prem_feat_exercises: 'Más de 1.000 ejercicios por idioma',
   prem_feat_exercises_desc: 'Biblioteca completa de ejercicios',
   prem_feat_stats: 'Estadísticas avanzadas',
   prem_feat_stats_desc: 'Seguimiento detallado del progreso',

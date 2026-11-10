@@ -6,7 +6,7 @@ import json, os, re, subprocess, sys, collections
 
 lang, dic = sys.argv[1], sys.argv[2]
 ROOT = os.path.join(os.path.dirname(__file__), '..', '..', 'src', 'data')
-readings_file = {'en': 'readings.en.json', 'ca': 'lectures.ca.json'}[lang]
+readings_file = {'en': 'readings.en.json', 'ca': 'lectures.ca.json', 'es': 'lecturas.json'}[lang]
 allow_file = os.path.join(os.path.dirname(__file__), f'allow_{lang}.txt')
 allow = set()
 if os.path.exists(allow_file):
@@ -15,7 +15,7 @@ if os.path.exists(allow_file):
 texts = []  # (where, text)
 INTENTIONAL = ('memoria_visual', 'escritura', 'retos_rapidos', 'fonologia')
 for m in ['fonologia', 'memoria_visual', 'comprension_lectora', 'escritura', 'retos_rapidos']:
-    for e in json.load(open(os.path.join(ROOT, 'exercises', lang, f'{m}.json'), encoding='utf-8'))['exercises']:
+    for e in json.load(open(os.path.join(ROOT, 'exercises', *( [] if lang == 'es' else [lang]), f'{m}.json'), encoding='utf-8'))['exercises']:
         for k in ('prompt', 'explanation', 'passage', 'answer', 'word', 'sentence', 'hint'):
             if k in e and isinstance(e[k], str):
                 texts.append((e['id'] + '.' + k, e[k]))

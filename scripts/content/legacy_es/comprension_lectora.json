@@ -1,0 +1,3310 @@
+{
+  "exercises": [
+    {
+      "id": "comprension_lectora_l1_001",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llama el gato?",
+      "options": [
+        "Sol",
+        "Luna",
+        "Estrella",
+        "Nube"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'se llama Luna'",
+      "passage": "El gato de María se llama Luna. Luna es blanca y tiene los ojos azules. Le gusta dormir en el sofá y jugar con una pelota roja."
+    },
+    {
+      "id": "comprension_lectora_l1_002",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿De qué color es Luna?",
+      "options": [
+        "Negra",
+        "Gris",
+        "Blanca",
+        "Marrón"
+      ],
+      "correct": 2,
+      "explanation": "El texto dice: 'Luna es blanca'",
+      "passage": "El gato de María se llama Luna. Luna es blanca y tiene los ojos azules. Le gusta dormir en el sofá y jugar con una pelota roja."
+    },
+    {
+      "id": "comprension_lectora_l1_003",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Dónde le gusta dormir?",
+      "options": [
+        "En la cama",
+        "En el sofá",
+        "En el suelo",
+        "En la silla"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'dormir en el sofá'",
+      "passage": "El gato de María se llama Luna. Luna es blanca y tiene los ojos azules. Le gusta dormir en el sofá y jugar con una pelota roja."
+    },
+    {
+      "id": "comprension_lectora_l1_004",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Con qué juega Luna?",
+      "options": [
+        "Un ratón",
+        "Una cuerda",
+        "Una pelota roja",
+        "Un pez"
+      ],
+      "correct": 2,
+      "explanation": "El texto dice: 'jugar con una pelota roja'",
+      "passage": "El gato de María se llama Luna. Luna es blanca y tiene los ojos azules. Le gusta dormir en el sofá y jugar con una pelota roja."
+    },
+    {
+      "id": "comprension_lectora_l1_005",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿De qué color son los ojos de Luna?",
+      "options": [
+        "Verdes",
+        "Marrones",
+        "Negros",
+        "Azules"
+      ],
+      "correct": 3,
+      "explanation": "El texto dice: 'ojos azules'",
+      "passage": "El gato de María se llama Luna. Luna es blanca y tiene los ojos azules. Le gusta dormir en el sofá y jugar con una pelota roja."
+    },
+    {
+      "id": "comprension_lectora_l1_006",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo va Pedro al colegio?",
+      "options": [
+        "Andando",
+        "En coche",
+        "En autobús",
+        "En bicicleta"
+      ],
+      "correct": 2,
+      "explanation": "El texto dice: 'va al colegio en autobús'",
+      "passage": "Pedro va al colegio en autobús. Sale de casa a las ocho de la mañana. Su asignatura favorita es matemáticas. En el recreo juega al fútbol con sus amigos."
+    },
+    {
+      "id": "comprension_lectora_l1_007",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿A qué hora sale de casa?",
+      "options": [
+        "A las siete",
+        "A las ocho",
+        "A las nueve",
+        "A las diez"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'a las ocho de la mañana'",
+      "passage": "Pedro va al colegio en autobús. Sale de casa a las ocho de la mañana. Su asignatura favorita es matemáticas. En el recreo juega al fútbol con sus amigos."
+    },
+    {
+      "id": "comprension_lectora_l1_008",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es su asignatura favorita?",
+      "options": [
+        "Lengua",
+        "Ciencias",
+        "Inglés",
+        "Matemáticas"
+      ],
+      "correct": 3,
+      "explanation": "El texto dice: 'su asignatura favorita es matemáticas'",
+      "passage": "Pedro va al colegio en autobús. Sale de casa a las ocho de la mañana. Su asignatura favorita es matemáticas. En el recreo juega al fútbol con sus amigos."
+    },
+    {
+      "id": "comprension_lectora_l1_009",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿A qué juega en el recreo?",
+      "options": [
+        "Baloncesto",
+        "Fútbol",
+        "Tenis",
+        "Voleibol"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'juega al fútbol'",
+      "passage": "Pedro va al colegio en autobús. Sale de casa a las ocho de la mañana. Su asignatura favorita es matemáticas. En el recreo juega al fútbol con sus amigos."
+    },
+    {
+      "id": "comprension_lectora_l1_010",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Con quién juega Pedro?",
+      "options": [
+        "Solo",
+        "Con su hermano",
+        "Con sus amigos",
+        "Con el profesor"
+      ],
+      "correct": 2,
+      "explanation": "El texto dice: 'con sus amigos'",
+      "passage": "Pedro va al colegio en autobús. Sale de casa a las ocho de la mañana. Su asignatura favorita es matemáticas. En el recreo juega al fútbol con sus amigos."
+    },
+    {
+      "id": "comprension_lectora_l1_011",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llama el perro de Ana?",
+      "options": [
+        "Rex",
+        "Max",
+        "Bob",
+        "Leo"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'se llama Max'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_012",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿De qué color es Max?",
+      "options": [
+        "Negro",
+        "Blanco",
+        "Marrón",
+        "Gris"
+      ],
+      "correct": 2,
+      "explanation": "El texto dice: 'de color marrón'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_013",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuándo van al parque?",
+      "options": [
+        "Por la mañana",
+        "Cada tarde",
+        "Por la noche",
+        "Los domingos"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'cada tarde'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_014",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llama el perro de Ana?",
+      "options": [
+        "Rex",
+        "Max",
+        "Bob",
+        "Leo"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'se llama Max'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_015",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿De qué color es Max?",
+      "options": [
+        "Negro",
+        "Blanco",
+        "Marrón",
+        "Gris"
+      ],
+      "correct": 2,
+      "explanation": "El texto dice: 'de color marrón'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_016",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuándo van al parque?",
+      "options": [
+        "Por la mañana",
+        "Cada tarde",
+        "Por la noche",
+        "Los domingos"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'cada tarde'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_017",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llama el perro de Ana?",
+      "options": [
+        "Rex",
+        "Max",
+        "Bob",
+        "Leo"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'se llama Max'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_018",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿De qué color es Max?",
+      "options": [
+        "Negro",
+        "Blanco",
+        "Marrón",
+        "Gris"
+      ],
+      "correct": 2,
+      "explanation": "El texto dice: 'de color marrón'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_019",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuándo van al parque?",
+      "options": [
+        "Por la mañana",
+        "Cada tarde",
+        "Por la noche",
+        "Los domingos"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'cada tarde'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_020",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llama el perro de Ana?",
+      "options": [
+        "Rex",
+        "Max",
+        "Bob",
+        "Leo"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'se llama Max'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_021",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿De qué color es Max?",
+      "options": [
+        "Negro",
+        "Blanco",
+        "Marrón",
+        "Gris"
+      ],
+      "correct": 2,
+      "explanation": "El texto dice: 'de color marrón'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_022",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuándo van al parque?",
+      "options": [
+        "Por la mañana",
+        "Cada tarde",
+        "Por la noche",
+        "Los domingos"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'cada tarde'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_023",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llama el perro de Ana?",
+      "options": [
+        "Rex",
+        "Max",
+        "Bob",
+        "Leo"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'se llama Max'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_024",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿De qué color es Max?",
+      "options": [
+        "Negro",
+        "Blanco",
+        "Marrón",
+        "Gris"
+      ],
+      "correct": 2,
+      "explanation": "El texto dice: 'de color marrón'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_025",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuándo van al parque?",
+      "options": [
+        "Por la mañana",
+        "Cada tarde",
+        "Por la noche",
+        "Los domingos"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'cada tarde'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_026",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llama el perro de Ana?",
+      "options": [
+        "Rex",
+        "Max",
+        "Bob",
+        "Leo"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'se llama Max'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_027",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿De qué color es Max?",
+      "options": [
+        "Negro",
+        "Blanco",
+        "Marrón",
+        "Gris"
+      ],
+      "correct": 2,
+      "explanation": "El texto dice: 'de color marrón'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_028",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuándo van al parque?",
+      "options": [
+        "Por la mañana",
+        "Cada tarde",
+        "Por la noche",
+        "Los domingos"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'cada tarde'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_029",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llama el perro de Ana?",
+      "options": [
+        "Rex",
+        "Max",
+        "Bob",
+        "Leo"
+      ],
+      "correct": 1,
+      "explanation": "El texto dice: 'se llama Max'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l1_030",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿De qué color es Max?",
+      "options": [
+        "Negro",
+        "Blanco",
+        "Marrón",
+        "Gris"
+      ],
+      "correct": 2,
+      "explanation": "El texto dice: 'de color marrón'",
+      "passage": "Ana tiene un perro que se llama Max. Max es grande y de color marrón. Cada tarde, Ana y Max van al parque a pasear."
+    },
+    {
+      "id": "comprension_lectora_l2_001",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué son los delfines?",
+      "options": [
+        "Peces",
+        "Mamíferos marinos",
+        "Reptiles",
+        "Aves acuáticas"
+      ],
+      "correct": 1,
+      "explanation": "Son mamíferos marinos",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l2_002",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se comunican?",
+      "options": [
+        "Con gestos",
+        "Mediante sonidos",
+        "Por colores",
+        "Con olores"
+      ],
+      "correct": 1,
+      "explanation": "Se comunican mediante sonidos",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l2_003",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿A qué velocidad nadan?",
+      "options": [
+        "20 km/h",
+        "30 km/h",
+        "40 km/h",
+        "50 km/h"
+      ],
+      "correct": 2,
+      "explanation": "Nadan hasta 40 km/h",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l2_004",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llaman sus grupos?",
+      "options": [
+        "Rebaños",
+        "Bandadas",
+        "Manadas",
+        "Colonias"
+      ],
+      "correct": 2,
+      "explanation": "Se llaman manadas",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l2_005",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué fabrican las plantas con la fotosíntesis?",
+      "options": [
+        "Agua",
+        "Alimento",
+        "Tierra",
+        "Luz"
+      ],
+      "correct": 1,
+      "explanation": "Fabrican su propio alimento",
+      "passage": "La fotosíntesis es el proceso por el cual las plantas fabrican su propio alimento. Necesitan luz solar, agua y dióxido de carbono. Como resultado producen oxígeno, que es el gas que respiramos los seres humanos."
+    },
+    {
+      "id": "comprension_lectora_l2_006",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué necesitan las plantas?",
+      "options": [
+        "Solo agua",
+        "Solo luz",
+        "Luz, agua y CO₂",
+        "Solo tierra"
+      ],
+      "correct": 2,
+      "explanation": "Necesitan luz solar, agua y CO₂",
+      "passage": "La fotosíntesis es el proceso por el cual las plantas fabrican su propio alimento. Necesitan luz solar, agua y dióxido de carbono. Como resultado producen oxígeno, que es el gas que respiramos los seres humanos."
+    },
+    {
+      "id": "comprension_lectora_l2_007",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué producen como resultado?",
+      "options": [
+        "Nitrógeno",
+        "Hidrógeno",
+        "Oxígeno",
+        "Carbono"
+      ],
+      "correct": 2,
+      "explanation": "Producen oxígeno",
+      "passage": "La fotosíntesis es el proceso por el cual las plantas fabrican su propio alimento. Necesitan luz solar, agua y dióxido de carbono. Como resultado producen oxígeno, que es el gas que respiramos los seres humanos."
+    },
+    {
+      "id": "comprension_lectora_l2_008",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué son los volcanes?",
+      "options": [
+        "Montañas huecas",
+        "Aberturas en la Tierra",
+        "Ríos de lava",
+        "Grietas oceánicas"
+      ],
+      "correct": 1,
+      "explanation": "Son aberturas en la superficie",
+      "passage": "Los volcanes son aberturas en la superficie de la Tierra por donde sale magma del interior. Cuando el magma llega a la superficie se llama lava. Las erupciones pueden ser explosivas o tranquilas."
+    },
+    {
+      "id": "comprension_lectora_l2_009",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llama el magma en la superficie?",
+      "options": [
+        "Roca",
+        "Ceniza",
+        "Lava",
+        "Piedra"
+      ],
+      "correct": 2,
+      "explanation": "Se llama lava",
+      "passage": "Los volcanes son aberturas en la superficie de la Tierra por donde sale magma del interior. Cuando el magma llega a la superficie se llama lava. Las erupciones pueden ser explosivas o tranquilas."
+    },
+    {
+      "id": "comprension_lectora_l2_010",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo pueden ser las erupciones?",
+      "options": [
+        "Frías o calientes",
+        "Rápidas o lentas",
+        "Explosivas o tranquilas",
+        "Grandes o pequeñas"
+      ],
+      "correct": 2,
+      "explanation": "Explosivas o tranquilas",
+      "passage": "Los volcanes son aberturas en la superficie de la Tierra por donde sale magma del interior. Cuando el magma llega a la superficie se llama lava. Las erupciones pueden ser explosivas o tranquilas."
+    },
+    {
+      "id": "comprension_lectora_l2_011",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_012",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_013",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_014",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_015",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_016",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_017",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_018",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_019",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_020",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_021",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_022",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_023",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_024",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_025",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_026",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_027",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_028",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_029",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l2_030",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_001",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué son los delfines?",
+      "options": [
+        "Peces",
+        "Mamíferos marinos",
+        "Reptiles",
+        "Aves acuáticas"
+      ],
+      "correct": 1,
+      "explanation": "Son mamíferos marinos",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l3_002",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se comunican?",
+      "options": [
+        "Con gestos",
+        "Mediante sonidos",
+        "Por colores",
+        "Con olores"
+      ],
+      "correct": 1,
+      "explanation": "Se comunican mediante sonidos",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l3_003",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿A qué velocidad nadan?",
+      "options": [
+        "20 km/h",
+        "30 km/h",
+        "40 km/h",
+        "50 km/h"
+      ],
+      "correct": 2,
+      "explanation": "Nadan hasta 40 km/h",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l3_004",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llaman sus grupos?",
+      "options": [
+        "Rebaños",
+        "Bandadas",
+        "Manadas",
+        "Colonias"
+      ],
+      "correct": 2,
+      "explanation": "Se llaman manadas",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l3_005",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué fabrican las plantas con la fotosíntesis?",
+      "options": [
+        "Agua",
+        "Alimento",
+        "Tierra",
+        "Luz"
+      ],
+      "correct": 1,
+      "explanation": "Fabrican su propio alimento",
+      "passage": "La fotosíntesis es el proceso por el cual las plantas fabrican su propio alimento. Necesitan luz solar, agua y dióxido de carbono. Como resultado producen oxígeno, que es el gas que respiramos los seres humanos."
+    },
+    {
+      "id": "comprension_lectora_l3_006",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué necesitan las plantas?",
+      "options": [
+        "Solo agua",
+        "Solo luz",
+        "Luz, agua y CO₂",
+        "Solo tierra"
+      ],
+      "correct": 2,
+      "explanation": "Necesitan luz solar, agua y CO₂",
+      "passage": "La fotosíntesis es el proceso por el cual las plantas fabrican su propio alimento. Necesitan luz solar, agua y dióxido de carbono. Como resultado producen oxígeno, que es el gas que respiramos los seres humanos."
+    },
+    {
+      "id": "comprension_lectora_l3_007",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué producen como resultado?",
+      "options": [
+        "Nitrógeno",
+        "Hidrógeno",
+        "Oxígeno",
+        "Carbono"
+      ],
+      "correct": 2,
+      "explanation": "Producen oxígeno",
+      "passage": "La fotosíntesis es el proceso por el cual las plantas fabrican su propio alimento. Necesitan luz solar, agua y dióxido de carbono. Como resultado producen oxígeno, que es el gas que respiramos los seres humanos."
+    },
+    {
+      "id": "comprension_lectora_l3_008",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué son los volcanes?",
+      "options": [
+        "Montañas huecas",
+        "Aberturas en la Tierra",
+        "Ríos de lava",
+        "Grietas oceánicas"
+      ],
+      "correct": 1,
+      "explanation": "Son aberturas en la superficie",
+      "passage": "Los volcanes son aberturas en la superficie de la Tierra por donde sale magma del interior. Cuando el magma llega a la superficie se llama lava. Las erupciones pueden ser explosivas o tranquilas."
+    },
+    {
+      "id": "comprension_lectora_l3_009",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llama el magma en la superficie?",
+      "options": [
+        "Roca",
+        "Ceniza",
+        "Lava",
+        "Piedra"
+      ],
+      "correct": 2,
+      "explanation": "Se llama lava",
+      "passage": "Los volcanes son aberturas en la superficie de la Tierra por donde sale magma del interior. Cuando el magma llega a la superficie se llama lava. Las erupciones pueden ser explosivas o tranquilas."
+    },
+    {
+      "id": "comprension_lectora_l3_010",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo pueden ser las erupciones?",
+      "options": [
+        "Frías o calientes",
+        "Rápidas o lentas",
+        "Explosivas o tranquilas",
+        "Grandes o pequeñas"
+      ],
+      "correct": 2,
+      "explanation": "Explosivas o tranquilas",
+      "passage": "Los volcanes son aberturas en la superficie de la Tierra por donde sale magma del interior. Cuando el magma llega a la superficie se llama lava. Las erupciones pueden ser explosivas o tranquilas."
+    },
+    {
+      "id": "comprension_lectora_l3_011",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_012",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_013",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_014",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_015",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_016",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_017",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_018",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_019",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_020",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_021",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_022",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_023",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_024",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_025",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_026",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_027",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_028",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_029",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l3_030",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_001",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué son los delfines?",
+      "options": [
+        "Peces",
+        "Mamíferos marinos",
+        "Reptiles",
+        "Aves acuáticas"
+      ],
+      "correct": 1,
+      "explanation": "Son mamíferos marinos",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l4_002",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se comunican?",
+      "options": [
+        "Con gestos",
+        "Mediante sonidos",
+        "Por colores",
+        "Con olores"
+      ],
+      "correct": 1,
+      "explanation": "Se comunican mediante sonidos",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l4_003",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿A qué velocidad nadan?",
+      "options": [
+        "20 km/h",
+        "30 km/h",
+        "40 km/h",
+        "50 km/h"
+      ],
+      "correct": 2,
+      "explanation": "Nadan hasta 40 km/h",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l4_004",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llaman sus grupos?",
+      "options": [
+        "Rebaños",
+        "Bandadas",
+        "Manadas",
+        "Colonias"
+      ],
+      "correct": 2,
+      "explanation": "Se llaman manadas",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l4_005",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué fabrican las plantas con la fotosíntesis?",
+      "options": [
+        "Agua",
+        "Alimento",
+        "Tierra",
+        "Luz"
+      ],
+      "correct": 1,
+      "explanation": "Fabrican su propio alimento",
+      "passage": "La fotosíntesis es el proceso por el cual las plantas fabrican su propio alimento. Necesitan luz solar, agua y dióxido de carbono. Como resultado producen oxígeno, que es el gas que respiramos los seres humanos."
+    },
+    {
+      "id": "comprension_lectora_l4_006",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué necesitan las plantas?",
+      "options": [
+        "Solo agua",
+        "Solo luz",
+        "Luz, agua y CO₂",
+        "Solo tierra"
+      ],
+      "correct": 2,
+      "explanation": "Necesitan luz solar, agua y CO₂",
+      "passage": "La fotosíntesis es el proceso por el cual las plantas fabrican su propio alimento. Necesitan luz solar, agua y dióxido de carbono. Como resultado producen oxígeno, que es el gas que respiramos los seres humanos."
+    },
+    {
+      "id": "comprension_lectora_l4_007",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué producen como resultado?",
+      "options": [
+        "Nitrógeno",
+        "Hidrógeno",
+        "Oxígeno",
+        "Carbono"
+      ],
+      "correct": 2,
+      "explanation": "Producen oxígeno",
+      "passage": "La fotosíntesis es el proceso por el cual las plantas fabrican su propio alimento. Necesitan luz solar, agua y dióxido de carbono. Como resultado producen oxígeno, que es el gas que respiramos los seres humanos."
+    },
+    {
+      "id": "comprension_lectora_l4_008",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué son los volcanes?",
+      "options": [
+        "Montañas huecas",
+        "Aberturas en la Tierra",
+        "Ríos de lava",
+        "Grietas oceánicas"
+      ],
+      "correct": 1,
+      "explanation": "Son aberturas en la superficie",
+      "passage": "Los volcanes son aberturas en la superficie de la Tierra por donde sale magma del interior. Cuando el magma llega a la superficie se llama lava. Las erupciones pueden ser explosivas o tranquilas."
+    },
+    {
+      "id": "comprension_lectora_l4_009",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llama el magma en la superficie?",
+      "options": [
+        "Roca",
+        "Ceniza",
+        "Lava",
+        "Piedra"
+      ],
+      "correct": 2,
+      "explanation": "Se llama lava",
+      "passage": "Los volcanes son aberturas en la superficie de la Tierra por donde sale magma del interior. Cuando el magma llega a la superficie se llama lava. Las erupciones pueden ser explosivas o tranquilas."
+    },
+    {
+      "id": "comprension_lectora_l4_010",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo pueden ser las erupciones?",
+      "options": [
+        "Frías o calientes",
+        "Rápidas o lentas",
+        "Explosivas o tranquilas",
+        "Grandes o pequeñas"
+      ],
+      "correct": 2,
+      "explanation": "Explosivas o tranquilas",
+      "passage": "Los volcanes son aberturas en la superficie de la Tierra por donde sale magma del interior. Cuando el magma llega a la superficie se llama lava. Las erupciones pueden ser explosivas o tranquilas."
+    },
+    {
+      "id": "comprension_lectora_l4_011",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_012",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_013",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_014",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_015",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_016",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_017",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_018",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_019",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_020",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_021",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_022",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_023",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_024",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_025",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_026",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_027",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_028",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_029",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l4_030",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_001",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué son los delfines?",
+      "options": [
+        "Peces",
+        "Mamíferos marinos",
+        "Reptiles",
+        "Aves acuáticas"
+      ],
+      "correct": 1,
+      "explanation": "Son mamíferos marinos",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l5_002",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se comunican?",
+      "options": [
+        "Con gestos",
+        "Mediante sonidos",
+        "Por colores",
+        "Con olores"
+      ],
+      "correct": 1,
+      "explanation": "Se comunican mediante sonidos",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l5_003",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿A qué velocidad nadan?",
+      "options": [
+        "20 km/h",
+        "30 km/h",
+        "40 km/h",
+        "50 km/h"
+      ],
+      "correct": 2,
+      "explanation": "Nadan hasta 40 km/h",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l5_004",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llaman sus grupos?",
+      "options": [
+        "Rebaños",
+        "Bandadas",
+        "Manadas",
+        "Colonias"
+      ],
+      "correct": 2,
+      "explanation": "Se llaman manadas",
+      "passage": "Los delfines son mamíferos marinos muy inteligentes. Viven en grupos llamados manadas y se comunican entre sí mediante sonidos. Pueden nadar a velocidades de hasta 40 km/h y saltar varios metros fuera del agua."
+    },
+    {
+      "id": "comprension_lectora_l5_005",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué fabrican las plantas con la fotosíntesis?",
+      "options": [
+        "Agua",
+        "Alimento",
+        "Tierra",
+        "Luz"
+      ],
+      "correct": 1,
+      "explanation": "Fabrican su propio alimento",
+      "passage": "La fotosíntesis es el proceso por el cual las plantas fabrican su propio alimento. Necesitan luz solar, agua y dióxido de carbono. Como resultado producen oxígeno, que es el gas que respiramos los seres humanos."
+    },
+    {
+      "id": "comprension_lectora_l5_006",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué necesitan las plantas?",
+      "options": [
+        "Solo agua",
+        "Solo luz",
+        "Luz, agua y CO₂",
+        "Solo tierra"
+      ],
+      "correct": 2,
+      "explanation": "Necesitan luz solar, agua y CO₂",
+      "passage": "La fotosíntesis es el proceso por el cual las plantas fabrican su propio alimento. Necesitan luz solar, agua y dióxido de carbono. Como resultado producen oxígeno, que es el gas que respiramos los seres humanos."
+    },
+    {
+      "id": "comprension_lectora_l5_007",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué producen como resultado?",
+      "options": [
+        "Nitrógeno",
+        "Hidrógeno",
+        "Oxígeno",
+        "Carbono"
+      ],
+      "correct": 2,
+      "explanation": "Producen oxígeno",
+      "passage": "La fotosíntesis es el proceso por el cual las plantas fabrican su propio alimento. Necesitan luz solar, agua y dióxido de carbono. Como resultado producen oxígeno, que es el gas que respiramos los seres humanos."
+    },
+    {
+      "id": "comprension_lectora_l5_008",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué son los volcanes?",
+      "options": [
+        "Montañas huecas",
+        "Aberturas en la Tierra",
+        "Ríos de lava",
+        "Grietas oceánicas"
+      ],
+      "correct": 1,
+      "explanation": "Son aberturas en la superficie",
+      "passage": "Los volcanes son aberturas en la superficie de la Tierra por donde sale magma del interior. Cuando el magma llega a la superficie se llama lava. Las erupciones pueden ser explosivas o tranquilas."
+    },
+    {
+      "id": "comprension_lectora_l5_009",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se llama el magma en la superficie?",
+      "options": [
+        "Roca",
+        "Ceniza",
+        "Lava",
+        "Piedra"
+      ],
+      "correct": 2,
+      "explanation": "Se llama lava",
+      "passage": "Los volcanes son aberturas en la superficie de la Tierra por donde sale magma del interior. Cuando el magma llega a la superficie se llama lava. Las erupciones pueden ser explosivas o tranquilas."
+    },
+    {
+      "id": "comprension_lectora_l5_010",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo pueden ser las erupciones?",
+      "options": [
+        "Frías o calientes",
+        "Rápidas o lentas",
+        "Explosivas o tranquilas",
+        "Grandes o pequeñas"
+      ],
+      "correct": 2,
+      "explanation": "Explosivas o tranquilas",
+      "passage": "Los volcanes son aberturas en la superficie de la Tierra por donde sale magma del interior. Cuando el magma llega a la superficie se llama lava. Las erupciones pueden ser explosivas o tranquilas."
+    },
+    {
+      "id": "comprension_lectora_l5_011",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_012",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_013",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_014",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_015",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_016",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_017",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_018",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_019",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_020",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_021",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_022",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_023",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_024",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_025",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_026",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_027",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_028",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_029",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_lectora_l5_030",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la idea principal del texto?",
+      "options": [
+        "Un detalle secundario",
+        "La idea principal",
+        "Una opinión",
+        "Un ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "La idea principal resume el contenido del texto",
+      "passage": "Los océanos cubren más del 70% de la superficie terrestre. Son fundamentales para regular el clima y albergan millones de especies."
+    },
+    {
+      "id": "comprension_l2_031",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ ladra y la ___ maúlla.",
+      "blanks": [
+        "perro",
+        "gata"
+      ],
+      "distractors": [
+        "pez",
+        "árbol"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El perro ladra y la gata maúlla. Los animales hacen sonidos diferentes."
+    },
+    {
+      "id": "comprension_l2_032",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "En ___ hace frío y en ___ hace calor.",
+      "blanks": [
+        "invierno",
+        "verano"
+      ],
+      "distractors": [
+        "casa",
+        "escuela"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "En invierno hace frío y en verano hace calor. Son estaciones opuestas."
+    },
+    {
+      "id": "comprension_l2_033",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Uso el ___ para escribir y la ___ para borrar.",
+      "blanks": [
+        "lápiz",
+        "goma"
+      ],
+      "distractors": [
+        "silla",
+        "mesa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El lápiz sirve para escribir y la goma para borrar."
+    },
+    {
+      "id": "comprension_l2_034",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ brilla de noche y el ___ brilla de día.",
+      "blanks": [
+        "luna",
+        "sol"
+      ],
+      "distractors": [
+        "nube",
+        "estrella"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La luna brilla de noche y el sol brilla de día."
+    },
+    {
+      "id": "comprension_l2_035",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Mi ___ es azul y mi ___ es roja.",
+      "blanks": [
+        "camisa",
+        "falda"
+      ],
+      "distractors": [
+        "diente",
+        "pelo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Mi camisa es azul y mi falda es roja. Son prendas de vestir."
+    },
+    {
+      "id": "comprension_l3_031",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Los ___ vuelan por el cielo y los ___ nadan en el mar.",
+      "blanks": [
+        "pájaros",
+        "peces"
+      ],
+      "distractors": [
+        "libros",
+        "coches"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los pájaros vuelan por el cielo y los peces nadan en el mar."
+    },
+    {
+      "id": "comprension_l3_032",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ es el rey de la selva y el ___ es el animal más alto.",
+      "blanks": [
+        "león",
+        "jirafa"
+      ],
+      "distractors": [
+        "ratón",
+        "hormiga"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El león es el rey de la selva y la jirafa es el animal más alto."
+    },
+    {
+      "id": "comprension_l3_033",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la oración",
+      "sentence": "Para ___ necesito un libro y para ___ necesito una pelota.",
+      "blanks": [
+        "leer",
+        "jugar"
+      ],
+      "distractors": [
+        "dormir",
+        "comer"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Para leer necesito un libro y para jugar necesito una pelota."
+    },
+    {
+      "id": "comprension_l3_034",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la oración",
+      "sentence": "El ___ cocina la comida y el ___ cura a los enfermos.",
+      "blanks": [
+        "cocinero",
+        "médico"
+      ],
+      "distractors": [
+        "bombero",
+        "piloto"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El cocinero cocina la comida y el médico cura a los enfermos."
+    },
+    {
+      "id": "comprension_l3_035",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la oración",
+      "sentence": "Las ___ crecen en el jardín y los ___ crecen en los árboles.",
+      "blanks": [
+        "flores",
+        "frutos"
+      ],
+      "distractors": [
+        "piedras",
+        "nubes"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Las flores crecen en el jardín y los frutos crecen en los árboles."
+    },
+    {
+      "id": "comprension_l4_031",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El agua se ___ a 100 grados y se ___ a 0 grados.",
+      "blanks": [
+        "evapora",
+        "congela"
+      ],
+      "distractors": [
+        "derrite",
+        "enfría"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El agua se evapora a 100°C y se congela a 0°C."
+    },
+    {
+      "id": "comprension_l4_032",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "Los ___ absorben CO₂ y producen ___.",
+      "blanks": [
+        "árboles",
+        "oxígeno"
+      ],
+      "distractors": [
+        "ríos",
+        "carbón"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los árboles absorben dióxido de carbono y producen oxígeno mediante la fotosíntesis."
+    },
+    {
+      "id": "comprension_l4_033",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "La Tierra gira alrededor del ___ y la ___ gira alrededor de la Tierra.",
+      "blanks": [
+        "Sol",
+        "Luna"
+      ],
+      "distractors": [
+        "Marte",
+        "estrella"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La Tierra orbita el Sol, y la Luna orbita la Tierra."
+    },
+    {
+      "id": "comprension_l4_034",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "Los ___ son animales de sangre fría y los ___ son de sangre caliente.",
+      "blanks": [
+        "reptiles",
+        "mamíferos"
+      ],
+      "distractors": [
+        "insectos",
+        "plantas"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los reptiles son ectotermos (sangre fría) y los mamíferos son endotermos (sangre caliente)."
+    },
+    {
+      "id": "comprension_l4_035",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "El ___ transporta la sangre por el cuerpo y los ___ nos permiten respirar.",
+      "blanks": [
+        "corazón",
+        "pulmones"
+      ],
+      "distractors": [
+        "cerebro",
+        "huesos"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El corazón bombea la sangre y los pulmones realizan el intercambio de gases."
+    },
+    {
+      "id": "comprension_l5_031",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ es la capacidad de un cuerpo para resistir cambios en su ___.",
+      "blanks": [
+        "inercia",
+        "movimiento"
+      ],
+      "distractors": [
+        "gravedad",
+        "velocidad",
+        "energía"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La inercia es la capacidad de un cuerpo para resistir cambios en su movimiento (Primera Ley de Newton)."
+    },
+    {
+      "id": "comprension_l5_032",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "En una ___ los electrones fluyen desde el polo ___ al polo positivo.",
+      "blanks": [
+        "batería",
+        "negativo"
+      ],
+      "distractors": [
+        "lámpara",
+        "neutro",
+        "magnético"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "En una batería los electrones fluyen del polo negativo al positivo."
+    },
+    {
+      "id": "comprension_l5_033",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "La ___ es el estudio de los seres vivos y la ___ es el estudio de las sustancias.",
+      "blanks": [
+        "biología",
+        "química"
+      ],
+      "distractors": [
+        "historia",
+        "física",
+        "geografía"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La biología estudia los seres vivos y la química estudia las sustancias y sus transformaciones."
+    },
+    {
+      "id": "comprension_l5_034",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "El ___ es un verbo en pasado y ___ es un verbo en futuro.",
+      "blanks": [
+        "cantó",
+        "cantará"
+      ],
+      "distractors": [
+        "canta",
+        "cantando",
+        "cantaría"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "'Cantó' es pretérito perfecto simple y 'cantará' es futuro simple del indicativo."
+    },
+    {
+      "id": "comprension_l5_035",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase",
+      "sentence": "Un ___ tiene tres lados y un ___ tiene cuatro lados iguales.",
+      "blanks": [
+        "triángulo",
+        "cuadrado"
+      ],
+      "distractors": [
+        "círculo",
+        "pentágono",
+        "hexágono"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Un triángulo tiene 3 lados y un cuadrado tiene 4 lados iguales."
+    },
+    {
+      "id": "comprension_l1_201",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ vuela por el cielo.",
+      "blanks": [
+        "pájaro"
+      ],
+      "distractors": [
+        "pez",
+        "piedra"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los pájaros vuelan 🐦"
+    },
+    {
+      "id": "comprension_l1_202",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ da leche.",
+      "blanks": [
+        "vaca"
+      ],
+      "distractors": [
+        "gallina",
+        "rana"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La vaca da leche 🐄"
+    },
+    {
+      "id": "comprension_l1_203",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Los peces viven en el ___.",
+      "blanks": [
+        "agua"
+      ],
+      "distractors": [
+        "aire",
+        "fuego"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los peces viven en el agua 🐟"
+    },
+    {
+      "id": "comprension_l1_204",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Las ___ crecen en el jardín.",
+      "blanks": [
+        "flores"
+      ],
+      "distractors": [
+        "nubes",
+        "piedras"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Las flores crecen en el jardín 🌺"
+    },
+    {
+      "id": "comprension_l1_205",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Usamos un ___ para escribir.",
+      "blanks": [
+        "lápiz"
+      ],
+      "distractors": [
+        "tenedor",
+        "zapato"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El lápiz sirve para escribir ✏️"
+    },
+    {
+      "id": "comprension_l1_206",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ sale por la mañana.",
+      "blanks": [
+        "sol"
+      ],
+      "distractors": [
+        "luna",
+        "búho"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El sol sale por la mañana ☀️"
+    },
+    {
+      "id": "comprension_l2_207",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ es el rey de la selva y vive en ___.",
+      "blanks": [
+        "león",
+        "África"
+      ],
+      "distractors": [
+        "mar",
+        "Europa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El león vive en África 🦁"
+    },
+    {
+      "id": "comprension_l2_208",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "En ___ hace mucho frío y cae ___.",
+      "blanks": [
+        "invierno",
+        "nieve"
+      ],
+      "distractors": [
+        "verano",
+        "lluvia"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "En invierno cae nieve ❄️"
+    },
+    {
+      "id": "comprension_l2_209",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ tiene ocho ___.",
+      "blanks": [
+        "pulpo",
+        "tentáculos"
+      ],
+      "distractors": [
+        "gato",
+        "alas"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El pulpo tiene 8 tentáculos 🐙"
+    },
+    {
+      "id": "comprension_l2_210",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Los ___ orbitan alrededor del ___.",
+      "blanks": [
+        "planetas",
+        "Sol"
+      ],
+      "distractors": [
+        "peces",
+        "mar"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los planetas giran alrededor del Sol 🪐"
+    },
+    {
+      "id": "comprension_l2_211",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ nos protege de la ___.",
+      "blanks": [
+        "sombrilla",
+        "lluvia"
+      ],
+      "distractors": [
+        "mesa",
+        "música"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La sombrilla protege de la lluvia ☂️"
+    },
+    {
+      "id": "comprension_l3_212",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ produce ___ y truenos.",
+      "blanks": [
+        "rayo",
+        "luz"
+      ],
+      "distractors": [
+        "viento",
+        "calor"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los rayos producen luz ⚡"
+    },
+    {
+      "id": "comprension_l3_213",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ es el satélite natural de la ___.",
+      "blanks": [
+        "Luna",
+        "Tierra"
+      ],
+      "distractors": [
+        "estrella",
+        "galaxia"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La Luna orbita la Tierra 🌎"
+    },
+    {
+      "id": "comprension_l3_214",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Las ___ transforman la luz del sol en ___.",
+      "blanks": [
+        "plantas",
+        "energía"
+      ],
+      "distractors": [
+        "rocas",
+        "agua"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Fotosíntesis 🌱"
+    },
+    {
+      "id": "comprension_l3_215",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ bombea la ___ por todo el cuerpo.",
+      "blanks": [
+        "corazón",
+        "sangre"
+      ],
+      "distractors": [
+        "cerebro",
+        "comida"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "El corazón bombea sangre ❤️"
+    },
+    {
+      "id": "comprension_l4_216",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ rodea la Tierra y nos protege de la ___ solar.",
+      "blanks": [
+        "atmósfera",
+        "radiación"
+      ],
+      "distractors": [
+        "corteza",
+        "gravedad"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La atmósfera filtra la radiación 🌍"
+    },
+    {
+      "id": "comprension_l4_217",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "Los ___ son vertebrados de sangre ___.",
+      "blanks": [
+        "reptiles",
+        "fría"
+      ],
+      "distractors": [
+        "insectos",
+        "caliente"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Los reptiles son de sangre fría 🦎"
+    },
+    {
+      "id": "comprension_l4_218",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ convierte agua en ___ al calentarse.",
+      "blanks": [
+        "evaporación",
+        "vapor"
+      ],
+      "distractors": [
+        "congelación",
+        "hielo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Evaporación: agua → vapor 💨"
+    },
+    {
+      "id": "comprension_l5_219",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ atribuye cualidades ___ a objetos inanimados.",
+      "blanks": [
+        "personificación",
+        "humanas"
+      ],
+      "distractors": [
+        "metáfora",
+        "animales"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La personificación humaniza lo no humano"
+    },
+    {
+      "id": "comprension_l5_220",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "El ___ nervioso incluye el cerebro y la médula ___.",
+      "blanks": [
+        "sistema",
+        "espinal"
+      ],
+      "distractors": [
+        "aparato",
+        "ósea"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "Sistema nervioso central 🧠"
+    },
+    {
+      "id": "comprension_l5_221",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "drag_fill",
+      "prompt": "Completa la frase con la palabra correcta",
+      "sentence": "La ___ industrial fue una transformación social y ___.",
+      "blanks": [
+        "revolución",
+        "económica"
+      ],
+      "distractors": [
+        "guerra",
+        "artística"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "La Revolución Industrial transformó la economía"
+    },
+    {
+      "id": "comprension_l1_222",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿De qué color es Rocky?",
+      "options": [
+        "Negro",
+        "Blanco",
+        "Marrón",
+        "Gris"
+      ],
+      "correct": 0,
+      "explanation": "'Rocky es grande y negro'",
+      "passage": "El perro de Pablo se llama Rocky. Rocky es grande y negro. Le gusta correr en el parque."
+    },
+    {
+      "id": "comprension_l1_223",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué hace Mimi todo el día?",
+      "options": [
+        "Duerme",
+        "Come",
+        "Juega",
+        "Corre"
+      ],
+      "correct": 0,
+      "explanation": "'Mimi duerme todo el día'",
+      "passage": "Ana tiene una gata. La gata se llama Mimi. Mimi duerme todo el día."
+    },
+    {
+      "id": "comprension_l1_224",
+      "module": "comprension_lectora",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo está la manzana?",
+      "options": [
+        "Dulce",
+        "Ácida",
+        "Amarga",
+        "Salada"
+      ],
+      "correct": 0,
+      "explanation": "'La manzana está muy dulce'",
+      "passage": "Pedro come una manzana roja. La manzana está muy dulce."
+    },
+    {
+      "id": "comprension_l2_225",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué prepararon al volver?",
+      "options": [
+        "Ensalada de frutas",
+        "Un pastel",
+        "Sopa",
+        "Tortilla"
+      ],
+      "correct": 0,
+      "explanation": "'Prepararon una ensalada de frutas'",
+      "passage": "María fue al mercado. Compraron frutas: manzanas, peras y plátanos. También compraron pan y leche. Al volver, prepararon una ensalada de frutas."
+    },
+    {
+      "id": "comprension_l2_226",
+      "module": "comprension_lectora",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cómo se comunica el delfín?",
+      "options": [
+        "Con sonidos y silbidos",
+        "Con colores",
+        "Con movimientos",
+        "No se comunica"
+      ],
+      "correct": 0,
+      "explanation": "'Con sonidos y silbidos'",
+      "passage": "El delfín es un mamífero marino inteligente. Vive en grupos llamados manadas. Se comunica con sonidos y silbidos."
+    },
+    {
+      "id": "comprension_l3_227",
+      "module": "comprension_lectora",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Por qué son importantes las abejas?",
+      "options": [
+        "Porque polinizan las flores",
+        "Porque producen cera",
+        "Porque son rápidas",
+        "Porque son pequeñas"
+      ],
+      "correct": 0,
+      "explanation": "Las abejas polinizan las flores 🐝",
+      "passage": "Las abejas son insectos importantes para el ecosistema. Sin ellas, muchas plantas no podrían reproducirse, ya que polinizan las flores al recoger néctar."
+    },
+    {
+      "id": "comprension_l4_228",
+      "module": "comprension_lectora",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué inicia el ciclo del agua?",
+      "options": [
+        "El calor del sol",
+        "La lluvia",
+        "El viento",
+        "Las nubes"
+      ],
+      "correct": 0,
+      "explanation": "El sol calienta el agua, iniciando la evaporación",
+      "passage": "El ciclo del agua es un proceso continuo. El sol calienta el agua de los océanos, que se evapora y forma nubes. Las nubes se enfrían y el agua cae como lluvia."
+    },
+    {
+      "id": "comprension_l5_229",
+      "module": "comprension_lectora",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la conclusión?",
+      "options": [
+        "Hay que ser intolerante con la intolerancia",
+        "Toda tolerancia es mala",
+        "No hay solución",
+        "La sociedad siempre se destruye"
+      ],
+      "correct": 0,
+      "explanation": "La tolerancia requiere limitar la intolerancia",
+      "passage": "La paradoja de la tolerancia sostiene que una sociedad completamente tolerante será destruida por los intolerantes. Para mantenerla, debe ser intolerante con la intolerancia."
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 """Wrong options of spelling questions must not be real words (else the question is ambiguous)."""
 import json, os, subprocess, sys
 lang, dic = sys.argv[1], sys.argv[2]
-ROOT = os.path.join(os.path.dirname(__file__), '..', '..', 'src', 'data', 'exercises', lang)
-SPELL_PROMPTS = ('spelled', 'spelling', 'no mistakes', 'ben escrita', 'escriptura correcta', 'cap error', 'paraula correcta', "Com s'escriu", 'correct spelling')
+ROOT = os.path.join(os.path.dirname(__file__), '..', '..', 'src', 'data', 'exercises', *([] if lang == 'es' else [lang]))
+SPELL_PROMPTS = ('spelled', 'spelling', 'no mistakes', 'ben escrita', 'escriptura correcta', 'cap error', 'paraula correcta', "Com s'escriu", 'correct spelling', 'bien escrita', 'escritura correcta', 'ningún error', 'palabra correcta', 'Cómo se escribe')
 cands = []
 for m in ('memoria_visual', 'escritura'):
     for e in json.load(open(os.path.join(ROOT, f'{m}.json'), encoding='utf-8'))['exercises']:

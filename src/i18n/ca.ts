@@ -220,7 +220,7 @@ export const ca: Record<TranslationKey, string> = {
   prem_hero_desc: 'Desbloqueja tot el potencial d\'aprenentatge',
   prem_feat_modules: 'Tots els mòduls',
   prem_feat_modules_desc: '5 mòduls amb 5 nivells cadascun',
-  prem_feat_exercises: 'Més de 1.100 exercicis',
+  prem_feat_exercises: 'Més de 1.000 exercicis per idioma',
   prem_feat_exercises_desc: 'Biblioteca completa d\'exercicis',
   prem_feat_stats: 'Estadístiques avançades',
   prem_feat_stats_desc: 'Seguiment detallat del progrés',

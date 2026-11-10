@@ -1,0 +1,5854 @@
+{
+  "exercises": [
+    {
+      "id": "fonologia_l1_001",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene la palabra 'gato'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "ga-to = 2 sílabas",
+      "word": "gato",
+      "syllables": [
+        "ga",
+        "to"
+      ]
+    },
+    {
+      "id": "fonologia_l1_002",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'perro'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "pe-rro = 2 sílabas",
+      "word": "perro",
+      "syllables": [
+        "pe",
+        "rro"
+      ]
+    },
+    {
+      "id": "fonologia_l1_003",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'sol'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "sol = 1 sílaba",
+      "word": "sol",
+      "syllables": [
+        "sol"
+      ]
+    },
+    {
+      "id": "fonologia_l1_004",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra empieza igual que 'mesa'?",
+      "options": [
+        "mano",
+        "casa",
+        "pato",
+        "luna"
+      ],
+      "correct": 0,
+      "explanation": "'mesa' y 'mano' empiezan por 'ma'"
+    },
+    {
+      "id": "fonologia_l1_005",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Con qué letra empieza 'casa'?",
+      "options": [
+        "p",
+        "c",
+        "m",
+        "s"
+      ],
+      "correct": 1,
+      "explanation": "Casa empieza con la letra 'c'"
+    },
+    {
+      "id": "fonologia_l1_006",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra rima con 'gato'?",
+      "options": [
+        "mesa",
+        "pato",
+        "libro",
+        "luz"
+      ],
+      "correct": 1,
+      "explanation": "'gato' y 'pato' riman en '-ato'"
+    },
+    {
+      "id": "fonologia_l1_007",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'mesa'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "me-sa = 2 sílabas",
+      "word": "mesa",
+      "syllables": [
+        "me",
+        "sa"
+      ]
+    },
+    {
+      "id": "fonologia_l1_008",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra rima con 'luna'?",
+      "options": [
+        "cuna",
+        "mesa",
+        "pelo",
+        "rojo"
+      ],
+      "correct": 0,
+      "explanation": "'luna' y 'cuna' riman en '-una'"
+    },
+    {
+      "id": "fonologia_l1_009",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Con qué sonido empieza 'pelota'?",
+      "options": [
+        "/p/",
+        "/m/",
+        "/s/",
+        "/t/"
+      ],
+      "correct": 0,
+      "explanation": "Pelota empieza con el sonido /p/"
+    },
+    {
+      "id": "fonologia_l1_010",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'mariposa'?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 2,
+      "explanation": "ma-ri-po-sa = 4 sílabas",
+      "word": "mariposa",
+      "syllables": [
+        "ma",
+        "ri",
+        "po",
+        "sa"
+      ]
+    },
+    {
+      "id": "fonologia_l1_011",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra empieza por 's'?",
+      "options": [
+        "mesa",
+        "pato",
+        "sol",
+        "luna"
+      ],
+      "correct": 2,
+      "explanation": "Sol empieza por 's'"
+    },
+    {
+      "id": "fonologia_l1_012",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué rima con 'ratón'?",
+      "options": [
+        "limón",
+        "mesa",
+        "gato",
+        "pelo"
+      ],
+      "correct": 0,
+      "explanation": "'ratón' y 'limón' riman en '-ón'"
+    },
+    {
+      "id": "fonologia_l1_013",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'pan'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "pan = 1 sílaba",
+      "word": "pan",
+      "syllables": [
+        "pan"
+      ]
+    },
+    {
+      "id": "fonologia_l1_014",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene 3 sílabas?",
+      "options": [
+        "sol",
+        "gato",
+        "pelota",
+        "pan"
+      ],
+      "correct": 2,
+      "explanation": "pe-lo-ta = 3 sílabas"
+    },
+    {
+      "id": "fonologia_l1_015",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Con qué sonido termina 'flor'?",
+      "options": [
+        "/s/",
+        "/r/",
+        "/n/",
+        "/l/"
+      ],
+      "correct": 1,
+      "explanation": "Flor termina con el sonido /r/"
+    },
+    {
+      "id": "fonologia_l1_016",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra empieza como 'libro'?",
+      "options": [
+        "limón",
+        "mesa",
+        "pato",
+        "sol"
+      ],
+      "correct": 0,
+      "explanation": "'libro' y 'limón' empiezan por 'li'"
+    },
+    {
+      "id": "fonologia_l1_017",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'elefante'?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 2,
+      "explanation": "e-le-fan-te = 4 sílabas",
+      "word": "elefante",
+      "syllables": [
+        "e",
+        "le",
+        "fan",
+        "te"
+      ]
+    },
+    {
+      "id": "fonologia_l1_018",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué rima con 'pelo'?",
+      "options": [
+        "cielo",
+        "gato",
+        "mesa",
+        "sol"
+      ],
+      "correct": 0,
+      "explanation": "'pelo' y 'cielo' riman en '-elo'"
+    },
+    {
+      "id": "fonologia_l1_019",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Con qué letra empieza 'tomate'?",
+      "options": [
+        "m",
+        "t",
+        "p",
+        "s"
+      ],
+      "correct": 1,
+      "explanation": "Tomate empieza con 't'"
+    },
+    {
+      "id": "fonologia_l1_020",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene 1 sílaba?",
+      "options": [
+        "casa",
+        "gato",
+        "luz",
+        "mesa"
+      ],
+      "correct": 2,
+      "explanation": "luz = 1 sílaba"
+    },
+    {
+      "id": "fonologia_l1_021",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "Si a 'gato' le quitas 'ga', ¿qué queda?",
+      "options": [
+        "to",
+        "go",
+        "ta",
+        "at"
+      ],
+      "correct": 0,
+      "explanation": "ga-to sin 'ga' = 'to'"
+    },
+    {
+      "id": "fonologia_l1_022",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué sonido hay en medio de 'sol'?",
+      "options": [
+        "/o/",
+        "/a/",
+        "/e/",
+        "/i/"
+      ],
+      "correct": 0,
+      "explanation": "S-o-l, la vocal del medio es /o/"
+    },
+    {
+      "id": "fonologia_l1_023",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué rima con 'casa'?",
+      "options": [
+        "masa",
+        "gato",
+        "perro",
+        "sol"
+      ],
+      "correct": 0,
+      "explanation": "'casa' y 'masa' riman en '-asa'"
+    },
+    {
+      "id": "fonologia_l1_024",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'mano'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "ma-no = 2 sílabas",
+      "word": "mano",
+      "syllables": [
+        "ma",
+        "no"
+      ]
+    },
+    {
+      "id": "fonologia_l1_025",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Con qué letra empieza 'luna'?",
+      "options": [
+        "m",
+        "p",
+        "l",
+        "s"
+      ],
+      "correct": 2,
+      "explanation": "Luna empieza con 'l'"
+    },
+    {
+      "id": "fonologia_l1_026",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra empieza por 'ma'?",
+      "options": [
+        "pato",
+        "mapa",
+        "sol",
+        "gato"
+      ],
+      "correct": 1,
+      "explanation": "Mapa empieza por 'ma'"
+    },
+    {
+      "id": "fonologia_l1_027",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué rima con 'sol'?",
+      "options": [
+        "col",
+        "pan",
+        "luz",
+        "mar"
+      ],
+      "correct": 0,
+      "explanation": "'sol' y 'col' riman en '-ol'"
+    },
+    {
+      "id": "fonologia_l1_028",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'coche'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "co-che = 2 sílabas",
+      "word": "coche",
+      "syllables": [
+        "co",
+        "che"
+      ]
+    },
+    {
+      "id": "fonologia_l1_029",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra termina en '-a'?",
+      "options": [
+        "sol",
+        "pan",
+        "mesa",
+        "tren"
+      ],
+      "correct": 2,
+      "explanation": "Mesa termina en '-a'"
+    },
+    {
+      "id": "fonologia_l1_030",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Con qué sonido empieza 'ratón'?",
+      "options": [
+        "/p/",
+        "/r/",
+        "/m/",
+        "/t/"
+      ],
+      "correct": 1,
+      "explanation": "Ratón empieza con /r/"
+    },
+    {
+      "id": "fonologia_l2_001",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'chocolate'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "cho-co-la-te = 4 sílabas",
+      "word": "chocolate",
+      "syllables": [
+        "cho",
+        "co",
+        "la",
+        "te"
+      ]
+    },
+    {
+      "id": "fonologia_l2_002",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Identifica el diptongo en 'cielo':",
+      "options": [
+        "ci",
+        "ie",
+        "lo",
+        "el"
+      ],
+      "correct": 1,
+      "explanation": "'ie' es un diptongo en 'cielo'"
+    },
+    {
+      "id": "fonologia_l2_003",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene un hiato?",
+      "options": [
+        "cielo",
+        "baúl",
+        "puerta",
+        "hueso"
+      ],
+      "correct": 1,
+      "explanation": "ba-úl tiene hiato: a-ú"
+    },
+    {
+      "id": "fonologia_l2_004",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Dónde está la sílaba tónica en 'médico'?",
+      "options": [
+        "mé",
+        "di",
+        "co",
+        "No tiene"
+      ],
+      "correct": 0,
+      "explanation": "'mé' es la sílaba tónica: MÉ-di-co"
+    },
+    {
+      "id": "fonologia_l2_005",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'café'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "ca-FÉ: aguda terminada en vocal, lleva tilde"
+    },
+    {
+      "id": "fonologia_l2_006",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántos fonemas tiene 'casa'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "/k/-/a/-/s/-/a/ = 4 fonemas"
+    },
+    {
+      "id": "fonologia_l2_007",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra contiene el fonema /θ/?",
+      "options": [
+        "gato",
+        "cena",
+        "pato",
+        "mano"
+      ],
+      "correct": 1,
+      "explanation": "'cena' contiene /θ/ (sonido ce/ci)"
+    },
+    {
+      "id": "fonologia_l2_008",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Si cambias la 'p' de 'pato' por 'g', ¿qué palabra se forma?",
+      "options": [
+        "gato",
+        "rato",
+        "mato",
+        "dato"
+      ],
+      "correct": 0,
+      "explanation": "pato → gato"
+    },
+    {
+      "id": "fonologia_l2_009",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué sílaba es tónica en 'ventana'?",
+      "options": [
+        "ven",
+        "ta",
+        "na",
+        "Ninguna"
+      ],
+      "correct": 1,
+      "explanation": "ven-TA-na: 'ta' es la tónica"
+    },
+    {
+      "id": "fonologia_l2_010",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es llana?",
+      "options": [
+        "café",
+        "mesa",
+        "médico",
+        "jardín"
+      ],
+      "correct": 1,
+      "explanation": "ME-sa: llana, acento en penúltima sílaba"
+    },
+    {
+      "id": "fonologia_l2_011",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'murciélago'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "mur-cié-la-go = 4... No, mur-cié-la-go = 4 sílabas"
+    },
+    {
+      "id": "fonologia_l2_012",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué letras forman un diptongo?",
+      "options": [
+        "a-e",
+        "i-u",
+        "a-o",
+        "e-a"
+      ],
+      "correct": 1,
+      "explanation": "i+u forman diptongo (vocal cerrada+cerrada)"
+    },
+    {
+      "id": "fonologia_l2_013",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la sílaba tónica de 'teléfono'?",
+      "options": [
+        "te",
+        "lé",
+        "fo",
+        "no"
+      ],
+      "correct": 1,
+      "explanation": "te-LÉ-fo-no: esdrújula"
+    },
+    {
+      "id": "fonologia_l2_014",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es esdrújula?",
+      "options": [
+        "cantar",
+        "mesa",
+        "plátano",
+        "jardín"
+      ],
+      "correct": 2,
+      "explanation": "PLÁTANO: la antepenúltima sílaba es tónica"
+    },
+    {
+      "id": "fonologia_l2_015",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Si a 'plato' le quitas 'pla', ¿qué queda?",
+      "options": [
+        "to",
+        "ta",
+        "po",
+        "la"
+      ],
+      "correct": 0,
+      "explanation": "pla-to sin 'pla' = 'to'"
+    },
+    {
+      "id": "fonologia_l2_016",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué rima con 'canción'?",
+      "options": [
+        "corazón",
+        "mesa",
+        "libro",
+        "pluma"
+      ],
+      "correct": 0,
+      "explanation": "'canción' y 'corazón' riman en '-ón'"
+    },
+    {
+      "id": "fonologia_l2_017",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Dónde está el acento en 'último'?",
+      "options": [
+        "úl",
+        "ti",
+        "mo",
+        "No tiene"
+      ],
+      "correct": 0,
+      "explanation": "ÚL-ti-mo: esdrújula"
+    },
+    {
+      "id": "fonologia_l2_018",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántos fonemas tiene 'lluvia'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "/ʎ/-/u/-/b/-/i/-/a/ = 5 fonemas"
+    },
+    {
+      "id": "fonologia_l2_019",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene 3 sílabas?",
+      "options": [
+        "sol",
+        "mesa",
+        "camisa",
+        "pan"
+      ],
+      "correct": 2,
+      "explanation": "ca-mi-sa = 3 sílabas"
+    },
+    {
+      "id": "fonologia_l2_020",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué par de palabras rima?",
+      "options": [
+        "sol-mesa",
+        "gato-pato",
+        "libro-mano",
+        "casa-pelo"
+      ],
+      "correct": 1,
+      "explanation": "'gato' y 'pato' riman en '-ato'"
+    },
+    {
+      "id": "fonologia_l2_021",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'universidad'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "explanation": "u-ni-ver-si-dad = 5... no, 5 sílabas"
+    },
+    {
+      "id": "fonologia_l2_022",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'fácil'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 1,
+      "explanation": "FÁ-cil: llana terminada en consonante ≠ n,s"
+    },
+    {
+      "id": "fonologia_l2_023",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es el diptongo en 'fuego'?",
+      "options": [
+        "fu",
+        "ue",
+        "go",
+        "eg"
+      ],
+      "correct": 1,
+      "explanation": "'ue' es el diptongo en 'fuego'"
+    },
+    {
+      "id": "fonologia_l2_024",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra no tiene diptongo?",
+      "options": [
+        "cielo",
+        "poeta",
+        "puerta",
+        "huevo"
+      ],
+      "correct": 1,
+      "explanation": "po-e-ta: tiene hiato, no diptongo"
+    },
+    {
+      "id": "fonologia_l2_025",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "Separa en sílabas 'maestra':",
+      "options": [
+        "ma-es-tra",
+        "mae-stra",
+        "ma-est-ra",
+        "maes-tra"
+      ],
+      "correct": 0,
+      "explanation": "ma-es-tra = 3 sílabas"
+    },
+    {
+      "id": "fonologia_l2_026",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué fonema diferencia 'pata' de 'bata'?",
+      "options": [
+        "/p/ y /b/",
+        "/a/ y /e/",
+        "/t/ y /d/",
+        "/p/ y /t/"
+      ],
+      "correct": 0,
+      "explanation": "La diferencia es /p/ vs /b/"
+    },
+    {
+      "id": "fonologia_l2_027",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'periódico'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "pe-ri-ó-di-co = 5 sílabas"
+    },
+    {
+      "id": "fonologia_l2_028",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es aguda con tilde?",
+      "options": [
+        "mesa",
+        "camión",
+        "plátano",
+        "lápiz"
+      ],
+      "correct": 1,
+      "explanation": "ca-MIÓN: aguda terminada en -n"
+    },
+    {
+      "id": "fonologia_l2_029",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿En qué sílaba está el acento de 'música'?",
+      "options": [
+        "mú",
+        "si",
+        "ca",
+        "No tiene"
+      ],
+      "correct": 0,
+      "explanation": "MÚ-si-ca: esdrújula"
+    },
+    {
+      "id": "fonologia_l2_030",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra rima consonantemente con 'puerta'?",
+      "options": [
+        "huerta",
+        "mesa",
+        "gato",
+        "libro"
+      ],
+      "correct": 0,
+      "explanation": "'puerta' y 'huerta' riman en '-erta'"
+    },
+    {
+      "id": "fonologia_l3_001",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'constitución'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "cons-ti-tu-ción = 4 sílabas",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l3_002",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'hipopótamo'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "hi-po-pó-ta-mo = 5 sílabas",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l3_003",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'extraordinario'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "ex-tra-or-di-na-rio = 6 sílabas",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l3_004",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'murciélago'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "mur-cié-la-go = 4 sílabas",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l3_005",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'comunicación'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "co-mu-ni-ca-ción = 5 sílabas",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l3_006",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'mediterráneo'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "me-di-te-rrá-ne-o = 6 sílabas",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l3_007",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'constitución'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "'constitución' es una palabra aguda",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l3_008",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'hipopótamo'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'hipopótamo' es una palabra esdrújula",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l3_009",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'extraordinario'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 1,
+      "explanation": "'extraordinario' es una palabra llana",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l3_010",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'murciélago'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'murciélago' es una palabra esdrújula",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l3_011",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'comunicación'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "'comunicación' es una palabra aguda",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l3_012",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'mediterráneo'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'mediterráneo' es una palabra esdrújula",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l3_013",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'constitución':",
+      "options": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ],
+      "correct": 2,
+      "explanation": "La sílaba tónica de 'constitución' se marca con tilde",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l3_014",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'hipopótamo':",
+      "options": [
+        "hi",
+        "po",
+        "pó",
+        "ta"
+      ],
+      "correct": 0,
+      "explanation": "La sílaba tónica de 'hipopótamo' se marca con tilde",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l3_015",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'extraordinario':",
+      "options": [
+        "ex",
+        "tra",
+        "or",
+        "di"
+      ],
+      "correct": 3,
+      "explanation": "La sílaba tónica de 'extraordinario' se marca con tilde",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l3_016",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'murciélago':",
+      "options": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ],
+      "correct": 0,
+      "explanation": "La sílaba tónica de 'murciélago' se marca con tilde",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l3_017",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'comunicación':",
+      "options": [
+        "co",
+        "mu",
+        "ni",
+        "ca"
+      ],
+      "correct": 3,
+      "explanation": "La sílaba tónica de 'comunicación' se marca con tilde",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l3_018",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'mediterráneo':",
+      "options": [
+        "me",
+        "di",
+        "te",
+        "rrá"
+      ],
+      "correct": 0,
+      "explanation": "La sílaba tónica de 'mediterráneo' se marca con tilde",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l3_019",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'constitución'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "cons-ti-tu-ción = 4 sílabas",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l3_020",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'hipopótamo'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "hi-po-pó-ta-mo = 5 sílabas",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l3_021",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'extraordinario'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "ex-tra-or-di-na-rio = 6 sílabas",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l3_022",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'murciélago'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "mur-cié-la-go = 4 sílabas",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l3_023",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'comunicación'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "co-mu-ni-ca-ción = 5 sílabas",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l3_024",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'mediterráneo'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "me-di-te-rrá-ne-o = 6 sílabas",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l3_025",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'constitución'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "'constitución' es una palabra aguda",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l3_026",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'hipopótamo'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'hipopótamo' es una palabra esdrújula",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l3_027",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'extraordinario'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 1,
+      "explanation": "'extraordinario' es una palabra llana",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l3_028",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'murciélago'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'murciélago' es una palabra esdrújula",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l3_029",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'comunicación'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "'comunicación' es una palabra aguda",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l3_030",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'mediterráneo'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'mediterráneo' es una palabra esdrújula",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l4_001",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'constitución'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "cons-ti-tu-ción = 4 sílabas",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l4_002",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'hipopótamo'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "hi-po-pó-ta-mo = 5 sílabas",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l4_003",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'extraordinario'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "ex-tra-or-di-na-rio = 6 sílabas",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l4_004",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'murciélago'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "mur-cié-la-go = 4 sílabas",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l4_005",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'comunicación'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "co-mu-ni-ca-ción = 5 sílabas",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l4_006",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'mediterráneo'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "me-di-te-rrá-ne-o = 6 sílabas",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l4_007",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'constitución'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "'constitución' es una palabra aguda",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l4_008",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'hipopótamo'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'hipopótamo' es una palabra esdrújula",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l4_009",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'extraordinario'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 1,
+      "explanation": "'extraordinario' es una palabra llana",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l4_010",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'murciélago'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'murciélago' es una palabra esdrújula",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l4_011",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'comunicación'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "'comunicación' es una palabra aguda",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l4_012",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'mediterráneo'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'mediterráneo' es una palabra esdrújula",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l4_013",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'constitución':",
+      "options": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ],
+      "correct": 2,
+      "explanation": "La sílaba tónica de 'constitución' se marca con tilde",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l4_014",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'hipopótamo':",
+      "options": [
+        "hi",
+        "po",
+        "pó",
+        "ta"
+      ],
+      "correct": 0,
+      "explanation": "La sílaba tónica de 'hipopótamo' se marca con tilde",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l4_015",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'extraordinario':",
+      "options": [
+        "ex",
+        "tra",
+        "or",
+        "di"
+      ],
+      "correct": 3,
+      "explanation": "La sílaba tónica de 'extraordinario' se marca con tilde",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l4_016",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'murciélago':",
+      "options": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ],
+      "correct": 0,
+      "explanation": "La sílaba tónica de 'murciélago' se marca con tilde",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l4_017",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'comunicación':",
+      "options": [
+        "co",
+        "mu",
+        "ni",
+        "ca"
+      ],
+      "correct": 3,
+      "explanation": "La sílaba tónica de 'comunicación' se marca con tilde",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l4_018",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'mediterráneo':",
+      "options": [
+        "me",
+        "di",
+        "te",
+        "rrá"
+      ],
+      "correct": 0,
+      "explanation": "La sílaba tónica de 'mediterráneo' se marca con tilde",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l4_019",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'constitución'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "cons-ti-tu-ción = 4 sílabas",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l4_020",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'hipopótamo'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "hi-po-pó-ta-mo = 5 sílabas",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l4_021",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'extraordinario'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "ex-tra-or-di-na-rio = 6 sílabas",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l4_022",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'murciélago'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "mur-cié-la-go = 4 sílabas",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l4_023",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'comunicación'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "co-mu-ni-ca-ción = 5 sílabas",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l4_024",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'mediterráneo'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "me-di-te-rrá-ne-o = 6 sílabas",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l4_025",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'constitución'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "'constitución' es una palabra aguda",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l4_026",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'hipopótamo'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'hipopótamo' es una palabra esdrújula",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l4_027",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'extraordinario'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 1,
+      "explanation": "'extraordinario' es una palabra llana",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l4_028",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'murciélago'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'murciélago' es una palabra esdrújula",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l4_029",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'comunicación'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "'comunicación' es una palabra aguda",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l4_030",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'mediterráneo'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'mediterráneo' es una palabra esdrújula",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l5_001",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'constitución'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "cons-ti-tu-ción = 4 sílabas",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l5_002",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'hipopótamo'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "hi-po-pó-ta-mo = 5 sílabas",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l5_003",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'extraordinario'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "ex-tra-or-di-na-rio = 6 sílabas",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l5_004",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'murciélago'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "mur-cié-la-go = 4 sílabas",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l5_005",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'comunicación'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "co-mu-ni-ca-ción = 5 sílabas",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l5_006",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'mediterráneo'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "me-di-te-rrá-ne-o = 6 sílabas",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l5_007",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'constitución'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "'constitución' es una palabra aguda",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l5_008",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'hipopótamo'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'hipopótamo' es una palabra esdrújula",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l5_009",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'extraordinario'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 1,
+      "explanation": "'extraordinario' es una palabra llana",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l5_010",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'murciélago'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'murciélago' es una palabra esdrújula",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l5_011",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'comunicación'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "'comunicación' es una palabra aguda",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l5_012",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'mediterráneo'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'mediterráneo' es una palabra esdrújula",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l5_013",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'constitución':",
+      "options": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ],
+      "correct": 2,
+      "explanation": "La sílaba tónica de 'constitución' se marca con tilde",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l5_014",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'hipopótamo':",
+      "options": [
+        "hi",
+        "po",
+        "pó",
+        "ta"
+      ],
+      "correct": 0,
+      "explanation": "La sílaba tónica de 'hipopótamo' se marca con tilde",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l5_015",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'extraordinario':",
+      "options": [
+        "ex",
+        "tra",
+        "or",
+        "di"
+      ],
+      "correct": 3,
+      "explanation": "La sílaba tónica de 'extraordinario' se marca con tilde",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l5_016",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'murciélago':",
+      "options": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ],
+      "correct": 0,
+      "explanation": "La sílaba tónica de 'murciélago' se marca con tilde",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l5_017",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'comunicación':",
+      "options": [
+        "co",
+        "mu",
+        "ni",
+        "ca"
+      ],
+      "correct": 3,
+      "explanation": "La sílaba tónica de 'comunicación' se marca con tilde",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l5_018",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'mediterráneo':",
+      "options": [
+        "me",
+        "di",
+        "te",
+        "rrá"
+      ],
+      "correct": 0,
+      "explanation": "La sílaba tónica de 'mediterráneo' se marca con tilde",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l5_019",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'constitución'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "cons-ti-tu-ción = 4 sílabas",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l5_020",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'hipopótamo'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "hi-po-pó-ta-mo = 5 sílabas",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l5_021",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'extraordinario'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "ex-tra-or-di-na-rio = 6 sílabas",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l5_022",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'murciélago'?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "mur-cié-la-go = 4 sílabas",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l5_023",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'comunicación'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "co-mu-ni-ca-ción = 5 sílabas",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l5_024",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'mediterráneo'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "me-di-te-rrá-ne-o = 6 sílabas",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l5_025",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'constitución'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "'constitución' es una palabra aguda",
+      "word": "constitución",
+      "syllables": [
+        "cons",
+        "ti",
+        "tu",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l5_026",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'hipopótamo'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'hipopótamo' es una palabra esdrújula",
+      "word": "hipopótamo",
+      "syllables": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ]
+    },
+    {
+      "id": "fonologia_l5_027",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'extraordinario'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 1,
+      "explanation": "'extraordinario' es una palabra llana",
+      "word": "extraordinario",
+      "syllables": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ]
+    },
+    {
+      "id": "fonologia_l5_028",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'murciélago'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'murciélago' es una palabra esdrújula",
+      "word": "murciélago",
+      "syllables": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ]
+    },
+    {
+      "id": "fonologia_l5_029",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'comunicación'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 0,
+      "explanation": "'comunicación' es una palabra aguda",
+      "word": "comunicación",
+      "syllables": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "ción"
+      ]
+    },
+    {
+      "id": "fonologia_l5_030",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de palabra es 'mediterráneo'?",
+      "options": [
+        "Aguda",
+        "Llana",
+        "Esdrújula",
+        "Sobresdrújula"
+      ],
+      "correct": 2,
+      "explanation": "'mediterráneo' es una palabra esdrújula",
+      "word": "mediterráneo",
+      "syllables": [
+        "me",
+        "di",
+        "te",
+        "rrá",
+        "ne",
+        "o"
+      ]
+    },
+    {
+      "id": "fonologia_l2_031",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "mariposa",
+      "pieces": [
+        "ma",
+        "ri",
+        "po",
+        "sa"
+      ],
+      "correctOrder": [
+        "ma",
+        "ri",
+        "po",
+        "sa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ma-ri-po-sa = mariposa 🦋"
+    },
+    {
+      "id": "fonologia_l2_032",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "elefante",
+      "pieces": [
+        "e",
+        "le",
+        "fan",
+        "te"
+      ],
+      "correctOrder": [
+        "e",
+        "le",
+        "fan",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "e-le-fan-te = elefante 🐘"
+    },
+    {
+      "id": "fonologia_l2_033",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "pelota",
+      "pieces": [
+        "pe",
+        "lo",
+        "ta"
+      ],
+      "correctOrder": [
+        "pe",
+        "lo",
+        "ta"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "pe-lo-ta = pelota ⚽"
+    },
+    {
+      "id": "fonologia_l2_034",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "zapato",
+      "pieces": [
+        "za",
+        "pa",
+        "to"
+      ],
+      "correctOrder": [
+        "za",
+        "pa",
+        "to"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "za-pa-to = zapato 👟"
+    },
+    {
+      "id": "fonologia_l2_035",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "ventana",
+      "pieces": [
+        "ven",
+        "ta",
+        "na"
+      ],
+      "correctOrder": [
+        "ven",
+        "ta",
+        "na"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ven-ta-na = ventana 🪟"
+    },
+    {
+      "id": "fonologia_l3_031",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "chocolate",
+      "pieces": [
+        "cho",
+        "co",
+        "la",
+        "te"
+      ],
+      "correctOrder": [
+        "cho",
+        "co",
+        "la",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "cho-co-la-te = chocolate 🍫"
+    },
+    {
+      "id": "fonologia_l3_032",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "biblioteca",
+      "pieces": [
+        "bi",
+        "blio",
+        "te",
+        "ca"
+      ],
+      "correctOrder": [
+        "bi",
+        "blio",
+        "te",
+        "ca"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "bi-blio-te-ca = biblioteca 📚"
+    },
+    {
+      "id": "fonologia_l3_033",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "dinosaurio",
+      "pieces": [
+        "di",
+        "no",
+        "sau",
+        "rio"
+      ],
+      "correctOrder": [
+        "di",
+        "no",
+        "sau",
+        "rio"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "di-no-sau-rio = dinosaurio 🦕"
+    },
+    {
+      "id": "fonologia_l3_034",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "helicóptero",
+      "pieces": [
+        "he",
+        "li",
+        "cóp",
+        "te",
+        "ro"
+      ],
+      "correctOrder": [
+        "he",
+        "li",
+        "cóp",
+        "te",
+        "ro"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "he-li-cóp-te-ro = helicóptero 🚁"
+    },
+    {
+      "id": "fonologia_l3_035",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "computadora",
+      "pieces": [
+        "com",
+        "pu",
+        "ta",
+        "do",
+        "ra"
+      ],
+      "correctOrder": [
+        "com",
+        "pu",
+        "ta",
+        "do",
+        "ra"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "com-pu-ta-do-ra = computadora 💻"
+    },
+    {
+      "id": "fonologia_l4_031",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "estetoscopio",
+      "pieces": [
+        "es",
+        "te",
+        "tos",
+        "co",
+        "pio"
+      ],
+      "correctOrder": [
+        "es",
+        "te",
+        "tos",
+        "co",
+        "pio"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "es-te-tos-co-pio = estetoscopio 🩺"
+    },
+    {
+      "id": "fonologia_l4_032",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "extraordinario",
+      "pieces": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ],
+      "correctOrder": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ex-tra-or-di-na-rio = extraordinario ✨"
+    },
+    {
+      "id": "fonologia_l4_033",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "murciélago",
+      "pieces": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ],
+      "correctOrder": [
+        "mur",
+        "cié",
+        "la",
+        "go"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "mur-cié-la-go = murciélago 🦇"
+    },
+    {
+      "id": "fonologia_l4_034",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "hipopótamo",
+      "pieces": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ],
+      "correctOrder": [
+        "hi",
+        "po",
+        "pó",
+        "ta",
+        "mo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "hi-po-pó-ta-mo = hipopótamo 🦛"
+    },
+    {
+      "id": "fonologia_l4_035",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "refrigerador",
+      "pieces": [
+        "re",
+        "fri",
+        "ge",
+        "ra",
+        "dor"
+      ],
+      "correctOrder": [
+        "re",
+        "fri",
+        "ge",
+        "ra",
+        "dor"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "re-fri-ge-ra-dor = refrigerador 🧊"
+    },
+    {
+      "id": "fonologia_l5_031",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "otorrinolaringólogo",
+      "pieces": [
+        "o",
+        "to",
+        "rri",
+        "no",
+        "la",
+        "rin",
+        "gó",
+        "lo",
+        "go"
+      ],
+      "correctOrder": [
+        "o",
+        "to",
+        "rri",
+        "no",
+        "la",
+        "rin",
+        "gó",
+        "lo",
+        "go"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "o-to-rri-no-la-rin-gó-lo-go = otorrinolaringólogo 👨‍⚕️"
+    },
+    {
+      "id": "fonologia_l5_032",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "desafortunadamente",
+      "pieces": [
+        "de",
+        "sa",
+        "for",
+        "tu",
+        "na",
+        "da",
+        "men",
+        "te"
+      ],
+      "correctOrder": [
+        "de",
+        "sa",
+        "for",
+        "tu",
+        "na",
+        "da",
+        "men",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "de-sa-for-tu-na-da-men-te = desafortunadamente"
+    },
+    {
+      "id": "fonologia_l5_033",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "electrocardiograma",
+      "pieces": [
+        "e",
+        "lec",
+        "tro",
+        "car",
+        "dio",
+        "gra",
+        "ma"
+      ],
+      "correctOrder": [
+        "e",
+        "lec",
+        "tro",
+        "car",
+        "dio",
+        "gra",
+        "ma"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "e-lec-tro-car-dio-gra-ma = electrocardiograma 💓"
+    },
+    {
+      "id": "fonologia_l5_034",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "inconstitucional",
+      "pieces": [
+        "in",
+        "cons",
+        "ti",
+        "tu",
+        "cio",
+        "nal"
+      ],
+      "correctOrder": [
+        "in",
+        "cons",
+        "ti",
+        "tu",
+        "cio",
+        "nal"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "in-cons-ti-tu-cio-nal = inconstitucional ⚖️"
+    },
+    {
+      "id": "fonologia_l5_035",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "paralelepípedo",
+      "pieces": [
+        "pa",
+        "ra",
+        "le",
+        "le",
+        "pí",
+        "pe",
+        "do"
+      ],
+      "correctOrder": [
+        "pa",
+        "ra",
+        "le",
+        "le",
+        "pí",
+        "pe",
+        "do"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "pa-ra-le-le-pí-pe-do = paralelepípedo 📐"
+    },
+    {
+      "id": "fonologia_l1_201",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "mesa",
+      "pieces": [
+        "me",
+        "sa"
+      ],
+      "correctOrder": [
+        "me",
+        "sa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "me-sa = mesa"
+    },
+    {
+      "id": "fonologia_l1_202",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "luna",
+      "pieces": [
+        "lu",
+        "na"
+      ],
+      "correctOrder": [
+        "lu",
+        "na"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "lu-na = luna 🌙"
+    },
+    {
+      "id": "fonologia_l1_203",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "pato",
+      "pieces": [
+        "pa",
+        "to"
+      ],
+      "correctOrder": [
+        "pa",
+        "to"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "pa-to = pato 🦆"
+    },
+    {
+      "id": "fonologia_l1_204",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "casa",
+      "pieces": [
+        "ca",
+        "sa"
+      ],
+      "correctOrder": [
+        "ca",
+        "sa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ca-sa = casa 🏠"
+    },
+    {
+      "id": "fonologia_l1_205",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "vaso",
+      "pieces": [
+        "va",
+        "so"
+      ],
+      "correctOrder": [
+        "va",
+        "so"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "va-so = vaso"
+    },
+    {
+      "id": "fonologia_l1_206",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "bota",
+      "pieces": [
+        "bo",
+        "ta"
+      ],
+      "correctOrder": [
+        "bo",
+        "ta"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "bo-ta = bota 👢"
+    },
+    {
+      "id": "fonologia_l1_207",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "dado",
+      "pieces": [
+        "da",
+        "do"
+      ],
+      "correctOrder": [
+        "da",
+        "do"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "da-do = dado 🎲"
+    },
+    {
+      "id": "fonologia_l1_208",
+      "module": "fonologia",
+      "level": 1,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "ropa",
+      "pieces": [
+        "ro",
+        "pa"
+      ],
+      "correctOrder": [
+        "ro",
+        "pa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ro-pa = ropa"
+    },
+    {
+      "id": "fonologia_l2_209",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "camisa",
+      "pieces": [
+        "ca",
+        "mi",
+        "sa"
+      ],
+      "correctOrder": [
+        "ca",
+        "mi",
+        "sa"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ca-mi-sa = camisa 👕"
+    },
+    {
+      "id": "fonologia_l2_210",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "zapato",
+      "pieces": [
+        "za",
+        "pa",
+        "to"
+      ],
+      "correctOrder": [
+        "za",
+        "pa",
+        "to"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "za-pa-to = zapato 👞"
+    },
+    {
+      "id": "fonologia_l2_211",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "pelota",
+      "pieces": [
+        "pe",
+        "lo",
+        "ta"
+      ],
+      "correctOrder": [
+        "pe",
+        "lo",
+        "ta"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "pe-lo-ta = pelota ⚽"
+    },
+    {
+      "id": "fonologia_l2_212",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "tomate",
+      "pieces": [
+        "to",
+        "ma",
+        "te"
+      ],
+      "correctOrder": [
+        "to",
+        "ma",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "to-ma-te = tomate 🍅"
+    },
+    {
+      "id": "fonologia_l2_213",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "helado",
+      "pieces": [
+        "he",
+        "la",
+        "do"
+      ],
+      "correctOrder": [
+        "he",
+        "la",
+        "do"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "he-la-do = helado 🍦"
+    },
+    {
+      "id": "fonologia_l2_214",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "conejo",
+      "pieces": [
+        "co",
+        "ne",
+        "jo"
+      ],
+      "correctOrder": [
+        "co",
+        "ne",
+        "jo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "co-ne-jo = conejo 🐰"
+    },
+    {
+      "id": "fonologia_l2_215",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "morado",
+      "pieces": [
+        "mo",
+        "ra",
+        "do"
+      ],
+      "correctOrder": [
+        "mo",
+        "ra",
+        "do"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "mo-ra-do = morado 💜"
+    },
+    {
+      "id": "fonologia_l2_216",
+      "module": "fonologia",
+      "level": 2,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "bonito",
+      "pieces": [
+        "bo",
+        "ni",
+        "to"
+      ],
+      "correctOrder": [
+        "bo",
+        "ni",
+        "to"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "bo-ni-to = bonito"
+    },
+    {
+      "id": "fonologia_l3_217",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "chocolate",
+      "pieces": [
+        "cho",
+        "co",
+        "la",
+        "te"
+      ],
+      "correctOrder": [
+        "cho",
+        "co",
+        "la",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "cho-co-la-te = chocolate 🍫"
+    },
+    {
+      "id": "fonologia_l3_218",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "elefante",
+      "pieces": [
+        "e",
+        "le",
+        "fan",
+        "te"
+      ],
+      "correctOrder": [
+        "e",
+        "le",
+        "fan",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "e-le-fan-te = elefante 🐘"
+    },
+    {
+      "id": "fonologia_l3_219",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "cocodrilo",
+      "pieces": [
+        "co",
+        "co",
+        "dri",
+        "lo"
+      ],
+      "correctOrder": [
+        "co",
+        "co",
+        "dri",
+        "lo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "co-co-dri-lo = cocodrilo 🐊"
+    },
+    {
+      "id": "fonologia_l3_220",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "dinosaurio",
+      "pieces": [
+        "di",
+        "no",
+        "sau",
+        "rio"
+      ],
+      "correctOrder": [
+        "di",
+        "no",
+        "sau",
+        "rio"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "di-no-sau-rio = dinosaurio 🦕"
+    },
+    {
+      "id": "fonologia_l3_221",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "bicicleta",
+      "pieces": [
+        "bi",
+        "ci",
+        "cle",
+        "ta"
+      ],
+      "correctOrder": [
+        "bi",
+        "ci",
+        "cle",
+        "ta"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "bi-ci-cle-ta = bicicleta 🚲"
+    },
+    {
+      "id": "fonologia_l3_222",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "computadora",
+      "pieces": [
+        "com",
+        "pu",
+        "ta",
+        "do",
+        "ra"
+      ],
+      "correctOrder": [
+        "com",
+        "pu",
+        "ta",
+        "do",
+        "ra"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "com-pu-ta-do-ra = computadora 💻"
+    },
+    {
+      "id": "fonologia_l3_223",
+      "module": "fonologia",
+      "level": 3,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "helicoptero",
+      "pieces": [
+        "he",
+        "li",
+        "cop",
+        "te",
+        "ro"
+      ],
+      "correctOrder": [
+        "he",
+        "li",
+        "cop",
+        "te",
+        "ro"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "he-li-cóp-te-ro = helicóptero 🚁"
+    },
+    {
+      "id": "fonologia_l4_224",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "refrigerador",
+      "pieces": [
+        "re",
+        "fri",
+        "ge",
+        "ra",
+        "dor"
+      ],
+      "correctOrder": [
+        "re",
+        "fri",
+        "ge",
+        "ra",
+        "dor"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "re-fri-ge-ra-dor = refrigerador"
+    },
+    {
+      "id": "fonologia_l4_225",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "supermercado",
+      "pieces": [
+        "su",
+        "per",
+        "mer",
+        "ca",
+        "do"
+      ],
+      "correctOrder": [
+        "su",
+        "per",
+        "mer",
+        "ca",
+        "do"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "su-per-mer-ca-do = supermercado 🛒"
+    },
+    {
+      "id": "fonologia_l4_226",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "comunicacion",
+      "pieces": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "cion"
+      ],
+      "correctOrder": [
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "cion"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "co-mu-ni-ca-ción = comunicación"
+    },
+    {
+      "id": "fonologia_l4_227",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "extraordinario",
+      "pieces": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ],
+      "correctOrder": [
+        "ex",
+        "tra",
+        "or",
+        "di",
+        "na",
+        "rio"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "ex-tra-or-di-na-rio = extraordinario"
+    },
+    {
+      "id": "fonologia_l4_228",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "multiplicacion",
+      "pieces": [
+        "mul",
+        "ti",
+        "pli",
+        "ca",
+        "cion"
+      ],
+      "correctOrder": [
+        "mul",
+        "ti",
+        "pli",
+        "ca",
+        "cion"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "mul-ti-pli-ca-ción = multiplicación ✖️"
+    },
+    {
+      "id": "fonologia_l4_229",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "independencia",
+      "pieces": [
+        "in",
+        "de",
+        "pen",
+        "den",
+        "cia"
+      ],
+      "correctOrder": [
+        "in",
+        "de",
+        "pen",
+        "den",
+        "cia"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "in-de-pen-den-cia = independencia"
+    },
+    {
+      "id": "fonologia_l4_230",
+      "module": "fonologia",
+      "level": 4,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "hipopotamo",
+      "pieces": [
+        "hi",
+        "po",
+        "po",
+        "ta",
+        "mo"
+      ],
+      "correctOrder": [
+        "hi",
+        "po",
+        "po",
+        "ta",
+        "mo"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "hi-po-pó-ta-mo = hipopótamo 🦛"
+    },
+    {
+      "id": "fonologia_l5_231",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "electrodomestico",
+      "pieces": [
+        "e",
+        "lec",
+        "tro",
+        "do",
+        "mes",
+        "ti",
+        "co"
+      ],
+      "correctOrder": [
+        "e",
+        "lec",
+        "tro",
+        "do",
+        "mes",
+        "ti",
+        "co"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "e-lec-tro-do-més-ti-co = electrodoméstico"
+    },
+    {
+      "id": "fonologia_l5_232",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "telecomunicacion",
+      "pieces": [
+        "te",
+        "le",
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "cion"
+      ],
+      "correctOrder": [
+        "te",
+        "le",
+        "co",
+        "mu",
+        "ni",
+        "ca",
+        "cion"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "te-le-co-mu-ni-ca-ción"
+    },
+    {
+      "id": "fonologia_l5_233",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "condicionalidad",
+      "pieces": [
+        "con",
+        "di",
+        "cio",
+        "na",
+        "li",
+        "dad"
+      ],
+      "correctOrder": [
+        "con",
+        "di",
+        "cio",
+        "na",
+        "li",
+        "dad"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "con-di-cio-na-li-dad"
+    },
+    {
+      "id": "fonologia_l5_234",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "inconstitucional",
+      "pieces": [
+        "in",
+        "cons",
+        "ti",
+        "tu",
+        "cio",
+        "nal"
+      ],
+      "correctOrder": [
+        "in",
+        "cons",
+        "ti",
+        "tu",
+        "cio",
+        "nal"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "in-cons-ti-tu-cio-nal"
+    },
+    {
+      "id": "fonologia_l5_235",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "multidisciplinario",
+      "pieces": [
+        "mul",
+        "ti",
+        "dis",
+        "ci",
+        "pli",
+        "na",
+        "rio"
+      ],
+      "correctOrder": [
+        "mul",
+        "ti",
+        "dis",
+        "ci",
+        "pli",
+        "na",
+        "rio"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "mul-ti-dis-ci-pli-na-rio"
+    },
+    {
+      "id": "fonologia_l5_236",
+      "module": "fonologia",
+      "level": 5,
+      "type": "drag_order",
+      "prompt": "Ordena las sílabas para formar la palabra",
+      "word": "desafortunadamente",
+      "pieces": [
+        "des",
+        "a",
+        "for",
+        "tu",
+        "na",
+        "da",
+        "men",
+        "te"
+      ],
+      "correctOrder": [
+        "des",
+        "a",
+        "for",
+        "tu",
+        "na",
+        "da",
+        "men",
+        "te"
+      ],
+      "options": [],
+      "correct": 0,
+      "explanation": "des-a-for-tu-na-da-men-te"
+    },
+    {
+      "id": "fonologia_l1_237",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra rima con 'sol'?",
+      "options": [
+        "col",
+        "pan",
+        "mes",
+        "fin"
+      ],
+      "correct": 0,
+      "explanation": "'Sol' rima con 'col': -ol"
+    },
+    {
+      "id": "fonologia_l1_238",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra empieza con el mismo sonido que 'perro'?",
+      "options": [
+        "pato",
+        "toro",
+        "gato",
+        "rana"
+      ],
+      "correct": 0,
+      "explanation": "'Pato' y 'perro' empiezan con /p/"
+    },
+    {
+      "id": "fonologia_l1_239",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'sol'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "Sol = 1 sílaba (monosílaba)"
+    },
+    {
+      "id": "fonologia_l1_240",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra rima con 'ratón'?",
+      "options": [
+        "camión",
+        "mesa",
+        "libro",
+        "nube"
+      ],
+      "correct": 0,
+      "explanation": "'Ratón' rima con 'camión': -ón"
+    },
+    {
+      "id": "fonologia_l1_241",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Con qué letra empieza 'mariposa'?",
+      "options": [
+        "m",
+        "p",
+        "s",
+        "r"
+      ],
+      "correct": 0,
+      "explanation": "Ma-ri-po-sa empieza con M"
+    },
+    {
+      "id": "fonologia_l1_242",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra termina como 'gato'?",
+      "options": [
+        "plato",
+        "mesa",
+        "sol",
+        "flor"
+      ],
+      "correct": 0,
+      "explanation": "'Gato' y 'plato' terminan en -ato"
+    },
+    {
+      "id": "fonologia_l1_243",
+      "module": "fonologia",
+      "level": 1,
+      "type": "multiple_choice",
+      "prompt": "¿Cuántas sílabas tiene 'elefante'?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 2,
+      "explanation": "e-le-fan-te = 4 sílabas"
+    },
+    {
+      "id": "fonologia_l2_244",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene 3 sílabas?",
+      "options": [
+        "mariposa",
+        "pájaro",
+        "sol",
+        "flor"
+      ],
+      "correct": 1,
+      "explanation": "pá-ja-ro = 3 sílabas"
+    },
+    {
+      "id": "fonologia_l2_245",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra rima con 'camión'?",
+      "options": [
+        "avión",
+        "casa",
+        "perro",
+        "agua"
+      ],
+      "correct": 0,
+      "explanation": "'Camión' rima con 'avión': -ón"
+    },
+    {
+      "id": "fonologia_l2_246",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la sílaba tónica de 'música'?",
+      "options": [
+        "mú",
+        "si",
+        "ca",
+        "mu"
+      ],
+      "correct": 0,
+      "explanation": "MÚ-si-ca: la sílaba tónica es 'mú'"
+    },
+    {
+      "id": "fonologia_l2_247",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra empieza con 'ch'?",
+      "options": [
+        "chocolate",
+        "zapato",
+        "fuente",
+        "regalo"
+      ],
+      "correct": 0,
+      "explanation": "Chocolate empieza con 'ch'"
+    },
+    {
+      "id": "fonologia_l2_248",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué dos palabras empiezan igual?",
+      "options": [
+        "cama-camisa",
+        "sol-luna",
+        "perro-gato",
+        "mesa-silla"
+      ],
+      "correct": 0,
+      "explanation": "Cama y camisa empiezan con 'ca'"
+    },
+    {
+      "id": "fonologia_l2_249",
+      "module": "fonologia",
+      "level": 2,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene un diptongo?",
+      "options": [
+        "cielo",
+        "mesa",
+        "pato",
+        "sol"
+      ],
+      "correct": 0,
+      "explanation": "'Cielo' tiene el diptongo 'ie'"
+    },
+    {
+      "id": "fonologia_l3_250",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es esdrújula?",
+      "options": [
+        "brújula",
+        "camión",
+        "pared",
+        "papel"
+      ],
+      "correct": 0,
+      "explanation": "'Brú-ju-la': esdrújula"
+    },
+    {
+      "id": "fonologia_l3_251",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene un hiato?",
+      "options": [
+        "poeta",
+        "cielo",
+        "bueno",
+        "auto"
+      ],
+      "correct": 0,
+      "explanation": "'Po-e-ta' tiene hiato"
+    },
+    {
+      "id": "fonologia_l3_252",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "Identifica la sílaba tónica de 'teléfono':",
+      "options": [
+        "te",
+        "lé",
+        "fo",
+        "no"
+      ],
+      "correct": 1,
+      "explanation": "te-LÉ-fo-no"
+    },
+    {
+      "id": "fonologia_l3_253",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra es aguda?",
+      "options": [
+        "reloj",
+        "mesa",
+        "pájaro",
+        "lápiz"
+      ],
+      "correct": 0,
+      "explanation": "'Re-loj': aguda"
+    },
+    {
+      "id": "fonologia_l3_254",
+      "module": "fonologia",
+      "level": 3,
+      "type": "multiple_choice",
+      "prompt": "¿Qué par de palabras son parónimas?",
+      "options": [
+        "efecto/afecto",
+        "grande/alto",
+        "sol/luna",
+        "gato/perro"
+      ],
+      "correct": 0,
+      "explanation": "Se parecen pero significan diferente"
+    },
+    {
+      "id": "fonologia_l4_255",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra contiene un triptongo?",
+      "options": [
+        "buey",
+        "poeta",
+        "aire",
+        "reina"
+      ],
+      "correct": 0,
+      "explanation": "'Buey' contiene el triptongo 'uey'"
+    },
+    {
+      "id": "fonologia_l4_256",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es una palabra sobreesdrújula?",
+      "options": [
+        "dígamelo",
+        "teléfono",
+        "camión",
+        "reloj"
+      ],
+      "correct": 0,
+      "explanation": "'Dí-ga-me-lo': sobreesdrújula"
+    },
+    {
+      "id": "fonologia_l4_257",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué fenómeno ocurre en 'aéreo'?",
+      "options": [
+        "Hiato",
+        "Diptongo",
+        "Triptongo",
+        "Sinalefa"
+      ],
+      "correct": 0,
+      "explanation": "'A-é-re-o' tiene hiato"
+    },
+    {
+      "id": "fonologia_l4_258",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Qué palabra tiene prefijo?",
+      "options": [
+        "deshacer",
+        "caminar",
+        "bonito",
+        "rápido"
+      ],
+      "correct": 0,
+      "explanation": "'Des-hacer': 'des-' es prefijo"
+    },
+    {
+      "id": "fonologia_l4_259",
+      "module": "fonologia",
+      "level": 4,
+      "type": "multiple_choice",
+      "prompt": "¿Cuál es la raíz de 'panadería'?",
+      "options": [
+        "pan",
+        "pana",
+        "ería",
+        "der"
+      ],
+      "correct": 0,
+      "explanation": "Pan-ad-ería: raíz = 'pan'"
+    },
+    {
+      "id": "fonologia_l5_260",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué es una sinalefa?",
+      "options": [
+        "Unión de vocales entre palabras",
+        "Una vocal doble",
+        "Una consonante muda",
+        "Un acento"
+      ],
+      "correct": 0,
+      "explanation": "La sinalefa une vocales entre palabras"
+    },
+    {
+      "id": "fonologia_l5_261",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué tipo de acento tiene 'aún'?",
+      "options": [
+        "Diacrítico",
+        "Prosódico",
+        "Ortográfico",
+        "Métrico"
+      ],
+      "correct": 0,
+      "explanation": "'Aún' lleva acento diacrítico"
+    },
+    {
+      "id": "fonologia_l5_262",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "Identifica el morfema derivativo en 'florería':",
+      "options": [
+        "-ería",
+        "flor-",
+        "-ía",
+        "flore-"
+      ],
+      "correct": 0,
+      "explanation": "'-ería' indica 'lugar de'"
+    },
+    {
+      "id": "fonologia_l5_263",
+      "module": "fonologia",
+      "level": 5,
+      "type": "multiple_choice",
+      "prompt": "¿Qué figura fonética hay en 'el ruido del río'?",
+      "options": [
+        "Aliteración",
+        "Onomatopeya",
+        "Hiato",
+        "Diptongo"
+      ],
+      "correct": 0,
+      "explanation": "Repetición del sonido /r/ = aliteración"
+    },
+    {
+      "id": "fonologia_l1_w01",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "sol",
+      "hint": "Tiene 3 letras",
+      "explanation": "s-o-l",
+      "word": "sol"
+    },
+    {
+      "id": "fonologia_l1_w02",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "mesa",
+      "hint": "Mueble para comer",
+      "explanation": "me-sa",
+      "word": "mesa"
+    },
+    {
+      "id": "fonologia_l1_w03",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escribe la primera sílaba de la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "pa",
+      "hint": "Dos letras",
+      "explanation": "pa-to",
+      "word": "pato"
+    },
+    {
+      "id": "fonologia_l1_w04",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escribe la última sílaba de la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "na",
+      "hint": "Dos letras",
+      "explanation": "lu-na",
+      "word": "luna"
+    },
+    {
+      "id": "fonologia_l1_w05",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escribe una palabra que rime con 'gato' terminada en -ato",
+      "options": [],
+      "correct": 0,
+      "answer": "pato",
+      "hint": "Es un animal que nada",
+      "explanation": "gato / pato",
+      "acceptableAnswers": [
+        "plato",
+        "zapato",
+        "rato",
+        "dato",
+        "chato"
+      ]
+    },
+    {
+      "id": "fonologia_l2_w01",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "camisa",
+      "hint": "Ropa con botones",
+      "explanation": "ca-mi-sa",
+      "word": "camisa"
+    },
+    {
+      "id": "fonologia_l2_w02",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Une las sílabas: pe - lo - ta",
+      "options": [],
+      "correct": 0,
+      "answer": "pelota",
+      "hint": "Para jugar al fútbol",
+      "explanation": "pe-lo-ta"
+    },
+    {
+      "id": "fonologia_l2_w03",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escribe la sílaba del medio de la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "ma",
+      "hint": "Dos letras",
+      "explanation": "to-ma-te",
+      "word": "tomate"
+    },
+    {
+      "id": "fonologia_l2_w04",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Quita la primera sílaba: 'sapo' sin 'sa'",
+      "options": [],
+      "correct": 0,
+      "answer": "po",
+      "hint": "Lo que queda",
+      "explanation": "sa-po → po"
+    },
+    {
+      "id": "fonologia_l2_w05",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "zapato",
+      "hint": "Empieza por z",
+      "explanation": "za-pa-to",
+      "word": "zapato"
+    },
+    {
+      "id": "fonologia_l3_w01",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Une las sílabas: bi - ci - cle - ta",
+      "options": [],
+      "correct": 0,
+      "answer": "bicicleta",
+      "hint": "Tiene dos ruedas",
+      "explanation": "bi-ci-cle-ta"
+    },
+    {
+      "id": "fonologia_l3_w02",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "guitarra",
+      "hint": "gui- con u muda",
+      "explanation": "gui-ta-rra",
+      "word": "guitarra"
+    },
+    {
+      "id": "fonologia_l3_w03",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Cambia la primera letra de 'casa' por 'm'",
+      "options": [],
+      "correct": 0,
+      "answer": "masa",
+      "hint": "m + asa",
+      "explanation": "casa → masa"
+    },
+    {
+      "id": "fonologia_l3_w04",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escribe la palabra al revés: 'amor'",
+      "options": [],
+      "correct": 0,
+      "answer": "roma",
+      "hint": "Léela de derecha a izquierda",
+      "explanation": "amor ↔ roma"
+    },
+    {
+      "id": "fonologia_l3_w05",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "cigüeña",
+      "hint": "Lleva diéresis",
+      "explanation": "ci-güe-ña",
+      "word": "cigüeña"
+    },
+    {
+      "id": "fonologia_l4_w01",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "murciélago",
+      "hint": "Contiene las cinco vocales",
+      "explanation": "mur-cié-la-go",
+      "word": "murciélago"
+    },
+    {
+      "id": "fonologia_l4_w02",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Une las sílabas: ca - ra - me - lo",
+      "options": [],
+      "correct": 0,
+      "answer": "caramelo",
+      "hint": "Es dulce",
+      "explanation": "ca-ra-me-lo"
+    },
+    {
+      "id": "fonologia_l4_w03",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escribe el diptongo de la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "ie",
+      "hint": "Dos vocales juntas",
+      "explanation": "cie-lo: diptongo ie",
+      "word": "cielo"
+    },
+    {
+      "id": "fonologia_l4_w04",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "extraordinario",
+      "hint": "Empieza por extra-",
+      "explanation": "ex-tra-or-di-na-rio",
+      "word": "extraordinario"
+    },
+    {
+      "id": "fonologia_l5_w01",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "otorrinolaringólogo",
+      "hint": "Médico de oído, nariz y garganta",
+      "explanation": "o-to-rri-no-la-rin-gó-lo-go",
+      "word": "otorrinolaringólogo"
+    },
+    {
+      "id": "fonologia_l5_w02",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escribe la sílaba tónica de la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "ár",
+      "hint": "Lleva tilde",
+      "explanation": "ár-bol: llana",
+      "word": "árbol",
+      "acceptableAnswers": [
+        "ar"
+      ]
+    },
+    {
+      "id": "fonologia_l5_w03",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "desafortunadamente",
+      "hint": "des + afortunada + mente",
+      "explanation": "des-a-for-tu-na-da-men-te",
+      "word": "desafortunadamente"
+    },
+    {
+      "id": "fonologia_l5_w04",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escribe el hiato de la palabra",
+      "options": [],
+      "correct": 0,
+      "answer": "aí",
+      "hint": "Dos vocales en sílabas distintas",
+      "explanation": "pa-ís: hiato aí",
+      "word": "país",
+      "acceptableAnswers": [
+        "ai"
+      ]
+    },
+    {
+      "id": "fonologia_l1_d01",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "dado",
+      "options": [],
+      "correct": 0,
+      "answer": "dado",
+      "hint": "Empieza y acaba con d",
+      "explanation": "da-do"
+    },
+    {
+      "id": "fonologia_l1_d02",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "bola",
+      "options": [],
+      "correct": 0,
+      "answer": "bola",
+      "hint": "Empieza por b, como balón",
+      "explanation": "bo-la"
+    },
+    {
+      "id": "fonologia_l1_d03",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "dedo",
+      "options": [],
+      "correct": 0,
+      "answer": "dedo",
+      "hint": "Dos veces la d",
+      "explanation": "de-do"
+    },
+    {
+      "id": "fonologia_l1_d04",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "mapa",
+      "options": [],
+      "correct": 0,
+      "answer": "mapa",
+      "hint": "Dos sílabas: ma y pa",
+      "explanation": "ma-pa"
+    },
+    {
+      "id": "fonologia_l1_d05",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "nube",
+      "options": [],
+      "correct": 0,
+      "answer": "nube",
+      "hint": "Lleva b",
+      "explanation": "nu-be"
+    },
+    {
+      "id": "fonologia_l1_d06",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "pipa",
+      "options": [],
+      "correct": 0,
+      "answer": "pipa",
+      "hint": "Dos veces la p",
+      "explanation": "pi-pa"
+    },
+    {
+      "id": "fonologia_l1_d07",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "lobo",
+      "options": [],
+      "correct": 0,
+      "answer": "lobo",
+      "hint": "Lleva b",
+      "explanation": "lo-bo"
+    },
+    {
+      "id": "fonologia_l1_d08",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "foca",
+      "options": [],
+      "correct": 0,
+      "answer": "foca",
+      "hint": "Empieza por f",
+      "explanation": "fo-ca"
+    },
+    {
+      "id": "fonologia_l1_d09",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "rana",
+      "options": [],
+      "correct": 0,
+      "answer": "rana",
+      "hint": "Empieza por r (suena fuerte)",
+      "explanation": "ra-na: la r al principio suena fuerte sin ser rr"
+    },
+    {
+      "id": "fonologia_l1_d10",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "sopa",
+      "options": [],
+      "correct": 0,
+      "answer": "sopa",
+      "hint": "Dos sílabas: so y pa",
+      "explanation": "so-pa"
+    },
+    {
+      "id": "fonologia_l1_d11",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "moto",
+      "options": [],
+      "correct": 0,
+      "answer": "moto",
+      "hint": "Dos veces la o",
+      "explanation": "mo-to"
+    },
+    {
+      "id": "fonologia_l1_d12",
+      "module": "fonologia",
+      "level": 1,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "bota",
+      "options": [],
+      "correct": 0,
+      "answer": "bota",
+      "hint": "Empieza por b",
+      "explanation": "bo-ta"
+    },
+    {
+      "id": "fonologia_l2_d01",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "queso",
+      "options": [],
+      "correct": 0,
+      "answer": "queso",
+      "hint": "El sonido /k/ delante de e se escribe qu",
+      "explanation": "que-so: qu + e"
+    },
+    {
+      "id": "fonologia_l2_d02",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "perro",
+      "options": [],
+      "correct": 0,
+      "answer": "perro",
+      "hint": "Suena fuerte entre vocales: rr",
+      "explanation": "pe-rro: rr entre vocales"
+    },
+    {
+      "id": "fonologia_l2_d03",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "pera",
+      "options": [],
+      "correct": 0,
+      "answer": "pera",
+      "hint": "Suena suave: una sola r",
+      "explanation": "pe-ra: r suave"
+    },
+    {
+      "id": "fonologia_l2_d04",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "llave",
+      "options": [],
+      "correct": 0,
+      "answer": "llave",
+      "hint": "Empieza por ll",
+      "explanation": "lla-ve"
+    },
+    {
+      "id": "fonologia_l2_d05",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "yate",
+      "options": [],
+      "correct": 0,
+      "answer": "yate",
+      "hint": "Empieza por y",
+      "explanation": "ya-te"
+    },
+    {
+      "id": "fonologia_l2_d06",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "zumo",
+      "options": [],
+      "correct": 0,
+      "answer": "zumo",
+      "hint": "Empieza por z",
+      "explanation": "zu-mo: za, zo, zu con z"
+    },
+    {
+      "id": "fonologia_l2_d07",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "cine",
+      "options": [],
+      "correct": 0,
+      "answer": "cine",
+      "hint": "Con e e i se usa c, no z",
+      "explanation": "ci-ne: ce, ci con c"
+    },
+    {
+      "id": "fonologia_l2_d08",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "jamón",
+      "options": [],
+      "correct": 0,
+      "answer": "jamón",
+      "hint": "Empieza por j y lleva tilde",
+      "explanation": "ja-món: aguda acabada en n"
+    },
+    {
+      "id": "fonologia_l2_d09",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "hoja",
+      "options": [],
+      "correct": 0,
+      "answer": "hoja",
+      "hint": "Empieza por h muda",
+      "explanation": "ho-ja: la h no suena"
+    },
+    {
+      "id": "fonologia_l2_d10",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "guiso",
+      "options": [],
+      "correct": 0,
+      "answer": "guiso",
+      "hint": "gui: la u no suena",
+      "explanation": "gui-so: gu + i"
+    },
+    {
+      "id": "fonologia_l2_d11",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "vaca",
+      "options": [],
+      "correct": 0,
+      "answer": "vaca",
+      "hint": "Empieza por v",
+      "explanation": "va-ca"
+    },
+    {
+      "id": "fonologia_l2_d12",
+      "module": "fonologia",
+      "level": 2,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "carro",
+      "options": [],
+      "correct": 0,
+      "answer": "carro",
+      "hint": "Suena fuerte entre vocales: rr",
+      "explanation": "ca-rro"
+    },
+    {
+      "id": "fonologia_l3_d01",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "blanco",
+      "options": [],
+      "correct": 0,
+      "answer": "blanco",
+      "hint": "Grupo bl",
+      "explanation": "blan-co"
+    },
+    {
+      "id": "fonologia_l3_d02",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "brazo",
+      "options": [],
+      "correct": 0,
+      "answer": "brazo",
+      "hint": "Grupo br y acaba en zo",
+      "explanation": "bra-zo"
+    },
+    {
+      "id": "fonologia_l3_d03",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "plato",
+      "options": [],
+      "correct": 0,
+      "answer": "plato",
+      "hint": "Grupo pl",
+      "explanation": "pla-to"
+    },
+    {
+      "id": "fonologia_l3_d04",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "prado",
+      "options": [],
+      "correct": 0,
+      "answer": "prado",
+      "hint": "Grupo pr",
+      "explanation": "pra-do"
+    },
+    {
+      "id": "fonologia_l3_d05",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "tren",
+      "options": [],
+      "correct": 0,
+      "answer": "tren",
+      "hint": "Grupo tr, una sola sílaba",
+      "explanation": "tren"
+    },
+    {
+      "id": "fonologia_l3_d06",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "globo",
+      "options": [],
+      "correct": 0,
+      "answer": "globo",
+      "hint": "Grupo gl",
+      "explanation": "glo-bo"
+    },
+    {
+      "id": "fonologia_l3_d07",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "grande",
+      "options": [],
+      "correct": 0,
+      "answer": "grande",
+      "hint": "Grupo gr",
+      "explanation": "gran-de"
+    },
+    {
+      "id": "fonologia_l3_d08",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "clavo",
+      "options": [],
+      "correct": 0,
+      "answer": "clavo",
+      "hint": "Grupo cl y lleva v",
+      "explanation": "cla-vo"
+    },
+    {
+      "id": "fonologia_l3_d09",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "cruz",
+      "options": [],
+      "correct": 0,
+      "answer": "cruz",
+      "hint": "Grupo cr y acaba en z",
+      "explanation": "cruz: el plural es cruces"
+    },
+    {
+      "id": "fonologia_l3_d10",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "dragón",
+      "options": [],
+      "correct": 0,
+      "answer": "dragón",
+      "hint": "Grupo dr y lleva tilde",
+      "explanation": "dra-gón: aguda acabada en n"
+    },
+    {
+      "id": "fonologia_l3_d11",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "fresa",
+      "options": [],
+      "correct": 0,
+      "answer": "fresa",
+      "hint": "Grupo fr",
+      "explanation": "fre-sa"
+    },
+    {
+      "id": "fonologia_l3_d12",
+      "module": "fonologia",
+      "level": 3,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "flor",
+      "options": [],
+      "correct": 0,
+      "answer": "flor",
+      "hint": "Grupo fl",
+      "explanation": "flor"
+    },
+    {
+      "id": "fonologia_l4_d01",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "ambulancia",
+      "options": [],
+      "correct": 0,
+      "answer": "ambulancia",
+      "hint": "Antes de b se escribe m",
+      "explanation": "am-bu-lan-cia: mb"
+    },
+    {
+      "id": "fonologia_l4_d02",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "bombilla",
+      "options": [],
+      "correct": 0,
+      "answer": "bombilla",
+      "hint": "Antes de b se escribe m, y lleva ll",
+      "explanation": "bom-bi-lla"
+    },
+    {
+      "id": "fonologia_l4_d03",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "hamburguesa",
+      "options": [],
+      "correct": 0,
+      "answer": "hamburguesa",
+      "hint": "Empieza por h y lleva gue",
+      "explanation": "ham-bur-gue-sa"
+    },
+    {
+      "id": "fonologia_l4_d04",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "almohada",
+      "options": [],
+      "correct": 0,
+      "answer": "almohada",
+      "hint": "Lleva una h en medio",
+      "explanation": "al-mo-ha-da: h intercalada"
+    },
+    {
+      "id": "fonologia_l4_d05",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "vehículo",
+      "options": [],
+      "correct": 0,
+      "answer": "vehículo",
+      "hint": "h en medio y tilde en la í",
+      "explanation": "ve-hí-cu-lo: esdrújula"
+    },
+    {
+      "id": "fonologia_l4_d06",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "zanahoria",
+      "options": [],
+      "correct": 0,
+      "answer": "zanahoria",
+      "hint": "Empieza por z y lleva h en medio",
+      "explanation": "za-na-ho-ria"
+    },
+    {
+      "id": "fonologia_l4_d07",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "hierba",
+      "options": [],
+      "correct": 0,
+      "answer": "hierba",
+      "hint": "Empieza por hie",
+      "explanation": "hier-ba: hie- se escribe con h"
+    },
+    {
+      "id": "fonologia_l4_d08",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "ballena",
+      "options": [],
+      "correct": 0,
+      "answer": "ballena",
+      "hint": "Empieza por b y lleva ll",
+      "explanation": "ba-lle-na"
+    },
+    {
+      "id": "fonologia_l4_d09",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "invierno",
+      "options": [],
+      "correct": 0,
+      "answer": "invierno",
+      "hint": "Antes de v se escribe n",
+      "explanation": "in-vier-no: nv"
+    },
+    {
+      "id": "fonologia_l4_d10",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "examen",
+      "options": [],
+      "correct": 0,
+      "answer": "examen",
+      "hint": "Lleva x",
+      "explanation": "e-xa-men"
+    },
+    {
+      "id": "fonologia_l4_d11",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "girasol",
+      "options": [],
+      "correct": 0,
+      "answer": "girasol",
+      "hint": "gi con g",
+      "explanation": "gi-ra-sol"
+    },
+    {
+      "id": "fonologia_l4_d12",
+      "module": "fonologia",
+      "level": 4,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "cerezas",
+      "options": [],
+      "correct": 0,
+      "answer": "cerezas",
+      "hint": "ce con c y za con z",
+      "explanation": "ce-re-zas"
+    },
+    {
+      "id": "fonologia_l5_d01",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "aeropuerto",
+      "options": [],
+      "correct": 0,
+      "answer": "aeropuerto",
+      "hint": "Empieza por tres vocales: a-e-ro",
+      "explanation": "a-e-ro-puer-to"
+    },
+    {
+      "id": "fonologia_l5_d02",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "biblioteca",
+      "options": [],
+      "correct": 0,
+      "answer": "biblioteca",
+      "hint": "Dos veces b",
+      "explanation": "bi-blio-te-ca"
+    },
+    {
+      "id": "fonologia_l5_d03",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "excursión",
+      "options": [],
+      "correct": 0,
+      "answer": "excursión",
+      "hint": "Lleva x y tilde",
+      "explanation": "ex-cur-sión: aguda acabada en n"
+    },
+    {
+      "id": "fonologia_l5_d04",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "extraterrestre",
+      "options": [],
+      "correct": 0,
+      "answer": "extraterrestre",
+      "hint": "Lleva x y rr",
+      "explanation": "ex-tra-te-rres-tre"
+    },
+    {
+      "id": "fonologia_l5_d05",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "desayuno",
+      "options": [],
+      "correct": 0,
+      "answer": "desayuno",
+      "hint": "Lleva y",
+      "explanation": "de-sa-yu-no"
+    },
+    {
+      "id": "fonologia_l5_d06",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "ingeniero",
+      "options": [],
+      "correct": 0,
+      "answer": "ingeniero",
+      "hint": "ge con g",
+      "explanation": "in-ge-nie-ro"
+    },
+    {
+      "id": "fonologia_l5_d07",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "exhausto",
+      "options": [],
+      "correct": 0,
+      "answer": "exhausto",
+      "hint": "x seguida de h",
+      "explanation": "ex-haus-to: xh"
+    },
+    {
+      "id": "fonologia_l5_d08",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "murciélago",
+      "options": [],
+      "correct": 0,
+      "answer": "murciélago",
+      "hint": "Tiene las cinco vocales y tilde",
+      "explanation": "mur-cié-la-go: esdrújula"
+    },
+    {
+      "id": "fonologia_l5_d09",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "bisabuelo",
+      "options": [],
+      "correct": 0,
+      "answer": "bisabuelo",
+      "hint": "bi y bue con b",
+      "explanation": "bi-sa-bue-lo: bisa- con b"
+    },
+    {
+      "id": "fonologia_l5_d10",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "vergüenza",
+      "options": [],
+      "correct": 0,
+      "answer": "vergüenza",
+      "hint": "güe con diéresis",
+      "explanation": "ver-güen-za: la u suena, lleva diéresis"
+    },
+    {
+      "id": "fonologia_l5_d11",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "hipopótamo",
+      "options": [],
+      "correct": 0,
+      "answer": "hipopótamo",
+      "hint": "h al principio y tilde",
+      "explanation": "hi-po-pó-ta-mo: esdrújula"
+    },
+    {
+      "id": "fonologia_l5_d12",
+      "module": "fonologia",
+      "level": 5,
+      "type": "write",
+      "prompt": "Escucha y escribe la palabra",
+      "word": "subterráneo",
+      "options": [],
+      "correct": 0,
+      "answer": "subterráneo",
+      "hint": "b, rr y tilde",
+      "explanation": "sub-te-rrá-ne-o"
+    }
+  ]
+}

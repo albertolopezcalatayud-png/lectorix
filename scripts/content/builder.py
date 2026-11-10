@@ -124,17 +124,19 @@ class Bank:
             out[m] = (len(self.items[m]), dict(sorted(c.items())))
         return out
 
-    def save(self, readings_path):
+    def save(self, readings_path=None):
         errors = self.validate()
         if errors:
             raise SystemExit('VALIDATION FAILED:\n' + '\n'.join(errors[:80]))
-        d = os.path.join(ROOT, 'exercises', self.lang)
+        # Spanish is the original bank and lives at the root of exercises/
+        d = os.path.join(ROOT, 'exercises') if self.lang == 'es' else os.path.join(ROOT, 'exercises', self.lang)
         os.makedirs(d, exist_ok=True)
         for m in MODULES:
             with open(os.path.join(d, f'{m}.json'), 'w', encoding='utf-8') as f:
                 json.dump({'exercises': self.items[m]}, f, ensure_ascii=False, indent=1)
-        with open(os.path.join(ROOT, readings_path), 'w', encoding='utf-8') as f:
-            json.dump({'readings': self.readings}, f, ensure_ascii=False, indent=1)
+        if readings_path:
+            with open(os.path.join(ROOT, readings_path), 'w', encoding='utf-8') as f:
+                json.dump({'readings': self.readings}, f, ensure_ascii=False, indent=1)
         total = sum(len(v) for v in self.items.values())
         print(self.lang, 'total exercises', total, 'readings', len(self.readings))
         for m, (n, c) in self.stats().items():

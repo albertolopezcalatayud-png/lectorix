@@ -220,7 +220,7 @@ export const en: Record<TranslationKey, string> = {
   prem_hero_desc: 'Unlock the full learning potential',
   prem_feat_modules: 'All modules',
   prem_feat_modules_desc: '5 modules with 5 levels each',
-  prem_feat_exercises: '1,100+ exercises',
+  prem_feat_exercises: '1,000+ exercises per language',
   prem_feat_exercises_desc: 'Complete exercise library',
   prem_feat_stats: 'Advanced statistics',
   prem_feat_stats_desc: 'Detailed progress tracking',
