@@ -1,0 +1,1 @@
+    mResumedActivity: ActivityRecord{34dfcf5 u0 com.lectorix.app/.MainActivity t9}

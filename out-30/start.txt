@@ -1,0 +1,6 @@
+Starting: Intent { cmp=com.lectorix.app/.MainActivity }
+Status: timeout
+LaunchState: UNKNOWN (-1)
+Activity: com.lectorix.app/.MainActivity
+WaitTime: 10129
+Complete

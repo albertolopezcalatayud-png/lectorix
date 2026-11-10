@@ -1,0 +1,186 @@
+11-10 20:04:23.425  5992  5992 D Capacitor: Starting BridgeActivity
+11-10 20:04:23.446  5992  5992 D Capacitor: Registering plugin instance: CapacitorCookies
+11-10 20:04:23.449  5992  5992 D Capacitor: Registering plugin instance: WebView
+11-10 20:04:23.450  5992  5992 D Capacitor: Registering plugin instance: CapacitorHttp
+11-10 20:04:23.452  5992  5992 D Capacitor: Registering plugin instance: TextToSpeech
+11-10 20:04:23.460  5992  5992 I TextToSpeech: Sucessfully bound to com.google.android.tts
+11-10 20:04:23.460  5992  5992 D Capacitor: Registering plugin instance: App
+11-10 20:04:23.461  5992  5992 D Capacitor: Registering plugin instance: LocalNotifications
+11-10 20:04:23.465  4231  4231 I TTS.GoogleTTSService: Creating Google TTS service, version 22.10.313224691
+11-10 20:04:23.465  5992  5992 D Capacitor: Registering plugin instance: SplashScreen
+11-10 20:04:23.471  5992  5992 D Capacitor: Registering plugin instance: StatusBar
+11-10 20:04:23.475  5992  5992 V Capacitor/StatusBarPlugin: Notifying listeners for event statusBarOverlayChanged
+11-10 20:04:23.475  5992  5992 D Capacitor/StatusBarPlugin: No listeners found for event statusBarOverlayChanged
+11-10 20:04:23.475  5992  5992 V Capacitor/StatusBarPlugin: Notifying listeners for event statusBarOverlayChanged
+11-10 20:04:23.475  5992  5992 D Capacitor/StatusBarPlugin: No listeners found for event statusBarOverlayChanged
+11-10 20:04:23.480  4231  4231 W TTS.Dispatcher: No network voice found, will fall back to local immediately
+11-10 20:04:23.487  5992  5992 W Capacitor: Unable to read file at path public/plugins
+11-10 20:04:23.489  5992  5992 D Capacitor: Loading app at https://localhost
+11-10 20:04:23.521  5992  5992 D Capacitor: App started
+11-10 20:04:23.523  5992  5992 D Capacitor/AppPlugin: Firing change: true
+11-10 20:04:23.523  5992  5992 V Capacitor/AppPlugin: Notifying listeners for event appStateChange
+11-10 20:04:23.523  5992  5992 D Capacitor/AppPlugin: No listeners found for event appStateChange
+11-10 20:04:23.523  5992  5992 D Capacitor: App resumed
+11-10 20:04:23.530  5992  6114 D Capacitor: Handling local request: https://localhost/
+11-10 20:04:23.556  5992  5992 I TextToSpeech: Connected to ComponentInfo{com.google.android.tts/com.google.android.tts.service.GoogleTTSService}
+11-10 20:04:23.625  4231  4253 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:04:23.626  4231  4253 I TTS.GoogleTTSServiceImp: currentLocale = en-US
+11-10 20:04:23.627  4231  4253 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:04:23.716  5992  6112 D Capacitor: Handling local request: https://localhost/assets/index-CJ7qCtqN.js
+11-10 20:04:23.718  5992  6114 D Capacitor: Handling local request: https://localhost/assets/rolldown-runtime-BCiCTKAo.js
+11-10 20:04:23.718  5992  6107 D Capacitor: Handling local request: https://localhost/assets/index-CxOwpI8o.css
+11-10 20:04:23.752  4231  4253 I TTS.GoogleTTSServiceImp: For default lang en-us is name en-US-language (en-us-x-sfg-server)
+11-10 20:04:23.753  5992  6164 I TextToSpeech: Set up connection to ComponentInfo{com.google.android.tts/com.google.android.tts.service.GoogleTTSService}
+11-10 20:04:23.805  5992  5992 E Capacitor/Console: File: https://localhost/ - Line 824 - Msg: SyntaxError: Unexpected token '='
+11-10 20:04:23.808  5992  5992 E Capacitor: JavaScript Error: {"type":"js.error","error":{"message":"Uncaught SyntaxError: Unexpected token '='","url":"https://localhost/assets/index-CJ7qCtqN.js","line":2,"col":20408,"errorObject":"{}"}}
+11-10 20:04:23.808  5992  5992 E Capacitor/Console: File: https://localhost/assets/index-CJ7qCtqN.js - Line 2 - Msg: Uncaught SyntaxError: Unexpected token '='
+11-10 20:04:23.813  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:04:41.294  5992  6112 D Capacitor: Handling local request: https://localhost/#/
+11-10 20:04:41.294  5992  6110 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:04:41.312  5992  6110 D Capacitor: Handling local request: https://localhost/assets/index-CJ7qCtqN.js
+11-10 20:04:41.314  5992  6110 D Capacitor: Handling local request: https://localhost/assets/rolldown-runtime-BCiCTKAo.js
+11-10 20:04:41.314  5992  6112 D Capacitor: Handling local request: https://localhost/assets/index-CxOwpI8o.css
+11-10 20:04:41.333  5992  5992 E Capacitor/Console: File: https://localhost/ - Line 824 - Msg: SyntaxError: Unexpected token '='
+11-10 20:04:41.333  5992  5992 E Capacitor: JavaScript Error: {"type":"js.error","error":{"message":"Uncaught SyntaxError: Unexpected token '='","url":"https://localhost/assets/index-CJ7qCtqN.js","line":2,"col":20408,"errorObject":"{}"}}
+11-10 20:04:41.334  5992  5992 E Capacitor/Console: File: https://localhost/assets/index-CJ7qCtqN.js - Line 2 - Msg: Uncaught SyntaxError: Unexpected token '='
+11-10 20:04:41.336  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:04:48.586  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:04:50.867  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:04:53.146  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:04:55.427  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:04:57.712  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:05:00.030  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:05:02.387  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:05:04.699  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:05:06.984  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:05:09.266  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:05:11.543  5992  5992 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 43818540, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-10 20:05:11.544  5992  5992 V Capacitor: callback: 43818540, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"es-ES"}
+11-10 20:05:11.545  4231  6238 I TTS.VoiceGenerator: Get absoluteFilePath null
+11-10 20:05:11.545  4231  6238 I chatty  : uid=10129(com.google.android.tts) Binder:4231_6 identical 1 line
+11-10 20:05:11.545  4231  6238 I TTS.VoiceGenerator: Get absoluteFilePath null
+11-10 20:05:11.545  4231  6238 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:11.546  4231  6238 I TTS.GoogleTTSServiceImp: currentLocale = es-ES
+11-10 20:05:11.553  5992  5992 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 43818541, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-10 20:05:11.553  5992  5992 V Capacitor: callback: 43818541, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"ca-ES"}
+11-10 20:05:11.554  4231  6238 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:11.554  4231  6238 W TTS.Dispatcher: Local voice not installed, we will not be able to do local fallback
+11-10 20:05:11.554  4231  6238 I TTS.GoogleTTSServiceImp: currentLocale = ca
+11-10 20:05:11.597  5992  5992 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 43818542, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-10 20:05:11.597  5992  5992 V Capacitor: callback: 43818542, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"en-GB"}
+11-10 20:05:11.598  4231  6238 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:11.598  4231  6238 I TTS.GoogleTTSServiceImp: currentLocale = en-GB
+11-10 20:05:11.640  5992  5992 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 43818543, pluginId: TextToSpeech, methodName: speak
+11-10 20:05:11.640  5992  5992 V Capacitor: callback: 43818543, pluginId: TextToSpeech, methodName: speak, methodData: {"text":"Hola, esto es una prueba de voz.","lang":"es-ES","rate":1}
+11-10 20:05:11.641  4231  6238 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:11.641  4231  6238 I TTS.GoogleTTSServiceImp: currentLocale = es-ES
+11-10 20:05:11.643  4231  4250 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:11.643  4231  4250 I TTS.GoogleTTSServiceImp: currentLocale = es-ES
+11-10 20:05:11.644  4231  4250 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:11.644  4231  4250 I TTS.GoogleTTSServiceImp: currentLocale = es-ES
+11-10 20:05:11.644  4231  4250 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:11.644  4231  4250 I TTS.GoogleTTSServiceImp: For default lang es-es is name es-ES-language (es-es-x-ana-server)
+11-10 20:05:11.645  4231  4250 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:11.645  4231  4250 I TTS.GoogleTTSServiceImp: currentLocale = es-ES
+11-10 20:05:11.646  4231  6146 I TTS.VoiceDataDownloader: voicesToFetch es-es
+11-10 20:05:11.646  4231  6146 I TTS.VoiceDataDownloader: fetchVoiceInternal es-es
+11-10 20:05:11.646  4231  4305 I TTS.VoiceDataDownloader: Superpacks created and default voices checked.
+11-10 20:05:11.646  4231  6146 W TTS.Dispatcher: No local or network voice found, failing dispatch
+11-10 20:05:11.647  4231  4305 I TTS.VoiceDataManager: start to download voice es-es
+11-10 20:05:11.647  4231  4305 I TTS.VoiceDataDownloader: Download of es-es started.
+11-10 20:05:11.648  4231  4305 I TTS.VoiceDataDownloader: Registered slicing strategy for es-es
+11-10 20:05:11.648  4231  4305 I TTS.VoiceDataDownloader: Getting pack name es-es-x-ana-r15
+11-10 20:05:11.648  4231  4305 I TTS.VoiceDataDownloader: Adding pack es-es-x-ana-r15 to superpack.
+11-10 20:05:11.648  4231  4305 I TTS.VoiceDataDownloader: Getting pack name es-es-x-nhg-r15
+11-10 20:05:11.648  4231  4305 I TTS.VoiceDataDownloader: Adding pack es-es-x-nhg-r15 to superpack.
+11-10 20:05:11.648  4231  4305 I TTS.VoiceDataDownloader: Syncing superpack es-es
+11-10 20:05:11.717  4231  4311 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/es-es/es-es-x-ana-r15.zvoice to es-es-x-ana-r15.zvoice.fetched (constraints: m:b)
+11-10 20:05:11.727  4231  4311 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/es-es/es-es-x-nhg-r15.zvoice to es-es-x-nhg-r15.zvoice.fetched (constraints: m:b)
+11-10 20:05:11.743  4231  6146 I TTS.GoogleTTSServiceImp: Synthesis request for locale spa-ESP and name es-ES-language
+11-10 20:05:11.744  4231  6146 I TTS.VoiceDataManager: Downloading es-es ...
+11-10 20:05:11.744  4231  6146 I TTS.VoiceDataDownloader: voicesToFetch es-us
+11-10 20:05:11.744  4231  6146 I TTS.VoiceDataDownloader: fetchVoiceInternal es-us
+11-10 20:05:11.744  4231  6146 W TTS.Dispatcher: Local voice not installed, we will not be able to do local fallback
+11-10 20:05:11.744  4231  4305 I TTS.VoiceDataDownloader: Superpacks created and default voices checked.
+11-10 20:05:11.744  4231  6146 I TTS.GoogleTTSServiceImp: TTS dispatch: es-es-x-ana-server
+11-10 20:05:11.744  4231  4305 I TTS.VoiceDataManager: start to download voice es-us
+11-10 20:05:11.744  4231  4305 I TTS.VoiceDataDownloader: Download of es-us started.
+11-10 20:05:11.746  4231  4305 I TTS.VoiceDataDownloader: Registered slicing strategy for es-us
+11-10 20:05:11.746  4231  4305 I TTS.VoiceDataDownloader: Getting pack name es-us-x-sfb-r15
+11-10 20:05:11.746  4231  4305 I TTS.VoiceDataDownloader: Adding pack es-us-x-sfb-r15 to superpack.
+11-10 20:05:11.746  4231  4305 I TTS.VoiceDataDownloader: Syncing superpack es-us
+11-10 20:05:11.791  4231  4311 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v22/es-us/es-us-x-sfb-r15.zvoice to es-us-x-sfb-r15.zvoice.fetched (constraints: m:b)
+11-10 20:05:12.917  5992  6706 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-10 20:05:12.917  5992  6706 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-10 20:05:13.149  5992  6014 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-10 20:05:13.149  5992  6014 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-10 20:05:13.298  5992  6014 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-10 20:05:13.298  5992  6014 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-10 20:05:13.394  5992  6014 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-10 20:05:13.394  5992  6014 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-10 20:05:13.460  5992  6014 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-10 20:05:13.460  5992  6014 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-10 20:05:13.581  5992  6014 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-10 20:05:13.581  5992  6014 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-10 20:05:13.633  5992  6014 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-10 20:05:13.633  5992  6014 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-10 20:05:15.369  4231  6698 I chatty  : uid=10129(com.google.android.tts) identical 2 lines
+11-10 20:05:15.952  4231  4305 I TTS.VoiceDataDownloader: Superpack download completed.
+11-10 20:05:15.952  4231  4305 I TTS.VoiceDataDownloader: Download es-es Success true
+11-10 20:05:15.952  4231  4305 I TTS.VoiceDataManager: Downloaded voice es-es
+11-10 20:05:15.952  4231  4305 I TTS.VoiceDataDownloader: Superpack download completed.
+11-10 20:05:15.962  4231  4305 I TTS.VoiceDataDownloader: Download es-us Success true
+11-10 20:05:15.962  4231  4305 I TTS.VoiceDataManager: Downloaded voice es-us
+11-10 20:05:15.962  4231  4305 I TTS.VoiceDataDownloader: getAvailableVoicesInfo en-us
+11-10 20:05:15.962  4231  4305 I TTS.VoiceDataDownloader: getAvailableVoicesInfo es-us
+11-10 20:05:15.962  4231  4305 I TTS.VoiceDataDownloader: getAvailableVoicesInfo es-es
+11-10 20:05:15.970  4231  4305 I TTS.VoiceGenerator: Cache cleared
+11-10 20:05:15.970  4231  4305 I TTS.VoiceDataDownloader: getAvailableVoicesInfo en-us
+11-10 20:05:15.970  4231  4305 I TTS.VoiceDataDownloader: getAvailableVoicesInfo es-us
+11-10 20:05:15.970  4231  4305 I TTS.VoiceDataDownloader: getAvailableVoicesInfo es-es
+11-10 20:05:15.970  4231  4305 I TTS.VoiceGenerator: Cache cleared
+11-10 20:05:16.004  5992  5992 I Capacitor/Console: File: https://localhost/ - Line 336 - Msg: undefined
+11-10 20:05:16.009  5992  5992 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 43818544, pluginId: TextToSpeech, methodName: addListener
+11-10 20:05:16.009  5992  5992 V Capacitor: callback: 43818544, pluginId: TextToSpeech, methodName: addListener, methodData: {"eventName":"onRangeStart"}
+11-10 20:05:16.009  5992  5992 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 43818545, pluginId: TextToSpeech, methodName: speak
+11-10 20:05:16.010  5992  5992 V Capacitor: callback: 43818545, pluginId: TextToSpeech, methodName: speak, methodData: {"text":"El gato come pescado en la cocina.","lang":"es-ES","rate":1}
+11-10 20:05:16.011  4231  4250 I TTS.VoiceGenerator: Get absoluteFilePath /data/user_de/0/com.google.android.tts/files/superpacks/es-us/es-us-x-sfb-r15
+11-10 20:05:16.011  4231  4250 I TTS.VoiceGenerator: Get absoluteFilePath /data/user_de/0/com.google.android.tts/files/superpacks/es-es/es-es-x-ana-r15
+11-10 20:05:16.011  4231  4250 I TTS.VoiceGenerator: Get absoluteFilePath /data/user_de/0/com.google.android.tts/files/superpacks/es-es/es-es-x-nhg-r15
+11-10 20:05:16.011  4231  4250 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:16.011  4231  4250 I TTS.GoogleTTSServiceImp: currentLocale = es-ES
+11-10 20:05:16.014  4231  4250 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:16.014  4231  4250 I TTS.GoogleTTSServiceImp: currentLocale = es-ES
+11-10 20:05:16.015  4231  4250 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:16.015  4231  4250 I TTS.GoogleTTSServiceImp: currentLocale = es-ES
+11-10 20:05:16.016  4231  4250 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:16.016  4231  4250 I TTS.GoogleTTSServiceImp: For default lang es-es is name es-ES-language (es-es-x-ana-server)
+11-10 20:05:16.017  4231  4250 W TTS.Dispatcher: The requested voice is not available for this app identifier
+11-10 20:05:16.017  4231  4250 I TTS.GoogleTTSServiceImp: currentLocale = es-ES
+11-10 20:05:16.017  4231  6146 W TTS.Dispatcher: No network voice found, will fall back to local immediately
+11-10 20:05:16.018  4231  6146 I TTS.ControllerWrapper: Initializing es-es-x-nhg-lstm-embedded from disk
+11-10 20:05:16.022  4231  6146 W native  : tts_controller.cc:216 Couldn't create the truncated prosody embedding pipeline!
+11-10 20:05:16.312  4231  6146 I TTS.ControllerWrapper: Done initializing es-es-x-nhg-lstm-embedded
+11-10 20:05:16.313  4231  6146 I TTS.GoogleTTSServiceImp: Synthesis request for locale spa-ESP and name es-ES-language
+11-10 20:05:16.313  4231  6146 I TTS.GoogleTTSServiceImp: TTS dispatch: es-es-x-ana-lstm-embedded
+11-10 20:05:16.314  4231  6146 I TTS.ControllerWrapper: Initializing es-es-x-ana-lstm-embedded from disk
+11-10 20:05:16.315  4231  6146 W native  : tts_controller.cc:216 Couldn't create the truncated prosody embedding pipeline!
+11-10 20:05:16.329  4231  6146 I TTS.ControllerWrapper: Done initializing es-es-x-ana-lstm-embedded
+11-10 20:05:16.369  5992  6706 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-10 20:05:17.168  5992  6706 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-10 20:05:17.744  5992  6706 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-10 20:05:17.959  5992  6706 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-10 20:05:19.155  5992  5992 I Capacitor/Console: File: https://localhost/ - Line 336 - Msg: undefined
+11-10 20:05:19.155  5992  5992 D Capacitor/Console: File: https://localhost/ - Line 197 - Msg: Removing listener TextToSpeech onRangeStart
+11-10 20:05:19.155  5992  5992 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 43818546, pluginId: TextToSpeech, methodName: removeListener
+11-10 20:05:19.156  5992  5992 V Capacitor: callback: 43818546, pluginId: TextToSpeech, methodName: removeListener, methodData: {"callbackId":"43818544","eventName":"onRangeStart"}
+11-10 20:05:19.160  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:05:21.869  5992  5992 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 43818547, pluginId: LocalNotifications, methodName: checkPermissions
+11-10 20:05:21.869  5992  5992 V Capacitor: callback: 43818547, pluginId: LocalNotifications, methodName: checkPermissions, methodData: {}
+11-10 20:05:21.876  5992  5992 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 43818548, pluginId: LocalNotifications, methodName: schedule
+11-10 20:05:21.876  5992  5992 V Capacitor: callback: 43818548, pluginId: LocalNotifications, methodName: schedule, methodData: {"notifications":[{"id":4242,"title":"Prueba Lectorix","body":"Recordatorio de prueba","schedule":{"at":"2026-11-10T20:05:25.875Z"},"smallIcon":"ic_stat_lectorix"}]}
+11-10 20:05:26.893  5992  5992 V Capacitor/LocalNotificationsPlugin: Notifying listeners for event localNotificationReceived
+11-10 20:05:26.893  5992  5992 D Capacitor/LocalNotificationsPlugin: No listeners found for event localNotificationReceived
+11-10 20:05:30.531  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:05:31.734  5992  6112 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-10 20:05:39.292   490  6748 E ActivityManager:  +0% 4231/com.google.android.tts: 0% user + 0% kernel
