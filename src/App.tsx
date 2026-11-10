@@ -7,6 +7,7 @@ import { Onboarding } from '@/components/onboarding/Onboarding';
 import { PageTransition } from '@/components/layout/PageTransition';
 import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
 import { setSpeechLang } from '@/services/tts';
+import { ReadingRuler } from '@/components/reading/ReadingRuler';
 
 // Lazy load pages
 const Dashboard = lazy(() => import('@/pages/Dashboard'));
@@ -69,10 +70,20 @@ function AnimatedRoutes() {
   );
 }
 
+/** The reading ruler is shown only on screens with text to read */
+function RulerHost() {
+  const location = useLocation();
+  const on = useAppStore((s) => s.readingRuler);
+  const readingScreen = /^\/(lectura\/|ejercicio\/|repaso|reto-diario|dictado)/.test(location.pathname);
+  return on && readingScreen ? <ReadingRuler /> : null;
+}
+
 export default function App() {
   const fontFamily = useAppStore((s) => s.fontFamily);
   const fontSize = useAppStore((s) => s.fontSize);
   const highContrast = useAppStore((s) => s.highContrast);
+  const letterSpacing = useAppStore((s) => s.letterSpacing);
+  const lineSpacing = useAppStore((s) => s.lineSpacing);
   const theme = useAppStore((s) => s.theme);
   const onboardingDone = useAppStore((s) => s.onboardingDone);
   const setOnboardingDone = useAppStore((s) => s.setOnboardingDone);
@@ -96,6 +107,8 @@ export default function App() {
     if (highContrast) {
       document.documentElement.setAttribute('data-contrast', 'high');
     }
+    document.documentElement.setAttribute('data-letterspacing', letterSpacing || 'normal');
+    document.documentElement.setAttribute('data-linespacing', lineSpacing || 'normal');
     if (theme !== 'system') {
       document.documentElement.setAttribute('data-theme', theme);
     }
@@ -112,6 +125,7 @@ export default function App() {
         <Suspense fallback={<LoadingSpinner />}>
           <AnimatedRoutes />
         </Suspense>
+        <RulerHost />
         <BottomNav />
       </div>
     </HashRouter>

@@ -222,7 +222,7 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
 
         {/* Prompt */}
         <div className="flex items-center justify-center gap-2 px-2">
-          <h2 className="font-heading font-extrabold text-lg text-center">
+          <h2 className="font-heading font-extrabold text-lg text-center reading-text">
             {exercise.prompt}
           </h2>
           {tts.isAvailable() && (

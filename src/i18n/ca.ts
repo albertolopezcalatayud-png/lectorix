@@ -469,4 +469,23 @@ export const ca: Record<TranslationKey, string> = {
   adapt_easier_title: 'Este nivell encara costa, i és normal',
   adapt_easier_desc: 'Les errades s\'han guardat per a repassar-les demà. Si vols, reforça abans el nivell {level}.',
   adapt_easier_btn: 'Practicar el nivell {level}',
+
+  // Reading aids
+  set_font_dyslexic_desc: 'La lletra OpenDyslexic pot facilitar la lectura a algunes persones amb dislèxia.',
+  aid_title: 'Ajudes de lectura',
+  aid_desc: 'Prova quines t’ajuden a llegir millor. Pots canviar-les quan vulgues.',
+  aid_syllables: 'Acolorir les síl·labes',
+  aid_syllables_desc: 'En les lectures i els textos, cada síl·laba es pinta d’un color diferent.',
+  aid_syllables_no_en: 'Disponible per a castellà i valencià. En anglés la divisió en síl·labes no seguix regles fixes i no s’acolorix.',
+  aid_letter_spacing: 'Espai entre lletres',
+  aid_line_spacing: 'Espai entre línies',
+  aid_normal: 'Normal',
+  aid_wide: 'Ampli',
+  aid_wider: 'Molt ampli',
+  aid_ruler: 'Regle de lectura',
+  aid_ruler_desc: 'Una franja clara que enfosquix la resta de la pantalla per a seguir la línia. Mou-la amb l’ansa groga.',
+  ruler_up: 'Pujar el regle',
+  ruler_down: 'Baixar el regle',
+  ruler_drag: 'Arrossega per a moure el regle',
+  ruler_size: 'Canviar l’altura del regle',
 };

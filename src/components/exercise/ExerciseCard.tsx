@@ -3,6 +3,7 @@ import { useI18n } from '@/i18n';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { Exercise } from '@/types';
 import { OptionButton } from './OptionButton';
+import { SyllableText } from '@/components/reading/SyllableText';
 import sounds from '@/services/sounds';
 import tts from '@/services/tts';
 
@@ -123,8 +124,8 @@ export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswe
 
         {/* Passage (for comprehension exercises) */}
         {exercise.passage && (
-          <div className="bg-accent-pale/50 rounded-[14px] p-4 text-sm leading-relaxed border border-border relative">
-            {exercise.passage}
+          <div className="bg-accent-pale/50 rounded-[14px] p-4 pr-11 text-sm reading-text border border-border relative">
+            <SyllableText text={exercise.passage} />
             {tts.isAvailable() && (
               <button
                 onClick={() => handleSpeak(exercise.passage!)}
@@ -166,7 +167,7 @@ export function ExerciseCard({ exercise, questionNumber, totalQuestions, onAnswe
 
         {/* Prompt */}
         <div className="flex items-center justify-center gap-2 px-2">
-          <h2 className="font-heading font-extrabold text-lg text-center">
+          <h2 className="font-heading font-extrabold text-lg text-center reading-text">
             {exercise.prompt}
           </h2>
           {tts.isAvailable() && (

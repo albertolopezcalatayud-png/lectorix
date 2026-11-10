@@ -130,6 +130,22 @@ h1, h2, h3, h4, h5, h6 {
   --color-accent: #C4B5FD;
 }
 
+/* ─── Reading aids: spacing for reading text ─── */
+:root { --reading-tracking: 0.01em; --reading-word-spacing: 0.08em; --reading-leading: 1.6; --syl-a: #2563EB; --syl-b: #DC2626; }
+:root[data-letterspacing="wide"] { --reading-tracking: 0.08em; --reading-word-spacing: 0.2em; }
+:root[data-letterspacing="wider"] { --reading-tracking: 0.14em; --reading-word-spacing: 0.32em; }
+:root[data-linespacing="relaxed"] { --reading-leading: 2; }
+:root[data-linespacing="loose"] { --reading-leading: 2.5; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --syl-a: #93C5FD; --syl-b: #FCA5A5; } }
+:root[data-theme="dark"] { --syl-a: #93C5FD; --syl-b: #FCA5A5; }
+.reading-text {
+  letter-spacing: var(--reading-tracking);
+  word-spacing: var(--reading-word-spacing);
+  line-height: var(--reading-leading);
+}
+.syl-a { color: var(--syl-a); }
+.syl-b { color: var(--syl-b); }
+
 /* ─── Font size scaling ─── */
 :root[data-fontsize="small"] { --font-size-base: 14px; }
 :root[data-fontsize="normal"] { --font-size-base: 16px; }

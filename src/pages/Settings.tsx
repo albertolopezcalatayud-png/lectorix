@@ -1,6 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAppStore, resolvePracticeLang } from '@/stores/useAppStore';
+import { useAppStore, usePracticeLang, resolvePracticeLang } from '@/stores/useAppStore';
+import { SyllableText } from '@/components/reading/SyllableText';
+
+const AID_PREVIEW = {
+  es: 'La mariposa vuela sobre las flores del jardín.',
+  ca: 'La papallona vola damunt de les flors del jardí.',
+  en: 'The butterfly flies over the flowers in the garden.',
+} as const;
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { isSoundEnabled, setSoundEnabled } from '@/services/sounds';
@@ -32,6 +39,15 @@ export default function Settings() {
   const fontSize = useAppStore((s) => s.fontSize);
   const setFontSize = useAppStore((s) => s.setFontSize);
   const highContrast = useAppStore((s) => s.highContrast);
+  const letterSpacing = useAppStore((s) => s.letterSpacing);
+  const setLetterSpacing = useAppStore((s) => s.setLetterSpacing);
+  const lineSpacing = useAppStore((s) => s.lineSpacing);
+  const setLineSpacing = useAppStore((s) => s.setLineSpacing);
+  const syllableColors = useAppStore((s) => s.syllableColors);
+  const setSyllableColors = useAppStore((s) => s.setSyllableColors);
+  const readingRuler = useAppStore((s) => s.readingRuler);
+  const setReadingRuler = useAppStore((s) => s.setReadingRuler);
+  const practiceLangNow = usePracticeLang();
   const setHighContrast = useAppStore((s) => s.setHighContrast);
 
   const [soundOn, setSoundOn] = useState(isSoundEnabled());
@@ -244,7 +260,7 @@ export default function Settings() {
                 </button>
               </div>
               <p className="text-[10px] text-fg-muted mt-1.5">
-                La fuente OpenDyslexic facilita la lectura para personas con dislexia
+                {t('set_font_dyslexic_desc')}
               </p>
             </div>
 
@@ -291,6 +307,93 @@ export default function Settings() {
                   }`}
                 />
               </button>
+            </div>
+          </div>
+        </Card>
+
+        {/* Reading aids */}
+        <Card>
+          <h3 className="font-heading font-extrabold text-sm mb-1">{t('aid_title')}</h3>
+          <p className="text-[11px] text-fg-muted mb-3">{t('aid_desc')}</p>
+          <div className="space-y-4">
+            {/* Syllable colours */}
+            <div>
+              <div className="flex items-center justify-between">
+                <span className="text-sm font-bold">
+                  🌈 {t('aid_syllables')}
+                </span>
+                <button
+                  onClick={() => setSyllableColors(!syllableColors)}
+                  role="switch"
+                  aria-checked={syllableColors}
+                  aria-label={t('aid_syllables')}
+                  className={`relative w-11 h-6 rounded-full transition-colors flex-shrink-0 ${syllableColors ? 'bg-accent' : 'bg-border'}`}
+                >
+                  <span className={`absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform ${syllableColors ? 'translate-x-5' : 'translate-x-0'}`} />
+                </button>
+              </div>
+              <p className="text-[10px] text-fg-muted mt-1">
+                {practiceLangNow === 'en' ? t('aid_syllables_no_en') : t('aid_syllables_desc')}
+              </p>
+            </div>
+
+            {/* Letter spacing */}
+            <div>
+              <span className="text-xs text-fg-muted block mb-2">{t('aid_letter_spacing')}</span>
+              <div className="flex gap-1.5">
+                {([
+                  { v: 'normal' as const, k: 'aid_normal' as const, ls: '0' },
+                  { v: 'wide' as const, k: 'aid_wide' as const, ls: '0.08em' },
+                  { v: 'wider' as const, k: 'aid_wider' as const, ls: '0.14em' },
+                ]).map((o) => (
+                  <button key={o.v} onClick={() => setLetterSpacing(o.v)}
+                    className={`flex-1 py-2 rounded-xl text-center text-sm font-bold transition-colors ${letterSpacing === o.v ? 'bg-accent text-white' : 'bg-bg border border-border'}`}
+                    style={{ letterSpacing: o.ls }}
+                  >
+                    {t(o.k)}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Line spacing */}
+            <div>
+              <span className="text-xs text-fg-muted block mb-2">{t('aid_line_spacing')}</span>
+              <div className="flex gap-1.5">
+                {([
+                  { v: 'normal' as const, k: 'aid_normal' as const },
+                  { v: 'relaxed' as const, k: 'aid_wide' as const },
+                  { v: 'loose' as const, k: 'aid_wider' as const },
+                ]).map((o) => (
+                  <button key={o.v} onClick={() => setLineSpacing(o.v)}
+                    className={`flex-1 py-2 rounded-xl text-center text-sm font-bold transition-colors ${lineSpacing === o.v ? 'bg-accent text-white' : 'bg-bg border border-border'}`}
+                  >
+                    {t(o.k)}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Reading ruler */}
+            <div>
+              <div className="flex items-center justify-between">
+                <span className="text-sm font-bold">📏 {t('aid_ruler')}</span>
+                <button
+                  onClick={() => setReadingRuler(!readingRuler)}
+                  role="switch"
+                  aria-checked={readingRuler}
+                  aria-label={t('aid_ruler')}
+                  className={`relative w-11 h-6 rounded-full transition-colors flex-shrink-0 ${readingRuler ? 'bg-accent' : 'bg-border'}`}
+                >
+                  <span className={`absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform ${readingRuler ? 'translate-x-5' : 'translate-x-0'}`} />
+                </button>
+              </div>
+              <p className="text-[10px] text-fg-muted mt-1">{t('aid_ruler_desc')}</p>
+            </div>
+
+            {/* Preview */}
+            <div className="rounded-xl bg-accent-pale/40 border border-border p-3 text-sm reading-text">
+              <SyllableText text={AID_PREVIEW[practiceLangNow]} />
             </div>
           </div>
         </Card>

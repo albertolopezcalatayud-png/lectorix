@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import tts, { speakTracked, estimateSyllables } from '@/services/tts';
 import { useI18n } from '@/i18n';
+import { usePracticeLang } from '@/stores/useAppStore';
+import { SyllableWord, useSyllableColoring } from './SyllableText';
 
 // ── Text model ───────────────────────────────────────────
 export interface Token { text: string; start: number; index: number }
@@ -61,6 +63,8 @@ interface Props {
 export function GuidedReader({ text, onFinishedListening }: Props) {
   const { t } = useI18n();
   const { paragraphs, sentences } = useMemo(() => parseText(text), [text]);
+  const practiceLang = usePracticeLang();
+  const sylLang = useSyllableColoring();
 
   const [playing, setPlaying] = useState(false);
   const [sentenceIdx, setSentenceIdx] = useState(0);
@@ -242,9 +246,13 @@ export function GuidedReader({ text, onFinishedListening }: Props) {
 
       {/* Text */}
       <div
-        className="text-xl leading-[2.1] tracking-wide space-y-5"
-        style={{ wordSpacing: '0.18em' }}
-        lang="es"
+        className="text-xl reading-text space-y-5"
+        style={{
+          lineHeight: 'calc(var(--reading-leading) + 0.5)',
+          letterSpacing: 'max(0.025em, var(--reading-tracking))',
+          wordSpacing: 'max(0.18em, var(--reading-word-spacing))',
+        }}
+        lang={practiceLang === 'ca' ? 'ca-ES-valencia' : practiceLang === 'en' ? 'en-GB' : 'es'}
       >
         {paragraphs.map((p, pi) => (
           <p key={pi}>
@@ -270,7 +278,7 @@ export function GuidedReader({ text, onFinishedListening }: Props) {
                           tok.index === wordIdx ? 'bg-yellow text-[#2D2640]' : 'hover:bg-yellow-pale'
                         }`}
                       >
-                        {tok.text}
+                        {sylLang ? <SyllableWord word={tok.text} lang={sylLang} /> : tok.text}
                       </span>{' '}
                     </span>
                   ))}

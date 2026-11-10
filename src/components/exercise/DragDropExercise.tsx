@@ -122,7 +122,7 @@ function DragOrderExercise({
         )}
 
         {/* Prompt */}
-        <h2 className="font-heading font-extrabold text-lg text-center px-2">{exercise.prompt}</h2>
+        <h2 className="font-heading font-extrabold text-lg text-center px-2 reading-text">{exercise.prompt}</h2>
 
         {/* Drag area */}
         <div className="bg-accent-pale/30 rounded-[16px] p-4 border border-border">
@@ -308,7 +308,7 @@ function DragFillExercise({
         </div>
 
         {/* Prompt */}
-        <h2 className="font-heading font-extrabold text-lg text-center px-2">{exercise.prompt}</h2>
+        <h2 className="font-heading font-extrabold text-lg text-center px-2 reading-text">{exercise.prompt}</h2>
 
         {/* Sentence with blanks */}
         <div className="bg-accent-pale/30 rounded-[16px] p-4 border border-border">

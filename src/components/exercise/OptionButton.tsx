@@ -47,7 +47,7 @@ export function OptionButton({ label, index, selected, correct, showFeedback, on
       <span className={`flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg text-sm font-extrabold ${letterBg}`}>
         {LETTERS[index]}
       </span>
-      <span className="font-semibold text-sm flex-1">{label}</span>
+      <span className="font-semibold text-sm flex-1 reading-text">{label}</span>
       {showFeedback && correct && <span className="text-lg">✅</span>}
       {showFeedback && selected && !correct && <span className="text-lg">❌</span>}
     </motion.button>

@@ -469,4 +469,23 @@ export const en: Record<TranslationKey, string> = {
   adapt_easier_title: 'This level is still tricky, and that\'s OK',
   adapt_easier_desc: 'Your mistakes are saved to review tomorrow. If you like, strengthen level {level} first.',
   adapt_easier_btn: 'Practise level {level}',
+
+  // Reading aids
+  set_font_dyslexic_desc: 'The OpenDyslexic font can make reading easier for some people with dyslexia.',
+  aid_title: 'Reading aids',
+  aid_desc: 'Try which ones help you read better. You can change them at any time.',
+  aid_syllables: 'Colour the syllables',
+  aid_syllables_desc: 'In readings and texts, each syllable is shown in a different colour.',
+  aid_syllables_no_en: 'Available for Spanish and Valencian. English syllable division does not follow fixed rules, so it is not coloured.',
+  aid_letter_spacing: 'Letter spacing',
+  aid_line_spacing: 'Line spacing',
+  aid_normal: 'Normal',
+  aid_wide: 'Wide',
+  aid_wider: 'Extra wide',
+  aid_ruler: 'Reading ruler',
+  aid_ruler_desc: 'A clear band that darkens the rest of the screen so you can follow the line. Move it with the yellow handle.',
+  ruler_up: 'Move ruler up',
+  ruler_down: 'Move ruler down',
+  ruler_drag: 'Drag to move the ruler',
+  ruler_size: 'Change the ruler height',
 };

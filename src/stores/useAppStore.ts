@@ -45,6 +45,15 @@ interface AppState {
   setFontSize: (size: 'small' | 'normal' | 'large' | 'xlarge') => void;
   highContrast: boolean;
   setHighContrast: (on: boolean) => void;
+  // Reading aids
+  letterSpacing: 'normal' | 'wide' | 'wider';
+  setLetterSpacing: (v: 'normal' | 'wide' | 'wider') => void;
+  lineSpacing: 'normal' | 'relaxed' | 'loose';
+  setLineSpacing: (v: 'normal' | 'relaxed' | 'loose') => void;
+  syllableColors: boolean;
+  setSyllableColors: (on: boolean) => void;
+  readingRuler: boolean;
+  setReadingRuler: (on: boolean) => void;
 
   // Session History
   sessionHistory: SessionResult[];
@@ -187,6 +196,21 @@ export const useAppStore = create<AppState>()(
       onboardingDone: false,
       setOnboardingDone: (done) => set({ onboardingDone: done }),
 
+      letterSpacing: 'normal',
+      setLetterSpacing: (letterSpacing) => {
+        set({ letterSpacing });
+        document.documentElement.setAttribute('data-letterspacing', letterSpacing);
+      },
+      lineSpacing: 'normal',
+      setLineSpacing: (lineSpacing) => {
+        set({ lineSpacing });
+        document.documentElement.setAttribute('data-linespacing', lineSpacing);
+      },
+      syllableColors: false,
+      setSyllableColors: (syllableColors) => set({ syllableColors }),
+      readingRuler: false,
+      setReadingRuler: (readingRuler) => set({ readingRuler }),
+
       highContrast: false,
       setHighContrast: (highContrast) => {
         set({ highContrast });
@@ -209,6 +233,10 @@ export const useAppStore = create<AppState>()(
         fontFamily: state.fontFamily,
         fontSize: state.fontSize,
         highContrast: state.highContrast,
+        letterSpacing: state.letterSpacing,
+        lineSpacing: state.lineSpacing,
+        syllableColors: state.syllableColors,
+        readingRuler: state.readingRuler,
         onboardingDone: state.onboardingDone,
         sessionHistory: state.sessionHistory,
         mascot: state.mascot,

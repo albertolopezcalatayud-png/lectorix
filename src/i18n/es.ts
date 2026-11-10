@@ -467,6 +467,25 @@ export const es = {
   adapt_easier_title: 'Este nivel todavía cuesta, y es normal',
   adapt_easier_desc: 'Los fallos se han guardado para repasarlos mañana. Si quieres, refuerza antes el nivel {level}.',
   adapt_easier_btn: 'Practicar el nivel {level}',
+
+  // Reading aids
+  set_font_dyslexic_desc: 'La fuente OpenDyslexic puede facilitar la lectura a algunas personas con dislexia.',
+  aid_title: 'Ayudas de lectura',
+  aid_desc: 'Prueba cuáles te ayudan a leer mejor. Puedes cambiarlas cuando quieras.',
+  aid_syllables: 'Colorear las sílabas',
+  aid_syllables_desc: 'En las lecturas y los textos, cada sílaba se pinta de un color distinto.',
+  aid_syllables_no_en: 'Disponible para castellano y valenciano. En inglés la división en sílabas no sigue reglas fijas y no se colorea.',
+  aid_letter_spacing: 'Espacio entre letras',
+  aid_line_spacing: 'Espacio entre líneas',
+  aid_normal: 'Normal',
+  aid_wide: 'Amplio',
+  aid_wider: 'Muy amplio',
+  aid_ruler: 'Regla de lectura',
+  aid_ruler_desc: 'Una franja clara que oscurece el resto de la pantalla para seguir la línea. Muévela con el asa amarilla.',
+  ruler_up: 'Subir la regla',
+  ruler_down: 'Bajar la regla',
+  ruler_drag: 'Arrastra para mover la regla',
+  ruler_size: 'Cambiar la altura de la regla',
 } as const;
 
 export type TranslationKey = keyof typeof es;
