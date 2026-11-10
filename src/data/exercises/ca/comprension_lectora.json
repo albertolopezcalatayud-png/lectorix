@@ -173,7 +173,7 @@
     "Per a amagar-se"
    ],
    "correct": 0,
-   "explanation": "Al final està fresqueta: botà perquè tenia calor.",
+   "explanation": "Al final està fresqueta: va botar perquè tenia calor.",
    "passage": "Una granota xicoteta està damunt d'una fulla verda. Fa molta calor. La granota bota a la bassa. Xof! Ara la granota està fresqueta."
   },
   {
@@ -841,7 +841,7 @@
    "options": [
     "Ajuden les flors i la fruita a créixer",
     "Mengen insectes",
-    "Les protegeixen del fred",
+    "Les protegixen del fred",
     "Les reguen"
    ],
    "correct": 0,
@@ -1498,7 +1498,7 @@
    "prompt": "Per què és bo reciclar?",
    "options": [
     "És molt car",
-    "Protegeix els boscos i els animals",
+    "Protegix els boscos i els animals",
     "Gasta més plàstic",
     "Fa més fem"
    ],
@@ -2131,7 +2131,7 @@
    "module": "comprension_lectora",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "Què van fer per evitar-ho?",
+   "prompt": "Què van fer per a evitar-ho?",
    "options": [
     "Construir un pont",
     "Tancar la ciutat",

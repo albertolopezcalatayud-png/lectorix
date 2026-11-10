@@ -17,7 +17,7 @@ R = [
    ("On s'amaga Rufo?", "Davall del llit", ["Al jardí", "Darrere de la porta"], "«S'amaga davall del llit.»"),
    ("Per què s'esquitxa son pare?", "Rufo es sacseja", ["Plou", "Cau a la banyera"], "«Es sacseja i son pare també s'esquitxa!»")]),
  ("lectura_ca_l1_neu", 1, "Un dia de neu", "⛄",
-  "Quan Aitana es desperta, el jardí és blanc. Neva! Es posa la gorra de llana, la bufanda i els guants. Fa un ninot de neu amb son germà. Li posen una pastanaga de nas i dos pedres d'ulls.",
+  "Quan Aitana es desperta, el jardí és blanc. Neva! Es posa la gorra de llana, la bufanda i els guants. Fa un ninot de neu amb son germà. Li posen una pastanaga de nas i dues pedres d'ulls.",
   [("Què veu Aitana quan es desperta?", "Neu", ["Pluja", "Sol"], "«el jardí és blanc. Neva!»"),
    ("Amb qui fa el ninot de neu?", "Amb son germà", ["Amb sa germana", "Amb son pare"], "«amb son germà»"),
    ("Què és el nas del ninot?", "Una pastanaga", ["Una pedra", "Un botó"], "«una pastanaga de nas»")]),
@@ -87,7 +87,7 @@ R = [
    ("Per què es compara el cervell amb un caminet?", "Les connexions es fan més fortes amb l'ús", ["El cervell és verd", "Els camins són difícils de trobar"], "«es veu més clar cada vegada que algú hi passa»"),
    ("Què passa mentre dormim?", "El cervell reforça el que hem aprés", ["El cervell ho oblida tot", "Les neurones desapareixen"], "«el cervell ordena i reforça el que has aprés»")]),
  ("lectura_ca_l5_albufera", 5, "L'Albufera", "🦩",
-  "Al sud de la ciutat de València hi ha l'Albufera, un llac d'aigua dolça separat de la mar per una franja d'arena i pins que s'anomena la Devesa. Al voltant del llac s'estenen els arrossars, on es cultiva l'arròs que fem servir per a la paella. Cada any, milers d'ocells com els flamencs, les garses i els ànecs hi passen l'hivern o hi fan el niu. Per això l'Albufera és un parc natural protegit. Al capvespre, molta gent hi va per a veure la posta de sol damunt de l'aigua, un dels espectacles més bonics de la nostra terra.",
+  "Al sud de la ciutat de València hi ha l'Albufera, un llac d'aigua dolça separat de la mar per una franja d'arena i pins que s'anomena la Devesa. Al voltant del llac s'estenen els arrossars, on es cultiva l'arròs que fem servir per a la paella. Cada any, milers d'ocells com els flamencs, els agrons i els ànecs hi passen l'hivern o hi fan el niu. Per això l'Albufera és un parc natural protegit. Al capvespre, molta gent hi va per a veure la posta de sol damunt de l'aigua, un dels espectacles més bonics de la nostra terra.",
   [("Què separa l'Albufera de la mar?", "La Devesa", ["Una muntanya", "Un mur"], "«separat de la mar per una franja d'arena i pins que s'anomena la Devesa»"),
    ("Què es cultiva al voltant del llac?", "Arròs", ["Taronges", "Blat"], "«els arrossars, on es cultiva l'arròs»"),
    ("Per què l'Albufera és un parc natural protegit?", "Hi viuen i passen l'hivern molts ocells", ["Hi ha molts cotxes", "Hi ha una fàbrica"], "«milers d'ocells ... hi passen l'hivern o hi fan el niu»")]),
@@ -99,7 +99,7 @@ R = [
  ("lectura_ca_l5_paraules", 5, "Paraules viatgeres", "🌍",
   "El valencià està ple de paraules viatgeres que han arribat d'altres llengües al llarg dels segles. La major part provenen del llatí, la llengua dels romans. De l'àrab tenim paraules com «séquia», «albercoc», «safareig» i «carxofa», que ens recorden com es regava i es cultivava l'horta fa molts segles. Més tard van arribar paraules d'Amèrica, com «xocolate», «tomaca» i «cacau», i, en els últims anys, de l'anglés, com «esport» o «web». Cada vegada que parlem, fem servir paraules que han creuat mars i segles per a arribar fins a nosaltres.",
   [("D'on ve la major part del valencià?", "Del llatí", ["De l'anglés", "Del japonés"], "«La major part provenen del llatí, la llengua dels romans.»"),
-   ("Quina paraula ens ve de l'àrab?", "Séquia", ["Web", "Xocolate"], "«De l'àrab tenim paraules com «séquia»»"),
+   ("Quina paraula ens ve de l'àrab?", "Séquia", ["Web", "Xocolate"], "El text diu que «séquia» ve de l'àrab."),
    ("Quina és la idea principal del text?", "El valencià té paraules de moltes llengües", ["El valencià no canvia mai", "Els romans parlaven àrab"], "El text explica l'origen de moltes paraules.")]),
 ]
 

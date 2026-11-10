@@ -49,7 +49,7 @@ CLASS = {
     ("Quina paraula és un verb?", "xiuxiuejar", ["silenciós", "coixí", "suau"], "«xiuxiuejar» és una acció: un verb.")],
 4: [("Quina paraula és un adverbi?", "acuradament", ["acurat", "cura", "descurat"], "«acuradament» diu com: un adverbi."),
     ("Quina paraula és un pronom?", "ells", ["taula", "davall", "ràpid"], "«ells» substituïx un nom: un pronom.")],
-5: [("Quina paraula és una preposició?", "davall", ["bonic", "creure", "perquè"], "«davall» indica lloc: una preposició."),
+5: [("Quina paraula és una preposició?", "entre", ["bonic", "creure", "perquè"], "«entre» és una preposició: unix paraules i indica una relació."),
     ("Quina paraula és una conjunció?", "encara que", ["sempre", "ja", "quasi"], "«encara que» unix dues idees: una conjunció.")],
 }
 SERIES = {
@@ -93,7 +93,8 @@ def build(b):
         for w, s, wrong in SYN[level]:
             b.mc(M, level, f"Quina paraula vol dir el mateix que «{w}»?", s, wrong, f"«{w}» i «{s}» volen dir el mateix.")
         for w, a, wrong in ANT[level]:
-            b.mc(M, level, f"Quin és el contrari de «{w}»?", a, wrong, f"El contrari de «{w}» és «{a}».")
+            de = "d'" if w[0].lower() in "aeiouàèéíòóúh" else "de "
+            b.mc(M, level, f"Quin és el contrari {de}«{w}»?", a, wrong, f"El contrari {de}«{w}» és «{a}».")
         for group, odd, expl in ODD[level]:
             b.mc(M, level, f"Quina paraula NO és del grup: {', '.join(group)} o {odd}?", odd, group, expl)
         for prompt, ans, wrong, expl in CLASS[level]:

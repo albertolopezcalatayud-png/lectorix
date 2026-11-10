@@ -4061,16 +4061,16 @@
    "module": "fonologia",
    "level": 5,
    "type": "multiple_choice",
-   "prompt": "Quina paraula comença amb el mateix so que «psicòleg»?",
+   "prompt": "Quina paraula comença amb el mateix so que «xarop»?",
    "options": [
-    "port",
-    "pou",
-    "pala",
-    "sabó"
+    "jove",
+    "cel",
+    "sopa",
+    "xiulet"
    ],
    "correct": 3,
-   "explanation": "En psicòleg la p no sona: comença pel so /s/.",
-   "word": "psicòleg"
+   "explanation": "xarop i xiulet comencen pel so de la x de xiquet.",
+   "word": "xarop"
   },
   {
    "id": "ca_fonologia_l5_m022",

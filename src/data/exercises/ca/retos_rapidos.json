@@ -570,7 +570,7 @@
    "module": "retos_rapidos",
    "level": 2,
    "type": "multiple_choice",
-   "prompt": "Quin és el contrari de «obert»?",
+   "prompt": "Quin és el contrari d'«obert»?",
    "options": [
     "ple",
     "ample",
@@ -578,7 +578,7 @@
     "buit"
    ],
    "correct": 2,
-   "explanation": "El contrari de «obert» és «tancat»."
+   "explanation": "El contrari d'«obert» és «tancat»."
   },
   {
    "id": "ca_retos_rapidos_l2_m008",
@@ -630,7 +630,7 @@
    "module": "retos_rapidos",
    "level": 2,
    "type": "multiple_choice",
-   "prompt": "Quin és el contrari de «empényer»?",
+   "prompt": "Quin és el contrari d'«empényer»?",
    "options": [
     "prémer",
     "agafar",
@@ -638,7 +638,7 @@
     "estirar"
    ],
    "correct": 3,
-   "explanation": "El contrari de «empényer» és «estirar»."
+   "explanation": "El contrari d'«empényer» és «estirar»."
   },
   {
    "id": "ca_retos_rapidos_l2_m012",
@@ -1079,7 +1079,7 @@
    "module": "retos_rapidos",
    "level": 3,
    "type": "multiple_choice",
-   "prompt": "Quin és el contrari de «arribar»?",
+   "prompt": "Quin és el contrari d'«arribar»?",
    "options": [
     "quedar-se",
     "entrar",
@@ -1087,14 +1087,14 @@
     "anar-se'n"
    ],
    "correct": 3,
-   "explanation": "El contrari de «arribar» és «anar-se'n»."
+   "explanation": "El contrari d'«arribar» és «anar-se'n»."
   },
   {
    "id": "ca_retos_rapidos_l3_m010",
    "module": "retos_rapidos",
    "level": 3,
    "type": "multiple_choice",
-   "prompt": "Quin és el contrari de «antic»?",
+   "prompt": "Quin és el contrari d'«antic»?",
    "options": [
     "vell",
     "modern",
@@ -1102,7 +1102,7 @@
     "històric"
    ],
    "correct": 1,
-   "explanation": "El contrari de «antic» és «modern»."
+   "explanation": "El contrari d'«antic» és «modern»."
   },
   {
    "id": "ca_retos_rapidos_l3_m011",
@@ -1124,7 +1124,7 @@
    "module": "retos_rapidos",
    "level": 3,
    "type": "multiple_choice",
-   "prompt": "Quin és el contrari de «aspre»?",
+   "prompt": "Quin és el contrari d'«aspre»?",
    "options": [
     "suau",
     "irregular",
@@ -1132,7 +1132,7 @@
     "dur"
    ],
    "correct": 0,
-   "explanation": "El contrari de «aspre» és «suau»."
+   "explanation": "El contrari d'«aspre» és «suau»."
   },
   {
    "id": "ca_retos_rapidos_l3_m013",
@@ -1547,7 +1547,7 @@
    "module": "retos_rapidos",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "Quin és el contrari de «eixamplar»?",
+   "prompt": "Quin és el contrari d'«eixamplar»?",
    "options": [
     "créixer",
     "estrényer",
@@ -1555,7 +1555,7 @@
     "allargar"
    ],
    "correct": 1,
-   "explanation": "El contrari de «eixamplar» és «estrényer»."
+   "explanation": "El contrari d'«eixamplar» és «estrényer»."
   },
   {
    "id": "ca_retos_rapidos_l4_m009",
@@ -1577,7 +1577,7 @@
    "module": "retos_rapidos",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "Quin és el contrari de «innocent»?",
+   "prompt": "Quin és el contrari d'«innocent»?",
    "options": [
     "culpable",
     "pur",
@@ -1585,14 +1585,14 @@
     "tranquil"
    ],
    "correct": 0,
-   "explanation": "El contrari de «innocent» és «culpable»."
+   "explanation": "El contrari d'«innocent» és «culpable»."
   },
   {
    "id": "ca_retos_rapidos_l4_m011",
    "module": "retos_rapidos",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "Quin és el contrari de «incloure»?",
+   "prompt": "Quin és el contrari d'«incloure»?",
    "options": [
     "excloure",
     "afegir",
@@ -1600,7 +1600,7 @@
     "implicar"
    ],
    "correct": 0,
-   "explanation": "El contrari de «incloure» és «excloure»."
+   "explanation": "El contrari d'«incloure» és «excloure»."
   },
   {
    "id": "ca_retos_rapidos_l4_m012",
@@ -2032,7 +2032,7 @@
    "module": "retos_rapidos",
    "level": 5,
    "type": "multiple_choice",
-   "prompt": "Quin és el contrari de «optimista»?",
+   "prompt": "Quin és el contrari d'«optimista»?",
    "options": [
     "positiu",
     "esperançat",
@@ -2040,14 +2040,14 @@
     "pessimista"
    ],
    "correct": 3,
-   "explanation": "El contrari de «optimista» és «pessimista»."
+   "explanation": "El contrari d'«optimista» és «pessimista»."
   },
   {
    "id": "ca_retos_rapidos_l5_m009",
    "module": "retos_rapidos",
    "level": 5,
    "type": "multiple_choice",
-   "prompt": "Quin és el contrari de «escàs»?",
+   "prompt": "Quin és el contrari d'«escàs»?",
    "options": [
     "curt",
     "abundant",
@@ -2055,7 +2055,7 @@
     "limitat"
    ],
    "correct": 1,
-   "explanation": "El contrari de «escàs» és «abundant»."
+   "explanation": "El contrari d'«escàs» és «abundant»."
   },
   {
    "id": "ca_retos_rapidos_l5_m010",
@@ -2154,13 +2154,13 @@
    "type": "multiple_choice",
    "prompt": "Quina paraula és una preposició?",
    "options": [
-    "davall",
+    "entre",
     "bonic",
     "creure",
     "perquè"
    ],
    "correct": 0,
-   "explanation": "«davall» indica lloc: una preposició."
+   "explanation": "«entre» és una preposició: unix paraules i indica una relació."
   },
   {
    "id": "ca_retos_rapidos_l5_m017",

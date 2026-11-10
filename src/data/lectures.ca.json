@@ -131,7 +131,7 @@
    "level": 1,
    "title": "Un dia de neu",
    "emoji": "⛄",
-   "text": "Quan Aitana es desperta, el jardí és blanc. Neva! Es posa la gorra de llana, la bufanda i els guants. Fa un ninot de neu amb son germà. Li posen una pastanaga de nas i dos pedres d'ulls.",
+   "text": "Quan Aitana es desperta, el jardí és blanc. Neva! Es posa la gorra de llana, la bufanda i els guants. Fa un ninot de neu amb son germà. Li posen una pastanaga de nas i dues pedres d'ulls.",
    "questions": [
     {
      "id": "lectura_ca_l1_neu_q1",
@@ -719,7 +719,7 @@
    "level": 5,
    "title": "L'Albufera",
    "emoji": "🦩",
-   "text": "Al sud de la ciutat de València hi ha l'Albufera, un llac d'aigua dolça separat de la mar per una franja d'arena i pins que s'anomena la Devesa. Al voltant del llac s'estenen els arrossars, on es cultiva l'arròs que fem servir per a la paella. Cada any, milers d'ocells com els flamencs, les garses i els ànecs hi passen l'hivern o hi fan el niu. Per això l'Albufera és un parc natural protegit. Al capvespre, molta gent hi va per a veure la posta de sol damunt de l'aigua, un dels espectacles més bonics de la nostra terra.",
+   "text": "Al sud de la ciutat de València hi ha l'Albufera, un llac d'aigua dolça separat de la mar per una franja d'arena i pins que s'anomena la Devesa. Al voltant del llac s'estenen els arrossars, on es cultiva l'arròs que fem servir per a la paella. Cada any, milers d'ocells com els flamencs, els agrons i els ànecs hi passen l'hivern o hi fan el niu. Per això l'Albufera és un parc natural protegit. Al capvespre, molta gent hi va per a veure la posta de sol damunt de l'aigua, un dels espectacles més bonics de la nostra terra.",
    "questions": [
     {
      "id": "lectura_ca_l5_albufera_q1",
@@ -825,7 +825,7 @@
       "Xocolate"
      ],
      "correct": 1,
-     "explanation": "«De l'àrab tenim paraules com «séquia»»"
+     "explanation": "El text diu que «séquia» ve de l'àrab."
     },
     {
      "id": "lectura_ca_l5_paraules_q3",

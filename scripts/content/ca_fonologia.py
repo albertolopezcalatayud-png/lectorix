@@ -75,7 +75,7 @@ PRIMER = {
         ("figa", "foc", ["vaca", "pou", "bou"], "figa i foc comencen pel so /f/."),
         ("nas", "nit", ["mel", "món", "llum"], "nas i nit comencen pel so /n/."),
         ("mel", "món", ["nas", "nit", "niu"], "mel i món comencen pel so /m/.")],
-    5: [("psicòleg", "sabó", ["pala", "pou", "port"], "En psicòleg la p no sona: comença pel so /s/."),
+    5: [("xarop", "xiulet", ["sopa", "cel", "jove"], "xarop i xiulet comencen pel so de la x de xiquet."),
         ("geni", "jove", ["got", "gana", "gust"], "ge- i jo- tenen el mateix so."),
         ("química", "casa", ["cine", "cel", "cera"], "qui- sona /k/, com ca-."),
         ("hipopòtam", "illa", ["hort", "home", "hora"], "La h no sona: hipopòtam comença pel so de la i, com illa."),

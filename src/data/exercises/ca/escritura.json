@@ -262,7 +262,7 @@
    "type": "multiple_choice",
    "prompt": "Tria la paraula: «El gat està ___ la cadira.»",
    "options": [
-    "dins d'",
+    "dins de",
     "fins",
     "damunt de",
     "entre"
@@ -991,7 +991,7 @@
     "escola"
    ],
    "correct": 3,
-   "explanation": "e-s-co-la."
+   "explanation": "es-co-la."
   },
   {
    "id": "ca_escritura_l2_m022",
@@ -1033,7 +1033,7 @@
     "ese llibre",
     "esto llibre",
     "este llibre",
-    "aquest llibres"
+    "estos llibre"
    ],
    "correct": 2,
    "explanation": "«este» és valencià normatiu."
@@ -1520,7 +1520,7 @@
    "prompt": "Quina paraula NO porta accent?",
    "options": [
     "sofà",
-    "cafè",
+    "café",
     "rellotge",
     "camió"
    ],
@@ -1968,21 +1968,19 @@
     "Els",
     "xiquets",
     "juguen",
-    "a",
-    "la",
-    "pluja."
+    "al",
+    "pati."
    ],
    "correctOrder": [
     "Els",
     "xiquets",
     "juguen",
-    "a",
-    "la",
-    "pluja."
+    "al",
+    "pati."
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Els xiquets juguen a la pluja."
+   "explanation": "Els xiquets juguen al pati."
   },
   {
    "id": "ca_escritura_l3_o004",
@@ -2407,10 +2405,10 @@
     "I ha menys cotxes hui.",
     "Hi ha menys cotxes hui.",
     "Hi ha menys cotxes ui.",
-    "Hi han menys cotxes hui."
+    "Hi a menys cotxes hui."
    ],
    "correct": 1,
-   "explanation": "hi ha (sempre en singular)."
+   "explanation": "hi ha: amb h a hi i a ha."
   },
   {
    "id": "ca_escritura_l4_w001",
@@ -2596,11 +2594,11 @@
    "prompt": "Escolta i escriu la frase",
    "options": [],
    "correct": 0,
-   "answer": "Ell té un pèl molt suau.",
-   "hint": "Té 6 paraules",
+   "answer": "El gat té el pèl molt suau.",
+   "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Ell té un pèl molt suau."
+   "word": "El gat té el pèl molt suau."
   },
   {
    "id": "ca_escritura_l4_o001",
@@ -2864,7 +2862,7 @@
    "type": "multiple_choice",
    "prompt": "Quina paraula porta accent?",
    "options": [
-    "músic",
+    "mùsica",
     "música",
     "musica",
     "musicà"
