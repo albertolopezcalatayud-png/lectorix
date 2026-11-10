@@ -7,7 +7,8 @@ adb wait-for-device
 adb shell getprop ro.build.version.release > "$OUT/android-version.txt"
 adb shell pm list packages | grep -i -E 'chrome|webview|browser' > "$OUT/browsers.txt"
 adb shell dumpsys package com.android.chrome | grep -i versionName >> "$OUT/browsers.txt"
-adb install -r /tmp/universal.apk > "$OUT/install.txt" 2>&1
+INSTALLER=""; case "$1" in play-*) INSTALLER="-i com.android.vending";; esac
+adb install -r $INSTALLER /tmp/universal.apk > "$OUT/install.txt" 2>&1
 # Skip Chrome's first-run screens so the web app itself is shown
 adb shell am set-debug-app --persistent com.android.chrome
 adb shell "echo '_ --disable-fre --no-default-browser-check --no-first-run' > /data/local/tmp/chrome-command-line"
