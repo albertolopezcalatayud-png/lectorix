@@ -41,8 +41,14 @@ export async function nativeStop() {
 /** Speaks and resolves when finished. ok=false on engine error. */
 export async function nativeSpeak(text: string, tag: string, rate = 1, pitch = 1): Promise<{ ok: boolean; interrupted: boolean }> {
   const my = ++generation;
+  // Safety net: if the device's voice engine stops answering, never leave the app waiting
+  const limit = Math.max(8000, (text.length * 180) / Math.max(0.5, rate));
   try {
-    await TextToSpeech.speak({ text, lang: tag, rate, pitch, volume: 1, category: 'playback', queueStrategy: QueueStrategy.Flush });
+    const finished = await Promise.race([
+      TextToSpeech.speak({ text, lang: tag, rate, pitch, volume: 1, category: 'playback', queueStrategy: QueueStrategy.Flush }).then(() => true),
+      new Promise<boolean>((r) => setTimeout(() => r(false), limit)),
+    ]);
+    if (!finished) return { ok: false, interrupted: false };
     return { ok: true, interrupted: my !== generation };
   } catch {
     return { ok: my !== generation, interrupted: my !== generation };
