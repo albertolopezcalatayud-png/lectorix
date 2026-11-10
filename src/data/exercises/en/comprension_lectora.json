@@ -1,1 +1,3278 @@
-{"exercises":[]}
+{
+ "exercises": [
+  {
+   "id": "en_comprension_lectora_l1_m001",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What colour is Sam's ball?",
+   "options": [
+    "Red",
+    "Yellow",
+    "Blue",
+    "Green"
+   ],
+   "correct": 0,
+   "explanation": "The text says: 'Sam has a red ball.'",
+   "passage": "Sam has a red ball. He kicks the ball in the garden. His dog, Rex, runs after it. Rex brings the ball back to Sam."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m002",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What is the dog called?",
+   "options": [
+    "Sam",
+    "Ben",
+    "Max",
+    "Rex"
+   ],
+   "correct": 3,
+   "explanation": "'His dog, Rex, runs after it.'",
+   "passage": "Sam has a red ball. He kicks the ball in the garden. His dog, Rex, runs after it. Rex brings the ball back to Sam."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m003",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Where does Sam kick the ball?",
+   "options": [
+    "At school",
+    "In the park",
+    "In the garden",
+    "In the house"
+   ],
+   "correct": 2,
+   "explanation": "'He kicks the ball in the garden.'",
+   "passage": "Sam has a red ball. He kicks the ball in the garden. His dog, Rex, runs after it. Rex brings the ball back to Sam."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m004",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What does Rex do with the ball?",
+   "options": [
+    "He breaks it",
+    "He hides it",
+    "He eats it",
+    "He brings it back"
+   ],
+   "correct": 3,
+   "explanation": "'Rex brings the ball back to Sam.'",
+   "passage": "Sam has a red ball. He kicks the ball in the garden. His dog, Rex, runs after it. Rex brings the ball back to Sam."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m005",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Who does Lily bake with?",
+   "options": [
+    "Her gran",
+    "Her teacher",
+    "Her dad",
+    "Her friend"
+   ],
+   "correct": 0,
+   "explanation": "'with her gran'",
+   "passage": "Lily likes to bake. Today she makes a big chocolate cake with her gran. They put six candles on top. It is Lily's birthday!"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m006",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What kind of cake do they make?",
+   "options": [
+    "Strawberry",
+    "Chocolate",
+    "Carrot",
+    "Lemon"
+   ],
+   "correct": 1,
+   "explanation": "'a big chocolate cake'",
+   "passage": "Lily likes to bake. Today she makes a big chocolate cake with her gran. They put six candles on top. It is Lily's birthday!"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m007",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many candles are on the cake?",
+   "options": [
+    "Five",
+    "Six",
+    "Four",
+    "Seven"
+   ],
+   "correct": 1,
+   "explanation": "'They put six candles on top.'",
+   "passage": "Lily likes to bake. Today she makes a big chocolate cake with her gran. They put six candles on top. It is Lily's birthday!"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m008",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How old is Lily today?",
+   "options": [
+    "Six",
+    "Five",
+    "Eight",
+    "Seven"
+   ],
+   "correct": 0,
+   "explanation": "It is her birthday and there are six candles, so she is six.",
+   "passage": "Lily likes to bake. Today she makes a big chocolate cake with her gran. They put six candles on top. It is Lily's birthday!"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m009",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Where does the frog sit?",
+   "options": [
+    "On a leaf",
+    "On a tree",
+    "On a rock",
+    "On a log"
+   ],
+   "correct": 0,
+   "explanation": "'A little frog sits on a green leaf.'",
+   "passage": "A little frog sits on a green leaf. The sun is hot. The frog jumps into the pond. Splash! Now the frog is cool."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m010",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How is the weather?",
+   "options": [
+    "Hot",
+    "Windy",
+    "Rainy",
+    "Cold"
+   ],
+   "correct": 0,
+   "explanation": "'The sun is hot.'",
+   "passage": "A little frog sits on a green leaf. The sun is hot. The frog jumps into the pond. Splash! Now the frog is cool."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m011",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Why does the frog jump into the pond?",
+   "options": [
+    "To get cool",
+    "To find its mum",
+    "To hide from a bird",
+    "To catch a fish"
+   ],
+   "correct": 0,
+   "explanation": "At the end the frog is cool: it jumped in because it was hot.",
+   "passage": "A little frog sits on a green leaf. The sun is hot. The frog jumps into the pond. Splash! Now the frog is cool."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m012",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What sound does the water make?",
+   "options": [
+    "Pop",
+    "Splash",
+    "Bang",
+    "Buzz"
+   ],
+   "correct": 1,
+   "explanation": "'Splash!'",
+   "passage": "A little frog sits on a green leaf. The sun is hot. The frog jumps into the pond. Splash! Now the frog is cool."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m013",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How does Tom go to school?",
+   "options": [
+    "By bike",
+    "By car",
+    "On the bus",
+    "On foot"
+   ],
+   "correct": 2,
+   "explanation": "'Tom goes to school on the bus.'",
+   "passage": "Tom goes to school on the bus. He sits next to his friend Ali. They look out of the window and count red cars. Ali counts ten!"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m014",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Who is Tom's friend?",
+   "options": [
+    "Ali",
+    "Sam",
+    "Raj",
+    "Ben"
+   ],
+   "correct": 0,
+   "explanation": "'his friend Ali'",
+   "passage": "Tom goes to school on the bus. He sits next to his friend Ali. They look out of the window and count red cars. Ali counts ten!"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m015",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What do they count?",
+   "options": [
+    "Dogs",
+    "Blue cars",
+    "Trees",
+    "Red cars"
+   ],
+   "correct": 3,
+   "explanation": "'count red cars'",
+   "passage": "Tom goes to school on the bus. He sits next to his friend Ali. They look out of the window and count red cars. Ali counts ten!"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m016",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many red cars does Ali count?",
+   "options": [
+    "Ten",
+    "Two",
+    "Six",
+    "Twelve"
+   ],
+   "correct": 0,
+   "explanation": "'Ali counts ten!'",
+   "passage": "Tom goes to school on the bus. He sits next to his friend Ali. They look out of the window and count red cars. Ali counts ten!"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m017",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What is Mia's pet?",
+   "options": [
+    "A cat",
+    "A dog",
+    "A rabbit",
+    "A bird"
+   ],
+   "correct": 0,
+   "explanation": "'Mia has a pet cat'",
+   "passage": "Mia has a pet cat called Snow. Snow is white and fluffy. She sleeps on Mia's bed every night. In the morning, Snow wants milk."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m018",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Why is the cat called Snow?",
+   "options": [
+    "Because she likes ice",
+    "Because it snows",
+    "Because she is cold",
+    "Because she is white"
+   ],
+   "correct": 3,
+   "explanation": "Snow is white, like snow.",
+   "passage": "Mia has a pet cat called Snow. Snow is white and fluffy. She sleeps on Mia's bed every night. In the morning, Snow wants milk."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m019",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Where does Snow sleep?",
+   "options": [
+    "On Mia's bed",
+    "In a box",
+    "In the garden",
+    "On the sofa"
+   ],
+   "correct": 0,
+   "explanation": "'She sleeps on Mia's bed every night.'",
+   "passage": "Mia has a pet cat called Snow. Snow is white and fluffy. She sleeps on Mia's bed every night. In the morning, Snow wants milk."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m020",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What does Snow want in the morning?",
+   "options": [
+    "Water",
+    "Milk",
+    "Fish",
+    "Cheese"
+   ],
+   "correct": 1,
+   "explanation": "'In the morning, Snow wants milk.'",
+   "passage": "Mia has a pet cat called Snow. Snow is white and fluffy. She sleeps on Mia's bed every night. In the morning, Snow wants milk."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m021",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What is the weather like?",
+   "options": [
+    "Rainy",
+    "Foggy",
+    "Sunny",
+    "Snowy"
+   ],
+   "correct": 0,
+   "explanation": "'It is raining.'",
+   "passage": "It is raining. Ben puts on his yellow coat and his boots. He jumps in the puddles with his little sister. They both get very wet!"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m022",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What colour is Ben's coat?",
+   "options": [
+    "Green",
+    "Yellow",
+    "Red",
+    "Blue"
+   ],
+   "correct": 1,
+   "explanation": "'his yellow coat'",
+   "passage": "It is raining. Ben puts on his yellow coat and his boots. He jumps in the puddles with his little sister. They both get very wet!"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m023",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Who jumps with Ben?",
+   "options": [
+    "His little sister",
+    "His friend",
+    "His big brother",
+    "His mum"
+   ],
+   "correct": 0,
+   "explanation": "'with his little sister'",
+   "passage": "It is raining. Ben puts on his yellow coat and his boots. He jumps in the puddles with his little sister. They both get very wet!"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m024",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How do they feel at the end?",
+   "options": [
+    "Very hot",
+    "Very sad",
+    "Very tired",
+    "Very wet"
+   ],
+   "correct": 3,
+   "explanation": "'They both get very wet!'",
+   "passage": "It is raining. Ben puts on his yellow coat and his boots. He jumps in the puddles with his little sister. They both get very wet!"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m025",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What does Grandad grow?",
+   "options": [
+    "Flowers",
+    "Vegetables",
+    "Fruit only",
+    "Trees"
+   ],
+   "correct": 1,
+   "explanation": "'a vegetable garden'",
+   "passage": "Grandad has a vegetable garden. He grows carrots, peas and big orange pumpkins. Ella helps him water the plants every Saturday."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m026",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What colour are the pumpkins?",
+   "options": [
+    "Red",
+    "Yellow",
+    "Green",
+    "Orange"
+   ],
+   "correct": 3,
+   "explanation": "'big orange pumpkins'",
+   "passage": "Grandad has a vegetable garden. He grows carrots, peas and big orange pumpkins. Ella helps him water the plants every Saturday."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m027",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Who helps Grandad?",
+   "options": [
+    "Ella",
+    "Gran",
+    "Lily",
+    "Mia"
+   ],
+   "correct": 0,
+   "explanation": "'Ella helps him'",
+   "passage": "Grandad has a vegetable garden. He grows carrots, peas and big orange pumpkins. Ella helps him water the plants every Saturday."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m028",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "When does Ella help?",
+   "options": [
+    "Every day",
+    "Every Sunday",
+    "Every Saturday",
+    "On Mondays"
+   ],
+   "correct": 2,
+   "explanation": "'every Saturday'",
+   "passage": "Grandad has a vegetable garden. He grows carrots, peas and big orange pumpkins. Ella helps him water the plants every Saturday."
+  },
+  {
+   "id": "en_comprension_lectora_l1_m029",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Where is Noah?",
+   "options": [
+    "In the park",
+    "At school",
+    "At the zoo",
+    "At the farm"
+   ],
+   "correct": 2,
+   "explanation": "'At the zoo'",
+   "passage": "At the zoo, Noah sees a tall giraffe. The giraffe eats leaves from the top of a tree. Noah says, 'Its neck is so long!'"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m030",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What animal does Noah see?",
+   "options": [
+    "A zebra",
+    "A lion",
+    "A giraffe",
+    "An elephant"
+   ],
+   "correct": 2,
+   "explanation": "'a tall giraffe'",
+   "passage": "At the zoo, Noah sees a tall giraffe. The giraffe eats leaves from the top of a tree. Noah says, 'Its neck is so long!'"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m031",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What does the giraffe eat?",
+   "options": [
+    "Leaves",
+    "Grass",
+    "Bananas",
+    "Fish"
+   ],
+   "correct": 0,
+   "explanation": "'eats leaves from the top of a tree'",
+   "passage": "At the zoo, Noah sees a tall giraffe. The giraffe eats leaves from the top of a tree. Noah says, 'Its neck is so long!'"
+  },
+  {
+   "id": "en_comprension_lectora_l1_m032",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Why can the giraffe reach the top of the tree?",
+   "options": [
+    "It can fly",
+    "It jumps very high",
+    "It climbs",
+    "It has a long neck"
+   ],
+   "correct": 3,
+   "explanation": "Noah says its neck is so long.",
+   "passage": "At the zoo, Noah sees a tall giraffe. The giraffe eats leaves from the top of a tree. Noah says, 'Its neck is so long!'"
+  },
+  {
+   "id": "en_comprension_lectora_l1_f001",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "The ___ says woof and the ___ says moo.",
+   "blanks": [
+    "dog",
+    "cow"
+   ],
+   "distractors": [
+    "fish",
+    "car"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Dogs say woof and cows say moo."
+  },
+  {
+   "id": "en_comprension_lectora_l1_f002",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "I eat my ___ with a ___.",
+   "blanks": [
+    "soup",
+    "spoon"
+   ],
+   "distractors": [
+    "shoe",
+    "tree"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "We eat soup with a spoon."
+  },
+  {
+   "id": "en_comprension_lectora_l1_f003",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "The ___ is hot and the ___ is cold.",
+   "blanks": [
+    "sun",
+    "snow"
+   ],
+   "distractors": [
+    "bed",
+    "cat"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "The sun is hot; snow is cold."
+  },
+  {
+   "id": "en_comprension_lectora_l1_f004",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "At night I sleep in my ___.",
+   "blanks": [
+    "bed"
+   ],
+   "distractors": [
+    "bag"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "We sleep in a bed."
+  },
+  {
+   "id": "en_comprension_lectora_l1_f005",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "A ___ can swim and a ___ can fly.",
+   "blanks": [
+    "fish",
+    "bird"
+   ],
+   "distractors": [
+    "chair",
+    "book"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Fish swim; birds fly."
+  },
+  {
+   "id": "en_comprension_lectora_l1_f006",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "I wear a ___ on my head.",
+   "blanks": [
+    "hat"
+   ],
+   "distractors": [
+    "sock"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "A hat goes on your head."
+  },
+  {
+   "id": "en_comprension_lectora_l1_f007",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "We read a ___ and we drink ___.",
+   "blanks": [
+    "book",
+    "water"
+   ],
+   "distractors": [
+    "sand",
+    "door"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "You read a book and drink water."
+  },
+  {
+   "id": "en_comprension_lectora_l1_f008",
+   "module": "comprension_lectora",
+   "level": 1,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "My ___ has four wheels.",
+   "blanks": [
+    "car"
+   ],
+   "distractors": [
+    "cup"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "A car has four wheels."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m001",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many hens does Zara have?",
+   "options": [
+    "Four",
+    "Six",
+    "Five",
+    "One"
+   ],
+   "correct": 2,
+   "explanation": "Four brown hens and one black hen make five.",
+   "passage": "Every morning, Zara feeds her hens. There are four brown hens and one black hen. The hens lay eggs in a wooden box. On Sunday, Zara and her dad use the eggs to make pancakes for breakfast."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m002",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Where do the hens lay their eggs?",
+   "options": [
+    "In the grass",
+    "In a basket",
+    "In a wooden box",
+    "In the kitchen"
+   ],
+   "correct": 2,
+   "explanation": "'in a wooden box'",
+   "passage": "Every morning, Zara feeds her hens. There are four brown hens and one black hen. The hens lay eggs in a wooden box. On Sunday, Zara and her dad use the eggs to make pancakes for breakfast."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m003",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What do they make on Sunday?",
+   "options": [
+    "A cake",
+    "Omelettes",
+    "Biscuits",
+    "Pancakes"
+   ],
+   "correct": 3,
+   "explanation": "'make pancakes for breakfast'",
+   "passage": "Every morning, Zara feeds her hens. There are four brown hens and one black hen. The hens lay eggs in a wooden box. On Sunday, Zara and her dad use the eggs to make pancakes for breakfast."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m004",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "When does Zara feed the hens?",
+   "options": [
+    "Every evening",
+    "On Sunday only",
+    "Every morning",
+    "After school"
+   ],
+   "correct": 2,
+   "explanation": "'Every morning, Zara feeds her hens.'",
+   "passage": "Every morning, Zara feeds her hens. There are four brown hens and one black hen. The hens lay eggs in a wooden box. On Sunday, Zara and her dad use the eggs to make pancakes for breakfast."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m005",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What did Jack lose?",
+   "options": [
+    "His ball",
+    "His hat",
+    "His shoe",
+    "His scarf"
+   ],
+   "correct": 1,
+   "explanation": "'Jack lost his blue hat'",
+   "passage": "Jack lost his blue hat at the park. He looked under the bench and behind the slide, but it was not there. Then he saw a small dog with something blue in its mouth. It was his hat!"
+  },
+  {
+   "id": "en_comprension_lectora_l2_m006",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Where did he look first?",
+   "options": [
+    "Under the bench",
+    "Under a tree",
+    "Behind the slide",
+    "In the pond"
+   ],
+   "correct": 0,
+   "explanation": "'He looked under the bench and behind the slide'",
+   "passage": "Jack lost his blue hat at the park. He looked under the bench and behind the slide, but it was not there. Then he saw a small dog with something blue in its mouth. It was his hat!"
+  },
+  {
+   "id": "en_comprension_lectora_l2_m007",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Who had the hat?",
+   "options": [
+    "A girl",
+    "A bird",
+    "A small dog",
+    "His friend"
+   ],
+   "correct": 2,
+   "explanation": "'a small dog with something blue in its mouth'",
+   "passage": "Jack lost his blue hat at the park. He looked under the bench and behind the slide, but it was not there. Then he saw a small dog with something blue in its mouth. It was his hat!"
+  },
+  {
+   "id": "en_comprension_lectora_l2_m008",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How did Jack probably feel at the end?",
+   "options": [
+    "Scared",
+    "Happy",
+    "Angry",
+    "Bored"
+   ],
+   "correct": 1,
+   "explanation": "He found his hat, so he probably felt happy.",
+   "passage": "Jack lost his blue hat at the park. He looked under the bench and behind the slide, but it was not there. Then he saw a small dog with something blue in its mouth. It was his hat!"
+  },
+  {
+   "id": "en_comprension_lectora_l2_m009",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What do bees collect from flowers?",
+   "options": [
+    "Leaves",
+    "Nectar",
+    "Seeds",
+    "Water"
+   ],
+   "correct": 1,
+   "explanation": "'to collect nectar'",
+   "passage": "Bees are very busy insects. They fly from flower to flower to collect nectar. They take the nectar back to the hive and turn it into honey. Bees also help flowers and fruit to grow."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m010",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Where do bees live?",
+   "options": [
+    "In a nest",
+    "In a hive",
+    "In a hole",
+    "In a web"
+   ],
+   "correct": 1,
+   "explanation": "'back to the hive'",
+   "passage": "Bees are very busy insects. They fly from flower to flower to collect nectar. They take the nectar back to the hive and turn it into honey. Bees also help flowers and fruit to grow."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m011",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What do bees make?",
+   "options": [
+    "Wax only",
+    "Milk",
+    "Jam",
+    "Honey"
+   ],
+   "correct": 3,
+   "explanation": "'turn it into honey'",
+   "passage": "Bees are very busy insects. They fly from flower to flower to collect nectar. They take the nectar back to the hive and turn it into honey. Bees also help flowers and fruit to grow."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m012",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Why are bees important for plants?",
+   "options": [
+    "They water them",
+    "They help flowers and fruit grow",
+    "They eat insects",
+    "They protect them from the cold"
+   ],
+   "correct": 1,
+   "explanation": "'Bees also help flowers and fruit to grow.'",
+   "passage": "Bees are very busy insects. They fly from flower to flower to collect nectar. They take the nectar back to the hive and turn it into honey. Bees also help flowers and fruit to grow."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m013",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What did Amira want to learn?",
+   "options": [
+    "To skate",
+    "To dance",
+    "To swim",
+    "To ride a bike"
+   ],
+   "correct": 3,
+   "explanation": "'learn to ride a bike'",
+   "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!"
+  },
+  {
+   "id": "en_comprension_lectora_l2_m014",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What happened the first time?",
+   "options": [
+    "She got lost",
+    "She fell off",
+    "She lost her bike",
+    "She won a race"
+   ],
+   "correct": 1,
+   "explanation": "'she fell off and hurt her knee'",
+   "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!"
+  },
+  {
+   "id": "en_comprension_lectora_l2_m015",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How long did it take her to learn?",
+   "options": [
+    "Two weeks",
+    "Two days",
+    "Two months",
+    "One day"
+   ],
+   "correct": 0,
+   "explanation": "'After two weeks'",
+   "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!"
+  },
+  {
+   "id": "en_comprension_lectora_l2_m016",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What does the story teach us?",
+   "options": [
+    "Parks are big",
+    "Do not go to school",
+    "Keep trying",
+    "Bikes are dangerous"
+   ],
+   "correct": 2,
+   "explanation": "She did not give up and she succeeded.",
+   "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!"
+  },
+  {
+   "id": "en_comprension_lectora_l2_m017",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Can penguins fly?",
+   "options": [
+    "No",
+    "Only when they are young",
+    "Only at night",
+    "Yes"
+   ],
+   "correct": 0,
+   "explanation": "'they cannot fly'",
+   "passage": "Penguins are birds, but they cannot fly. They use their wings like flippers to swim fast in the cold sea. Penguins eat fish. Many penguins live in Antarctica, where it is very cold and icy."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m018",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What do they use their wings for?",
+   "options": [
+    "To dig",
+    "To keep warm",
+    "To sing",
+    "To swim"
+   ],
+   "correct": 3,
+   "explanation": "'like flippers to swim fast'",
+   "passage": "Penguins are birds, but they cannot fly. They use their wings like flippers to swim fast in the cold sea. Penguins eat fish. Many penguins live in Antarctica, where it is very cold and icy."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m019",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What do penguins eat?",
+   "options": [
+    "Fruit",
+    "Fish",
+    "Grass",
+    "Insects"
+   ],
+   "correct": 1,
+   "explanation": "'Penguins eat fish.'",
+   "passage": "Penguins are birds, but they cannot fly. They use their wings like flippers to swim fast in the cold sea. Penguins eat fish. Many penguins live in Antarctica, where it is very cold and icy."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m020",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is Antarctica like?",
+   "options": [
+    "Dry and sandy",
+    "Very cold and icy",
+    "Hot and sunny",
+    "Full of trees"
+   ],
+   "correct": 1,
+   "explanation": "'very cold and icy'",
+   "passage": "Penguins are birds, but they cannot fly. They use their wings like flippers to swim fast in the cold sea. Penguins eat fish. Many penguins live in Antarctica, where it is very cold and icy."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m021",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "When did Class 3 go to the museum?",
+   "options": [
+    "On Saturday",
+    "Yesterday",
+    "On Monday",
+    "On Friday"
+   ],
+   "correct": 3,
+   "explanation": "'On Friday'",
+   "passage": "On Friday, Class 3 went to the museum. They saw a huge dinosaur skeleton. It was longer than a bus! Their teacher, Mr Patel, told them it was millions of years old. Everyone wanted to take a photo."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m022",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What did they see?",
+   "options": [
+    "A spaceship",
+    "A dinosaur skeleton",
+    "A live dinosaur",
+    "A painting"
+   ],
+   "correct": 1,
+   "explanation": "'a huge dinosaur skeleton'",
+   "passage": "On Friday, Class 3 went to the museum. They saw a huge dinosaur skeleton. It was longer than a bus! Their teacher, Mr Patel, told them it was millions of years old. Everyone wanted to take a photo."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m023",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How big was it?",
+   "options": [
+    "Longer than a bus",
+    "As tall as a tree",
+    "Shorter than a car",
+    "As small as a cat"
+   ],
+   "correct": 0,
+   "explanation": "'It was longer than a bus!'",
+   "passage": "On Friday, Class 3 went to the museum. They saw a huge dinosaur skeleton. It was longer than a bus! Their teacher, Mr Patel, told them it was millions of years old. Everyone wanted to take a photo."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m024",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Who is Mr Patel?",
+   "options": [
+    "A bus driver",
+    "A dinosaur expert",
+    "A museum guard",
+    "Their teacher"
+   ],
+   "correct": 3,
+   "explanation": "'Their teacher, Mr Patel'",
+   "passage": "On Friday, Class 3 went to the museum. They saw a huge dinosaur skeleton. It was longer than a bus! Their teacher, Mr Patel, told them it was millions of years old. Everyone wanted to take a photo."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m025",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What did they make?",
+   "options": [
+    "A toy boat",
+    "A lamp",
+    "A flower pot",
+    "A bird feeder"
+   ],
+   "correct": 3,
+   "explanation": "'made a bird feeder'",
+   "passage": "Leo and his mum made a bird feeder from an old plastic bottle. They cut two small holes and filled it with seeds. They hung it on a tree in the garden. The next morning, three robins came to eat."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m026",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What did they use?",
+   "options": [
+    "An old plastic bottle",
+    "A shoe box",
+    "A glass jar",
+    "Some wood"
+   ],
+   "correct": 0,
+   "explanation": "'from an old plastic bottle'",
+   "passage": "Leo and his mum made a bird feeder from an old plastic bottle. They cut two small holes and filled it with seeds. They hung it on a tree in the garden. The next morning, three robins came to eat."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m027",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Where did they hang it?",
+   "options": [
+    "In the kitchen",
+    "On the fence",
+    "On a tree",
+    "On the door"
+   ],
+   "correct": 2,
+   "explanation": "'They hung it on a tree'",
+   "passage": "Leo and his mum made a bird feeder from an old plastic bottle. They cut two small holes and filled it with seeds. They hung it on a tree in the garden. The next morning, three robins came to eat."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m028",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many birds came the next morning?",
+   "options": [
+    "Three",
+    "Ten",
+    "Four",
+    "Two"
+   ],
+   "correct": 0,
+   "explanation": "'three robins came to eat'",
+   "passage": "Leo and his mum made a bird feeder from an old plastic bottle. They cut two small holes and filled it with seeds. They hung it on a tree in the garden. The next morning, three robins came to eat."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m029",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Why was Ruby nervous?",
+   "options": [
+    "She was late",
+    "She was ill",
+    "She had a test",
+    "It was her first day at a new school"
+   ],
+   "correct": 3,
+   "explanation": "'her first day at a new school'",
+   "passage": "Ruby was nervous. It was her first day at a new school. She did not know anyone. At lunchtime, a girl called Hana sat next to her and shared her crisps. By the end of the day, Ruby had a new friend."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m030",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Who sat next to Ruby?",
+   "options": [
+    "Zara",
+    "Hana",
+    "Mia",
+    "Lily"
+   ],
+   "correct": 1,
+   "explanation": "'a girl called Hana'",
+   "passage": "Ruby was nervous. It was her first day at a new school. She did not know anyone. At lunchtime, a girl called Hana sat next to her and shared her crisps. By the end of the day, Ruby had a new friend."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m031",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What did Hana share?",
+   "options": [
+    "Her pencils",
+    "Her book",
+    "Her crisps",
+    "Her sandwich"
+   ],
+   "correct": 2,
+   "explanation": "'shared her crisps'",
+   "passage": "Ruby was nervous. It was her first day at a new school. She did not know anyone. At lunchtime, a girl called Hana sat next to her and shared her crisps. By the end of the day, Ruby had a new friend."
+  },
+  {
+   "id": "en_comprension_lectora_l2_m032",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How did the day end?",
+   "options": [
+    "Ruby went home early",
+    "Ruby got lost",
+    "Ruby made a friend",
+    "Ruby cried"
+   ],
+   "correct": 2,
+   "explanation": "'Ruby had a new friend.'",
+   "passage": "Ruby was nervous. It was her first day at a new school. She did not know anyone. At lunchtime, a girl called Hana sat next to her and shared her crisps. By the end of the day, Ruby had a new friend."
+  },
+  {
+   "id": "en_comprension_lectora_l2_f001",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "Bees make ___ in their ___.",
+   "blanks": [
+    "honey",
+    "hive"
+   ],
+   "distractors": [
+    "milk",
+    "nest"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Bees make honey in a hive."
+  },
+  {
+   "id": "en_comprension_lectora_l2_f002",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "When it rains, I take my ___.",
+   "blanks": [
+    "umbrella"
+   ],
+   "distractors": [
+    "sunglasses"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "An umbrella keeps you dry."
+  },
+  {
+   "id": "en_comprension_lectora_l2_f003",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "A ___ lives in the sea and has eight ___.",
+   "blanks": [
+    "octopus",
+    "arms"
+   ],
+   "distractors": [
+    "lion",
+    "wings"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "An octopus has eight arms."
+  },
+  {
+   "id": "en_comprension_lectora_l2_f004",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "In winter it is ___ and in summer it is ___.",
+   "blanks": [
+    "cold",
+    "hot"
+   ],
+   "distractors": [
+    "blue",
+    "loud"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Winter is cold; summer is hot."
+  },
+  {
+   "id": "en_comprension_lectora_l2_f005",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "The baker makes ___ and the farmer grows ___.",
+   "blanks": [
+    "bread",
+    "carrots"
+   ],
+   "distractors": [
+    "cars",
+    "shoes"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Bakers make bread; farmers grow vegetables."
+  },
+  {
+   "id": "en_comprension_lectora_l2_f006",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "I brush my ___ every morning.",
+   "blanks": [
+    "teeth"
+   ],
+   "distractors": [
+    "shoes"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "We brush our teeth."
+  },
+  {
+   "id": "en_comprension_lectora_l2_f007",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "A caterpillar turns into a ___.",
+   "blanks": [
+    "butterfly"
+   ],
+   "distractors": [
+    "spider"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Caterpillars become butterflies."
+  },
+  {
+   "id": "en_comprension_lectora_l2_f008",
+   "module": "comprension_lectora",
+   "level": 2,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "We see the ___ at night and the ___ in the day.",
+   "blanks": [
+    "moon",
+    "sun"
+   ],
+   "distractors": [
+    "rain",
+    "sea"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "The Moon at night, the Sun in the day."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m001",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Why does the Moon look bright?",
+   "options": [
+    "It is on fire",
+    "The Sun shines on it",
+    "It is made of ice",
+    "It makes its own light"
+   ],
+   "correct": 1,
+   "explanation": "'because the Sun shines on it'",
+   "passage": "The Moon does not make its own light. It looks bright because the Sun shines on it. As the Moon travels around the Earth, we see different amounts of its sunny side. That is why it sometimes looks round and sometimes looks like a thin banana. These shapes are called phases."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m002",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What does the Moon travel around?",
+   "options": [
+    "The stars",
+    "The Sun",
+    "The Earth",
+    "Mars"
+   ],
+   "correct": 2,
+   "explanation": "'travels around the Earth'",
+   "passage": "The Moon does not make its own light. It looks bright because the Sun shines on it. As the Moon travels around the Earth, we see different amounts of its sunny side. That is why it sometimes looks round and sometimes looks like a thin banana. These shapes are called phases."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m003",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What are the Moon's different shapes called?",
+   "options": [
+    "Faces",
+    "Phases",
+    "Pieces",
+    "Stages"
+   ],
+   "correct": 1,
+   "explanation": "'These shapes are called phases.'",
+   "passage": "The Moon does not make its own light. It looks bright because the Sun shines on it. As the Moon travels around the Earth, we see different amounts of its sunny side. That is why it sometimes looks round and sometimes looks like a thin banana. These shapes are called phases."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m004",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is the main idea of the text?",
+   "options": [
+    "How bananas grow",
+    "How to visit the Moon",
+    "Why the Moon seems to change shape",
+    "Why the Sun is hot"
+   ],
+   "correct": 2,
+   "explanation": "The text explains the Moon's light and its phases.",
+   "passage": "The Moon does not make its own light. It looks bright because the Sun shines on it. As the Moon travels around the Earth, we see different amounts of its sunny side. That is why it sometimes looks round and sometimes looks like a thin banana. These shapes are called phases."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m005",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Where did Oscar find the wallet?",
+   "options": [
+    "In the library",
+    "Outside the shop",
+    "At school",
+    "In the park"
+   ],
+   "correct": 1,
+   "explanation": "'on the pavement outside the shop'",
+   "passage": "Oscar found a wallet on the pavement outside the shop. Inside there was some money and a library card with a name on it: Mrs Green. Oscar's dad said they should take it to the police station. Later that day, Mrs Green phoned to say thank you. She had been very worried."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m006",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How did they know who owned it?",
+   "options": [
+    "Oscar knew her",
+    "There was a card with her name",
+    "The police told them",
+    "She was standing nearby"
+   ],
+   "correct": 1,
+   "explanation": "'a library card with a name on it'",
+   "passage": "Oscar found a wallet on the pavement outside the shop. Inside there was some money and a library card with a name on it: Mrs Green. Oscar's dad said they should take it to the police station. Later that day, Mrs Green phoned to say thank you. She had been very worried."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m007",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What did Oscar and his dad do?",
+   "options": [
+    "Took it to the police station",
+    "Kept the money",
+    "Gave it to the shop",
+    "Left it there"
+   ],
+   "correct": 0,
+   "explanation": "They took it to the police station.",
+   "passage": "Oscar found a wallet on the pavement outside the shop. Inside there was some money and a library card with a name on it: Mrs Green. Oscar's dad said they should take it to the police station. Later that day, Mrs Green phoned to say thank you. She had been very worried."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m008",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word best describes Oscar?",
+   "options": [
+    "Rude",
+    "Greedy",
+    "Lazy",
+    "Honest"
+   ],
+   "correct": 3,
+   "explanation": "He returned the wallet instead of keeping it.",
+   "passage": "Oscar found a wallet on the pavement outside the shop. Inside there was some money and a library card with a name on it: Mrs Green. Oscar's dad said they should take it to the police station. Later that day, Mrs Green phoned to say thank you. She had been very worried."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m009",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What does recycling mean?",
+   "options": [
+    "Burning rubbish",
+    "Using old things to make new ones",
+    "Throwing everything away",
+    "Buying new things"
+   ],
+   "correct": 1,
+   "explanation": "'Recycling means using old things to make new ones.'",
+   "passage": "Recycling means using old things to make new ones. Plastic bottles can be turned into fleece jumpers, and old newspapers can become cardboard boxes. When we recycle, we throw away less rubbish and we help to protect forests and wildlife. Remember to rinse bottles and tins before you put them in the recycling bin."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m010",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What can plastic bottles become?",
+   "options": [
+    "Glass jars",
+    "Newspapers",
+    "Wooden toys",
+    "Fleece jumpers"
+   ],
+   "correct": 3,
+   "explanation": "'Plastic bottles can be turned into fleece jumpers'",
+   "passage": "Recycling means using old things to make new ones. Plastic bottles can be turned into fleece jumpers, and old newspapers can become cardboard boxes. When we recycle, we throw away less rubbish and we help to protect forests and wildlife. Remember to rinse bottles and tins before you put them in the recycling bin."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m011",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What should you do before recycling bottles?",
+   "options": [
+    "Break them",
+    "Paint them",
+    "Rinse them",
+    "Fill them with sand"
+   ],
+   "correct": 2,
+   "explanation": "'rinse bottles and tins'",
+   "passage": "Recycling means using old things to make new ones. Plastic bottles can be turned into fleece jumpers, and old newspapers can become cardboard boxes. When we recycle, we throw away less rubbish and we help to protect forests and wildlife. Remember to rinse bottles and tins before you put them in the recycling bin."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m012",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Why is recycling good?",
+   "options": [
+    "It uses more plastic",
+    "It protects forests and wildlife",
+    "It is expensive",
+    "It makes more rubbish"
+   ],
+   "correct": 1,
+   "explanation": "'we help to protect forests and wildlife'",
+   "passage": "Recycling means using old things to make new ones. Plastic bottles can be turned into fleece jumpers, and old newspapers can become cardboard boxes. When we recycle, we throw away less rubbish and we help to protect forests and wildlife. Remember to rinse bottles and tins before you put them in the recycling bin."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m013",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Where does Kai's grandmother come from?",
+   "options": [
+    "India",
+    "Spain",
+    "China",
+    "Japan"
+   ],
+   "correct": 3,
+   "explanation": "'came to visit from Japan'",
+   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m014",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is origami?",
+   "options": [
+    "Writing poems",
+    "Painting pictures",
+    "Cooking rice",
+    "Folding paper to make shapes"
+   ],
+   "correct": 3,
+   "explanation": "She folds paper until it becomes a crane.",
+   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m015",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What did Kai make?",
+   "options": [
+    "A kite",
+    "A paper hat",
+    "A paper boat",
+    "A paper crane"
+   ],
+   "correct": 3,
+   "explanation": "'it became a crane'",
+   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m016",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What did his grandmother mean?",
+   "options": [
+    "Everyone gets better with practice",
+    "Kai's crane was perfect",
+    "Kai should stop",
+    "Origami is too hard"
+   ],
+   "correct": 0,
+   "explanation": "'every expert was once a beginner'",
+   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m017",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "When do hedgehogs come out?",
+   "options": [
+    "At lunchtime",
+    "Only in summer",
+    "At night",
+    "In the morning"
+   ],
+   "correct": 2,
+   "explanation": "'come out at night'",
+   "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m018",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Why do gardeners like hedgehogs?",
+   "options": [
+    "They eat slugs and beetles",
+    "They plant flowers",
+    "They are spiky",
+    "They dig holes"
+   ],
+   "correct": 0,
+   "explanation": "They eat the creatures that damage gardens.",
+   "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m019",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What does 'hibernate' mean?",
+   "options": [
+    "Build a nest",
+    "Run very fast",
+    "Sleep through the winter",
+    "Hunt for food"
+   ],
+   "correct": 2,
+   "explanation": "'they sleep for many weeks ... until spring'",
+   "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m020",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Why do hedgehogs hibernate?",
+   "options": [
+    "They are bored",
+    "They are too hot",
+    "Food is hard to find in winter",
+    "They are scared"
+   ],
+   "correct": 2,
+   "explanation": "'In winter, food is hard to find, so hedgehogs hibernate.'",
+   "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m021",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What was Freya looking for?",
+   "options": [
+    "Her friend",
+    "Her crown",
+    "Her script",
+    "Her shoes"
+   ],
+   "correct": 1,
+   "explanation": "'could not find her crown'",
+   "passage": "The school play was in one hour, and Freya could not find her crown. She checked her bag, the classroom and the hall. Then her friend Josh pointed at her head and laughed. Freya had been wearing the crown the whole time!"
+  },
+  {
+   "id": "en_comprension_lectora_l3_m022",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How long was it until the play?",
+   "options": [
+    "Two hours",
+    "One day",
+    "Ten minutes",
+    "One hour"
+   ],
+   "correct": 3,
+   "explanation": "'The school play was in one hour'",
+   "passage": "The school play was in one hour, and Freya could not find her crown. She checked her bag, the classroom and the hall. Then her friend Josh pointed at her head and laughed. Freya had been wearing the crown the whole time!"
+  },
+  {
+   "id": "en_comprension_lectora_l3_m023",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Why did Josh laugh?",
+   "options": [
+    "He had hidden it",
+    "He told a joke",
+    "She fell over",
+    "The crown was on her head"
+   ],
+   "correct": 3,
+   "explanation": "'pointed at her head and laughed'",
+   "passage": "The school play was in one hour, and Freya could not find her crown. She checked her bag, the classroom and the hall. Then her friend Josh pointed at her head and laughed. Freya had been wearing the crown the whole time!"
+  },
+  {
+   "id": "en_comprension_lectora_l3_m024",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What kind of story is this?",
+   "options": [
+    "A sad story",
+    "A scary story",
+    "A funny story",
+    "A true science fact"
+   ],
+   "correct": 2,
+   "explanation": "The ending is a funny surprise.",
+   "passage": "The school play was in one hour, and Freya could not find her crown. She checked her bag, the classroom and the hall. Then her friend Josh pointed at her head and laughed. Freya had been wearing the crown the whole time!"
+  },
+  {
+   "id": "en_comprension_lectora_l3_m025",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What heats the water?",
+   "options": [
+    "The Moon",
+    "The wind",
+    "The Sun",
+    "The clouds"
+   ],
+   "correct": 2,
+   "explanation": "'The Sun heats water'",
+   "passage": "Water is always moving around our planet. The Sun heats water in seas and rivers, and it rises into the air as invisible vapour. High in the sky, the vapour cools and forms clouds. When the drops in the clouds get heavy, they fall as rain, and the journey starts again. This is called the water cycle."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m026",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What forms when vapour cools?",
+   "options": [
+    "Ice cubes",
+    "Rainbows",
+    "Rivers",
+    "Clouds"
+   ],
+   "correct": 3,
+   "explanation": "'the vapour cools and forms clouds'",
+   "passage": "Water is always moving around our planet. The Sun heats water in seas and rivers, and it rises into the air as invisible vapour. High in the sky, the vapour cools and forms clouds. When the drops in the clouds get heavy, they fall as rain, and the journey starts again. This is called the water cycle."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m027",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "When does rain fall?",
+   "options": [
+    "At night only",
+    "When the drops get heavy",
+    "When it is windy",
+    "When it is sunny"
+   ],
+   "correct": 1,
+   "explanation": "'When the drops in the clouds get heavy'",
+   "passage": "Water is always moving around our planet. The Sun heats water in seas and rivers, and it rises into the air as invisible vapour. High in the sky, the vapour cools and forms clouds. When the drops in the clouds get heavy, they fall as rain, and the journey starts again. This is called the water cycle."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m028",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Why is it called a cycle?",
+   "options": [
+    "It is fast",
+    "It happens again and again",
+    "It only happens once",
+    "It has wheels"
+   ],
+   "correct": 1,
+   "explanation": "'the journey starts again'",
+   "passage": "Water is always moving around our planet. The Sun heats water in seas and rivers, and it rises into the air as invisible vapour. High in the sky, the vapour cools and forms clouds. When the drops in the clouds get heavy, they fall as rain, and the journey starts again. This is called the water cycle."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m029",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Where does Dev volunteer?",
+   "options": [
+    "At a zoo",
+    "At an animal shelter",
+    "At a farm",
+    "At a vet's"
+   ],
+   "correct": 1,
+   "explanation": "'volunteers at the animal shelter'",
+   "passage": "Every Saturday, Dev volunteers at the animal shelter. He walks the dogs, cleans the cages and gives the cats fresh water. His favourite is an old dog called Biscuit, who is very gentle. Dev hopes that one day Biscuit will find a loving family."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m030",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which job does Dev NOT do?",
+   "options": [
+    "Clean the cages",
+    "Walk the dogs",
+    "Give the cats water",
+    "Feed the horses"
+   ],
+   "correct": 3,
+   "explanation": "There are no horses in the text.",
+   "passage": "Every Saturday, Dev volunteers at the animal shelter. He walks the dogs, cleans the cages and gives the cats fresh water. His favourite is an old dog called Biscuit, who is very gentle. Dev hopes that one day Biscuit will find a loving family."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m031",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is Biscuit like?",
+   "options": [
+    "Young",
+    "Angry",
+    "Gentle",
+    "Noisy"
+   ],
+   "correct": 2,
+   "explanation": "'who is very gentle'",
+   "passage": "Every Saturday, Dev volunteers at the animal shelter. He walks the dogs, cleans the cages and gives the cats fresh water. His favourite is an old dog called Biscuit, who is very gentle. Dev hopes that one day Biscuit will find a loving family."
+  },
+  {
+   "id": "en_comprension_lectora_l3_m032",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What does Dev hope?",
+   "options": [
+    "The shelter will close",
+    "Biscuit will win a prize",
+    "Biscuit will find a family",
+    "He can take Biscuit home"
+   ],
+   "correct": 2,
+   "explanation": "'Biscuit will find a loving family'",
+   "passage": "Every Saturday, Dev volunteers at the animal shelter. He walks the dogs, cleans the cages and gives the cats fresh water. His favourite is an old dog called Biscuit, who is very gentle. Dev hopes that one day Biscuit will find a loving family."
+  },
+  {
+   "id": "en_comprension_lectora_l3_f001",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "Plants need ___ and ___ to grow.",
+   "blanks": [
+    "water",
+    "sunlight"
+   ],
+   "distractors": [
+    "sweets",
+    "noise"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Plants need water and light."
+  },
+  {
+   "id": "en_comprension_lectora_l3_f002",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "A doctor works in a ___.",
+   "blanks": [
+    "hospital"
+   ],
+   "distractors": [
+    "library"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Doctors work in hospitals."
+  },
+  {
+   "id": "en_comprension_lectora_l3_f003",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "The opposite of 'ancient' is ___.",
+   "blanks": [
+    "modern"
+   ],
+   "distractors": [
+    "old"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ancient means very old; modern means new."
+  },
+  {
+   "id": "en_comprension_lectora_l3_f004",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "Hedgehogs ___ in winter because food is ___.",
+   "blanks": [
+    "hibernate",
+    "scarce"
+   ],
+   "distractors": [
+    "swim",
+    "plentiful"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "They sleep because there is little food."
+  },
+  {
+   "id": "en_comprension_lectora_l3_f005",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "If you are ___, you should drink some water.",
+   "blanks": [
+    "thirsty"
+   ],
+   "distractors": [
+    "sleepy"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Water helps when you are thirsty."
+  },
+  {
+   "id": "en_comprension_lectora_l3_f006",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "A ___ is a person who writes books.",
+   "blanks": [
+    "author"
+   ],
+   "distractors": [
+    "pilot"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "An author writes books."
+  },
+  {
+   "id": "en_comprension_lectora_l3_f007",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "The cake was ___, so I asked for another slice.",
+   "blanks": [
+    "delicious"
+   ],
+   "distractors": [
+    "disgusting"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "You want more if it is delicious."
+  },
+  {
+   "id": "en_comprension_lectora_l3_f008",
+   "module": "comprension_lectora",
+   "level": 3,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "We use a ___ to look at the stars.",
+   "blanks": [
+    "telescope"
+   ],
+   "distractors": [
+    "microscope"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "A telescope shows faraway things."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m001",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What is at the top of a lighthouse?",
+   "options": [
+    "A powerful lamp",
+    "A flag",
+    "A satellite",
+    "A bell"
+   ],
+   "correct": 0,
+   "explanation": "'a powerful lamp at the top'",
+   "passage": "For hundreds of years, sailors used lighthouses to stay safe at night. A lighthouse is a tall tower with a powerful lamp at the top. Each lighthouse flashes its light in a special pattern, so sailors can tell which one they are looking at and work out where they are. Today, ships also use satellite navigation, but many lighthouses still shine along our coasts as a back-up."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m002",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Why does each lighthouse flash in a different pattern?",
+   "options": [
+    "So sailors know which one it is",
+    "To scare birds",
+    "To look pretty",
+    "To save electricity"
+   ],
+   "correct": 0,
+   "explanation": "'so sailors can tell which one they are looking at'",
+   "passage": "For hundreds of years, sailors used lighthouses to stay safe at night. A lighthouse is a tall tower with a powerful lamp at the top. Each lighthouse flashes its light in a special pattern, so sailors can tell which one they are looking at and work out where they are. Today, ships also use satellite navigation, but many lighthouses still shine along our coasts as a back-up."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m003",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What do ships use today as well?",
+   "options": [
+    "Paper maps only",
+    "Carrier pigeons",
+    "Satellite navigation",
+    "Smoke signals"
+   ],
+   "correct": 2,
+   "explanation": "'ships also use satellite navigation'",
+   "passage": "For hundreds of years, sailors used lighthouses to stay safe at night. A lighthouse is a tall tower with a powerful lamp at the top. Each lighthouse flashes its light in a special pattern, so sailors can tell which one they are looking at and work out where they are. Today, ships also use satellite navigation, but many lighthouses still shine along our coasts as a back-up."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m004",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What does 'back-up' mean here?",
+   "options": [
+    "Something used if the main system fails",
+    "Going backwards",
+    "A traffic jam",
+    "A spare ship"
+   ],
+   "correct": 0,
+   "explanation": "Lighthouses still help if the satellite system does not work.",
+   "passage": "For hundreds of years, sailors used lighthouses to stay safe at night. A lighthouse is a tall tower with a powerful lamp at the top. Each lighthouse flashes its light in a special pattern, so sailors can tell which one they are looking at and work out where they are. Today, ships also use satellite navigation, but many lighthouses still shine along our coasts as a back-up."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m005",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Why did Maya's hands shake?",
+   "options": [
+    "She was nervous",
+    "The piano was broken",
+    "She was ill",
+    "She was cold"
+   ],
+   "correct": 0,
+   "explanation": "She was in front of an audience.",
+   "passage": "Maya had practised her piano piece for weeks, but when she sat down in front of the audience, her hands began to shake. She took a deep breath and looked at her teacher, who gave her a thumbs-up. Maya started slowly. She made one small mistake in the middle, but she kept going. When she finished, the audience clapped loudly, and Maya realised that being brave was more important than being perfect."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m006",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What helped Maya start?",
+   "options": [
+    "Her mum's phone call",
+    "Her teacher's thumbs-up",
+    "The audience shouting",
+    "A glass of water"
+   ],
+   "correct": 1,
+   "explanation": "'her teacher, who gave her a thumbs-up'",
+   "passage": "Maya had practised her piano piece for weeks, but when she sat down in front of the audience, her hands began to shake. She took a deep breath and looked at her teacher, who gave her a thumbs-up. Maya started slowly. She made one small mistake in the middle, but she kept going. When she finished, the audience clapped loudly, and Maya realised that being brave was more important than being perfect."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m007",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What happened in the middle?",
+   "options": [
+    "She stopped playing",
+    "She made a small mistake",
+    "She started again",
+    "The lights went out"
+   ],
+   "correct": 1,
+   "explanation": "'She made one small mistake in the middle'",
+   "passage": "Maya had practised her piano piece for weeks, but when she sat down in front of the audience, her hands began to shake. She took a deep breath and looked at her teacher, who gave her a thumbs-up. Maya started slowly. She made one small mistake in the middle, but she kept going. When she finished, the audience clapped loudly, and Maya realised that being brave was more important than being perfect."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m008",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What did Maya learn?",
+   "options": [
+    "Being brave matters more than being perfect",
+    "Audiences are unkind",
+    "She should give up the piano",
+    "Mistakes ruin everything"
+   ],
+   "correct": 0,
+   "explanation": "The last sentence tells us what she realised.",
+   "passage": "Maya had practised her piano piece for weeks, but when she sat down in front of the audience, her hands began to shake. She took a deep breath and looked at her teacher, who gave her a thumbs-up. Maya started slowly. She made one small mistake in the middle, but she kept going. When she finished, the audience clapped loudly, and Maya realised that being brave was more important than being perfect."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m009",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Where did the fire start?",
+   "options": [
+    "In a castle",
+    "In a school",
+    "In a bakery",
+    "In a church"
+   ],
+   "correct": 2,
+   "explanation": "'in a bakery on Pudding Lane'",
+   "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m010",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Why did the fire spread quickly?",
+   "options": [
+    "People started more fires",
+    "There was no water in England",
+    "Wooden houses were close together",
+    "It was very windy only"
+   ],
+   "correct": 2,
+   "explanation": "'made of wood and were built very close together'",
+   "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m011",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How long did the fire burn?",
+   "options": [
+    "Four days",
+    "Four hours",
+    "One day",
+    "Four weeks"
+   ],
+   "correct": 0,
+   "explanation": "'It burned for four days.'",
+   "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m012",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Why were wider streets built?",
+   "options": [
+    "To build more shops",
+    "To stop fire spreading again",
+    "For bigger cars",
+    "To make parks"
+   ],
+   "correct": 1,
+   "explanation": "'to stop such a terrible fire from happening again'",
+   "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m013",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What are chameleons?",
+   "options": [
+    "Lizards",
+    "Snakes",
+    "Birds",
+    "Frogs"
+   ],
+   "correct": 0,
+   "explanation": "'Chameleons are lizards'",
+   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!"
+  },
+  {
+   "id": "en_comprension_lectora_l4_m014",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "According to scientists, why do they mostly change colour?",
+   "options": [
+    "Only to hide",
+    "To sleep",
+    "To find food",
+    "To show their mood or control temperature"
+   ],
+   "correct": 3,
+   "explanation": "'it is mostly to show their mood or to control their temperature'",
+   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!"
+  },
+  {
+   "id": "en_comprension_lectora_l4_m015",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What colour might an angry chameleon turn?",
+   "options": [
+    "Bright red",
+    "White",
+    "Grey",
+    "Dark green"
+   ],
+   "correct": 0,
+   "explanation": "'can turn bright yellow or red'",
+   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!"
+  },
+  {
+   "id": "en_comprension_lectora_l4_m016",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What is special about their eyes?",
+   "options": [
+    "They never close",
+    "They are blue",
+    "They glow at night",
+    "They can move separately"
+   ],
+   "correct": 3,
+   "explanation": "'Their eyes can also move separately'",
+   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!"
+  },
+  {
+   "id": "en_comprension_lectora_l4_m017",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Why was Noor grumpy?",
+   "options": [
+    "She was ill",
+    "She did not want to leave her friend",
+    "She was hungry",
+    "She had lost something"
+   ],
+   "correct": 1,
+   "explanation": "She did not want to leave Ella.",
+   "passage": "Noor's family were moving to a new city. Noor did not want to leave her best friend, Ella, so she was quiet and grumpy for days. On the last evening, Ella gave her a notebook. On the first page she had written: 'Write to me every week, and I will write back.' Noor smiled for the first time in days. The distance suddenly did not seem so big."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m018",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What did Ella give Noor?",
+   "options": [
+    "A toy",
+    "A photo",
+    "A phone",
+    "A notebook"
+   ],
+   "correct": 3,
+   "explanation": "'Ella gave her a notebook'",
+   "passage": "Noor's family were moving to a new city. Noor did not want to leave her best friend, Ella, so she was quiet and grumpy for days. On the last evening, Ella gave her a notebook. On the first page she had written: 'Write to me every week, and I will write back.' Noor smiled for the first time in days. The distance suddenly did not seem so big."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m019",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What did Ella ask Noor to do?",
+   "options": [
+    "Phone every day",
+    "Forget her",
+    "Come back soon",
+    "Write every week"
+   ],
+   "correct": 3,
+   "explanation": "'Write to me every week'",
+   "passage": "Noor's family were moving to a new city. Noor did not want to leave her best friend, Ella, so she was quiet and grumpy for days. On the last evening, Ella gave her a notebook. On the first page she had written: 'Write to me every week, and I will write back.' Noor smiled for the first time in days. The distance suddenly did not seem so big."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m020",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Why did the distance 'not seem so big'?",
+   "options": [
+    "Noor was not moving",
+    "Ella was moving too",
+    "They had a way to stay in touch",
+    "The new city was close"
+   ],
+   "correct": 2,
+   "explanation": "Writing letters would keep them close.",
+   "passage": "Noor's family were moving to a new city. Noor did not want to leave her best friend, Ella, so she was quiet and grumpy for days. On the last evening, Ella gave her a notebook. On the first page she had written: 'Write to me every week, and I will write back.' Noor smiled for the first time in days. The distance suddenly did not seem so big."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m021",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Where are the Himalayas?",
+   "options": [
+    "In America",
+    "In Africa",
+    "In Asia",
+    "In Europe"
+   ],
+   "correct": 2,
+   "explanation": "'in the Himalayas, in Asia'",
+   "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m022",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How high is Everest?",
+   "options": [
+    "One kilometre",
+    "Nine metres",
+    "Nearly nine kilometres",
+    "Ninety kilometres"
+   ],
+   "correct": 2,
+   "explanation": "'at nearly nine kilometres'",
+   "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m023",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Why do climbers need special equipment?",
+   "options": [
+    "There is little oxygen and it is very cold",
+    "There are wild animals",
+    "It rains every day",
+    "There are no paths"
+   ],
+   "correct": 0,
+   "explanation": "'very little oxygen, and it is extremely cold'",
+   "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m024",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Who are Sherpas?",
+   "options": [
+    "Local people who guide climbers",
+    "Scientists",
+    "Mountain animals",
+    "Pilots"
+   ],
+   "correct": 0,
+   "explanation": "'who live in the area and know the mountains well'",
+   "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m025",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Why did the street go dark?",
+   "options": [
+    "It was midnight",
+    "There was an eclipse",
+    "The Sun set",
+    "The power went off"
+   ],
+   "correct": 3,
+   "explanation": "'When the power went off during the storm'",
+   "passage": "When the power went off during the storm, the whole street went dark. At first, Ethan was a little scared, but then his dad lit some candles and brought out a board game. They played by candlelight and listened to the rain on the windows. When the lights came back on two hours later, Ethan was almost disappointed."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m026",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What did Dad do?",
+   "options": [
+    "Lit candles and got a board game",
+    "Fixed the power",
+    "Went to bed",
+    "Called a neighbour"
+   ],
+   "correct": 0,
+   "explanation": "'lit some candles and brought out a board game'",
+   "passage": "When the power went off during the storm, the whole street went dark. At first, Ethan was a little scared, but then his dad lit some candles and brought out a board game. They played by candlelight and listened to the rain on the windows. When the lights came back on two hours later, Ethan was almost disappointed."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m027",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How long was the power off?",
+   "options": [
+    "Ten minutes",
+    "Two days",
+    "All night",
+    "Two hours"
+   ],
+   "correct": 3,
+   "explanation": "'two hours later'",
+   "passage": "When the power went off during the storm, the whole street went dark. At first, Ethan was a little scared, but then his dad lit some candles and brought out a board game. They played by candlelight and listened to the rain on the windows. When the lights came back on two hours later, Ethan was almost disappointed."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m028",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Why was Ethan almost disappointed at the end?",
+   "options": [
+    "He was still scared",
+    "He lost the game",
+    "The candles went out",
+    "He was enjoying the evening"
+   ],
+   "correct": 3,
+   "explanation": "He had fun playing by candlelight.",
+   "passage": "When the power went off during the storm, the whole street went dark. At first, Ethan was a little scared, but then his dad lit some candles and brought out a board game. They played by candlelight and listened to the rain on the windows. When the lights came back on two hours later, Ethan was almost disappointed."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m029",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many bones does an adult have?",
+   "options": [
+    "300",
+    "206",
+    "100",
+    "26"
+   ],
+   "correct": 1,
+   "explanation": "'an adult has 206'",
+   "passage": "Our bones are alive and growing. A newborn baby has about 300 bones, but an adult has 206. This is because some bones join together as we grow. Bones need calcium to be strong, which we get from foods such as milk, cheese and green vegetables. Exercise also helps to keep our bones healthy."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m030",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Why do adults have fewer bones than babies?",
+   "options": [
+    "Bones fall out",
+    "Adults lose bones in accidents",
+    "Babies have extra fingers",
+    "Some bones join together"
+   ],
+   "correct": 3,
+   "explanation": "'some bones join together as we grow'",
+   "passage": "Our bones are alive and growing. A newborn baby has about 300 bones, but an adult has 206. This is because some bones join together as we grow. Bones need calcium to be strong, which we get from foods such as milk, cheese and green vegetables. Exercise also helps to keep our bones healthy."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m031",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What do bones need to be strong?",
+   "options": [
+    "Sugar",
+    "Water only",
+    "Salt",
+    "Calcium"
+   ],
+   "correct": 3,
+   "explanation": "'Bones need calcium to be strong'",
+   "passage": "Our bones are alive and growing. A newborn baby has about 300 bones, but an adult has 206. This is because some bones join together as we grow. Bones need calcium to be strong, which we get from foods such as milk, cheese and green vegetables. Exercise also helps to keep our bones healthy."
+  },
+  {
+   "id": "en_comprension_lectora_l4_m032",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which food is a good source of calcium?",
+   "options": [
+    "Sweets",
+    "Cheese",
+    "Lemonade",
+    "Crisps"
+   ],
+   "correct": 1,
+   "explanation": "'milk, cheese and green vegetables'",
+   "passage": "Our bones are alive and growing. A newborn baby has about 300 bones, but an adult has 206. This is because some bones join together as we grow. Bones need calcium to be strong, which we get from foods such as milk, cheese and green vegetables. Exercise also helps to keep our bones healthy."
+  },
+  {
+   "id": "en_comprension_lectora_l4_f001",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "The fire spread ___ because the houses were made of ___.",
+   "blanks": [
+    "quickly",
+    "wood"
+   ],
+   "distractors": [
+    "slowly",
+    "stone"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Wooden houses burn easily."
+  },
+  {
+   "id": "en_comprension_lectora_l4_f002",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "A ___ is a person who studies the past.",
+   "blanks": [
+    "historian"
+   ],
+   "distractors": [
+    "dentist"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Historians study history."
+  },
+  {
+   "id": "en_comprension_lectora_l4_f003",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "Although she was ___, she sang in front of everyone.",
+   "blanks": [
+    "nervous"
+   ],
+   "distractors": [
+    "asleep"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "'Although' shows a contrast: she was nervous but brave."
+  },
+  {
+   "id": "en_comprension_lectora_l4_f004",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "Lighthouses help sailors to ___ dangerous rocks.",
+   "blanks": [
+    "avoid"
+   ],
+   "distractors": [
+    "collect"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "They warn sailors away from rocks."
+  },
+  {
+   "id": "en_comprension_lectora_l4_f005",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "Bones need ___ to stay ___.",
+   "blanks": [
+    "calcium",
+    "strong"
+   ],
+   "distractors": [
+    "sugar",
+    "soft"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Calcium keeps bones strong."
+  },
+  {
+   "id": "en_comprension_lectora_l4_f006",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "He was so ___ that he fell asleep on the sofa.",
+   "blanks": [
+    "exhausted"
+   ],
+   "distractors": [
+    "energetic"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Exhausted means very tired."
+  },
+  {
+   "id": "en_comprension_lectora_l4_f007",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "The opposite of 'generous' is ___.",
+   "blanks": [
+    "selfish"
+   ],
+   "distractors": [
+    "kind"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Generous people share; selfish people do not."
+  },
+  {
+   "id": "en_comprension_lectora_l4_f008",
+   "module": "comprension_lectora",
+   "level": 4,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "A ___ changes colour to show its mood.",
+   "blanks": [
+    "chameleon"
+   ],
+   "distractors": [
+    "giraffe"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Chameleons change colour."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m001",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What did Fleming find when he returned?",
+   "options": [
+    "A new animal",
+    "A broken microscope",
+    "A letter",
+    "Mould on a dish of bacteria"
+   ],
+   "correct": 3,
+   "explanation": "'A mould had grown on one of his dishes of bacteria'",
+   "passage": "In 1928, the scientist Alexander Fleming returned from holiday to find something strange in his laboratory. A mould had grown on one of his dishes of bacteria, and around the mould, the bacteria had died. Instead of throwing the dish away, Fleming investigated. He had discovered penicillin, the first antibiotic. Since then, antibiotics have saved millions of lives, although doctors now warn that we must use them carefully so that bacteria do not become resistant."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m002",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What was special about the mould?",
+   "options": [
+    "It glowed",
+    "It smelled nice",
+    "It grew very fast",
+    "Bacteria around it had died"
+   ],
+   "correct": 3,
+   "explanation": "'around the mould, the bacteria had died'",
+   "passage": "In 1928, the scientist Alexander Fleming returned from holiday to find something strange in his laboratory. A mould had grown on one of his dishes of bacteria, and around the mould, the bacteria had died. Instead of throwing the dish away, Fleming investigated. He had discovered penicillin, the first antibiotic. Since then, antibiotics have saved millions of lives, although doctors now warn that we must use them carefully so that bacteria do not become resistant."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m003",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Why was it lucky that Fleming did not throw the dish away?",
+   "options": [
+    "He could sell it",
+    "It was his favourite dish",
+    "He discovered penicillin",
+    "It was clean"
+   ],
+   "correct": 2,
+   "explanation": "Investigating it led to the discovery of penicillin.",
+   "passage": "In 1928, the scientist Alexander Fleming returned from holiday to find something strange in his laboratory. A mould had grown on one of his dishes of bacteria, and around the mould, the bacteria had died. Instead of throwing the dish away, Fleming investigated. He had discovered penicillin, the first antibiotic. Since then, antibiotics have saved millions of lives, although doctors now warn that we must use them carefully so that bacteria do not become resistant."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m004",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What do doctors warn about today?",
+   "options": [
+    "Growing more mould",
+    "Using antibiotics carefully",
+    "Avoiding all medicine",
+    "Taking more holidays"
+   ],
+   "correct": 1,
+   "explanation": "'we must use them carefully so that bacteria do not become resistant'",
+   "passage": "In 1928, the scientist Alexander Fleming returned from holiday to find something strange in his laboratory. A mould had grown on one of his dishes of bacteria, and around the mould, the bacteria had died. Instead of throwing the dish away, Fleming investigated. He had discovered penicillin, the first antibiotic. Since then, antibiotics have saved millions of lives, although doctors now warn that we must use them carefully so that bacteria do not become resistant."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m005",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What did Isla believe about herself at first?",
+   "options": [
+    "She hated reading",
+    "She wanted to be a teacher",
+    "She was not good at writing",
+    "She was the best writer"
+   ],
+   "correct": 2,
+   "explanation": "'she was no good at writing'",
+   "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m006",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What did Ms Okafor ask the class to write about?",
+   "options": [
+    "Dragons",
+    "A science experiment",
+    "Something that really happened",
+    "Their favourite food"
+   ],
+   "correct": 2,
+   "explanation": "'something that had really happened to them'",
+   "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m007",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What does 'the room fell silent' suggest?",
+   "options": [
+    "There was a fire drill",
+    "The class was asleep",
+    "Nobody was listening",
+    "Everyone was moved by the story"
+   ],
+   "correct": 3,
+   "explanation": "The silence shows the story touched them.",
+   "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m008",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is the main message?",
+   "options": [
+    "Stories must have dragons",
+    "A true, personal story can be powerful",
+    "Only teachers can write well",
+    "Stars are easy to name"
+   ],
+   "correct": 1,
+   "explanation": "The last sentence states the message.",
+   "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m009",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Why are reefs called 'the rainforests of the sea'?",
+   "options": [
+    "Many different creatures live there",
+    "They have trees",
+    "It rains a lot there",
+    "They are green"
+   ],
+   "correct": 0,
+   "explanation": "'so many different creatures live there'",
+   "passage": "Coral reefs are sometimes called the rainforests of the sea because so many different creatures live there. Although they look like colourful rocks, corals are actually animals. They have a special partnership with tiny algae, which live inside them and give them food and colour. When the sea becomes too warm, the algae leave, and the coral turns white. This is called bleaching, and if the water does not cool down, the coral can die."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m010",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What are corals?",
+   "options": [
+    "Plants",
+    "Rocks",
+    "Fish eggs",
+    "Animals"
+   ],
+   "correct": 3,
+   "explanation": "'corals are actually animals'",
+   "passage": "Coral reefs are sometimes called the rainforests of the sea because so many different creatures live there. Although they look like colourful rocks, corals are actually animals. They have a special partnership with tiny algae, which live inside them and give them food and colour. When the sea becomes too warm, the algae leave, and the coral turns white. This is called bleaching, and if the water does not cool down, the coral can die."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m011",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What do the algae give the coral?",
+   "options": [
+    "Oxygen only",
+    "Protection from sharks",
+    "Food and colour",
+    "A shell"
+   ],
+   "correct": 2,
+   "explanation": "'give them food and colour'",
+   "passage": "Coral reefs are sometimes called the rainforests of the sea because so many different creatures live there. Although they look like colourful rocks, corals are actually animals. They have a special partnership with tiny algae, which live inside them and give them food and colour. When the sea becomes too warm, the algae leave, and the coral turns white. This is called bleaching, and if the water does not cool down, the coral can die."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m012",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What causes bleaching?",
+   "options": [
+    "Too many fish",
+    "Sunlight at night",
+    "Cold winters",
+    "The sea becoming too warm"
+   ],
+   "correct": 3,
+   "explanation": "'When the sea becomes too warm, the algae leave'",
+   "passage": "Coral reefs are sometimes called the rainforests of the sea because so many different creatures live there. Although they look like colourful rocks, corals are actually animals. They have a special partnership with tiny algae, which live inside them and give them food and colour. When the sea becomes too warm, the algae leave, and the coral turns white. This is called bleaching, and if the water does not cool down, the coral can die."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m013",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What did some people want to build?",
+   "options": [
+    "A playground",
+    "A shop",
+    "A car park",
+    "A school"
+   ],
+   "correct": 2,
+   "explanation": "'to make space for a car park'",
+   "passage": "The village had argued about the old oak tree for months. Some people wanted to cut it down to make space for a car park; others said it had stood there for three hundred years and belonged to everyone. In the end, a group of children wrote letters to the council and collected over five hundred signatures. The council agreed to build the car park on a different site, and the oak was saved. Now there is a small sign under its branches that reads: 'Protected by the young people of this village.'"
+  },
+  {
+   "id": "en_comprension_lectora_l5_m014",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How old was the tree?",
+   "options": [
+    "Three years",
+    "Five hundred years",
+    "Three hundred years",
+    "Thirty years"
+   ],
+   "correct": 2,
+   "explanation": "'it had stood there for three hundred years'",
+   "passage": "The village had argued about the old oak tree for months. Some people wanted to cut it down to make space for a car park; others said it had stood there for three hundred years and belonged to everyone. In the end, a group of children wrote letters to the council and collected over five hundred signatures. The council agreed to build the car park on a different site, and the oak was saved. Now there is a small sign under its branches that reads: 'Protected by the young people of this village.'"
+  },
+  {
+   "id": "en_comprension_lectora_l5_m015",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How did the children help?",
+   "options": [
+    "They climbed the tree",
+    "They paid for it",
+    "They wrote letters and collected signatures",
+    "They built a fence"
+   ],
+   "correct": 2,
+   "explanation": "'wrote letters to the council and collected over five hundred signatures'",
+   "passage": "The village had argued about the old oak tree for months. Some people wanted to cut it down to make space for a car park; others said it had stood there for three hundred years and belonged to everyone. In the end, a group of children wrote letters to the council and collected over five hundred signatures. The council agreed to build the car park on a different site, and the oak was saved. Now there is a small sign under its branches that reads: 'Protected by the young people of this village.'"
+  },
+  {
+   "id": "en_comprension_lectora_l5_m016",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What does the story show?",
+   "options": [
+    "Councils never listen",
+    "Trees are not important",
+    "Car parks are useless",
+    "Young people can make a difference"
+   ],
+   "correct": 3,
+   "explanation": "The children's action saved the tree.",
+   "passage": "The village had argued about the old oak tree for months. Some people wanted to cut it down to make space for a car park; others said it had stood there for three hundred years and belonged to everyone. In the end, a group of children wrote letters to the council and collected over five hundred signatures. The council agreed to build the car park on a different site, and the oak was saved. Now there is a small sign under its branches that reads: 'Protected by the young people of this village.'"
+  },
+  {
+   "id": "en_comprension_lectora_l5_m017",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is a common mistake people make about bats?",
+   "options": [
+    "Thinking they eat insects",
+    "Thinking they are blind",
+    "Thinking they sleep in the day",
+    "Thinking they fly"
+   ],
+   "correct": 1,
+   "explanation": "'Many people think they are blind'",
+   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m018",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is echolocation?",
+   "options": [
+    "Smelling food",
+    "Seeing in colour",
+    "Using echoes of sounds to find things",
+    "Flying very high"
+   ],
+   "correct": 2,
+   "explanation": "'make high-pitched sounds and listen for the echoes'",
+   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m019",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What do many bats catch with echolocation?",
+   "options": [
+    "Fruit",
+    "Fish",
+    "Insects",
+    "Mice"
+   ],
+   "correct": 2,
+   "explanation": "'catch tiny insects in mid-air'",
+   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m020",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Why are bats 'useful neighbours'?",
+   "options": [
+    "They guard houses",
+    "They are quiet",
+    "They eat lots of mosquitoes",
+    "They make honey"
+   ],
+   "correct": 2,
+   "explanation": "'can eat thousands of mosquitoes in one night'",
+   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m021",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Why did Samir feel invisible at first?",
+   "options": [
+    "He was very small",
+    "Nobody could see him",
+    "He was always late",
+    "He spoke little English and the playground was noisy"
+   ],
+   "correct": 3,
+   "explanation": "'he spoke very little English, and the noise of the playground made him feel invisible'",
+   "passage": "When Samir first arrived from Syria, he spoke very little English, and the noise of the playground made him feel invisible. His classmate Fin noticed that Samir drew incredible pictures in the margins of his books. One lunchtime, Fin asked if Samir could teach him to draw a horse. They did not need many words: Samir drew, Fin copied, and they both laughed at Fin's wobbly attempts. By the end of the term, they were designing a comic together, with Samir's drawings and Fin's speech bubbles."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m022",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What talent did Fin notice?",
+   "options": [
+    "Football",
+    "Drawing",
+    "Singing",
+    "Maths"
+   ],
+   "correct": 1,
+   "explanation": "'drew incredible pictures'",
+   "passage": "When Samir first arrived from Syria, he spoke very little English, and the noise of the playground made him feel invisible. His classmate Fin noticed that Samir drew incredible pictures in the margins of his books. One lunchtime, Fin asked if Samir could teach him to draw a horse. They did not need many words: Samir drew, Fin copied, and they both laughed at Fin's wobbly attempts. By the end of the term, they were designing a comic together, with Samir's drawings and Fin's speech bubbles."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m023",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Why didn't they need many words?",
+   "options": [
+    "They did not like each other",
+    "Fin spoke Arabic",
+    "They used phones",
+    "They communicated through drawing"
+   ],
+   "correct": 3,
+   "explanation": "'Samir drew, Fin copied'",
+   "passage": "When Samir first arrived from Syria, he spoke very little English, and the noise of the playground made him feel invisible. His classmate Fin noticed that Samir drew incredible pictures in the margins of his books. One lunchtime, Fin asked if Samir could teach him to draw a horse. They did not need many words: Samir drew, Fin copied, and they both laughed at Fin's wobbly attempts. By the end of the term, they were designing a comic together, with Samir's drawings and Fin's speech bubbles."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m024",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What did they create together?",
+   "options": [
+    "A website",
+    "A song",
+    "A comic",
+    "A sculpture"
+   ],
+   "correct": 2,
+   "explanation": "'designing a comic together'",
+   "passage": "When Samir first arrived from Syria, he spoke very little English, and the noise of the playground made him feel invisible. His classmate Fin noticed that Samir drew incredible pictures in the margins of his books. One lunchtime, Fin asked if Samir could teach him to draw a horse. They did not need many words: Samir drew, Fin copied, and they both laughed at Fin's wobbly attempts. By the end of the term, they were designing a comic together, with Samir's drawings and Fin's speech bubbles."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m025",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is magma?",
+   "options": [
+    "A type of cloud",
+    "Melted rock underground",
+    "Cold rock",
+    "Volcano smoke"
+   ],
+   "correct": 1,
+   "explanation": "'rock melts into a thick liquid called magma'",
+   "passage": "A volcano is an opening in the Earth's crust. Deep underground, it is so hot that rock melts into a thick liquid called magma. When pressure builds up, the magma rises and bursts out of the volcano. Once it reaches the surface, it is called lava. Although eruptions can be dangerous, the soil around volcanoes is often very fertile, which is why many farmers choose to live nearby."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m026",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is magma called when it reaches the surface?",
+   "options": [
+    "Steam",
+    "Crust",
+    "Lava",
+    "Ash"
+   ],
+   "correct": 2,
+   "explanation": "'Once it reaches the surface, it is called lava.'",
+   "passage": "A volcano is an opening in the Earth's crust. Deep underground, it is so hot that rock melts into a thick liquid called magma. When pressure builds up, the magma rises and bursts out of the volcano. Once it reaches the surface, it is called lava. Although eruptions can be dangerous, the soil around volcanoes is often very fertile, which is why many farmers choose to live nearby."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m027",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What makes the magma rise?",
+   "options": [
+    "Wind",
+    "Animals",
+    "Pressure",
+    "Rain"
+   ],
+   "correct": 2,
+   "explanation": "'When pressure builds up, the magma rises'",
+   "passage": "A volcano is an opening in the Earth's crust. Deep underground, it is so hot that rock melts into a thick liquid called magma. When pressure builds up, the magma rises and bursts out of the volcano. Once it reaches the surface, it is called lava. Although eruptions can be dangerous, the soil around volcanoes is often very fertile, which is why many farmers choose to live nearby."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m028",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Why do farmers live near volcanoes?",
+   "options": [
+    "It is always warm",
+    "The land is cheap",
+    "There are no storms",
+    "The soil is very fertile"
+   ],
+   "correct": 3,
+   "explanation": "'the soil around volcanoes is often very fertile'",
+   "passage": "A volcano is an opening in the Earth's crust. Deep underground, it is so hot that rock melts into a thick liquid called magma. When pressure builds up, the magma rises and bursts out of the volcano. Once it reaches the surface, it is called lava. Although eruptions can be dangerous, the soil around volcanoes is often very fertile, which is why many farmers choose to live nearby."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m029",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Where do Arctic terns fly to from the Arctic?",
+   "options": [
+    "Australia",
+    "Africa",
+    "The Moon",
+    "Antarctica"
+   ],
+   "correct": 3,
+   "explanation": "'all the way to Antarctica'",
+   "passage": "Every year, Arctic terns make one of the longest journeys of any animal. These small seabirds fly from the Arctic, where they spend the northern summer, all the way to Antarctica, and then back again. Over a lifetime, a single tern may fly the same distance as three return trips to the Moon. Because they follow the summer from one end of the world to the other, Arctic terns probably see more daylight than any other creature on Earth."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m030",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What kind of animal is an Arctic tern?",
+   "options": [
+    "A whale",
+    "An insect",
+    "A fish",
+    "A seabird"
+   ],
+   "correct": 3,
+   "explanation": "'These small seabirds'",
+   "passage": "Every year, Arctic terns make one of the longest journeys of any animal. These small seabirds fly from the Arctic, where they spend the northern summer, all the way to Antarctica, and then back again. Over a lifetime, a single tern may fly the same distance as three return trips to the Moon. Because they follow the summer from one end of the world to the other, Arctic terns probably see more daylight than any other creature on Earth."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m031",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How far may a tern fly in its lifetime?",
+   "options": [
+    "Across one country",
+    "As far as three return trips to the Moon",
+    "Ten kilometres",
+    "Once round a lake"
+   ],
+   "correct": 1,
+   "explanation": "'three return trips to the Moon'",
+   "passage": "Every year, Arctic terns make one of the longest journeys of any animal. These small seabirds fly from the Arctic, where they spend the northern summer, all the way to Antarctica, and then back again. Over a lifetime, a single tern may fly the same distance as three return trips to the Moon. Because they follow the summer from one end of the world to the other, Arctic terns probably see more daylight than any other creature on Earth."
+  },
+  {
+   "id": "en_comprension_lectora_l5_m032",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Why do they see so much daylight?",
+   "options": [
+    "They never sleep",
+    "They follow the summer",
+    "They fly at night",
+    "They live on the Moon"
+   ],
+   "correct": 1,
+   "explanation": "'they follow the summer from one end of the world to the other'",
+   "passage": "Every year, Arctic terns make one of the longest journeys of any animal. These small seabirds fly from the Arctic, where they spend the northern summer, all the way to Antarctica, and then back again. Over a lifetime, a single tern may fly the same distance as three return trips to the Moon. Because they follow the summer from one end of the world to the other, Arctic terns probably see more daylight than any other creature on Earth."
+  },
+  {
+   "id": "en_comprension_lectora_l5_f001",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "Antibiotics fight ___, but they do not work against ___.",
+   "blanks": [
+    "bacteria",
+    "viruses"
+   ],
+   "distractors": [
+    "bones",
+    "vitamins"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Antibiotics kill bacteria, not viruses."
+  },
+  {
+   "id": "en_comprension_lectora_l5_f002",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "When coral loses its algae, it turns white: this is called ___.",
+   "blanks": [
+    "bleaching"
+   ],
+   "distractors": [
+    "freezing"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "That process is called bleaching."
+  },
+  {
+   "id": "en_comprension_lectora_l5_f003",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "Bats use ___ to find insects in the ___.",
+   "blanks": [
+    "echolocation",
+    "dark"
+   ],
+   "distractors": [
+    "telescopes",
+    "daylight"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Echolocation works in the dark."
+  },
+  {
+   "id": "en_comprension_lectora_l5_f004",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "The soil near volcanoes is very ___, so crops grow well.",
+   "blanks": [
+    "fertile"
+   ],
+   "distractors": [
+    "frozen"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Fertile soil helps plants grow."
+  },
+  {
+   "id": "en_comprension_lectora_l5_f005",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "The children collected ___ to persuade the ___.",
+   "blanks": [
+    "signatures",
+    "council"
+   ],
+   "distractors": [
+    "shells",
+    "ocean"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "A petition persuades the council."
+  },
+  {
+   "id": "en_comprension_lectora_l5_f006",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "Arctic terns ___ thousands of kilometres every year.",
+   "blanks": [
+    "migrate"
+   ],
+   "distractors": [
+    "hibernate"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Migrating means travelling long distances."
+  },
+  {
+   "id": "en_comprension_lectora_l5_f007",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "A story told from your own life is ___, not fiction.",
+   "blanks": [
+    "autobiographical"
+   ],
+   "distractors": [
+    "imaginary"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Autobiographical means about your own life."
+  },
+  {
+   "id": "en_comprension_lectora_l5_f008",
+   "module": "comprension_lectora",
+   "level": 5,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "Magma that reaches the surface is called ___.",
+   "blanks": [
+    "lava"
+   ],
+   "distractors": [
+    "crust"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "On the surface, magma is called lava."
+  }
+ ]
+}

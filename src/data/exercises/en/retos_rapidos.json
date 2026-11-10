@@ -1,1 +1,2415 @@
-{"exercises":[]}
+{
+ "exercises": [
+  {
+   "id": "en_retos_rapidos_l1_m001",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'big'?",
+   "options": [
+    "red",
+    "small",
+    "large",
+    "slow"
+   ],
+   "correct": 2,
+   "explanation": "'big' and 'large' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m002",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'happy'?",
+   "options": [
+    "late",
+    "cold",
+    "glad",
+    "sad"
+   ],
+   "correct": 2,
+   "explanation": "'happy' and 'glad' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m003",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'fast'?",
+   "options": [
+    "wet",
+    "tall",
+    "quick",
+    "slow"
+   ],
+   "correct": 2,
+   "explanation": "'fast' and 'quick' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m004",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'little'?",
+   "options": [
+    "loud",
+    "huge",
+    "old",
+    "small"
+   ],
+   "correct": 3,
+   "explanation": "'little' and 'small' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m005",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'shut'?",
+   "options": [
+    "close",
+    "open",
+    "jump",
+    "sing"
+   ],
+   "correct": 0,
+   "explanation": "'shut' and 'close' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m006",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'kind'?",
+   "options": [
+    "cold",
+    "loud",
+    "nice",
+    "mean"
+   ],
+   "correct": 2,
+   "explanation": "'kind' and 'nice' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m007",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'hot'?",
+   "options": [
+    "warm",
+    "red",
+    "big",
+    "cold"
+   ],
+   "correct": 3,
+   "explanation": "The opposite of 'hot' is 'cold'."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m008",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'up'?",
+   "options": [
+    "top",
+    "over",
+    "on",
+    "down"
+   ],
+   "correct": 3,
+   "explanation": "The opposite of 'up' is 'down'."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m009",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'day'?",
+   "options": [
+    "week",
+    "sun",
+    "night",
+    "noon"
+   ],
+   "correct": 2,
+   "explanation": "The opposite of 'day' is 'night'."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m010",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'old'?",
+   "options": [
+    "big",
+    "slow",
+    "tall",
+    "new"
+   ],
+   "correct": 3,
+   "explanation": "The opposite of 'old' is 'new'."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m011",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'wet'?",
+   "options": [
+    "cold",
+    "full",
+    "dry",
+    "soft"
+   ],
+   "correct": 2,
+   "explanation": "The opposite of 'wet' is 'dry'."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m012",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'happy'?",
+   "options": [
+    "fast",
+    "kind",
+    "glad",
+    "sad"
+   ],
+   "correct": 3,
+   "explanation": "The opposite of 'happy' is 'sad'."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m013",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: cat, dog, cow or apple?",
+   "options": [
+    "apple",
+    "dog",
+    "cow",
+    "cat"
+   ],
+   "correct": 0,
+   "explanation": "Apple is a fruit; the others are animals."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m014",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: red, blue, green or chair?",
+   "options": [
+    "green",
+    "chair",
+    "red",
+    "blue"
+   ],
+   "correct": 1,
+   "explanation": "Chair is furniture; the others are colours."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m015",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: one, two, three or cake?",
+   "options": [
+    "two",
+    "one",
+    "cake",
+    "three"
+   ],
+   "correct": 2,
+   "explanation": "Cake is food; the others are numbers."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m016",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is an animal?",
+   "options": [
+    "blue",
+    "table",
+    "horse",
+    "jump"
+   ],
+   "correct": 2,
+   "explanation": "A horse is an animal."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m017",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is a colour?",
+   "options": [
+    "pot",
+    "pig",
+    "pink",
+    "pen"
+   ],
+   "correct": 2,
+   "explanation": "Pink is a colour."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m018",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word comes first in the dictionary?",
+   "options": [
+    "pig",
+    "cat",
+    "dog",
+    "ant"
+   ],
+   "correct": 3,
+   "explanation": "Alphabetical order: ant, cat, dog, pig."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m019",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word comes first in the dictionary?",
+   "options": [
+    "sun",
+    "bed",
+    "hat",
+    "map"
+   ],
+   "correct": 1,
+   "explanation": "Alphabetical order: bed, hat, map, sun."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m020",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What is the plural of 'cat'?",
+   "options": [
+    "catz",
+    "cates",
+    "cat's",
+    "cats"
+   ],
+   "correct": 3,
+   "explanation": "one cat, two cats."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m021",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What is the plural of 'box'?",
+   "options": [
+    "boxes",
+    "boxs",
+    "box's",
+    "boxies"
+   ],
+   "correct": 0,
+   "explanation": "one box, two boxes."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m022",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Complete the series: Monday, Tuesday, ___",
+   "options": [
+    "Sunday",
+    "Friday",
+    "Wednesday",
+    "Monday"
+   ],
+   "correct": 2,
+   "explanation": "The next one is 'Wednesday'."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m023",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Complete the series: one, two, three, ___",
+   "options": [
+    "four",
+    "five",
+    "ten",
+    "six"
+   ],
+   "correct": 0,
+   "explanation": "The next one is 'four'."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m024",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'cat'?",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "c-a-t = 3 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m025",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'frog'?",
+   "options": [
+    "6",
+    "5",
+    "3",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "f-r-o-g = 4 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m026",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'sun'?",
+   "options": [
+    "5",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": 2,
+   "explanation": "s-u-n = 3 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m027",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'bird'?",
+   "options": [
+    "3",
+    "5",
+    "6",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "b-i-r-d = 4 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m028",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word makes a new word with 'sun'?",
+   "options": [
+    "red",
+    "cup",
+    "flower",
+    "shoe"
+   ],
+   "correct": 2,
+   "explanation": "sun + flower = sunflower."
+  },
+  {
+   "id": "en_retos_rapidos_l1_m029",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word makes a new word with 'foot'?",
+   "options": [
+    "milk",
+    "ball",
+    "dog",
+    "hat"
+   ],
+   "correct": 1,
+   "explanation": "foot + ball = football."
+  },
+  {
+   "id": "en_retos_rapidos_l1_o001",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the letters in order to spell 'DOG'",
+   "pieces": [
+    "D",
+    "O",
+    "G"
+   ],
+   "correctOrder": [
+    "D",
+    "O",
+    "G"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "D-O-G = DOG"
+  },
+  {
+   "id": "en_retos_rapidos_l1_o002",
+   "module": "retos_rapidos",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the letters in order to spell 'BED'",
+   "pieces": [
+    "B",
+    "E",
+    "D"
+   ],
+   "correctOrder": [
+    "B",
+    "E",
+    "D"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "B-E-D = BED"
+  },
+  {
+   "id": "en_retos_rapidos_l2_m001",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'begin'?",
+   "options": [
+    "finish",
+    "start",
+    "sleep",
+    "stop"
+   ],
+   "correct": 1,
+   "explanation": "'begin' and 'start' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m002",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'shout'?",
+   "options": [
+    "sing",
+    "yell",
+    "smile",
+    "whisper"
+   ],
+   "correct": 1,
+   "explanation": "'shout' and 'yell' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m003",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'scared'?",
+   "options": [
+    "afraid",
+    "brave",
+    "bored",
+    "happy"
+   ],
+   "correct": 0,
+   "explanation": "'scared' and 'afraid' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m004",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'tired'?",
+   "options": [
+    "lively",
+    "angry",
+    "hungry",
+    "sleepy"
+   ],
+   "correct": 3,
+   "explanation": "'tired' and 'sleepy' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m005",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'look'?",
+   "options": [
+    "eat",
+    "hear",
+    "run",
+    "see"
+   ],
+   "correct": 3,
+   "explanation": "'look' and 'see' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m006",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'easy'?",
+   "options": [
+    "simple",
+    "dark",
+    "hard",
+    "long"
+   ],
+   "correct": 0,
+   "explanation": "'easy' and 'simple' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m007",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'open'?",
+   "options": [
+    "full",
+    "empty",
+    "closed",
+    "wide"
+   ],
+   "correct": 2,
+   "explanation": "The opposite of 'open' is 'closed'."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m008",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'early'?",
+   "options": [
+    "first",
+    "soon",
+    "fast",
+    "late"
+   ],
+   "correct": 3,
+   "explanation": "The opposite of 'early' is 'late'."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m009",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'heavy'?",
+   "options": [
+    "big",
+    "light",
+    "thick",
+    "strong"
+   ],
+   "correct": 1,
+   "explanation": "The opposite of 'heavy' is 'light'."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m010",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'loud'?",
+   "options": [
+    "deep",
+    "sharp",
+    "quiet",
+    "noisy"
+   ],
+   "correct": 2,
+   "explanation": "The opposite of 'loud' is 'quiet'."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m011",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'push'?",
+   "options": [
+    "pull",
+    "kick",
+    "hold",
+    "press"
+   ],
+   "correct": 0,
+   "explanation": "The opposite of 'push' is 'pull'."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m012",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'win'?",
+   "options": [
+    "play",
+    "score",
+    "beat",
+    "lose"
+   ],
+   "correct": 3,
+   "explanation": "The opposite of 'win' is 'lose'."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m013",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: banana, pear, grape or carrot?",
+   "options": [
+    "banana",
+    "grape",
+    "pear",
+    "carrot"
+   ],
+   "correct": 3,
+   "explanation": "Carrot is a vegetable; the others are fruits."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m014",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: Monday, Friday, Sunday or March?",
+   "options": [
+    "March",
+    "Monday",
+    "Sunday",
+    "Friday"
+   ],
+   "correct": 0,
+   "explanation": "March is a month; the others are days."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m015",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: car, bus, train or bridge?",
+   "options": [
+    "bus",
+    "train",
+    "bridge",
+    "car"
+   ],
+   "correct": 2,
+   "explanation": "A bridge is not a vehicle."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m016",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is a verb (an action)?",
+   "options": [
+    "dog",
+    "box",
+    "run",
+    "red"
+   ],
+   "correct": 2,
+   "explanation": "'run' is something you do: a verb."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m017",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is a noun (a thing)?",
+   "options": [
+    "happy",
+    "quickly",
+    "chair",
+    "sing"
+   ],
+   "correct": 2,
+   "explanation": "A chair is a thing: a noun."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m018",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word comes first in the dictionary?",
+   "options": [
+    "apple",
+    "banana",
+    "lemon",
+    "orange"
+   ],
+   "correct": 0,
+   "explanation": "Alphabetical order: apple, banana, lemon, orange."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m019",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word comes first in the dictionary?",
+   "options": [
+    "table",
+    "lamp",
+    "door",
+    "chair"
+   ],
+   "correct": 3,
+   "explanation": "Alphabetical order: chair, door, lamp, table."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m020",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the plural of 'baby'?",
+   "options": [
+    "babis",
+    "babys",
+    "babies",
+    "babyes"
+   ],
+   "correct": 2,
+   "explanation": "one baby, two babies."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m021",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the plural of 'bush'?",
+   "options": [
+    "bushes",
+    "bushies",
+    "bushs",
+    "bush's"
+   ],
+   "correct": 0,
+   "explanation": "one bush, two bushes."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m022",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Complete the series: January, February, ___",
+   "options": [
+    "June",
+    "May",
+    "April",
+    "March"
+   ],
+   "correct": 3,
+   "explanation": "The next one is 'March'."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m023",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Complete the series: spring, summer, ___",
+   "options": [
+    "May",
+    "winter",
+    "spring",
+    "autumn"
+   ],
+   "correct": 3,
+   "explanation": "The next one is 'autumn'."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m024",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'chair'?",
+   "options": [
+    "5",
+    "7",
+    "4",
+    "6"
+   ],
+   "correct": 0,
+   "explanation": "c-h-a-i-r = 5 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m025",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'shell'?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "correct": 1,
+   "explanation": "s-h-e-l-l = 5 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m026",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'thank'?",
+   "options": [
+    "7",
+    "4",
+    "5",
+    "6"
+   ],
+   "correct": 2,
+   "explanation": "t-h-a-n-k = 5 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m027",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'queen'?",
+   "options": [
+    "7",
+    "5",
+    "4",
+    "6"
+   ],
+   "correct": 1,
+   "explanation": "q-u-e-e-n = 5 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m028",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word makes a new word with 'rain'?",
+   "options": [
+    "cat",
+    "bow",
+    "pen",
+    "fish"
+   ],
+   "correct": 1,
+   "explanation": "rain + bow = rainbow."
+  },
+  {
+   "id": "en_retos_rapidos_l2_m029",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word makes a new word with 'tooth'?",
+   "options": [
+    "bird",
+    "chair",
+    "brush",
+    "lamp"
+   ],
+   "correct": 2,
+   "explanation": "tooth + brush = toothbrush."
+  },
+  {
+   "id": "en_retos_rapidos_l2_o001",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the letters in order to spell 'FISH'",
+   "pieces": [
+    "F",
+    "I",
+    "S",
+    "H"
+   ],
+   "correctOrder": [
+    "F",
+    "I",
+    "S",
+    "H"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "F-I-S-H = FISH"
+  },
+  {
+   "id": "en_retos_rapidos_l2_o002",
+   "module": "retos_rapidos",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the letters in order to spell 'DUCK'",
+   "pieces": [
+    "D",
+    "U",
+    "C",
+    "K"
+   ],
+   "correctOrder": [
+    "D",
+    "U",
+    "C",
+    "K"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "D-U-C-K = DUCK"
+  },
+  {
+   "id": "en_retos_rapidos_l3_m001",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'enormous'?",
+   "options": [
+    "tiny",
+    "quiet",
+    "huge",
+    "early"
+   ],
+   "correct": 2,
+   "explanation": "'enormous' and 'huge' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m002",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'silent'?",
+   "options": [
+    "quiet",
+    "funny",
+    "noisy",
+    "sunny"
+   ],
+   "correct": 0,
+   "explanation": "'silent' and 'quiet' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m003",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'brave'?",
+   "options": [
+    "rude",
+    "lazy",
+    "timid",
+    "fearless"
+   ],
+   "correct": 3,
+   "explanation": "'brave' and 'fearless' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m004",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'difficult'?",
+   "options": [
+    "hard",
+    "soft",
+    "light",
+    "easy"
+   ],
+   "correct": 0,
+   "explanation": "'difficult' and 'hard' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m005",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'tidy'?",
+   "options": [
+    "busy",
+    "messy",
+    "dirty",
+    "neat"
+   ],
+   "correct": 3,
+   "explanation": "'tidy' and 'neat' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m006",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'wealthy'?",
+   "options": [
+    "thin",
+    "weak",
+    "rich",
+    "poor"
+   ],
+   "correct": 2,
+   "explanation": "'wealthy' and 'rich' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m007",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'brave'?",
+   "options": [
+    "bold",
+    "cowardly",
+    "strong",
+    "proud"
+   ],
+   "correct": 1,
+   "explanation": "The opposite of 'brave' is 'cowardly'."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m008",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'generous'?",
+   "options": [
+    "kind",
+    "polite",
+    "selfish",
+    "friendly"
+   ],
+   "correct": 2,
+   "explanation": "The opposite of 'generous' is 'selfish'."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m009",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'arrive'?",
+   "options": [
+    "leave",
+    "enter",
+    "reach",
+    "stay"
+   ],
+   "correct": 0,
+   "explanation": "The opposite of 'arrive' is 'leave'."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m010",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'ancient'?",
+   "options": [
+    "modern",
+    "historic",
+    "old",
+    "dusty"
+   ],
+   "correct": 0,
+   "explanation": "The opposite of 'ancient' is 'modern'."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m011",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'shallow'?",
+   "options": [
+    "deep",
+    "flat",
+    "short",
+    "narrow"
+   ],
+   "correct": 0,
+   "explanation": "The opposite of 'shallow' is 'deep'."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m012",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'rough'?",
+   "options": [
+    "hard",
+    "dry",
+    "bumpy",
+    "smooth"
+   ],
+   "correct": 3,
+   "explanation": "The opposite of 'rough' is 'smooth'."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m013",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: shark, whale, dolphin or eagle?",
+   "options": [
+    "eagle",
+    "shark",
+    "dolphin",
+    "whale"
+   ],
+   "correct": 0,
+   "explanation": "An eagle flies; the others live in the sea."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m014",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: violin, guitar, piano or hammer?",
+   "options": [
+    "piano",
+    "violin",
+    "guitar",
+    "hammer"
+   ],
+   "correct": 3,
+   "explanation": "A hammer is a tool, not an instrument."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m015",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: spring, summer, autumn or Tuesday?",
+   "options": [
+    "summer",
+    "spring",
+    "autumn",
+    "Tuesday"
+   ],
+   "correct": 3,
+   "explanation": "Tuesday is a day; the others are seasons."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m016",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is an adjective (it describes)?",
+   "options": [
+    "slowly",
+    "garden",
+    "jump",
+    "fluffy"
+   ],
+   "correct": 3,
+   "explanation": "'fluffy' describes something: an adjective."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m017",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is a verb?",
+   "options": [
+    "silent",
+    "pillow",
+    "whisper",
+    "soft"
+   ],
+   "correct": 2,
+   "explanation": "'whisper' is an action: a verb."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m018",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word comes first in the dictionary?",
+   "options": [
+    "box",
+    "bed",
+    "bat",
+    "big"
+   ],
+   "correct": 2,
+   "explanation": "Alphabetical order: bat, bed, big, box."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m019",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word comes first in the dictionary?",
+   "options": [
+    "cake",
+    "coat",
+    "kite",
+    "cup"
+   ],
+   "correct": 0,
+   "explanation": "Alphabetical order: cake, coat, cup, kite."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m020",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is the plural of 'mouse'?",
+   "options": [
+    "mouses",
+    "mousies",
+    "mices",
+    "mice"
+   ],
+   "correct": 3,
+   "explanation": "one mouse, two mice."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m021",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is the plural of 'leaf'?",
+   "options": [
+    "leaves",
+    "leafes",
+    "leafs",
+    "leavs"
+   ],
+   "correct": 0,
+   "explanation": "one leaf, two leaves."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m022",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Complete the series: Thursday, Friday, ___",
+   "options": [
+    "Sunday",
+    "Saturday",
+    "Monday",
+    "Tuesday"
+   ],
+   "correct": 1,
+   "explanation": "The next one is 'Saturday'."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m023",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Complete the series: ten, twenty, thirty, ___",
+   "options": [
+    "fifty",
+    "fourty",
+    "forty",
+    "thirteen"
+   ],
+   "correct": 2,
+   "explanation": "The next one is 'forty'."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m024",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'elephant'?",
+   "options": [
+    "8",
+    "9",
+    "7",
+    "10"
+   ],
+   "correct": 0,
+   "explanation": "e-l-e-p-h-a-n-t = 8 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m025",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'rainbow'?",
+   "options": [
+    "6",
+    "8",
+    "9",
+    "7"
+   ],
+   "correct": 3,
+   "explanation": "r-a-i-n-b-o-w = 7 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m026",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'teacher'?",
+   "options": [
+    "8",
+    "6",
+    "9",
+    "7"
+   ],
+   "correct": 3,
+   "explanation": "t-e-a-c-h-e-r = 7 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m027",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'flower'?",
+   "options": [
+    "8",
+    "5",
+    "6",
+    "7"
+   ],
+   "correct": 2,
+   "explanation": "f-l-o-w-e-r = 6 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m028",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word makes a new word with 'butter'?",
+   "options": [
+    "ten",
+    "cup",
+    "sun",
+    "fly"
+   ],
+   "correct": 3,
+   "explanation": "butter + fly = butterfly."
+  },
+  {
+   "id": "en_retos_rapidos_l3_m029",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word makes a new word with 'snow'?",
+   "options": [
+    "man",
+    "pig",
+    "jam",
+    "box"
+   ],
+   "correct": 0,
+   "explanation": "snow + man = snowman."
+  },
+  {
+   "id": "en_retos_rapidos_l3_o001",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the letters in order to spell 'PLANT'",
+   "pieces": [
+    "P",
+    "L",
+    "A",
+    "N",
+    "T"
+   ],
+   "correctOrder": [
+    "P",
+    "L",
+    "A",
+    "N",
+    "T"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "P-L-A-N-T = PLANT"
+  },
+  {
+   "id": "en_retos_rapidos_l3_o002",
+   "module": "retos_rapidos",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the letters in order to spell 'TRAIN'",
+   "pieces": [
+    "T",
+    "R",
+    "A",
+    "I",
+    "N"
+   ],
+   "correctOrder": [
+    "T",
+    "R",
+    "A",
+    "I",
+    "N"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "T-R-A-I-N = TRAIN"
+  },
+  {
+   "id": "en_retos_rapidos_l4_m001",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'ancient'?",
+   "options": [
+    "very small",
+    "very fast",
+    "brand new",
+    "very old"
+   ],
+   "correct": 3,
+   "explanation": "'ancient' and 'very old' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m002",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'furious'?",
+   "options": [
+    "very angry",
+    "very calm",
+    "very cold",
+    "very tired"
+   ],
+   "correct": 0,
+   "explanation": "'furious' and 'very angry' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m003",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'fragile'?",
+   "options": [
+    "very strong",
+    "easily broken",
+    "very heavy",
+    "very bright"
+   ],
+   "correct": 1,
+   "explanation": "'fragile' and 'easily broken' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m004",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'exhausted'?",
+   "options": [
+    "very tired",
+    "very awake",
+    "very excited",
+    "very hungry"
+   ],
+   "correct": 0,
+   "explanation": "'exhausted' and 'very tired' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m005",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'delighted'?",
+   "options": [
+    "very pleased",
+    "very scared",
+    "very upset",
+    "very bored"
+   ],
+   "correct": 0,
+   "explanation": "'delighted' and 'very pleased' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m006",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'gigantic'?",
+   "options": [
+    "enormous",
+    "narrow",
+    "minute",
+    "average"
+   ],
+   "correct": 0,
+   "explanation": "'gigantic' and 'enormous' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m007",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'victory'?",
+   "options": [
+    "prize",
+    "triumph",
+    "success",
+    "defeat"
+   ],
+   "correct": 3,
+   "explanation": "The opposite of 'victory' is 'defeat'."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m008",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'expand'?",
+   "options": [
+    "widen",
+    "shrink",
+    "grow",
+    "stretch"
+   ],
+   "correct": 1,
+   "explanation": "The opposite of 'expand' is 'shrink'."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m009",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'permanent'?",
+   "options": [
+    "stable",
+    "temporary",
+    "lasting",
+    "fixed"
+   ],
+   "correct": 1,
+   "explanation": "The opposite of 'permanent' is 'temporary'."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m010",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'innocent'?",
+   "options": [
+    "guilty",
+    "honest",
+    "pure",
+    "calm"
+   ],
+   "correct": 0,
+   "explanation": "The opposite of 'innocent' is 'guilty'."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m011",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'include'?",
+   "options": [
+    "add",
+    "involve",
+    "exclude",
+    "contain"
+   ],
+   "correct": 2,
+   "explanation": "The opposite of 'include' is 'exclude'."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m012",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'maximum'?",
+   "options": [
+    "minimum",
+    "biggest",
+    "total",
+    "most"
+   ],
+   "correct": 0,
+   "explanation": "The opposite of 'maximum' is 'minimum'."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m013",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: Mars, Venus, Jupiter or Moon?",
+   "options": [
+    "Venus",
+    "Mars",
+    "Moon",
+    "Jupiter"
+   ],
+   "correct": 2,
+   "explanation": "The moon is not a planet."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m014",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: triangle, square, circle or cube?",
+   "options": [
+    "square",
+    "cube",
+    "triangle",
+    "circle"
+   ],
+   "correct": 1,
+   "explanation": "A cube is 3d; the others are flat shapes."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m015",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: run, jump, swim or happy?",
+   "options": [
+    "happy",
+    "run",
+    "jump",
+    "swim"
+   ],
+   "correct": 0,
+   "explanation": "Happy is an adjective; the others are verbs."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m016",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is an adverb?",
+   "options": [
+    "careful",
+    "care",
+    "careless",
+    "carefully"
+   ],
+   "correct": 3,
+   "explanation": "'carefully' tells us how: an adverb."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m017",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is a pronoun?",
+   "options": [
+    "table",
+    "under",
+    "quick",
+    "they"
+   ],
+   "correct": 3,
+   "explanation": "'they' replaces a noun: a pronoun."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m018",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word comes first in the dictionary?",
+   "options": [
+    "seed",
+    "sock",
+    "sand",
+    "sun"
+   ],
+   "correct": 2,
+   "explanation": "Alphabetical order: sand, seed, sock, sun."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m019",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word comes first in the dictionary?",
+   "options": [
+    "shop",
+    "shoe",
+    "shut",
+    "ship"
+   ],
+   "correct": 3,
+   "explanation": "Alphabetical order: ship, shoe, shop, shut."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m020",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What is the plural of 'knife'?",
+   "options": [
+    "knivs",
+    "knives",
+    "knifes",
+    "knifies"
+   ],
+   "correct": 1,
+   "explanation": "one knife, two knives."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m021",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "What is the plural of 'tooth'?",
+   "options": [
+    "tooths",
+    "teeth",
+    "toothes",
+    "teeths"
+   ],
+   "correct": 1,
+   "explanation": "one tooth, two teeth."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m022",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Complete the series: October, November, ___",
+   "options": [
+    "December",
+    "September",
+    "January",
+    "August"
+   ],
+   "correct": 0,
+   "explanation": "The next one is 'December'."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m023",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Complete the series: first, second, third, ___",
+   "options": [
+    "fourth",
+    "forth",
+    "fourteenth",
+    "fifth"
+   ],
+   "correct": 0,
+   "explanation": "The next one is 'fourth'."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m024",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'butterfly'?",
+   "options": [
+    "11",
+    "9",
+    "8",
+    "10"
+   ],
+   "correct": 1,
+   "explanation": "b-u-t-t-e-r-f-l-y = 9 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m025",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'chocolate'?",
+   "options": [
+    "10",
+    "8",
+    "11",
+    "9"
+   ],
+   "correct": 3,
+   "explanation": "c-h-o-c-o-l-a-t-e = 9 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m026",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'important'?",
+   "options": [
+    "11",
+    "9",
+    "10",
+    "8"
+   ],
+   "correct": 1,
+   "explanation": "i-m-p-o-r-t-a-n-t = 9 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m027",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'dinosaur'?",
+   "options": [
+    "9",
+    "10",
+    "8",
+    "7"
+   ],
+   "correct": 2,
+   "explanation": "d-i-n-o-s-a-u-r = 8 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m028",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word makes a new word with 'light'?",
+   "options": [
+    "apple",
+    "river",
+    "pencil",
+    "house"
+   ],
+   "correct": 3,
+   "explanation": "light + house = lighthouse."
+  },
+  {
+   "id": "en_retos_rapidos_l4_m029",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word makes a new word with 'week'?",
+   "options": [
+    "door",
+    "cake",
+    "end",
+    "hill"
+   ],
+   "correct": 2,
+   "explanation": "week + end = weekend."
+  },
+  {
+   "id": "en_retos_rapidos_l4_o001",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the letters in order to spell 'SPIDER'",
+   "pieces": [
+    "S",
+    "P",
+    "I",
+    "D",
+    "E",
+    "R"
+   ],
+   "correctOrder": [
+    "S",
+    "P",
+    "I",
+    "D",
+    "E",
+    "R"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "S-P-I-D-E-R = SPIDER"
+  },
+  {
+   "id": "en_retos_rapidos_l4_o002",
+   "module": "retos_rapidos",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the letters in order to spell 'GARDEN'",
+   "pieces": [
+    "G",
+    "A",
+    "R",
+    "D",
+    "E",
+    "N"
+   ],
+   "correctOrder": [
+    "G",
+    "A",
+    "R",
+    "D",
+    "E",
+    "N"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "G-A-R-D-E-N = GARDEN"
+  },
+  {
+   "id": "en_retos_rapidos_l5_m001",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'reluctant'?",
+   "options": [
+    "careless",
+    "unwilling",
+    "honest",
+    "eager"
+   ],
+   "correct": 1,
+   "explanation": "'reluctant' and 'unwilling' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m002",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'cautious'?",
+   "options": [
+    "cheerful",
+    "curious",
+    "reckless",
+    "careful"
+   ],
+   "correct": 3,
+   "explanation": "'cautious' and 'careful' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m003",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'abundant'?",
+   "options": [
+    "plentiful",
+    "scarce",
+    "fragile",
+    "silent"
+   ],
+   "correct": 0,
+   "explanation": "'abundant' and 'plentiful' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m004",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'vivid'?",
+   "options": [
+    "bright",
+    "slow",
+    "rough",
+    "dull"
+   ],
+   "correct": 0,
+   "explanation": "'vivid' and 'bright' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m005",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'frequently'?",
+   "options": [
+    "often",
+    "rarely",
+    "never",
+    "slowly"
+   ],
+   "correct": 0,
+   "explanation": "'frequently' and 'often' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m006",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'conceal'?",
+   "options": [
+    "build",
+    "reveal",
+    "hide",
+    "follow"
+   ],
+   "correct": 2,
+   "explanation": "'conceal' and 'hide' mean the same."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m007",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'transparent'?",
+   "options": [
+    "clear",
+    "glassy",
+    "opaque",
+    "bright"
+   ],
+   "correct": 2,
+   "explanation": "The opposite of 'transparent' is 'opaque'."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m008",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'optimistic'?",
+   "options": [
+    "positive",
+    "cheerful",
+    "pessimistic",
+    "hopeful"
+   ],
+   "correct": 2,
+   "explanation": "The opposite of 'optimistic' is 'pessimistic'."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m009",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'scarce'?",
+   "options": [
+    "short",
+    "plentiful",
+    "rare",
+    "limited"
+   ],
+   "correct": 1,
+   "explanation": "The opposite of 'scarce' is 'plentiful'."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m010",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'praise'?",
+   "options": [
+    "applaud",
+    "criticise",
+    "admire",
+    "thank"
+   ],
+   "correct": 1,
+   "explanation": "The opposite of 'praise' is 'criticise'."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m011",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'voluntary'?",
+   "options": [
+    "free",
+    "willing",
+    "compulsory",
+    "optional"
+   ],
+   "correct": 2,
+   "explanation": "The opposite of 'voluntary' is 'compulsory'."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m012",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'ascend'?",
+   "options": [
+    "mount",
+    "descend",
+    "climb",
+    "rise"
+   ],
+   "correct": 1,
+   "explanation": "The opposite of 'ascend' is 'descend'."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m013",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: quickly, slowly, loudly or lovely?",
+   "options": [
+    "quickly",
+    "loudly",
+    "lovely",
+    "slowly"
+   ],
+   "correct": 2,
+   "explanation": "Lovely is an adjective; the others are adverbs."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m014",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: Paris, Madrid, Rome or France?",
+   "options": [
+    "Madrid",
+    "France",
+    "Paris",
+    "Rome"
+   ],
+   "correct": 1,
+   "explanation": "France is a country; the others are capital cities."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m015",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: liquid, solid, gas or metal?",
+   "options": [
+    "solid",
+    "metal",
+    "gas",
+    "liquid"
+   ],
+   "correct": 1,
+   "explanation": "Metal is a material; the others are states of matter."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m016",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is a preposition?",
+   "options": [
+    "believe",
+    "because",
+    "beautiful",
+    "beneath"
+   ],
+   "correct": 3,
+   "explanation": "'beneath' tells us where: a preposition."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m017",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is a conjunction?",
+   "options": [
+    "already",
+    "although",
+    "almost",
+    "always"
+   ],
+   "correct": 1,
+   "explanation": "'although' joins two ideas: a conjunction."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m018",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word comes first in the dictionary?",
+   "options": [
+    "play",
+    "plain",
+    "plant",
+    "plan"
+   ],
+   "correct": 1,
+   "explanation": "Alphabetical order: plain, plan, plant, play."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m019",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word comes first in the dictionary?",
+   "options": [
+    "stair",
+    "star",
+    "stay",
+    "start"
+   ],
+   "correct": 0,
+   "explanation": "Alphabetical order: stair, star, start, stay."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m020",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is the plural of 'woman'?",
+   "options": [
+    "women",
+    "womens",
+    "womans",
+    "womanes"
+   ],
+   "correct": 0,
+   "explanation": "one woman, two women."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m021",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "What is the plural of 'crisis'?",
+   "options": [
+    "crisi",
+    "crisiss",
+    "crisises",
+    "crises"
+   ],
+   "correct": 3,
+   "explanation": "one crisis, two crises."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m022",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Complete the series: past, present, ___",
+   "options": [
+    "present perfect",
+    "future tense",
+    "future",
+    "history"
+   ],
+   "correct": 2,
+   "explanation": "The next one is 'future'."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m023",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Complete the series: solid, liquid, ___",
+   "options": [
+    "ice",
+    "water",
+    "steam",
+    "gas"
+   ],
+   "correct": 3,
+   "explanation": "The next one is 'gas'."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m024",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'Wednesday'?",
+   "options": [
+    "10",
+    "11",
+    "9",
+    "8"
+   ],
+   "correct": 2,
+   "explanation": "W-e-d-n-e-s-d-a-y = 9 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m025",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'necessary'?",
+   "options": [
+    "9",
+    "10",
+    "11",
+    "8"
+   ],
+   "correct": 0,
+   "explanation": "n-e-c-e-s-s-a-r-y = 9 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m026",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'neighbour'?",
+   "options": [
+    "10",
+    "8",
+    "11",
+    "9"
+   ],
+   "correct": 3,
+   "explanation": "n-e-i-g-h-b-o-u-r = 9 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m027",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many letters are there in 'environment'?",
+   "options": [
+    "11",
+    "12",
+    "13",
+    "10"
+   ],
+   "correct": 0,
+   "explanation": "e-n-v-i-r-o-n-m-e-n-t = 11 letters."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m028",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word makes a new word with 'every'?",
+   "options": [
+    "garden",
+    "thing",
+    "window",
+    "table"
+   ],
+   "correct": 1,
+   "explanation": "every + thing = everything."
+  },
+  {
+   "id": "en_retos_rapidos_l5_m029",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word makes a new word with 'some'?",
+   "options": [
+    "rivers",
+    "times",
+    "pencils",
+    "chairs"
+   ],
+   "correct": 1,
+   "explanation": "some + times = sometimes."
+  },
+  {
+   "id": "en_retos_rapidos_l5_o001",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the letters in order to spell 'CASTLE'",
+   "pieces": [
+    "C",
+    "A",
+    "S",
+    "T",
+    "L",
+    "E"
+   ],
+   "correctOrder": [
+    "C",
+    "A",
+    "S",
+    "T",
+    "L",
+    "E"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "C-A-S-T-L-E = CASTLE"
+  },
+  {
+   "id": "en_retos_rapidos_l5_o002",
+   "module": "retos_rapidos",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the letters in order to spell 'KNIGHT'",
+   "pieces": [
+    "K",
+    "N",
+    "I",
+    "G",
+    "H",
+    "T"
+   ],
+   "correctOrder": [
+    "K",
+    "N",
+    "I",
+    "G",
+    "H",
+    "T"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "K-N-I-G-H-T = KNIGHT"
+  }
+ ]
+}

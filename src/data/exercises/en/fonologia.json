@@ -1,1 +1,4800 @@
-{"exercises":[]}
+{
+ "exercises": [
+  {
+   "id": "en_fonologia_l1_m001",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'cat'?",
+   "options": [
+    "3",
+    "4",
+    "2",
+    "1"
+   ],
+   "correct": 3,
+   "explanation": "cat = 1 syllable",
+   "word": "cat",
+   "syllables": [
+    "cat"
+   ]
+  },
+  {
+   "id": "en_fonologia_l1_m002",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'frog'?",
+   "options": [
+    "1",
+    "4",
+    "3",
+    "2"
+   ],
+   "correct": 0,
+   "explanation": "frog = 1 syllable",
+   "word": "frog",
+   "syllables": [
+    "frog"
+   ]
+  },
+  {
+   "id": "en_fonologia_l1_m003",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'rabbit'?",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "correct": 0,
+   "explanation": "rab-bit = 2 syllables",
+   "word": "rabbit",
+   "syllables": [
+    "rab",
+    "bit"
+   ]
+  },
+  {
+   "id": "en_fonologia_l1_m004",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'sunset'?",
+   "options": [
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "correct": 2,
+   "explanation": "sun-set = 2 syllables",
+   "word": "sunset",
+   "syllables": [
+    "sun",
+    "set"
+   ]
+  },
+  {
+   "id": "en_fonologia_l1_m005",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'picnic'?",
+   "options": [
+    "3",
+    "4",
+    "1",
+    "2"
+   ],
+   "correct": 3,
+   "explanation": "pic-nic = 2 syllables",
+   "word": "picnic",
+   "syllables": [
+    "pic",
+    "nic"
+   ]
+  },
+  {
+   "id": "en_fonologia_l1_m006",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'pencil'?",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "correct": 2,
+   "explanation": "pen-cil = 2 syllables",
+   "word": "pencil",
+   "syllables": [
+    "pen",
+    "cil"
+   ]
+  },
+  {
+   "id": "en_fonologia_l1_m007",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'tiger'?",
+   "options": [
+    "4",
+    "1",
+    "2",
+    "3"
+   ],
+   "correct": 2,
+   "explanation": "ti-ger = 2 syllables",
+   "word": "tiger",
+   "syllables": [
+    "ti",
+    "ger"
+   ]
+  },
+  {
+   "id": "en_fonologia_l1_m008",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'happy'?",
+   "options": [
+    "2",
+    "4",
+    "1",
+    "3"
+   ],
+   "correct": 0,
+   "explanation": "hap-py = 2 syllables",
+   "word": "happy",
+   "syllables": [
+    "hap",
+    "py"
+   ]
+  },
+  {
+   "id": "en_fonologia_l1_m009",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'lemon'?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "lem-on = 2 syllables",
+   "word": "lemon",
+   "syllables": [
+    "lem",
+    "on"
+   ]
+  },
+  {
+   "id": "en_fonologia_l1_m010",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'button'?",
+   "options": [
+    "4",
+    "1",
+    "2",
+    "3"
+   ],
+   "correct": 2,
+   "explanation": "but-ton = 2 syllables",
+   "word": "button",
+   "syllables": [
+    "but",
+    "ton"
+   ]
+  },
+  {
+   "id": "en_fonologia_l1_m011",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'bed'?",
+   "options": [
+    "4",
+    "1",
+    "2",
+    "3"
+   ],
+   "correct": 1,
+   "explanation": "bed = 1 syllable",
+   "word": "bed",
+   "syllables": [
+    "bed"
+   ]
+  },
+  {
+   "id": "en_fonologia_l1_m012",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'sandwich'?",
+   "options": [
+    "4",
+    "1",
+    "2",
+    "3"
+   ],
+   "correct": 2,
+   "explanation": "sand-wich = 2 syllables",
+   "word": "sandwich",
+   "syllables": [
+    "sand",
+    "wich"
+   ]
+  },
+  {
+   "id": "en_fonologia_l1_o001",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "rab",
+    "bit"
+   ],
+   "correctOrder": [
+    "rab",
+    "bit"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "rab-bit = rabbit",
+   "word": "rabbit"
+  },
+  {
+   "id": "en_fonologia_l1_o002",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "sun",
+    "set"
+   ],
+   "correctOrder": [
+    "sun",
+    "set"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "sun-set = sunset",
+   "word": "sunset"
+  },
+  {
+   "id": "en_fonologia_l1_o003",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "pic",
+    "nic"
+   ],
+   "correctOrder": [
+    "pic",
+    "nic"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "pic-nic = picnic",
+   "word": "picnic"
+  },
+  {
+   "id": "en_fonologia_l1_o004",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "pen",
+    "cil"
+   ],
+   "correctOrder": [
+    "pen",
+    "cil"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "pen-cil = pencil",
+   "word": "pencil"
+  },
+  {
+   "id": "en_fonologia_l1_o005",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "ti",
+    "ger"
+   ],
+   "correctOrder": [
+    "ti",
+    "ger"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ti-ger = tiger",
+   "word": "tiger"
+  },
+  {
+   "id": "en_fonologia_l1_o006",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "hap",
+    "py"
+   ],
+   "correctOrder": [
+    "hap",
+    "py"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "hap-py = happy",
+   "word": "happy"
+  },
+  {
+   "id": "en_fonologia_l1_o007",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "lem",
+    "on"
+   ],
+   "correctOrder": [
+    "lem",
+    "on"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "lem-on = lemon",
+   "word": "lemon"
+  },
+  {
+   "id": "en_fonologia_l1_o008",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "but",
+    "ton"
+   ],
+   "correctOrder": [
+    "but",
+    "ton"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "but-ton = button",
+   "word": "button"
+  },
+  {
+   "id": "en_fonologia_l1_o009",
+   "module": "fonologia",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "sand",
+    "wich"
+   ],
+   "correctOrder": [
+    "sand",
+    "wich"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "sand-wich = sandwich",
+   "word": "sandwich"
+  },
+  {
+   "id": "en_fonologia_l1_m013",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'cat'?",
+   "options": [
+    "hat",
+    "cot",
+    "car",
+    "cup"
+   ],
+   "correct": 0,
+   "explanation": "'cat' and 'hat' rhyme: they end with the same sound.",
+   "word": "cat"
+  },
+  {
+   "id": "en_fonologia_l1_m014",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'dog'?",
+   "options": [
+    "den",
+    "door",
+    "dig",
+    "log"
+   ],
+   "correct": 3,
+   "explanation": "'dog' and 'log' rhyme: they end with the same sound.",
+   "word": "dog"
+  },
+  {
+   "id": "en_fonologia_l1_m015",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'sun'?",
+   "options": [
+    "sad",
+    "sea",
+    "sit",
+    "run"
+   ],
+   "correct": 3,
+   "explanation": "'sun' and 'run' rhyme: they end with the same sound.",
+   "word": "sun"
+  },
+  {
+   "id": "en_fonologia_l1_m016",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'bed'?",
+   "options": [
+    "red",
+    "bad",
+    "bin",
+    "bus"
+   ],
+   "correct": 0,
+   "explanation": "'bed' and 'red' rhyme: they end with the same sound.",
+   "word": "bed"
+  },
+  {
+   "id": "en_fonologia_l1_m017",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'pig'?",
+   "options": [
+    "wig",
+    "pan",
+    "pet",
+    "peg"
+   ],
+   "correct": 0,
+   "explanation": "'pig' and 'wig' rhyme: they end with the same sound.",
+   "word": "pig"
+  },
+  {
+   "id": "en_fonologia_l1_m018",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'hen'?",
+   "options": [
+    "hat",
+    "him",
+    "hop",
+    "ten"
+   ],
+   "correct": 3,
+   "explanation": "'hen' and 'ten' rhyme: they end with the same sound.",
+   "word": "hen"
+  },
+  {
+   "id": "en_fonologia_l1_m019",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'fox'?",
+   "options": [
+    "fun",
+    "fig",
+    "box",
+    "fan"
+   ],
+   "correct": 2,
+   "explanation": "'fox' and 'box' rhyme: they end with the same sound.",
+   "word": "fox"
+  },
+  {
+   "id": "en_fonologia_l1_m020",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'bug'?",
+   "options": [
+    "big",
+    "rug",
+    "bag",
+    "bat"
+   ],
+   "correct": 1,
+   "explanation": "'bug' and 'rug' rhyme: they end with the same sound.",
+   "word": "bug"
+  },
+  {
+   "id": "en_fonologia_l1_m021",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'sun'?",
+   "options": [
+    "fish",
+    "map",
+    "sock",
+    "hat"
+   ],
+   "correct": 2,
+   "explanation": "sun and sock both start with /s/.",
+   "word": "sun"
+  },
+  {
+   "id": "en_fonologia_l1_m022",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'mum'?",
+   "options": [
+    "milk",
+    "nut",
+    "web",
+    "dog"
+   ],
+   "correct": 0,
+   "explanation": "mum and milk both start with /m/.",
+   "word": "mum"
+  },
+  {
+   "id": "en_fonologia_l1_m023",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'bat'?",
+   "options": [
+    "bus",
+    "dig",
+    "van",
+    "pan"
+   ],
+   "correct": 0,
+   "explanation": "bat and bus both start with /b/. Careful: b and d look alike!",
+   "word": "bat"
+  },
+  {
+   "id": "en_fonologia_l1_m024",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'dad'?",
+   "options": [
+    "duck",
+    "bed",
+    "cat",
+    "pot"
+   ],
+   "correct": 0,
+   "explanation": "dad and duck both start with /d/.",
+   "word": "dad"
+  },
+  {
+   "id": "en_fonologia_l1_m025",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'pen'?",
+   "options": [
+    "dog",
+    "pig",
+    "bin",
+    "fan"
+   ],
+   "correct": 1,
+   "explanation": "pen and pig both start with /p/.",
+   "word": "pen"
+  },
+  {
+   "id": "en_fonologia_l1_m026",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'leg'?",
+   "options": [
+    "yes",
+    "lip",
+    "red",
+    "nut"
+   ],
+   "correct": 1,
+   "explanation": "leg and lip both start with /l/.",
+   "word": "leg"
+  },
+  {
+   "id": "en_fonologia_l1_m027",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'cat'?",
+   "options": [
+    "pen",
+    "cup",
+    "dog",
+    "map"
+   ],
+   "correct": 3,
+   "explanation": "cat and map have the short a sound.",
+   "word": "cat"
+  },
+  {
+   "id": "en_fonologia_l1_m028",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'pig'?",
+   "options": [
+    "pan",
+    "fin",
+    "pen",
+    "pot"
+   ],
+   "correct": 1,
+   "explanation": "pig and fin have the short i sound.",
+   "word": "pig"
+  },
+  {
+   "id": "en_fonologia_l1_m029",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'dog'?",
+   "options": [
+    "hot",
+    "dig",
+    "hat",
+    "cut"
+   ],
+   "correct": 0,
+   "explanation": "dog and hot have the short o sound.",
+   "word": "dog"
+  },
+  {
+   "id": "en_fonologia_l1_m030",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'bed'?",
+   "options": [
+    "leg",
+    "bad",
+    "bid",
+    "bud"
+   ],
+   "correct": 0,
+   "explanation": "bed and leg have the short e sound.",
+   "word": "bed"
+  },
+  {
+   "id": "en_fonologia_l1_m031",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'cup'?",
+   "options": [
+    "cap",
+    "bus",
+    "cop",
+    "kit"
+   ],
+   "correct": 1,
+   "explanation": "cup and bus have the short u sound.",
+   "word": "cup"
+  },
+  {
+   "id": "en_fonologia_l1_m032",
+   "module": "fonologia",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'sit'?",
+   "options": [
+    "lip",
+    "sun",
+    "sat",
+    "set"
+   ],
+   "correct": 0,
+   "explanation": "sit and lip have the short i sound.",
+   "word": "sit"
+  },
+  {
+   "id": "en_fonologia_l1_d001",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "cat",
+   "hint": "It has 3 letters",
+   "explanation": "c-a-t.",
+   "dictation": true,
+   "word": "cat"
+  },
+  {
+   "id": "en_fonologia_l1_d002",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "dog",
+   "hint": "It has 3 letters",
+   "explanation": "d-o-g.",
+   "dictation": true,
+   "word": "dog"
+  },
+  {
+   "id": "en_fonologia_l1_d003",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "sun",
+   "hint": "It has 3 letters",
+   "explanation": "s-u-n.",
+   "dictation": true,
+   "word": "sun"
+  },
+  {
+   "id": "en_fonologia_l1_d004",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "bed",
+   "hint": "It has 3 letters",
+   "explanation": "b-e-d.",
+   "dictation": true,
+   "word": "bed"
+  },
+  {
+   "id": "en_fonologia_l1_d005",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "pig",
+   "hint": "It has 3 letters",
+   "explanation": "p-i-g.",
+   "dictation": true,
+   "word": "pig"
+  },
+  {
+   "id": "en_fonologia_l1_d006",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "hen",
+   "hint": "It has 3 letters",
+   "explanation": "h-e-n.",
+   "dictation": true,
+   "word": "hen"
+  },
+  {
+   "id": "en_fonologia_l1_d007",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "cup",
+   "hint": "It has 3 letters",
+   "explanation": "c-u-p.",
+   "dictation": true,
+   "word": "cup"
+  },
+  {
+   "id": "en_fonologia_l1_d008",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "fox",
+   "hint": "It has 3 letters",
+   "explanation": "f-o-x.",
+   "dictation": true,
+   "word": "fox"
+  },
+  {
+   "id": "en_fonologia_l1_d009",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "jam",
+   "hint": "It has 3 letters",
+   "explanation": "j-a-m.",
+   "dictation": true,
+   "word": "jam"
+  },
+  {
+   "id": "en_fonologia_l1_d010",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "web",
+   "hint": "It has 3 letters",
+   "explanation": "w-e-b.",
+   "dictation": true,
+   "word": "web"
+  },
+  {
+   "id": "en_fonologia_l1_d011",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "net",
+   "hint": "It has 3 letters",
+   "explanation": "n-e-t.",
+   "dictation": true,
+   "word": "net"
+  },
+  {
+   "id": "en_fonologia_l1_d012",
+   "module": "fonologia",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "mud",
+   "hint": "It has 3 letters",
+   "explanation": "m-u-d.",
+   "dictation": true,
+   "word": "mud"
+  },
+  {
+   "id": "en_fonologia_l2_m001",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'monkey'?",
+   "options": [
+    "4",
+    "3",
+    "1",
+    "2"
+   ],
+   "correct": 3,
+   "explanation": "mon-key = 2 syllables",
+   "word": "monkey",
+   "syllables": [
+    "mon",
+    "key"
+   ]
+  },
+  {
+   "id": "en_fonologia_l2_m002",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'carpet'?",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "correct": 2,
+   "explanation": "car-pet = 2 syllables",
+   "word": "carpet",
+   "syllables": [
+    "car",
+    "pet"
+   ]
+  },
+  {
+   "id": "en_fonologia_l2_m003",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'window'?",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "correct": 2,
+   "explanation": "win-dow = 2 syllables",
+   "word": "window",
+   "syllables": [
+    "win",
+    "dow"
+   ]
+  },
+  {
+   "id": "en_fonologia_l2_m004",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'robot'?",
+   "options": [
+    "3",
+    "2",
+    "1",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "ro-bot = 2 syllables",
+   "word": "robot",
+   "syllables": [
+    "ro",
+    "bot"
+   ]
+  },
+  {
+   "id": "en_fonologia_l2_m005",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'basket'?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "1"
+   ],
+   "correct": 0,
+   "explanation": "bas-ket = 2 syllables",
+   "word": "basket",
+   "syllables": [
+    "bas",
+    "ket"
+   ]
+  },
+  {
+   "id": "en_fonologia_l2_m006",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'garden'?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ],
+   "correct": 1,
+   "explanation": "gar-den = 2 syllables",
+   "word": "garden",
+   "syllables": [
+    "gar",
+    "den"
+   ]
+  },
+  {
+   "id": "en_fonologia_l2_m007",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'chicken'?",
+   "options": [
+    "3",
+    "1",
+    "4",
+    "2"
+   ],
+   "correct": 3,
+   "explanation": "chick-en = 2 syllables",
+   "word": "chicken",
+   "syllables": [
+    "chick",
+    "en"
+   ]
+  },
+  {
+   "id": "en_fonologia_l2_m008",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'tennis'?",
+   "options": [
+    "1",
+    "4",
+    "3",
+    "2"
+   ],
+   "correct": 3,
+   "explanation": "ten-nis = 2 syllables",
+   "word": "tennis",
+   "syllables": [
+    "ten",
+    "nis"
+   ]
+  },
+  {
+   "id": "en_fonologia_l2_m009",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'dinosaur'?",
+   "options": [
+    "4",
+    "2",
+    "3",
+    "1"
+   ],
+   "correct": 2,
+   "explanation": "di-no-saur = 3 syllables",
+   "word": "dinosaur",
+   "syllables": [
+    "di",
+    "no",
+    "saur"
+   ]
+  },
+  {
+   "id": "en_fonologia_l2_m010",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'banana'?",
+   "options": [
+    "3",
+    "1",
+    "4",
+    "2"
+   ],
+   "correct": 0,
+   "explanation": "ba-na-na = 3 syllables",
+   "word": "banana",
+   "syllables": [
+    "ba",
+    "na",
+    "na"
+   ]
+  },
+  {
+   "id": "en_fonologia_l2_m011",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'tomato'?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "1"
+   ],
+   "correct": 2,
+   "explanation": "to-ma-to = 3 syllables",
+   "word": "tomato",
+   "syllables": [
+    "to",
+    "ma",
+    "to"
+   ]
+  },
+  {
+   "id": "en_fonologia_l2_m012",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'animal'?",
+   "options": [
+    "1",
+    "3",
+    "2",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "an-i-mal = 3 syllables",
+   "word": "animal",
+   "syllables": [
+    "an",
+    "i",
+    "mal"
+   ]
+  },
+  {
+   "id": "en_fonologia_l2_o001",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "mon",
+    "key"
+   ],
+   "correctOrder": [
+    "mon",
+    "key"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "mon-key = monkey",
+   "word": "monkey"
+  },
+  {
+   "id": "en_fonologia_l2_o002",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "car",
+    "pet"
+   ],
+   "correctOrder": [
+    "car",
+    "pet"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "car-pet = carpet",
+   "word": "carpet"
+  },
+  {
+   "id": "en_fonologia_l2_o003",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "win",
+    "dow"
+   ],
+   "correctOrder": [
+    "win",
+    "dow"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "win-dow = window",
+   "word": "window"
+  },
+  {
+   "id": "en_fonologia_l2_o004",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "ro",
+    "bot"
+   ],
+   "correctOrder": [
+    "ro",
+    "bot"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ro-bot = robot",
+   "word": "robot"
+  },
+  {
+   "id": "en_fonologia_l2_o005",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "bas",
+    "ket"
+   ],
+   "correctOrder": [
+    "bas",
+    "ket"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "bas-ket = basket",
+   "word": "basket"
+  },
+  {
+   "id": "en_fonologia_l2_o006",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "gar",
+    "den"
+   ],
+   "correctOrder": [
+    "gar",
+    "den"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "gar-den = garden",
+   "word": "garden"
+  },
+  {
+   "id": "en_fonologia_l2_o007",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "chick",
+    "en"
+   ],
+   "correctOrder": [
+    "chick",
+    "en"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "chick-en = chicken",
+   "word": "chicken"
+  },
+  {
+   "id": "en_fonologia_l2_o008",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "ten",
+    "nis"
+   ],
+   "correctOrder": [
+    "ten",
+    "nis"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ten-nis = tennis",
+   "word": "tennis"
+  },
+  {
+   "id": "en_fonologia_l2_o009",
+   "module": "fonologia",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "di",
+    "no",
+    "saur"
+   ],
+   "correctOrder": [
+    "di",
+    "no",
+    "saur"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "di-no-saur = dinosaur",
+   "word": "dinosaur"
+  },
+  {
+   "id": "en_fonologia_l2_m013",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'ship'?",
+   "options": [
+    "shed",
+    "chip",
+    "shell",
+    "shop"
+   ],
+   "correct": 1,
+   "explanation": "'ship' and 'chip' rhyme: they end with the same sound.",
+   "word": "ship"
+  },
+  {
+   "id": "en_fonologia_l2_m014",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'fish'?",
+   "options": [
+    "film",
+    "fist",
+    "dish",
+    "fill"
+   ],
+   "correct": 2,
+   "explanation": "'fish' and 'dish' rhyme: they end with the same sound.",
+   "word": "fish"
+  },
+  {
+   "id": "en_fonologia_l2_m015",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'duck'?",
+   "options": [
+    "desk",
+    "dock",
+    "truck",
+    "dark"
+   ],
+   "correct": 2,
+   "explanation": "'duck' and 'truck' rhyme: they end with the same sound.",
+   "word": "duck"
+  },
+  {
+   "id": "en_fonologia_l2_m016",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'ring'?",
+   "options": [
+    "rain",
+    "king",
+    "rang",
+    "road"
+   ],
+   "correct": 1,
+   "explanation": "'ring' and 'king' rhyme: they end with the same sound.",
+   "word": "ring"
+  },
+  {
+   "id": "en_fonologia_l2_m017",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'clock'?",
+   "options": [
+    "clap",
+    "sock",
+    "cloud",
+    "click"
+   ],
+   "correct": 1,
+   "explanation": "'clock' and 'sock' rhyme: they end with the same sound.",
+   "word": "clock"
+  },
+  {
+   "id": "en_fonologia_l2_m018",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'shell'?",
+   "options": [
+    "shelf",
+    "ship",
+    "shall",
+    "bell"
+   ],
+   "correct": 3,
+   "explanation": "'shell' and 'bell' rhyme: they end with the same sound.",
+   "word": "shell"
+  },
+  {
+   "id": "en_fonologia_l2_m019",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'bath'?",
+   "options": [
+    "bake",
+    "bark",
+    "bat",
+    "path"
+   ],
+   "correct": 3,
+   "explanation": "'bath' and 'path' rhyme: they end with the same sound.",
+   "word": "bath"
+  },
+  {
+   "id": "en_fonologia_l2_m020",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'moth'?",
+   "options": [
+    "map",
+    "mud",
+    "mouth",
+    "cloth"
+   ],
+   "correct": 3,
+   "explanation": "'moth' and 'cloth' rhyme: they end with the same sound.",
+   "word": "moth"
+  },
+  {
+   "id": "en_fonologia_l2_m021",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'ship'?",
+   "options": [
+    "shoe",
+    "sock",
+    "hip",
+    "chip"
+   ],
+   "correct": 0,
+   "explanation": "ship and shoe both start with /sh/.",
+   "word": "ship"
+  },
+  {
+   "id": "en_fonologia_l2_m022",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'chair'?",
+   "options": [
+    "cat",
+    "cheese",
+    "shoe",
+    "hair"
+   ],
+   "correct": 1,
+   "explanation": "chair and cheese both start with /ch/.",
+   "word": "chair"
+  },
+  {
+   "id": "en_fonologia_l2_m023",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'thumb'?",
+   "options": [
+    "fun",
+    "think",
+    "tent",
+    "sun"
+   ],
+   "correct": 1,
+   "explanation": "thumb and think both start with /th/.",
+   "word": "thumb"
+  },
+  {
+   "id": "en_fonologia_l2_m024",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'phone'?",
+   "options": [
+    "pot",
+    "fish",
+    "hop",
+    "pen"
+   ],
+   "correct": 1,
+   "explanation": "ph sounds like /f/: phone and fish start with the same sound.",
+   "word": "phone"
+  },
+  {
+   "id": "en_fonologia_l2_m025",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'whale'?",
+   "options": [
+    "window",
+    "hat",
+    "hole",
+    "van"
+   ],
+   "correct": 0,
+   "explanation": "wh sounds like /w/: whale and window start with the same sound.",
+   "word": "whale"
+  },
+  {
+   "id": "en_fonologia_l2_m026",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'queen'?",
+   "options": [
+    "cup",
+    "quiet",
+    "green",
+    "kite"
+   ],
+   "correct": 1,
+   "explanation": "qu sounds like /kw/: queen and quiet.",
+   "word": "queen"
+  },
+  {
+   "id": "en_fonologia_l2_m027",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'ship'?",
+   "options": [
+    "shell",
+    "shop",
+    "shut",
+    "milk"
+   ],
+   "correct": 3,
+   "explanation": "ship and milk have the short i sound.",
+   "word": "ship"
+  },
+  {
+   "id": "en_fonologia_l2_m028",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'chop'?",
+   "options": [
+    "chip",
+    "chin",
+    "chat",
+    "frog"
+   ],
+   "correct": 3,
+   "explanation": "chop and frog have the short o sound.",
+   "word": "chop"
+  },
+  {
+   "id": "en_fonologia_l2_m029",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'much'?",
+   "options": [
+    "match",
+    "milk",
+    "mesh",
+    "duck"
+   ],
+   "correct": 3,
+   "explanation": "much and duck have the short u sound.",
+   "word": "much"
+  },
+  {
+   "id": "en_fonologia_l2_m030",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'thank'?",
+   "options": [
+    "think",
+    "black",
+    "thump",
+    "thick"
+   ],
+   "correct": 1,
+   "explanation": "thank and black have the short a sound.",
+   "word": "thank"
+  },
+  {
+   "id": "en_fonologia_l2_m031",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'bell'?",
+   "options": [
+    "ball",
+    "dress",
+    "bill",
+    "bull"
+   ],
+   "correct": 1,
+   "explanation": "bell and dress have the short e sound.",
+   "word": "bell"
+  },
+  {
+   "id": "en_fonologia_l2_m032",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'lunch'?",
+   "options": [
+    "lift",
+    "drum",
+    "lamp",
+    "latch"
+   ],
+   "correct": 1,
+   "explanation": "lunch and drum have the short u sound.",
+   "word": "lunch"
+  },
+  {
+   "id": "en_fonologia_l2_m033",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT have the 'sh' sound?",
+   "options": [
+    "shell",
+    "fish",
+    "chip",
+    "shop"
+   ],
+   "correct": 2,
+   "explanation": "chip has the 'ch' sound, not 'sh'."
+  },
+  {
+   "id": "en_fonologia_l2_m034",
+   "module": "fonologia",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT have the 'th' sound?",
+   "options": [
+    "tent",
+    "bath",
+    "thin",
+    "three"
+   ],
+   "correct": 0,
+   "explanation": "tent starts with t, not th."
+  },
+  {
+   "id": "en_fonologia_l2_d001",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "ship",
+   "hint": "It has 4 letters",
+   "explanation": "s-h-i-p.",
+   "dictation": true,
+   "word": "ship"
+  },
+  {
+   "id": "en_fonologia_l2_d002",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "chop",
+   "hint": "It has 4 letters",
+   "explanation": "c-h-o-p.",
+   "dictation": true,
+   "word": "chop"
+  },
+  {
+   "id": "en_fonologia_l2_d003",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "thin",
+   "hint": "It has 4 letters",
+   "explanation": "t-h-i-n.",
+   "dictation": true,
+   "word": "thin"
+  },
+  {
+   "id": "en_fonologia_l2_d004",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "duck",
+   "hint": "It has 4 letters",
+   "explanation": "d-u-c-k. ck at the end of a short word.",
+   "dictation": true,
+   "word": "duck"
+  },
+  {
+   "id": "en_fonologia_l2_d005",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "frog",
+   "hint": "It has 4 letters",
+   "explanation": "f-r-o-g.",
+   "dictation": true,
+   "word": "frog"
+  },
+  {
+   "id": "en_fonologia_l2_d006",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "crab",
+   "hint": "It has 4 letters",
+   "explanation": "c-r-a-b.",
+   "dictation": true,
+   "word": "crab"
+  },
+  {
+   "id": "en_fonologia_l2_d007",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "shell",
+   "hint": "It has 5 letters",
+   "explanation": "s-h-e-l-l. Double l at the end.",
+   "dictation": true,
+   "word": "shell"
+  },
+  {
+   "id": "en_fonologia_l2_d008",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "lunch",
+   "hint": "It has 5 letters",
+   "explanation": "l-u-n-c-h. nch at the end.",
+   "dictation": true,
+   "word": "lunch"
+  },
+  {
+   "id": "en_fonologia_l2_d009",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "black",
+   "hint": "It has 5 letters",
+   "explanation": "b-l-a-c-k. ck at the end of a short word.",
+   "dictation": true,
+   "word": "black"
+  },
+  {
+   "id": "en_fonologia_l2_d010",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "swim",
+   "hint": "It has 4 letters",
+   "explanation": "s-w-i-m.",
+   "dictation": true,
+   "word": "swim"
+  },
+  {
+   "id": "en_fonologia_l2_d011",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "sing",
+   "hint": "It has 4 letters",
+   "explanation": "s-i-n-g. ng at the end.",
+   "dictation": true,
+   "word": "sing"
+  },
+  {
+   "id": "en_fonologia_l2_d012",
+   "module": "fonologia",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "moth",
+   "hint": "It has 4 letters",
+   "explanation": "m-o-t-h. th at the end.",
+   "dictation": true,
+   "word": "moth"
+  },
+  {
+   "id": "en_fonologia_l3_m001",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'elephant'?",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "correct": 2,
+   "explanation": "el-e-phant = 3 syllables",
+   "word": "elephant",
+   "syllables": [
+    "el",
+    "e",
+    "phant"
+   ]
+  },
+  {
+   "id": "en_fonologia_l3_m002",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'kangaroo'?",
+   "options": [
+    "4",
+    "1",
+    "3",
+    "2"
+   ],
+   "correct": 2,
+   "explanation": "kan-ga-roo = 3 syllables",
+   "word": "kangaroo",
+   "syllables": [
+    "kan",
+    "ga",
+    "roo"
+   ]
+  },
+  {
+   "id": "en_fonologia_l3_m003",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'umbrella'?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ],
+   "correct": 0,
+   "explanation": "um-brel-la = 3 syllables",
+   "word": "umbrella",
+   "syllables": [
+    "um",
+    "brel",
+    "la"
+   ]
+  },
+  {
+   "id": "en_fonologia_l3_m004",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'computer'?",
+   "options": [
+    "3",
+    "2",
+    "1",
+    "4"
+   ],
+   "correct": 0,
+   "explanation": "com-pu-ter = 3 syllables",
+   "word": "computer",
+   "syllables": [
+    "com",
+    "pu",
+    "ter"
+   ]
+  },
+  {
+   "id": "en_fonologia_l3_m005",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'potato'?",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "correct": 2,
+   "explanation": "po-ta-to = 3 syllables",
+   "word": "potato",
+   "syllables": [
+    "po",
+    "ta",
+    "to"
+   ]
+  },
+  {
+   "id": "en_fonologia_l3_m006",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'hospital'?",
+   "options": [
+    "2",
+    "3",
+    "1",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "hos-pi-tal = 3 syllables",
+   "word": "hospital",
+   "syllables": [
+    "hos",
+    "pi",
+    "tal"
+   ]
+  },
+  {
+   "id": "en_fonologia_l3_m007",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'yesterday'?",
+   "options": [
+    "1",
+    "4",
+    "3",
+    "2"
+   ],
+   "correct": 2,
+   "explanation": "yes-ter-day = 3 syllables",
+   "word": "yesterday",
+   "syllables": [
+    "yes",
+    "ter",
+    "day"
+   ]
+  },
+  {
+   "id": "en_fonologia_l3_m008",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'butterfly'?",
+   "options": [
+    "4",
+    "2",
+    "3",
+    "1"
+   ],
+   "correct": 2,
+   "explanation": "but-ter-fly = 3 syllables",
+   "word": "butterfly",
+   "syllables": [
+    "but",
+    "ter",
+    "fly"
+   ]
+  },
+  {
+   "id": "en_fonologia_l3_m009",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'octopus'?",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "correct": 0,
+   "explanation": "oc-to-pus = 3 syllables",
+   "word": "octopus",
+   "syllables": [
+    "oc",
+    "to",
+    "pus"
+   ]
+  },
+  {
+   "id": "en_fonologia_l3_m010",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'volcano'?",
+   "options": [
+    "1",
+    "3",
+    "2",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "vol-ca-no = 3 syllables",
+   "word": "volcano",
+   "syllables": [
+    "vol",
+    "ca",
+    "no"
+   ]
+  },
+  {
+   "id": "en_fonologia_l3_m011",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'important'?",
+   "options": [
+    "2",
+    "4",
+    "1",
+    "3"
+   ],
+   "correct": 3,
+   "explanation": "im-por-tant = 3 syllables",
+   "word": "important",
+   "syllables": [
+    "im",
+    "por",
+    "tant"
+   ]
+  },
+  {
+   "id": "en_fonologia_l3_m012",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'adventure'?",
+   "options": [
+    "1",
+    "3",
+    "4",
+    "2"
+   ],
+   "correct": 1,
+   "explanation": "ad-ven-ture = 3 syllables",
+   "word": "adventure",
+   "syllables": [
+    "ad",
+    "ven",
+    "ture"
+   ]
+  },
+  {
+   "id": "en_fonologia_l3_o001",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "el",
+    "e",
+    "phant"
+   ],
+   "correctOrder": [
+    "el",
+    "e",
+    "phant"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "el-e-phant = elephant",
+   "word": "elephant"
+  },
+  {
+   "id": "en_fonologia_l3_o002",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "kan",
+    "ga",
+    "roo"
+   ],
+   "correctOrder": [
+    "kan",
+    "ga",
+    "roo"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "kan-ga-roo = kangaroo",
+   "word": "kangaroo"
+  },
+  {
+   "id": "en_fonologia_l3_o003",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "um",
+    "brel",
+    "la"
+   ],
+   "correctOrder": [
+    "um",
+    "brel",
+    "la"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "um-brel-la = umbrella",
+   "word": "umbrella"
+  },
+  {
+   "id": "en_fonologia_l3_o004",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "com",
+    "pu",
+    "ter"
+   ],
+   "correctOrder": [
+    "com",
+    "pu",
+    "ter"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "com-pu-ter = computer",
+   "word": "computer"
+  },
+  {
+   "id": "en_fonologia_l3_o005",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "po",
+    "ta",
+    "to"
+   ],
+   "correctOrder": [
+    "po",
+    "ta",
+    "to"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "po-ta-to = potato",
+   "word": "potato"
+  },
+  {
+   "id": "en_fonologia_l3_o006",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "hos",
+    "pi",
+    "tal"
+   ],
+   "correctOrder": [
+    "hos",
+    "pi",
+    "tal"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "hos-pi-tal = hospital",
+   "word": "hospital"
+  },
+  {
+   "id": "en_fonologia_l3_o007",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "yes",
+    "ter",
+    "day"
+   ],
+   "correctOrder": [
+    "yes",
+    "ter",
+    "day"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "yes-ter-day = yesterday",
+   "word": "yesterday"
+  },
+  {
+   "id": "en_fonologia_l3_o008",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "but",
+    "ter",
+    "fly"
+   ],
+   "correctOrder": [
+    "but",
+    "ter",
+    "fly"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "but-ter-fly = butterfly",
+   "word": "butterfly"
+  },
+  {
+   "id": "en_fonologia_l3_o009",
+   "module": "fonologia",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "oc",
+    "to",
+    "pus"
+   ],
+   "correctOrder": [
+    "oc",
+    "to",
+    "pus"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "oc-to-pus = octopus",
+   "word": "octopus"
+  },
+  {
+   "id": "en_fonologia_l3_m013",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'cake'?",
+   "options": [
+    "coat",
+    "cave",
+    "kick",
+    "lake"
+   ],
+   "correct": 3,
+   "explanation": "'cake' and 'lake' rhyme: they end with the same sound.",
+   "word": "cake"
+  },
+  {
+   "id": "en_fonologia_l3_m014",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'bike'?",
+   "options": [
+    "like",
+    "book",
+    "bone",
+    "bake"
+   ],
+   "correct": 0,
+   "explanation": "'bike' and 'like' rhyme: they end with the same sound.",
+   "word": "bike"
+  },
+  {
+   "id": "en_fonologia_l3_m015",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'rain'?",
+   "options": [
+    "rail",
+    "train",
+    "rose",
+    "ran"
+   ],
+   "correct": 1,
+   "explanation": "'rain' and 'train' rhyme: they end with the same sound.",
+   "word": "rain"
+  },
+  {
+   "id": "en_fonologia_l3_m016",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'boat'?",
+   "options": [
+    "bat",
+    "bird",
+    "boot",
+    "coat"
+   ],
+   "correct": 3,
+   "explanation": "'boat' and 'coat' rhyme: they end with the same sound.",
+   "word": "boat"
+  },
+  {
+   "id": "en_fonologia_l3_m017",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'feet'?",
+   "options": [
+    "feed",
+    "fat",
+    "sheet",
+    "foot"
+   ],
+   "correct": 2,
+   "explanation": "'feet' and 'sheet' rhyme: they end with the same sound.",
+   "word": "feet"
+  },
+  {
+   "id": "en_fonologia_l3_m018",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'night'?",
+   "options": [
+    "knot",
+    "net",
+    "nice",
+    "light"
+   ],
+   "correct": 3,
+   "explanation": "'night' and 'light' rhyme: they end with the same sound.",
+   "word": "night"
+  },
+  {
+   "id": "en_fonologia_l3_m019",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'bone'?",
+   "options": [
+    "bin",
+    "bun",
+    "bean",
+    "phone"
+   ],
+   "correct": 3,
+   "explanation": "'bone' and 'phone' rhyme: they end with the same sound.",
+   "word": "bone"
+  },
+  {
+   "id": "en_fonologia_l3_m020",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'tree'?",
+   "options": [
+    "try",
+    "three",
+    "train",
+    "toy"
+   ],
+   "correct": 1,
+   "explanation": "'tree' and 'three' rhyme: they end with the same sound.",
+   "word": "tree"
+  },
+  {
+   "id": "en_fonologia_l3_m021",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'knee'?",
+   "options": [
+    "kite",
+    "nose",
+    "key",
+    "king"
+   ],
+   "correct": 1,
+   "explanation": "In knee the k is silent, so it starts with /n/ like nose.",
+   "word": "knee"
+  },
+  {
+   "id": "en_fonologia_l3_m022",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'write'?",
+   "options": [
+    "white",
+    "rabbit",
+    "wet",
+    "wind"
+   ],
+   "correct": 1,
+   "explanation": "In write the w is silent, so it starts with /r/ like rabbit.",
+   "word": "write"
+  },
+  {
+   "id": "en_fonologia_l3_m023",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'city'?",
+   "options": [
+    "cup",
+    "kite",
+    "cat",
+    "seven"
+   ],
+   "correct": 3,
+   "explanation": "c before i sounds /s/: city and seven.",
+   "word": "city"
+  },
+  {
+   "id": "en_fonologia_l3_m024",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'giant'?",
+   "options": [
+    "goat",
+    "girl",
+    "jelly",
+    "gate"
+   ],
+   "correct": 2,
+   "explanation": "g before i can sound /j/: giant and jelly.",
+   "word": "giant"
+  },
+  {
+   "id": "en_fonologia_l3_m025",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'cent'?",
+   "options": [
+    "cat",
+    "cot",
+    "cup",
+    "sand"
+   ],
+   "correct": 3,
+   "explanation": "c before e sounds /s/: cent and sand.",
+   "word": "cent"
+  },
+  {
+   "id": "en_fonologia_l3_m026",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'gem'?",
+   "options": [
+    "get",
+    "gas",
+    "jam",
+    "gum"
+   ],
+   "correct": 2,
+   "explanation": "g before e can sound /j/: gem and jam.",
+   "word": "gem"
+  },
+  {
+   "id": "en_fonologia_l3_m027",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'rain'?",
+   "options": [
+    "cake",
+    "rope",
+    "ran",
+    "rice"
+   ],
+   "correct": 0,
+   "explanation": "ai in rain and a-e in cake make the same long a sound.",
+   "word": "rain"
+  },
+  {
+   "id": "en_fonologia_l3_m028",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'feet'?",
+   "options": [
+    "foot",
+    "fat",
+    "fit",
+    "beach"
+   ],
+   "correct": 3,
+   "explanation": "ee in feet and ea in beach make the same long e sound.",
+   "word": "feet"
+  },
+  {
+   "id": "en_fonologia_l3_m029",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'boat'?",
+   "options": [
+    "home",
+    "bite",
+    "bat",
+    "boot"
+   ],
+   "correct": 0,
+   "explanation": "oa in boat and o-e in home make the same long o sound.",
+   "word": "boat"
+  },
+  {
+   "id": "en_fonologia_l3_m030",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'night'?",
+   "options": [
+    "nut",
+    "kite",
+    "net",
+    "knot"
+   ],
+   "correct": 1,
+   "explanation": "igh in night and i-e in kite make the same long i sound.",
+   "word": "night"
+  },
+  {
+   "id": "en_fonologia_l3_m031",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'play'?",
+   "options": [
+    "train",
+    "plan",
+    "pull",
+    "plum"
+   ],
+   "correct": 0,
+   "explanation": "ay in play and ai in train make the same long a sound.",
+   "word": "play"
+  },
+  {
+   "id": "en_fonologia_l3_m032",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'snow'?",
+   "options": [
+    "goat",
+    "sniff",
+    "snap",
+    "snug"
+   ],
+   "correct": 0,
+   "explanation": "ow in snow and oa in goat make the same long o sound.",
+   "word": "snow"
+  },
+  {
+   "id": "en_fonologia_l3_m033",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT have a long a sound?",
+   "options": [
+    "play",
+    "rain",
+    "cake",
+    "cat"
+   ],
+   "correct": 3,
+   "explanation": "cat has a short a."
+  },
+  {
+   "id": "en_fonologia_l3_m034",
+   "module": "fonologia",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT have a long e sound?",
+   "options": [
+    "me",
+    "leaf",
+    "tree",
+    "bed"
+   ],
+   "correct": 3,
+   "explanation": "bed has a short e."
+  },
+  {
+   "id": "en_fonologia_l3_d001",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "cake",
+   "hint": "It has 4 letters",
+   "explanation": "c-a-k-e. The magic e makes the a say its name.",
+   "dictation": true,
+   "word": "cake"
+  },
+  {
+   "id": "en_fonologia_l3_d002",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "bike",
+   "hint": "It has 4 letters",
+   "explanation": "b-i-k-e. The magic e makes the i say its name.",
+   "dictation": true,
+   "word": "bike"
+  },
+  {
+   "id": "en_fonologia_l3_d003",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "home",
+   "hint": "It has 4 letters",
+   "explanation": "h-o-m-e. The magic e makes the o say its name.",
+   "dictation": true,
+   "word": "home"
+  },
+  {
+   "id": "en_fonologia_l3_d004",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "cube",
+   "hint": "It has 4 letters",
+   "explanation": "c-u-b-e. The magic e makes the u say its name.",
+   "dictation": true,
+   "word": "cube"
+  },
+  {
+   "id": "en_fonologia_l3_d005",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "rain",
+   "hint": "It has 4 letters",
+   "explanation": "r-a-i-n. ai makes the long a sound.",
+   "dictation": true,
+   "word": "rain"
+  },
+  {
+   "id": "en_fonologia_l3_d006",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "tree",
+   "hint": "It has 4 letters",
+   "explanation": "t-r-e-e. ee makes the long e sound.",
+   "dictation": true,
+   "word": "tree"
+  },
+  {
+   "id": "en_fonologia_l3_d007",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "boat",
+   "hint": "It has 4 letters",
+   "explanation": "b-o-a-t. oa makes the long o sound.",
+   "dictation": true,
+   "word": "boat"
+  },
+  {
+   "id": "en_fonologia_l3_d008",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "night",
+   "hint": "It has 5 letters",
+   "explanation": "n-i-g-h-t. igh makes the long i sound.",
+   "dictation": true,
+   "word": "night"
+  },
+  {
+   "id": "en_fonologia_l3_d009",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "play",
+   "hint": "It has 4 letters",
+   "explanation": "p-l-a-y. ay at the end of a word.",
+   "dictation": true,
+   "word": "play"
+  },
+  {
+   "id": "en_fonologia_l3_d010",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "snow",
+   "hint": "It has 4 letters",
+   "explanation": "s-n-o-w. ow makes the long o sound.",
+   "dictation": true,
+   "word": "snow"
+  },
+  {
+   "id": "en_fonologia_l3_d011",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "feet",
+   "hint": "It has 4 letters",
+   "explanation": "f-e-e-t. ee makes the long e sound.",
+   "dictation": true,
+   "word": "feet"
+  },
+  {
+   "id": "en_fonologia_l3_d012",
+   "module": "fonologia",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "slide",
+   "hint": "It has 5 letters",
+   "explanation": "s-l-i-d-e. The magic e makes the i say its name.",
+   "dictation": true,
+   "word": "slide"
+  },
+  {
+   "id": "en_fonologia_l4_m001",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'helicopter'?",
+   "options": [
+    "2",
+    "4",
+    "5",
+    "3"
+   ],
+   "correct": 1,
+   "explanation": "hel-i-cop-ter = 4 syllables",
+   "word": "helicopter",
+   "syllables": [
+    "hel",
+    "i",
+    "cop",
+    "ter"
+   ]
+  },
+  {
+   "id": "en_fonologia_l4_m002",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'caterpillar'?",
+   "options": [
+    "4",
+    "5",
+    "2",
+    "3"
+   ],
+   "correct": 0,
+   "explanation": "cat-er-pil-lar = 4 syllables",
+   "word": "caterpillar",
+   "syllables": [
+    "cat",
+    "er",
+    "pil",
+    "lar"
+   ]
+  },
+  {
+   "id": "en_fonologia_l4_m003",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'watermelon'?",
+   "options": [
+    "5",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "wa-ter-mel-on = 4 syllables",
+   "word": "watermelon",
+   "syllables": [
+    "wa",
+    "ter",
+    "mel",
+    "on"
+   ]
+  },
+  {
+   "id": "en_fonologia_l4_m004",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'supermarket'?",
+   "options": [
+    "5",
+    "4",
+    "3",
+    "2"
+   ],
+   "correct": 1,
+   "explanation": "su-per-mar-ket = 4 syllables",
+   "word": "supermarket",
+   "syllables": [
+    "su",
+    "per",
+    "mar",
+    "ket"
+   ]
+  },
+  {
+   "id": "en_fonologia_l4_m005",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'calculator'?",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "cal-cu-la-tor = 4 syllables",
+   "word": "calculator",
+   "syllables": [
+    "cal",
+    "cu",
+    "la",
+    "tor"
+   ]
+  },
+  {
+   "id": "en_fonologia_l4_m006",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'alligator'?",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "al-li-ga-tor = 4 syllables",
+   "word": "alligator",
+   "syllables": [
+    "al",
+    "li",
+    "ga",
+    "tor"
+   ]
+  },
+  {
+   "id": "en_fonologia_l4_m007",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'invisible'?",
+   "options": [
+    "4",
+    "2",
+    "5",
+    "3"
+   ],
+   "correct": 0,
+   "explanation": "in-vis-i-ble = 4 syllables",
+   "word": "invisible",
+   "syllables": [
+    "in",
+    "vis",
+    "i",
+    "ble"
+   ]
+  },
+  {
+   "id": "en_fonologia_l4_m008",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'activity'?",
+   "options": [
+    "3",
+    "5",
+    "2",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "ac-tiv-i-ty = 4 syllables",
+   "word": "activity",
+   "syllables": [
+    "ac",
+    "tiv",
+    "i",
+    "ty"
+   ]
+  },
+  {
+   "id": "en_fonologia_l4_m009",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'celebration'?",
+   "options": [
+    "4",
+    "5",
+    "2",
+    "3"
+   ],
+   "correct": 0,
+   "explanation": "cel-e-bra-tion = 4 syllables",
+   "word": "celebration",
+   "syllables": [
+    "cel",
+    "e",
+    "bra",
+    "tion"
+   ]
+  },
+  {
+   "id": "en_fonologia_l4_m010",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'information'?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "correct": 2,
+   "explanation": "in-for-ma-tion = 4 syllables",
+   "word": "information",
+   "syllables": [
+    "in",
+    "for",
+    "ma",
+    "tion"
+   ]
+  },
+  {
+   "id": "en_fonologia_l4_m011",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'television'?",
+   "options": [
+    "5",
+    "3",
+    "4",
+    "2"
+   ],
+   "correct": 2,
+   "explanation": "tel-e-vi-sion = 4 syllables",
+   "word": "television",
+   "syllables": [
+    "tel",
+    "e",
+    "vi",
+    "sion"
+   ]
+  },
+  {
+   "id": "en_fonologia_l4_m012",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'environment'?",
+   "options": [
+    "5",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "en-vi-ron-ment = 4 syllables",
+   "word": "environment",
+   "syllables": [
+    "en",
+    "vi",
+    "ron",
+    "ment"
+   ]
+  },
+  {
+   "id": "en_fonologia_l4_o001",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "hel",
+    "i",
+    "cop",
+    "ter"
+   ],
+   "correctOrder": [
+    "hel",
+    "i",
+    "cop",
+    "ter"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "hel-i-cop-ter = helicopter",
+   "word": "helicopter"
+  },
+  {
+   "id": "en_fonologia_l4_o002",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "cat",
+    "er",
+    "pil",
+    "lar"
+   ],
+   "correctOrder": [
+    "cat",
+    "er",
+    "pil",
+    "lar"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "cat-er-pil-lar = caterpillar",
+   "word": "caterpillar"
+  },
+  {
+   "id": "en_fonologia_l4_o003",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "wa",
+    "ter",
+    "mel",
+    "on"
+   ],
+   "correctOrder": [
+    "wa",
+    "ter",
+    "mel",
+    "on"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "wa-ter-mel-on = watermelon",
+   "word": "watermelon"
+  },
+  {
+   "id": "en_fonologia_l4_o004",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "su",
+    "per",
+    "mar",
+    "ket"
+   ],
+   "correctOrder": [
+    "su",
+    "per",
+    "mar",
+    "ket"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "su-per-mar-ket = supermarket",
+   "word": "supermarket"
+  },
+  {
+   "id": "en_fonologia_l4_o005",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "cal",
+    "cu",
+    "la",
+    "tor"
+   ],
+   "correctOrder": [
+    "cal",
+    "cu",
+    "la",
+    "tor"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "cal-cu-la-tor = calculator",
+   "word": "calculator"
+  },
+  {
+   "id": "en_fonologia_l4_o006",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "al",
+    "li",
+    "ga",
+    "tor"
+   ],
+   "correctOrder": [
+    "al",
+    "li",
+    "ga",
+    "tor"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "al-li-ga-tor = alligator",
+   "word": "alligator"
+  },
+  {
+   "id": "en_fonologia_l4_o007",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "in",
+    "vis",
+    "i",
+    "ble"
+   ],
+   "correctOrder": [
+    "in",
+    "vis",
+    "i",
+    "ble"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "in-vis-i-ble = invisible",
+   "word": "invisible"
+  },
+  {
+   "id": "en_fonologia_l4_o008",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "ac",
+    "tiv",
+    "i",
+    "ty"
+   ],
+   "correctOrder": [
+    "ac",
+    "tiv",
+    "i",
+    "ty"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ac-tiv-i-ty = activity",
+   "word": "activity"
+  },
+  {
+   "id": "en_fonologia_l4_o009",
+   "module": "fonologia",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "cel",
+    "e",
+    "bra",
+    "tion"
+   ],
+   "correctOrder": [
+    "cel",
+    "e",
+    "bra",
+    "tion"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "cel-e-bra-tion = celebration",
+   "word": "celebration"
+  },
+  {
+   "id": "en_fonologia_l4_m013",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'star'?",
+   "options": [
+    "stair",
+    "stop",
+    "car",
+    "stay"
+   ],
+   "correct": 2,
+   "explanation": "'star' and 'car' rhyme: they end with the same sound.",
+   "word": "star"
+  },
+  {
+   "id": "en_fonologia_l4_m014",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'horn'?",
+   "options": [
+    "hand",
+    "hair",
+    "hen",
+    "corn"
+   ],
+   "correct": 3,
+   "explanation": "'horn' and 'corn' rhyme: they end with the same sound.",
+   "word": "horn"
+  },
+  {
+   "id": "en_fonologia_l4_m015",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'bird'?",
+   "options": [
+    "third",
+    "bed",
+    "bread",
+    "burn"
+   ],
+   "correct": 0,
+   "explanation": "'bird' and 'third' rhyme: they end with the same sound.",
+   "word": "bird"
+  },
+  {
+   "id": "en_fonologia_l4_m016",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'shirt'?",
+   "options": [
+    "short",
+    "sheet",
+    "skirt",
+    "shark"
+   ],
+   "correct": 2,
+   "explanation": "'shirt' and 'skirt' rhyme: they end with the same sound.",
+   "word": "shirt"
+  },
+  {
+   "id": "en_fonologia_l4_m017",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'fur'?",
+   "options": [
+    "four",
+    "her",
+    "fire",
+    "far"
+   ],
+   "correct": 1,
+   "explanation": "'fur' and 'her' rhyme: they end with the same sound.",
+   "word": "fur"
+  },
+  {
+   "id": "en_fonologia_l4_m018",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'burn'?",
+   "options": [
+    "turn",
+    "bun",
+    "barn",
+    "born"
+   ],
+   "correct": 0,
+   "explanation": "'burn' and 'turn' rhyme: they end with the same sound.",
+   "word": "burn"
+  },
+  {
+   "id": "en_fonologia_l4_m019",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'nurse'?",
+   "options": [
+    "nose",
+    "news",
+    "nest",
+    "purse"
+   ],
+   "correct": 3,
+   "explanation": "'nurse' and 'purse' rhyme: they end with the same sound.",
+   "word": "nurse"
+  },
+  {
+   "id": "en_fonologia_l4_m020",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'storm'?",
+   "options": [
+    "steam",
+    "form",
+    "stamp",
+    "stem"
+   ],
+   "correct": 1,
+   "explanation": "'storm' and 'form' rhyme: they end with the same sound.",
+   "word": "storm"
+  },
+  {
+   "id": "en_fonologia_l4_m021",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'gnome'?",
+   "options": [
+    "gate",
+    "night",
+    "game",
+    "goal"
+   ],
+   "correct": 1,
+   "explanation": "In gnome the g is silent, so it starts with /n/.",
+   "word": "gnome"
+  },
+  {
+   "id": "en_fonologia_l4_m022",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'wrist'?",
+   "options": [
+    "ring",
+    "wet",
+    "wolf",
+    "wish"
+   ],
+   "correct": 0,
+   "explanation": "In wrist the w is silent, so it starts with /r/.",
+   "word": "wrist"
+  },
+  {
+   "id": "en_fonologia_l4_m023",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'chef'?",
+   "options": [
+    "shop",
+    "cheese",
+    "chop",
+    "chin"
+   ],
+   "correct": 0,
+   "explanation": "In chef, ch sounds /sh/ (it comes from French).",
+   "word": "chef"
+  },
+  {
+   "id": "en_fonologia_l4_m024",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'chemist'?",
+   "options": [
+    "cherry",
+    "chair",
+    "kitten",
+    "chin"
+   ],
+   "correct": 2,
+   "explanation": "In chemist, ch sounds /k/.",
+   "word": "chemist"
+  },
+  {
+   "id": "en_fonologia_l4_m025",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'honest'?",
+   "options": [
+    "orange",
+    "house",
+    "hat",
+    "hot"
+   ],
+   "correct": 0,
+   "explanation": "In honest the h is silent, so it starts with a vowel sound.",
+   "word": "honest"
+  },
+  {
+   "id": "en_fonologia_l4_m026",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'knock'?",
+   "options": [
+    "nest",
+    "kick",
+    "kind",
+    "kite"
+   ],
+   "correct": 0,
+   "explanation": "In knock the k is silent, so it starts with /n/.",
+   "word": "knock"
+  },
+  {
+   "id": "en_fonologia_l4_m027",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'star'?",
+   "options": [
+    "stir",
+    "store",
+    "park",
+    "stair"
+   ],
+   "correct": 2,
+   "explanation": "star and park have the ar sound.",
+   "word": "star"
+  },
+  {
+   "id": "en_fonologia_l4_m028",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'bird'?",
+   "options": [
+    "bed",
+    "fur",
+    "bud",
+    "bored"
+   ],
+   "correct": 1,
+   "explanation": "ir in bird and ur in fur make the same sound.",
+   "word": "bird"
+  },
+  {
+   "id": "en_fonologia_l4_m029",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'horn'?",
+   "options": [
+    "door",
+    "hen",
+    "hurt",
+    "hair"
+   ],
+   "correct": 0,
+   "explanation": "or in horn and oor in door make the same sound.",
+   "word": "horn"
+  },
+  {
+   "id": "en_fonologia_l4_m030",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'coin'?",
+   "options": [
+    "cone",
+    "corn",
+    "can",
+    "boy"
+   ],
+   "correct": 3,
+   "explanation": "oi in coin and oy in boy make the same sound.",
+   "word": "coin"
+  },
+  {
+   "id": "en_fonologia_l4_m031",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'cloud'?",
+   "options": [
+    "cold",
+    "clap",
+    "clue",
+    "cow"
+   ],
+   "correct": 3,
+   "explanation": "ou in cloud and ow in cow make the same sound.",
+   "word": "cloud"
+  },
+  {
+   "id": "en_fonologia_l4_m032",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'moon'?",
+   "options": [
+    "moan",
+    "men",
+    "blue",
+    "man"
+   ],
+   "correct": 2,
+   "explanation": "oo in moon and ue in blue make the same sound.",
+   "word": "moon"
+  },
+  {
+   "id": "en_fonologia_l4_m033",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT have the 'ar' sound?",
+   "options": [
+    "car",
+    "star",
+    "farm",
+    "war"
+   ],
+   "correct": 3,
+   "explanation": "In war, ar sounds like 'or'."
+  },
+  {
+   "id": "en_fonologia_l4_m034",
+   "module": "fonologia",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT have the 'ow' sound of 'cow'?",
+   "options": [
+    "town",
+    "snow",
+    "owl",
+    "brown"
+   ],
+   "correct": 1,
+   "explanation": "In snow, ow is a long o."
+  },
+  {
+   "id": "en_fonologia_l4_d001",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "star",
+   "hint": "It has 4 letters",
+   "explanation": "s-t-a-r.",
+   "dictation": true,
+   "word": "star"
+  },
+  {
+   "id": "en_fonologia_l4_d002",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "horn",
+   "hint": "It has 4 letters",
+   "explanation": "h-o-r-n.",
+   "dictation": true,
+   "word": "horn"
+  },
+  {
+   "id": "en_fonologia_l4_d003",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "bird",
+   "hint": "It has 4 letters",
+   "explanation": "b-i-r-d.",
+   "dictation": true,
+   "word": "bird"
+  },
+  {
+   "id": "en_fonologia_l4_d004",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "shirt",
+   "hint": "It has 5 letters",
+   "explanation": "s-h-i-r-t.",
+   "dictation": true,
+   "word": "shirt"
+  },
+  {
+   "id": "en_fonologia_l4_d005",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "turn",
+   "hint": "It has 4 letters",
+   "explanation": "t-u-r-n.",
+   "dictation": true,
+   "word": "turn"
+  },
+  {
+   "id": "en_fonologia_l4_d006",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "purple",
+   "hint": "It has 6 letters",
+   "explanation": "p-u-r-p-l-e. ur and then ple.",
+   "dictation": true,
+   "word": "purple"
+  },
+  {
+   "id": "en_fonologia_l4_d007",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "garden",
+   "hint": "It has 6 letters",
+   "explanation": "g-a-r-d-e-n.",
+   "dictation": true,
+   "word": "garden"
+  },
+  {
+   "id": "en_fonologia_l4_d008",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "corner",
+   "hint": "It has 6 letters",
+   "explanation": "c-o-r-n-e-r.",
+   "dictation": true,
+   "word": "corner"
+  },
+  {
+   "id": "en_fonologia_l4_d009",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "river",
+   "hint": "It has 5 letters",
+   "explanation": "r-i-v-e-r.",
+   "dictation": true,
+   "word": "river"
+  },
+  {
+   "id": "en_fonologia_l4_d010",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "chair",
+   "hint": "It has 5 letters",
+   "explanation": "c-h-a-i-r. air at the end.",
+   "dictation": true,
+   "word": "chair"
+  },
+  {
+   "id": "en_fonologia_l4_d011",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "cloud",
+   "hint": "It has 5 letters",
+   "explanation": "c-l-o-u-d. ou makes the ow sound.",
+   "dictation": true,
+   "word": "cloud"
+  },
+  {
+   "id": "en_fonologia_l4_d012",
+   "module": "fonologia",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "coin",
+   "hint": "It has 4 letters",
+   "explanation": "c-o-i-n. oi in the middle of the word.",
+   "dictation": true,
+   "word": "coin"
+  },
+  {
+   "id": "en_fonologia_l5_m001",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'hippopotamus'?",
+   "options": [
+    "4",
+    "5",
+    "3",
+    "6"
+   ],
+   "correct": 1,
+   "explanation": "hip-po-pot-a-mus = 5 syllables",
+   "word": "hippopotamus",
+   "syllables": [
+    "hip",
+    "po",
+    "pot",
+    "a",
+    "mus"
+   ]
+  },
+  {
+   "id": "en_fonologia_l5_m002",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'refrigerator'?",
+   "options": [
+    "3",
+    "4",
+    "6",
+    "5"
+   ],
+   "correct": 3,
+   "explanation": "re-frig-er-a-tor = 5 syllables",
+   "word": "refrigerator",
+   "syllables": [
+    "re",
+    "frig",
+    "er",
+    "a",
+    "tor"
+   ]
+  },
+  {
+   "id": "en_fonologia_l5_m003",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'electricity'?",
+   "options": [
+    "5",
+    "4",
+    "3",
+    "6"
+   ],
+   "correct": 0,
+   "explanation": "e-lec-tric-i-ty = 5 syllables",
+   "word": "electricity",
+   "syllables": [
+    "e",
+    "lec",
+    "tric",
+    "i",
+    "ty"
+   ]
+  },
+  {
+   "id": "en_fonologia_l5_m004",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'unbelievable'?",
+   "options": [
+    "3",
+    "6",
+    "5",
+    "4"
+   ],
+   "correct": 2,
+   "explanation": "un-be-liev-a-ble = 5 syllables",
+   "word": "unbelievable",
+   "syllables": [
+    "un",
+    "be",
+    "liev",
+    "a",
+    "ble"
+   ]
+  },
+  {
+   "id": "en_fonologia_l5_m005",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'imagination'?",
+   "options": [
+    "5",
+    "4",
+    "6",
+    "3"
+   ],
+   "correct": 0,
+   "explanation": "i-mag-i-na-tion = 5 syllables",
+   "word": "imagination",
+   "syllables": [
+    "i",
+    "mag",
+    "i",
+    "na",
+    "tion"
+   ]
+  },
+  {
+   "id": "en_fonologia_l5_m006",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'communication'?",
+   "options": [
+    "6",
+    "5",
+    "3",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "com-mu-ni-ca-tion = 5 syllables",
+   "word": "communication",
+   "syllables": [
+    "com",
+    "mu",
+    "ni",
+    "ca",
+    "tion"
+   ]
+  },
+  {
+   "id": "en_fonologia_l5_m007",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'vocabulary'?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "correct": 2,
+   "explanation": "vo-cab-u-lar-y = 5 syllables",
+   "word": "vocabulary",
+   "syllables": [
+    "vo",
+    "cab",
+    "u",
+    "lar",
+    "y"
+   ]
+  },
+  {
+   "id": "en_fonologia_l5_m008",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'opportunity'?",
+   "options": [
+    "5",
+    "4",
+    "3",
+    "6"
+   ],
+   "correct": 0,
+   "explanation": "op-por-tu-ni-ty = 5 syllables",
+   "word": "opportunity",
+   "syllables": [
+    "op",
+    "por",
+    "tu",
+    "ni",
+    "ty"
+   ]
+  },
+  {
+   "id": "en_fonologia_l5_m009",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'personality'?",
+   "options": [
+    "6",
+    "5",
+    "4",
+    "3"
+   ],
+   "correct": 1,
+   "explanation": "per-son-al-i-ty = 5 syllables",
+   "word": "personality",
+   "syllables": [
+    "per",
+    "son",
+    "al",
+    "i",
+    "ty"
+   ]
+  },
+  {
+   "id": "en_fonologia_l5_m010",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'university'?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "3"
+   ],
+   "correct": 1,
+   "explanation": "u-ni-ver-si-ty = 5 syllables",
+   "word": "university",
+   "syllables": [
+    "u",
+    "ni",
+    "ver",
+    "si",
+    "ty"
+   ]
+  },
+  {
+   "id": "en_fonologia_l5_m011",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'independent'?",
+   "options": [
+    "6",
+    "5",
+    "4",
+    "3"
+   ],
+   "correct": 2,
+   "explanation": "in-de-pen-dent = 4 syllables",
+   "word": "independent",
+   "syllables": [
+    "in",
+    "de",
+    "pen",
+    "dent"
+   ]
+  },
+  {
+   "id": "en_fonologia_l5_m012",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'photographer'?",
+   "options": [
+    "5",
+    "6",
+    "3",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "pho-tog-ra-pher = 4 syllables",
+   "word": "photographer",
+   "syllables": [
+    "pho",
+    "tog",
+    "ra",
+    "pher"
+   ]
+  },
+  {
+   "id": "en_fonologia_l5_o001",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "hip",
+    "po",
+    "pot",
+    "a",
+    "mus"
+   ],
+   "correctOrder": [
+    "hip",
+    "po",
+    "pot",
+    "a",
+    "mus"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "hip-po-pot-a-mus = hippopotamus",
+   "word": "hippopotamus"
+  },
+  {
+   "id": "en_fonologia_l5_o002",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "re",
+    "frig",
+    "er",
+    "a",
+    "tor"
+   ],
+   "correctOrder": [
+    "re",
+    "frig",
+    "er",
+    "a",
+    "tor"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "re-frig-er-a-tor = refrigerator",
+   "word": "refrigerator"
+  },
+  {
+   "id": "en_fonologia_l5_o003",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "e",
+    "lec",
+    "tric",
+    "i",
+    "ty"
+   ],
+   "correctOrder": [
+    "e",
+    "lec",
+    "tric",
+    "i",
+    "ty"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "e-lec-tric-i-ty = electricity",
+   "word": "electricity"
+  },
+  {
+   "id": "en_fonologia_l5_o004",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "un",
+    "be",
+    "liev",
+    "a",
+    "ble"
+   ],
+   "correctOrder": [
+    "un",
+    "be",
+    "liev",
+    "a",
+    "ble"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "un-be-liev-a-ble = unbelievable",
+   "word": "unbelievable"
+  },
+  {
+   "id": "en_fonologia_l5_o005",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "i",
+    "mag",
+    "i",
+    "na",
+    "tion"
+   ],
+   "correctOrder": [
+    "i",
+    "mag",
+    "i",
+    "na",
+    "tion"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "i-mag-i-na-tion = imagination",
+   "word": "imagination"
+  },
+  {
+   "id": "en_fonologia_l5_o006",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "com",
+    "mu",
+    "ni",
+    "ca",
+    "tion"
+   ],
+   "correctOrder": [
+    "com",
+    "mu",
+    "ni",
+    "ca",
+    "tion"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "com-mu-ni-ca-tion = communication",
+   "word": "communication"
+  },
+  {
+   "id": "en_fonologia_l5_o007",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "vo",
+    "cab",
+    "u",
+    "lar",
+    "y"
+   ],
+   "correctOrder": [
+    "vo",
+    "cab",
+    "u",
+    "lar",
+    "y"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "vo-cab-u-lar-y = vocabulary",
+   "word": "vocabulary"
+  },
+  {
+   "id": "en_fonologia_l5_o008",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "op",
+    "por",
+    "tu",
+    "ni",
+    "ty"
+   ],
+   "correctOrder": [
+    "op",
+    "por",
+    "tu",
+    "ni",
+    "ty"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "op-por-tu-ni-ty = opportunity",
+   "word": "opportunity"
+  },
+  {
+   "id": "en_fonologia_l5_o009",
+   "module": "fonologia",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "per",
+    "son",
+    "al",
+    "i",
+    "ty"
+   ],
+   "correctOrder": [
+    "per",
+    "son",
+    "al",
+    "i",
+    "ty"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "per-son-al-i-ty = personality",
+   "word": "personality"
+  },
+  {
+   "id": "en_fonologia_l5_m013",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'rough'?",
+   "options": [
+    "rock",
+    "tough",
+    "road",
+    "roof"
+   ],
+   "correct": 1,
+   "explanation": "'rough' and 'tough' rhyme: they end with the same sound.",
+   "word": "rough"
+  },
+  {
+   "id": "en_fonologia_l5_m014",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'through'?",
+   "options": [
+    "thumb",
+    "blue",
+    "thought",
+    "though"
+   ],
+   "correct": 1,
+   "explanation": "'through' and 'blue' rhyme: they end with the same sound.",
+   "word": "through"
+  },
+  {
+   "id": "en_fonologia_l5_m015",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'caught'?",
+   "options": [
+    "catch",
+    "cot",
+    "short",
+    "cough"
+   ],
+   "correct": 2,
+   "explanation": "'caught' and 'short' rhyme: they end with the same sound.",
+   "word": "caught"
+  },
+  {
+   "id": "en_fonologia_l5_m016",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'weight'?",
+   "options": [
+    "white",
+    "wheat",
+    "late",
+    "wet"
+   ],
+   "correct": 2,
+   "explanation": "'weight' and 'late' rhyme: they end with the same sound.",
+   "word": "weight"
+  },
+  {
+   "id": "en_fonologia_l5_m017",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'bear'?",
+   "options": [
+    "chair",
+    "bean",
+    "beer",
+    "burn"
+   ],
+   "correct": 0,
+   "explanation": "'bear' and 'chair' rhyme: they end with the same sound.",
+   "word": "bear"
+  },
+  {
+   "id": "en_fonologia_l5_m018",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'eight'?",
+   "options": [
+    "edge",
+    "egg",
+    "eat",
+    "plate"
+   ],
+   "correct": 3,
+   "explanation": "'eight' and 'plate' rhyme: they end with the same sound.",
+   "word": "eight"
+  },
+  {
+   "id": "en_fonologia_l5_m019",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'key'?",
+   "options": [
+    "kite",
+    "kick",
+    "sea",
+    "cake"
+   ],
+   "correct": 2,
+   "explanation": "'key' and 'sea' rhyme: they end with the same sound.",
+   "word": "key"
+  },
+  {
+   "id": "en_fonologia_l5_m020",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word rhymes with 'shoe'?",
+   "options": [
+    "two",
+    "show",
+    "she",
+    "shy"
+   ],
+   "correct": 0,
+   "explanation": "'shoe' and 'two' rhyme: they end with the same sound.",
+   "word": "shoe"
+  },
+  {
+   "id": "en_fonologia_l5_m021",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'psychology'?",
+   "options": [
+    "park",
+    "pass",
+    "sight",
+    "pen"
+   ],
+   "correct": 2,
+   "explanation": "In psychology the p is silent: it starts with /s/.",
+   "word": "psychology"
+  },
+  {
+   "id": "en_fonologia_l5_m022",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'wholesome'?",
+   "options": [
+    "wish",
+    "wall",
+    "wet",
+    "hope"
+   ],
+   "correct": 3,
+   "explanation": "In wholesome the w is silent: it starts with /h/.",
+   "word": "wholesome"
+  },
+  {
+   "id": "en_fonologia_l5_m023",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'character'?",
+   "options": [
+    "cherry",
+    "cartoon",
+    "cheap",
+    "church"
+   ],
+   "correct": 1,
+   "explanation": "In character, ch sounds /k/.",
+   "word": "character"
+  },
+  {
+   "id": "en_fonologia_l5_m024",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'machine'?",
+   "options": [
+    "shine",
+    "much",
+    "march",
+    "match"
+   ],
+   "correct": 0,
+   "explanation": "In machine, ch sounds /sh/.",
+   "word": "machine"
+  },
+  {
+   "id": "en_fonologia_l5_m025",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'cereal'?",
+   "options": [
+    "silver",
+    "cub",
+    "carrot",
+    "cold"
+   ],
+   "correct": 0,
+   "explanation": "c before e sounds /s/: cereal and silver.",
+   "word": "cereal"
+  },
+  {
+   "id": "en_fonologia_l5_m026",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word starts with the same sound as 'gymnastics'?",
+   "options": [
+    "gold",
+    "jungle",
+    "goose",
+    "gift"
+   ],
+   "correct": 1,
+   "explanation": "g before y sounds /j/: gymnastics and jungle.",
+   "word": "gymnastics"
+  },
+  {
+   "id": "en_fonologia_l5_m027",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'bread'?",
+   "options": [
+    "bride",
+    "head",
+    "breed",
+    "bead"
+   ],
+   "correct": 1,
+   "explanation": "Careful: ea can sound like short e, as in bread and head.",
+   "word": "bread"
+  },
+  {
+   "id": "en_fonologia_l5_m028",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'great'?",
+   "options": [
+    "plate",
+    "grip",
+    "greet",
+    "grit"
+   ],
+   "correct": 0,
+   "explanation": "In great, ea sounds like long a, as in plate.",
+   "word": "great"
+  },
+  {
+   "id": "en_fonologia_l5_m029",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'could'?",
+   "options": [
+    "cloud",
+    "cold",
+    "wood",
+    "cod"
+   ],
+   "correct": 2,
+   "explanation": "ou in could sounds like oo in wood.",
+   "word": "could"
+  },
+  {
+   "id": "en_fonologia_l5_m030",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'friend'?",
+   "options": [
+    "fried",
+    "bend",
+    "fiend",
+    "find"
+   ],
+   "correct": 1,
+   "explanation": "In friend, ie sounds like short e.",
+   "word": "friend"
+  },
+  {
+   "id": "en_fonologia_l5_m031",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'touch'?",
+   "options": [
+    "much",
+    "teach",
+    "torch",
+    "couch"
+   ],
+   "correct": 0,
+   "explanation": "In touch, ou sounds like short u.",
+   "word": "touch"
+  },
+  {
+   "id": "en_fonologia_l5_m032",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'heart'?",
+   "options": [
+    "hate",
+    "hurt",
+    "heard",
+    "start"
+   ],
+   "correct": 3,
+   "explanation": "In heart, ea sounds like ar.",
+   "word": "heart"
+  },
+  {
+   "id": "en_fonologia_l5_m033",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT have a silent letter?",
+   "options": [
+    "wrap",
+    "plant",
+    "knot",
+    "comb"
+   ],
+   "correct": 1,
+   "explanation": "knot (k), wrap (w) and comb (b) have silent letters."
+  },
+  {
+   "id": "en_fonologia_l5_m034",
+   "module": "fonologia",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT have the 'f' sound?",
+   "options": [
+    "graph",
+    "phone",
+    "light",
+    "laugh"
+   ],
+   "correct": 2,
+   "explanation": "In light, gh is silent. In laugh it sounds /f/."
+  },
+  {
+   "id": "en_fonologia_l5_d001",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "knife",
+   "hint": "It has 5 letters",
+   "explanation": "k-n-i-f-e. The k is silent.",
+   "dictation": true,
+   "word": "knife"
+  },
+  {
+   "id": "en_fonologia_l5_d002",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "write",
+   "hint": "It has 5 letters",
+   "explanation": "w-r-i-t-e. The w is silent.",
+   "dictation": true,
+   "word": "write"
+  },
+  {
+   "id": "en_fonologia_l5_d003",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "lamb",
+   "hint": "It has 4 letters",
+   "explanation": "l-a-m-b. The b is silent.",
+   "dictation": true,
+   "word": "lamb"
+  },
+  {
+   "id": "en_fonologia_l5_d004",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "phone",
+   "hint": "It has 5 letters",
+   "explanation": "p-h-o-n-e. ph sounds /f/.",
+   "dictation": true,
+   "word": "phone"
+  },
+  {
+   "id": "en_fonologia_l5_d005",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "laugh",
+   "hint": "It has 5 letters",
+   "explanation": "l-a-u-g-h. gh sounds /f/ here.",
+   "dictation": true,
+   "word": "laugh"
+  },
+  {
+   "id": "en_fonologia_l5_d006",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "station",
+   "hint": "It has 7 letters",
+   "explanation": "s-t-a-t-i-o-n. tion sounds /shun/.",
+   "dictation": true,
+   "word": "station"
+  },
+  {
+   "id": "en_fonologia_l5_d007",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "picture",
+   "hint": "It has 7 letters",
+   "explanation": "p-i-c-t-u-r-e. ture sounds /cher/.",
+   "dictation": true,
+   "word": "picture"
+  },
+  {
+   "id": "en_fonologia_l5_d008",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "island",
+   "hint": "It has 6 letters",
+   "explanation": "i-s-l-a-n-d. The s is silent.",
+   "dictation": true,
+   "word": "island"
+  },
+  {
+   "id": "en_fonologia_l5_d009",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "school",
+   "hint": "It has 6 letters",
+   "explanation": "s-c-h-o-o-l. ch sounds /k/.",
+   "dictation": true,
+   "word": "school"
+  },
+  {
+   "id": "en_fonologia_l5_d010",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "eight",
+   "hint": "It has 5 letters",
+   "explanation": "e-i-g-h-t. eigh makes the long a sound.",
+   "dictation": true,
+   "word": "eight"
+  },
+  {
+   "id": "en_fonologia_l5_d011",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "thumb",
+   "hint": "It has 5 letters",
+   "explanation": "t-h-u-m-b. The b is silent.",
+   "dictation": true,
+   "word": "thumb"
+  },
+  {
+   "id": "en_fonologia_l5_d012",
+   "module": "fonologia",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the word",
+   "options": [],
+   "correct": 0,
+   "answer": "castle",
+   "hint": "It has 6 letters",
+   "explanation": "c-a-s-t-l-e. The t is silent.",
+   "dictation": true,
+   "word": "castle"
+  }
+ ]
+}

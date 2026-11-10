@@ -1,1 +1,3527 @@
-{"exercises":[]}
+{
+ "exercises": [
+  {
+   "id": "en_memoria_visual_l1_m001",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "bde",
+    "bed",
+    "ded",
+    "beb"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'bed'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m002",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "dog",
+    "gdo",
+    "dgo",
+    "dqo"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'dog'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m003",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "kat",
+    "cat",
+    "cta",
+    "cet"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'cat'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m004",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "sun",
+    "snu",
+    "sunn",
+    "nus"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'sun'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m005",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "pgi",
+    "qig",
+    "pig",
+    "gip"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'pig'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m006",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "big",
+    "bij",
+    "biq",
+    "bgi"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'big'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m007",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "hatt",
+    "hta",
+    "hat",
+    "aht"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'hat'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m008",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "maq",
+    "mapp",
+    "map",
+    "mpa"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'map'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m009",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "bas",
+    "dus",
+    "bus",
+    "bsu"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'bus'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m010",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "fish",
+    "fsih",
+    "fihs",
+    "fich"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'fish'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m011",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "mlik",
+    "mikl",
+    "milk",
+    "milc"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'milk'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m012",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "dcuk",
+    "duck",
+    "duk",
+    "dukc"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'duck'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m013",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "bok",
+    "book",
+    "dook",
+    "boko"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'book'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m014",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "ball",
+    "bal",
+    "blal",
+    "dall"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'ball'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m015",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "forg",
+    "frogg",
+    "frog",
+    "frgo"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'frog'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m016",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "qen",
+    "pne",
+    "penn",
+    "pen"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'pen'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m017",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "kup",
+    "cpu",
+    "cup",
+    "cuq"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'cup'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m018",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "bidr",
+    "bird",
+    "brid",
+    "drib"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'bird'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m019",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "doro",
+    "dor",
+    "door",
+    "droo"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'door'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m020",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "tem",
+    "tenn",
+    "ten",
+    "tne"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'ten'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m021",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "boi",
+    "boy",
+    "doy",
+    "byo"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'boy'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m022",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "trea",
+    "tree",
+    "teer",
+    "tre"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'tree'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m023",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "red",
+    "rde",
+    "reb",
+    "redd"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'red'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m024",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "box",
+    "doks",
+    "bxo",
+    "boks"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'box'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m025",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: b, d, b, b?",
+   "options": [
+    "2nd",
+    "3rd",
+    "1st",
+    "4th"
+   ],
+   "correct": 0,
+   "explanation": "The 2nd one is 'd'. The others are 'b'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m026",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: p, p, p, q?",
+   "options": [
+    "3rd",
+    "4th",
+    "1st",
+    "2nd"
+   ],
+   "correct": 1,
+   "explanation": "The 4th one is 'q'. The others are 'p'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m027",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: n, u, n, n?",
+   "options": [
+    "1st",
+    "3rd",
+    "2nd",
+    "4th"
+   ],
+   "correct": 2,
+   "explanation": "The 2nd one is 'u'. The others are 'n'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m028",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: m, m, m, w?",
+   "options": [
+    "4th",
+    "2nd",
+    "1st",
+    "3rd"
+   ],
+   "correct": 0,
+   "explanation": "The 4th one is 'w'. The others are 'm'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m029",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: b, p, b, b?",
+   "options": [
+    "3rd",
+    "1st",
+    "2nd",
+    "4th"
+   ],
+   "correct": 2,
+   "explanation": "The 2nd one is 'p'. The others are 'b'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m030",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: d, d, d, q?",
+   "options": [
+    "4th",
+    "1st",
+    "3rd",
+    "2nd"
+   ],
+   "correct": 0,
+   "explanation": "The 4th one is 'q'. The others are 'd'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m031",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'was'",
+   "options": [
+    "saw",
+    "aws",
+    "was",
+    "wsa"
+   ],
+   "correct": 2,
+   "explanation": "Look carefully at every letter: w-a-s."
+  },
+  {
+   "id": "en_memoria_visual_l1_m032",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'on'",
+   "options": [
+    "oh",
+    "no",
+    "on",
+    "an"
+   ],
+   "correct": 2,
+   "explanation": "Look carefully at every letter: o-n."
+  },
+  {
+   "id": "en_memoria_visual_l1_m033",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'top'",
+   "options": [
+    "pot",
+    "top",
+    "tpo",
+    "opt"
+   ],
+   "correct": 1,
+   "explanation": "Look carefully at every letter: t-o-p."
+  },
+  {
+   "id": "en_memoria_visual_l1_m034",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'pan'",
+   "options": [
+    "pan",
+    "pam",
+    "nap",
+    "pna"
+   ],
+   "correct": 0,
+   "explanation": "Look carefully at every letter: p-a-n."
+  },
+  {
+   "id": "en_memoria_visual_l1_m035",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'tub'",
+   "options": [
+    "tud",
+    "tub",
+    "but",
+    "dut"
+   ],
+   "correct": 1,
+   "explanation": "Look carefully at every letter: t-u-b."
+  },
+  {
+   "id": "en_memoria_visual_l1_m036",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'pit'",
+   "options": [
+    "tip",
+    "qit",
+    "pti",
+    "pit"
+   ],
+   "correct": 3,
+   "explanation": "Look carefully at every letter: p-i-t."
+  },
+  {
+   "id": "en_memoria_visual_l1_m037",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: was, saw, was, was?",
+   "options": [
+    "2nd",
+    "1st",
+    "4th",
+    "3rd"
+   ],
+   "correct": 0,
+   "explanation": "The 2nd word is 'saw', not 'was'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m038",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: on, on, no, on?",
+   "options": [
+    "1st",
+    "4th",
+    "2nd",
+    "3rd"
+   ],
+   "correct": 3,
+   "explanation": "The 3rd word is 'no', not 'on'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m039",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: top, top, top, pot?",
+   "options": [
+    "2nd",
+    "3rd",
+    "1st",
+    "4th"
+   ],
+   "correct": 3,
+   "explanation": "The 4th word is 'pot', not 'top'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m040",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: nap, pan, pan, pan?",
+   "options": [
+    "3rd",
+    "1st",
+    "4th",
+    "2nd"
+   ],
+   "correct": 1,
+   "explanation": "The 1st word is 'nap', not 'pan'."
+  },
+  {
+   "id": "en_memoria_visual_l1_m041",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: tub, but, tub, tub?",
+   "options": [
+    "2nd",
+    "3rd",
+    "4th",
+    "1st"
+   ],
+   "correct": 0,
+   "explanation": "The 2nd word is 'but', not 'tub'."
+  },
+  {
+   "id": "en_memoria_visual_l1_o001",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the letters in alphabetical order",
+   "pieces": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correctOrder": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: A, B, C, D."
+  },
+  {
+   "id": "en_memoria_visual_l1_o002",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the letters in alphabetical order",
+   "pieces": [
+    "E",
+    "F",
+    "G",
+    "H"
+   ],
+   "correctOrder": [
+    "E",
+    "F",
+    "G",
+    "H"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: E, F, G, H."
+  },
+  {
+   "id": "en_memoria_visual_l1_o003",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the letters in alphabetical order",
+   "pieces": [
+    "L",
+    "M",
+    "N",
+    "O"
+   ],
+   "correctOrder": [
+    "L",
+    "M",
+    "N",
+    "O"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: L, M, N, O."
+  },
+  {
+   "id": "en_memoria_visual_l1_o004",
+   "module": "memoria_visual",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the letters in alphabetical order",
+   "pieces": [
+    "R",
+    "S",
+    "T",
+    "U"
+   ],
+   "correctOrder": [
+    "R",
+    "S",
+    "T",
+    "U"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: R, S, T, U."
+  },
+  {
+   "id": "en_memoria_visual_l2_m001",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "ship",
+    "shipp",
+    "shpi",
+    "sihp"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'ship'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m002",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "chair",
+    "chiar",
+    "chare",
+    "cahir"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'chair'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m003",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "tchree",
+    "threa",
+    "three",
+    "thre"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'three'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m004",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "blcak",
+    "dlack",
+    "black",
+    "blak"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'black'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m005",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "shlel",
+    "sehll",
+    "shel",
+    "shell"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'shell'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m006",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "cradb",
+    "crabb",
+    "crab",
+    "crad"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'crab'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m007",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "drumm",
+    "drmu",
+    "drum",
+    "durm"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'drum'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m008",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "lnuch",
+    "lunsh",
+    "lunch",
+    "lucnh"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'lunch'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m009",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "thnak",
+    "thank",
+    "thak",
+    "tahnk"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'thank'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m010",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "clock",
+    "colck",
+    "clok",
+    "cloc"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'clock'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m011",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "swimm",
+    "sium",
+    "siwm",
+    "swim"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'swim'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m012",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "drush",
+    "brush",
+    "brusch",
+    "bursh"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'brush'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m013",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "queen",
+    "qeen",
+    "queeen",
+    "qween"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'queen'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m014",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "wahle",
+    "whale",
+    "whal",
+    "whael"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'whale'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m015",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "sheap",
+    "sehep",
+    "shepe",
+    "sheep"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'sheep'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m016",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "chikcen",
+    "chiken",
+    "chickin",
+    "chicken"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'chicken'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m017",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "dolpihn",
+    "dolphin",
+    "bolphin",
+    "dolfin"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'dolphin'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m018",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "spidre",
+    "spider",
+    "sbider",
+    "spiber"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'spider'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m019",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "plantt",
+    "plnat",
+    "palnt",
+    "plant"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'plant'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m020",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "trukc",
+    "truk",
+    "truck",
+    "turck"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'truck'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m021",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "snake",
+    "snak",
+    "snaek",
+    "sanke"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'snake'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m022",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "flaq",
+    "flag",
+    "flagg",
+    "falg"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'flag'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m023",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "glove",
+    "golve",
+    "gluv",
+    "glov"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'glove'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m024",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "dres",
+    "dress",
+    "bress",
+    "drees"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'dress'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m025",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: b, b, d, b?",
+   "options": [
+    "3rd",
+    "1st",
+    "4th",
+    "2nd"
+   ],
+   "correct": 0,
+   "explanation": "The 3rd one is 'd'. The others are 'b'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m026",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: q, p, p, p?",
+   "options": [
+    "2nd",
+    "3rd",
+    "1st",
+    "4th"
+   ],
+   "correct": 2,
+   "explanation": "The 1st one is 'q'. The others are 'p'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m027",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: n, n, u, n?",
+   "options": [
+    "4th",
+    "2nd",
+    "3rd",
+    "1st"
+   ],
+   "correct": 2,
+   "explanation": "The 3rd one is 'u'. The others are 'n'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m028",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: w, m, m, m?",
+   "options": [
+    "2nd",
+    "1st",
+    "4th",
+    "3rd"
+   ],
+   "correct": 1,
+   "explanation": "The 1st one is 'w'. The others are 'm'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m029",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: d, d, b, d?",
+   "options": [
+    "1st",
+    "2nd",
+    "4th",
+    "3rd"
+   ],
+   "correct": 3,
+   "explanation": "The 3rd one is 'b'. The others are 'd'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m030",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: p, q, q, q?",
+   "options": [
+    "3rd",
+    "2nd",
+    "1st",
+    "4th"
+   ],
+   "correct": 2,
+   "explanation": "The 1st one is 'p'. The others are 'q'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m031",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'ten'",
+   "options": [
+    "net",
+    "tem",
+    "tne",
+    "ten"
+   ],
+   "correct": 3,
+   "explanation": "Look carefully at every letter: t-e-n."
+  },
+  {
+   "id": "en_memoria_visual_l2_m032",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'mug'",
+   "options": [
+    "mug",
+    "mud",
+    "gum",
+    "mgu"
+   ],
+   "correct": 0,
+   "explanation": "Look carefully at every letter: m-u-g."
+  },
+  {
+   "id": "en_memoria_visual_l2_m033",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'bad'",
+   "options": [
+    "bab",
+    "dab",
+    "bad",
+    "dad"
+   ],
+   "correct": 2,
+   "explanation": "Look carefully at every letter: b-a-d."
+  },
+  {
+   "id": "en_memoria_visual_l2_m034",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'stop'",
+   "options": [
+    "stop",
+    "spot",
+    "pots",
+    "tops"
+   ],
+   "correct": 0,
+   "explanation": "Look carefully at every letter: s-t-o-p."
+  },
+  {
+   "id": "en_memoria_visual_l2_m035",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'form'",
+   "options": [
+    "from",
+    "fomr",
+    "form",
+    "frmo"
+   ],
+   "correct": 2,
+   "explanation": "Look carefully at every letter: f-o-r-m."
+  },
+  {
+   "id": "en_memoria_visual_l2_m036",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'felt'",
+   "options": [
+    "fetl",
+    "felt",
+    "flet",
+    "left"
+   ],
+   "correct": 1,
+   "explanation": "Look carefully at every letter: f-e-l-t."
+  },
+  {
+   "id": "en_memoria_visual_l2_m037",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: ten, ten, net, ten?",
+   "options": [
+    "3rd",
+    "4th",
+    "1st",
+    "2nd"
+   ],
+   "correct": 0,
+   "explanation": "The 3rd word is 'net', not 'ten'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m038",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: mug, mug, mug, gum?",
+   "options": [
+    "3rd",
+    "1st",
+    "2nd",
+    "4th"
+   ],
+   "correct": 3,
+   "explanation": "The 4th word is 'gum', not 'mug'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m039",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: dab, bad, bad, bad?",
+   "options": [
+    "2nd",
+    "1st",
+    "4th",
+    "3rd"
+   ],
+   "correct": 1,
+   "explanation": "The 1st word is 'dab', not 'bad'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m040",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: stop, pots, stop, stop?",
+   "options": [
+    "2nd",
+    "3rd",
+    "1st",
+    "4th"
+   ],
+   "correct": 0,
+   "explanation": "The 2nd word is 'pots', not 'stop'."
+  },
+  {
+   "id": "en_memoria_visual_l2_m041",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: form, form, from, form?",
+   "options": [
+    "4th",
+    "2nd",
+    "1st",
+    "3rd"
+   ],
+   "correct": 3,
+   "explanation": "The 3rd word is 'from', not 'form'."
+  },
+  {
+   "id": "en_memoria_visual_l2_o001",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the letters in alphabetical order",
+   "pieces": [
+    "B",
+    "D",
+    "G",
+    "K",
+    "P"
+   ],
+   "correctOrder": [
+    "B",
+    "D",
+    "G",
+    "K",
+    "P"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: B, D, G, K, P."
+  },
+  {
+   "id": "en_memoria_visual_l2_o002",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the letters in alphabetical order",
+   "pieces": [
+    "A",
+    "E",
+    "I",
+    "O",
+    "U"
+   ],
+   "correctOrder": [
+    "A",
+    "E",
+    "I",
+    "O",
+    "U"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: A, E, I, O, U."
+  },
+  {
+   "id": "en_memoria_visual_l2_o003",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the letters in alphabetical order",
+   "pieces": [
+    "C",
+    "F",
+    "J",
+    "M",
+    "R"
+   ],
+   "correctOrder": [
+    "C",
+    "F",
+    "J",
+    "M",
+    "R"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: C, F, J, M, R."
+  },
+  {
+   "id": "en_memoria_visual_l2_o004",
+   "module": "memoria_visual",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the letters in alphabetical order",
+   "pieces": [
+    "D",
+    "H",
+    "L",
+    "S",
+    "W"
+   ],
+   "correctOrder": [
+    "D",
+    "H",
+    "L",
+    "S",
+    "W"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: D, H, L, S, W."
+  },
+  {
+   "id": "en_memoria_visual_l3_m001",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "rian",
+    "rane",
+    "rayn",
+    "rain"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'rain'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m002",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "boate",
+    "baot",
+    "bote",
+    "boat"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'boat'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m003",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "nigt",
+    "nigth",
+    "nihgt",
+    "night"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'night'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m004",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "caek",
+    "cake",
+    "caik",
+    "kake"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'cake'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m005",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "bik",
+    "bike",
+    "bicke",
+    "biek"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'bike'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m006",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "trane",
+    "trian",
+    "tarin",
+    "train"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'train'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m007",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "beatch",
+    "baech",
+    "bech",
+    "beach"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'beach'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m008",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "sonw",
+    "snoe",
+    "snwo",
+    "snow"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'snow'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m009",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "fetee",
+    "feeet",
+    "feit",
+    "feet"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'feet'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m010",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "goat",
+    "gote",
+    "goatt",
+    "gaot"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'goat'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m011",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "light",
+    "ligth",
+    "lighte",
+    "lihgt"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'light'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m012",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "homme",
+    "home",
+    "hom",
+    "hoem"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'home'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m013",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "tubbe",
+    "tube",
+    "tuoe",
+    "tueb"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'tube'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m014",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "smiel",
+    "simle",
+    "smile",
+    "smial"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'smile'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m015",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "deram",
+    "dreem",
+    "dream",
+    "draem"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'dream'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m016",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "bread",
+    "braed",
+    "breab",
+    "brade"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'bread'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m017",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "chesse",
+    "cheese",
+    "cheeze",
+    "chese"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'cheese'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m018",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "plai",
+    "paly",
+    "play",
+    "plae"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'play'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m019",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "rohd",
+    "raod",
+    "roed",
+    "road"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'road'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m020",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "fulte",
+    "flute",
+    "flut",
+    "fluet"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'flute'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m021",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "plane",
+    "pleane",
+    "palne",
+    "plaen"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'plane'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m022",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "sead",
+    "seeb",
+    "sede",
+    "seed"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'seed'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m023",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "coate",
+    "caot",
+    "coet",
+    "coat"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'coat'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m024",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "bonne",
+    "bone",
+    "doen",
+    "bnoe"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'bone'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m025",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: b, b, b, d, b?",
+   "options": [
+    "4th",
+    "2nd",
+    "3rd",
+    "1st"
+   ],
+   "correct": 0,
+   "explanation": "The 4th one is 'd'. The others are 'b'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m026",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: q, p, p, p, p?",
+   "options": [
+    "3rd",
+    "2nd",
+    "4th",
+    "1st"
+   ],
+   "correct": 3,
+   "explanation": "The 1st one is 'q'. The others are 'p'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m027",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: n, n, h, n, n?",
+   "options": [
+    "1st",
+    "2nd",
+    "3rd",
+    "4th"
+   ],
+   "correct": 2,
+   "explanation": "The 3rd one is 'h'. The others are 'n'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m028",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: m, m, m, m, n?",
+   "options": [
+    "2nd",
+    "3rd",
+    "5th",
+    "1st"
+   ],
+   "correct": 2,
+   "explanation": "The 5th one is 'n'. The others are 'm'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m029",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: i, j, i, i, i?",
+   "options": [
+    "2nd",
+    "4th",
+    "3rd",
+    "1st"
+   ],
+   "correct": 0,
+   "explanation": "The 2nd one is 'j'. The others are 'i'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m030",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: t, t, t, f, t?",
+   "options": [
+    "3rd",
+    "1st",
+    "4th",
+    "2nd"
+   ],
+   "correct": 2,
+   "explanation": "The 4th one is 'f'. The others are 't'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m031",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'lion'",
+   "options": [
+    "loni",
+    "lino",
+    "lion",
+    "loin"
+   ],
+   "correct": 2,
+   "explanation": "Look carefully at every letter: l-i-o-n."
+  },
+  {
+   "id": "en_memoria_visual_l3_m032",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'step'",
+   "options": [
+    "pest",
+    "sept",
+    "pets",
+    "step"
+   ],
+   "correct": 3,
+   "explanation": "Look carefully at every letter: s-t-e-p."
+  },
+  {
+   "id": "en_memoria_visual_l3_m033",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'dairy'",
+   "options": [
+    "dairy",
+    "diary",
+    "dariy",
+    "daisy"
+   ],
+   "correct": 0,
+   "explanation": "Look carefully at every letter: d-a-i-r-y."
+  },
+  {
+   "id": "en_memoria_visual_l3_m034",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'angle'",
+   "options": [
+    "agnle",
+    "angel",
+    "anlge",
+    "angle"
+   ],
+   "correct": 3,
+   "explanation": "Look carefully at every letter: a-n-g-l-e."
+  },
+  {
+   "id": "en_memoria_visual_l3_m035",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'quiet'",
+   "options": [
+    "quit",
+    "qiuet",
+    "quite",
+    "quiet"
+   ],
+   "correct": 3,
+   "explanation": "Look carefully at every letter: q-u-i-e-t."
+  },
+  {
+   "id": "en_memoria_visual_l3_m036",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'trail'",
+   "options": [
+    "trali",
+    "trail",
+    "tail",
+    "trial"
+   ],
+   "correct": 1,
+   "explanation": "Look carefully at every letter: t-r-a-i-l."
+  },
+  {
+   "id": "en_memoria_visual_l3_m037",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: lion, lion, lion, loin?",
+   "options": [
+    "1st",
+    "3rd",
+    "4th",
+    "2nd"
+   ],
+   "correct": 2,
+   "explanation": "The 4th word is 'loin', not 'lion'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m038",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: pets, step, step, step?",
+   "options": [
+    "2nd",
+    "1st",
+    "4th",
+    "3rd"
+   ],
+   "correct": 1,
+   "explanation": "The 1st word is 'pets', not 'step'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m039",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: dairy, diary, dairy, dairy?",
+   "options": [
+    "3rd",
+    "2nd",
+    "1st",
+    "4th"
+   ],
+   "correct": 1,
+   "explanation": "The 2nd word is 'diary', not 'dairy'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m040",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: angle, angle, angel, angle?",
+   "options": [
+    "4th",
+    "3rd",
+    "2nd",
+    "1st"
+   ],
+   "correct": 1,
+   "explanation": "The 3rd word is 'angel', not 'angle'."
+  },
+  {
+   "id": "en_memoria_visual_l3_m041",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: quiet, quiet, quiet, quite?",
+   "options": [
+    "2nd",
+    "1st",
+    "4th",
+    "3rd"
+   ],
+   "correct": 2,
+   "explanation": "The 4th word is 'quite', not 'quiet'."
+  },
+  {
+   "id": "en_memoria_visual_l3_o001",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "ant",
+    "bee",
+    "cow"
+   ],
+   "correctOrder": [
+    "ant",
+    "bee",
+    "cow"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: ant, bee, cow."
+  },
+  {
+   "id": "en_memoria_visual_l3_o002",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "dog",
+    "fox",
+    "pig"
+   ],
+   "correctOrder": [
+    "dog",
+    "fox",
+    "pig"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: dog, fox, pig."
+  },
+  {
+   "id": "en_memoria_visual_l3_o003",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "hat",
+    "map",
+    "sun"
+   ],
+   "correctOrder": [
+    "hat",
+    "map",
+    "sun"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: hat, map, sun."
+  },
+  {
+   "id": "en_memoria_visual_l3_o004",
+   "module": "memoria_visual",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "bus",
+    "car",
+    "van"
+   ],
+   "correctOrder": [
+    "bus",
+    "car",
+    "van"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: bus, car, van."
+  },
+  {
+   "id": "en_memoria_visual_l4_m001",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "star",
+    "starr",
+    "sarr",
+    "stra"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'star'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m002",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "shrit",
+    "shurt",
+    "shirt",
+    "sirht"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'shirt'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m003",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "perple",
+    "puprle",
+    "purpel",
+    "purple"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'purple'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m004",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "gradne",
+    "garden",
+    "gardin",
+    "gadren"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'garden'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m005",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "tutrle",
+    "turtle",
+    "turtel",
+    "tirtle"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'turtle'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m006",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "corener",
+    "cornre",
+    "corner",
+    "croner"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'corner'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m007",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "cloud",
+    "clodu",
+    "clowd",
+    "colud"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'cloud'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m008",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "mowse",
+    "mouse",
+    "moues",
+    "muose"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'mouse'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m009",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "cion",
+    "coyn",
+    "coin",
+    "coine"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'coin'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m010",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "tyo",
+    "toey",
+    "toy",
+    "toi"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'toy'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m011",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "nirse",
+    "nurse",
+    "nurce",
+    "nusre"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'nurse'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m012",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "tabble",
+    "tabel",
+    "table",
+    "talbe"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'table'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m013",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "appel",
+    "aple",
+    "alppe",
+    "apple"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'apple'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m014",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "sircle",
+    "cirlce",
+    "circle",
+    "circel"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'circle'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m015",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "thirsty",
+    "thristy",
+    "thursty",
+    "thirstie"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'thirsty'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m016",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "makret",
+    "marcket",
+    "market",
+    "markit"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'market'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m017",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "froest",
+    "foerst",
+    "forest",
+    "forist"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'forest'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m018",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "botle",
+    "bottel",
+    "bottle",
+    "dottle"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'bottle'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m019",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "wintur",
+    "winter",
+    "witner",
+    "wintre"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'winter'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m020",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "sistre",
+    "sistur",
+    "sitser",
+    "sister"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'sister'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m021",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "monstre",
+    "monster",
+    "mosnter",
+    "monstar"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'monster'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m022",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "flower",
+    "flowre",
+    "flouer",
+    "flwoer"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'flower'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m023",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "towel",
+    "twoel",
+    "touel",
+    "towle"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'towel'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m024",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "bolil",
+    "boyl",
+    "bial",
+    "boil"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'boil'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m025",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: bd, bd, bd, bd, db?",
+   "options": [
+    "3rd",
+    "1st",
+    "2nd",
+    "5th"
+   ],
+   "correct": 3,
+   "explanation": "The 5th one is 'db'. The others are 'bd'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m026",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: pq, qp, pq, pq, pq?",
+   "options": [
+    "2nd",
+    "3rd",
+    "4th",
+    "1st"
+   ],
+   "correct": 0,
+   "explanation": "The 2nd one is 'qp'. The others are 'pq'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m027",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: nu, nu, nu, un, nu?",
+   "options": [
+    "3rd",
+    "2nd",
+    "1st",
+    "4th"
+   ],
+   "correct": 3,
+   "explanation": "The 4th one is 'un'. The others are 'nu'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m028",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: ad, ab, ab, ab, ab?",
+   "options": [
+    "3rd",
+    "1st",
+    "4th",
+    "2nd"
+   ],
+   "correct": 1,
+   "explanation": "The 1st one is 'ad'. The others are 'ab'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m029",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: ib, ib, id, ib, ib?",
+   "options": [
+    "1st",
+    "3rd",
+    "2nd",
+    "4th"
+   ],
+   "correct": 1,
+   "explanation": "The 3rd one is 'id'. The others are 'ib'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m030",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: ob, ob, ob, ob, od?",
+   "options": [
+    "2nd",
+    "1st",
+    "3rd",
+    "5th"
+   ],
+   "correct": 3,
+   "explanation": "The 5th one is 'od'. The others are 'ob'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m031",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'united'",
+   "options": [
+    "unitde",
+    "untied",
+    "united",
+    "unted"
+   ],
+   "correct": 2,
+   "explanation": "Look carefully at every letter: u-n-i-t-e-d."
+  },
+  {
+   "id": "en_memoria_visual_l4_m032",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'silent'",
+   "options": [
+    "silent",
+    "slient",
+    "listen",
+    "silnet"
+   ],
+   "correct": 0,
+   "explanation": "Look carefully at every letter: s-i-l-e-n-t."
+  },
+  {
+   "id": "en_memoria_visual_l4_m033",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'dessert'",
+   "options": [
+    "dessert",
+    "desserts",
+    "desert",
+    "deserts"
+   ],
+   "correct": 0,
+   "explanation": "Look carefully at every letter: d-e-s-s-e-r-t."
+  },
+  {
+   "id": "en_memoria_visual_l4_m034",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'thought'",
+   "options": [
+    "thought",
+    "through",
+    "though",
+    "throughout"
+   ],
+   "correct": 0,
+   "explanation": "Look carefully at every letter: t-h-o-u-g-h-t."
+  },
+  {
+   "id": "en_memoria_visual_l4_m035",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'brought'",
+   "options": [
+    "bought",
+    "borught",
+    "brought",
+    "brougth"
+   ],
+   "correct": 2,
+   "explanation": "Look carefully at every letter: b-r-o-u-g-h-t."
+  },
+  {
+   "id": "en_memoria_visual_l4_m036",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'weather'",
+   "options": [
+    "whether",
+    "wether",
+    "weahter",
+    "weather"
+   ],
+   "correct": 3,
+   "explanation": "Look carefully at every letter: w-e-a-t-h-e-r."
+  },
+  {
+   "id": "en_memoria_visual_l4_m037",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: untied, united, united, united?",
+   "options": [
+    "1st",
+    "2nd",
+    "4th",
+    "3rd"
+   ],
+   "correct": 0,
+   "explanation": "The 1st word is 'untied', not 'united'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m038",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: silent, listen, silent, silent?",
+   "options": [
+    "2nd",
+    "4th",
+    "3rd",
+    "1st"
+   ],
+   "correct": 0,
+   "explanation": "The 2nd word is 'listen', not 'silent'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m039",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: dessert, dessert, desert, dessert?",
+   "options": [
+    "4th",
+    "2nd",
+    "3rd",
+    "1st"
+   ],
+   "correct": 2,
+   "explanation": "The 3rd word is 'desert', not 'dessert'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m040",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: thought, thought, thought, though?",
+   "options": [
+    "2nd",
+    "1st",
+    "4th",
+    "3rd"
+   ],
+   "correct": 2,
+   "explanation": "The 4th word is 'though', not 'thought'."
+  },
+  {
+   "id": "en_memoria_visual_l4_m041",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: bought, brought, brought, brought?",
+   "options": [
+    "3rd",
+    "2nd",
+    "1st",
+    "4th"
+   ],
+   "correct": 2,
+   "explanation": "The 1st word is 'bought', not 'brought'."
+  },
+  {
+   "id": "en_memoria_visual_l4_o001",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "apple",
+    "banana",
+    "cherry",
+    "grape"
+   ],
+   "correctOrder": [
+    "apple",
+    "banana",
+    "cherry",
+    "grape"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: apple, banana, cherry, grape."
+  },
+  {
+   "id": "en_memoria_visual_l4_o002",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "bed",
+    "chair",
+    "lamp",
+    "table"
+   ],
+   "correctOrder": [
+    "bed",
+    "chair",
+    "lamp",
+    "table"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: bed, chair, lamp, table."
+  },
+  {
+   "id": "en_memoria_visual_l4_o003",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "cat",
+    "cow",
+    "cub",
+    "kid"
+   ],
+   "correctOrder": [
+    "cat",
+    "cow",
+    "cub",
+    "kid"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: cat, cow, cub, kid."
+  },
+  {
+   "id": "en_memoria_visual_l4_o004",
+   "module": "memoria_visual",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "red",
+    "rice",
+    "road",
+    "rug"
+   ],
+   "correctOrder": [
+    "red",
+    "rice",
+    "road",
+    "rug"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: red, rice, road, rug."
+  },
+  {
+   "id": "en_memoria_visual_l5_m001",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "knife",
+    "nife",
+    "kinfe",
+    "knief"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'knife'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m002",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "writte",
+    "write",
+    "wrtie",
+    "wirte"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'write'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m003",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "thumb",
+    "tumb",
+    "thmub",
+    "thum"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'thumb'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m004",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "iland",
+    "ilsand",
+    "islnad",
+    "island"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'island'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m005",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "castel",
+    "casle",
+    "castle",
+    "catsle"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'castle'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m006",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "lamb",
+    "lmab",
+    "lamd",
+    "lam"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'lamb'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m007",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "autum",
+    "autumn",
+    "autunm",
+    "otumn"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'autumn'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m008",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "clim",
+    "climb",
+    "climd",
+    "cilmb"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'climb'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m009",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "people",
+    "peopel",
+    "peple",
+    "poeple"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'people'. Tip: people eat orange peel like elephants."
+  },
+  {
+   "id": "en_memoria_visual_l5_m010",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "becose",
+    "becuase",
+    "because",
+    "beacuse"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'because'. Tip: Big Elephants Can Always Understand Small Elephants."
+  },
+  {
+   "id": "en_memoria_visual_l5_m011",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "friend",
+    "frined",
+    "freind",
+    "frend"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'friend'. Tip: a friend is there to the end."
+  },
+  {
+   "id": "en_memoria_visual_l5_m012",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "Wednsday",
+    "Wedensday",
+    "Wednesday",
+    "Wensday"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'Wednesday'. Say it slowly: Wed-nes-day."
+  },
+  {
+   "id": "en_memoria_visual_l5_m013",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "beautiful",
+    "beautifull",
+    "beutiful",
+    "beatiful"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'beautiful'. Tip: big elephants are useful."
+  },
+  {
+   "id": "en_memoria_visual_l5_m014",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "science",
+    "sciense",
+    "scince",
+    "sience"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'science'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m015",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "anser",
+    "answer",
+    "ansewr",
+    "answre"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'answer'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m016",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "lisen",
+    "litsen",
+    "lissen",
+    "listen"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'listen'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m017",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "necessary",
+    "necesary",
+    "neccesary",
+    "neccessary"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'necessary'. Tip: one collar (c) and two sleeves (ss)."
+  },
+  {
+   "id": "en_memoria_visual_l5_m018",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "separete",
+    "seperate",
+    "separate",
+    "seprate"
+   ],
+   "correct": 2,
+   "explanation": "The correct spelling is 'separate'. Tip: there is 'a rat' in sep-a-rat-e."
+  },
+  {
+   "id": "en_memoria_visual_l5_m019",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "rhythem",
+    "rhythm",
+    "rhytm",
+    "rythm"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'rhythm'. Tip: Rhythm Helps Your Two Hips Move."
+  },
+  {
+   "id": "en_memoria_visual_l5_m020",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "knowlege",
+    "nowledge",
+    "knowlidge",
+    "knowledge"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'knowledge'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m021",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "muscel",
+    "muscle",
+    "mucsle",
+    "mussle"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'muscle'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m022",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "guitar",
+    "gitar",
+    "guittar",
+    "giutar"
+   ],
+   "correct": 0,
+   "explanation": "The correct spelling is 'guitar'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m023",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "receeve",
+    "resieve",
+    "recieve",
+    "receive"
+   ],
+   "correct": 3,
+   "explanation": "The correct spelling is 'receive'. Tip: i before e, except after c."
+  },
+  {
+   "id": "en_memoria_visual_l5_m024",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "Feburary",
+    "February",
+    "Febuary",
+    "Febrary"
+   ],
+   "correct": 1,
+   "explanation": "The correct spelling is 'February'. Say it slowly: Feb-ru-ary."
+  },
+  {
+   "id": "en_memoria_visual_l5_m025",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: bad, bad, bad, bad, bad, dab?",
+   "options": [
+    "2nd",
+    "1st",
+    "3rd",
+    "6th"
+   ],
+   "correct": 3,
+   "explanation": "The 6th one is 'dab'. The others are 'bad'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m026",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: dip, pid, dip, dip, dip, dip?",
+   "options": [
+    "2nd",
+    "3rd",
+    "4th",
+    "1st"
+   ],
+   "correct": 0,
+   "explanation": "The 2nd one is 'pid'. The others are 'dip'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m027",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: bud, bud, bud, dub, bud, bud?",
+   "options": [
+    "1st",
+    "3rd",
+    "2nd",
+    "4th"
+   ],
+   "correct": 3,
+   "explanation": "The 4th one is 'dub'. The others are 'bud'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m028",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: pod, pod, pod, pod, pod, bod?",
+   "options": [
+    "6th",
+    "3rd",
+    "2nd",
+    "1st"
+   ],
+   "correct": 0,
+   "explanation": "The 6th one is 'bod'. The others are 'pod'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m029",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: nap, pan, nap, nap, nap, nap?",
+   "options": [
+    "1st",
+    "2nd",
+    "4th",
+    "3rd"
+   ],
+   "correct": 1,
+   "explanation": "The 2nd one is 'pan'. The others are 'nap'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m030",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: tub, tub, tub, but, tub, tub?",
+   "options": [
+    "2nd",
+    "1st",
+    "3rd",
+    "4th"
+   ],
+   "correct": 3,
+   "explanation": "The 4th one is 'but'. The others are 'tub'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m031",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'conversation'",
+   "options": [
+    "converstion",
+    "convesation",
+    "conversation",
+    "conservation"
+   ],
+   "correct": 2,
+   "explanation": "Look carefully at every letter: c-o-n-v-e-r-s-a-t-i-o-n."
+  },
+  {
+   "id": "en_memoria_visual_l5_m032",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'accept'",
+   "options": [
+    "acept",
+    "except",
+    "accept",
+    "excpet"
+   ],
+   "correct": 2,
+   "explanation": "Look carefully at every letter: a-c-c-e-p-t."
+  },
+  {
+   "id": "en_memoria_visual_l5_m033",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'affect'",
+   "options": [
+    "affcet",
+    "afect",
+    "affect",
+    "effect"
+   ],
+   "correct": 2,
+   "explanation": "Look carefully at every letter: a-f-f-e-c-t."
+  },
+  {
+   "id": "en_memoria_visual_l5_m034",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'advice'",
+   "options": [
+    "adivce",
+    "advice",
+    "advise",
+    "advcie"
+   ],
+   "correct": 1,
+   "explanation": "Look carefully at every letter: a-d-v-i-c-e."
+  },
+  {
+   "id": "en_memoria_visual_l5_m035",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'breathe'",
+   "options": [
+    "braethe",
+    "breathe",
+    "breath",
+    "breahte"
+   ],
+   "correct": 1,
+   "explanation": "Look carefully at every letter: b-r-e-a-t-h-e."
+  },
+  {
+   "id": "en_memoria_visual_l5_m036",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'quarter'",
+   "options": [
+    "quarter",
+    "quater",
+    "quatre",
+    "quartre"
+   ],
+   "correct": 0,
+   "explanation": "Look carefully at every letter: q-u-a-r-t-e-r."
+  },
+  {
+   "id": "en_memoria_visual_l5_m037",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: conversation, conservation, conversation, conversation?",
+   "options": [
+    "3rd",
+    "1st",
+    "4th",
+    "2nd"
+   ],
+   "correct": 3,
+   "explanation": "The 2nd word is 'conservation', not 'conversation'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m038",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: accept, accept, except, accept?",
+   "options": [
+    "2nd",
+    "3rd",
+    "4th",
+    "1st"
+   ],
+   "correct": 1,
+   "explanation": "The 3rd word is 'except', not 'accept'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m039",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: affect, affect, affect, effect?",
+   "options": [
+    "1st",
+    "4th",
+    "3rd",
+    "2nd"
+   ],
+   "correct": 1,
+   "explanation": "The 4th word is 'effect', not 'affect'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m040",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: advise, advice, advice, advice?",
+   "options": [
+    "3rd",
+    "2nd",
+    "1st",
+    "4th"
+   ],
+   "correct": 2,
+   "explanation": "The 1st word is 'advise', not 'advice'."
+  },
+  {
+   "id": "en_memoria_visual_l5_m041",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is different: breathe, breath, breathe, breathe?",
+   "options": [
+    "4th",
+    "3rd",
+    "2nd",
+    "1st"
+   ],
+   "correct": 2,
+   "explanation": "The 2nd word is 'breath', not 'breathe'."
+  },
+  {
+   "id": "en_memoria_visual_l5_o001",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "back",
+    "bake",
+    "ball",
+    "band",
+    "bank"
+   ],
+   "correctOrder": [
+    "back",
+    "bake",
+    "ball",
+    "band",
+    "bank"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: back, bake, ball, band, bank."
+  },
+  {
+   "id": "en_memoria_visual_l5_o002",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "sea",
+    "seat",
+    "seed",
+    "seem",
+    "seen"
+   ],
+   "correctOrder": [
+    "sea",
+    "seat",
+    "seed",
+    "seem",
+    "seen"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: sea, seat, seed, seem, seen."
+  },
+  {
+   "id": "en_memoria_visual_l5_o003",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "star",
+    "start",
+    "stay",
+    "steam",
+    "stop"
+   ],
+   "correctOrder": [
+    "star",
+    "start",
+    "stay",
+    "steam",
+    "stop"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: star, start, stay, steam, stop."
+  },
+  {
+   "id": "en_memoria_visual_l5_o004",
+   "module": "memoria_visual",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "plan",
+    "plane",
+    "plant",
+    "plate",
+    "play"
+   ],
+   "correctOrder": [
+    "plan",
+    "plane",
+    "plant",
+    "plate",
+    "play"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: plan, plane, plant, plate, play."
+  }
+ ]
+}

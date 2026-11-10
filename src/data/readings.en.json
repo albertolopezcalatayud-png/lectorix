@@ -1,1 +1,844 @@
-{"readings":[]}
+{
+ "readings": [
+  {
+   "id": "reading_en_l1_kite",
+   "level": 1,
+   "title": "The red kite",
+   "emoji": "🪁",
+   "text": "Ben has a red kite. It is windy today. Ben and his mum go up the hill. Ben lets the kite go. Up, up it goes! The kite flies high in the sky. It looks like a little bird. Ben is very happy.",
+   "questions": [
+    {
+     "id": "reading_en_l1_kite_q1",
+     "prompt": "What colour is the kite?",
+     "options": [
+      "Yellow",
+      "Blue",
+      "Red"
+     ],
+     "correct": 2,
+     "explanation": "«Ben has a red kite.»"
+    },
+    {
+     "id": "reading_en_l1_kite_q2",
+     "prompt": "Who goes up the hill with Ben?",
+     "options": [
+      "His friend",
+      "His dad",
+      "His mum"
+     ],
+     "correct": 2,
+     "explanation": "«Ben and his mum go up the hill.»"
+    },
+    {
+     "id": "reading_en_l1_kite_q3",
+     "prompt": "What does the kite look like?",
+     "options": [
+      "A little bird",
+      "A cloud",
+      "A big plane"
+     ],
+     "correct": 0,
+     "explanation": "«It looks like a little bird.»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l1_pond",
+   "level": 1,
+   "title": "At the pond",
+   "emoji": "🦆",
+   "text": "Mia and Gran go to the pond. They take some bread for the ducks. A big white duck swims up to them. Then three little brown ducks come too. Mia throws the bread. The ducks eat it all. Quack, quack!",
+   "questions": [
+    {
+     "id": "reading_en_l1_pond_q1",
+     "prompt": "What do they take to the pond?",
+     "options": [
+      "Seeds",
+      "Bread",
+      "Cake"
+     ],
+     "correct": 1,
+     "explanation": "«They take some bread for the ducks.»"
+    },
+    {
+     "id": "reading_en_l1_pond_q2",
+     "prompt": "How many little ducks come?",
+     "options": [
+      "Three",
+      "Four",
+      "Two"
+     ],
+     "correct": 0,
+     "explanation": "«three little brown ducks come too»"
+    },
+    {
+     "id": "reading_en_l1_pond_q3",
+     "prompt": "What colour is the big duck?",
+     "options": [
+      "Brown",
+      "Black",
+      "White"
+     ],
+     "correct": 2,
+     "explanation": "«A big white duck»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l1_bath",
+   "level": 1,
+   "title": "Bath time",
+   "emoji": "🛁",
+   "text": "It is bath time for Max the dog. Max does not like baths. He runs under the bed. Dad finds him and puts him in the bath. Splash! Now Max is clean. He shakes and Dad gets wet too!",
+   "questions": [
+    {
+     "id": "reading_en_l1_bath_q1",
+     "prompt": "Who is Max?",
+     "options": [
+      "A boy",
+      "A cat",
+      "A dog"
+     ],
+     "correct": 2,
+     "explanation": "«Max the dog»"
+    },
+    {
+     "id": "reading_en_l1_bath_q2",
+     "prompt": "Where does Max hide?",
+     "options": [
+      "In the garden",
+      "Under the bed",
+      "Behind the door"
+     ],
+     "correct": 1,
+     "explanation": "«He runs under the bed.»"
+    },
+    {
+     "id": "reading_en_l1_bath_q3",
+     "prompt": "Why does Dad get wet?",
+     "options": [
+      "Dad falls in the bath",
+      "Max shakes",
+      "It rains"
+     ],
+     "correct": 1,
+     "explanation": "«He shakes and Dad gets wet too!»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l1_snow",
+   "level": 1,
+   "title": "Snow day",
+   "emoji": "⛄",
+   "text": "When Lily wakes up, the garden is white. It is snowing! She puts on her hat, her scarf and her gloves. She makes a snowman with her brother. They give him a carrot nose and two stone eyes.",
+   "questions": [
+    {
+     "id": "reading_en_l1_snow_q1",
+     "prompt": "What does Lily see when she wakes up?",
+     "options": [
+      "Snow",
+      "Sun",
+      "Rain"
+     ],
+     "correct": 0,
+     "explanation": "«the garden is white. It is snowing!»"
+    },
+    {
+     "id": "reading_en_l1_snow_q2",
+     "prompt": "Who helps Lily make the snowman?",
+     "options": [
+      "Her brother",
+      "Her dad",
+      "Her sister"
+     ],
+     "correct": 0,
+     "explanation": "«with her brother»"
+    },
+    {
+     "id": "reading_en_l1_snow_q3",
+     "prompt": "What is the snowman's nose?",
+     "options": [
+      "A carrot",
+      "A button",
+      "A stone"
+     ],
+     "correct": 0,
+     "explanation": "«a carrot nose»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l2_lost",
+   "level": 2,
+   "title": "The lost teddy",
+   "emoji": "🧸",
+   "text": "On the way home from the shops, Leo dropped his teddy bear. He did not notice until bedtime. He felt very sad and could not sleep. The next morning, Leo and his dad walked back along the street. There, sitting on a garden wall, was Teddy! A kind neighbour had put him there so that he would be easy to find.",
+   "questions": [
+    {
+     "id": "reading_en_l2_lost_q1",
+     "prompt": "When did Leo notice that Teddy was lost?",
+     "options": [
+      "At the shops",
+      "At breakfast",
+      "At bedtime"
+     ],
+     "correct": 2,
+     "explanation": "«He did not notice until bedtime.»"
+    },
+    {
+     "id": "reading_en_l2_lost_q2",
+     "prompt": "Where did they find Teddy?",
+     "options": [
+      "Under a car",
+      "In a shop",
+      "On a garden wall"
+     ],
+     "correct": 2,
+     "explanation": "«sitting on a garden wall»"
+    },
+    {
+     "id": "reading_en_l2_lost_q3",
+     "prompt": "Why was Teddy on the wall?",
+     "options": [
+      "Leo left him there",
+      "A neighbour put him there",
+      "A dog took him there"
+     ],
+     "correct": 1,
+     "explanation": "«A kind neighbour had put him there»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l2_ants",
+   "level": 2,
+   "title": "Busy ants",
+   "emoji": "🐜",
+   "text": "Ants are tiny, but they are very strong. An ant can carry something much heavier than its own body. Ants live together in big groups called colonies. Each ant has a job. Some look after the eggs, some find food and some guard the nest. When an ant finds food, it leaves a smelly trail so the others can follow it.",
+   "questions": [
+    {
+     "id": "reading_en_l2_ants_q1",
+     "prompt": "What is a group of ants called?",
+     "options": [
+      "A herd",
+      "A flock",
+      "A colony"
+     ],
+     "correct": 2,
+     "explanation": "«big groups called colonies»"
+    },
+    {
+     "id": "reading_en_l2_ants_q2",
+     "prompt": "What can an ant carry?",
+     "options": [
+      "Nothing at all",
+      "Only leaves",
+      "Things heavier than its body"
+     ],
+     "correct": 2,
+     "explanation": "«much heavier than its own body»"
+    },
+    {
+     "id": "reading_en_l2_ants_q3",
+     "prompt": "Why does an ant leave a smelly trail?",
+     "options": [
+      "So others can find the food",
+      "To scare birds",
+      "To mark its bed"
+     ],
+     "correct": 0,
+     "explanation": "«so the others can follow it»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l2_farm",
+   "level": 2,
+   "title": "A day on the farm",
+   "emoji": "🐄",
+   "text": "In the holidays, Aisha stayed on her uncle's farm. Every morning she got up early to help. First, she fed the hungry chickens. Then she watched her uncle milk the cows. In the afternoon, they drove the tractor to the field to pick strawberries. In the evening, Aisha was tired but happy. She could not wait to come back next summer.",
+   "questions": [
+    {
+     "id": "reading_en_l2_farm_q1",
+     "prompt": "Whose farm did Aisha stay on?",
+     "options": [
+      "Her teacher's",
+      "Her uncle's",
+      "Her gran's"
+     ],
+     "correct": 1,
+     "explanation": "«her uncle's farm»"
+    },
+    {
+     "id": "reading_en_l2_farm_q2",
+     "prompt": "What did she do first every morning?",
+     "options": [
+      "Milked the cows",
+      "Fed the chickens",
+      "Picked strawberries"
+     ],
+     "correct": 1,
+     "explanation": "«First, she fed the hungry chickens.»"
+    },
+    {
+     "id": "reading_en_l2_farm_q3",
+     "prompt": "How did she feel in the evening?",
+     "options": [
+      "Sad and bored",
+      "Angry",
+      "Tired but happy"
+     ],
+     "correct": 2,
+     "explanation": "«Aisha was tired but happy.»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l2_robot",
+   "level": 2,
+   "title": "Robo the robot",
+   "emoji": "🤖",
+   "text": "Zack built a robot from boxes, bottle tops and old wires. He called it Robo. Robo could not walk or talk, but Zack pretended that it could. Together they went on adventures to the Moon and to the bottom of the sea. One day, Zack's sister drew a big smile on Robo's face. Now Robo looked as happy as Zack.",
+   "questions": [
+    {
+     "id": "reading_en_l2_robot_q1",
+     "prompt": "What did Zack use to build Robo?",
+     "options": [
+      "Boxes, bottle tops and wires",
+      "Metal and screws",
+      "Wood and nails"
+     ],
+     "correct": 0,
+     "explanation": "«from boxes, bottle tops and old wires»"
+    },
+    {
+     "id": "reading_en_l2_robot_q2",
+     "prompt": "Could Robo really talk?",
+     "options": [
+      "Yes",
+      "Only at night",
+      "No"
+     ],
+     "correct": 2,
+     "explanation": "«Robo could not walk or talk»"
+    },
+    {
+     "id": "reading_en_l2_robot_q3",
+     "prompt": "What did Zack's sister do?",
+     "options": [
+      "Painted Robo blue",
+      "Drew a smile on Robo",
+      "Broke Robo"
+     ],
+     "correct": 1,
+     "explanation": "«drew a big smile on Robo's face»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l3_owls",
+   "level": 3,
+   "title": "Night hunters",
+   "emoji": "🦉",
+   "text": "Owls are birds that hunt at night. Their huge eyes help them to see in the dark, but they cannot move their eyes like we can. Instead, an owl can turn its head almost all the way round. Owls also have amazing hearing. Their soft feathers let them fly without making a sound, so mice and voles do not hear them coming. After a meal, an owl coughs up a pellet of bones and fur that it cannot digest.",
+   "questions": [
+    {
+     "id": "reading_en_l3_owls_q1",
+     "prompt": "Why can owls turn their heads so far?",
+     "options": [
+      "They cannot move their eyes",
+      "Their necks are very long",
+      "They are always lost"
+     ],
+     "correct": 0,
+     "explanation": "«they cannot move their eyes ... Instead, an owl can turn its head»"
+    },
+    {
+     "id": "reading_en_l3_owls_q2",
+     "prompt": "How do owls fly silently?",
+     "options": [
+      "They fly very slowly",
+      "They have no wings",
+      "Their feathers are soft"
+     ],
+     "correct": 2,
+     "explanation": "«Their soft feathers let them fly without making a sound»"
+    },
+    {
+     "id": "reading_en_l3_owls_q3",
+     "prompt": "What is an owl pellet?",
+     "options": [
+      "Its nest",
+      "A kind of egg",
+      "Bones and fur it coughs up"
+     ],
+     "correct": 2,
+     "explanation": "«a pellet of bones and fur that it cannot digest»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l3_library",
+   "level": 3,
+   "title": "The secret door",
+   "emoji": "📚",
+   "text": "In the corner of the school library there was a small wooden door that nobody ever opened. One rainy lunchtime, Priya noticed that it was slightly open. Inside, she found a tiny room full of old books, a dusty armchair and a lamp. On the table was a note: 'This reading room is for anyone who loves stories. Please look after it.' From that day on, Priya spent every rainy lunchtime there, lost in a new adventure.",
+   "questions": [
+    {
+     "id": "reading_en_l3_library_q1",
+     "prompt": "Where was the door?",
+     "options": [
+      "In the corner of the library",
+      "In the classroom",
+      "In the playground"
+     ],
+     "correct": 0,
+     "explanation": "«In the corner of the school library»"
+    },
+    {
+     "id": "reading_en_l3_library_q2",
+     "prompt": "What did Priya find inside?",
+     "options": [
+      "A cupboard of toys",
+      "A secret tunnel",
+      "A small reading room"
+     ],
+     "correct": 2,
+     "explanation": "«a tiny room full of old books, a dusty armchair and a lamp»"
+    },
+    {
+     "id": "reading_en_l3_library_q3",
+     "prompt": "What did the note ask?",
+     "options": [
+      "To lock the door",
+      "To look after the room",
+      "To leave quickly"
+     ],
+     "correct": 1,
+     "explanation": "«Please look after it.»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l3_volcano",
+   "level": 3,
+   "title": "Making a volcano",
+   "emoji": "🌋",
+   "text": "For the science fair, Jamal decided to make a model volcano. He shaped a mountain from clay around an empty bottle and painted it brown and grey. Then he put some bicarbonate of soda inside the bottle. When he poured in vinegar with a drop of red food colouring, foam bubbled up and ran down the sides like lava. Everyone cheered. Jamal explained that the soda and vinegar react together and make a gas, which pushes the foam out.",
+   "questions": [
+    {
+     "id": "reading_en_l3_volcano_q1",
+     "prompt": "Why did Jamal make a volcano?",
+     "options": [
+      "For the science fair",
+      "For art class",
+      "For a birthday"
+     ],
+     "correct": 0,
+     "explanation": "«For the science fair»"
+    },
+    {
+     "id": "reading_en_l3_volcano_q2",
+     "prompt": "What made the foam red?",
+     "options": [
+      "Food colouring",
+      "Ketchup",
+      "Paint"
+     ],
+     "correct": 0,
+     "explanation": "«a drop of red food colouring»"
+    },
+    {
+     "id": "reading_en_l3_volcano_q3",
+     "prompt": "Why does the foam come out?",
+     "options": [
+      "The reaction makes a gas",
+      "Jamal shakes it",
+      "The bottle is hot"
+     ],
+     "correct": 0,
+     "explanation": "«make a gas, which pushes the foam out»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l3_water",
+   "level": 3,
+   "title": "Saving water",
+   "emoji": "💧",
+   "text": "Clean water is precious. Although most of our planet is covered with water, only a tiny part of it is fresh water that we can drink. There are many easy ways to save it at home. You can turn off the tap while you brush your teeth, take a short shower instead of a bath, and fix dripping taps. A dripping tap can waste more than fifteen litres of water every day!",
+   "questions": [
+    {
+     "id": "reading_en_l3_water_q1",
+     "prompt": "What can we drink?",
+     "options": [
+      "Any water",
+      "Sea water",
+      "Fresh water"
+     ],
+     "correct": 2,
+     "explanation": "«only a tiny part of it is fresh water that we can drink»"
+    },
+    {
+     "id": "reading_en_l3_water_q2",
+     "prompt": "What should you do while brushing your teeth?",
+     "options": [
+      "Turn off the tap",
+      "Leave the tap running",
+      "Take a bath"
+     ],
+     "correct": 0,
+     "explanation": "«turn off the tap while you brush your teeth»"
+    },
+    {
+     "id": "reading_en_l3_water_q3",
+     "prompt": "How much can a dripping tap waste in a day?",
+     "options": [
+      "One cup",
+      "More than fifteen litres",
+      "Half a litre"
+     ],
+     "correct": 1,
+     "explanation": "«more than fifteen litres of water every day»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l4_race",
+   "level": 4,
+   "title": "The race",
+   "emoji": "🏃",
+   "text": "Kofi had trained for months for the school cross-country race. On the day, it was cold and muddy. Halfway round, he was in second place when he saw a younger runner slip and fall in the mud. Kofi could have kept running, but he stopped and helped the boy to his feet. By the time they set off again, three runners had overtaken them. Kofi finished fifth. At the end of the day, the head teacher gave him a special award for sportsmanship, and Kofi realised that he was prouder of it than of any medal.",
+   "questions": [
+    {
+     "id": "reading_en_l4_race_q1",
+     "prompt": "What was the weather like?",
+     "options": [
+      "Hot and sunny",
+      "Cold and muddy",
+      "Snowy"
+     ],
+     "correct": 1,
+     "explanation": "«it was cold and muddy»"
+    },
+    {
+     "id": "reading_en_l4_race_q2",
+     "prompt": "Why did Kofi stop?",
+     "options": [
+      "He was tired",
+      "To help a runner who fell",
+      "He lost his shoe"
+     ],
+     "correct": 1,
+     "explanation": "«he stopped and helped the boy to his feet»"
+    },
+    {
+     "id": "reading_en_l4_race_q3",
+     "prompt": "Why was Kofi proud?",
+     "options": [
+      "He was the fastest",
+      "He had done the right thing",
+      "He won the race"
+     ],
+     "correct": 1,
+     "explanation": "He got an award for sportsmanship."
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l4_printing",
+   "level": 4,
+   "title": "The printing press",
+   "emoji": "🖨️",
+   "text": "Before the fifteenth century, books in Europe were copied by hand, usually by monks. It could take months to copy a single book, so books were rare and very expensive. Around 1440, Johannes Gutenberg invented a printing press with metal letters that could be moved and reused. Suddenly, hundreds of copies could be printed quickly. Books became cheaper, more people learned to read, and ideas spread faster than ever before.",
+   "questions": [
+    {
+     "id": "reading_en_l4_printing_q1",
+     "prompt": "Who copied books before the printing press?",
+     "options": [
+      "Kings",
+      "Monks",
+      "Children"
+     ],
+     "correct": 1,
+     "explanation": "«copied by hand, usually by monks»"
+    },
+    {
+     "id": "reading_en_l4_printing_q2",
+     "prompt": "What was special about Gutenberg's letters?",
+     "options": [
+      "They could be moved and reused",
+      "They were made of gold",
+      "They were very large"
+     ],
+     "correct": 0,
+     "explanation": "«metal letters that could be moved and reused»"
+    },
+    {
+     "id": "reading_en_l4_printing_q3",
+     "prompt": "What was one result of the invention?",
+     "options": [
+      "Books became more expensive",
+      "Ideas spread more slowly",
+      "More people learned to read"
+     ],
+     "correct": 2,
+     "explanation": "«more people learned to read»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l4_attic",
+   "level": 4,
+   "title": "The attic",
+   "emoji": "🗝️",
+   "text": "While helping Grandma clear out the attic, Rosa found a small tin box hidden behind a pile of old curtains. Inside were black-and-white photographs, a medal and a bundle of letters tied with ribbon. Grandma sat down slowly and smiled. 'These belonged to my father,' she said. 'He wrote these letters to my mother when he was a nurse during the war.' That afternoon, Rosa listened to stories she had never heard before, and the dusty attic suddenly felt like a treasure chest.",
+   "questions": [
+    {
+     "id": "reading_en_l4_attic_q1",
+     "prompt": "Where was the tin box?",
+     "options": [
+      "Behind some old curtains",
+      "Under the bed",
+      "In the garden"
+     ],
+     "correct": 0,
+     "explanation": "«hidden behind a pile of old curtains»"
+    },
+    {
+     "id": "reading_en_l4_attic_q2",
+     "prompt": "Who did the letters belong to?",
+     "options": [
+      "Rosa's teacher",
+      "Grandma's sister",
+      "Grandma's father"
+     ],
+     "correct": 2,
+     "explanation": "«These belonged to my father»"
+    },
+    {
+     "id": "reading_en_l4_attic_q3",
+     "prompt": "Why did the attic feel like a treasure chest?",
+     "options": [
+      "They found gold coins",
+      "Rosa discovered family stories",
+      "It was full of toys"
+     ],
+     "correct": 1,
+     "explanation": "She learned stories she had never heard."
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l4_bees",
+   "level": 4,
+   "title": "Why we need bees",
+   "emoji": "🐝",
+   "text": "About a third of the food we eat depends on pollination, and bees are some of the best pollinators. As a bee visits flowers to collect nectar, pollen sticks to its hairy body and is carried to the next flower. This helps plants to make fruit and seeds. Sadly, bee numbers are falling because of habitat loss, pesticides and disease. Planting wild flowers, avoiding chemical sprays and leaving some areas of grass to grow long are simple ways to help them.",
+   "questions": [
+    {
+     "id": "reading_en_l4_bees_q1",
+     "prompt": "How much of our food depends on pollination?",
+     "options": [
+      "About a third",
+      "Almost none",
+      "All of it"
+     ],
+     "correct": 0,
+     "explanation": "«About a third of the food we eat»"
+    },
+    {
+     "id": "reading_en_l4_bees_q2",
+     "prompt": "How does pollen travel?",
+     "options": [
+      "Bees eat it",
+      "The wind only",
+      "It sticks to the bee's body"
+     ],
+     "correct": 2,
+     "explanation": "«pollen sticks to its hairy body»"
+    },
+    {
+     "id": "reading_en_l4_bees_q3",
+     "prompt": "Which is a way to help bees?",
+     "options": [
+      "Use more sprays",
+      "Plant wild flowers",
+      "Cut all the grass"
+     ],
+     "correct": 1,
+     "explanation": "«Planting wild flowers»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l5_brain",
+   "level": 5,
+   "title": "How the brain learns",
+   "emoji": "🧠",
+   "text": "Every time you learn something new, tiny cells in your brain called neurons form new connections with each other. The more you practise, the stronger these connections become, rather like a path through a field that gets clearer each time someone walks along it. This is why practising a little every day is more effective than doing a lot once a week. Sleep also plays an important role: while you rest, your brain sorts and strengthens what you learned during the day. So making mistakes, practising and sleeping well are all part of learning.",
+   "questions": [
+    {
+     "id": "reading_en_l5_brain_q1",
+     "prompt": "What are neurons?",
+     "options": [
+      "Brain cells",
+      "Muscles",
+      "Bones"
+     ],
+     "correct": 0,
+     "explanation": "«tiny cells in your brain called neurons»"
+    },
+    {
+     "id": "reading_en_l5_brain_q2",
+     "prompt": "Why is the brain compared to a path in a field?",
+     "options": [
+      "Connections get stronger with use",
+      "The brain is green",
+      "Paths are hard to find"
+     ],
+     "correct": 0,
+     "explanation": "«a path ... that gets clearer each time someone walks along it»"
+    },
+    {
+     "id": "reading_en_l5_brain_q3",
+     "prompt": "What happens while we sleep?",
+     "options": [
+      "Neurons disappear",
+      "The brain forgets everything",
+      "The brain strengthens what we learned"
+     ],
+     "correct": 2,
+     "explanation": "«your brain sorts and strengthens what you learned»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l5_stonehenge",
+   "level": 5,
+   "title": "Stonehenge",
+   "emoji": "🗿",
+   "text": "On Salisbury Plain in the south of England stands Stonehenge, a circle of enormous stones that was built in stages around five thousand years ago. Some of the stones weigh as much as twenty-five tonnes, and the smaller bluestones were brought from Wales, more than two hundred kilometres away. Nobody knows exactly why it was built, but on the longest day of the year the Sun rises in line with the stones, which suggests that the builders studied the sky carefully. Today, thousands of people visit it to watch the summer sunrise.",
+   "questions": [
+    {
+     "id": "reading_en_l5_stonehenge_q1",
+     "prompt": "When was Stonehenge built?",
+     "options": [
+      "Five hundred years ago",
+      "Around five thousand years ago",
+      "Last century"
+     ],
+     "correct": 1,
+     "explanation": "«around five thousand years ago»"
+    },
+    {
+     "id": "reading_en_l5_stonehenge_q2",
+     "prompt": "Where did the bluestones come from?",
+     "options": [
+      "France",
+      "Wales",
+      "Scotland"
+     ],
+     "correct": 1,
+     "explanation": "«brought from Wales»"
+    },
+    {
+     "id": "reading_en_l5_stonehenge_q3",
+     "prompt": "What suggests the builders studied the sky?",
+     "options": [
+      "The Sun rises in line with the stones",
+      "The stones are blue",
+      "It is on a plain"
+     ],
+     "correct": 0,
+     "explanation": "«the Sun rises in line with the stones»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l5_forest",
+   "level": 5,
+   "title": "The last forest",
+   "emoji": "🌳",
+   "text": "When the factory announced that it would cut down Hollow Wood, the town was divided. Some people hoped the new building would bring jobs; others could not imagine the town without its ancient trees. Fourteen-year-old Nia started a website where people could share their memories of the wood: first kisses, family picnics, the first time they saw a badger. Within weeks, thousands of stories had been posted. The factory's owners read them and decided to build on an empty car park instead. Hollow Wood is still there, and Nia's website has become a guide for other towns trying to protect their green spaces.",
+   "questions": [
+    {
+     "id": "reading_en_l5_forest_q1",
+     "prompt": "Why were some people in favour of the factory?",
+     "options": [
+      "It was a school",
+      "It could bring jobs",
+      "They hated trees"
+     ],
+     "correct": 1,
+     "explanation": "«the new building would bring jobs»"
+    },
+    {
+     "id": "reading_en_l5_forest_q2",
+     "prompt": "What did Nia's website collect?",
+     "options": [
+      "Photos of the factory",
+      "Money",
+      "People's memories of the wood"
+     ],
+     "correct": 2,
+     "explanation": "«share their memories of the wood»"
+    },
+    {
+     "id": "reading_en_l5_forest_q3",
+     "prompt": "What made the owners change their minds?",
+     "options": [
+      "A court order",
+      "A storm",
+      "Reading the stories"
+     ],
+     "correct": 2,
+     "explanation": "«read them and decided to build on an empty car park instead»"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l5_words",
+   "level": 5,
+   "title": "Travelling words",
+   "emoji": "🌍",
+   "text": "English is a language full of travellers. Many of its words arrived from other languages over hundreds of years. 'Pyjamas' and 'shampoo' came from India, 'chocolate' and 'tomato' from the Aztec language Nahuatl through Spanish, and 'kindergarten' from German. The Vikings gave us 'sky' and 'egg', while the Normans brought thousands of French words, such as 'beef' and 'castle'. Every time you speak English, you are using words that have crossed oceans and centuries to reach you.",
+   "questions": [
+    {
+     "id": "reading_en_l5_words_q1",
+     "prompt": "Where did 'pyjamas' come from?",
+     "options": [
+      "India",
+      "France",
+      "Germany"
+     ],
+     "correct": 0,
+     "explanation": "«'Pyjamas' and 'shampoo' came from India»"
+    },
+    {
+     "id": "reading_en_l5_words_q2",
+     "prompt": "Which words did the Vikings give English?",
+     "options": [
+      "'Tomato' and 'chocolate'",
+      "'Sky' and 'egg'",
+      "'Beef' and 'castle'"
+     ],
+     "correct": 1,
+     "explanation": "«The Vikings gave us 'sky' and 'egg'»"
+    },
+    {
+     "id": "reading_en_l5_words_q3",
+     "prompt": "What is the main idea of the text?",
+     "options": [
+      "Vikings spoke French",
+      "English borrowed words from many languages",
+      "English never changes"
+     ],
+     "correct": 1,
+     "explanation": "The text explains the origins of English words."
+    }
+   ]
+  }
+ ]
+}

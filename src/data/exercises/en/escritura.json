@@ -1,1 +1,3496 @@
-{"exercises":[]}
+{
+ "exercises": [
+  {
+   "id": "en_escritura_l1_m001",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which sentence starts correctly?",
+   "options": [
+    "The cat is black.",
+    "tHe cat is black.",
+    "the cat is black.",
+    "the Cat is black."
+   ],
+   "correct": 0,
+   "explanation": "A sentence starts with a capital letter."
+  },
+  {
+   "id": "en_escritura_l1_m002",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which name is written correctly?",
+   "options": [
+    "Sam",
+    "saM",
+    "sam",
+    "sAm"
+   ],
+   "correct": 0,
+   "explanation": "Names start with a capital letter."
+  },
+  {
+   "id": "en_escritura_l1_m003",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What goes at the end of a sentence that tells you something?",
+   "options": [
+    "Nothing",
+    "A comma (,)",
+    "A question mark (?)",
+    "A full stop (.)"
+   ],
+   "correct": 3,
+   "explanation": "A telling sentence ends with a full stop."
+  },
+  {
+   "id": "en_escritura_l1_m004",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "What goes at the end of a question?",
+   "options": [
+    "A comma (,)",
+    "A question mark (?)",
+    "An apostrophe (')",
+    "A full stop (.)"
+   ],
+   "correct": 1,
+   "explanation": "Questions end with a question mark."
+  },
+  {
+   "id": "en_escritura_l1_m005",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "In which sentence is 'I' written correctly?",
+   "options": [
+    "Can I play?",
+    "can i play?",
+    "Can i play?",
+    "Can i Play?"
+   ],
+   "correct": 0,
+   "explanation": "The word I is always a capital letter."
+  },
+  {
+   "id": "en_escritura_l1_m006",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'I have ___ apple.'",
+   "options": [
+    "an",
+    "on",
+    "in",
+    "a"
+   ],
+   "correct": 0,
+   "explanation": "Use 'an' before a vowel sound: an apple."
+  },
+  {
+   "id": "en_escritura_l1_m007",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'I have ___ dog.'",
+   "options": [
+    "on",
+    "a",
+    "at",
+    "an"
+   ],
+   "correct": 1,
+   "explanation": "Use 'a' before a consonant sound: a dog."
+  },
+  {
+   "id": "en_escritura_l1_m008",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word means more than one cat?",
+   "options": [
+    "caties",
+    "cats",
+    "cat's",
+    "cates"
+   ],
+   "correct": 1,
+   "explanation": "Most words just add -s: cats."
+  },
+  {
+   "id": "en_escritura_l1_m009",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word means more than one dog?",
+   "options": [
+    "doges",
+    "dogs",
+    "dog's",
+    "dogz"
+   ],
+   "correct": 1,
+   "explanation": "Add -s: dogs."
+  },
+  {
+   "id": "en_escritura_l1_m010",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which day is written correctly?",
+   "options": [
+    "mondey",
+    "Monday",
+    "monday",
+    "Mundy"
+   ],
+   "correct": 1,
+   "explanation": "Days of the week start with a capital letter."
+  },
+  {
+   "id": "en_escritura_l1_m011",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "i like red apples.",
+    "I like red apples.",
+    "I like red apples",
+    "I like red apples?"
+   ],
+   "correct": 1,
+   "explanation": "Capital letter at the start and full stop at the end."
+  },
+  {
+   "id": "en_escritura_l1_m012",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'She ___ a big hat.'",
+   "options": [
+    "hass",
+    "has",
+    "haves",
+    "have"
+   ],
+   "correct": 1,
+   "explanation": "He/she/it has."
+  },
+  {
+   "id": "en_escritura_l1_m013",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'They ___ happy.'",
+   "options": [
+    "be",
+    "am",
+    "are",
+    "is"
+   ],
+   "correct": 2,
+   "explanation": "They are."
+  },
+  {
+   "id": "en_escritura_l1_m014",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'I ___ seven.'",
+   "options": [
+    "is",
+    "be",
+    "am",
+    "are"
+   ],
+   "correct": 2,
+   "explanation": "I am."
+  },
+  {
+   "id": "en_escritura_l1_m015",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word means more than one box?",
+   "options": [
+    "box's",
+    "boxs",
+    "boxies",
+    "boxes"
+   ],
+   "correct": 3,
+   "explanation": "Words ending in x add -es: boxes."
+  },
+  {
+   "id": "en_escritura_l1_m016",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word means more than one bus?",
+   "options": [
+    "busies",
+    "buses",
+    "bus's",
+    "buss"
+   ],
+   "correct": 1,
+   "explanation": "Words ending in s add -es: buses."
+  },
+  {
+   "id": "en_escritura_l1_m017",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is a question?",
+   "options": [
+    "I have a bag.",
+    "Where is my bag?",
+    "The bag is red.",
+    "My bag is here."
+   ],
+   "correct": 1,
+   "explanation": "It asks something and ends with ?"
+  },
+  {
+   "id": "en_escritura_l1_m018",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'The cat sat ___ the mat.'",
+   "options": [
+    "of",
+    "in",
+    "on",
+    "at"
+   ],
+   "correct": 2,
+   "explanation": "The cat sat on the mat."
+  },
+  {
+   "id": "en_escritura_l1_m019",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "sed",
+    "siad",
+    "sayd",
+    "said"
+   ],
+   "correct": 3,
+   "explanation": "'said' is a tricky word: s-a-i-d."
+  },
+  {
+   "id": "en_escritura_l1_m020",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "th",
+    "teh",
+    "the",
+    "thee"
+   ],
+   "correct": 2,
+   "explanation": "t-h-e."
+  },
+  {
+   "id": "en_escritura_l1_m021",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "waz",
+    "wus",
+    "wos",
+    "was"
+   ],
+   "correct": 3,
+   "explanation": "'was' is a tricky word: w-a-s."
+  },
+  {
+   "id": "en_escritura_l1_m022",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "thay",
+    "they",
+    "thei",
+    "tey"
+   ],
+   "correct": 1,
+   "explanation": "t-h-e-y."
+  },
+  {
+   "id": "en_escritura_l1_m023",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "cum",
+    "kome",
+    "comm",
+    "come"
+   ],
+   "correct": 3,
+   "explanation": "'come' is a tricky word: c-o-m-e."
+  },
+  {
+   "id": "en_escritura_l1_m024",
+   "module": "escritura",
+   "level": 1,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'We ___ to the park yesterday.'",
+   "options": [
+    "goed",
+    "went",
+    "going",
+    "go"
+   ],
+   "correct": 1,
+   "explanation": "The past of go is went."
+  },
+  {
+   "id": "en_escritura_l1_w001",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Write the plural of the word",
+   "options": [],
+   "correct": 0,
+   "answer": "cats",
+   "hint": "Add one letter",
+   "explanation": "cat → cats",
+   "word": "cat"
+  },
+  {
+   "id": "en_escritura_l1_w002",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Write the plural of the word",
+   "options": [],
+   "correct": 0,
+   "answer": "pens",
+   "hint": "Add one letter",
+   "explanation": "pen → pens",
+   "word": "pen"
+  },
+  {
+   "id": "en_escritura_l1_w003",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Write the plural of the word",
+   "options": [],
+   "correct": 0,
+   "answer": "foxes",
+   "hint": "Add two letters",
+   "explanation": "fox → foxes",
+   "word": "fox"
+  },
+  {
+   "id": "en_escritura_l1_w004",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Write the plural of the word",
+   "options": [],
+   "correct": 0,
+   "answer": "buses",
+   "hint": "Add two letters",
+   "explanation": "bus → buses",
+   "word": "bus"
+  },
+  {
+   "id": "en_escritura_l1_w005",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Write the plural of the word",
+   "options": [],
+   "correct": 0,
+   "answer": "frogs",
+   "hint": "Add one letter",
+   "explanation": "frog → frogs",
+   "word": "frog"
+  },
+  {
+   "id": "en_escritura_l1_w006",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Write the plural of the word",
+   "options": [],
+   "correct": 0,
+   "answer": "dishes",
+   "hint": "Words ending in sh add -es",
+   "explanation": "dish → dishes",
+   "word": "dish"
+  },
+  {
+   "id": "en_escritura_l1_d001",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The cat is on the mat.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The cat is on the mat."
+  },
+  {
+   "id": "en_escritura_l1_d002",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "I can see a big red bus.",
+   "hint": "It has 7 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "I can see a big red bus."
+  },
+  {
+   "id": "en_escritura_l1_d003",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "My dog likes to run.",
+   "hint": "It has 5 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "My dog likes to run."
+  },
+  {
+   "id": "en_escritura_l1_d004",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "We go to the park.",
+   "hint": "It has 5 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "We go to the park."
+  },
+  {
+   "id": "en_escritura_l1_d005",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The sun is hot today.",
+   "hint": "It has 5 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The sun is hot today."
+  },
+  {
+   "id": "en_escritura_l1_d006",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "I have a pet fish.",
+   "hint": "It has 5 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "I have a pet fish."
+  },
+  {
+   "id": "en_escritura_l1_d007",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Mum has a new hat.",
+   "hint": "It has 5 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "Mum has a new hat."
+  },
+  {
+   "id": "en_escritura_l1_d008",
+   "module": "escritura",
+   "level": 1,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The pig is in the mud.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The pig is in the mud."
+  },
+  {
+   "id": "en_escritura_l1_o001",
+   "module": "escritura",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "The",
+    "dog",
+    "is",
+    "big."
+   ],
+   "correctOrder": [
+    "The",
+    "dog",
+    "is",
+    "big."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "The dog is big."
+  },
+  {
+   "id": "en_escritura_l1_o002",
+   "module": "escritura",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "I",
+    "like",
+    "my",
+    "cat."
+   ],
+   "correctOrder": [
+    "I",
+    "like",
+    "my",
+    "cat."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "I like my cat."
+  },
+  {
+   "id": "en_escritura_l1_o003",
+   "module": "escritura",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "We",
+    "can",
+    "run",
+    "fast."
+   ],
+   "correctOrder": [
+    "We",
+    "can",
+    "run",
+    "fast."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "We can run fast."
+  },
+  {
+   "id": "en_escritura_l1_o004",
+   "module": "escritura",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "The",
+    "sun",
+    "is",
+    "hot."
+   ],
+   "correctOrder": [
+    "The",
+    "sun",
+    "is",
+    "hot."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "The sun is hot."
+  },
+  {
+   "id": "en_escritura_l1_o005",
+   "module": "escritura",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "My",
+    "hat",
+    "is",
+    "red."
+   ],
+   "correctOrder": [
+    "My",
+    "hat",
+    "is",
+    "red."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "My hat is red."
+  },
+  {
+   "id": "en_escritura_l1_o006",
+   "module": "escritura",
+   "level": 1,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "I",
+    "see",
+    "a",
+    "bird."
+   ],
+   "correctOrder": [
+    "I",
+    "see",
+    "a",
+    "bird."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "I see a bird."
+  },
+  {
+   "id": "en_escritura_l2_m001",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'I want ___ go home.'",
+   "options": [
+    "to",
+    "too",
+    "two",
+    "toe"
+   ],
+   "correct": 0,
+   "explanation": "'to' goes before a verb: to go."
+  },
+  {
+   "id": "en_escritura_l2_m002",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'I have ___ sisters.'",
+   "options": [
+    "to",
+    "two",
+    "too",
+    "tow"
+   ],
+   "correct": 1,
+   "explanation": "'two' is the number 2."
+  },
+  {
+   "id": "en_escritura_l2_m003",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'Can I come ___?'",
+   "options": [
+    "to",
+    "too",
+    "two",
+    "tow"
+   ],
+   "correct": 1,
+   "explanation": "'too' means also."
+  },
+  {
+   "id": "en_escritura_l2_m004",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word means more than one baby?",
+   "options": [
+    "babyes",
+    "babies",
+    "babys",
+    "baby's"
+   ],
+   "correct": 1,
+   "explanation": "Consonant + y: change y to i and add -es."
+  },
+  {
+   "id": "en_escritura_l2_m005",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word means more than one dish?",
+   "options": [
+    "dishies",
+    "dish's",
+    "dishes",
+    "dishs"
+   ],
+   "correct": 2,
+   "explanation": "Words ending in sh add -es."
+  },
+  {
+   "id": "en_escritura_l2_m006",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word means more than one toy?",
+   "options": [
+    "toies",
+    "toyes",
+    "toy's",
+    "toys"
+   ],
+   "correct": 3,
+   "explanation": "Vowel + y: just add -s."
+  },
+  {
+   "id": "en_escritura_l2_m007",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word means more than one church?",
+   "options": [
+    "churches",
+    "church's",
+    "churchies",
+    "churchs"
+   ],
+   "correct": 0,
+   "explanation": "Words ending in ch add -es."
+  },
+  {
+   "id": "en_escritura_l2_m008",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the past tense of 'jump'?",
+   "options": [
+    "jumpd",
+    "jumpt",
+    "jumped",
+    "jumping"
+   ],
+   "correct": 2,
+   "explanation": "Add -ed: jumped."
+  },
+  {
+   "id": "en_escritura_l2_m009",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the past tense of 'play'?",
+   "options": [
+    "plaid",
+    "playd",
+    "plaied",
+    "played"
+   ],
+   "correct": 3,
+   "explanation": "Add -ed: played."
+  },
+  {
+   "id": "en_escritura_l2_m010",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the past tense of 'hop'?",
+   "options": [
+    "hopt",
+    "hoppd",
+    "hopped",
+    "hoped"
+   ],
+   "correct": 2,
+   "explanation": "Short vowel + one consonant: double it, then add -ed."
+  },
+  {
+   "id": "en_escritura_l2_m011",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the past tense of 'see'?",
+   "options": [
+    "saw",
+    "seed",
+    "seen",
+    "sawed"
+   ],
+   "correct": 0,
+   "explanation": "The past of see is saw."
+  },
+  {
+   "id": "en_escritura_l2_m012",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the past tense of 'eat'?",
+   "options": [
+    "eaten",
+    "ate",
+    "eight",
+    "eated"
+   ],
+   "correct": 1,
+   "explanation": "The past of eat is ate."
+  },
+  {
+   "id": "en_escritura_l2_m013",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which sentence uses capital letters correctly?",
+   "options": [
+    "We went to London in May.",
+    "we went to London in May.",
+    "We went to London in may.",
+    "We went to london in may."
+   ],
+   "correct": 0,
+   "explanation": "Places and months start with a capital letter."
+  },
+  {
+   "id": "en_escritura_l2_m014",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'That is ___ ball.'",
+   "options": [
+    "my",
+    "I",
+    "me",
+    "mine"
+   ],
+   "correct": 0,
+   "explanation": "'my ball'."
+  },
+  {
+   "id": "en_escritura_l2_m015",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word goes in the gap: 'I can't find ___ shoes.'",
+   "options": [
+    "mine",
+    "me",
+    "I",
+    "my"
+   ],
+   "correct": 3,
+   "explanation": "Use 'my' before a noun."
+  },
+  {
+   "id": "en_escritura_l2_m016",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The dog wagged it's tail.",
+    "The dog wagged it tail.",
+    "The dog wagged its tail.",
+    "The dog wagged its' tail."
+   ],
+   "correct": 2,
+   "explanation": "'its' (no apostrophe) means belonging to it."
+  },
+  {
+   "id": "en_escritura_l2_m017",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the short form of 'do not'?",
+   "options": [
+    "do'nt",
+    "don't'",
+    "dont",
+    "don't"
+   ],
+   "correct": 3,
+   "explanation": "The apostrophe replaces the missing o."
+  },
+  {
+   "id": "en_escritura_l2_m018",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the short form of 'I am'?",
+   "options": [
+    "I'am",
+    "Im",
+    "I'm",
+    "Iam"
+   ],
+   "correct": 2,
+   "explanation": "The apostrophe replaces the missing a."
+  },
+  {
+   "id": "en_escritura_l2_m019",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "What is the short form of 'can not'?",
+   "options": [
+    "cant",
+    "can'tt",
+    "ca'nt",
+    "can't"
+   ],
+   "correct": 3,
+   "explanation": "can not → can't."
+  },
+  {
+   "id": "en_escritura_l2_m020",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Choose the joining word: 'I was cold, ___ I put on my coat.'",
+   "options": [
+    "or",
+    "so",
+    "if",
+    "but"
+   ],
+   "correct": 1,
+   "explanation": "'so' tells us the result."
+  },
+  {
+   "id": "en_escritura_l2_m021",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Choose the joining word: 'I like apples ___ I don't like pears.'",
+   "options": [
+    "but",
+    "because",
+    "and",
+    "so"
+   ],
+   "correct": 0,
+   "explanation": "'but' shows a contrast."
+  },
+  {
+   "id": "en_escritura_l2_m022",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "beacause",
+    "becuase",
+    "becos",
+    "because"
+   ],
+   "correct": 3,
+   "explanation": "be-cause."
+  },
+  {
+   "id": "en_escritura_l2_m023",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "friand",
+    "freind",
+    "friend",
+    "frend"
+   ],
+   "correct": 2,
+   "explanation": "fr-i-e-n-d."
+  },
+  {
+   "id": "en_escritura_l2_m024",
+   "module": "escritura",
+   "level": 2,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "shcool",
+    "skool",
+    "scool",
+    "school"
+   ],
+   "correct": 3,
+   "explanation": "'ch' sounds /k/ in school."
+  },
+  {
+   "id": "en_escritura_l2_w001",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Write the plural of the word",
+   "options": [],
+   "correct": 0,
+   "answer": "babies",
+   "hint": "Change the y",
+   "explanation": "baby → babies",
+   "word": "baby"
+  },
+  {
+   "id": "en_escritura_l2_w002",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Write the plural of the word",
+   "options": [],
+   "correct": 0,
+   "answer": "parties",
+   "hint": "Change the y",
+   "explanation": "party → parties",
+   "word": "party"
+  },
+  {
+   "id": "en_escritura_l2_w003",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Write the plural of the word",
+   "options": [],
+   "correct": 0,
+   "answer": "keys",
+   "hint": "Vowel + y: just add -s",
+   "explanation": "key → keys",
+   "word": "key"
+  },
+  {
+   "id": "en_escritura_l2_w004",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Write the past tense of the verb",
+   "options": [],
+   "correct": 0,
+   "answer": "jumped",
+   "hint": "Add -ed",
+   "explanation": "jump → jumped",
+   "word": "jump"
+  },
+  {
+   "id": "en_escritura_l2_w005",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Write the past tense of the verb",
+   "options": [],
+   "correct": 0,
+   "answer": "stopped",
+   "hint": "Double the last letter",
+   "explanation": "stop → stopped",
+   "word": "stop"
+  },
+  {
+   "id": "en_escritura_l2_w006",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Write the past tense of the verb",
+   "options": [],
+   "correct": 0,
+   "answer": "liked",
+   "hint": "It already ends in e",
+   "explanation": "like → liked",
+   "word": "like"
+  },
+  {
+   "id": "en_escritura_l2_d001",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The ship sails on the sea.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The ship sails on the sea."
+  },
+  {
+   "id": "en_escritura_l2_d002",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "I had chips for lunch.",
+   "hint": "It has 5 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "I had chips for lunch."
+  },
+  {
+   "id": "en_escritura_l2_d003",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "She sang a song with her friend.",
+   "hint": "It has 7 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "She sang a song with her friend."
+  },
+  {
+   "id": "en_escritura_l2_d004",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The black duck swims in the pond.",
+   "hint": "It has 7 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The black duck swims in the pond."
+  },
+  {
+   "id": "en_escritura_l2_d005",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Can you catch the ball?",
+   "hint": "It has 5 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "Can you catch the ball?"
+  },
+  {
+   "id": "en_escritura_l2_d006",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "My brother has a green shirt.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "My brother has a green shirt."
+  },
+  {
+   "id": "en_escritura_l2_d007",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "We played in the snow.",
+   "hint": "It has 5 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "We played in the snow."
+  },
+  {
+   "id": "en_escritura_l2_d008",
+   "module": "escritura",
+   "level": 2,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The frog jumped onto a rock.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The frog jumped onto a rock."
+  },
+  {
+   "id": "en_escritura_l2_o001",
+   "module": "escritura",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "The",
+    "duck",
+    "swims",
+    "in",
+    "the",
+    "pond."
+   ],
+   "correctOrder": [
+    "The",
+    "duck",
+    "swims",
+    "in",
+    "the",
+    "pond."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "The duck swims in the pond."
+  },
+  {
+   "id": "en_escritura_l2_o002",
+   "module": "escritura",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "Can",
+    "you",
+    "help",
+    "me?"
+   ],
+   "correctOrder": [
+    "Can",
+    "you",
+    "help",
+    "me?"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Can you help me?"
+  },
+  {
+   "id": "en_escritura_l2_o003",
+   "module": "escritura",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "She",
+    "has",
+    "a",
+    "black",
+    "cat."
+   ],
+   "correctOrder": [
+    "She",
+    "has",
+    "a",
+    "black",
+    "cat."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "She has a black cat."
+  },
+  {
+   "id": "en_escritura_l2_o004",
+   "module": "escritura",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "We",
+    "had",
+    "chips",
+    "for",
+    "lunch."
+   ],
+   "correctOrder": [
+    "We",
+    "had",
+    "chips",
+    "for",
+    "lunch."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "We had chips for lunch."
+  },
+  {
+   "id": "en_escritura_l2_o005",
+   "module": "escritura",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "My",
+    "friend",
+    "lives",
+    "next",
+    "door."
+   ],
+   "correctOrder": [
+    "My",
+    "friend",
+    "lives",
+    "next",
+    "door."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "My friend lives next door."
+  },
+  {
+   "id": "en_escritura_l2_o006",
+   "module": "escritura",
+   "level": 2,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "The",
+    "frog",
+    "jumped",
+    "high."
+   ],
+   "correctOrder": [
+    "The",
+    "frog",
+    "jumped",
+    "high."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "The frog jumped high."
+  },
+  {
+   "id": "en_escritura_l3_m001",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'The children put on ___ coats.'",
+   "options": [
+    "there",
+    "thier",
+    "their",
+    "they're"
+   ],
+   "correct": 2,
+   "explanation": "'their' means belonging to them."
+  },
+  {
+   "id": "en_escritura_l3_m002",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'Put the box over ___.'",
+   "options": [
+    "their",
+    "they're",
+    "there",
+    "thare"
+   ],
+   "correct": 2,
+   "explanation": "'there' is a place."
+  },
+  {
+   "id": "en_escritura_l3_m003",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: '___ going to the beach.'",
+   "options": [
+    "Theyre",
+    "They're",
+    "There",
+    "Their"
+   ],
+   "correct": 1,
+   "explanation": "'they're' = they are."
+  },
+  {
+   "id": "en_escritura_l3_m004",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: '___ is my pencil?'",
+   "options": [
+    "Were",
+    "We're",
+    "Where",
+    "Wear"
+   ],
+   "correct": 2,
+   "explanation": "'where' asks about a place."
+  },
+  {
+   "id": "en_escritura_l3_m005",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'What will you ___ to the party?'",
+   "options": [
+    "where",
+    "were",
+    "ware",
+    "wear"
+   ],
+   "correct": 3,
+   "explanation": "'wear' is for clothes."
+  },
+  {
+   "id": "en_escritura_l3_m006",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'I can ___ the music.'",
+   "options": [
+    "here",
+    "hare",
+    "hear",
+    "heer"
+   ],
+   "correct": 2,
+   "explanation": "You hear with your ear: h-EAR."
+  },
+  {
+   "id": "en_escritura_l3_m007",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'Come over ___!'",
+   "options": [
+    "hear",
+    "here",
+    "hare",
+    "heer"
+   ],
+   "correct": 1,
+   "explanation": "'here' is a place."
+  },
+  {
+   "id": "en_escritura_l3_m008",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which sentence has the correct punctuation?",
+   "options": [
+    "wow, that is amazing!",
+    "Wow, that is amazing?",
+    "Wow that is amazing.",
+    "Wow, that is amazing!"
+   ],
+   "correct": 3,
+   "explanation": "An exclamation mark shows surprise."
+  },
+  {
+   "id": "en_escritura_l3_m009",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which list is punctuated correctly?",
+   "options": [
+    "I bought eggs milk and bread.",
+    "I bought eggs milk, and bread.",
+    "I bought eggs, milk and bread.",
+    "I bought, eggs, milk, and, bread."
+   ],
+   "correct": 2,
+   "explanation": "Commas separate items in a list."
+  },
+  {
+   "id": "en_escritura_l3_m010",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which shows speech correctly?",
+   "options": [
+    "Let's go, said Mum.",
+    "Let's go\" said Mum.",
+    "\"Let's go,\" said Mum.",
+    "\"Let's go, said Mum.\""
+   ],
+   "correct": 2,
+   "explanation": "Speech marks go around the words that are spoken."
+  },
+  {
+   "id": "en_escritura_l3_m011",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word means more than one leaf?",
+   "options": [
+    "leafes",
+    "leavs",
+    "leaves",
+    "leafs"
+   ],
+   "correct": 2,
+   "explanation": "Some words ending in f change to -ves."
+  },
+  {
+   "id": "en_escritura_l3_m012",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word means more than one child?",
+   "options": [
+    "childrens",
+    "childs",
+    "childes",
+    "children"
+   ],
+   "correct": 3,
+   "explanation": "child → children is irregular."
+  },
+  {
+   "id": "en_escritura_l3_m013",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word means more than one mouse?",
+   "options": [
+    "mouse's",
+    "mice",
+    "mices",
+    "mouses"
+   ],
+   "correct": 1,
+   "explanation": "mouse → mice is irregular."
+  },
+  {
+   "id": "en_escritura_l3_m014",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word means more than one tooth?",
+   "options": [
+    "toothes",
+    "teeths",
+    "teeth",
+    "tooths"
+   ],
+   "correct": 2,
+   "explanation": "tooth → teeth is irregular."
+  },
+  {
+   "id": "en_escritura_l3_m015",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Add the prefix 'un' to 'happy':",
+   "options": [
+    "unhappy",
+    "unhapy",
+    "un-happy",
+    "unnhappy"
+   ],
+   "correct": 0,
+   "explanation": "un + happy = unhappy (not happy)."
+  },
+  {
+   "id": "en_escritura_l3_m016",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Add the suffix 'ful' to 'care':",
+   "options": [
+    "careful",
+    "carful",
+    "carefool",
+    "carefull"
+   ],
+   "correct": 0,
+   "explanation": "The suffix -ful has only one l."
+  },
+  {
+   "id": "en_escritura_l3_m017",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Add the suffix 'ing' to 'make':",
+   "options": [
+    "makking",
+    "making",
+    "makeing",
+    "makin"
+   ],
+   "correct": 1,
+   "explanation": "Drop the e before adding -ing."
+  },
+  {
+   "id": "en_escritura_l3_m018",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Add the suffix 'ing' to 'swim':",
+   "options": [
+    "swiming",
+    "swimming",
+    "swimmin",
+    "swimmimg"
+   ],
+   "correct": 1,
+   "explanation": "Double the m before -ing."
+  },
+  {
+   "id": "en_escritura_l3_m019",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "butiful",
+    "beautiful",
+    "beutiful",
+    "beautifull"
+   ],
+   "correct": 1,
+   "explanation": "beau-ti-ful."
+  },
+  {
+   "id": "en_escritura_l3_m020",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "people",
+    "pepole",
+    "peple",
+    "peopel"
+   ],
+   "correct": 0,
+   "explanation": "p-e-o-p-l-e."
+  },
+  {
+   "id": "en_escritura_l3_m021",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "cood",
+    "could",
+    "coud",
+    "culd"
+   ],
+   "correct": 1,
+   "explanation": "c-o-u-l-d (the l is silent)."
+  },
+  {
+   "id": "en_escritura_l3_m022",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is the past tense of 'catch'?",
+   "options": [
+    "caugt",
+    "catched",
+    "caught",
+    "cought"
+   ],
+   "correct": 2,
+   "explanation": "catch → caught."
+  },
+  {
+   "id": "en_escritura_l3_m023",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "What is the past tense of 'think'?",
+   "options": [
+    "thougt",
+    "thought",
+    "thinked",
+    "thot"
+   ],
+   "correct": 1,
+   "explanation": "think → thought."
+  },
+  {
+   "id": "en_escritura_l3_m024",
+   "module": "escritura",
+   "level": 3,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We were late for school.",
+    "We wear late for school.",
+    "We where late for school.",
+    "We was late for school."
+   ],
+   "correct": 0,
+   "explanation": "We were."
+  },
+  {
+   "id": "en_escritura_l3_w001",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Write the plural of the word",
+   "options": [],
+   "correct": 0,
+   "answer": "leaves",
+   "hint": "f changes to v",
+   "explanation": "leaf → leaves",
+   "word": "leaf"
+  },
+  {
+   "id": "en_escritura_l3_w002",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Write the plural of the word",
+   "options": [],
+   "correct": 0,
+   "answer": "children",
+   "hint": "It is irregular",
+   "explanation": "child → children",
+   "word": "child"
+  },
+  {
+   "id": "en_escritura_l3_w003",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Write the plural of the word",
+   "options": [],
+   "correct": 0,
+   "answer": "feet",
+   "hint": "It is irregular",
+   "explanation": "foot → feet",
+   "word": "foot"
+  },
+  {
+   "id": "en_escritura_l3_w004",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Write the past tense of the verb",
+   "options": [],
+   "correct": 0,
+   "answer": "caught",
+   "hint": "It is irregular",
+   "explanation": "catch → caught",
+   "word": "catch"
+  },
+  {
+   "id": "en_escritura_l3_w005",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Write the word with -ing",
+   "options": [],
+   "correct": 0,
+   "answer": "running",
+   "hint": "Double the n",
+   "explanation": "run → running",
+   "word": "run"
+  },
+  {
+   "id": "en_escritura_l3_w006",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Write the word with -ing",
+   "options": [],
+   "correct": 0,
+   "answer": "smiling",
+   "hint": "Drop the e",
+   "explanation": "smile → smiling",
+   "word": "smile"
+  },
+  {
+   "id": "en_escritura_l3_d001",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The train leaves at three o'clock.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The train leaves at three o'clock."
+  },
+  {
+   "id": "en_escritura_l3_d002",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "We had a picnic by the lake.",
+   "hint": "It has 7 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "We had a picnic by the lake."
+  },
+  {
+   "id": "en_escritura_l3_d003",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "My friend rode her bike home.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "My friend rode her bike home."
+  },
+  {
+   "id": "en_escritura_l3_d004",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "There are seven days in a week.",
+   "hint": "It has 7 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "There are seven days in a week."
+  },
+  {
+   "id": "en_escritura_l3_d005",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The children played on the beach.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The children played on the beach."
+  },
+  {
+   "id": "en_escritura_l3_d006",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "I need a coat because it is cold.",
+   "hint": "It has 8 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "I need a coat because it is cold."
+  },
+  {
+   "id": "en_escritura_l3_d007",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Where did you put my book?",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "Where did you put my book?"
+  },
+  {
+   "id": "en_escritura_l3_d008",
+   "module": "escritura",
+   "level": 3,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The night sky was full of stars.",
+   "hint": "It has 7 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The night sky was full of stars."
+  },
+  {
+   "id": "en_escritura_l3_o001",
+   "module": "escritura",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "We",
+    "went",
+    "to",
+    "the",
+    "beach",
+    "on",
+    "Sunday."
+   ],
+   "correctOrder": [
+    "We",
+    "went",
+    "to",
+    "the",
+    "beach",
+    "on",
+    "Sunday."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "We went to the beach on Sunday."
+  },
+  {
+   "id": "en_escritura_l3_o002",
+   "module": "escritura",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "Where",
+    "did",
+    "you",
+    "find",
+    "it?"
+   ],
+   "correctOrder": [
+    "Where",
+    "did",
+    "you",
+    "find",
+    "it?"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Where did you find it?"
+  },
+  {
+   "id": "en_escritura_l3_o003",
+   "module": "escritura",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "The",
+    "children",
+    "played",
+    "in",
+    "the",
+    "rain."
+   ],
+   "correctOrder": [
+    "The",
+    "children",
+    "played",
+    "in",
+    "the",
+    "rain."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "The children played in the rain."
+  },
+  {
+   "id": "en_escritura_l3_o004",
+   "module": "escritura",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "My",
+    "gran",
+    "makes",
+    "the",
+    "best",
+    "cakes."
+   ],
+   "correctOrder": [
+    "My",
+    "gran",
+    "makes",
+    "the",
+    "best",
+    "cakes."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "My gran makes the best cakes."
+  },
+  {
+   "id": "en_escritura_l3_o005",
+   "module": "escritura",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "I",
+    "can",
+    "hear",
+    "the",
+    "train",
+    "coming."
+   ],
+   "correctOrder": [
+    "I",
+    "can",
+    "hear",
+    "the",
+    "train",
+    "coming."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "I can hear the train coming."
+  },
+  {
+   "id": "en_escritura_l3_o006",
+   "module": "escritura",
+   "level": 3,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "They",
+    "put",
+    "on",
+    "their",
+    "coats."
+   ],
+   "correctOrder": [
+    "They",
+    "put",
+    "on",
+    "their",
+    "coats."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "They put on their coats."
+  },
+  {
+   "id": "en_escritura_l4_m001",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which sentence uses an apostrophe for possession correctly?",
+   "options": [
+    "This is Tom's bike.",
+    "This is Tom bike's.",
+    "This is Toms bike.",
+    "This is Toms' bike."
+   ],
+   "correct": 0,
+   "explanation": "Tom's = belonging to Tom."
+  },
+  {
+   "id": "en_escritura_l4_m002",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which is correct for 'the toys of the dogs'?",
+   "options": [
+    "the dogs toys",
+    "the dogs' toys",
+    "the dog's toys",
+    "the dogs's toys"
+   ],
+   "correct": 1,
+   "explanation": "Plural ending in s: the apostrophe goes after the s."
+  },
+  {
+   "id": "en_escritura_l4_m003",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: '___ raining again.'",
+   "options": [
+    "It's",
+    "Its",
+    "It",
+    "Its'"
+   ],
+   "correct": 0,
+   "explanation": "it's = it is."
+  },
+  {
+   "id": "en_escritura_l4_m004",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: '___ coming to the cinema?'",
+   "options": [
+    "Whose",
+    "Whos",
+    "Whos'",
+    "Who's"
+   ],
+   "correct": 3,
+   "explanation": "who's = who is."
+  },
+  {
+   "id": "en_escritura_l4_m005",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: '___ jacket is this?'",
+   "options": [
+    "Who's",
+    "Whose",
+    "Whos",
+    "Who"
+   ],
+   "correct": 1,
+   "explanation": "'whose' asks who owns something."
+  },
+  {
+   "id": "en_escritura_l4_m006",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'Is this ___ book?'",
+   "options": [
+    "youre",
+    "your",
+    "you're",
+    "yore"
+   ],
+   "correct": 1,
+   "explanation": "'your' means belonging to you."
+  },
+  {
+   "id": "en_escritura_l4_m007",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: '___ my best friend.'",
+   "options": [
+    "You're",
+    "Your",
+    "Youre",
+    "Yore"
+   ],
+   "correct": 0,
+   "explanation": "you're = you are."
+  },
+  {
+   "id": "en_escritura_l4_m008",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'The rain will ___ the match.'",
+   "options": [
+    "affeckt",
+    "affect",
+    "effect",
+    "afect"
+   ],
+   "correct": 1,
+   "explanation": "'affect' is usually the verb."
+  },
+  {
+   "id": "en_escritura_l4_m009",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'She ___ the race.'",
+   "options": [
+    "wun",
+    "one",
+    "won",
+    "wan"
+   ],
+   "correct": 2,
+   "explanation": "'won' is the past of win; 'one' is a number."
+  },
+  {
+   "id": "en_escritura_l4_m010",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'I ___ a new bike.'",
+   "options": [
+    "boughted",
+    "bought",
+    "brought",
+    "bougth"
+   ],
+   "correct": 1,
+   "explanation": "buy → bought; bring → brought."
+  },
+  {
+   "id": "en_escritura_l4_m011",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'He ___ his lunch to school.'",
+   "options": [
+    "bringed",
+    "brung",
+    "brought",
+    "bought"
+   ],
+   "correct": 2,
+   "explanation": "bring → brought."
+  },
+  {
+   "id": "en_escritura_l4_m012",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is punctuated correctly?",
+   "options": [
+    "After lunch, we played football.",
+    "After, lunch we played football.",
+    "After lunch we played, football.",
+    "After lunch we, played football."
+   ],
+   "correct": 0,
+   "explanation": "Put a comma after an opening phrase."
+  },
+  {
+   "id": "en_escritura_l4_m013",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is a noun?",
+   "options": [
+    "happy",
+    "happily",
+    "happiness",
+    "happier"
+   ],
+   "correct": 2,
+   "explanation": "A noun names a thing or idea: happiness."
+  },
+  {
+   "id": "en_escritura_l4_m014",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is an adverb?",
+   "options": [
+    "quickly",
+    "quicker",
+    "quick",
+    "quickness"
+   ],
+   "correct": 0,
+   "explanation": "Many adverbs end in -ly and tell us how."
+  },
+  {
+   "id": "en_escritura_l4_m015",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Add the suffix 'ly' to 'happy':",
+   "options": [
+    "happily",
+    "hapilly",
+    "happyly",
+    "happly"
+   ],
+   "correct": 0,
+   "explanation": "Change y to i, then add -ly."
+  },
+  {
+   "id": "en_escritura_l4_m016",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Add the suffix 'ness' to 'kind':",
+   "options": [
+    "kindeness",
+    "kindnes",
+    "kinness",
+    "kindness"
+   ],
+   "correct": 3,
+   "explanation": "kind + ness = kindness."
+  },
+  {
+   "id": "en_escritura_l4_m017",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Add the prefix 'dis' to 'appear':",
+   "options": [
+    "disapear",
+    "dissapear",
+    "disappear",
+    "dissappear"
+   ],
+   "correct": 2,
+   "explanation": "dis + appear: one s, two p's."
+  },
+  {
+   "id": "en_escritura_l4_m018",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Add the prefix 'mis' to 'spell':",
+   "options": [
+    "mispell",
+    "misspell",
+    "misspel",
+    "mispel"
+   ],
+   "correct": 1,
+   "explanation": "mis + spell: two s's."
+  },
+  {
+   "id": "en_escritura_l4_m019",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "library",
+    "liberry",
+    "libraray",
+    "libary"
+   ],
+   "correct": 0,
+   "explanation": "li-brar-y: say both r's."
+  },
+  {
+   "id": "en_escritura_l4_m020",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "differant",
+    "diferent",
+    "diffrent",
+    "different"
+   ],
+   "correct": 3,
+   "explanation": "dif-fer-ent."
+  },
+  {
+   "id": "en_escritura_l4_m021",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "government",
+    "goverment",
+    "govenment",
+    "guvernment"
+   ],
+   "correct": 0,
+   "explanation": "govern + ment."
+  },
+  {
+   "id": "en_escritura_l4_m022",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "serprise",
+    "suprise",
+    "surprise",
+    "surprize"
+   ],
+   "correct": 2,
+   "explanation": "sur-prise."
+  },
+  {
+   "id": "en_escritura_l4_m023",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "beleive",
+    "believe",
+    "beleve",
+    "belive"
+   ],
+   "correct": 1,
+   "explanation": "be-lie-ve: i before e."
+  },
+  {
+   "id": "en_escritura_l4_m024",
+   "module": "escritura",
+   "level": 4,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There are less cars today.",
+    "There are fewer cars today.",
+    "There is fewer cars today.",
+    "Their are fewer cars today."
+   ],
+   "correct": 1,
+   "explanation": "Use 'fewer' with things you can count."
+  },
+  {
+   "id": "en_escritura_l4_w001",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Write the word with -ly",
+   "options": [],
+   "correct": 0,
+   "answer": "happily",
+   "hint": "Change y to i",
+   "explanation": "happy → happily",
+   "word": "happy"
+  },
+  {
+   "id": "en_escritura_l4_w002",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Write the word with -ness",
+   "options": [],
+   "correct": 0,
+   "answer": "sadness",
+   "hint": "Just add -ness",
+   "explanation": "sad → sadness",
+   "word": "sad"
+  },
+  {
+   "id": "en_escritura_l4_w003",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Write the word with the prefix dis-",
+   "options": [],
+   "correct": 0,
+   "answer": "disagree",
+   "hint": "dis + agree",
+   "explanation": "agree → disagree",
+   "word": "agree"
+  },
+  {
+   "id": "en_escritura_l4_w004",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Write the word with the prefix mis-",
+   "options": [],
+   "correct": 0,
+   "answer": "misspell",
+   "hint": "Keep both s's",
+   "explanation": "spell → misspell",
+   "word": "spell"
+  },
+  {
+   "id": "en_escritura_l4_w005",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Write the short form",
+   "options": [],
+   "correct": 0,
+   "answer": "won't",
+   "hint": "It is irregular",
+   "explanation": "will not → won't",
+   "word": "will not"
+  },
+  {
+   "id": "en_escritura_l4_w006",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Write the short form",
+   "options": [],
+   "correct": 0,
+   "answer": "they're",
+   "hint": "Use an apostrophe",
+   "explanation": "they are → they're",
+   "word": "they are"
+  },
+  {
+   "id": "en_escritura_l4_d001",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The circus came to our town in March.",
+   "hint": "It has 8 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The circus came to our town in March."
+  },
+  {
+   "id": "en_escritura_l4_d002",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "My sister's birthday is next Thursday.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "My sister's birthday is next Thursday."
+  },
+  {
+   "id": "en_escritura_l4_d003",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "We couldn't find the key anywhere.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "We couldn't find the key anywhere."
+  },
+  {
+   "id": "en_escritura_l4_d004",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The thirsty dog drank all the water.",
+   "hint": "It has 7 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The thirsty dog drank all the water."
+  },
+  {
+   "id": "en_escritura_l4_d005",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Our teacher read us a funny story.",
+   "hint": "It has 7 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "Our teacher read us a funny story."
+  },
+  {
+   "id": "en_escritura_l4_d006",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The bird built a nest in the corner.",
+   "hint": "It has 8 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The bird built a nest in the corner."
+  },
+  {
+   "id": "en_escritura_l4_d007",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "I thought the film was brilliant.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "I thought the film was brilliant."
+  },
+  {
+   "id": "en_escritura_l4_d008",
+   "module": "escritura",
+   "level": 4,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Turn left at the end of the road.",
+   "hint": "It has 8 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "Turn left at the end of the road."
+  },
+  {
+   "id": "en_escritura_l4_o001",
+   "module": "escritura",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "After",
+    "school,",
+    "we",
+    "went",
+    "to",
+    "the",
+    "library."
+   ],
+   "correctOrder": [
+    "After",
+    "school,",
+    "we",
+    "went",
+    "to",
+    "the",
+    "library."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "After school, we went to the library."
+  },
+  {
+   "id": "en_escritura_l4_o002",
+   "module": "escritura",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "The",
+    "thirsty",
+    "horse",
+    "drank",
+    "some",
+    "water."
+   ],
+   "correctOrder": [
+    "The",
+    "thirsty",
+    "horse",
+    "drank",
+    "some",
+    "water."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "The thirsty horse drank some water."
+  },
+  {
+   "id": "en_escritura_l4_o003",
+   "module": "escritura",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "Tom's",
+    "brother",
+    "won",
+    "the",
+    "race."
+   ],
+   "correctOrder": [
+    "Tom's",
+    "brother",
+    "won",
+    "the",
+    "race."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Tom's brother won the race."
+  },
+  {
+   "id": "en_escritura_l4_o004",
+   "module": "escritura",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "It's",
+    "going",
+    "to",
+    "rain",
+    "tomorrow."
+   ],
+   "correctOrder": [
+    "It's",
+    "going",
+    "to",
+    "rain",
+    "tomorrow."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "It's going to rain tomorrow."
+  },
+  {
+   "id": "en_escritura_l4_o005",
+   "module": "escritura",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "Whose",
+    "bag",
+    "is",
+    "this?"
+   ],
+   "correctOrder": [
+    "Whose",
+    "bag",
+    "is",
+    "this?"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Whose bag is this?"
+  },
+  {
+   "id": "en_escritura_l4_o006",
+   "module": "escritura",
+   "level": 4,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "She",
+    "walked",
+    "slowly",
+    "to",
+    "the",
+    "door."
+   ],
+   "correctOrder": [
+    "She",
+    "walked",
+    "slowly",
+    "to",
+    "the",
+    "door."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "She walked slowly to the door."
+  },
+  {
+   "id": "en_escritura_l5_m001",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which sentence uses a semicolon correctly?",
+   "options": [
+    "It was; late we went home.",
+    "It; was late we went home.",
+    "It was late we; went home.",
+    "It was late; we went home."
+   ],
+   "correct": 3,
+   "explanation": "A semicolon joins two complete, related sentences."
+  },
+  {
+   "id": "en_escritura_l5_m002",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which sentence uses a colon correctly?",
+   "options": [
+    "You will: need a pen, a ruler and a rubber.",
+    "You will need a pen: a ruler and a rubber.",
+    "You will need: a pen, a ruler and a rubber.",
+    "You: will need a pen."
+   ],
+   "correct": 2,
+   "explanation": "A colon can introduce a list."
+  },
+  {
+   "id": "en_escritura_l5_m003",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which sentence uses brackets correctly?",
+   "options": [
+    "My uncle who lives in Wales (is a chef.",
+    "My uncle who (lives in Wales) is a chef.",
+    "My (uncle who lives) in Wales is a chef.",
+    "My uncle (who lives in Wales) is a chef."
+   ],
+   "correct": 3,
+   "explanation": "Brackets hold extra information."
+  },
+  {
+   "id": "en_escritura_l5_m004",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'Her ___ was very helpful.'",
+   "options": [
+    "advice",
+    "advise",
+    "advize",
+    "advice's"
+   ],
+   "correct": 0,
+   "explanation": "'advice' is the noun; 'advise' is the verb."
+  },
+  {
+   "id": "en_escritura_l5_m005",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'I ___ you to wait.'",
+   "options": [
+    "advise",
+    "adviced",
+    "advize",
+    "advice"
+   ],
+   "correct": 0,
+   "explanation": "'advise' is the verb."
+  },
+  {
+   "id": "en_escritura_l5_m006",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'The medicine had a good ___.'",
+   "options": [
+    "affect",
+    "efect",
+    "effeckt",
+    "effect"
+   ],
+   "correct": 3,
+   "explanation": "'effect' is usually the noun."
+  },
+  {
+   "id": "en_escritura_l5_m007",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'Please ___ my apology.'",
+   "options": [
+    "excep",
+    "except",
+    "acept",
+    "accept"
+   ],
+   "correct": 3,
+   "explanation": "'accept' means to receive."
+  },
+  {
+   "id": "en_escritura_l5_m008",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'Everyone came ___ Tom.'",
+   "options": [
+    "accept",
+    "except",
+    "exept",
+    "excep"
+   ],
+   "correct": 1,
+   "explanation": "'except' means not including."
+  },
+  {
+   "id": "en_escritura_l5_m009",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'I need to ___ deeply.'",
+   "options": [
+    "breath",
+    "breth",
+    "breeth",
+    "breathe"
+   ],
+   "correct": 3,
+   "explanation": "'breathe' is the verb; 'breath' is the noun."
+  },
+  {
+   "id": "en_escritura_l5_m010",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'She is taller ___ me.'",
+   "options": [
+    "thun",
+    "that",
+    "than",
+    "then"
+   ],
+   "correct": 2,
+   "explanation": "Use 'than' to compare."
+  },
+  {
+   "id": "en_escritura_l5_m011",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'We ate, and ___ we went out.'",
+   "options": [
+    "thin",
+    "than",
+    "them",
+    "then"
+   ],
+   "correct": 3,
+   "explanation": "'then' is about time."
+  },
+  {
+   "id": "en_escritura_l5_m012",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is in the passive voice?",
+   "options": [
+    "The window was broken by the ball.",
+    "The ball will break.",
+    "Break the window!",
+    "The ball broke the window."
+   ],
+   "correct": 0,
+   "explanation": "In the passive, the subject receives the action."
+  },
+  {
+   "id": "en_escritura_l5_m013",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is a synonym of 'enormous'?",
+   "options": [
+    "early",
+    "tiny",
+    "huge",
+    "quiet"
+   ],
+   "correct": 2,
+   "explanation": "enormous and huge both mean very big."
+  },
+  {
+   "id": "en_escritura_l5_m014",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "acommodation",
+    "accommadation",
+    "accommodation",
+    "accomodation"
+   ],
+   "correct": 2,
+   "explanation": "Two c's and two m's."
+  },
+  {
+   "id": "en_escritura_l5_m015",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "embarrass",
+    "embarras",
+    "emberrass",
+    "embarass"
+   ],
+   "correct": 0,
+   "explanation": "Two r's and two s's."
+  },
+  {
+   "id": "en_escritura_l5_m016",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "ocasion",
+    "ocassion",
+    "occasion",
+    "occassion"
+   ],
+   "correct": 2,
+   "explanation": "Two c's, one s."
+  },
+  {
+   "id": "en_escritura_l5_m017",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "parliament",
+    "parliment",
+    "parlament",
+    "parlaiment"
+   ],
+   "correct": 0,
+   "explanation": "par-li-a-ment: don't forget the i."
+  },
+  {
+   "id": "en_escritura_l5_m018",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "conscence",
+    "conscience",
+    "concience",
+    "consience"
+   ],
+   "correct": 1,
+   "explanation": "con-sci-ence."
+  },
+  {
+   "id": "en_escritura_l5_m019",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "envirnment",
+    "environment",
+    "environmant",
+    "enviroment"
+   ],
+   "correct": 1,
+   "explanation": "en-vi-ron-ment."
+  },
+  {
+   "id": "en_escritura_l5_m020",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "defenitely",
+    "definitly",
+    "definately",
+    "definitely"
+   ],
+   "correct": 3,
+   "explanation": "There's 'finite' in de-finite-ly."
+  },
+  {
+   "id": "en_escritura_l5_m021",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "immediatly",
+    "immediately",
+    "imediately",
+    "immeadiately"
+   ],
+   "correct": 1,
+   "explanation": "im-me-di-ate-ly."
+  },
+  {
+   "id": "en_escritura_l5_m022",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "privelege",
+    "privilige",
+    "priviledge",
+    "privilege"
+   ],
+   "correct": 3,
+   "explanation": "pri-vi-lege: no d."
+  },
+  {
+   "id": "en_escritura_l5_m023",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which sentence uses a hyphen correctly?",
+   "options": [
+    "She-is a well known author.",
+    "She is a well known-author.",
+    "She is a well-known author.",
+    "She is a-well known author."
+   ],
+   "correct": 2,
+   "explanation": "well-known is a compound adjective."
+  },
+  {
+   "id": "en_escritura_l5_m024",
+   "module": "escritura",
+   "level": 5,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Neither Tom nor Sam was there.",
+    "Neither Tom and Sam was there.",
+    "Neither Tom or Sam was there.",
+    "Neither Tom nor Sam were there."
+   ],
+   "correct": 0,
+   "explanation": "neither ... nor, with a singular verb."
+  },
+  {
+   "id": "en_escritura_l5_w001",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Write the noun form of the verb",
+   "options": [],
+   "correct": 0,
+   "answer": "decision",
+   "hint": "It ends in -sion",
+   "explanation": "decide → decision",
+   "word": "decide"
+  },
+  {
+   "id": "en_escritura_l5_w002",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Write the noun form of the verb",
+   "options": [],
+   "correct": 0,
+   "answer": "invention",
+   "hint": "It ends in -tion",
+   "explanation": "invent → invention",
+   "word": "invent"
+  },
+  {
+   "id": "en_escritura_l5_w003",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Write the adjective form of the noun",
+   "options": [],
+   "correct": 0,
+   "answer": "dangerous",
+   "hint": "It ends in -ous",
+   "explanation": "danger → dangerous",
+   "word": "danger"
+  },
+  {
+   "id": "en_escritura_l5_w004",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Write the word with -able",
+   "options": [],
+   "correct": 0,
+   "answer": "reliable",
+   "hint": "Change y to i",
+   "explanation": "rely → reliable",
+   "word": "rely"
+  },
+  {
+   "id": "en_escritura_l5_w005",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Write the opposite with a prefix",
+   "options": [],
+   "correct": 0,
+   "answer": "impossible",
+   "hint": "Use im-",
+   "explanation": "possible → impossible",
+   "word": "possible"
+  },
+  {
+   "id": "en_escritura_l5_w006",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Write the opposite with a prefix",
+   "options": [],
+   "correct": 0,
+   "answer": "illegal",
+   "hint": "Use il-",
+   "explanation": "legal → illegal",
+   "word": "legal"
+  },
+  {
+   "id": "en_escritura_l5_d001",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The scientist explained the experiment carefully.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The scientist explained the experiment carefully."
+  },
+  {
+   "id": "en_escritura_l5_d002",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Although it was raining, we continued our journey.",
+   "hint": "It has 8 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "Although it was raining, we continued our journey."
+  },
+  {
+   "id": "en_escritura_l5_d003",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Their neighbours received a mysterious parcel.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "Their neighbours received a mysterious parcel."
+  },
+  {
+   "id": "en_escritura_l5_d004",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Unfortunately, the museum was closed on Wednesday.",
+   "hint": "It has 7 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "Unfortunately, the museum was closed on Wednesday."
+  },
+  {
+   "id": "en_escritura_l5_d005",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The knight climbed the castle wall in silence.",
+   "hint": "It has 8 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The knight climbed the castle wall in silence."
+  },
+  {
+   "id": "en_escritura_l5_d006",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "It is necessary to listen to each other.",
+   "hint": "It has 8 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "It is necessary to listen to each other."
+  },
+  {
+   "id": "en_escritura_l5_d007",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The island was surrounded by beautiful coral.",
+   "hint": "It has 7 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "The island was surrounded by beautiful coral."
+  },
+  {
+   "id": "en_escritura_l5_d008",
+   "module": "escritura",
+   "level": 5,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "We definitely need more vegetables in our diet.",
+   "hint": "It has 8 words",
+   "explanation": "Remember the capital letter at the start and the punctuation at the end.",
+   "dictation": true,
+   "word": "We definitely need more vegetables in our diet."
+  },
+  {
+   "id": "en_escritura_l5_o001",
+   "module": "escritura",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "Although",
+    "it",
+    "was",
+    "late,",
+    "we",
+    "kept",
+    "reading."
+   ],
+   "correctOrder": [
+    "Although",
+    "it",
+    "was",
+    "late,",
+    "we",
+    "kept",
+    "reading."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Although it was late, we kept reading."
+  },
+  {
+   "id": "en_escritura_l5_o002",
+   "module": "escritura",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "The",
+    "window",
+    "was",
+    "broken",
+    "by",
+    "the",
+    "ball."
+   ],
+   "correctOrder": [
+    "The",
+    "window",
+    "was",
+    "broken",
+    "by",
+    "the",
+    "ball."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "The window was broken by the ball."
+  },
+  {
+   "id": "en_escritura_l5_o003",
+   "module": "escritura",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "My",
+    "aunt,",
+    "who",
+    "is",
+    "a",
+    "doctor,",
+    "lives",
+    "in",
+    "York."
+   ],
+   "correctOrder": [
+    "My",
+    "aunt,",
+    "who",
+    "is",
+    "a",
+    "doctor,",
+    "lives",
+    "in",
+    "York."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "My aunt, who is a doctor, lives in York."
+  },
+  {
+   "id": "en_escritura_l5_o004",
+   "module": "escritura",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "Neither",
+    "Tom",
+    "nor",
+    "Sam",
+    "was",
+    "there."
+   ],
+   "correctOrder": [
+    "Neither",
+    "Tom",
+    "nor",
+    "Sam",
+    "was",
+    "there."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Neither Tom nor Sam was there."
+  },
+  {
+   "id": "en_escritura_l5_o005",
+   "module": "escritura",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "We",
+    "need",
+    "flour,",
+    "eggs",
+    "and",
+    "milk."
+   ],
+   "correctOrder": [
+    "We",
+    "need",
+    "flour,",
+    "eggs",
+    "and",
+    "milk."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "We need flour, eggs and milk."
+  },
+  {
+   "id": "en_escritura_l5_o006",
+   "module": "escritura",
+   "level": 5,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "Unfortunately,",
+    "the",
+    "shop",
+    "was",
+    "closed."
+   ],
+   "correctOrder": [
+    "Unfortunately,",
+    "the",
+    "shop",
+    "was",
+    "closed."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Unfortunately, the shop was closed."
+  }
+ ]
+}
