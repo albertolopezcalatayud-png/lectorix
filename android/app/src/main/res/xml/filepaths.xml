@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <paths>
+    <!-- Splash image handed to Chrome by androidbrowserhelper (SplashImageTransferTask) -->
+    <files-path name="twa_splash" path="twa_splash/" />
     <files-path name="share" path="share/" />
 </paths>

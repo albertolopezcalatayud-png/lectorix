@@ -11,7 +11,7 @@ on:
       version_code:
         description: 'versionCode (must increase on every Play upload)'
         required: false
-        default: '1'
+        default: '2'
 
 permissions:
   contents: write
@@ -31,7 +31,7 @@ jobs:
       - name: Build release bundle
         working-directory: android
         env:
-          VERSION_CODE: ${{ github.event.inputs.version_code || '1' }}
+          VERSION_CODE: ${{ github.event.inputs.version_code || '2' }}
         # GitHub runners ship with the Android SDK (ANDROID_HOME) and accepted licenses
         run: |
           echo "sdk.dir=$ANDROID_HOME" > local.properties
