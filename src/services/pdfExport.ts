@@ -8,13 +8,14 @@ interface ExportData {
   user: UserProfile | null;
   progress: StudentProgress[];
   language: string;
+  weekly?: string[];
 }
 
 function escapeHtml(str: string): string {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-export function generateParentReport({ user, progress, language }: ExportData): string {
+export function generateParentReport({ user, progress, language, weekly }: ExportData): string {
   const t = getTranslator(language);
   const totalXP = user?.total_xp || 0;
   const { level } = calculateXPLevel(totalXP);
@@ -247,6 +248,11 @@ export function generateParentReport({ user, progress, language }: ExportData): 
       <div class="stat-label">${t('pdf_sessions' as TranslationKey)}</div>
     </div>
   </div>
+
+  ${weekly && weekly.length ? `<div class="section">
+    <h2>🗓️ ${escapeHtml(t('wk_title' as TranslationKey))}</h2>
+    <ul>${weekly.map((l) => `<li>${escapeHtml(l)}</li>`).join('')}</ul>
+  </div>` : ''}
 
   <div class="section">
     <h2>📊 ${t('pdf_skill_map' as TranslationKey)}</h2>

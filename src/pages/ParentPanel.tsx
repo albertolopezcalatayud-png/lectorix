@@ -10,6 +10,7 @@ import { ModuleBarChart } from '@/components/charts/ModuleBarChart';
 import { SkillRadar } from '@/components/charts/SkillRadar';
 import { generateParentReport, downloadReport, printReport } from '@/services/pdfExport';
 import { useI18n } from '@/i18n';
+import { WeeklySummary, HomeTips, useWeeklyLines } from '@/components/family/WeeklySummary';
 
 export default function ParentPanel() {
   const user = useAppStore((s) => s.user);
@@ -17,6 +18,7 @@ export default function ParentPanel() {
   const totalXP = user?.total_xp || 0;
   const { level } = calculateXPLevel(totalXP);
   const { t, language } = useI18n();
+  const weekly = useWeeklyLines();
 
   const sessionHistory = useAppStore((s) => s.sessionHistory);
   const totalStars = progress.reduce((sum, p) => sum + p.stars, 0);
@@ -42,7 +44,7 @@ export default function ParentPanel() {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex gap-2 justify-end">
           <button
             onClick={() => {
-              const html = generateParentReport({ user, progress, language });
+              const html = generateParentReport({ user, progress, language, weekly });
               const name = user?.display_name || 'estudiante';
               const date = new Date().toISOString().slice(0, 10);
               downloadReport(html, `informe-lectorix-${name}-${date}.html`);
@@ -53,7 +55,7 @@ export default function ParentPanel() {
           </button>
           <button
             onClick={() => {
-              const html = generateParentReport({ user, progress, language });
+              const html = generateParentReport({ user, progress, language, weekly });
               printReport(html);
             }}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-bg-card border border-border text-xs font-bold hover:bg-accent-pale/30 transition-colors"
@@ -75,6 +77,11 @@ export default function ParentPanel() {
               </div>
             </div>
           </Card>
+        </motion.div>
+
+        {/* Weekly plain-language summary */}
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.05 }}>
+          <WeeklySummary />
         </motion.div>
 
         {/* Global stats */}
@@ -231,6 +238,9 @@ export default function ParentPanel() {
             </div>
           </Card>
         </motion.div>
+
+        {/* Offline activities for home */}
+        <HomeTips />
 
         {/* Recommendations */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}>
