@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { useAppStore } from '@/stores/useAppStore';
+import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
+import { useReviewStore, dueItems, notebookWords } from '@/services/review';
 import { calculateXPLevel } from '@/services/gamification';
 import {MODULES, MODULE_TEXT } from '@/data/modules';
 import { Card } from '@/components/ui/Card';
@@ -15,6 +16,10 @@ export default function Dashboard() {
   const progress = useAppStore((s) => s.progress);
   const mascot = useAppStore((s) => s.mascot);
   const { t } = useI18n();
+  const lang = usePracticeLang();
+  const reviewItems = useReviewStore((s) => s.items);
+  const dueCount = dueItems(reviewItems, lang).length;
+  const notebookCount = notebookWords(reviewItems, lang).filter((w) => !w.mastered).length;
   const xpInfo = user ? calculateXPLevel(user.total_xp) : { level: 1, currentXP: 0, nextLevelXP: 100, progress: 0 };
 
   return (
@@ -55,6 +60,29 @@ export default function Dashboard() {
                 <span className="font-bold">{t('dash_xp', { xp: user?.total_xp || 0 })}</span>
               </div>
             </div>
+          </Card>
+        </motion.div>
+
+        {/* Spaced-repetition review + notebook */}
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.12 }}>
+          <Card hover={dueCount > 0} onClick={dueCount > 0 ? () => navigate('/repaso') : undefined}
+            className={dueCount > 0 ? 'border-accent/40 bg-accent-pale/30' : ''}>
+            <div className="flex items-center gap-3">
+              <span className="text-3xl">{dueCount > 0 ? '🔁' : '✅'}</span>
+              <div className="flex-1">
+                <h3 className="font-heading font-extrabold">{t('srs_today')}</h3>
+                <p className="text-xs text-fg-muted">
+                  {dueCount > 0 ? t('srs_due', { n: dueCount }) : t('srs_up_to_date')}
+                </p>
+              </div>
+              {dueCount > 0 && <span className="text-accent font-extrabold text-sm">{t('dash_play')}</span>}
+            </div>
+            <button
+              onClick={(e) => { e.stopPropagation(); navigate('/mis-palabras'); }}
+              className="mt-3 w-full text-left text-xs font-bold text-accent border-t border-border pt-2.5"
+            >
+              📒 {t('nb_title')} ({notebookCount}) →
+            </button>
           </Card>
         </motion.div>
 

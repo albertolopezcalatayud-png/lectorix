@@ -3,12 +3,13 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import type { Exercise, AnswerResult, ModuleId } from '@/types';
 import { recordSession } from '@/services/session';
+import { useReviewStore, recommendedLevel } from '@/services/review';
 import { buildSessionResult } from '@/services/gamification';
 import { MODULES } from '@/data/modules';
 import { ExerciseCard } from '@/components/exercise/ExerciseCard';
 import { useI18n } from '@/i18n';
 import { loadModule } from '@/data/content';
-import { usePracticeLang } from '@/stores/useAppStore';
+import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
 
 const DAILY_COUNT = 5;
 
@@ -33,8 +34,12 @@ export default function DailyChallenge() {
           try {
             const data = await loadModule(lang, mod.id);
             // The daily challenge renders multiple-choice cards only
-            const modExercises = data
-              .filter((e: Exercise) => e.type === 'multiple_choice');
+            // Adaptive: take it from the level the student is working on in that module
+            const st = useAppStore.getState();
+            const lvl = recommendedLevel(st.progress, mod.id, mod.levels, st.isLevelUnlocked);
+            const mc = data.filter((e: Exercise) => e.type === 'multiple_choice');
+            const atLevel = mc.filter((e: Exercise) => e.level === lvl);
+            const modExercises = atLevel.length > 0 ? atLevel : mc;
             if (modExercises.length > 0) {
               const randomIndex = Math.floor(Math.random() * modExercises.length);
               allExercises.push(modExercises[randomIndex]);
@@ -83,11 +88,12 @@ export default function DailyChallenge() {
 
         result.mode = 'daily';
         recordSession(result);
+        const srs = useReviewStore.getState().track(exercises, newAnswers, lang);
 
-        navigate('/resultados', { state: { result }, replace: true });
+        navigate('/resultados', { state: { result, srs }, replace: true });
       }
     },
-    [exercises, currentIndex, answers, startTime, navigate]
+    [exercises, currentIndex, answers, startTime, navigate, lang]
   );
 
   if (loading) {

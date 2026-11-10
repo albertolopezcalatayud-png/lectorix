@@ -16,6 +16,7 @@ export default function Results() {
   const navigate = useNavigate();
   const result = location.state?.result;
   const examMode = location.state?.examMode || false;
+  const srs: { added: number; promoted: number; mastered: number } | undefined = location.state?.srs;
   const soundPlayed = useRef(false);
   const { t } = useI18n();
   const readingFound = useReading(result?.mode === 'reading' ? result.reading_id : undefined);
@@ -65,8 +66,12 @@ export default function Results() {
   const isDictation = result.mode === 'dictation';
   const isReading = result.mode === 'reading';
   const isDaily = result.mode === 'daily';
-  // Dictation, reading and the daily challenge don't belong to a module level
-  const isStandalone = isDictation || isReading || isDaily;
+  const isSrs = result.mode === 'srs';
+  // Dictation, reading, the daily challenge and spaced review don't belong to a module level
+  const isStandalone = isDictation || isReading || isDaily || isSrs;
+  const isNormal = !isExam && !isReview && !isStandalone;
+  // Adaptive suggestion: a level that is still hard → reinforce the previous one
+  const suggestEasier = isNormal && result.score_percent < 50 && result.level > 1;
   const reading = readingFound ?? undefined;
 
   // Exam grade
@@ -96,7 +101,7 @@ export default function Results() {
         transition={{ delay: 0.3 }}
         className="font-heading font-black text-2xl text-center mb-1"
       >
-        {isExam ? t('exam_results') : isReview ? t('rev_complete') : t('res_title')}
+        {isExam ? t('exam_results') : isReview || isSrs ? t('rev_complete') : t('res_title')}
       </motion.h1>
 
       <motion.p
@@ -111,7 +116,9 @@ export default function Results() {
             ? `${reading?.emoji ?? '📖'} ${reading?.title ?? t('read_title')}`
             : isDaily
               ? t('daily_title')
-              : `${(mod ? t(MODULE_TEXT[mod.id].name) : '')} · ${t('dash_level', { level: result.level })} · ${t(levelNameKey(result.level))}`}
+              : isSrs
+                ? t('srs_title')
+                : `${(mod ? t(MODULE_TEXT[mod.id].name) : '')} · ${t('dash_level', { level: result.level })} · ${t(levelNameKey(result.level))}`}
       </motion.p>
 
       {/* Exam grade badge */}
@@ -193,6 +200,33 @@ export default function Results() {
         </motion.div>
       )}
 
+      {/* Spaced repetition summary */}
+      {srs && (srs.added > 0 || srs.promoted > 0 || srs.mastered > 0) && (
+        <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.95 }} className="w-full max-w-sm mt-4">
+          <Card className="text-sm space-y-1">
+            {srs.added > 0 && <p>📌 {t('srs_added', { n: srs.added })}</p>}
+            {srs.promoted > 0 && <p>📈 {t('srs_promoted', { n: srs.promoted })}</p>}
+            {srs.mastered > 0 && <p>🏅 {t('srs_mastered', { n: srs.mastered })}</p>}
+          </Card>
+        </motion.div>
+      )}
+
+      {/* Adaptive difficulty */}
+      {suggestEasier && (
+        <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1 }} className="w-full max-w-sm mt-4">
+          <Card className="border-yellow/40 bg-yellow-pale/30 text-sm">
+            <p className="font-bold">💡 {t('adapt_easier_title')}</p>
+            <p className="text-xs text-fg-muted mt-1">{t('adapt_easier_desc', { level: result.level - 1 })}</p>
+            <button
+              onClick={() => navigate(`/ejercicio/${result.module}/${result.level - 1}`, { replace: true })}
+              className="mt-2 text-xs font-bold text-accent"
+            >
+              {t('adapt_easier_btn', { level: result.level - 1 })} →
+            </button>
+          </Card>
+        </motion.div>
+      )}
+
       {/* Actions */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -201,7 +235,7 @@ export default function Results() {
         className="w-full max-w-sm mt-6 space-y-2.5"
       >
         {/* Review mistakes button */}
-        {hasErrors && !isReview && !isReading && !isDaily && (
+        {hasErrors && !isReview && !isReading && !isDaily && !isSrs && (
           <Button
             fullWidth
             variant="secondary"
@@ -236,10 +270,12 @@ export default function Results() {
                 ? navigate(`/lectura/${result.reading_id}`, { replace: true })
                 : isDaily
                   ? navigate('/reto-diario', { replace: true })
-                  : navigate(`/ejercicio/${result.module}/${result.level}`, { replace: true })
+                  : isSrs
+                    ? navigate('/mis-palabras', { replace: true })
+                    : navigate(`/ejercicio/${result.module}/${result.level}`, { replace: true })
           }
         >
-          {t('res_retry')}
+          {isSrs ? t('nb_title') : t('res_retry')}
         </Button>
         {(isDictation || isReading) && (
           <Button

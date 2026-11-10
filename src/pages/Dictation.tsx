@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import type { Exercise, AnswerResult, ModuleId } from '@/types';
 import { buildSessionResult } from '@/services/gamification';
 import { recordSession } from '@/services/session';
+import { useReviewStore } from '@/services/review';
 import {levelNameKey } from '@/data/modules';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
@@ -77,9 +78,10 @@ export default function Dictation() {
       const result = buildSessionResult({ module: 'escritura' as ModuleId, level: level ?? 1, answers: next, startTime });
       result.mode = 'dictation';
       recordSession(result);
-      navigate('/resultados', { state: { result }, replace: true });
+      const srs = useReviewStore.getState().track(exercises, next, lang);
+      navigate('/resultados', { state: { result, srs }, replace: true });
     },
-    [exercises, currentIndex, answers, level, startTime, navigate],
+    [exercises, currentIndex, answers, level, startTime, navigate, lang],
   );
 
   if (!pool) {

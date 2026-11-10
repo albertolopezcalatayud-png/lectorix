@@ -3,7 +3,8 @@ import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import type { ModuleId, AnswerResult } from '@/types';
 import { useExercises } from '@/hooks/useExercises';
-import { useAppStore } from '@/stores/useAppStore';
+import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
+import { useReviewStore } from '@/services/review';
 import { buildSessionResult } from '@/services/gamification';
 import {MODULE_TEXT, getModule } from '@/data/modules';
 import { ExerciseCard } from '@/components/exercise/ExerciseCard';
@@ -42,6 +43,7 @@ export default function Exercise() {
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const updateProgress = useAppStore((s) => s.updateProgress);
+  const lang = usePracticeLang();
   const { t } = useI18n();
 
   // Exam timer effect
@@ -100,9 +102,10 @@ export default function Exercise() {
       });
     }
     recordSession(result);
+    const srs = useReviewStore.getState().track(exercises, finalAnswers, lang);
 
-    navigate('/resultados', { state: { result, examMode }, replace: true });
-  }, [module, level, startTime, sessionMode, examMode, updateProgress, navigate]);
+    navigate('/resultados', { state: { result, examMode, srs }, replace: true });
+  }, [module, level, startTime, sessionMode, examMode, updateProgress, navigate, exercises, lang]);
 
   const handleAnswer = useCallback(
     (selectedIndex: number, isCorrect: boolean, timeMs: number) => {

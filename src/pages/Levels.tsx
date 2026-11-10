@@ -6,6 +6,7 @@ import { Card } from '@/components/ui/Card';
 import { Stars } from '@/components/ui/Stars';
 import { Header } from '@/components/layout/Header';
 import { useI18n } from '@/i18n';
+import { recommendedLevel } from '@/services/review';
 
 export default function Levels() {
   const { moduleId } = useParams<{ moduleId: string }>();
@@ -22,6 +23,7 @@ export default function Levels() {
   }
 
   const levels = Array.from({ length: mod.levels }, (_, i) => i + 1);
+  const recommended = recommendedLevel(progress, mod.id, mod.levels, isLevelUnlocked);
 
   return (
     <div className="min-h-screen pb-24">
@@ -108,10 +110,15 @@ export default function Levels() {
                       {unlocked ? level : '🔒'}
                     </div>
                     <div className="flex-1">
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-2 flex-wrap">
                         <h3 className="font-heading font-extrabold text-sm">
                           {t('dash_level', { level })} · {t(levelNameKey(level))}
                         </h3>
+                        {level === recommended && unlocked && !needsPremium && (
+                          <span className="text-[10px] font-extrabold bg-mint-pale text-mint px-2 py-0.5 rounded-full">
+                            {t('adapt_recommended')}
+                          </span>
+                        )}
                         {needsPremium && (
                           <span className="text-[10px] font-extrabold bg-yellow-pale text-yellow px-2 py-0.5 rounded-full">
                             PREMIUM

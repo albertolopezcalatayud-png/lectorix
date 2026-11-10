@@ -25,6 +25,8 @@ const Mascot = lazy(() => import('@/pages/Mascot'));
 const Dictation = lazy(() => import('@/pages/Dictation'));
 const ReadingList = lazy(() => import('@/pages/ReadingList'));
 const Reading = lazy(() => import('@/pages/Reading'));
+const Review = lazy(() => import('@/pages/Review'));
+const Notebook = lazy(() => import('@/pages/Notebook'));
 
 function LoadingSpinner() {
   return (
@@ -60,6 +62,8 @@ function AnimatedRoutes() {
         <Route path="/dictado" element={<PageTransition><Dictation /></PageTransition>} />
         <Route path="/lectura" element={<PageTransition><ReadingList /></PageTransition>} />
         <Route path="/lectura/:readingId" element={<PageTransition><Reading /></PageTransition>} />
+        <Route path="/repaso" element={<PageTransition><Review /></PageTransition>} />
+        <Route path="/mis-palabras" element={<PageTransition><Notebook /></PageTransition>} />
       </Routes>
     </AnimatePresence>
   );
