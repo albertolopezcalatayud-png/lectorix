@@ -600,4 +600,11 @@ export const en: Record<TranslationKey, string> = {
   tg_well_done: 'Great teamwork!',
   tg_again: 'Play again',
   tg_other_game: 'Choose another game',
+
+  // Family languages
+  fam_lang_label: 'Language for the summary and home ideas',
+  fam_lang_note: 'For families who read better in another language. Translations into other languages were made with AI help and are awaiting review by native speakers.',
+  fam_listen: 'Listen',
+  fam_stop: 'Stop',
+  fam_no_voice: 'This device has no voice for this language.',
 };

@@ -598,6 +598,13 @@ export const es = {
   tg_well_done: '¡Buen trabajo en equipo!',
   tg_again: 'Otra vez',
   tg_other_game: 'Elegir otro juego',
+
+  // Family languages
+  fam_lang_label: 'Idioma del resumen y de las ideas para casa',
+  fam_lang_note: 'Para familias que leen mejor en otro idioma. Las traducciones a otros idiomas están hechas con ayuda de inteligencia artificial y pendientes de revisión por hablantes nativos.',
+  fam_listen: 'Escuchar',
+  fam_stop: 'Parar',
+  fam_no_voice: 'Este dispositivo no tiene voz para este idioma.',
 } as const;
 
 export type TranslationKey = keyof typeof es;

@@ -600,4 +600,11 @@ export const ca: Record<TranslationKey, string> = {
   tg_well_done: 'Bon treball en equip!',
   tg_again: 'Una altra vegada',
   tg_other_game: 'Triar un altre joc',
+
+  // Family languages
+  fam_lang_label: 'Idioma del resum i de les idees per a casa',
+  fam_lang_note: 'Per a famílies que lligen millor en un altre idioma. Les traduccions a altres idiomes estan fetes amb ajuda d’intel·ligència artificial i pendents de revisió per parlants nadius.',
+  fam_listen: 'Escoltar',
+  fam_stop: 'Parar',
+  fam_no_voice: 'Este dispositiu no té veu per a este idioma.',
 };
