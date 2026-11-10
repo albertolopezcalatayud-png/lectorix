@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import type { Exercise, AnswerResult, ModuleId } from '@/types';
 import { loadModule } from '@/data/content';
 import { usePracticeLang } from '@/stores/useAppStore';
-import { useReviewStore, dueItems, pendingItems } from '@/services/review';
+import { useReviewStore, dueItems, pendingItems, customExercise } from '@/services/review';
 import { buildSessionResult } from '@/services/gamification';
 import { recordSession } from '@/services/session';
 import { ExerciseCard } from '@/components/exercise/ExerciseCard';
@@ -38,12 +38,12 @@ export default function Review() {
       let list = anyPending ? pendingItems(store.items, lang) : dueItems(store.items, lang);
       if (onlyKeys) list = list.filter((i) => onlyKeys.includes(i.key));
       list = list.slice(0, MAX_PER_SESSION);
-      const modules = [...new Set(list.map((i) => i.module))] as ModuleId[];
+      const modules = [...new Set(list.filter((i) => !i.id.startsWith('custom:')).map((i) => i.module))] as ModuleId[];
       const banks = await Promise.all(modules.map((m) => loadModule(lang, m).catch(() => [] as Exercise[])));
       const byId = new Map(banks.flat().map((e) => [e.id, e]));
       const found: Exercise[] = [];
       for (const it of list) {
-        const ex = byId.get(it.id);
+        const ex = byId.get(it.id) ?? customExercise(it);
         if (ex) found.push(ex);
         else store.forget(it.key); // the exercise no longer exists in the bank
       }

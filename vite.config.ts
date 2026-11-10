@@ -32,6 +32,7 @@ export default defineConfig({
       workbox: {
         importScripts: ['push-sw.js'],
         globPatterns: ['**/*.{js,css,html,png,svg,woff2}'],
+        globIgnores: ['tesseract/**'],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\.(googleapis|gstatic)\.com\/.*/i,

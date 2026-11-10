@@ -85,6 +85,7 @@ export function weeklySummaryLines(
   history: SessionResult[],
   words: string[],
   areaName: (a: Area) => string,
+  fluency: { wcpm: number; date: string }[] = [],
 ): string[] {
   const t = tr as T;
   const k = (key: string, vars?: Record<string, string | number>) => t(key as never, vars);
@@ -106,6 +107,13 @@ export function weeklySummaryLines(
   if (w.best) lines.push(k('wk_best', { area: areaName(w.best.area), pct: w.best.pct }));
   if (w.weakest) lines.push(k('wk_weak', { area: areaName(w.weakest.area), pct: w.weakest.pct }));
   if (w.readings + w.dictations > 0) lines.push(k('wk_extra', { r: w.readings, d: w.dictations }));
+  if (fluency.length > 0) {
+    const last = fluency[fluency.length - 1];
+    const prevF = fluency.length > 1 ? fluency[fluency.length - 2] : null;
+    if (Date.now() - new Date(last.date).getTime() < 7 * DAY) {
+      lines.push(prevF ? k('wk_fluency', { now: last.wcpm, prev: prevF.wcpm }) : k('wk_fluency_first', { now: last.wcpm }));
+    }
+  }
   if (words.length > 0) lines.push(k('wk_words', { words: words.join(', ') }));
   return lines;
 }

@@ -28,6 +28,9 @@ const ReadingList = lazy(() => import('@/pages/ReadingList'));
 const Reading = lazy(() => import('@/pages/Reading'));
 const Review = lazy(() => import('@/pages/Review'));
 const Notebook = lazy(() => import('@/pages/Notebook'));
+const Fluency = lazy(() => import('@/pages/Fluency'));
+const Homework = lazy(() => import('@/pages/Homework'));
+const Together = lazy(() => import('@/pages/Together'));
 
 function LoadingSpinner() {
   return (
@@ -65,6 +68,9 @@ function AnimatedRoutes() {
         <Route path="/lectura/:readingId" element={<PageTransition><Reading /></PageTransition>} />
         <Route path="/repaso" element={<PageTransition><Review /></PageTransition>} />
         <Route path="/mis-palabras" element={<PageTransition><Notebook /></PageTransition>} />
+        <Route path="/fluidez" element={<PageTransition><Fluency /></PageTransition>} />
+        <Route path="/adaptar" element={<PageTransition><Homework /></PageTransition>} />
+        <Route path="/juntos" element={<PageTransition><Together /></PageTransition>} />
       </Routes>
     </AnimatePresence>
   );
@@ -74,7 +80,7 @@ function AnimatedRoutes() {
 function RulerHost() {
   const location = useLocation();
   const on = useAppStore((s) => s.readingRuler);
-  const readingScreen = /^\/(lectura\/|ejercicio\/|repaso|reto-diario|dictado)/.test(location.pathname);
+  const readingScreen = /^\/(lectura\/|ejercicio\/|repaso|reto-diario|dictado|fluidez|adaptar|juntos)/.test(location.pathname);
   return on && readingScreen ? <ReadingRuler /> : null;
 }
 

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
 import { useReviewStore, notebookWords } from '@/services/review';
+import { useFluencyStore } from '@/services/fluency';
 import { weekStats, weeklySummaryLines, type Area } from '@/services/weekly';
 import { MODULE_TEXT } from '@/data/modules';
 import { HOME_TIPS } from '@/data/homeTips';
@@ -20,7 +21,8 @@ export function useWeeklyLines() {
     .map((w) => w.word!);
   const name = user?.display_name || t('parent_student');
   const areaName = (a: Area) => t(MODULE_TEXT[a].name);
-  return weeklySummaryLines(t, name, history, words, areaName);
+  const fluency = useFluencyStore((s) => s.results).filter((r) => r.lang === lang);
+  return weeklySummaryLines(t, name, history, words, areaName, fluency);
 }
 
 export function WeeklySummary() {

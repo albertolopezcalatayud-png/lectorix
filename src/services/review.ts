@@ -57,6 +57,8 @@ interface ReviewState {
   items: Record<string, ReviewItem>;
   /** Update the boxes with the answers of any finished session */
   track: (exercises: Exercise[], answers: AnswerResult[], lang: PracticeLang) => { added: number; promoted: number; mastered: number };
+  /** Add a word the student chose (e.g. from an adapted text); id is `custom:<word>` */
+  addWord: (word: string, lang: PracticeLang) => boolean;
   markMastered: (key: string) => void;
   forget: (key: string) => void;
 }
@@ -96,6 +98,21 @@ export const useReviewStore = create<ReviewState>()(
         set({ items });
         return { added, promoted, mastered };
       },
+      addWord: (word, lang) => {
+        const w = word.trim();
+        if (!w) return false;
+        const id = `custom:${w.toLowerCase()}`;
+        const key = `${lang}:${id}`;
+        const cur = get().items[key];
+        if (cur && !cur.mastered) return false;
+        set((s) => ({
+          items: {
+            ...s.items,
+            [key]: { key, id, lang, module: 'escritura', level: 1, box: 1, due: startOfDay(), misses: 0, lastMiss: Date.now(), word: w },
+          },
+        }));
+        return true;
+      },
       markMastered: (key) =>
         set((s) => (s.items[key] ? { items: { ...s.items, [key]: { ...s.items[key], mastered: true, masteredAt: Date.now() } } } : {})),
       forget: (key) =>
@@ -108,6 +125,21 @@ export const useReviewStore = create<ReviewState>()(
     { name: 'lectorix-review' }
   )
 );
+
+const DICTATE_PROMPT: Record<PracticeLang, string> = {
+  es: 'Escucha y escribe la palabra',
+  ca: 'Escolta i escriu la paraula',
+  en: 'Listen and write the word',
+};
+
+/** A dictation exercise for a word the student added by hand */
+export function customExercise(item: ReviewItem): Exercise | null {
+  if (!item.id.startsWith('custom:') || !item.word) return null;
+  return {
+    id: item.id, module: 'escritura', level: 1, type: 'write', prompt: DICTATE_PROMPT[item.lang],
+    options: [], correct: 0, explanation: item.word, word: item.word, answer: item.word, dictation: true,
+  };
+}
 
 export function dueItems(items: Record<string, ReviewItem>, lang: PracticeLang, now = Date.now()) {
   return Object.values(items)
