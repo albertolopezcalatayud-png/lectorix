@@ -46,6 +46,8 @@ function LoadingSpinner() {
 
 function AnimatedRoutes() {
   const location = useLocation();
+  // Every new screen starts at the top
+  useEffect(() => { window.scrollTo(0, 0); }, [location.pathname]);
 
   return (
     <AnimatePresence mode="wait">

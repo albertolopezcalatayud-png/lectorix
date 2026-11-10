@@ -9,6 +9,7 @@ import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { SyllableWord, useSyllableColoring } from '@/components/reading/SyllableText';
 import tts from '@/services/tts';
+import { isNativeApp } from '@/native/app';
 import { useI18n } from '@/i18n';
 
 interface SavedText { id: string; title: string; text: string; lang: string; date: string }
@@ -64,6 +65,8 @@ export default function Homework() {
         corePath: base,
         langPath: `${base}lang`,
         workerBlobURL: false,
+        // Android packaging renames .gz assets, so the app ships the language data uncompressed
+        gzip: !isNativeApp,
         logger: (m: { status: string; progress: number }) => {
           if (m.status === 'recognizing text') setOcr({ progress: m.progress, status: t('hw_ocr_reading') });
         },

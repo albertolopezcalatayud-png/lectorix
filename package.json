@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "build:app": "CAP_BUILD=1 tsc -b && CAP_BUILD=1 vite build --outDir dist-app"
+    "build:app": "CAP_BUILD=1 tsc -b && CAP_BUILD=1 vite build --outDir dist-app && node scripts/prepare-app-assets.mjs"
   },
   "dependencies": {
     "@capacitor-community/text-to-speech": "^6.1.0",

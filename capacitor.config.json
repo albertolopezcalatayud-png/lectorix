@@ -6,7 +6,8 @@
     "backgroundColor": "#F7F5FF",
     "allowMixedContent": false,
     "captureInput": true,
-    "webContentsDebuggingEnabled": false
+    "webContentsDebuggingEnabled": false,
+    "minWebViewVersion": 111
   },
   "plugins": {
     "SplashScreen": {
@@ -19,5 +20,8 @@
       "smallIcon": "ic_stat_lectorix",
       "iconColor": "#8B5CF6"
     }
+  },
+  "server": {
+    "errorPath": "webview-update.html"
   }
 }

@@ -22,8 +22,8 @@ jobs:
         include:
           - api: 34
             target: google_apis_playstore
-          - api: 30
-            target: google_apis
+          - api: 35
+            target: google_apis_playstore
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
