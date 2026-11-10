@@ -1,0 +1,6 @@
+package:com.google.android.overlay.googlewebview
+package:com.google.android.webview
+package:com.android.chrome
+package:org.chromium.webview_shell
+    versionName=91.0.4472.114
+    versionName=91.0.4472.114

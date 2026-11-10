@@ -1,0 +1,1 @@
+    mResumedActivity: ActivityRecord{284f7f5 u0 com.android.chrome/org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity t12}

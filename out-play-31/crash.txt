@@ -1,0 +1,198 @@
+11-10 07:14:01.347  5450  5464 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+11-10 07:14:01.352   320   320 I Zygote  : Process 4543 exited due to signal 9 (Killed)
+11-10 07:14:01.366   988  2791 I atzq    : updateFromConfigurations using legacy put method [CONTEXT service_id=204 ]
+11-10 07:14:01.402   494  2266 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-10 07:14:01.403   494   533 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-10 07:14:01.405   494  2594 I RescueParty: Starting to observe: [android], updated namespace: activity_manager
+11-10 07:14:01.417  5014  5058 W ProtoDataStoreFlagStore: Unable to retrieve flag snapshot for com.google.android.libraries.performance.primes#com.google.android.settings.intelligence, using defaults.
+11-10 07:14:01.428   494   520 I ActivityManager: Process com.google.android.apps.maps:server_recovery_process (pid 5450) has died: cch+5 CEM 
+11-10 07:14:01.444  2319  2319 I Finsky  : [2] qov.onTrimMemory(1): Memory trim requested to level 5
+11-10 07:14:01.444  3010  3010 I Finsky:download_service: [2] qov.onTrimMemory(1): Memory trim requested to level 5
+11-10 07:14:01.458  2269  2618 I cr_BindingManager: onTrimMemory: level=5, size=0
+11-10 07:14:01.468  1280  1280 I AppBase : AppBase.onTrimMemory():782 onTrimMemory(): 5
+11-10 07:14:01.470  1280  1280 I GoogleInputMethodService: GoogleInputMethodService.onTrimMemory():4623 onTrimMemory(): 5
+11-10 07:14:01.473   320   320 I Zygote  : Process 5450 exited cleanly (0)
+11-10 07:14:01.542   494   853 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gSCM@ALA
+11-10 07:14:01.547   494   532 E system_server: No package ID 7f found for ID 0x7f0802c6.
+11-10 07:14:01.547   494   532 E system_server: No package ID 7f found for ID 0x7f1305b2.
+11-10 07:14:01.554   494   532 E system_server: No package ID 7f found for ID 0x7f08048c.
+11-10 07:14:01.554   494   532 E system_server: No package ID 7f found for ID 0x7f1403a9.
+11-10 07:14:01.562  4702  5477 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10114; state: ENABLED
+11-10 07:14:01.570  3109  3142 W Bugle   : TextClassifierLibManagerImpl: Reclaiming memory at level: 40
+11-10 07:14:01.585   494   532 E system_server: No package ID 7f found for ID 0x7f080404.
+11-10 07:14:01.585   494   532 E system_server: No package ID 7f found for ID 0x7f130a5b.
+11-10 07:14:01.585   494   532 E system_server: No package ID 7f found for ID 0x7f080494.
+11-10 07:14:01.586   494   532 E system_server: No package ID 7f found for ID 0x7f131e25.
+11-10 07:14:01.602   988   988 W SystemServiceRegistry: No service published for: persistent_data_block
+11-10 07:14:01.607   494   535 I libprocessgroup: Successfully killed process cgroup uid 10100 pid 4064 in 0ms
+11-10 07:14:01.607   494   535 I libprocessgroup: Successfully killed process cgroup uid 10132 pid 4320 in 0ms
+11-10 07:14:01.607   494   535 I libprocessgroup: Successfully killed process cgroup uid 10142 pid 4527 in 0ms
+11-10 07:14:01.607   494   535 I libprocessgroup: Successfully killed process cgroup uid 10092 pid 4543 in 0ms
+11-10 07:14:01.607   494   535 I libprocessgroup: Successfully killed process cgroup uid 10116 pid 5450 in 0ms
+11-10 07:14:01.612   494  2595 I RescueParty: Starting to observe: [android], updated namespace: app_compat
+11-10 07:14:01.615   320   320 I Zygote  : Process 3399 exited due to signal 9 (Killed)
+11-10 07:14:01.632   494  2266 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gSCM@ALE
+11-10 07:14:01.639  2319  2862 E Volley  : [63] dnp.a: Unexpected response code 404 for https://play-fe.googleapis.com/fdfe/deviceSettings
+11-10 07:14:01.653   988   988 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.pseudonymous.service.START pkg=com.google.android.gms }
+11-10 07:14:01.661  2319  2862 W Finsky  : [63] fhh.j(9): IOException while manually unzipping request.
+11-10 07:14:01.664  2319  2832 E Finsky  : [53] jyr.a(5): Error getting device settings.
+11-10 07:14:01.664  2319  2832 E Finsky  : network time: 1696, HTTP status code: 404, exception com.android.volley.ClientError
+11-10 07:14:01.664  2319  2832 E Finsky  : 	at rvq.iP(Unknown Source:4)
+11-10 07:14:01.664  2319  2832 E Finsky  : 	at dmy.l(PG:2)
+--
+11-10 07:14:06.145  5722  5722 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-10 07:14:06.147   494  2266 I RescueParty: Starting to observe: [com.google.android.apps.nexuslauncher, com.android.systemui], updated namespace: interaction_jank_monitor
+11-10 07:14:06.179  5722  5722 I AndroidRuntime: Using default boot image
+11-10 07:14:06.179  5722  5722 I AndroidRuntime: Leaving lock profiling enabled
+11-10 07:14:06.179  5722  5722 W libc    : Access denied finding property "odsign.verification.success"
+11-10 07:14:06.197  5722  5722 W app_process: ART APEX data files are untrusted.
+11-10 07:14:06.207   494  2591 I RescueParty: Starting to observe: [android, com.google.android.permissioncontroller, com.android.settings], updated namespace: app_hibernation
+11-10 07:14:06.268   494   532 I PackageWatchdog: Syncing state, reason: observing new packages
+11-10 07:14:06.270   494   494 I PackageWatchdog: Syncing health check requests for packages: {}
+11-10 07:14:06.270   494   494 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+11-10 07:14:06.270   494   532 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android, com.android.systemui]
+11-10 07:14:06.270   494   532 I PackageWatchdog: Syncing state, reason: updated observers
+11-10 07:14:06.270   494   532 I PackageWatchdog: Syncing state, reason: observing new packages
+11-10 07:14:06.270   494   532 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+11-10 07:14:06.270   494   532 D PackageWatchdog: rescue-party-observer added the following packages to monitor [com.google.android.apps.nexuslauncher, com.android.systemui]
+11-10 07:14:06.270   494   532 I PackageWatchdog: Syncing state, reason: updated observers
+11-10 07:14:06.270   494   532 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+11-10 07:14:06.270   494   532 I PackageWatchdog: Syncing state, reason: observing new packages
+11-10 07:14:06.270   494   532 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+11-10 07:14:06.270   494   532 D PackageWatchdog: rescue-party-observer added the following packages to monitor [android, com.google.android.permissioncontroller, com.android.settings]
+11-10 07:14:06.270   494   532 I PackageWatchdog: Syncing state, reason: updated observers
+11-10 07:14:06.270   494   532 I PackageWatchdog: Not pruning observers, elapsed time: 0ms
+11-10 07:14:06.273   494   494 I ExplicitHealthCheckController: Explicit health check service is bound
+11-10 07:14:06.273   494   494 I PackageWatchdog: Syncing health check requests for packages: {}
+11-10 07:14:06.273   494   494 I ExplicitHealthCheckController: Service not ready to get health check supported packages. Binding...
+11-10 07:14:06.273   494   494 I ExplicitHealthCheckController: Not binding to service, service already connecting
+11-10 07:14:06.277   494   532 I PackageWatchdog: Saving observer state to file
+11-10 07:14:06.277   494   494 I ExplicitHealthCheckController: Explicit health check service is connected ComponentInfo{com.google.android.ext.services/android.ext.services.watchdog.ExplicitHealthCheckServiceImpl}
+11-10 07:14:06.277   494   494 I ExplicitHealthCheckController: Service initialized, syncing requests
+11-10 07:14:06.323  3010  3203 I Finsky:download_service: [54] kmd.a(3): Broadcasting <1:SUCCEEDED>.
+11-10 07:14:06.176  5722  5722 W app_process: type=1400 audit(0.0:52): avc: denied { read } for name="u:object_r:odsign_prop:s0" dev="tmpfs" ino=204 scontext=u:r:shell:s0 tcontext=u:object_r:odsign_prop:s0 tclass=file permissive=0
+11-10 07:14:06.325  3010  3203 I Finsky:download_service: [54] kmy.b(4): All invisible downloads are finished.
+11-10 07:14:06.345   494   494 I PackageWatchdog: Syncing health check requests for packages: {}
+11-10 07:14:06.345   494   494 D ExplicitHealthCheckController: Getting health check supported packages
+11-10 07:14:06.345   494  2266 I ExplicitHealthCheckController: Explicit health check supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+11-10 07:14:06.345   494  2266 D PackageWatchdog: Received supported packages [PackageConfig{com.google.android.networkstack, 86400000}]
+11-10 07:14:06.345   494  2266 D ExplicitHealthCheckController: Getting health check requested packages
+11-10 07:14:06.346   494  2266 I ExplicitHealthCheckController: Explicit health check requested packages []
+11-10 07:14:06.346   494  2266 I ExplicitHealthCheckController: No more health check requests, unbinding...
+11-10 07:14:06.349   494  2266 I ExplicitHealthCheckController: Explicit health check service is unbound
+11-10 07:14:06.363  2472  2776 W libc    : Access denied finding property "persist.adb.tls_server.enable"
+11-10 07:14:06.364  2472  2776 W libc    : Access denied finding property "service.adb.tls.port"
+11-10 07:14:06.386  5722  5722 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-10 07:14:06.386  5722  5722 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt68l.dat
+--
+11-10 07:14:06.468  5722  5722 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+11-10 07:14:06.469  5722  5722 W Monkey  : args: [-p, com.lectorix.app, -c, android.intent.category.LAUNCHER, 1]
+11-10 07:14:06.469  5722  5722 W Monkey  :  arg: "-p"
+11-10 07:14:06.469  5722  5722 W Monkey  :  arg: "com.lectorix.app"
+11-10 07:14:06.469  5722  5722 W Monkey  :  arg: "-c"
+11-10 07:14:06.469  5722  5722 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+11-10 07:14:06.469  5722  5722 W Monkey  :  arg: "1"
+11-10 07:14:06.469  5722  5722 W Monkey  : data="com.lectorix.app"
+11-10 07:14:06.469  5722  5722 W Monkey  : data="android.intent.category.LAUNCHER"
+11-10 07:14:06.497   988  2791 I atzq    : updateFromConfigurations using legacy put method [CONTEXT service_id=204 ]
+11-10 07:14:06.507   988   999 I .gms.persisten: Background young concurrent copying GC freed 185271(9172KB) AllocSpace objects, 5(152KB) LOS objects, 33% free, 17MB/26MB, paused 22us,18us total 119.314ms
+11-10 07:14:06.516   494   533 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{1316e94 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{c355d3d 5722 (unknown name)/2000/u-1 remote:ae478a6}: process gone or crashing
+11-10 07:14:06.523   494  2591 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.lectorix.app/com.google.androidbrowserhelper.trusted.LauncherActivity} from uid 2000
+11-10 07:14:06.360  2472  2472 W Binder:2472_3: type=1400 audit(0.0:53): avc: denied { read } for name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=244 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-10 07:14:06.538   494  2591 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10147; state: DISABLED
+11-10 07:14:06.542  5722  5722 I Monkey  : Events injected: 1
+11-10 07:14:06.544   494   525 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10147; state: DISABLED
+11-10 07:14:06.544   494   525 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10147; state: DISABLED
+11-10 07:14:06.544   494   525 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10147; state: DISABLED
+11-10 07:14:06.544   494   525 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10147; state: ENABLED
+11-10 07:14:06.544   494   534 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10147; state: ENABLED
+11-10 07:14:06.552   320   320 D Zygote  : Forked child process 5746
+11-10 07:14:06.552   494   534 I ActivityManager: Start proc 5746:com.lectorix.app/u0a147 for pre-top-activity {com.lectorix.app/com.google.androidbrowserhelper.trusted.LauncherActivity}
+11-10 07:14:06.576  5722  5722 I Monkey  : ## Network stats: elapsed time=59ms (0ms mobile, 0ms wifi, 59ms not connected)
+11-10 07:14:06.585   342   370 D goldfish-address-space: claimShared: Ask to claim region [0x3fe063000 0x3fe12b000]
+11-10 07:14:06.593   342   370 D goldfish-address-space: claimShared: Ask to claim region [0x3fdf9b000 0x3fe063000]
+11-10 07:14:06.594   342   370 D goldfish-address-space: claimShared: Ask to claim region [0x3fe12b000 0x3fe1f3000]
+11-10 07:14:06.595  5722  5722 I app_process: System.exit called, status: 0
+11-10 07:14:06.595  5722  5722 I AndroidRuntime: VM exiting with result code 0.
+11-10 07:14:06.601  5746  5746 W om.lectorix.ap: Unexpected CPU variant for X86 using defaults: x86_64
+11-10 07:14:06.360  2472  2472 W Binder:2472_3: type=1400 audit(0.0:54): avc: denied { read } for name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=55 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-10 07:14:06.647  5746  5746 E om.lectorix.ap: Not starting debugger since process cannot load the jdwp agent.
+11-10 07:14:06.658  1085  1179 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+11-10 07:14:06.659  1085  1179 I Icing   : Indexing done com.google.android.gms-apps
+11-10 07:14:06.666   391   391 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+11-10 07:14:06.672   988  2009 W GLSUser : [AppCertManager] Failed to get security token.
+11-10 07:14:06.672   988  2009 W GLSUser : java.io.IOException: Invalid scope
+11-10 07:14:06.672   988  2009 W GLSUser : 	at agqk.e(:com.google.android.gms@212423056@21.24.23 (190800-396046673):23)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at agqk.d(:com.google.android.gms@212423056@21.24.23 (190800-396046673):7)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at agqk.c(:com.google.android.gms@212423056@21.24.23 (190800-396046673):0)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at jmp.b(:com.google.android.gms@212423056@21.24.23 (190800-396046673):12)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at jmn.b(:com.google.android.gms@212423056@21.24.23 (190800-396046673):2)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at jmi.a(:com.google.android.gms@212423056@21.24.23 (190800-396046673):0)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at jml.a(:com.google.android.gms@212423056@21.24.23 (190800-396046673):6)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at hoi.call(:com.google.android.gms@212423056@21.24.23 (190800-396046673):13)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at ubg.c(:com.google.android.gms@212423056@21.24.23 (190800-396046673):6)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at ubg.run(:com.google.android.gms@212423056@21.24.23 (190800-396046673):7)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at uhc.run(:com.google.android.gms@212423056@21.24.23 (190800-396046673):0)
+11-10 07:14:06.672   988  2009 W GLSUser : 	at java.lang.Thread.run(Thread.java:920)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: Could not register for notifications with InnerTube: 
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: tcg: sgv: Precondition check failed.
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at tbw.apply(Unknown Source:4)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at rnl.o(PG:5)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at rnl.b(PG:2)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at tby.d(PG:4)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at xas.c(PG:51)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at xas.j(PG:38)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at xas.d(PG:3)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at xap.run(Unknown Source:2)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at nvu.run(PG:1)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at nvp.run(PG:2)
+11-10 07:14:06.704  4349  4964 W YouTubeMusic: 	at nvh.run(PG:3)
+--
+11-10 07:14:10.640  5920  5933 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+11-10 07:14:10.654   494   535 I libprocessgroup: Successfully killed process cgroup uid 10116 pid 5920 in 0ms
+11-10 07:14:10.657   320   320 I Zygote  : Process 5920 exited cleanly (0)
+11-10 07:14:10.658   494  2593 I ActivityManager: Process com.google.android.apps.maps:server_recovery_process (pid 5920) has died: fg  RCVR
+11-10 07:14:10.664  3109  3139 W Bugle   : TextClassifierLibManagerImpl: Reclaiming memory at level: 40
+11-10 07:14:10.667  2269  2618 I cr_BindingManager: onTrimMemory: level=10, size=0
+11-10 07:14:10.668  3010  3010 I Finsky:download_service: [2] qov.onTrimMemory(1): Memory trim requested to level 10
+11-10 07:14:10.668  2319  2319 I Finsky  : [2] qov.onTrimMemory(1): Memory trim requested to level 10
+11-10 07:14:10.672  5826  5826 I A       : Trimming objects from memory, since app is in the background.
+11-10 07:14:10.679  1280  1280 I AppBase : AppBase.onTrimMemory():782 onTrimMemory(): 10
+11-10 07:14:10.679  1280  1280 I GoogleInputMethodService: GoogleInputMethodService.onTrimMemory():4623 onTrimMemory(): 10
+11-10 07:14:10.701   494  2593 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10116; state: DISABLED
+11-10 07:14:10.701   494   534 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10116; state: ENABLED
+11-10 07:14:10.705   320   320 D Zygote  : Forked child process 5939
+11-10 07:14:10.707   494   534 I ActivityManager: Start proc 5939:com.google.android.apps.maps:server_recovery_process/u0a116 for broadcast {com.google.android.apps.maps/com.google.android.apps.gmm.plugins.serverrecovery.PhenotypeServerRecoveryHandlerImpl}
+11-10 07:14:10.709  5939  5939 W ecovery_proces: Unexpected CPU variant for X86 using defaults: x86_64
+11-10 07:14:10.710  5939  5939 E ecovery_proces: Not starting debugger since process cannot load the jdwp agent.
+11-10 07:14:10.717  5939  5939 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10116; state: ENABLED
+11-10 07:14:10.727  5939  5939 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/Maps/lib/x86_64:/product/app/Maps/Maps.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+11-10 07:14:10.730  5939  5939 V GraphicsEnvironment: ANGLE Developer option for 'com.google.android.apps.maps' set to: 'default'
+11-10 07:14:10.730  5939  5939 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-10 07:14:10.730  5939  5939 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-10 07:14:10.730  5939  5939 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-10 07:14:10.752  3109  3109 I BugleRcsProvisioning: RcsProvisioningEventReceiver: Received ProvisioningEvent: Request Bugle information
+11-10 07:14:10.753  3109  3109 W BugleRcsEngine: [2] alsz.g: Carrier Services Apk was not found.
+11-10 07:14:10.753  3109  3109 I BugleRcsEngine: [2] alsz.e: Cannot get service version because CS.apk was not found, not pre-loaded or disabled.
+11-10 07:14:10.753  3109  3109 W BugleRcsEngine: [2] alsz.e: Service with meta data key: JibeServiceApiVersions is not compatible. Service Version 1 is not supported. Supported versions: []
+11-10 07:14:10.753  3109  3109 I BugleRcsEngine: [2] alsz.c: Not using CS JibeService because it is not compatible with AM.
+11-10 07:14:10.754  3109  3142 W Bugle   : TextClassifierLibManagerImpl: Reclaiming memory at level: 40
+11-10 07:14:10.774  3109  3109 I BugleRcsProvisioning: RcsProvisioningEventReceiver: Received ProvisioningEvent: Update provisioning status
+11-10 07:14:10.777  3109  3140 W Bugle   : TextClassifierLibManagerImpl: Reclaiming memory at level: 40
+11-10 07:14:10.784   494  2593 I ActivityManager: Killing 3166:com.android.providers.calendar/u0a71 (adj 975): empty #17
+11-10 07:14:10.797   320   320 I Zygote  : Process 3166 exited due to signal 9 (Killed)
+11-10 07:14:10.805  1278  1357 I PhenotypeBackgroundRecv: Successfully stored update snapshot for com.google.android.apps.wellbeing.device
+11-10 07:14:10.816   494   535 I libprocessgroup: Successfully killed process cgroup uid 10071 pid 3166 in 31ms
+11-10 07:14:10.821  1278  1366 W ProcessReaper: Scheduling killing of process to refresh configuration
+11-10 07:14:10.828  1278  1357 I PhenotypeBackgroundRecv: Successfully stored update snapshot for com.google.android.libraries.performance.primes#com.google.android.apps.wellbeing
+11-10 07:14:10.829  1278  1278 W ConfigurationUpdatedRec: Received update for unknown package com.google.android.libraries.performance.primes#com.google.android.apps.wellbeing; known packages [com.google.android.apps.wellbeing.device]
+11-10 07:14:10.844  1085  5295 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+11-10 07:14:10.851  1278  1357 I PhenotypeBackgroundRecv: Successfully stored update snapshot for com.google.android.libraries.surveys#com.google.android.apps.wellbeing
+11-10 07:14:10.855  1278  1278 W ConfigurationUpdatedRec: Received update for unknown package com.google.android.libraries.surveys#com.google.android.apps.wellbeing; known packages [com.google.android.apps.wellbeing.device]
