@@ -4980,6 +4980,2789 @@
    "answer": "subterráneo",
    "hint": "b, rr y tilde",
    "explanation": "sub-te-rrá-ne-o"
+  },
+  {
+   "id": "es_fonologia_l6_m001",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «aéreo»?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ],
+   "correct": 1,
+   "explanation": "a-é-re-o = 4 sílabas",
+   "word": "aéreo",
+   "syllables": [
+    "a",
+    "é",
+    "re",
+    "o"
+   ]
+  },
+  {
+   "id": "es_fonologia_l6_m002",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «poesía»?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "correct": 2,
+   "explanation": "po-e-sí-a = 4 sílabas",
+   "word": "poesía",
+   "syllables": [
+    "po",
+    "e",
+    "sí",
+    "a"
+   ]
+  },
+  {
+   "id": "es_fonologia_l6_m003",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «ciudadano»?",
+   "options": [
+    "5",
+    "4",
+    "3",
+    "2"
+   ],
+   "correct": 1,
+   "explanation": "ciu-da-da-no = 4 sílabas",
+   "word": "ciudadano",
+   "syllables": [
+    "ciu",
+    "da",
+    "da",
+    "no"
+   ]
+  },
+  {
+   "id": "es_fonologia_l6_m004",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «biología»?",
+   "options": [
+    "5",
+    "4",
+    "2",
+    "3"
+   ],
+   "correct": 1,
+   "explanation": "bio-lo-gí-a = 4 sílabas",
+   "word": "biología",
+   "syllables": [
+    "bio",
+    "lo",
+    "gí",
+    "a"
+   ]
+  },
+  {
+   "id": "es_fonologia_l6_m005",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «cuidadoso»?",
+   "options": [
+    "5",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "cui-da-do-so = 4 sílabas",
+   "word": "cuidadoso",
+   "syllables": [
+    "cui",
+    "da",
+    "do",
+    "so"
+   ]
+  },
+  {
+   "id": "es_fonologia_l6_m006",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «geografía»?",
+   "options": [
+    "6",
+    "5",
+    "3",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "ge-o-gra-fí-a = 5 sílabas",
+   "word": "geografía",
+   "syllables": [
+    "ge",
+    "o",
+    "gra",
+    "fí",
+    "a"
+   ]
+  },
+  {
+   "id": "es_fonologia_l6_m007",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «ahorrar»?",
+   "options": [
+    "1",
+    "3",
+    "4",
+    "2"
+   ],
+   "correct": 1,
+   "explanation": "a-ho-rrar = 3 sílabas",
+   "word": "ahorrar",
+   "syllables": [
+    "a",
+    "ho",
+    "rrar"
+   ]
+  },
+  {
+   "id": "es_fonologia_l6_m008",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «leíamos»?",
+   "options": [
+    "4",
+    "3",
+    "2",
+    "5"
+   ],
+   "correct": 0,
+   "explanation": "le-í-a-mos = 4 sílabas",
+   "word": "leíamos",
+   "syllables": [
+    "le",
+    "í",
+    "a",
+    "mos"
+   ]
+  },
+  {
+   "id": "es_fonologia_l6_o001",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "a",
+    "é",
+    "re",
+    "o"
+   ],
+   "correctOrder": [
+    "a",
+    "é",
+    "re",
+    "o"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "a-é-re-o = aéreo",
+   "word": "aéreo"
+  },
+  {
+   "id": "es_fonologia_l6_o002",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "po",
+    "e",
+    "sí",
+    "a"
+   ],
+   "correctOrder": [
+    "po",
+    "e",
+    "sí",
+    "a"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "po-e-sí-a = poesía",
+   "word": "poesía"
+  },
+  {
+   "id": "es_fonologia_l6_o003",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "ciu",
+    "da",
+    "da",
+    "no"
+   ],
+   "correctOrder": [
+    "ciu",
+    "da",
+    "da",
+    "no"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ciu-da-da-no = ciudadano",
+   "word": "ciudadano"
+  },
+  {
+   "id": "es_fonologia_l6_o004",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "bio",
+    "lo",
+    "gí",
+    "a"
+   ],
+   "correctOrder": [
+    "bio",
+    "lo",
+    "gí",
+    "a"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "bio-lo-gí-a = biología",
+   "word": "biología"
+  },
+  {
+   "id": "es_fonologia_l6_o005",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "cui",
+    "da",
+    "do",
+    "so"
+   ],
+   "correctOrder": [
+    "cui",
+    "da",
+    "do",
+    "so"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "cui-da-do-so = cuidadoso",
+   "word": "cuidadoso"
+  },
+  {
+   "id": "es_fonologia_l6_m009",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «carácter»?",
+   "options": [
+    "rác",
+    "ter",
+    "ca"
+   ],
+   "correct": 0,
+   "explanation": "En ca-rác-ter, la sílaba que suena más fuerte es «rác».",
+   "word": "carácter"
+  },
+  {
+   "id": "es_fonologia_l6_m010",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «jabalí»?",
+   "options": [
+    "ba",
+    "lí",
+    "ja"
+   ],
+   "correct": 1,
+   "explanation": "En ja-ba-lí, la sílaba que suena más fuerte es «lí».",
+   "word": "jabalí"
+  },
+  {
+   "id": "es_fonologia_l6_m011",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «césped»?",
+   "options": [
+    "cés",
+    "ped"
+   ],
+   "correct": 0,
+   "explanation": "En cés-ped, la sílaba que suena más fuerte es «cés».",
+   "word": "césped"
+  },
+  {
+   "id": "es_fonologia_l6_m012",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «miércoles»?",
+   "options": [
+    "miér",
+    "co",
+    "les"
+   ],
+   "correct": 0,
+   "explanation": "En miér-co-les, la sílaba que suena más fuerte es «miér».",
+   "word": "miércoles"
+  },
+  {
+   "id": "es_fonologia_l6_m013",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «ataúd»?",
+   "options": [
+    "ta",
+    "úd",
+    "a"
+   ],
+   "correct": 1,
+   "explanation": "En a-ta-úd, la sílaba que suena más fuerte es «úd».",
+   "word": "ataúd"
+  },
+  {
+   "id": "es_fonologia_l6_m014",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «volumen»?",
+   "options": [
+    "lu",
+    "vo",
+    "men"
+   ],
+   "correct": 0,
+   "explanation": "En vo-lu-men, la sílaba que suena más fuerte es «lu».",
+   "word": "volumen"
+  },
+  {
+   "id": "es_fonologia_l6_m015",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «también» según su acento?",
+   "options": [
+    "esdrújula",
+    "llana",
+    "sobresdrújula",
+    "aguda"
+   ],
+   "correct": 3,
+   "explanation": "«también» es aguda: el golpe de voz va en la última sílaba.",
+   "word": "también"
+  },
+  {
+   "id": "es_fonologia_l6_m016",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «árbol» según su acento?",
+   "options": [
+    "esdrújula",
+    "sobresdrújula",
+    "llana",
+    "aguda"
+   ],
+   "correct": 2,
+   "explanation": "«árbol» es llana: el golpe de voz va en la penúltima sílaba.",
+   "word": "árbol"
+  },
+  {
+   "id": "es_fonologia_l6_m017",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «lápices» según su acento?",
+   "options": [
+    "esdrújula",
+    "llana",
+    "sobresdrújula",
+    "aguda"
+   ],
+   "correct": 0,
+   "explanation": "«lápices» es esdrújula: el golpe de voz va en la antepenúltima sílaba.",
+   "word": "lápices"
+  },
+  {
+   "id": "es_fonologia_l6_m018",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «dígamelo» según su acento?",
+   "options": [
+    "llana",
+    "aguda",
+    "esdrújula",
+    "sobresdrújula"
+   ],
+   "correct": 3,
+   "explanation": "«dígamelo» es sobresdrújula: el golpe de voz va antes de la antepenúltima sílaba.",
+   "word": "dígamelo"
+  },
+  {
+   "id": "es_fonologia_l6_m019",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «reloj» según su acento?",
+   "options": [
+    "aguda",
+    "esdrújula",
+    "sobresdrújula",
+    "llana"
+   ],
+   "correct": 0,
+   "explanation": "«reloj» es aguda: el golpe de voz va en la última sílaba.",
+   "word": "reloj"
+  },
+  {
+   "id": "es_fonologia_l6_m020",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «huésped» según su acento?",
+   "options": [
+    "esdrújula",
+    "llana",
+    "sobresdrújula",
+    "aguda"
+   ],
+   "correct": 1,
+   "explanation": "«huésped» es llana: el golpe de voz va en la penúltima sílaba.",
+   "word": "huésped"
+  },
+  {
+   "id": "es_fonologia_l6_m021",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "En «caimán», ¿qué forman las vocales «ai»?",
+   "options": [
+    "Triptongo",
+    "Hiato",
+    "Diptongo"
+   ],
+   "correct": 2,
+   "explanation": "cai-mán: la a y la i van en la misma sílaba.",
+   "word": "caimán"
+  },
+  {
+   "id": "es_fonologia_l6_m022",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "En «país», ¿qué forman las vocales «aí»?",
+   "options": [
+    "Diptongo",
+    "Triptongo",
+    "Hiato"
+   ],
+   "correct": 2,
+   "explanation": "pa-ís: la í tónica separa las vocales en dos sílabas.",
+   "word": "país"
+  },
+  {
+   "id": "es_fonologia_l6_m023",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "En «buey», ¿qué forman las vocales «uey»?",
+   "options": [
+    "Triptongo",
+    "Diptongo",
+    "Hiato"
+   ],
+   "correct": 0,
+   "explanation": "buey: tres vocales en una sola sílaba.",
+   "word": "buey"
+  },
+  {
+   "id": "es_fonologia_l6_m024",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "En «cielo», ¿qué forman las vocales «ie»?",
+   "options": [
+    "Triptongo",
+    "Hiato",
+    "Diptongo"
+   ],
+   "correct": 2,
+   "explanation": "cie-lo: la i y la e van juntas.",
+   "word": "cielo"
+  },
+  {
+   "id": "es_fonologia_l6_m025",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "En «leer», ¿qué forman las vocales «ee»?",
+   "options": [
+    "Hiato",
+    "Triptongo",
+    "Diptongo"
+   ],
+   "correct": 0,
+   "explanation": "le-er: dos vocales iguales siempre forman hiato.",
+   "word": "leer"
+  },
+  {
+   "id": "es_fonologia_l6_m026",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "En «cuidado», ¿qué forman las vocales «ui»?",
+   "options": [
+    "Triptongo",
+    "Diptongo",
+    "Hiato"
+   ],
+   "correct": 1,
+   "explanation": "cui-da-do: dos vocales cerradas forman diptongo.",
+   "word": "cuidado"
+  },
+  {
+   "id": "es_fonologia_l6_m027",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO tiene hiato?",
+   "options": [
+    "leer",
+    "cuidado",
+    "poeta",
+    "día"
+   ],
+   "correct": 1,
+   "explanation": "En cui-da-do, la u y la i forman diptongo."
+  },
+  {
+   "id": "es_fonologia_l6_m028",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra tiene un triptongo?",
+   "options": [
+    "río",
+    "aire",
+    "buey",
+    "cielo"
+   ],
+   "correct": 2,
+   "explanation": "buey: u-e-y en una sola sílaba."
+  },
+  {
+   "id": "es_fonologia_l6_d001",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hubo una gran tormenta el viernes por la noche.",
+   "hint": "hubo con h y b; viernes con v",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "Hubo una gran tormenta el viernes por la noche."
+  },
+  {
+   "id": "es_fonologia_l6_d002",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El ciervo bebía agua junto al arroyo.",
+   "hint": "ciervo y bebía; arroyo con rr e y",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "El ciervo bebía agua junto al arroyo."
+  },
+  {
+   "id": "es_fonologia_l6_d003",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Mi hermano envió un mensaje desde el avión.",
+   "hint": "envió y avión llevan tilde",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "Mi hermano envió un mensaje desde el avión."
+  },
+  {
+   "id": "es_fonologia_l6_d004",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La geografía estudia los paisajes del planeta.",
+   "hint": "geografía con g y tilde en la í",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "La geografía estudia los paisajes del planeta."
+  },
+  {
+   "id": "es_fonologia_l6_d005",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "¿Por qué no has traído el libro de biología?",
+   "hint": "por qué separado y con tilde; traído con tilde",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "¿Por qué no has traído el libro de biología?"
+  },
+  {
+   "id": "es_fonologia_l6_d006",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Íbamos a la biblioteca todos los jueves.",
+   "hint": "Íbamos con b y tilde",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "Íbamos a la biblioteca todos los jueves."
+  },
+  {
+   "id": "es_fonologia_l7_m001",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «paleontólogo»?",
+   "options": [
+    "7",
+    "4",
+    "5",
+    "6"
+   ],
+   "correct": 3,
+   "explanation": "pa-le-on-tó-lo-go = 6 sílabas",
+   "word": "paleontólogo",
+   "syllables": [
+    "pa",
+    "le",
+    "on",
+    "tó",
+    "lo",
+    "go"
+   ]
+  },
+  {
+   "id": "es_fonologia_l7_m002",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «contemporáneo»?",
+   "options": [
+    "6",
+    "4",
+    "5",
+    "7"
+   ],
+   "correct": 0,
+   "explanation": "con-tem-po-rá-ne-o = 6 sílabas",
+   "word": "contemporáneo",
+   "syllables": [
+    "con",
+    "tem",
+    "po",
+    "rá",
+    "ne",
+    "o"
+   ]
+  },
+  {
+   "id": "es_fonologia_l7_m003",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «heroico»?",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "correct": 0,
+   "explanation": "he-roi-co = 3 sílabas",
+   "word": "heroico",
+   "syllables": [
+    "he",
+    "roi",
+    "co"
+   ]
+  },
+  {
+   "id": "es_fonologia_l7_m004",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «acentúa»?",
+   "options": [
+    "2",
+    "4",
+    "5",
+    "3"
+   ],
+   "correct": 1,
+   "explanation": "a-cen-tú-a = 4 sílabas",
+   "word": "acentúa",
+   "syllables": [
+    "a",
+    "cen",
+    "tú",
+    "a"
+   ]
+  },
+  {
+   "id": "es_fonologia_l7_m005",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «Uruguay»?",
+   "options": [
+    "4",
+    "3",
+    "1",
+    "2"
+   ],
+   "correct": 1,
+   "explanation": "U-ru-guay = 3 sílabas",
+   "word": "Uruguay",
+   "syllables": [
+    "U",
+    "ru",
+    "guay"
+   ]
+  },
+  {
+   "id": "es_fonologia_l7_m006",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «veintiún»?",
+   "options": [
+    "1",
+    "3",
+    "4",
+    "2"
+   ],
+   "correct": 3,
+   "explanation": "vein-tiún = 2 sílabas",
+   "word": "veintiún",
+   "syllables": [
+    "vein",
+    "tiún"
+   ]
+  },
+  {
+   "id": "es_fonologia_l7_m007",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «oceanografía»?",
+   "options": [
+    "7",
+    "6",
+    "8",
+    "5"
+   ],
+   "correct": 0,
+   "explanation": "o-ce-a-no-gra-fí-a = 7 sílabas",
+   "word": "oceanografía",
+   "syllables": [
+    "o",
+    "ce",
+    "a",
+    "no",
+    "gra",
+    "fí",
+    "a"
+   ]
+  },
+  {
+   "id": "es_fonologia_l7_m008",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «lingüística»?",
+   "options": [
+    "3",
+    "4",
+    "2",
+    "5"
+   ],
+   "correct": 1,
+   "explanation": "lin-güís-ti-ca = 4 sílabas",
+   "word": "lingüística",
+   "syllables": [
+    "lin",
+    "güís",
+    "ti",
+    "ca"
+   ]
+  },
+  {
+   "id": "es_fonologia_l7_o001",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "pa",
+    "le",
+    "on",
+    "tó",
+    "lo",
+    "go"
+   ],
+   "correctOrder": [
+    "pa",
+    "le",
+    "on",
+    "tó",
+    "lo",
+    "go"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "pa-le-on-tó-lo-go = paleontólogo",
+   "word": "paleontólogo"
+  },
+  {
+   "id": "es_fonologia_l7_o002",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "con",
+    "tem",
+    "po",
+    "rá",
+    "ne",
+    "o"
+   ],
+   "correctOrder": [
+    "con",
+    "tem",
+    "po",
+    "rá",
+    "ne",
+    "o"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "con-tem-po-rá-ne-o = contemporáneo",
+   "word": "contemporáneo"
+  },
+  {
+   "id": "es_fonologia_l7_o003",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "he",
+    "roi",
+    "co"
+   ],
+   "correctOrder": [
+    "he",
+    "roi",
+    "co"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "he-roi-co = heroico",
+   "word": "heroico"
+  },
+  {
+   "id": "es_fonologia_l7_o004",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "a",
+    "cen",
+    "tú",
+    "a"
+   ],
+   "correctOrder": [
+    "a",
+    "cen",
+    "tú",
+    "a"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "a-cen-tú-a = acentúa",
+   "word": "acentúa"
+  },
+  {
+   "id": "es_fonologia_l7_o005",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "U",
+    "ru",
+    "guay"
+   ],
+   "correctOrder": [
+    "U",
+    "ru",
+    "guay"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "U-ru-guay = Uruguay",
+   "word": "Uruguay"
+  },
+  {
+   "id": "es_fonologia_l7_m009",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «régimen»?",
+   "options": [
+    "gi",
+    "ré",
+    "men"
+   ],
+   "correct": 1,
+   "explanation": "En ré-gi-men, la sílaba que suena más fuerte es «ré».",
+   "word": "régimen"
+  },
+  {
+   "id": "es_fonologia_l7_m010",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «regímenes»?",
+   "options": [
+    "me",
+    "nes",
+    "gí",
+    "re"
+   ],
+   "correct": 2,
+   "explanation": "En re-gí-me-nes, la sílaba que suena más fuerte es «gí».",
+   "word": "regímenes"
+  },
+  {
+   "id": "es_fonologia_l7_m011",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «caracteres»?",
+   "options": [
+    "rac",
+    "res",
+    "te",
+    "ca"
+   ],
+   "correct": 2,
+   "explanation": "En ca-rac-te-res, la sílaba que suena más fuerte es «te».",
+   "word": "caracteres"
+  },
+  {
+   "id": "es_fonologia_l7_m012",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «especímenes»?",
+   "options": [
+    "me",
+    "es",
+    "pe",
+    "cí"
+   ],
+   "correct": 3,
+   "explanation": "En es-pe-cí-me-nes, la sílaba que suena más fuerte es «cí».",
+   "word": "especímenes"
+  },
+  {
+   "id": "es_fonologia_l7_m013",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «intervalo»?",
+   "options": [
+    "in",
+    "lo",
+    "ter",
+    "va"
+   ],
+   "correct": 3,
+   "explanation": "En in-ter-va-lo, la sílaba que suena más fuerte es «va».",
+   "word": "intervalo"
+  },
+  {
+   "id": "es_fonologia_l7_m014",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «dócil»?",
+   "options": [
+    "cil",
+    "dó"
+   ],
+   "correct": 1,
+   "explanation": "En dó-cil, la sílaba que suena más fuerte es «dó».",
+   "word": "dócil"
+  },
+  {
+   "id": "es_fonologia_l7_m015",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «cuéntaselo» según su acento?",
+   "options": [
+    "sobresdrújula",
+    "llana",
+    "aguda",
+    "esdrújula"
+   ],
+   "correct": 0,
+   "explanation": "«cuéntaselo» es sobresdrújula: el golpe de voz va antes de la antepenúltima sílaba.",
+   "word": "cuéntaselo"
+  },
+  {
+   "id": "es_fonologia_l7_m016",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «fénix» según su acento?",
+   "options": [
+    "llana",
+    "esdrújula",
+    "sobresdrújula",
+    "aguda"
+   ],
+   "correct": 0,
+   "explanation": "«fénix» es llana: el golpe de voz va en la penúltima sílaba.",
+   "word": "fénix"
+  },
+  {
+   "id": "es_fonologia_l7_m017",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «jabalí» según su acento?",
+   "options": [
+    "aguda",
+    "esdrújula",
+    "sobresdrújula",
+    "llana"
+   ],
+   "correct": 0,
+   "explanation": "«jabalí» es aguda: el golpe de voz va en la última sílaba.",
+   "word": "jabalí"
+  },
+  {
+   "id": "es_fonologia_l7_m018",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «régimen» según su acento?",
+   "options": [
+    "esdrújula",
+    "llana",
+    "aguda",
+    "sobresdrújula"
+   ],
+   "correct": 0,
+   "explanation": "«régimen» es esdrújula: el golpe de voz va en la antepenúltima sílaba.",
+   "word": "régimen"
+  },
+  {
+   "id": "es_fonologia_l7_m019",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «álbum» según su acento?",
+   "options": [
+    "sobresdrújula",
+    "aguda",
+    "llana",
+    "esdrújula"
+   ],
+   "correct": 2,
+   "explanation": "«álbum» es llana: el golpe de voz va en la penúltima sílaba.",
+   "word": "álbum"
+  },
+  {
+   "id": "es_fonologia_l7_m020",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «estudiad» según su acento?",
+   "options": [
+    "llana",
+    "aguda",
+    "sobresdrújula",
+    "esdrújula"
+   ],
+   "correct": 1,
+   "explanation": "«estudiad» es aguda: el golpe de voz va en la última sílaba.",
+   "word": "estudiad"
+  },
+  {
+   "id": "es_fonologia_l7_m021",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En «Paraguay», ¿qué forman las vocales «uay»?",
+   "options": [
+    "Diptongo",
+    "Triptongo",
+    "Hiato"
+   ],
+   "correct": 1,
+   "explanation": "Pa-ra-guay: u-a-y en una sola sílaba.",
+   "word": "Paraguay"
+  },
+  {
+   "id": "es_fonologia_l7_m022",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En «oído», ¿qué forman las vocales «oí»?",
+   "options": [
+    "Diptongo",
+    "Hiato",
+    "Triptongo"
+   ],
+   "correct": 1,
+   "explanation": "o-í-do: la í tónica rompe el diptongo.",
+   "word": "oído"
+  },
+  {
+   "id": "es_fonologia_l7_m023",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En «maíz», ¿qué forman las vocales «aí»?",
+   "options": [
+    "Triptongo",
+    "Hiato",
+    "Diptongo"
+   ],
+   "correct": 1,
+   "explanation": "ma-íz: la í tónica va en otra sílaba.",
+   "word": "maíz"
+  },
+  {
+   "id": "es_fonologia_l7_m024",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En «aire», ¿qué forman las vocales «ai»?",
+   "options": [
+    "Hiato",
+    "Diptongo",
+    "Triptongo"
+   ],
+   "correct": 1,
+   "explanation": "ai-re: la a y la i van juntas.",
+   "word": "aire"
+  },
+  {
+   "id": "es_fonologia_l7_m025",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En «poeta», ¿qué forman las vocales «oe»?",
+   "options": [
+    "Hiato",
+    "Diptongo",
+    "Triptongo"
+   ],
+   "correct": 0,
+   "explanation": "po-e-ta: dos vocales abiertas forman hiato.",
+   "word": "poeta"
+  },
+  {
+   "id": "es_fonologia_l7_m026",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En «estudiáis», ¿qué forman las vocales «iái»?",
+   "options": [
+    "Diptongo",
+    "Hiato",
+    "Triptongo"
+   ],
+   "correct": 2,
+   "explanation": "es-tu-diáis: i-á-i en una sola sílaba.",
+   "word": "estudiáis"
+  },
+  {
+   "id": "es_fonologia_l7_m027",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es esdrújula?",
+   "options": [
+    "régimen",
+    "pájaro",
+    "regimiento",
+    "música"
+   ],
+   "correct": 2,
+   "explanation": "re-gi-mien-to es llana."
+  },
+  {
+   "id": "es_fonologia_l7_m028",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿En qué palabra la h separa dos vocales que forman hiato?",
+   "options": [
+    "búho",
+    "ahijado",
+    "prohibir",
+    "ahumado"
+   ],
+   "correct": 0,
+   "explanation": "bú-ho: la ú tónica forma hiato."
+  },
+  {
+   "id": "es_fonologia_l7_d001",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El huésped se fue sin despedirse de nadie.",
+   "hint": "huésped con h y tilde",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "El huésped se fue sin despedirse de nadie."
+  },
+  {
+   "id": "es_fonologia_l7_d002",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La exposición sobre los vikingos fue un éxito.",
+   "hint": "exposición y éxito llevan x",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "La exposición sobre los vikingos fue un éxito."
+  },
+  {
+   "id": "es_fonologia_l7_d003",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Aunque llovía, salimos a recoger setas al bosque.",
+   "hint": "llovía con ll y v; recoger con g",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "Aunque llovía, salimos a recoger setas al bosque."
+  },
+  {
+   "id": "es_fonologia_l7_d004",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "No sé si vendrá; si no viene, empezaremos sin él.",
+   "hint": "sé con tilde; si no separado; él con tilde",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "No sé si vendrá; si no viene, empezaremos sin él."
+  },
+  {
+   "id": "es_fonologia_l7_d005",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La hierba del jardín estaba húmeda por el rocío.",
+   "hint": "hierba con h y b; húmeda con h",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "La hierba del jardín estaba húmeda por el rocío."
+  },
+  {
+   "id": "es_fonologia_l7_d006",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Escribió una redacción sobre la contaminación del aire.",
+   "hint": "redacción con dos c",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "Escribió una redacción sobre la contaminación del aire."
+  },
+  {
+   "id": "es_fonologia_l8_m001",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «anteayer»?",
+   "options": [
+    "5",
+    "4",
+    "2",
+    "3"
+   ],
+   "correct": 1,
+   "explanation": "an-te-a-yer = 4 sílabas",
+   "word": "anteayer",
+   "syllables": [
+    "an",
+    "te",
+    "a",
+    "yer"
+   ]
+  },
+  {
+   "id": "es_fonologia_l8_m002",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «diccionario»?",
+   "options": [
+    "4",
+    "2",
+    "3",
+    "5"
+   ],
+   "correct": 0,
+   "explanation": "dic-cio-na-rio = 4 sílabas",
+   "word": "diccionario",
+   "syllables": [
+    "dic",
+    "cio",
+    "na",
+    "rio"
+   ]
+  },
+  {
+   "id": "es_fonologia_l8_m003",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «instrucción»?",
+   "options": [
+    "4",
+    "1",
+    "2",
+    "3"
+   ],
+   "correct": 3,
+   "explanation": "ins-truc-ción = 3 sílabas",
+   "word": "instrucción",
+   "syllables": [
+    "ins",
+    "truc",
+    "ción"
+   ]
+  },
+  {
+   "id": "es_fonologia_l8_m004",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «reúne»?",
+   "options": [
+    "3",
+    "1",
+    "4",
+    "2"
+   ],
+   "correct": 0,
+   "explanation": "re-ú-ne = 3 sílabas",
+   "word": "reúne",
+   "syllables": [
+    "re",
+    "ú",
+    "ne"
+   ]
+  },
+  {
+   "id": "es_fonologia_l8_m005",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «cooperación»?",
+   "options": [
+    "4",
+    "6",
+    "5",
+    "3"
+   ],
+   "correct": 2,
+   "explanation": "co-o-pe-ra-ción = 5 sílabas",
+   "word": "cooperación",
+   "syllables": [
+    "co",
+    "o",
+    "pe",
+    "ra",
+    "ción"
+   ]
+  },
+  {
+   "id": "es_fonologia_l8_m006",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «averiguáis»?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "correct": 2,
+   "explanation": "a-ve-ri-guáis = 4 sílabas",
+   "word": "averiguáis",
+   "syllables": [
+    "a",
+    "ve",
+    "ri",
+    "guáis"
+   ]
+  },
+  {
+   "id": "es_fonologia_l8_m007",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «búho»?",
+   "options": [
+    "2",
+    "4",
+    "1",
+    "3"
+   ],
+   "correct": 0,
+   "explanation": "bú-ho = 2 sílabas",
+   "word": "búho",
+   "syllables": [
+    "bú",
+    "ho"
+   ]
+  },
+  {
+   "id": "es_fonologia_l8_m008",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «atmosférico»?",
+   "options": [
+    "6",
+    "5",
+    "3",
+    "4"
+   ],
+   "correct": 1,
+   "explanation": "at-mos-fé-ri-co = 5 sílabas",
+   "word": "atmosférico",
+   "syllables": [
+    "at",
+    "mos",
+    "fé",
+    "ri",
+    "co"
+   ]
+  },
+  {
+   "id": "es_fonologia_l8_o001",
+   "module": "fonologia",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "an",
+    "te",
+    "a",
+    "yer"
+   ],
+   "correctOrder": [
+    "an",
+    "te",
+    "a",
+    "yer"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "an-te-a-yer = anteayer",
+   "word": "anteayer"
+  },
+  {
+   "id": "es_fonologia_l8_o002",
+   "module": "fonologia",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "dic",
+    "cio",
+    "na",
+    "rio"
+   ],
+   "correctOrder": [
+    "dic",
+    "cio",
+    "na",
+    "rio"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "dic-cio-na-rio = diccionario",
+   "word": "diccionario"
+  },
+  {
+   "id": "es_fonologia_l8_o003",
+   "module": "fonologia",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "ins",
+    "truc",
+    "ción"
+   ],
+   "correctOrder": [
+    "ins",
+    "truc",
+    "ción"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ins-truc-ción = instrucción",
+   "word": "instrucción"
+  },
+  {
+   "id": "es_fonologia_l8_o004",
+   "module": "fonologia",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "re",
+    "ú",
+    "ne"
+   ],
+   "correctOrder": [
+    "re",
+    "ú",
+    "ne"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "re-ú-ne = reúne",
+   "word": "reúne"
+  },
+  {
+   "id": "es_fonologia_l8_o005",
+   "module": "fonologia",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "co",
+    "o",
+    "pe",
+    "ra",
+    "ción"
+   ],
+   "correctOrder": [
+    "co",
+    "o",
+    "pe",
+    "ra",
+    "ción"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "co-o-pe-ra-ción = cooperación",
+   "word": "cooperación"
+  },
+  {
+   "id": "es_fonologia_l8_m009",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «mitin»?",
+   "options": [
+    "mi",
+    "tin"
+   ],
+   "correct": 0,
+   "explanation": "En mi-tin, la sílaba que suena más fuerte es «mi».",
+   "word": "mitin"
+  },
+  {
+   "id": "es_fonologia_l8_m010",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «cráter»?",
+   "options": [
+    "ter",
+    "crá"
+   ],
+   "correct": 1,
+   "explanation": "En crá-ter, la sílaba que suena más fuerte es «crá».",
+   "word": "cráter"
+  },
+  {
+   "id": "es_fonologia_l8_m011",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «período»?",
+   "options": [
+    "pe",
+    "do",
+    "o",
+    "rí"
+   ],
+   "correct": 3,
+   "explanation": "En pe-rí-o-do, la sílaba que suena más fuerte es «rí».",
+   "word": "período"
+  },
+  {
+   "id": "es_fonologia_l8_m012",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «austero»?",
+   "options": [
+    "aus",
+    "te",
+    "ro"
+   ],
+   "correct": 1,
+   "explanation": "En aus-te-ro, la sílaba que suena más fuerte es «te».",
+   "word": "austero"
+  },
+  {
+   "id": "es_fonologia_l8_m013",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «libido»?",
+   "options": [
+    "bi",
+    "li",
+    "do"
+   ],
+   "correct": 0,
+   "explanation": "En li-bi-do, la sílaba que suena más fuerte es «bi».",
+   "word": "libido"
+  },
+  {
+   "id": "es_fonologia_l8_m014",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «mímesis»?",
+   "options": [
+    "sis",
+    "me",
+    "mí"
+   ],
+   "correct": 2,
+   "explanation": "En mí-me-sis, la sílaba que suena más fuerte es «mí».",
+   "word": "mímesis"
+  },
+  {
+   "id": "es_fonologia_l8_m015",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «ruido» según su acento?",
+   "options": [
+    "aguda",
+    "esdrújula",
+    "llana",
+    "sobresdrújula"
+   ],
+   "correct": 2,
+   "explanation": "«ruido» es llana: el golpe de voz va en la penúltima sílaba.",
+   "word": "ruido"
+  },
+  {
+   "id": "es_fonologia_l8_m016",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «tráigamelo» según su acento?",
+   "options": [
+    "sobresdrújula",
+    "llana",
+    "aguda",
+    "esdrújula"
+   ],
+   "correct": 0,
+   "explanation": "«tráigamelo» es sobresdrújula: el golpe de voz va antes de la antepenúltima sílaba.",
+   "word": "tráigamelo"
+  },
+  {
+   "id": "es_fonologia_l8_m017",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «matiz» según su acento?",
+   "options": [
+    "sobresdrújula",
+    "llana",
+    "aguda",
+    "esdrújula"
+   ],
+   "correct": 2,
+   "explanation": "«matiz» es aguda: el golpe de voz va en la última sílaba.",
+   "word": "matiz"
+  },
+  {
+   "id": "es_fonologia_l8_m018",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «bíceps» según su acento?",
+   "options": [
+    "sobresdrújula",
+    "aguda",
+    "llana",
+    "esdrújula"
+   ],
+   "correct": 2,
+   "explanation": "«bíceps» es llana: el golpe de voz va en la penúltima sílaba.",
+   "word": "bíceps"
+  },
+  {
+   "id": "es_fonologia_l8_m019",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «análisis» según su acento?",
+   "options": [
+    "llana",
+    "sobresdrújula",
+    "aguda",
+    "esdrújula"
+   ],
+   "correct": 3,
+   "explanation": "«análisis» es esdrújula: el golpe de voz va en la antepenúltima sílaba.",
+   "word": "análisis"
+  },
+  {
+   "id": "es_fonologia_l8_m020",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «caos» según su acento?",
+   "options": [
+    "esdrújula",
+    "aguda",
+    "sobresdrújula",
+    "llana"
+   ],
+   "correct": 3,
+   "explanation": "«caos» es llana: el golpe de voz va en la penúltima sílaba.",
+   "word": "caos"
+  },
+  {
+   "id": "es_fonologia_l8_m021",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "En «héroe», ¿qué forman las vocales «oe»?",
+   "options": [
+    "Diptongo",
+    "Hiato",
+    "Triptongo"
+   ],
+   "correct": 1,
+   "explanation": "hé-ro-e: dos vocales abiertas forman hiato.",
+   "word": "héroe"
+  },
+  {
+   "id": "es_fonologia_l8_m022",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "En «ahumado», ¿qué forman las vocales «au»?",
+   "options": [
+    "Triptongo",
+    "Diptongo",
+    "Hiato"
+   ],
+   "correct": 1,
+   "explanation": "ahu-ma-do: la h intercalada no impide el diptongo.",
+   "word": "ahumado"
+  },
+  {
+   "id": "es_fonologia_l8_m023",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "En «búho», ¿qué forman las vocales «úo»?",
+   "options": [
+    "Triptongo",
+    "Hiato",
+    "Diptongo"
+   ],
+   "correct": 1,
+   "explanation": "bú-ho: la ú tónica separa las vocales aunque haya h en medio.",
+   "word": "búho"
+  },
+  {
+   "id": "es_fonologia_l8_m024",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "En «acentuáis», ¿qué forman las vocales «uái»?",
+   "options": [
+    "Hiato",
+    "Triptongo",
+    "Diptongo"
+   ],
+   "correct": 1,
+   "explanation": "a-cen-tuáis: u-á-i en una sola sílaba.",
+   "word": "acentuáis"
+  },
+  {
+   "id": "es_fonologia_l8_m025",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "En «caos», ¿qué forman las vocales «ao»?",
+   "options": [
+    "Triptongo",
+    "Diptongo",
+    "Hiato"
+   ],
+   "correct": 2,
+   "explanation": "ca-os: dos vocales abiertas forman hiato.",
+   "word": "caos"
+  },
+  {
+   "id": "es_fonologia_l8_m026",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "En «ciudad», ¿qué forman las vocales «iu»?",
+   "options": [
+    "Triptongo",
+    "Hiato",
+    "Diptongo"
+   ],
+   "correct": 2,
+   "explanation": "ciu-dad: dos vocales cerradas forman diptongo.",
+   "word": "ciudad"
+  },
+  {
+   "id": "es_fonologia_l8_m027",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra lleva tilde solo por el hiato?",
+   "options": [
+    "camión",
+    "pájaro",
+    "río",
+    "árbol"
+   ],
+   "correct": 2,
+   "explanation": "rí-o: sin el hiato, sería llana acabada en vocal y no llevaría tilde."
+  },
+  {
+   "id": "es_fonologia_l8_m028",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es sobresdrújula?",
+   "options": [
+    "dígaselo",
+    "decírselo",
+    "dígame",
+    "díselo"
+   ],
+   "correct": 0,
+   "explanation": "dí-ga-se-lo: el golpe de voz va antes de la antepenúltima."
+  },
+  {
+   "id": "es_fonologia_l8_d001",
+   "module": "fonologia",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El ayuntamiento prohibió aparcar en la avenida.",
+   "hint": "prohibió con h; avenida con v",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "El ayuntamiento prohibió aparcar en la avenida."
+  },
+  {
+   "id": "es_fonologia_l8_d002",
+   "module": "fonologia",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Los excursionistas vieron un buitre sobrevolando el valle.",
+   "hint": "excursionistas con x; vieron y valle con v",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "Los excursionistas vieron un buitre sobrevolando el valle."
+  },
+  {
+   "id": "es_fonologia_l8_d003",
+   "module": "fonologia",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hay que distinguir entre hecho y opinión.",
+   "hint": "hay con h; hecho con h",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "Hay que distinguir entre hecho y opinión."
+  },
+  {
+   "id": "es_fonologia_l8_d004",
+   "module": "fonologia",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La exhibición de gimnasia rítmica fue extraordinaria.",
+   "hint": "exhibición con x y h; gimnasia con g",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "La exhibición de gimnasia rítmica fue extraordinaria."
+  },
+  {
+   "id": "es_fonologia_l8_d005",
+   "module": "fonologia",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Le dije que no se preocupara, que todo saldría bien.",
+   "hint": "dije con j; preocupara con c",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "Le dije que no se preocupara, que todo saldría bien."
+  },
+  {
+   "id": "es_fonologia_l8_d006",
+   "module": "fonologia",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El científico expuso su hipótesis ante el tribunal.",
+   "hint": "hipótesis con h y tilde; expuso con x",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "El científico expuso su hipótesis ante el tribunal."
+  },
+  {
+   "id": "es_fonologia_l9_m001",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «electroencefalograma»?",
+   "options": [
+    "9",
+    "8",
+    "10",
+    "7"
+   ],
+   "correct": 0,
+   "explanation": "e-lec-tro-en-ce-fa-lo-gra-ma = 9 sílabas",
+   "word": "electroencefalograma",
+   "syllables": [
+    "e",
+    "lec",
+    "tro",
+    "en",
+    "ce",
+    "fa",
+    "lo",
+    "gra",
+    "ma"
+   ]
+  },
+  {
+   "id": "es_fonologia_l9_m002",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «incomprensiblemente»?",
+   "options": [
+    "8",
+    "7",
+    "5",
+    "6"
+   ],
+   "correct": 1,
+   "explanation": "in-com-pren-si-ble-men-te = 7 sílabas",
+   "word": "incomprensiblemente",
+   "syllables": [
+    "in",
+    "com",
+    "pren",
+    "si",
+    "ble",
+    "men",
+    "te"
+   ]
+  },
+  {
+   "id": "es_fonologia_l9_m003",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «idiosincrasia»?",
+   "options": [
+    "4",
+    "5",
+    "3",
+    "6"
+   ],
+   "correct": 1,
+   "explanation": "i-dio-sin-cra-sia = 5 sílabas",
+   "word": "idiosincrasia",
+   "syllables": [
+    "i",
+    "dio",
+    "sin",
+    "cra",
+    "sia"
+   ]
+  },
+  {
+   "id": "es_fonologia_l9_m004",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «anticonstitucional»?",
+   "options": [
+    "6",
+    "7",
+    "5",
+    "8"
+   ],
+   "correct": 1,
+   "explanation": "an-ti-cons-ti-tu-cio-nal = 7 sílabas",
+   "word": "anticonstitucional",
+   "syllables": [
+    "an",
+    "ti",
+    "cons",
+    "ti",
+    "tu",
+    "cio",
+    "nal"
+   ]
+  },
+  {
+   "id": "es_fonologia_l9_m005",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «otorrinolaringología»?",
+   "options": [
+    "8",
+    "11",
+    "10",
+    "9"
+   ],
+   "correct": 2,
+   "explanation": "o-to-rri-no-la-rin-go-lo-gí-a = 10 sílabas",
+   "word": "otorrinolaringología",
+   "syllables": [
+    "o",
+    "to",
+    "rri",
+    "no",
+    "la",
+    "rin",
+    "go",
+    "lo",
+    "gí",
+    "a"
+   ]
+  },
+  {
+   "id": "es_fonologia_l9_m006",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «espontaneidad»?",
+   "options": [
+    "6",
+    "5",
+    "4",
+    "3"
+   ],
+   "correct": 1,
+   "explanation": "es-pon-ta-nei-dad = 5 sílabas",
+   "word": "espontaneidad",
+   "syllables": [
+    "es",
+    "pon",
+    "ta",
+    "nei",
+    "dad"
+   ]
+  },
+  {
+   "id": "es_fonologia_l9_m007",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «vehículo»?",
+   "options": [
+    "3",
+    "5",
+    "2",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "ve-hí-cu-lo = 4 sílabas",
+   "word": "vehículo",
+   "syllables": [
+    "ve",
+    "hí",
+    "cu",
+    "lo"
+   ]
+  },
+  {
+   "id": "es_fonologia_l9_m008",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas sílabas tiene la palabra «cacahuete»?",
+   "options": [
+    "4",
+    "5",
+    "3",
+    "2"
+   ],
+   "correct": 0,
+   "explanation": "ca-ca-hue-te = 4 sílabas",
+   "word": "cacahuete",
+   "syllables": [
+    "ca",
+    "ca",
+    "hue",
+    "te"
+   ]
+  },
+  {
+   "id": "es_fonologia_l9_o001",
+   "module": "fonologia",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "e",
+    "lec",
+    "tro",
+    "en",
+    "ce",
+    "fa",
+    "lo",
+    "gra",
+    "ma"
+   ],
+   "correctOrder": [
+    "e",
+    "lec",
+    "tro",
+    "en",
+    "ce",
+    "fa",
+    "lo",
+    "gra",
+    "ma"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "e-lec-tro-en-ce-fa-lo-gra-ma = electroencefalograma",
+   "word": "electroencefalograma"
+  },
+  {
+   "id": "es_fonologia_l9_o002",
+   "module": "fonologia",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "in",
+    "com",
+    "pren",
+    "si",
+    "ble",
+    "men",
+    "te"
+   ],
+   "correctOrder": [
+    "in",
+    "com",
+    "pren",
+    "si",
+    "ble",
+    "men",
+    "te"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "in-com-pren-si-ble-men-te = incomprensiblemente",
+   "word": "incomprensiblemente"
+  },
+  {
+   "id": "es_fonologia_l9_o003",
+   "module": "fonologia",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "i",
+    "dio",
+    "sin",
+    "cra",
+    "sia"
+   ],
+   "correctOrder": [
+    "i",
+    "dio",
+    "sin",
+    "cra",
+    "sia"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "i-dio-sin-cra-sia = idiosincrasia",
+   "word": "idiosincrasia"
+  },
+  {
+   "id": "es_fonologia_l9_o004",
+   "module": "fonologia",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "an",
+    "ti",
+    "cons",
+    "ti",
+    "tu",
+    "cio",
+    "nal"
+   ],
+   "correctOrder": [
+    "an",
+    "ti",
+    "cons",
+    "ti",
+    "tu",
+    "cio",
+    "nal"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "an-ti-cons-ti-tu-cio-nal = anticonstitucional",
+   "word": "anticonstitucional"
+  },
+  {
+   "id": "es_fonologia_l9_o005",
+   "module": "fonologia",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las sílabas para formar la palabra",
+   "pieces": [
+    "o",
+    "to",
+    "rri",
+    "no",
+    "la",
+    "rin",
+    "go",
+    "lo",
+    "gí",
+    "a"
+   ],
+   "correctOrder": [
+    "o",
+    "to",
+    "rri",
+    "no",
+    "la",
+    "rin",
+    "go",
+    "lo",
+    "gí",
+    "a"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "o-to-rri-no-la-rin-go-lo-gí-a = otorrinolaringología",
+   "word": "otorrinolaringología"
+  },
+  {
+   "id": "es_fonologia_l9_m009",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «perito»?",
+   "options": [
+    "to",
+    "pe",
+    "ri"
+   ],
+   "correct": 2,
+   "explanation": "En pe-ri-to, la sílaba que suena más fuerte es «ri».",
+   "word": "perito"
+  },
+  {
+   "id": "es_fonologia_l9_m010",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «cóctel»?",
+   "options": [
+    "tel",
+    "cóc"
+   ],
+   "correct": 1,
+   "explanation": "En cóc-tel, la sílaba que suena más fuerte es «cóc».",
+   "word": "cóctel"
+  },
+  {
+   "id": "es_fonologia_l9_m011",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «táctil»?",
+   "options": [
+    "til",
+    "tác"
+   ],
+   "correct": 1,
+   "explanation": "En tác-til, la sílaba que suena más fuerte es «tác».",
+   "word": "táctil"
+  },
+  {
+   "id": "es_fonologia_l9_m012",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «púdico»?",
+   "options": [
+    "pú",
+    "co",
+    "di"
+   ],
+   "correct": 0,
+   "explanation": "En pú-di-co, la sílaba que suena más fuerte es «pú».",
+   "word": "púdico"
+  },
+  {
+   "id": "es_fonologia_l9_m013",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «intérprete»?",
+   "options": [
+    "tér",
+    "pre",
+    "in",
+    "te"
+   ],
+   "correct": 0,
+   "explanation": "En in-tér-pre-te, la sílaba que suena más fuerte es «tér».",
+   "word": "intérprete"
+  },
+  {
+   "id": "es_fonologia_l9_m014",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la sílaba tónica (la que suena más fuerte) de «hipérbaton»?",
+   "options": [
+    "pér",
+    "ton",
+    "hi",
+    "ba"
+   ],
+   "correct": 0,
+   "explanation": "En hi-pér-ba-ton, la sílaba que suena más fuerte es «pér».",
+   "word": "hipérbaton"
+  },
+  {
+   "id": "es_fonologia_l9_m015",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «ahí» según su acento?",
+   "options": [
+    "aguda",
+    "esdrújula",
+    "sobresdrújula",
+    "llana"
+   ],
+   "correct": 0,
+   "explanation": "«ahí» es aguda: el golpe de voz va en la última sílaba.",
+   "word": "ahí"
+  },
+  {
+   "id": "es_fonologia_l9_m016",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «ítem» según su acento?",
+   "options": [
+    "sobresdrújula",
+    "esdrújula",
+    "aguda",
+    "llana"
+   ],
+   "correct": 3,
+   "explanation": "«ítem» es llana: el golpe de voz va en la penúltima sílaba.",
+   "word": "ítem"
+  },
+  {
+   "id": "es_fonologia_l9_m017",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «sintetizándoselo» según su acento?",
+   "options": [
+    "aguda",
+    "sobresdrújula",
+    "llana",
+    "esdrújula"
+   ],
+   "correct": 1,
+   "explanation": "«sintetizándoselo» es sobresdrújula: el golpe de voz va antes de la antepenúltima sílaba.",
+   "word": "sintetizándoselo"
+  },
+  {
+   "id": "es_fonologia_l9_m018",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «hipótesis» según su acento?",
+   "options": [
+    "llana",
+    "esdrújula",
+    "sobresdrújula",
+    "aguda"
+   ],
+   "correct": 1,
+   "explanation": "«hipótesis» es esdrújula: el golpe de voz va en la antepenúltima sílaba.",
+   "word": "hipótesis"
+  },
+  {
+   "id": "es_fonologia_l9_m019",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «cómic» según su acento?",
+   "options": [
+    "llana",
+    "esdrújula",
+    "sobresdrújula",
+    "aguda"
+   ],
+   "correct": 0,
+   "explanation": "«cómic» es llana: el golpe de voz va en la penúltima sílaba.",
+   "word": "cómic"
+  },
+  {
+   "id": "es_fonologia_l9_m020",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo es la palabra «convoy» según su acento?",
+   "options": [
+    "aguda",
+    "llana",
+    "esdrújula",
+    "sobresdrújula"
+   ],
+   "correct": 0,
+   "explanation": "«convoy» es aguda: el golpe de voz va en la última sílaba.",
+   "word": "convoy"
+  },
+  {
+   "id": "es_fonologia_l9_m021",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "En «rehúso», ¿qué forman las vocales «eú»?",
+   "options": [
+    "Diptongo",
+    "Triptongo",
+    "Hiato"
+   ],
+   "correct": 2,
+   "explanation": "re-hú-so: la ú tónica forma hiato aunque haya una h en medio.",
+   "word": "rehúso"
+  },
+  {
+   "id": "es_fonologia_l9_m022",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "En «prohíbe», ¿qué forman las vocales «oí»?",
+   "options": [
+    "Triptongo",
+    "Hiato",
+    "Diptongo"
+   ],
+   "correct": 1,
+   "explanation": "pro-hí-be: la í tónica forma hiato; por eso lleva tilde.",
+   "word": "prohíbe"
+  },
+  {
+   "id": "es_fonologia_l9_m023",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "En «fuimos», ¿qué forman las vocales «ui»?",
+   "options": [
+    "Diptongo",
+    "Triptongo",
+    "Hiato"
+   ],
+   "correct": 0,
+   "explanation": "fui-mos: dos vocales cerradas forman diptongo.",
+   "word": "fuimos"
+  },
+  {
+   "id": "es_fonologia_l9_m024",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "En «miau», ¿qué forman las vocales «iau»?",
+   "options": [
+    "Triptongo",
+    "Hiato",
+    "Diptongo"
+   ],
+   "correct": 0,
+   "explanation": "miau: i-a-u en una sola sílaba.",
+   "word": "miau"
+  },
+  {
+   "id": "es_fonologia_l9_m025",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "En «aéreo», ¿qué forman las vocales «eo»?",
+   "options": [
+    "Triptongo",
+    "Hiato",
+    "Diptongo"
+   ],
+   "correct": 1,
+   "explanation": "a-é-re-o: e y o son abiertas y van en sílabas distintas.",
+   "word": "aéreo"
+  },
+  {
+   "id": "es_fonologia_l9_m026",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "En «reina», ¿qué forman las vocales «ei»?",
+   "options": [
+    "Diptongo",
+    "Triptongo",
+    "Hiato"
+   ],
+   "correct": 0,
+   "explanation": "rei-na: la e y la i van juntas.",
+   "word": "reina"
+  },
+  {
+   "id": "es_fonologia_l9_m027",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO lleva tilde según la norma actual?",
+   "options": [
+    "camión",
+    "guion",
+    "avión",
+    "canción"
+   ],
+   "correct": 1,
+   "explanation": "guion se considera de una sola sílaba (monosílaba)."
+  },
+  {
+   "id": "es_fonologia_l9_m028",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra tiene diptongo y no hiato?",
+   "options": [
+    "baúl",
+    "ruido",
+    "maíz",
+    "reír"
+   ],
+   "correct": 1,
+   "explanation": "rui-do: dos vocales cerradas sin tilde forman diptongo."
+  },
+  {
+   "id": "es_fonologia_l9_d001",
+   "module": "fonologia",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La ambigüedad del mensaje provocó un malentendido.",
+   "hint": "ambigüedad con diéresis; malentendido junto",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "La ambigüedad del mensaje provocó un malentendido."
+  },
+  {
+   "id": "es_fonologia_l9_d002",
+   "module": "fonologia",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Sin embargo, la absolvieron por falta de pruebas.",
+   "hint": "absolvieron con b y v",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "Sin embargo, la absolvieron por falta de pruebas."
+  },
+  {
+   "id": "es_fonologia_l9_d003",
+   "module": "fonologia",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El adolescente se mostró escéptico ante la propuesta.",
+   "hint": "adolescente con sc; escéptico con sc",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "El adolescente se mostró escéptico ante la propuesta."
+  },
+  {
+   "id": "es_fonologia_l9_d004",
+   "module": "fonologia",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Es imprescindible que cumplamos el reglamento vigente.",
+   "hint": "imprescindible con sc; vigente con g",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "Es imprescindible que cumplamos el reglamento vigente."
+  },
+  {
+   "id": "es_fonologia_l9_d005",
+   "module": "fonologia",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Aún no sabemos por qué se suspendió la votación.",
+   "hint": "aún con tilde (todavía); por qué; votación con v",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "Aún no sabemos por qué se suspendió la votación."
+  },
+  {
+   "id": "es_fonologia_l9_d006",
+   "module": "fonologia",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La exuberante vegetación cubría las ruinas del templo.",
+   "hint": "exuberante sin h; vegetación con g",
+   "explanation": "Fíjate en las mayúsculas, las tildes y los signos.",
+   "dictation": true,
+   "word": "La exuberante vegetación cubría las ruinas del templo."
   }
  ]
 }

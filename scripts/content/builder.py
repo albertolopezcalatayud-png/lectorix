@@ -80,7 +80,7 @@ class Bank:
                 if e['id'] in ids:
                     errors.append(f"duplicate id {e['id']}")
                 ids.add(e['id'])
-                if not 1 <= e['level'] <= 5:
+                if not 1 <= e['level'] <= 9:
                     errors.append(f"bad level {e['id']}")
                 t = e['type']
                 if t == 'multiple_choice':

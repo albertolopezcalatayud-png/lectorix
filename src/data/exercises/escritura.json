@@ -3412,6 +3412,2278 @@
    "options": [],
    "correct": 0,
    "explanation": "Por desgracia, la tienda estaba cerrada."
+  },
+  {
+   "id": "es_escritura_l6_m001",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está bien acentuada?",
+   "options": [
+    "El camión llegó ayer.",
+    "Él camión llegó ayer.",
+    "El camion llegó ayer.",
+    "El camión llego ayer."
+   ],
+   "correct": 0,
+   "explanation": "camión y llegó son agudas acabadas en vocal o n: llevan tilde."
+  },
+  {
+   "id": "es_escritura_l6_m002",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "uésped",
+    "huesped",
+    "huésped",
+    "güésped"
+   ],
+   "correct": 2,
+   "explanation": "huésped: llana acabada en d, lleva tilde; empieza por hue-."
+  },
+  {
+   "id": "es_escritura_l6_m003",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Elige: «¿___ vas a venir a la fiesta?»",
+   "options": [
+    "Cuándo",
+    "Cuando",
+    "Quándo",
+    "Cuándó"
+   ],
+   "correct": 0,
+   "explanation": "Cuándo lleva tilde en las preguntas."
+  },
+  {
+   "id": "es_escritura_l6_m004",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Elige: «Lo haré ___ termine los deberes.»",
+   "options": [
+    "cuandó",
+    "quando",
+    "cuando",
+    "cuándo"
+   ],
+   "correct": 2,
+   "explanation": "cuando no lleva tilde si no pregunta ni exclama."
+  },
+  {
+   "id": "es_escritura_l6_m005",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase usa bien la tilde diacrítica?",
+   "options": [
+    "Él dijo que si.",
+    "El dijo que sí.",
+    "El dijo que si.",
+    "Él dijo que sí."
+   ],
+   "correct": 3,
+   "explanation": "él (pronombre) y sí (afirmación) llevan tilde."
+  },
+  {
+   "id": "es_escritura_l6_m006",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está bien escrita?",
+   "options": [
+    "Tu no sabes que pasó.",
+    "Tú no sabes qué pasó.",
+    "Tú no sabes que paso.",
+    "Tu no sabés qué pasó."
+   ],
+   "correct": 1,
+   "explanation": "tú (pronombre) y qué (interrogativo indirecto) llevan tilde."
+  },
+  {
+   "id": "es_escritura_l6_m007",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra se escribe con b?",
+   "options": [
+    "recibir",
+    "hervir",
+    "vivir",
+    "servir"
+   ],
+   "correct": 0,
+   "explanation": "Los verbos acabados en -bir llevan b, salvo hervir, servir y vivir."
+  },
+  {
+   "id": "es_escritura_l6_m008",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra se escribe con v?",
+   "options": [
+    "rubio",
+    "haba",
+    "nuevo",
+    "lobo"
+   ],
+   "correct": 2,
+   "explanation": "Los adjetivos acabados en -avo, -evo, -ivo llevan v."
+  },
+  {
+   "id": "es_escritura_l6_m009",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra se escribe con g?",
+   "options": [
+    "biología",
+    "garaje",
+    "dije",
+    "tejer"
+   ],
+   "correct": 0,
+   "explanation": "Las palabras con -logía llevan g."
+  },
+  {
+   "id": "es_escritura_l6_m010",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra se escribe con j?",
+   "options": [
+    "coger",
+    "proteger",
+    "elegir",
+    "conduje"
+   ],
+   "correct": 3,
+   "explanation": "Los pretéritos de verbos en -ducir llevan j: conduje."
+  },
+  {
+   "id": "es_escritura_l6_m011",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase usa bien la coma?",
+   "options": [
+    "Ana cierra la puerta, por favor.",
+    "Ana, cierra la puerta por, favor.",
+    "Ana cierra, la puerta por favor.",
+    "Ana, cierra la puerta, por favor."
+   ],
+   "correct": 3,
+   "explanation": "El vocativo (Ana) y «por favor» van entre comas."
+  },
+  {
+   "id": "es_escritura_l6_m012",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase usa bien las mayúsculas?",
+   "options": [
+    "El río Ebro pasa por Zaragoza.",
+    "El Río ebro pasa por zaragoza.",
+    "el río Ebro pasa por Zaragoza.",
+    "El río ebro pasa por Zaragoza."
+   ],
+   "correct": 0,
+   "explanation": "Los nombres propios (Ebro, Zaragoza) llevan mayúscula; río es nombre común."
+  },
+  {
+   "id": "es_escritura_l6_m013",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está bien escrita?",
+   "options": [
+    "Había mucha jente en la plaza.",
+    "Habían mucha gente en la plaza.",
+    "Había mucha gente en la plaza.",
+    "Abía mucha gente en la plaza."
+   ],
+   "correct": 2,
+   "explanation": "«haber» impersonal va en singular; gente con g."
+  },
+  {
+   "id": "es_escritura_l6_m014",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase es correcta?",
+   "options": [
+    "Ayer ví a tu hermano.",
+    "Ayer vi a tu hermano.",
+    "Ayer vi a tú hermano.",
+    "Ayer vi ha tu hermano."
+   ],
+   "correct": 1,
+   "explanation": "vi es monosílabo: sin tilde; tu (posesivo) sin tilde."
+  },
+  {
+   "id": "es_escritura_l6_m015",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Elige: «Voy ___ estudiar toda la tarde.»",
+   "options": [
+    "a",
+    "ah",
+    "há",
+    "ha"
+   ],
+   "correct": 0,
+   "explanation": "«a» es preposición: voy a estudiar."
+  },
+  {
+   "id": "es_escritura_l6_m016",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Elige: «Mi prima ___ terminado el libro.»",
+   "options": [
+    "a",
+    "ha",
+    "há",
+    "ah"
+   ],
+   "correct": 1,
+   "explanation": "«ha» es del verbo haber: ha terminado."
+  },
+  {
+   "id": "es_escritura_l6_m017",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra lleva tilde?",
+   "options": [
+    "orden",
+    "examen",
+    "lápiz",
+    "joven"
+   ],
+   "correct": 2,
+   "explanation": "lápiz es llana acabada en z: lleva tilde."
+  },
+  {
+   "id": "es_escritura_l6_m018",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO lleva tilde?",
+   "options": [
+    "volumen",
+    "fácil",
+    "césped",
+    "árbol"
+   ],
+   "correct": 0,
+   "explanation": "volumen es llana acabada en n: no lleva tilde."
+  },
+  {
+   "id": "es_escritura_l6_m019",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "examenes",
+    "exsámenes",
+    "exámens",
+    "exámenes"
+   ],
+   "correct": 3,
+   "explanation": "exámenes es esdrújula: siempre lleva tilde."
+  },
+  {
+   "id": "es_escritura_l6_m020",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué categoría gramatical es «rápidamente»?",
+   "options": [
+    "Adverbio",
+    "Adjetivo",
+    "Verbo",
+    "Sustantivo"
+   ],
+   "correct": 0,
+   "explanation": "Las palabras en -mente que dicen cómo son adverbios."
+  },
+  {
+   "id": "es_escritura_l6_m021",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué categoría gramatical es «nosotros»?",
+   "options": [
+    "Determinante",
+    "Preposición",
+    "Adverbio",
+    "Pronombre"
+   ],
+   "correct": 3,
+   "explanation": "nosotros sustituye a un nombre: es pronombre personal."
+  },
+  {
+   "id": "es_escritura_l6_m022",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿En qué frase «bajo» es preposición?",
+   "options": [
+    "Yo bajo la escalera.",
+    "Mi hermano es bajo.",
+    "El gato duerme bajo la mesa.",
+    "Habla en voz baja."
+   ],
+   "correct": 2,
+   "explanation": "«bajo la mesa» indica lugar: preposición."
+  },
+  {
+   "id": "es_escritura_l6_o001",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Aunque",
+    "hacía",
+    "frío,",
+    "salimos",
+    "a",
+    "pasear."
+   ],
+   "correctOrder": [
+    "Aunque",
+    "hacía",
+    "frío,",
+    "salimos",
+    "a",
+    "pasear."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Aunque hacía frío, salimos a pasear."
+  },
+  {
+   "id": "es_escritura_l6_o002",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "El",
+    "examen",
+    "de",
+    "biología",
+    "fue",
+    "difícil."
+   ],
+   "correctOrder": [
+    "El",
+    "examen",
+    "de",
+    "biología",
+    "fue",
+    "difícil."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El examen de biología fue difícil."
+  },
+  {
+   "id": "es_escritura_l6_o003",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "¿Por",
+    "qué",
+    "no",
+    "viniste",
+    "ayer?"
+   ],
+   "correctOrder": [
+    "¿Por",
+    "qué",
+    "no",
+    "viniste",
+    "ayer?"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "¿Por qué no viniste ayer?"
+  },
+  {
+   "id": "es_escritura_l6_o004",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Mi",
+    "abuela,",
+    "que",
+    "vive",
+    "en",
+    "Alcoy,",
+    "cocina",
+    "muy",
+    "bien."
+   ],
+   "correctOrder": [
+    "Mi",
+    "abuela,",
+    "que",
+    "vive",
+    "en",
+    "Alcoy,",
+    "cocina",
+    "muy",
+    "bien."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Mi abuela, que vive en Alcoy, cocina muy bien."
+  },
+  {
+   "id": "es_escritura_l6_o005",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Los",
+    "alumnos",
+    "recogieron",
+    "la",
+    "basura",
+    "del",
+    "patio."
+   ],
+   "correctOrder": [
+    "Los",
+    "alumnos",
+    "recogieron",
+    "la",
+    "basura",
+    "del",
+    "patio."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Los alumnos recogieron la basura del patio."
+  },
+  {
+   "id": "es_escritura_l6_w001",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Corrige la palabra: «arbol»",
+   "options": [],
+   "correct": 0,
+   "answer": "árbol",
+   "hint": "Llana acabada en l",
+   "explanation": "árbol lleva tilde: es llana y no acaba en n, s ni vocal."
+  },
+  {
+   "id": "es_escritura_l6_w002",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Corrige la palabra: «girafa»",
+   "options": [],
+   "correct": 0,
+   "answer": "jirafa",
+   "hint": "Empieza con otra letra que suena igual",
+   "explanation": "jirafa se escribe con j."
+  },
+  {
+   "id": "es_escritura_l6_w003",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escribe el plural de «actriz»",
+   "options": [],
+   "correct": 0,
+   "answer": "actrices",
+   "hint": "La z cambia",
+   "explanation": "actriz → actrices: la z cambia a c delante de e."
+  },
+  {
+   "id": "es_escritura_l6_w004",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escribe el adverbio terminado en -mente que viene de «rápido»",
+   "options": [],
+   "correct": 0,
+   "answer": "rápidamente",
+   "hint": "Conserva la tilde",
+   "explanation": "rápido → rápidamente: conserva la tilde del adjetivo."
+  },
+  {
+   "id": "es_escritura_l6_d001",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El búho observaba el bosque desde la rama.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "El búho observaba el bosque desde la rama."
+  },
+  {
+   "id": "es_escritura_l6_d002",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Mañana iremos a la excursión en autobús.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Mañana iremos a la excursión en autobús."
+  },
+  {
+   "id": "es_escritura_l6_d003",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Mi hermano envió un mensaje muy divertido.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Mi hermano envió un mensaje muy divertido."
+  },
+  {
+   "id": "es_escritura_l6_d004",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La jirafa tiene el cuello muy largo.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "La jirafa tiene el cuello muy largo."
+  },
+  {
+   "id": "es_escritura_l7_m001",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Elige: «No sé ___ no ha venido.»",
+   "options": [
+    "porque",
+    "porqué",
+    "por que",
+    "por qué"
+   ],
+   "correct": 3,
+   "explanation": "Interrogativa indirecta: por qué, separado y con tilde."
+  },
+  {
+   "id": "es_escritura_l7_m002",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Elige: «Nadie entiende el ___ de su decisión.»",
+   "options": [
+    "porqué",
+    "por qué",
+    "porque",
+    "por que"
+   ],
+   "correct": 0,
+   "explanation": "«el porqué» es un sustantivo (= el motivo): junto y con tilde."
+  },
+  {
+   "id": "es_escritura_l7_m003",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Elige: «No es azul, ___ verde.»",
+   "options": [
+    "si no",
+    "sinó",
+    "sino",
+    "si nó"
+   ],
+   "correct": 2,
+   "explanation": "«sino» opone dos ideas tras una negación."
+  },
+  {
+   "id": "es_escritura_l7_m004",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Elige: «___ estudias, no aprobarás.»",
+   "options": [
+    "Sinó",
+    "Sino",
+    "Si no",
+    "Si nó"
+   ],
+   "correct": 2,
+   "explanation": "«si no» = condición (si) + negación (no)."
+  },
+  {
+   "id": "es_escritura_l7_m005",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Elige: «Vamos ___ qué ha pasado.»",
+   "options": [
+    "aver",
+    "haber",
+    "a haber",
+    "a ver"
+   ],
+   "correct": 3,
+   "explanation": "«a ver» = preposición + verbo ver."
+  },
+  {
+   "id": "es_escritura_l7_m006",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Elige: «Debe ___ un error en el examen.»",
+   "options": [
+    "haber",
+    "a ver",
+    "aber",
+    "a haber"
+   ],
+   "correct": 0,
+   "explanation": "«haber» es un verbo en infinitivo."
+  },
+  {
+   "id": "es_escritura_l7_m007",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase evita el dequeísmo?",
+   "options": [
+    "Pienso de que tienes razón.",
+    "Pienso que tienes razón.",
+    "Pienso de qué tienes razón.",
+    "Opino de que tienes razón."
+   ],
+   "correct": 1,
+   "explanation": "Se piensa algo, no «de» algo: pienso que..."
+  },
+  {
+   "id": "es_escritura_l7_m008",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase evita el queísmo?",
+   "options": [
+    "Me acuerdo de que llovía.",
+    "Me acuerdo en que llovía.",
+    "Me acuerdo de qué llovía.",
+    "Me acuerdo que llovía."
+   ],
+   "correct": 0,
+   "explanation": "Uno se acuerda de algo: me acuerdo de que..."
+  },
+  {
+   "id": "es_escritura_l7_m009",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase usa bien el punto y coma?",
+   "options": [
+    "Unos prefieren el mar; otros, la montaña.",
+    "Unos; prefieren el mar otros la montaña.",
+    "Unos prefieren el mar, otros; la montaña.",
+    "Unos prefieren; el mar otros, la montaña."
+   ],
+   "correct": 0,
+   "explanation": "El punto y coma separa dos ideas relacionadas; la coma marca el verbo omitido."
+  },
+  {
+   "id": "es_escritura_l7_m010",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase usa bien los dos puntos?",
+   "options": [
+    "Querida Marta te escribo: para contarte algo.",
+    "Querida Marta: te escribo para contarte algo.",
+    "Querida: Marta te escribo para contarte algo.",
+    "Querida Marta, te escribo: para contarte algo."
+   ],
+   "correct": 1,
+   "explanation": "Tras el saludo de una carta van dos puntos."
+  },
+  {
+   "id": "es_escritura_l7_m011",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase tiene bien la concordancia?",
+   "options": [
+    "Los mayoría de alumnos aprobó.",
+    "La mayoría de los alumnos aprobó.",
+    "La mayoría del alumnos aprobaron.",
+    "La mayoría de los alumno aprobó."
+   ],
+   "correct": 1,
+   "explanation": "«La mayoría» es singular; también se admite el plural (aprobaron) cuando pensamos en los alumnos."
+  },
+  {
+   "id": "es_escritura_l7_m012",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "aí",
+    "ahi",
+    "ahy",
+    "ahí"
+   ],
+   "correct": 3,
+   "explanation": "ahí (adverbio de lugar) lleva h y tilde."
+  },
+  {
+   "id": "es_escritura_l7_m013",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué adverbio está bien acentuado?",
+   "options": [
+    "facilmente",
+    "facílmente",
+    "fácilménte",
+    "fácilmente"
+   ],
+   "correct": 3,
+   "explanation": "Los adverbios en -mente mantienen la tilde del adjetivo: fácil → fácilmente."
+  },
+  {
+   "id": "es_escritura_l7_m014",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué adverbio está bien escrito?",
+   "options": [
+    "comunmente",
+    "comúnmente",
+    "comúnménte",
+    "cómunmente"
+   ],
+   "correct": 1,
+   "explanation": "común lleva tilde, así que comúnmente también."
+  },
+  {
+   "id": "es_escritura_l7_m015",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es el sujeto de «Me gustan mucho los libros de aventuras»?",
+   "options": [
+    "los libros de aventuras",
+    "mucho",
+    "aventuras",
+    "me"
+   ],
+   "correct": 0,
+   "explanation": "Lo que gusta (los libros) es el sujeto: concuerda con «gustan»."
+  },
+  {
+   "id": "es_escritura_l7_m016",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es el predicado de «Mi hermana mayor estudia Medicina»?",
+   "options": [
+    "Mi hermana mayor",
+    "Medicina",
+    "estudia Medicina",
+    "mayor estudia"
+   ],
+   "correct": 2,
+   "explanation": "El predicado es lo que se dice del sujeto."
+  },
+  {
+   "id": "es_escritura_l7_m017",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tipo de oración es «¡Qué frío hace!»?",
+   "options": [
+    "Interrogativa",
+    "Imperativa",
+    "Exclamativa",
+    "Desiderativa"
+   ],
+   "correct": 2,
+   "explanation": "Expresa una emoción entre signos de exclamación."
+  },
+  {
+   "id": "es_escritura_l7_m018",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tipo de oración es «Ojalá apruebe»?",
+   "options": [
+    "Desiderativa",
+    "Interrogativa",
+    "Exclamativa",
+    "Dubitativa"
+   ],
+   "correct": 0,
+   "explanation": "Expresa un deseo."
+  },
+  {
+   "id": "es_escritura_l7_m019",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Elige: «Si ___ tiempo, iría contigo.»",
+   "options": [
+    "tengo",
+    "tendría",
+    "tuve",
+    "tuviera"
+   ],
+   "correct": 3,
+   "explanation": "En la condición irreal se usa el subjuntivo: tuviera (o tuviese)."
+  },
+  {
+   "id": "es_escritura_l7_m020",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra se escribe con h?",
+   "options": [
+    "hueso",
+    "ola",
+    "osa",
+    "oso"
+   ],
+   "correct": 0,
+   "explanation": "Las palabras que empiezan por hue- llevan h."
+  },
+  {
+   "id": "es_escritura_l7_m021",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra se escribe con x?",
+   "options": [
+    "excelente",
+    "espléndido",
+    "estupendo",
+    "estricto"
+   ],
+   "correct": 0,
+   "explanation": "excelente se escribe con x."
+  },
+  {
+   "id": "es_escritura_l7_m022",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra se escribe con ll?",
+   "options": [
+    "ayer",
+    "rey",
+    "bombilla",
+    "hoyo"
+   ],
+   "correct": 2,
+   "explanation": "Las palabras acabadas en -illo, -illa llevan ll."
+  },
+  {
+   "id": "es_escritura_l7_o001",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "No",
+    "es",
+    "verdad,",
+    "sino",
+    "una",
+    "exageración."
+   ],
+   "correctOrder": [
+    "No",
+    "es",
+    "verdad,",
+    "sino",
+    "una",
+    "exageración."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "No es verdad, sino una exageración."
+  },
+  {
+   "id": "es_escritura_l7_o002",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Me",
+    "acuerdo",
+    "de",
+    "que",
+    "llovía",
+    "mucho."
+   ],
+   "correctOrder": [
+    "Me",
+    "acuerdo",
+    "de",
+    "que",
+    "llovía",
+    "mucho."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Me acuerdo de que llovía mucho."
+  },
+  {
+   "id": "es_escritura_l7_o003",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Unos",
+    "leían;",
+    "otros,",
+    "escuchaban",
+    "música."
+   ],
+   "correctOrder": [
+    "Unos",
+    "leían;",
+    "otros,",
+    "escuchaban",
+    "música."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Unos leían; otros, escuchaban música."
+  },
+  {
+   "id": "es_escritura_l7_o004",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Si",
+    "no",
+    "estudias,",
+    "no",
+    "aprobarás."
+   ],
+   "correctOrder": [
+    "Si",
+    "no",
+    "estudias,",
+    "no",
+    "aprobarás."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Si no estudias, no aprobarás."
+  },
+  {
+   "id": "es_escritura_l7_o005",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "La",
+    "mayoría",
+    "de",
+    "los",
+    "vecinos",
+    "votó",
+    "a",
+    "favor."
+   ],
+   "correctOrder": [
+    "La",
+    "mayoría",
+    "de",
+    "los",
+    "vecinos",
+    "votó",
+    "a",
+    "favor."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La mayoría de los vecinos votó a favor."
+  },
+  {
+   "id": "es_escritura_l7_w001",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Corrige la frase: «Pienso de que tienes razón.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Pienso que tienes razón.",
+   "hint": "Sobra una palabra",
+   "explanation": "Se dice «pensar que», sin «de»."
+  },
+  {
+   "id": "es_escritura_l7_w002",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Corrige la frase: «Habían muchas personas.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Había muchas personas.",
+   "hint": "«haber» impersonal no tiene plural",
+   "explanation": "«haber» con sentido de existir va en singular."
+  },
+  {
+   "id": "es_escritura_l7_w003",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escribe el adverbio terminado en -mente que viene de «común»",
+   "options": [],
+   "correct": 0,
+   "answer": "comúnmente",
+   "hint": "Conserva la tilde",
+   "explanation": "común → comúnmente."
+  },
+  {
+   "id": "es_escritura_l7_w004",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escribe junto o separado: «No sé el (por qué) de tu enfado.»",
+   "options": [],
+   "correct": 0,
+   "answer": "porqué",
+   "hint": "Es un sustantivo: va con «el»",
+   "explanation": "«el porqué» = el motivo: junto y con tilde."
+  },
+  {
+   "id": "es_escritura_l7_d001",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Me acuerdo de que aquel invierno nevó.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Me acuerdo de que aquel invierno nevó."
+  },
+  {
+   "id": "es_escritura_l7_d002",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "No es fácil, sino muy complicado.",
+   "hint": "Tiene 6 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "No es fácil, sino muy complicado."
+  },
+  {
+   "id": "es_escritura_l7_d003",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La hierba estaba húmeda después de la tormenta.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "La hierba estaba húmeda después de la tormenta."
+  },
+  {
+   "id": "es_escritura_l7_d004",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "¿Sabes por qué se suspendió el partido?",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "¿Sabes por qué se suspendió el partido?"
+  },
+  {
+   "id": "es_escritura_l8_m001",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase evita el laísmo?",
+   "options": [
+    "Le dije la verdad a Laura.",
+    "Les dije la verdad a Laura.",
+    "La dije la verdad a Laura.",
+    "Lo dije la verdad a Laura."
+   ],
+   "correct": 0,
+   "explanation": "Laura es complemento indirecto: le dije."
+  },
+  {
+   "id": "es_escritura_l8_m002",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase evita el loísmo?",
+   "options": [
+    "A mi primo le regalé un libro.",
+    "A mi primo lo regalé un libro.",
+    "A mi primo los regalé un libro.",
+    "A mi primo la regalé un libro."
+   ],
+   "correct": 0,
+   "explanation": "El libro es lo regalado (CD); a mi primo es CI: le."
+  },
+  {
+   "id": "es_escritura_l8_m003",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase es correcta?",
+   "options": [
+    "Hubieron varios accidentes en la carretera.",
+    "Hubo varios accidentes en la carretera.",
+    "Ubo varios accidentes en la carretera.",
+    "Hubo varios accidentes en la carrretera."
+   ],
+   "correct": 1,
+   "explanation": "«haber» impersonal no tiene plural: hubo."
+  },
+  {
+   "id": "es_escritura_l8_m004",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase usa bien el gerundio?",
+   "options": [
+    "Envió una carta conteniendo fotos.",
+    "Estudió mucho, aprobando después.",
+    "Salió de casa corriendo.",
+    "Se cayó, rompiéndose el brazo al día siguiente."
+   ],
+   "correct": 2,
+   "explanation": "El gerundio expresa algo simultáneo o inmediato, no posterior."
+  },
+  {
+   "id": "es_escritura_l8_m005",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase expresa obligación?",
+   "options": [
+    "Deberías de estudiar más.",
+    "Debes de haber estudiado.",
+    "Debes de estudiar más.",
+    "Debes estudiar más."
+   ],
+   "correct": 3,
+   "explanation": "«deber» + infinitivo = obligación; «deber de» = suposición."
+  },
+  {
+   "id": "es_escritura_l8_m006",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase expresa suposición?",
+   "options": [
+    "Deben de ser las ocho.",
+    "Deben ser las ocho para aprobar.",
+    "Debemos ser las ocho.",
+    "Tienes que ser las ocho."
+   ],
+   "correct": 0,
+   "explanation": "«deber de» + infinitivo expresa probabilidad."
+  },
+  {
+   "id": "es_escritura_l8_m007",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está bien escrita?",
+   "options": [
+    "Me preguntó dónde vivía.",
+    "Me preguntó dónde vívia.",
+    "Me preguntó donde vivía.",
+    "Me pregunto dónde vivía."
+   ],
+   "correct": 0,
+   "explanation": "dónde lleva tilde en la interrogativa indirecta."
+  },
+  {
+   "id": "es_escritura_l8_m008",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Elige: «Estudia, ___ no podrás salir.»",
+   "options": [
+    "si nó",
+    "sinó",
+    "sino",
+    "si no"
+   ],
+   "correct": 3,
+   "explanation": "Condición: si no estudias, no podrás salir."
+  },
+  {
+   "id": "es_escritura_l8_m009",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Elige: «Hemos terminado, ___ podemos irnos.»",
+   "options": [
+    "con qué",
+    "conque",
+    "cónque",
+    "con que"
+   ],
+   "correct": 1,
+   "explanation": "«conque» = así que (consecuencia)."
+  },
+  {
+   "id": "es_escritura_l8_m010",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Elige: «¿___ vas a pagar?»",
+   "options": [
+    "Conque",
+    "Con qué",
+    "Cónque",
+    "Con que"
+   ],
+   "correct": 1,
+   "explanation": "Pregunta por el instrumento: con qué, con tilde."
+  },
+  {
+   "id": "es_escritura_l8_m011",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo se escribe la sigla de Organización de las Naciones Unidas?",
+   "options": [
+    "ONU",
+    "O.N.U.",
+    "Onu",
+    "onu"
+   ],
+   "correct": 0,
+   "explanation": "Las siglas se escriben en mayúscula y sin puntos."
+  },
+  {
+   "id": "es_escritura_l8_m012",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la abreviatura correcta de «usted»?",
+   "options": [
+    "Ud.",
+    "UD",
+    "Ud",
+    "ud"
+   ],
+   "correct": 0,
+   "explanation": "Las abreviaturas llevan punto: Ud."
+  },
+  {
+   "id": "es_escritura_l8_m013",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase usa bien las comillas?",
+   "options": [
+    "La «palabra guay» es coloquial.",
+    "La palabra guay» es coloquial.",
+    "«La palabra» guay es coloquial.",
+    "La palabra «guay» es coloquial."
+   ],
+   "correct": 3,
+   "explanation": "Las comillas pueden marcar una palabra de la que se habla."
+  },
+  {
+   "id": "es_escritura_l8_m014",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está bien puntuada?",
+   "options": [
+    "Si llueve nos quedaremos, en casa.",
+    "Si llueve nos, quedaremos en casa.",
+    "Si llueve, nos quedaremos en casa.",
+    "Si, llueve nos quedaremos en casa."
+   ],
+   "correct": 2,
+   "explanation": "Cuando la condición va delante, se separa con coma."
+  },
+  {
+   "id": "es_escritura_l8_m015",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "espectador",
+    "especktador",
+    "espectadór",
+    "expectador"
+   ],
+   "correct": 0,
+   "explanation": "espectador se escribe con s."
+  },
+  {
+   "id": "es_escritura_l8_m016",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "excepción",
+    "exepción",
+    "escepción",
+    "excepcion"
+   ],
+   "correct": 0,
+   "explanation": "excepción lleva xc y tilde."
+  },
+  {
+   "id": "es_escritura_l8_m017",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué oración es compuesta?",
+   "options": [
+    "Mi hermana estudia Derecho.",
+    "Estudié mucho, pero suspendí.",
+    "Por la tarde iremos al cine.",
+    "Estudié mucho."
+   ],
+   "correct": 1,
+   "explanation": "Tiene dos verbos conjugados unidos por «pero»."
+  },
+  {
+   "id": "es_escritura_l8_m018",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué relación expresa «pero» en «Estudié mucho, pero suspendí»?",
+   "options": [
+    "Copulativa (suma)",
+    "Disyuntiva (elección)",
+    "Causal (causa)",
+    "Adversativa (oposición)"
+   ],
+   "correct": 3,
+   "explanation": "«pero» opone dos ideas."
+  },
+  {
+   "id": "es_escritura_l8_m019",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está en registro formal?",
+   "options": [
+    "Le ruego que me disculpe.",
+    "Perdona, tío.",
+    "Uy, lo siento, ¿vale?",
+    "Ya, bueno, perdón."
+   ],
+   "correct": 0,
+   "explanation": "«Le ruego que...» es propio de un registro formal."
+  },
+  {
+   "id": "es_escritura_l8_m020",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está bien escrita?",
+   "options": [
+    "Se puso dé acuerdo con nosotros.",
+    "Se puso deacuerdo con nosotros.",
+    "Se puso de acuerdo con nosostros.",
+    "Se puso de acuerdo con nosotros."
+   ],
+   "correct": 3,
+   "explanation": "«de acuerdo» se escribe separado."
+  },
+  {
+   "id": "es_escritura_l8_m021",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "amenudo",
+    "a menúdo",
+    "ha menudo",
+    "a menudo"
+   ],
+   "correct": 3,
+   "explanation": "«a menudo» se escribe en dos palabras."
+  },
+  {
+   "id": "es_escritura_l8_m022",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está bien escrita?",
+   "options": [
+    "Tal vés llueva mañana.",
+    "Tal vez llueba mañana.",
+    "Talvez llueva mañana.",
+    "Tal vez llueva mañana."
+   ],
+   "correct": 3,
+   "explanation": "«tal vez» se escribe separado; llueva con v."
+  },
+  {
+   "id": "es_escritura_l8_o001",
+   "module": "escritura",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Le",
+    "regalé",
+    "un",
+    "libro",
+    "a",
+    "mi",
+    "primo."
+   ],
+   "correctOrder": [
+    "Le",
+    "regalé",
+    "un",
+    "libro",
+    "a",
+    "mi",
+    "primo."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Le regalé un libro a mi primo."
+  },
+  {
+   "id": "es_escritura_l8_o002",
+   "module": "escritura",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Deben",
+    "de",
+    "ser",
+    "las",
+    "ocho",
+    "y",
+    "media."
+   ],
+   "correctOrder": [
+    "Deben",
+    "de",
+    "ser",
+    "las",
+    "ocho",
+    "y",
+    "media."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Deben de ser las ocho y media."
+  },
+  {
+   "id": "es_escritura_l8_o003",
+   "module": "escritura",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Hubo",
+    "muchas",
+    "quejas",
+    "durante",
+    "la",
+    "reunión."
+   ],
+   "correctOrder": [
+    "Hubo",
+    "muchas",
+    "quejas",
+    "durante",
+    "la",
+    "reunión."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Hubo muchas quejas durante la reunión."
+  },
+  {
+   "id": "es_escritura_l8_o004",
+   "module": "escritura",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Estudié",
+    "mucho,",
+    "pero",
+    "no",
+    "aprobé."
+   ],
+   "correctOrder": [
+    "Estudié",
+    "mucho,",
+    "pero",
+    "no",
+    "aprobé."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Estudié mucho, pero no aprobé."
+  },
+  {
+   "id": "es_escritura_l8_o005",
+   "module": "escritura",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Me",
+    "preguntó",
+    "dónde",
+    "había",
+    "dejado",
+    "las",
+    "llaves."
+   ],
+   "correctOrder": [
+    "Me",
+    "preguntó",
+    "dónde",
+    "había",
+    "dejado",
+    "las",
+    "llaves."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Me preguntó dónde había dejado las llaves."
+  },
+  {
+   "id": "es_escritura_l8_w001",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Corrige la frase: «La dije que viniera.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Le dije que viniera.",
+   "hint": "Es complemento indirecto",
+   "explanation": "Con el complemento indirecto se usa «le»."
+  },
+  {
+   "id": "es_escritura_l8_w002",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Corrige la frase: «Hubieron muchas quejas.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Hubo muchas quejas.",
+   "hint": "«haber» impersonal va en singular",
+   "explanation": "«haber» con sentido de existir no tiene plural."
+  },
+  {
+   "id": "es_escritura_l8_w003",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escribe la sigla de «Unión Europea»",
+   "options": [],
+   "correct": 0,
+   "answer": "UE",
+   "hint": "Dos letras en mayúscula",
+   "explanation": "Las siglas van en mayúscula y sin puntos."
+  },
+  {
+   "id": "es_escritura_l8_w004",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Corrige la palabra: «expectáculo»",
+   "options": [],
+   "correct": 0,
+   "answer": "espectáculo",
+   "hint": "Se escribe con s",
+   "explanation": "espectáculo se escribe con s, como espectador."
+  },
+  {
+   "id": "es_escritura_l8_d001",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hubo varios heridos en el accidente.",
+   "hint": "Tiene 6 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Hubo varios heridos en el accidente."
+  },
+  {
+   "id": "es_escritura_l8_d002",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Le dijimos a la profesora que no lo habíamos entendido.",
+   "hint": "Tiene 10 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Le dijimos a la profesora que no lo habíamos entendido."
+  },
+  {
+   "id": "es_escritura_l8_d003",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El espectáculo fue una auténtica excepción.",
+   "hint": "Tiene 6 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "El espectáculo fue una auténtica excepción."
+  },
+  {
+   "id": "es_escritura_l8_d004",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Deben de ser más de las diez de la noche.",
+   "hint": "Tiene 10 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Deben de ser más de las diez de la noche."
+  },
+  {
+   "id": "es_escritura_l9_m001",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está bien escrita según la norma actual?",
+   "options": [
+    "Sólo quiero un vaso de agüa.",
+    "Solo quiero un vaso de agua.",
+    "Sólo quiero un baso de agua.",
+    "Solo quiero un baso de agua."
+   ],
+   "correct": 1,
+   "explanation": "Desde 2010, «solo» no necesita tilde."
+  },
+  {
+   "id": "es_escritura_l9_m002",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está bien escrita según la norma actual?",
+   "options": [
+    "Éste es mi libro y ese, el tuyo.",
+    "Este es mi libro y ése el tuyo.",
+    "Éste es mi libro y ése, el tuyo.",
+    "Este es mi libro y ese, el tuyo."
+   ],
+   "correct": 3,
+   "explanation": "Los demostrativos no llevan tilde según la norma actual."
+  },
+  {
+   "id": "es_escritura_l9_m003",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase evita un error con el infinitivo?",
+   "options": [
+    "Por último, decir que gracias.",
+    "Por último, dando las gracias.",
+    "Por último, dar las gracias.",
+    "Por último, quiero dar las gracias."
+   ],
+   "correct": 3,
+   "explanation": "El infinitivo no puede ser el verbo principal de una oración independiente."
+  },
+  {
+   "id": "es_escritura_l9_m004",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase es correcta?",
+   "options": [
+    "Se infringuió la ley.",
+    "Se infrinjió la ley.",
+    "Se infringió la ley.",
+    "Se infligió la ley."
+   ],
+   "correct": 2,
+   "explanation": "infringir = incumplir una norma; infligir = causar daño."
+  },
+  {
+   "id": "es_escritura_l9_m005",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase es correcta?",
+   "options": [
+    "Le infringieron un duro castigo.",
+    "Le infligeron un duro castigo.",
+    "Le infligieron un duro castigo.",
+    "Le inflingieron un duro castigo."
+   ],
+   "correct": 2,
+   "explanation": "infligir = causar un daño o castigo."
+  },
+  {
+   "id": "es_escritura_l9_m006",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué expresión latina está bien usada?",
+   "options": [
+    "Lo calculé de grosso modo.",
+    "Lo calculé groso modo.",
+    "Lo calculé a grosso modo.",
+    "Lo calculé grosso modo."
+   ],
+   "correct": 3,
+   "explanation": "Es «grosso modo», sin la preposición «a»."
+  },
+  {
+   "id": "es_escritura_l9_m007",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está bien escrita?",
+   "options": [
+    "Hay que prever los riesgos.",
+    "Hay que proveer los riesgos.",
+    "Hay que preveer los riesgos.",
+    "Hay que preever los riesgos."
+   ],
+   "correct": 0,
+   "explanation": "prever (ver antes) se conjuga como ver: prever, previsto."
+  },
+  {
+   "id": "es_escritura_l9_m008",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tipo de subordinada es «que vengas» en «Quiero que vengas»?",
+   "options": [
+    "Sustantiva",
+    "Adverbial de lugar",
+    "Adjetiva",
+    "Adverbial de tiempo"
+   ],
+   "correct": 0,
+   "explanation": "Funciona como un sustantivo: «Quiero eso»."
+  },
+  {
+   "id": "es_escritura_l9_m009",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tipo de subordinada es «que compré ayer» en «El libro que compré ayer es genial»?",
+   "options": [
+    "Adverbial",
+    "Coordinada",
+    "Sustantiva",
+    "Adjetiva o de relativo"
+   ],
+   "correct": 3,
+   "explanation": "Complementa al sustantivo «libro», como un adjetivo."
+  },
+  {
+   "id": "es_escritura_l9_m010",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué expresa la subordinada en «Aunque llueva, saldremos»?",
+   "options": [
+    "Concesión",
+    "Finalidad",
+    "Causa",
+    "Condición"
+   ],
+   "correct": 0,
+   "explanation": "«aunque» introduce un obstáculo que no impide la acción."
+  },
+  {
+   "id": "es_escritura_l9_m011",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué expresa la subordinada en «Estudia para que te vaya bien»?",
+   "options": [
+    "Causa",
+    "Finalidad",
+    "Consecuencia",
+    "Tiempo"
+   ],
+   "correct": 1,
+   "explanation": "«para que» expresa el objetivo."
+  },
+  {
+   "id": "es_escritura_l9_m012",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase evita una coma incorrecta entre sujeto y verbo?",
+   "options": [
+    "Los alumnos que llegaron, tarde no pudieron entrar.",
+    "Los alumnos que llegaron tarde, no pudieron entrar.",
+    "Los alumnos, que llegaron tarde no pudieron entrar.",
+    "Los alumnos que llegaron tarde no pudieron entrar."
+   ],
+   "correct": 3,
+   "explanation": "No se pone coma entre el sujeto y el verbo."
+  },
+  {
+   "id": "es_escritura_l9_m013",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase cita correctamente?",
+   "options": [
+    "Como afirma el autor «la lectura es un viaje.»",
+    "Como afirma, el autor «la lectura es un viaje».",
+    "Como afirma el autor, «la lectura es un viaje».",
+    "Como afirma el autor, la lectura «es un viaje.»"
+   ],
+   "correct": 2,
+   "explanation": "La cita va entre comillas y el punto se pone fuera."
+  },
+  {
+   "id": "es_escritura_l9_m014",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué conector expresa consecuencia?",
+   "options": [
+    "es decir",
+    "por consiguiente",
+    "no obstante",
+    "en cambio"
+   ],
+   "correct": 1,
+   "explanation": "«por consiguiente» introduce una consecuencia."
+  },
+  {
+   "id": "es_escritura_l9_m015",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué conector sirve para aclarar o reformular?",
+   "options": [
+    "por tanto",
+    "sin embargo",
+    "además",
+    "es decir"
+   ],
+   "correct": 3,
+   "explanation": "«es decir» explica de otra manera lo anterior."
+  },
+  {
+   "id": "es_escritura_l9_m016",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué conector introduce una oposición?",
+   "options": [
+    "en primer lugar",
+    "no obstante",
+    "asimismo",
+    "por ende"
+   ],
+   "correct": 1,
+   "explanation": "«no obstante» equivale a «sin embargo»."
+  },
+  {
+   "id": "es_escritura_l9_m017",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "eshaustivo",
+    "exahustivo",
+    "exhaustivo",
+    "exaustivo"
+   ],
+   "correct": 2,
+   "explanation": "exhaustivo lleva x y h: ex-haus-ti-vo."
+  },
+  {
+   "id": "es_escritura_l9_m018",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está bien escrita?",
+   "options": [
+    "Aún no ha llegado; aun así, esperaremos.",
+    "Aun no ha llegado; aún así, esperaremos.",
+    "Aún no ha llegado; aún así, esperaremos.",
+    "Aun no ha llegado; aun así, esperaremos."
+   ],
+   "correct": 0,
+   "explanation": "aún (= todavía) lleva tilde; aun así (= incluso así) no."
+  },
+  {
+   "id": "es_escritura_l9_m019",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «a priori»?",
+   "options": [
+    "Con prisa",
+    "Por casualidad",
+    "Después de todo",
+    "Antes de examinar el asunto"
+   ],
+   "correct": 3,
+   "explanation": "«a priori» significa «de antemano»."
+  },
+  {
+   "id": "es_escritura_l9_m020",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase usa bien «sino»?",
+   "options": [
+    "No lo hizo por dinero, sinó por amistad.",
+    "No lo hizo por dinero, sino por amistad.",
+    "No lo hizo por dinero, si no por amistad.",
+    "No lo hizo por dinero sino, por amistad."
+   ],
+   "correct": 1,
+   "explanation": "Tras una negación, «sino» introduce la idea correcta."
+  },
+  {
+   "id": "es_escritura_l9_m021",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase evita el error «más mejor»?",
+   "options": [
+    "Este método es muy mejor.",
+    "Este método es mucho más mejor.",
+    "Este método es más mejor.",
+    "Este método es mejor."
+   ],
+   "correct": 3,
+   "explanation": "«mejor» ya es comparativo: no admite «más»."
+  },
+  {
+   "id": "es_escritura_l9_m022",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué frase está bien escrita?",
+   "options": [
+    "El ochenta % de los encuestados respondió.",
+    "El 80 por cien de los encuestados respondieron todos.",
+    "El 80% de los encuestados respondió.",
+    "El 80 % de los encuestados respondió."
+   ],
+   "correct": 3,
+   "explanation": "El símbolo % se separa del número con un espacio."
+  },
+  {
+   "id": "es_escritura_l9_o001",
+   "module": "escritura",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Aunque",
+    "llueva,",
+    "el",
+    "partido",
+    "se",
+    "jugará."
+   ],
+   "correctOrder": [
+    "Aunque",
+    "llueva,",
+    "el",
+    "partido",
+    "se",
+    "jugará."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Aunque llueva, el partido se jugará."
+  },
+  {
+   "id": "es_escritura_l9_o002",
+   "module": "escritura",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "El",
+    "libro",
+    "que",
+    "me",
+    "prestaste",
+    "es",
+    "magnífico."
+   ],
+   "correctOrder": [
+    "El",
+    "libro",
+    "que",
+    "me",
+    "prestaste",
+    "es",
+    "magnífico."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El libro que me prestaste es magnífico."
+  },
+  {
+   "id": "es_escritura_l9_o003",
+   "module": "escritura",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Por",
+    "consiguiente,",
+    "debemos",
+    "cambiar",
+    "de",
+    "plan."
+   ],
+   "correctOrder": [
+    "Por",
+    "consiguiente,",
+    "debemos",
+    "cambiar",
+    "de",
+    "plan."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Por consiguiente, debemos cambiar de plan."
+  },
+  {
+   "id": "es_escritura_l9_o004",
+   "module": "escritura",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "No",
+    "lo",
+    "hizo",
+    "por",
+    "dinero,",
+    "sino",
+    "por",
+    "amistad."
+   ],
+   "correctOrder": [
+    "No",
+    "lo",
+    "hizo",
+    "por",
+    "dinero,",
+    "sino",
+    "por",
+    "amistad."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "No lo hizo por dinero, sino por amistad."
+  },
+  {
+   "id": "es_escritura_l9_o005",
+   "module": "escritura",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras para formar una frase",
+   "pieces": [
+    "Quiero",
+    "que",
+    "me",
+    "expliques",
+    "el",
+    "porqué."
+   ],
+   "correctOrder": [
+    "Quiero",
+    "que",
+    "me",
+    "expliques",
+    "el",
+    "porqué."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Quiero que me expliques el porqué."
+  },
+  {
+   "id": "es_escritura_l9_w001",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Corrige la frase: «Este método es más mejor.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Este método es mejor.",
+   "hint": "Sobra una palabra",
+   "explanation": "«mejor» ya es comparativo."
+  },
+  {
+   "id": "es_escritura_l9_w002",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Corrige la frase: «Hay que preveer los gastos.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Hay que prever los gastos.",
+   "hint": "Se conjuga como «ver»",
+   "explanation": "prever = pre + ver."
+  },
+  {
+   "id": "es_escritura_l9_w003",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Corrige la expresión: «a grosso modo»",
+   "options": [],
+   "correct": 0,
+   "answer": "grosso modo",
+   "hint": "Sobra la preposición",
+   "explanation": "La expresión latina es «grosso modo»."
+  },
+  {
+   "id": "es_escritura_l9_w004",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Corrige la frase: «Sólo quiero agua.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Solo quiero agua.",
+   "hint": "Según la norma actual",
+   "explanation": "Desde 2010, «solo» no lleva tilde."
+  },
+  {
+   "id": "es_escritura_l9_d001",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Aún no sabemos qué pasará; aun así, seguiremos.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Aún no sabemos qué pasará; aun así, seguiremos."
+  },
+  {
+   "id": "es_escritura_l9_d002",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El jurado infligió una dura sanción al equipo.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "El jurado infligió una dura sanción al equipo."
+  },
+  {
+   "id": "es_escritura_l9_d003",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Solo quiero que me expliques el porqué.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Solo quiero que me expliques el porqué."
+  },
+  {
+   "id": "es_escritura_l9_d004",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La exhibición fue espléndida y exuberante.",
+   "hint": "Tiene 6 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "La exhibición fue espléndida y exuberante."
   }
  ]
 }

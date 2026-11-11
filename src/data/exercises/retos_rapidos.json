@@ -2416,6 +2416,1514 @@
    "options": [],
    "correct": 0,
    "explanation": "V-E-N-T-A-N-A = VENTANA"
+  },
+  {
+   "id": "es_retos_rapidos_l6_m001",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «comenzar»?",
+   "options": [
+    "terminar",
+    "iniciar",
+    "parar",
+    "seguir"
+   ],
+   "correct": 1,
+   "explanation": "«comenzar» y «iniciar» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m002",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «veloz»?",
+   "options": [
+    "lento",
+    "tranquilo",
+    "pesado",
+    "rápido"
+   ],
+   "correct": 3,
+   "explanation": "«veloz» y «rápido» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m003",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «hallar»?",
+   "options": [
+    "buscar",
+    "encontrar",
+    "esconder",
+    "perder"
+   ],
+   "correct": 1,
+   "explanation": "«hallar» y «encontrar» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m004",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «dichoso»?",
+   "options": [
+    "feliz",
+    "aburrido",
+    "triste",
+    "enfadado"
+   ],
+   "correct": 0,
+   "explanation": "«dichoso» y «feliz» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m005",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «sereno»?",
+   "options": [
+    "tranquilo",
+    "nervioso",
+    "ruidoso",
+    "furioso"
+   ],
+   "correct": 0,
+   "explanation": "«sereno» y «tranquilo» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m006",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «generoso»?",
+   "options": [
+    "amable",
+    "simpático",
+    "tacaño",
+    "rico"
+   ],
+   "correct": 2,
+   "explanation": "Lo contrario de «generoso» es «tacaño»."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m007",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «aumentar»?",
+   "options": [
+    "subir",
+    "disminuir",
+    "crecer",
+    "ampliar"
+   ],
+   "correct": 1,
+   "explanation": "Lo contrario de «aumentar» es «disminuir»."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m008",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «valiente»?",
+   "options": [
+    "cobarde",
+    "fuerte",
+    "atrevido",
+    "audaz"
+   ],
+   "correct": 0,
+   "explanation": "Lo contrario de «valiente» es «cobarde»."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m009",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «público»?",
+   "options": [
+    "general",
+    "común",
+    "abierto",
+    "privado"
+   ],
+   "correct": 3,
+   "explanation": "Lo contrario de «público» es «privado»."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m010",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «antiguo»?",
+   "options": [
+    "moderno",
+    "viejo",
+    "histórico",
+    "clásico"
+   ],
+   "correct": 0,
+   "explanation": "Lo contrario de «antiguo» es «moderno»."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m011",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es del grupo: sustantivo, adjetivo, verbo o párrafo?",
+   "options": [
+    "sustantivo",
+    "adjetivo",
+    "verbo",
+    "párrafo"
+   ],
+   "correct": 3,
+   "explanation": "Párrafo no es una categoría gramatical."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m012",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es del grupo: narrativo, descriptivo, expositivo o rima?",
+   "options": [
+    "descriptivo",
+    "rima",
+    "narrativo",
+    "expositivo"
+   ],
+   "correct": 1,
+   "explanation": "La rima no es un tipo de texto."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m013",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es del grupo: Ebro, Tajo, Júcar o Teide?",
+   "options": [
+    "Teide",
+    "Ebro",
+    "Tajo",
+    "Júcar"
+   ],
+   "correct": 0,
+   "explanation": "El Teide es una montaña; los demás son ríos."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m014",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es un determinante?",
+   "options": [
+    "correr",
+    "azul",
+    "rápidamente",
+    "aquellos"
+   ],
+   "correct": 3,
+   "explanation": "«aquellos» acompaña al sustantivo: determinante demostrativo."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m015",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es una preposición?",
+   "options": [
+    "hacia",
+    "hecha",
+    "hacía",
+    "hacha"
+   ],
+   "correct": 0,
+   "explanation": "«hacia» indica dirección: preposición."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m016",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es un sustantivo abstracto?",
+   "options": [
+    "libertad",
+    "mesa",
+    "árbol",
+    "perro"
+   ],
+   "correct": 0,
+   "explanation": "La libertad no se puede tocar: sustantivo abstracto."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m017",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa el prefijo «sub-» en «subterráneo»?",
+   "options": [
+    "Debajo",
+    "Encima",
+    "Contra",
+    "Antes"
+   ],
+   "correct": 0,
+   "explanation": "sub- significa «debajo de»."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m018",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa el prefijo «pre-» en «prever»?",
+   "options": [
+    "Debajo",
+    "Después",
+    "Antes",
+    "Sin"
+   ],
+   "correct": 2,
+   "explanation": "pre- significa «antes»."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m019",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa el sufijo «-ero» en «panadero»?",
+   "options": [
+    "Golpe",
+    "Lugar pequeño",
+    "Oficio",
+    "Conjunto"
+   ],
+   "correct": 2,
+   "explanation": "-ero indica oficio: el que hace pan."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m020",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es de la familia de «mar»?",
+   "options": [
+    "marinero",
+    "marea",
+    "marítimo",
+    "marca"
+   ],
+   "correct": 3,
+   "explanation": "marca no deriva de mar."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m021",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es de la familia de «pan»?",
+   "options": [
+    "panadería",
+    "pantalón",
+    "pantera",
+    "pánico"
+   ],
+   "correct": 0,
+   "explanation": "panadería deriva de pan."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m022",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «estar en las nubes»?",
+   "options": [
+    "Viajar en avión",
+    "Estar distraído",
+    "Estar contento",
+    "Estar muy alto"
+   ],
+   "correct": 1,
+   "explanation": "Es una expresión: estar despistado."
+  },
+  {
+   "id": "es_retos_rapidos_l6_m023",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «costar un ojo de la cara»?",
+   "options": [
+    "Ser muy caro",
+    "Ser difícil de encontrar",
+    "Ver mal",
+    "Doler mucho"
+   ],
+   "correct": 0,
+   "explanation": "Expresión: costar muchísimo dinero."
+  },
+  {
+   "id": "es_retos_rapidos_l6_o001",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las letras para escribir «BIOLOGÍA»",
+   "pieces": [
+    "B",
+    "I",
+    "O",
+    "L",
+    "O",
+    "G",
+    "Í",
+    "A"
+   ],
+   "correctOrder": [
+    "B",
+    "I",
+    "O",
+    "L",
+    "O",
+    "G",
+    "Í",
+    "A"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "B-I-O-L-O-G-Í-A = BIOLOGÍA"
+  },
+  {
+   "id": "es_retos_rapidos_l7_m001",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «efímero»?",
+   "options": [
+    "pasajero",
+    "enorme",
+    "valiente",
+    "eterno"
+   ],
+   "correct": 0,
+   "explanation": "«efímero» y «pasajero» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m002",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «perspicaz»?",
+   "options": [
+    "agudo",
+    "torpe",
+    "lento",
+    "aburrido"
+   ],
+   "correct": 0,
+   "explanation": "«perspicaz» y «agudo» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m003",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «diligente»?",
+   "options": [
+    "tímido",
+    "alegre",
+    "perezoso",
+    "trabajador"
+   ],
+   "correct": 3,
+   "explanation": "«diligente» y «trabajador» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m004",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «ameno»?",
+   "options": [
+    "largo",
+    "difícil",
+    "aburrido",
+    "entretenido"
+   ],
+   "correct": 3,
+   "explanation": "«ameno» y «entretenido» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m005",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «escueto»?",
+   "options": [
+    "extenso",
+    "lento",
+    "confuso",
+    "breve"
+   ],
+   "correct": 3,
+   "explanation": "«escueto» y «breve» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m006",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «efímero»?",
+   "options": [
+    "corto",
+    "breve",
+    "duradero",
+    "fugaz"
+   ],
+   "correct": 2,
+   "explanation": "Lo contrario de «efímero» es «duradero»."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m007",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «sencillo»?",
+   "options": [
+    "simple",
+    "complejo",
+    "fácil",
+    "claro"
+   ],
+   "correct": 1,
+   "explanation": "Lo contrario de «sencillo» es «complejo»."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m008",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «aceptar»?",
+   "options": [
+    "admitir",
+    "recibir",
+    "aprobar",
+    "rechazar"
+   ],
+   "correct": 3,
+   "explanation": "Lo contrario de «aceptar» es «rechazar»."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m009",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «escasez»?",
+   "options": [
+    "carencia",
+    "falta",
+    "abundancia",
+    "pobreza"
+   ],
+   "correct": 2,
+   "explanation": "Lo contrario de «escasez» es «abundancia»."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m010",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «optimista»?",
+   "options": [
+    "positivo",
+    "pesimista",
+    "animado",
+    "alegre"
+   ],
+   "correct": 1,
+   "explanation": "Lo contrario de «optimista» es «pesimista»."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m011",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es del grupo: metáfora, símil, personificación o titular?",
+   "options": [
+    "metáfora",
+    "símil",
+    "personificación",
+    "titular"
+   ],
+   "correct": 3,
+   "explanation": "El titular es parte de la noticia, no un recurso literario."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m012",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es del grupo: pero, aunque, sin embargo o porque?",
+   "options": [
+    "pero",
+    "aunque",
+    "porque",
+    "sin embargo"
+   ],
+   "correct": 2,
+   "explanation": "«porque» expresa causa; los demás, oposición."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m013",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es del grupo: noticia, reportaje, entrevista o soneto?",
+   "options": [
+    "reportaje",
+    "noticia",
+    "soneto",
+    "entrevista"
+   ],
+   "correct": 2,
+   "explanation": "El soneto es un poema; los demás son géneros periodísticos."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m014",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es un verbo en subjuntivo?",
+   "options": [
+    "viniste",
+    "vengas",
+    "vendrás",
+    "vienes"
+   ],
+   "correct": 1,
+   "explanation": "«que vengas» expresa deseo o posibilidad: subjuntivo."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m015",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es un pronombre relativo?",
+   "options": [
+    "cuyo",
+    "muy",
+    "casi",
+    "bien"
+   ],
+   "correct": 0,
+   "explanation": "«cuyo» introduce una oración de relativo."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m016",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es una conjunción?",
+   "options": [
+    "pera",
+    "perro",
+    "pero",
+    "pelo"
+   ],
+   "correct": 2,
+   "explanation": "«pero» une oraciones: conjunción."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m017",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa el prefijo «anti-» en «antiniebla»?",
+   "options": [
+    "Muchos",
+    "Contra",
+    "Antes",
+    "Dentro"
+   ],
+   "correct": 1,
+   "explanation": "anti- significa «contra»."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m018",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa el prefijo «des-» en «deshacer»?",
+   "options": [
+    "Exceso",
+    "Repetición",
+    "Negación o inversión",
+    "Cercanía"
+   ],
+   "correct": 2,
+   "explanation": "des- indica lo contrario: deshacer."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m019",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa el sufijo «-ito» en «librito»?",
+   "options": [
+    "Pequeño o cariñoso",
+    "Golpe",
+    "Grande",
+    "Oficio"
+   ],
+   "correct": 0,
+   "explanation": "-ito es un diminutivo."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m020",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es de la familia de «luz»?",
+   "options": [
+    "lucir",
+    "lucero",
+    "lucha",
+    "luminoso"
+   ],
+   "correct": 2,
+   "explanation": "lucha no deriva de luz."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m021",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es de la familia de «tierra»?",
+   "options": [
+    "termo",
+    "terrible",
+    "terrestre",
+    "terco"
+   ],
+   "correct": 2,
+   "explanation": "terrestre viene de tierra (latín terra)."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m022",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «meter la pata»?",
+   "options": [
+    "Correr mucho",
+    "Equivocarse",
+    "Bailar",
+    "Tropezar"
+   ],
+   "correct": 1,
+   "explanation": "Expresión: cometer un error."
+  },
+  {
+   "id": "es_retos_rapidos_l7_m023",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «ponerse las pilas»?",
+   "options": [
+    "Ir más despacio",
+    "Ponerse nervioso",
+    "Espabilarse y esforzarse",
+    "Cargar el móvil"
+   ],
+   "correct": 2,
+   "explanation": "Expresión: activarse."
+  },
+  {
+   "id": "es_retos_rapidos_l7_o001",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las letras para escribir «HIPÓTESIS»",
+   "pieces": [
+    "H",
+    "I",
+    "P",
+    "Ó",
+    "T",
+    "E",
+    "S",
+    "I",
+    "S"
+   ],
+   "correctOrder": [
+    "H",
+    "I",
+    "P",
+    "Ó",
+    "T",
+    "E",
+    "S",
+    "I",
+    "S"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "H-I-P-Ó-T-E-S-I-S = HIPÓTESIS"
+  },
+  {
+   "id": "es_retos_rapidos_l8_m001",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «inherente»?",
+   "options": [
+    "ajeno",
+    "externo",
+    "casual",
+    "propio"
+   ],
+   "correct": 3,
+   "explanation": "«inherente» y «propio» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m002",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «ecuánime»?",
+   "options": [
+    "injusto",
+    "nervioso",
+    "imparcial",
+    "orgulloso"
+   ],
+   "correct": 2,
+   "explanation": "«ecuánime» y «imparcial» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m003",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «exiguo»?",
+   "options": [
+    "escaso",
+    "fuerte",
+    "abundante",
+    "enorme"
+   ],
+   "correct": 0,
+   "explanation": "«exiguo» y «escaso» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m004",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «subrepticio»?",
+   "options": [
+    "ruidoso",
+    "evidente",
+    "oculto",
+    "público"
+   ],
+   "correct": 2,
+   "explanation": "«subrepticio» y «oculto» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m005",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «acérrimo»?",
+   "options": [
+    "tibio",
+    "tenaz",
+    "indiferente",
+    "débil"
+   ],
+   "correct": 1,
+   "explanation": "«acérrimo» y «tenaz» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m006",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «explícito»?",
+   "options": [
+    "directo",
+    "evidente",
+    "claro",
+    "implícito"
+   ],
+   "correct": 3,
+   "explanation": "Lo contrario de «explícito» es «implícito»."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m007",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «prohibir»?",
+   "options": [
+    "impedir",
+    "negar",
+    "vetar",
+    "permitir"
+   ],
+   "correct": 3,
+   "explanation": "Lo contrario de «prohibir» es «permitir»."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m008",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «subjetivo»?",
+   "options": [
+    "personal",
+    "objetivo",
+    "íntimo",
+    "parcial"
+   ],
+   "correct": 1,
+   "explanation": "Lo contrario de «subjetivo» es «objetivo»."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m009",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «concreto»?",
+   "options": [
+    "exacto",
+    "real",
+    "abstracto",
+    "preciso"
+   ],
+   "correct": 2,
+   "explanation": "Lo contrario de «concreto» es «abstracto»."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m010",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «innato»?",
+   "options": [
+    "congénito",
+    "propio",
+    "natural",
+    "adquirido"
+   ],
+   "correct": 3,
+   "explanation": "Lo contrario de «innato» es «adquirido»."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m011",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es del grupo: hipérbole, metáfora, anáfora o sujeto?",
+   "options": [
+    "anáfora",
+    "hipérbole",
+    "metáfora",
+    "sujeto"
+   ],
+   "correct": 3,
+   "explanation": "El sujeto es una función sintáctica, no un recurso literario."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m012",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es del grupo: por tanto, por consiguiente, así que o no obstante?",
+   "options": [
+    "por consiguiente",
+    "no obstante",
+    "así que",
+    "por tanto"
+   ],
+   "correct": 1,
+   "explanation": "«no obstante» opone; los demás expresan consecuencia."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m013",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es del grupo: lírica, narrativa, dramática o ortografía?",
+   "options": [
+    "dramática",
+    "ortografía",
+    "lírica",
+    "narrativa"
+   ],
+   "correct": 1,
+   "explanation": "La ortografía no es un género literario."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m014",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es un verbo en gerundio?",
+   "options": [
+    "cantado",
+    "cantar",
+    "canté",
+    "cantando"
+   ],
+   "correct": 3,
+   "explanation": "El gerundio acaba en -ando o -iendo."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m015",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es un participio?",
+   "options": [
+    "escrito",
+    "escribir",
+    "escribía",
+    "escribiendo"
+   ],
+   "correct": 0,
+   "explanation": "escrito es el participio de escribir."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m016",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es un adverbio de duda?",
+   "options": [
+    "aquí",
+    "quizá",
+    "muy",
+    "nunca"
+   ],
+   "correct": 1,
+   "explanation": "quizá expresa duda."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m017",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «hidro-» en «hidroeléctrica»?",
+   "options": [
+    "Fuego",
+    "Tierra",
+    "Agua",
+    "Aire"
+   ],
+   "correct": 2,
+   "explanation": "hidro- significa agua."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m018",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «-logía» en «biología»?",
+   "options": [
+    "Medida",
+    "Amor",
+    "Miedo",
+    "Estudio o ciencia"
+   ],
+   "correct": 3,
+   "explanation": "-logía significa estudio."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m019",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «poli-» en «polideportivo»?",
+   "options": [
+    "Muchos",
+    "Grande",
+    "Uno",
+    "Ninguno"
+   ],
+   "correct": 0,
+   "explanation": "poli- significa muchos."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m020",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es de la familia de «agua»?",
+   "options": [
+    "acuático",
+    "acuario",
+    "águila",
+    "aguacero"
+   ],
+   "correct": 2,
+   "explanation": "águila no deriva de agua."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m021",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es de la familia de «noche»?",
+   "options": [
+    "nogal",
+    "nocturno",
+    "noticia",
+    "notable"
+   ],
+   "correct": 1,
+   "explanation": "nocturno viene del latín nox, noctis."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m022",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «tirar la toalla»?",
+   "options": [
+    "Rendirse",
+    "Ducharse",
+    "Enfadarse",
+    "Ganar"
+   ],
+   "correct": 0,
+   "explanation": "Expresión del boxeo: abandonar."
+  },
+  {
+   "id": "es_retos_rapidos_l8_m023",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «estar entre la espada y la pared»?",
+   "options": [
+    "Estar en peligro de muerte",
+    "Estar en casa",
+    "Estar muy cómodo",
+    "No tener salida"
+   ],
+   "correct": 3,
+   "explanation": "Expresión: tener que elegir entre dos opciones malas."
+  },
+  {
+   "id": "es_retos_rapidos_l8_o001",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las letras para escribir «EXCEPCIÓN»",
+   "pieces": [
+    "E",
+    "X",
+    "C",
+    "E",
+    "P",
+    "C",
+    "I",
+    "Ó",
+    "N"
+   ],
+   "correctOrder": [
+    "E",
+    "X",
+    "C",
+    "E",
+    "P",
+    "C",
+    "I",
+    "Ó",
+    "N"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "E-X-C-E-P-C-I-Ó-N = EXCEPCIÓN"
+  },
+  {
+   "id": "es_retos_rapidos_l9_m001",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «inefable»?",
+   "options": [
+    "explicable",
+    "vulgar",
+    "indescriptible",
+    "corriente"
+   ],
+   "correct": 2,
+   "explanation": "«inefable» y «indescriptible» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m002",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «prolijo»?",
+   "options": [
+    "conciso",
+    "claro",
+    "extenso",
+    "breve"
+   ],
+   "correct": 2,
+   "explanation": "«prolijo» y «extenso» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m003",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «pusilánime»?",
+   "options": [
+    "decidido",
+    "audaz",
+    "valiente",
+    "cobarde"
+   ],
+   "correct": 3,
+   "explanation": "«pusilánime» y «cobarde» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m004",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «ubicuo»?",
+   "options": [
+    "omnipresente",
+    "ausente",
+    "local",
+    "escaso"
+   ],
+   "correct": 0,
+   "explanation": "«ubicuo» y «omnipresente» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m005",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra significa lo mismo que «loable»?",
+   "options": [
+    "reprochable",
+    "dudoso",
+    "censurable",
+    "elogiable"
+   ],
+   "correct": 3,
+   "explanation": "«loable» y «elogiable» significan lo mismo."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m006",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «prolijo»?",
+   "options": [
+    "largo",
+    "conciso",
+    "detallado",
+    "extenso"
+   ],
+   "correct": 1,
+   "explanation": "Lo contrario de «prolijo» es «conciso»."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m007",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «altruista»?",
+   "options": [
+    "bondadoso",
+    "solidario",
+    "egoísta",
+    "generoso"
+   ],
+   "correct": 2,
+   "explanation": "Lo contrario de «altruista» es «egoísta»."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m008",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «efímero»?",
+   "options": [
+    "perenne",
+    "pasajero",
+    "fugaz",
+    "breve"
+   ],
+   "correct": 0,
+   "explanation": "Lo contrario de «efímero» es «perenne»."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m009",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «diáfano»?",
+   "options": [
+    "transparente",
+    "claro",
+    "turbio",
+    "limpio"
+   ],
+   "correct": 2,
+   "explanation": "Lo contrario de «diáfano» es «turbio»."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m010",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es lo contrario de «ensalzar»?",
+   "options": [
+    "exaltar",
+    "alabar",
+    "denigrar",
+    "elogiar"
+   ],
+   "correct": 2,
+   "explanation": "Lo contrario de «ensalzar» es «denigrar»."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m011",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es del grupo: sustantiva, adjetiva, adverbial o copulativa?",
+   "options": [
+    "adverbial",
+    "sustantiva",
+    "copulativa",
+    "adjetiva"
+   ],
+   "correct": 2,
+   "explanation": "Las coordinadas copulativas no son subordinadas."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m012",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es del grupo: es decir, o sea, esto es o en cambio?",
+   "options": [
+    "esto es",
+    "o sea",
+    "en cambio",
+    "es decir"
+   ],
+   "correct": 2,
+   "explanation": "«en cambio» opone; los demás reformulan."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m013",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es del grupo: Lorca, Alberti, Cernuda o Cervantes?",
+   "options": [
+    "Alberti",
+    "Lorca",
+    "Cernuda",
+    "Cervantes"
+   ],
+   "correct": 3,
+   "explanation": "Cervantes es del Siglo de Oro, no de la Generación del 27."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m014",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es un cultismo procedente del latín?",
+   "options": [
+    "anoche",
+    "noche",
+    "trasnochar",
+    "nocturno"
+   ],
+   "correct": 3,
+   "explanation": "nocturno conserva la forma latina; noche es la palabra patrimonial."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m015",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es un extranjerismo adaptado?",
+   "options": [
+    "portería",
+    "partido",
+    "fútbol",
+    "balompié"
+   ],
+   "correct": 2,
+   "explanation": "fútbol viene del inglés football."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m016",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es un neologismo?",
+   "options": [
+    "tuitear",
+    "leer",
+    "escribir",
+    "hablar"
+   ],
+   "correct": 0,
+   "explanation": "tuitear es una palabra nueva creada a partir de una red social."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m017",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «-fobia» en «claustrofobia»?",
+   "options": [
+    "Estudio",
+    "Miedo",
+    "Amor",
+    "Enfermedad"
+   ],
+   "correct": 1,
+   "explanation": "-fobia significa miedo o rechazo."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m018",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «filo-» en «filosofía»?",
+   "options": [
+    "Lejos",
+    "Amor o afición",
+    "Mitad",
+    "Miedo"
+   ],
+   "correct": 1,
+   "explanation": "filo- significa amigo o amante de."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m019",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «tele-» en «telescopio»?",
+   "options": [
+    "Rápido",
+    "Lejos",
+    "Pequeño",
+    "Cerca"
+   ],
+   "correct": 1,
+   "explanation": "tele- significa lejos."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m020",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra NO es de la familia de «ojo»?",
+   "options": [
+    "hoja",
+    "ojear",
+    "anteojos",
+    "ocular"
+   ],
+   "correct": 0,
+   "explanation": "hoja no deriva de ojo."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m021",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es de la familia de «hijo»?",
+   "options": [
+    "filial",
+    "fila",
+    "filo",
+    "filete"
+   ],
+   "correct": 0,
+   "explanation": "filial viene del latín filius (hijo)."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m022",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «a regañadientes»?",
+   "options": [
+    "Con alegría",
+    "Rápidamente",
+    "En secreto",
+    "De mala gana"
+   ],
+   "correct": 3,
+   "explanation": "Hacer algo a regañadientes es hacerlo sin ganas."
+  },
+  {
+   "id": "es_retos_rapidos_l9_m023",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «ser la gota que colma el vaso»?",
+   "options": [
+    "Un premio inesperado",
+    "Lo último que hace perder la paciencia",
+    "Beber demasiado",
+    "Algo muy pequeño"
+   ],
+   "correct": 1,
+   "explanation": "Expresión: el último motivo que provoca una reacción."
+  },
+  {
+   "id": "es_retos_rapidos_l9_o001",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las letras para escribir «AMBIGÜEDAD»",
+   "pieces": [
+    "A",
+    "M",
+    "B",
+    "I",
+    "G",
+    "Ü",
+    "E",
+    "D",
+    "A",
+    "D"
+   ],
+   "correctOrder": [
+    "A",
+    "M",
+    "B",
+    "I",
+    "G",
+    "Ü",
+    "E",
+    "D",
+    "A",
+    "D"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "A-M-B-I-G-Ü-E-D-A-D = AMBIGÜEDAD"
   }
  ]
 }

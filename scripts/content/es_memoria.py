@@ -40,7 +40,7 @@ SPELL = {
         ("exhausto", ["exausto", "exhaústo", "eshausto"]), ("prohibido", ["proibido", "prohivido", "prohíbido"]), ("enhorabuena", ["enorabuena", "enhorabuéna", "henhorabuena"]),
         ("adolescente", ["adolecente", "adolesente", "adolescénte"]), ("conciencia", ["consciensia", "conciensia", "concienzia"]),
         ("subrayar", ["subrrayar", "suvrayar", "subrallar"]), ("absorber", ["absorver", "asorber", "abzorber"]), ("vivir", ["bivir", "vibir", "vivír"]),
-        ("hábil", ["habil", "ábil", "hávil"]), ("ojalá", ["ojalà", "ohalá", "hojalá"]), ("atmósfera", ["atmosfera", "admósfera", "atmósphera"]),
+        ("hábil", ["habil", "ábil", "hávil"]), ("ojalá", ["ojalà", "ohalá", "hojalá"]), ("atmósfera", ["athmósfera", "admósfera", "atmósphera"]),
         ("ambiguo", ["ambíguo", "anbiguo", "ambigüo"]), ("vergüenza", ["verguenza", "bergüenza", "vergüensa"]),
         ("exquisito", ["esquisito", "exquizito", "exquisíto"]), ("gimnasia", ["jimnasia", "gimnacia", "ginnasia"]),
         ("biología", ["biologia", "viología", "biolojía"]), ("océano", ["oceano", "océeno", "ozéano"]), ("Atlántico", ["Atlantico", "Alántico", "Atlántiko"]),

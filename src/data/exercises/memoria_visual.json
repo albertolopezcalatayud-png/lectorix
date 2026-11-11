@@ -3047,7 +3047,7 @@
     "atmósphera",
     "admósfera",
     "atmósfera",
-    "atmosfera"
+    "athmósfera"
    ],
    "correct": 2,
    "explanation": "Se escribe «atmósfera»."
@@ -3522,6 +3522,2130 @@
    "options": [],
    "correct": 0,
    "explanation": "Orden alfabético: sal, salto, salud, santo, sardina."
+  },
+  {
+   "id": "es_memoria_visual_l6_m001",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "ervir",
+    "hervir",
+    "herbir",
+    "jervir"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «hervir». Excepción: los verbos en -bir van con b, salvo hervir, servir y vivir."
+  },
+  {
+   "id": "es_memoria_visual_l6_m002",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "vegetal",
+    "begetal",
+    "vejetal",
+    "vegetall"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «vegetal»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m003",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "jiraffa",
+    "hirafa",
+    "jirafa",
+    "girafa"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «jirafa»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m004",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "absorbr",
+    "absorber",
+    "absorver",
+    "asorber"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «absorber». absorber va con b; absolver (perdonar) también, pero es otra palabra."
+  },
+  {
+   "id": "es_memoria_visual_l6_m005",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "esterior",
+    "exsterior",
+    "exterrior",
+    "exterior"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «exterior». ex- significa «fuera»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m006",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "ahojar",
+    "ajogar",
+    "ahogar",
+    "aogar"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «ahogar»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m007",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "hamaka",
+    "jamaca",
+    "hamaca",
+    "amaca"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «hamaca»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m008",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "ciervvo",
+    "cierbo",
+    "ciervo",
+    "ziervo"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «ciervo»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m009",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "ballenna",
+    "bayena",
+    "vallena",
+    "ballena"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «ballena»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m010",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "llober",
+    "lloverr",
+    "llover",
+    "yover"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «llover»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m011",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "herrramienta",
+    "erramienta",
+    "herramienta",
+    "herramiénta"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «herramienta»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m012",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "consérje",
+    "conserje",
+    "congerje",
+    "conserge"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «conserje». Las palabras acabadas en -erje se escriben con j."
+  },
+  {
+   "id": "es_memoria_visual_l6_m013",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "tejher",
+    "tegerr",
+    "teger",
+    "tejer"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «tejer». tejer va con j, como tejido."
+  },
+  {
+   "id": "es_memoria_visual_l6_m014",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "bucear",
+    "busear",
+    "vucear",
+    "buzear"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «bucear»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m015",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "hormija",
+    "ormiga",
+    "hormigga",
+    "hormiga"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «hormiga»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m016",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "vaivén",
+    "vaibén",
+    "vaiven",
+    "baivén"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «vaivén»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m017",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "hueco",
+    "güeco",
+    "huecco",
+    "ueco"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «hueco». Las palabras que empiezan por hue- llevan h."
+  },
+  {
+   "id": "es_memoria_visual_l6_m018",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "observarr",
+    "ovservar",
+    "observar",
+    "obserbar"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «observar»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m019",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "geographía",
+    "geografía",
+    "jeografía",
+    "geografia"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «geografía». geo- (tierra) se escribe con g."
+  },
+  {
+   "id": "es_memoria_visual_l6_m020",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "relampago",
+    "relánpago",
+    "relámpago",
+    "relámpaco"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «relámpago». Esdrújula: siempre lleva tilde; m antes de p."
+  },
+  {
+   "id": "es_memoria_visual_l6_m021",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «hasta»",
+   "options": [
+    "asta",
+    "hasa",
+    "harta",
+    "hasta"
+   ],
+   "correct": 3,
+   "explanation": "Fíjate bien en cada letra: h-a-s-t-a."
+  },
+  {
+   "id": "es_memoria_visual_l6_m022",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «vello»",
+   "options": [
+    "vello",
+    "velo",
+    "vallo",
+    "bello"
+   ],
+   "correct": 0,
+   "explanation": "Fíjate bien en cada letra: v-e-l-l-o."
+  },
+  {
+   "id": "es_memoria_visual_l6_m023",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «tuvo»",
+   "options": [
+    "tuvo",
+    "tuyo",
+    "tuve",
+    "tubo"
+   ],
+   "correct": 0,
+   "explanation": "Fíjate bien en cada letra: t-u-v-o."
+  },
+  {
+   "id": "es_memoria_visual_l6_m024",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «hecho»",
+   "options": [
+    "hecho",
+    "hecha",
+    "techo",
+    "echo"
+   ],
+   "correct": 0,
+   "explanation": "Fíjate bien en cada letra: h-e-c-h-o."
+  },
+  {
+   "id": "es_memoria_visual_l6_m025",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «vaca»",
+   "options": [
+    "vaca",
+    "vasa",
+    "baca",
+    "vaga"
+   ],
+   "correct": 0,
+   "explanation": "Fíjate bien en cada letra: v-a-c-a."
+  },
+  {
+   "id": "es_memoria_visual_l6_m026",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «haya»",
+   "options": [
+    "allá",
+    "halla",
+    "haya",
+    "aya"
+   ],
+   "correct": 2,
+   "explanation": "Fíjate bien en cada letra: h-a-y-a."
+  },
+  {
+   "id": "es_memoria_visual_l6_m027",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: hasta, asta, hasta, hasta, hasta?",
+   "options": [
+    "la 1.ª",
+    "la 3.ª",
+    "la 2.ª",
+    "la 4.ª"
+   ],
+   "correct": 2,
+   "explanation": "Es la 2.ª: «asta», no «hasta»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m028",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: vello, vello, vello, bello, vello?",
+   "options": [
+    "la 2.ª",
+    "la 4.ª",
+    "la 1.ª",
+    "la 3.ª"
+   ],
+   "correct": 1,
+   "explanation": "Es la 4.ª: «bello», no «vello»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m029",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: tubo, tuvo, tuvo, tuvo, tuvo?",
+   "options": [
+    "la 2.ª",
+    "la 4.ª",
+    "la 1.ª",
+    "la 3.ª"
+   ],
+   "correct": 2,
+   "explanation": "Es la 1.ª: «tubo», no «tuvo»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m030",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: hecho, hecho, echo, hecho, hecho?",
+   "options": [
+    "la 3.ª",
+    "la 1.ª",
+    "la 2.ª",
+    "la 4.ª"
+   ],
+   "correct": 0,
+   "explanation": "Es la 3.ª: «echo», no «hecho»."
+  },
+  {
+   "id": "es_memoria_visual_l6_m031",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: vaca, vaca, vaca, vaca, baca?",
+   "options": [
+    "la 5.ª",
+    "la 1.ª",
+    "la 3.ª",
+    "la 2.ª"
+   ],
+   "correct": 0,
+   "explanation": "Es la 5.ª: «baca», no «vaca»."
+  },
+  {
+   "id": "es_memoria_visual_l6_o001",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras por orden alfabético",
+   "pieces": [
+    "abrazo",
+    "abrigo",
+    "abril",
+    "abrir"
+   ],
+   "correctOrder": [
+    "abrazo",
+    "abrigo",
+    "abril",
+    "abrir"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Orden alfabético: abrazo, abrigo, abril, abrir."
+  },
+  {
+   "id": "es_memoria_visual_l6_o002",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras por orden alfabético",
+   "pieces": [
+    "cebo",
+    "ceja",
+    "celo",
+    "cena"
+   ],
+   "correctOrder": [
+    "cebo",
+    "ceja",
+    "celo",
+    "cena"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Orden alfabético: cebo, ceja, celo, cena."
+  },
+  {
+   "id": "es_memoria_visual_l6_o003",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras por orden alfabético",
+   "pieces": [
+    "llama",
+    "llano",
+    "llave",
+    "lluvia"
+   ],
+   "correctOrder": [
+    "llama",
+    "llano",
+    "llave",
+    "lluvia"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Orden alfabético: llama, llano, llave, lluvia."
+  },
+  {
+   "id": "es_memoria_visual_l7_m001",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "exhivir",
+    "eshibir",
+    "exhibir",
+    "exibir"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «exhibir». exhibir lleva x y h."
+  },
+  {
+   "id": "es_memoria_visual_l7_m002",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "escabar",
+    "excavar",
+    "exkavar",
+    "excabar"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «excavar»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m003",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "extranjerro",
+    "extrangero",
+    "estranjero",
+    "extranjero"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «extranjero»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m004",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "hipótessis",
+    "ipótesis",
+    "hipotesis",
+    "hipótesis"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «hipótesis». hipo-/hiper- llevan h."
+  },
+  {
+   "id": "es_memoria_visual_l7_m005",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "absurdó",
+    "apsurdo",
+    "avsurdo",
+    "absurdo"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «absurdo»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m006",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "vehemente",
+    "veemente",
+    "behemente",
+    "vehemmente"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «vehemente»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m007",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "adhezivo",
+    "adesivo",
+    "adhesivo",
+    "adhesibo"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «adhesivo»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m008",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "cónyuge",
+    "cónllugue",
+    "cónyugé",
+    "cónyugue"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «cónyuge»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m009",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "garajje",
+    "garaje",
+    "garage",
+    "garraje"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «garaje». Las palabras acabadas en -aje se escriben con j."
+  },
+  {
+   "id": "es_memoria_visual_l7_m010",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "bisabuello",
+    "bisabuelo",
+    "bisagüelo",
+    "visabuelo"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «bisabuelo»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m011",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "ahuyentrar",
+    "auyentar",
+    "ahullentar",
+    "ahuyentar"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «ahuyentar»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m012",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "avelana",
+    "avellanna",
+    "abellana",
+    "avellana"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «avellana»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m013",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "hemisferio",
+    "hemisfeiro",
+    "hemisfério",
+    "emisferio"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «hemisferio». hemi- (mitad) lleva h."
+  },
+  {
+   "id": "es_memoria_visual_l7_m014",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "enhebrrar",
+    "enebrar",
+    "enhebrar",
+    "enhevrar"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «enhebrar»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m015",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "suvención",
+    "subvencion",
+    "subbención",
+    "subvención"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «subvención». Después de b se escribe v en subvención."
+  },
+  {
+   "id": "es_memoria_visual_l7_m016",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "extinguír",
+    "extinguir",
+    "estinguir",
+    "extingir"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «extinguir»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m017",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "ojeción",
+    "objeción",
+    "obgeción",
+    "objecion"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «objeción»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m018",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "inherente",
+    "inherrente",
+    "inheránte",
+    "inerente"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «inherente»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m019",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "desaúcio",
+    "deshaucio",
+    "desaucio",
+    "desahucio"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «desahucio». desahucio lleva h intercalada."
+  },
+  {
+   "id": "es_memoria_visual_l7_m020",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "vohemio",
+    "bohémio",
+    "boemio",
+    "bohemio"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «bohemio»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m021",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «actitud»",
+   "options": [
+    "altitud",
+    "actitud",
+    "actividad",
+    "aptitud"
+   ],
+   "correct": 1,
+   "explanation": "Fíjate bien en cada letra: a-c-t-i-t-u-d."
+  },
+  {
+   "id": "es_memoria_visual_l7_m022",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «absolver»",
+   "options": [
+    "absorber",
+    "absolver",
+    "disolver",
+    "resolver"
+   ],
+   "correct": 1,
+   "explanation": "Fíjate bien en cada letra: a-b-s-o-l-v-e-r."
+  },
+  {
+   "id": "es_memoria_visual_l7_m023",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «especie»",
+   "options": [
+    "especial",
+    "especia",
+    "espacie",
+    "especie"
+   ],
+   "correct": 3,
+   "explanation": "Fíjate bien en cada letra: e-s-p-e-c-i-e."
+  },
+  {
+   "id": "es_memoria_visual_l7_m024",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «adoptar»",
+   "options": [
+    "adornar",
+    "aportar",
+    "adaptar",
+    "adoptar"
+   ],
+   "correct": 3,
+   "explanation": "Fíjate bien en cada letra: a-d-o-p-t-a-r."
+  },
+  {
+   "id": "es_memoria_visual_l7_m025",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «efecto»",
+   "options": [
+    "efecto",
+    "infecto",
+    "afecto",
+    "defecto"
+   ],
+   "correct": 0,
+   "explanation": "Fíjate bien en cada letra: e-f-e-c-t-o."
+  },
+  {
+   "id": "es_memoria_visual_l7_m026",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «prever»",
+   "options": [
+    "prever",
+    "preveer",
+    "prevenir",
+    "proveer"
+   ],
+   "correct": 0,
+   "explanation": "Fíjate bien en cada letra: p-r-e-v-e-r."
+  },
+  {
+   "id": "es_memoria_visual_l7_m027",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: actitud, actitud, aptitud, actitud, actitud?",
+   "options": [
+    "la 1.ª",
+    "la 4.ª",
+    "la 3.ª",
+    "la 2.ª"
+   ],
+   "correct": 2,
+   "explanation": "Es la 3.ª: «aptitud», no «actitud»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m028",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: absolver, absolver, absolver, absolver, absorber?",
+   "options": [
+    "la 5.ª",
+    "la 3.ª",
+    "la 2.ª",
+    "la 1.ª"
+   ],
+   "correct": 0,
+   "explanation": "Es la 5.ª: «absorber», no «absolver»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m029",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: especie, especia, especie, especie, especie?",
+   "options": [
+    "la 4.ª",
+    "la 1.ª",
+    "la 3.ª",
+    "la 2.ª"
+   ],
+   "correct": 3,
+   "explanation": "Es la 2.ª: «especia», no «especie»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m030",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: adoptar, adoptar, adoptar, adaptar, adoptar?",
+   "options": [
+    "la 2.ª",
+    "la 4.ª",
+    "la 3.ª",
+    "la 1.ª"
+   ],
+   "correct": 1,
+   "explanation": "Es la 4.ª: «adaptar», no «adoptar»."
+  },
+  {
+   "id": "es_memoria_visual_l7_m031",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: afecto, efecto, efecto, efecto, efecto?",
+   "options": [
+    "la 3.ª",
+    "la 1.ª",
+    "la 2.ª",
+    "la 4.ª"
+   ],
+   "correct": 1,
+   "explanation": "Es la 1.ª: «afecto», no «efecto»."
+  },
+  {
+   "id": "es_memoria_visual_l7_o001",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras por orden alfabético",
+   "pieces": [
+    "parada",
+    "paraguas",
+    "paraíso",
+    "paralelo"
+   ],
+   "correctOrder": [
+    "parada",
+    "paraguas",
+    "paraíso",
+    "paralelo"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Orden alfabético: parada, paraguas, paraíso, paralelo."
+  },
+  {
+   "id": "es_memoria_visual_l7_o002",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras por orden alfabético",
+   "pieces": [
+    "contar",
+    "contener",
+    "contento",
+    "contexto"
+   ],
+   "correctOrder": [
+    "contar",
+    "contener",
+    "contento",
+    "contexto"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Orden alfabético: contar, contener, contento, contexto."
+  },
+  {
+   "id": "es_memoria_visual_l7_o003",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras por orden alfabético",
+   "pieces": [
+    "examen",
+    "excavar",
+    "exhibir",
+    "exigir"
+   ],
+   "correctOrder": [
+    "examen",
+    "excavar",
+    "exhibir",
+    "exigir"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Orden alfabético: examen, excavar, exhibir, exigir."
+  },
+  {
+   "id": "es_memoria_visual_l8_m001",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "exuverante",
+    "exhuberante",
+    "exuberante",
+    "esuberante"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «exuberante». exuberante no lleva h."
+  },
+  {
+   "id": "es_memoria_visual_l8_m002",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "espontánio",
+    "espontáneo",
+    "espontáneio",
+    "expontáneo"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «espontáneo». espontáneo se escribe con s."
+  },
+  {
+   "id": "es_memoria_visual_l8_m003",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "escéntrico",
+    "exéntrico",
+    "excéntrico",
+    "excentrico"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «excéntrico»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m004",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "adolecencia",
+    "adolescencia",
+    "adolescensia",
+    "adolesencia"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «adolescencia». adolescencia lleva sc."
+  },
+  {
+   "id": "es_memoria_visual_l8_m005",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "diszernir",
+    "discernir",
+    "dicernir",
+    "diserner"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «discernir»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m006",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "precindir",
+    "prescinder",
+    "prescindir",
+    "presindir"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «prescindir»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m007",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "absesso",
+    "avsceso",
+    "abceso",
+    "absceso"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «absceso»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m008",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "combalecencia",
+    "convalescencia",
+    "convalecensia",
+    "convalecencia"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «convalecencia»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m009",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "diócesis",
+    "diocesis",
+    "dióccesis",
+    "diócesys"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «diócesis»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m010",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "asensor",
+    "ascensor",
+    "acensor",
+    "ascenzor"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «ascensor»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m011",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "disiplina",
+    "diciplina",
+    "disciplína",
+    "disciplina"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «disciplina»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m012",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "efervecente",
+    "eferbescente",
+    "efervesente",
+    "efervescente"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «efervescente»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m013",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "hilvanar",
+    "hilbanar",
+    "ilvanar",
+    "hilvannar"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «hilvanar»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m014",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "atmósfera",
+    "atmósphera",
+    "athmósfera",
+    "admósfera"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «atmósfera». Esdrújula: siempre lleva tilde."
+  },
+  {
+   "id": "es_memoria_visual_l8_m015",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "benevolo",
+    "venévolo",
+    "benébolo",
+    "benévolo"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «benévolo»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m016",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "espectativa",
+    "expectatiba",
+    "expextativa",
+    "expectativa"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «expectativa». expectativa lleva x (de expectación)."
+  },
+  {
+   "id": "es_memoria_visual_l8_m017",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "expectáculo",
+    "espectaculo",
+    "espectácculo",
+    "espectáculo"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «espectáculo». espectáculo lleva s (de espectador)."
+  },
+  {
+   "id": "es_memoria_visual_l8_m018",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "vislumbar",
+    "vislunbrar",
+    "vislumbrar",
+    "bislumbrar"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «vislumbrar»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m019",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "inmisquir",
+    "imiscuir",
+    "inmiscuír",
+    "inmiscuir"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «inmiscuir»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m020",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "transgredir",
+    "transgedir",
+    "transgreder",
+    "transgrdir"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «transgredir»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m021",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «infligir»",
+   "options": [
+    "infringir",
+    "inflingir",
+    "infligió",
+    "infligir"
+   ],
+   "correct": 3,
+   "explanation": "Fíjate bien en cada letra: i-n-f-l-i-g-i-r."
+  },
+  {
+   "id": "es_memoria_visual_l8_m022",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «perjuicio»",
+   "options": [
+    "perjurio",
+    "perjuicio",
+    "prejuicio",
+    "prejuzgar"
+   ],
+   "correct": 1,
+   "explanation": "Fíjate bien en cada letra: p-e-r-j-u-i-c-i-o."
+  },
+  {
+   "id": "es_memoria_visual_l8_m023",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «eminente»",
+   "options": [
+    "inminente",
+    "eminente",
+    "emanente",
+    "eminencia"
+   ],
+   "correct": 1,
+   "explanation": "Fíjate bien en cada letra: e-m-i-n-e-n-t-e."
+  },
+  {
+   "id": "es_memoria_visual_l8_m024",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «sesión»",
+   "options": [
+    "seción",
+    "sección",
+    "cesión",
+    "sesión"
+   ],
+   "correct": 3,
+   "explanation": "Fíjate bien en cada letra: s-e-s-i-ó-n."
+  },
+  {
+   "id": "es_memoria_visual_l8_m025",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «deferencia»",
+   "options": [
+    "diferencia",
+    "deferente",
+    "deferencia",
+    "referencia"
+   ],
+   "correct": 2,
+   "explanation": "Fíjate bien en cada letra: d-e-f-e-r-e-n-c-i-a."
+  },
+  {
+   "id": "es_memoria_visual_l8_m026",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «espiar»",
+   "options": [
+    "expirar",
+    "espirar",
+    "expiar",
+    "espiar"
+   ],
+   "correct": 3,
+   "explanation": "Fíjate bien en cada letra: e-s-p-i-a-r."
+  },
+  {
+   "id": "es_memoria_visual_l8_m027",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: infligir, infligir, infligir, infringir, infligir?",
+   "options": [
+    "la 3.ª",
+    "la 2.ª",
+    "la 1.ª",
+    "la 4.ª"
+   ],
+   "correct": 3,
+   "explanation": "Es la 4.ª: «infringir», no «infligir»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m028",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: prejuicio, perjuicio, perjuicio, perjuicio, perjuicio?",
+   "options": [
+    "la 3.ª",
+    "la 4.ª",
+    "la 1.ª",
+    "la 2.ª"
+   ],
+   "correct": 2,
+   "explanation": "Es la 1.ª: «prejuicio», no «perjuicio»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m029",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: eminente, eminente, inminente, eminente, eminente?",
+   "options": [
+    "la 1.ª",
+    "la 2.ª",
+    "la 3.ª",
+    "la 4.ª"
+   ],
+   "correct": 2,
+   "explanation": "Es la 3.ª: «inminente», no «eminente»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m030",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: sesión, sesión, sesión, sesión, sección?",
+   "options": [
+    "la 1.ª",
+    "la 2.ª",
+    "la 3.ª",
+    "la 5.ª"
+   ],
+   "correct": 3,
+   "explanation": "Es la 5.ª: «sección», no «sesión»."
+  },
+  {
+   "id": "es_memoria_visual_l8_m031",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: deferencia, diferencia, deferencia, deferencia, deferencia?",
+   "options": [
+    "la 4.ª",
+    "la 2.ª",
+    "la 3.ª",
+    "la 1.ª"
+   ],
+   "correct": 1,
+   "explanation": "Es la 2.ª: «diferencia», no «deferencia»."
+  },
+  {
+   "id": "es_memoria_visual_l8_o001",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras por orden alfabético",
+   "pieces": [
+    "desarme",
+    "desastre",
+    "desatar",
+    "desayuno"
+   ],
+   "correctOrder": [
+    "desarme",
+    "desastre",
+    "desatar",
+    "desayuno"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Orden alfabético: desarme, desastre, desatar, desayuno."
+  },
+  {
+   "id": "es_memoria_visual_l8_o002",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras por orden alfabético",
+   "pieces": [
+    "huelga",
+    "huella",
+    "huérfano",
+    "huerta"
+   ],
+   "correctOrder": [
+    "huelga",
+    "huella",
+    "huérfano",
+    "huerta"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Orden alfabético: huelga, huella, huérfano, huerta."
+  },
+  {
+   "id": "es_memoria_visual_l8_o003",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras por orden alfabético",
+   "pieces": [
+    "prever",
+    "previo",
+    "previsto",
+    "prez"
+   ],
+   "correctOrder": [
+    "prever",
+    "previo",
+    "previsto",
+    "prez"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Orden alfabético: prever, previo, previsto, prez."
+  },
+  {
+   "id": "es_memoria_visual_l9_m001",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "idiosincrasia",
+    "ideosincrasia",
+    "idiosincracia",
+    "idiosincrásia"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «idiosincrasia». Termina en -sia, no en -cia."
+  },
+  {
+   "id": "es_memoria_visual_l9_m002",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "exhacerbar",
+    "exacervar",
+    "esacerbar",
+    "exacerbar"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «exacerbar»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m003",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "desavenéncia",
+    "desavenencia",
+    "desabenencia",
+    "desavenensia"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «desavenencia»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m004",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "ahínko",
+    "ahínco",
+    "ahinco",
+    "aínco"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «ahínco». ahínco lleva h y tilde por el hiato."
+  },
+  {
+   "id": "es_memoria_visual_l9_m005",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "rehabilitarr",
+    "reabilitar",
+    "rehabilitar",
+    "rehavilitar"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «rehabilitar»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m006",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "abllecto",
+    "avyecto",
+    "abiecto",
+    "abyecto"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «abyecto»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m007",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "ascetismo",
+    "ascetizmo",
+    "acetismo",
+    "asetismo"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «ascetismo»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m008",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "indenme",
+    "indémne",
+    "indemne",
+    "indemnhe"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «indemne»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m009",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "eshortar",
+    "exhortar",
+    "exortar",
+    "exhortár"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «exhortar». exhortar lleva x y h."
+  },
+  {
+   "id": "es_memoria_visual_l9_m010",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "visicitud",
+    "vicisitud",
+    "bicisitud",
+    "vicicitud"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «vicisitud»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m011",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "prevarricar",
+    "prevaricar",
+    "prevaricár",
+    "prebaricar"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «prevaricar»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m012",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "subyaciente",
+    "suyacente",
+    "subllacente",
+    "subyacente"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «subyacente»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m013",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "concienzia",
+    "conciensia",
+    "conciencia",
+    "consciensia"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «conciencia». conciencia no lleva s antes de la c."
+  },
+  {
+   "id": "es_memoria_visual_l9_m014",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "inconsiente",
+    "inconsciente",
+    "incosciente",
+    "inconciente"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «inconsciente». inconsciente sí lleva s: in-cons-cien-te."
+  },
+  {
+   "id": "es_memoria_visual_l9_m015",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "obsolesencia",
+    "obsolescencia",
+    "ovsolescencia",
+    "obsolecencia"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «obsolescencia»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m016",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "sesagenario",
+    "sexagenario",
+    "sexajenario",
+    "sexaginario"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «sexagenario»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m017",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "eségesis",
+    "exégesis",
+    "exégessis",
+    "exéjesis"
+   ],
+   "correct": 1,
+   "explanation": "Se escribe «exégesis»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m018",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Elige la escritura correcta:",
+   "options": [
+    "ecatombe",
+    "hecatombre",
+    "hecatombe",
+    "hecatonbe"
+   ],
+   "correct": 2,
+   "explanation": "Se escribe «hecatombe»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m019",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál no tiene ningún error?",
+   "options": [
+    "vehiculo",
+    "veículo",
+    "behículo",
+    "vehículo"
+   ],
+   "correct": 3,
+   "explanation": "Se escribe «vehículo». vehículo lleva h intercalada y tilde por el hiato."
+  },
+  {
+   "id": "es_memoria_visual_l9_m020",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Señala la palabra correcta:",
+   "options": [
+    "aleatorio",
+    "alleatorio",
+    "aleatoreo",
+    "aleátorio"
+   ],
+   "correct": 0,
+   "explanation": "Se escribe «aleatorio»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m021",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «contexto»",
+   "options": [
+    "contacto",
+    "contento",
+    "contexto",
+    "contesto"
+   ],
+   "correct": 2,
+   "explanation": "Fíjate bien en cada letra: c-o-n-t-e-x-t-o."
+  },
+  {
+   "id": "es_memoria_visual_l9_m022",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «desecho»",
+   "options": [
+    "despecho",
+    "derecho",
+    "desecho",
+    "deshecho"
+   ],
+   "correct": 2,
+   "explanation": "Fíjate bien en cada letra: d-e-s-e-c-h-o."
+  },
+  {
+   "id": "es_memoria_visual_l9_m023",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «abertura»",
+   "options": [
+    "abertura",
+    "abultura",
+    "apertura",
+    "obertura"
+   ],
+   "correct": 0,
+   "explanation": "Fíjate bien en cada letra: a-b-e-r-t-u-r-a."
+  },
+  {
+   "id": "es_memoria_visual_l9_m024",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «especia»",
+   "options": [
+    "especial",
+    "espacio",
+    "especia",
+    "especie"
+   ],
+   "correct": 2,
+   "explanation": "Fíjate bien en cada letra: e-s-p-e-c-i-a."
+  },
+  {
+   "id": "es_memoria_visual_l9_m025",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «ingerir»",
+   "options": [
+    "ingerir",
+    "ingeniar",
+    "inferir",
+    "injerir"
+   ],
+   "correct": 0,
+   "explanation": "Fíjate bien en cada letra: i-n-g-e-r-i-r."
+  },
+  {
+   "id": "es_memoria_visual_l9_m026",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Encuentra la palabra «estático»",
+   "options": [
+    "estático",
+    "extático",
+    "estético",
+    "estatuto"
+   ],
+   "correct": 0,
+   "explanation": "Fíjate bien en cada letra: e-s-t-á-t-i-c-o."
+  },
+  {
+   "id": "es_memoria_visual_l9_m027",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: contexto, contexto, contexto, contexto, contesto?",
+   "options": [
+    "la 3.ª",
+    "la 1.ª",
+    "la 2.ª",
+    "la 5.ª"
+   ],
+   "correct": 3,
+   "explanation": "Es la 5.ª: «contesto», no «contexto»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m028",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: desecho, deshecho, desecho, desecho, desecho?",
+   "options": [
+    "la 3.ª",
+    "la 4.ª",
+    "la 2.ª",
+    "la 1.ª"
+   ],
+   "correct": 2,
+   "explanation": "Es la 2.ª: «deshecho», no «desecho»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m029",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: abertura, abertura, abertura, apertura, abertura?",
+   "options": [
+    "la 1.ª",
+    "la 3.ª",
+    "la 4.ª",
+    "la 2.ª"
+   ],
+   "correct": 2,
+   "explanation": "Es la 4.ª: «apertura», no «abertura»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m030",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: especie, especia, especia, especia, especia?",
+   "options": [
+    "la 2.ª",
+    "la 3.ª",
+    "la 4.ª",
+    "la 1.ª"
+   ],
+   "correct": 3,
+   "explanation": "Es la 1.ª: «especie», no «especia»."
+  },
+  {
+   "id": "es_memoria_visual_l9_m031",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué palabra es diferente: ingerir, ingerir, injerir, ingerir, ingerir?",
+   "options": [
+    "la 3.ª",
+    "la 1.ª",
+    "la 2.ª",
+    "la 4.ª"
+   ],
+   "correct": 0,
+   "explanation": "Es la 3.ª: «injerir», no «ingerir»."
+  },
+  {
+   "id": "es_memoria_visual_l9_o001",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras por orden alfabético",
+   "pieces": [
+    "ambiguo",
+    "ámbito",
+    "ambos",
+    "ambulancia"
+   ],
+   "correctOrder": [
+    "ambiguo",
+    "ámbito",
+    "ambos",
+    "ambulancia"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Orden alfabético: ambiguo, ámbito, ambos, ambulancia."
+  },
+  {
+   "id": "es_memoria_visual_l9_o002",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras por orden alfabético",
+   "pieces": [
+    "consciente",
+    "consecuencia",
+    "conseguir",
+    "consejo"
+   ],
+   "correctOrder": [
+    "consciente",
+    "consecuencia",
+    "conseguir",
+    "consejo"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Orden alfabético: consciente, consecuencia, conseguir, consejo."
+  },
+  {
+   "id": "es_memoria_visual_l9_o003",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena las palabras por orden alfabético",
+   "pieces": [
+    "subrayar",
+    "subsistir",
+    "subterráneo",
+    "suburbio"
+   ],
+   "correctOrder": [
+    "subrayar",
+    "subsistir",
+    "subterráneo",
+    "suburbio"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Orden alfabético: subrayar, subsistir, subterráneo, suburbio."
   }
  ]
 }

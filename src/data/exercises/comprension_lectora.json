@@ -3271,6 +3271,1696 @@
    "options": [],
    "correct": 0,
    "explanation": "En la superficie, el magma se llama lava."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m001",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la idea principal del texto?",
+   "options": [
+    "Las abejas son importantes porque polinizan las plantas",
+    "Hay abejas en todo el mundo",
+    "Las manzanas necesitan agua",
+    "Las abejas fabrican mucha miel"
+   ],
+   "correct": 0,
+   "explanation": "El texto explica por qué la polinización de las abejas es importante.",
+   "passage": "Las abejas no solo fabrican miel. Al ir de flor en flor, transportan el polen que las plantas necesitan para formar frutos y semillas. Este proceso se llama polinización. Sin él, muchos alimentos que comemos a diario, como las manzanas o las almendras, serían escasos. Por eso preocupa que en los últimos años haya disminuido el número de abejas en muchas zonas del mundo."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m002",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué es la polinización?",
+   "options": [
+    "Fabricar miel",
+    "Construir colmenas",
+    "Llevar el polen de una flor a otra",
+    "Comer almendras"
+   ],
+   "correct": 2,
+   "explanation": "«transportan el polen [...]. Este proceso se llama polinización.»",
+   "passage": "Las abejas no solo fabrican miel. Al ir de flor en flor, transportan el polen que las plantas necesitan para formar frutos y semillas. Este proceso se llama polinización. Sin él, muchos alimentos que comemos a diario, como las manzanas o las almendras, serían escasos. Por eso preocupa que en los últimos años haya disminuido el número de abejas en muchas zonas del mundo."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m003",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué pasaría si no hubiera polinización?",
+   "options": [
+    "Habría menos frutos y semillas",
+    "Las flores serían más grandes",
+    "Habría más miel",
+    "Las abejas vivirían más"
+   ],
+   "correct": 0,
+   "explanation": "«Sin él, muchos alimentos [...] serían escasos.»",
+   "passage": "Las abejas no solo fabrican miel. Al ir de flor en flor, transportan el polen que las plantas necesitan para formar frutos y semillas. Este proceso se llama polinización. Sin él, muchos alimentos que comemos a diario, como las manzanas o las almendras, serían escasos. Por eso preocupa que en los últimos años haya disminuido el número de abejas en muchas zonas del mundo."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m004",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «escasos» en el texto?",
+   "options": [
+    "Que están podridos",
+    "Que son grandes",
+    "Que hay pocos",
+    "Que son caros"
+   ],
+   "correct": 2,
+   "explanation": "Escaso significa que hay poca cantidad.",
+   "passage": "Las abejas no solo fabrican miel. Al ir de flor en flor, transportan el polen que las plantas necesitan para formar frutos y semillas. Este proceso se llama polinización. Sin él, muchos alimentos que comemos a diario, como las manzanas o las almendras, serían escasos. Por eso preocupa que en los últimos años haya disminuido el número de abejas en muchas zonas del mundo."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m005",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Dónde encontró Lucía el sobre?",
+   "options": [
+    "En su mochila",
+    "En el buzón de su casa",
+    "En el patio",
+    "Dentro de un libro de la biblioteca"
+   ],
+   "correct": 3,
+   "explanation": "«entre las páginas de un libro viejo de la biblioteca»",
+   "passage": "Lucía encontró el sobre entre las páginas de un libro viejo de la biblioteca. Estaba amarillento y llevaba un sello de 1962. Dudó un momento: no era suyo. Sin embargo, la curiosidad pudo más y lo abrió con cuidado. Dentro había una foto de una chica de su edad delante del mismo instituto y una nota: «Para quien la encuentre: cuida este lugar»."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m006",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo sabemos que el sobre era antiguo?",
+   "options": [
+    "Lo dijo la bibliotecaria",
+    "Estaba roto",
+    "Olía a humedad",
+    "Estaba amarillento y tenía un sello de 1962"
+   ],
+   "correct": 3,
+   "explanation": "«Estaba amarillento y llevaba un sello de 1962.»",
+   "passage": "Lucía encontró el sobre entre las páginas de un libro viejo de la biblioteca. Estaba amarillento y llevaba un sello de 1962. Dudó un momento: no era suyo. Sin embargo, la curiosidad pudo más y lo abrió con cuidado. Dentro había una foto de una chica de su edad delante del mismo instituto y una nota: «Para quien la encuentre: cuida este lugar»."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m007",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Por qué dudó Lucía antes de abrirlo?",
+   "options": [
+    "Porque no era suyo",
+    "Porque le daba miedo",
+    "Porque estaba pegado",
+    "Porque no sabía leer la letra"
+   ],
+   "correct": 0,
+   "explanation": "«Dudó un momento: no era suyo.»",
+   "passage": "Lucía encontró el sobre entre las páginas de un libro viejo de la biblioteca. Estaba amarillento y llevaba un sello de 1962. Dudó un momento: no era suyo. Sin embargo, la curiosidad pudo más y lo abrió con cuidado. Dentro había una foto de una chica de su edad delante del mismo instituto y una nota: «Para quien la encuentre: cuida este lugar»."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m008",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tienen en común Lucía y la chica de la foto?",
+   "options": [
+    "Tienen la misma edad y el mismo instituto",
+    "Viven en la misma calle",
+    "Son hermanas",
+    "Se llaman igual"
+   ],
+   "correct": 0,
+   "explanation": "«una chica de su edad delante del mismo instituto»",
+   "passage": "Lucía encontró el sobre entre las páginas de un libro viejo de la biblioteca. Estaba amarillento y llevaba un sello de 1962. Dudó un momento: no era suyo. Sin embargo, la curiosidad pudo más y lo abrió con cuidado. Dentro había una foto de una chica de su edad delante del mismo instituto y una nota: «Para quien la encuentre: cuida este lugar»."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m009",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tipo de texto es?",
+   "options": [
+    "Narrativo: cuenta una historia",
+    "Instructivo: da normas para hacer algo",
+    "Descriptivo: describe un paisaje",
+    "Poético: expresa sentimientos"
+   ],
+   "correct": 1,
+   "explanation": "Da instrucciones y normas numeradas.",
+   "passage": "Normas para la salida al parque natural: 1. Llegad al instituto a las 8:15; el autobús sale a las 8:30. 2. Traed agua, comida y calzado cómodo. 3. No os separéis del grupo durante la ruta. 4. Está prohibido arrancar plantas o dejar basura. 5. Si alguien se encuentra mal, avisad enseguida a un profesor."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m010",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿A qué hora sale el autobús?",
+   "options": [
+    "A las 8:00",
+    "A las 8:30",
+    "A las 8:15",
+    "A las 9:00"
+   ],
+   "correct": 1,
+   "explanation": "«el autobús sale a las 8:30»",
+   "passage": "Normas para la salida al parque natural: 1. Llegad al instituto a las 8:15; el autobús sale a las 8:30. 2. Traed agua, comida y calzado cómodo. 3. No os separéis del grupo durante la ruta. 4. Está prohibido arrancar plantas o dejar basura. 5. Si alguien se encuentra mal, avisad enseguida a un profesor."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m011",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Por qué hay que llegar a las 8:15?",
+   "options": [
+    "Para comprar agua",
+    "Para no perder el autobús",
+    "Para elegir asiento",
+    "Para desayunar"
+   ],
+   "correct": 1,
+   "explanation": "Se llega antes de que salga el autobús.",
+   "passage": "Normas para la salida al parque natural: 1. Llegad al instituto a las 8:15; el autobús sale a las 8:30. 2. Traed agua, comida y calzado cómodo. 3. No os separéis del grupo durante la ruta. 4. Está prohibido arrancar plantas o dejar basura. 5. Si alguien se encuentra mal, avisad enseguida a un profesor."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m012",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué debes hacer si te mareas en la ruta?",
+   "options": [
+    "Avisar enseguida a un profesor",
+    "Llamar a casa",
+    "Volver solo al autobús",
+    "Esperar a que se pase"
+   ],
+   "correct": 0,
+   "explanation": "«Si alguien se encuentra mal, avisad enseguida a un profesor.»",
+   "passage": "Normas para la salida al parque natural: 1. Llegad al instituto a las 8:15; el autobús sale a las 8:30. 2. Traed agua, comida y calzado cómodo. 3. No os separéis del grupo durante la ruta. 4. Está prohibido arrancar plantas o dejar basura. 5. Si alguien se encuentra mal, avisad enseguida a un profesor."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m013",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tipo de texto es principalmente?",
+   "options": [
+    "Descriptivo",
+    "Expositivo",
+    "Argumentativo",
+    "Instructivo"
+   ],
+   "correct": 0,
+   "explanation": "Describe cómo es el mercado: colores, olores y sonidos.",
+   "passage": "El mercado estaba lleno de color. Los puestos de fruta formaban montañas de naranjas, caquis y granadas. Olía a pan recién hecho y a especias. Entre el ruido de las voces se oía a un vendedor que anunciaba, casi cantando, que sus tomates eran los mejores de la comarca. Mi abuela avanzaba despacio, saludando a todo el mundo por su nombre."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m014",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué sentidos aparecen en la descripción?",
+   "options": [
+    "Solo la vista",
+    "Solo el oído",
+    "El gusto y el tacto",
+    "La vista, el olfato y el oído"
+   ],
+   "correct": 3,
+   "explanation": "Colores (vista), olor a pan (olfato) y voces (oído).",
+   "passage": "El mercado estaba lleno de color. Los puestos de fruta formaban montañas de naranjas, caquis y granadas. Olía a pan recién hecho y a especias. Entre el ruido de las voces se oía a un vendedor que anunciaba, casi cantando, que sus tomates eran los mejores de la comarca. Mi abuela avanzaba despacio, saludando a todo el mundo por su nombre."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m015",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué podemos deducir de la abuela?",
+   "options": [
+    "Que trabaja allí",
+    "Que tiene prisa",
+    "Que no conoce a nadie",
+    "Que va mucho a ese mercado"
+   ],
+   "correct": 3,
+   "explanation": "Saluda a todo el mundo por su nombre: va a menudo.",
+   "passage": "El mercado estaba lleno de color. Los puestos de fruta formaban montañas de naranjas, caquis y granadas. Olía a pan recién hecho y a especias. Entre el ruido de las voces se oía a un vendedor que anunciaba, casi cantando, que sus tomates eran los mejores de la comarca. Mi abuela avanzaba despacio, saludando a todo el mundo por su nombre."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m016",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué quiere decir «comarca»?",
+   "options": [
+    "Una calle del mercado",
+    "Un tipo de tomate",
+    "Una tienda de verduras",
+    "Una zona con varios pueblos"
+   ],
+   "correct": 3,
+   "explanation": "Una comarca es un territorio con varios municipios.",
+   "passage": "El mercado estaba lleno de color. Los puestos de fruta formaban montañas de naranjas, caquis y granadas. Olía a pan recién hecho y a especias. Entre el ruido de las voces se oía a un vendedor que anunciaba, casi cantando, que sus tomates eran los mejores de la comarca. Mi abuela avanzaba despacio, saludando a todo el mundo por su nombre."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m017",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tipo de texto es?",
+   "options": [
+    "Un cuento",
+    "Una noticia",
+    "Un poema",
+    "Una receta"
+   ],
+   "correct": 1,
+   "explanation": "Informa de un hecho real: qué, quién, cuándo y dónde.",
+   "passage": "El IES Mediterrània celebró el viernes un mercadillo solidario. Los alumnos de 1.º de ESO vendieron libros usados, plantas y pasteles hechos por sus familias. Recaudaron 1.240 euros, que se destinarán a un comedor social del barrio. La directora agradeció la participación y anunció que la actividad se repetirá en primavera."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m018",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Cuánto dinero recaudaron?",
+   "options": [
+    "240 euros",
+    "12.400 euros",
+    "1.420 euros",
+    "1.240 euros"
+   ],
+   "correct": 3,
+   "explanation": "«Recaudaron 1.240 euros»",
+   "passage": "El IES Mediterrània celebró el viernes un mercadillo solidario. Los alumnos de 1.º de ESO vendieron libros usados, plantas y pasteles hechos por sus familias. Recaudaron 1.240 euros, que se destinarán a un comedor social del barrio. La directora agradeció la participación y anunció que la actividad se repetirá en primavera."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m019",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿A qué se destinará el dinero?",
+   "options": [
+    "A un viaje de fin de curso",
+    "A un comedor social del barrio",
+    "A arreglar el instituto",
+    "A comprar libros"
+   ],
+   "correct": 1,
+   "explanation": "«se destinarán a un comedor social del barrio»",
+   "passage": "El IES Mediterrània celebró el viernes un mercadillo solidario. Los alumnos de 1.º de ESO vendieron libros usados, plantas y pasteles hechos por sus familias. Recaudaron 1.240 euros, que se destinarán a un comedor social del barrio. La directora agradeció la participación y anunció que la actividad se repetirá en primavera."
+  },
+  {
+   "id": "es_comprension_lectora_l6_m020",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa que el mercadillo es «solidario»?",
+   "options": [
+    "Que solo venden comida",
+    "Que se hace una vez al año",
+    "Que es gratis",
+    "Que el dinero sirve para ayudar a otras personas"
+   ],
+   "correct": 3,
+   "explanation": "Solidario: que ayuda a quien lo necesita.",
+   "passage": "El IES Mediterrània celebró el viernes un mercadillo solidario. Los alumnos de 1.º de ESO vendieron libros usados, plantas y pasteles hechos por sus familias. Recaudaron 1.240 euros, que se destinarán a un comedor social del barrio. La directora agradeció la participación y anunció que la actividad se repetirá en primavera."
+  },
+  {
+   "id": "es_comprension_lectora_l6_f001",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "El ___ de un texto es la idea más importante.",
+   "blanks": [
+    "tema"
+   ],
+   "distractors": [
+    "título"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El tema es la idea principal."
+  },
+  {
+   "id": "es_comprension_lectora_l6_f002",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Las plantas producen su alimento mediante la ___.",
+   "blanks": [
+    "fotosíntesis"
+   ],
+   "distractors": [
+    "digestión"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La fotosíntesis transforma la luz en alimento."
+  },
+  {
+   "id": "es_comprension_lectora_l6_f003",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Un texto que da órdenes o pasos a seguir es ___.",
+   "blanks": [
+    "instructivo"
+   ],
+   "distractors": [
+    "narrativo"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Los textos instructivos explican cómo hacer algo."
+  },
+  {
+   "id": "es_comprension_lectora_l6_f004",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "El ___ cuenta la historia y los ___ participan en ella.",
+   "blanks": [
+    "narrador",
+    "personajes"
+   ],
+   "distractors": [
+    "lector",
+    "escritores"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El narrador cuenta; los personajes actúan."
+  },
+  {
+   "id": "es_comprension_lectora_l6_f005",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Una palabra con significado ___ a otra es un sinónimo.",
+   "blanks": [
+    "parecido"
+   ],
+   "distractors": [
+    "contrario"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Sinónimo: significado igual o parecido."
+  },
+  {
+   "id": "es_comprension_lectora_l6_f006",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "El agua del mar se ___ con el calor del sol.",
+   "blanks": [
+    "evapora"
+   ],
+   "distractors": [
+    "congela"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El calor evapora el agua."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m001",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es el tema del texto?",
+   "options": [
+    "Cómo se forman las nubes",
+    "Cómo es la lluvia en el clima mediterráneo y sus efectos",
+    "Por qué el mar es salado",
+    "Los ríos más largos de España"
+   ],
+   "correct": 1,
+   "explanation": "Explica cómo llueve y qué consecuencias tiene.",
+   "passage": "En el clima mediterráneo, la lluvia se concentra en pocos días del año, a menudo en forma de tormentas intensas. Esto tiene dos consecuencias. Por un lado, el agua cae tan deprisa que el suelo no puede absorberla y se producen inundaciones. Por otro, los largos periodos sin lluvia provocan sequías. Por eso los expertos insisten en que gestionar bien el agua es tan importante como que llueva."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m002",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Por qué se producen inundaciones?",
+   "options": [
+    "Porque llueve todos los días",
+    "Porque hace mucho frío",
+    "Porque el mar sube",
+    "Porque el agua cae tan deprisa que el suelo no la absorbe"
+   ],
+   "correct": 3,
+   "explanation": "«el agua cae tan deprisa que el suelo no puede absorberla»",
+   "passage": "En el clima mediterráneo, la lluvia se concentra en pocos días del año, a menudo en forma de tormentas intensas. Esto tiene dos consecuencias. Por un lado, el agua cae tan deprisa que el suelo no puede absorberla y se producen inundaciones. Por otro, los largos periodos sin lluvia provocan sequías. Por eso los expertos insisten en que gestionar bien el agua es tan importante como que llueva."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m003",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué función tienen «Por un lado» y «Por otro»?",
+   "options": [
+    "Contar un recuerdo",
+    "Ordenar dos consecuencias",
+    "Expresar una duda",
+    "Dar una orden"
+   ],
+   "correct": 1,
+   "explanation": "Son conectores que organizan las ideas.",
+   "passage": "En el clima mediterráneo, la lluvia se concentra en pocos días del año, a menudo en forma de tormentas intensas. Esto tiene dos consecuencias. Por un lado, el agua cae tan deprisa que el suelo no puede absorberla y se producen inundaciones. Por otro, los largos periodos sin lluvia provocan sequías. Por eso los expertos insisten en que gestionar bien el agua es tan importante como que llueva."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m004",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué opinan los expertos según el texto?",
+   "options": [
+    "Que en el Mediterráneo nunca llueve",
+    "Que las tormentas son buenas",
+    "Que no se puede hacer nada",
+    "Que gestionar bien el agua es muy importante"
+   ],
+   "correct": 3,
+   "explanation": "«gestionar bien el agua es tan importante como que llueva»",
+   "passage": "En el clima mediterráneo, la lluvia se concentra en pocos días del año, a menudo en forma de tormentas intensas. Esto tiene dos consecuencias. Por un lado, el agua cae tan deprisa que el suelo no puede absorberla y se producen inundaciones. Por otro, los largos periodos sin lluvia provocan sequías. Por eso los expertos insisten en que gestionar bien el agua es tan importante como que llueva."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m005",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tipo de texto es?",
+   "options": [
+    "Una carta de opinión",
+    "Una biografía",
+    "Una noticia",
+    "Un texto instructivo"
+   ],
+   "correct": 0,
+   "explanation": "Se dirige al director y da su opinión.",
+   "passage": "Señor director: soy alumno de 2.º de ESO y quiero opinar sobre la prohibición del móvil en el patio. Muchos compañeros se quejaron al principio, pero ahora jugamos al fútbol, hablamos más y hasta hemos organizado un torneo de ajedrez. Creo que la norma ha mejorado la convivencia. Aun así, pediría que se pudiera usar en caso de emergencia."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m006",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la opinión del autor?",
+   "options": [
+    "Que el patio es pequeño",
+    "Que el ajedrez es aburrido",
+    "Que la prohibición ha mejorado la convivencia",
+    "Que hay que quitar la norma"
+   ],
+   "correct": 2,
+   "explanation": "«Creo que la norma ha mejorado la convivencia.»",
+   "passage": "Señor director: soy alumno de 2.º de ESO y quiero opinar sobre la prohibición del móvil en el patio. Muchos compañeros se quejaron al principio, pero ahora jugamos al fútbol, hablamos más y hasta hemos organizado un torneo de ajedrez. Creo que la norma ha mejorado la convivencia. Aun así, pediría que se pudiera usar en caso de emergencia."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m007",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué argumentos da para defender su opinión?",
+   "options": [
+    "Que se pierden muchos móviles",
+    "Que los móviles son caros",
+    "Que ahora juegan, hablan más y han hecho un torneo",
+    "Que los profesores lo dicen"
+   ],
+   "correct": 2,
+   "explanation": "Pone ejemplos de lo que ha cambiado.",
+   "passage": "Señor director: soy alumno de 2.º de ESO y quiero opinar sobre la prohibición del móvil en el patio. Muchos compañeros se quejaron al principio, pero ahora jugamos al fútbol, hablamos más y hasta hemos organizado un torneo de ajedrez. Creo que la norma ha mejorado la convivencia. Aun así, pediría que se pudiera usar en caso de emergencia."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m008",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué introduce «Aun así»?",
+   "options": [
+    "Un ejemplo",
+    "Una petición que matiza su opinión",
+    "Una conclusión",
+    "Una causa"
+   ],
+   "correct": 1,
+   "explanation": "«Aun así» presenta una idea que matiza lo anterior.",
+   "passage": "Señor director: soy alumno de 2.º de ESO y quiero opinar sobre la prohibición del móvil en el patio. Muchos compañeros se quejaron al principio, pero ahora jugamos al fútbol, hablamos más y hasta hemos organizado un torneo de ajedrez. Creo que la norma ha mejorado la convivencia. Aun así, pediría que se pudiera usar en caso de emergencia."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m009",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tipo de texto es?",
+   "options": [
+    "Una receta",
+    "Un cuento",
+    "Una biografía",
+    "Un anuncio"
+   ],
+   "correct": 2,
+   "explanation": "Cuenta la vida de una persona real.",
+   "passage": "Clara Campoamor nació en Madrid en 1888. Trabajó desde muy joven y estudió Derecho cuando ya era adulta. En 1931 fue elegida diputada y defendió en las Cortes que las mujeres pudieran votar. Muchos, incluso dentro de su propio partido, se opusieron. Finalmente, el voto femenino se aprobó y las mujeres votaron por primera vez en unas elecciones generales en 1933."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m010",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué defendió Clara Campoamor en las Cortes?",
+   "options": [
+    "Que se bajaran los impuestos",
+    "El derecho de las mujeres a votar",
+    "Que se construyeran escuelas",
+    "Que Madrid fuera la capital"
+   ],
+   "correct": 1,
+   "explanation": "«defendió en las Cortes que las mujeres pudieran votar»",
+   "passage": "Clara Campoamor nació en Madrid en 1888. Trabajó desde muy joven y estudió Derecho cuando ya era adulta. En 1931 fue elegida diputada y defendió en las Cortes que las mujeres pudieran votar. Muchos, incluso dentro de su propio partido, se opusieron. Finalmente, el voto femenino se aprobó y las mujeres votaron por primera vez en unas elecciones generales en 1933."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m011",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué indica «incluso dentro de su propio partido»?",
+   "options": [
+    "Que todos la apoyaban",
+    "Que no tenía partido",
+    "Que también tuvo oposición de gente cercana",
+    "Que cambió de partido"
+   ],
+   "correct": 2,
+   "explanation": "«incluso» destaca algo inesperado.",
+   "passage": "Clara Campoamor nació en Madrid en 1888. Trabajó desde muy joven y estudió Derecho cuando ya era adulta. En 1931 fue elegida diputada y defendió en las Cortes que las mujeres pudieran votar. Muchos, incluso dentro de su propio partido, se opusieron. Finalmente, el voto femenino se aprobó y las mujeres votaron por primera vez en unas elecciones generales en 1933."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m012",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿En qué año votaron por primera vez las mujeres en unas elecciones generales?",
+   "options": [
+    "En 1933",
+    "En 1888",
+    "En 1931",
+    "En 1936"
+   ],
+   "correct": 0,
+   "explanation": "«votaron por primera vez [...] en 1933»",
+   "passage": "Clara Campoamor nació en Madrid en 1888. Trabajó desde muy joven y estudió Derecho cuando ya era adulta. En 1931 fue elegida diputada y defendió en las Cortes que las mujeres pudieran votar. Muchos, incluso dentro de su propio partido, se opusieron. Finalmente, el voto femenino se aprobó y las mujeres votaron por primera vez en unas elecciones generales en 1933."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m013",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas horas se recomienda dormir en la adolescencia?",
+   "options": [
+    "Más de doce",
+    "Entre ocho y diez",
+    "Exactamente siete",
+    "Entre cinco y seis"
+   ],
+   "correct": 1,
+   "explanation": "«entre ocho y diez horas»",
+   "passage": "Durante la adolescencia, el reloj interno del cuerpo cambia: el sueño llega más tarde por la noche. Sin embargo, las clases empiezan temprano. Los especialistas recomiendan que los adolescentes duerman entre ocho y diez horas. Cuando no lo hacen, cuesta más concentrarse, recordar lo estudiado y controlar el mal humor. Apagar las pantallas una hora antes de acostarse ayuda a dormir mejor."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m014",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué problema plantea el texto?",
+   "options": [
+    "Que los adolescentes duermen demasiado",
+    "Que las pantallas no gastan batería",
+    "Que el colegio está lejos",
+    "Que el sueño llega tarde pero las clases empiezan pronto"
+   ],
+   "correct": 3,
+   "explanation": "El texto contrapone el sueño tardío y el horario temprano.",
+   "passage": "Durante la adolescencia, el reloj interno del cuerpo cambia: el sueño llega más tarde por la noche. Sin embargo, las clases empiezan temprano. Los especialistas recomiendan que los adolescentes duerman entre ocho y diez horas. Cuando no lo hacen, cuesta más concentrarse, recordar lo estudiado y controlar el mal humor. Apagar las pantallas una hora antes de acostarse ayuda a dormir mejor."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m015",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué consecuencia NO menciona el texto?",
+   "options": [
+    "Estar de mal humor",
+    "Concentrarse peor",
+    "Recordar peor lo estudiado",
+    "Crecer menos"
+   ],
+   "correct": 3,
+   "explanation": "El texto no habla del crecimiento.",
+   "passage": "Durante la adolescencia, el reloj interno del cuerpo cambia: el sueño llega más tarde por la noche. Sin embargo, las clases empiezan temprano. Los especialistas recomiendan que los adolescentes duerman entre ocho y diez horas. Cuando no lo hacen, cuesta más concentrarse, recordar lo estudiado y controlar el mal humor. Apagar las pantallas una hora antes de acostarse ayuda a dormir mejor."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m016",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué consejo da el texto?",
+   "options": [
+    "Tomar café por la mañana",
+    "Estudiar de noche",
+    "Apagar las pantallas una hora antes de dormir",
+    "Dormir la siesta en clase"
+   ],
+   "correct": 2,
+   "explanation": "«Apagar las pantallas una hora antes de acostarse ayuda a dormir mejor.»",
+   "passage": "Durante la adolescencia, el reloj interno del cuerpo cambia: el sueño llega más tarde por la noche. Sin embargo, las clases empiezan temprano. Los especialistas recomiendan que los adolescentes duerman entre ocho y diez horas. Cuando no lo hacen, cuesta más concentrarse, recordar lo estudiado y controlar el mal humor. Apagar las pantallas una hora antes de acostarse ayuda a dormir mejor."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m017",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué problema aparece en la historia?",
+   "options": [
+    "El faro se quedó sin luz",
+    "El farero se perdió",
+    "Un barco sin motor se acercaba a las rocas",
+    "Se rompió la radio"
+   ],
+   "correct": 2,
+   "explanation": "«un pesquero sin motor se acercaba a las rocas»",
+   "passage": "El farero subía cada tarde los ciento doce escalones de la torre. Aquella noche el mar rugía y la lluvia golpeaba los cristales. De pronto vio una luz débil entre las olas: un pesquero sin motor se acercaba a las rocas. No lo pensó dos veces. Encendió la sirena, avisó por radio al puerto y mantuvo el foco apuntando al barco hasta que llegó la ayuda."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m018",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué quiere decir «No lo pensó dos veces»?",
+   "options": [
+    "Que se olvidó",
+    "Que pensó en dos cosas",
+    "Que dudó mucho",
+    "Que actuó enseguida"
+   ],
+   "correct": 3,
+   "explanation": "Es una expresión que significa actuar sin dudar.",
+   "passage": "El farero subía cada tarde los ciento doce escalones de la torre. Aquella noche el mar rugía y la lluvia golpeaba los cristales. De pronto vio una luz débil entre las olas: un pesquero sin motor se acercaba a las rocas. No lo pensó dos veces. Encendió la sirena, avisó por radio al puerto y mantuvo el foco apuntando al barco hasta que llegó la ayuda."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m019",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué recurso aparece en «el mar rugía»?",
+   "options": [
+    "Una comparación",
+    "Una personificación",
+    "Una pregunta retórica",
+    "Una enumeración"
+   ],
+   "correct": 1,
+   "explanation": "Se atribuye al mar una acción de un ser vivo (rugir).",
+   "passage": "El farero subía cada tarde los ciento doce escalones de la torre. Aquella noche el mar rugía y la lluvia golpeaba los cristales. De pronto vio una luz débil entre las olas: un pesquero sin motor se acercaba a las rocas. No lo pensó dos veces. Encendió la sirena, avisó por radio al puerto y mantuvo el foco apuntando al barco hasta que llegó la ayuda."
+  },
+  {
+   "id": "es_comprension_lectora_l7_m020",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "¿Qué rasgo del farero destaca el texto?",
+   "options": [
+    "Su pereza",
+    "Su miedo",
+    "Su mal humor",
+    "Su responsabilidad"
+   ],
+   "correct": 3,
+   "explanation": "Hace todo lo necesario para salvar el barco.",
+   "passage": "El farero subía cada tarde los ciento doce escalones de la torre. Aquella noche el mar rugía y la lluvia golpeaba los cristales. De pronto vio una luz débil entre las olas: un pesquero sin motor se acercaba a las rocas. No lo pensó dos veces. Encendió la sirena, avisó por radio al puerto y mantuvo el foco apuntando al barco hasta que llegó la ayuda."
+  },
+  {
+   "id": "es_comprension_lectora_l7_f001",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Para defender una opinión hay que dar ___.",
+   "blanks": [
+    "argumentos"
+   ],
+   "distractors": [
+    "adjetivos"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Los argumentos apoyan una opinión."
+  },
+  {
+   "id": "es_comprension_lectora_l7_f002",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "La ___ es la vida de una persona contada por otra.",
+   "blanks": [
+    "biografía"
+   ],
+   "distractors": [
+    "autobiografía"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Biografía: la escribe otra persona."
+  },
+  {
+   "id": "es_comprension_lectora_l7_f003",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "El ___ de una noticia resume lo más importante en una línea.",
+   "blanks": [
+    "titular"
+   ],
+   "distractors": [
+    "párrafo"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El titular es la frase destacada de la noticia."
+  },
+  {
+   "id": "es_comprension_lectora_l7_f004",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Los conectores como «sin embargo» expresan ___.",
+   "blanks": [
+    "oposición"
+   ],
+   "distractors": [
+    "causa"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "«Sin embargo» opone dos ideas."
+  },
+  {
+   "id": "es_comprension_lectora_l7_f005",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Un ___ es un texto breve en verso.",
+   "blanks": [
+    "poema"
+   ],
+   "distractors": [
+    "ensayo"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Los poemas suelen escribirse en verso."
+  },
+  {
+   "id": "es_comprension_lectora_l7_f006",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "La ___ del agua es un problema en zonas con poca lluvia.",
+   "blanks": [
+    "escasez"
+   ],
+   "distractors": [
+    "abundancia"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Escasez: falta de algo."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m001",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la tesis del autor?",
+   "options": [
+    "Los horarios no influyen en nada",
+    "La salud de los alumnos debe pesar más que la comodidad de los horarios",
+    "Las familias deben decidir el horario",
+    "Las clases deben empezar a las 7:00"
+   ],
+   "correct": 1,
+   "explanation": "La tesis aparece al final: «A mi juicio...».",
+   "passage": "Algunos institutos de Estados Unidos han retrasado el inicio de las clases hasta las 8:30 o más tarde. Sus defensores sostienen que los alumnos duermen más, faltan menos y rinden mejor. Los críticos responden que se complica la organización familiar y que las actividades de la tarde terminan más tarde. A mi juicio, la salud de los estudiantes debería pesar más que la comodidad de los horarios."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m002",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué es un contraargumento en este texto?",
+   "options": [
+    "Que los alumnos duermen más",
+    "Que faltan menos a clase",
+    "Que se complica la organización familiar",
+    "Que rinden mejor"
+   ],
+   "correct": 2,
+   "explanation": "Es el argumento de quienes opinan lo contrario.",
+   "passage": "Algunos institutos de Estados Unidos han retrasado el inicio de las clases hasta las 8:30 o más tarde. Sus defensores sostienen que los alumnos duermen más, faltan menos y rinden mejor. Los críticos responden que se complica la organización familiar y que las actividades de la tarde terminan más tarde. A mi juicio, la salud de los estudiantes debería pesar más que la comodidad de los horarios."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m003",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué expresión introduce la opinión personal?",
+   "options": [
+    "«A mi juicio»",
+    "«Algunos institutos»",
+    "«Los críticos responden»",
+    "«Sus defensores sostienen»"
+   ],
+   "correct": 0,
+   "explanation": "«A mi juicio» equivale a «en mi opinión».",
+   "passage": "Algunos institutos de Estados Unidos han retrasado el inicio de las clases hasta las 8:30 o más tarde. Sus defensores sostienen que los alumnos duermen más, faltan menos y rinden mejor. Los críticos responden que se complica la organización familiar y que las actividades de la tarde terminan más tarde. A mi juicio, la salud de los estudiantes debería pesar más que la comodidad de los horarios."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m004",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo está organizado el texto?",
+   "options": [
+    "Opinión, receta y conclusión",
+    "Hecho, argumentos a favor, en contra y opinión",
+    "Diálogo entre dos personajes",
+    "Solo argumentos a favor"
+   ],
+   "correct": 1,
+   "explanation": "Presenta el hecho, los dos puntos de vista y la tesis.",
+   "passage": "Algunos institutos de Estados Unidos han retrasado el inicio de las clases hasta las 8:30 o más tarde. Sus defensores sostienen que los alumnos duermen más, faltan menos y rinden mejor. Los críticos responden que se complica la organización familiar y que las actividades de la tarde terminan más tarde. A mi juicio, la salud de los estudiantes debería pesar más que la comodidad de los horarios."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m005",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué recurso literario hay en «Las farolas eran luciérnagas cansadas»?",
+   "options": [
+    "Una pregunta retórica",
+    "Una metáfora",
+    "Una comparación con «como»",
+    "Una hipérbole"
+   ],
+   "correct": 1,
+   "explanation": "Identifica las farolas con luciérnagas sin usar «como».",
+   "passage": "La ciudad dormía bajo una manta de niebla. Las farolas eran luciérnagas cansadas y el tranvía, como un gusano de luz, se deslizaba sin hacer ruido. Yo caminaba despacio, con el corazón hecho un nudo, porque sabía que al doblar la esquina me esperaba una despedida."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m006",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué recurso hay en «el tranvía, como un gusano de luz»?",
+   "options": [
+    "Una onomatopeya",
+    "Un símil o comparación",
+    "Una personificación",
+    "Una metáfora pura"
+   ],
+   "correct": 1,
+   "explanation": "Compara usando «como».",
+   "passage": "La ciudad dormía bajo una manta de niebla. Las farolas eran luciérnagas cansadas y el tranvía, como un gusano de luz, se deslizaba sin hacer ruido. Yo caminaba despacio, con el corazón hecho un nudo, porque sabía que al doblar la esquina me esperaba una despedida."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m007",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué expresa «con el corazón hecho un nudo»?",
+   "options": [
+    "Cansancio físico",
+    "Hambre",
+    "Tristeza y nervios",
+    "Alegría"
+   ],
+   "correct": 2,
+   "explanation": "Es una expresión de angustia o emoción contenida.",
+   "passage": "La ciudad dormía bajo una manta de niebla. Las farolas eran luciérnagas cansadas y el tranvía, como un gusano de luz, se deslizaba sin hacer ruido. Yo caminaba despacio, con el corazón hecho un nudo, porque sabía que al doblar la esquina me esperaba una despedida."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m008",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué ambiente crea la descripción?",
+   "options": [
+    "Festivo y ruidoso",
+    "Cómico",
+    "De terror",
+    "Tranquilo y melancólico"
+   ],
+   "correct": 3,
+   "explanation": "Niebla, silencio y una despedida crean un tono melancólico.",
+   "passage": "La ciudad dormía bajo una manta de niebla. Las farolas eran luciérnagas cansadas y el tranvía, como un gusano de luz, se deslizaba sin hacer ruido. Yo caminaba despacio, con el corazón hecho un nudo, porque sabía que al doblar la esquina me esperaba una despedida."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m009",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué son los microplásticos?",
+   "options": [
+    "Trozos de plástico de menos de cinco milímetros",
+    "Bolsas de supermercado",
+    "Plásticos de colores",
+    "Peces muy pequeños"
+   ],
+   "correct": 0,
+   "explanation": "«fragmentos de plástico de menos de cinco milímetros»",
+   "passage": "Los microplásticos son fragmentos de plástico de menos de cinco milímetros. Proceden de envases que se rompen, de ropa sintética que suelta fibras al lavarla y de algunos productos cosméticos. Se han encontrado en el agua, en el aire, en los peces y hasta en la sal de mesa. Los científicos todavía estudian sus efectos sobre la salud, pero coinciden en que reducir el uso de plástico es la medida más eficaz."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m010",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué fuente de microplásticos menciona el texto?",
+   "options": [
+    "Las piedras del río",
+    "El papel reciclado",
+    "La madera de los muebles",
+    "La ropa sintética al lavarse"
+   ],
+   "correct": 3,
+   "explanation": "«ropa sintética que suelta fibras al lavarla»",
+   "passage": "Los microplásticos son fragmentos de plástico de menos de cinco milímetros. Proceden de envases que se rompen, de ropa sintética que suelta fibras al lavarla y de algunos productos cosméticos. Se han encontrado en el agua, en el aire, en los peces y hasta en la sal de mesa. Los científicos todavía estudian sus efectos sobre la salud, pero coinciden en que reducir el uso de plástico es la medida más eficaz."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m011",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué afirma el texto sobre sus efectos en la salud?",
+   "options": [
+    "Que todavía se están estudiando",
+    "Que son totalmente inofensivos",
+    "Que causan enfermedades graves seguro",
+    "Que no se pueden estudiar"
+   ],
+   "correct": 0,
+   "explanation": "«todavía estudian sus efectos sobre la salud»",
+   "passage": "Los microplásticos son fragmentos de plástico de menos de cinco milímetros. Proceden de envases que se rompen, de ropa sintética que suelta fibras al lavarla y de algunos productos cosméticos. Se han encontrado en el agua, en el aire, en los peces y hasta en la sal de mesa. Los científicos todavía estudian sus efectos sobre la salud, pero coinciden en que reducir el uso de plástico es la medida más eficaz."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m012",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué intención tiene el texto?",
+   "options": [
+    "Contar una aventura",
+    "Informar sobre un problema y su solución principal",
+    "Expresar sentimientos",
+    "Vender un producto"
+   ],
+   "correct": 1,
+   "explanation": "Es un texto expositivo con una recomendación final.",
+   "passage": "Los microplásticos son fragmentos de plástico de menos de cinco milímetros. Proceden de envases que se rompen, de ropa sintética que suelta fibras al lavarla y de algunos productos cosméticos. Se han encontrado en el agua, en el aire, en los peces y hasta en la sal de mesa. Los científicos todavía estudian sus efectos sobre la salud, pero coinciden en que reducir el uso de plástico es la medida más eficaz."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m013",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tipo de texto es?",
+   "options": [
+    "Narrativo",
+    "Publicitario",
+    "Expositivo",
+    "Normativo"
+   ],
+   "correct": 1,
+   "explanation": "Intenta convencer de que descargues un producto.",
+   "passage": "¿Cansado de llegar tarde? Con RelojPro nunca más perderás el autobús. Miles de usuarios ya lo han probado. Su alarma inteligente te despierta en el mejor momento de tu sueño. ¡Descárgala hoy y consigue un mes gratis! Oferta válida solo esta semana."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m014",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué estrategia es «Miles de usuarios ya lo han probado»?",
+   "options": [
+    "Contar una historia",
+    "Hacer una crítica",
+    "Apelar a lo que hace la mayoría",
+    "Dar un dato científico"
+   ],
+   "correct": 2,
+   "explanation": "Busca convencer porque «todo el mundo lo usa».",
+   "passage": "¿Cansado de llegar tarde? Con RelojPro nunca más perderás el autobús. Miles de usuarios ya lo han probado. Su alarma inteligente te despierta en el mejor momento de tu sueño. ¡Descárgala hoy y consigue un mes gratis! Oferta válida solo esta semana."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m015",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Para qué sirve «Oferta válida solo esta semana»?",
+   "options": [
+    "Para meter prisa al lector",
+    "Para informar del tiempo",
+    "Para dar las gracias",
+    "Para explicar cómo funciona"
+   ],
+   "correct": 0,
+   "explanation": "Crea sensación de urgencia.",
+   "passage": "¿Cansado de llegar tarde? Con RelojPro nunca más perderás el autobús. Miles de usuarios ya lo han probado. Su alarma inteligente te despierta en el mejor momento de tu sueño. ¡Descárgala hoy y consigue un mes gratis! Oferta válida solo esta semana."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m016",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Por qué empieza con una pregunta?",
+   "options": [
+    "Para captar la atención del lector",
+    "Porque el autor tiene una duda",
+    "Para pedir información",
+    "Para hacer un examen"
+   ],
+   "correct": 0,
+   "explanation": "Es una pregunta retórica que implica al lector.",
+   "passage": "¿Cansado de llegar tarde? Con RelojPro nunca más perderás el autobús. Miles de usuarios ya lo han probado. Su alarma inteligente te despierta en el mejor momento de tu sueño. ¡Descárgala hoy y consigue un mes gratis! Oferta válida solo esta semana."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m017",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la intención principal del autor?",
+   "options": [
+    "Explicar cómo se cultiva la verdura",
+    "Reconocer un trabajo que la historia ha olvidado",
+    "Contar un viaje",
+    "Describir el mercado actual"
+   ],
+   "correct": 1,
+   "explanation": "Defiende recuperar la memoria de estas mujeres.",
+   "passage": "Las mujeres de la huerta de Valencia acudían al mercado con cestas de verdura antes del amanecer. Recorrían varios kilómetros a pie y volvían a mediodía para trabajar el campo. Pocas veces aparecen en los libros de historia, pero sin ellas la ciudad no habría tenido qué comer. Recuperar su memoria es, también, una forma de hacer justicia."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m018",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «antes del amanecer»?",
+   "options": [
+    "Antes de que saliera el sol",
+    "Por la tarde",
+    "A mediodía",
+    "Por la noche, al acostarse"
+   ],
+   "correct": 0,
+   "explanation": "El amanecer es la salida del sol.",
+   "passage": "Las mujeres de la huerta de Valencia acudían al mercado con cestas de verdura antes del amanecer. Recorrían varios kilómetros a pie y volvían a mediodía para trabajar el campo. Pocas veces aparecen en los libros de historia, pero sin ellas la ciudad no habría tenido qué comer. Recuperar su memoria es, también, una forma de hacer justicia."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m019",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué valor tiene la expresión «sin ellas la ciudad no habría tenido qué comer»?",
+   "options": [
+    "Critica a las mujeres",
+    "Destaca la importancia de su trabajo",
+    "Exagera para hacer reír",
+    "Da una receta"
+   ],
+   "correct": 1,
+   "explanation": "Subraya que su trabajo era imprescindible.",
+   "passage": "Las mujeres de la huerta de Valencia acudían al mercado con cestas de verdura antes del amanecer. Recorrían varios kilómetros a pie y volvían a mediodía para trabajar el campo. Pocas veces aparecen en los libros de historia, pero sin ellas la ciudad no habría tenido qué comer. Recuperar su memoria es, también, una forma de hacer justicia."
+  },
+  {
+   "id": "es_comprension_lectora_l8_m020",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "¿Qué quiere decir «hacer justicia» en este texto?",
+   "options": [
+    "Cambiar una ley",
+    "Castigar a alguien",
+    "Dar a alguien el reconocimiento que merece",
+    "Ir a un juicio"
+   ],
+   "correct": 2,
+   "explanation": "Reconocer lo que estas mujeres aportaron.",
+   "passage": "Las mujeres de la huerta de Valencia acudían al mercado con cestas de verdura antes del amanecer. Recorrían varios kilómetros a pie y volvían a mediodía para trabajar el campo. Pocas veces aparecen en los libros de historia, pero sin ellas la ciudad no habría tenido qué comer. Recuperar su memoria es, también, una forma de hacer justicia."
+  },
+  {
+   "id": "es_comprension_lectora_l8_f001",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "La idea que defiende un texto argumentativo se llama ___.",
+   "blanks": [
+    "tesis"
+   ],
+   "distractors": [
+    "anécdota"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La tesis es la opinión principal."
+  },
+  {
+   "id": "es_comprension_lectora_l8_f002",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "La ___ compara dos cosas sin usar «como».",
+   "blanks": [
+    "metáfora"
+   ],
+   "distractors": [
+    "onomatopeya"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La metáfora identifica una cosa con otra."
+  },
+  {
+   "id": "es_comprension_lectora_l8_f003",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "En un texto ___ predomina la información objetiva.",
+   "blanks": [
+    "expositivo"
+   ],
+   "distractors": [
+    "poético"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El expositivo informa y explica."
+  },
+  {
+   "id": "es_comprension_lectora_l8_f004",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Un ___ es un argumento contrario a la tesis.",
+   "blanks": [
+    "contraargumento"
+   ],
+   "distractors": [
+    "ejemplo"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Contraargumento: razón en contra."
+  },
+  {
+   "id": "es_comprension_lectora_l8_f005",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "La publicidad intenta ___ al receptor.",
+   "blanks": [
+    "persuadir"
+   ],
+   "distractors": [
+    "aburrir"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Persuadir es convencer."
+  },
+  {
+   "id": "es_comprension_lectora_l8_f006",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Un registro ___ es propio de situaciones serias.",
+   "blanks": [
+    "formal"
+   ],
+   "distractors": [
+    "coloquial"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Registro formal: entrevistas, exámenes, cartas oficiales."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m001",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué error de razonamiento critica el texto?",
+   "options": [
+    "Desconfiar de todo",
+    "Creer que algo es verdad porque mucha gente lo comparte",
+    "Leer solo periódicos",
+    "Usar demasiado el móvil"
+   ],
+   "correct": 1,
+   "explanation": "Es la falacia de apelar a la popularidad.",
+   "passage": "«Si todo el mundo comparte esta noticia, será verdad». Este razonamiento es tan frecuente como engañoso. Que algo se difunda mucho no demuestra que sea cierto: solo demuestra que es llamativo. Antes de compartir, conviene preguntarse quién lo dice, en qué se basa y si otras fuentes fiables lo confirman. Pensar dos segundos más puede evitar que una mentira dé la vuelta al mundo."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m002",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Según el texto, ¿qué demuestra que algo se difunda mucho?",
+   "options": [
+    "Que es llamativo",
+    "Que es científico",
+    "Que es verdad",
+    "Que es antiguo"
+   ],
+   "correct": 0,
+   "explanation": "«solo demuestra que es llamativo»",
+   "passage": "«Si todo el mundo comparte esta noticia, será verdad». Este razonamiento es tan frecuente como engañoso. Que algo se difunda mucho no demuestra que sea cierto: solo demuestra que es llamativo. Antes de compartir, conviene preguntarse quién lo dice, en qué se basa y si otras fuentes fiables lo confirman. Pensar dos segundos más puede evitar que una mentira dé la vuelta al mundo."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m003",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué propone el autor?",
+   "options": [
+    "No usar internet",
+    "Comprobar la fuente y si otras fuentes fiables lo confirman",
+    "Creer solo a los amigos",
+    "Compartir todo rápidamente"
+   ],
+   "correct": 1,
+   "explanation": "Plantea tres preguntas antes de compartir.",
+   "passage": "«Si todo el mundo comparte esta noticia, será verdad». Este razonamiento es tan frecuente como engañoso. Que algo se difunda mucho no demuestra que sea cierto: solo demuestra que es llamativo. Antes de compartir, conviene preguntarse quién lo dice, en qué se basa y si otras fuentes fiables lo confirman. Pensar dos segundos más puede evitar que una mentira dé la vuelta al mundo."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m004",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué función tiene la frase final?",
+   "options": [
+    "Presentar el tema",
+    "Dar un dato estadístico",
+    "Contar una anécdota",
+    "Cerrar con una conclusión que invita a actuar"
+   ],
+   "correct": 3,
+   "explanation": "Resume la idea y anima a pensar antes de compartir.",
+   "passage": "«Si todo el mundo comparte esta noticia, será verdad». Este razonamiento es tan frecuente como engañoso. Que algo se difunda mucho no demuestra que sea cierto: solo demuestra que es llamativo. Antes de compartir, conviene preguntarse quién lo dice, en qué se basa y si otras fuentes fiables lo confirman. Pensar dos segundos más puede evitar que una mentira dé la vuelta al mundo."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m005",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué recurso usa Marta al decir «¡Qué maravilla de día!»?",
+   "options": [
+    "La hipérbole",
+    "La metáfora",
+    "La aliteración",
+    "La ironía"
+   ],
+   "correct": 3,
+   "explanation": "Dice lo contrario de lo que piensa.",
+   "passage": "—¡Qué maravilla de día! —dijo Marta mirando por la ventana el cielo negro, mientras el granizo golpeaba el coche recién lavado—. Justo hoy que pensaba ir a la playa."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m006",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cómo se siente Marta en realidad?",
+   "options": [
+    "Indiferente",
+    "Fastidiada",
+    "Feliz",
+    "Asustada"
+   ],
+   "correct": 1,
+   "explanation": "El granizo arruina sus planes.",
+   "passage": "—¡Qué maravilla de día! —dijo Marta mirando por la ventana el cielo negro, mientras el granizo golpeaba el coche recién lavado—. Justo hoy que pensaba ir a la playa."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m007",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué indica la raya (—) en el texto?",
+   "options": [
+    "Que hay un error",
+    "Que hay una lista",
+    "Que habla un personaje",
+    "Que empieza un poema"
+   ],
+   "correct": 2,
+   "explanation": "La raya introduce el diálogo y el comentario del narrador.",
+   "passage": "—¡Qué maravilla de día! —dijo Marta mirando por la ventana el cielo negro, mientras el granizo golpeaba el coche recién lavado—. Justo hoy que pensaba ir a la playa."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m008",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué detalle refuerza el humor de la escena?",
+   "options": [
+    "El color del cielo",
+    "La ventana",
+    "El coche recién lavado",
+    "La playa lejana"
+   ],
+   "correct": 2,
+   "explanation": "Lo acababa de lavar: empeora la situación.",
+   "passage": "—¡Qué maravilla de día! —dijo Marta mirando por la ventana el cielo negro, mientras el granizo golpeaba el coche recién lavado—. Justo hoy que pensaba ir a la playa."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m009",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿A qué modelo se opone la economía circular?",
+   "options": [
+    "Al de reciclar",
+    "Al de producir, usar y tirar",
+    "Al de reparar objetos",
+    "Al de comprar productos locales"
+   ],
+   "correct": 1,
+   "explanation": "«En lugar de producir, usar y tirar»",
+   "passage": "La economía circular propone un cambio de modelo. En lugar de producir, usar y tirar, plantea diseñar productos que duren más, se puedan reparar y, al final de su vida, se reciclen para fabricar otros nuevos. No se trata solo de reciclar más, sino de generar menos residuos desde el principio. Para lograrlo, hacen falta leyes, empresas comprometidas y consumidores informados."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m010",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué matiz introduce «No se trata solo de reciclar más, sino de...»?",
+   "options": [
+    "Que es imposible",
+    "Que lo esencial es generar menos residuos",
+    "Que reciclar no sirve",
+    "Que hay que tirar más"
+   ],
+   "correct": 1,
+   "explanation": "«sino» corrige y amplía la idea anterior.",
+   "passage": "La economía circular propone un cambio de modelo. En lugar de producir, usar y tirar, plantea diseñar productos que duren más, se puedan reparar y, al final de su vida, se reciclen para fabricar otros nuevos. No se trata solo de reciclar más, sino de generar menos residuos desde el principio. Para lograrlo, hacen falta leyes, empresas comprometidas y consumidores informados."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m011",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tres agentes son necesarios según el texto?",
+   "options": [
+    "Padres, abuelos e hijos",
+    "Escuelas, hospitales y bancos",
+    "Leyes, empresas y consumidores",
+    "Científicos, artistas y deportistas"
+   ],
+   "correct": 2,
+   "explanation": "«leyes, empresas comprometidas y consumidores informados»",
+   "passage": "La economía circular propone un cambio de modelo. En lugar de producir, usar y tirar, plantea diseñar productos que duren más, se puedan reparar y, al final de su vida, se reciclen para fabricar otros nuevos. No se trata solo de reciclar más, sino de generar menos residuos desde el principio. Para lograrlo, hacen falta leyes, empresas comprometidas y consumidores informados."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m012",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué tipo de texto es?",
+   "options": [
+    "Dialogado",
+    "Expositivo-argumentativo",
+    "Instructivo",
+    "Narrativo"
+   ],
+   "correct": 1,
+   "explanation": "Explica un concepto y defiende un cambio.",
+   "passage": "La economía circular propone un cambio de modelo. En lugar de producir, usar y tirar, plantea diseñar productos que duren más, se puedan reparar y, al final de su vida, se reciclen para fabricar otros nuevos. No se trata solo de reciclar más, sino de generar menos residuos desde el principio. Para lograrlo, hacen falta leyes, empresas comprometidas y consumidores informados."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m013",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué función tiene «Es cierto que...»?",
+   "options": [
+    "Reconocer un argumento contrario antes de rebatirlo",
+    "Dar la conclusión",
+    "Hacer una pregunta",
+    "Contar una historia"
+   ],
+   "correct": 0,
+   "explanation": "Es una concesión: admite una parte de razón.",
+   "passage": "Es cierto que el turismo genera empleo y riqueza en ciudades como Valencia. Sin embargo, cuando los pisos turísticos se multiplican, los alquileres suben y muchos vecinos tienen que abandonar su barrio. Por tanto, no se trata de rechazar al visitante, sino de regular para que la ciudad siga siendo un lugar donde se pueda vivir."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m014",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué conector introduce la conclusión?",
+   "options": [
+    "«Sin embargo»",
+    "«Por tanto»",
+    "«cuando»",
+    "«Es cierto que»"
+   ],
+   "correct": 1,
+   "explanation": "«Por tanto» presenta la consecuencia o conclusión.",
+   "passage": "Es cierto que el turismo genera empleo y riqueza en ciudades como Valencia. Sin embargo, cuando los pisos turísticos se multiplican, los alquileres suben y muchos vecinos tienen que abandonar su barrio. Por tanto, no se trata de rechazar al visitante, sino de regular para que la ciudad siga siendo un lugar donde se pueda vivir."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m015",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuál es la postura del autor?",
+   "options": [
+    "No hacer nada",
+    "Prohibir el turismo",
+    "Construir más hoteles",
+    "Regular el turismo, no rechazarlo"
+   ],
+   "correct": 3,
+   "explanation": "«no se trata de rechazar al visitante, sino de regular»",
+   "passage": "Es cierto que el turismo genera empleo y riqueza en ciudades como Valencia. Sin embargo, cuando los pisos turísticos se multiplican, los alquileres suben y muchos vecinos tienen que abandonar su barrio. Por tanto, no se trata de rechazar al visitante, sino de regular para que la ciudad siga siendo un lugar donde se pueda vivir."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m016",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué consecuencia de los pisos turísticos menciona?",
+   "options": [
+    "Menos tráfico",
+    "Más zonas verdes",
+    "La bajada de los precios",
+    "La subida de los alquileres"
+   ],
+   "correct": 3,
+   "explanation": "«los alquileres suben»",
+   "passage": "Es cierto que el turismo genera empleo y riqueza en ciudades como Valencia. Sin embargo, cuando los pisos turísticos se multiplican, los alquileres suben y muchos vecinos tienen que abandonar su barrio. Por tanto, no se trata de rechazar al visitante, sino de regular para que la ciudad siga siendo un lugar donde se pueda vivir."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m017",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué idea errónea desmiente el texto?",
+   "options": [
+    "Que existe la comunidad sorda",
+    "Que en España hay lenguas de signos",
+    "Que las lenguas tienen gramática",
+    "Que la lengua de signos es universal"
+   ],
+   "correct": 3,
+   "explanation": "Empieza diciendo que no es universal.",
+   "passage": "La lengua de signos no es universal. Cada comunidad sorda ha desarrollado la suya, con su propio vocabulario y su propia gramática. En España se reconocen legalmente dos: la lengua de signos española y la lengua de signos catalana. Lejos de ser una simple mímica, son lenguas completas que permiten expresar cualquier idea, desde una broma hasta un razonamiento filosófico."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m018",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Cuántas lenguas de signos se reconocen legalmente en España según el texto?",
+   "options": [
+    "Cinco",
+    "Una",
+    "Tres",
+    "Dos"
+   ],
+   "correct": 3,
+   "explanation": "La española y la catalana.",
+   "passage": "La lengua de signos no es universal. Cada comunidad sorda ha desarrollado la suya, con su propio vocabulario y su propia gramática. En España se reconocen legalmente dos: la lengua de signos española y la lengua de signos catalana. Lejos de ser una simple mímica, son lenguas completas que permiten expresar cualquier idea, desde una broma hasta un razonamiento filosófico."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m019",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué significa «Lejos de ser una simple mímica»?",
+   "options": [
+    "Que está lejos",
+    "Que es mucho más que mímica",
+    "Que es solo mímica",
+    "Que se usa a distancia"
+   ],
+   "correct": 1,
+   "explanation": "La expresión niega una idea equivocada.",
+   "passage": "La lengua de signos no es universal. Cada comunidad sorda ha desarrollado la suya, con su propio vocabulario y su propia gramática. En España se reconocen legalmente dos: la lengua de signos española y la lengua de signos catalana. Lejos de ser una simple mímica, son lenguas completas que permiten expresar cualquier idea, desde una broma hasta un razonamiento filosófico."
+  },
+  {
+   "id": "es_comprension_lectora_l9_m020",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "¿Qué ejemplo usa para mostrar que son lenguas completas?",
+   "options": [
+    "Que son antiguas",
+    "Que permiten expresar desde una broma hasta un razonamiento filosófico",
+    "Que se aprenden rápido",
+    "Que tienen muchos signos"
+   ],
+   "correct": 1,
+   "explanation": "Muestra la gama completa de lo que se puede expresar.",
+   "passage": "La lengua de signos no es universal. Cada comunidad sorda ha desarrollado la suya, con su propio vocabulario y su propia gramática. En España se reconocen legalmente dos: la lengua de signos española y la lengua de signos catalana. Lejos de ser una simple mímica, son lenguas completas que permiten expresar cualquier idea, desde una broma hasta un razonamiento filosófico."
+  },
+  {
+   "id": "es_comprension_lectora_l9_f001",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Una ___ es un razonamiento que parece válido pero no lo es.",
+   "blanks": [
+    "falacia"
+   ],
+   "distractors": [
+    "hipótesis"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Las falacias engañan con apariencia de lógica."
+  },
+  {
+   "id": "es_comprension_lectora_l9_f002",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "La ___ consiste en decir lo contrario de lo que se piensa.",
+   "blanks": [
+    "ironía"
+   ],
+   "distractors": [
+    "anáfora"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La ironía sugiere lo contrario de lo que dice."
+  },
+  {
+   "id": "es_comprension_lectora_l9_f003",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Una ___ reconoce parte de razón al contrario antes de rebatirlo.",
+   "blanks": [
+    "concesión"
+   ],
+   "distractors": [
+    "metáfora"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Concesión: «Es cierto que..., pero...»."
+  },
+  {
+   "id": "es_comprension_lectora_l9_f004",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Para comprobar una información hay que contrastar ___.",
+   "blanks": [
+    "fuentes"
+   ],
+   "distractors": [
+    "colores"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Contrastar fuentes evita bulos."
+  },
+  {
+   "id": "es_comprension_lectora_l9_f005",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Un ___ es un texto que reflexiona sobre un tema de forma personal.",
+   "blanks": [
+    "ensayo"
+   ],
+   "distractors": [
+    "informe"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El ensayo expone ideas propias."
+  },
+  {
+   "id": "es_comprension_lectora_l9_f006",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "drag_fill",
+   "prompt": "Completa la frase con las palabras correctas",
+   "sentence": "Las palabras que tienen varios significados son ___.",
+   "blanks": [
+    "polisémicas"
+   ],
+   "distractors": [
+    "sinónimas"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Polisemia: una palabra, varios significados."
   }
  ]
 }
