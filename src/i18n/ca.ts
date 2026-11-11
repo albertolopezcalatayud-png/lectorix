@@ -899,4 +899,19 @@ export const ca: Record<TranslationKey, string> = {
   // Word prediction
   wl_predict_label: 'Paraules suggerides',
   wl_predict_toggle: 'Suggerir-me paraules mentre escric',
+
+  // Feedback
+  fb_title: 'Enviar un suggeriment',
+  fb_desc: 'Obri un correu per a contar-nos un error, una idea o una errada en un exercici. S’hi afigen dades tècniques de l’aplicació i del dispositiu, mai el nom ni el progrés de l’alumne. Pots llegir-ho tot abans d’enviar-lo.',
+  fb_kind_bug: 'Alguna cosa no funciona',
+  fb_kind_idea: 'Tinc una idea',
+  fb_kind_content: 'Errada en un exercici',
+  fb_prompt_bug: 'Què ha passat? En quina pantalla estaves i què vas fer just abans?',
+  fb_prompt_idea: 'Què t’agradaria que tinguera Lectorix?',
+  fb_prompt_content: 'Quin exercici era (mòdul i nivell) i què està malament? Si pots, copia la pregunta.',
+  fb_send: 'Escriure el correu',
+  fb_tech: 'Dades tècniques (sense dades de l’alumne):',
+  fb_screen: 'Pantalla',
+  fb_langs: 'Idiomes',
+  fb_errors: 'Errors recents',
 };

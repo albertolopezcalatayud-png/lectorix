@@ -897,6 +897,21 @@ export const es = {
   // Word prediction
   wl_predict_label: 'Palabras sugeridas',
   wl_predict_toggle: 'Sugerirme palabras mientras escribo',
+
+  // Feedback
+  fb_title: 'Enviar una sugerencia',
+  fb_desc: 'Abre un correo para contarnos un fallo, una idea o un error en un ejercicio. Se añaden datos técnicos de la app y del dispositivo, nunca el nombre ni el progreso del alumno. Puedes leerlo todo antes de enviarlo.',
+  fb_kind_bug: 'Algo no funciona',
+  fb_kind_idea: 'Tengo una idea',
+  fb_kind_content: 'Error en un ejercicio',
+  fb_prompt_bug: '¿Qué ha pasado? ¿En qué pantalla estabas y qué hiciste justo antes?',
+  fb_prompt_idea: '¿Qué te gustaría que tuviera Lectorix?',
+  fb_prompt_content: '¿Qué ejercicio era (módulo y nivel) y qué está mal? Si puedes, copia la pregunta.',
+  fb_send: 'Escribir el correo',
+  fb_tech: 'Datos técnicos (sin datos del alumno):',
+  fb_screen: 'Pantalla',
+  fb_langs: 'Idiomas',
+  fb_errors: 'Errores recientes',
 } as const;
 
 export type TranslationKey = keyof typeof es;

@@ -1,3 +1,4 @@
+import { Feedback } from '@/components/system/Feedback';
 import { ErrorReport } from '@/components/system/ErrorReport';
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -505,6 +506,7 @@ export default function Settings() {
         </Card>
 
         {/* Errors saved on this device */}
+        <Feedback />
         <ErrorReport />
 
         {/* App info */}

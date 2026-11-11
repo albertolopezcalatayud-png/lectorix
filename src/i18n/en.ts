@@ -899,4 +899,19 @@ export const en: Record<TranslationKey, string> = {
   // Word prediction
   wl_predict_label: 'Suggested words',
   wl_predict_toggle: 'Suggest words while I type',
+
+  // Feedback
+  fb_title: 'Send a suggestion',
+  fb_desc: 'Opens an e-mail to tell us about a problem, an idea or a mistake in an exercise. Technical details of the app and device are added, never the student’s name or progress. You can read it all before sending.',
+  fb_kind_bug: 'Something isn’t working',
+  fb_kind_idea: 'I have an idea',
+  fb_kind_content: 'Mistake in an exercise',
+  fb_prompt_bug: 'What happened? Which screen were you on and what did you do just before?',
+  fb_prompt_idea: 'What would you like Lectorix to have?',
+  fb_prompt_content: 'Which exercise was it (module and level) and what is wrong? If you can, copy the question.',
+  fb_send: 'Write the e-mail',
+  fb_tech: 'Technical details (no student data):',
+  fb_screen: 'Screen',
+  fb_langs: 'Languages',
+  fb_errors: 'Recent errors',
 };
