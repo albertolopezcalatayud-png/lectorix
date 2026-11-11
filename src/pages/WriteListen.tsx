@@ -1,15 +1,16 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { usePracticeLang } from '@/stores/useAppStore';
 import { useReviewStore, notebookWords } from '@/services/review';
-import { loadDict, unknownWords, suggest, tokenize, type SpellLang, type Token } from '@/services/spell';
+import { loadDict, loadFrequent, predict, unknownWords, suggest, tokenize, type SpellLang, type Token } from '@/services/spell';
 import tts, { speakTracked, setSpeechLang, getSpeechLang } from '@/services/tts';
 import { useI18n } from '@/i18n';
 
 const DRAFT_KEY = 'lectorix-write-draft';
 const IGNORE_KEY = 'lectorix-write-ignore';
+const PREDICT_KEY = 'lectorix-write-predict';
 const TAG: Record<SpellLang, string> = { es: 'es-ES', ca: 'ca-ES', en: 'en-GB' };
 const HTML_LANG: Record<SpellLang, string> = { es: 'es', ca: 'ca-ES-valencia', en: 'en-GB' };
 
@@ -39,8 +40,45 @@ export default function WriteListen() {
   useEffect(() => () => tts.stop(), []);
   useEffect(() => { setDict(null); setFailed(false); }, [lang]);
 
+  // Word prediction while writing
+  const [predictOn, setPredictOn] = useState<boolean>(() => read<boolean>(PREDICT_KEY, true));
+  const [freq, setFreq] = useState<Awaited<ReturnType<typeof loadFrequent>> | null>(null);
+  const [caret, setCaret] = useState(0);
+  const pendingCaret = useRef<number | null>(null);
+  // After a suggested word is inserted, put the cursor right after it before the next key arrives
+  useLayoutEffect(() => {
+    const a = area.current;
+    if (pendingCaret.current === null || !a) return;
+    a.focus();
+    a.setSelectionRange(pendingCaret.current, pendingCaret.current);
+    pendingCaret.current = null;
+  });
+  useEffect(() => { write(PREDICT_KEY, predictOn); }, [predictOn]);
+  useEffect(() => {
+    if (!predictOn) return;
+    let off = false;
+    setFreq(null);
+    void loadFrequent(lang).then((f) => { if (!off) setFreq(f); }).catch(() => undefined);
+    void loadDict(lang).then((d) => { if (!off) setDict(d); }).catch(() => undefined);
+    return () => { off = true; };
+  }, [lang, predictOn]);
+  const partial = useMemo(() => {
+    const before = text.slice(0, caret);
+    const m = before.match(/[\p{L}·]+$/u);
+    const after = text.slice(caret).match(/^[\p{L}·]*/u)?.[0] ?? '';
+    return m && !after ? { word: m[0], start: caret - m[0].length } : null;
+  }, [text, caret]);
+
   const ignored = useMemo(() => new Set(ignore[lang] ?? []), [ignore, lang]);
   const common = useMemo(() => new Set(notebookWords(items, lang).map((i) => i.word!.toLocaleLowerCase())), [items, lang]);
+  const predictions = useMemo(() => (predictOn && freq && partial && mode === 'write' ? predict(freq, dict, lang, partial.word, [...common]) : []), [predictOn, freq, dict, lang, partial, mode, common]);
+  const applyPrediction = (w: string) => {
+    if (!partial) return;
+    const next = text.slice(0, partial.start) + w + ' ' + text.slice(caret);
+    const pos = partial.start + w.length + 1;
+    pendingCaret.current = pos;
+    setText(next); setCaret(pos);
+  };
   const tokens = useMemo(() => tokenize(text), [text]);
   const bad = useMemo(() => (dict && mode === 'check' ? unknownWords(dict, lang, text, ignored) : []), [dict, mode, lang, text, ignored]);
   const badStarts = useMemo(() => new Set(bad.map((b) => b.start)), [bad]);
@@ -93,7 +131,8 @@ export default function WriteListen() {
         </div>
 
         {mode === 'write' ? (
-          <textarea ref={area} value={text} onChange={(e) => setText(e.target.value)} lang={HTML_LANG[lang]} spellCheck={false}
+          <textarea ref={area} value={text} onChange={(e) => { setText(e.target.value); setCaret(e.target.selectionStart ?? e.target.value.length); }}
+            onSelect={(e) => setCaret((e.target as HTMLTextAreaElement).selectionStart ?? 0)} lang={HTML_LANG[lang]} spellCheck={false}
             placeholder={t('wl_placeholder')} aria-label={t('wl_placeholder')}
             className="w-full min-h-[14rem] p-4 rounded-2xl bg-bg-card border border-border text-lg reading-text focus:outline-none focus:border-accent"
             style={{ lineHeight: 'calc(var(--reading-leading) + 0.3)' }} />
@@ -110,6 +149,23 @@ export default function WriteListen() {
               ))}
             </div>
           </Card>
+        )}
+
+        {mode === 'write' && predictOn && predictions.length > 0 && (
+          <div className="flex flex-wrap gap-2" role="group" aria-label={t('wl_predict_label')}>
+            {predictions.map((w) => (
+              <span key={w} className="inline-flex rounded-xl overflow-hidden border border-accent/40 bg-accent-pale/40">
+                <button onMouseDown={(e) => e.preventDefault()} onClick={() => applyPrediction(w)} className="px-3 py-1.5 font-bold text-sm">{w}</button>
+                <button onMouseDown={(e) => e.preventDefault()} onClick={() => void tts.speakIn(w, TAG[lang], 0.8)} aria-label={t('wl_hear', { word: w })} className="px-2 border-l border-accent/30 text-sm">🔊</button>
+              </span>
+            ))}
+          </div>
+        )}
+        {mode === 'write' && (
+          <label className="flex items-center gap-2 text-xs text-fg-muted">
+            <input type="checkbox" checked={predictOn} onChange={(e) => setPredictOn(e.target.checked)} />
+            {t('wl_predict_toggle')}
+          </label>
         )}
 
         {mode === 'check' && openToken && (

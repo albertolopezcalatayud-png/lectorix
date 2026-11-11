@@ -205,3 +205,49 @@ export function suggest(d: Dict, lang: SpellLang, word: string, common: Set<stri
     .slice(0, max)
     .map(([c]) => (capital ? capFirst(c) : c));
 }
+
+/* ---------- word prediction ---------- */
+
+const freqCache = new Map<SpellLang, Promise<{ words: string[]; plain: string[] }>>();
+
+/** The most frequent words of the language, most frequent first (public/dict/*.frz, scripts/spell/build_freq.py) */
+export function loadFrequent(lang: SpellLang) {
+  let p = freqCache.get(lang);
+  if (!p) {
+    p = fetch(`${import.meta.env.BASE_URL}dict/${lang}.frz`)
+      .then((r) => { if (!r.ok) throw new Error(`freq ${lang} ${r.status}`); return r.arrayBuffer(); })
+      .then(gunzip)
+      .then((txt) => { const words = txt.split('\n'); return { words, plain: words.map((w) => plain(w.toLocaleLowerCase())) }; });
+    p.catch(() => freqCache.delete(lang));
+    freqCache.set(lang, p);
+  }
+  return p;
+}
+
+/**
+ * Up to `max` words that start like what the student is writing (accents ignored, so "cancio" finds
+ * "canción"). The student's own words (`mine`) come first, then by frequency. When nothing starts that way,
+ * spelling suggestions for the piece written so far are used.
+ */
+export function predict(freq: { words: string[]; plain: string[] }, d: Dict | null, lang: SpellLang, partial: string, mine: string[] = [], max = 3): string[] {
+  const low = partial.toLocaleLowerCase();
+  const p = plain(low);
+  if (p.length < 2) return [];
+  const capital = /^\p{Lu}/u.test(partial);
+  const out: string[] = [];
+  const push = (w: string) => { if (!out.includes(w) && w.toLocaleLowerCase() !== low) out.push(w); };
+  for (const w of mine) if (plain(w.toLocaleLowerCase()).startsWith(p) && w.length > p.length) push(w);
+  for (let i = 0; i < freq.words.length && out.length < max; i++) {
+    if (freq.plain[i].startsWith(p) && freq.words[i].length > low.length) push(freq.words[i]);
+  }
+  if (out.length === 0 && d && p.length >= 3) {
+    // maybe the beginning is misspelled ("pinguin" → "pingüino")
+    const fixed = [...new Set(suggest(d, lang, low, new Set(mine), 2))];
+    for (const f of fixed) {
+      const fp = plain(f.toLocaleLowerCase());
+      for (let i = 0; i < freq.words.length && out.length < max; i++) if (freq.plain[i].startsWith(fp)) { push(freq.words[i]); break; }
+      if (out.length < max && !f.includes(' ')) push(f);
+    }
+  }
+  return out.slice(0, max).map((w) => (capital ? capFirst(w) : w));
+}

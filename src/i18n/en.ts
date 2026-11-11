@@ -796,7 +796,7 @@ export const en: Record<TranslationKey, string> = {
 
   // Credits
   credits_title: 'Credits and licences',
-  credits_text: 'Spelling dictionaries: RLA-ES (Spanish, LGPL), Softcatalà (Valencian, LGPL) and the LibreOffice British English dictionary (English, LGPL). Photo reading: Tesseract (Apache 2.0). OpenDyslexic font (SIL OFL).',
+  credits_text: 'Spelling dictionaries: RLA-ES (Spanish, LGPL), Softcatalà (Valencian, LGPL) and the LibreOffice British English dictionary (English, LGPL). Word frequencies for suggestions: FrequencyWords by Hermit Dave (CC BY-SA 4.0). Photo reading: Tesseract (Apache 2.0). OpenDyslexic font (SIL OFL).',
 
   // My bookshelf
   sh_title: 'My bookshelf',
@@ -895,4 +895,8 @@ export const en: Record<TranslationKey, string> = {
 
   // Share with Lectorix
   hw_share_tip: 'Tip: from any app (browser, WhatsApp, gallery…) tap “Share” and choose Lectorix to open a text or a photo here.',
+
+  // Word prediction
+  wl_predict_label: 'Suggested words',
+  wl_predict_toggle: 'Suggest words while I type',
 };

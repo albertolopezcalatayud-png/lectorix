@@ -796,7 +796,7 @@ export const ca: Record<TranslationKey, string> = {
 
   // Credits
   credits_title: 'Crèdits i llicències',
-  credits_text: 'Diccionaris d’ortografia: RLA-ES (castellà, LGPL), Softcatalà (valencià, LGPL) i el diccionari britànic de LibreOffice (anglés, LGPL). Lectura de fotos: Tesseract (Apache 2.0). Font OpenDyslexic (SIL OFL).',
+  credits_text: 'Diccionaris d’ortografia: RLA-ES (castellà, LGPL), Softcatalà (valencià, LGPL) i el diccionari britànic de LibreOffice (anglés, LGPL). Freqüència de paraules per als suggeriments: FrequencyWords de Hermit Dave (CC BY-SA 4.0). Lectura de fotos: Tesseract (Apache 2.0). Font OpenDyslexic (SIL OFL).',
 
   // My bookshelf
   sh_title: 'La meua prestatgeria',
@@ -895,4 +895,8 @@ export const ca: Record<TranslationKey, string> = {
 
   // Share with Lectorix
   hw_share_tip: 'Truc: des de qualsevol aplicació (navegador, WhatsApp, galeria…) prem «Compartir» i tria Lectorix per a obrir ací un text o una foto.',
+
+  // Word prediction
+  wl_predict_label: 'Paraules suggerides',
+  wl_predict_toggle: 'Suggerir-me paraules mentre escric',
 };

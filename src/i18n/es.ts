@@ -794,7 +794,7 @@ export const es = {
 
   // Credits
   credits_title: 'Créditos y licencias',
-  credits_text: 'Diccionarios de ortografía: RLA-ES (castellano, LGPL), Softcatalà (valenciano, LGPL) y el diccionario británico de LibreOffice (inglés, LGPL). Lectura de fotos: Tesseract (Apache 2.0). Fuente OpenDyslexic (SIL OFL).',
+  credits_text: 'Diccionarios de ortografía: RLA-ES (castellano, LGPL), Softcatalà (valenciano, LGPL) y el diccionario británico de LibreOffice (inglés, LGPL). Frecuencia de palabras para las sugerencias: FrequencyWords de Hermit Dave (CC BY-SA 4.0). Lectura de fotos: Tesseract (Apache 2.0). Fuente OpenDyslexic (SIL OFL).',
 
   // My bookshelf
   sh_title: 'Mi estantería',
@@ -893,6 +893,10 @@ export const es = {
 
   // Share with Lectorix
   hw_share_tip: 'Truco: desde cualquier app (navegador, WhatsApp, galería…) pulsa «Compartir» y elige Lectorix para abrir aquí un texto o una foto.',
+
+  // Word prediction
+  wl_predict_label: 'Palabras sugeridas',
+  wl_predict_toggle: 'Sugerirme palabras mientras escribo',
 } as const;
 
 export type TranslationKey = keyof typeof es;
