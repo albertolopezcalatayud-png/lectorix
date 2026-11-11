@@ -41,7 +41,7 @@ export default defineConfig({
         runtimeCaching: [
           {
             // Spelling word lists: downloaded the first time "Write and listen" checks a text, then offline
-            urlPattern: /\/dict\/[a-z]+\.fc\.gz$/,
+            urlPattern: /\/dict\/[a-z]+\.fcz$/,
             handler: 'CacheFirst',
             options: { cacheName: 'lectorix-dict', expiration: { maxEntries: 6 } },
           },

@@ -62,7 +62,7 @@ const routes = ['/', '/modulos', '/ejercicio/fonologia/1', '/lectura', '/dictado
 results.routes = {};
 for (const r of routes) {
   await ev(`location.hash = '#${r}'; true`);
-  await sleep(2200);
+  await sleep(3000);
   const txt = await ev('document.body.innerText.replace(/\\s+/g, " ").slice(0, 120)');
   results.routes[r] = txt;
   shot('screen' + (r === '/' ? '-home' : r.replace(/\//g, '-')));
@@ -78,7 +78,17 @@ results.ttsWords = await ev(`(async () => { let n = 0; const h = await Capacitor
   await Capacitor.Plugins.TextToSpeech.speak({ text: 'El gato come pescado en la cocina.', lang: 'es-ES', rate: 1 }); await h.remove(); return 'word events: ' + n; })()`, 30000);
 
 // Offline spelling word list (Write and listen)
-results.dict = await ev(`fetch('dict/es.fc.gz').then(r => r.arrayBuffer()).then(b => 'bytes ' + b.byteLength + ', gzip ' + (new Uint8Array(b)[0] === 0x1f))`, 20000);
+results.dict = await ev(`fetch('dict/es.fcz').then(r => r.arrayBuffer()).then(b => 'bytes ' + b.byteLength + ', gzip ' + (new Uint8Array(b)[0] === 0x1f))`, 20000);
+
+results.spell = await ev(`(async () => {
+  location.hash = '#/escribe'; await new Promise((r) => setTimeout(r, 2500));
+  const ta = document.querySelector('textarea'); const set = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
+  set.call(ta, 'Ayer fui con mi ermano a la playa.'); ta.dispatchEvent(new Event('input', { bubbles: true }));
+  await new Promise((r) => setTimeout(r, 500));
+  [...document.querySelectorAll('button')].find((b) => /Revisar/.test(b.innerText)).click();
+  for (let i = 0; i < 20; i++) { await new Promise((r) => setTimeout(r, 500)); const u = [...document.querySelectorAll('button.decoration-wavy')].map((b) => b.innerText); if (u.length) return 'flagged: ' + u.join(','); if (/No se ha podido/.test(document.body.innerText)) return 'FAIL: dictionary not loaded'; }
+  return 'FAIL: timeout'; })()`, 30000);
+shot('screen-spell');
 
 // On-device speech recognition plugin (read-aloud check): it must answer, never crash
 results.onDeviceSpeech = {};
@@ -118,7 +128,7 @@ results.backButton = await ev('location.hash');
 results.errors = errors;
 log(JSON.stringify(results, null, 2));
 const ok = results.native && !results.speechSynthesisInWebView !== undefined && String(results.ocr).startsWith('OK') && errors.length === 0
-  && Object.values(results.onDeviceSpeech).every((v) => ['available', 'downloadable', 'downloading', 'unavailable'].includes(v)) && String(results.dict).includes('bytes');
+  && Object.values(results.onDeviceSpeech).every((v) => ['available', 'downloadable', 'downloading', 'unavailable'].includes(v)) && String(results.dict).includes('gzip true') && results.spell === 'flagged: ermano';
 log('RESULT', ok ? 'PASS' : 'CHECK');
 ws.close();
 process.exit(0);

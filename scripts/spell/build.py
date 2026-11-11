@@ -17,6 +17,6 @@ for lang, d in [('es', 'es_ES'), ('ca', 'ca_ES-valencia'), ('en', 'en_GB')]:
         while k < len(prev) and k < len(w) and k < 35 and prev[k] == w[k]: k += 1
         out.append(chr(48 + k) + w[k:]); prev = w
     data = gzip.compress('\n'.join(out).encode('utf-8'), 9, mtime=0)
-    open(os.path.join(OUT, f'{lang}.fc.gz'), 'wb').write(data)
+    open(os.path.join(OUT, f'{lang}.fcz'), 'wb').write(data)
     os.remove(tmp)
     print(lang, len(words), 'words', len(data), 'bytes')

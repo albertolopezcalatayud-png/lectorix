@@ -1,6 +1,6 @@
 /**
  * Offline spelling check for "Write and listen".
- * The word lists (public/dict/*.fc.gz, built by scripts/spell/build.py from the Hunspell
+ * The word lists (public/dict/*.fcz, built by scripts/spell/build.py from the Hunspell
  * dictionaries) hold every accepted word form, sorted and front-coded. They are loaded on
  * demand, kept as one string plus an offsets table (light on memory) and searched by bisection.
  * It finds words that are not in the dictionary; it does not check grammar, and words that exist
@@ -42,7 +42,7 @@ function decode(fc: string): Dict {
 export function loadDict(lang: SpellLang): Promise<Dict> {
   let p = cache.get(lang);
   if (!p) {
-    p = fetch(`${import.meta.env.BASE_URL}dict/${lang}.fc.gz`)
+    p = fetch(`${import.meta.env.BASE_URL}dict/${lang}.fcz`)
       .then((r) => { if (!r.ok) throw new Error(`dict ${lang} ${r.status}`); return r.arrayBuffer(); })
       .then(gunzip)
       .then(decode);
