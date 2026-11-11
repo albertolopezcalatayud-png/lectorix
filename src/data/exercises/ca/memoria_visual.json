@@ -3522,6 +3522,2130 @@
    "options": [],
    "correct": 0,
    "explanation": "Ordre alfabètic: sal, salt, salut, sant, sardina."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m001",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "colegi",
+    "col·legi",
+    "cole·gi",
+    "col·lègi"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «col·legi». Amb ela geminada (l·l)."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m002",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "il·lussió",
+    "il·lució",
+    "ilusió",
+    "il·lusió"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «il·lusió». Amb ela geminada (l·l)."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m003",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "excursió",
+    "excurssió",
+    "escursió",
+    "excursio"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «excursió»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m004",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "rellotje",
+    "relloge",
+    "rellotxe",
+    "rellotge"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «rellotge». tg davant de e."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m005",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "platja",
+    "plaja",
+    "pladja",
+    "platxa"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «platja». tj davant de a."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m006",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "vaixell",
+    "baixell",
+    "vaxell",
+    "vaixel"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «vaixell»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m007",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "hiverrn",
+    "ivern",
+    "hivern",
+    "hiverm"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «hivern». Amb h i v."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m008",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "hosppital",
+    "hospital",
+    "ospital",
+    "hospitàl"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «hospital»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m009",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "divuix",
+    "dibuish",
+    "dibuix",
+    "dibuixx"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «dibuix»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m010",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "pinsell",
+    "pinçell",
+    "pinzel",
+    "pinzell"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «pinzell»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m011",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "taronja",
+    "tarontja",
+    "taronxa",
+    "taronga"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «taronja»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m012",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "esquena",
+    "esqena",
+    "escuena",
+    "esquenna"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «esquena»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m013",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "tassa",
+    "tazza",
+    "tasa",
+    "taça"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «tassa». s sorda entre vocals: ss."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m014",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "pluja",
+    "plutja",
+    "pluxa",
+    "plugja"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «pluja»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m015",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "formatje",
+    "formage",
+    "formatge",
+    "formatxe"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «formatge». tg davant de e."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m016",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "jenerós",
+    "generòs",
+    "generós",
+    "generos"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «generós»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m017",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "geografía",
+    "geografia",
+    "jeografia",
+    "geographia"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «geografia»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m018",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "mengar",
+    "mentjar",
+    "menjar",
+    "menxar"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «menjar». j davant de a."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m019",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "metge",
+    "medge",
+    "metje",
+    "mege"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «metge». tg davant de e."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m020",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "baixar",
+    "baxar",
+    "bajar",
+    "baitxar"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «baixar»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m021",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «casa»",
+   "options": [
+    "cassa",
+    "capsa",
+    "casa",
+    "caça"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: c-a-s-a."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m022",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «vi»",
+   "options": [
+    "bi",
+    "vi",
+    "via",
+    "vil"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: v-i."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m023",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «pot»",
+   "options": [
+    "port",
+    "pol",
+    "bot",
+    "pot"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: p-o-t."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m024",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «vena»",
+   "options": [
+    "pena",
+    "bena",
+    "vela",
+    "vena"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: v-e-n-a."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m025",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «bota»",
+   "options": [
+    "bata",
+    "bona",
+    "vota",
+    "bota"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: b-o-t-a."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m026",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «vell»",
+   "options": [
+    "vell",
+    "bell",
+    "veu",
+    "vel"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: v-e-l-l."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m027",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: casa, caça, casa, casa, casa?",
+   "options": [
+    "la 4a",
+    "la 1a",
+    "la 2a",
+    "la 3a"
+   ],
+   "correct": 2,
+   "explanation": "És la 2a: «caça», no «casa»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m028",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: vi, vi, vi, bi, vi?",
+   "options": [
+    "la 4a",
+    "la 3a",
+    "la 2a",
+    "la 1a"
+   ],
+   "correct": 0,
+   "explanation": "És la 4a: «bi», no «vi»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m029",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: bot, pot, pot, pot, pot?",
+   "options": [
+    "la 4a",
+    "la 1a",
+    "la 2a",
+    "la 3a"
+   ],
+   "correct": 1,
+   "explanation": "És la 1a: «bot», no «pot»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m030",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: vena, vena, bena, vena, vena?",
+   "options": [
+    "la 2a",
+    "la 3a",
+    "la 4a",
+    "la 1a"
+   ],
+   "correct": 1,
+   "explanation": "És la 3a: «bena», no «vena»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_m031",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: bota, bota, bota, bota, vota?",
+   "options": [
+    "la 3a",
+    "la 1a",
+    "la 2a",
+    "la 5a"
+   ],
+   "correct": 3,
+   "explanation": "És la 5a: «vota», no «bota»."
+  },
+  {
+   "id": "ca_memoria_visual_l6_o001",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "abraçada",
+    "abric",
+    "abril",
+    "acabar"
+   ],
+   "correctOrder": [
+    "abraçada",
+    "abric",
+    "abril",
+    "acabar"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: abraçada, abric, abril, acabar."
+  },
+  {
+   "id": "ca_memoria_visual_l6_o002",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "ceba",
+    "cel",
+    "cella",
+    "cendra"
+   ],
+   "correctOrder": [
+    "ceba",
+    "cel",
+    "cella",
+    "cendra"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: ceba, cel, cella, cendra."
+  },
+  {
+   "id": "ca_memoria_visual_l6_o003",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "llapis",
+    "llavor",
+    "llet",
+    "lluna"
+   ],
+   "correctOrder": [
+    "llapis",
+    "llavor",
+    "llet",
+    "lluna"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: llapis, llavor, llet, lluna."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m001",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "exhibisió",
+    "exhivició",
+    "exibició",
+    "exhibició"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «exhibició»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m002",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "hipòtesi",
+    "hipòtessi",
+    "hipótesi",
+    "ipòtesi"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «hipòtesi». Amb h i accent obert a la ò."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m003",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "apsurd",
+    "avsurd",
+    "absurd",
+    "absurt"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «absurd»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m004",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "adesiu",
+    "adhesiv",
+    "adhessiu",
+    "adhesiu"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «adhesiu»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m005",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "garaxe",
+    "garatge",
+    "garaje",
+    "garatje"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «garatge». Les paraules acabades en -atge s'escriuen amb tg."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m006",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "bessavi",
+    "besavi",
+    "vesavi",
+    "besàvi"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «besavi»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m007",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "avellana",
+    "avellanna",
+    "avelana",
+    "abellana"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «avellana»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m008",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "hemisferí",
+    "hemisfèri",
+    "emisferi",
+    "hemisferi"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «hemisferi»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m009",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "subbenció",
+    "subvensió",
+    "suvenció",
+    "subvenció"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «subvenció»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m010",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "ojecció",
+    "objecció",
+    "objeccio",
+    "objeció"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «objecció»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m011",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "inerent",
+    "inherent",
+    "inherènt",
+    "inherrent"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «inherent»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m012",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "intel·lijent",
+    "inteligent",
+    "intel·ligènt",
+    "intel·ligent"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «intel·ligent». Amb ela geminada (l·l)."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m013",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "paralel·l",
+    "paral·lell",
+    "paralel",
+    "paral·lel"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «paral·lel». Ela geminada al mig i una sola l al final."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m014",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "síl·laba",
+    "sil·laba",
+    "sílaba",
+    "síl·lava"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «síl·laba». Amb ela geminada i accent a la í."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m015",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "cinquanta",
+    "cinquenta",
+    "cincuanta",
+    "sinquanta"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «cinquanta»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m016",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "viaje",
+    "biatge",
+    "viatge",
+    "viatje"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «viatge». Les paraules acabades en -atge s'escriuen amb tg."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m017",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "advocat",
+    "advocad",
+    "abvocat",
+    "abogat"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «advocat». En valencià, advocat porta v (en castellà, abogado porta b)."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m018",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "govèrn",
+    "gobern",
+    "goverm",
+    "govern"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «govern». En valencià, govern porta v."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m019",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "treballàr",
+    "treballar",
+    "trebayar",
+    "trevallar"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «treballar». En valencià, treballar porta b."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m020",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "assegurànça",
+    "assegurança",
+    "asegurança",
+    "asseguransa"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «assegurança»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m021",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «actitud»",
+   "options": [
+    "activitat",
+    "aptitud",
+    "actitud",
+    "altitud"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: a-c-t-i-t-u-d."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m022",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «absoldre»",
+   "options": [
+    "dissoldre",
+    "absoldre",
+    "resoldre",
+    "absorbir"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: a-b-s-o-l-d-r-e."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m023",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «espècie»",
+   "options": [
+    "espècia",
+    "espai",
+    "espècie",
+    "especial"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: e-s-p-è-c-i-e."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m024",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «adoptar»",
+   "options": [
+    "adaptar",
+    "adoptar",
+    "aportar",
+    "adornar"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: a-d-o-p-t-a-r."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m025",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «efecte»",
+   "options": [
+    "infecte",
+    "efecte",
+    "afecte",
+    "defecte"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: e-f-e-c-t-e."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m026",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «preveure»",
+   "options": [
+    "proveir",
+    "prevenir",
+    "preveure",
+    "preveu"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: p-r-e-v-e-u-r-e."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m027",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: actitud, actitud, aptitud, actitud, actitud?",
+   "options": [
+    "la 2a",
+    "la 4a",
+    "la 1a",
+    "la 3a"
+   ],
+   "correct": 3,
+   "explanation": "És la 3a: «aptitud», no «actitud»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m028",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: absoldre, absoldre, absoldre, absoldre, absorbir?",
+   "options": [
+    "la 2a",
+    "la 1a",
+    "la 3a",
+    "la 5a"
+   ],
+   "correct": 3,
+   "explanation": "És la 5a: «absorbir», no «absoldre»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m029",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: espècie, espècia, espècie, espècie, espècie?",
+   "options": [
+    "la 2a",
+    "la 3a",
+    "la 4a",
+    "la 1a"
+   ],
+   "correct": 0,
+   "explanation": "És la 2a: «espècia», no «espècie»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m030",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: adoptar, adoptar, adoptar, adaptar, adoptar?",
+   "options": [
+    "la 2a",
+    "la 4a",
+    "la 1a",
+    "la 3a"
+   ],
+   "correct": 1,
+   "explanation": "És la 4a: «adaptar», no «adoptar»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_m031",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: afecte, efecte, efecte, efecte, efecte?",
+   "options": [
+    "la 3a",
+    "la 2a",
+    "la 4a",
+    "la 1a"
+   ],
+   "correct": 3,
+   "explanation": "És la 1a: «afecte», no «efecte»."
+  },
+  {
+   "id": "ca_memoria_visual_l7_o001",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "paraigua",
+    "paral·lel",
+    "paraula",
+    "parc"
+   ],
+   "correctOrder": [
+    "paraigua",
+    "paral·lel",
+    "paraula",
+    "parc"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: paraigua, paral·lel, paraula, parc."
+  },
+  {
+   "id": "ca_memoria_visual_l7_o002",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "comptar",
+    "contar",
+    "contenir",
+    "content"
+   ],
+   "correctOrder": [
+    "comptar",
+    "contar",
+    "contenir",
+    "content"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: comptar, contar, contenir, content."
+  },
+  {
+   "id": "ca_memoria_visual_l7_o003",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "examen",
+    "excavar",
+    "exhibir",
+    "exigir"
+   ],
+   "correctOrder": [
+    "examen",
+    "excavar",
+    "exhibir",
+    "exigir"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: examen, excavar, exhibir, exigir."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m001",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "esuberant",
+    "exhuberant",
+    "exuverant",
+    "exuberant"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «exuberant»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m002",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "espontani",
+    "espontàni",
+    "expontani",
+    "espontanni"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «espontani»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m003",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "excèntric",
+    "escèntric",
+    "exèntric",
+    "excéntric"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «excèntric»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m004",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "adolecència",
+    "adolescènsia",
+    "adolesència",
+    "adolescència"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «adolescència»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m005",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "precindir",
+    "prescinder",
+    "presindir",
+    "prescindir"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «prescindir»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m006",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "acensor",
+    "asensor",
+    "ascenssor",
+    "ascensor"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «ascensor»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m007",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "disciplína",
+    "disiplina",
+    "disciplina",
+    "diciplina"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «disciplina»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m008",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "efervesent",
+    "eferbescent",
+    "efervecent",
+    "efervescent"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «efervescent»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m009",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "atmosfera",
+    "athmosfera",
+    "atmòsfera",
+    "admosfera"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «atmosfera». En valencià és plana i no porta accent."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m010",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "benévol",
+    "venèvol",
+    "benèbol",
+    "benèvol"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «benèvol»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m011",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "expextativa",
+    "expectativa",
+    "espectativa",
+    "expectatiba"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «expectativa»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m012",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "expectacle",
+    "espectacle",
+    "espectàcle",
+    "espectacla"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «espectacle»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m013",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "conscent",
+    "concient",
+    "consient",
+    "conscient"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «conscient». Amb sc: cons-ci-ent."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m014",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "escepció",
+    "exepció",
+    "excepció",
+    "excepsió"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «excepció»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m015",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "tranquil·litad",
+    "tranqil·litat",
+    "tranquilitat",
+    "tranquil·litat"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «tranquil·litat». Amb ela geminada (l·l)."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m016",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "assaitx",
+    "assatj",
+    "asaig",
+    "assaig"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «assaig». s sorda entre vocals (ss) i ig al final."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m017",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "nàiser",
+    "nàxer",
+    "nàixer",
+    "naixer"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «nàixer». En valencià, nàixer porta accent obert."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m018",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "amenassa",
+    "amenaza",
+    "amenaça",
+    "amenaçe"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «amenaça». ç davant de a."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m019",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "accio",
+    "aczió",
+    "acsió",
+    "acció"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «acció»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m020",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "hereo",
+    "hereu",
+    "herreu",
+    "ereu"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «hereu»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m021",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «infligir»",
+   "options": [
+    "infligir",
+    "inflingir",
+    "infringir",
+    "infligit"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: i-n-f-l-i-g-i-r."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m022",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «perjudici»",
+   "options": [
+    "prejudici",
+    "perjuri",
+    "prejutjar",
+    "perjudici"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: p-e-r-j-u-d-i-c-i."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m023",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «eminent»",
+   "options": [
+    "eminència",
+    "eminent",
+    "imminent",
+    "emanant"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: e-m-i-n-e-n-t."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m024",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «sessió»",
+   "options": [
+    "sesió",
+    "sessió",
+    "cessió",
+    "secció"
+   ],
+   "correct": 1,
+   "explanation": "Mira bé cada lletra: s-e-s-s-i-ó."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m025",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «deferència»",
+   "options": [
+    "deferent",
+    "diferència",
+    "deferència",
+    "referència"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: d-e-f-e-r-è-n-c-i-a."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m026",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «espiar»",
+   "options": [
+    "expirar",
+    "expiar",
+    "espirar",
+    "espiar"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: e-s-p-i-a-r."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m027",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: infligir, infligir, infligir, infringir, infligir?",
+   "options": [
+    "la 4a",
+    "la 2a",
+    "la 1a",
+    "la 3a"
+   ],
+   "correct": 0,
+   "explanation": "És la 4a: «infringir», no «infligir»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m028",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: prejudici, perjudici, perjudici, perjudici, perjudici?",
+   "options": [
+    "la 2a",
+    "la 3a",
+    "la 1a",
+    "la 4a"
+   ],
+   "correct": 2,
+   "explanation": "És la 1a: «prejudici», no «perjudici»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m029",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: eminent, eminent, imminent, eminent, eminent?",
+   "options": [
+    "la 2a",
+    "la 3a",
+    "la 1a",
+    "la 4a"
+   ],
+   "correct": 1,
+   "explanation": "És la 3a: «imminent», no «eminent»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m030",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: sessió, sessió, sessió, sessió, secció?",
+   "options": [
+    "la 1a",
+    "la 5a",
+    "la 3a",
+    "la 2a"
+   ],
+   "correct": 1,
+   "explanation": "És la 5a: «secció», no «sessió»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_m031",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: deferència, diferència, deferència, deferència, deferència?",
+   "options": [
+    "la 4a",
+    "la 2a",
+    "la 3a",
+    "la 1a"
+   ],
+   "correct": 1,
+   "explanation": "És la 2a: «diferència», no «deferència»."
+  },
+  {
+   "id": "ca_memoria_visual_l8_o001",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "desarmar",
+    "desastre",
+    "desatendre",
+    "desert"
+   ],
+   "correctOrder": [
+    "desarmar",
+    "desastre",
+    "desatendre",
+    "desert"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: desarmar, desastre, desatendre, desert."
+  },
+  {
+   "id": "ca_memoria_visual_l8_o002",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "vaga",
+    "vaixell",
+    "valor",
+    "vapor"
+   ],
+   "correctOrder": [
+    "vaga",
+    "vaixell",
+    "valor",
+    "vapor"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: vaga, vaixell, valor, vapor."
+  },
+  {
+   "id": "ca_memoria_visual_l8_o003",
+   "module": "memoria_visual",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "preveure",
+    "previ",
+    "previst",
+    "prim"
+   ],
+   "correctOrder": [
+    "preveure",
+    "previ",
+    "previst",
+    "prim"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: preveure, previ, previst, prim."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m001",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "idiosincrasia",
+    "ideosincràsia",
+    "idiosincràcia",
+    "idiosincràsia"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «idiosincràsia». Acaba en -sia."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m002",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "esacerbar",
+    "exacervar",
+    "exacerbar",
+    "exhacerbar"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «exacerbar»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m003",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "rehavilitar",
+    "rehabilitar",
+    "rehabilitàr",
+    "reabilitar"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «rehabilitar»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m004",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "indèmne",
+    "indemne",
+    "indemnhe",
+    "indenme"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «indemne»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m005",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "exortar",
+    "exhortar",
+    "eshortar",
+    "exhortàr"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «exhortar»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m006",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "vicissitut",
+    "vicissitud",
+    "visicitud",
+    "vicisitud"
+   ],
+   "correct": 1,
+   "explanation": "S'escriu «vicissitud»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m007",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "subyacent",
+    "subjacènt",
+    "subjacent",
+    "subjaent"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «subjacent»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m008",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "inconsient",
+    "inconcient",
+    "incosscient",
+    "inconscient"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «inconscient». Amb sc: in-cons-ci-ent."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m009",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "obsolescència",
+    "obsolesència",
+    "obsolescènsia",
+    "obsolecència"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «obsolescència»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m010",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "sexajenari",
+    "sexagenàri",
+    "sexagenari",
+    "sesagenari"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «sexagenari»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m011",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "hecatombre",
+    "hecatonbe",
+    "hecatombe",
+    "ecatombe"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «hecatombe»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m012",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "vehicle",
+    "behicle",
+    "veicle",
+    "vehícle"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «vehicle»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m013",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "aleatoreo",
+    "al·leatori",
+    "aleatori",
+    "aleatòri"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «aleatori»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m014",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "ambigüitat",
+    "anbigüitat",
+    "ambigüetat",
+    "ambiguitat"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «ambigüitat». La dièresi fa sonar la u."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m015",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "col·loqui",
+    "coloqui",
+    "col·lóqui",
+    "col·locui"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «col·loqui». Amb ela geminada (l·l)."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m016",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "excel·lènt",
+    "excelent",
+    "escel·lent",
+    "excel·lent"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «excel·lent». Amb x i ela geminada."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m017",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "análisi",
+    "analisi",
+    "anàlisi",
+    "anàlissi"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «anàlisi»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m018",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Tria l'escriptura correcta:",
+   "options": [
+    "sicòleg",
+    "psicòlec",
+    "psicòleg",
+    "psicóleg"
+   ],
+   "correct": 2,
+   "explanation": "S'escriu «psicòleg»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m019",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina no té cap error?",
+   "options": [
+    "asabentar",
+    "assebentar",
+    "assabantar",
+    "assabentar"
+   ],
+   "correct": 3,
+   "explanation": "S'escriu «assabentar»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m020",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Assenyala la paraula correcta:",
+   "options": [
+    "aqüeducte",
+    "aqueducte",
+    "aquaeducte",
+    "aqüeduct"
+   ],
+   "correct": 0,
+   "explanation": "S'escriu «aqüeducte». La dièresi fa sonar la u."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m021",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «context»",
+   "options": [
+    "context",
+    "content",
+    "contacte",
+    "contest"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: c-o-n-t-e-x-t."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m022",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «desfet»",
+   "options": [
+    "desfeta",
+    "despit",
+    "desfet",
+    "defecte"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: d-e-s-f-e-t."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m023",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «obertura»",
+   "options": [
+    "obertura",
+    "oberta",
+    "apertura",
+    "abertura"
+   ],
+   "correct": 0,
+   "explanation": "Mira bé cada lletra: o-b-e-r-t-u-r-a."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m024",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «espècia»",
+   "options": [
+    "espai",
+    "especial",
+    "espècia",
+    "espècie"
+   ],
+   "correct": 2,
+   "explanation": "Mira bé cada lletra: e-s-p-è-c-i-a."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m025",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «ingerir»",
+   "options": [
+    "injectar",
+    "inferir",
+    "enginyar",
+    "ingerir"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: i-n-g-e-r-i-r."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m026",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Troba la paraula «estàtic»",
+   "options": [
+    "extàtic",
+    "estatut",
+    "estètic",
+    "estàtic"
+   ],
+   "correct": 3,
+   "explanation": "Mira bé cada lletra: e-s-t-à-t-i-c."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m027",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: context, context, context, context, contest?",
+   "options": [
+    "la 5a",
+    "la 1a",
+    "la 2a",
+    "la 3a"
+   ],
+   "correct": 0,
+   "explanation": "És la 5a: «contest», no «context»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m028",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: desfet, desfeta, desfet, desfet, desfet?",
+   "options": [
+    "la 2a",
+    "la 4a",
+    "la 1a",
+    "la 3a"
+   ],
+   "correct": 0,
+   "explanation": "És la 2a: «desfeta», no «desfet»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m029",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: obertura, obertura, obertura, apertura, obertura?",
+   "options": [
+    "la 1a",
+    "la 4a",
+    "la 3a",
+    "la 2a"
+   ],
+   "correct": 1,
+   "explanation": "És la 4a: «apertura», no «obertura»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m030",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: espècie, espècia, espècia, espècia, espècia?",
+   "options": [
+    "la 4a",
+    "la 1a",
+    "la 2a",
+    "la 3a"
+   ],
+   "correct": 1,
+   "explanation": "És la 1a: «espècie», no «espècia»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_m031",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és diferent: ingerir, ingerir, injectar, ingerir, ingerir?",
+   "options": [
+    "la 2a",
+    "la 3a",
+    "la 4a",
+    "la 1a"
+   ],
+   "correct": 1,
+   "explanation": "És la 3a: «injectar», no «ingerir»."
+  },
+  {
+   "id": "ca_memoria_visual_l9_o001",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "ambigu",
+    "àmbit",
+    "ambulància",
+    "amenaça"
+   ],
+   "correctOrder": [
+    "ambigu",
+    "àmbit",
+    "ambulància",
+    "amenaça"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: ambigu, àmbit, ambulància, amenaça."
+  },
+  {
+   "id": "ca_memoria_visual_l9_o002",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "conscient",
+    "consell",
+    "conseqüència",
+    "conservar"
+   ],
+   "correctOrder": [
+    "conscient",
+    "consell",
+    "conseqüència",
+    "conservar"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: conscient, consell, conseqüència, conservar."
+  },
+  {
+   "id": "ca_memoria_visual_l9_o003",
+   "module": "memoria_visual",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules alfabèticament",
+   "pieces": [
+    "subratllar",
+    "subsistir",
+    "subterrani",
+    "suburbi"
+   ],
+   "correctOrder": [
+    "subratllar",
+    "subsistir",
+    "subterrani",
+    "suburbi"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ordre alfabètic: subratllar, subsistir, subterrani, suburbi."
   }
  ]
 }

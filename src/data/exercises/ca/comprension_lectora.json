@@ -3271,6 +3271,1696 @@
    "options": [],
    "correct": 0,
    "explanation": "En la superfície, el magma s'anomena lava."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m001",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina és la idea principal del text?",
+   "options": [
+    "Les abelles són importants perquè pol·linitzen les plantes",
+    "Hi ha abelles a tot el món",
+    "Les pomes necessiten aigua",
+    "Les abelles fabriquen molta mel"
+   ],
+   "correct": 0,
+   "explanation": "El text explica per què és important la pol·linització.",
+   "passage": "Les abelles no sols fabriquen mel. Quan van de flor en flor, transporten el pol·len que les plantes necessiten per a formar fruits i llavors. Este procés s'anomena pol·linització. Sense ell, molts aliments que mengem cada dia, com les pomes o les ametles, serien escassos. Per això preocupa que, en els últims anys, haja disminuït el nombre d'abelles en moltes zones del món."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m002",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què és la pol·linització?",
+   "options": [
+    "Portar el pol·len d'una flor a una altra",
+    "Construir ruscos",
+    "Menjar ametles",
+    "Fabricar mel"
+   ],
+   "correct": 0,
+   "explanation": "«transporten el pol·len [...]. Este procés s'anomena pol·linització.»",
+   "passage": "Les abelles no sols fabriquen mel. Quan van de flor en flor, transporten el pol·len que les plantes necessiten per a formar fruits i llavors. Este procés s'anomena pol·linització. Sense ell, molts aliments que mengem cada dia, com les pomes o les ametles, serien escassos. Per això preocupa que, en els últims anys, haja disminuït el nombre d'abelles en moltes zones del món."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m003",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què passaria si no hi haguera pol·linització?",
+   "options": [
+    "Hi hauria més mel",
+    "Les flors serien més grans",
+    "Les abelles viurien més",
+    "Hi hauria menys fruits i llavors"
+   ],
+   "correct": 3,
+   "explanation": "«Sense ell, molts aliments [...] serien escassos.»",
+   "passage": "Les abelles no sols fabriquen mel. Quan van de flor en flor, transporten el pol·len que les plantes necessiten per a formar fruits i llavors. Este procés s'anomena pol·linització. Sense ell, molts aliments que mengem cada dia, com les pomes o les ametles, serien escassos. Per això preocupa que, en els últims anys, haja disminuït el nombre d'abelles en moltes zones del món."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m004",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «escassos» en el text?",
+   "options": [
+    "Que estan podrits",
+    "Que són grans",
+    "Que són cars",
+    "Que n'hi ha pocs"
+   ],
+   "correct": 3,
+   "explanation": "Escàs vol dir que n'hi ha poca quantitat.",
+   "passage": "Les abelles no sols fabriquen mel. Quan van de flor en flor, transporten el pol·len que les plantes necessiten per a formar fruits i llavors. Este procés s'anomena pol·linització. Sense ell, molts aliments que mengem cada dia, com les pomes o les ametles, serien escassos. Per això preocupa que, en els últims anys, haja disminuït el nombre d'abelles en moltes zones del món."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m005",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "On va trobar Lucía el sobre?",
+   "options": [
+    "Al pati",
+    "En la bústia de casa",
+    "En la motxilla",
+    "Dins d'un llibre de la biblioteca"
+   ],
+   "correct": 3,
+   "explanation": "«entre les pàgines d'un llibre vell de la biblioteca»",
+   "passage": "Lucía va trobar el sobre entre les pàgines d'un llibre vell de la biblioteca. Era groguenc i duia un segell de 1962. Va dubtar un moment: no era seu. Tanmateix, la curiositat va poder més i el va obrir amb compte. Dins hi havia una foto d'una xica de la seua edat davant del mateix institut i una nota: «Per a qui la trobe: cuida este lloc»."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m006",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Com sabem que el sobre era antic?",
+   "options": [
+    "Ho va dir la bibliotecària",
+    "Era groguenc i duia un segell de 1962",
+    "Estava trencat",
+    "Feia olor d'humitat"
+   ],
+   "correct": 1,
+   "explanation": "«Era groguenc i duia un segell de 1962.»",
+   "passage": "Lucía va trobar el sobre entre les pàgines d'un llibre vell de la biblioteca. Era groguenc i duia un segell de 1962. Va dubtar un moment: no era seu. Tanmateix, la curiositat va poder més i el va obrir amb compte. Dins hi havia una foto d'una xica de la seua edat davant del mateix institut i una nota: «Per a qui la trobe: cuida este lloc»."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m007",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Per què va dubtar Lucía abans d'obrir-lo?",
+   "options": [
+    "Perquè estava apegat",
+    "Perquè no entenia la lletra",
+    "Perquè tenia por",
+    "Perquè no era seu"
+   ],
+   "correct": 3,
+   "explanation": "«Va dubtar un moment: no era seu.»",
+   "passage": "Lucía va trobar el sobre entre les pàgines d'un llibre vell de la biblioteca. Era groguenc i duia un segell de 1962. Va dubtar un moment: no era seu. Tanmateix, la curiositat va poder més i el va obrir amb compte. Dins hi havia una foto d'una xica de la seua edat davant del mateix institut i una nota: «Per a qui la trobe: cuida este lloc»."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m008",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què tenen en comú Lucía i la xica de la foto?",
+   "options": [
+    "Són germanes",
+    "Tenen la mateixa edat i el mateix institut",
+    "Viuen al mateix carrer",
+    "Es diuen igual"
+   ],
+   "correct": 1,
+   "explanation": "«una xica de la seua edat davant del mateix institut»",
+   "passage": "Lucía va trobar el sobre entre les pàgines d'un llibre vell de la biblioteca. Era groguenc i duia un segell de 1962. Va dubtar un moment: no era seu. Tanmateix, la curiositat va poder més i el va obrir amb compte. Dins hi havia una foto d'una xica de la seua edat davant del mateix institut i una nota: «Per a qui la trobe: cuida este lloc»."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m009",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quin tipus de text és?",
+   "options": [
+    "Poètic: expressa sentiments",
+    "Descriptiu: descriu un paisatge",
+    "Narratiu: conta una història",
+    "Instructiu: dona normes per a fer alguna cosa"
+   ],
+   "correct": 3,
+   "explanation": "Dona instruccions i normes numerades.",
+   "passage": "Normes per a l'eixida al parc natural: 1. Arribeu a l'institut a les 8.15; l'autobús ix a les 8.30. 2. Porteu aigua, menjar i calçat còmode. 3. No us separeu del grup durant la ruta. 4. Està prohibit arrancar plantes o deixar fem. 5. Si algú es troba malament, aviseu de seguida un professor."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m010",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "A quina hora ix l'autobús?",
+   "options": [
+    "A les 8.15",
+    "A les 8.30",
+    "A les 8.00",
+    "A les 9.00"
+   ],
+   "correct": 1,
+   "explanation": "«l'autobús ix a les 8.30»",
+   "passage": "Normes per a l'eixida al parc natural: 1. Arribeu a l'institut a les 8.15; l'autobús ix a les 8.30. 2. Porteu aigua, menjar i calçat còmode. 3. No us separeu del grup durant la ruta. 4. Està prohibit arrancar plantes o deixar fem. 5. Si algú es troba malament, aviseu de seguida un professor."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m011",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Per què cal arribar a les 8.15?",
+   "options": [
+    "Per a esmorzar",
+    "Per a triar seient",
+    "Per a comprar aigua",
+    "Per a no perdre l'autobús"
+   ],
+   "correct": 3,
+   "explanation": "S'arriba abans que isca l'autobús.",
+   "passage": "Normes per a l'eixida al parc natural: 1. Arribeu a l'institut a les 8.15; l'autobús ix a les 8.30. 2. Porteu aigua, menjar i calçat còmode. 3. No us separeu del grup durant la ruta. 4. Està prohibit arrancar plantes o deixar fem. 5. Si algú es troba malament, aviseu de seguida un professor."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m012",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què has de fer si et mareges en la ruta?",
+   "options": [
+    "Tornar sol a l'autobús",
+    "Avisar de seguida un professor",
+    "Esperar que passe",
+    "Telefonar a casa"
+   ],
+   "correct": 1,
+   "explanation": "«Si algú es troba malament, aviseu de seguida un professor.»",
+   "passage": "Normes per a l'eixida al parc natural: 1. Arribeu a l'institut a les 8.15; l'autobús ix a les 8.30. 2. Porteu aigua, menjar i calçat còmode. 3. No us separeu del grup durant la ruta. 4. Està prohibit arrancar plantes o deixar fem. 5. Si algú es troba malament, aviseu de seguida un professor."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m013",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quin tipus de text és principalment?",
+   "options": [
+    "Instructiu",
+    "Argumentatiu",
+    "Expositiu",
+    "Descriptiu"
+   ],
+   "correct": 3,
+   "explanation": "Descriu com és el mercat: colors, olors i sons.",
+   "passage": "El mercat estava ple de color. Les parades de fruita formaven muntanyes de taronges, caquis i magranes. Feia olor de pa acabat de fer i d'espècies. Entre el soroll de les veus se sentia un venedor que anunciava, quasi cantant, que les seues tomaques eren les millors de la comarca. La meua iaia avançava a poc a poc i saludava tothom pel seu nom."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m014",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quins sentits apareixen en la descripció?",
+   "options": [
+    "La vista, l'olfacte i l'oïda",
+    "Només l'oïda",
+    "Només la vista",
+    "El gust i el tacte"
+   ],
+   "correct": 0,
+   "explanation": "Colors (vista), olor de pa (olfacte) i veus (oïda).",
+   "passage": "El mercat estava ple de color. Les parades de fruita formaven muntanyes de taronges, caquis i magranes. Feia olor de pa acabat de fer i d'espècies. Entre el soroll de les veus se sentia un venedor que anunciava, quasi cantant, que les seues tomaques eren les millors de la comarca. La meua iaia avançava a poc a poc i saludava tothom pel seu nom."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m015",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què podem deduir de la iaia?",
+   "options": [
+    "Que té pressa",
+    "Que hi treballa",
+    "Que va molt a eixe mercat",
+    "Que no coneix ningú"
+   ],
+   "correct": 2,
+   "explanation": "Saluda tothom pel seu nom: hi va sovint.",
+   "passage": "El mercat estava ple de color. Les parades de fruita formaven muntanyes de taronges, caquis i magranes. Feia olor de pa acabat de fer i d'espècies. Entre el soroll de les veus se sentia un venedor que anunciava, quasi cantant, que les seues tomaques eren les millors de la comarca. La meua iaia avançava a poc a poc i saludava tothom pel seu nom."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m016",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «comarca»?",
+   "options": [
+    "Un carrer del mercat",
+    "Una botiga de verdures",
+    "Una zona amb diversos pobles",
+    "Un tipus de tomaca"
+   ],
+   "correct": 2,
+   "explanation": "Una comarca és un territori amb diversos municipis.",
+   "passage": "El mercat estava ple de color. Les parades de fruita formaven muntanyes de taronges, caquis i magranes. Feia olor de pa acabat de fer i d'espècies. Entre el soroll de les veus se sentia un venedor que anunciava, quasi cantant, que les seues tomaques eren les millors de la comarca. La meua iaia avançava a poc a poc i saludava tothom pel seu nom."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m017",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quin tipus de text és?",
+   "options": [
+    "Una recepta",
+    "Una notícia",
+    "Un conte",
+    "Un poema"
+   ],
+   "correct": 1,
+   "explanation": "Informa d'un fet real: què, qui, quan i on.",
+   "passage": "L'IES Mediterrània va celebrar divendres un mercat solidari. L'alumnat de 1r d'ESO va vendre llibres usats, plantes i pastissos fets per les famílies. Van recaptar 1.240 euros, que es destinaran a un menjador social del barri. La directora va agrair la participació i va anunciar que l'activitat es repetirà en primavera."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m018",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quants diners van recaptar?",
+   "options": [
+    "12.400 euros",
+    "1.420 euros",
+    "1.240 euros",
+    "240 euros"
+   ],
+   "correct": 2,
+   "explanation": "«Van recaptar 1.240 euros»",
+   "passage": "L'IES Mediterrània va celebrar divendres un mercat solidari. L'alumnat de 1r d'ESO va vendre llibres usats, plantes i pastissos fets per les famílies. Van recaptar 1.240 euros, que es destinaran a un menjador social del barri. La directora va agrair la participació i va anunciar que l'activitat es repetirà en primavera."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m019",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "A què es destinaran els diners?",
+   "options": [
+    "A comprar llibres",
+    "A un menjador social del barri",
+    "A un viatge de fi de curs",
+    "A arreglar l'institut"
+   ],
+   "correct": 1,
+   "explanation": "«es destinaran a un menjador social del barri»",
+   "passage": "L'IES Mediterrània va celebrar divendres un mercat solidari. L'alumnat de 1r d'ESO va vendre llibres usats, plantes i pastissos fets per les famílies. Van recaptar 1.240 euros, que es destinaran a un menjador social del barri. La directora va agrair la participació i va anunciar que l'activitat es repetirà en primavera."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_m020",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir que el mercat és «solidari»?",
+   "options": [
+    "Que és gratis",
+    "Que es fa una vegada a l'any",
+    "Que els diners servixen per a ajudar altres persones",
+    "Que només venen menjar"
+   ],
+   "correct": 2,
+   "explanation": "Solidari: que ajuda qui ho necessita.",
+   "passage": "L'IES Mediterrània va celebrar divendres un mercat solidari. L'alumnat de 1r d'ESO va vendre llibres usats, plantes i pastissos fets per les famílies. Van recaptar 1.240 euros, que es destinaran a un menjador social del barri. La directora va agrair la participació i va anunciar que l'activitat es repetirà en primavera."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_f001",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "El ___ d'un text és la idea més important.",
+   "blanks": [
+    "tema"
+   ],
+   "distractors": [
+    "títol"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El tema és la idea principal."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_f002",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Les plantes produïxen el seu aliment mitjançant la ___.",
+   "blanks": [
+    "fotosíntesi"
+   ],
+   "distractors": [
+    "digestió"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La fotosíntesi transforma la llum en aliment."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_f003",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Un text que dona ordres o passos per a seguir és ___.",
+   "blanks": [
+    "instructiu"
+   ],
+   "distractors": [
+    "narratiu"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Els textos instructius expliquen com fer alguna cosa."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_f004",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "El ___ conta la història i els ___ hi participen.",
+   "blanks": [
+    "narrador",
+    "personatges"
+   ],
+   "distractors": [
+    "lector",
+    "escriptors"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El narrador conta; els personatges actuen."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_f005",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Una paraula amb un significat ___ a una altra és un sinònim.",
+   "blanks": [
+    "semblant"
+   ],
+   "distractors": [
+    "contrari"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Sinònim: significat igual o semblant."
+  },
+  {
+   "id": "ca_comprension_lectora_l6_f006",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "L'aigua de la mar s'___ amb la calor del sol.",
+   "blanks": [
+    "evapora"
+   ],
+   "distractors": [
+    "congela"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La calor evapora l'aigua."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m001",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin és el tema del text?",
+   "options": [
+    "Com és la pluja en el clima mediterrani i quins efectes té",
+    "Els rius més llargs del país",
+    "Com es formen els núvols",
+    "Per què la mar és salada"
+   ],
+   "correct": 0,
+   "explanation": "Explica com plou i quines conseqüències té.",
+   "passage": "En el clima mediterrani, la pluja es concentra en pocs dies de l'any, sovint en forma de tempestes intenses. Això té dues conseqüències. D'una banda, l'aigua cau tan de pressa que el sòl no pot absorbir-la i es produïxen inundacions. De l'altra, els llargs períodes sense pluja provoquen sequeres. Per això els experts insistixen que gestionar bé l'aigua és tan important com que plega."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m002",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Per què es produïxen inundacions?",
+   "options": [
+    "Perquè fa molt de fred",
+    "Perquè l'aigua cau tan de pressa que el sòl no l'absorbix",
+    "Perquè puja la mar",
+    "Perquè plou tots els dies"
+   ],
+   "correct": 1,
+   "explanation": "«l'aigua cau tan de pressa que el sòl no pot absorbir-la»",
+   "passage": "En el clima mediterrani, la pluja es concentra en pocs dies de l'any, sovint en forma de tempestes intenses. Això té dues conseqüències. D'una banda, l'aigua cau tan de pressa que el sòl no pot absorbir-la i es produïxen inundacions. De l'altra, els llargs períodes sense pluja provoquen sequeres. Per això els experts insistixen que gestionar bé l'aigua és tan important com que plega."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m003",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina funció tenen «D'una banda» i «De l'altra»?",
+   "options": [
+    "Expressar un dubte",
+    "Contar un record",
+    "Donar una ordre",
+    "Ordenar dues conseqüències"
+   ],
+   "correct": 3,
+   "explanation": "Són connectors que organitzen les idees.",
+   "passage": "En el clima mediterrani, la pluja es concentra en pocs dies de l'any, sovint en forma de tempestes intenses. Això té dues conseqüències. D'una banda, l'aigua cau tan de pressa que el sòl no pot absorbir-la i es produïxen inundacions. De l'altra, els llargs períodes sense pluja provoquen sequeres. Per això els experts insistixen que gestionar bé l'aigua és tan important com que plega."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m004",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Què opinen els experts segons el text?",
+   "options": [
+    "Que no es pot fer res",
+    "Que en el Mediterrani no plou mai",
+    "Que les tempestes són bones",
+    "Que gestionar bé l'aigua és molt important"
+   ],
+   "correct": 3,
+   "explanation": "«gestionar bé l'aigua és tan important com que plega»",
+   "passage": "En el clima mediterrani, la pluja es concentra en pocs dies de l'any, sovint en forma de tempestes intenses. Això té dues conseqüències. D'una banda, l'aigua cau tan de pressa que el sòl no pot absorbir-la i es produïxen inundacions. De l'altra, els llargs períodes sense pluja provoquen sequeres. Per això els experts insistixen que gestionar bé l'aigua és tan important com que plega."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m005",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin tipus de text és?",
+   "options": [
+    "Una notícia",
+    "Una biografia",
+    "Una carta d'opinió",
+    "Un text instructiu"
+   ],
+   "correct": 2,
+   "explanation": "S'adreça al director i dona la seua opinió.",
+   "passage": "Senyor director: estudie 2n d'ESO i vull opinar sobre la prohibició del mòbil al pati. Molts companys es van queixar al principi, però ara juguem a futbol, parlem més i fins i tot hem organitzat un torneig d'escacs. Crec que la norma ha millorat la convivència. Tot i això, demanaria que es poguera usar en cas d'emergència."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m006",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina és l'opinió de l'autor?",
+   "options": [
+    "Que cal llevar la norma",
+    "Que els escacs són avorrits",
+    "Que la prohibició ha millorat la convivència",
+    "Que el pati és xicotet"
+   ],
+   "correct": 2,
+   "explanation": "«Crec que la norma ha millorat la convivència.»",
+   "passage": "Senyor director: estudie 2n d'ESO i vull opinar sobre la prohibició del mòbil al pati. Molts companys es van queixar al principi, però ara juguem a futbol, parlem més i fins i tot hem organitzat un torneig d'escacs. Crec que la norma ha millorat la convivència. Tot i això, demanaria que es poguera usar en cas d'emergència."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m007",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quins arguments dona per a defendre la seua opinió?",
+   "options": [
+    "Que ho diuen els professors",
+    "Que es perden molts mòbils",
+    "Que els mòbils són cars",
+    "Que ara juguen, parlen més i han fet un torneig"
+   ],
+   "correct": 3,
+   "explanation": "Posa exemples del que ha canviat.",
+   "passage": "Senyor director: estudie 2n d'ESO i vull opinar sobre la prohibició del mòbil al pati. Molts companys es van queixar al principi, però ara juguem a futbol, parlem més i fins i tot hem organitzat un torneig d'escacs. Crec que la norma ha millorat la convivència. Tot i això, demanaria que es poguera usar en cas d'emergència."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m008",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Què introduïx «Tot i això»?",
+   "options": [
+    "Una conclusió",
+    "Una petició que matisa la seua opinió",
+    "Un exemple",
+    "Una causa"
+   ],
+   "correct": 1,
+   "explanation": "«Tot i això» presenta una idea que matisa l'anterior.",
+   "passage": "Senyor director: estudie 2n d'ESO i vull opinar sobre la prohibició del mòbil al pati. Molts companys es van queixar al principi, però ara juguem a futbol, parlem més i fins i tot hem organitzat un torneig d'escacs. Crec que la norma ha millorat la convivència. Tot i això, demanaria que es poguera usar en cas d'emergència."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m009",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin tipus de text és?",
+   "options": [
+    "Un anunci",
+    "Un conte",
+    "Una recepta",
+    "Una biografia"
+   ],
+   "correct": 3,
+   "explanation": "Conta la vida d'una persona real.",
+   "passage": "Clara Campoamor va nàixer a Madrid el 1888. Va treballar des de molt jove i va estudiar Dret quan ja era adulta. El 1931 va ser elegida diputada i va defendre a les Corts que les dones pogueren votar. Molts, fins i tot dins del seu propi partit, s'hi van oposar. Finalment, el vot femení es va aprovar i les dones van votar per primera vegada en unes eleccions generals el 1933."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m010",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Què va defendre Clara Campoamor a les Corts?",
+   "options": [
+    "Que s'abaixaren els imposts",
+    "El dret de les dones a votar",
+    "Que es fundara una universitat",
+    "Que es construïren escoles"
+   ],
+   "correct": 1,
+   "explanation": "«va defendre a les Corts que les dones pogueren votar»",
+   "passage": "Clara Campoamor va nàixer a Madrid el 1888. Va treballar des de molt jove i va estudiar Dret quan ja era adulta. El 1931 va ser elegida diputada i va defendre a les Corts que les dones pogueren votar. Molts, fins i tot dins del seu propi partit, s'hi van oposar. Finalment, el vot femení es va aprovar i les dones van votar per primera vegada en unes eleccions generals el 1933."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m011",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Què indica «fins i tot dins del seu propi partit»?",
+   "options": [
+    "Que tots li donaven suport",
+    "Que va canviar de partit",
+    "Que també va tindre oposició de gent pròxima",
+    "Que no tenia partit"
+   ],
+   "correct": 2,
+   "explanation": "«fins i tot» destaca una cosa inesperada.",
+   "passage": "Clara Campoamor va nàixer a Madrid el 1888. Va treballar des de molt jove i va estudiar Dret quan ja era adulta. El 1931 va ser elegida diputada i va defendre a les Corts que les dones pogueren votar. Molts, fins i tot dins del seu propi partit, s'hi van oposar. Finalment, el vot femení es va aprovar i les dones van votar per primera vegada en unes eleccions generals el 1933."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m012",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En quin any van votar per primera vegada les dones en unes eleccions generals?",
+   "options": [
+    "El 1933",
+    "El 1931",
+    "El 1936",
+    "El 1888"
+   ],
+   "correct": 0,
+   "explanation": "«van votar per primera vegada [...] el 1933»",
+   "passage": "Clara Campoamor va nàixer a Madrid el 1888. Va treballar des de molt jove i va estudiar Dret quan ja era adulta. El 1931 va ser elegida diputada i va defendre a les Corts que les dones pogueren votar. Molts, fins i tot dins del seu propi partit, s'hi van oposar. Finalment, el vot femení es va aprovar i les dones van votar per primera vegada en unes eleccions generals el 1933."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m013",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quantes hores es recomana dormir en l'adolescència?",
+   "options": [
+    "Entre cinc i sis",
+    "Entre huit i deu",
+    "Més de dotze",
+    "Exactament set"
+   ],
+   "correct": 1,
+   "explanation": "«entre huit i deu hores»",
+   "passage": "Durant l'adolescència, el rellotge intern del cos canvia: la son arriba més tard a la nit. Tanmateix, les classes comencen d'hora. Els especialistes recomanen que els adolescents dormen entre huit i deu hores. Quan no ho fan, costa més concentrar-se, recordar el que s'ha estudiat i controlar el mal humor. Apagar les pantalles una hora abans de gitar-se ajuda a dormir millor."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m014",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin problema planteja el text?",
+   "options": [
+    "Que l'escola està lluny",
+    "Que la son arriba tard, però les classes comencen d'hora",
+    "Que els adolescents dormen massa",
+    "Que les pantalles no gasten bateria"
+   ],
+   "correct": 1,
+   "explanation": "El text contraposa la son tardana i l'horari primerenc.",
+   "passage": "Durant l'adolescència, el rellotge intern del cos canvia: la son arriba més tard a la nit. Tanmateix, les classes comencen d'hora. Els especialistes recomanen que els adolescents dormen entre huit i deu hores. Quan no ho fan, costa més concentrar-se, recordar el que s'ha estudiat i controlar el mal humor. Apagar les pantalles una hora abans de gitar-se ajuda a dormir millor."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m015",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina conseqüència NO esmenta el text?",
+   "options": [
+    "Estar de mal humor",
+    "Créixer menys",
+    "Recordar pitjor el que s'ha estudiat",
+    "Concentrar-se pitjor"
+   ],
+   "correct": 1,
+   "explanation": "El text no parla del creixement.",
+   "passage": "Durant l'adolescència, el rellotge intern del cos canvia: la son arriba més tard a la nit. Tanmateix, les classes comencen d'hora. Els especialistes recomanen que els adolescents dormen entre huit i deu hores. Quan no ho fan, costa més concentrar-se, recordar el que s'ha estudiat i controlar el mal humor. Apagar les pantalles una hora abans de gitar-se ajuda a dormir millor."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m016",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin consell dona el text?",
+   "options": [
+    "Estudiar de nit",
+    "Fer la migdiada a classe",
+    "Apagar les pantalles una hora abans de dormir",
+    "Prendre café pel matí"
+   ],
+   "correct": 2,
+   "explanation": "«Apagar les pantalles una hora abans de gitar-se ajuda a dormir millor.»",
+   "passage": "Durant l'adolescència, el rellotge intern del cos canvia: la son arriba més tard a la nit. Tanmateix, les classes comencen d'hora. Els especialistes recomanen que els adolescents dormen entre huit i deu hores. Quan no ho fan, costa més concentrar-se, recordar el que s'ha estudiat i controlar el mal humor. Apagar les pantalles una hora abans de gitar-se ajuda a dormir millor."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m017",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin problema apareix en la història?",
+   "options": [
+    "El far es va quedar sense llum",
+    "El faroner es va perdre",
+    "Es va trencar la ràdio",
+    "Un vaixell sense motor s'acostava a les roques"
+   ],
+   "correct": 3,
+   "explanation": "«un pesquer sense motor s'acostava a les roques»",
+   "passage": "El faroner pujava cada vesprada els cent dotze escalons de la torre. Aquella nit la mar rugia i la pluja colpejava els vidres. De sobte va veure una llum feble entre les ones: un pesquer sense motor s'acostava a les roques. No s'ho va pensar dues vegades. Va encendre la sirena, va avisar el port per ràdio i va mantindre el focus apuntant al vaixell fins que va arribar l'ajuda."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m018",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «No s'ho va pensar dues vegades»?",
+   "options": [
+    "Que va actuar de seguida",
+    "Que se'n va oblidar",
+    "Que va dubtar molt",
+    "Que va pensar en dues coses"
+   ],
+   "correct": 0,
+   "explanation": "És una expressió que vol dir actuar sense dubtar.",
+   "passage": "El faroner pujava cada vesprada els cent dotze escalons de la torre. Aquella nit la mar rugia i la pluja colpejava els vidres. De sobte va veure una llum feble entre les ones: un pesquer sense motor s'acostava a les roques. No s'ho va pensar dues vegades. Va encendre la sirena, va avisar el port per ràdio i va mantindre el focus apuntant al vaixell fins que va arribar l'ajuda."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m019",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin recurs hi ha en «la mar rugia»?",
+   "options": [
+    "Una comparació",
+    "Una enumeració",
+    "Una pregunta retòrica",
+    "Una personificació"
+   ],
+   "correct": 3,
+   "explanation": "S'atribuïx a la mar una acció d'un ésser viu (rugir).",
+   "passage": "El faroner pujava cada vesprada els cent dotze escalons de la torre. Aquella nit la mar rugia i la pluja colpejava els vidres. De sobte va veure una llum feble entre les ones: un pesquer sense motor s'acostava a les roques. No s'ho va pensar dues vegades. Va encendre la sirena, va avisar el port per ràdio i va mantindre el focus apuntant al vaixell fins que va arribar l'ajuda."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_m020",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin tret del faroner destaca el text?",
+   "options": [
+    "La seua responsabilitat",
+    "La seua por",
+    "La seua peresa",
+    "El seu mal humor"
+   ],
+   "correct": 0,
+   "explanation": "Fa tot el necessari per a salvar el vaixell.",
+   "passage": "El faroner pujava cada vesprada els cent dotze escalons de la torre. Aquella nit la mar rugia i la pluja colpejava els vidres. De sobte va veure una llum feble entre les ones: un pesquer sense motor s'acostava a les roques. No s'ho va pensar dues vegades. Va encendre la sirena, va avisar el port per ràdio i va mantindre el focus apuntant al vaixell fins que va arribar l'ajuda."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_f001",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Per a defendre una opinió cal donar ___.",
+   "blanks": [
+    "arguments"
+   ],
+   "distractors": [
+    "adjectius"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Els arguments sostenen una opinió."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_f002",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "La ___ és la vida d'una persona contada per una altra.",
+   "blanks": [
+    "biografia"
+   ],
+   "distractors": [
+    "autobiografia"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Biografia: l'escriu una altra persona."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_f003",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "El ___ d'una notícia resumix el més important en una línia.",
+   "blanks": [
+    "titular"
+   ],
+   "distractors": [
+    "paràgraf"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El titular és la frase destacada de la notícia."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_f004",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Els connectors com «tanmateix» expressen ___.",
+   "blanks": [
+    "oposició"
+   ],
+   "distractors": [
+    "causa"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "«Tanmateix» oposa dues idees."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_f005",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Un ___ és un text breu en vers.",
+   "blanks": [
+    "poema"
+   ],
+   "distractors": [
+    "assaig"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Els poemes solen escriure's en vers."
+  },
+  {
+   "id": "ca_comprension_lectora_l7_f006",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "L'___ d'aigua és un problema en zones amb poca pluja.",
+   "blanks": [
+    "escassetat"
+   ],
+   "distractors": [
+    "abundància"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Escassetat: falta d'alguna cosa."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m001",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina és la tesi de l'autor?",
+   "options": [
+    "Els horaris no influïxen en res",
+    "La salut de l'alumnat ha de pesar més que la comoditat dels horaris",
+    "Les famílies han de decidir l'horari",
+    "Les classes han de començar a les 7.00"
+   ],
+   "correct": 1,
+   "explanation": "La tesi apareix al final: «Al meu parer...».",
+   "passage": "Alguns instituts dels Estats Units han endarrerit l'inici de les classes fins a les 8.30 o més tard. Els seus defensors sostenen que l'alumnat dorm més, falta menys i rendix millor. Els crítics responen que es complica l'organització familiar i que les activitats de la vesprada acaben més tard. Al meu parer, la salut de l'alumnat hauria de pesar més que la comoditat dels horaris."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m002",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quin és un contraargument en este text?",
+   "options": [
+    "Que falta menys a classe",
+    "Que es complica l'organització familiar",
+    "Que l'alumnat dorm més",
+    "Que rendix millor"
+   ],
+   "correct": 1,
+   "explanation": "És l'argument dels qui opinen el contrari.",
+   "passage": "Alguns instituts dels Estats Units han endarrerit l'inici de les classes fins a les 8.30 o més tard. Els seus defensors sostenen que l'alumnat dorm més, falta menys i rendix millor. Els crítics responen que es complica l'organització familiar i que les activitats de la vesprada acaben més tard. Al meu parer, la salut de l'alumnat hauria de pesar més que la comoditat dels horaris."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m003",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina expressió introduïx l'opinió personal?",
+   "options": [
+    "«Els seus defensors sostenen»",
+    "«Els crítics responen»",
+    "«Al meu parer»",
+    "«Alguns instituts»"
+   ],
+   "correct": 2,
+   "explanation": "«Al meu parer» equival a «en la meua opinió».",
+   "passage": "Alguns instituts dels Estats Units han endarrerit l'inici de les classes fins a les 8.30 o més tard. Els seus defensors sostenen que l'alumnat dorm més, falta menys i rendix millor. Els crítics responen que es complica l'organització familiar i que les activitats de la vesprada acaben més tard. Al meu parer, la salut de l'alumnat hauria de pesar més que la comoditat dels horaris."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m004",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Com està organitzat el text?",
+   "options": [
+    "Fet, arguments a favor, en contra i opinió",
+    "Opinió, recepta i conclusió",
+    "Només arguments a favor",
+    "Diàleg entre dos personatges"
+   ],
+   "correct": 0,
+   "explanation": "Presenta el fet, els dos punts de vista i la tesi.",
+   "passage": "Alguns instituts dels Estats Units han endarrerit l'inici de les classes fins a les 8.30 o més tard. Els seus defensors sostenen que l'alumnat dorm més, falta menys i rendix millor. Els crítics responen que es complica l'organització familiar i que les activitats de la vesprada acaben més tard. Al meu parer, la salut de l'alumnat hauria de pesar més que la comoditat dels horaris."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m005",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quin recurs literari hi ha en «Els fanals eren cuques de llum cansades»?",
+   "options": [
+    "Una metàfora",
+    "Una comparació amb «com»",
+    "Una hipèrbole",
+    "Una pregunta retòrica"
+   ],
+   "correct": 0,
+   "explanation": "Identifica els fanals amb cuques de llum sense usar «com».",
+   "passage": "La ciutat dormia davall d'una manta de boira. Els fanals eren cuques de llum cansades i el tramvia, com un cuc de llum, lliscava sense fer soroll. Jo caminava a poc a poc, amb el cor encongit, perquè sabia que, en girar la cantonada, m'esperava un comiat."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m006",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quin recurs hi ha en «el tramvia, com un cuc de llum»?",
+   "options": [
+    "Una metàfora pura",
+    "Un símil o comparació",
+    "Una onomatopeia",
+    "Una personificació"
+   ],
+   "correct": 1,
+   "explanation": "Compara usant «com».",
+   "passage": "La ciutat dormia davall d'una manta de boira. Els fanals eren cuques de llum cansades i el tramvia, com un cuc de llum, lliscava sense fer soroll. Jo caminava a poc a poc, amb el cor encongit, perquè sabia que, en girar la cantonada, m'esperava un comiat."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m007",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Què expressa «amb el cor encongit»?",
+   "options": [
+    "Tristesa i nervis",
+    "Alegria",
+    "Fam",
+    "Cansament físic"
+   ],
+   "correct": 0,
+   "explanation": "És una expressió d'angoixa o d'emoció continguda.",
+   "passage": "La ciutat dormia davall d'una manta de boira. Els fanals eren cuques de llum cansades i el tramvia, com un cuc de llum, lliscava sense fer soroll. Jo caminava a poc a poc, amb el cor encongit, perquè sabia que, en girar la cantonada, m'esperava un comiat."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m008",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quin ambient crea la descripció?",
+   "options": [
+    "Còmic",
+    "Tranquil i melancòlic",
+    "Festiu i sorollós",
+    "De terror"
+   ],
+   "correct": 1,
+   "explanation": "Boira, silenci i un comiat creen un to melancòlic.",
+   "passage": "La ciutat dormia davall d'una manta de boira. Els fanals eren cuques de llum cansades i el tramvia, com un cuc de llum, lliscava sense fer soroll. Jo caminava a poc a poc, amb el cor encongit, perquè sabia que, en girar la cantonada, m'esperava un comiat."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m009",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Què són els microplàstics?",
+   "options": [
+    "Peixos molt xicotets",
+    "Bosses de supermercat",
+    "Trossos de plàstic de menys de cinc mil·límetres",
+    "Plàstics de colors"
+   ],
+   "correct": 2,
+   "explanation": "«fragments de plàstic de menys de cinc mil·límetres»",
+   "passage": "Els microplàstics són fragments de plàstic de menys de cinc mil·límetres. Provenen d'envasos que es trenquen, de roba sintètica que solta fibres quan es llava i d'alguns productes cosmètics. S'han trobat en l'aigua, en l'aire, en els peixos i fins i tot en la sal de taula. Els científics encara n'estudien els efectes sobre la salut, però coincidixen que reduir l'ús del plàstic és la mesura més eficaç."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m010",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina font de microplàstics esmenta el text?",
+   "options": [
+    "La fusta dels mobles",
+    "La roba sintètica quan es llava",
+    "Les pedres del riu",
+    "El paper reciclat"
+   ],
+   "correct": 1,
+   "explanation": "«roba sintètica que solta fibres quan es llava»",
+   "passage": "Els microplàstics són fragments de plàstic de menys de cinc mil·límetres. Provenen d'envasos que es trenquen, de roba sintètica que solta fibres quan es llava i d'alguns productes cosmètics. S'han trobat en l'aigua, en l'aire, en els peixos i fins i tot en la sal de taula. Els científics encara n'estudien els efectes sobre la salut, però coincidixen que reduir l'ús del plàstic és la mesura més eficaç."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m011",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Què afirma el text sobre els efectes en la salut?",
+   "options": [
+    "Que encara s'estan estudiant",
+    "Que no es poden estudiar",
+    "Que són totalment inofensius",
+    "Que causen malalties greus segur"
+   ],
+   "correct": 0,
+   "explanation": "«encara n'estudien els efectes sobre la salut»",
+   "passage": "Els microplàstics són fragments de plàstic de menys de cinc mil·límetres. Provenen d'envasos que es trenquen, de roba sintètica que solta fibres quan es llava i d'alguns productes cosmètics. S'han trobat en l'aigua, en l'aire, en els peixos i fins i tot en la sal de taula. Els científics encara n'estudien els efectes sobre la salut, però coincidixen que reduir l'ús del plàstic és la mesura més eficaç."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m012",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina intenció té el text?",
+   "options": [
+    "Vendre un producte",
+    "Informar d'un problema i de la solució principal",
+    "Expressar sentiments",
+    "Contar una aventura"
+   ],
+   "correct": 1,
+   "explanation": "És un text expositiu amb una recomanació final.",
+   "passage": "Els microplàstics són fragments de plàstic de menys de cinc mil·límetres. Provenen d'envasos que es trenquen, de roba sintètica que solta fibres quan es llava i d'alguns productes cosmètics. S'han trobat en l'aigua, en l'aire, en els peixos i fins i tot en la sal de taula. Els científics encara n'estudien els efectes sobre la salut, però coincidixen que reduir l'ús del plàstic és la mesura més eficaç."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m013",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quin tipus de text és?",
+   "options": [
+    "Expositiu",
+    "Narratiu",
+    "Normatiu",
+    "Publicitari"
+   ],
+   "correct": 3,
+   "explanation": "Intenta convéncer-te que descarregues un producte.",
+   "passage": "Cansat d'arribar tard? Amb RellotgePro mai més perdràs l'autobús. Milers d'usuaris ja l'han provat. La seua alarma intel·ligent et desperta en el millor moment de la teua son. Descarrega-la hui i aconseguix un mes gratis! Oferta vàlida només esta setmana."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m014",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina estratègia és «Milers d'usuaris ja l'han provat»?",
+   "options": [
+    "Contar una història",
+    "Donar una dada científica",
+    "Fer una crítica",
+    "Apel·lar al que fa la majoria"
+   ],
+   "correct": 3,
+   "explanation": "Busca convéncer perquè «tothom l'usa».",
+   "passage": "Cansat d'arribar tard? Amb RellotgePro mai més perdràs l'autobús. Milers d'usuaris ja l'han provat. La seua alarma intel·ligent et desperta en el millor moment de la teua son. Descarrega-la hui i aconseguix un mes gratis! Oferta vàlida només esta setmana."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m015",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Per a què servix «Oferta vàlida només esta setmana»?",
+   "options": [
+    "Per a explicar com funciona",
+    "Per a fer pressa al lector",
+    "Per a informar del temps",
+    "Per a donar les gràcies"
+   ],
+   "correct": 1,
+   "explanation": "Crea sensació d'urgència.",
+   "passage": "Cansat d'arribar tard? Amb RellotgePro mai més perdràs l'autobús. Milers d'usuaris ja l'han provat. La seua alarma intel·ligent et desperta en el millor moment de la teua son. Descarrega-la hui i aconseguix un mes gratis! Oferta vàlida només esta setmana."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m016",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Per què comença amb una pregunta?",
+   "options": [
+    "Per a fer un examen",
+    "Perquè l'autor té un dubte",
+    "Per a captar l'atenció del lector",
+    "Per a demanar informació"
+   ],
+   "correct": 2,
+   "explanation": "És una pregunta retòrica que implica el lector.",
+   "passage": "Cansat d'arribar tard? Amb RellotgePro mai més perdràs l'autobús. Milers d'usuaris ja l'han provat. La seua alarma intel·ligent et desperta en el millor moment de la teua son. Descarrega-la hui i aconseguix un mes gratis! Oferta vàlida només esta setmana."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m017",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina és la intenció principal de l'autor?",
+   "options": [
+    "Contar un viatge",
+    "Explicar com es cultiva la verdura",
+    "Reconéixer un treball que la història ha oblidat",
+    "Descriure el mercat actual"
+   ],
+   "correct": 2,
+   "explanation": "Defén que cal recuperar la memòria d'estes dones.",
+   "passage": "Les dones de l'horta de València anaven al mercat amb cistelles de verdura abans de l'alba. Recorrien diversos quilòmetres a peu i tornaven a migdia per a treballar el camp. Poques vegades apareixen en els llibres d'història, però sense elles la ciutat no haguera tingut què menjar. Recuperar-ne la memòria és, també, una manera de fer justícia."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m018",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «abans de l'alba»?",
+   "options": [
+    "A migdia",
+    "Abans que eixira el sol",
+    "De vesprada",
+    "De nit, en gitar-se"
+   ],
+   "correct": 1,
+   "explanation": "L'alba és l'eixida del sol.",
+   "passage": "Les dones de l'horta de València anaven al mercat amb cistelles de verdura abans de l'alba. Recorrien diversos quilòmetres a peu i tornaven a migdia per a treballar el camp. Poques vegades apareixen en els llibres d'història, però sense elles la ciutat no haguera tingut què menjar. Recuperar-ne la memòria és, també, una manera de fer justícia."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m019",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quin valor té l'expressió «sense elles la ciutat no haguera tingut què menjar»?",
+   "options": [
+    "Dona una recepta",
+    "Destaca la importància del seu treball",
+    "Exagera per a fer riure",
+    "Critica les dones"
+   ],
+   "correct": 1,
+   "explanation": "Subratlla que el seu treball era imprescindible.",
+   "passage": "Les dones de l'horta de València anaven al mercat amb cistelles de verdura abans de l'alba. Recorrien diversos quilòmetres a peu i tornaven a migdia per a treballar el camp. Poques vegades apareixen en els llibres d'història, però sense elles la ciutat no haguera tingut què menjar. Recuperar-ne la memòria és, també, una manera de fer justícia."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_m020",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «fer justícia» en este text?",
+   "options": [
+    "Canviar una llei",
+    "Anar a un judici",
+    "Donar a algú el reconeixement que es mereix",
+    "Castigar algú"
+   ],
+   "correct": 2,
+   "explanation": "Reconéixer el que estes dones van aportar.",
+   "passage": "Les dones de l'horta de València anaven al mercat amb cistelles de verdura abans de l'alba. Recorrien diversos quilòmetres a peu i tornaven a migdia per a treballar el camp. Poques vegades apareixen en els llibres d'història, però sense elles la ciutat no haguera tingut què menjar. Recuperar-ne la memòria és, també, una manera de fer justícia."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_f001",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "La idea que defén un text argumentatiu s'anomena ___.",
+   "blanks": [
+    "tesi"
+   ],
+   "distractors": [
+    "anècdota"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La tesi és l'opinió principal."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_f002",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "La ___ identifica dues coses sense usar «com».",
+   "blanks": [
+    "metàfora"
+   ],
+   "distractors": [
+    "onomatopeia"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La metàfora identifica una cosa amb una altra."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_f003",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "En un text ___ predomina la informació objectiva.",
+   "blanks": [
+    "expositiu"
+   ],
+   "distractors": [
+    "poètic"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "L'expositiu informa i explica."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_f004",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Un ___ és un argument contrari a la tesi.",
+   "blanks": [
+    "contraargument"
+   ],
+   "distractors": [
+    "exemple"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Contraargument: raó en contra."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_f005",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "La publicitat intenta ___ el receptor.",
+   "blanks": [
+    "persuadir"
+   ],
+   "distractors": [
+    "avorrir"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Persuadir és convéncer."
+  },
+  {
+   "id": "ca_comprension_lectora_l8_f006",
+   "module": "comprension_lectora",
+   "level": 8,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Un registre ___ és propi de situacions serioses.",
+   "blanks": [
+    "formal"
+   ],
+   "distractors": [
+    "col·loquial"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Registre formal: entrevistes, exàmens, cartes oficials."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m001",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin error de raonament critica el text?",
+   "options": [
+    "Usar massa el mòbil",
+    "Creure que una cosa és veritat perquè molta gent la compartix",
+    "Desconfiar de tot",
+    "Llegir només periòdics"
+   ],
+   "correct": 1,
+   "explanation": "És la fal·làcia d'apel·lar a la popularitat.",
+   "passage": "«Si tothom compartix esta notícia, deu ser veritat.» Este raonament és tan freqüent com enganyós. Que una cosa es difonga molt no demostra que siga certa: només demostra que crida l'atenció. Abans de compartir, convé preguntar-se qui ho diu, en què es basa i si altres fonts fiables ho confirmen. Pensar dos segons més pot evitar que una mentida faça la volta al món."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m002",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Segons el text, què demostra que una cosa es difonga molt?",
+   "options": [
+    "Que crida l'atenció",
+    "Que és veritat",
+    "Que és científica",
+    "Que és antiga"
+   ],
+   "correct": 0,
+   "explanation": "«només demostra que crida l'atenció»",
+   "passage": "«Si tothom compartix esta notícia, deu ser veritat.» Este raonament és tan freqüent com enganyós. Que una cosa es difonga molt no demostra que siga certa: només demostra que crida l'atenció. Abans de compartir, convé preguntar-se qui ho diu, en què es basa i si altres fonts fiables ho confirmen. Pensar dos segons més pot evitar que una mentida faça la volta al món."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m003",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Què proposa l'autor?",
+   "options": [
+    "No usar internet",
+    "Comprovar la font i si altres fonts fiables ho confirmen",
+    "Creure només els amics",
+    "Compartir-ho tot ràpidament"
+   ],
+   "correct": 1,
+   "explanation": "Planteja tres preguntes abans de compartir.",
+   "passage": "«Si tothom compartix esta notícia, deu ser veritat.» Este raonament és tan freqüent com enganyós. Que una cosa es difonga molt no demostra que siga certa: només demostra que crida l'atenció. Abans de compartir, convé preguntar-se qui ho diu, en què es basa i si altres fonts fiables ho confirmen. Pensar dos segons més pot evitar que una mentida faça la volta al món."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m004",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina funció té la frase final?",
+   "options": [
+    "Donar una dada estadística",
+    "Presentar el tema",
+    "Contar una anècdota",
+    "Tancar amb una conclusió que convida a actuar"
+   ],
+   "correct": 3,
+   "explanation": "Resumix la idea i anima a pensar abans de compartir.",
+   "passage": "«Si tothom compartix esta notícia, deu ser veritat.» Este raonament és tan freqüent com enganyós. Que una cosa es difonga molt no demostra que siga certa: només demostra que crida l'atenció. Abans de compartir, convé preguntar-se qui ho diu, en què es basa i si altres fonts fiables ho confirmen. Pensar dos segons més pot evitar que una mentida faça la volta al món."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m005",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin recurs usa Marta en dir «Quina meravella de dia!»?",
+   "options": [
+    "L'al·literació",
+    "La hipèrbole",
+    "La metàfora",
+    "La ironia"
+   ],
+   "correct": 3,
+   "explanation": "Diu el contrari del que pensa.",
+   "passage": "—Quina meravella de dia! —va dir Marta mirant per la finestra el cel negre, mentre la pedra colpejava el cotxe que acabava de llavar—. Justament hui que pensava anar a la platja."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m006",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Com se sent Marta en realitat?",
+   "options": [
+    "Feliç",
+    "Espantada",
+    "Indiferent",
+    "Molesta"
+   ],
+   "correct": 3,
+   "explanation": "La pedra li espatla els plans.",
+   "passage": "—Quina meravella de dia! —va dir Marta mirant per la finestra el cel negre, mentre la pedra colpejava el cotxe que acabava de llavar—. Justament hui que pensava anar a la platja."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m007",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Què indica el guió llarg (—) en el text?",
+   "options": [
+    "Que hi ha un error",
+    "Que hi ha una llista",
+    "Que comença un poema",
+    "Que parla un personatge"
+   ],
+   "correct": 3,
+   "explanation": "El guió introduïx el diàleg i el comentari del narrador.",
+   "passage": "—Quina meravella de dia! —va dir Marta mirant per la finestra el cel negre, mentre la pedra colpejava el cotxe que acabava de llavar—. Justament hui que pensava anar a la platja."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m008",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin detall reforça l'humor de l'escena?",
+   "options": [
+    "La finestra",
+    "El cotxe que acabava de llavar",
+    "La platja llunyana",
+    "El color del cel"
+   ],
+   "correct": 1,
+   "explanation": "L'acabava de llavar: empitjora la situació.",
+   "passage": "—Quina meravella de dia! —va dir Marta mirant per la finestra el cel negre, mentre la pedra colpejava el cotxe que acabava de llavar—. Justament hui que pensava anar a la platja."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m009",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "A quin model s'oposa l'economia circular?",
+   "options": [
+    "Al de reciclar",
+    "Al de produir, usar i llançar",
+    "Al de comprar productes locals",
+    "Al de reparar objectes"
+   ],
+   "correct": 1,
+   "explanation": "«En lloc de produir, usar i llançar»",
+   "passage": "L'economia circular proposa un canvi de model. En lloc de produir, usar i llançar, planteja dissenyar productes que duren més, que es puguen reparar i que, al final de la seua vida, es reciclen per a fabricar-ne de nous. No es tracta només de reciclar més, sinó de generar menys residus des del principi. Per a aconseguir-ho, calen lleis, empreses compromeses i consumidors informats."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m010",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin matís introduïx «No es tracta només de reciclar més, sinó de...»?",
+   "options": [
+    "Que l'essencial és generar menys residus",
+    "Que és impossible",
+    "Que reciclar no servix",
+    "Que cal llançar més"
+   ],
+   "correct": 0,
+   "explanation": "«sinó» corregix i amplia la idea anterior.",
+   "passage": "L'economia circular proposa un canvi de model. En lloc de produir, usar i llançar, planteja dissenyar productes que duren més, que es puguen reparar i que, al final de la seua vida, es reciclen per a fabricar-ne de nous. No es tracta només de reciclar més, sinó de generar menys residus des del principi. Per a aconseguir-ho, calen lleis, empreses compromeses i consumidors informats."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m011",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quins tres agents són necessaris segons el text?",
+   "options": [
+    "Científics, artistes i esportistes",
+    "Escoles, hospitals i bancs",
+    "Lleis, empreses i consumidors",
+    "Pares, iaios i fills"
+   ],
+   "correct": 2,
+   "explanation": "«lleis, empreses compromeses i consumidors informats»",
+   "passage": "L'economia circular proposa un canvi de model. En lloc de produir, usar i llançar, planteja dissenyar productes que duren més, que es puguen reparar i que, al final de la seua vida, es reciclen per a fabricar-ne de nous. No es tracta només de reciclar més, sinó de generar menys residus des del principi. Per a aconseguir-ho, calen lleis, empreses compromeses i consumidors informats."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m012",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin tipus de text és?",
+   "options": [
+    "Expositiu-argumentatiu",
+    "Narratiu",
+    "Dialogat",
+    "Instructiu"
+   ],
+   "correct": 0,
+   "explanation": "Explica un concepte i defén un canvi.",
+   "passage": "L'economia circular proposa un canvi de model. En lloc de produir, usar i llançar, planteja dissenyar productes que duren més, que es puguen reparar i que, al final de la seua vida, es reciclen per a fabricar-ne de nous. No es tracta només de reciclar més, sinó de generar menys residus des del principi. Per a aconseguir-ho, calen lleis, empreses compromeses i consumidors informats."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m013",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina funció té «És cert que...»?",
+   "options": [
+    "Fer una pregunta",
+    "Contar una història",
+    "Reconéixer un argument contrari abans de rebatre'l",
+    "Donar la conclusió"
+   ],
+   "correct": 2,
+   "explanation": "És una concessió: admet una part de raó.",
+   "passage": "És cert que el turisme genera ocupació i riquesa en ciutats com València. Tanmateix, quan els pisos turístics es multipliquen, els lloguers pugen i molts veïns han d'abandonar el seu barri. Per tant, no es tracta de rebutjar el visitant, sinó de regular perquè la ciutat continue sent un lloc on es puga viure."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m014",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin connector introduïx la conclusió?",
+   "options": [
+    "«És cert que»",
+    "«quan»",
+    "«Tanmateix»",
+    "«Per tant»"
+   ],
+   "correct": 3,
+   "explanation": "«Per tant» presenta la conseqüència o conclusió.",
+   "passage": "És cert que el turisme genera ocupació i riquesa en ciutats com València. Tanmateix, quan els pisos turístics es multipliquen, els lloguers pugen i molts veïns han d'abandonar el seu barri. Per tant, no es tracta de rebutjar el visitant, sinó de regular perquè la ciutat continue sent un lloc on es puga viure."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m015",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina és la postura de l'autor?",
+   "options": [
+    "Prohibir el turisme",
+    "Regular el turisme, no rebutjar-lo",
+    "No fer res",
+    "Construir més hotels"
+   ],
+   "correct": 1,
+   "explanation": "«no es tracta de rebutjar el visitant, sinó de regular»",
+   "passage": "És cert que el turisme genera ocupació i riquesa en ciutats com València. Tanmateix, quan els pisos turístics es multipliquen, els lloguers pugen i molts veïns han d'abandonar el seu barri. Per tant, no es tracta de rebutjar el visitant, sinó de regular perquè la ciutat continue sent un lloc on es puga viure."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m016",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina conseqüència dels pisos turístics esmenta?",
+   "options": [
+    "La pujada dels lloguers",
+    "Més zones verdes",
+    "La baixada dels preus",
+    "Menys trànsit"
+   ],
+   "correct": 0,
+   "explanation": "«els lloguers pugen»",
+   "passage": "És cert que el turisme genera ocupació i riquesa en ciutats com València. Tanmateix, quan els pisos turístics es multipliquen, els lloguers pugen i molts veïns han d'abandonar el seu barri. Per tant, no es tracta de rebutjar el visitant, sinó de regular perquè la ciutat continue sent un lloc on es puga viure."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m017",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina idea errònia desmentix el text?",
+   "options": [
+    "Que les llengües tenen gramàtica",
+    "Que existix la comunitat sorda",
+    "Que la llengua de signes és universal",
+    "Que a Espanya hi ha llengües de signes"
+   ],
+   "correct": 2,
+   "explanation": "Comença dient que no és universal.",
+   "passage": "La llengua de signes no és universal. Cada comunitat sorda ha desenvolupat la seua, amb un vocabulari i una gramàtica propis. A Espanya se'n reconeixen legalment dues: la llengua de signes espanyola i la llengua de signes catalana. Lluny de ser una simple mímica, són llengües completes que permeten expressar qualsevol idea, des d'una broma fins a un raonament filosòfic."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m018",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quantes llengües de signes es reconeixen legalment a Espanya segons el text?",
+   "options": [
+    "Dues",
+    "Tres",
+    "Cinc",
+    "Una"
+   ],
+   "correct": 0,
+   "explanation": "L'espanyola i la catalana.",
+   "passage": "La llengua de signes no és universal. Cada comunitat sorda ha desenvolupat la seua, amb un vocabulari i una gramàtica propis. A Espanya se'n reconeixen legalment dues: la llengua de signes espanyola i la llengua de signes catalana. Lluny de ser una simple mímica, són llengües completes que permeten expressar qualsevol idea, des d'una broma fins a un raonament filosòfic."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m019",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «Lluny de ser una simple mímica»?",
+   "options": [
+    "Que s'usa a distància",
+    "Que està lluny",
+    "Que és només mímica",
+    "Que és molt més que mímica"
+   ],
+   "correct": 3,
+   "explanation": "L'expressió nega una idea equivocada.",
+   "passage": "La llengua de signes no és universal. Cada comunitat sorda ha desenvolupat la seua, amb un vocabulari i una gramàtica propis. A Espanya se'n reconeixen legalment dues: la llengua de signes espanyola i la llengua de signes catalana. Lluny de ser una simple mímica, són llengües completes que permeten expressar qualsevol idea, des d'una broma fins a un raonament filosòfic."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_m020",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin exemple usa per a mostrar que són llengües completes?",
+   "options": [
+    "Que tenen molts signes",
+    "Que són antigues",
+    "Que s'aprenen ràpidament",
+    "Que permeten expressar des d'una broma fins a un raonament filosòfic"
+   ],
+   "correct": 3,
+   "explanation": "Mostra tot el que s'hi pot expressar.",
+   "passage": "La llengua de signes no és universal. Cada comunitat sorda ha desenvolupat la seua, amb un vocabulari i una gramàtica propis. A Espanya se'n reconeixen legalment dues: la llengua de signes espanyola i la llengua de signes catalana. Lluny de ser una simple mímica, són llengües completes que permeten expressar qualsevol idea, des d'una broma fins a un raonament filosòfic."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_f001",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Una ___ és un raonament que sembla vàlid però no ho és.",
+   "blanks": [
+    "fal·làcia"
+   ],
+   "distractors": [
+    "hipòtesi"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Les fal·làcies enganyen amb aparença de lògica."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_f002",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "La ___ consistix a dir el contrari del que es pensa.",
+   "blanks": [
+    "ironia"
+   ],
+   "distractors": [
+    "anàfora"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La ironia suggerix el contrari del que diu."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_f003",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Una ___ reconeix part de raó al contrari abans de rebatre'l.",
+   "blanks": [
+    "concessió"
+   ],
+   "distractors": [
+    "metàfora"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Concessió: «És cert que..., però...»."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_f004",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Per a comprovar una informació cal contrastar ___.",
+   "blanks": [
+    "fonts"
+   ],
+   "distractors": [
+    "colors"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Contrastar fonts evita les falsedats."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_f005",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Un ___ és un text que reflexiona sobre un tema de manera personal.",
+   "blanks": [
+    "assaig"
+   ],
+   "distractors": [
+    "informe"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "L'assaig exposa idees pròpies."
+  },
+  {
+   "id": "ca_comprension_lectora_l9_f006",
+   "module": "comprension_lectora",
+   "level": 9,
+   "type": "drag_fill",
+   "prompt": "Completa la frase amb les paraules correctes",
+   "sentence": "Les paraules que tenen diversos significats són ___.",
+   "blanks": [
+    "polisèmiques"
+   ],
+   "distractors": [
+    "sinònimes"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Polisèmia: una paraula, diversos significats."
   }
  ]
 }

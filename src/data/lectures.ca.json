@@ -839,6 +839,558 @@
      "explanation": "El text explica l'origen de moltes paraules."
     }
    ]
+  },
+  {
+   "id": "lectura_ca_l6_dama",
+   "level": 6,
+   "title": "El misteri de la Dama d'Elx",
+   "emoji": "🗿",
+   "text": "L'estiu de 1897, un jove que treballava en una finca anomenada l'Alcúdia, prop d'Elx, va colpejar amb l'aixada una cosa dura. Quan va netejar la terra, va aparéixer un rostre de pedra que el mirava amb els ulls mig closos. Era un bust de dona amb un pentinat espectacular: dues grans rodes als costats de la cara, collarets i una mena de mitra al cap.\n\nEls experts el van atribuir als ibers, un poble que va viure a l'est de la península Ibèrica fa uns 2.500 anys. Però l'escultura plantejava moltes preguntes. Era una deessa, una sacerdotessa o una dama important? A l'esquena té un buit que potser va servir per a guardar cendres, cosa que fa pensar que es va poder usar com a urna funerària.\n\nPocs dies després de la troballa, la Dama va ser venuda a un museu de París. Allí va romandre fins al 1941, quan va tornar a Espanya. Hui s'exposa al Museu Arqueològic Nacional, a Madrid, encara que a Elx molts veïns voldrien que tornara al seu lloc d'origen.\n\nMés d'un segle després, la Dama d'Elx continua guardant el seu secret. Potser per això ens atrau tant: ens recorda que el passat encara té moltes històries per contar.",
+   "questions": [
+    {
+     "id": "lectura_ca_l6_dama_q1",
+     "prompt": "On es va trobar la Dama d'Elx?",
+     "options": [
+      "Al fons de la mar",
+      "A Madrid",
+      "En un museu de París",
+      "A l'Alcúdia, prop d'Elx"
+     ],
+     "correct": 3,
+     "explanation": "«una finca anomenada l'Alcúdia, prop d'Elx»"
+    },
+    {
+     "id": "lectura_ca_l6_dama_q2",
+     "prompt": "A quin poble s'atribuïx l'escultura?",
+     "options": [
+      "Als romans",
+      "Als grecs",
+      "Als ibers",
+      "Als àrabs"
+     ],
+     "correct": 2,
+     "explanation": "«Els experts el van atribuir als ibers»"
+    },
+    {
+     "id": "lectura_ca_l6_dama_q3",
+     "prompt": "Per què es pensa que podria haver sigut una urna funerària?",
+     "options": [
+      "Perquè és de pedra",
+      "Perquè la va trobar un jove",
+      "Perquè té un buit a l'esquena",
+      "Perquè porta collarets"
+     ],
+     "correct": 2,
+     "explanation": "«A l'esquena té un buit que potser va servir per a guardar cendres»"
+    },
+    {
+     "id": "lectura_ca_l6_dama_q4",
+     "prompt": "On s'exposa hui?",
+     "options": [
+      "A París",
+      "Al Museu Arqueològic Nacional, a Madrid",
+      "A Elx",
+      "A València"
+     ],
+     "correct": 1,
+     "explanation": "«Hui s'exposa al Museu Arqueològic Nacional, a Madrid»"
+    },
+    {
+     "id": "lectura_ca_l6_dama_q5",
+     "prompt": "Quina és la idea principal de l'últim paràgraf?",
+     "options": [
+      "La Dama continua sent un misteri que ens atrau",
+      "Els ibers eren escultors",
+      "La Dama ha de tornar a París",
+      "El jove es va fer famós"
+     ],
+     "correct": 0,
+     "explanation": "Parla del secret que encara guarda."
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l6_albufera",
+   "level": 6,
+   "title": "L'Albufera, un llac entre arrossars",
+   "emoji": "🦆",
+   "text": "A pocs quilòmetres de la ciutat de València hi ha l'Albufera, una gran llacuna d'aigua dolça separada de la mar per una estreta franja d'arena i pins anomenada la Devesa. El seu nom ve de l'àrab i vol dir «la mar xicoteta».\n\nAl voltant del llac s'estenen els arrossars. A la primavera els camps s'inunden i el paisatge sembla un espill; a l'estiu es tornen verds; i a la tardor, després de la sega, s'omplin d'aus que busquen aliment. Garses, ànecs i flamencs hi troben un lloc per a descansar en les seues llargues migracions.\n\nDurant segles, els pescadors van navegar per la llacuna en barques planes, impulsades amb una llarga perxa. De les seues captures, sobretot de l'anguila, va nàixer un plat tradicional: l'all i pebre.\n\nTanmateix, l'Albufera ha patit problemes de contaminació i de falta d'aigua. Des de 1986 és parc natural, i la seua protecció depén que llauradors, veïns i visitants la cuiden. Veure una posta de sol des d'una barca és una experiència inoblidable; conservar-la és responsabilitat de tots.",
+   "questions": [
+    {
+     "id": "lectura_ca_l6_albufera_q1",
+     "prompt": "Què és l'Albufera?",
+     "options": [
+      "Un poble de pescadors",
+      "Una platja d'arena",
+      "Un riu molt llarg",
+      "Una llacuna d'aigua dolça"
+     ],
+     "correct": 3,
+     "explanation": "«una gran llacuna d'aigua dolça»"
+    },
+    {
+     "id": "lectura_ca_l6_albufera_q2",
+     "prompt": "Què vol dir el seu nom en àrab?",
+     "options": [
+      "«El llac blau»",
+      "«La terra de l'arròs»",
+      "«El gran riu»",
+      "«La mar xicoteta»"
+     ],
+     "correct": 3,
+     "explanation": "«vol dir la mar xicoteta»"
+    },
+    {
+     "id": "lectura_ca_l6_albufera_q3",
+     "prompt": "Per què arriben moltes aus a la tardor?",
+     "options": [
+      "Perquè els pescadors les alimenten",
+      "Perquè hi ha festes",
+      "Perquè fa fred a la mar",
+      "Perquè busquen aliment en els camps segats"
+     ],
+     "correct": 3,
+     "explanation": "«després de la sega, s'omplin d'aus que busquen aliment»"
+    },
+    {
+     "id": "lectura_ca_l6_albufera_q4",
+     "prompt": "Quin plat va nàixer de la pesca de l'anguila?",
+     "options": [
+      "L'arròs negre",
+      "L'all i pebre",
+      "La paella de marisc",
+      "L'orxata"
+     ],
+     "correct": 1,
+     "explanation": "«De les seues captures, sobretot de l'anguila, va nàixer [...] l'all i pebre»"
+    },
+    {
+     "id": "lectura_ca_l6_albufera_q5",
+     "prompt": "Quin missatge transmet l'últim paràgraf?",
+     "options": [
+      "Que cal protegir l'Albufera entre tots",
+      "Que l'arròs és car",
+      "Que cal anar en barca",
+      "Que no es pot visitar"
+     ],
+     "correct": 0,
+     "explanation": "«conservar-la és responsabilitat de tots»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l7_vikings",
+   "level": 7,
+   "title": "Els víkings no portaven banyes",
+   "emoji": "⛵",
+   "text": "Si dibuixem un víking, quasi segur que li posarem un casc amb dues grans banyes. Tanmateix, els arqueòlegs no han trobat cap casc víking de combat amb banyes. Aleshores, d'on ve esta imatge?\n\nLa resposta es troba, en gran part, en el segle XIX. En aquella època, artistes i escriptors del nord d'Europa es van interessar per les antigues llegendes escandinaves. El 1876, el dissenyador de vestuari d'una famosa òpera de Richard Wagner va vestir els personatges amb cascos de banyes. L'èxit de l'obra va fer que eixa imatge s'estenguera per tot el món.\n\nEn realitat, un casc amb banyes hauria sigut poc pràctic en una batalla: es podia enganxar amb facilitat i pesava més. Els cascos que s'han conservat eren senzills, arredonits i de ferro.\n\nA més, els víkings van ser molt més que guerrers. Eren comerciants, llauradors i navegants extraordinaris que van arribar fins a Groenlàndia i Amèrica del Nord segles abans que Colom. La història ens ensenya que moltes imatges que donem per certes són, en realitat, invents més recents.",
+   "questions": [
+    {
+     "id": "lectura_ca_l7_vikings_q1",
+     "prompt": "Què han trobat els arqueòlegs sobre els cascos víkings?",
+     "options": [
+      "Cascos d'or",
+      "Cap casc de combat amb banyes",
+      "Cascos de fusta",
+      "Molts cascos amb banyes"
+     ],
+     "correct": 1,
+     "explanation": "«no han trobat cap casc víking de combat amb banyes»"
+    },
+    {
+     "id": "lectura_ca_l7_vikings_q2",
+     "prompt": "Què va difondre la imatge de les banyes?",
+     "options": [
+      "Una pel·lícula moderna",
+      "Un llibre d'història víking",
+      "El vestuari d'una òpera de Wagner en el segle XIX",
+      "Els mateixos víkings"
+     ],
+     "correct": 2,
+     "explanation": "«El 1876, el dissenyador de vestuari d'una famosa òpera de Richard Wagner...»"
+    },
+    {
+     "id": "lectura_ca_l7_vikings_q3",
+     "prompt": "Per què les banyes serien poc pràctiques en una batalla?",
+     "options": [
+      "Perquè espantaven els aliats",
+      "Perquè es trencaven amb el fred",
+      "Perquè es podien enganxar i pesaven més",
+      "Perquè eren cares"
+     ],
+     "correct": 2,
+     "explanation": "«es podia enganxar amb facilitat i pesava més»"
+    },
+    {
+     "id": "lectura_ca_l7_vikings_q4",
+     "prompt": "Quines altres activitats feien els víkings?",
+     "options": [
+      "La construcció de piràmides",
+      "La mineria d'or",
+      "Només la guerra",
+      "Comerç, agricultura i navegació"
+     ],
+     "correct": 3,
+     "explanation": "«Eren comerciants, llauradors i navegants»"
+    },
+    {
+     "id": "lectura_ca_l7_vikings_q5",
+     "prompt": "Quin ensenyament general proposa el final?",
+     "options": [
+      "Que l'òpera és avorrida",
+      "Que els víkings van descobrir Amèrica",
+      "Que no cal estudiar història",
+      "Que moltes imatges que creiem certes són invents recents"
+     ],
+     "correct": 3,
+     "explanation": "Ho diu l'última frase."
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l7_cervell",
+   "level": 7,
+   "title": "Un cervell en obres",
+   "emoji": "🧠",
+   "text": "Durant l'adolescència, el cervell no està acabat: està en obres. Les zones relacionades amb les emocions i amb la cerca de recompenses maduren prompte. En canvi, l'escorça prefrontal, situada darrere del front i encarregada de planificar, controlar els impulsos i valorar els riscos, continua desenvolupant-se fins després dels vint anys.\n\nEste desajust ajuda a entendre algunes conductes. Per exemple, per què a vegades actuem sense pensar en les conseqüències o per què l'opinió dels amics pesa tant. No vol dir que els adolescents no sàpien prendre decisions, sinó que els costa més quan estan emocionats o sota pressió.\n\nLa bona notícia és que el cervell adolescent és molt flexible. El que es practica es reforça: llegir, tocar un instrument, fer esport o aprendre a calmar-se en moments d'enuig hi deixa empremta. Dormir bé també és clau, perquè durant la son es consolida el que s'ha aprés.\n\nPer això, més que criticar els adolescents, convé acompanyar-los: donar-los responsabilitats, ajudar-los a reflexionar i deixar-los equivocar-se en situacions segures.",
+   "questions": [
+    {
+     "id": "lectura_ca_l7_cervell_q1",
+     "prompt": "Quina part del cervell madura més tard?",
+     "options": [
+      "L'oïda interna",
+      "La zona de les emocions",
+      "La medul·la",
+      "L'escorça prefrontal"
+     ],
+     "correct": 3,
+     "explanation": "«l'escorça prefrontal [...] continua desenvolupant-se fins després dels vint anys»"
+    },
+    {
+     "id": "lectura_ca_l7_cervell_q2",
+     "prompt": "De què s'encarrega l'escorça prefrontal?",
+     "options": [
+      "De veure els colors",
+      "De digerir els aliments",
+      "De moure els músculs",
+      "De planificar, controlar impulsos i valorar riscos"
+     ],
+     "correct": 3,
+     "explanation": "Ho explica el primer paràgraf."
+    },
+    {
+     "id": "lectura_ca_l7_cervell_q3",
+     "prompt": "Què vol dir l'expressió «està en obres»?",
+     "options": [
+      "Que necessita una operació",
+      "Que treballa molt",
+      "Que encara s'està desenvolupant",
+      "Que està danyat"
+     ],
+     "correct": 2,
+     "explanation": "És una metàfora: s'està construint."
+    },
+    {
+     "id": "lectura_ca_l7_cervell_q4",
+     "prompt": "Segons el text, per què és important dormir bé?",
+     "options": [
+      "Perquè s'evita l'enuig",
+      "Perquè així es creix més",
+      "Perquè se somia amb els amics",
+      "Perquè durant la son es consolida el que s'ha aprés"
+     ],
+     "correct": 3,
+     "explanation": "«durant la son es consolida el que s'ha aprés»"
+    },
+    {
+     "id": "lectura_ca_l7_cervell_q5",
+     "prompt": "Què proposa l'últim paràgraf?",
+     "options": [
+      "Acompanyar els adolescents en lloc de criticar-los",
+      "Que no tinguen responsabilitats",
+      "Prohibir-los eixir",
+      "Deixar-los sols"
+     ],
+     "correct": 0,
+     "explanation": "«més que criticar els adolescents, convé acompanyar-los»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l8_tribunal",
+   "level": 8,
+   "title": "El Tribunal de les Aigües",
+   "emoji": "⚖️",
+   "text": "Tots els dijous, a les dotze del migdia, huit homes vestits amb brusa negra s'asseuen en semicercle davant de la porta dels Apòstols de la catedral de València. No són jutges de carrera, sinó llauradors elegits pels regants de les séquies de l'horta. Formen el Tribunal de les Aigües, una institució que fa segles que resol els conflictes sobre el repartiment de l'aigua de reg.\n\nEl procediment és sorprenentment senzill. El denunciant exposa la queixa; el denunciat es defén; i el tribunal, després de deliberar breument, dicta sentència en l'acte. Tot es fa de paraula, en valencià i sense papers. Si algú ha regat quan no li tocava o ha deixat una séquia bruta, pot ser multat.\n\nLes seues decisions es respecten perquè els membres coneixen bé el terreny i els costums, i perquè el judici és ràpid, públic i gratuït. Precisament eixa eficàcia ha cridat l'atenció de juristes de tot el món.\n\nEl 2009, la UNESCO va incloure el Tribunal de les Aigües en la llista del Patrimoni Cultural Immaterial de la Humanitat. És la prova que una tradició pot continuar sent útil en el present.",
+   "questions": [
+    {
+     "id": "lectura_ca_l8_tribunal_q1",
+     "prompt": "Qui forma el Tribunal de les Aigües?",
+     "options": [
+      "Llauradors elegits pels regants",
+      "Jutges de carrera",
+      "Polítics de l'ajuntament",
+      "Sacerdots de la catedral"
+     ],
+     "correct": 0,
+     "explanation": "«No són jutges de carrera, sinó llauradors elegits pels regants»"
+    },
+    {
+     "id": "lectura_ca_l8_tribunal_q2",
+     "prompt": "Quins conflictes resol?",
+     "options": [
+      "Els robatoris de la ciutat",
+      "Els problemes de trànsit",
+      "Les baralles del mercat",
+      "Els relacionats amb el repartiment de l'aigua de reg"
+     ],
+     "correct": 3,
+     "explanation": "«resol els conflictes sobre el repartiment de l'aigua de reg»"
+    },
+    {
+     "id": "lectura_ca_l8_tribunal_q3",
+     "prompt": "Com és el procediment?",
+     "options": [
+      "Oral, ràpid i en valencià",
+      "Secret i en llatí",
+      "Escrit i molt llarg",
+      "Per internet"
+     ],
+     "correct": 0,
+     "explanation": "«Tot es fa de paraula, en valencià i sense papers.»"
+    },
+    {
+     "id": "lectura_ca_l8_tribunal_q4",
+     "prompt": "Per què es respecten les seues decisions segons el text?",
+     "options": [
+      "Perquè ningú no pot recórrer",
+      "Perquè ho mana el rei",
+      "Pel coneixement dels membres i per la rapidesa del judici",
+      "Perquè les multes són enormes"
+     ],
+     "correct": 2,
+     "explanation": "Ho explica el tercer paràgraf."
+    },
+    {
+     "id": "lectura_ca_l8_tribunal_q5",
+     "prompt": "Quina tesi defén implícitament el final?",
+     "options": [
+      "Que una tradició pot continuar sent útil hui",
+      "Que cal modernitzar el tribunal",
+      "Que la UNESCO decidix les lleis",
+      "Que l'aigua és infinita"
+     ],
+     "correct": 0,
+     "explanation": "«una tradició pot continuar sent útil en el present»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l8_deures",
+   "level": 8,
+   "title": "Deures sí o deures no?",
+   "emoji": "📚",
+   "text": "Poques qüestions generen tant de debat entre famílies i docents com els deures. Els qui els defenen argumenten que ajuden a consolidar el que s'ha aprés a classe, fomenten l'autonomia i creen hàbits de treball que seran útils en el futur.\n\nEls qui els critiquen assenyalen que, en excés, roben temps al descans, al joc i a la vida familiar. A més, recorden que no tot l'alumnat té a casa les mateixes condicions: uns compten amb ajuda i amb un lloc tranquil per a estudiar; altres, no. Així, els deures poden augmentar les desigualtats.\n\nLes investigacions oferixen una resposta matisada. En secundària, una quantitat moderada de tasques sembla relacionar-se amb millors resultats; a partir d'un cert punt, però, més hores no signifiquen més aprenentatge, sinó més cansament.\n\nPotser la pregunta no és «deures sí o no», sinó «quins deures i quants». Una tasca breu, ben dissenyada i amb sentit pot ser valuosa. Una pila d'exercicis repetitius, en canvi, només ensenya a odiar els llibres.",
+   "questions": [
+    {
+     "id": "lectura_ca_l8_deures_q1",
+     "prompt": "Quin argument a favor dels deures esmenta el text?",
+     "options": [
+      "Que els pares aprenen més",
+      "Que es juga més",
+      "Que fomenten l'autonomia i els hàbits de treball",
+      "Que substituïxen les classes"
+     ],
+     "correct": 2,
+     "explanation": "Ho diu el primer paràgraf."
+    },
+    {
+     "id": "lectura_ca_l8_deures_q2",
+     "prompt": "Per què poden augmentar les desigualtats?",
+     "options": [
+      "Perquè no tothom té les mateixes condicions a casa",
+      "Perquè es fan en grup",
+      "Perquè uns professors en posen més que altres",
+      "Perquè són cars"
+     ],
+     "correct": 0,
+     "explanation": "Uns tenen ajuda i un lloc tranquil; altres, no."
+    },
+    {
+     "id": "lectura_ca_l8_deures_q3",
+     "prompt": "Què diuen les investigacions?",
+     "options": [
+      "Que els deures no servixen mai",
+      "Que una quantitat moderada ajuda, però l'excés no",
+      "Que només servixen en primària",
+      "Que com més, millor"
+     ],
+     "correct": 1,
+     "explanation": "La resposta és «matisada»."
+    },
+    {
+     "id": "lectura_ca_l8_deures_q4",
+     "prompt": "Quina proposa l'autor com a pregunta de veritat?",
+     "options": [
+      "Quan s'entreguen",
+      "Qui corregix els deures",
+      "Quins deures i quants",
+      "On es fan"
+     ],
+     "correct": 2,
+     "explanation": "«sinó quins deures i quants»"
+    },
+    {
+     "id": "lectura_ca_l8_deures_q5",
+     "prompt": "Quin recurs hi ha en «només ensenya a odiar els llibres»?",
+     "options": [
+      "Una comparació amb «com»",
+      "Una pregunta retòrica",
+      "Una dada científica",
+      "Una exageració per a criticar"
+     ],
+     "correct": 3,
+     "explanation": "És una hipèrbole amb intenció crítica."
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l9_generacio27",
+   "level": 9,
+   "title": "La Generació del 27",
+   "emoji": "📜",
+   "text": "El desembre de 1927, un grup de poetes joves es va reunir a l'Ateneu de Sevilla per a retre homenatge a Luis de Góngora en el tercer centenari de la seua mort. Góngora, poeta del Barroc, havia sigut criticat durant segles per l'estil difícil. Aquells joves, en canvi, n'admiraven l'audàcia amb les metàfores. D'aquell acte va prendre nom una de les generacions més brillants de la literatura en castellà.\n\nEntre els seus membres hi ha Federico García Lorca, Rafael Alberti, Luis Cernuda, Vicente Aleixandre, Jorge Guillén, Pedro Salinas, Dámaso Alonso i Gerardo Diego. Van saber unir tradició i avantguarda: van recuperar formes populars, com el romanç o la cançó, i alhora van experimentar amb les imatges més innovadores del seu temps.\n\nLa Guerra Civil va trencar el grup. Lorca va ser assassinat el 1936; molts altres van haver d'exiliar-se. Tot i això, la seua obra va continuar creixent dins i fora d'Espanya. El 1977, Vicente Aleixandre va rebre el Premi Nobel de Literatura, un reconeixement que molts van interpretar com un homenatge a tota la generació.\n\nEncara que en el seu entorn també hi va haver escriptores de gran talent, com Rosa Chacel o María Teresa León, durant dècades van rebre molta menys atenció. Hui se les inclou cada vegada més quan es parla d'aquell moment.",
+   "questions": [
+    {
+     "id": "lectura_ca_l9_generacio27_q1",
+     "prompt": "Per què es van reunir a Sevilla el 1927?",
+     "options": [
+      "Per a protestar contra la guerra",
+      "Per a celebrar el naixement de Lorca",
+      "Per a homenatjar Góngora en el tercer centenari de la seua mort",
+      "Per a fundar una revista"
+     ],
+     "correct": 2,
+     "explanation": "Ho diu el primer paràgraf."
+    },
+    {
+     "id": "lectura_ca_l9_generacio27_q2",
+     "prompt": "Què admiraven de Góngora?",
+     "options": [
+      "Que haguera nascut a Sevilla",
+      "L'audàcia amb les metàfores",
+      "Que escriguera novel·les",
+      "La senzillesa"
+     ],
+     "correct": 1,
+     "explanation": "«n'admiraven l'audàcia amb les metàfores»"
+    },
+    {
+     "id": "lectura_ca_l9_generacio27_q3",
+     "prompt": "Què vol dir que «van saber unir tradició i avantguarda»?",
+     "options": [
+      "Que només van imitar els clàssics",
+      "Que van escriure en diversos idiomes",
+      "Que van mesclar formes populars amb imatges innovadores",
+      "Que van rebutjar la poesia popular"
+     ],
+     "correct": 2,
+     "explanation": "Van recuperar el romanç i van experimentar amb imatges noves."
+    },
+    {
+     "id": "lectura_ca_l9_generacio27_q4",
+     "prompt": "Quin efecte va tindre la Guerra Civil en el grup?",
+     "options": [
+      "No el va afectar",
+      "El va traslladar a Sevilla",
+      "El va trencar: Lorca va ser assassinat i molts es van exiliar",
+      "El va fer més gran"
+     ],
+     "correct": 2,
+     "explanation": "«La Guerra Civil va trencar el grup.»"
+    },
+    {
+     "id": "lectura_ca_l9_generacio27_q5",
+     "prompt": "Quina crítica implícita conté l'últim paràgraf?",
+     "options": [
+      "Que el Nobel va ser injust",
+      "Que Lorca no mereixia l'èxit",
+      "Que Góngora era mal poeta",
+      "Que les escriptores del seu entorn van rebre menys atenció"
+     ],
+     "correct": 3,
+     "explanation": "Assenyala que durant dècades se les va oblidar."
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l9_atencio",
+   "level": 9,
+   "title": "L'economia de l'atenció",
+   "emoji": "📱",
+   "text": "Moltes aplicacions són gratuïtes. Tanmateix, com se sol dir, si no pagues per un producte, potser el producte eres tu. El que estes empreses venen als anunciants és temps d'atenció: com més minuts passem davant de la pantalla, més anuncis veiem i més diners guanyen.\n\nPer a retindre'ns, s'utilitzen tècniques molt estudiades. El desplaçament infinit elimina els punts naturals de parada; les notificacions ens reclamen amb colors i sons; i les recompenses imprevisibles, com un «m'agrada» que no sabem quan arribarà, funcionen de manera semblant a una màquina escurabutxaques.\n\nNo es tracta de demonitzar la tecnologia, que ens permet aprendre, crear i comunicar-nos com mai. Es tracta de ser conscients que el seu disseny no és neutral. Desactivar notificacions innecessàries, fixar moments sense pantalla o simplement preguntar-se «per a què obric això?» són gestos xicotets que tornen el control a qui l'usa.\n\nL'atenció és limitada. Decidir a què la dediquem és, en el fons, decidir com volem viure.",
+   "questions": [
+    {
+     "id": "lectura_ca_l9_atencio_q1",
+     "prompt": "Què venen realment moltes aplicacions gratuïtes, segons el text?",
+     "options": [
+      "Dades meteorològiques",
+      "Temps d'atenció dels usuaris als anunciants",
+      "Cursos en línia",
+      "Telèfons mòbils"
+     ],
+     "correct": 1,
+     "explanation": "«El que estes empreses venen als anunciants és temps d'atenció»"
+    },
+    {
+     "id": "lectura_ca_l9_atencio_q2",
+     "prompt": "Amb què compara el text les recompenses imprevisibles?",
+     "options": [
+      "Amb un examen",
+      "Amb una màquina escurabutxaques",
+      "Amb un rellotge",
+      "Amb una biblioteca"
+     ],
+     "correct": 1,
+     "explanation": "«funcionen de manera semblant a una màquina escurabutxaques»"
+    },
+    {
+     "id": "lectura_ca_l9_atencio_q3",
+     "prompt": "Quina postura adopta l'autor sobre la tecnologia?",
+     "options": [
+      "No la rebutja, però demana usar-la amb consciència",
+      "No dona la seua opinió",
+      "La considera perfecta",
+      "Demana prohibir-la"
+     ],
+     "correct": 0,
+     "explanation": "«No es tracta de demonitzar la tecnologia [...] Es tracta de ser conscients»"
+    },
+    {
+     "id": "lectura_ca_l9_atencio_q4",
+     "prompt": "Què vol dir que el disseny «no és neutral»?",
+     "options": [
+      "Que està pensat per a influir en el nostre comportament",
+      "Que no té colors",
+      "Que és gratuït",
+      "Que ningú no el va dissenyar"
+     ],
+     "correct": 0,
+     "explanation": "Està dissenyat per a retindre'ns."
+    },
+    {
+     "id": "lectura_ca_l9_atencio_q5",
+     "prompt": "Com acaba el text?",
+     "options": [
+      "Amb una dada estadística",
+      "Amb una reflexió que relaciona l'atenció i la manera de viure",
+      "Amb una pregunta sense resposta",
+      "Amb un anunci"
+     ],
+     "correct": 1,
+     "explanation": "«Decidir a què la dediquem és [...] decidir com volem viure.»"
+    }
+   ]
   }
  ]
 }

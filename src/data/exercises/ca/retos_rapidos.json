@@ -2414,6 +2414,1510 @@
    "options": [],
    "correct": 0,
    "explanation": "F-I-N-E-S-T-R-A = FINESTRA"
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m001",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «començar»?",
+   "options": [
+    "parar",
+    "iniciar",
+    "acabar",
+    "seguir"
+   ],
+   "correct": 1,
+   "explanation": "«començar» i «iniciar» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m002",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «veloç»?",
+   "options": [
+    "ràpid",
+    "lent",
+    "pesat",
+    "tranquil"
+   ],
+   "correct": 0,
+   "explanation": "«veloç» i «ràpid» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m003",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «trobar»?",
+   "options": [
+    "perdre",
+    "amagar",
+    "oblidar",
+    "descobrir"
+   ],
+   "correct": 3,
+   "explanation": "«trobar» i «descobrir» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m004",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «content»?",
+   "options": [
+    "alegre",
+    "avorrit",
+    "trist",
+    "enfadat"
+   ],
+   "correct": 0,
+   "explanation": "«content» i «alegre» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m005",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «serè»?",
+   "options": [
+    "tranquil",
+    "nerviós",
+    "sorollós",
+    "furiós"
+   ],
+   "correct": 0,
+   "explanation": "«serè» i «tranquil» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m006",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «generós»?",
+   "options": [
+    "garrepa",
+    "amable",
+    "simpàtic",
+    "ric"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «generós» és «garrepa»."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m007",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari d'«augmentar»?",
+   "options": [
+    "pujar",
+    "créixer",
+    "disminuir",
+    "ampliar"
+   ],
+   "correct": 2,
+   "explanation": "El contrari d'«augmentar» és «disminuir»."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m008",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «valent»?",
+   "options": [
+    "atrevit",
+    "fort",
+    "covard",
+    "audaç"
+   ],
+   "correct": 2,
+   "explanation": "El contrari de «valent» és «covard»."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m009",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «públic»?",
+   "options": [
+    "comú",
+    "obert",
+    "general",
+    "privat"
+   ],
+   "correct": 3,
+   "explanation": "El contrari de «públic» és «privat»."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m010",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari d'«antic»?",
+   "options": [
+    "modern",
+    "vell",
+    "clàssic",
+    "històric"
+   ],
+   "correct": 0,
+   "explanation": "El contrari d'«antic» és «modern»."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m011",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: substantiu, adjectiu, verb o paràgraf?",
+   "options": [
+    "verb",
+    "paràgraf",
+    "adjectiu",
+    "substantiu"
+   ],
+   "correct": 1,
+   "explanation": "Paràgraf no és una categoria gramatical."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m012",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: narratiu, descriptiu, expositiu o rima?",
+   "options": [
+    "rima",
+    "expositiu",
+    "descriptiu",
+    "narratiu"
+   ],
+   "correct": 0,
+   "explanation": "La rima no és un tipus de text."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m013",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: Xúquer, Túria, Segura o Montgó?",
+   "options": [
+    "Montgó",
+    "Túria",
+    "Segura",
+    "Xúquer"
+   ],
+   "correct": 0,
+   "explanation": "El Montgó és una muntanya; els altres són rius."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m014",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un determinant?",
+   "options": [
+    "aquells",
+    "córrer",
+    "blau",
+    "ràpidament"
+   ],
+   "correct": 0,
+   "explanation": "«aquells» acompanya el substantiu: determinant demostratiu."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m015",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és una preposició?",
+   "options": [
+    "àmbit",
+    "ambdós",
+    "ample",
+    "amb"
+   ],
+   "correct": 3,
+   "explanation": "«amb» és una preposició."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m016",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un substantiu abstracte?",
+   "options": [
+    "arbre",
+    "gos",
+    "taula",
+    "llibertat"
+   ],
+   "correct": 3,
+   "explanation": "La llibertat no es pot tocar: substantiu abstracte."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m017",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir el prefix «sub-» en «subterrani»?",
+   "options": [
+    "Damunt",
+    "Contra",
+    "Abans",
+    "Davall"
+   ],
+   "correct": 3,
+   "explanation": "sub- vol dir «davall de»."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m018",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir el prefix «pre-» en «preveure»?",
+   "options": [
+    "Sense",
+    "Després",
+    "Abans",
+    "Davall"
+   ],
+   "correct": 2,
+   "explanation": "pre- vol dir «abans»."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m019",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir el sufix «-er» en «forner»?",
+   "options": [
+    "Colp",
+    "Ofici",
+    "Lloc xicotet",
+    "Conjunt"
+   ],
+   "correct": 1,
+   "explanation": "-er indica ofici: el qui fa el pa al forn."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m020",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és de la família de «mar»?",
+   "options": [
+    "mariner",
+    "marea",
+    "marítim",
+    "marca"
+   ],
+   "correct": 3,
+   "explanation": "marca no deriva de mar."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m021",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és de la família de «pa»?",
+   "options": [
+    "pantera",
+    "pantalons",
+    "panet",
+    "pànic"
+   ],
+   "correct": 2,
+   "explanation": "panet deriva de pa."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m022",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «estar en la lluna»?",
+   "options": [
+    "Estar content",
+    "Estar distret",
+    "Viatjar a l'espai",
+    "Estar molt alt"
+   ],
+   "correct": 1,
+   "explanation": "És una expressió: estar despistat."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_m023",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «costar un ull de la cara»?",
+   "options": [
+    "Fer molt de mal",
+    "Veure-hi malament",
+    "Ser difícil de trobar",
+    "Ser molt car"
+   ],
+   "correct": 3,
+   "explanation": "Expressió: costar moltíssims diners."
+  },
+  {
+   "id": "ca_retos_rapidos_l6_o001",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «BIOLOGIA»",
+   "pieces": [
+    "B",
+    "I",
+    "O",
+    "L",
+    "O",
+    "G",
+    "I",
+    "A"
+   ],
+   "correctOrder": [
+    "B",
+    "I",
+    "O",
+    "L",
+    "O",
+    "G",
+    "I",
+    "A"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "B-I-O-L-O-G-I-A = BIOLOGIA"
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m001",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «efímer»?",
+   "options": [
+    "etern",
+    "enorme",
+    "passatger",
+    "valent"
+   ],
+   "correct": 2,
+   "explanation": "«efímer» i «passatger» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m002",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «perspicaç»?",
+   "options": [
+    "lent",
+    "maldestre",
+    "agut",
+    "avorrit"
+   ],
+   "correct": 2,
+   "explanation": "«perspicaç» i «agut» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m003",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «diligent»?",
+   "options": [
+    "alegre",
+    "treballador",
+    "tímid",
+    "gandul"
+   ],
+   "correct": 1,
+   "explanation": "«diligent» i «treballador» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m004",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «tediós»?",
+   "options": [
+    "avorrit",
+    "divertit",
+    "fàcil",
+    "curt"
+   ],
+   "correct": 0,
+   "explanation": "«tediós» i «avorrit» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m005",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «concís»?",
+   "options": [
+    "extens",
+    "confús",
+    "breu",
+    "lent"
+   ],
+   "correct": 2,
+   "explanation": "«concís» i «breu» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m006",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari d'«efímer»?",
+   "options": [
+    "fugaç",
+    "durador",
+    "breu",
+    "curt"
+   ],
+   "correct": 1,
+   "explanation": "El contrari d'«efímer» és «durador»."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m007",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «senzill»?",
+   "options": [
+    "simple",
+    "fàcil",
+    "complex",
+    "clar"
+   ],
+   "correct": 2,
+   "explanation": "El contrari de «senzill» és «complex»."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m008",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari d'«acceptar»?",
+   "options": [
+    "rebutjar",
+    "rebre",
+    "admetre",
+    "aprovar"
+   ],
+   "correct": 0,
+   "explanation": "El contrari d'«acceptar» és «rebutjar»."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m009",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari d'«escassetat»?",
+   "options": [
+    "falta",
+    "pobresa",
+    "abundància",
+    "carència"
+   ],
+   "correct": 2,
+   "explanation": "El contrari d'«escassetat» és «abundància»."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m010",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari d'«optimista»?",
+   "options": [
+    "animat",
+    "alegre",
+    "pessimista",
+    "positiu"
+   ],
+   "correct": 2,
+   "explanation": "El contrari d'«optimista» és «pessimista»."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m011",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: metàfora, símil, personificació o titular?",
+   "options": [
+    "personificació",
+    "titular",
+    "símil",
+    "metàfora"
+   ],
+   "correct": 1,
+   "explanation": "El titular és part de la notícia, no un recurs literari."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m012",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: però, encara que, tanmateix o perquè?",
+   "options": [
+    "tanmateix",
+    "encara que",
+    "perquè",
+    "però"
+   ],
+   "correct": 2,
+   "explanation": "«perquè» expressa causa; els altres, oposició."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m013",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: notícia, reportatge, entrevista o sonet?",
+   "options": [
+    "notícia",
+    "reportatge",
+    "entrevista",
+    "sonet"
+   ],
+   "correct": 3,
+   "explanation": "El sonet és un poema; els altres són gèneres periodístics."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m014",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina forma verbal està en subjuntiu?",
+   "options": [
+    "vindràs",
+    "vas vindre",
+    "vingues",
+    "venies"
+   ],
+   "correct": 2,
+   "explanation": "«que vingues» expressa desig o possibilitat: subjuntiu."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m015",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un pronom feble?",
+   "options": [
+    "hi",
+    "així",
+    "ahir",
+    "ací"
+   ],
+   "correct": 0,
+   "explanation": "«hi» és un pronom feble."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m016",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és una conjunció?",
+   "options": [
+    "porta",
+    "pera",
+    "però",
+    "pèl"
+   ],
+   "correct": 2,
+   "explanation": "«però» unix oracions: conjunció."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m017",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir el prefix «anti-» en «antiboira»?",
+   "options": [
+    "Abans",
+    "Contra",
+    "Molts",
+    "Dins"
+   ],
+   "correct": 1,
+   "explanation": "anti- vol dir «contra»."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m018",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir el prefix «des-» en «desfer»?",
+   "options": [
+    "Proximitat",
+    "Excés",
+    "Repetició",
+    "Negació o inversió"
+   ],
+   "correct": 3,
+   "explanation": "des- indica el contrari: desfer."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m019",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir el sufix «-et» en «llibret»?",
+   "options": [
+    "Gran",
+    "Ofici",
+    "Colp",
+    "Xicotet o afectuós"
+   ],
+   "correct": 3,
+   "explanation": "-et és un diminutiu."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m020",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és de la família de «llum»?",
+   "options": [
+    "lluminós",
+    "lluita",
+    "il·luminar",
+    "lluïssor"
+   ],
+   "correct": 1,
+   "explanation": "lluita no deriva de llum."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m021",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és de la família de «terra»?",
+   "options": [
+    "termo",
+    "terç",
+    "terrestre",
+    "terrible"
+   ],
+   "correct": 2,
+   "explanation": "terrestre ve de terra."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m022",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «ficar la pota»?",
+   "options": [
+    "Córrer molt",
+    "Ballar",
+    "Entrebancar-se",
+    "Equivocar-se"
+   ],
+   "correct": 3,
+   "explanation": "Expressió: cometre un error."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_m023",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «posar-se les piles»?",
+   "options": [
+    "Anar més a poc a poc",
+    "Carregar el mòbil",
+    "Posar-se nerviós",
+    "Espavilar-se i esforçar-se"
+   ],
+   "correct": 3,
+   "explanation": "Expressió: activar-se."
+  },
+  {
+   "id": "ca_retos_rapidos_l7_o001",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «HIPÒTESI»",
+   "pieces": [
+    "H",
+    "I",
+    "P",
+    "Ò",
+    "T",
+    "E",
+    "S",
+    "I"
+   ],
+   "correctOrder": [
+    "H",
+    "I",
+    "P",
+    "Ò",
+    "T",
+    "E",
+    "S",
+    "I"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "H-I-P-Ò-T-E-S-I = HIPÒTESI"
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m001",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «inherent»?",
+   "options": [
+    "extern",
+    "propi",
+    "casual",
+    "alié"
+   ],
+   "correct": 1,
+   "explanation": "«inherent» i «propi» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m002",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «imparcial»?",
+   "options": [
+    "orgullós",
+    "objectiu",
+    "injust",
+    "nerviós"
+   ],
+   "correct": 1,
+   "explanation": "«imparcial» i «objectiu» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m003",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «exigu»?",
+   "options": [
+    "abundant",
+    "enorme",
+    "fort",
+    "escàs"
+   ],
+   "correct": 3,
+   "explanation": "«exigu» i «escàs» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m004",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «subreptici»?",
+   "options": [
+    "amagat",
+    "sorollós",
+    "públic",
+    "evident"
+   ],
+   "correct": 0,
+   "explanation": "«subreptici» i «amagat» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m005",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «tenaç»?",
+   "options": [
+    "indiferent",
+    "persistent",
+    "dèbil",
+    "fluix"
+   ],
+   "correct": 1,
+   "explanation": "«tenaç» i «persistent» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m006",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari d'«explícit»?",
+   "options": [
+    "clar",
+    "evident",
+    "implícit",
+    "directe"
+   ],
+   "correct": 2,
+   "explanation": "El contrari d'«explícit» és «implícit»."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m007",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «prohibir»?",
+   "options": [
+    "negar",
+    "vetar",
+    "impedir",
+    "permetre"
+   ],
+   "correct": 3,
+   "explanation": "El contrari de «prohibir» és «permetre»."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m008",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «subjectiu»?",
+   "options": [
+    "objectiu",
+    "íntim",
+    "personal",
+    "parcial"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «subjectiu» és «objectiu»."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m009",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «concret»?",
+   "options": [
+    "precís",
+    "real",
+    "abstracte",
+    "exacte"
+   ],
+   "correct": 2,
+   "explanation": "El contrari de «concret» és «abstracte»."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m010",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari d'«innat»?",
+   "options": [
+    "congènit",
+    "adquirit",
+    "propi",
+    "natural"
+   ],
+   "correct": 1,
+   "explanation": "El contrari d'«innat» és «adquirit»."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m011",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: hipèrbole, metàfora, anàfora o subjecte?",
+   "options": [
+    "subjecte",
+    "hipèrbole",
+    "anàfora",
+    "metàfora"
+   ],
+   "correct": 0,
+   "explanation": "El subjecte és una funció sintàctica, no un recurs literari."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m012",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: per tant, per consegüent, així que o no obstant això?",
+   "options": [
+    "per tant",
+    "així que",
+    "per consegüent",
+    "no obstant això"
+   ],
+   "correct": 3,
+   "explanation": "«no obstant això» oposa; els altres expressen conseqüència."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m013",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: lírica, narrativa, dramàtica o ortografia?",
+   "options": [
+    "narrativa",
+    "lírica",
+    "ortografia",
+    "dramàtica"
+   ],
+   "correct": 2,
+   "explanation": "L'ortografia no és un gènere literari."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m014",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina forma verbal és un gerundi?",
+   "options": [
+    "cantar",
+    "cante",
+    "cantant",
+    "cantat"
+   ],
+   "correct": 2,
+   "explanation": "El gerundi acaba en -ant, -ent o -int."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m015",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina forma verbal és un participi?",
+   "options": [
+    "escrivia",
+    "escriure",
+    "escrivint",
+    "escrit"
+   ],
+   "correct": 3,
+   "explanation": "escrit és el participi d'escriure."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m016",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un adverbi de dubte?",
+   "options": [
+    "potser",
+    "mai",
+    "molt",
+    "ací"
+   ],
+   "correct": 0,
+   "explanation": "potser expressa dubte."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m017",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «hidro-» en «hidroelèctrica»?",
+   "options": [
+    "Foc",
+    "Aire",
+    "Terra",
+    "Aigua"
+   ],
+   "correct": 3,
+   "explanation": "hidro- vol dir aigua."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m018",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «-logia» en «biologia»?",
+   "options": [
+    "Mesura",
+    "Estudi o ciència",
+    "Amor",
+    "Por"
+   ],
+   "correct": 1,
+   "explanation": "-logia vol dir estudi."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m019",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «poli-» en «poliesportiu»?",
+   "options": [
+    "Gran",
+    "Cap",
+    "Molts",
+    "Un"
+   ],
+   "correct": 2,
+   "explanation": "poli- vol dir molts."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m020",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és de la família de «aigua»?",
+   "options": [
+    "àguila",
+    "aquari",
+    "aquàtic",
+    "aiguat"
+   ],
+   "correct": 0,
+   "explanation": "àguila no deriva d'aigua."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m021",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és de la família de «nit»?",
+   "options": [
+    "noguera",
+    "notable",
+    "nocturn",
+    "notícia"
+   ],
+   "correct": 2,
+   "explanation": "nocturn ve del llatí nox, noctis."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m022",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «tirar la tovallola»?",
+   "options": [
+    "Enfadar-se",
+    "Dutxar-se",
+    "Rendir-se",
+    "Guanyar"
+   ],
+   "correct": 2,
+   "explanation": "Expressió de la boxa: abandonar."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_m023",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «estar entre l'espasa i la paret»?",
+   "options": [
+    "Estar a casa",
+    "Estar en perill de mort",
+    "No tindre eixida",
+    "Estar molt còmode"
+   ],
+   "correct": 2,
+   "explanation": "Expressió: haver de triar entre dues opcions roïnes."
+  },
+  {
+   "id": "ca_retos_rapidos_l8_o001",
+   "module": "retos_rapidos",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «EXCEPCIÓ»",
+   "pieces": [
+    "E",
+    "X",
+    "C",
+    "E",
+    "P",
+    "C",
+    "I",
+    "Ó"
+   ],
+   "correctOrder": [
+    "E",
+    "X",
+    "C",
+    "E",
+    "P",
+    "C",
+    "I",
+    "Ó"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "E-X-C-E-P-C-I-Ó = EXCEPCIÓ"
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m001",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «inefable»?",
+   "options": [
+    "corrent",
+    "explicable",
+    "indescriptible",
+    "vulgar"
+   ],
+   "correct": 2,
+   "explanation": "«inefable» i «indescriptible» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m002",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «prolix»?",
+   "options": [
+    "concís",
+    "breu",
+    "clar",
+    "extens"
+   ],
+   "correct": 3,
+   "explanation": "«prolix» i «extens» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m003",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «pusil·lànime»?",
+   "options": [
+    "audaç",
+    "valent",
+    "decidit",
+    "covard"
+   ],
+   "correct": 3,
+   "explanation": "«pusil·lànime» i «covard» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m004",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «ubic»?",
+   "options": [
+    "local",
+    "escàs",
+    "omnipresent",
+    "absent"
+   ],
+   "correct": 2,
+   "explanation": "«ubic» i «omnipresent» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m005",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula vol dir el mateix que «lloable»?",
+   "options": [
+    "elogiable",
+    "dubtós",
+    "reprovable",
+    "censurable"
+   ],
+   "correct": 0,
+   "explanation": "«lloable» i «elogiable» volen dir el mateix."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m006",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «prolix»?",
+   "options": [
+    "detallat",
+    "concís",
+    "extens",
+    "llarg"
+   ],
+   "correct": 1,
+   "explanation": "El contrari de «prolix» és «concís»."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m007",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari d'«altruista»?",
+   "options": [
+    "bondadós",
+    "egoista",
+    "solidari",
+    "generós"
+   ],
+   "correct": 1,
+   "explanation": "El contrari d'«altruista» és «egoista»."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m008",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari d'«efímer»?",
+   "options": [
+    "passatger",
+    "perenne",
+    "breu",
+    "fugaç"
+   ],
+   "correct": 1,
+   "explanation": "El contrari d'«efímer» és «perenne»."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m009",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «diàfan»?",
+   "options": [
+    "tèrbol",
+    "net",
+    "transparent",
+    "clar"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «diàfan» és «tèrbol»."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m010",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin és el contrari de «lloar»?",
+   "options": [
+    "denigrar",
+    "elogiar",
+    "aplaudir",
+    "exaltar"
+   ],
+   "correct": 0,
+   "explanation": "El contrari de «lloar» és «denigrar»."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m011",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: substantiva, adjectiva, adverbial o copulativa?",
+   "options": [
+    "substantiva",
+    "adjectiva",
+    "adverbial",
+    "copulativa"
+   ],
+   "correct": 3,
+   "explanation": "Les coordinades copulatives no són subordinades."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m012",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: és a dir, o siga, això és o en canvi?",
+   "options": [
+    "això és",
+    "en canvi",
+    "o siga",
+    "és a dir"
+   ],
+   "correct": 1,
+   "explanation": "«en canvi» oposa; els altres reformulen."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m013",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és del grup: Ausiàs March, Joanot Martorell, Isabel de Villena o Vicent Andrés Estellés?",
+   "options": [
+    "Joanot Martorell",
+    "Isabel de Villena",
+    "Vicent Andrés Estellés",
+    "Ausiàs March"
+   ],
+   "correct": 2,
+   "explanation": "Estellés és del segle XX; els altres són del Segle d'Or valencià (s. XV)."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m014",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un cultisme procedent del llatí?",
+   "options": [
+    "anit",
+    "vesprada",
+    "nit",
+    "nocturn"
+   ],
+   "correct": 3,
+   "explanation": "nocturn conserva la forma llatina; nit és la paraula patrimonial."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m015",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un manlleu adaptat?",
+   "options": [
+    "porteria",
+    "partit",
+    "pilota",
+    "futbol"
+   ],
+   "correct": 3,
+   "explanation": "futbol ve de l'anglés football."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m016",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és un neologisme?",
+   "options": [
+    "escriure",
+    "llegir",
+    "tuitejar",
+    "parlar"
+   ],
+   "correct": 2,
+   "explanation": "tuitejar és una paraula nova creada a partir d'una xarxa social."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m017",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «-fòbia» en «claustrofòbia»?",
+   "options": [
+    "Estudi",
+    "Amor",
+    "Malaltia",
+    "Por"
+   ],
+   "correct": 3,
+   "explanation": "-fòbia vol dir por o rebuig."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m018",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «filo-» en «filosofia»?",
+   "options": [
+    "Lluny",
+    "Por",
+    "Meitat",
+    "Amor o afició"
+   ],
+   "correct": 3,
+   "explanation": "filo- vol dir amic o amant de."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m019",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «tele-» en «telescopi»?",
+   "options": [
+    "Lluny",
+    "A prop",
+    "Ràpid",
+    "Xicotet"
+   ],
+   "correct": 0,
+   "explanation": "tele- vol dir lluny."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m020",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és de la família d'«ull»?",
+   "options": [
+    "ocular",
+    "fulla",
+    "ullera",
+    "ullal"
+   ],
+   "correct": 1,
+   "explanation": "fulla no deriva d'ull."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m021",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és de la família de «fill»?",
+   "options": [
+    "filial",
+    "fil",
+    "fila",
+    "filet"
+   ],
+   "correct": 0,
+   "explanation": "filial ve del llatí filius (fill)."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m022",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «fer alguna cosa de mala gana»?",
+   "options": [
+    "Fer-la en secret",
+    "Fer-la ràpidament",
+    "Fer-la sense ganes",
+    "Fer-la amb alegria"
+   ],
+   "correct": 2,
+   "explanation": "De mala gana: sense voluntat."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_m023",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «ser la gota que fa vessar el got»?",
+   "options": [
+    "Un premi inesperat",
+    "Una cosa molt xicoteta",
+    "Beure massa",
+    "L'última cosa que fa perdre la paciència"
+   ],
+   "correct": 3,
+   "explanation": "Expressió: l'últim motiu que provoca una reacció."
+  },
+  {
+   "id": "ca_retos_rapidos_l9_o001",
+   "module": "retos_rapidos",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les lletres per a escriure «AMBIGÜITAT»",
+   "pieces": [
+    "A",
+    "M",
+    "B",
+    "I",
+    "G",
+    "Ü",
+    "I",
+    "T",
+    "A",
+    "T"
+   ],
+   "correctOrder": [
+    "A",
+    "M",
+    "B",
+    "I",
+    "G",
+    "Ü",
+    "I",
+    "T",
+    "A",
+    "T"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "A-M-B-I-G-Ü-I-T-A-T = AMBIGÜITAT"
   }
  ]
 }

@@ -4349,6 +4349,2746 @@
    "explanation": "f-e-t-g-e. tg davant de e.",
    "dictation": true,
    "word": "fetge"
+  },
+  {
+   "id": "ca_fonologia_l6_m001",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «televisió»?",
+   "options": [
+    "5",
+    "3",
+    "4",
+    "6"
+   ],
+   "correct": 0,
+   "explanation": "te-le-vi-si-ó = 5 síl·labes",
+   "word": "televisió",
+   "syllables": [
+    "te",
+    "le",
+    "vi",
+    "si",
+    "ó"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l6_m002",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «biologia»?",
+   "options": [
+    "5",
+    "3",
+    "4",
+    "6"
+   ],
+   "correct": 0,
+   "explanation": "bi-o-lo-gi-a = 5 síl·labes",
+   "word": "biologia",
+   "syllables": [
+    "bi",
+    "o",
+    "lo",
+    "gi",
+    "a"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l6_m003",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «ciutadà»?",
+   "options": [
+    "1",
+    "3",
+    "4",
+    "2"
+   ],
+   "correct": 1,
+   "explanation": "ciu-ta-dà = 3 síl·labes",
+   "word": "ciutadà",
+   "syllables": [
+    "ciu",
+    "ta",
+    "dà"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l6_m004",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «veïnat»?",
+   "options": [
+    "4",
+    "3",
+    "1",
+    "2"
+   ],
+   "correct": 1,
+   "explanation": "ve-ï-nat = 3 síl·labes",
+   "word": "veïnat",
+   "syllables": [
+    "ve",
+    "ï",
+    "nat"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l6_m005",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «aigua»?",
+   "options": [
+    "1",
+    "3",
+    "4",
+    "2"
+   ],
+   "correct": 3,
+   "explanation": "ai-gua = 2 síl·labes",
+   "word": "aigua",
+   "syllables": [
+    "ai",
+    "gua"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l6_m006",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «Lluïsa»?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ],
+   "correct": 0,
+   "explanation": "Llu-ï-sa = 3 síl·labes",
+   "word": "Lluïsa",
+   "syllables": [
+    "Llu",
+    "ï",
+    "sa"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l6_m007",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «diccionari»?",
+   "options": [
+    "4",
+    "5",
+    "3",
+    "6"
+   ],
+   "correct": 1,
+   "explanation": "dic-ci-o-na-ri = 5 síl·labes",
+   "word": "diccionari",
+   "syllables": [
+    "dic",
+    "ci",
+    "o",
+    "na",
+    "ri"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l6_m008",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «cuina»?",
+   "options": [
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "correct": 2,
+   "explanation": "cui-na = 2 síl·labes",
+   "word": "cuina",
+   "syllables": [
+    "cui",
+    "na"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l6_o001",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "te",
+    "le",
+    "vi",
+    "si",
+    "ó"
+   ],
+   "correctOrder": [
+    "te",
+    "le",
+    "vi",
+    "si",
+    "ó"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "te-le-vi-si-ó = televisió",
+   "word": "televisió"
+  },
+  {
+   "id": "ca_fonologia_l6_o002",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "bi",
+    "o",
+    "lo",
+    "gi",
+    "a"
+   ],
+   "correctOrder": [
+    "bi",
+    "o",
+    "lo",
+    "gi",
+    "a"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "bi-o-lo-gi-a = biologia",
+   "word": "biologia"
+  },
+  {
+   "id": "ca_fonologia_l6_o003",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "ciu",
+    "ta",
+    "dà"
+   ],
+   "correctOrder": [
+    "ciu",
+    "ta",
+    "dà"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ciu-ta-dà = ciutadà",
+   "word": "ciutadà"
+  },
+  {
+   "id": "ca_fonologia_l6_o004",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "ve",
+    "ï",
+    "nat"
+   ],
+   "correctOrder": [
+    "ve",
+    "ï",
+    "nat"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ve-ï-nat = veïnat",
+   "word": "veïnat"
+  },
+  {
+   "id": "ca_fonologia_l6_o005",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "ai",
+    "gua"
+   ],
+   "correctOrder": [
+    "ai",
+    "gua"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ai-gua = aigua",
+   "word": "aigua"
+  },
+  {
+   "id": "ca_fonologia_l6_m009",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «caràcter»?",
+   "options": [
+    "ràc",
+    "ca",
+    "ter"
+   ],
+   "correct": 0,
+   "explanation": "En ca-ràc-ter, la síl·laba que sona més forta és «ràc».",
+   "word": "caràcter"
+  },
+  {
+   "id": "ca_fonologia_l6_m010",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «senglar»?",
+   "options": [
+    "sen",
+    "glar"
+   ],
+   "correct": 1,
+   "explanation": "En sen-glar, la síl·laba que sona més forta és «glar».",
+   "word": "senglar"
+  },
+  {
+   "id": "ca_fonologia_l6_m011",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «gespa»?",
+   "options": [
+    "pa",
+    "ges"
+   ],
+   "correct": 1,
+   "explanation": "En ges-pa, la síl·laba que sona més forta és «ges».",
+   "word": "gespa"
+  },
+  {
+   "id": "ca_fonologia_l6_m012",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «dimecres»?",
+   "options": [
+    "cres",
+    "me",
+    "di"
+   ],
+   "correct": 1,
+   "explanation": "En di-me-cres, la síl·laba que sona més forta és «me».",
+   "word": "dimecres"
+  },
+  {
+   "id": "ca_fonologia_l6_m013",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «taüt»?",
+   "options": [
+    "üt",
+    "ta"
+   ],
+   "correct": 0,
+   "explanation": "En ta-üt, la síl·laba que sona més forta és «üt».",
+   "word": "taüt"
+  },
+  {
+   "id": "ca_fonologia_l6_m014",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «volum»?",
+   "options": [
+    "vo",
+    "lum"
+   ],
+   "correct": 1,
+   "explanation": "En vo-lum, la síl·laba que sona més forta és «lum».",
+   "word": "volum"
+  },
+  {
+   "id": "ca_fonologia_l6_m015",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «també» segons l'accent?",
+   "options": [
+    "plana",
+    "aguda",
+    "esdrúixola"
+   ],
+   "correct": 1,
+   "explanation": "«també» és aguda: la síl·laba tònica és l'última.",
+   "word": "també"
+  },
+  {
+   "id": "ca_fonologia_l6_m016",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «pàgina» segons l'accent?",
+   "options": [
+    "plana",
+    "aguda",
+    "esdrúixola"
+   ],
+   "correct": 2,
+   "explanation": "«pàgina» és esdrúixola: la síl·laba tònica és l'antepenúltima.",
+   "word": "pàgina"
+  },
+  {
+   "id": "ca_fonologia_l6_m017",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «cançó» segons l'accent?",
+   "options": [
+    "aguda",
+    "esdrúixola",
+    "plana"
+   ],
+   "correct": 0,
+   "explanation": "«cançó» és aguda: la síl·laba tònica és l'última.",
+   "word": "cançó"
+  },
+  {
+   "id": "ca_fonologia_l6_m018",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «examen» segons l'accent?",
+   "options": [
+    "esdrúixola",
+    "aguda",
+    "plana"
+   ],
+   "correct": 2,
+   "explanation": "«examen» és plana: la síl·laba tònica és la penúltima.",
+   "word": "examen"
+  },
+  {
+   "id": "ca_fonologia_l6_m019",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «difícil» segons l'accent?",
+   "options": [
+    "esdrúixola",
+    "plana",
+    "aguda"
+   ],
+   "correct": 1,
+   "explanation": "«difícil» és plana: la síl·laba tònica és la penúltima.",
+   "word": "difícil"
+  },
+  {
+   "id": "ca_fonologia_l6_m020",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «rellotge» segons l'accent?",
+   "options": [
+    "plana",
+    "esdrúixola",
+    "aguda"
+   ],
+   "correct": 0,
+   "explanation": "«rellotge» és plana: la síl·laba tònica és la penúltima.",
+   "word": "rellotge"
+  },
+  {
+   "id": "ca_fonologia_l6_m021",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "En «rei», què formen les vocals «ei»?",
+   "options": [
+    "Diftong decreixent",
+    "Hiat",
+    "Diftong creixent"
+   ],
+   "correct": 0,
+   "explanation": "rei: la e i la i van en la mateixa síl·laba; acaba en vocal feble.",
+   "word": "rei"
+  },
+  {
+   "id": "ca_fonologia_l6_m022",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "En «quatre», què formen les vocals «ua»?",
+   "options": [
+    "Diftong creixent",
+    "Hiat",
+    "Diftong decreixent"
+   ],
+   "correct": 0,
+   "explanation": "qua-tre: després de q, la u sona i forma diftong amb la a.",
+   "word": "quatre"
+  },
+  {
+   "id": "ca_fonologia_l6_m023",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "En «país», què formen les vocals «aí»?",
+   "options": [
+    "Diftong creixent",
+    "Diftong decreixent",
+    "Hiat"
+   ],
+   "correct": 2,
+   "explanation": "pa-ís: la í tònica va en una altra síl·laba.",
+   "word": "país"
+  },
+  {
+   "id": "ca_fonologia_l6_m024",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "En «cuina», què formen les vocals «ui»?",
+   "options": [
+    "Diftong decreixent",
+    "Diftong creixent",
+    "Hiat"
+   ],
+   "correct": 0,
+   "explanation": "cui-na: la u i la i van juntes.",
+   "word": "cuina"
+  },
+  {
+   "id": "ca_fonologia_l6_m025",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "En «veïna», què formen les vocals «eï»?",
+   "options": [
+    "Diftong decreixent",
+    "Hiat",
+    "Diftong creixent"
+   ],
+   "correct": 1,
+   "explanation": "ve-ï-na: la dièresi indica que la i fa síl·laba a part.",
+   "word": "veïna"
+  },
+  {
+   "id": "ca_fonologia_l6_m026",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "En «peus», què formen les vocals «eu»?",
+   "options": [
+    "Diftong creixent",
+    "Diftong decreixent",
+    "Hiat"
+   ],
+   "correct": 1,
+   "explanation": "peus: e i u en una sola síl·laba.",
+   "word": "peus"
+  },
+  {
+   "id": "ca_fonologia_l6_m027",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO té hiat?",
+   "options": [
+    "veïna",
+    "teatre",
+    "país",
+    "cuina"
+   ],
+   "correct": 3,
+   "explanation": "En cui-na, la u i la i formen diftong."
+  },
+  {
+   "id": "ca_fonologia_l6_m028",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula té un diftong creixent?",
+   "options": [
+    "quatre",
+    "cau",
+    "peus",
+    "rei"
+   ],
+   "correct": 0,
+   "explanation": "qua-tre: després de q, la u sona."
+  },
+  {
+   "id": "ca_fonologia_l6_d001",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Vam veure una cigonya damunt del campanar.",
+   "hint": "cigonya amb ny; campanar amb m",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "Vam veure una cigonya damunt del campanar."
+  },
+  {
+   "id": "ca_fonologia_l6_d002",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La meua germana ha guanyat el concurs de dibuix.",
+   "hint": "guanyat amb ny; dibuix amb ix",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "La meua germana ha guanyat el concurs de dibuix."
+  },
+  {
+   "id": "ca_fonologia_l6_d003",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El rellotge de la plaça s'ha parat.",
+   "hint": "rellotge amb tg; plaça amb ç",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "El rellotge de la plaça s'ha parat."
+  },
+  {
+   "id": "ca_fonologia_l6_d004",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hui hem anat a la biblioteca del barri.",
+   "hint": "Hui amb h; biblioteca amb b",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "Hui hem anat a la biblioteca del barri."
+  },
+  {
+   "id": "ca_fonologia_l6_d005",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'excursió a la muntanya va ser fantàstica.",
+   "hint": "excursió amb x; fantàstica amb accent",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "L'excursió a la muntanya va ser fantàstica."
+  },
+  {
+   "id": "ca_fonologia_l6_d006",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Els xiquets jugaven al pati de l'escola.",
+   "hint": "xiquets amb x; jugaven amb v",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "Els xiquets jugaven al pati de l'escola."
+  },
+  {
+   "id": "ca_fonologia_l7_m001",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «paleontòleg»?",
+   "options": [
+    "4",
+    "3",
+    "6",
+    "5"
+   ],
+   "correct": 3,
+   "explanation": "pa-le-on-tò-leg = 5 síl·labes",
+   "word": "paleontòleg",
+   "syllables": [
+    "pa",
+    "le",
+    "on",
+    "tò",
+    "leg"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l7_m002",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «contemporani»?",
+   "options": [
+    "4",
+    "6",
+    "5",
+    "3"
+   ],
+   "correct": 2,
+   "explanation": "con-tem-po-ra-ni = 5 síl·labes",
+   "word": "contemporani",
+   "syllables": [
+    "con",
+    "tem",
+    "po",
+    "ra",
+    "ni"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l7_m003",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «quaranta»?",
+   "options": [
+    "3",
+    "4",
+    "1",
+    "2"
+   ],
+   "correct": 0,
+   "explanation": "qua-ran-ta = 3 síl·labes",
+   "word": "quaranta",
+   "syllables": [
+    "qua",
+    "ran",
+    "ta"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l7_m004",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «pingüí»?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ],
+   "correct": 1,
+   "explanation": "pin-güí = 2 síl·labes",
+   "word": "pingüí",
+   "syllables": [
+    "pin",
+    "güí"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l7_m005",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «diürn»?",
+   "options": [
+    "2",
+    "4",
+    "1",
+    "3"
+   ],
+   "correct": 0,
+   "explanation": "di-ürn = 2 síl·labes",
+   "word": "diürn",
+   "syllables": [
+    "di",
+    "ürn"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l7_m006",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «geografia»?",
+   "options": [
+    "6",
+    "3",
+    "4",
+    "5"
+   ],
+   "correct": 3,
+   "explanation": "ge-o-gra-fi-a = 5 síl·labes",
+   "word": "geografia",
+   "syllables": [
+    "ge",
+    "o",
+    "gra",
+    "fi",
+    "a"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l7_m007",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «noia»?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "1"
+   ],
+   "correct": 0,
+   "explanation": "no-ia = 2 síl·labes",
+   "word": "noia",
+   "syllables": [
+    "no",
+    "ia"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l7_m008",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «Europa»?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "1"
+   ],
+   "correct": 2,
+   "explanation": "Eu-ro-pa = 3 síl·labes",
+   "word": "Europa",
+   "syllables": [
+    "Eu",
+    "ro",
+    "pa"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l7_o001",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "pa",
+    "le",
+    "on",
+    "tò",
+    "leg"
+   ],
+   "correctOrder": [
+    "pa",
+    "le",
+    "on",
+    "tò",
+    "leg"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "pa-le-on-tò-leg = paleontòleg",
+   "word": "paleontòleg"
+  },
+  {
+   "id": "ca_fonologia_l7_o002",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "con",
+    "tem",
+    "po",
+    "ra",
+    "ni"
+   ],
+   "correctOrder": [
+    "con",
+    "tem",
+    "po",
+    "ra",
+    "ni"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "con-tem-po-ra-ni = contemporani",
+   "word": "contemporani"
+  },
+  {
+   "id": "ca_fonologia_l7_o003",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "qua",
+    "ran",
+    "ta"
+   ],
+   "correctOrder": [
+    "qua",
+    "ran",
+    "ta"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "qua-ran-ta = quaranta",
+   "word": "quaranta"
+  },
+  {
+   "id": "ca_fonologia_l7_o004",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "pin",
+    "güí"
+   ],
+   "correctOrder": [
+    "pin",
+    "güí"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "pin-güí = pingüí",
+   "word": "pingüí"
+  },
+  {
+   "id": "ca_fonologia_l7_o005",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "di",
+    "ürn"
+   ],
+   "correctOrder": [
+    "di",
+    "ürn"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "di-ürn = diürn",
+   "word": "diürn"
+  },
+  {
+   "id": "ca_fonologia_l7_m009",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «règim»?",
+   "options": [
+    "rè",
+    "gim"
+   ],
+   "correct": 0,
+   "explanation": "En rè-gim, la síl·laba que sona més forta és «rè».",
+   "word": "règim"
+  },
+  {
+   "id": "ca_fonologia_l7_m010",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «interval»?",
+   "options": [
+    "in",
+    "ter",
+    "val"
+   ],
+   "correct": 2,
+   "explanation": "En in-ter-val, la síl·laba que sona més forta és «val».",
+   "word": "interval"
+  },
+  {
+   "id": "ca_fonologia_l7_m011",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «imbècil»?",
+   "options": [
+    "bè",
+    "cil",
+    "im"
+   ],
+   "correct": 0,
+   "explanation": "En im-bè-cil, la síl·laba que sona més forta és «bè».",
+   "word": "imbècil"
+  },
+  {
+   "id": "ca_fonologia_l7_m012",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «càncer»?",
+   "options": [
+    "càn",
+    "cer"
+   ],
+   "correct": 0,
+   "explanation": "En càn-cer, la síl·laba que sona més forta és «càn».",
+   "word": "càncer"
+  },
+  {
+   "id": "ca_fonologia_l7_m013",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «examen»?",
+   "options": [
+    "e",
+    "xa",
+    "men"
+   ],
+   "correct": 1,
+   "explanation": "En e-xa-men, la síl·laba que sona més forta és «xa».",
+   "word": "examen"
+  },
+  {
+   "id": "ca_fonologia_l7_m014",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «exàmens»?",
+   "options": [
+    "mens",
+    "xà",
+    "e"
+   ],
+   "correct": 1,
+   "explanation": "En e-xà-mens, la síl·laba que sona més forta és «xà».",
+   "word": "exàmens"
+  },
+  {
+   "id": "ca_fonologia_l7_m015",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «àlbum» segons l'accent?",
+   "options": [
+    "plana",
+    "aguda",
+    "esdrúixola"
+   ],
+   "correct": 0,
+   "explanation": "«àlbum» és plana: la síl·laba tònica és la penúltima.",
+   "word": "àlbum"
+  },
+  {
+   "id": "ca_fonologia_l7_m016",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «música» segons l'accent?",
+   "options": [
+    "aguda",
+    "plana",
+    "esdrúixola"
+   ],
+   "correct": 2,
+   "explanation": "«música» és esdrúixola: la síl·laba tònica és l'antepenúltima.",
+   "word": "música"
+  },
+  {
+   "id": "ca_fonologia_l7_m017",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «camió» segons l'accent?",
+   "options": [
+    "plana",
+    "aguda",
+    "esdrúixola"
+   ],
+   "correct": 1,
+   "explanation": "«camió» és aguda: la síl·laba tònica és l'última.",
+   "word": "camió"
+  },
+  {
+   "id": "ca_fonologia_l7_m018",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «estudiant» segons l'accent?",
+   "options": [
+    "plana",
+    "aguda",
+    "esdrúixola"
+   ],
+   "correct": 1,
+   "explanation": "«estudiant» és aguda: la síl·laba tònica és l'última.",
+   "word": "estudiant"
+  },
+  {
+   "id": "ca_fonologia_l7_m019",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «llapis» segons l'accent?",
+   "options": [
+    "plana",
+    "aguda",
+    "esdrúixola"
+   ],
+   "correct": 0,
+   "explanation": "«llapis» és plana: la síl·laba tònica és la penúltima.",
+   "word": "llapis"
+  },
+  {
+   "id": "ca_fonologia_l7_m020",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «pàrquing» segons l'accent?",
+   "options": [
+    "esdrúixola",
+    "aguda",
+    "plana"
+   ],
+   "correct": 2,
+   "explanation": "«pàrquing» és plana: la síl·laba tònica és la penúltima.",
+   "word": "pàrquing"
+  },
+  {
+   "id": "ca_fonologia_l7_m021",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En «llengua», què formen les vocals «ua»?",
+   "options": [
+    "Hiat",
+    "Diftong creixent",
+    "Diftong decreixent"
+   ],
+   "correct": 1,
+   "explanation": "llen-gua: després de g, la u sona i forma diftong.",
+   "word": "llengua"
+  },
+  {
+   "id": "ca_fonologia_l7_m022",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En «diari», què formen les vocals «ia»?",
+   "options": [
+    "Diftong creixent",
+    "Diftong decreixent",
+    "Hiat"
+   ],
+   "correct": 2,
+   "explanation": "di-a-ri: en valencià, i + vocal després de consonant forma hiat.",
+   "word": "diari"
+  },
+  {
+   "id": "ca_fonologia_l7_m023",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En «noi», què formen les vocals «oi»?",
+   "options": [
+    "Diftong decreixent",
+    "Hiat",
+    "Diftong creixent"
+   ],
+   "correct": 0,
+   "explanation": "noi: o i i en una sola síl·laba.",
+   "word": "noi"
+  },
+  {
+   "id": "ca_fonologia_l7_m024",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En «pingüí», què formen les vocals «üí»?",
+   "options": [
+    "Hiat",
+    "Diftong creixent",
+    "Diftong decreixent"
+   ],
+   "correct": 1,
+   "explanation": "pin-güí: la dièresi fa sonar la u, que forma diftong amb la í.",
+   "word": "pingüí"
+  },
+  {
+   "id": "ca_fonologia_l7_m025",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En «ciutat», què formen les vocals «iu»?",
+   "options": [
+    "Diftong decreixent",
+    "Hiat",
+    "Diftong creixent"
+   ],
+   "correct": 0,
+   "explanation": "ciu-tat: i i u en la mateixa síl·laba.",
+   "word": "ciutat"
+  },
+  {
+   "id": "ca_fonologia_l7_m026",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En «Maria», què formen les vocals «ia»?",
+   "options": [
+    "Diftong creixent",
+    "Diftong decreixent",
+    "Hiat"
+   ],
+   "correct": 2,
+   "explanation": "Ma-ri-a: la i i la a van en síl·labes diferents.",
+   "word": "Maria"
+  },
+  {
+   "id": "ca_fonologia_l7_m027",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és esdrúixola?",
+   "options": [
+    "pàgina",
+    "època",
+    "música",
+    "camió"
+   ],
+   "correct": 3,
+   "explanation": "camió és aguda."
+  },
+  {
+   "id": "ca_fonologia_l7_m028",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "En quina paraula la dièresi indica que la u sona?",
+   "options": [
+    "raïm",
+    "veïna",
+    "Lluïsa",
+    "pingüí"
+   ],
+   "correct": 3,
+   "explanation": "En pingüí, la ü sona; en les altres, la ï indica hiat."
+  },
+  {
+   "id": "ca_fonologia_l7_d001",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El col·legi organitza una exposició de pintura.",
+   "hint": "col·legi amb ela geminada; exposició amb x",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "El col·legi organitza una exposició de pintura."
+  },
+  {
+   "id": "ca_fonologia_l7_d002",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La il·lusió de l'avi era tornar al seu poble.",
+   "hint": "il·lusió amb ela geminada",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "La il·lusió de l'avi era tornar al seu poble."
+  },
+  {
+   "id": "ca_fonologia_l7_d003",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "No sé si vindrà, però l'esperarem.",
+   "hint": "sé amb accent; vindrà amb accent",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "No sé si vindrà, però l'esperarem."
+  },
+  {
+   "id": "ca_fonologia_l7_d004",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La pluja d'ahir va fer créixer els bolets.",
+   "hint": "pluja amb j; créixer amb ix",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "La pluja d'ahir va fer créixer els bolets."
+  },
+  {
+   "id": "ca_fonologia_l7_d005",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hem de reciclar el paper i el vidre.",
+   "hint": "Hem amb h; vidre amb v",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "Hem de reciclar el paper i el vidre."
+  },
+  {
+   "id": "ca_fonologia_l7_d006",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Quan acabes els deures, eixirem a passejar.",
+   "hint": "eixirem amb ix; passejar amb ss",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "Quan acabes els deures, eixirem a passejar."
+  },
+  {
+   "id": "ca_fonologia_l8_m001",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «atmosfèric»?",
+   "options": [
+    "5",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "at-mos-fè-ric = 4 síl·labes",
+   "word": "atmosfèric",
+   "syllables": [
+    "at",
+    "mos",
+    "fè",
+    "ric"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l8_m002",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «instrucció»?",
+   "options": [
+    "5",
+    "3",
+    "4",
+    "2"
+   ],
+   "correct": 2,
+   "explanation": "ins-truc-ci-ó = 4 síl·labes",
+   "word": "instrucció",
+   "syllables": [
+    "ins",
+    "truc",
+    "ci",
+    "ó"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l8_m003",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «cooperació»?",
+   "options": [
+    "7",
+    "4",
+    "6",
+    "5"
+   ],
+   "correct": 2,
+   "explanation": "co-o-pe-ra-ci-ó = 6 síl·labes",
+   "word": "cooperació",
+   "syllables": [
+    "co",
+    "o",
+    "pe",
+    "ra",
+    "ci",
+    "ó"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l8_m004",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «lingüística»?",
+   "options": [
+    "5",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "lin-güís-ti-ca = 4 síl·labes",
+   "word": "lingüística",
+   "syllables": [
+    "lin",
+    "güís",
+    "ti",
+    "ca"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l8_m005",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «reuníem»?",
+   "options": [
+    "2",
+    "5",
+    "3",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "re-u-ní-em = 4 síl·labes",
+   "word": "reuníem",
+   "syllables": [
+    "re",
+    "u",
+    "ní",
+    "em"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l8_m006",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «construïa»?",
+   "options": [
+    "4",
+    "5",
+    "3",
+    "2"
+   ],
+   "correct": 0,
+   "explanation": "cons-tru-ï-a = 4 síl·labes",
+   "word": "construïa",
+   "syllables": [
+    "cons",
+    "tru",
+    "ï",
+    "a"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l8_m007",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «aeroport»?",
+   "options": [
+    "3",
+    "4",
+    "2",
+    "5"
+   ],
+   "correct": 1,
+   "explanation": "a-e-ro-port = 4 síl·labes",
+   "word": "aeroport",
+   "syllables": [
+    "a",
+    "e",
+    "ro",
+    "port"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l8_m008",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «paisatge»?",
+   "options": [
+    "4",
+    "2",
+    "3",
+    "1"
+   ],
+   "correct": 2,
+   "explanation": "pai-sat-ge = 3 síl·labes",
+   "word": "paisatge",
+   "syllables": [
+    "pai",
+    "sat",
+    "ge"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l8_o001",
+   "module": "fonologia",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "at",
+    "mos",
+    "fè",
+    "ric"
+   ],
+   "correctOrder": [
+    "at",
+    "mos",
+    "fè",
+    "ric"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "at-mos-fè-ric = atmosfèric",
+   "word": "atmosfèric"
+  },
+  {
+   "id": "ca_fonologia_l8_o002",
+   "module": "fonologia",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "ins",
+    "truc",
+    "ci",
+    "ó"
+   ],
+   "correctOrder": [
+    "ins",
+    "truc",
+    "ci",
+    "ó"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ins-truc-ci-ó = instrucció",
+   "word": "instrucció"
+  },
+  {
+   "id": "ca_fonologia_l8_o003",
+   "module": "fonologia",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "co",
+    "o",
+    "pe",
+    "ra",
+    "ci",
+    "ó"
+   ],
+   "correctOrder": [
+    "co",
+    "o",
+    "pe",
+    "ra",
+    "ci",
+    "ó"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "co-o-pe-ra-ci-ó = cooperació",
+   "word": "cooperació"
+  },
+  {
+   "id": "ca_fonologia_l8_o004",
+   "module": "fonologia",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "lin",
+    "güís",
+    "ti",
+    "ca"
+   ],
+   "correctOrder": [
+    "lin",
+    "güís",
+    "ti",
+    "ca"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "lin-güís-ti-ca = lingüística",
+   "word": "lingüística"
+  },
+  {
+   "id": "ca_fonologia_l8_o005",
+   "module": "fonologia",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "re",
+    "u",
+    "ní",
+    "em"
+   ],
+   "correctOrder": [
+    "re",
+    "u",
+    "ní",
+    "em"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "re-u-ní-em = reuníem",
+   "word": "reuníem"
+  },
+  {
+   "id": "ca_fonologia_l8_m009",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «àtom»?",
+   "options": [
+    "tom",
+    "à"
+   ],
+   "correct": 1,
+   "explanation": "En à-tom, la síl·laba que sona més forta és «à».",
+   "word": "àtom"
+  },
+  {
+   "id": "ca_fonologia_l8_m010",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «dòcil»?",
+   "options": [
+    "dò",
+    "cil"
+   ],
+   "correct": 0,
+   "explanation": "En dò-cil, la síl·laba que sona més forta és «dò».",
+   "word": "dòcil"
+  },
+  {
+   "id": "ca_fonologia_l8_m011",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «període»?",
+   "options": [
+    "de",
+    "rí",
+    "o",
+    "pe"
+   ],
+   "correct": 1,
+   "explanation": "En pe-rí-o-de, la síl·laba que sona més forta és «rí».",
+   "word": "període"
+  },
+  {
+   "id": "ca_fonologia_l8_m012",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «austeritat»?",
+   "options": [
+    "ri",
+    "tat",
+    "te",
+    "aus"
+   ],
+   "correct": 1,
+   "explanation": "En aus-te-ri-tat, la síl·laba que sona més forta és «tat».",
+   "word": "austeritat"
+  },
+  {
+   "id": "ca_fonologia_l8_m013",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «cràter»?",
+   "options": [
+    "crà",
+    "ter"
+   ],
+   "correct": 0,
+   "explanation": "En crà-ter, la síl·laba que sona més forta és «crà».",
+   "word": "cràter"
+  },
+  {
+   "id": "ca_fonologia_l8_m014",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «intèrpret»?",
+   "options": [
+    "pret",
+    "tèr",
+    "in"
+   ],
+   "correct": 1,
+   "explanation": "En in-tèr-pret, la síl·laba que sona més forta és «tèr».",
+   "word": "intèrpret"
+  },
+  {
+   "id": "ca_fonologia_l8_m015",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «parèntesi» segons l'accent?",
+   "options": [
+    "aguda",
+    "esdrúixola",
+    "plana"
+   ],
+   "correct": 1,
+   "explanation": "«parèntesi» és esdrúixola: la síl·laba tònica és l'antepenúltima.",
+   "word": "parèntesi"
+  },
+  {
+   "id": "ca_fonologia_l8_m016",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «matís» segons l'accent?",
+   "options": [
+    "plana",
+    "esdrúixola",
+    "aguda"
+   ],
+   "correct": 2,
+   "explanation": "«matís» és aguda: la síl·laba tònica és l'última.",
+   "word": "matís"
+  },
+  {
+   "id": "ca_fonologia_l8_m017",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «bíceps» segons l'accent?",
+   "options": [
+    "plana",
+    "esdrúixola",
+    "aguda"
+   ],
+   "correct": 0,
+   "explanation": "«bíceps» és plana: la síl·laba tònica és la penúltima.",
+   "word": "bíceps"
+  },
+  {
+   "id": "ca_fonologia_l8_m018",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «anàlisi» segons l'accent?",
+   "options": [
+    "plana",
+    "esdrúixola",
+    "aguda"
+   ],
+   "correct": 1,
+   "explanation": "«anàlisi» és esdrúixola: la síl·laba tònica és l'antepenúltima.",
+   "word": "anàlisi"
+  },
+  {
+   "id": "ca_fonologia_l8_m019",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «caos» segons l'accent?",
+   "options": [
+    "esdrúixola",
+    "plana",
+    "aguda"
+   ],
+   "correct": 1,
+   "explanation": "«caos» és plana: la síl·laba tònica és la penúltima.",
+   "word": "caos"
+  },
+  {
+   "id": "ca_fonologia_l8_m020",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «volum» segons l'accent?",
+   "options": [
+    "esdrúixola",
+    "plana",
+    "aguda"
+   ],
+   "correct": 2,
+   "explanation": "«volum» és aguda: la síl·laba tònica és l'última.",
+   "word": "volum"
+  },
+  {
+   "id": "ca_fonologia_l8_m021",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "En «cau», què formen les vocals «au»?",
+   "options": [
+    "Diftong decreixent",
+    "Diftong creixent",
+    "Hiat"
+   ],
+   "correct": 0,
+   "explanation": "cau: a i u en una sola síl·laba.",
+   "word": "cau"
+  },
+  {
+   "id": "ca_fonologia_l8_m022",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "En «aqüeducte», què formen les vocals «üe»?",
+   "options": [
+    "Diftong creixent",
+    "Hiat",
+    "Diftong decreixent"
+   ],
+   "correct": 0,
+   "explanation": "a-qüe-duc-te: la dièresi fa sonar la u.",
+   "word": "aqüeducte"
+  },
+  {
+   "id": "ca_fonologia_l8_m023",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "En «raïm», què formen les vocals «aï»?",
+   "options": [
+    "Hiat",
+    "Diftong creixent",
+    "Diftong decreixent"
+   ],
+   "correct": 0,
+   "explanation": "ra-ïm: la dièresi separa les vocals.",
+   "word": "raïm"
+  },
+  {
+   "id": "ca_fonologia_l8_m024",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "En «heroi», què formen les vocals «oi»?",
+   "options": [
+    "Diftong decreixent",
+    "Hiat",
+    "Diftong creixent"
+   ],
+   "correct": 0,
+   "explanation": "he-roi: o i i en la mateixa síl·laba.",
+   "word": "heroi"
+  },
+  {
+   "id": "ca_fonologia_l8_m025",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "En «teatre», què formen les vocals «ea»?",
+   "options": [
+    "Diftong decreixent",
+    "Hiat",
+    "Diftong creixent"
+   ],
+   "correct": 1,
+   "explanation": "te-a-tre: dues vocals fortes formen hiat.",
+   "word": "teatre"
+  },
+  {
+   "id": "ca_fonologia_l8_m026",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "En «qüestió», què formen les vocals «üe»?",
+   "options": [
+    "Diftong creixent",
+    "Hiat",
+    "Diftong decreixent"
+   ],
+   "correct": 0,
+   "explanation": "qües-ti-ó: la dièresi fa sonar la u.",
+   "word": "qüestió"
+  },
+  {
+   "id": "ca_fonologia_l8_m027",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta accent per a marcar un hiat?",
+   "options": [
+    "difícil",
+    "pàgina",
+    "camió",
+    "país"
+   ],
+   "correct": 3,
+   "explanation": "pa-ís: sense accent faria diftong."
+  },
+  {
+   "id": "ca_fonologia_l8_m028",
+   "module": "fonologia",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO porta dièresi?",
+   "options": [
+    "raïm",
+    "camí",
+    "veïna",
+    "aqüeducte"
+   ],
+   "correct": 1,
+   "explanation": "camí porta accent, però no dièresi."
+  },
+  {
+   "id": "ca_fonologia_l8_d001",
+   "module": "fonologia",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La investigació científica necessita paciència.",
+   "hint": "investigació amb v; paciència amb accent",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "La investigació científica necessita paciència."
+  },
+  {
+   "id": "ca_fonologia_l8_d002",
+   "module": "fonologia",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Els excursionistes van veure un voltor al cim.",
+   "hint": "excursionistes amb x; voltor amb v",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "Els excursionistes van veure un voltor al cim."
+  },
+  {
+   "id": "ca_fonologia_l8_d003",
+   "module": "fonologia",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Cal distingir entre fets i opinions.",
+   "hint": "distingir amb g",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "Cal distingir entre fets i opinions."
+  },
+  {
+   "id": "ca_fonologia_l8_d004",
+   "module": "fonologia",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'ajuntament ha prohibit aparcar a l'avinguda.",
+   "hint": "prohibit amb h; avinguda amb v",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "L'ajuntament ha prohibit aparcar a l'avinguda."
+  },
+  {
+   "id": "ca_fonologia_l8_d005",
+   "module": "fonologia",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El científic va exposar la seua hipòtesi.",
+   "hint": "hipòtesi amb h i accent obert",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "El científic va exposar la seua hipòtesi."
+  },
+  {
+   "id": "ca_fonologia_l8_d006",
+   "module": "fonologia",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La tempesta va arrancar diversos arbres.",
+   "hint": "tempesta amb m; diversos amb v",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "La tempesta va arrancar diversos arbres."
+  },
+  {
+   "id": "ca_fonologia_l9_m001",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «electroencefalograma»?",
+   "options": [
+    "10",
+    "9",
+    "7",
+    "8"
+   ],
+   "correct": 1,
+   "explanation": "e-lec-tro-en-ce-fa-lo-gra-ma = 9 síl·labes",
+   "word": "electroencefalograma",
+   "syllables": [
+    "e",
+    "lec",
+    "tro",
+    "en",
+    "ce",
+    "fa",
+    "lo",
+    "gra",
+    "ma"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l9_m002",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «incomprensiblement»?",
+   "options": [
+    "6",
+    "7",
+    "4",
+    "5"
+   ],
+   "correct": 0,
+   "explanation": "in-com-pren-si-ble-ment = 6 síl·labes",
+   "word": "incomprensiblement",
+   "syllables": [
+    "in",
+    "com",
+    "pren",
+    "si",
+    "ble",
+    "ment"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l9_m003",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «anticonstitucional»?",
+   "options": [
+    "8",
+    "7",
+    "9",
+    "6"
+   ],
+   "correct": 0,
+   "explanation": "an-ti-cons-ti-tu-ci-o-nal = 8 síl·labes",
+   "word": "anticonstitucional",
+   "syllables": [
+    "an",
+    "ti",
+    "cons",
+    "ti",
+    "tu",
+    "ci",
+    "o",
+    "nal"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l9_m004",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «espontaneïtat»?",
+   "options": [
+    "7",
+    "5",
+    "4",
+    "6"
+   ],
+   "correct": 3,
+   "explanation": "es-pon-ta-ne-ï-tat = 6 síl·labes",
+   "word": "espontaneïtat",
+   "syllables": [
+    "es",
+    "pon",
+    "ta",
+    "ne",
+    "ï",
+    "tat"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l9_m005",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «otorinolaringologia»?",
+   "options": [
+    "10",
+    "11",
+    "8",
+    "9"
+   ],
+   "correct": 0,
+   "explanation": "o-to-ri-no-la-rin-go-lo-gi-a = 10 síl·labes",
+   "word": "otorinolaringologia",
+   "syllables": [
+    "o",
+    "to",
+    "ri",
+    "no",
+    "la",
+    "rin",
+    "go",
+    "lo",
+    "gi",
+    "a"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l9_m006",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «rehabilitació»?",
+   "options": [
+    "7",
+    "6",
+    "5",
+    "8"
+   ],
+   "correct": 0,
+   "explanation": "re-ha-bi-li-ta-ci-ó = 7 síl·labes",
+   "word": "rehabilitació",
+   "syllables": [
+    "re",
+    "ha",
+    "bi",
+    "li",
+    "ta",
+    "ci",
+    "ó"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l9_m007",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «vehicle»?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": 2,
+   "explanation": "ve-hi-cle = 3 síl·labes",
+   "word": "vehicle",
+   "syllables": [
+    "ve",
+    "hi",
+    "cle"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l9_m008",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quantes síl·labes té la paraula «idiosincràsia»?",
+   "options": [
+    "7",
+    "5",
+    "6",
+    "8"
+   ],
+   "correct": 0,
+   "explanation": "i-di-o-sin-crà-si-a = 7 síl·labes",
+   "word": "idiosincràsia",
+   "syllables": [
+    "i",
+    "di",
+    "o",
+    "sin",
+    "crà",
+    "si",
+    "a"
+   ]
+  },
+  {
+   "id": "ca_fonologia_l9_o001",
+   "module": "fonologia",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "e",
+    "lec",
+    "tro",
+    "en",
+    "ce",
+    "fa",
+    "lo",
+    "gra",
+    "ma"
+   ],
+   "correctOrder": [
+    "e",
+    "lec",
+    "tro",
+    "en",
+    "ce",
+    "fa",
+    "lo",
+    "gra",
+    "ma"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "e-lec-tro-en-ce-fa-lo-gra-ma = electroencefalograma",
+   "word": "electroencefalograma"
+  },
+  {
+   "id": "ca_fonologia_l9_o002",
+   "module": "fonologia",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "in",
+    "com",
+    "pren",
+    "si",
+    "ble",
+    "ment"
+   ],
+   "correctOrder": [
+    "in",
+    "com",
+    "pren",
+    "si",
+    "ble",
+    "ment"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "in-com-pren-si-ble-ment = incomprensiblement",
+   "word": "incomprensiblement"
+  },
+  {
+   "id": "ca_fonologia_l9_o003",
+   "module": "fonologia",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "an",
+    "ti",
+    "cons",
+    "ti",
+    "tu",
+    "ci",
+    "o",
+    "nal"
+   ],
+   "correctOrder": [
+    "an",
+    "ti",
+    "cons",
+    "ti",
+    "tu",
+    "ci",
+    "o",
+    "nal"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "an-ti-cons-ti-tu-ci-o-nal = anticonstitucional",
+   "word": "anticonstitucional"
+  },
+  {
+   "id": "ca_fonologia_l9_o004",
+   "module": "fonologia",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "es",
+    "pon",
+    "ta",
+    "ne",
+    "ï",
+    "tat"
+   ],
+   "correctOrder": [
+    "es",
+    "pon",
+    "ta",
+    "ne",
+    "ï",
+    "tat"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "es-pon-ta-ne-ï-tat = espontaneïtat",
+   "word": "espontaneïtat"
+  },
+  {
+   "id": "ca_fonologia_l9_o005",
+   "module": "fonologia",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les síl·labes per a formar la paraula",
+   "pieces": [
+    "o",
+    "to",
+    "ri",
+    "no",
+    "la",
+    "rin",
+    "go",
+    "lo",
+    "gi",
+    "a"
+   ],
+   "correctOrder": [
+    "o",
+    "to",
+    "ri",
+    "no",
+    "la",
+    "rin",
+    "go",
+    "lo",
+    "gi",
+    "a"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "o-to-ri-no-la-rin-go-lo-gi-a = otorinolaringologia",
+   "word": "otorinolaringologia"
+  },
+  {
+   "id": "ca_fonologia_l9_m009",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «perit»?",
+   "options": [
+    "pe",
+    "rit"
+   ],
+   "correct": 1,
+   "explanation": "En pe-rit, la síl·laba que sona més forta és «rit».",
+   "word": "perit"
+  },
+  {
+   "id": "ca_fonologia_l9_m010",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «còctel»?",
+   "options": [
+    "tel",
+    "còc"
+   ],
+   "correct": 1,
+   "explanation": "En còc-tel, la síl·laba que sona més forta és «còc».",
+   "word": "còctel"
+  },
+  {
+   "id": "ca_fonologia_l9_m011",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «tàctil»?",
+   "options": [
+    "til",
+    "tàc"
+   ],
+   "correct": 1,
+   "explanation": "En tàc-til, la síl·laba que sona més forta és «tàc».",
+   "word": "tàctil"
+  },
+  {
+   "id": "ca_fonologia_l9_m012",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «hipèrbaton»?",
+   "options": [
+    "ba",
+    "pèr",
+    "hi",
+    "ton"
+   ],
+   "correct": 1,
+   "explanation": "En hi-pèr-ba-ton, la síl·laba que sona més forta és «pèr».",
+   "word": "hipèrbaton"
+  },
+  {
+   "id": "ca_fonologia_l9_m013",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «termòmetre»?",
+   "options": [
+    "mò",
+    "ter",
+    "me",
+    "tre"
+   ],
+   "correct": 0,
+   "explanation": "En ter-mò-me-tre, la síl·laba que sona més forta és «mò».",
+   "word": "termòmetre"
+  },
+  {
+   "id": "ca_fonologia_l9_m014",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina és la síl·laba tònica (la que sona més forta) de «diàleg»?",
+   "options": [
+    "di",
+    "à",
+    "leg"
+   ],
+   "correct": 1,
+   "explanation": "En di-à-leg, la síl·laba que sona més forta és «à».",
+   "word": "diàleg"
+  },
+  {
+   "id": "ca_fonologia_l9_m015",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «hipòtesi» segons l'accent?",
+   "options": [
+    "plana",
+    "aguda",
+    "esdrúixola"
+   ],
+   "correct": 2,
+   "explanation": "«hipòtesi» és esdrúixola: la síl·laba tònica és l'antepenúltima.",
+   "word": "hipòtesi"
+  },
+  {
+   "id": "ca_fonologia_l9_m016",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «còmic» segons l'accent?",
+   "options": [
+    "plana",
+    "esdrúixola",
+    "aguda"
+   ],
+   "correct": 0,
+   "explanation": "«còmic» és plana: la síl·laba tònica és la penúltima.",
+   "word": "còmic"
+  },
+  {
+   "id": "ca_fonologia_l9_m017",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «ítem» segons l'accent?",
+   "options": [
+    "aguda",
+    "esdrúixola",
+    "plana"
+   ],
+   "correct": 2,
+   "explanation": "«ítem» és plana: la síl·laba tònica és la penúltima.",
+   "word": "ítem"
+  },
+  {
+   "id": "ca_fonologia_l9_m018",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «comboi» segons l'accent?",
+   "options": [
+    "plana",
+    "esdrúixola",
+    "aguda"
+   ],
+   "correct": 2,
+   "explanation": "«comboi» és aguda: la síl·laba tònica és l'última.",
+   "word": "comboi"
+  },
+  {
+   "id": "ca_fonologia_l9_m019",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «sàndvitx» segons l'accent?",
+   "options": [
+    "aguda",
+    "esdrúixola",
+    "plana"
+   ],
+   "correct": 2,
+   "explanation": "«sàndvitx» és plana: la síl·laba tònica és la penúltima.",
+   "word": "sàndvitx"
+  },
+  {
+   "id": "ca_fonologia_l9_m020",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Com és la paraula «aquí» segons l'accent?",
+   "options": [
+    "esdrúixola",
+    "aguda",
+    "plana"
+   ],
+   "correct": 1,
+   "explanation": "«aquí» és aguda: la síl·laba tònica és l'última.",
+   "word": "aquí"
+  },
+  {
+   "id": "ca_fonologia_l9_m021",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "En «reunió», què formen les vocals «eu»?",
+   "options": [
+    "Diftong creixent",
+    "Diftong decreixent",
+    "Hiat"
+   ],
+   "correct": 2,
+   "explanation": "re-u-ni-ó: el prefix re- fa que la e i la u vagen separades.",
+   "word": "reunió"
+  },
+  {
+   "id": "ca_fonologia_l9_m022",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "En «remei», què formen les vocals «ei»?",
+   "options": [
+    "Hiat",
+    "Diftong decreixent",
+    "Diftong creixent"
+   ],
+   "correct": 1,
+   "explanation": "re-mei: e i i en la mateixa síl·laba.",
+   "word": "remei"
+  },
+  {
+   "id": "ca_fonologia_l9_m023",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "En «guant», què formen les vocals «ua»?",
+   "options": [
+    "Diftong creixent",
+    "Diftong decreixent",
+    "Hiat"
+   ],
+   "correct": 0,
+   "explanation": "guant: després de g, la u sona i forma diftong.",
+   "word": "guant"
+  },
+  {
+   "id": "ca_fonologia_l9_m024",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "En «oceà», què formen les vocals «eà»?",
+   "options": [
+    "Diftong decreixent",
+    "Hiat",
+    "Diftong creixent"
+   ],
+   "correct": 1,
+   "explanation": "o-ce-à: dues vocals fortes formen hiat.",
+   "word": "oceà"
+  },
+  {
+   "id": "ca_fonologia_l9_m025",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "En «Lluís», què formen les vocals «uí»?",
+   "options": [
+    "Diftong creixent",
+    "Hiat",
+    "Diftong decreixent"
+   ],
+   "correct": 1,
+   "explanation": "Llu-ís: la í tònica fa síl·laba a part.",
+   "word": "Lluís"
+  },
+  {
+   "id": "ca_fonologia_l9_m026",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "En «pausa», què formen les vocals «au»?",
+   "options": [
+    "Diftong creixent",
+    "Hiat",
+    "Diftong decreixent"
+   ],
+   "correct": 2,
+   "explanation": "pau-sa: a i u en una sola síl·laba.",
+   "word": "pausa"
+  },
+  {
+   "id": "ca_fonologia_l9_m027",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO porta accent obert (`)?",
+   "options": [
+    "anglés",
+    "història",
+    "època",
+    "pàgina"
+   ],
+   "correct": 0,
+   "explanation": "En valencià, anglés porta accent tancat (´)."
+  },
+  {
+   "id": "ca_fonologia_l9_m028",
+   "module": "fonologia",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula té diftong i no hiat?",
+   "options": [
+    "teatre",
+    "raïm",
+    "país",
+    "pausa"
+   ],
+   "correct": 3,
+   "explanation": "pau-sa: a i u formen diftong."
+  },
+  {
+   "id": "ca_fonologia_l9_d001",
+   "module": "fonologia",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Malgrat les dificultats, van aconseguir l'objectiu.",
+   "hint": "aconseguir amb gu; objectiu amb j",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "Malgrat les dificultats, van aconseguir l'objectiu."
+  },
+  {
+   "id": "ca_fonologia_l9_d002",
+   "module": "fonologia",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Tanmateix, el jurat va decidir ajornar la votació.",
+   "hint": "Tanmateix junt; votació amb v",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "Tanmateix, el jurat va decidir ajornar la votació."
+  },
+  {
+   "id": "ca_fonologia_l9_d003",
+   "module": "fonologia",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "És imprescindible que complim el reglament vigent.",
+   "hint": "imprescindible amb sc; vigent amb g",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "És imprescindible que complim el reglament vigent."
+  },
+  {
+   "id": "ca_fonologia_l9_d004",
+   "module": "fonologia",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'adolescent es va mostrar escèptic davant la proposta.",
+   "hint": "adolescent amb sc; escèptic amb sc i accent obert",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "L'adolescent es va mostrar escèptic davant la proposta."
+  },
+  {
+   "id": "ca_fonologia_l9_d005",
+   "module": "fonologia",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La vegetació exuberant cobria les ruïnes del temple.",
+   "hint": "exuberant sense h; ruïnes amb dièresi",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "La vegetació exuberant cobria les ruïnes del temple."
+  },
+  {
+   "id": "ca_fonologia_l9_d006",
+   "module": "fonologia",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'ambigüitat del missatge va provocar confusió.",
+   "hint": "ambigüitat amb dièresi; missatge amb ss",
+   "explanation": "Fixa't en les majúscules, els accents i els signes.",
+   "dictation": true,
+   "word": "L'ambigüitat del missatge va provocar confusió."
   }
  ]
 }

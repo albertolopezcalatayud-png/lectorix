@@ -3466,6 +3466,2309 @@
    "options": [],
    "correct": 0,
    "explanation": "Malauradament, la botiga estava tancada."
+  },
+  {
+   "id": "ca_escritura_l6_m001",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina frase està ben accentuada?",
+   "options": [
+    "El camió va arribar ahir.",
+    "El camio va arribar ahir.",
+    "El camió và arribar ahir.",
+    "El càmio va arribar ahir."
+   ],
+   "correct": 0,
+   "explanation": "camió és aguda acabada en vocal: porta accent; «va» no en porta."
+  },
+  {
+   "id": "ca_escritura_l6_m002",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta accent obert (`)?",
+   "options": [
+    "camió",
+    "cançó",
+    "telèfon",
+    "també"
+   ],
+   "correct": 2,
+   "explanation": "telèfon porta è oberta; les altres porten accent tancat (´)."
+  },
+  {
+   "id": "ca_escritura_l6_m003",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta accent tancat (´)?",
+   "options": [
+    "història",
+    "cançó",
+    "pàgina",
+    "telèfon"
+   ],
+   "correct": 1,
+   "explanation": "cançó porta ó tancada."
+  },
+  {
+   "id": "ca_escritura_l6_m004",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina forma està ben apostrofada?",
+   "options": [
+    "l'escola",
+    "lescola",
+    "l escola",
+    "la escola"
+   ],
+   "correct": 0,
+   "explanation": "Davant de vocal, «la» s'apostrofa: l'escola."
+  },
+  {
+   "id": "ca_escritura_l6_m005",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina forma està ben apostrofada?",
+   "options": [
+    "la hora",
+    "l'hora",
+    "l' hora",
+    "lhora"
+   ],
+   "correct": 1,
+   "explanation": "La h no sona: davant de h + vocal també s'apostrofa."
+  },
+  {
+   "id": "ca_escritura_l6_m006",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Com es diu l'hora?",
+   "options": [
+    "És la un.",
+    "És l'una.",
+    "És la una.",
+    "Es la una."
+   ],
+   "correct": 2,
+   "explanation": "Davant de «una» (l'hora) l'article no s'apostrofa."
+  },
+  {
+   "id": "ca_escritura_l6_m007",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina contracció és correcta?",
+   "options": [
+    "Anem als jardins.",
+    "Anem el jardins.",
+    "Anem a els jardins.",
+    "Anem a'ls jardins."
+   ],
+   "correct": 0,
+   "explanation": "a + els = als."
+  },
+  {
+   "id": "ca_escritura_l6_m008",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina forma és correcta?",
+   "options": [
+    "Este regal és per a el teu germà.",
+    "Este regal és per el teu germà.",
+    "Este regal és pa el teu germà.",
+    "Este regal és per al teu germà."
+   ],
+   "correct": 3,
+   "explanation": "per a + el = per al."
+  },
+  {
+   "id": "ca_escritura_l6_m009",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta ela geminada (l·l)?",
+   "options": [
+    "col·legi",
+    "escola",
+    "pala",
+    "llibre"
+   ],
+   "correct": 0,
+   "explanation": "col·legi s'escriu amb l·l."
+  },
+  {
+   "id": "ca_escritura_l6_m010",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula s'escriu amb una sola s?",
+   "options": [
+    "tassa",
+    "passeig",
+    "massa",
+    "casa"
+   ],
+   "correct": 3,
+   "explanation": "Entre vocals, la s sonora s'escriu amb una s; la sorda, amb ss."
+  },
+  {
+   "id": "ca_escritura_l6_m011",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula s'escriu amb ç?",
+   "options": [
+    "tassa",
+    "casa",
+    "plaça",
+    "zero"
+   ],
+   "correct": 2,
+   "explanation": "Davant de a, o, u, el so /s/ de c s'escriu ç."
+  },
+  {
+   "id": "ca_escritura_l6_m012",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula s'escriu amb v?",
+   "options": [
+    "saber",
+    "beure",
+    "rebre",
+    "advocat"
+   ],
+   "correct": 3,
+   "explanation": "advocat porta v (en castellà, abogado porta b)."
+  },
+  {
+   "id": "ca_escritura_l6_m013",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula s'escriu amb b?",
+   "options": [
+    "treballar",
+    "govern",
+    "vaga",
+    "advocat"
+   ],
+   "correct": 0,
+   "explanation": "treballar porta b; govern, en canvi, porta v."
+  },
+  {
+   "id": "ca_escritura_l6_m014",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "mengar",
+    "menxar",
+    "menjar",
+    "mentjar"
+   ],
+   "correct": 2,
+   "explanation": "Davant de a, el so de j s'escriu j: menjar."
+  },
+  {
+   "id": "ca_escritura_l6_m015",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "mege",
+    "medge",
+    "metge",
+    "metje"
+   ],
+   "correct": 2,
+   "explanation": "Davant de e, s'escriu tg: metge."
+  },
+  {
+   "id": "ca_escritura_l6_m016",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "bajar",
+    "baxar",
+    "baitxar",
+    "baixar"
+   ],
+   "correct": 3,
+   "explanation": "Després de vocal, el so /x/ s'escriu ix: baixar."
+  },
+  {
+   "id": "ca_escritura_l6_m017",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina categoria gramatical és «ràpidament»?",
+   "options": [
+    "Adverbi",
+    "Adjectiu",
+    "Substantiu",
+    "Verb"
+   ],
+   "correct": 0,
+   "explanation": "Les paraules en -ment que diuen com són adverbis."
+  },
+  {
+   "id": "ca_escritura_l6_m018",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina categoria gramatical és «nosaltres»?",
+   "options": [
+    "Determinant",
+    "Pronom",
+    "Adverbi",
+    "Preposició"
+   ],
+   "correct": 1,
+   "explanation": "nosaltres substituïx un nom: és un pronom personal."
+  },
+  {
+   "id": "ca_escritura_l6_m019",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Vaig ___ casa de l'àvia.»",
+   "options": [
+    "a",
+    "à",
+    "en",
+    "ha"
+   ],
+   "correct": 0,
+   "explanation": "«a» és una preposició: vaig a casa."
+  },
+  {
+   "id": "ca_escritura_l6_m020",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Tria: «La meua cosina ___ acabat el llibre.»",
+   "options": [
+    "ha",
+    "à",
+    "hi",
+    "a"
+   ],
+   "correct": 0,
+   "explanation": "«ha» és del verb haver: ha acabat."
+  },
+  {
+   "id": "ca_escritura_l6_m021",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula porta accent?",
+   "options": [
+    "ordre",
+    "camió",
+    "jove",
+    "examen"
+   ],
+   "correct": 1,
+   "explanation": "camió és aguda acabada en vocal."
+  },
+  {
+   "id": "ca_escritura_l6_m022",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quin plural és correcte?",
+   "options": [
+    "exàmenes",
+    "exàmens",
+    "exámens",
+    "examens"
+   ],
+   "correct": 1,
+   "explanation": "exàmens: plana acabada en -ens, porta accent."
+  },
+  {
+   "id": "ca_escritura_l6_m023",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina frase té bé les majúscules?",
+   "options": [
+    "el riu Xúquer passa per Alzira.",
+    "El Riu xúquer passa per alzira.",
+    "El riu xúquer passa per Alzira.",
+    "El riu Xúquer passa per Alzira."
+   ],
+   "correct": 3,
+   "explanation": "Els noms propis (Xúquer, Alzira) porten majúscula; riu és un nom comú."
+  },
+  {
+   "id": "ca_escritura_l6_m024",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Quina frase usa bé la coma?",
+   "options": [
+    "Anna tanca la porta, per favor.",
+    "Anna tanca, la porta per favor.",
+    "Anna, tanca la porta per, favor.",
+    "Anna, tanca la porta, per favor."
+   ],
+   "correct": 3,
+   "explanation": "El vocatiu (Anna) i «per favor» van entre comes."
+  },
+  {
+   "id": "ca_escritura_l6_o001",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Encara",
+    "que",
+    "feia",
+    "fred,",
+    "vam",
+    "eixir",
+    "a",
+    "passejar."
+   ],
+   "correctOrder": [
+    "Encara",
+    "que",
+    "feia",
+    "fred,",
+    "vam",
+    "eixir",
+    "a",
+    "passejar."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Encara que feia fred, vam eixir a passejar."
+  },
+  {
+   "id": "ca_escritura_l6_o002",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "L'examen",
+    "de",
+    "biologia",
+    "va",
+    "ser",
+    "difícil."
+   ],
+   "correctOrder": [
+    "L'examen",
+    "de",
+    "biologia",
+    "va",
+    "ser",
+    "difícil."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "L'examen de biologia va ser difícil."
+  },
+  {
+   "id": "ca_escritura_l6_o003",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Per",
+    "què",
+    "no",
+    "vas",
+    "vindre",
+    "ahir?"
+   ],
+   "correctOrder": [
+    "Per",
+    "què",
+    "no",
+    "vas",
+    "vindre",
+    "ahir?"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Per què no vas vindre ahir?"
+  },
+  {
+   "id": "ca_escritura_l6_o004",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "La",
+    "meua",
+    "iaia,",
+    "que",
+    "viu",
+    "a",
+    "Alcoi,",
+    "cuina",
+    "molt",
+    "bé."
+   ],
+   "correctOrder": [
+    "La",
+    "meua",
+    "iaia,",
+    "que",
+    "viu",
+    "a",
+    "Alcoi,",
+    "cuina",
+    "molt",
+    "bé."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "La meua iaia, que viu a Alcoi, cuina molt bé."
+  },
+  {
+   "id": "ca_escritura_l6_o005",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Els",
+    "alumnes",
+    "van",
+    "arreplegar",
+    "el",
+    "fem",
+    "del",
+    "pati."
+   ],
+   "correctOrder": [
+    "Els",
+    "alumnes",
+    "van",
+    "arreplegar",
+    "el",
+    "fem",
+    "del",
+    "pati."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Els alumnes van arreplegar el fem del pati."
+  },
+  {
+   "id": "ca_escritura_l6_w001",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Corregix la paraula: «pagina»",
+   "options": [],
+   "correct": 0,
+   "answer": "pàgina",
+   "hint": "És esdrúixola",
+   "explanation": "Les esdrúixoles porten sempre accent: pàgina."
+  },
+  {
+   "id": "ca_escritura_l6_w002",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Corregix la paraula: «colegi»",
+   "options": [],
+   "correct": 0,
+   "answer": "col·legi",
+   "hint": "Porta ela geminada",
+   "explanation": "col·legi s'escriu amb l·l."
+  },
+  {
+   "id": "ca_escritura_l6_w003",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escriu el plural de «peix»",
+   "options": [],
+   "correct": 0,
+   "answer": "peixos",
+   "hint": "Acaba en -os",
+   "explanation": "Les paraules acabades en -ix fan el plural en -ixos."
+  },
+  {
+   "id": "ca_escritura_l6_w004",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escriu l'adverbi acabat en -ment que ve de «ràpid»",
+   "options": [],
+   "correct": 0,
+   "answer": "ràpidament",
+   "hint": "Conserva l'accent",
+   "explanation": "ràpid → ràpidament."
+  },
+  {
+   "id": "ca_escritura_l6_d001",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El mussol observava el bosc des de la branca.",
+   "hint": "Té 9 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "El mussol observava el bosc des de la branca."
+  },
+  {
+   "id": "ca_escritura_l6_d002",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Demà anirem d'excursió en autobús.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Demà anirem d'excursió en autobús."
+  },
+  {
+   "id": "ca_escritura_l6_d003",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El meu germà va enviar un missatge molt divertit.",
+   "hint": "Té 9 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "El meu germà va enviar un missatge molt divertit."
+  },
+  {
+   "id": "ca_escritura_l6_d004",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La girafa té el coll molt llarg.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "La girafa té el coll molt llarg."
+  },
+  {
+   "id": "ca_escritura_l7_m001",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Ella ___ dos germans.»",
+   "options": [
+    "te",
+    "té",
+    "tè",
+    "tê"
+   ],
+   "correct": 1,
+   "explanation": "té (verb tindre) porta accent diacrític."
+  },
+  {
+   "id": "ca_escritura_l7_m002",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Hi ha ___ gent que l'any passat.»",
+   "options": [
+    "més",
+    "mès",
+    "mês",
+    "mes"
+   ],
+   "correct": 0,
+   "explanation": "més (quantitat) porta accent; mes és el del calendari."
+  },
+  {
+   "id": "ca_escritura_l7_m003",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Este ___ fa molta calor.»",
+   "options": [
+    "més",
+    "mês",
+    "mes",
+    "mès"
+   ],
+   "correct": 2,
+   "explanation": "mes (del calendari) no porta accent."
+  },
+  {
+   "id": "ca_escritura_l7_m004",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Ells ___ de Gandia.»",
+   "options": [
+    "son",
+    "sòn",
+    "són",
+    "sôn"
+   ],
+   "correct": 2,
+   "explanation": "són (verb ser) porta accent; son és el de dormir."
+  },
+  {
+   "id": "ca_escritura_l7_m005",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Tinc molta ___.»",
+   "options": [
+    "son",
+    "sôn",
+    "són",
+    "sòn"
+   ],
+   "correct": 0,
+   "explanation": "son (ganes de dormir) no porta accent."
+  },
+  {
+   "id": "ca_escritura_l7_m006",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria: «No ___ on és.»",
+   "options": [
+    "sè",
+    "se",
+    "sê",
+    "sé"
+   ],
+   "correct": 3,
+   "explanation": "sé (verb saber) porta accent; se és un pronom."
+  },
+  {
+   "id": "ca_escritura_l7_m007",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria: «___ no has vingut?»",
+   "options": [
+    "Per què",
+    "Per a què",
+    "Per que",
+    "Perquè"
+   ],
+   "correct": 0,
+   "explanation": "En les preguntes per la causa: per què, separat i amb accent."
+  },
+  {
+   "id": "ca_escritura_l7_m008",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria: «No he vingut ___ estava malalt.»",
+   "options": [
+    "perquè",
+    "per que",
+    "per què",
+    "per a què"
+   ],
+   "correct": 0,
+   "explanation": "Per a donar la causa: perquè, junt."
+  },
+  {
+   "id": "ca_escritura_l7_m009",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria: «No és blau, ___ verd.»",
+   "options": [
+    "si no",
+    "sino",
+    "sinó",
+    "si nó"
+   ],
+   "correct": 2,
+   "explanation": "«sinó» oposa dues idees després d'una negació."
+  },
+  {
+   "id": "ca_escritura_l7_m010",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Tria: «___ estudies, no aprovaràs.»",
+   "options": [
+    "Si no",
+    "Si nó",
+    "Sinó",
+    "Sino"
+   ],
+   "correct": 0,
+   "explanation": "«si no» = condició (si) + negació (no)."
+  },
+  {
+   "id": "ca_escritura_l7_m011",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula NO és correcta en valencià?",
+   "options": [
+    "bueno",
+    "bé",
+    "vaja",
+    "doncs"
+   ],
+   "correct": 0,
+   "explanation": "«bueno» és un castellanisme; diem «bé» o «doncs»."
+  },
+  {
+   "id": "ca_escritura_l7_m012",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina expressió és correcta?",
+   "options": [
+    "Tenim que estudiar més.",
+    "Hem d'estudiar més.",
+    "Tenim de que estudiar més.",
+    "Hem que estudiar més."
+   ],
+   "correct": 1,
+   "explanation": "L'obligació s'expressa amb «haver de»."
+  },
+  {
+   "id": "ca_escritura_l7_m013",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina frase usa bé el punt i coma?",
+   "options": [
+    "Uns preferixen la mar, altres; la muntanya.",
+    "Uns; preferixen la mar altres la muntanya.",
+    "Uns preferixen la mar; altres, la muntanya.",
+    "Uns preferixen; la mar altres, la muntanya."
+   ],
+   "correct": 2,
+   "explanation": "El punt i coma separa dues idees relacionades; la coma marca el verb omés."
+  },
+  {
+   "id": "ca_escritura_l7_m014",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina frase usa bé els dos punts?",
+   "options": [
+    "Benvolguda: Marta t'escric per a contar-te una cosa.",
+    "Benvolguda Marta t'escric: per a contar-te una cosa.",
+    "Benvolguda Marta, t'escric: per a contar-te una cosa.",
+    "Benvolguda Marta: t'escric per a contar-te una cosa."
+   ],
+   "correct": 3,
+   "explanation": "Darrere de la salutació d'una carta van dos punts."
+  },
+  {
+   "id": "ca_escritura_l7_m015",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin adverbi està ben escrit?",
+   "options": [
+    "fàcilment",
+    "facilment",
+    "facílment",
+    "fàcilmènt"
+   ],
+   "correct": 0,
+   "explanation": "Els adverbis en -ment mantenen l'accent de l'adjectiu: fàcil → fàcilment."
+  },
+  {
+   "id": "ca_escritura_l7_m016",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin és el subjecte de «M'agraden molt els llibres d'aventures»?",
+   "options": [
+    "els llibres d'aventures",
+    "molt",
+    "m'",
+    "aventures"
+   ],
+   "correct": 0,
+   "explanation": "El que agrada (els llibres) és el subjecte: concorda amb «agraden»."
+  },
+  {
+   "id": "ca_escritura_l7_m017",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin és el predicat de «La meua germana major estudia Medicina»?",
+   "options": [
+    "major estudia",
+    "Medicina",
+    "La meua germana major",
+    "estudia Medicina"
+   ],
+   "correct": 3,
+   "explanation": "El predicat és el que es diu del subjecte."
+  },
+  {
+   "id": "ca_escritura_l7_m018",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quin tipus d'oració és «Tant de bo aprove!»?",
+   "options": [
+    "Dubitativa",
+    "Desiderativa",
+    "Interrogativa",
+    "Exclamativa"
+   ],
+   "correct": 1,
+   "explanation": "Expressa un desig."
+  },
+  {
+   "id": "ca_escritura_l7_m019",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Substituïx el complement: «Agafa la pilota.»",
+   "options": [
+    "Agafa-lo.",
+    "Agafa-la.",
+    "Agafa-les.",
+    "Agafa-li."
+   ],
+   "correct": 1,
+   "explanation": "La pilota (femení singular, CD) → la; amb l'imperatiu va darrere: agafa-la."
+  },
+  {
+   "id": "ca_escritura_l7_m020",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Substituïx el complement: «Porta el llibre al teu germà.»",
+   "options": [
+    "Porta-li el llibre.",
+    "Porta-lo el llibre.",
+    "Porta-la el llibre.",
+    "Porta-ho el llibre."
+   ],
+   "correct": 0,
+   "explanation": "Al teu germà és complement indirecte: li."
+  },
+  {
+   "id": "ca_escritura_l7_m021",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula s'escriu amb h?",
+   "options": [
+    "hivern",
+    "ou",
+    "ase",
+    "orella"
+   ],
+   "correct": 0,
+   "explanation": "hivern porta h inicial, que no sona."
+  },
+  {
+   "id": "ca_escritura_l7_m022",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula s'escriu amb x?",
+   "options": [
+    "esplèndid",
+    "estupend",
+    "estricte",
+    "excel·lent"
+   ],
+   "correct": 3,
+   "explanation": "excel·lent s'escriu amb x i ela geminada."
+  },
+  {
+   "id": "ca_escritura_l7_o001",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "No",
+    "és",
+    "veritat,",
+    "sinó",
+    "una",
+    "exageració."
+   ],
+   "correctOrder": [
+    "No",
+    "és",
+    "veritat,",
+    "sinó",
+    "una",
+    "exageració."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "No és veritat, sinó una exageració."
+  },
+  {
+   "id": "ca_escritura_l7_o002",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Hem",
+    "d'arribar",
+    "a",
+    "l'hora",
+    "a",
+    "classe."
+   ],
+   "correctOrder": [
+    "Hem",
+    "d'arribar",
+    "a",
+    "l'hora",
+    "a",
+    "classe."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Hem d'arribar a l'hora a classe."
+  },
+  {
+   "id": "ca_escritura_l7_o003",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Uns",
+    "llegien;",
+    "altres,",
+    "escoltaven",
+    "música."
+   ],
+   "correctOrder": [
+    "Uns",
+    "llegien;",
+    "altres,",
+    "escoltaven",
+    "música."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Uns llegien; altres, escoltaven música."
+  },
+  {
+   "id": "ca_escritura_l7_o004",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Si",
+    "no",
+    "estudies,",
+    "no",
+    "aprovaràs."
+   ],
+   "correctOrder": [
+    "Si",
+    "no",
+    "estudies,",
+    "no",
+    "aprovaràs."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Si no estudies, no aprovaràs."
+  },
+  {
+   "id": "ca_escritura_l7_o005",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Ells",
+    "són",
+    "de",
+    "Gandia",
+    "i",
+    "tenen",
+    "son."
+   ],
+   "correctOrder": [
+    "Ells",
+    "són",
+    "de",
+    "Gandia",
+    "i",
+    "tenen",
+    "son."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Ells són de Gandia i tenen son."
+  },
+  {
+   "id": "ca_escritura_l7_w001",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Corregix la frase: «Tenim que estudiar.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Hem d'estudiar.",
+   "hint": "Obligació amb «haver de»",
+   "explanation": "L'obligació s'expressa amb «haver de»."
+  },
+  {
+   "id": "ca_escritura_l7_w002",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Substituïx el complement per un pronom: «Agafa el llapis.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Agafa'l.",
+   "hint": "Masculí singular darrere d'imperatiu",
+   "explanation": "el llapis → 'l: agafa'l.",
+   "acceptableAnswers": [
+    "Agafa-lo."
+   ]
+  },
+  {
+   "id": "ca_escritura_l7_w003",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escriu l'adverbi acabat en -ment que ve de «fàcil»",
+   "options": [],
+   "correct": 0,
+   "answer": "fàcilment",
+   "hint": "Conserva l'accent",
+   "explanation": "fàcil → fàcilment."
+  },
+  {
+   "id": "ca_escritura_l7_w004",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Corregix la paraula: «bueno» (per a donar la raó)",
+   "options": [],
+   "correct": 0,
+   "answer": "bé",
+   "hint": "Una sola síl·laba amb accent",
+   "explanation": "«bueno» és un castellanisme; diem «bé».",
+   "acceptableAnswers": [
+    "d'acord"
+   ]
+  },
+  {
+   "id": "ca_escritura_l7_d001",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Ella té dos germans i molta son.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Ella té dos germans i molta son."
+  },
+  {
+   "id": "ca_escritura_l7_d002",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "No és fàcil, sinó molt complicat.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "No és fàcil, sinó molt complicat."
+  },
+  {
+   "id": "ca_escritura_l7_d003",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'herba estava humida després de la tempesta.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "L'herba estava humida després de la tempesta."
+  },
+  {
+   "id": "ca_escritura_l7_d004",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Saps per què es va suspendre el partit?",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Saps per què es va suspendre el partit?"
+  },
+  {
+   "id": "ca_escritura_l8_m001",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Substituïx el complement: «Vaig a València.»",
+   "options": [
+    "La vaig.",
+    "En vaig.",
+    "Hi vaig.",
+    "Ho vaig."
+   ],
+   "correct": 2,
+   "explanation": "Els complements de lloc (a València) se substituïxen per «hi»."
+  },
+  {
+   "id": "ca_escritura_l8_m002",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Substituïx el complement: «Vinc de València.»",
+   "options": [
+    "En vinc.",
+    "La vinc.",
+    "Ho vinc.",
+    "Hi vinc."
+   ],
+   "correct": 0,
+   "explanation": "Els complements introduïts per «de» se substituïxen per «en»."
+  },
+  {
+   "id": "ca_escritura_l8_m003",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Substituïx el complement: «Sé que vindràs.»",
+   "options": [
+    "Ho sé.",
+    "En sé.",
+    "El sé.",
+    "Hi sé."
+   ],
+   "correct": 0,
+   "explanation": "Una oració completa com a CD se substituïx per «ho»."
+  },
+  {
+   "id": "ca_escritura_l8_m004",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Tria: «Tens pomes? Sí, ___ tinc tres.»",
+   "options": [
+    "hi",
+    "en",
+    "ho",
+    "les"
+   ],
+   "correct": 1,
+   "explanation": "«en» substituïx un nom quan indiquem una quantitat."
+  },
+  {
+   "id": "ca_escritura_l8_m005",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina frase usa bé el gerundi?",
+   "options": [
+    "Va caure, trencant-se el braç l'endemà.",
+    "Va enviar una carta contenint fotos.",
+    "Va estudiar molt, aprovant després.",
+    "Va eixir de casa corrent."
+   ],
+   "correct": 3,
+   "explanation": "El gerundi expressa una acció simultània, no posterior."
+  },
+  {
+   "id": "ca_escritura_l8_m006",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina frase expressa obligació?",
+   "options": [
+    "Has d'estudiar més.",
+    "Tens que estudiar més.",
+    "Deus estudiar més.",
+    "Has que estudiar més."
+   ],
+   "correct": 0,
+   "explanation": "Obligació: «haver de» + infinitiu. «Deure» + infinitiu expressa probabilitat."
+  },
+  {
+   "id": "ca_escritura_l8_m007",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina frase expressa probabilitat?",
+   "options": [
+    "Han sigut les huit.",
+    "Tenen que ser les huit.",
+    "Són les huit en punt.",
+    "Deuen ser les huit."
+   ],
+   "correct": 3,
+   "explanation": "«deure» + infinitiu expressa suposició."
+  },
+  {
+   "id": "ca_escritura_l8_m008",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Com s'escriu la sigla d'Organització de les Nacions Unides?",
+   "options": [
+    "O.N.U.",
+    "Onu",
+    "onu",
+    "ONU"
+   ],
+   "correct": 3,
+   "explanation": "Les sigles s'escriuen en majúscula i sense punts."
+  },
+  {
+   "id": "ca_escritura_l8_m009",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina frase usa bé les cometes?",
+   "options": [
+    "La «paraula guai» és col·loquial.",
+    "«La paraula» guai és col·loquial.",
+    "La paraula guai» és col·loquial.",
+    "La paraula «guai» és col·loquial."
+   ],
+   "correct": 3,
+   "explanation": "Les cometes poden marcar una paraula de la qual es parla."
+  },
+  {
+   "id": "ca_escritura_l8_m010",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina frase està ben puntuada?",
+   "options": [
+    "Si plou ens, quedarem a casa.",
+    "Si plou, ens quedarem a casa.",
+    "Si plou ens quedarem, a casa.",
+    "Si, plou ens quedarem a casa."
+   ],
+   "correct": 1,
+   "explanation": "Quan la condició va davant, se separa amb una coma."
+  },
+  {
+   "id": "ca_escritura_l8_m011",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "especktador",
+    "espectadòr",
+    "expectador",
+    "espectador"
+   ],
+   "correct": 3,
+   "explanation": "espectador s'escriu amb s."
+  },
+  {
+   "id": "ca_escritura_l8_m012",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "exepció",
+    "excepcio",
+    "escepció",
+    "excepció"
+   ],
+   "correct": 3,
+   "explanation": "excepció porta xc i accent."
+  },
+  {
+   "id": "ca_escritura_l8_m013",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina oració és composta?",
+   "options": [
+    "A la vesprada anirem al cine.",
+    "La meua germana estudia Dret.",
+    "Vaig estudiar molt, però vaig suspendre.",
+    "Vaig estudiar molt."
+   ],
+   "correct": 2,
+   "explanation": "Té dos verbs conjugats units per «però»."
+  },
+  {
+   "id": "ca_escritura_l8_m014",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina relació expressa «però» en «Vaig estudiar molt, però vaig suspendre»?",
+   "options": [
+    "Copulativa (suma)",
+    "Causal (causa)",
+    "Adversativa (oposició)",
+    "Disjuntiva (elecció)"
+   ],
+   "correct": 2,
+   "explanation": "«però» oposa dues idees."
+  },
+  {
+   "id": "ca_escritura_l8_m015",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina frase està en registre formal?",
+   "options": [
+    "Ai, ho sent, vale?",
+    "Bé, perdó, eh.",
+    "Perdona, tio.",
+    "Li prego que em disculpe."
+   ],
+   "correct": 3,
+   "explanation": "«Li prego que...» és propi d'un registre formal."
+  },
+  {
+   "id": "ca_escritura_l8_m016",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina expressió és correcta?",
+   "options": [
+    "pel que fa a",
+    "en quant al",
+    "en quant a",
+    "en cuant a"
+   ],
+   "correct": 0,
+   "explanation": "«En quant a» és un castellanisme; diem «pel que fa a» o «quant a»."
+  },
+  {
+   "id": "ca_escritura_l8_m017",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quin connector expressa oposició?",
+   "options": [
+    "tanmateix",
+    "a més",
+    "per tant",
+    "així doncs"
+   ],
+   "correct": 0,
+   "explanation": "«tanmateix» equival a «però, no obstant»."
+  },
+  {
+   "id": "ca_escritura_l8_m018",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "de acord",
+    "d'acórd",
+    "dacord",
+    "d'acord"
+   ],
+   "correct": 3,
+   "explanation": "«d'acord»: la preposició s'apostrofa davant de vocal."
+  },
+  {
+   "id": "ca_escritura_l8_m019",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Com dius que te'n vas d'un lloc?",
+   "options": [
+    "Me'n vaig.",
+    "Me vaig.",
+    "Em vaig.",
+    "Men vaig."
+   ],
+   "correct": 0,
+   "explanation": "El verb és «anar-se'n»: me'n vaig."
+  },
+  {
+   "id": "ca_escritura_l8_m020",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula és correcta?",
+   "options": [
+    "enterar-se",
+    "assabentar-se",
+    "asabentar-se",
+    "assebentar-se"
+   ],
+   "correct": 1,
+   "explanation": "«enterar-se» és un castellanisme; diem «assabentar-se»."
+  },
+  {
+   "id": "ca_escritura_l8_m021",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina frase NO conté cap castellanisme?",
+   "options": [
+    "Vam caure en la compte que plovia.",
+    "Ens vam donar compte que plovia.",
+    "Ens vam enterar que plovia.",
+    "Ens vam adonar que plovia."
+   ],
+   "correct": 3,
+   "explanation": "«adonar-se» és la forma genuïna."
+  },
+  {
+   "id": "ca_escritura_l8_m022",
+   "module": "escritura",
+   "level": 8,
+   "type": "multiple_choice",
+   "prompt": "Quina forma és correcta?",
+   "options": [
+    "Fa tres anys que vixc ací.",
+    "Fa tres anys que vivisc ací.",
+    "Fa tres anys que visc ací.",
+    "Fa tres anys que vivo ací."
+   ],
+   "correct": 2,
+   "explanation": "La primera persona de viure és «visc»."
+  },
+  {
+   "id": "ca_escritura_l8_o001",
+   "module": "escritura",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Hi",
+    "vaig",
+    "cada",
+    "dissabte",
+    "amb",
+    "la",
+    "família."
+   ],
+   "correctOrder": [
+    "Hi",
+    "vaig",
+    "cada",
+    "dissabte",
+    "amb",
+    "la",
+    "família."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Hi vaig cada dissabte amb la família."
+  },
+  {
+   "id": "ca_escritura_l8_o002",
+   "module": "escritura",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Deuen",
+    "ser",
+    "les",
+    "huit",
+    "i",
+    "mitja."
+   ],
+   "correctOrder": [
+    "Deuen",
+    "ser",
+    "les",
+    "huit",
+    "i",
+    "mitja."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Deuen ser les huit i mitja."
+  },
+  {
+   "id": "ca_escritura_l8_o003",
+   "module": "escritura",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Vaig",
+    "estudiar",
+    "molt,",
+    "però",
+    "no",
+    "vaig",
+    "aprovar."
+   ],
+   "correctOrder": [
+    "Vaig",
+    "estudiar",
+    "molt,",
+    "però",
+    "no",
+    "vaig",
+    "aprovar."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Vaig estudiar molt, però no vaig aprovar."
+  },
+  {
+   "id": "ca_escritura_l8_o004",
+   "module": "escritura",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Me'n",
+    "vaig",
+    "a",
+    "casa",
+    "perquè",
+    "és",
+    "tard."
+   ],
+   "correctOrder": [
+    "Me'n",
+    "vaig",
+    "a",
+    "casa",
+    "perquè",
+    "és",
+    "tard."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Me'n vaig a casa perquè és tard."
+  },
+  {
+   "id": "ca_escritura_l8_o005",
+   "module": "escritura",
+   "level": 8,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Pel",
+    "que",
+    "fa",
+    "a",
+    "l'excursió,",
+    "eixirem",
+    "a",
+    "les",
+    "nou."
+   ],
+   "correctOrder": [
+    "Pel",
+    "que",
+    "fa",
+    "a",
+    "l'excursió,",
+    "eixirem",
+    "a",
+    "les",
+    "nou."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Pel que fa a l'excursió, eixirem a les nou."
+  },
+  {
+   "id": "ca_escritura_l8_w001",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Substituïx el complement de lloc: «Vaig a l'institut.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Hi vaig.",
+   "hint": "Pronom de lloc",
+   "explanation": "a l'institut → hi."
+  },
+  {
+   "id": "ca_escritura_l8_w002",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Corregix l'expressió: «en quant a»",
+   "options": [],
+   "correct": 0,
+   "answer": "pel que fa a",
+   "hint": "Comença per «pel»",
+   "explanation": "«En quant a» és un castellanisme.",
+   "acceptableAnswers": [
+    "quant a"
+   ]
+  },
+  {
+   "id": "ca_escritura_l8_w003",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escriu la sigla d'«Unió Europea»",
+   "options": [],
+   "correct": 0,
+   "answer": "UE",
+   "hint": "Dues lletres en majúscula",
+   "explanation": "Les sigles van en majúscula i sense punts."
+  },
+  {
+   "id": "ca_escritura_l8_w004",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Corregix la paraula: «expectacle»",
+   "options": [],
+   "correct": 0,
+   "answer": "espectacle",
+   "hint": "S'escriu amb s",
+   "explanation": "espectacle s'escriu amb s, com espectador."
+  },
+  {
+   "id": "ca_escritura_l8_d001",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hi vam anar dissabte amb els amics.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Hi vam anar dissabte amb els amics."
+  },
+  {
+   "id": "ca_escritura_l8_d002",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Li vam dir a la professora que no havíem fet els deures.",
+   "hint": "Té 12 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Li vam dir a la professora que no havíem fet els deures."
+  },
+  {
+   "id": "ca_escritura_l8_d003",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'espectacle va ser una autèntica excepció.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "L'espectacle va ser una autèntica excepció."
+  },
+  {
+   "id": "ca_escritura_l8_d004",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Deuen ser més de les deu de la nit.",
+   "hint": "Té 9 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Deuen ser més de les deu de la nit."
+  },
+  {
+   "id": "ca_escritura_l9_m001",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina frase és correcta?",
+   "options": [
+    "Estic segur de què vindrà.",
+    "Estic segur que vindrà.",
+    "Estic segur de que vindrà.",
+    "Estic segur en que vindrà."
+   ],
+   "correct": 1,
+   "explanation": "Davant de la conjunció «que», la preposició «de» desapareix."
+  },
+  {
+   "id": "ca_escritura_l9_m002",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina frase és correcta?",
+   "options": [
+    "M'alegre en que hages aprovat.",
+    "M'alegre de que hages aprovat.",
+    "M'alegre de què hages aprovat.",
+    "M'alegre que hages aprovat."
+   ],
+   "correct": 3,
+   "explanation": "Davant de «que», la preposició cau: m'alegre que..."
+  },
+  {
+   "id": "ca_escritura_l9_m003",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina expressió llatina està ben usada?",
+   "options": [
+    "Ho vaig calcular groso modo.",
+    "Ho vaig calcular grosso modo.",
+    "Ho vaig calcular a grosso modo.",
+    "Ho vaig calcular de grosso modo."
+   ],
+   "correct": 1,
+   "explanation": "És «grosso modo», sense la preposició «a»."
+  },
+  {
+   "id": "ca_escritura_l9_m004",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina frase està ben escrita?",
+   "options": [
+    "Cal prevenre les despeses.",
+    "Cal preveur les despeses.",
+    "Cal preveure les despeses.",
+    "Cal prevere les despeses."
+   ],
+   "correct": 2,
+   "explanation": "preveure = pre + veure."
+  },
+  {
+   "id": "ca_escritura_l9_m005",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin tipus de subordinada és «que vingues» en «Vull que vingues»?",
+   "options": [
+    "Substantiva",
+    "Adjectiva",
+    "Adverbial de temps",
+    "Adverbial de lloc"
+   ],
+   "correct": 0,
+   "explanation": "Funciona com un substantiu: «Vull això»."
+  },
+  {
+   "id": "ca_escritura_l9_m006",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin tipus de subordinada és «que vaig comprar ahir» en «El llibre que vaig comprar ahir és genial»?",
+   "options": [
+    "Coordinada",
+    "Adverbial",
+    "Substantiva",
+    "Adjectiva o de relatiu"
+   ],
+   "correct": 3,
+   "explanation": "Complementa el substantiu «llibre», com un adjectiu."
+  },
+  {
+   "id": "ca_escritura_l9_m007",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Què expressa la subordinada en «Encara que ploga, eixirem»?",
+   "options": [
+    "Condició",
+    "Concessió",
+    "Causa",
+    "Finalitat"
+   ],
+   "correct": 1,
+   "explanation": "«encara que» introduïx un obstacle que no impedix l'acció."
+  },
+  {
+   "id": "ca_escritura_l9_m008",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Què expressa la subordinada en «Estudia per a aprovar»?",
+   "options": [
+    "Conseqüència",
+    "Temps",
+    "Causa",
+    "Finalitat"
+   ],
+   "correct": 3,
+   "explanation": "«per a» + infinitiu expressa l'objectiu."
+  },
+  {
+   "id": "ca_escritura_l9_m009",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina frase evita una coma incorrecta entre subjecte i verb?",
+   "options": [
+    "Els alumnes que van arribar, tard no van poder entrar.",
+    "Els alumnes, que van arribar tard no van poder entrar.",
+    "Els alumnes que van arribar tard, no van poder entrar.",
+    "Els alumnes que van arribar tard no van poder entrar."
+   ],
+   "correct": 3,
+   "explanation": "No es posa coma entre el subjecte i el verb."
+  },
+  {
+   "id": "ca_escritura_l9_m010",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina frase cita correctament?",
+   "options": [
+    "Com afirma l'autor «la lectura és un viatge.»",
+    "Com afirma l'autor, «la lectura és un viatge».",
+    "Com afirma l'autor, la lectura «és un viatge.»",
+    "Com afirma, l'autor «la lectura és un viatge»."
+   ],
+   "correct": 1,
+   "explanation": "La cita va entre cometes i el punt es posa fora."
+  },
+  {
+   "id": "ca_escritura_l9_m011",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin connector expressa conseqüència?",
+   "options": [
+    "no obstant això",
+    "és a dir",
+    "en canvi",
+    "per consegüent"
+   ],
+   "correct": 3,
+   "explanation": "«per consegüent» introduïx una conseqüència."
+  },
+  {
+   "id": "ca_escritura_l9_m012",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin connector servix per a aclarir o reformular?",
+   "options": [
+    "per tant",
+    "és a dir",
+    "a més",
+    "tanmateix"
+   ],
+   "correct": 1,
+   "explanation": "«és a dir» explica d'una altra manera el que s'ha dit."
+  },
+  {
+   "id": "ca_escritura_l9_m013",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quin connector expressa concessió?",
+   "options": [
+    "malgrat que",
+    "a més a més",
+    "per tant",
+    "és a dir"
+   ],
+   "correct": 0,
+   "explanation": "«malgrat que» introduïx un obstacle que no impedix l'acció."
+  },
+  {
+   "id": "ca_escritura_l9_m014",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Què vol dir «a priori»?",
+   "options": [
+    "Abans d'examinar l'assumpte",
+    "Després de tot",
+    "Amb pressa",
+    "Per casualitat"
+   ],
+   "correct": 0,
+   "explanation": "«a priori» vol dir «per endavant»."
+  },
+  {
+   "id": "ca_escritura_l9_m015",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina frase usa bé «sinó»?",
+   "options": [
+    "No ho va fer per diners, si no per amistat.",
+    "No ho va fer per diners, sino per amistat.",
+    "No ho va fer per diners, sinó per amistat.",
+    "No ho va fer per diners sinó, per amistat."
+   ],
+   "correct": 2,
+   "explanation": "Després d'una negació, «sinó» introduïx la idea correcta."
+  },
+  {
+   "id": "ca_escritura_l9_m016",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina frase evita l'error «més millor»?",
+   "options": [
+    "Este mètode és molt millor que millor.",
+    "Este mètode és millor.",
+    "Este mètode és més millor.",
+    "Este mètode és més bo millor."
+   ],
+   "correct": 1,
+   "explanation": "«millor» ja és comparatiu: no admet «més»."
+  },
+  {
+   "id": "ca_escritura_l9_m017",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina frase està ben escrita?",
+   "options": [
+    "El 80 % dels enquestats va respondre.",
+    "El 80% dels enquestats va respondre.",
+    "El huitanta % dels enquestats va respondre.",
+    "El 80 per cent dels enquestats van respondre tots."
+   ],
+   "correct": 0,
+   "explanation": "El símbol % se separa del número amb un espai."
+  },
+  {
+   "id": "ca_escritura_l9_m018",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Tria: «___ que ho saps, explica-m'ho.»",
+   "options": [
+    "Xa",
+    "Ya",
+    "Jà",
+    "Ja"
+   ],
+   "correct": 3,
+   "explanation": "«ja» s'escriu amb j."
+  },
+  {
+   "id": "ca_escritura_l9_m019",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina paraula està ben escrita?",
+   "options": [
+    "exhaustiu",
+    "exaustiu",
+    "eshaustiu",
+    "exhaustiv"
+   ],
+   "correct": 0,
+   "explanation": "exhaustiu porta x i h."
+  },
+  {
+   "id": "ca_escritura_l9_m020",
+   "module": "escritura",
+   "level": 9,
+   "type": "multiple_choice",
+   "prompt": "Quina frase evita l'infinitiu com a verb principal?",
+   "options": [
+    "Per acabar, donar les gràcies.",
+    "Per acabar, dir que gràcies.",
+    "Per acabar, donant les gràcies.",
+    "Per acabar, vull donar les gràcies."
+   ],
+   "correct": 3,
+   "explanation": "L'infinitiu no pot ser el verb principal d'una oració independent."
+  },
+  {
+   "id": "ca_escritura_l9_o001",
+   "module": "escritura",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Encara",
+    "que",
+    "ploga,",
+    "el",
+    "partit",
+    "es",
+    "jugarà."
+   ],
+   "correctOrder": [
+    "Encara",
+    "que",
+    "ploga,",
+    "el",
+    "partit",
+    "es",
+    "jugarà."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Encara que ploga, el partit es jugarà."
+  },
+  {
+   "id": "ca_escritura_l9_o002",
+   "module": "escritura",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "El",
+    "llibre",
+    "que",
+    "em",
+    "vas",
+    "deixar",
+    "és",
+    "magnífic."
+   ],
+   "correctOrder": [
+    "El",
+    "llibre",
+    "que",
+    "em",
+    "vas",
+    "deixar",
+    "és",
+    "magnífic."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "El llibre que em vas deixar és magnífic."
+  },
+  {
+   "id": "ca_escritura_l9_o003",
+   "module": "escritura",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Per",
+    "consegüent,",
+    "hem",
+    "de",
+    "canviar",
+    "de",
+    "pla."
+   ],
+   "correctOrder": [
+    "Per",
+    "consegüent,",
+    "hem",
+    "de",
+    "canviar",
+    "de",
+    "pla."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Per consegüent, hem de canviar de pla."
+  },
+  {
+   "id": "ca_escritura_l9_o004",
+   "module": "escritura",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "No",
+    "ho",
+    "va",
+    "fer",
+    "per",
+    "diners,",
+    "sinó",
+    "per",
+    "amistat."
+   ],
+   "correctOrder": [
+    "No",
+    "ho",
+    "va",
+    "fer",
+    "per",
+    "diners,",
+    "sinó",
+    "per",
+    "amistat."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "No ho va fer per diners, sinó per amistat."
+  },
+  {
+   "id": "ca_escritura_l9_o005",
+   "module": "escritura",
+   "level": 9,
+   "type": "drag_order",
+   "prompt": "Ordena les paraules per a formar una frase",
+   "pieces": [
+    "Estic",
+    "segur",
+    "que",
+    "ho",
+    "aconseguirem."
+   ],
+   "correctOrder": [
+    "Estic",
+    "segur",
+    "que",
+    "ho",
+    "aconseguirem."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Estic segur que ho aconseguirem."
+  },
+  {
+   "id": "ca_escritura_l9_w001",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Corregix la frase: «Estic segur de que vindrà.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Estic segur que vindrà.",
+   "hint": "Sobra una paraula",
+   "explanation": "Davant de «que», la preposició «de» cau."
+  },
+  {
+   "id": "ca_escritura_l9_w002",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Corregix la frase: «Este mètode és més millor.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Este mètode és millor.",
+   "hint": "Sobra una paraula",
+   "explanation": "«millor» ja és comparatiu."
+  },
+  {
+   "id": "ca_escritura_l9_w003",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Corregix l'expressió: «a grosso modo»",
+   "options": [],
+   "correct": 0,
+   "answer": "grosso modo",
+   "hint": "Sobra la preposició",
+   "explanation": "L'expressió llatina és «grosso modo»."
+  },
+  {
+   "id": "ca_escritura_l9_w004",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Corregix la frase: «Ens vam enterar ahir.»",
+   "options": [],
+   "correct": 0,
+   "answer": "Ens vam assabentar ahir.",
+   "hint": "Un verb genuí",
+   "explanation": "«enterar-se» és un castellanisme."
+  },
+  {
+   "id": "ca_escritura_l9_d001",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Encara no sabem què passarà; tanmateix, continuarem.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Encara no sabem què passarà; tanmateix, continuarem."
+  },
+  {
+   "id": "ca_escritura_l9_d002",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Estic segur que ho aconseguirem.",
+   "hint": "Té 5 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Estic segur que ho aconseguirem."
+  },
+  {
+   "id": "ca_escritura_l9_d003",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Només vull que m'expliques el perquè.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Només vull que m'expliques el perquè."
+  },
+  {
+   "id": "ca_escritura_l9_d004",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'exhibició va ser esplèndida i exuberant.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "L'exhibició va ser esplèndida i exuberant."
   }
  ]
 }
