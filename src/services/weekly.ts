@@ -86,18 +86,28 @@ export function weeklySummaryLines(
   words: string[],
   areaName: (a: Area) => string,
   fluency: { wcpm: number; date: string }[] = [],
+  paper: { minutes: number; days: Set<string>; finished: string[] } = { minutes: 0, days: new Set(), finished: [] },
 ): string[] {
   const t = tr as T;
   const k = (key: string, vars?: Record<string, string | number>) => t(key as never, vars);
   const w = weekStats(history, 0);
   const prev = weekStats(history, 1);
   const lines: string[] = [];
-  if (w.sessions === 0) {
+  const paperLines = () => {
+    if (paper.minutes > 0) lines.push(k('wk_paper', { min: paper.minutes }));
+    if (paper.finished.length > 0) lines.push(k('wk_paper_done', { titles: paper.finished.join(', ') }));
+  };
+  // Days with practice in the app or reading a paper book
+  const appDays = new Set(history.filter((s) => { const t = new Date(s.completed_at).getTime(); return t >= w.from.getTime() && t <= w.to.getTime(); })
+    .map((s) => new Date(s.completed_at).toDateString()));
+  const days = new Set([...appDays, ...paper.days]).size;
+  if (w.sessions === 0 && paper.minutes === 0) {
     lines.push(k('wk_none', { name }));
     if (prev.daysPractised > 0) lines.push(k('wk_less', { prev: prev.daysPractised, now: 0 }));
     return lines;
   }
-  lines.push(k('wk_days', { name, days: w.daysPractised, min: Math.max(1, w.minutes) }));
+  lines.push(k('wk_days', { name, days, min: Math.max(1, w.minutes + paper.minutes) }));
+  if (w.sessions === 0) { paperLines(); return lines; }
   if (w.answered > 0) lines.push(k('wk_accuracy', { n: w.answered, pct: w.pct }));
   if (prev.sessions > 0) {
     if (w.daysPractised > prev.daysPractised) lines.push(k('wk_more', { prev: prev.daysPractised, now: w.daysPractised }));
@@ -107,6 +117,7 @@ export function weeklySummaryLines(
   if (w.best) lines.push(k('wk_best', { area: areaName(w.best.area), pct: w.best.pct }));
   if (w.weakest) lines.push(k('wk_weak', { area: areaName(w.weakest.area), pct: w.weakest.pct }));
   if (w.readings + w.dictations > 0) lines.push(k('wk_extra', { r: w.readings, d: w.dictations }));
+  paperLines();
   if (fluency.length > 0) {
     const last = fluency[fluency.length - 1];
     const prevF = fluency.length > 1 ? fluency[fluency.length - 2] : null;

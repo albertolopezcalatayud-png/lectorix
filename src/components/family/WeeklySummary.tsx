@@ -4,6 +4,7 @@ import { persist } from 'zustand/middleware';
 import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
 import { useReviewStore, notebookWords } from '@/services/review';
 import { useFluencyStore } from '@/services/fluency';
+import { useShelfStore, paperWeek } from '@/services/shelf';
 import { weekStats, weeklySummaryLines, type Area } from '@/services/weekly';
 import { MODULE_TEXT } from '@/data/modules';
 import { HOME_TIPS } from '@/data/homeTips';
@@ -56,13 +57,16 @@ export function useWeeklyLines(forceUi = false) {
     .slice(0, 5)
     .map((w) => w.word!);
   const fluency = fluencyAll.filter((r) => r.lang === lang);
+  const books = useShelfStore((s) => s.books);
+  const logs = useShelfStore((s) => s.logs);
+  const paper = paperWeek(books, logs);
   if (famLang !== 'ui' && !forceUi) {
     const ft = famT(famLang);
     const name = user?.display_name || FAM_STR[famLang].student;
-    return weeklySummaryLines(ft, name, history, words, (a: Area) => ft(`area_${a}`), fluency);
+    return weeklySummaryLines(ft, name, history, words, (a: Area) => ft(`area_${a}`), fluency, paper);
   }
   const name = user?.display_name || t('parent_student');
-  return weeklySummaryLines(t, name, history, words, (a: Area) => t(MODULE_TEXT[a].name), fluency);
+  return weeklySummaryLines(t, name, history, words, (a: Area) => t(MODULE_TEXT[a].name), fluency, paper);
 }
 
 export function FamilyLanguagePicker() {
