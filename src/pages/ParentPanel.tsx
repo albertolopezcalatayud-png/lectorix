@@ -11,6 +11,7 @@ import { SkillRadar } from '@/components/charts/SkillRadar';
 import { generateParentReport, downloadReport, printReport } from '@/services/pdfExport';
 import { useI18n } from '@/i18n';
 import { WeeklySummary, HomeTips, useWeeklyLines, FamilyLanguagePicker } from '@/components/family/WeeklySummary';
+import { StartingPoint } from '@/components/family/StartingPoint';
 
 export default function ParentPanel() {
   const user = useAppStore((s) => s.user);
@@ -195,6 +196,9 @@ export default function ParentPanel() {
             </Card>
           </motion.div>
         )}
+
+        {/* Starting level per area, adjustable */}
+        <StartingPoint />
 
         {/* Per-module detail */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}>

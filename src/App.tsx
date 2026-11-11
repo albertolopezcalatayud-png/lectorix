@@ -31,6 +31,7 @@ const Notebook = lazy(() => import('@/pages/Notebook'));
 const Fluency = lazy(() => import('@/pages/Fluency'));
 const Homework = lazy(() => import('@/pages/Homework'));
 const Together = lazy(() => import('@/pages/Together'));
+const Placement = lazy(() => import('@/pages/Placement'));
 
 function LoadingSpinner() {
   return (
@@ -73,6 +74,7 @@ function AnimatedRoutes() {
         <Route path="/fluidez" element={<PageTransition><Fluency /></PageTransition>} />
         <Route path="/adaptar" element={<PageTransition><Homework /></PageTransition>} />
         <Route path="/juntos" element={<PageTransition><Together /></PageTransition>} />
+        <Route path="/prueba-nivel" element={<PageTransition><Placement /></PageTransition>} />
       </Routes>
     </AnimatePresence>
   );

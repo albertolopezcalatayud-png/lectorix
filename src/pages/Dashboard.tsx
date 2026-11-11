@@ -21,6 +21,9 @@ export default function Dashboard() {
   const reviewItems = useReviewStore((s) => s.items);
   const dueCount = dueItems(reviewItems, lang).length;
   const notebookCount = notebookWords(reviewItems, lang).filter((w) => !w.mastered).length;
+  const placementDone = useAppStore((s) => !!s.placementDone[lang]);
+  const placementDismissed = useAppStore((s) => s.placementDismissed);
+  const setPlacementDismissed = useAppStore((s) => s.setPlacementDismissed);
   const xpInfo = user ? calculateXPLevel(user.total_xp) : { level: 1, currentXP: 0, nextLevelXP: 100, progress: 0 };
 
   return (
@@ -42,6 +45,27 @@ export default function Dashboard() {
             <p className="text-fg-muted text-sm mt-1">{t('dash_ready')}</p>
           </div>
         </motion.div>
+
+        {/* Placement test invitation (until it is done or dismissed) */}
+        {!placementDone && !placementDismissed && (
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.05 }}>
+            <Card className="border-accent/30 bg-accent-pale/30">
+              <div className="flex items-center gap-3">
+                <span className="text-3xl">🧭</span>
+                <div className="flex-1">
+                  <h3 className="font-heading font-extrabold text-sm">{t('plc_card_title')}</h3>
+                  <p className="text-xs text-fg-muted">{t('plc_card_desc')}</p>
+                </div>
+              </div>
+              <div className="flex gap-2 mt-3">
+                <button onClick={() => navigate('/prueba-nivel')}
+                  className="flex-1 py-2 rounded-xl bg-accent text-white font-bold text-sm">{t('plc_start')}</button>
+                <button onClick={() => setPlacementDismissed(true)}
+                  className="px-3 py-2 rounded-xl text-fg-muted font-bold text-sm">{t('plc_card_dismiss')}</button>
+              </div>
+            </Card>
+          </motion.div>
+        )}
 
         {/* XP Card */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
