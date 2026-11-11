@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Traspaso de Lectorix</title>
+<style>
+  :root { --bg:#f7f5ff; --card:#fff; --fg:#2a2540; --muted:#6b6585; --accent:#8b5cf6; --pale:#efe9ff; --mint:#d9f5ea; --peach:#ffe7dc; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 0 0 10px; color: var(--accent); }
+  .muted { color: var(--muted); }
+  .card { background: var(--card); border-radius: 18px; padding: 18px 20px; margin: 14px 0; box-shadow: 0 2px 10px rgba(60,40,120,.06); }
+  .hint { background: var(--pale); }
+  .warn { background: var(--peach); }
+  .ok { background: var(--mint); }
+  code, pre { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .88em; }
+  pre { background: #f3f0fb; padding: 12px; border-radius: 12px; overflow-x: auto; white-space: pre-wrap; }
+  ul { padding-left: 20px; margin: 6px 0; }
+  li { margin: 3px 0; }
+  table { border-collapse: collapse; width: 100%; font-size: .92em; }
+  td, th { border-bottom: 1px solid #ece8f7; padding: 6px 8px; text-align: left; vertical-align: top; }
+  .pill { display:inline-block; background:var(--pale); color:var(--accent); border-radius:999px; padding:2px 10px; font-size:.8em; font-weight:700; }
+</style>
+</head>
+<body>
+<main>
+  <h1>📚 Traspaso de Lectorix</h1>
+  <p class="muted">Todo lo necesario para continuar el trabajo en una conversación nueva. Actualizado el 11 de noviembre de 2026.</p>
+
+  <div class="card hint">
+    <h2>Cómo usar este documento</h2>
+    <ol>
+      <li>Abre una conversación nueva.</li>
+      <li>Adjunta este archivo y el archivo <code>lectorix.jks</code> (la llave de firma de Android).</li>
+      <li>Escribe algo como: <em>«Lee el traspaso adjunto. Seguimos con Lectorix y con la nueva app de ciencias. La contraseña del keystore es …»</em> (la contraseña la tienes en mi mensaje, no está en este documento).</li>
+    </ol>
+  </div>
+
+  <div class="card warn">
+    <h2>⚠️ Lo más importante: la llave de firma</h2>
+    <ul>
+      <li>La app de Android se firma con el archivo <code>lectorix.jks</code> (alias <code>lectorix</code>). Sin él no se pueden publicar actualizaciones de Lectorix tal cual.</li>
+      <li><strong>Guárdalo en un sitio seguro</strong> (por ejemplo, tu Google Drive privado y una copia en un USB). Nunca debe subirse a ningún repositorio.</li>
+      <li>En la conversación nueva, adjúntalo para que Claude pueda firmar las versiones.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Dónde está todo</h2>
+    <table>
+      <tr><th>Qué</th><th>Dónde</th></tr>
+      <tr><td>Código</td><td>GitHub: <code>albertolopezcalatayud-png/lectorix</code> (rama <code>main</code>)</td></tr>
+      <tr><td>Web</td><td>https://albertolopezcalatayud-png.github.io/lectorix/ (se publica sola al subir a <code>main</code>)</td></tr>
+      <tr><td>Google Play</td><td>Cuenta de desarrollador «Inorderwords». App «Lectorix: lectura y escritura» (<code>com.lectorix.app</code>), prueba cerrada «Alpha»</td></tr>
+      <tr><td>IDs de Play Console</td><td>desarrollador <code>8833855902443218531</code> · app <code>4972628467657750710</code> · canal Alpha <code>4698513348350967778</code></td></tr>
+      <tr><td>App compilada sin firmar</td><td>rama <code>android-build</code> (la genera GitHub Actions)</td></tr>
+      <tr><td>Apps firmadas</td><td>rama <code>android-signed</code> (<code>lectorix-1.x.0.aab</code>)</td></tr>
+      <tr><td>Capturas de Play Store y descripción</td><td>rama <code>store-assets</code></td></tr>
+      <tr><td>Pruebas en emulador Android 14/15</td><td>workflow <code>android-test.yml</code> → ramas <code>android-test-34</code> y <code>android-test-35</code></td></tr>
+      <tr><td>Pruebas automáticas de la web</td><td><code>tests/e2e/</code> en el repositorio</td></tr>
+      <tr><td>Servidor de recordatorios</td><td>Cloudflare (cuenta de Alberto)</td></tr>
+      <tr><td>Contacto público</td><td>inorderwords@gmail.com</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Estado actual</h2>
+    <ul>
+      <li><span class="pill">Play</span> 1.5.0 publicada para los testers (11 nov). 1.6.0 enviada a revisión junto con la descripción nueva y 8 capturas nuevas.</li>
+      <li><span class="pill">Web</span> al día con la 1.6.0.</li>
+      <li>La prueba cerrada usa testers invitados por correo en la pestaña «Testers» del canal Alpha. Antonio está pendiente de dar su correo correcto (el que dio no existe).</li>
+      <li>Pendiente de decidir: pasar a prueba abierta, vídeo de YouTube para la ficha y diseño de los planes de pago (después de las pruebas).</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Qué tiene Lectorix (1.6.0)</h2>
+    <ul>
+      <li>Castellano, valenciano (normativa AVL) e inglés británico, cada uno con su propio contenido. Unos 1.750, 1.700 y 1.380 ejercicios; 40, 40 y 36 lecturas.</li>
+      <li>5 áreas: fonología, memoria visual, comprensión lectora, escritura y retos rápidos. Tienen 9 niveles en castellano y valenciano (Despegue…Galaxia, de 1.º de Primaria a 4.º de ESO) y 7 en inglés (Pre‑A1 a B1+).</li>
+      <li>Prueba de nivel por curso, punto de partida editable por la familia, pasos de dificultad que se adaptan y pequeña rampa al nivel siguiente.</li>
+      <li>Mapa de habilidades (25 habilidades), «Entrenar mi punto débil», repaso diario espaciado y cuaderno de palabras difíciles.</li>
+      <li>Lectura guiada palabra a palabra, dictados, fluidez lectora, «Adaptar mis deberes» (foto con reconocimiento de texto en el dispositivo), «Estudia tus apuntes», «Juntos».</li>
+      <li>Nuevas en 1.5–1.6:
+        <ul>
+          <li>Cuentos a tu medida (9 protagonistas, 9 lugares, 9 objetos y 2 tramas).</li>
+          <li>Escribe y escúchalo: revisión ortográfica sin conexión con diccionarios Hunspell y palabras sugeridas.</li>
+          <li>Mi estantería, lecturas según intereses (10 temas), Entiendo cómo aprendo y la guía para familias.</li>
+          <li>Corrección opcional de lectura en voz alta, solo con reconocimiento en el dispositivo.</li>
+          <li>Compartir con Lectorix y botón «Enviar una sugerencia».</li>
+        </ul>
+      </li>
+      <li>Panel para familias con resumen semanal (también en árabe, rumano, ucraniano, chino y urdu), informe PDF y punto de partida.</li>
+      <li>Protecciones contra la pantalla en negro: recuperación de errores, reinicio del motor web en Android e informe de errores en Ajustes.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Decisiones y normas de Alberto (respetarlas siempre)</h2>
+    <ul>
+      <li>No esperar aprobación paso a paso: hacerlo todo, sin guías para que lo haga él. Revisar todo a fondo antes de entregar.</li>
+      <li>Materiales para él: en HTML descargable, no como artefactos publicados. Documentos para enviar a otros: en PDF.</li>
+      <li>Nada de descripciones engañosas. Nunca llamar «gratuita» a la app. Fórmula: «Probarla no cuesta nada. Más adelante tendrá planes de suscripción opcionales».</li>
+      <li>Valenciano e inglés en toda la app, no solo en los menús. Valenciano con formas AVL (este, hui, xiquet, verbos en ‑ix) y sin acentos diacríticos discutidos.</li>
+      <li>Sin panel para profesorado ni informe para el colegio (demasiado intrusivo). Sin prueba de detección de dislexia. Sin diagnósticos.</li>
+      <li>Los planes de pago se diseñan con él después de las pruebas.</li>
+      <li>La app de Android debe verse profesional (nada de «Se ejecuta en Chrome»).</li>
+      <li>Las casillas legales y de condiciones las marca él. Claude no escribe contraseñas ni tokens en formularios.</li>
+      <li>Su correo personal es privado.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Cómo se trabaja (técnico)</h2>
+    <ul>
+      <li>React 19, TypeScript, Vite, Tailwind v4, Zustand (guardado local) y rutas con <code>#</code>. App Android con Capacitor 7 (<code>CAP_BUILD=1</code>, carpeta <code>dist-app</code>).</li>
+      <li>Plugins nativos propios en <code>android/app/src/main/java/com/lectorix/app/</code>: <code>OnDeviceSpeechPlugin</code> (voz en el dispositivo) y <code>ShareReceiverPlugin</code> (compartir).</li>
+      <li>Contenido: <code>scripts/content/build_es.py</code>, <code>build_ca.py</code> y <code>build_en.py</code> generan los JSON. Los niveles y las frases nuevas se añaden al final para no cambiar los identificadores. Comprobaciones: <code>spellcheck.py</code> y <code>distractor_check.py</code>.</li>
+      <li>Textos de la interfaz: <code>python3 scripts/add_i18n_new.py archivo.py "comentario"</code> con <code>NEW = {clave: (es, ca, en)}</code>.</li>
+      <li>Diccionarios: <code>scripts/spell/build.py</code> (ortografía, <code>.fcz</code>) y <code>build_freq.py</code> (sugerencias, <code>.frz</code>). No usar la extensión <code>.gz</code>: Android la renombra.</li>
+      <li>Publicar en Android:
+        <ol>
+          <li>Subir <code>versionCode</code> en <code>android/app/build.gradle</code> y en <code>.github/workflows/android.yml</code>, y la versión en <code>package.json</code>.</li>
+          <li>Subir a <code>main</code>; GitHub Actions deja la app sin firmar en <code>android-build</code>.</li>
+          <li>Firmar con <code>jarsigner -keystore lectorix.jks … lectorix</code> y subirla a <code>android-signed</code>.</li>
+          <li>En Play Console: Crear nueva versión → subir el archivo → notas (máximo 500 caracteres, con etiquetas <code>&lt;es-ES&gt;</code>) → Siguiente → Guardar → Resumen de publicación → Enviar a revisión.</li>
+          <li>Mirar siempre que no se pierdan dispositivos compatibles. Por eso el micrófono está marcado como opcional.</li>
+        </ol>
+      </li>
+      <li>Último <code>versionCode</code> usado: <strong>10</strong> (1.6.0). El siguiente debe ser 11 o más.</li>
+    </ul>
+  </div>
+
+  <div class="card ok">
+    <h2>Proyecto nuevo: app para el área científica</h2>
+    <p><strong>Idea acordada:</strong> una app distinta de Lectorix para discalculia, matemáticas y Física y Química. Usaría el mismo motor por dentro (niveles, prueba de nivel, mapa de habilidades, repaso, voz, accesibilidad, panel para familias, Android) y tendría contenido, nombre e icono propios.</p>
+    <p><strong>Contenido propuesto, por orden:</strong></p>
+    <ol>
+      <li>Sentido del número (Primaria): comparar cantidades, recta numérica, valor de posición, estrategias para sumar y multiplicar.</li>
+      <li>«Entiendo el enunciado»: leer el problema por partes, datos, pregunta y palabras clave, con voz. Sirve para mates y FyQ.</li>
+      <li>Matemáticas de ESO: fracciones, porcentajes, proporciones y ecuaciones paso a paso.</li>
+      <li>Física y Química: unidades, despejar fórmulas, gráficas y tablas, vocabulario científico.</li>
+      <li>Vida diaria: hora, dinero y medidas.</li>
+    </ol>
+    <p><strong>A tener en cuenta:</strong></p>
+    <ul>
+      <li>Al ser una app nueva, Google puede exigir otra prueba cerrada con al menos 12 testers durante 14 días antes de publicarla.</li>
+      <li>Hay que elegir un nombre que no esté cogido en Play Store.</li>
+      <li>Las mismas normas de Lectorix: sin diagnósticos, nada de «gratuita», tres idiomas en toda la app.</li>
+    </ul>
+    <p><strong>Siguiente paso:</strong> montar la base compartida a partir del repositorio de Lectorix y hacer la primera parte (sentido del número y «Entiendo el enunciado»).</p>
+  </div>
+</main>
+</body>
+</html>
