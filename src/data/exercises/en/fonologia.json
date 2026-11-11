@@ -5435,7 +5435,7 @@
     "gent"
    ],
    "skill": "fon_syllables",
-   "step": 2
+   "step": 1
   },
   {
    "id": "en_fonologia_l6_m005",
@@ -5459,7 +5459,7 @@
     "tion"
    ],
    "skill": "fon_syllables",
-   "step": 2
+   "step": 1
   },
   {
    "id": "en_fonologia_l6_m006",
@@ -5483,7 +5483,7 @@
     "phy"
    ],
    "skill": "fon_syllables",
-   "step": 2
+   "step": 1
   },
   {
    "id": "en_fonologia_l6_o001",
@@ -5598,7 +5598,7 @@
    "explanation": "We say PHO-to-graph.",
    "word": "photograph",
    "skill": "fon_stress",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_fonologia_l6_m008",
@@ -5616,7 +5616,7 @@
    "explanation": "We say pho-TOG-ra-pher.",
    "word": "photographer",
    "skill": "fon_stress",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_fonologia_l6_m009",
@@ -5875,7 +5875,7 @@
    "explanation": "'played': after voiced sounds the -ed sounds /d/: one syllable.",
    "word": "played",
    "skill": "fon_sounds",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_fonologia_l6_m024",
@@ -5892,7 +5892,7 @@
    "explanation": "'wanted': after /t/ or /d/ the -ed is an extra syllable /ɪd/.",
    "word": "wanted",
    "skill": "fon_sounds",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_fonologia_l6_m025",
@@ -5909,7 +5909,7 @@
    "explanation": "'watched': after voiceless sounds like /k/, /tʃ/, /f/, /s/ the -ed sounds /t/: one syllable.",
    "word": "watched",
    "skill": "fon_sounds",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_fonologia_l6_m026",
@@ -5926,7 +5926,7 @@
    "explanation": "'needed': after /t/ or /d/ the -ed is an extra syllable /ɪd/.",
    "word": "needed",
    "skill": "fon_sounds",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_fonologia_l6_d001",
@@ -6021,6 +6021,134 @@
    "explanation": "Check capital letters, apostrophes and the full stop.",
    "dictation": true,
    "word": "She enjoys reading books about science.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d007",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "I usually walk to school with my friends.",
+   "hint": "Careful with: usually, friends",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "I usually walk to school with my friends.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d008",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "We went to the beach because it was sunny.",
+   "hint": "Careful with: because, sunny",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "We went to the beach because it was sunny.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d009",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "There are three bedrooms in our new flat.",
+   "hint": "Careful with: There, bedrooms",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "There are three bedrooms in our new flat.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d010",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "They're going to visit their grandparents.",
+   "hint": "Careful with: They're, their",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "They're going to visit their grandparents.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d011",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "I couldn't find my keys this morning.",
+   "hint": "Careful with: couldn't, keys",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "I couldn't find my keys this morning.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d012",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Which subject do you like best?",
+   "hint": "Careful with: Which, subject",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "Which subject do you like best?",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d013",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "It was the most exciting match of the season.",
+   "hint": "Careful with: exciting, season",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "It was the most exciting match of the season.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d014",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "My sister has been learning French for two years.",
+   "hint": "Careful with: learning, French",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "My sister has been learning French for two years.",
    "skill": "dictation",
    "step": 3
   },
@@ -6259,7 +6387,7 @@
    "explanation": "dis-a-bil-i-ty = disability",
    "word": "disability",
    "skill": "fon_syllables",
-   "step": 2
+   "step": 1
   },
   {
    "id": "en_fonologia_l7_o004",
@@ -6358,7 +6486,7 @@
    "explanation": "We say de-VEL-op-ment.",
    "word": "development",
    "skill": "fon_stress",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_fonologia_l7_m011",
@@ -6376,7 +6504,7 @@
    "explanation": "We say tech-NOL-o-gy.",
    "word": "technology",
    "skill": "fon_stress",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_fonologia_l7_m012",
@@ -6394,7 +6522,7 @@
    "explanation": "We say pho-to-GRAPH-ic.",
    "word": "photographic",
    "skill": "fon_stress",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_fonologia_l7_m013",
@@ -6430,7 +6558,7 @@
    "explanation": "walk and door have /ɔː/; the l in walk is silent.",
    "word": "walk",
    "skill": "fon_sounds",
-   "step": 2
+   "step": 1
   },
   {
    "id": "en_fonologia_l7_m015",
@@ -6518,7 +6646,7 @@
    "correct": 1,
    "explanation": "In climb, the b is silent: /klaɪm/.",
    "skill": "fon_sounds",
-   "step": 2
+   "step": 1
   },
   {
    "id": "en_fonologia_l7_m020",
@@ -6586,7 +6714,7 @@
    "explanation": "'decided': after /t/ or /d/ the -ed is an extra syllable /ɪd/.",
    "word": "decided",
    "skill": "fon_sounds",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_fonologia_l7_m024",
@@ -6603,7 +6731,7 @@
    "explanation": "'cleaned': after voiced sounds the -ed sounds /d/: one syllable.",
    "word": "cleaned",
    "skill": "fon_sounds",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_fonologia_l7_m025",
@@ -6637,7 +6765,7 @@
    "explanation": "'started': after /t/ or /d/ the -ed is an extra syllable /ɪd/.",
    "word": "started",
    "skill": "fon_sounds",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_fonologia_l7_d001",
@@ -6732,6 +6860,134 @@
    "explanation": "Check capital letters, apostrophes and the full stop.",
    "dictation": true,
    "word": "I'm looking forward to seeing you next weekend.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d007",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Although it was raining, we decided to go out.",
+   "hint": "Careful with: Although, decided",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "Although it was raining, we decided to go out.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d008",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The film was so boring that I fell asleep.",
+   "hint": "Careful with: boring, asleep",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "The film was so boring that I fell asleep.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d009",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "I wish I had listened to my teacher.",
+   "hint": "Careful with: wish, listened",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "I wish I had listened to my teacher.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d010",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "You should have told me the truth.",
+   "hint": "Careful with: should have, truth",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "You should have told me the truth.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d011",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The bridge was designed by a famous engineer.",
+   "hint": "Careful with: designed, engineer",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "The bridge was designed by a famous engineer.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d012",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Unless you hurry, you will miss the train.",
+   "hint": "Careful with: Unless, hurry",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "Unless you hurry, you will miss the train.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d013",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "It's important to recycle plastic and paper.",
+   "hint": "Careful with: It's, recycle",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "It's important to recycle plastic and paper.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d014",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Nobody knows exactly what happened that night.",
+   "hint": "Careful with: knows, exactly",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "Nobody knows exactly what happened that night.",
    "skill": "dictation",
    "step": 3
   }

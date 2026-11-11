@@ -139,6 +139,25 @@ DICT = {
 }
 
 
+# More dictations (added after the first ones so earlier ids stay the same)
+DICT[6] += ["El viernes visitaremos el museo de ciencias.", "Hoy ha llovido mucho y las calles están mojadas.",
+    "Los jugadores recogieron el trofeo con alegría.", "Ayer vi una ballena desde el barco.",
+    "La abuela hervía agua para hacer una infusión.", "Guárdame un sitio en la primera fila, por favor.",
+    "El vigilante cerró la verja a las nueve.", "¿Quién ha dejado la mochila en el pasillo?"]
+DICT[7] += ["Habría venido antes si me hubieras avisado.", "El ciclista se cayó en la última curva.",
+    "Estuvimos esperando el autobús más de media hora.", "Haya o no haya examen, tengo que estudiar.",
+    "El volcán entró en erupción hace dos siglos.", "Echa un vistazo a la página veintitrés.",
+    "Todavía no sé si vendrá a la fiesta.", "La exposición sobre los vikingos es gratuita."]
+DICT[8] += ["El adolescente expresó su opinión con argumentos sólidos.", "Aprobaron la ley después de un largo debate.",
+    "Prohibieron el tráfico en el centro histórico.", "Por más que lo intento, no consigo resolverlo.",
+    "Si hubiéramos salido antes, habríamos llegado a tiempo.", "El orador se dirigió al público con serenidad.",
+    "La biodiversidad del humedal está en peligro.", "Envolvieron el regalo con un papel brillante."]
+DICT[9] += ["La hipótesis del investigador resultó ser errónea.", "Cuanto más leas, más vocabulario adquirirás.",
+    "El hecho de que no vinieras nos sorprendió.", "Este acontecimiento supuso un antes y un después.",
+    "La exhaustiva investigación desveló varias incoherencias.", "No obstante, el tribunal absolvió al acusado.",
+    "Mediante esta técnica se obtiene energía limpia.", "Asimismo, conviene revisar la bibliografía."]
+
+
 def build_esc(b):
     for level in range(6, 10):
         for prompt, correct, wrong, expl in MC[level]:

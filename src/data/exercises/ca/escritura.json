@@ -3922,7 +3922,7 @@
    "correct": 0,
    "explanation": "camió és aguda acabada en vocal: porta accent; «va» no en porta.",
    "skill": "esc_accents",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_m002",
@@ -4024,7 +4024,7 @@
    "correct": 0,
    "explanation": "a + els = als.",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_m008",
@@ -4075,7 +4075,7 @@
    "correct": 3,
    "explanation": "Entre vocals, la s sonora s'escriu amb una s; la sorda, amb ss.",
    "skill": "esc_letters",
-   "step": 2
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_m011",
@@ -4245,7 +4245,7 @@
    "correct": 0,
    "explanation": "«ha» és del verb haver: ha acabat.",
    "skill": "esc_confusables",
-   "step": 2
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_m021",
@@ -4345,7 +4345,7 @@
    "correct": 0,
    "explanation": "Encara que feia fred, vam eixir a passejar.",
    "skill": "esc_sentences",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_o002",
@@ -4469,7 +4469,7 @@
    "correct": 0,
    "explanation": "Els alumnes van arreplegar el fem del pati.",
    "skill": "esc_sentences",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_w001",
@@ -4557,7 +4557,7 @@
    "dictation": true,
    "word": "Demà anirem d'excursió en autobús.",
    "skill": "dictation",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_d003",
@@ -4588,6 +4588,134 @@
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
    "word": "La girafa té el coll molt llarg.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l6_d005",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Divendres visitarem el museu de ciències.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Divendres visitarem el museu de ciències.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l6_d006",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hui ha plogut molt i els carrers estan banyats.",
+   "hint": "Té 9 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Hui ha plogut molt i els carrers estan banyats.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l6_d007",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Els jugadors van arreplegar el trofeu amb alegria.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Els jugadors van arreplegar el trofeu amb alegria.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l6_d008",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Ahir vaig veure una balena des del vaixell.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Ahir vaig veure una balena des del vaixell.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l6_d009",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'àvia bullia aigua per a fer una infusió.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "L'àvia bullia aigua per a fer una infusió.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l6_d010",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Guarda'm un lloc en la primera fila, per favor.",
+   "hint": "Té 9 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Guarda'm un lloc en la primera fila, per favor.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l6_d011",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El vigilant va tancar la reixa a les nou.",
+   "hint": "Té 9 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "El vigilant va tancar la reixa a les nou.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l6_d012",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Qui ha deixat la motxilla en el corredor?",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Qui ha deixat la motxilla en el corredor?",
    "skill": "dictation",
    "step": 3
   },
@@ -4793,7 +4921,7 @@
    "correct": 1,
    "explanation": "L'obligació s'expressa amb «haver de».",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_m013",
@@ -4861,7 +4989,7 @@
    "correct": 0,
    "explanation": "El que agrada (els llibres) és el subjecte: concorda amb «agraden».",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_m017",
@@ -4912,7 +5040,7 @@
    "correct": 1,
    "explanation": "La pilota (femení singular, CD) → la; amb l'imperatiu va darrere: agafa-la.",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_m020",
@@ -4929,7 +5057,7 @@
    "correct": 0,
    "explanation": "Al teu germà és complement indirecte: li.",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_m021",
@@ -5045,7 +5173,7 @@
    "correct": 0,
    "explanation": "Uns llegien; altres, escoltaven música.",
    "skill": "esc_sentences",
-   "step": 2
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_o004",
@@ -5071,7 +5199,7 @@
    "correct": 0,
    "explanation": "Si no estudies, no aprovaràs.",
    "skill": "esc_sentences",
-   "step": 2
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_o005",
@@ -5101,7 +5229,7 @@
    "correct": 0,
    "explanation": "Ells són de Gandia i tenen son.",
    "skill": "esc_sentences",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_w001",
@@ -5115,7 +5243,7 @@
    "hint": "Obligació amb «haver de»",
    "explanation": "L'obligació s'expressa amb «haver de».",
    "skill": "esc_grammar",
-   "step": 2
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_w002",
@@ -5230,6 +5358,134 @@
    "step": 3
   },
   {
+   "id": "ca_escritura_l7_d005",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hauria vingut abans si m'hagueres avisat.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Hauria vingut abans si m'hagueres avisat.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l7_d006",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El ciclista va caure en l'última corba.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "El ciclista va caure en l'última corba.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l7_d007",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Vam estar esperant l'autobús més de mitja hora.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Vam estar esperant l'autobús més de mitja hora.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l7_d008",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Encara no sé si vindrà a la festa.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Encara no sé si vindrà a la festa.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l7_d009",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El volcà va entrar en erupció fa dos segles.",
+   "hint": "Té 9 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "El volcà va entrar en erupció fa dos segles.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l7_d010",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Fes una ullada a la pàgina vint-i-tres.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Fes una ullada a la pàgina vint-i-tres.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l7_d011",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hem fet els deures abans de sopar.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Hem fet els deures abans de sopar.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l7_d012",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'exposició sobre els víkings és gratuïta.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "L'exposició sobre els víkings és gratuïta.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
    "id": "ca_escritura_l8_m001",
    "module": "escritura",
    "level": 8,
@@ -5244,7 +5500,7 @@
    "correct": 2,
    "explanation": "Els complements de lloc (a València) se substituïxen per «hi».",
    "skill": "esc_grammar",
-   "step": 2
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_m002",
@@ -5329,7 +5585,7 @@
    "correct": 0,
    "explanation": "Obligació: «haver de» + infinitiu. «Deure» + infinitiu expressa probabilitat.",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_m007",
@@ -5431,7 +5687,7 @@
    "correct": 3,
    "explanation": "excepció porta xc i accent.",
    "skill": "esc_accents",
-   "step": 2
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_m013",
@@ -5448,7 +5704,7 @@
    "correct": 2,
    "explanation": "Té dos verbs conjugats units per «però».",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_m014",
@@ -5533,7 +5789,7 @@
    "correct": 3,
    "explanation": "«d'acord»: la preposició s'apostrofa davant de vocal.",
    "skill": "esc_punct",
-   "step": 2
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_m019",
@@ -5584,7 +5840,7 @@
    "correct": 3,
    "explanation": "«adonar-se» és la forma genuïna.",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_m022",
@@ -5601,7 +5857,7 @@
    "correct": 2,
    "explanation": "La primera persona de viure és «visc».",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_o001",
@@ -5753,7 +6009,7 @@
    "correct": 0,
    "explanation": "Pel que fa a l'excursió, eixirem a les nou.",
    "skill": "esc_sentences",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_w001",
@@ -5879,6 +6135,134 @@
    "step": 3
   },
   {
+   "id": "ca_escritura_l8_d005",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'adolescent va expressar la seua opinió amb arguments sòlids.",
+   "hint": "Té 9 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "L'adolescent va expressar la seua opinió amb arguments sòlids.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l8_d006",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Van aprovar la llei després d'un llarg debat.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Van aprovar la llei després d'un llarg debat.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l8_d007",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Van prohibir el trànsit en el centre històric.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Van prohibir el trànsit en el centre històric.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l8_d008",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Per més que ho intente, no aconseguisc resoldre-ho.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Per més que ho intente, no aconseguisc resoldre-ho.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l8_d009",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Si haguérem eixit abans, hauríem arribat a temps.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Si haguérem eixit abans, hauríem arribat a temps.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l8_d010",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'orador es va dirigir al públic amb serenitat.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "L'orador es va dirigir al públic amb serenitat.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l8_d011",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La biodiversitat de la marjal està en perill.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "La biodiversitat de la marjal està en perill.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l8_d012",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Van embolicar el regal amb un paper brillant.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Van embolicar el regal amb un paper brillant.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
    "id": "ca_escritura_l9_m001",
    "module": "escritura",
    "level": 9,
@@ -5910,7 +6294,7 @@
    "correct": 3,
    "explanation": "Davant de «que», la preposició cau: m'alegre que...",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_m003",
@@ -5927,7 +6311,7 @@
    "correct": 1,
    "explanation": "És «grosso modo», sense la preposició «a».",
    "skill": "esc_confusables",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_m004",
@@ -5944,7 +6328,7 @@
    "correct": 2,
    "explanation": "preveure = pre + veure.",
    "skill": "esc_letters",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_m005",
@@ -6199,7 +6583,7 @@
    "correct": 0,
    "explanation": "exhaustiu porta x i h.",
    "skill": "esc_letters",
-   "step": 2
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_m020",
@@ -6216,7 +6600,7 @@
    "correct": 3,
    "explanation": "L'infinitiu no pot ser el verb principal d'una oració independent.",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_o001",
@@ -6246,7 +6630,7 @@
    "correct": 0,
    "explanation": "Encara que ploga, el partit es jugarà.",
    "skill": "esc_sentences",
-   "step": 2
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_o002",
@@ -6396,7 +6780,7 @@
    "hint": "Sobra una paraula",
    "explanation": "«millor» ja és comparatiu.",
    "skill": "esc_grammar",
-   "step": 2
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_w003",
@@ -6472,7 +6856,7 @@
    "dictation": true,
    "word": "Només vull que m'expliques el perquè.",
    "skill": "dictation",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_d004",
@@ -6487,6 +6871,134 @@
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
    "word": "L'exhibició va ser esplèndida i exuberant.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l9_d005",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La hipòtesi de l'investigador va resultar errònia.",
+   "hint": "Té 7 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "La hipòtesi de l'investigador va resultar errònia.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l9_d006",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Com més llegisques, més vocabulari adquiriràs.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Com més llegisques, més vocabulari adquiriràs.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l9_d007",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El fet que no vingueres ens va sorprendre.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "El fet que no vingueres ens va sorprendre.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l9_d008",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Este esdeveniment va suposar un abans i un després.",
+   "hint": "Té 9 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Este esdeveniment va suposar un abans i un després.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l9_d009",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "L'exhaustiva investigació va revelar diverses incoherències.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "L'exhaustiva investigació va revelar diverses incoherències.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l9_d010",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "No obstant això, el tribunal va absoldre l'acusat.",
+   "hint": "Té 8 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "No obstant això, el tribunal va absoldre l'acusat.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "ca_escritura_l9_d011",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Mitjançant esta tècnica s'obté energia neta.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Mitjançant esta tècnica s'obté energia neta.",
+   "skill": "dictation",
+   "step": 2
+  },
+  {
+   "id": "ca_escritura_l9_d012",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escolta i escriu la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Així mateix, convé revisar la bibliografia.",
+   "hint": "Té 6 paraules",
+   "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
+   "dictation": true,
+   "word": "Així mateix, convé revisar la bibliografia.",
    "skill": "dictation",
    "step": 3
   }

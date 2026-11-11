@@ -138,6 +138,25 @@ DICT = {
 }
 
 
+# More dictations (added after the first ones so earlier ids stay the same)
+DICT[6] += ["Divendres visitarem el museu de ciències.", "Hui ha plogut molt i els carrers estan banyats.",
+    "Els jugadors van arreplegar el trofeu amb alegria.", "Ahir vaig veure una balena des del vaixell.",
+    "L'àvia bullia aigua per a fer una infusió.", "Guarda'm un lloc en la primera fila, per favor.",
+    "El vigilant va tancar la reixa a les nou.", "Qui ha deixat la motxilla en el corredor?"]
+DICT[7] += ["Hauria vingut abans si m'hagueres avisat.", "El ciclista va caure en l'última corba.",
+    "Vam estar esperant l'autobús més de mitja hora.", "Encara no sé si vindrà a la festa.",
+    "El volcà va entrar en erupció fa dos segles.", "Fes una ullada a la pàgina vint-i-tres.",
+    "Hem fet els deures abans de sopar.", "L'exposició sobre els víkings és gratuïta."]
+DICT[8] += ["L'adolescent va expressar la seua opinió amb arguments sòlids.", "Van aprovar la llei després d'un llarg debat.",
+    "Van prohibir el trànsit en el centre històric.", "Per més que ho intente, no aconseguisc resoldre-ho.",
+    "Si haguérem eixit abans, hauríem arribat a temps.", "L'orador es va dirigir al públic amb serenitat.",
+    "La biodiversitat de la marjal està en perill.", "Van embolicar el regal amb un paper brillant."]
+DICT[9] += ["La hipòtesi de l'investigador va resultar errònia.", "Com més llegisques, més vocabulari adquiriràs.",
+    "El fet que no vingueres ens va sorprendre.", "Este esdeveniment va suposar un abans i un després.",
+    "L'exhaustiva investigació va revelar diverses incoherències.", "No obstant això, el tribunal va absoldre l'acusat.",
+    "Mitjançant esta tècnica s'obté energia neta.", "Així mateix, convé revisar la bibliografia."]
+
+
 def build_esc(b):
     for level in range(6, 10):
         for prompt, correct, wrong, expl in MC[level]:

@@ -72,6 +72,25 @@ DICT = {
 }
 
 
+# More dictations (added after the first ones so earlier ids stay the same)
+DICT[6] += [("I usually walk to school with my friends.", "usually, friends"),
+    ("We went to the beach because it was sunny.", "because, sunny"),
+    ("There are three bedrooms in our new flat.", "There, bedrooms"),
+    ("They're going to visit their grandparents.", "They're, their"),
+    ("I couldn't find my keys this morning.", "couldn't, keys"),
+    ("Which subject do you like best?", "Which, subject"),
+    ("It was the most exciting match of the season.", "exciting, season"),
+    ("My sister has been learning French for two years.", "learning, French")]
+DICT[7] += [("Although it was raining, we decided to go out.", "Although, decided"),
+    ("The film was so boring that I fell asleep.", "boring, asleep"),
+    ("I wish I had listened to my teacher.", "wish, listened"),
+    ("You should have told me the truth.", "should have, truth"),
+    ("The bridge was designed by a famous engineer.", "designed, engineer"),
+    ("Unless you hurry, you will miss the train.", "Unless, hurry"),
+    ("It's important to recycle plastic and paper.", "It's, recycle"),
+    ("Nobody knows exactly what happened that night.", "knows, exactly")]
+
+
 def build_fon(b):
     for level in (6, 7):
         for w, s in SIL[level]:

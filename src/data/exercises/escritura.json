@@ -3868,7 +3868,7 @@
    "correct": 0,
    "explanation": "camión y llegó son agudas acabadas en vocal o n: llevan tilde.",
    "skill": "esc_accents",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l6_m002",
@@ -3953,7 +3953,7 @@
    "correct": 1,
    "explanation": "tú (pronombre) y qué (interrogativo indirecto) llevan tilde.",
    "skill": "esc_accents",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l6_m007",
@@ -4089,7 +4089,7 @@
    "correct": 1,
    "explanation": "vi es monosílabo: sin tilde; tu (posesivo) sin tilde.",
    "skill": "esc_accents",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l6_m015",
@@ -4123,7 +4123,7 @@
    "correct": 1,
    "explanation": "«ha» es del verbo haber: ha terminado.",
    "skill": "esc_confusables",
-   "step": 2
+   "step": 1
   },
   {
    "id": "es_escritura_l6_m017",
@@ -4191,7 +4191,7 @@
    "correct": 0,
    "explanation": "Las palabras en -mente que dicen cómo son adverbios.",
    "skill": "esc_grammar",
-   "step": 2
+   "step": 1
   },
   {
    "id": "es_escritura_l6_m021",
@@ -4307,7 +4307,7 @@
    "correct": 0,
    "explanation": "¿Por qué no viniste ayer?",
    "skill": "esc_sentences",
-   "step": 2
+   "step": 1
   },
   {
    "id": "es_escritura_l6_o004",
@@ -4341,7 +4341,7 @@
    "correct": 0,
    "explanation": "Mi abuela, que vive en Alcoy, cocina muy bien.",
    "skill": "esc_sentences",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l6_o005",
@@ -4491,6 +4491,134 @@
    "dictation": true,
    "word": "La jirafa tiene el cuello muy largo.",
    "skill": "dictation",
+   "step": 2
+  },
+  {
+   "id": "es_escritura_l6_d005",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El viernes visitaremos el museo de ciencias.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "El viernes visitaremos el museo de ciencias.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l6_d006",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Hoy ha llovido mucho y las calles están mojadas.",
+   "hint": "Tiene 9 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Hoy ha llovido mucho y las calles están mojadas.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l6_d007",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Los jugadores recogieron el trofeo con alegría.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Los jugadores recogieron el trofeo con alegría.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l6_d008",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Ayer vi una ballena desde el barco.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Ayer vi una ballena desde el barco.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l6_d009",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La abuela hervía agua para hacer una infusión.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "La abuela hervía agua para hacer una infusión.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l6_d010",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Guárdame un sitio en la primera fila, por favor.",
+   "hint": "Tiene 9 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Guárdame un sitio en la primera fila, por favor.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l6_d011",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El vigilante cerró la verja a las nueve.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "El vigilante cerró la verja a las nueve.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l6_d012",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "¿Quién ha dejado la mochila en el pasillo?",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "¿Quién ha dejado la mochila en el pasillo?",
+   "skill": "dictation",
    "step": 3
   },
   {
@@ -4559,7 +4687,7 @@
    "correct": 2,
    "explanation": "«si no» = condición (si) + negación (no).",
    "skill": "esc_confusables",
-   "step": 2
+   "step": 1
   },
   {
    "id": "es_escritura_l7_m005",
@@ -4576,7 +4704,7 @@
    "correct": 3,
    "explanation": "«a ver» = preposición + verbo ver.",
    "skill": "esc_confusables",
-   "step": 2
+   "step": 1
   },
   {
    "id": "es_escritura_l7_m006",
@@ -4593,7 +4721,7 @@
    "correct": 0,
    "explanation": "«haber» es un verbo en infinitivo.",
    "skill": "esc_confusables",
-   "step": 2
+   "step": 1
   },
   {
    "id": "es_escritura_l7_m007",
@@ -4610,7 +4738,7 @@
    "correct": 1,
    "explanation": "Se piensa algo, no «de» algo: pienso que...",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l7_m008",
@@ -4627,7 +4755,7 @@
    "correct": 0,
    "explanation": "Uno se acuerda de algo: me acuerdo de que...",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l7_m009",
@@ -5005,7 +5133,7 @@
    "correct": 0,
    "explanation": "La mayoría de los vecinos votó a favor.",
    "skill": "esc_sentences",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l7_w001",
@@ -5019,7 +5147,7 @@
    "hint": "Sobra una palabra",
    "explanation": "Se dice «pensar que», sin «de».",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l7_w002",
@@ -5093,7 +5221,7 @@
    "dictation": true,
    "word": "No es fácil, sino muy complicado.",
    "skill": "dictation",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l7_d003",
@@ -5128,6 +5256,134 @@
    "step": 3
   },
   {
+   "id": "es_escritura_l7_d005",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Habría venido antes si me hubieras avisado.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Habría venido antes si me hubieras avisado.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l7_d006",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El ciclista se cayó en la última curva.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "El ciclista se cayó en la última curva.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l7_d007",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Estuvimos esperando el autobús más de media hora.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Estuvimos esperando el autobús más de media hora.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l7_d008",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Haya o no haya examen, tengo que estudiar.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Haya o no haya examen, tengo que estudiar.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l7_d009",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El volcán entró en erupción hace dos siglos.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "El volcán entró en erupción hace dos siglos.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l7_d010",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Echa un vistazo a la página veintitrés.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Echa un vistazo a la página veintitrés.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l7_d011",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Todavía no sé si vendrá a la fiesta.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Todavía no sé si vendrá a la fiesta.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l7_d012",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La exposición sobre los vikingos es gratuita.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "La exposición sobre los vikingos es gratuita.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
    "id": "es_escritura_l8_m001",
    "module": "escritura",
    "level": 8,
@@ -5142,7 +5398,7 @@
    "correct": 0,
    "explanation": "Laura es complemento indirecto: le dije.",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l8_m002",
@@ -5159,7 +5415,7 @@
    "correct": 0,
    "explanation": "El libro es lo regalado (CD); a mi primo es CI: le.",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l8_m003",
@@ -5193,7 +5449,7 @@
    "correct": 2,
    "explanation": "El gerundio expresa algo simultáneo o inmediato, no posterior.",
    "skill": "esc_grammar",
-   "step": 2
+   "step": 1
   },
   {
    "id": "es_escritura_l8_m005",
@@ -5244,7 +5500,7 @@
    "correct": 0,
    "explanation": "dónde lleva tilde en la interrogativa indirecta.",
    "skill": "esc_accents",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l8_m008",
@@ -5346,7 +5602,7 @@
    "correct": 3,
    "explanation": "Las comillas pueden marcar una palabra de la que se habla.",
    "skill": "esc_punct",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l8_m014",
@@ -5397,7 +5653,7 @@
    "correct": 0,
    "explanation": "excepción lleva xc y tilde.",
    "skill": "esc_accents",
-   "step": 2
+   "step": 1
   },
   {
    "id": "es_escritura_l8_m017",
@@ -5482,7 +5738,7 @@
    "correct": 3,
    "explanation": "«a menudo» se escribe en dos palabras.",
    "skill": "esc_letters",
-   "step": 2
+   "step": 1
   },
   {
    "id": "es_escritura_l8_m022",
@@ -5715,7 +5971,7 @@
    "dictation": true,
    "word": "Hubo varios heridos en el accidente.",
    "skill": "dictation",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l8_d002",
@@ -5766,6 +6022,134 @@
    "step": 3
   },
   {
+   "id": "es_escritura_l8_d005",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El adolescente expresó su opinión con argumentos sólidos.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "El adolescente expresó su opinión con argumentos sólidos.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l8_d006",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Aprobaron la ley después de un largo debate.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Aprobaron la ley después de un largo debate.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l8_d007",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Prohibieron el tráfico en el centro histórico.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Prohibieron el tráfico en el centro histórico.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l8_d008",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Por más que lo intento, no consigo resolverlo.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Por más que lo intento, no consigo resolverlo.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l8_d009",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Si hubiéramos salido antes, habríamos llegado a tiempo.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Si hubiéramos salido antes, habríamos llegado a tiempo.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l8_d010",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El orador se dirigió al público con serenidad.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "El orador se dirigió al público con serenidad.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l8_d011",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La biodiversidad del humedal está en peligro.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "La biodiversidad del humedal está en peligro.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l8_d012",
+   "module": "escritura",
+   "level": 8,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Envolvieron el regalo con un papel brillante.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Envolvieron el regalo con un papel brillante.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
    "id": "es_escritura_l9_m001",
    "module": "escritura",
    "level": 9,
@@ -5797,7 +6181,7 @@
    "correct": 3,
    "explanation": "Los demostrativos no llevan tilde según la norma actual.",
    "skill": "esc_accents",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l9_m003",
@@ -5814,7 +6198,7 @@
    "correct": 3,
    "explanation": "El infinitivo no puede ser el verbo principal de una oración independiente.",
    "skill": "esc_grammar",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l9_m004",
@@ -6052,7 +6436,7 @@
    "correct": 2,
    "explanation": "exhaustivo lleva x y h: ex-haus-ti-vo.",
    "skill": "esc_letters",
-   "step": 2
+   "step": 1
   },
   {
    "id": "es_escritura_l9_m018",
@@ -6086,7 +6470,7 @@
    "correct": 3,
    "explanation": "«a priori» significa «de antemano».",
    "skill": "esc_grammar",
-   "step": 2
+   "step": 1
   },
   {
    "id": "es_escritura_l9_m020",
@@ -6297,7 +6681,7 @@
    "hint": "Sobra una palabra",
    "explanation": "«mejor» ya es comparativo.",
    "skill": "esc_grammar",
-   "step": 2
+   "step": 1
   },
   {
    "id": "es_escritura_l9_w002",
@@ -6387,7 +6771,7 @@
    "dictation": true,
    "word": "Solo quiero que me expliques el porqué.",
    "skill": "dictation",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_escritura_l9_d004",
@@ -6403,7 +6787,135 @@
    "dictation": true,
    "word": "La exhibición fue espléndida y exuberante.",
    "skill": "dictation",
+   "step": 2
+  },
+  {
+   "id": "es_escritura_l9_d005",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La hipótesis del investigador resultó ser errónea.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "La hipótesis del investigador resultó ser errónea.",
+   "skill": "dictation",
    "step": 3
+  },
+  {
+   "id": "es_escritura_l9_d006",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Cuanto más leas, más vocabulario adquirirás.",
+   "hint": "Tiene 6 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Cuanto más leas, más vocabulario adquirirás.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l9_d007",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "El hecho de que no vinieras nos sorprendió.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "El hecho de que no vinieras nos sorprendió.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l9_d008",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Este acontecimiento supuso un antes y un después.",
+   "hint": "Tiene 8 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Este acontecimiento supuso un antes y un después.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l9_d009",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "La exhaustiva investigación desveló varias incoherencias.",
+   "hint": "Tiene 6 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "La exhaustiva investigación desveló varias incoherencias.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l9_d010",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "No obstante, el tribunal absolvió al acusado.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "No obstante, el tribunal absolvió al acusado.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l9_d011",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Mediante esta técnica se obtiene energía limpia.",
+   "hint": "Tiene 7 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Mediante esta técnica se obtiene energía limpia.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "es_escritura_l9_d012",
+   "module": "escritura",
+   "level": 9,
+   "type": "write",
+   "prompt": "Escucha y escribe la frase",
+   "options": [],
+   "correct": 0,
+   "answer": "Asimismo, conviene revisar la bibliografía.",
+   "hint": "Tiene 5 palabras",
+   "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
+   "dictation": true,
+   "word": "Asimismo, conviene revisar la bibliografía.",
+   "skill": "dictation",
+   "step": 2
   }
  ]
 }
