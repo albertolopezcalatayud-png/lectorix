@@ -1,1 +1,1 @@
-Signed build (versionCode 9, 1.5.0)
+Signed build (versionCode 10, 1.6.0)
