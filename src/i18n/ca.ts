@@ -714,4 +714,16 @@ export const ca: Record<TranslationKey, string> = {
   cefr_note: 'En anglés, els nivells seguixen el Marc Comú Europeu de Referència (MECR): de Pre-A1 a B1+.',
   sk_transfer: 'Paranys habituals de l’anglés',
   sk_transfer_tip: 'A casa: feu una llista de «paranys» (I have 14 years → I am 14; actually = en realitat) i repasseu-la junts.',
+
+  // Error boundary and error report
+  err_title: 'Vaja, alguna cosa no ha eixit bé',
+  err_desc: 'El teu progrés està guardat. Pots tornar-ho a intentar o anar a l’inici.',
+  err_retry: 'Tornar-ho a intentar',
+  err_home: 'Anar a l’inici',
+  err_report_title: 'Informe d’errors',
+  err_report_desc: 'Hi ha {n} errors guardats en este dispositiu. Si alguna cosa ha fallat, pots enviar-los a l’equip de Lectorix: no inclouen dades personals.',
+  err_report_none: 'No s’ha guardat cap error en este dispositiu.',
+  err_copy: 'Enviar o copiar l’informe',
+  err_copied: 'Informe copiat. Apega’l en un missatge per a l’equip de Lectorix.',
+  err_clear: 'Esborrar',
 };

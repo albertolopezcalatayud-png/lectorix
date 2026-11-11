@@ -714,4 +714,16 @@ export const en: Record<TranslationKey, string> = {
   cefr_note: 'English levels follow the Common European Framework (CEFR): from Pre-A1 to B1+.',
   sk_transfer: 'Common traps for Spanish speakers',
   sk_transfer_tip: 'At home: keep a list of traps (I have 14 years → I am 14; actually = en realidad) and review it together.',
+
+  // Error boundary and error report
+  err_title: 'Oops, something went wrong',
+  err_desc: 'Your progress is saved. You can try again or go to the home screen.',
+  err_retry: 'Try again',
+  err_home: 'Go to the home screen',
+  err_report_title: 'Error report',
+  err_report_desc: 'There are {n} errors saved on this device. If something failed, you can send them to the Lectorix team: they contain no personal data.',
+  err_report_none: 'No errors have been saved on this device.',
+  err_copy: 'Send or copy the report',
+  err_copied: 'Report copied. Paste it into a message to the Lectorix team.',
+  err_clear: 'Clear',
 };

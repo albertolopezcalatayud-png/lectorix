@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import type { ReactNode } from 'react';
+import { Suspense, type ReactNode } from 'react';
 
 interface PageTransitionProps {
   children: ReactNode;
@@ -35,7 +35,7 @@ export function PageTransition({ children }: PageTransitionProps) {
       variants={pageVariants}
       transition={pageTransition}
     >
-      {children}
+      <Suspense fallback={<div className="min-h-screen" />}>{children}</Suspense>
     </motion.div>
   );
 }

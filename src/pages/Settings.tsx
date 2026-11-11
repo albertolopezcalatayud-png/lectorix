@@ -1,3 +1,4 @@
+import { ErrorReport } from '@/components/system/ErrorReport';
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAppStore, usePracticeLang, resolvePracticeLang } from '@/stores/useAppStore';
@@ -502,6 +503,9 @@ export default function Settings() {
             {t('set_reset')}
           </button>
         </Card>
+
+        {/* Errors saved on this device */}
+        <ErrorReport />
 
         {/* App info */}
         <div className="text-center text-xs text-fg-muted pt-2">

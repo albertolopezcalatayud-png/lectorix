@@ -1,10 +1,11 @@
-import { lazy, Suspense, useEffect } from 'react';
+import { lazy, Suspense, useEffect, type ReactNode } from 'react';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BottomNav } from '@/components/layout/BottomNav';
 import { OfflineBanner } from '@/components/ui/OfflineBanner';
 import { Onboarding } from '@/components/onboarding/Onboarding';
 import { PageTransition } from '@/components/layout/PageTransition';
+import { ErrorBoundary } from '@/components/system/ErrorBoundary';
 import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
 import { setSpeechLang } from '@/services/tts';
 import { ReadingRuler } from '@/components/reading/ReadingRuler';
@@ -82,6 +83,12 @@ function AnimatedRoutes() {
   );
 }
 
+/** Error boundary that resets when the screen changes */
+function ErrorBoundaryWithRoute({ children }: { children: ReactNode }) {
+  const location = useLocation();
+  return <ErrorBoundary resetKey={location.pathname}>{children}</ErrorBoundary>;
+}
+
 /** The reading ruler is shown only on screens with text to read */
 function RulerHost() {
   const location = useLocation();
@@ -134,9 +141,11 @@ export default function App() {
     <HashRouter>
       <div className="min-h-screen bg-bg text-fg">
         <OfflineBanner />
-        <Suspense fallback={<LoadingSpinner />}>
-          <AnimatedRoutes />
-        </Suspense>
+        <ErrorBoundaryWithRoute>
+          <Suspense fallback={<LoadingSpinner />}>
+            <AnimatedRoutes />
+          </Suspense>
+        </ErrorBoundaryWithRoute>
         <RulerHost />
         <BottomNav />
       </div>

@@ -712,6 +712,18 @@ export const es = {
   cefr_note: 'En inglés, los niveles siguen el Marco Común Europeo de Referencia (MCER): de Pre-A1 a B1+.',
   sk_transfer: 'Trampas habituales del inglés',
   sk_transfer_tip: 'En casa: haced una lista de «trampas» (I have 14 years → I am 14; actually = en realidad) y repasadla juntos.',
+
+  // Error boundary and error report
+  err_title: 'Vaya, algo no ha salido bien',
+  err_desc: 'Tu progreso está guardado. Puedes volver a intentarlo o ir al inicio.',
+  err_retry: 'Volver a intentarlo',
+  err_home: 'Ir al inicio',
+  err_report_title: 'Informe de errores',
+  err_report_desc: 'Hay {n} errores guardados en este dispositivo. Si algo ha fallado, puedes enviárselos al equipo de Lectorix: no incluyen datos personales.',
+  err_report_none: 'No se ha guardado ningún error en este dispositivo.',
+  err_copy: 'Enviar o copiar el informe',
+  err_copied: 'Informe copiado. Pégalo en un mensaje para el equipo de Lectorix.',
+  err_clear: 'Borrar',
 } as const;
 
 export type TranslationKey = keyof typeof es;
