@@ -1,0 +1,47 @@
+Lectorix es una app para practicar la lectura y la escritura cada día con ejercicios cortos. Está pensada especialmente para alumnado de Primaria y Secundaria con dificultades como la dislexia, la disgrafía o problemas de comprensión lectora o de conciencia fonológica.
+
+🧭 EMPIEZA EN TU NIVEL
+Una prueba corta coloca a cada alumno en el nivel que le toca en cada área, desde 1.º de Primaria hasta 4.º de ESO. Los ejercicios se adaptan a cómo responde: si algo cuesta, se repasa; si va bien, sube la dificultad.
+
+📖 LECTURA GUIADA
+Textos que se iluminan palabra a palabra mientras se escuchan. Se puede elegir la velocidad y tocar cualquier palabra para oírla. Al terminar, unas preguntas de comprensión. El alumno elige sus temas favoritos (animales, deporte, espacio, historia…) y la app le propone lecturas de su nivel.
+
+🧚 CUENTOS A TU MEDIDA
+El alumno elige protagonista, lugar y objeto, y la app escribe un cuento de su nivel con sus propias palabras difíciles.
+
+📷 ADAPTAR MIS DEBERES
+Haz una foto a una página del libro o comparte un texto desde otra app, y léelo con sílabas de colores, más espacio, regla de lectura y voz. También genera preguntas para estudiar ese texto.
+
+✍️ ESCRIBE Y ESCÚCHALO
+El alumno escribe, escucha lo que ha escrito y revisa la ortografía sin conexión, con sugerencias para las confusiones típicas (b/v, h, tildes…) y palabras sugeridas mientras escribe.
+
+🎧 DICTADOS
+Cientos de dictados de palabras y frases para las confusiones más habituales. Si hay un error en una frase, la app marca palabra por palabra qué está bien y qué falta.
+
+🧩 CINCO ÁREAS DE TRABAJO
+Fonología, memoria visual, comprensión lectora, escritura y retos rápidos, con nueve niveles en castellano y valenciano y siete en inglés (de Pre-A1 a B1+). Más de 1.300 ejercicios en cada idioma.
+
+📚 MI ESTANTERÍA
+Para apuntar los libros de papel que se leen: cuentan para la racha y para el resumen semanal.
+
+🎤 LECTURA EN VOZ ALTA (OPCIONAL)
+Si la familia la activa, el alumno lee en voz alta y la app marca las palabras que reconoce. Usa el reconocimiento de voz del propio dispositivo, sin conexión, y solo se ofrece si el dispositivo puede hacerlo así. La voz no se graba ni se guarda.
+
+♿ ACCESIBILIDAD
+Tipografía OpenDyslexic opcional, tamaño de letra y espaciado ajustables, modo de alto contraste y lectura en voz alta con la voz del dispositivo.
+
+⭐ MOTIVACIÓN
+Estrellas, puntos, logros, rachas diarias y un búho mascota. Recordatorios opcionales para practicar unos minutos al día.
+
+👨‍👩‍👧 PARA FAMILIAS
+Resumen semanal en lenguaje sencillo (también en árabe, rumano, ucraniano, chino y urdu), mapa de habilidades, informe descargable y una guía para acompañar en casa. Para el alumno, la sección «Entiendo cómo aprendo».
+
+🔒 PRIVACIDAD
+Sin anuncios y sin rastreadores. El progreso se guarda en el propio dispositivo y no hace falta crear una cuenta.
+
+🌍 IDIOMAS
+Castellano, valenciano e inglés británico. Cada idioma tiene sus propios ejercicios, dictados y lecturas, pensados para las dificultades de esa lengua.
+
+Probarla no cuesta nada. Más adelante tendrá planes de suscripción opcionales.
+
+Lectorix es una herramienta de práctica y refuerzo: no es un tratamiento, no hace diagnósticos y no sustituye la valoración ni la intervención de un profesional (logopeda, orientador o psicopedagogo).
