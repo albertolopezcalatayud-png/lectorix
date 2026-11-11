@@ -48,6 +48,8 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <!-- Only for the optional read-aloud check, which the family turns on. Recognition runs on the device; no audio is recorded or stored. -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- The microphone is optional: without it the app works the same, only the read-aloud check is not offered (TVs, tablets without a mic) -->
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
     <queries>
         <intent>
             <action android:name="android.speech.RecognitionService" />
