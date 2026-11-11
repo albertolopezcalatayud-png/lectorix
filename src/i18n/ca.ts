@@ -841,4 +841,25 @@ export const ca: Record<TranslationKey, string> = {
   sh_tip: 'Llegir una estona cada dia, encara que siguen deu minuts, ajuda més que llegir molt de colp. Els llibres amb lletra gran, els còmics i els audiollibres amb el text també compten.',
   wk_paper: 'Lectura en llibres de paper: {min} minuts en els últims 7 dies.',
   wk_paper_done: 'Llibres acabats: {titles}.',
+
+  // Reading interests
+  int_title: 'Què t’agrada llegir?',
+  int_desc: 'Tria els teus temes preferits i et proposarem lectures del teu nivell.',
+  int_for_you: 'Per a tu',
+  int_none: 'Ara mateix no hi ha lectures d’eixos temes prop del teu nivell. Prova amb un altre tema.',
+  topic_animales: 'Animals',
+  topic_deporte: 'Esport',
+  topic_ciencia: 'Ciència',
+  topic_espacio: 'Espai',
+  topic_historia: 'Història',
+  topic_misterio: 'Misteri',
+  topic_tecnologia: 'Tecnologia',
+  topic_naturaleza: 'Natura',
+  topic_arte: 'Art i música',
+  topic_vida: 'Vida quotidiana',
+
+  // How I learn
+  hil_link: 'Entenc com aprenc',
+  hil_family_title: 'Guia per a la família',
+  hil_family_desc: 'Com ajudar a casa i quan parlar amb el centre',
 };

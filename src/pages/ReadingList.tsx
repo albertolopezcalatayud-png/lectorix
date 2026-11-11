@@ -1,8 +1,10 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { useAppStore } from '@/stores/useAppStore';
-import { useReadings, wordCount, readingMinutes } from '@/data/readings';
+import { useAppStore, useLevelCount } from '@/stores/useAppStore';
+import { useReadings, wordCount, readingMinutes, type Reading } from '@/data/readings';
 import { levelNameKey, levelTag } from '@/data/modules';
+import { TOPICS, TOPIC_EMOJI, topicKey, useInterests } from '@/data/topics';
+import { recommendedLevel } from '@/services/review';
 import { usePracticeLang } from '@/stores/useAppStore';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
@@ -15,36 +17,72 @@ export default function ReadingList() {
   const readings = useReadings() ?? [];
   const lang = usePracticeLang();
   const done = new Set(sessionHistory.filter((s) => s.mode === 'reading').map((s) => s.reading_id));
+  const { interests, toggle } = useInterests();
+  const levels = useLevelCount();
+  const progress = useAppStore((s) => s.progress);
+  const isLevelUnlocked = useAppStore((s) => s.isLevelUnlocked);
+  const startLevel = useAppStore((s) => s.startLevel);
+  const rec = recommendedLevel(progress, 'comprension_lectora', levels, isLevelUnlocked, startLevel('comprension_lectora'));
+  // "For you": readings about what the student likes, around their reading level, unread first
+  const forYou = interests.length === 0 ? [] : readings
+    .filter((r) => r.topics?.some((x) => (interests as string[]).includes(x)) && Math.abs(r.level - rec) <= 1)
+    .sort((a, b) => Number(done.has(a.id)) - Number(done.has(b.id)) || Math.abs(a.level - rec) - Math.abs(b.level - rec) || a.level - b.level)
+    .slice(0, 4);
+
+  const Item = ({ r, i }: { r: Reading; i: number }) => (
+    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.04 }}>
+      <Card hover onClick={() => navigate(`/lectura/${r.id}`)}>
+        <div className="flex items-center gap-3">
+          <span className="text-2xl w-11 h-11 rounded-[12px] bg-accent-pale flex items-center justify-center">{r.emoji}</span>
+          <div className="flex-1 min-w-0">
+            <h4 className="font-heading font-extrabold text-sm truncate">{r.title}</h4>
+            <p className="text-xs text-fg-muted">
+              {t('read_meta', { n: wordCount(r), m: readingMinutes(r) })}
+              {r.topics?.length ? <span aria-hidden="true"> · {r.topics.map((x) => TOPIC_EMOJI[x]).join(' ')}</span> : null}
+            </p>
+          </div>
+          {done.has(r.id) ? (
+            <span className="text-[10px] font-bold px-2 py-1 rounded-full bg-mint-pale text-mint">✓ {t('read_completed')}</span>
+          ) : (
+            <span className="text-accent font-extrabold text-sm">→</span>
+          )}
+        </div>
+      </Card>
+    </motion.div>
+  );
 
   return (
     <div className="min-h-screen pb-24">
       <Header title={t('read_title')} showBack />
       <div className="px-4 py-5 max-w-lg mx-auto space-y-6">
         <p className="text-sm text-fg-muted">{t('read_desc')}</p>
+        <Card>
+          <h3 className="font-heading font-extrabold text-sm mb-1">💭 {t('int_title')}</h3>
+          <p className="text-xs text-fg-muted mb-2">{t('int_desc')}</p>
+          <div className="flex flex-wrap gap-1.5">
+            {TOPICS.map((x) => (
+              <button key={x.id} onClick={() => toggle(x.id)} aria-pressed={interests.includes(x.id)}
+                className={`px-3 py-1.5 rounded-full text-xs font-bold border ${interests.includes(x.id) ? 'bg-accent text-white border-accent' : 'bg-bg border-border'}`}>
+                {x.emoji} {t(topicKey(x.id))}
+              </button>
+            ))}
+          </div>
+        </Card>
+        {interests.length > 0 && (
+          <section>
+            <h3 className="font-heading font-extrabold text-sm mb-2.5">✨ {t('int_for_you')}</h3>
+            {forYou.length > 0
+              ? <div className="space-y-2.5">{forYou.map((r, i) => <Item key={r.id} r={r} i={i} />)}</div>
+              : <p className="text-xs text-fg-muted">{t('int_none')}</p>}
+          </section>
+        )}
         {[...new Set(readings.map((r) => r.level))].sort((a, b) => a - b).map((level) => (
           <section key={level}>
             <h3 className="font-heading font-extrabold text-sm mb-2.5">
               {t('dash_level', { level })} · {t(levelNameKey(level))}{levelTag(lang, level)}
             </h3>
             <div className="space-y-2.5">
-              {readings.filter((r) => r.level === level).map((r, i) => (
-                <motion.div key={r.id} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.04 }}>
-                  <Card hover onClick={() => navigate(`/lectura/${r.id}`)}>
-                    <div className="flex items-center gap-3">
-                      <span className="text-2xl w-11 h-11 rounded-[12px] bg-accent-pale flex items-center justify-center">{r.emoji}</span>
-                      <div className="flex-1 min-w-0">
-                        <h4 className="font-heading font-extrabold text-sm truncate">{r.title}</h4>
-                        <p className="text-xs text-fg-muted">{t('read_meta', { n: wordCount(r), m: readingMinutes(r) })}</p>
-                      </div>
-                      {done.has(r.id) ? (
-                        <span className="text-[10px] font-bold px-2 py-1 rounded-full bg-mint-pale text-mint">✓ {t('read_completed')}</span>
-                      ) : (
-                        <span className="text-accent font-extrabold text-sm">→</span>
-                      )}
-                    </div>
-                  </Card>
-                </motion.div>
-              ))}
+              {readings.filter((r) => r.level === level).map((r, i) => <Item key={r.id} r={r} i={i} />)}
             </div>
           </section>
         ))}

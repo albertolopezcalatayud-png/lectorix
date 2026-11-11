@@ -40,6 +40,9 @@
      "correct": 0,
      "explanation": "«It looks like a little bird.»"
     }
+   ],
+   "topics": [
+    "vida"
    ]
   },
   {
@@ -82,6 +85,10 @@
      "correct": 2,
      "explanation": "«A big white duck»"
     }
+   ],
+   "topics": [
+    "animales",
+    "naturaleza"
    ]
   },
   {
@@ -124,6 +131,9 @@
      "correct": 1,
      "explanation": "«He shakes and Dad gets wet too!»"
     }
+   ],
+   "topics": [
+    "vida"
    ]
   },
   {
@@ -165,6 +175,54 @@
      ],
      "correct": 0,
      "explanation": "«a carrot nose»"
+    }
+   ],
+   "topics": [
+    "naturaleza"
+   ]
+  },
+  {
+   "id": "reading_en_l1_moon",
+   "level": 1,
+   "title": "The Moon",
+   "emoji": "🌙",
+   "topics": [
+    "espacio"
+   ],
+   "text": "At night I look at the sky. I can see the Moon. Sometimes it is big and round. Sometimes it looks like a smile. The Moon has no light of its own. It shines because light from the Sun reaches it.",
+   "questions": [
+    {
+     "id": "reading_en_l1_moon_q1",
+     "prompt": "When does the child look at the sky?",
+     "options": [
+      "In the morning",
+      "In the afternoon",
+      "At night"
+     ],
+     "correct": 2,
+     "explanation": "“At night I look at the sky.”"
+    },
+    {
+     "id": "reading_en_l1_moon_q2",
+     "prompt": "What does the Moon sometimes look like?",
+     "options": [
+      "A star",
+      "A smile",
+      "A square"
+     ],
+     "correct": 1,
+     "explanation": "“Sometimes it looks like a smile.”"
+    },
+    {
+     "id": "reading_en_l1_moon_q3",
+     "prompt": "Why does the Moon shine?",
+     "options": [
+      "It has its own light",
+      "Light from the Sun reaches it",
+      "It is made of fire"
+     ],
+     "correct": 1,
+     "explanation": "“It shines because light from the Sun reaches it.”"
     }
    ]
   },
@@ -208,6 +266,10 @@
      "correct": 1,
      "explanation": "«A kind neighbour had put him there»"
     }
+   ],
+   "topics": [
+    "vida",
+    "misterio"
    ]
   },
   {
@@ -250,6 +312,9 @@
      "correct": 0,
      "explanation": "«so the others can follow it»"
     }
+   ],
+   "topics": [
+    "animales"
    ]
   },
   {
@@ -292,6 +357,9 @@
      "correct": 2,
      "explanation": "«Aisha was tired but happy.»"
     }
+   ],
+   "topics": [
+    "animales"
    ]
   },
   {
@@ -333,6 +401,100 @@
      ],
      "correct": 1,
      "explanation": "«drew a big smile on Robo's face»"
+    }
+   ],
+   "topics": [
+    "tecnologia"
+   ]
+  },
+  {
+   "id": "reading_en_l2_match",
+   "level": 2,
+   "title": "Sara’s match",
+   "emoji": "🏀",
+   "topics": [
+    "deporte"
+   ],
+   "text": "Sara plays basketball for her local team. On Saturday they have a big match. At first, Sara misses three shots and feels sad. Her coach says, “Don’t worry, keep trying.” In the last minute, Sara throws the ball from far away. It goes in! Her team wins by two points and everyone hugs her.",
+   "questions": [
+    {
+     "id": "reading_en_l2_match_q1",
+     "prompt": "What sport does Sara play?",
+     "options": [
+      "Football",
+      "Basketball",
+      "Tennis"
+     ],
+     "correct": 1,
+     "explanation": "“Sara plays basketball.”"
+    },
+    {
+     "id": "reading_en_l2_match_q2",
+     "prompt": "What does the coach say?",
+     "options": [
+      "Have a rest",
+      "Keep trying",
+      "Go home"
+     ],
+     "correct": 1,
+     "explanation": "“Don’t worry, keep trying.”"
+    },
+    {
+     "id": "reading_en_l2_match_q3",
+     "prompt": "How many points does her team win by?",
+     "options": [
+      "One",
+      "Two",
+      "Ten"
+     ],
+     "correct": 1,
+     "explanation": "“Her team wins by two points.”"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l2_colours",
+   "level": 2,
+   "title": "Mixing colours",
+   "emoji": "🎨",
+   "topics": [
+    "arte",
+    "ciencia"
+   ],
+   "text": "Today in art we are painting. Our teacher gives us three colours: red, blue and yellow. If I mix blue and yellow, I get green. If I mix red and yellow, I get orange. And red and blue make purple! With only three colours, I can paint a whole rainbow.",
+   "questions": [
+    {
+     "id": "reading_en_l2_colours_q1",
+     "prompt": "How many colours does the teacher give them?",
+     "options": [
+      "Two",
+      "Three",
+      "Seven"
+     ],
+     "correct": 1,
+     "explanation": "“Our teacher gives us three colours.”"
+    },
+    {
+     "id": "reading_en_l2_colours_q2",
+     "prompt": "What do blue and yellow make?",
+     "options": [
+      "Green",
+      "Orange",
+      "Purple"
+     ],
+     "correct": 0,
+     "explanation": "“If I mix blue and yellow, I get green.”"
+    },
+    {
+     "id": "reading_en_l2_colours_q3",
+     "prompt": "What do red and blue make?",
+     "options": [
+      "Brown",
+      "Green",
+      "Purple"
+     ],
+     "correct": 2,
+     "explanation": "“Red and blue make purple!”"
     }
    ]
   },
@@ -376,6 +538,9 @@
      "correct": 2,
      "explanation": "«a pellet of bones and fur that it cannot digest»"
     }
+   ],
+   "topics": [
+    "animales"
    ]
   },
   {
@@ -418,6 +583,9 @@
      "correct": 1,
      "explanation": "«Please look after it.»"
     }
+   ],
+   "topics": [
+    "misterio"
    ]
   },
   {
@@ -460,6 +628,9 @@
      "correct": 0,
      "explanation": "«make a gas, which pushes the foam out»"
     }
+   ],
+   "topics": [
+    "ciencia"
    ]
   },
   {
@@ -501,6 +672,101 @@
      ],
      "correct": 1,
      "explanation": "«more than fifteen litres of water every day»"
+    }
+   ],
+   "topics": [
+    "ciencia",
+    "naturaleza"
+   ]
+  },
+  {
+   "id": "reading_en_l3_planets",
+   "level": 3,
+   "title": "Our neighbourhood: the Solar System",
+   "emoji": "🪐",
+   "topics": [
+    "espacio",
+    "ciencia"
+   ],
+   "text": "The Earth is not alone in space. It is part of the Solar System, which has a star in the middle: the Sun. Eight planets travel around the Sun. The closest is Mercury and the furthest is Neptune.\n\nEvery planet is very different. Jupiter is the biggest of all: more than a thousand Earths could fit inside it. Mars looks reddish because its ground has a lot of rust in it. And the Earth is the only planet where we know there is life.",
+   "questions": [
+    {
+     "id": "reading_en_l3_planets_q1",
+     "prompt": "What is in the middle of the Solar System?",
+     "options": [
+      "The Earth",
+      "The Sun",
+      "The Moon"
+     ],
+     "correct": 1,
+     "explanation": "“It has a star in the middle: the Sun.”"
+    },
+    {
+     "id": "reading_en_l3_planets_q2",
+     "prompt": "Which is the biggest planet?",
+     "options": [
+      "Mars",
+      "Neptune",
+      "Jupiter"
+     ],
+     "correct": 2,
+     "explanation": "“Jupiter is the biggest of all.”"
+    },
+    {
+     "id": "reading_en_l3_planets_q3",
+     "prompt": "Why does Mars look reddish?",
+     "options": [
+      "Because it is very hot",
+      "Because its ground has a lot of rust in it",
+      "Because it is close to the Sun"
+     ],
+     "correct": 1,
+     "explanation": "“Its ground has a lot of rust in it.”"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l3_orchestra",
+   "level": 3,
+   "title": "Instruments of the orchestra",
+   "emoji": "🎻",
+   "topics": [
+    "arte"
+   ],
+   "text": "In an orchestra, many musicians play at the same time, and each one has an instrument. The instruments are put into families.\n\nThe string family has violins, violas, cellos and double basses: they make a sound when you move a bow across the strings. The woodwind and brass families include flutes, clarinets and trumpets: you blow into them. Percussion, like drums and cymbals, makes a sound when you hit it. In front of everyone is the conductor, who keeps the beat with a small stick called a baton.",
+   "questions": [
+    {
+     "id": "reading_en_l3_orchestra_q1",
+     "prompt": "How are the instruments grouped?",
+     "options": [
+      "By colour",
+      "In families",
+      "By size"
+     ],
+     "correct": 1,
+     "explanation": "“The instruments are put into families.”"
+    },
+    {
+     "id": "reading_en_l3_orchestra_q2",
+     "prompt": "How do you play a trumpet?",
+     "options": [
+      "You hit it",
+      "You blow into it",
+      "You move a bow across it"
+     ],
+     "correct": 1,
+     "explanation": "“Flutes, clarinets and trumpets: you blow into them.”"
+    },
+    {
+     "id": "reading_en_l3_orchestra_q3",
+     "prompt": "What does the conductor use to keep the beat?",
+     "options": [
+      "A baton",
+      "A drum",
+      "A flute"
+     ],
+     "correct": 0,
+     "explanation": "“A small stick called a baton.”"
     }
    ]
   },
@@ -544,6 +810,9 @@
      "correct": 1,
      "explanation": "He got an award for sportsmanship."
     }
+   ],
+   "topics": [
+    "deporte"
    ]
   },
   {
@@ -586,6 +855,10 @@
      "correct": 2,
      "explanation": "«more people learned to read»"
     }
+   ],
+   "topics": [
+    "historia",
+    "tecnologia"
    ]
   },
   {
@@ -628,6 +901,9 @@
      "correct": 1,
      "explanation": "She learned stories she had never heard."
     }
+   ],
+   "topics": [
+    "misterio"
    ]
   },
   {
@@ -669,6 +945,56 @@
      ],
      "correct": 1,
      "explanation": "«Planting wild flowers»"
+    }
+   ],
+   "topics": [
+    "animales",
+    "ciencia"
+   ]
+  },
+  {
+   "id": "reading_en_l4_paralympics",
+   "level": 4,
+   "title": "The Paralympic Games",
+   "emoji": "🏅",
+   "topics": [
+    "deporte",
+    "historia"
+   ],
+   "text": "Every four years, after the Olympic Games, the Paralympic Games take place. Athletes with a physical, visual or intellectual disability compete in them.\n\nThe first Paralympic Games were held in Rome in 1960. The idea started in a hospital in England, where a doctor called Ludwig Guttmann used sport to help soldiers who had been injured in the war to get better.\n\nToday there are sports like wheelchair basketball, swimming and goalball, a game for blind and partially sighted players in which the ball has bells inside. Paralympic athletes show that talent and hard work have no limits.",
+   "questions": [
+    {
+     "id": "reading_en_l4_paralympics_q1",
+     "prompt": "When do the Paralympic Games take place?",
+     "options": [
+      "Before the Olympic Games",
+      "After the Olympic Games",
+      "Every year"
+     ],
+     "correct": 1,
+     "explanation": "“After the Olympic Games, the Paralympic Games take place.”"
+    },
+    {
+     "id": "reading_en_l4_paralympics_q2",
+     "prompt": "Where were the first Paralympic Games held?",
+     "options": [
+      "In London",
+      "In Rome",
+      "In Madrid"
+     ],
+     "correct": 1,
+     "explanation": "“The first Paralympic Games were held in Rome in 1960.”"
+    },
+    {
+     "id": "reading_en_l4_paralympics_q3",
+     "prompt": "What is special about the ball in goalball?",
+     "options": [
+      "It is very big",
+      "It has bells inside",
+      "It is made of wood"
+     ],
+     "correct": 1,
+     "explanation": "“The ball has bells inside.”"
     }
    ]
   },
@@ -712,6 +1038,9 @@
      "correct": 2,
      "explanation": "«your brain sorts and strengthens what you learned»"
     }
+   ],
+   "topics": [
+    "ciencia"
    ]
   },
   {
@@ -754,6 +1083,10 @@
      "correct": 0,
      "explanation": "«the Sun rises in line with the stones»"
     }
+   ],
+   "topics": [
+    "historia",
+    "misterio"
    ]
   },
   {
@@ -796,6 +1129,9 @@
      "correct": 2,
      "explanation": "«read them and decided to build on an empty car park instead»"
     }
+   ],
+   "topics": [
+    "naturaleza"
    ]
   },
   {
@@ -837,6 +1173,101 @@
      ],
      "correct": 1,
      "explanation": "The text explains the origins of English words."
+    }
+   ],
+   "topics": [
+    "historia"
+   ]
+  },
+  {
+   "id": "reading_en_l5_iss",
+   "level": 5,
+   "title": "A house in space",
+   "emoji": "🛰️",
+   "topics": [
+    "espacio",
+    "tecnologia"
+   ],
+   "text": "About 400 kilometres above our heads, a huge spacecraft is travelling around the Earth: the International Space Station. People have lived on it all the time since the year 2000. Several countries built it together, piece by piece, like a giant construction kit.\n\nThe station moves so fast that it goes all the way around the Earth in about ninety minutes. That is why astronauts see about sixteen sunrises every day. Up there, everything floats: astronauts sleep in sleeping bags fixed to the wall, drink through straws from closed bags and exercise for about two hours a day so that their muscles and bones do not get weaker.\n\nScientists on the station do experiments that would be impossible on Earth.",
+   "questions": [
+    {
+     "id": "reading_en_l5_iss_q1",
+     "prompt": "Since when have people lived on the station all the time?",
+     "options": [
+      "Since 1969",
+      "Since 2000",
+      "Since last year"
+     ],
+     "correct": 1,
+     "explanation": "“People have lived on it all the time since the year 2000.”"
+    },
+    {
+     "id": "reading_en_l5_iss_q2",
+     "prompt": "How long does it take to go around the Earth?",
+     "options": [
+      "A day",
+      "About ninety minutes",
+      "A week"
+     ],
+     "correct": 1,
+     "explanation": "“It goes all the way around the Earth in about ninety minutes.”"
+    },
+    {
+     "id": "reading_en_l5_iss_q3",
+     "prompt": "Why do the astronauts exercise?",
+     "options": [
+      "So they do not get bored",
+      "So that their muscles and bones do not get weaker",
+      "To win a race"
+     ],
+     "correct": 1,
+     "explanation": "“So that their muscles and bones do not get weaker.”"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l5_sorolla",
+   "level": 5,
+   "title": "Sorolla, the painter of light",
+   "emoji": "🖼️",
+   "topics": [
+    "arte",
+    "historia"
+   ],
+   "text": "Joaquín Sorolla was born in Valencia, in Spain, in 1863. He loved drawing from a young age, and he became one of the most famous Spanish painters of his time.\n\nPeople call Sorolla “the painter of light”. He liked painting outdoors, especially on the beaches of Valencia: children swimming, fishermen, boats and white sails blowing in the wind. He painted quickly, with loose brushstrokes, to catch the sunlight before it changed.\n\nToday you can see many of his paintings at the Sorolla Museum in Madrid, which used to be his home. When you look at them, you can almost hear the sea and feel the summer heat.",
+   "questions": [
+    {
+     "id": "reading_en_l5_sorolla_q1",
+     "prompt": "Where was Sorolla born?",
+     "options": [
+      "In Madrid",
+      "In Valencia",
+      "In London"
+     ],
+     "correct": 1,
+     "explanation": "“Joaquín Sorolla was born in Valencia.”"
+    },
+    {
+     "id": "reading_en_l5_sorolla_q2",
+     "prompt": "Why did he paint quickly?",
+     "options": [
+      "Because he was hungry",
+      "To catch the sunlight before it changed",
+      "Because he did not like painting"
+     ],
+     "correct": 1,
+     "explanation": "“To catch the sunlight before it changed.”"
+    },
+    {
+     "id": "reading_en_l5_sorolla_q3",
+     "prompt": "What was the Sorolla Museum before?",
+     "options": [
+      "A school",
+      "His home",
+      "A beach café"
+     ],
+     "correct": 1,
+     "explanation": "“The Sorolla Museum in Madrid, which used to be his home.”"
     }
    ]
   },
@@ -907,6 +1338,9 @@
      "correct": 1,
      "explanation": "Last sentence."
     }
+   ],
+   "topics": [
+    "vida"
    ]
   },
   {
@@ -975,6 +1409,157 @@
      ],
      "correct": 2,
      "explanation": "Last sentence."
+    }
+   ],
+   "topics": [
+    "historia",
+    "tecnologia",
+    "arte"
+   ]
+  },
+  {
+   "id": "reading_en_l6_sleep",
+   "level": 6,
+   "title": "Sleep is training too",
+   "emoji": "😴",
+   "topics": [
+    "deporte",
+    "ciencia",
+    "vida"
+   ],
+   "text": "Many top athletes have something in common that you cannot see in competitions: they take sleep very seriously. They know that while we sleep, the body repairs our muscles, gets our energy back and stores what we have learnt during the day, whether it is a new skill or a maths lesson.\n\nExperts recommend that teenagers sleep between eight and ten hours a night. However, many of them do not. One reason is screens: the light from a phone at night tricks the brain, which delays the feeling of sleepiness, and messages and videos keep us awake for “just five more minutes”.\n\nNot getting enough sleep has consequences. It is harder to concentrate, we get annoyed more easily, we perform worse at sport and the risk of injury goes up.\n\nA few simple tips can help: go to bed and get up at the same time, leave your phone outside the bedroom and avoid hard exercise just before bed. Sleeping well is not a waste of time: it is part of your training.",
+   "questions": [
+    {
+     "id": "reading_en_l6_sleep_q1",
+     "prompt": "According to the text, what does the body do while we sleep?",
+     "options": [
+      "It only rests the eyes",
+      "It repairs muscles and stores what we have learnt",
+      "It burns all our food",
+      "The brain stops working"
+     ],
+     "correct": 1,
+     "explanation": "“The body repairs our muscles, gets our energy back and stores what we have learnt.”"
+    },
+    {
+     "id": "reading_en_l6_sleep_q2",
+     "prompt": "How many hours of sleep are recommended for teenagers?",
+     "options": [
+      "Five to six",
+      "Six to seven",
+      "Eight to ten",
+      "Twelve or more"
+     ],
+     "correct": 2,
+     "explanation": "“Between eight and ten hours a night.”"
+    },
+    {
+     "id": "reading_en_l6_sleep_q3",
+     "prompt": "Why does phone light make it harder to fall asleep?",
+     "options": [
+      "Because it is noisy",
+      "Because it tricks the brain and delays sleepiness",
+      "Because it heats the room",
+      "Because it uses the battery"
+     ],
+     "correct": 1,
+     "explanation": "“It tricks the brain, which delays the feeling of sleepiness.”"
+    },
+    {
+     "id": "reading_en_l6_sleep_q4",
+     "prompt": "Which of these is NOT a consequence of too little sleep, according to the text?",
+     "options": [
+      "It is harder to concentrate",
+      "The risk of injury goes up",
+      "We grow faster",
+      "We perform worse at sport"
+     ],
+     "correct": 2,
+     "explanation": "The text says nothing about growing faster."
+    },
+    {
+     "id": "reading_en_l6_sleep_q5",
+     "prompt": "What does the last sentence mean?",
+     "options": [
+      "Sleeping is boring",
+      "Rest is part of getting ready to perform",
+      "You should train at night",
+      "Athletes do not sleep much"
+     ],
+     "correct": 1,
+     "explanation": "“It is part of your training.”"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l6_ai",
+   "level": 6,
+   "title": "Do machines think?",
+   "emoji": "🤖",
+   "topics": [
+    "tecnologia"
+   ],
+   "text": "Today we talk to voice assistants, get video recommendations and translate texts in seconds thanks to artificial intelligence (AI). Some programs can write essays or create pictures from a single sentence. With such surprising results, it is easy to wonder whether these machines think like us.\n\nMost experts give a more careful answer. These systems learn by analysing huge amounts of data and finding patterns: which word usually comes after another, or what a cat looks like in thousands of photos. That is why their answers can sound very convincing. However, they do not have experiences or understand the world the way people do. And sometimes they are completely wrong while sounding completely sure.\n\nThat is why we should use them critically. An AI can help us organise ideas or revise, but if we let it do all the work, we do not learn. We also need to check the information it gives us, just as we would with any website.\n\nAI is a powerful tool. Whether it makes us better or lazier depends largely on how we choose to use it.",
+   "questions": [
+    {
+     "id": "reading_en_l6_ai_q1",
+     "prompt": "According to the text, how do these systems learn?",
+     "options": [
+      "By reading people’s minds",
+      "By analysing lots of data and finding patterns",
+      "By going to school",
+      "By copying other machines"
+     ],
+     "correct": 1,
+     "explanation": "“These systems learn by analysing huge amounts of data and finding patterns.”"
+    },
+    {
+     "id": "reading_en_l6_ai_q2",
+     "prompt": "What do most experts think?",
+     "options": [
+      "They think just like us",
+      "They do not understand the world the way people do",
+      "They are never wrong",
+      "They have feelings"
+     ],
+     "correct": 1,
+     "explanation": "“They do not have experiences or understand the world the way people do.”"
+    },
+    {
+     "id": "reading_en_l6_ai_q3",
+     "prompt": "What problem does the text mention?",
+     "options": [
+      "They are very slow",
+      "They can be wrong while sounding sure",
+      "They only work in Spanish",
+      "They cannot be used at home"
+     ],
+     "correct": 1,
+     "explanation": "“Sometimes they are completely wrong while sounding completely sure.”"
+    },
+    {
+     "id": "reading_en_l6_ai_q4",
+     "prompt": "What does the text recommend?",
+     "options": [
+      "Never using them",
+      "Using them critically and checking the information",
+      "Letting them do your homework",
+      "Believing everything they say"
+     ],
+     "correct": 1,
+     "explanation": "“We should use them critically.”"
+    },
+    {
+     "id": "reading_en_l6_ai_q5",
+     "prompt": "What kind of text is this?",
+     "options": [
+      "A fairy tale",
+      "A text that gives arguments and asks us to think",
+      "A recipe",
+      "A poem"
+     ],
+     "correct": 1,
+     "explanation": "It asks a question, gives arguments and ends with a reflection."
     }
    ]
   },
@@ -1045,6 +1630,9 @@
      "correct": 0,
      "explanation": "It contrasts a planned year with a year doing nothing."
     }
+   ],
+   "topics": [
+    "vida"
    ]
   },
   {
@@ -1113,6 +1701,156 @@
      ],
      "correct": 3,
      "explanation": "Last sentence."
+    }
+   ],
+   "topics": [
+    "historia",
+    "tecnologia"
+   ]
+  },
+  {
+   "id": "reading_en_l7_mars",
+   "level": 7,
+   "title": "Was there water on Mars?",
+   "emoji": "🔴",
+   "topics": [
+    "espacio",
+    "ciencia"
+   ],
+   "text": "Seen from Earth, Mars is a reddish dot in the sky. Close up, it is a cold, dusty desert, with an atmosphere so thin that we could not breathe in it. And yet scientists are convinced that billions of years ago, rivers flowed across its surface and there were lakes.\n\nHow do they know? Photos taken by satellites show dry river beds, deltas and rocks that only form when there is water. Also, there are ice caps at the poles of Mars, and more ice has been found under the ground.\n\nLiquid water cannot stay on the surface for long today: the air pressure is so low that it would quickly turn into gas or freeze. That is why robot explorers look for clues from the past. The Perseverance rover landed in 2021 in Jezero Crater, where there was once a lake, to collect rock samples that could be brought back to Earth in the future.\n\nThe big question is still open: if Mars had water, did it ever have life? Finding the answer could change what we know about our place in the universe.",
+   "questions": [
+    {
+     "id": "reading_en_l7_mars_q1",
+     "prompt": "What is the surface of Mars like today?",
+     "options": [
+      "A warm ocean",
+      "A cold, dusty desert",
+      "A rainforest",
+      "A green field"
+     ],
+     "correct": 1,
+     "explanation": "“It is a cold, dusty desert.”"
+    },
+    {
+     "id": "reading_en_l7_mars_q2",
+     "prompt": "What evidence shows there was water?",
+     "options": [
+      "Mars looks red",
+      "Dry river beds, deltas and rocks that form with water",
+      "It has a thin atmosphere",
+      "It is far from the Sun"
+     ],
+     "correct": 1,
+     "explanation": "“Dry river beds, deltas and rocks that only form when there is water.”"
+    },
+    {
+     "id": "reading_en_l7_mars_q3",
+     "prompt": "Why can’t liquid water stay on the surface for long?",
+     "options": [
+      "There are too many robots",
+      "The air pressure is very low",
+      "There is too much oxygen",
+      "There is never any wind"
+     ],
+     "correct": 1,
+     "explanation": "“The air pressure is so low that it would quickly turn into gas or freeze.”"
+    },
+    {
+     "id": "reading_en_l7_mars_q4",
+     "prompt": "Why did Perseverance go to Jezero Crater?",
+     "options": [
+      "To look for gold",
+      "To build a base",
+      "To collect rock samples where there was a lake",
+      "To take photos of the Earth"
+     ],
+     "correct": 2,
+     "explanation": "“To collect rock samples.”"
+    },
+    {
+     "id": "reading_en_l7_mars_q5",
+     "prompt": "What is “the big question” at the end?",
+     "options": [
+      "Whether Mars is red",
+      "Whether Mars ever had life",
+      "When the next robot will arrive",
+      "Whether there is ice at the poles"
+     ],
+     "correct": 1,
+     "explanation": "“If Mars had water, did it ever have life?”"
+    }
+   ]
+  },
+  {
+   "id": "reading_en_l7_guernica",
+   "level": 7,
+   "title": "Guernica: a painted scream",
+   "emoji": "🖤",
+   "topics": [
+    "arte",
+    "historia"
+   ],
+   "text": "On 26 April 1937, during the Spanish Civil War, German and Italian planes supporting General Franco’s forces bombed the Basque town of Gernika. It was market day. Much of the town was destroyed and many civilians were killed; historians still discuss the exact number.\n\nAt the time, Pablo Picasso was living in Paris. He had been asked to paint a mural for the Spanish Republic’s pavilion at that year’s International Exhibition. Shocked by the news, he decided that his work would show the horror of the bombing. In just over a month, he painted a canvas almost eight metres wide.\n\nGuernica does not show planes or explosions. Instead, there are twisted figures: a mother screaming with her dead child in her arms, an injured horse, a bull and a light bulb that looks like an eye. Picasso used only black, white and grey, like the photos in the newspapers.\n\nPicasso did not want the painting to go to Spain until democracy returned. It finally arrived in 1981. Today it hangs in the Reina Sofía Museum in Madrid and has become a symbol against war all over the world.",
+   "questions": [
+    {
+     "id": "reading_en_l7_guernica_q1",
+     "prompt": "What happened on 26 April 1937?",
+     "options": [
+      "A museum opened",
+      "The town of Gernika was bombed",
+      "Picasso moved to Paris",
+      "The war ended"
+     ],
+     "correct": 1,
+     "explanation": "“Planes … bombed the Basque town of Gernika.”"
+    },
+    {
+     "id": "reading_en_l7_guernica_q2",
+     "prompt": "What was the painting made for?",
+     "options": [
+      "Picasso’s house in Paris",
+      "The Spanish Republic’s pavilion at the International Exhibition",
+      "Gernika town hall",
+      "The Prado Museum"
+     ],
+     "correct": 1,
+     "explanation": "“A mural for the Spanish Republic’s pavilion at that year’s International Exhibition.”"
+    },
+    {
+     "id": "reading_en_l7_guernica_q3",
+     "prompt": "What does the text compare the colours of the painting to?",
+     "options": [
+      "Newspaper photos",
+      "The Spanish flag",
+      "The sea at night",
+      "The colours of the market"
+     ],
+     "correct": 0,
+     "explanation": "“Like the photos in the newspapers.”"
+    },
+    {
+     "id": "reading_en_l7_guernica_q4",
+     "prompt": "When did Guernica arrive in Spain?",
+     "options": [
+      "In 1937",
+      "In 1981",
+      "In 1992",
+      "In 2000"
+     ],
+     "correct": 1,
+     "explanation": "“It finally arrived in 1981.”"
+    },
+    {
+     "id": "reading_en_l7_guernica_q5",
+     "prompt": "Why has it become a symbol?",
+     "options": [
+      "It is the most expensive painting",
+      "It shows the horror of war in a way everyone understands",
+      "It is very colourful",
+      "It is very small"
+     ],
+     "correct": 1,
+     "explanation": "“It has become a symbol against war all over the world.”"
     }
    ]
   }

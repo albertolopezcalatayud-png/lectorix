@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAppStore, useLevelCount, usePracticeLang } from '@/stores/useAppStore';
 import { calculateXPLevel } from '@/services/gamification';
@@ -17,6 +18,7 @@ import { useExerciseIndex, skillStats } from '@/services/skills';
 import { skillNameKey } from '@/data/skills';
 
 export default function ParentPanel() {
+  const navigate = useNavigate();
   const user = useAppStore((s) => s.user);
   const levelCount = useLevelCount();
   const progress = useAppStore((s) => s.progress);
@@ -102,6 +104,18 @@ export default function ParentPanel() {
             <WeeklySummary />
           </div>
         </motion.div>
+
+        {/* Family guide */}
+        <Card hover onClick={() => navigate('/guia-familias')} className="border-sky/30">
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">🧭</span>
+            <div className="flex-1">
+              <h3 className="font-heading font-extrabold text-sm">{t('hil_family_title')}</h3>
+              <p className="text-xs text-fg-muted">{t('hil_family_desc')}</p>
+            </div>
+            <span className="text-accent font-extrabold">→</span>
+          </div>
+        </Card>
 
         {/* Global stats */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>

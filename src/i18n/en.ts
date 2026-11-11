@@ -841,4 +841,25 @@ export const en: Record<TranslationKey, string> = {
   sh_tip: 'Reading a little every day, even ten minutes, helps more than reading a lot at once. Large-print books, comics and audiobooks followed with the text also count.',
   wk_paper: 'Reading paper books: {min} minutes in the last 7 days.',
   wk_paper_done: 'Books finished: {titles}.',
+
+  // Reading interests
+  int_title: 'What do you like reading about?',
+  int_desc: 'Choose your favourite topics and we will suggest readings at your level.',
+  int_for_you: 'For you',
+  int_none: 'There are no readings on those topics near your level right now. Try another topic.',
+  topic_animales: 'Animals',
+  topic_deporte: 'Sport',
+  topic_ciencia: 'Science',
+  topic_espacio: 'Space',
+  topic_historia: 'History',
+  topic_misterio: 'Mystery',
+  topic_tecnologia: 'Technology',
+  topic_naturaleza: 'Nature',
+  topic_arte: 'Art and music',
+  topic_vida: 'Everyday life',
+
+  // How I learn
+  hil_link: 'How I learn',
+  hil_family_title: 'Guide for families',
+  hil_family_desc: 'How to help at home and when to talk to the school',
 };

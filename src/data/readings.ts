@@ -16,6 +16,8 @@ export interface Reading {
   level: number;
   title: string;
   emoji: string;
+  /** Interests the reading is about (see src/data/topics.ts) */
+  topics?: string[];
   text: string;
   questions: ReadingQuestion[];
 }

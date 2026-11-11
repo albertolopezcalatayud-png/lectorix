@@ -139,6 +139,14 @@ export default function Profile() {
             <span className="ml-auto text-fg-muted">→</span>
           </button>
           <button
+            onClick={() => navigate('/como-aprendo')}
+            className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
+          >
+            <span>🧠</span>
+            <span className="text-sm font-bold">{t('hil_link')}</span>
+            <span className="ml-auto text-fg-muted">→</span>
+          </button>
+          <button
             onClick={() => navigate('/historial')}
             className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
           >

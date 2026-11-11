@@ -18,3 +18,6 @@ b.save('lectures.ca.json')
 # Skill and step (difficulty inside the level) for every exercise
 import tag_items
 tag_items.tag_lang('ca')
+
+import interests
+interests.apply('ca')

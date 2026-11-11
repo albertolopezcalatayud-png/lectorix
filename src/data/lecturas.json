@@ -40,6 +40,10 @@
      "correct": 2,
      "explanation": "«Por la noche, duerme en su cama.»"
     }
+   ],
+   "topics": [
+    "animales",
+    "vida"
    ]
   },
   {
@@ -82,6 +86,10 @@
      "correct": 2,
      "explanation": "«Yo llevo mi cubo y mi pala.»"
     }
+   ],
+   "topics": [
+    "naturaleza",
+    "vida"
    ]
   },
   {
@@ -124,6 +132,9 @@
      "correct": 2,
      "explanation": "«Yo le regalo un dibujo de un caballo.»"
     }
+   ],
+   "topics": [
+    "vida"
    ]
   },
   {
@@ -165,6 +176,55 @@
      ],
      "correct": 2,
      "explanation": "«Cuando sale el sol, veo un arcoíris en el cielo.»"
+    }
+   ],
+   "topics": [
+    "naturaleza",
+    "ciencia"
+   ]
+  },
+  {
+   "id": "lectura_l1_luna_cielo",
+   "level": 1,
+   "title": "La Luna",
+   "emoji": "🌙",
+   "topics": [
+    "espacio"
+   ],
+   "text": "Por la noche miro el cielo. Veo la Luna. A veces es redonda y grande. Otras veces parece una sonrisa. La Luna no tiene luz propia. Brilla porque le llega la luz del Sol.",
+   "questions": [
+    {
+     "id": "lectura_l1_luna_cielo_q1",
+     "prompt": "¿Cuándo mira el cielo?",
+     "options": [
+      "Por la mañana",
+      "Por la tarde",
+      "Por la noche"
+     ],
+     "correct": 2,
+     "explanation": "«Por la noche miro el cielo.»"
+    },
+    {
+     "id": "lectura_l1_luna_cielo_q2",
+     "prompt": "¿Qué parece la Luna a veces?",
+     "options": [
+      "Una estrella",
+      "Una sonrisa",
+      "Un cuadrado"
+     ],
+     "correct": 1,
+     "explanation": "«Otras veces parece una sonrisa.»"
+    },
+    {
+     "id": "lectura_l1_luna_cielo_q3",
+     "prompt": "¿Por qué brilla la Luna?",
+     "options": [
+      "Porque tiene luz propia",
+      "Porque le llega la luz del Sol",
+      "Porque es de fuego"
+     ],
+     "correct": 1,
+     "explanation": "«Brilla porque le llega la luz del Sol.»"
     }
    ]
   },
@@ -208,6 +268,9 @@
      "correct": 1,
      "explanation": "«El tesoro es una caja llena de caramelos.»"
     }
+   ],
+   "topics": [
+    "vida"
    ]
   },
   {
@@ -250,6 +313,9 @@
      "correct": 0,
      "explanation": "«Como es generosa, invita a la cigarra a comer con ella.»"
     }
+   ],
+   "topics": [
+    "animales"
    ]
   },
   {
@@ -292,6 +358,9 @@
      "correct": 0,
      "explanation": "«Volví a casa cansado, pero muy contento.»"
     }
+   ],
+   "topics": [
+    "animales"
    ]
   },
   {
@@ -333,6 +402,100 @@
      ],
      "correct": 2,
      "explanation": "«Su hermano pequeño le pintó una sonrisa.»"
+    }
+   ],
+   "topics": [
+    "tecnologia"
+   ]
+  },
+  {
+   "id": "lectura_l2_baloncesto",
+   "level": 2,
+   "title": "El partido de Sara",
+   "emoji": "🏀",
+   "topics": [
+    "deporte"
+   ],
+   "text": "Sara juega al baloncesto en el equipo del barrio. El sábado tienen un partido importante. Al principio, Sara falla tres tiros y se pone triste. Su entrenador le dice: «No pasa nada, sigue intentándolo». En el último minuto, Sara lanza el balón desde lejos. ¡Canasta! Su equipo gana por dos puntos y todos la abrazan.",
+   "questions": [
+    {
+     "id": "lectura_l2_baloncesto_q1",
+     "prompt": "¿A qué juega Sara?",
+     "options": [
+      "Al fútbol",
+      "Al baloncesto",
+      "Al tenis"
+     ],
+     "correct": 1,
+     "explanation": "«Sara juega al baloncesto.»"
+    },
+    {
+     "id": "lectura_l2_baloncesto_q2",
+     "prompt": "¿Qué le dice el entrenador?",
+     "options": [
+      "Que descanse",
+      "Que siga intentándolo",
+      "Que se vaya a casa"
+     ],
+     "correct": 1,
+     "explanation": "«No pasa nada, sigue intentándolo.»"
+    },
+    {
+     "id": "lectura_l2_baloncesto_q3",
+     "prompt": "¿Por cuántos puntos gana su equipo?",
+     "options": [
+      "Por uno",
+      "Por dos",
+      "Por diez"
+     ],
+     "correct": 1,
+     "explanation": "«Su equipo gana por dos puntos.»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_l2_colores",
+   "level": 2,
+   "title": "Mezclo colores",
+   "emoji": "🎨",
+   "topics": [
+    "arte",
+    "ciencia"
+   ],
+   "text": "Hoy en clase de plástica pintamos con témperas. La maestra nos trae tres colores: rojo, azul y amarillo. Si mezclo azul y amarillo, sale verde. Si mezclo rojo y amarillo, sale naranja. Y con rojo y azul, ¡sale morado! Con solo tres colores puedo pintar un arcoíris entero.",
+   "questions": [
+    {
+     "id": "lectura_l2_colores_q1",
+     "prompt": "¿Con qué pintan?",
+     "options": [
+      "Con lápices",
+      "Con témperas",
+      "Con ceras"
+     ],
+     "correct": 1,
+     "explanation": "«Pintamos con témperas.»"
+    },
+    {
+     "id": "lectura_l2_colores_q2",
+     "prompt": "¿Qué color sale al mezclar azul y amarillo?",
+     "options": [
+      "Verde",
+      "Naranja",
+      "Morado"
+     ],
+     "correct": 0,
+     "explanation": "«Si mezclo azul y amarillo, sale verde.»"
+    },
+    {
+     "id": "lectura_l2_colores_q3",
+     "prompt": "¿Qué sale con rojo y azul?",
+     "options": [
+      "Marrón",
+      "Verde",
+      "Morado"
+     ],
+     "correct": 2,
+     "explanation": "«Y con rojo y azul, ¡sale morado!»"
     }
    ]
   },
@@ -376,6 +539,10 @@
      "correct": 0,
      "explanation": "Al ir de flor en flor transportan el polen y así las plantas pueden reproducirse."
     }
+   ],
+   "topics": [
+    "animales",
+    "ciencia"
    ]
   },
   {
@@ -418,6 +585,10 @@
      "correct": 2,
      "explanation": "«Le llevaron una cesta de pescado para darle las gracias.»"
     }
+   ],
+   "topics": [
+    "misterio",
+    "naturaleza"
    ]
   },
   {
@@ -460,6 +631,9 @@
      "correct": 1,
      "explanation": "«En lo alto de una torre, encontró la página perdida.»"
     }
+   ],
+   "topics": [
+    "misterio"
    ]
   },
   {
@@ -501,6 +675,101 @@
      ],
      "correct": 0,
      "explanation": "«Debemos cerrar el grifo mientras nos lavamos los dientes.»"
+    }
+   ],
+   "topics": [
+    "ciencia",
+    "naturaleza"
+   ]
+  },
+  {
+   "id": "lectura_l3_planetas",
+   "level": 3,
+   "title": "Nuestro vecindario: el sistema solar",
+   "emoji": "🪐",
+   "topics": [
+    "espacio",
+    "ciencia"
+   ],
+   "text": "La Tierra no está sola en el espacio. Forma parte del sistema solar, que tiene en el centro una estrella: el Sol. Alrededor del Sol giran ocho planetas. El más cercano es Mercurio, y el más lejano, Neptuno.\n\nCada planeta es muy diferente. Júpiter es el más grande de todos: dentro de él cabrían más de mil planetas como el nuestro. Marte se ve rojizo porque su suelo tiene mucho óxido de hierro. Y la Tierra es el único planeta donde sabemos que hay vida.",
+   "questions": [
+    {
+     "id": "lectura_l3_planetas_q1",
+     "prompt": "¿Qué hay en el centro del sistema solar?",
+     "options": [
+      "La Tierra",
+      "El Sol",
+      "La Luna"
+     ],
+     "correct": 1,
+     "explanation": "«Tiene en el centro una estrella: el Sol.»"
+    },
+    {
+     "id": "lectura_l3_planetas_q2",
+     "prompt": "¿Cuál es el planeta más grande?",
+     "options": [
+      "Marte",
+      "Neptuno",
+      "Júpiter"
+     ],
+     "correct": 2,
+     "explanation": "«Júpiter es el más grande de todos.»"
+    },
+    {
+     "id": "lectura_l3_planetas_q3",
+     "prompt": "¿Por qué Marte se ve rojizo?",
+     "options": [
+      "Porque hace mucho calor",
+      "Porque su suelo tiene mucho óxido de hierro",
+      "Porque está cerca del Sol"
+     ],
+     "correct": 1,
+     "explanation": "«Su suelo tiene mucho óxido de hierro.»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_l3_orquesta",
+   "level": 3,
+   "title": "Los instrumentos de la orquesta",
+   "emoji": "🎻",
+   "topics": [
+    "arte"
+   ],
+   "text": "En una orquesta tocan muchos músicos a la vez, y cada uno tiene su instrumento. Los instrumentos se agrupan en familias.\n\nLa familia de cuerda tiene violines, violas, violonchelos y contrabajos: suenan cuando se frotan sus cuerdas con un arco. La familia de viento incluye flautas, clarinetes y trompetas: suenan al soplar. La percusión, con tambores y platillos, suena al golpearla. Delante de todos está el director, que marca el ritmo con una batuta.",
+   "questions": [
+    {
+     "id": "lectura_l3_orquesta_q1",
+     "prompt": "¿Cómo se agrupan los instrumentos?",
+     "options": [
+      "Por colores",
+      "En familias",
+      "Por tamaños"
+     ],
+     "correct": 1,
+     "explanation": "«Los instrumentos se agrupan en familias.»"
+    },
+    {
+     "id": "lectura_l3_orquesta_q2",
+     "prompt": "¿Cómo suenan los instrumentos de viento?",
+     "options": [
+      "Al golpearlos",
+      "Al soplar",
+      "Al frotar sus cuerdas"
+     ],
+     "correct": 1,
+     "explanation": "«Suenan al soplar.»"
+    },
+    {
+     "id": "lectura_l3_orquesta_q3",
+     "prompt": "¿Qué usa el director para marcar el ritmo?",
+     "options": [
+      "Una batuta",
+      "Un tambor",
+      "Una flauta"
+     ],
+     "correct": 0,
+     "explanation": "«Marca el ritmo con una batuta.»"
     }
    ]
   },
@@ -544,6 +813,10 @@
      "correct": 0,
      "explanation": "«Crean tierras nuevas y suelos muy fértiles para la agricultura.»"
     }
+   ],
+   "topics": [
+    "ciencia",
+    "naturaleza"
    ]
   },
   {
@@ -586,6 +859,9 @@
      "correct": 2,
      "explanation": "«El director le dio un premio especial al compañerismo.»"
     }
+   ],
+   "topics": [
+    "deporte"
    ]
   },
   {
@@ -628,6 +904,10 @@
      "correct": 0,
      "explanation": "«Los libros se abarataron [...] y cada vez más gente aprendió a leer.»"
     }
+   ],
+   "topics": [
+    "historia",
+    "tecnologia"
    ]
   },
   {
@@ -669,6 +949,55 @@
      ],
      "correct": 0,
      "explanation": "«Era de su abuela, cuando tenía su edad.»"
+    }
+   ],
+   "topics": [
+    "misterio"
+   ]
+  },
+  {
+   "id": "lectura_l4_paralimpicos",
+   "level": 4,
+   "title": "Los Juegos Paralímpicos",
+   "emoji": "🏅",
+   "topics": [
+    "deporte",
+    "historia"
+   ],
+   "text": "Cada cuatro años, después de los Juegos Olímpicos, se celebran los Juegos Paralímpicos. En ellos compiten deportistas con alguna discapacidad física, visual o intelectual.\n\nLos primeros se celebraron en Roma en 1960. Su origen está en un hospital de Inglaterra, donde un médico, Ludwig Guttmann, usaba el deporte para ayudar a recuperarse a soldados heridos en la guerra.\n\nHoy hay deportes como el baloncesto en silla de ruedas, la natación o el goalball, un juego para personas ciegas o con poca visión en el que la pelota lleva cascabeles. Los atletas paralímpicos demuestran que el talento y el esfuerzo no tienen límites.",
+   "questions": [
+    {
+     "id": "lectura_l4_paralimpicos_q1",
+     "prompt": "¿Cuándo se celebran los Juegos Paralímpicos?",
+     "options": [
+      "Antes de los Juegos Olímpicos",
+      "Después de los Juegos Olímpicos",
+      "Cada año"
+     ],
+     "correct": 1,
+     "explanation": "«Después de los Juegos Olímpicos, se celebran los Juegos Paralímpicos.»"
+    },
+    {
+     "id": "lectura_l4_paralimpicos_q2",
+     "prompt": "¿Dónde se celebraron los primeros?",
+     "options": [
+      "En Londres",
+      "En Roma",
+      "En Madrid"
+     ],
+     "correct": 1,
+     "explanation": "«Los primeros se celebraron en Roma en 1960.»"
+    },
+    {
+     "id": "lectura_l4_paralimpicos_q3",
+     "prompt": "¿Qué tiene de especial la pelota del goalball?",
+     "options": [
+      "Es muy grande",
+      "Lleva cascabeles",
+      "Es de madera"
+     ],
+     "correct": 1,
+     "explanation": "«La pelota lleva cascabeles.»"
     }
    ]
   },
@@ -712,6 +1041,9 @@
      "correct": 0,
      "explanation": "«Durante el sueño se consolidan los recuerdos del día.»"
     }
+   ],
+   "topics": [
+    "ciencia"
    ]
   },
   {
@@ -754,6 +1086,10 @@
      "correct": 1,
      "explanation": "«El agua tiene un papel protagonista: estanques, acequias y fuentes.»"
     }
+   ],
+   "topics": [
+    "historia",
+    "arte"
    ]
   },
   {
@@ -796,6 +1132,9 @@
      "correct": 0,
      "explanation": "«Cuando una bióloga confirmó que allí vivía una especie protegida [...] el proyecto se paralizó.»"
     }
+   ],
+   "topics": [
+    "naturaleza"
    ]
   },
   {
@@ -837,6 +1176,101 @@
      ],
      "correct": 2,
      "explanation": "El texto concluye que las lenguas «cambian y se enriquecen con el contacto entre pueblos»."
+    }
+   ],
+   "topics": [
+    "historia"
+   ]
+  },
+  {
+   "id": "lectura_l5_estacion",
+   "level": 5,
+   "title": "Una casa en el espacio",
+   "emoji": "🛰️",
+   "topics": [
+    "espacio",
+    "tecnologia"
+   ],
+   "text": "A unos 400 kilómetros sobre nuestras cabezas, una enorme nave da vueltas alrededor de la Tierra: la Estación Espacial Internacional. Desde el año 2000 siempre hay astronautas viviendo en ella. La construyeron entre varios países, pieza a pieza, como si fuera un gigantesco juego de construcción.\n\nLa estación va tan rápida que da una vuelta completa a la Tierra en unos noventa minutos. Por eso, los astronautas ven unos dieciséis amaneceres al día. Allí todo flota: duermen en sacos atados a la pared, beben con pajitas de bolsas cerradas y hacen unas dos horas de ejercicio diario para que sus músculos y huesos no se debiliten.\n\nEn la estación se hacen experimentos que serían imposibles en la Tierra.",
+   "questions": [
+    {
+     "id": "lectura_l5_estacion_q1",
+     "prompt": "¿Desde cuándo hay siempre astronautas en la estación?",
+     "options": [
+      "Desde 1969",
+      "Desde el año 2000",
+      "Desde el año pasado"
+     ],
+     "correct": 1,
+     "explanation": "«Desde el año 2000 siempre hay astronautas viviendo en ella.»"
+    },
+    {
+     "id": "lectura_l5_estacion_q2",
+     "prompt": "¿Cuánto tarda en dar una vuelta a la Tierra?",
+     "options": [
+      "Un día",
+      "Unos noventa minutos",
+      "Una semana"
+     ],
+     "correct": 1,
+     "explanation": "«Da una vuelta completa a la Tierra en unos noventa minutos.»"
+    },
+    {
+     "id": "lectura_l5_estacion_q3",
+     "prompt": "¿Por qué hacen ejercicio los astronautas?",
+     "options": [
+      "Para no aburrirse",
+      "Para que sus músculos y huesos no se debiliten",
+      "Para ganar una carrera"
+     ],
+     "correct": 1,
+     "explanation": "«Para que sus músculos y huesos no se debiliten.»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_l5_sorolla",
+   "level": 5,
+   "title": "Sorolla, el pintor de la luz",
+   "emoji": "🖼️",
+   "topics": [
+    "arte",
+    "historia"
+   ],
+   "text": "Joaquín Sorolla nació en Valencia en 1863. Desde pequeño le encantaba dibujar, y con los años se convirtió en uno de los pintores españoles más famosos de su época.\n\nA Sorolla lo llaman «el pintor de la luz». Le gustaba pintar al aire libre, sobre todo en las playas de Valencia: niños bañándose, pescadores, barcas y velas blancas movidas por el viento. Pintaba deprisa, con pinceladas sueltas, para atrapar la luz del sol antes de que cambiara.\n\nHoy se pueden ver muchos de sus cuadros en el Museo Sorolla de Madrid, que fue su casa. Al mirarlos, parece que se oye el mar y se siente el calor del verano.",
+   "questions": [
+    {
+     "id": "lectura_l5_sorolla_q1",
+     "prompt": "¿Dónde nació Sorolla?",
+     "options": [
+      "En Madrid",
+      "En Valencia",
+      "En Sevilla"
+     ],
+     "correct": 1,
+     "explanation": "«Joaquín Sorolla nació en Valencia en 1863.»"
+    },
+    {
+     "id": "lectura_l5_sorolla_q2",
+     "prompt": "¿Por qué pintaba deprisa?",
+     "options": [
+      "Porque tenía prisa por comer",
+      "Para atrapar la luz antes de que cambiara",
+      "Porque no le gustaba pintar"
+     ],
+     "correct": 1,
+     "explanation": "«Para atrapar la luz del sol antes de que cambiara.»"
+    },
+    {
+     "id": "lectura_l5_sorolla_q3",
+     "prompt": "¿Qué fue antes el Museo Sorolla?",
+     "options": [
+      "Un colegio",
+      "Su casa",
+      "Una playa"
+     ],
+     "correct": 1,
+     "explanation": "«El Museo Sorolla de Madrid, que fue su casa.»"
     }
    ]
   },
@@ -907,6 +1341,11 @@
      "correct": 3,
      "explanation": "Habla del secreto que todavía guarda."
     }
+   ],
+   "topics": [
+    "historia",
+    "misterio",
+    "arte"
    ]
   },
   {
@@ -975,6 +1414,84 @@
      ],
      "correct": 2,
      "explanation": "«conservarla es responsabilidad de todos»"
+    }
+   ],
+   "topics": [
+    "naturaleza",
+    "animales"
+   ]
+  },
+  {
+   "id": "lectura_l6_dormir",
+   "level": 6,
+   "title": "Dormir también es entrenar",
+   "emoji": "😴",
+   "topics": [
+    "deporte",
+    "ciencia",
+    "vida"
+   ],
+   "text": "Muchos deportistas de élite tienen algo en común que no se ve en las competiciones: se toman el sueño muy en serio. Saben que mientras dormimos el cuerpo repara los músculos, recupera la energía y fija lo aprendido durante el día, ya sea un movimiento nuevo o la lección de matemáticas.\n\nLos especialistas recomiendan que los adolescentes duerman entre ocho y diez horas cada noche. Sin embargo, muchos no llegan. Una de las causas son las pantallas: la luz del móvil por la noche engaña al cerebro, que retrasa la sensación de sueño, y los mensajes y los vídeos nos mantienen despiertos «solo cinco minutos más».\n\nDormir poco tiene consecuencias. Cuesta concentrarse, nos enfadamos con más facilidad, rendimos peor en el deporte y aumenta el riesgo de lesiones.\n\nAlgunos consejos sencillos ayudan: acostarse y levantarse a la misma hora, dejar el móvil fuera del dormitorio y no hacer ejercicio intenso justo antes de ir a la cama. Dormir bien no es perder el tiempo: es una parte más del entrenamiento.",
+   "questions": [
+    {
+     "id": "lectura_l6_dormir_q1",
+     "prompt": "Según el texto, ¿qué hace el cuerpo mientras dormimos?",
+     "options": [
+      "Solo descansa la vista",
+      "Repara los músculos y fija lo aprendido",
+      "Quema toda la comida",
+      "El cerebro deja de funcionar"
+     ],
+     "correct": 1,
+     "explanation": "«El cuerpo repara los músculos, recupera la energía y fija lo aprendido.»"
+    },
+    {
+     "id": "lectura_l6_dormir_q2",
+     "prompt": "¿Cuántas horas se recomienda dormir a los adolescentes?",
+     "options": [
+      "Entre cinco y seis",
+      "Entre seis y siete",
+      "Entre ocho y diez",
+      "Doce o más"
+     ],
+     "correct": 2,
+     "explanation": "«Entre ocho y diez horas cada noche.»"
+    },
+    {
+     "id": "lectura_l6_dormir_q3",
+     "prompt": "¿Por qué la luz del móvil dificulta dormirse?",
+     "options": [
+      "Porque hace ruido",
+      "Porque engaña al cerebro y retrasa el sueño",
+      "Porque calienta la habitación",
+      "Porque gasta batería"
+     ],
+     "correct": 1,
+     "explanation": "«Engaña al cerebro, que retrasa la sensación de sueño.»"
+    },
+    {
+     "id": "lectura_l6_dormir_q4",
+     "prompt": "¿Cuál de estas NO es una consecuencia de dormir poco, según el texto?",
+     "options": [
+      "Cuesta concentrarse",
+      "Aumenta el riesgo de lesiones",
+      "Se crece más deprisa",
+      "Rendimos peor en el deporte"
+     ],
+     "correct": 2,
+     "explanation": "El texto no dice nada sobre crecer más deprisa."
+    },
+    {
+     "id": "lectura_l6_dormir_q5",
+     "prompt": "¿Qué quiere decir la frase final?",
+     "options": [
+      "Que dormir es aburrido",
+      "Que el descanso forma parte de la preparación",
+      "Que hay que entrenar de noche",
+      "Que los deportistas duermen poco"
+     ],
+     "correct": 1,
+     "explanation": "«Es una parte más del entrenamiento.»"
     }
    ]
   },
@@ -1045,6 +1562,9 @@
      "correct": 1,
      "explanation": "Lo dice la última frase."
     }
+   ],
+   "topics": [
+    "historia"
    ]
   },
   {
@@ -1113,6 +1633,82 @@
      ],
      "correct": 1,
      "explanation": "«más que criticar a los adolescentes, conviene acompañarlos»"
+    }
+   ],
+   "topics": [
+    "ciencia"
+   ]
+  },
+  {
+   "id": "lectura_l7_marte",
+   "level": 7,
+   "title": "¿Hubo agua en Marte?",
+   "emoji": "🔴",
+   "topics": [
+    "espacio",
+    "ciencia"
+   ],
+   "text": "Visto desde la Tierra, Marte es un punto rojizo en el cielo. De cerca, es un desierto helado y polvoriento, con una atmósfera tan fina que no podríamos respirar en ella. Y, sin embargo, los científicos están convencidos de que hace miles de millones de años por su superficie corrían ríos y había lagos.\n\n¿Cómo lo saben? Las fotografías tomadas por satélites muestran cauces secos, deltas y rocas que solo se forman en presencia de agua. Además, en los polos de Marte hay casquetes de hielo, y bajo el suelo también se ha detectado hielo.\n\nEl agua líquida no puede permanecer mucho tiempo en la superficie actual: la presión es tan baja que se evaporaría o se congelaría enseguida. Por eso, los robots exploradores buscan pistas del pasado. El rover Perseverance aterrizó en 2021 en el cráter Jezero, donde hubo un lago, para recoger muestras de roca que, en el futuro, podrían traerse a la Tierra.\n\nLa gran pregunta sigue abierta: si Marte tuvo agua, ¿llegó a tener vida? Encontrar la respuesta podría cambiar lo que sabemos sobre nuestro lugar en el universo.",
+   "questions": [
+    {
+     "id": "lectura_l7_marte_q1",
+     "prompt": "¿Cómo es hoy la superficie de Marte?",
+     "options": [
+      "Un océano cálido",
+      "Un desierto helado y polvoriento",
+      "Una selva húmeda",
+      "Una llanura cubierta de hierba"
+     ],
+     "correct": 1,
+     "explanation": "«Es un desierto helado y polvoriento.»"
+    },
+    {
+     "id": "lectura_l7_marte_q2",
+     "prompt": "¿Qué pruebas indican que hubo agua?",
+     "options": [
+      "Que Marte se ve rojo",
+      "Cauces secos, deltas y rocas que se forman con agua",
+      "Que tiene una atmósfera fina",
+      "Que está lejos del Sol"
+     ],
+     "correct": 1,
+     "explanation": "«Cauces secos, deltas y rocas que solo se forman en presencia de agua.»"
+    },
+    {
+     "id": "lectura_l7_marte_q3",
+     "prompt": "¿Por qué no puede haber agua líquida mucho tiempo en la superficie?",
+     "options": [
+      "Porque hay demasiados robots",
+      "Porque la presión es muy baja",
+      "Porque hay demasiado oxígeno",
+      "Porque nunca hay viento"
+     ],
+     "correct": 1,
+     "explanation": "«La presión es tan baja que se evaporaría o se congelaría enseguida.»"
+    },
+    {
+     "id": "lectura_l7_marte_q4",
+     "prompt": "¿Para qué fue Perseverance al cráter Jezero?",
+     "options": [
+      "Para buscar oro",
+      "Para construir una base",
+      "Para recoger muestras de roca donde hubo un lago",
+      "Para hacer fotos de la Tierra"
+     ],
+     "correct": 2,
+     "explanation": "«Para recoger muestras de roca.»"
+    },
+    {
+     "id": "lectura_l7_marte_q5",
+     "prompt": "¿Cuál es «la gran pregunta» del final?",
+     "options": [
+      "Si Marte es rojo",
+      "Si Marte llegó a tener vida",
+      "Cuándo llegará el próximo robot",
+      "Si hay hielo en los polos"
+     ],
+     "correct": 1,
+     "explanation": "«Si Marte tuvo agua, ¿llegó a tener vida?»"
     }
    ]
   },
@@ -1183,6 +1779,9 @@
      "correct": 3,
      "explanation": "«una tradición puede seguir siendo útil en el presente»"
     }
+   ],
+   "topics": [
+    "historia"
    ]
   },
   {
@@ -1251,6 +1850,81 @@
      ],
      "correct": 3,
      "explanation": "Es una hipérbole con intención crítica."
+    }
+   ],
+   "topics": [
+    "vida"
+   ]
+  },
+  {
+   "id": "lectura_l8_ia",
+   "level": 8,
+   "title": "¿Piensan las máquinas?",
+   "emoji": "🤖",
+   "topics": [
+    "tecnologia"
+   ],
+   "text": "Hoy hablamos con asistentes de voz, recibimos recomendaciones de vídeos y traducimos textos en segundos gracias a la inteligencia artificial (IA). Algunos programas escriben redacciones o crean imágenes a partir de una frase. Ante resultados tan sorprendentes, es fácil preguntarse si estas máquinas piensan como nosotros.\n\nLa respuesta de la mayoría de los expertos es más prudente. Estos sistemas aprenden analizando enormes cantidades de datos y detectan patrones: qué palabra suele ir después de otra o qué forma tiene un gato en miles de fotos. Gracias a eso pueden dar respuestas muy convincentes, pero no tienen experiencias ni una comprensión del mundo como la humana. Y a veces se equivocan con total seguridad.\n\nPor eso conviene usarlos con espíritu crítico. Una IA puede ayudarnos a organizar ideas o a repasar, pero si le dejamos hacer todo el trabajo, no aprendemos. Además, hay que comprobar la información que nos da, igual que haríamos con cualquier página de internet.\n\nLa inteligencia artificial es una herramienta poderosa. Que nos haga mejores o más perezosos dependerá, en gran parte, de cómo decidamos utilizarla.",
+   "questions": [
+    {
+     "id": "lectura_l8_ia_q1",
+     "prompt": "Según el texto, ¿cómo aprenden estos sistemas?",
+     "options": [
+      "Leyendo la mente de las personas",
+      "Analizando muchos datos y detectando patrones",
+      "Asistiendo a clase",
+      "Copiando a otras máquinas"
+     ],
+     "correct": 1,
+     "explanation": "«Aprenden analizando enormes cantidades de datos y detectan patrones.»"
+    },
+    {
+     "id": "lectura_l8_ia_q2",
+     "prompt": "¿Qué opina la mayoría de los expertos?",
+     "options": [
+      "Que piensan igual que nosotros",
+      "Que no comprenden el mundo como los humanos",
+      "Que nunca se equivocan",
+      "Que pronto irán al colegio"
+     ],
+     "correct": 1,
+     "explanation": "«No tienen experiencias ni una comprensión del mundo como la humana.»"
+    },
+    {
+     "id": "lectura_l8_ia_q3",
+     "prompt": "¿Qué problema se menciona?",
+     "options": [
+      "Que son muy lentas",
+      "Que a veces se equivocan con total seguridad",
+      "Que solo funcionan en inglés",
+      "Que no se pueden usar en casa"
+     ],
+     "correct": 1,
+     "explanation": "«A veces se equivocan con total seguridad.»"
+    },
+    {
+     "id": "lectura_l8_ia_q4",
+     "prompt": "¿Qué recomienda el texto?",
+     "options": [
+      "No usarlas nunca",
+      "Usarlas con espíritu crítico y comprobar la información",
+      "Dejar que hagan los deberes",
+      "Creer todo lo que dicen"
+     ],
+     "correct": 1,
+     "explanation": "«Conviene usarlos con espíritu crítico.»"
+    },
+    {
+     "id": "lectura_l8_ia_q5",
+     "prompt": "¿Qué tipo de texto es?",
+     "options": [
+      "Un cuento de fantasía",
+      "Un texto argumentativo que invita a reflexionar",
+      "Una receta",
+      "Un poema"
+     ],
+     "correct": 1,
+     "explanation": "Expone una pregunta, da argumentos y termina con una reflexión."
     }
    ]
   },
@@ -1321,6 +1995,10 @@
      "correct": 2,
      "explanation": "Señala que durante décadas se las olvidó."
     }
+   ],
+   "topics": [
+    "arte",
+    "historia"
    ]
   },
   {
@@ -1389,6 +2067,83 @@
      ],
      "correct": 2,
      "explanation": "«Decidir a qué la dedicamos es [...] decidir cómo queremos vivir.»"
+    }
+   ],
+   "topics": [
+    "tecnologia",
+    "vida"
+   ]
+  },
+  {
+   "id": "lectura_l9_guernica",
+   "level": 9,
+   "title": "Guernica: un grito pintado",
+   "emoji": "🖤",
+   "topics": [
+    "arte",
+    "historia"
+   ],
+   "text": "El 26 de abril de 1937, en plena guerra civil española, aviones alemanes e italianos, aliados de las tropas de Franco, bombardearon la villa vasca de Gernika. Era día de mercado. La villa quedó en gran parte destruida y murieron numerosos civiles; todavía hoy los historiadores debaten la cifra exacta.\n\nPablo Picasso vivía entonces en París y había recibido el encargo de pintar un mural para el pabellón de la República española en la Exposición Internacional de ese año. Conmocionado por las noticias, decidió que su obra hablaría del horror de aquel bombardeo. En poco más de un mes pintó un lienzo de casi ocho metros de ancho.\n\nEl Guernica no muestra aviones ni explosiones. En su lugar aparecen figuras deformadas: una madre que grita con su hijo muerto en brazos, un caballo herido, un toro, una bombilla que parece un ojo. Picasso eligió solo el blanco, el negro y los grises, como en las fotografías de los periódicos.\n\nPor deseo del pintor, el cuadro no viajó a España hasta que se recuperó la democracia: llegó en 1981. Hoy se encuentra en el Museo Reina Sofía, en Madrid, y se ha convertido en un símbolo universal contra la guerra.",
+   "questions": [
+    {
+     "id": "lectura_l9_guernica_q1",
+     "prompt": "¿Qué ocurrió el 26 de abril de 1937?",
+     "options": [
+      "Se inauguró un museo",
+      "Bombardearon la villa de Gernika",
+      "Picasso llegó a París",
+      "Terminó la guerra"
+     ],
+     "correct": 1,
+     "explanation": "«Bombardearon la villa vasca de Gernika.»"
+    },
+    {
+     "id": "lectura_l9_guernica_q2",
+     "prompt": "¿Para qué lugar pintó Picasso el cuadro?",
+     "options": [
+      "Para su casa de París",
+      "Para el pabellón de la República en la Exposición Internacional",
+      "Para el ayuntamiento de Gernika",
+      "Para el Museo del Prado"
+     ],
+     "correct": 1,
+     "explanation": "«Un mural para el pabellón de la República española en la Exposición Internacional.»"
+    },
+    {
+     "id": "lectura_l9_guernica_q3",
+     "prompt": "¿Con qué relaciona el texto los colores del cuadro?",
+     "options": [
+      "Con las fotografías de los periódicos",
+      "Con la bandera de España",
+      "Con el mar de noche",
+      "Con los colores del mercado"
+     ],
+     "correct": 0,
+     "explanation": "«Como en las fotografías de los periódicos.»"
+    },
+    {
+     "id": "lectura_l9_guernica_q4",
+     "prompt": "¿Cuándo llegó el Guernica a España?",
+     "options": [
+      "En 1937",
+      "En 1981",
+      "En 1992",
+      "En 2000"
+     ],
+     "correct": 1,
+     "explanation": "«Llegó en 1981.»"
+    },
+    {
+     "id": "lectura_l9_guernica_q5",
+     "prompt": "¿Por qué se ha convertido en un símbolo?",
+     "options": [
+      "Porque es el cuadro más caro",
+      "Porque expresa el horror de la guerra de forma universal",
+      "Porque tiene muchos colores",
+      "Porque es muy pequeño"
+     ],
+     "correct": 1,
+     "explanation": "«Se ha convertido en un símbolo universal contra la guerra.»"
     }
    ]
   }

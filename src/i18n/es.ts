@@ -839,6 +839,27 @@ export const es = {
   sh_tip: 'Leer un rato cada día, aunque sean diez minutos, ayuda más que leer mucho de golpe. Los libros con letra grande, cómics y audiolibros acompañados del texto también cuentan.',
   wk_paper: 'Lectura en libros de papel: {min} minutos en los últimos 7 días.',
   wk_paper_done: 'Libros terminados: {titles}.',
+
+  // Reading interests
+  int_title: '¿Qué te gusta leer?',
+  int_desc: 'Elige tus temas favoritos y te propondremos lecturas de tu nivel.',
+  int_for_you: 'Para ti',
+  int_none: 'Ahora mismo no hay lecturas de esos temas cerca de tu nivel. Prueba con otro tema.',
+  topic_animales: 'Animales',
+  topic_deporte: 'Deporte',
+  topic_ciencia: 'Ciencia',
+  topic_espacio: 'Espacio',
+  topic_historia: 'Historia',
+  topic_misterio: 'Misterio',
+  topic_tecnologia: 'Tecnología',
+  topic_naturaleza: 'Naturaleza',
+  topic_arte: 'Arte y música',
+  topic_vida: 'Vida diaria',
+
+  // How I learn
+  hil_link: 'Entiendo cómo aprendo',
+  hil_family_title: 'Guía para la familia',
+  hil_family_desc: 'Cómo ayudar en casa y cuándo hablar con el centro',
 } as const;
 
 export type TranslationKey = keyof typeof es;

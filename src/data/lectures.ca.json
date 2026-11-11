@@ -40,6 +40,9 @@
      "correct": 2,
      "explanation": "«Pareix un ocellet.»"
     }
+   ],
+   "topics": [
+    "vida"
    ]
   },
   {
@@ -82,6 +85,10 @@
      "correct": 0,
      "explanation": "«Un ànec gran i blanc»"
     }
+   ],
+   "topics": [
+    "animales",
+    "naturaleza"
    ]
   },
   {
@@ -124,6 +131,9 @@
      "correct": 0,
      "explanation": "«Es sacseja i son pare també s'esquitxa!»"
     }
+   ],
+   "topics": [
+    "vida"
    ]
   },
   {
@@ -165,6 +175,54 @@
      ],
      "correct": 2,
      "explanation": "«una pastanaga de nas»"
+    }
+   ],
+   "topics": [
+    "naturaleza"
+   ]
+  },
+  {
+   "id": "lectura_ca_l1_lluna",
+   "level": 1,
+   "title": "La Lluna",
+   "emoji": "🌙",
+   "topics": [
+    "espacio"
+   ],
+   "text": "Per la nit mire el cel. Veig la Lluna. A vegades és redona i gran. Altres vegades pareix un somriure. La Lluna no té llum pròpia. Brilla perquè li arriba la llum del Sol.",
+   "questions": [
+    {
+     "id": "lectura_ca_l1_lluna_q1",
+     "prompt": "Quan mira el cel?",
+     "options": [
+      "Pel matí",
+      "Per la vesprada",
+      "Per la nit"
+     ],
+     "correct": 2,
+     "explanation": "«Per la nit mire el cel.»"
+    },
+    {
+     "id": "lectura_ca_l1_lluna_q2",
+     "prompt": "Què pareix la Lluna a vegades?",
+     "options": [
+      "Una estrela",
+      "Un somriure",
+      "Un quadrat"
+     ],
+     "correct": 1,
+     "explanation": "«Altres vegades pareix un somriure.»"
+    },
+    {
+     "id": "lectura_ca_l1_lluna_q3",
+     "prompt": "Per què brilla la Lluna?",
+     "options": [
+      "Perquè té llum pròpia",
+      "Perquè li arriba la llum del Sol",
+      "Perquè és de foc"
+     ],
+     "correct": 1,
+     "explanation": "«Brilla perquè li arriba la llum del Sol.»"
     }
    ]
   },
@@ -208,6 +266,10 @@
      "correct": 1,
      "explanation": "«Una veïna amable l'havia posat allí»"
     }
+   ],
+   "topics": [
+    "vida",
+    "misterio"
    ]
   },
   {
@@ -250,6 +312,9 @@
      "correct": 2,
      "explanation": "«perquè les altres la seguisquen»"
     }
+   ],
+   "topics": [
+    "animales"
    ]
   },
   {
@@ -292,6 +357,9 @@
      "correct": 2,
      "explanation": "«Empar estava cansada però contenta.»"
     }
+   ],
+   "topics": [
+    "naturaleza"
    ]
   },
   {
@@ -333,6 +401,100 @@
      ],
      "correct": 1,
      "explanation": "«va dibuixar un somriure gran a la cara de Pipo»"
+    }
+   ],
+   "topics": [
+    "tecnologia"
+   ]
+  },
+  {
+   "id": "lectura_ca_l2_basquet",
+   "level": 2,
+   "title": "El partit de Sara",
+   "emoji": "🏀",
+   "topics": [
+    "deporte"
+   ],
+   "text": "Sara juga a bàsquet en l’equip del barri. Dissabte tenen un partit important. Al principi, Sara falla tres tirs i es posa trista. El seu entrenador li diu: «No passa res, continua intentant-ho». En l’últim minut, Sara llança la pilota des de lluny. Cistella! El seu equip guanya per dos punts i tots l’abracen.",
+   "questions": [
+    {
+     "id": "lectura_ca_l2_basquet_q1",
+     "prompt": "A què juga Sara?",
+     "options": [
+      "A futbol",
+      "A bàsquet",
+      "A tenis"
+     ],
+     "correct": 1,
+     "explanation": "«Sara juga a bàsquet.»"
+    },
+    {
+     "id": "lectura_ca_l2_basquet_q2",
+     "prompt": "Què li diu l’entrenador?",
+     "options": [
+      "Que descanse",
+      "Que continue intentant-ho",
+      "Que se’n vaja a casa"
+     ],
+     "correct": 1,
+     "explanation": "«No passa res, continua intentant-ho.»"
+    },
+    {
+     "id": "lectura_ca_l2_basquet_q3",
+     "prompt": "Per quants punts guanya el seu equip?",
+     "options": [
+      "Per un",
+      "Per dos",
+      "Per deu"
+     ],
+     "correct": 1,
+     "explanation": "«El seu equip guanya per dos punts.»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l2_colors",
+   "level": 2,
+   "title": "Mescle colors",
+   "emoji": "🎨",
+   "topics": [
+    "arte",
+    "ciencia"
+   ],
+   "text": "Hui, en classe de plàstica, pintem amb tèmperes. La mestra ens porta tres colors: roig, blau i groc. Si mescle blau i groc, ix verd. Si mescle roig i groc, ix taronja. I amb roig i blau, ix morat! Amb només tres colors puc pintar un arc de Sant Martí sencer.",
+   "questions": [
+    {
+     "id": "lectura_ca_l2_colors_q1",
+     "prompt": "Amb què pinten?",
+     "options": [
+      "Amb llapis",
+      "Amb tèmperes",
+      "Amb ceres"
+     ],
+     "correct": 1,
+     "explanation": "«Pintem amb tèmperes.»"
+    },
+    {
+     "id": "lectura_ca_l2_colors_q2",
+     "prompt": "Quin color ix si mesclem blau i groc?",
+     "options": [
+      "Verd",
+      "Taronja",
+      "Morat"
+     ],
+     "correct": 0,
+     "explanation": "«Si mescle blau i groc, ix verd.»"
+    },
+    {
+     "id": "lectura_ca_l2_colors_q3",
+     "prompt": "Què ix amb roig i blau?",
+     "options": [
+      "Marró",
+      "Verd",
+      "Morat"
+     ],
+     "correct": 2,
+     "explanation": "«I amb roig i blau, ix morat!»"
     }
    ]
   },
@@ -376,6 +538,9 @@
      "correct": 2,
      "explanation": "«una bola amb els ossos i el pèl que no pot digerir»"
     }
+   ],
+   "topics": [
+    "animales"
    ]
   },
   {
@@ -418,6 +583,9 @@
      "correct": 1,
      "explanation": "«Cuida-la.»"
     }
+   ],
+   "topics": [
+    "misterio"
    ]
   },
   {
@@ -460,6 +628,9 @@
      "correct": 0,
      "explanation": "«fan un gas que empeny l'escuma cap a fora»"
     }
+   ],
+   "topics": [
+    "ciencia"
    ]
   },
   {
@@ -501,6 +672,101 @@
      ],
      "correct": 0,
      "explanation": "«més de quinze litres d'aigua cada dia»"
+    }
+   ],
+   "topics": [
+    "ciencia",
+    "naturaleza"
+   ]
+  },
+  {
+   "id": "lectura_ca_l3_planetes",
+   "level": 3,
+   "title": "El nostre veïnat: el sistema solar",
+   "emoji": "🪐",
+   "topics": [
+    "espacio",
+    "ciencia"
+   ],
+   "text": "La Terra no està sola en l’espai. Forma part del sistema solar, que té en el centre una estrela: el Sol. Al voltant del Sol giren huit planetes. El més pròxim és Mercuri, i el més llunyà, Neptú.\n\nCada planeta és molt diferent. Júpiter és el més gran de tots: dins d’ell hi cabrien més de mil planetes com el nostre. Mart es veu rogenc perquè el seu sòl té molt d’òxid de ferro. I la Terra és l’únic planeta on sabem que hi ha vida.",
+   "questions": [
+    {
+     "id": "lectura_ca_l3_planetes_q1",
+     "prompt": "Què hi ha en el centre del sistema solar?",
+     "options": [
+      "La Terra",
+      "El Sol",
+      "La Lluna"
+     ],
+     "correct": 1,
+     "explanation": "«Té en el centre una estrela: el Sol.»"
+    },
+    {
+     "id": "lectura_ca_l3_planetes_q2",
+     "prompt": "Quin és el planeta més gran?",
+     "options": [
+      "Mart",
+      "Neptú",
+      "Júpiter"
+     ],
+     "correct": 2,
+     "explanation": "«Júpiter és el més gran de tots.»"
+    },
+    {
+     "id": "lectura_ca_l3_planetes_q3",
+     "prompt": "Per què Mart es veu rogenc?",
+     "options": [
+      "Perquè fa molta calor",
+      "Perquè el seu sòl té molt d’òxid de ferro",
+      "Perquè està prop del Sol"
+     ],
+     "correct": 1,
+     "explanation": "«El seu sòl té molt d’òxid de ferro.»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l3_orquestra",
+   "level": 3,
+   "title": "Els instruments de l’orquestra",
+   "emoji": "🎻",
+   "topics": [
+    "arte"
+   ],
+   "text": "En una orquestra toquen molts músics alhora, i cadascun té el seu instrument. Els instruments s’agrupen en famílies.\n\nLa família de corda té violins, violes, violoncels i contrabaixos: sonen quan es freguen les cordes amb un arc. La família de vent inclou flautes, clarinets i trompetes: sonen quan s’hi bufa. La percussió, amb tambors i plats, sona quan la colpeges. Davant de tots està el director, que marca el ritme amb una batuta.",
+   "questions": [
+    {
+     "id": "lectura_ca_l3_orquestra_q1",
+     "prompt": "Com s’agrupen els instruments?",
+     "options": [
+      "Per colors",
+      "En famílies",
+      "Per grandàries"
+     ],
+     "correct": 1,
+     "explanation": "«Els instruments s’agrupen en famílies.»"
+    },
+    {
+     "id": "lectura_ca_l3_orquestra_q2",
+     "prompt": "Com sonen els instruments de vent?",
+     "options": [
+      "Quan els colpeges",
+      "Quan s’hi bufa",
+      "Quan es freguen les cordes"
+     ],
+     "correct": 1,
+     "explanation": "«Sonen quan s’hi bufa.»"
+    },
+    {
+     "id": "lectura_ca_l3_orquestra_q3",
+     "prompt": "Què fa servir el director per a marcar el ritme?",
+     "options": [
+      "Una batuta",
+      "Un tambor",
+      "Una flauta"
+     ],
+     "correct": 0,
+     "explanation": "«Marca el ritme amb una batuta.»"
     }
    ]
   },
@@ -544,6 +810,9 @@
      "correct": 2,
      "explanation": "Li van donar un premi a l'esportivitat."
     }
+   ],
+   "topics": [
+    "deporte"
    ]
   },
   {
@@ -586,6 +855,10 @@
      "correct": 1,
      "explanation": "«més gent va aprendre a llegir»"
     }
+   ],
+   "topics": [
+    "historia",
+    "tecnologia"
    ]
   },
   {
@@ -628,6 +901,9 @@
      "correct": 0,
      "explanation": "Va escoltar històries que no havia sentit mai."
     }
+   ],
+   "topics": [
+    "misterio"
    ]
   },
   {
@@ -669,6 +945,56 @@
      ],
      "correct": 1,
      "explanation": "«Plantar flors silvestres»"
+    }
+   ],
+   "topics": [
+    "animales",
+    "ciencia"
+   ]
+  },
+  {
+   "id": "lectura_ca_l4_paralimpics",
+   "level": 4,
+   "title": "Els Jocs Paralímpics",
+   "emoji": "🏅",
+   "topics": [
+    "deporte",
+    "historia"
+   ],
+   "text": "Cada quatre anys, després dels Jocs Olímpics, se celebren els Jocs Paralímpics. Hi competixen esportistes amb alguna discapacitat física, visual o intel·lectual.\n\nEls primers es van celebrar a Roma l’any 1960. El seu origen està en un hospital d’Anglaterra, on un metge, Ludwig Guttmann, utilitzava l’esport per a ajudar els soldats ferits en la guerra a recuperar-se.\n\nHui hi ha esports com el bàsquet en cadira de rodes, la natació o el goalball, un joc per a persones cegues o amb poca visió en què la pilota porta cascavells. Els atletes paralímpics demostren que el talent i l’esforç no tenen límits.",
+   "questions": [
+    {
+     "id": "lectura_ca_l4_paralimpics_q1",
+     "prompt": "Quan se celebren els Jocs Paralímpics?",
+     "options": [
+      "Abans dels Jocs Olímpics",
+      "Després dels Jocs Olímpics",
+      "Cada any"
+     ],
+     "correct": 1,
+     "explanation": "«Després dels Jocs Olímpics, se celebren els Jocs Paralímpics.»"
+    },
+    {
+     "id": "lectura_ca_l4_paralimpics_q2",
+     "prompt": "On es van celebrar els primers?",
+     "options": [
+      "A Londres",
+      "A Roma",
+      "A Madrid"
+     ],
+     "correct": 1,
+     "explanation": "«Els primers es van celebrar a Roma l’any 1960.»"
+    },
+    {
+     "id": "lectura_ca_l4_paralimpics_q3",
+     "prompt": "Què té d’especial la pilota del goalball?",
+     "options": [
+      "És molt gran",
+      "Porta cascavells",
+      "És de fusta"
+     ],
+     "correct": 1,
+     "explanation": "«La pilota porta cascavells.»"
     }
    ]
   },
@@ -712,6 +1038,9 @@
      "correct": 2,
      "explanation": "«el cervell ordena i reforça el que has aprés»"
     }
+   ],
+   "topics": [
+    "ciencia"
    ]
   },
   {
@@ -754,6 +1083,10 @@
      "correct": 0,
      "explanation": "«milers d'ocells ... hi passen l'hivern o hi fan el niu»"
     }
+   ],
+   "topics": [
+    "naturaleza",
+    "animales"
    ]
   },
   {
@@ -796,6 +1129,9 @@
      "correct": 2,
      "explanation": "«les van llegir i van decidir construir en un solar buit»"
     }
+   ],
+   "topics": [
+    "naturaleza"
    ]
   },
   {
@@ -837,6 +1173,101 @@
      ],
      "correct": 1,
      "explanation": "El text explica l'origen de moltes paraules."
+    }
+   ],
+   "topics": [
+    "historia"
+   ]
+  },
+  {
+   "id": "lectura_ca_l5_estacio",
+   "level": 5,
+   "title": "Una casa en l’espai",
+   "emoji": "🛰️",
+   "topics": [
+    "espacio",
+    "tecnologia"
+   ],
+   "text": "A uns 400 quilòmetres damunt dels nostres caps, una enorme nau fa voltes al voltant de la Terra: l’Estació Espacial Internacional. Des de l’any 2000 sempre hi ha astronautes vivint-hi. La van construir entre diversos països, peça a peça, com un joc de construcció gegant.\n\nL’estació va tan ràpida que fa una volta completa a la Terra en uns noranta minuts. Per això, els astronautes veuen unes setze albades cada dia. Allà tot sura: dormen en sacs lligats a la paret, beuen amb canyetes de bosses tancades i fan unes dues hores d’exercici diari perquè els músculs i els ossos no es debiliten.\n\nEn l’estació es fan experiments que serien impossibles en la Terra.",
+   "questions": [
+    {
+     "id": "lectura_ca_l5_estacio_q1",
+     "prompt": "Des de quan sempre hi ha astronautes en l’estació?",
+     "options": [
+      "Des de 1969",
+      "Des de l’any 2000",
+      "Des de l’any passat"
+     ],
+     "correct": 1,
+     "explanation": "«Des de l’any 2000 sempre hi ha astronautes vivint-hi.»"
+    },
+    {
+     "id": "lectura_ca_l5_estacio_q2",
+     "prompt": "Quant tarda a fer una volta a la Terra?",
+     "options": [
+      "Un dia",
+      "Uns noranta minuts",
+      "Una setmana"
+     ],
+     "correct": 1,
+     "explanation": "«Fa una volta completa a la Terra en uns noranta minuts.»"
+    },
+    {
+     "id": "lectura_ca_l5_estacio_q3",
+     "prompt": "Per què fan exercici els astronautes?",
+     "options": [
+      "Per a no avorrir-se",
+      "Perquè els músculs i els ossos no es debiliten",
+      "Per a guanyar una carrera"
+     ],
+     "correct": 1,
+     "explanation": "«Perquè els músculs i els ossos no es debiliten.»"
+    }
+   ]
+  },
+  {
+   "id": "lectura_ca_l5_sorolla",
+   "level": 5,
+   "title": "Sorolla, el pintor de la llum",
+   "emoji": "🖼️",
+   "topics": [
+    "arte",
+    "historia"
+   ],
+   "text": "Joaquim Sorolla va nàixer a València l’any 1863. Des de xicotet li encantava dibuixar, i amb els anys es va convertir en un dels pintors espanyols més famosos de la seua època.\n\nA Sorolla l’anomenen «el pintor de la llum». Li agradava pintar a l’aire lliure, sobretot a les platges de València: xiquets banyant-se, pescadors, barques i veles blanques mogudes pel vent. Pintava de pressa, amb pinzellades soltes, per a atrapar la llum del sol abans que canviara.\n\nHui es poden veure molts dels seus quadres en el Museu Sorolla de Madrid, que va ser la seua casa. Quan els mires, pareix que se sent la mar i la calor de l’estiu.",
+   "questions": [
+    {
+     "id": "lectura_ca_l5_sorolla_q1",
+     "prompt": "On va nàixer Sorolla?",
+     "options": [
+      "A Madrid",
+      "A València",
+      "A Sevilla"
+     ],
+     "correct": 1,
+     "explanation": "«Joaquim Sorolla va nàixer a València l’any 1863.»"
+    },
+    {
+     "id": "lectura_ca_l5_sorolla_q2",
+     "prompt": "Per què pintava de pressa?",
+     "options": [
+      "Perquè tenia pressa per a dinar",
+      "Per a atrapar la llum abans que canviara",
+      "Perquè no li agradava pintar"
+     ],
+     "correct": 1,
+     "explanation": "«Per a atrapar la llum del sol abans que canviara.»"
+    },
+    {
+     "id": "lectura_ca_l5_sorolla_q3",
+     "prompt": "Què va ser abans el Museu Sorolla?",
+     "options": [
+      "Una escola",
+      "La seua casa",
+      "Una platja"
+     ],
+     "correct": 1,
+     "explanation": "«El Museu Sorolla de Madrid, que va ser la seua casa.»"
     }
    ]
   },
@@ -907,6 +1338,11 @@
      "correct": 0,
      "explanation": "Parla del secret que encara guarda."
     }
+   ],
+   "topics": [
+    "historia",
+    "misterio",
+    "arte"
    ]
   },
   {
@@ -975,6 +1411,84 @@
      ],
      "correct": 0,
      "explanation": "«conservar-la és responsabilitat de tots»"
+    }
+   ],
+   "topics": [
+    "naturaleza",
+    "animales"
+   ]
+  },
+  {
+   "id": "lectura_ca_l6_dormir",
+   "level": 6,
+   "title": "Dormir també és entrenar",
+   "emoji": "😴",
+   "topics": [
+    "deporte",
+    "ciencia",
+    "vida"
+   ],
+   "text": "Molts esportistes d’elit tenen una cosa en comú que no es veu en les competicions: es prenen el son molt seriosament. Saben que mentre dormim el cos repara els músculs, recupera l’energia i fixa el que hem après durant el dia, ja siga un moviment nou o la lliçó de matemàtiques.\n\nEls especialistes recomanen que els adolescents dormen entre huit i deu hores cada nit. No obstant això, molts no hi arriben. Una de les causes són les pantalles: la llum del mòbil a la nit enganya el cervell, que retarda la sensació de son, i els missatges i els vídeos ens mantenen desperts «només cinc minuts més».\n\nDormir poc té conseqüències. Costa concentrar-se, ens enfadem més fàcilment, rendim pitjor en l’esport i augmenta el risc de lesions.\n\nAlguns consells senzills ajuden: gitar-se i alçar-se a la mateixa hora, deixar el mòbil fora del dormitori i no fer exercici intens just abans d’anar a dormir. Dormir bé no és perdre el temps: és una part més de l’entrenament.",
+   "questions": [
+    {
+     "id": "lectura_ca_l6_dormir_q1",
+     "prompt": "Segons el text, què fa el cos mentre dormim?",
+     "options": [
+      "Només descansa la vista",
+      "Repara els músculs i fixa el que hem après",
+      "Crema tot el menjar",
+      "El cervell deixa de funcionar"
+     ],
+     "correct": 1,
+     "explanation": "«El cos repara els músculs, recupera l’energia i fixa el que hem après.»"
+    },
+    {
+     "id": "lectura_ca_l6_dormir_q2",
+     "prompt": "Quantes hores es recomana que dormen els adolescents?",
+     "options": [
+      "Entre cinc i sis",
+      "Entre sis i set",
+      "Entre huit i deu",
+      "Dotze o més"
+     ],
+     "correct": 2,
+     "explanation": "«Entre huit i deu hores cada nit.»"
+    },
+    {
+     "id": "lectura_ca_l6_dormir_q3",
+     "prompt": "Per què la llum del mòbil dificulta adormir-se?",
+     "options": [
+      "Perquè fa soroll",
+      "Perquè enganya el cervell i retarda la son",
+      "Perquè escalfa l’habitació",
+      "Perquè gasta bateria"
+     ],
+     "correct": 1,
+     "explanation": "«Enganya el cervell, que retarda la sensació de son.»"
+    },
+    {
+     "id": "lectura_ca_l6_dormir_q4",
+     "prompt": "Quina d’estes NO és una conseqüència de dormir poc, segons el text?",
+     "options": [
+      "Costa concentrar-se",
+      "Augmenta el risc de lesions",
+      "Es creix més de pressa",
+      "Rendim pitjor en l’esport"
+     ],
+     "correct": 2,
+     "explanation": "El text no diu res sobre créixer més de pressa."
+    },
+    {
+     "id": "lectura_ca_l6_dormir_q5",
+     "prompt": "Què vol dir la frase final?",
+     "options": [
+      "Que dormir és avorrit",
+      "Que el descans forma part de la preparació",
+      "Que cal entrenar de nit",
+      "Que els esportistes dormen poc"
+     ],
+     "correct": 1,
+     "explanation": "«És una part més de l’entrenament.»"
     }
    ]
   },
@@ -1045,6 +1559,9 @@
      "correct": 3,
      "explanation": "Ho diu l'última frase."
     }
+   ],
+   "topics": [
+    "historia"
    ]
   },
   {
@@ -1113,6 +1630,82 @@
      ],
      "correct": 0,
      "explanation": "«més que criticar els adolescents, convé acompanyar-los»"
+    }
+   ],
+   "topics": [
+    "ciencia"
+   ]
+  },
+  {
+   "id": "lectura_ca_l7_mart",
+   "level": 7,
+   "title": "Hi va haver aigua a Mart?",
+   "emoji": "🔴",
+   "topics": [
+    "espacio",
+    "ciencia"
+   ],
+   "text": "Vist des de la Terra, Mart és un punt rogenc en el cel. De prop, és un desert gelat i polsós, amb una atmosfera tan fina que no hi podríem respirar. I, tanmateix, els científics estan convençuts que fa milers de milions d’anys per la seua superfície corrien rius i hi havia llacs.\n\nCom ho saben? Les fotografies preses per satèl·lits mostren llits de rius secs, deltes i roques que només es formen en presència d’aigua. A més, en els pols de Mart hi ha casquets de gel, i davall del sòl també se n’ha detectat.\n\nL’aigua líquida no pot romandre molt de temps en la superfície actual: la pressió és tan baixa que s’evaporaria o es gelaria de seguida. Per això, els robots exploradors busquen pistes del passat. El rover Perseverance va aterrar l’any 2021 en el cràter Jezero, on hi va haver un llac, per a arreplegar mostres de roca que, en el futur, es podrien portar a la Terra.\n\nLa gran pregunta continua oberta: si Mart va tindre aigua, va arribar a tindre vida? Trobar la resposta podria canviar el que sabem sobre el nostre lloc en l’univers.",
+   "questions": [
+    {
+     "id": "lectura_ca_l7_mart_q1",
+     "prompt": "Com és hui la superfície de Mart?",
+     "options": [
+      "Un oceà calent",
+      "Un desert gelat i polsós",
+      "Una selva humida",
+      "Una plana coberta d’herba"
+     ],
+     "correct": 1,
+     "explanation": "«És un desert gelat i polsós.»"
+    },
+    {
+     "id": "lectura_ca_l7_mart_q2",
+     "prompt": "Quines proves indiquen que hi va haver aigua?",
+     "options": [
+      "Que Mart es veu roig",
+      "Llits de rius secs, deltes i roques que es formen amb aigua",
+      "Que té una atmosfera fina",
+      "Que està lluny del Sol"
+     ],
+     "correct": 1,
+     "explanation": "«Llits de rius secs, deltes i roques que només es formen en presència d’aigua.»"
+    },
+    {
+     "id": "lectura_ca_l7_mart_q3",
+     "prompt": "Per què no hi pot haver aigua líquida molt de temps en la superfície?",
+     "options": [
+      "Perquè hi ha massa robots",
+      "Perquè la pressió és molt baixa",
+      "Perquè hi ha massa oxigen",
+      "Perquè mai no fa vent"
+     ],
+     "correct": 1,
+     "explanation": "«La pressió és tan baixa que s’evaporaria o es gelaria de seguida.»"
+    },
+    {
+     "id": "lectura_ca_l7_mart_q4",
+     "prompt": "Per a què va anar Perseverance al cràter Jezero?",
+     "options": [
+      "Per a buscar or",
+      "Per a construir una base",
+      "Per a arreplegar mostres de roca on hi va haver un llac",
+      "Per a fer fotos de la Terra"
+     ],
+     "correct": 2,
+     "explanation": "«Per a arreplegar mostres de roca.»"
+    },
+    {
+     "id": "lectura_ca_l7_mart_q5",
+     "prompt": "Quina és «la gran pregunta» del final?",
+     "options": [
+      "Si Mart és roig",
+      "Si Mart va arribar a tindre vida",
+      "Quan arribarà el pròxim robot",
+      "Si hi ha gel en els pols"
+     ],
+     "correct": 1,
+     "explanation": "«Si Mart va tindre aigua, va arribar a tindre vida?»"
     }
    ]
   },
@@ -1183,6 +1776,9 @@
      "correct": 0,
      "explanation": "«una tradició pot continuar sent útil en el present»"
     }
+   ],
+   "topics": [
+    "historia"
    ]
   },
   {
@@ -1251,6 +1847,81 @@
      ],
      "correct": 3,
      "explanation": "És una hipèrbole amb intenció crítica."
+    }
+   ],
+   "topics": [
+    "vida"
+   ]
+  },
+  {
+   "id": "lectura_ca_l8_ia",
+   "level": 8,
+   "title": "Pensen les màquines?",
+   "emoji": "🤖",
+   "topics": [
+    "tecnologia"
+   ],
+   "text": "Hui parlem amb assistents de veu, rebem recomanacions de vídeos i traduïm textos en segons gràcies a la intel·ligència artificial (IA). Alguns programes escriuen redaccions o creen imatges a partir d’una frase. Davant de resultats tan sorprenents, és fàcil preguntar-se si estes màquines pensen com nosaltres.\n\nLa resposta de la majoria dels experts és més prudent. Estos sistemes aprenen analitzant quantitats enormes de dades i detecten patrons: quina paraula sol anar després d’una altra o quina forma té un gat en milers de fotos. Gràcies a això poden donar respostes molt convincents, però no tenen experiències ni una comprensió del món com la humana. I a vegades s’equivoquen amb tota seguretat.\n\nPer això convé utilitzar-los amb esperit crític. Una IA ens pot ajudar a organitzar idees o a repassar, però si li deixem fer tot el treball, no aprenem. A més, cal comprovar la informació que ens proporciona, igual que faríem amb qualsevol pàgina d’internet.\n\nLa intel·ligència artificial és una eina poderosa. Que ens faça millors o més ganduls dependrà, en gran part, de com decidim utilitzar-la.",
+   "questions": [
+    {
+     "id": "lectura_ca_l8_ia_q1",
+     "prompt": "Segons el text, com aprenen estos sistemes?",
+     "options": [
+      "Llegint la ment de les persones",
+      "Analitzant moltes dades i detectant patrons",
+      "Anant a classe",
+      "Copiant altres màquines"
+     ],
+     "correct": 1,
+     "explanation": "«Aprenen analitzant quantitats enormes de dades i detecten patrons.»"
+    },
+    {
+     "id": "lectura_ca_l8_ia_q2",
+     "prompt": "Què opina la majoria dels experts?",
+     "options": [
+      "Que pensen igual que nosaltres",
+      "Que no comprenen el món com els humans",
+      "Que mai no s’equivoquen",
+      "Que prompte aniran a l’escola"
+     ],
+     "correct": 1,
+     "explanation": "«No tenen experiències ni una comprensió del món com la humana.»"
+    },
+    {
+     "id": "lectura_ca_l8_ia_q3",
+     "prompt": "Quin problema s’hi esmenta?",
+     "options": [
+      "Que són molt lentes",
+      "Que a vegades s’equivoquen amb tota seguretat",
+      "Que només funcionen en anglés",
+      "Que no es poden usar a casa"
+     ],
+     "correct": 1,
+     "explanation": "«A vegades s’equivoquen amb tota seguretat.»"
+    },
+    {
+     "id": "lectura_ca_l8_ia_q4",
+     "prompt": "Què recomana el text?",
+     "options": [
+      "No utilitzar-les mai",
+      "Utilitzar-les amb esperit crític i comprovar la informació",
+      "Deixar que facen els deures",
+      "Creure tot el que diuen"
+     ],
+     "correct": 1,
+     "explanation": "«Convé utilitzar-los amb esperit crític.»"
+    },
+    {
+     "id": "lectura_ca_l8_ia_q5",
+     "prompt": "Quin tipus de text és?",
+     "options": [
+      "Un conte fantàstic",
+      "Un text argumentatiu que convida a reflexionar",
+      "Una recepta",
+      "Un poema"
+     ],
+     "correct": 1,
+     "explanation": "Planteja una pregunta, aporta arguments i acaba amb una reflexió."
     }
    ]
   },
@@ -1321,6 +1992,10 @@
      "correct": 3,
      "explanation": "Assenyala que durant dècades se les va oblidar."
     }
+   ],
+   "topics": [
+    "arte",
+    "historia"
    ]
   },
   {
@@ -1389,6 +2064,83 @@
      ],
      "correct": 1,
      "explanation": "«Decidir a què la dediquem és [...] decidir com volem viure.»"
+    }
+   ],
+   "topics": [
+    "tecnologia",
+    "vida"
+   ]
+  },
+  {
+   "id": "lectura_ca_l9_guernica",
+   "level": 9,
+   "title": "Guernica: un crit pintat",
+   "emoji": "🖤",
+   "topics": [
+    "arte",
+    "historia"
+   ],
+   "text": "El 26 d’abril de 1937, en plena guerra civil espanyola, avions alemanys i italians, aliats de les tropes de Franco, van bombardejar la vila basca de Gernika. Era dia de mercat. La vila va quedar en gran part destruïda i van morir nombrosos civils; encara hui els historiadors debaten la xifra exacta.\n\nPablo Picasso vivia aleshores a París i havia rebut l’encàrrec de pintar un mural per al pavelló de la República espanyola en l’Exposició Internacional d’aquell any. Commocionat per les notícies, va decidir que la seua obra parlaria de l’horror d’aquell bombardeig. En poc més d’un mes va pintar un llenç de quasi huit metres d’amplària.\n\nEl Guernica no mostra avions ni explosions. En lloc d’això hi apareixen figures deformades: una mare que crida amb el seu fill mort en braços, un cavall ferit, un bou, una bombeta que pareix un ull. Picasso va triar només el blanc, el negre i els grisos, com en les fotografies dels periòdics.\n\nPer desig del pintor, el quadre no va viatjar a Espanya fins que es va recuperar la democràcia: hi va arribar l’any 1981. Hui es troba en el Museu Reina Sofia, a Madrid, i s’ha convertit en un símbol universal contra la guerra.",
+   "questions": [
+    {
+     "id": "lectura_ca_l9_guernica_q1",
+     "prompt": "Què va passar el 26 d’abril de 1937?",
+     "options": [
+      "Es va inaugurar un museu",
+      "Van bombardejar la vila de Gernika",
+      "Picasso va arribar a París",
+      "Es va acabar la guerra"
+     ],
+     "correct": 1,
+     "explanation": "«Van bombardejar la vila basca de Gernika.»"
+    },
+    {
+     "id": "lectura_ca_l9_guernica_q2",
+     "prompt": "Per a quin lloc va pintar Picasso el quadre?",
+     "options": [
+      "Per a la seua casa de París",
+      "Per al pavelló de la República en l’Exposició Internacional",
+      "Per a l’ajuntament de Gernika",
+      "Per al Museu del Prado"
+     ],
+     "correct": 1,
+     "explanation": "«Un mural per al pavelló de la República espanyola en l’Exposició Internacional.»"
+    },
+    {
+     "id": "lectura_ca_l9_guernica_q3",
+     "prompt": "Amb què relaciona el text els colors del quadre?",
+     "options": [
+      "Amb les fotografies dels periòdics",
+      "Amb la bandera d’Espanya",
+      "Amb la mar de nit",
+      "Amb els colors del mercat"
+     ],
+     "correct": 0,
+     "explanation": "«Com en les fotografies dels periòdics.»"
+    },
+    {
+     "id": "lectura_ca_l9_guernica_q4",
+     "prompt": "Quan va arribar el Guernica a Espanya?",
+     "options": [
+      "L’any 1937",
+      "L’any 1981",
+      "L’any 1992",
+      "L’any 2000"
+     ],
+     "correct": 1,
+     "explanation": "«Hi va arribar l’any 1981.»"
+    },
+    {
+     "id": "lectura_ca_l9_guernica_q5",
+     "prompt": "Per què s’ha convertit en un símbol?",
+     "options": [
+      "Perquè és el quadre més car",
+      "Perquè expressa l’horror de la guerra de manera universal",
+      "Perquè té molts colors",
+      "Perquè és molt xicotet"
+     ],
+     "correct": 1,
+     "explanation": "«S’ha convertit en un símbol universal contra la guerra.»"
     }
    ]
   }

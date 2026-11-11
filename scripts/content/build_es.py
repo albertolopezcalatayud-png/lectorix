@@ -33,3 +33,6 @@ print('lecturas', len(cur))
 # Skill and step (difficulty inside the level) for every exercise
 import tag_items
 tag_items.tag_lang('es')
+
+import interests
+interests.apply('es')
