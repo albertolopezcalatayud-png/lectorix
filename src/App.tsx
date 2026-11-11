@@ -38,6 +38,7 @@ const StudyNotes = lazy(() => import('@/pages/StudyNotes'));
 const Stories = lazy(() => import('@/pages/Stories'));
 const WriteListen = lazy(() => import('@/pages/WriteListen'));
 const Shelf = lazy(() => import('@/pages/Shelf'));
+const ReadAloud = lazy(() => import('@/pages/ReadAloud'));
 const HowILearn = lazy(() => import('@/pages/HowILearn'));
 const FamilyGuide = lazy(() => import('@/pages/HowILearn').then((m) => ({ default: m.FamilyGuide })));
 
@@ -86,6 +87,7 @@ function AnimatedRoutes() {
         <Route path="/entrenar/:skill" element={<PageTransition><SkillPractice /></PageTransition>} />
         <Route path="/como-aprendo" element={<PageTransition><HowILearn /></PageTransition>} />
         <Route path="/guia-familias" element={<PageTransition><FamilyGuide /></PageTransition>} />
+        <Route path="/leer-en-voz-alta/:id" element={<PageTransition><ReadAloud /></PageTransition>} />
         <Route path="/estanteria" element={<PageTransition><Shelf /></PageTransition>} />
         <Route path="/escribe" element={<PageTransition><WriteListen /></PageTransition>} />
         <Route path="/cuentos" element={<PageTransition><Stories /></PageTransition>} />
@@ -105,7 +107,7 @@ function ErrorBoundaryWithRoute({ children }: { children: ReactNode }) {
 function RulerHost() {
   const location = useLocation();
   const on = useAppStore((s) => s.readingRuler);
-  const readingScreen = /^\/(lectura\/|ejercicio\/|repaso|entrenar|estudiar|cuentos|escribe|reto-diario|dictado|fluidez|adaptar|juntos)/.test(location.pathname);
+  const readingScreen = /^\/(lectura\/|ejercicio\/|repaso|entrenar|estudiar|cuentos|escribe|leer-en-voz-alta|reto-diario|dictado|fluidez|adaptar|juntos)/.test(location.pathname);
   return on && readingScreen ? <ReadingRuler /> : null;
 }
 

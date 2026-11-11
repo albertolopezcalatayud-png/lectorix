@@ -860,6 +860,36 @@ export const es = {
   hil_link: 'Entiendo cómo aprendo',
   hil_family_title: 'Guía para la familia',
   hil_family_desc: 'Cómo ayudar en casa y cuándo hablar con el centro',
+
+  // Read-aloud check
+  ra_title: 'Léelo tú en voz alta',
+  ra_cta: 'Léelo tú en voz alta',
+  ra_off: 'Esta opción está desactivada. La familia puede activarla en el panel para familias.',
+  ra_go_family: 'Ir al panel para familias',
+  ra_intro: 'Pulsa el botón y lee el texto en voz alta. Las palabras se pondrán verdes cuando el dispositivo las reconozca.',
+  ra_start: 'Empezar a leer',
+  ra_listening: 'Te escucho... lee con calma, a tu ritmo.',
+  ra_stop: 'He terminado',
+  ra_result: 'Ha reconocido {read} de {total} palabras',
+  ra_missed: 'Estas palabras no las ha reconocido. Escúchalas y, si quieres, guárdalas en tu cuaderno:',
+  ra_all: '¡Ha reconocido todas las palabras que has leído!',
+  ra_caveat: 'El reconocimiento de voz a veces se equivoca, sobre todo con nombres, ruido o voces infantiles. Úsalo como ayuda, no como nota.',
+  ra_again: 'Volver a intentarlo',
+  ra_unavailable: 'Este dispositivo no puede reconocer la voz sin conexión en este idioma, así que esta opción no está disponible aquí.',
+  ra_downloadable: 'Para usarla, el dispositivo tiene que descargar el idioma para reconocer la voz sin conexión.',
+  ra_downloading: 'El dispositivo está descargando el idioma. Vuelve a probar en unos minutos.',
+  ra_download: 'Descargar el idioma',
+  ra_err_permission: 'Sin permiso para usar el micrófono no se puede usar esta opción.',
+  ra_err: 'Se ha interrumpido el reconocimiento de voz. Prueba otra vez.',
+  ra_privacy: 'La voz se reconoce en este dispositivo, sin conexión. No se graba ni se guarda: solo se compara con el texto y se descarta.',
+  ra_family_title: 'Corrección de lectura en voz alta (opcional)',
+  ra_family_desc: 'Al activarla, en las lecturas guiadas aparece «Léelo tú en voz alta»: el alumno lee y la app marca las palabras que reconoce. Usa el micrófono y el reconocimiento de voz del propio dispositivo, sin conexión. La voz no se graba, no se guarda y no sale del dispositivo. Solo se ofrece si el dispositivo puede hacerlo sin conexión.',
+  ra_status_ok: 'Este dispositivo puede hacerlo sin conexión.',
+  ra_family_where: 'Lo encontraréis en cada lectura guiada, debajo del texto.',
+
+  // Read-aloud check (web)
+  ra_unchecked: 'Todavía no se ha comprobado si este dispositivo puede reconocer la voz sin conexión.',
+  ra_check: 'Comprobar este dispositivo',
 } as const;
 
 export type TranslationKey = keyof typeof es;

@@ -13,6 +13,7 @@ import { generateParentReport, downloadReport, printReport } from '@/services/pd
 import { useI18n } from '@/i18n';
 import { WeeklySummary, HomeTips, useWeeklyLines, FamilyLanguagePicker } from '@/components/family/WeeklySummary';
 import { StartingPoint } from '@/components/family/StartingPoint';
+import { ReadAloudSetting } from '@/components/family/ReadAloudSetting';
 import { SkillMap } from '@/components/skills/SkillMap';
 import { useExerciseIndex, skillStats } from '@/services/skills';
 import { skillNameKey } from '@/data/skills';
@@ -116,6 +117,8 @@ export default function ParentPanel() {
             <span className="text-accent font-extrabold">→</span>
           </div>
         </Card>
+
+        <ReadAloudSetting />
 
         {/* Global stats */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>

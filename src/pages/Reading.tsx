@@ -6,6 +6,7 @@ import { useReading, questionsAsExercises } from '@/data/readings';
 import { buildSessionResult } from '@/services/gamification';
 import { recordSession } from '@/services/session';
 import { GuidedReader } from '@/components/reading/GuidedReader';
+import { useReadAloud } from '@/services/readAloud';
 import { ExerciseCard } from '@/components/exercise/ExerciseCard';
 import tts from '@/services/tts';
 import { useI18n } from '@/i18n';
@@ -18,6 +19,7 @@ export default function Reading() {
   const questions = useMemo(() => (reading ? questionsAsExercises(reading) : []), [reading]);
 
   const [phase, setPhase] = useState<'reading' | 'questions'>('reading');
+  const readAloudOn = useReadAloud((s) => s.enabled);
   const [listened, setListened] = useState(false);
   const [qIndex, setQIndex] = useState(0);
   const [answers, setAnswers] = useState<AnswerResult[]>([]);
@@ -93,6 +95,12 @@ export default function Reading() {
               {reading.emoji} {reading.title}
             </h1>
             <GuidedReader text={reading.text} onFinishedListening={onFinishedListening} />
+            {readAloudOn && (
+              <button onClick={() => { tts.stop(); navigate(`/leer-en-voz-alta/${reading.id}`); }}
+                className="w-full mt-4 py-3 rounded-[14px] bg-bg-card border border-border font-heading font-extrabold text-sm">
+                🎤 {t('ra_cta')}
+              </button>
+            )}
             <motion.button
               whileTap={{ scale: 0.97 }}
               animate={listened ? { scale: [1, 1.04, 1] } : {}}
