@@ -10,7 +10,12 @@ os.makedirs(OUT, exist_ok=True)
 for lang, d in [('es', 'es_ES'), ('ca', 'ca_ES-valencia'), ('en', 'en_GB')]:
     tmp = f'/tmp/{d}.forms.txt'
     subprocess.run([sys.executable, os.path.join(HERE, 'expand.py'), f'/usr/share/hunspell/{d}.aff', f'/usr/share/hunspell/{d}.dic', tmp], check=True)
-    words = sorted({w for w in open(tmp, encoding='utf-8').read().split('\n') if w and not any(c in w for c in "-'’")})
+    words = {w for w in open(tmp, encoding='utf-8').read().split('\n') if w and not any(c in w for c in "-'’")}
+    # Correct words the dictionary lacks (found by checking the app's own texts), kept in extra_<lang>.txt
+    extra = os.path.join(HERE, f'extra_{lang}.txt')
+    if os.path.exists(extra):
+        words |= {w.strip() for w in open(extra, encoding='utf-8') if w.strip() and not w.startswith('#')}
+    words = sorted(words)
     out, prev = [], ''
     for w in words:
         k = 0
