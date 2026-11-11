@@ -58,7 +58,7 @@ await ev(`(() => {
 await ev('location.hash = "#/"; location.reload(); true');
 await sleep(5000);
 
-const routes = ['/', '/modulos', '/ejercicio/fonologia/1', '/lectura', '/dictado', '/fluidez', '/adaptar', '/juntos', '/panel-padres', '/ajustes', '/mis-palabras'];
+const routes = ['/', '/modulos', '/ejercicio/fonologia/1', '/lectura', '/dictado', '/fluidez', '/adaptar', '/juntos', '/panel-padres', '/ajustes', '/mis-palabras', '/cuentos', '/escribe', '/estanteria', '/como-aprendo', '/guia-familias', '/leer-en-voz-alta/lectura_l1_gato'];
 results.routes = {};
 for (const r of routes) {
   await ev(`location.hash = '#${r}'; true`);
@@ -76,6 +76,15 @@ for (const lang of ['es-ES', 'ca-ES', 'en-GB']) {
 results.ttsSpeak = await ev(`(async () => { const t = Date.now(); await Capacitor.Plugins.TextToSpeech.speak({ text: 'Hola, esto es una prueba de voz.', lang: 'es-ES', rate: 1 }); return 'spoke in ' + (Date.now() - t) + ' ms'; })()`, 30000);
 results.ttsWords = await ev(`(async () => { let n = 0; const h = await Capacitor.Plugins.TextToSpeech.addListener('onRangeStart', () => n++);
   await Capacitor.Plugins.TextToSpeech.speak({ text: 'El gato come pescado en la cocina.', lang: 'es-ES', rate: 1 }); await h.remove(); return 'word events: ' + n; })()`, 30000);
+
+// Offline spelling word list (Write and listen)
+results.dict = await ev(`fetch('dict/es.fc.gz').then(r => r.arrayBuffer()).then(b => 'bytes ' + b.byteLength + ', gzip ' + (new Uint8Array(b)[0] === 0x1f))`, 20000);
+
+// On-device speech recognition plugin (read-aloud check): it must answer, never crash
+results.onDeviceSpeech = {};
+for (const lang of ['es-ES', 'ca-ES', 'en-GB']) {
+  results.onDeviceSpeech[lang] = await ev(`Capacitor.Plugins.OnDeviceSpeech.availability({ lang: '${lang}' }).then(r => r.state).catch(e => 'ERR ' + e.message)`, 20000);
+}
 
 // Photo reading (OCR) with a generated page image, through the real file input
 await ev(`location.hash = '#/adaptar'; true`);
@@ -108,7 +117,8 @@ results.backButton = await ev('location.hash');
 
 results.errors = errors;
 log(JSON.stringify(results, null, 2));
-const ok = results.native && !results.speechSynthesisInWebView !== undefined && String(results.ocr).startsWith('OK') && errors.length === 0;
+const ok = results.native && !results.speechSynthesisInWebView !== undefined && String(results.ocr).startsWith('OK') && errors.length === 0
+  && Object.values(results.onDeviceSpeech).every((v) => ['available', 'downloadable', 'downloading', 'unavailable'].includes(v)) && String(results.dict).includes('bytes');
 log('RESULT', ok ? 'PASS' : 'CHECK');
 ws.close();
 process.exit(0);
