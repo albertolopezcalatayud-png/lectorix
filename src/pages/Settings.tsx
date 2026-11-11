@@ -458,7 +458,7 @@ export default function Settings() {
               onClick={() => navigate('/premium')}
               className="w-full mt-3 py-2.5 rounded-xl bg-accent text-white font-bold text-sm"
             >
-              {t('set_premium')} ⭐
+              {t('set_premium')}
             </button>
           )}
         </Card>

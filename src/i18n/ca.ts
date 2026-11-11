@@ -123,7 +123,7 @@ export const ca: Record<TranslationKey, string> = {
   set_font_size: 'Grandària de la lletra',
   set_contrast: 'Alt contrast',
   set_account: 'Compte',
-  set_premium: 'Fes-te Premium',
+  set_premium: 'Plans',
   set_privacy: 'Política de privacitat',
   set_logout: 'Tancar sessió',
 
@@ -213,7 +213,7 @@ export const ca: Record<TranslationKey, string> = {
   login_skip: 'Continuar sense compte',
 
   // Premium
-  prem_title: 'Premium',
+  prem_title: 'Plans',
   prem_already: 'Ja ets Premium!',
   prem_already_desc: 'Gaudix de tots els continguts sense límits.',
   prem_hero: 'Lectorix Premium',
@@ -240,7 +240,7 @@ export const ca: Record<TranslationKey, string> = {
   prem_family_desc: 'Fins a 4 estudiants · Tots els continguts',
   prem_subscribe: 'Subscriure\'s',
   prem_soon: 'Prompte',
-  prem_soon_desc: 'Les subscripcions arribaran molt prompte. Mentrestant, tot el contingut de Lectorix és gratuït.',
+  prem_soon_desc: 'Ara mateix es poden usar totes les funcions.',
   prem_disclaimer: 'Cancel·la quan vulgues. Sense compromís. Els pagaments es processen a través de Google Play.',
 
   // Mascot Rewards
@@ -427,7 +427,7 @@ export const ca: Record<TranslationKey, string> = {
   set_read_aloud: 'Llegir en veu alta',
   set_read_speed: 'Velocitat de lectura',
   set_plan: 'Pla',
-  set_plan_free: 'Gratuït',
+  set_plan_free: 'Versió de prova',
   set_danger: 'Zona perillosa',
   set_reset: 'Esborrar el progrés',
   set_reset_confirm: 'Segur que vols esborrar tot el teu progrés? Esta acció no es pot desfer.',
@@ -914,4 +914,8 @@ export const ca: Record<TranslationKey, string> = {
   fb_screen: 'Pantalla',
   fb_langs: 'Idiomes',
   fb_errors: 'Errors recents',
+
+  // Plans
+  plans_now: 'Mentre Lectorix està en fase de proves, es poden usar totes les seues funcions. Provar-la no costa res.',
+  plans_later: 'Més avant tindrà plans de subscripció opcionals. Abans que arriben, ho explicarem dins de l’aplicació.',
 };

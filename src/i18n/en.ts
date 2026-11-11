@@ -123,7 +123,7 @@ export const en: Record<TranslationKey, string> = {
   set_font_size: 'Font size',
   set_contrast: 'High contrast',
   set_account: 'Account',
-  set_premium: 'Go Premium',
+  set_premium: 'Plans',
   set_privacy: 'Privacy policy',
   set_logout: 'Log out',
 
@@ -213,7 +213,7 @@ export const en: Record<TranslationKey, string> = {
   login_skip: 'Continue without account',
 
   // Premium
-  prem_title: 'Premium',
+  prem_title: 'Plans',
   prem_already: 'You\'re already Premium!',
   prem_already_desc: 'Enjoy all content without limits.',
   prem_hero: 'Lectorix Premium',
@@ -240,7 +240,7 @@ export const en: Record<TranslationKey, string> = {
   prem_family_desc: 'Up to 4 students · All content',
   prem_subscribe: 'Subscribe',
   prem_soon: 'Coming soon',
-  prem_soon_desc: 'Subscriptions are coming soon. Until then, all of Lectorix is free.',
+  prem_soon_desc: 'Right now every feature can be used.',
   prem_disclaimer: 'Cancel anytime. No commitment. Payments processed through Google Play.',
 
   // Mascot Rewards
@@ -427,7 +427,7 @@ export const en: Record<TranslationKey, string> = {
   set_read_aloud: 'Read aloud',
   set_read_speed: 'Reading speed',
   set_plan: 'Plan',
-  set_plan_free: 'Free',
+  set_plan_free: 'Trial version',
   set_danger: 'Danger zone',
   set_reset: 'Delete progress',
   set_reset_confirm: 'Are you sure you want to delete all your progress? This cannot be undone.',
@@ -914,4 +914,8 @@ export const en: Record<TranslationKey, string> = {
   fb_screen: 'Screen',
   fb_langs: 'Languages',
   fb_errors: 'Recent errors',
+
+  // Plans
+  plans_now: 'While Lectorix is being tested, every feature can be used. Trying it costs nothing.',
+  plans_later: 'Later on it will have optional subscription plans. Before they arrive, we will explain them inside the app.',
 };

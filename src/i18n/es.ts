@@ -121,7 +121,7 @@ export const es = {
   set_font_size: 'Tamaño de letra',
   set_contrast: 'Alto contraste',
   set_account: 'Cuenta',
-  set_premium: 'Hazte Premium',
+  set_premium: 'Planes',
   set_privacy: 'Política de privacidad',
   set_logout: 'Cerrar sesión',
 
@@ -211,7 +211,7 @@ export const es = {
   login_skip: 'Continuar sin cuenta',
 
   // Premium
-  prem_title: 'Premium',
+  prem_title: 'Planes',
   prem_already: '¡Ya eres Premium!',
   prem_already_desc: 'Disfruta de todos los contenidos sin límites.',
   prem_hero: 'Lectorix Premium',
@@ -238,7 +238,7 @@ export const es = {
   prem_family_desc: 'Hasta 4 estudiantes · Todos los contenidos',
   prem_subscribe: 'Suscribirse',
   prem_soon: 'Próximamente',
-  prem_soon_desc: 'Las suscripciones llegarán muy pronto. Mientras tanto, todo el contenido de Lectorix es gratis.',
+  prem_soon_desc: 'Ahora mismo se pueden usar todas las funciones.',
   prem_disclaimer: 'Cancela cuando quieras. Sin compromiso. Los pagos se procesan a través de Google Play.',
 
   // Mascot Rewards
@@ -425,7 +425,7 @@ export const es = {
   set_read_aloud: 'Leer en voz alta',
   set_read_speed: 'Velocidad de lectura',
   set_plan: 'Plan',
-  set_plan_free: 'Gratuito',
+  set_plan_free: 'Versión de prueba',
   set_danger: 'Zona peligrosa',
   set_reset: 'Borrar progreso',
   set_reset_confirm: '¿Seguro que quieres borrar todo tu progreso? Esta acción no se puede deshacer.',
@@ -912,6 +912,10 @@ export const es = {
   fb_screen: 'Pantalla',
   fb_langs: 'Idiomas',
   fb_errors: 'Errores recientes',
+
+  // Plans
+  plans_now: 'Mientras Lectorix está en fase de pruebas, se pueden usar todas sus funciones. Probarla no cuesta nada.',
+  plans_later: 'Más adelante tendrá planes de suscripción opcionales. Antes de que lleguen, lo explicaremos dentro de la app.',
 } as const;
 
 export type TranslationKey = keyof typeof es;
