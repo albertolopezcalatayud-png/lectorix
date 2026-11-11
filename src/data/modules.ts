@@ -65,7 +65,16 @@ export const MODULES: ModuleInfo[] = [
  * Spanish and Valencian go from early Primary to the end of ESO (levels 6-9 = ESO).
  * English is a foreign language for the students, so it keeps its own scale.
  */
-export const LEVEL_COUNT: Record<'es' | 'ca' | 'en', number> = { es: 9, ca: 9, en: 5 };
+export const LEVEL_COUNT: Record<'es' | 'ca' | 'en', number> = { es: 9, ca: 9, en: 7 };
+
+/**
+ * English levels follow the Common European Framework (CEFR), not the school year:
+ * for these students English is a foreign language.
+ */
+export const CEFR: Record<number, string> = { 1: 'Pre\u2011A1', 2: 'A1', 3: 'A1+', 4: 'A2', 5: 'A2+', 6: 'B1', 7: 'B1+' };
+
+/** Extra tag shown next to a level name (the CEFR band in English, nothing otherwise) */
+export const levelTag = (lang: string, level: number) => (lang === 'en' && CEFR[level] ? `\u00a0·\u00a0${CEFR[level]}` : '');
 
 /** School stage the family or teacher can tell the app (only used to pick a starting level) */
 export type SchoolStage = 'p12' | 'p34' | 'p56' | 'eso12' | 'eso34';
@@ -78,7 +87,7 @@ export const SCHOOL_STAGES: SchoolStage[] = ['p12', 'p34', 'p56', 'eso12', 'eso3
 export const STAGE_START: Record<'es' | 'ca' | 'en', Record<SchoolStage, number>> = {
   es: { p12: 1, p34: 2, p56: 4, eso12: 5, eso34: 7 },
   ca: { p12: 1, p34: 2, p56: 4, eso12: 5, eso34: 7 },
-  en: { p12: 1, p34: 1, p56: 2, eso12: 2, eso34: 3 },
+  en: { p12: 1, p34: 2, p56: 3, eso12: 4, eso34: 5 },
 };
 
 export function getModule(id: string): ModuleInfo | undefined {

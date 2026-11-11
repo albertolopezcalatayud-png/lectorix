@@ -3673,6 +3673,954 @@
    "explanation": "On the surface, magma is called lava.",
    "skill": "comp_vocab",
    "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l6_m001",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Why is Lucía in Bristol?",
+   "options": [
+    "She is staying with a host family and going to classes",
+    "She works at the harbour",
+    "She is on a football team",
+    "She lives there with her parents"
+   ],
+   "correct": 0,
+   "explanation": "She mentions her host family and her classes.",
+   "passage": "Hi Jake, thanks for your email! I've been in Bristol for two weeks now and I really like it. My host family is very kind and they've already taken me to the harbour and to a football match. The only problem is the weather: it has rained almost every day. Classes start at nine, so I have to get up early. Write soon! Lucía",
+   "skill": "comp_inference",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l6_m002",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How long has she been in Bristol?",
+   "options": [
+    "A year",
+    "Two days",
+    "Two months",
+    "Two weeks"
+   ],
+   "correct": 3,
+   "explanation": "'I've been in Bristol for two weeks now.'",
+   "passage": "Hi Jake, thanks for your email! I've been in Bristol for two weeks now and I really like it. My host family is very kind and they've already taken me to the harbour and to a football match. The only problem is the weather: it has rained almost every day. Classes start at nine, so I have to get up early. Write soon! Lucía",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l6_m003",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What does she NOT like?",
+   "options": [
+    "The football match",
+    "The rainy weather",
+    "The harbour",
+    "Her host family"
+   ],
+   "correct": 1,
+   "explanation": "'The only problem is the weather.'",
+   "passage": "Hi Jake, thanks for your email! I've been in Bristol for two weeks now and I really like it. My host family is very kind and they've already taken me to the harbour and to a football match. The only problem is the weather: it has rained almost every day. Classes start at nine, so I have to get up early. Write soon! Lucía",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l6_m004",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What kind of text is this?",
+   "options": [
+    "A recipe",
+    "An informal email",
+    "A news report",
+    "A formal letter"
+   ],
+   "correct": 1,
+   "explanation": "It starts with 'Hi Jake' and ends 'Write soon!'.",
+   "passage": "Hi Jake, thanks for your email! I've been in Bristol for two weeks now and I really like it. My host family is very kind and they've already taken me to the harbour and to a football match. The only problem is the weather: it has rained almost every day. Classes start at nine, so I have to get up early. Write soon! Lucía",
+   "skill": "comp_texttype",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l6_m005",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What is the purpose of this text?",
+   "options": [
+    "To explain how to run faster",
+    "To sell a hat",
+    "To invite students to a charity event",
+    "To describe a park"
+   ],
+   "correct": 2,
+   "explanation": "It gives information about a charity run.",
+   "passage": "Our school is organising a charity run on Saturday 14th March. Students can choose a 2 km or a 5 km route around the park. Each runner pays £3, and all the money will go to the local animal shelter. Sign up with Mr Hughes before Friday. Don't forget to bring water and a hat!",
+   "skill": "comp_main",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l6_m006",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Who will receive the money?",
+   "options": [
+    "The park",
+    "The local animal shelter",
+    "Mr Hughes",
+    "The school"
+   ],
+   "correct": 1,
+   "explanation": "'all the money will go to the local animal shelter.'",
+   "passage": "Our school is organising a charity run on Saturday 14th March. Students can choose a 2 km or a 5 km route around the park. Each runner pays £3, and all the money will go to the local animal shelter. Sign up with Mr Hughes before Friday. Don't forget to bring water and a hat!",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l6_m007",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What is the latest day to sign up?",
+   "options": [
+    "Saturday",
+    "14th March",
+    "Before Friday",
+    "Any time"
+   ],
+   "correct": 2,
+   "explanation": "'Sign up with Mr Hughes before Friday.'",
+   "passage": "Our school is organising a charity run on Saturday 14th March. Students can choose a 2 km or a 5 km route around the park. Each runner pays £3, and all the money will go to the local animal shelter. Sign up with Mr Hughes before Friday. Don't forget to bring water and a hat!",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l6_m008",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How much does each runner pay?",
+   "options": [
+    "£2",
+    "£3",
+    "£5",
+    "Nothing"
+   ],
+   "correct": 1,
+   "explanation": "'Each runner pays £3.'",
+   "passage": "Our school is organising a charity run on Saturday 14th March. Students can choose a 2 km or a 5 km route around the park. Each runner pays £3, and all the money will go to the local animal shelter. Sign up with Mr Hughes before Friday. Don't forget to bring water and a hat!",
+   "skill": "comp_literal",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l6_m009",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What was in the box?",
+   "options": [
+    "A watch",
+    "An old camera",
+    "A new phone",
+    "A photo album"
+   ],
+   "correct": 1,
+   "explanation": "'Inside was the old camera.'",
+   "passage": "When Maya opened the box, she couldn't believe her eyes. Inside was the old camera that her grandfather had used for forty years. Next to it there was a note: 'Now it's your turn to capture the world.' Maya smiled, put the strap around her neck and went outside to take her first photo.",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l6_m010",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Who did the camera belong to?",
+   "options": [
+    "Her father",
+    "Her teacher",
+    "Her grandfather",
+    "Her friend"
+   ],
+   "correct": 2,
+   "explanation": "'that her grandfather had used for forty years.'",
+   "passage": "When Maya opened the box, she couldn't believe her eyes. Inside was the old camera that her grandfather had used for forty years. Next to it there was a note: 'Now it's your turn to capture the world.' Maya smiled, put the strap around her neck and went outside to take her first photo.",
+   "skill": "comp_literal",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l6_m011",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What does 'capture the world' mean here?",
+   "options": [
+    "Catch animals",
+    "Win a competition",
+    "Travel around the world",
+    "Take photos of the world"
+   ],
+   "correct": 3,
+   "explanation": "With a camera, to capture means to take a picture.",
+   "passage": "When Maya opened the box, she couldn't believe her eyes. Inside was the old camera that her grandfather had used for forty years. Next to it there was a note: 'Now it's your turn to capture the world.' Maya smiled, put the strap around her neck and went outside to take her first photo.",
+   "skill": "comp_vocab",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l6_m012",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How does Maya feel at the end?",
+   "options": [
+    "Bored",
+    "Angry",
+    "Scared",
+    "Happy and excited"
+   ],
+   "correct": 3,
+   "explanation": "She smiles and goes out to take her first photo.",
+   "passage": "When Maya opened the box, she couldn't believe her eyes. Inside was the old camera that her grandfather had used for forty years. Next to it there was a note: 'Now it's your turn to capture the world.' Maya smiled, put the strap around her neck and went outside to take her first photo.",
+   "skill": "comp_inference",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l6_m013",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How many hours should teenagers sleep?",
+   "options": [
+    "Between eight and ten",
+    "Exactly seven",
+    "More than twelve",
+    "Five or six"
+   ],
+   "correct": 0,
+   "explanation": "'between eight and ten hours a night.'",
+   "passage": "Many teenagers say they feel tired at school. Experts recommend that people aged 13 to 18 sleep between eight and ten hours a night. However, phones and late homework often keep them awake. A simple tip is to switch off screens an hour before bed.",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l6_m014",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word could replace 'However'?",
+   "options": [
+    "So",
+    "But",
+    "Because",
+    "And"
+   ],
+   "correct": 1,
+   "explanation": "'However' introduces a contrast, like 'but'.",
+   "passage": "Many teenagers say they feel tired at school. Experts recommend that people aged 13 to 18 sleep between eight and ten hours a night. However, phones and late homework often keep them awake. A simple tip is to switch off screens an hour before bed.",
+   "skill": "comp_literal",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l6_m015",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What keeps teenagers awake, according to the text?",
+   "options": [
+    "Hunger",
+    "Noisy neighbours",
+    "Sports",
+    "Phones and late homework"
+   ],
+   "correct": 3,
+   "explanation": "'phones and late homework often keep them awake.'",
+   "passage": "Many teenagers say they feel tired at school. Experts recommend that people aged 13 to 18 sleep between eight and ten hours a night. However, phones and late homework often keep them awake. A simple tip is to switch off screens an hour before bed.",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l6_m016",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What advice does the text give?",
+   "options": [
+    "Do homework at night",
+    "Drink coffee",
+    "Sleep at school",
+    "Switch off screens an hour before bed"
+   ],
+   "correct": 3,
+   "explanation": "'switch off screens an hour before bed.'",
+   "passage": "Many teenagers say they feel tired at school. Experts recommend that people aged 13 to 18 sleep between eight and ten hours a night. However, phones and late homework often keep them awake. A simple tip is to switch off screens an hour before bed.",
+   "skill": "comp_literal",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l6_m017",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "When did the London Underground open?",
+   "options": [
+    "In 1863",
+    "In 1963",
+    "In 1931",
+    "In 1836"
+   ],
+   "correct": 0,
+   "explanation": "'opened in 1863.'",
+   "passage": "The London Underground, or 'the Tube', opened in 1863. It was the first underground railway in the world. Today it has eleven lines and carries millions of passengers every day. Its famous map, with straight lines and bright colours, was designed by Harry Beck in 1931.",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l6_m018",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What makes it special in history?",
+   "options": [
+    "It was the first underground railway in the world",
+    "It was the longest",
+    "It had no trains",
+    "It was free"
+   ],
+   "correct": 0,
+   "explanation": "'It was the first underground railway in the world.'",
+   "passage": "The London Underground, or 'the Tube', opened in 1863. It was the first underground railway in the world. Today it has eleven lines and carries millions of passengers every day. Its famous map, with straight lines and bright colours, was designed by Harry Beck in 1931.",
+   "skill": "comp_literal",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l6_m019",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Who designed the famous map?",
+   "options": [
+    "The Queen",
+    "A train driver",
+    "Nobody knows",
+    "Harry Beck"
+   ],
+   "correct": 3,
+   "explanation": "'was designed by Harry Beck in 1931.'",
+   "passage": "The London Underground, or 'the Tube', opened in 1863. It was the first underground railway in the world. Today it has eleven lines and carries millions of passengers every day. Its famous map, with straight lines and bright colours, was designed by Harry Beck in 1931.",
+   "skill": "comp_literal",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l6_m020",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What is 'the Tube'?",
+   "options": [
+    "A type of bus",
+    "A famous map",
+    "A London river",
+    "Another name for the London Underground"
+   ],
+   "correct": 3,
+   "explanation": "The text says 'or the Tube'.",
+   "passage": "The London Underground, or 'the Tube', opened in 1863. It was the first underground railway in the world. Today it has eleven lines and carries millions of passengers every day. Its famous map, with straight lines and bright colours, was designed by Harry Beck in 1931.",
+   "skill": "comp_literal",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l6_f001",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "I have lived here ___ 2019.",
+   "blanks": [
+    "since"
+   ],
+   "distractors": [
+    "for"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Use 'since' with a point in time.",
+   "skill": "comp_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l6_f002",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "We have been friends ___ five years.",
+   "blanks": [
+    "for"
+   ],
+   "distractors": [
+    "since"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Use 'for' with a period of time.",
+   "skill": "comp_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l6_f003",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "If it ___ tomorrow, we will stay at home.",
+   "blanks": [
+    "rains"
+   ],
+   "distractors": [
+    "will rain"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "First conditional: if + present, will + verb.",
+   "skill": "comp_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l6_f004",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "She is ___ than her sister.",
+   "blanks": [
+    "taller"
+   ],
+   "distractors": [
+    "more tall"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Short adjectives add -er.",
+   "skill": "comp_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l6_f005",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "This is the ___ film I have ever seen.",
+   "blanks": [
+    "best"
+   ],
+   "distractors": [
+    "better"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "The superlative of good is best.",
+   "skill": "comp_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l6_f006",
+   "module": "comprension_lectora",
+   "level": 6,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "I'm interested ___ learning languages.",
+   "blanks": [
+    "in"
+   ],
+   "distractors": [
+    "on"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "interested in.",
+   "skill": "comp_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l7_m001",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What is the writer's opinion?",
+   "options": [
+    "Homework should be banned",
+    "Students need more homework",
+    "Homework is always useless",
+    "A little useful homework is better than none"
+   ],
+   "correct": 3,
+   "explanation": "'In my opinion, a small amount of useful homework is better than none at all.'",
+   "passage": "Some people believe that homework should be banned. They argue that students already spend many hours at school and need time to rest and do other activities. On the other hand, supporters say homework helps students to practise and become more independent. In my opinion, a small amount of useful homework is better than none at all.",
+   "skill": "comp_literal",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l7_m002",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What does 'On the other hand' introduce?",
+   "options": [
+    "A question",
+    "The conclusion",
+    "The opposite point of view",
+    "An example"
+   ],
+   "correct": 2,
+   "explanation": "It introduces the arguments of the other side.",
+   "passage": "Some people believe that homework should be banned. They argue that students already spend many hours at school and need time to rest and do other activities. On the other hand, supporters say homework helps students to practise and become more independent. In my opinion, a small amount of useful homework is better than none at all.",
+   "skill": "comp_texttype",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l7_m003",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which is an argument AGAINST homework?",
+   "options": [
+    "It is useful",
+    "It makes them independent",
+    "It helps them practise",
+    "Students need time to rest"
+   ],
+   "correct": 3,
+   "explanation": "'need time to rest and do other activities.'",
+   "passage": "Some people believe that homework should be banned. They argue that students already spend many hours at school and need time to rest and do other activities. On the other hand, supporters say homework helps students to practise and become more independent. In my opinion, a small amount of useful homework is better than none at all.",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l7_m004",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What type of text is this?",
+   "options": [
+    "An opinion essay",
+    "An email",
+    "A story",
+    "An advert"
+   ],
+   "correct": 0,
+   "explanation": "It presents both sides and gives an opinion.",
+   "passage": "Some people believe that homework should be banned. They argue that students already spend many hours at school and need time to rest and do other activities. On the other hand, supporters say homework helps students to practise and become more independent. In my opinion, a small amount of useful homework is better than none at all.",
+   "skill": "comp_texttype",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l7_m005",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What is the main problem described?",
+   "options": [
+    "Too many fish",
+    "Hot weather",
+    "Expensive recycling",
+    "Plastic waste in the ocean"
+   ],
+   "correct": 3,
+   "explanation": "The first sentence says it.",
+   "passage": "Plastic waste in the ocean is one of the biggest environmental problems today. Every year, millions of tonnes of plastic end up in the sea, where they harm fish, birds and turtles. Although recycling helps, scientists say the most effective solution is to use less plastic in the first place.",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l7_m006",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which animals are mentioned?",
+   "options": [
+    "Whales only",
+    "Fish, birds and turtles",
+    "Dogs, cats and horses",
+    "Insects"
+   ],
+   "correct": 1,
+   "explanation": "'they harm fish, birds and turtles.'",
+   "passage": "Plastic waste in the ocean is one of the biggest environmental problems today. Every year, millions of tonnes of plastic end up in the sea, where they harm fish, birds and turtles. Although recycling helps, scientists say the most effective solution is to use less plastic in the first place.",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l7_m007",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What does 'Although' show here?",
+   "options": [
+    "A reason",
+    "A contrast between two ideas",
+    "A time",
+    "A place"
+   ],
+   "correct": 1,
+   "explanation": "Recycling helps, but it is not the best solution.",
+   "passage": "Plastic waste in the ocean is one of the biggest environmental problems today. Every year, millions of tonnes of plastic end up in the sea, where they harm fish, birds and turtles. Although recycling helps, scientists say the most effective solution is to use less plastic in the first place.",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l7_m008",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What is the best solution, according to scientists?",
+   "options": [
+    "Stop fishing",
+    "Recycle everything",
+    "Clean the beaches once a year",
+    "Use less plastic"
+   ],
+   "correct": 3,
+   "explanation": "'use less plastic in the first place.'",
+   "passage": "Plastic waste in the ocean is one of the biggest environmental problems today. Every year, millions of tonnes of plastic end up in the sea, where they harm fish, birds and turtles. Although recycling helps, scientists say the most effective solution is to use less plastic in the first place.",
+   "skill": "comp_literal",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l7_m009",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How did the writer feel about reading in the past?",
+   "options": [
+    "They loved it",
+    "They wrote books",
+    "They didn't like it",
+    "They read every day"
+   ],
+   "correct": 2,
+   "explanation": "'I used to hate reading.'",
+   "passage": "I used to hate reading. Books felt long and boring, and the words seemed to move on the page. Then my teacher gave me a graphic novel about a girl who travelled through time. I read it in one evening! Since then, I've read more than twenty books. I've learnt that the right book can change everything.",
+   "skill": "comp_inference",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l7_m010",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What changed their mind?",
+   "options": [
+    "A new phone",
+    "A trip",
+    "A film",
+    "A graphic novel from their teacher"
+   ],
+   "correct": 3,
+   "explanation": "'my teacher gave me a graphic novel.'",
+   "passage": "I used to hate reading. Books felt long and boring, and the words seemed to move on the page. Then my teacher gave me a graphic novel about a girl who travelled through time. I read it in one evening! Since then, I've read more than twenty books. I've learnt that the right book can change everything.",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l7_m011",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What does 'used to' express?",
+   "options": [
+    "An order",
+    "A plan for the future",
+    "Something happening now",
+    "Something that was true in the past but not now"
+   ],
+   "correct": 3,
+   "explanation": "'used to' + verb talks about past habits or states.",
+   "passage": "I used to hate reading. Books felt long and boring, and the words seemed to move on the page. Then my teacher gave me a graphic novel about a girl who travelled through time. I read it in one evening! Since then, I've read more than twenty books. I've learnt that the right book can change everything.",
+   "skill": "comp_literal",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l7_m012",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What is the main message?",
+   "options": [
+    "Time travel is possible",
+    "Reading is always boring",
+    "The right book can make you enjoy reading",
+    "Graphic novels are bad"
+   ],
+   "correct": 2,
+   "explanation": "'the right book can change everything.'",
+   "passage": "I used to hate reading. Books felt long and boring, and the words seemed to move on the page. Then my teacher gave me a graphic novel about a girl who travelled through time. I read it in one evening! Since then, I've read more than twenty books. I've learnt that the right book can change everything.",
+   "skill": "comp_main",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l7_m013",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Who can volunteer?",
+   "options": [
+    "Children aged 6–10",
+    "Only teachers",
+    "Young people aged 15 or over",
+    "Anyone under 15"
+   ],
+   "correct": 2,
+   "explanation": "'young people aged 15 or over.'",
+   "passage": "WANTED: Volunteers for the summer reading club at Hillside Library. Do you love books and enjoy working with children? We need young people aged 15 or over to help children aged 6–10 choose books and play reading games. Volunteers must be available on Tuesday or Thursday afternoons in July. Experience is not necessary, but patience is essential!",
+   "skill": "comp_literal",
+   "step": 2
+  },
+  {
+   "id": "en_comprension_lectora_l7_m014",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What will volunteers do?",
+   "options": [
+    "Clean the library",
+    "Teach maths",
+    "Sell books",
+    "Help children choose books and play reading games"
+   ],
+   "correct": 3,
+   "explanation": "It is explained in the third sentence.",
+   "passage": "WANTED: Volunteers for the summer reading club at Hillside Library. Do you love books and enjoy working with children? We need young people aged 15 or over to help children aged 6–10 choose books and play reading games. Volunteers must be available on Tuesday or Thursday afternoons in July. Experience is not necessary, but patience is essential!",
+   "skill": "comp_literal",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l7_m015",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What does 'essential' mean?",
+   "options": [
+    "Optional",
+    "Absolutely necessary",
+    "Expensive",
+    "Not important"
+   ],
+   "correct": 1,
+   "explanation": "Experience is not necessary, but patience IS necessary.",
+   "passage": "WANTED: Volunteers for the summer reading club at Hillside Library. Do you love books and enjoy working with children? We need young people aged 15 or over to help children aged 6–10 choose books and play reading games. Volunteers must be available on Tuesday or Thursday afternoons in July. Experience is not necessary, but patience is essential!",
+   "skill": "comp_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l7_m016",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "When must volunteers be available?",
+   "options": [
+    "Tuesday or Thursday afternoons in July",
+    "Mornings in June",
+    "Every weekend",
+    "Every day"
+   ],
+   "correct": 0,
+   "explanation": "'available on Tuesday or Thursday afternoons in July.'",
+   "passage": "WANTED: Volunteers for the summer reading club at Hillside Library. Do you love books and enjoy working with children? We need young people aged 15 or over to help children aged 6–10 choose books and play reading games. Volunteers must be available on Tuesday or Thursday afternoons in July. Experience is not necessary, but patience is essential!",
+   "skill": "comp_literal",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l7_m017",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What had Leo done?",
+   "options": [
+    "He had lost Sam's phone",
+    "He had told a joke",
+    "He had cleaned the room",
+    "He had broken Sam's headphones and hidden them"
+   ],
+   "correct": 3,
+   "explanation": "He broke the headphones and hid them under the bed.",
+   "passage": "'Why didn't you tell me?' asked Sam. Leo looked at the floor. He had broken his brother's headphones that morning and had hidden them under the bed. 'I was scared you'd be angry,' he whispered. Sam sighed, then smiled. 'Next time, just tell me. Things can be fixed — but lies are harder to repair.'",
+   "skill": "comp_literal",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l7_m018",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Why didn't Leo tell Sam?",
+   "options": [
+    "Sam was away",
+    "He was afraid Sam would be angry",
+    "He forgot",
+    "He didn't care"
+   ],
+   "correct": 1,
+   "explanation": "'I was scared you'd be angry.'",
+   "passage": "'Why didn't you tell me?' asked Sam. Leo looked at the floor. He had broken his brother's headphones that morning and had hidden them under the bed. 'I was scared you'd be angry,' he whispered. Sam sighed, then smiled. 'Next time, just tell me. Things can be fixed — but lies are harder to repair.'",
+   "skill": "comp_inference",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l7_m019",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What does Sam mean by 'lies are harder to repair'?",
+   "options": [
+    "Sam is angry",
+    "It is worse to lie than to break something",
+    "Headphones can't be repaired",
+    "Lies are expensive"
+   ],
+   "correct": 1,
+   "explanation": "Broken things can be fixed, but lost trust is harder to recover.",
+   "passage": "'Why didn't you tell me?' asked Sam. Leo looked at the floor. He had broken his brother's headphones that morning and had hidden them under the bed. 'I was scared you'd be angry,' he whispered. Sam sighed, then smiled. 'Next time, just tell me. Things can be fixed — but lies are harder to repair.'",
+   "skill": "comp_vocab",
+   "step": 3
+  },
+  {
+   "id": "en_comprension_lectora_l7_m020",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word describes Sam at the end?",
+   "options": [
+    "Bored",
+    "Furious",
+    "Understanding",
+    "Jealous"
+   ],
+   "correct": 2,
+   "explanation": "He sighs, smiles and gives advice.",
+   "passage": "'Why didn't you tell me?' asked Sam. Leo looked at the floor. He had broken his brother's headphones that morning and had hidden them under the bed. 'I was scared you'd be angry,' he whispered. Sam sighed, then smiled. 'Next time, just tell me. Things can be fixed — but lies are harder to repair.'",
+   "skill": "comp_literal",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l7_f001",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "If I ___ rich, I would travel the world.",
+   "blanks": [
+    "were"
+   ],
+   "distractors": [
+    "will be"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Second conditional: if + past, would + verb.",
+   "skill": "comp_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l7_f002",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "The bridge ___ built in 1890.",
+   "blanks": [
+    "was"
+   ],
+   "distractors": [
+    "did"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Passive: was/were + past participle.",
+   "skill": "comp_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l7_f003",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "She said that she ___ tired.",
+   "blanks": [
+    "was"
+   ],
+   "distractors": [
+    "is"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Reported speech moves the verb back: is → was.",
+   "skill": "comp_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l7_f004",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "The girl ___ won the prize is my cousin.",
+   "blanks": [
+    "who"
+   ],
+   "distractors": [
+    "which"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Use 'who' for people.",
+   "skill": "comp_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l7_f005",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "You ___ wear a uniform; it's optional.",
+   "blanks": [
+    "don't have to"
+   ],
+   "distractors": [
+    "mustn't"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "'don't have to' = it is not necessary.",
+   "skill": "comp_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_comprension_lectora_l7_f006",
+   "module": "comprension_lectora",
+   "level": 7,
+   "type": "drag_fill",
+   "prompt": "Complete the sentence with the right words",
+   "sentence": "I'm looking forward to ___ you.",
+   "blanks": [
+    "seeing"
+   ],
+   "distractors": [
+    "see"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "After 'looking forward to' we use -ing.",
+   "skill": "comp_vocab",
+   "step": 1
   }
  ]
 }

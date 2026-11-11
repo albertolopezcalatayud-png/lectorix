@@ -2,6 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {MODULE_TEXT, getModule, levelNameKey } from '@/data/modules';
 import { useAppStore, useLevelCount, usePracticeLang } from '@/stores/useAppStore';
+import { levelTag } from '@/data/modules';
 import { currentStep } from '@/services/steps';
 import { featureLocked } from '@/config/plans';
 import { Card } from '@/components/ui/Card';
@@ -40,6 +41,9 @@ export default function Levels() {
       <Header title={t(MODULE_TEXT[mod.id].name)} showBack />
 
       <div className="px-4 py-5 max-w-lg mx-auto">
+        {lang === 'en' && (
+          <p className="mb-4 px-3 py-2 rounded-xl bg-sky-pale text-[11px] font-bold text-fg">🇬🇧 {t('cefr_note')}</p>
+        )}
         {/* Module header */}
         <div className="flex items-center gap-3 mb-6">
           <div
@@ -120,7 +124,7 @@ export default function Levels() {
                     <div className="flex-1">
                       <div className="flex items-center gap-2 flex-wrap">
                         <h3 className="font-heading font-extrabold text-sm">
-                          {t('dash_level', { level })} · {t(levelNameKey(level))}
+                          {t('dash_level', { level })} · {t(levelNameKey(level))}{levelTag(lang, level)}
                         </h3>
                         {level === recommended && unlocked && !needsPremium && (
                           <span className="text-[10px] font-extrabold bg-mint-pale text-mint px-2 py-0.5 rounded-full">

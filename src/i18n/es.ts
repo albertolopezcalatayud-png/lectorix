@@ -707,6 +707,11 @@ export const es = {
   sk_ret_categories_tip: 'En casa: «di cinco cosas que sean…» (frutas, verbos, cosas redondas).',
   sk_ret_wordform_tip: 'En casa: a partir de una palabra (pan), sacad toda su familia (panadero, panecillo…).',
   sk_ret_letters_tip: 'En casa: formad palabras con las letras de un nombre largo.',
+
+  // English CEFR levels and transfer skill
+  cefr_note: 'En inglés, los niveles siguen el Marco Común Europeo de Referencia (MCER): de Pre-A1 a B1+.',
+  sk_transfer: 'Trampas habituales del inglés',
+  sk_transfer_tip: 'En casa: haced una lista de «trampas» (I have 14 years → I am 14; actually = en realidad) y repasadla juntos.',
 } as const;
 
 export type TranslationKey = keyof typeof es;

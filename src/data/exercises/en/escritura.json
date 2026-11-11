@@ -3931,6 +3931,1302 @@
    "explanation": "Unfortunately, the shop was closed.",
    "skill": "esc_sentences",
    "step": 1
+  },
+  {
+   "id": "en_escritura_l6_m001",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I have fourteen years old.",
+    "I have fourteen years.",
+    "I am fourteen years.",
+    "I am fourteen years old."
+   ],
+   "correct": 3,
+   "explanation": "In English we use 'be' for age. Spanish speakers often say 'I have 14 years' (tengo 14 años).",
+   "skill": "transfer",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l6_m002",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "People are very friendly here.",
+    "The people is very friendly here.",
+    "People is very friendly here.",
+    "Peoples are very friendly here."
+   ],
+   "correct": 0,
+   "explanation": "'People' is plural: people are. Spanish speakers often say 'people is' (la gente es).",
+   "skill": "transfer",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l6_m003",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I am agree with you.",
+    "I'm agree with you.",
+    "I agree with you.",
+    "I agreed with you now."
+   ],
+   "correct": 2,
+   "explanation": "'agree' is a verb: I agree. Spanish speakers often say 'I am agree' (estoy de acuerdo).",
+   "skill": "transfer",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l6_m004",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Can you explain me?",
+    "Can you explain it to me?",
+    "Can you explain me it?",
+    "Can you explain to me it?"
+   ],
+   "correct": 1,
+   "explanation": "We explain something TO someone. Spanish speakers often say 'explain me' (explícame).",
+   "skill": "transfer",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l6_m005",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Is important to study.",
+    "It is important to study.",
+    "Is it important study.",
+    "It important to study."
+   ],
+   "correct": 1,
+   "explanation": "English sentences need a subject: It is important. Spanish speakers often drop it (es importante).",
+   "skill": "transfer",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l6_m006",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I lived here since 2020.",
+    "I have lived here since 2020.",
+    "I am living here since 2020.",
+    "I live here since 2020."
+   ],
+   "correct": 1,
+   "explanation": "Present perfect + since for something that started in the past and continues.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l6_m007",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'I've known her ___ three years.'",
+   "options": [
+    "ago",
+    "during",
+    "since",
+    "for"
+   ],
+   "correct": 3,
+   "explanation": "for + a period of time.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l6_m008",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'I saw that film two days ___.'",
+   "options": [
+    "since",
+    "for",
+    "ago",
+    "before"
+   ],
+   "correct": 2,
+   "explanation": "ago = in the past, counted back from now.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l6_m009",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Have you ever went to Scotland?",
+    "Have you ever been to Scotland?",
+    "Are you ever been to Scotland?",
+    "Did you ever go to Scotland yesterday?"
+   ],
+   "correct": 1,
+   "explanation": "Present perfect with 'ever': have + been.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l6_m010",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She is more good than me at maths.",
+    "She is better than me at maths.",
+    "She is gooder than me at maths.",
+    "She is more better than me at maths."
+   ],
+   "correct": 1,
+   "explanation": "The comparative of good is better (never 'more better').",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l6_m011",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This is the more interesting book of all.",
+    "This is the most interesting book.",
+    "This is the interestingest book.",
+    "This is the most interestingest book."
+   ],
+   "correct": 1,
+   "explanation": "Long adjectives: the most + adjective.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l6_m012",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'If you heat ice, it ___.'",
+   "options": [
+    "melt",
+    "melts",
+    "melted",
+    "will melting"
+   ],
+   "correct": 1,
+   "explanation": "Zero conditional: facts that are always true.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l6_m013",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If it will rain, we will stay at home.",
+    "If it rain, we will stay at home.",
+    "If it rains, we will stay at home.",
+    "If it rains, we stay at home tomorrow will."
+   ],
+   "correct": 2,
+   "explanation": "First conditional: if + present simple, will + verb.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l6_m014",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We were play when it started to rain.",
+    "We played when it was starting to rain yesterday all day.",
+    "We was playing when it started to rain.",
+    "We were playing when it started to rain."
+   ],
+   "correct": 3,
+   "explanation": "Past continuous (were playing) for the longer action; past simple for the short one.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l6_m015",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word means 'actualmente'?",
+   "options": [
+    "currently",
+    "actual",
+    "really",
+    "actually"
+   ],
+   "correct": 0,
+   "explanation": "False friend: 'actually' means 'en realidad'. 'Actualmente' is 'currently' or 'nowadays'. Spanish speakers often confuse them.",
+   "skill": "transfer",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l6_m016",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What does 'library' mean?",
+   "options": [
+    "libro",
+    "libreta",
+    "biblioteca",
+    "librería"
+   ],
+   "correct": 2,
+   "explanation": "False friend: a library is a biblioteca; a librería is a bookshop. Spanish speakers often confuse them.",
+   "skill": "transfer",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l6_m017",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I'm good for drawing.",
+    "I'm good on drawing.",
+    "I'm good at drawing.",
+    "I'm good in drawing."
+   ],
+   "correct": 2,
+   "explanation": "We say 'good at' something.",
+   "skill": "esc_grammar",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l6_m018",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It depends on the weather.",
+    "It depends in the weather.",
+    "It depends of the weather.",
+    "It depends from the weather."
+   ],
+   "correct": 0,
+   "explanation": "'depend on'. Spanish speakers often say 'depend of' (depende de).",
+   "skill": "transfer",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l6_m019",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I enjoy to playing football.",
+    "I enjoy play football.",
+    "I enjoy playing football.",
+    "I enjoy to play football."
+   ],
+   "correct": 2,
+   "explanation": "After 'enjoy' we use -ing.",
+   "skill": "esc_grammar",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l6_m020",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She decided to leave early.",
+    "She decided to leaving early.",
+    "She decided leave early.",
+    "She decided leaving early."
+   ],
+   "correct": 0,
+   "explanation": "After 'decide' we use 'to' + verb.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l6_m021",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'I need to ___ my homework.'",
+   "options": [
+    "do",
+    "make",
+    "doing",
+    "made"
+   ],
+   "correct": 0,
+   "explanation": "We DO homework (and exercise, the shopping). We MAKE a cake, a mistake, a noise.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l6_m022",
+   "module": "escritura",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'Don't ___ so much noise!'",
+   "options": [
+    "makes",
+    "do",
+    "doing",
+    "make"
+   ],
+   "correct": 3,
+   "explanation": "We MAKE a noise.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l6_o001",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "I",
+    "have",
+    "never",
+    "been",
+    "to",
+    "London."
+   ],
+   "correctOrder": [
+    "I",
+    "have",
+    "never",
+    "been",
+    "to",
+    "London."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "I have never been to London.",
+   "skill": "esc_sentences",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l6_o002",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "If",
+    "it",
+    "rains,",
+    "we",
+    "will",
+    "stay",
+    "at",
+    "home."
+   ],
+   "correctOrder": [
+    "If",
+    "it",
+    "rains,",
+    "we",
+    "will",
+    "stay",
+    "at",
+    "home."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "If it rains, we will stay at home.",
+   "skill": "esc_sentences",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l6_o003",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "She",
+    "is",
+    "taller",
+    "than",
+    "her",
+    "brother."
+   ],
+   "correctOrder": [
+    "She",
+    "is",
+    "taller",
+    "than",
+    "her",
+    "brother."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "She is taller than her brother.",
+   "skill": "esc_sentences",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l6_o004",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "We",
+    "were",
+    "walking",
+    "home",
+    "when",
+    "it",
+    "started",
+    "to",
+    "rain."
+   ],
+   "correctOrder": [
+    "We",
+    "were",
+    "walking",
+    "home",
+    "when",
+    "it",
+    "started",
+    "to",
+    "rain."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "We were walking home when it started to rain.",
+   "skill": "esc_sentences",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l6_o005",
+   "module": "escritura",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "Can",
+    "you",
+    "explain",
+    "it",
+    "to",
+    "me?"
+   ],
+   "correctOrder": [
+    "Can",
+    "you",
+    "explain",
+    "it",
+    "to",
+    "me?"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Can you explain it to me?",
+   "skill": "esc_sentences",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l6_w001",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Correct the sentence: 'I have 13 years.'",
+   "options": [],
+   "correct": 0,
+   "answer": "I am 13 years old.",
+   "hint": "Use the verb 'be'",
+   "explanation": "In English, age goes with 'be'. Spanish speakers often say 'I have 13 years'.",
+   "acceptableAnswers": [
+    "I am 13.",
+    "I'm 13 years old.",
+    "I'm 13."
+   ],
+   "skill": "transfer",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l6_w002",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Correct the sentence: 'People is happy.'",
+   "options": [],
+   "correct": 0,
+   "answer": "People are happy.",
+   "hint": "'People' is plural",
+   "explanation": "'People' takes a plural verb. Spanish speakers often say 'people is'.",
+   "skill": "transfer",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l6_w003",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Write the past simple of 'buy'",
+   "options": [],
+   "correct": 0,
+   "answer": "bought",
+   "hint": "Irregular verb",
+   "explanation": "buy → bought → bought.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l6_w004",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Write the comparative of 'big'",
+   "options": [],
+   "correct": 0,
+   "answer": "bigger",
+   "hint": "Double the consonant",
+   "explanation": "big → bigger: one vowel + one consonant, double it.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l6_d001",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "I have never eaten sushi.",
+   "hint": "It has 5 words",
+   "explanation": "Remember the capital letter and the full stop.",
+   "dictation": true,
+   "word": "I have never eaten sushi.",
+   "skill": "dictation",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l6_d002",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "She is the tallest girl in the class.",
+   "hint": "It has 8 words",
+   "explanation": "Remember the capital letter and the full stop.",
+   "dictation": true,
+   "word": "She is the tallest girl in the class.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l6_d003",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "We were reading when the bell rang.",
+   "hint": "It has 7 words",
+   "explanation": "Remember the capital letter and the full stop.",
+   "dictation": true,
+   "word": "We were reading when the bell rang.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l6_d004",
+   "module": "escritura",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "If you study, you will pass.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter and the full stop.",
+   "dictation": true,
+   "word": "If you study, you will pass.",
+   "skill": "dictation",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l7_m001",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If I am you, I would apologise.",
+    "If I were you, I will apologise.",
+    "If I were you, I would apologise.",
+    "If I was you, I will apologise."
+   ],
+   "correct": 2,
+   "explanation": "Second conditional: if + past (were), would + verb.",
+   "skill": "esc_grammar",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l7_m002",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The castle built in 1270.",
+    "The castle is built in 1270 years ago.",
+    "The castle was built in 1270.",
+    "The castle was build in 1270."
+   ],
+   "correct": 2,
+   "explanation": "Passive: was + past participle (built).",
+   "skill": "esc_grammar",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l7_m003",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "English speaks in many countries.",
+    "English is speak in many countries.",
+    "In many countries is spoken English.",
+    "English is spoken in many countries."
+   ],
+   "correct": 3,
+   "explanation": "Passive present: is + past participle.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l7_m004",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Report this: 'I am tired,' she said.",
+   "options": [
+    "She said that she was tired.",
+    "She said that I am tired.",
+    "She said me that she was tired.",
+    "She told that she is tired."
+   ],
+   "correct": 0,
+   "explanation": "Reported speech: am → was; we 'say' something, or 'tell' someone.",
+   "skill": "esc_grammar",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l7_m005",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He told me the truth.",
+    "He said to me the truth that.",
+    "He told to me the truth.",
+    "He said me the truth."
+   ],
+   "correct": 0,
+   "explanation": "We TELL someone something; we SAY something.",
+   "skill": "esc_grammar",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l7_m006",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'The book ___ I bought is great.'",
+   "options": [
+    "who",
+    "whose",
+    "that",
+    "what"
+   ],
+   "correct": 2,
+   "explanation": "Use 'that' or 'which' for things.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l7_m007",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'That's the boy ___ dog bit me.'",
+   "options": [
+    "whose",
+    "who's",
+    "who",
+    "which"
+   ],
+   "correct": 0,
+   "explanation": "'whose' shows possession.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l7_m008",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence means 'it is not allowed'?",
+   "options": [
+    "You needn't use your phone.",
+    "You must to use your phone.",
+    "You mustn't use your phone in the exam.",
+    "You don't have to use your phone in the exam."
+   ],
+   "correct": 2,
+   "explanation": "mustn't = prohibited; don't have to = not necessary.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l7_m009",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence means 'it is not necessary'?",
+   "options": [
+    "You mustn't come if you're busy.",
+    "You must come if you're busy.",
+    "You have not to come.",
+    "You don't have to come if you're busy."
+   ],
+   "correct": 3,
+   "explanation": "'don't have to' = it is not necessary.",
+   "skill": "esc_grammar",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l7_m010",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I use to live in a small village.",
+    "I was used to live in a small village.",
+    "I used to living in a small village.",
+    "I used to live in a small village."
+   ],
+   "correct": 3,
+   "explanation": "'used to' + verb for past habits or states.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l7_m011",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I'm looking forward to meeting you.",
+    "I'm looking forward to meet you.",
+    "I look forward meet you.",
+    "I'm looking forward for meeting you."
+   ],
+   "correct": 0,
+   "explanation": "'look forward to' + -ing.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l7_m012",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She has just finished her project.",
+    "She has just finish her project.",
+    "She has finished just her project yesterday.",
+    "She just has finished her project yesterday."
+   ],
+   "correct": 0,
+   "explanation": "'just' goes between have/has and the participle.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l7_m013",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "How long are you learning English?",
+    "How long have you been learning English?",
+    "How much time you are learning English?",
+    "How long do you learn English?"
+   ],
+   "correct": 1,
+   "explanation": "Present perfect continuous for actions that started in the past and continue.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l7_m014",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What does 'embarrassed' mean?",
+   "options": [
+    "aburrido",
+    "avergonzado",
+    "embarazada",
+    "enfadado"
+   ],
+   "correct": 1,
+   "explanation": "False friend: embarazada is 'pregnant'. Spanish speakers often confuse them.",
+   "skill": "transfer",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l7_m015",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What does 'sensible' mean?",
+   "options": [
+    "sensitivo",
+    "sensato",
+    "sencillo",
+    "sensible (que se emociona)"
+   ],
+   "correct": 1,
+   "explanation": "False friend: 'sensible' means sensato. 'Sensible' in Spanish is 'sensitive'. Spanish speakers often confuse them.",
+   "skill": "transfer",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l7_m016",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What does 'career' mean?",
+   "options": [
+    "carrera profesional",
+    "carro",
+    "carretera",
+    "carrera (de coches)"
+   ],
+   "correct": 0,
+   "explanation": "A career is your professional life; a race is a 'carrera' you run. Spanish speakers often confuse them.",
+   "skill": "transfer",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l7_m017",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although it was cold, we went out.",
+    "Although of the cold, we went out.",
+    "Despite it was cold, we went out.",
+    "Although it was cold, but we went out."
+   ],
+   "correct": 0,
+   "explanation": "Don't use 'although' and 'but' together; 'despite' needs a noun or -ing.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l7_m018",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Choose the right word: 'She was late ___ the traffic.'",
+   "options": [
+    "because",
+    "although",
+    "so",
+    "because of"
+   ],
+   "correct": 3,
+   "explanation": "'because of' + noun; 'because' + clause.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l7_m019",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I used to getting up early.",
+    "I'm use to getting up early.",
+    "I'm used to get up early.",
+    "I'm used to getting up early."
+   ],
+   "correct": 3,
+   "explanation": "'be used to' + -ing = be accustomed to.",
+   "skill": "esc_grammar",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l7_m020",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There were much people at the concert.",
+    "It had a lot of people at the concert.",
+    "There was a lot of peoples at the concert.",
+    "There were a lot of people at the concert."
+   ],
+   "correct": 3,
+   "explanation": "'There were' with plurals. Spanish speakers often say 'it had' (había).",
+   "skill": "transfer",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l7_m021",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I'd rather to stay at home tonight.",
+    "I'd rather stay at home tonight.",
+    "I rather stay at home tonight.",
+    "I'd prefer stay at home tonight."
+   ],
+   "correct": 1,
+   "explanation": "'would rather' + verb without 'to'.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l7_m022",
+   "module": "escritura",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "None my friends like horror films.",
+    "Neither my friends likes horror films.",
+    "Neither of my friends don't like horror films.",
+    "Neither of my friends likes horror films."
+   ],
+   "correct": 3,
+   "explanation": "'Neither of' + singular verb; no double negative.",
+   "skill": "esc_grammar",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l7_o001",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "The",
+    "bridge",
+    "was",
+    "built",
+    "in",
+    "1890."
+   ],
+   "correctOrder": [
+    "The",
+    "bridge",
+    "was",
+    "built",
+    "in",
+    "1890."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "The bridge was built in 1890.",
+   "skill": "esc_sentences",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l7_o002",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "If",
+    "I",
+    "were",
+    "you,",
+    "I",
+    "would",
+    "say",
+    "sorry."
+   ],
+   "correctOrder": [
+    "If",
+    "I",
+    "were",
+    "you,",
+    "I",
+    "would",
+    "say",
+    "sorry."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "If I were you, I would say sorry.",
+   "skill": "esc_sentences",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l7_o003",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "She",
+    "told",
+    "me",
+    "that",
+    "she",
+    "was",
+    "tired."
+   ],
+   "correctOrder": [
+    "She",
+    "told",
+    "me",
+    "that",
+    "she",
+    "was",
+    "tired."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "She told me that she was tired.",
+   "skill": "esc_sentences",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l7_o004",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "The",
+    "girl",
+    "who",
+    "lives",
+    "next",
+    "door",
+    "is",
+    "Italian."
+   ],
+   "correctOrder": [
+    "The",
+    "girl",
+    "who",
+    "lives",
+    "next",
+    "door",
+    "is",
+    "Italian."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "The girl who lives next door is Italian.",
+   "skill": "esc_sentences",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l7_o005",
+   "module": "escritura",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Put the words in order to make a sentence",
+   "pieces": [
+    "I",
+    "used",
+    "to",
+    "play",
+    "the",
+    "piano."
+   ],
+   "correctOrder": [
+    "I",
+    "used",
+    "to",
+    "play",
+    "the",
+    "piano."
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "I used to play the piano.",
+   "skill": "esc_sentences",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l7_w001",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Make it passive: 'Someone stole my bike.'",
+   "options": [],
+   "correct": 0,
+   "answer": "My bike was stolen.",
+   "hint": "was + past participle",
+   "explanation": "Passive: was + stolen.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l7_w002",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Report it: 'I like pizza,' he said.",
+   "options": [],
+   "correct": 0,
+   "answer": "He said that he liked pizza.",
+   "hint": "Move the verb back",
+   "explanation": "like → liked in reported speech.",
+   "acceptableAnswers": [
+    "He said he liked pizza."
+   ],
+   "skill": "esc_grammar",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l7_w003",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Correct the sentence: 'He said me the answer.'",
+   "options": [],
+   "correct": 0,
+   "answer": "He told me the answer.",
+   "hint": "say or tell?",
+   "explanation": "We tell someone something.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l7_w004",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Write the past participle of 'write'",
+   "options": [],
+   "correct": 0,
+   "answer": "written",
+   "hint": "Irregular verb",
+   "explanation": "write → wrote → written.",
+   "skill": "esc_grammar",
+   "step": 1
+  },
+  {
+   "id": "en_escritura_l7_d001",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The letter was sent last week.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter and the full stop.",
+   "dictation": true,
+   "word": "The letter was sent last week.",
+   "skill": "dictation",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l7_d002",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "If I were you, I would go.",
+   "hint": "It has 7 words",
+   "explanation": "Remember the capital letter and the full stop.",
+   "dictation": true,
+   "word": "If I were you, I would go.",
+   "skill": "dictation",
+   "step": 2
+  },
+  {
+   "id": "en_escritura_l7_d003",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "He told me he had seen the film.",
+   "hint": "It has 8 words",
+   "explanation": "Remember the capital letter and the full stop.",
+   "dictation": true,
+   "word": "He told me he had seen the film.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_escritura_l7_d004",
+   "module": "escritura",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "I'm used to waking up early.",
+   "hint": "It has 6 words",
+   "explanation": "Remember the capital letter and the full stop.",
+   "dictation": true,
+   "word": "I'm used to waking up early.",
+   "skill": "dictation",
+   "step": 2
   }
  ]
 }

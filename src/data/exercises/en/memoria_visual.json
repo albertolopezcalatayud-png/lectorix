@@ -3972,6 +3972,986 @@
    "explanation": "Alphabetical order: plan, plane, plant, plate, play.",
    "skill": "mem_alpha",
    "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l6_m001",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "naighbour",
+    "neighbur",
+    "nieghbour",
+    "neighbour"
+   ],
+   "correct": 3,
+   "explanation": "It is spelled 'neighbour'. British spelling keeps the u: neigh-bour.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l6_m002",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "beautyful",
+    "beatifull",
+    "bueatiful",
+    "beautiful"
+   ],
+   "correct": 3,
+   "explanation": "It is spelled 'beautiful'.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l6_m003",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "differant",
+    "diffrent",
+    "diferent",
+    "different"
+   ],
+   "correct": 3,
+   "explanation": "It is spelled 'different'. Double f.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l6_m004",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "belive",
+    "bilieve",
+    "believe",
+    "beleive"
+   ],
+   "correct": 2,
+   "explanation": "It is spelled 'believe'. i before e: bel-ie-ve.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l6_m005",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "frend",
+    "freind",
+    "friend",
+    "friendd"
+   ],
+   "correct": 2,
+   "explanation": "It is spelled 'friend'. fri-end: the i comes first.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l6_m006",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "buisness",
+    "business",
+    "bussiness",
+    "busness"
+   ],
+   "correct": 1,
+   "explanation": "It is spelled 'business'. bus-i-ness.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l6_m007",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "tomorow",
+    "tommorrow",
+    "tommorow",
+    "tomorrow"
+   ],
+   "correct": 3,
+   "explanation": "It is spelled 'tomorrow'. One m, double r.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l6_m008",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "favourite",
+    "favourit",
+    "favorit",
+    "faverite"
+   ],
+   "correct": 0,
+   "explanation": "It is spelled 'favourite'. British spelling keeps the u.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l6_m009",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "becouse",
+    "becuase",
+    "beacause",
+    "because"
+   ],
+   "correct": 3,
+   "explanation": "It is spelled 'because'.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l6_m010",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "Wednesday",
+    "Wendsday",
+    "Wednsday",
+    "Wensday"
+   ],
+   "correct": 0,
+   "explanation": "It is spelled 'Wednesday'. Wed-nes-day: the d is silent.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l6_m011",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "February",
+    "Febuary",
+    "Febrary",
+    "Februry"
+   ],
+   "correct": 0,
+   "explanation": "It is spelled 'February'. Feb-ru-ary: don't forget the r.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l6_m012",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "restorant",
+    "restaurent",
+    "restaurant",
+    "resturant"
+   ],
+   "correct": 2,
+   "explanation": "It is spelled 'restaurant'.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l6_m013",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "seprate",
+    "separate",
+    "seperate",
+    "separete"
+   ],
+   "correct": 1,
+   "explanation": "It is spelled 'separate'. There is 'a rat' in separate.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l6_m014",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "libary",
+    "librery",
+    "library",
+    "liberry"
+   ],
+   "correct": 2,
+   "explanation": "It is spelled 'library'. li-brar-y: two r's.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l6_m015",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "goverment",
+    "govermant",
+    "governmant",
+    "government"
+   ],
+   "correct": 3,
+   "explanation": "It is spelled 'government'. govern + ment: keep the n.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l6_m016",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "environment",
+    "environmant",
+    "envirnment",
+    "enviroment"
+   ],
+   "correct": 0,
+   "explanation": "It is spelled 'environment'. environ + ment: keep the n.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l6_m017",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'their'",
+   "options": [
+    "their",
+    "they're",
+    "theirs",
+    "there"
+   ],
+   "correct": 0,
+   "explanation": "Look carefully: t-h-e-i-r.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l6_m018",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'quite'",
+   "options": [
+    "quite",
+    "quit",
+    "quiets",
+    "quiet"
+   ],
+   "correct": 0,
+   "explanation": "Look carefully: q-u-i-t-e.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l6_m019",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'lose'",
+   "options": [
+    "lose",
+    "lost",
+    "loose",
+    "loss"
+   ],
+   "correct": 0,
+   "explanation": "Look carefully: l-o-s-e.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l6_m020",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'advice'",
+   "options": [
+    "advices",
+    "advise",
+    "advice",
+    "device"
+   ],
+   "correct": 2,
+   "explanation": "Look carefully: a-d-v-i-c-e.",
+   "skill": "mem_visual",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l6_m021",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'though'",
+   "options": [
+    "through",
+    "thought",
+    "though",
+    "tough"
+   ],
+   "correct": 2,
+   "explanation": "Look carefully: t-h-o-u-g-h.",
+   "skill": "mem_visual",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l6_m022",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: their, there, their, their, their?",
+   "options": [
+    "3rd",
+    "2nd",
+    "1st",
+    "4th"
+   ],
+   "correct": 1,
+   "explanation": "The 2nd is 'there', not 'their'.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l6_m023",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: quite, quite, quite, quiet, quite?",
+   "options": [
+    "1st",
+    "3rd",
+    "4th",
+    "2nd"
+   ],
+   "correct": 2,
+   "explanation": "The 4th is 'quiet', not 'quite'.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l6_m024",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: loose, lose, lose, lose, lose?",
+   "options": [
+    "1st",
+    "2nd",
+    "3rd",
+    "4th"
+   ],
+   "correct": 0,
+   "explanation": "The 1st is 'loose', not 'lose'.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l6_m025",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: advice, advice, advise, advice, advice?",
+   "options": [
+    "3rd",
+    "1st",
+    "4th",
+    "2nd"
+   ],
+   "correct": 0,
+   "explanation": "The 3rd is 'advise', not 'advice'.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l6_m026",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: though, though, though, though, through?",
+   "options": [
+    "2nd",
+    "3rd",
+    "5th",
+    "1st"
+   ],
+   "correct": 2,
+   "explanation": "The 5th is 'through', not 'though'.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l6_o001",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "thank",
+    "think",
+    "though",
+    "through"
+   ],
+   "correctOrder": [
+    "thank",
+    "think",
+    "though",
+    "through"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: thank, think, though, through.",
+   "skill": "mem_alpha",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l6_o002",
+   "module": "memoria_visual",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "weather",
+    "Wednesday",
+    "weight",
+    "weird"
+   ],
+   "correctOrder": [
+    "weather",
+    "Wednesday",
+    "weight",
+    "weird"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: weather, Wednesday, weight, weird.",
+   "skill": "mem_alpha",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l7_m001",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "accomodation",
+    "accommodation",
+    "acomodation",
+    "acommodation"
+   ],
+   "correct": 1,
+   "explanation": "It is spelled 'accommodation'. Double c and double m.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l7_m002",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "defenitely",
+    "definitly",
+    "definately",
+    "definitely"
+   ],
+   "correct": 3,
+   "explanation": "It is spelled 'definitely'. defin-ite-ly: think of 'finite'.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l7_m003",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "wyrd",
+    "wierd",
+    "weerd",
+    "weird"
+   ],
+   "correct": 3,
+   "explanation": "It is spelled 'weird'. weird breaks the rule: e before i.",
+   "skill": "mem_spelling",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l7_m004",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "embarrassd",
+    "emberrassed",
+    "embarassed",
+    "embarrassed"
+   ],
+   "correct": 3,
+   "explanation": "It is spelled 'embarrassed'. Double r and double s.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l7_m005",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "occasionally",
+    "ocassionally",
+    "occasionaly",
+    "occassionally"
+   ],
+   "correct": 0,
+   "explanation": "It is spelled 'occasionally'.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l7_m006",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "immedietly",
+    "imediately",
+    "immediately",
+    "immediatly"
+   ],
+   "correct": 2,
+   "explanation": "It is spelled 'immediately'.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l7_m007",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "disappear",
+    "dissappear",
+    "disapear",
+    "dissapear"
+   ],
+   "correct": 0,
+   "explanation": "It is spelled 'disappear'. dis + appear: one s, double p.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l7_m008",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "ryhthm",
+    "rhythm",
+    "rythm",
+    "rhythym"
+   ],
+   "correct": 1,
+   "explanation": "It is spelled 'rhythm'. No vowels except y: r-h-y-t-h-m.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l7_m009",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "consious",
+    "conscious",
+    "conscous",
+    "concious"
+   ],
+   "correct": 1,
+   "explanation": "It is spelled 'conscious'.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l7_m010",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "exsistence",
+    "existance",
+    "existense",
+    "existence"
+   ],
+   "correct": 3,
+   "explanation": "It is spelled 'existence'.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l7_m011",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "prononciation",
+    "pronunsiation",
+    "pronounciation",
+    "pronunciation"
+   ],
+   "correct": 3,
+   "explanation": "It is spelled 'pronunciation'. pronounce → pronunciation: the o goes.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l7_m012",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "successful",
+    "successfull",
+    "sucessful",
+    "succesful"
+   ],
+   "correct": 0,
+   "explanation": "It is spelled 'successful'. Double c, double s, one l at the end.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l7_m013",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "adresse",
+    "adress",
+    "address",
+    "addres"
+   ],
+   "correct": 2,
+   "explanation": "It is spelled 'address'. Double d, double s.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l7_m014",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Choose the word that is spelled right:",
+   "options": [
+    "proffesional",
+    "profesional",
+    "professionnal",
+    "professional"
+   ],
+   "correct": 3,
+   "explanation": "It is spelled 'professional'.",
+   "skill": "mem_spelling",
+   "step": 3
+  },
+  {
+   "id": "en_memoria_visual_l7_m015",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which one has no mistakes?",
+   "options": [
+    "vejetable",
+    "vegetable",
+    "vegtable",
+    "vegetabel"
+   ],
+   "correct": 1,
+   "explanation": "It is spelled 'vegetable'.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l7_m016",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Find the correct spelling:",
+   "options": [
+    "knoledge",
+    "knowledge",
+    "knowlege",
+    "nowledge"
+   ],
+   "correct": 1,
+   "explanation": "It is spelled 'knowledge'. know + ledge: silent k.",
+   "skill": "mem_spelling",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l7_m017",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'affect'",
+   "options": [
+    "affect",
+    "afect",
+    "infect",
+    "effect"
+   ],
+   "correct": 0,
+   "explanation": "Look carefully: a-f-f-e-c-t.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l7_m018",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'accept'",
+   "options": [
+    "access",
+    "expect",
+    "except",
+    "accept"
+   ],
+   "correct": 3,
+   "explanation": "Look carefully: a-c-c-e-p-t.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l7_m019",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'principal'",
+   "options": [
+    "principally",
+    "princely",
+    "principle",
+    "principal"
+   ],
+   "correct": 3,
+   "explanation": "Look carefully: p-r-i-n-c-i-p-a-l.",
+   "skill": "mem_visual",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l7_m020",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'desert'",
+   "options": [
+    "deserve",
+    "desert",
+    "desserts",
+    "dessert"
+   ],
+   "correct": 1,
+   "explanation": "Look carefully: d-e-s-e-r-t.",
+   "skill": "mem_visual",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l7_m021",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Find the word 'stationary'",
+   "options": [
+    "stationery",
+    "stationary",
+    "nationary",
+    "station"
+   ],
+   "correct": 1,
+   "explanation": "Look carefully: s-t-a-t-i-o-n-a-r-y.",
+   "skill": "mem_visual",
+   "step": 2
+  },
+  {
+   "id": "en_memoria_visual_l7_m022",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: affect, affect, effect, affect, affect?",
+   "options": [
+    "4th",
+    "1st",
+    "2nd",
+    "3rd"
+   ],
+   "correct": 3,
+   "explanation": "The 3rd is 'effect', not 'affect'.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l7_m023",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: accept, accept, accept, accept, except?",
+   "options": [
+    "3rd",
+    "2nd",
+    "1st",
+    "5th"
+   ],
+   "correct": 3,
+   "explanation": "The 5th is 'except', not 'accept'.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l7_m024",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: principal, principle, principal, principal, principal?",
+   "options": [
+    "2nd",
+    "4th",
+    "1st",
+    "3rd"
+   ],
+   "correct": 0,
+   "explanation": "The 2nd is 'principle', not 'principal'.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l7_m025",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: desert, desert, desert, dessert, desert?",
+   "options": [
+    "4th",
+    "3rd",
+    "2nd",
+    "1st"
+   ],
+   "correct": 0,
+   "explanation": "The 4th is 'dessert', not 'desert'.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l7_m026",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which one is different: stationery, stationary, stationary, stationary, stationary?",
+   "options": [
+    "2nd",
+    "4th",
+    "1st",
+    "3rd"
+   ],
+   "correct": 2,
+   "explanation": "The 1st is 'stationery', not 'stationary'.",
+   "skill": "mem_visual",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l7_o001",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "accept",
+    "access",
+    "accident",
+    "accommodation"
+   ],
+   "correctOrder": [
+    "accept",
+    "access",
+    "accident",
+    "accommodation"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: accept, access, accident, accommodation.",
+   "skill": "mem_alpha",
+   "step": 1
+  },
+  {
+   "id": "en_memoria_visual_l7_o002",
+   "module": "memoria_visual",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Put the words in alphabetical order",
+   "pieces": [
+    "principal",
+    "principle",
+    "prison",
+    "private"
+   ],
+   "correctOrder": [
+    "principal",
+    "principle",
+    "prison",
+    "private"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Alphabetical order: principal, principle, prison, private.",
+   "skill": "mem_alpha",
+   "step": 1
   }
  ]
 }

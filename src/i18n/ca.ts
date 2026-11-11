@@ -709,4 +709,9 @@ export const ca: Record<TranslationKey, string> = {
   sk_ret_categories_tip: 'A casa: «digues cinc coses que siguen…» (fruites, verbs, coses redones).',
   sk_ret_wordform_tip: 'A casa: a partir d’una paraula (pa), traieu tota la família (forner, panet…).',
   sk_ret_letters_tip: 'A casa: formeu paraules amb les lletres d’un nom llarg.',
+
+  // English CEFR levels and transfer skill
+  cefr_note: 'En anglés, els nivells seguixen el Marc Comú Europeu de Referència (MECR): de Pre-A1 a B1+.',
+  sk_transfer: 'Paranys habituals de l’anglés',
+  sk_transfer_tip: 'A casa: feu una llista de «paranys» (I have 14 years → I am 14; actually = en realitat) i repasseu-la junts.',
 };

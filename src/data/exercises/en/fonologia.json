@@ -5341,6 +5341,1399 @@
    "word": "castle",
    "skill": "dictation",
    "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_m001",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'telephone'?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "1"
+   ],
+   "correct": 2,
+   "explanation": "tel-e-phone = 3 syllables",
+   "word": "telephone",
+   "syllables": [
+    "tel",
+    "e",
+    "phone"
+   ],
+   "skill": "fon_syllables",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_m002",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'biology'?",
+   "options": [
+    "3",
+    "2",
+    "5",
+    "4"
+   ],
+   "correct": 3,
+   "explanation": "bi-ol-o-gy = 4 syllables",
+   "word": "biology",
+   "syllables": [
+    "bi",
+    "ol",
+    "o",
+    "gy"
+   ],
+   "skill": "fon_syllables",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_m003",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'geography'?",
+   "options": [
+    "5",
+    "3",
+    "4",
+    "2"
+   ],
+   "correct": 2,
+   "explanation": "ge-og-ra-phy = 4 syllables",
+   "word": "geography",
+   "syllables": [
+    "ge",
+    "og",
+    "ra",
+    "phy"
+   ],
+   "skill": "fon_syllables",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_m004",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'intelligent'?",
+   "options": [
+    "3",
+    "5",
+    "4",
+    "2"
+   ],
+   "correct": 2,
+   "explanation": "in-tel-li-gent = 4 syllables",
+   "word": "intelligent",
+   "syllables": [
+    "in",
+    "tel",
+    "li",
+    "gent"
+   ],
+   "skill": "fon_syllables",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l6_m005",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'population'?",
+   "options": [
+    "4",
+    "5",
+    "3",
+    "2"
+   ],
+   "correct": 0,
+   "explanation": "pop-u-la-tion = 4 syllables",
+   "word": "population",
+   "syllables": [
+    "pop",
+    "u",
+    "la",
+    "tion"
+   ],
+   "skill": "fon_syllables",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l6_m006",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'photography'?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "correct": 2,
+   "explanation": "pho-tog-ra-phy = 4 syllables",
+   "word": "photography",
+   "syllables": [
+    "pho",
+    "tog",
+    "ra",
+    "phy"
+   ],
+   "skill": "fon_syllables",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l6_o001",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "tel",
+    "e",
+    "phone"
+   ],
+   "correctOrder": [
+    "tel",
+    "e",
+    "phone"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "tel-e-phone = telephone",
+   "word": "telephone",
+   "skill": "fon_syllables",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_o002",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "bi",
+    "ol",
+    "o",
+    "gy"
+   ],
+   "correctOrder": [
+    "bi",
+    "ol",
+    "o",
+    "gy"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "bi-ol-o-gy = biology",
+   "word": "biology",
+   "skill": "fon_syllables",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l6_o003",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "ge",
+    "og",
+    "ra",
+    "phy"
+   ],
+   "correctOrder": [
+    "ge",
+    "og",
+    "ra",
+    "phy"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "ge-og-ra-phy = geography",
+   "word": "geography",
+   "skill": "fon_syllables",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l6_o004",
+   "module": "fonologia",
+   "level": 6,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "in",
+    "tel",
+    "li",
+    "gent"
+   ],
+   "correctOrder": [
+    "in",
+    "tel",
+    "li",
+    "gent"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "in-tel-li-gent = intelligent",
+   "word": "intelligent",
+   "skill": "fon_syllables",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l6_m007",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which syllable is stressed in 'photograph'?",
+   "options": [
+    "graph",
+    "pho",
+    "to"
+   ],
+   "correct": 1,
+   "explanation": "We say PHO-to-graph.",
+   "word": "photograph",
+   "skill": "fon_stress",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_m008",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which syllable is stressed in 'photographer'?",
+   "options": [
+    "pho",
+    "tog",
+    "ra",
+    "pher"
+   ],
+   "correct": 1,
+   "explanation": "We say pho-TOG-ra-pher.",
+   "word": "photographer",
+   "skill": "fon_stress",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_m009",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which syllable is stressed in 'hotel'?",
+   "options": [
+    "tel",
+    "ho"
+   ],
+   "correct": 0,
+   "explanation": "We say ho-TEL.",
+   "word": "hotel",
+   "skill": "fon_stress",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_m010",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which syllable is stressed in 'potato'?",
+   "options": [
+    "po",
+    "to",
+    "ta"
+   ],
+   "correct": 2,
+   "explanation": "We say po-TA-to.",
+   "word": "potato",
+   "skill": "fon_stress",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l6_m011",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which syllable is stressed in 'computer'?",
+   "options": [
+    "ter",
+    "com",
+    "pu"
+   ],
+   "correct": 2,
+   "explanation": "We say com-PU-ter.",
+   "word": "computer",
+   "skill": "fon_stress",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_m012",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which syllable is stressed in 'Saturday'?",
+   "options": [
+    "ur",
+    "Sat",
+    "day"
+   ],
+   "correct": 1,
+   "explanation": "We say SAT-ur-day.",
+   "word": "Saturday",
+   "skill": "fon_stress",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l6_m013",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'ship'?",
+   "options": [
+    "leap",
+    "sheep",
+    "lip",
+    "seat"
+   ],
+   "correct": 2,
+   "explanation": "ship and lip have the short /ɪ/ sound; sheep has the long /iː/. Spanish speakers often say them the same.",
+   "word": "ship",
+   "skill": "transfer",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l6_m014",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'sheep'?",
+   "options": [
+    "lip",
+    "sit",
+    "ship",
+    "leaf"
+   ],
+   "correct": 3,
+   "explanation": "sheep and leaf have the long /iː/ sound.",
+   "word": "sheep",
+   "skill": "fon_sounds",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l6_m015",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'full'?",
+   "options": [
+    "food",
+    "push",
+    "moon",
+    "fool"
+   ],
+   "correct": 1,
+   "explanation": "full and push have the short /ʊ/; fool has the long /uː/.",
+   "word": "full",
+   "skill": "fon_sounds",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_m016",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'cat'?",
+   "options": [
+    "cut",
+    "bus",
+    "black",
+    "cup"
+   ],
+   "correct": 2,
+   "explanation": "cat and black have /æ/; cut has /ʌ/.",
+   "word": "cat",
+   "skill": "fon_sounds",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_m017",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'cut'?",
+   "options": [
+    "love",
+    "cat",
+    "cap",
+    "bat"
+   ],
+   "correct": 0,
+   "explanation": "cut and love have /ʌ/ (like a short, relaxed 'a').",
+   "word": "cut",
+   "skill": "fon_sounds",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_m018",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word has a silent letter?",
+   "options": [
+    "knife",
+    "nice",
+    "kite",
+    "fine"
+   ],
+   "correct": 0,
+   "explanation": "In knife, the k is silent: /naɪf/.",
+   "skill": "fon_sounds",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l6_m019",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which letter is silent in 'island'?",
+   "options": [
+    "i",
+    "s",
+    "d",
+    "l"
+   ],
+   "correct": 1,
+   "explanation": "island is pronounced /ˈaɪlənd/: the s is silent.",
+   "skill": "fon_sounds",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_m020",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which letter is silent in 'listen'?",
+   "options": [
+    "s",
+    "l",
+    "t",
+    "n"
+   ],
+   "correct": 2,
+   "explanation": "listen is pronounced /ˈlɪsn/: the t is silent.",
+   "skill": "fon_sounds",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_m021",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word has a silent 'w'?",
+   "options": [
+    "want",
+    "word",
+    "west",
+    "write"
+   ],
+   "correct": 3,
+   "explanation": "In write, the w is silent: /raɪt/.",
+   "skill": "fon_sounds",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l6_m022",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How do you say the -ed at the end of 'walked'?",
+   "options": [
+    "/d/",
+    "/t/",
+    "/ɪd/"
+   ],
+   "correct": 1,
+   "explanation": "'walked': after voiceless sounds like /k/, /tʃ/, /f/, /s/ the -ed sounds /t/: one syllable.",
+   "word": "walked",
+   "skill": "fon_sounds",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l6_m023",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How do you say the -ed at the end of 'played'?",
+   "options": [
+    "/t/",
+    "/d/",
+    "/ɪd/"
+   ],
+   "correct": 1,
+   "explanation": "'played': after voiced sounds the -ed sounds /d/: one syllable.",
+   "word": "played",
+   "skill": "fon_sounds",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_m024",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How do you say the -ed at the end of 'wanted'?",
+   "options": [
+    "/t/",
+    "/d/",
+    "/ɪd/"
+   ],
+   "correct": 2,
+   "explanation": "'wanted': after /t/ or /d/ the -ed is an extra syllable /ɪd/.",
+   "word": "wanted",
+   "skill": "fon_sounds",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_m025",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How do you say the -ed at the end of 'watched'?",
+   "options": [
+    "/t/",
+    "/ɪd/",
+    "/d/"
+   ],
+   "correct": 0,
+   "explanation": "'watched': after voiceless sounds like /k/, /tʃ/, /f/, /s/ the -ed sounds /t/: one syllable.",
+   "word": "watched",
+   "skill": "fon_sounds",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_m026",
+   "module": "fonologia",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "How do you say the -ed at the end of 'needed'?",
+   "options": [
+    "/t/",
+    "/d/",
+    "/ɪd/"
+   ],
+   "correct": 2,
+   "explanation": "'needed': after /t/ or /d/ the -ed is an extra syllable /ɪd/.",
+   "word": "needed",
+   "skill": "fon_sounds",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d001",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "I have lived in Valencia since I was six.",
+   "hint": "Careful with: lived, since",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "I have lived in Valencia since I was six.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d002",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "We were watching a film when the lights went out.",
+   "hint": "Careful with: watching, lights",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "We were watching a film when the lights went out.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d003",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "If it rains tomorrow, we will stay at home.",
+   "hint": "Careful with: tomorrow, will",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "If it rains tomorrow, we will stay at home.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d004",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "My brother is taller than me, but I am faster.",
+   "hint": "Careful with: taller, faster",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "My brother is taller than me, but I am faster.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d005",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "Have you ever been to London?",
+   "hint": "Careful with: ever, been",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "Have you ever been to London?",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l6_d006",
+   "module": "fonologia",
+   "level": 6,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "She enjoys reading books about science.",
+   "hint": "Careful with: enjoys, science",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "She enjoys reading books about science.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_m001",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'responsibility'?",
+   "options": [
+    "7",
+    "4",
+    "6",
+    "5"
+   ],
+   "correct": 2,
+   "explanation": "re-spon-si-bil-i-ty = 6 syllables",
+   "word": "responsibility",
+   "syllables": [
+    "re",
+    "spon",
+    "si",
+    "bil",
+    "i",
+    "ty"
+   ],
+   "skill": "fon_syllables",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l7_m002",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'Mediterranean'?",
+   "options": [
+    "4",
+    "6",
+    "5",
+    "7"
+   ],
+   "correct": 1,
+   "explanation": "Med-i-ter-ra-ne-an = 6 syllables",
+   "word": "Mediterranean",
+   "syllables": [
+    "Med",
+    "i",
+    "ter",
+    "ra",
+    "ne",
+    "an"
+   ],
+   "skill": "fon_syllables",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l7_m003",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'disability'?",
+   "options": [
+    "4",
+    "6",
+    "5",
+    "3"
+   ],
+   "correct": 2,
+   "explanation": "dis-a-bil-i-ty = 5 syllables",
+   "word": "disability",
+   "syllables": [
+    "dis",
+    "a",
+    "bil",
+    "i",
+    "ty"
+   ],
+   "skill": "fon_syllables",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l7_m004",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'curiosity'?",
+   "options": [
+    "5",
+    "4",
+    "6",
+    "3"
+   ],
+   "correct": 0,
+   "explanation": "cu-ri-os-i-ty = 5 syllables",
+   "word": "curiosity",
+   "syllables": [
+    "cu",
+    "ri",
+    "os",
+    "i",
+    "ty"
+   ],
+   "skill": "fon_syllables",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l7_m005",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'possibility'?",
+   "options": [
+    "5",
+    "6",
+    "4",
+    "3"
+   ],
+   "correct": 0,
+   "explanation": "pos-si-bil-i-ty = 5 syllables",
+   "word": "possibility",
+   "syllables": [
+    "pos",
+    "si",
+    "bil",
+    "i",
+    "ty"
+   ],
+   "skill": "fon_syllables",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l7_m006",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How many syllables are there in 'enthusiastic'?",
+   "options": [
+    "5",
+    "3",
+    "4",
+    "6"
+   ],
+   "correct": 0,
+   "explanation": "en-thu-si-as-tic = 5 syllables",
+   "word": "enthusiastic",
+   "syllables": [
+    "en",
+    "thu",
+    "si",
+    "as",
+    "tic"
+   ],
+   "skill": "fon_syllables",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l7_o001",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "re",
+    "spon",
+    "si",
+    "bil",
+    "i",
+    "ty"
+   ],
+   "correctOrder": [
+    "re",
+    "spon",
+    "si",
+    "bil",
+    "i",
+    "ty"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "re-spon-si-bil-i-ty = responsibility",
+   "word": "responsibility",
+   "skill": "fon_syllables",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l7_o002",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "Med",
+    "i",
+    "ter",
+    "ra",
+    "ne",
+    "an"
+   ],
+   "correctOrder": [
+    "Med",
+    "i",
+    "ter",
+    "ra",
+    "ne",
+    "an"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "Med-i-ter-ra-ne-an = Mediterranean",
+   "word": "Mediterranean",
+   "skill": "fon_syllables",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l7_o003",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "dis",
+    "a",
+    "bil",
+    "i",
+    "ty"
+   ],
+   "correctOrder": [
+    "dis",
+    "a",
+    "bil",
+    "i",
+    "ty"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "dis-a-bil-i-ty = disability",
+   "word": "disability",
+   "skill": "fon_syllables",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l7_o004",
+   "module": "fonologia",
+   "level": 7,
+   "type": "drag_order",
+   "prompt": "Put the syllables in order to make the word",
+   "pieces": [
+    "cu",
+    "ri",
+    "os",
+    "i",
+    "ty"
+   ],
+   "correctOrder": [
+    "cu",
+    "ri",
+    "os",
+    "i",
+    "ty"
+   ],
+   "options": [],
+   "correct": 0,
+   "explanation": "cu-ri-os-i-ty = curiosity",
+   "word": "curiosity",
+   "skill": "fon_syllables",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l7_m007",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which syllable is stressed in 'economy'?",
+   "options": [
+    "con",
+    "o",
+    "my",
+    "e"
+   ],
+   "correct": 0,
+   "explanation": "We say e-CON-o-my.",
+   "word": "economy",
+   "skill": "fon_stress",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l7_m008",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which syllable is stressed in 'economic'?",
+   "options": [
+    "ic",
+    "co",
+    "e",
+    "nom"
+   ],
+   "correct": 3,
+   "explanation": "We say e-co-NOM-ic.",
+   "word": "economic",
+   "skill": "fon_stress",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l7_m009",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which syllable is stressed in 'advertisement'?",
+   "options": [
+    "ad",
+    "ver",
+    "tise",
+    "ment"
+   ],
+   "correct": 1,
+   "explanation": "We say ad-VER-tise-ment.",
+   "word": "advertisement",
+   "skill": "fon_stress",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l7_m010",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which syllable is stressed in 'development'?",
+   "options": [
+    "op",
+    "vel",
+    "ment",
+    "de"
+   ],
+   "correct": 1,
+   "explanation": "We say de-VEL-op-ment.",
+   "word": "development",
+   "skill": "fon_stress",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_m011",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which syllable is stressed in 'technology'?",
+   "options": [
+    "nol",
+    "o",
+    "gy",
+    "tech"
+   ],
+   "correct": 0,
+   "explanation": "We say tech-NOL-o-gy.",
+   "word": "technology",
+   "skill": "fon_stress",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_m012",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which syllable is stressed in 'photographic'?",
+   "options": [
+    "graph",
+    "pho",
+    "to",
+    "ic"
+   ],
+   "correct": 0,
+   "explanation": "We say pho-to-GRAPH-ic.",
+   "word": "photographic",
+   "skill": "fon_stress",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_m013",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'work'?",
+   "options": [
+    "short",
+    "walk",
+    "warm",
+    "bird"
+   ],
+   "correct": 3,
+   "explanation": "work and bird have /ɜː/; walk has /ɔː/.",
+   "word": "work",
+   "skill": "fon_sounds",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l7_m014",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'walk'?",
+   "options": [
+    "door",
+    "word",
+    "bird",
+    "work"
+   ],
+   "correct": 0,
+   "explanation": "walk and door have /ɔː/; the l in walk is silent.",
+   "word": "walk",
+   "skill": "fon_sounds",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l7_m015",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'hat'?",
+   "options": [
+    "map",
+    "heart",
+    "hot",
+    "hut"
+   ],
+   "correct": 0,
+   "explanation": "hat and map have /æ/; heart has /ɑː/.",
+   "word": "hat",
+   "skill": "fon_sounds",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l7_m016",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'heart'?",
+   "options": [
+    "hot",
+    "hat",
+    "car",
+    "hurt"
+   ],
+   "correct": 2,
+   "explanation": "heart and car have the long /ɑː/ sound.",
+   "word": "heart",
+   "skill": "fon_sounds",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l7_m017",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word has the same vowel sound as 'boat'?",
+   "options": [
+    "phone",
+    "bat",
+    "bought",
+    "but"
+   ],
+   "correct": 0,
+   "explanation": "boat and phone have /əʊ/; bought has /ɔː/.",
+   "word": "boat",
+   "skill": "fon_sounds",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l7_m018",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which letter is silent in 'Wednesday'?",
+   "options": [
+    "the y",
+    "the s",
+    "the first d",
+    "the w"
+   ],
+   "correct": 2,
+   "explanation": "Wednesday is pronounced /ˈwenzdeɪ/: the first d is silent.",
+   "skill": "fon_sounds",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l7_m019",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word has a silent 'b'?",
+   "options": [
+    "black",
+    "climb",
+    "club",
+    "bubble"
+   ],
+   "correct": 1,
+   "explanation": "In climb, the b is silent: /klaɪm/.",
+   "skill": "fon_sounds",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l7_m020",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which letter is silent in 'receipt'?",
+   "options": [
+    "p",
+    "r",
+    "c",
+    "t"
+   ],
+   "correct": 0,
+   "explanation": "receipt is pronounced /rɪˈsiːt/: the p is silent.",
+   "skill": "fon_sounds",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l7_m021",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word has a silent 'h'?",
+   "options": [
+    "happy",
+    "hotel",
+    "honest",
+    "house"
+   ],
+   "correct": 2,
+   "explanation": "In honest, the h is silent: we say 'an honest person'.",
+   "skill": "fon_sounds",
+   "step": 1
+  },
+  {
+   "id": "en_fonologia_l7_m022",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How do you say the -ed at the end of 'laughed'?",
+   "options": [
+    "/t/",
+    "/ɪd/",
+    "/d/"
+   ],
+   "correct": 0,
+   "explanation": "'laughed': after voiceless sounds like /k/, /tʃ/, /f/, /s/ the -ed sounds /t/: one syllable.",
+   "word": "laughed",
+   "skill": "fon_sounds",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l7_m023",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How do you say the -ed at the end of 'decided'?",
+   "options": [
+    "/t/",
+    "/d/",
+    "/ɪd/"
+   ],
+   "correct": 2,
+   "explanation": "'decided': after /t/ or /d/ the -ed is an extra syllable /ɪd/.",
+   "word": "decided",
+   "skill": "fon_sounds",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_m024",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How do you say the -ed at the end of 'cleaned'?",
+   "options": [
+    "/t/",
+    "/ɪd/",
+    "/d/"
+   ],
+   "correct": 2,
+   "explanation": "'cleaned': after voiced sounds the -ed sounds /d/: one syllable.",
+   "word": "cleaned",
+   "skill": "fon_sounds",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_m025",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How do you say the -ed at the end of 'fixed'?",
+   "options": [
+    "/d/",
+    "/ɪd/",
+    "/t/"
+   ],
+   "correct": 2,
+   "explanation": "'fixed': after voiceless sounds like /k/, /tʃ/, /f/, /s/ the -ed sounds /t/: one syllable.",
+   "word": "fixed",
+   "skill": "fon_sounds",
+   "step": 2
+  },
+  {
+   "id": "en_fonologia_l7_m026",
+   "module": "fonologia",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How do you say the -ed at the end of 'started'?",
+   "options": [
+    "/d/",
+    "/ɪd/",
+    "/t/"
+   ],
+   "correct": 1,
+   "explanation": "'started': after /t/ or /d/ the -ed is an extra syllable /ɪd/.",
+   "word": "started",
+   "skill": "fon_sounds",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d001",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The museum was built more than a hundred years ago.",
+   "hint": "Careful with: museum, built",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "The museum was built more than a hundred years ago.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d002",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "If I had more time, I would learn to play the guitar.",
+   "hint": "Careful with: would, guitar",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "If I had more time, I would learn to play the guitar.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d003",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "She told me that she had already finished her homework.",
+   "hint": "Careful with: already, finished",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "She told me that she had already finished her homework.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d004",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "You mustn't use your phone during the exam.",
+   "hint": "Careful with: mustn't, during",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "You mustn't use your phone during the exam.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d005",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "The people who live next door are very friendly.",
+   "hint": "Careful with: people, friendly",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "The people who live next door are very friendly.",
+   "skill": "dictation",
+   "step": 3
+  },
+  {
+   "id": "en_fonologia_l7_d006",
+   "module": "fonologia",
+   "level": 7,
+   "type": "write",
+   "prompt": "Listen and write the sentence",
+   "options": [],
+   "correct": 0,
+   "answer": "I'm looking forward to seeing you next weekend.",
+   "hint": "Careful with: forward, seeing",
+   "explanation": "Check capital letters, apostrophes and the full stop.",
+   "dictation": true,
+   "word": "I'm looking forward to seeing you next weekend.",
+   "skill": "dictation",
+   "step": 3
   }
  ]
 }

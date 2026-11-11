@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import type { Exercise, ModuleId } from '@/types';
-import { MODULES, MODULE_TEXT, LEVEL_COUNT, STAGE_START, SCHOOL_STAGES, levelNameKey, type SchoolStage } from '@/data/modules';
+import { MODULES, MODULE_TEXT, LEVEL_COUNT, STAGE_START, SCHOOL_STAGES, levelNameKey, levelTag, type SchoolStage } from '@/data/modules';
 import { loadModule } from '@/data/content';
 import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
 import { Header } from '@/components/layout/Header';
@@ -167,6 +167,7 @@ export default function Placement() {
             <p>⏱️ {t('plc_note_time')}</p>
             <p>🙂 {t('plc_note_calm')}</p>
             <p>🔓 {t('plc_note_change')}</p>
+            {lang === 'en' && <p>🇬🇧 {t('cefr_note')}</p>}
           </Card>
           <Button fullWidth disabled={!pools} onClick={() => { setPhase('test'); startArea(0); }}>{t('plc_start')}</Button>
         </div>
@@ -195,7 +196,7 @@ export default function Placement() {
                       <span className="text-2xl w-11 h-11 rounded-[12px] flex items-center justify-center" style={{ backgroundColor: m.colorPale }}>{m.icon}</span>
                       <div className="flex-1">
                         <h4 className="font-heading font-extrabold text-sm">{t(MODULE_TEXT[m.id].name)}</h4>
-                        <p className="text-xs text-fg-muted">{t('dash_level', { level: lvl })} · {t(levelNameKey(lvl))}</p>
+                        <p className="text-xs text-fg-muted">{t('dash_level', { level: lvl })} · {t(levelNameKey(lvl))}{levelTag(lang, lvl)}</p>
                       </div>
                       <span className="text-accent font-extrabold text-sm">→</span>
                     </div>

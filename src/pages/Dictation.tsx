@@ -5,7 +5,7 @@ import type { Exercise, AnswerResult, ModuleId } from '@/types';
 import { buildSessionResult } from '@/services/gamification';
 import { recordSession } from '@/services/session';
 import { useReviewStore } from '@/services/review';
-import {levelNameKey } from '@/data/modules';
+import { levelNameKey, levelTag } from '@/data/modules';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { WriteExercise } from '@/components/exercise/WriteExercise';
@@ -144,7 +144,7 @@ export default function Dictation() {
         </button>
         <div className="flex-1">
           <h3 className="font-heading font-extrabold text-sm">{reviewIds ? t('rev_title') : t('dict_title')}</h3>
-          <p className="text-[10px] text-fg-muted">{t('dash_level', { level })} · {t(levelNameKey(level))}</p>
+          <p className="text-[10px] text-fg-muted">{t('dash_level', { level })} · {t(levelNameKey(level))}{levelTag(lang, level)}</p>
         </div>
         <span className="text-xs font-bold text-fg-muted">
           {t('ex_question', { n: currentIndex + 1, total: exercises.length })}

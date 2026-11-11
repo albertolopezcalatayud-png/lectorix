@@ -2720,6 +2720,686 @@
    "explanation": "K-N-I-G-H-T = KNIGHT",
    "skill": "ret_letters",
    "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l6_m001",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'huge'?",
+   "options": [
+    "tiny",
+    "enormous",
+    "late",
+    "quiet"
+   ],
+   "correct": 1,
+   "explanation": "'huge' and 'enormous' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l6_m002",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'begin'?",
+   "options": [
+    "stop",
+    "wait",
+    "finish",
+    "start"
+   ],
+   "correct": 3,
+   "explanation": "'begin' and 'start' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l6_m003",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'quickly'?",
+   "options": [
+    "slowly",
+    "fast",
+    "late",
+    "badly"
+   ],
+   "correct": 1,
+   "explanation": "'quickly' and 'fast' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l6_m004",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'angry'?",
+   "options": [
+    "calm",
+    "proud",
+    "glad",
+    "cross"
+   ],
+   "correct": 3,
+   "explanation": "'angry' and 'cross' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l6_m005",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'choose'?",
+   "options": [
+    "drop",
+    "pick",
+    "lose",
+    "forget"
+   ],
+   "correct": 1,
+   "explanation": "'choose' and 'pick' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l6_m006",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'cheap'?",
+   "options": [
+    "free",
+    "low",
+    "small",
+    "expensive"
+   ],
+   "correct": 3,
+   "explanation": "The opposite of 'cheap' is 'expensive'.",
+   "skill": "ret_vocab",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l6_m007",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'polite'?",
+   "options": [
+    "rude",
+    "quiet",
+    "kind",
+    "nice"
+   ],
+   "correct": 0,
+   "explanation": "The opposite of 'polite' is 'rude'.",
+   "skill": "ret_vocab",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l6_m008",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'borrow'?",
+   "options": [
+    "keep",
+    "buy",
+    "lend",
+    "take"
+   ],
+   "correct": 2,
+   "explanation": "The opposite of 'borrow' is 'lend'.",
+   "skill": "ret_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l6_m009",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'forget'?",
+   "options": [
+    "miss",
+    "lose",
+    "remember",
+    "leave"
+   ],
+   "correct": 2,
+   "explanation": "The opposite of 'forget' is 'remember'.",
+   "skill": "ret_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l6_m010",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'tidy'?",
+   "options": [
+    "neat",
+    "messy",
+    "clean",
+    "small"
+   ],
+   "correct": 1,
+   "explanation": "The opposite of 'tidy' is 'messy'.",
+   "skill": "ret_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l6_m011",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What does 'give up' mean?",
+   "options": [
+    "pick up",
+    "give a present",
+    "stop trying",
+    "get up early"
+   ],
+   "correct": 2,
+   "explanation": "To give up = to stop trying.",
+   "skill": "ret_vocab",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l6_m012",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What does 'look after' mean?",
+   "options": [
+    "search for",
+    "take care of",
+    "look behind",
+    "look at later"
+   ],
+   "correct": 1,
+   "explanation": "To look after a pet = to take care of it.",
+   "skill": "ret_vocab",
+   "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l6_m013",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What does 'find out' mean?",
+   "options": [
+    "lose something",
+    "find a seat",
+    "discover information",
+    "go outside"
+   ],
+   "correct": 2,
+   "explanation": "To find out = to discover.",
+   "skill": "ret_vocab",
+   "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l6_m014",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word is the noun of 'decide'?",
+   "options": [
+    "decision",
+    "decisive",
+    "decided",
+    "decidely"
+   ],
+   "correct": 0,
+   "explanation": "decide → decision.",
+   "skill": "ret_categories",
+   "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l6_m015",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which prefix makes the opposite of 'happy'?",
+   "options": [
+    "im-",
+    "un-",
+    "in-",
+    "dis-"
+   ],
+   "correct": 1,
+   "explanation": "happy → unhappy.",
+   "skill": "ret_vocab",
+   "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l6_m016",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word is the adjective of 'danger'?",
+   "options": [
+    "dangerly",
+    "dangered",
+    "dangerful",
+    "dangerous"
+   ],
+   "correct": 3,
+   "explanation": "danger → dangerous.",
+   "skill": "ret_categories",
+   "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l6_m017",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which English word means 'éxito'?",
+   "options": [
+    "excess",
+    "exit",
+    "excite",
+    "success"
+   ],
+   "correct": 3,
+   "explanation": "False friend: an exit is a 'salida'. Spanish speakers often confuse them.",
+   "skill": "transfer",
+   "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l6_m018",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "What does 'assist' usually mean?",
+   "options": [
+    "attend",
+    "arrive",
+    "help",
+    "sit"
+   ],
+   "correct": 2,
+   "explanation": "False friend: 'asistir a clase' is 'attend class'. Spanish speakers often confuse them.",
+   "skill": "transfer",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l6_m019",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: cousin, uncle, niece, neighbour?",
+   "options": [
+    "cousin",
+    "uncle",
+    "neighbour",
+    "niece"
+   ],
+   "correct": 2,
+   "explanation": "A neighbour is not a family member.",
+   "skill": "ret_categories",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l6_m020",
+   "module": "retos_rapidos",
+   "level": 6,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: although, however, but, because?",
+   "options": [
+    "however",
+    "but",
+    "although",
+    "because"
+   ],
+   "correct": 3,
+   "explanation": "'because' gives a reason; the others show contrast.",
+   "skill": "ret_categories",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l7_m001",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'brave'?",
+   "options": [
+    "cowardly",
+    "courageous",
+    "lazy",
+    "shy"
+   ],
+   "correct": 1,
+   "explanation": "'brave' and 'courageous' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l7_m002",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'improve'?",
+   "options": [
+    "give up",
+    "get worse",
+    "break",
+    "get better"
+   ],
+   "correct": 3,
+   "explanation": "'improve' and 'get better' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l7_m003",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'obvious'?",
+   "options": [
+    "strange",
+    "clear",
+    "boring",
+    "hidden"
+   ],
+   "correct": 1,
+   "explanation": "'obvious' and 'clear' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l7_m004",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'ancient'?",
+   "options": [
+    "modern",
+    "young",
+    "very old",
+    "recent"
+   ],
+   "correct": 2,
+   "explanation": "'ancient' and 'very old' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l7_m005",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word means the same as 'reluctant'?",
+   "options": [
+    "unwilling",
+    "eager",
+    "ready",
+    "keen"
+   ],
+   "correct": 0,
+   "explanation": "'reluctant' and 'unwilling' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l7_m006",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'generous'?",
+   "options": [
+    "kind",
+    "mean",
+    "friendly",
+    "rich"
+   ],
+   "correct": 1,
+   "explanation": "The opposite of 'generous' is 'mean'.",
+   "skill": "ret_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l7_m007",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'increase'?",
+   "options": [
+    "rise",
+    "decrease",
+    "grow",
+    "raise"
+   ],
+   "correct": 1,
+   "explanation": "The opposite of 'increase' is 'decrease'.",
+   "skill": "ret_vocab",
+   "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l7_m008",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'ancient'?",
+   "options": [
+    "classic",
+    "modern",
+    "historic",
+    "old"
+   ],
+   "correct": 1,
+   "explanation": "The opposite of 'ancient' is 'modern'.",
+   "skill": "ret_vocab",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l7_m009",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'guilty'?",
+   "options": [
+    "sad",
+    "bad",
+    "innocent",
+    "sorry"
+   ],
+   "correct": 2,
+   "explanation": "The opposite of 'guilty' is 'innocent'.",
+   "skill": "ret_vocab",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l7_m010",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What is the opposite of 'accept'?",
+   "options": [
+    "agree",
+    "take",
+    "allow",
+    "refuse"
+   ],
+   "correct": 3,
+   "explanation": "The opposite of 'accept' is 'refuse'.",
+   "skill": "ret_vocab",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l7_m011",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What does 'get on with' someone mean?",
+   "options": [
+    "have a good relationship",
+    "argue",
+    "get on a bus",
+    "get up"
+   ],
+   "correct": 0,
+   "explanation": "I get on well with my sister = we have a good relationship.",
+   "skill": "ret_vocab",
+   "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l7_m012",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What does 'put off' mean?",
+   "options": [
+    "put on clothes",
+    "take away",
+    "switch off",
+    "postpone"
+   ],
+   "correct": 3,
+   "explanation": "They put off the match = they postponed it.",
+   "skill": "ret_vocab",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l7_m013",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What does 'run out of' mean?",
+   "options": [
+    "have no more left",
+    "run away",
+    "go for a run",
+    "find more"
+   ],
+   "correct": 0,
+   "explanation": "We've run out of milk = there is no milk left.",
+   "skill": "ret_vocab",
+   "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l7_m014",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which prefix makes the opposite of 'agree'?",
+   "options": [
+    "in-",
+    "dis-",
+    "non-",
+    "un-"
+   ],
+   "correct": 1,
+   "explanation": "agree → disagree.",
+   "skill": "ret_vocab",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l7_m015",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word is the noun of 'develop'?",
+   "options": [
+    "developer's",
+    "development",
+    "developing",
+    "developed"
+   ],
+   "correct": 1,
+   "explanation": "develop → development.",
+   "skill": "ret_categories",
+   "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l7_m016",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word is the adverb of 'careful'?",
+   "options": [
+    "carefull",
+    "carelessly",
+    "carefully",
+    "carefuly"
+   ],
+   "correct": 2,
+   "explanation": "careful → carefully (keep both l's).",
+   "skill": "ret_categories",
+   "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l7_m017",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "How do you say 'estoy constipado' in English?",
+   "options": [
+    "I have a cold",
+    "I am constipated",
+    "I am constant",
+    "I am consistent"
+   ],
+   "correct": 0,
+   "explanation": "False friend: 'constipated' means estreñido. Spanish speakers often confuse them.",
+   "skill": "transfer",
+   "step": 3
+  },
+  {
+   "id": "en_retos_rapidos_l7_m018",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "What does 'eventually' mean?",
+   "options": [
+    "finally, in the end",
+    "maybe, possibly",
+    "every day",
+    "suddenly"
+   ],
+   "correct": 0,
+   "explanation": "False friend: 'eventualmente' means possibly; 'eventually' means finally. Spanish speakers often confuse them.",
+   "skill": "transfer",
+   "step": 2
+  },
+  {
+   "id": "en_retos_rapidos_l7_m019",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: metaphor, simile, alliteration, paragraph?",
+   "options": [
+    "metaphor",
+    "paragraph",
+    "alliteration",
+    "simile"
+   ],
+   "correct": 1,
+   "explanation": "A paragraph is not a literary device.",
+   "skill": "ret_categories",
+   "step": 1
+  },
+  {
+   "id": "en_retos_rapidos_l7_m020",
+   "module": "retos_rapidos",
+   "level": 7,
+   "type": "multiple_choice",
+   "prompt": "Which word does NOT belong: must, should, might, want?",
+   "options": [
+    "want",
+    "must",
+    "should",
+    "might"
+   ],
+   "correct": 0,
+   "explanation": "'want' is an ordinary verb; the others are modal verbs.",
+   "skill": "ret_categories",
+   "step": 1
   }
  ]
 }

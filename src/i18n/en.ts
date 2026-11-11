@@ -709,4 +709,9 @@ export const en: Record<TranslationKey, string> = {
   sk_ret_categories_tip: 'At home: "name five things that are..." (fruits, verbs, round things).',
   sk_ret_wordform_tip: 'At home: from one word (play), find its family (player, playful…).',
   sk_ret_letters_tip: 'At home: make words from the letters of a long name.',
+
+  // English CEFR levels and transfer skill
+  cefr_note: 'English levels follow the Common European Framework (CEFR): from Pre-A1 to B1+.',
+  sk_transfer: 'Common traps for Spanish speakers',
+  sk_transfer_tip: 'At home: keep a list of traps (I have 14 years → I am 14; actually = en realidad) and review it together.',
 };

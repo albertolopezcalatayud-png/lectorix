@@ -839,6 +839,282 @@
      "explanation": "The text explains the origins of English words."
     }
    ]
+  },
+  {
+   "id": "reading_l6_foodbank",
+   "level": 6,
+   "title": "Saturday at the food bank",
+   "emoji": "🥫",
+   "text": "Every Saturday morning, Ellie, who is fifteen, volunteers at the food bank in her town in the north of England. She sorts tins and packets, checks the dates and helps to pack bags for families who need them.\n\nAt first she was nervous. She didn't know anybody, and she was worried about making mistakes. But the other volunteers were friendly, and after a few weeks she felt part of the team. Now she even shows new volunteers what to do.\n\n'The best part is when a family says thank you,' she says. 'You realise that a small thing, like two hours on a Saturday, can really help someone.'\n\nEllie has also learnt a lot. She is better at organising things, she is more confident when she talks to adults, and she has made new friends of all ages. Next year she wants to start a collection point at her school.",
+   "questions": [
+    {
+     "id": "reading_l6_foodbank_q1",
+     "prompt": "How old is Ellie?",
+     "options": [
+      "Eighteen",
+      "Fifteen",
+      "Twelve",
+      "Twenty"
+     ],
+     "correct": 1,
+     "explanation": "'Ellie, who is fifteen'"
+    },
+    {
+     "id": "reading_l6_foodbank_q2",
+     "prompt": "Why was she nervous at first?",
+     "options": [
+      "She didn't like food",
+      "The food bank was far away",
+      "She didn't know anybody and was worried about making mistakes",
+      "She was ill"
+     ],
+     "correct": 2,
+     "explanation": "Second paragraph."
+    },
+    {
+     "id": "reading_l6_foodbank_q3",
+     "prompt": "What does she like most?",
+     "options": [
+      "Saturday mornings",
+      "When a family says thank you",
+      "Checking dates",
+      "Talking to adults"
+     ],
+     "correct": 1,
+     "explanation": "'The best part is when a family says thank you.'"
+    },
+    {
+     "id": "reading_l6_foodbank_q4",
+     "prompt": "Which skill has she improved?",
+     "options": [
+      "Organising things",
+      "Swimming",
+      "Cooking",
+      "Driving"
+     ],
+     "correct": 0,
+     "explanation": "'She is better at organising things.'"
+    },
+    {
+     "id": "reading_l6_foodbank_q5",
+     "prompt": "What is her plan for next year?",
+     "options": [
+      "To leave the food bank",
+      "To start a collection point at her school",
+      "To move to London",
+      "To work in a shop"
+     ],
+     "correct": 1,
+     "explanation": "Last sentence."
+    }
+   ]
+  },
+  {
+   "id": "reading_l6_beck",
+   "level": 6,
+   "title": "The map that changed travel",
+   "emoji": "🗺️",
+   "text": "In the early 1930s, the map of the London Underground was a mess. It showed the exact position of every station, so the lines in the city centre were squeezed together and the stations far away were spread out. Passengers found it very hard to read.\n\nHarry Beck, an engineer who drew electrical circuits, had an idea. Passengers underground, he thought, don't need to know exact distances. They only need to know the order of the stations and where to change lines. So he drew the lines straight, only at 90 or 45 degrees, and put the same space between all the stations.\n\nAt first, the managers thought the design was too strange. But when it was printed in 1933, passengers loved it. Today, cities all over the world use maps that follow Beck's idea.\n\nBeck's story shows that sometimes the best solution is not to show more information, but to show the right information.",
+   "questions": [
+    {
+     "id": "reading_l6_beck_q1",
+     "prompt": "What was the problem with the old map?",
+     "options": [
+      "It was too small",
+      "It had no stations",
+      "It was only in colour",
+      "It was hard to read because it showed exact positions"
+     ],
+     "correct": 3,
+     "explanation": "First paragraph."
+    },
+    {
+     "id": "reading_l6_beck_q2",
+     "prompt": "What was Harry Beck's job?",
+     "options": [
+      "A painter",
+      "A train driver",
+      "A teacher",
+      "An engineer who drew electrical circuits"
+     ],
+     "correct": 3,
+     "explanation": "Second paragraph."
+    },
+    {
+     "id": "reading_l6_beck_q3",
+     "prompt": "What do passengers really need, according to Beck?",
+     "options": [
+      "Ticket prices",
+      "The order of stations and where to change",
+      "Exact distances",
+      "Pictures of streets"
+     ],
+     "correct": 1,
+     "explanation": "'They only need to know the order of the stations and where to change lines.'"
+    },
+    {
+     "id": "reading_l6_beck_q4",
+     "prompt": "How did the managers react at first?",
+     "options": [
+      "They ignored it",
+      "They loved it immediately",
+      "They thought it was too strange",
+      "They printed it in 1931"
+     ],
+     "correct": 2,
+     "explanation": "'the managers thought the design was too strange.'"
+    },
+    {
+     "id": "reading_l6_beck_q5",
+     "prompt": "What is the main lesson of the text?",
+     "options": [
+      "London is confusing",
+      "Maps should show everything",
+      "The best solution is to show the right information",
+      "Engineers are bad designers"
+     ],
+     "correct": 2,
+     "explanation": "Last sentence."
+    }
+   ]
+  },
+  {
+   "id": "reading_l7_gapyear",
+   "level": 7,
+   "title": "Is a gap year worth it?",
+   "emoji": "🎒",
+   "text": "In the UK, some students take a 'gap year' between finishing school and starting university. They might work, travel or volunteer abroad. But is it a good idea?\n\nSupporters say that a gap year helps young people to become more independent and to discover what they really want to study. Students who have worked for a year often appreciate the value of money and arrive at university more motivated.\n\nOn the other hand, critics point out that a gap year can be expensive, especially if it involves travelling. Some students also find it difficult to return to studying after a long break, and a few never go back at all.\n\nIn my view, a gap year is worth it only if it is planned. A year spent learning a skill, saving money or helping others can be one of the most valuable experiences of your life. A year spent doing nothing, however, is simply a year lost.",
+   "questions": [
+    {
+     "id": "reading_l7_gapyear_q1",
+     "prompt": "What is a gap year?",
+     "options": [
+      "A year at university abroad",
+      "A year between school and university",
+      "The last year of school",
+      "A holiday in August"
+     ],
+     "correct": 1,
+     "explanation": "First paragraph."
+    },
+    {
+     "id": "reading_l7_gapyear_q2",
+     "prompt": "Which is an argument FOR a gap year?",
+     "options": [
+      "Some never go back",
+      "It helps young people become more independent",
+      "It is expensive",
+      "It is hard to return to study"
+     ],
+     "correct": 1,
+     "explanation": "Second paragraph."
+    },
+    {
+     "id": "reading_l7_gapyear_q3",
+     "prompt": "Which is an argument AGAINST it?",
+     "options": [
+      "You value money more",
+      "You discover what you want to study",
+      "It can be expensive",
+      "You arrive more motivated"
+     ],
+     "correct": 2,
+     "explanation": "Third paragraph."
+    },
+    {
+     "id": "reading_l7_gapyear_q4",
+     "prompt": "What is the writer's opinion?",
+     "options": [
+      "Only rich students should take one",
+      "It is worth it only if it is planned",
+      "Everybody should take one",
+      "It is always a waste of time"
+     ],
+     "correct": 1,
+     "explanation": "'In my view, a gap year is worth it only if it is planned.'"
+    },
+    {
+     "id": "reading_l7_gapyear_q5",
+     "prompt": "What does 'however' show in the last sentence?",
+     "options": [
+      "A contrast with the previous idea",
+      "An example",
+      "A time order",
+      "A cause"
+     ],
+     "correct": 0,
+     "explanation": "It contrasts a planned year with a year doing nothing."
+    }
+   ]
+  },
+  {
+   "id": "reading_l7_turing",
+   "level": 7,
+   "title": "Alan Turing and the code breakers",
+   "emoji": "💻",
+   "text": "During the Second World War, the German army sent secret messages using a machine called Enigma. The messages were in code, and the settings of the machine changed every day, so breaking the code seemed impossible.\n\nAt Bletchley Park, a country house north of London, thousands of people worked in secret to read those messages. One of them was Alan Turing, a brilliant mathematician. Together with other code breakers, he designed a machine called the Bombe, which helped to discover the Enigma settings much faster than people could by hand.\n\nHistorians believe that the work done at Bletchley Park shortened the war and saved many lives. However, it was kept secret for decades, so the people who did it received little recognition at the time.\n\nTuring is also remembered as one of the fathers of computer science. His ideas about machines that can follow instructions — and even 'think' — are still discussed today. Since 2021, his face has appeared on the Bank of England's £50 note.",
+   "questions": [
+    {
+     "id": "reading_l7_turing_q1",
+     "prompt": "What was Enigma?",
+     "options": [
+      "A secret army",
+      "A machine used to send secret messages",
+      "A computer game",
+      "A country house"
+     ],
+     "correct": 1,
+     "explanation": "First paragraph."
+    },
+    {
+     "id": "reading_l7_turing_q2",
+     "prompt": "Why did breaking the code seem impossible?",
+     "options": [
+      "Nobody wanted to try",
+      "The messages were in English",
+      "The machine was lost",
+      "The settings changed every day"
+     ],
+     "correct": 3,
+     "explanation": "'the settings of the machine changed every day'"
+    },
+    {
+     "id": "reading_l7_turing_q3",
+     "prompt": "What did the Bombe do?",
+     "options": [
+      "It printed money",
+      "It exploded bridges",
+      "It sent German messages",
+      "It helped to find the Enigma settings faster"
+     ],
+     "correct": 3,
+     "explanation": "Second paragraph."
+    },
+    {
+     "id": "reading_l7_turing_q4",
+     "prompt": "Why did the code breakers receive little recognition at the time?",
+     "options": [
+      "They failed",
+      "They were paid a lot",
+      "They left the country",
+      "Their work was kept secret for decades"
+     ],
+     "correct": 3,
+     "explanation": "Third paragraph."
+    },
+    {
+     "id": "reading_l7_turing_q5",
+     "prompt": "Where can you see Turing's face today?",
+     "options": [
+      "On the £5 note",
+      "On a stamp only",
+      "On the Enigma machine",
+      "On the £50 note"
+     ],
+     "correct": 3,
+     "explanation": "Last sentence."
+    }
+   ]
   }
  ]
 }

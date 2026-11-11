@@ -31,6 +31,8 @@ def skill_of(e):
     allt = ' '.join([p, expl, opts])
     if is_dictation(e):
         return 'dictation'
+    if 'Spanish speakers' in expl:
+        return 'transfer'
 
     if m == 'fonologia':
         if has(r'rima|rhyme', p): return 'fon_rhyme'

@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { MODULES, MODULE_TEXT, SCHOOL_STAGES, levelNameKey, type SchoolStage } from '@/data/modules';
+import { MODULES, MODULE_TEXT, SCHOOL_STAGES, levelNameKey, levelTag, type SchoolStage } from '@/data/modules';
 import { useAppStore, usePracticeLang, useLevelCount } from '@/stores/useAppStore';
 import { Card } from '@/components/ui/Card';
 import { useI18n, type TranslationKey } from '@/i18n';
@@ -49,7 +49,7 @@ export function StartingPoint() {
                 <span className="text-lg w-7 text-center">{m.icon}</span>
                 <div className="flex-1 min-w-0">
                   <p className="text-sm font-bold truncate">{t(MODULE_TEXT[m.id].name)}</p>
-                  <p className="text-[11px] text-fg-muted">{t('dash_level', { level: lvl })} · {t(levelNameKey(lvl))}</p>
+                  <p className="text-[11px] text-fg-muted">{t('dash_level', { level: lvl })} · {t(levelNameKey(lvl))}{levelTag(lang, lvl)}</p>
                 </div>
                 <button onClick={() => change(m.id, -1)} disabled={lvl <= 1} aria-label={`${t('plc_parent_down')}: ${t(MODULE_TEXT[m.id].name)}`}
                   className="w-9 h-9 rounded-xl bg-bg border border-border font-black disabled:opacity-30">−</button>

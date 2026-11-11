@@ -29,6 +29,7 @@ export const SKILLS: SkillInfo[] = [
   { id: 'esc_grammar', modules: ['escritura'], emoji: '⚙️' },
   { id: 'esc_sentences', modules: ['escritura'], emoji: '🧱' },
   { id: 'dictation', modules: ['fonologia', 'escritura'], emoji: '🎧' },
+  { id: 'transfer', modules: ['escritura', 'retos_rapidos', 'fonologia'], emoji: '🪤' },
   { id: 'ret_vocab', modules: ['retos_rapidos'], emoji: '💬' },
   { id: 'ret_categories', modules: ['retos_rapidos'], emoji: '🗂️' },
   { id: 'ret_wordform', modules: ['retos_rapidos'], emoji: '🧬' },

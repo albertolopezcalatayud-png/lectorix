@@ -2,7 +2,8 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAppStore } from '@/stores/useAppStore';
 import { useReadings, wordCount, readingMinutes } from '@/data/readings';
-import {levelNameKey } from '@/data/modules';
+import { levelNameKey, levelTag } from '@/data/modules';
+import { usePracticeLang } from '@/stores/useAppStore';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { useI18n } from '@/i18n';
@@ -12,6 +13,7 @@ export default function ReadingList() {
   const { t } = useI18n();
   const sessionHistory = useAppStore((s) => s.sessionHistory);
   const readings = useReadings() ?? [];
+  const lang = usePracticeLang();
   const done = new Set(sessionHistory.filter((s) => s.mode === 'reading').map((s) => s.reading_id));
 
   return (
@@ -22,7 +24,7 @@ export default function ReadingList() {
         {[...new Set(readings.map((r) => r.level))].sort((a, b) => a - b).map((level) => (
           <section key={level}>
             <h3 className="font-heading font-extrabold text-sm mb-2.5">
-              {t('dash_level', { level })} · {t(levelNameKey(level))}
+              {t('dash_level', { level })} · {t(levelNameKey(level))}{levelTag(lang, level)}
             </h3>
             <div className="space-y-2.5">
               {readings.filter((r) => r.level === level).map((r, i) => (
