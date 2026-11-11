@@ -119,6 +119,13 @@ await sleep(1500);
 shot('screen-notification');
 execSync('adb shell cmd statusbar collapse || true');
 
+// "Share with Lectorix": a text shared from another app opens adapted
+await ev(`location.hash = '#/'; true`); await sleep(800);
+execSync(`adb shell am start -a android.intent.action.SEND -t text/plain --es android.intent.extra.TEXT "'El gato duerme en el sofa.'" -n com.lectorix.app/.MainActivity`);
+await sleep(3500);
+results.shareText = await ev(`location.hash + ' | ' + (/gato duerme/.test(document.body.innerText) ? 'text shown' : 'text missing')`);
+shot('screen-share');
+
 // Android back button inside the app
 await ev(`location.hash = '#/modulos'; true`); await sleep(1200);
 await ev(`location.hash = '#/ajustes'; true`); await sleep(1200);
@@ -128,7 +135,7 @@ results.backButton = await ev('location.hash');
 results.errors = errors;
 log(JSON.stringify(results, null, 2));
 const ok = results.native && !results.speechSynthesisInWebView !== undefined && String(results.ocr).startsWith('OK') && errors.length === 0
-  && Object.values(results.onDeviceSpeech).every((v) => ['available', 'downloadable', 'downloading', 'unavailable'].includes(v)) && String(results.dict).includes('gzip true') && results.spell === 'flagged: ermano';
+  && Object.values(results.onDeviceSpeech).every((v) => ['available', 'downloadable', 'downloading', 'unavailable'].includes(v)) && String(results.dict).includes('gzip true') && results.spell === 'flagged: ermano' && results.shareText === '#/adaptar | text shown';
 log('RESULT', ok ? 'PASS' : 'CHECK');
 ws.close();
 process.exit(0);

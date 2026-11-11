@@ -892,4 +892,7 @@ export const ca: Record<TranslationKey, string> = {
   // Read-aloud check (web)
   ra_unchecked: 'Encara no s’ha comprovat si este dispositiu pot reconéixer la veu sense connexió.',
   ra_check: 'Comprovar este dispositiu',
+
+  // Share with Lectorix
+  hw_share_tip: 'Truc: des de qualsevol aplicació (navegador, WhatsApp, galeria…) prem «Compartir» i tria Lectorix per a obrir ací un text o una foto.',
 };

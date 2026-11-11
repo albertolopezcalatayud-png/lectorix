@@ -1,4 +1,4 @@
-import { useState, useRef, useMemo } from 'react';
+import { useState, useRef, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
@@ -11,6 +11,7 @@ import { Button } from '@/components/ui/Button';
 import { SyllableWord, useSyllableColoring } from '@/components/reading/SyllableText';
 import tts from '@/services/tts';
 import { isNativeApp } from '@/native/app';
+import { useShareInbox } from '@/native/share';
 import { useI18n } from '@/i18n';
 
 interface SavedText { id: string; title: string; text: string; lang: string; date: string }
@@ -88,6 +89,27 @@ export default function Homework() {
       setOcrError(true);
     }
   };
+
+  // Content shared from another app ("Share with Lectorix")
+  const sharedItem = useShareInbox((s) => s.item);
+  useEffect(() => {
+    if (!sharedItem) return;
+    const item = useShareInbox.getState().take();
+    if (!item) return;
+    setView(null);
+    if (item.kind === 'text') {
+      const text = item.text.trim();
+      const first = text.split(/\s+/).slice(0, 6).join(' ');
+      const saved: SavedText = { id: `${Date.now()}`, title: first.length > 40 ? first.slice(0, 40) + '…' : first, text, lang, date: new Date().toISOString() };
+      save(saved);
+      setView(saved);
+    } else if (item.kind === 'image') {
+      void fetch(item.dataUrl).then((r) => r.blob()).then((b) => readPhoto(new File([b], 'shared', { type: b.type })));
+    } else {
+      setOcrError(true);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sharedItem]);
 
   const adapt = () => {
     const text = draft.trim();
@@ -185,6 +207,7 @@ export default function Homework() {
       <Header title={t('hw_title')} showBack />
       <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
         <p className="text-sm text-fg-muted">{t('hw_desc')}</p>
+        {isNativeApp && <p className="text-xs text-fg-muted">📤 {t('hw_share_tip')}</p>}
 
         <Card className="space-y-3">
           <input ref={fileRef} type="file" accept="image/*" capture="environment" className="hidden"

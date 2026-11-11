@@ -892,4 +892,7 @@ export const en: Record<TranslationKey, string> = {
   // Read-aloud check (web)
   ra_unchecked: 'It has not been checked yet whether this device can recognise speech offline.',
   ra_check: 'Check this device',
+
+  // Share with Lectorix
+  hw_share_tip: 'Tip: from any app (browser, WhatsApp, gallery…) tap “Share” and choose Lectorix to open a text or a photo here.',
 };

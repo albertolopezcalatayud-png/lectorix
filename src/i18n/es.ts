@@ -890,6 +890,9 @@ export const es = {
   // Read-aloud check (web)
   ra_unchecked: 'Todavía no se ha comprobado si este dispositivo puede reconocer la voz sin conexión.',
   ra_check: 'Comprobar este dispositivo',
+
+  // Share with Lectorix
+  hw_share_tip: 'Truco: desde cualquier app (navegador, WhatsApp, galería…) pulsa «Compartir» y elige Lectorix para abrir aquí un texto o una foto.',
 } as const;
 
 export type TranslationKey = keyof typeof es;

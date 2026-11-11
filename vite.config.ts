@@ -27,6 +27,8 @@ export default defineConfig({
         background_color: '#F7F5FF',
         lang: 'es',
         categories: ['education', 'kids'],
+        // "Share with Lectorix" from other apps when the web app is installed (text only)
+        share_target: { action: '/lectorix/', method: 'GET', params: { title: 'title', text: 'text', url: 'url' } },
         icons: [
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
           { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
