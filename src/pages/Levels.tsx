@@ -1,7 +1,8 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {MODULE_TEXT, getModule, levelNameKey } from '@/data/modules';
-import { useAppStore, useLevelCount } from '@/stores/useAppStore';
+import { useAppStore, useLevelCount, usePracticeLang } from '@/stores/useAppStore';
+import { currentStep } from '@/services/steps';
 import { featureLocked } from '@/config/plans';
 import { Card } from '@/components/ui/Card';
 import { Stars } from '@/components/ui/Stars';
@@ -21,6 +22,8 @@ export default function Levels() {
   useAppStore((s) => s.startLevels);
   useAppStore((s) => s.schoolStage);
   const levelCount = useLevelCount();
+  const lang = usePracticeLang();
+  const history = useAppStore((s) => s.sessionHistory);
   const { t } = useI18n();
 
   if (!mod) {
@@ -135,6 +138,17 @@ export default function Levels() {
                           ? t('lvl_best', { score: levelProgress.best_score, attempts: levelProgress.attempts })
                           : t('lvl_info')}
                       </p>
+                      {unlocked && levelProgress && (() => {
+                        const st = currentStep(history, lang, mod.id, level);
+                        return (
+                          <div className="flex items-center gap-1.5 mt-1" aria-label={t('step_label', { n: st })}>
+                            {[1, 2, 3].map((k) => (
+                              <span key={k} className="h-1.5 w-5 rounded-full" style={{ backgroundColor: k <= st ? mod.color : 'var(--color-border)' }} />
+                            ))}
+                            <span className="text-[10px] font-bold text-fg-muted ml-1">{t('step_label', { n: st })}</span>
+                          </div>
+                        );
+                      })()}
                     </div>
                     <div className="flex flex-col items-end gap-1">
                       {levelProgress && <Stars count={levelProgress.stars} size={16} />}

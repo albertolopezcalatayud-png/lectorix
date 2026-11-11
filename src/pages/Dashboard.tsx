@@ -1,3 +1,4 @@
+import { SkillOfTheDay } from '@/components/skills/SkillMap';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAppStore, usePracticeLang, useLevelCount } from '@/stores/useAppStore';
@@ -66,6 +67,9 @@ export default function Dashboard() {
             </Card>
           </motion.div>
         )}
+
+        {/* Today's personal training: the weakest skill */}
+        <SkillOfTheDay />
 
         {/* XP Card */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>

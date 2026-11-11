@@ -1,3 +1,5 @@
+import { stepChange } from '@/services/steps';
+import { useAppStore } from '@/stores/useAppStore';
 import { useLevelCount } from '@/stores/useAppStore';
 import { useEffect, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -69,8 +71,9 @@ export default function Results() {
   const isReading = result.mode === 'reading';
   const isDaily = result.mode === 'daily';
   const isSrs = result.mode === 'srs';
+  const isSkill = result.mode === 'skill';
   // Dictation, reading, the daily challenge and spaced review don't belong to a module level
-  const isStandalone = isDictation || isReading || isDaily || isSrs;
+  const isStandalone = isDictation || isReading || isDaily || isSrs || isSkill;
   const isNormal = !isExam && !isReview && !isStandalone;
   // Adaptive suggestion: a level that is still hard → reinforce the previous one
   const suggestEasier = isNormal && result.score_percent < 50 && result.level > 1;
@@ -120,6 +123,8 @@ export default function Results() {
               ? t('daily_title')
               : isSrs
                 ? t('srs_title')
+                : isSkill
+                  ? t('skill_train_title')
                 : `${(mod ? t(MODULE_TEXT[mod.id].name) : '')} · ${t('dash_level', { level: result.level })} · ${t(levelNameKey(result.level))}`}
       </motion.p>
 
@@ -201,6 +206,28 @@ export default function Results() {
           </Card>
         </motion.div>
       )}
+
+      {/* Steps inside the level */}
+      {isNormal && (() => {
+        const lang = result.answers?.[0]?.exercise_id.split('_')[0] ?? 'es';
+        const { before, after } = stepChange(useAppStore.getState().sessionHistory, lang, result.module, result.level);
+        const msg = after > before ? t('step_up', { n: after })
+          : after < before ? t('step_down', { n: after })
+          : after === 3 && result.score_percent >= 80 && result.level < levelCount ? t('step_ramp') : null;
+        if (!msg) return null;
+        return (
+          <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.95 }} className="w-full max-w-sm mt-4">
+            <Card className="text-center">
+              <div className="flex justify-center gap-1.5 mb-2" aria-hidden>
+                {[1, 2, 3].map((k) => (
+                  <span key={k} className="h-2 w-8 rounded-full" style={{ backgroundColor: k <= after ? (mod?.color ?? 'var(--color-accent)') : 'var(--color-border)' }} />
+                ))}
+              </div>
+              <p className="text-sm font-bold">{msg}</p>
+            </Card>
+          </motion.div>
+        );
+      })()}
 
       {/* Spaced repetition summary */}
       {srs && (srs.added > 0 || srs.promoted > 0 || srs.mastered > 0) && (

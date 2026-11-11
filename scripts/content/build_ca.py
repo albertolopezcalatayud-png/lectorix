@@ -14,3 +14,7 @@ ca_eso_esc_ret.build_esc(b)
 ca_eso_esc_ret.build_ret(b)
 ca_eso_comp.build_readings(b)
 b.save('lectures.ca.json')
+
+# Skill and step (difficulty inside the level) for every exercise
+import tag_items
+tag_items.tag_lang('ca')

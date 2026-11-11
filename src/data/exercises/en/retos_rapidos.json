@@ -13,7 +13,9 @@
     "slow"
    ],
    "correct": 2,
-   "explanation": "'big' and 'large' mean the same."
+   "explanation": "'big' and 'large' mean the same.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l1_m002",
@@ -28,7 +30,9 @@
     "sad"
    ],
    "correct": 2,
-   "explanation": "'happy' and 'glad' mean the same."
+   "explanation": "'happy' and 'glad' mean the same.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l1_m003",
@@ -43,7 +47,9 @@
     "slow"
    ],
    "correct": 2,
-   "explanation": "'fast' and 'quick' mean the same."
+   "explanation": "'fast' and 'quick' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l1_m004",
@@ -58,7 +64,9 @@
     "small"
    ],
    "correct": 3,
-   "explanation": "'little' and 'small' mean the same."
+   "explanation": "'little' and 'small' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l1_m005",
@@ -73,7 +81,9 @@
     "sing"
    ],
    "correct": 0,
-   "explanation": "'shut' and 'close' mean the same."
+   "explanation": "'shut' and 'close' mean the same.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l1_m006",
@@ -88,7 +98,9 @@
     "mean"
    ],
    "correct": 2,
-   "explanation": "'kind' and 'nice' mean the same."
+   "explanation": "'kind' and 'nice' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l1_m007",
@@ -103,7 +115,9 @@
     "cold"
    ],
    "correct": 3,
-   "explanation": "The opposite of 'hot' is 'cold'."
+   "explanation": "The opposite of 'hot' is 'cold'.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l1_m008",
@@ -118,7 +132,9 @@
     "down"
    ],
    "correct": 3,
-   "explanation": "The opposite of 'up' is 'down'."
+   "explanation": "The opposite of 'up' is 'down'.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l1_m009",
@@ -133,7 +149,9 @@
     "noon"
    ],
    "correct": 2,
-   "explanation": "The opposite of 'day' is 'night'."
+   "explanation": "The opposite of 'day' is 'night'.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l1_m010",
@@ -148,7 +166,9 @@
     "new"
    ],
    "correct": 3,
-   "explanation": "The opposite of 'old' is 'new'."
+   "explanation": "The opposite of 'old' is 'new'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l1_m011",
@@ -163,7 +183,9 @@
     "soft"
    ],
    "correct": 2,
-   "explanation": "The opposite of 'wet' is 'dry'."
+   "explanation": "The opposite of 'wet' is 'dry'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l1_m012",
@@ -178,7 +200,9 @@
     "sad"
    ],
    "correct": 3,
-   "explanation": "The opposite of 'happy' is 'sad'."
+   "explanation": "The opposite of 'happy' is 'sad'.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l1_m013",
@@ -193,7 +217,9 @@
     "cat"
    ],
    "correct": 0,
-   "explanation": "Apple is a fruit; the others are animals."
+   "explanation": "Apple is a fruit; the others are animals.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l1_m014",
@@ -208,7 +234,9 @@
     "blue"
    ],
    "correct": 1,
-   "explanation": "Chair is furniture; the others are colours."
+   "explanation": "Chair is furniture; the others are colours.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l1_m015",
@@ -223,7 +251,9 @@
     "three"
    ],
    "correct": 2,
-   "explanation": "Cake is food; the others are numbers."
+   "explanation": "Cake is food; the others are numbers.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l1_m016",
@@ -238,7 +268,9 @@
     "jump"
    ],
    "correct": 2,
-   "explanation": "A horse is an animal."
+   "explanation": "A horse is an animal.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l1_m017",
@@ -253,7 +285,9 @@
     "pen"
    ],
    "correct": 2,
-   "explanation": "Pink is a colour."
+   "explanation": "Pink is a colour.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l1_m018",
@@ -268,7 +302,9 @@
     "ant"
    ],
    "correct": 3,
-   "explanation": "Alphabetical order: ant, cat, dog, pig."
+   "explanation": "Alphabetical order: ant, cat, dog, pig.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l1_m019",
@@ -283,7 +319,9 @@
     "map"
    ],
    "correct": 1,
-   "explanation": "Alphabetical order: bed, hat, map, sun."
+   "explanation": "Alphabetical order: bed, hat, map, sun.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l1_m020",
@@ -298,7 +336,9 @@
     "cats"
    ],
    "correct": 3,
-   "explanation": "one cat, two cats."
+   "explanation": "one cat, two cats.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l1_m021",
@@ -313,7 +353,9 @@
     "boxies"
    ],
    "correct": 0,
-   "explanation": "one box, two boxes."
+   "explanation": "one box, two boxes.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l1_m022",
@@ -328,7 +370,9 @@
     "Monday"
    ],
    "correct": 2,
-   "explanation": "The next one is 'Wednesday'."
+   "explanation": "The next one is 'Wednesday'.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l1_m023",
@@ -343,7 +387,9 @@
     "six"
    ],
    "correct": 0,
-   "explanation": "The next one is 'four'."
+   "explanation": "The next one is 'four'.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l1_m024",
@@ -358,7 +404,9 @@
     "4"
    ],
    "correct": 1,
-   "explanation": "c-a-t = 3 letters."
+   "explanation": "c-a-t = 3 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l1_m025",
@@ -373,7 +421,9 @@
     "4"
    ],
    "correct": 3,
-   "explanation": "f-r-o-g = 4 letters."
+   "explanation": "f-r-o-g = 4 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l1_m026",
@@ -388,7 +438,9 @@
     "4"
    ],
    "correct": 2,
-   "explanation": "s-u-n = 3 letters."
+   "explanation": "s-u-n = 3 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l1_m027",
@@ -403,7 +455,9 @@
     "4"
    ],
    "correct": 3,
-   "explanation": "b-i-r-d = 4 letters."
+   "explanation": "b-i-r-d = 4 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l1_m028",
@@ -418,7 +472,9 @@
     "shoe"
    ],
    "correct": 2,
-   "explanation": "sun + flower = sunflower."
+   "explanation": "sun + flower = sunflower.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l1_m029",
@@ -433,7 +489,9 @@
     "hat"
    ],
    "correct": 1,
-   "explanation": "foot + ball = football."
+   "explanation": "foot + ball = football.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l1_o001",
@@ -453,7 +511,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "D-O-G = DOG"
+   "explanation": "D-O-G = DOG",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l1_o002",
@@ -473,7 +533,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "B-E-D = BED"
+   "explanation": "B-E-D = BED",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l2_m001",
@@ -488,7 +550,9 @@
     "stop"
    ],
    "correct": 1,
-   "explanation": "'begin' and 'start' mean the same."
+   "explanation": "'begin' and 'start' mean the same.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l2_m002",
@@ -503,7 +567,9 @@
     "whisper"
    ],
    "correct": 1,
-   "explanation": "'shout' and 'yell' mean the same."
+   "explanation": "'shout' and 'yell' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l2_m003",
@@ -518,7 +584,9 @@
     "happy"
    ],
    "correct": 0,
-   "explanation": "'scared' and 'afraid' mean the same."
+   "explanation": "'scared' and 'afraid' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l2_m004",
@@ -533,7 +601,9 @@
     "sleepy"
    ],
    "correct": 3,
-   "explanation": "'tired' and 'sleepy' mean the same."
+   "explanation": "'tired' and 'sleepy' mean the same.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l2_m005",
@@ -548,7 +618,9 @@
     "see"
    ],
    "correct": 3,
-   "explanation": "'look' and 'see' mean the same."
+   "explanation": "'look' and 'see' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l2_m006",
@@ -563,7 +635,9 @@
     "long"
    ],
    "correct": 0,
-   "explanation": "'easy' and 'simple' mean the same."
+   "explanation": "'easy' and 'simple' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l2_m007",
@@ -578,7 +652,9 @@
     "wide"
    ],
    "correct": 2,
-   "explanation": "The opposite of 'open' is 'closed'."
+   "explanation": "The opposite of 'open' is 'closed'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l2_m008",
@@ -593,7 +669,9 @@
     "late"
    ],
    "correct": 3,
-   "explanation": "The opposite of 'early' is 'late'."
+   "explanation": "The opposite of 'early' is 'late'.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l2_m009",
@@ -608,7 +686,9 @@
     "strong"
    ],
    "correct": 1,
-   "explanation": "The opposite of 'heavy' is 'light'."
+   "explanation": "The opposite of 'heavy' is 'light'.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l2_m010",
@@ -623,7 +703,9 @@
     "noisy"
    ],
    "correct": 2,
-   "explanation": "The opposite of 'loud' is 'quiet'."
+   "explanation": "The opposite of 'loud' is 'quiet'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l2_m011",
@@ -638,7 +720,9 @@
     "press"
    ],
    "correct": 0,
-   "explanation": "The opposite of 'push' is 'pull'."
+   "explanation": "The opposite of 'push' is 'pull'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l2_m012",
@@ -653,7 +737,9 @@
     "lose"
    ],
    "correct": 3,
-   "explanation": "The opposite of 'win' is 'lose'."
+   "explanation": "The opposite of 'win' is 'lose'.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l2_m013",
@@ -668,7 +754,9 @@
     "carrot"
    ],
    "correct": 3,
-   "explanation": "Carrot is a vegetable; the others are fruits."
+   "explanation": "Carrot is a vegetable; the others are fruits.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l2_m014",
@@ -683,7 +771,9 @@
     "Friday"
    ],
    "correct": 0,
-   "explanation": "March is a month; the others are days."
+   "explanation": "March is a month; the others are days.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l2_m015",
@@ -698,7 +788,9 @@
     "car"
    ],
    "correct": 2,
-   "explanation": "A bridge is not a vehicle."
+   "explanation": "A bridge is not a vehicle.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l2_m016",
@@ -713,7 +805,9 @@
     "red"
    ],
    "correct": 2,
-   "explanation": "'run' is something you do: a verb."
+   "explanation": "'run' is something you do: a verb.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l2_m017",
@@ -728,7 +822,9 @@
     "sing"
    ],
    "correct": 2,
-   "explanation": "A chair is a thing: a noun."
+   "explanation": "A chair is a thing: a noun.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l2_m018",
@@ -743,7 +839,9 @@
     "orange"
    ],
    "correct": 0,
-   "explanation": "Alphabetical order: apple, banana, lemon, orange."
+   "explanation": "Alphabetical order: apple, banana, lemon, orange.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l2_m019",
@@ -758,7 +856,9 @@
     "chair"
    ],
    "correct": 3,
-   "explanation": "Alphabetical order: chair, door, lamp, table."
+   "explanation": "Alphabetical order: chair, door, lamp, table.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l2_m020",
@@ -773,7 +873,9 @@
     "babyes"
    ],
    "correct": 2,
-   "explanation": "one baby, two babies."
+   "explanation": "one baby, two babies.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l2_m021",
@@ -788,7 +890,9 @@
     "bush's"
    ],
    "correct": 0,
-   "explanation": "one bush, two bushes."
+   "explanation": "one bush, two bushes.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l2_m022",
@@ -803,7 +907,9 @@
     "March"
    ],
    "correct": 3,
-   "explanation": "The next one is 'March'."
+   "explanation": "The next one is 'March'.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l2_m023",
@@ -818,7 +924,9 @@
     "autumn"
    ],
    "correct": 3,
-   "explanation": "The next one is 'autumn'."
+   "explanation": "The next one is 'autumn'.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l2_m024",
@@ -833,7 +941,9 @@
     "6"
    ],
    "correct": 0,
-   "explanation": "c-h-a-i-r = 5 letters."
+   "explanation": "c-h-a-i-r = 5 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l2_m025",
@@ -848,7 +958,9 @@
     "7"
    ],
    "correct": 1,
-   "explanation": "s-h-e-l-l = 5 letters."
+   "explanation": "s-h-e-l-l = 5 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l2_m026",
@@ -863,7 +975,9 @@
     "6"
    ],
    "correct": 2,
-   "explanation": "t-h-a-n-k = 5 letters."
+   "explanation": "t-h-a-n-k = 5 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l2_m027",
@@ -878,7 +992,9 @@
     "6"
    ],
    "correct": 1,
-   "explanation": "q-u-e-e-n = 5 letters."
+   "explanation": "q-u-e-e-n = 5 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l2_m028",
@@ -893,7 +1009,9 @@
     "fish"
    ],
    "correct": 1,
-   "explanation": "rain + bow = rainbow."
+   "explanation": "rain + bow = rainbow.",
+   "skill": "ret_wordform",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l2_m029",
@@ -908,7 +1026,9 @@
     "lamp"
    ],
    "correct": 2,
-   "explanation": "tooth + brush = toothbrush."
+   "explanation": "tooth + brush = toothbrush.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l2_o001",
@@ -930,7 +1050,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "F-I-S-H = FISH"
+   "explanation": "F-I-S-H = FISH",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l2_o002",
@@ -952,7 +1074,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "D-U-C-K = DUCK"
+   "explanation": "D-U-C-K = DUCK",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l3_m001",
@@ -967,7 +1091,9 @@
     "early"
    ],
    "correct": 2,
-   "explanation": "'enormous' and 'huge' mean the same."
+   "explanation": "'enormous' and 'huge' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l3_m002",
@@ -982,7 +1108,9 @@
     "sunny"
    ],
    "correct": 0,
-   "explanation": "'silent' and 'quiet' mean the same."
+   "explanation": "'silent' and 'quiet' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l3_m003",
@@ -997,7 +1125,9 @@
     "fearless"
    ],
    "correct": 3,
-   "explanation": "'brave' and 'fearless' mean the same."
+   "explanation": "'brave' and 'fearless' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l3_m004",
@@ -1012,7 +1142,9 @@
     "easy"
    ],
    "correct": 0,
-   "explanation": "'difficult' and 'hard' mean the same."
+   "explanation": "'difficult' and 'hard' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l3_m005",
@@ -1027,7 +1159,9 @@
     "neat"
    ],
    "correct": 3,
-   "explanation": "'tidy' and 'neat' mean the same."
+   "explanation": "'tidy' and 'neat' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l3_m006",
@@ -1042,7 +1176,9 @@
     "poor"
    ],
    "correct": 2,
-   "explanation": "'wealthy' and 'rich' mean the same."
+   "explanation": "'wealthy' and 'rich' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l3_m007",
@@ -1057,7 +1193,9 @@
     "proud"
    ],
    "correct": 1,
-   "explanation": "The opposite of 'brave' is 'cowardly'."
+   "explanation": "The opposite of 'brave' is 'cowardly'.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l3_m008",
@@ -1072,7 +1210,9 @@
     "friendly"
    ],
    "correct": 2,
-   "explanation": "The opposite of 'generous' is 'selfish'."
+   "explanation": "The opposite of 'generous' is 'selfish'.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l3_m009",
@@ -1087,7 +1227,9 @@
     "stay"
    ],
    "correct": 0,
-   "explanation": "The opposite of 'arrive' is 'leave'."
+   "explanation": "The opposite of 'arrive' is 'leave'.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l3_m010",
@@ -1102,7 +1244,9 @@
     "dusty"
    ],
    "correct": 0,
-   "explanation": "The opposite of 'ancient' is 'modern'."
+   "explanation": "The opposite of 'ancient' is 'modern'.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l3_m011",
@@ -1117,7 +1261,9 @@
     "narrow"
    ],
    "correct": 0,
-   "explanation": "The opposite of 'shallow' is 'deep'."
+   "explanation": "The opposite of 'shallow' is 'deep'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l3_m012",
@@ -1132,7 +1278,9 @@
     "smooth"
    ],
    "correct": 3,
-   "explanation": "The opposite of 'rough' is 'smooth'."
+   "explanation": "The opposite of 'rough' is 'smooth'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l3_m013",
@@ -1147,7 +1295,9 @@
     "whale"
    ],
    "correct": 0,
-   "explanation": "An eagle flies; the others live in the sea."
+   "explanation": "An eagle flies; the others live in the sea.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l3_m014",
@@ -1162,7 +1312,9 @@
     "hammer"
    ],
    "correct": 3,
-   "explanation": "A hammer is a tool, not an instrument."
+   "explanation": "A hammer is a tool, not an instrument.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l3_m015",
@@ -1177,7 +1329,9 @@
     "Tuesday"
    ],
    "correct": 3,
-   "explanation": "Tuesday is a day; the others are seasons."
+   "explanation": "Tuesday is a day; the others are seasons.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l3_m016",
@@ -1192,7 +1346,9 @@
     "fluffy"
    ],
    "correct": 3,
-   "explanation": "'fluffy' describes something: an adjective."
+   "explanation": "'fluffy' describes something: an adjective.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l3_m017",
@@ -1207,7 +1363,9 @@
     "soft"
    ],
    "correct": 2,
-   "explanation": "'whisper' is an action: a verb."
+   "explanation": "'whisper' is an action: a verb.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l3_m018",
@@ -1222,7 +1380,9 @@
     "big"
    ],
    "correct": 2,
-   "explanation": "Alphabetical order: bat, bed, big, box."
+   "explanation": "Alphabetical order: bat, bed, big, box.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l3_m019",
@@ -1237,7 +1397,9 @@
     "cup"
    ],
    "correct": 0,
-   "explanation": "Alphabetical order: cake, coat, cup, kite."
+   "explanation": "Alphabetical order: cake, coat, cup, kite.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l3_m020",
@@ -1252,7 +1414,9 @@
     "mice"
    ],
    "correct": 3,
-   "explanation": "one mouse, two mice."
+   "explanation": "one mouse, two mice.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l3_m021",
@@ -1267,7 +1431,9 @@
     "leavs"
    ],
    "correct": 0,
-   "explanation": "one leaf, two leaves."
+   "explanation": "one leaf, two leaves.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l3_m022",
@@ -1282,7 +1448,9 @@
     "Tuesday"
    ],
    "correct": 1,
-   "explanation": "The next one is 'Saturday'."
+   "explanation": "The next one is 'Saturday'.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l3_m023",
@@ -1297,7 +1465,9 @@
     "thirteen"
    ],
    "correct": 2,
-   "explanation": "The next one is 'forty'."
+   "explanation": "The next one is 'forty'.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l3_m024",
@@ -1312,7 +1482,9 @@
     "10"
    ],
    "correct": 0,
-   "explanation": "e-l-e-p-h-a-n-t = 8 letters."
+   "explanation": "e-l-e-p-h-a-n-t = 8 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l3_m025",
@@ -1327,7 +1499,9 @@
     "7"
    ],
    "correct": 3,
-   "explanation": "r-a-i-n-b-o-w = 7 letters."
+   "explanation": "r-a-i-n-b-o-w = 7 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l3_m026",
@@ -1342,7 +1516,9 @@
     "7"
    ],
    "correct": 3,
-   "explanation": "t-e-a-c-h-e-r = 7 letters."
+   "explanation": "t-e-a-c-h-e-r = 7 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l3_m027",
@@ -1357,7 +1533,9 @@
     "7"
    ],
    "correct": 2,
-   "explanation": "f-l-o-w-e-r = 6 letters."
+   "explanation": "f-l-o-w-e-r = 6 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l3_m028",
@@ -1372,7 +1550,9 @@
     "fly"
    ],
    "correct": 3,
-   "explanation": "butter + fly = butterfly."
+   "explanation": "butter + fly = butterfly.",
+   "skill": "ret_wordform",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l3_m029",
@@ -1387,7 +1567,9 @@
     "box"
    ],
    "correct": 0,
-   "explanation": "snow + man = snowman."
+   "explanation": "snow + man = snowman.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l3_o001",
@@ -1411,7 +1593,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "P-L-A-N-T = PLANT"
+   "explanation": "P-L-A-N-T = PLANT",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l3_o002",
@@ -1435,7 +1619,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "T-R-A-I-N = TRAIN"
+   "explanation": "T-R-A-I-N = TRAIN",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l4_m001",
@@ -1450,7 +1636,9 @@
     "very old"
    ],
    "correct": 3,
-   "explanation": "'ancient' and 'very old' mean the same."
+   "explanation": "'ancient' and 'very old' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l4_m002",
@@ -1465,7 +1653,9 @@
     "very tired"
    ],
    "correct": 0,
-   "explanation": "'furious' and 'very angry' mean the same."
+   "explanation": "'furious' and 'very angry' mean the same.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l4_m003",
@@ -1480,7 +1670,9 @@
     "very bright"
    ],
    "correct": 1,
-   "explanation": "'fragile' and 'easily broken' mean the same."
+   "explanation": "'fragile' and 'easily broken' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l4_m004",
@@ -1495,7 +1687,9 @@
     "very hungry"
    ],
    "correct": 0,
-   "explanation": "'exhausted' and 'very tired' mean the same."
+   "explanation": "'exhausted' and 'very tired' mean the same.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l4_m005",
@@ -1510,7 +1704,9 @@
     "very bored"
    ],
    "correct": 0,
-   "explanation": "'delighted' and 'very pleased' mean the same."
+   "explanation": "'delighted' and 'very pleased' mean the same.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l4_m006",
@@ -1525,7 +1721,9 @@
     "average"
    ],
    "correct": 0,
-   "explanation": "'gigantic' and 'enormous' mean the same."
+   "explanation": "'gigantic' and 'enormous' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l4_m007",
@@ -1540,7 +1738,9 @@
     "defeat"
    ],
    "correct": 3,
-   "explanation": "The opposite of 'victory' is 'defeat'."
+   "explanation": "The opposite of 'victory' is 'defeat'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l4_m008",
@@ -1555,7 +1755,9 @@
     "stretch"
    ],
    "correct": 1,
-   "explanation": "The opposite of 'expand' is 'shrink'."
+   "explanation": "The opposite of 'expand' is 'shrink'.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l4_m009",
@@ -1570,7 +1772,9 @@
     "fixed"
    ],
    "correct": 1,
-   "explanation": "The opposite of 'permanent' is 'temporary'."
+   "explanation": "The opposite of 'permanent' is 'temporary'.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l4_m010",
@@ -1585,7 +1789,9 @@
     "calm"
    ],
    "correct": 0,
-   "explanation": "The opposite of 'innocent' is 'guilty'."
+   "explanation": "The opposite of 'innocent' is 'guilty'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l4_m011",
@@ -1600,7 +1806,9 @@
     "contain"
    ],
    "correct": 2,
-   "explanation": "The opposite of 'include' is 'exclude'."
+   "explanation": "The opposite of 'include' is 'exclude'.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l4_m012",
@@ -1615,7 +1823,9 @@
     "most"
    ],
    "correct": 0,
-   "explanation": "The opposite of 'maximum' is 'minimum'."
+   "explanation": "The opposite of 'maximum' is 'minimum'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l4_m013",
@@ -1630,7 +1840,9 @@
     "Jupiter"
    ],
    "correct": 2,
-   "explanation": "The moon is not a planet."
+   "explanation": "The moon is not a planet.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l4_m014",
@@ -1645,7 +1857,9 @@
     "circle"
    ],
    "correct": 1,
-   "explanation": "A cube is 3d; the others are flat shapes."
+   "explanation": "A cube is 3d; the others are flat shapes.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l4_m015",
@@ -1660,7 +1874,9 @@
     "swim"
    ],
    "correct": 0,
-   "explanation": "Happy is an adjective; the others are verbs."
+   "explanation": "Happy is an adjective; the others are verbs.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l4_m016",
@@ -1675,7 +1891,9 @@
     "carefully"
    ],
    "correct": 3,
-   "explanation": "'carefully' tells us how: an adverb."
+   "explanation": "'carefully' tells us how: an adverb.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l4_m017",
@@ -1690,7 +1908,9 @@
     "they"
    ],
    "correct": 3,
-   "explanation": "'they' replaces a noun: a pronoun."
+   "explanation": "'they' replaces a noun: a pronoun.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l4_m018",
@@ -1705,7 +1925,9 @@
     "sun"
    ],
    "correct": 2,
-   "explanation": "Alphabetical order: sand, seed, sock, sun."
+   "explanation": "Alphabetical order: sand, seed, sock, sun.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l4_m019",
@@ -1720,7 +1942,9 @@
     "ship"
    ],
    "correct": 3,
-   "explanation": "Alphabetical order: ship, shoe, shop, shut."
+   "explanation": "Alphabetical order: ship, shoe, shop, shut.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l4_m020",
@@ -1735,7 +1959,9 @@
     "knifies"
    ],
    "correct": 1,
-   "explanation": "one knife, two knives."
+   "explanation": "one knife, two knives.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l4_m021",
@@ -1750,7 +1976,9 @@
     "teeths"
    ],
    "correct": 1,
-   "explanation": "one tooth, two teeth."
+   "explanation": "one tooth, two teeth.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l4_m022",
@@ -1765,7 +1993,9 @@
     "August"
    ],
    "correct": 0,
-   "explanation": "The next one is 'December'."
+   "explanation": "The next one is 'December'.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l4_m023",
@@ -1780,7 +2010,9 @@
     "fifth"
    ],
    "correct": 0,
-   "explanation": "The next one is 'fourth'."
+   "explanation": "The next one is 'fourth'.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l4_m024",
@@ -1795,7 +2027,9 @@
     "10"
    ],
    "correct": 1,
-   "explanation": "b-u-t-t-e-r-f-l-y = 9 letters."
+   "explanation": "b-u-t-t-e-r-f-l-y = 9 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l4_m025",
@@ -1810,7 +2044,9 @@
     "9"
    ],
    "correct": 3,
-   "explanation": "c-h-o-c-o-l-a-t-e = 9 letters."
+   "explanation": "c-h-o-c-o-l-a-t-e = 9 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l4_m026",
@@ -1825,7 +2061,9 @@
     "8"
    ],
    "correct": 1,
-   "explanation": "i-m-p-o-r-t-a-n-t = 9 letters."
+   "explanation": "i-m-p-o-r-t-a-n-t = 9 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l4_m027",
@@ -1840,7 +2078,9 @@
     "7"
    ],
    "correct": 2,
-   "explanation": "d-i-n-o-s-a-u-r = 8 letters."
+   "explanation": "d-i-n-o-s-a-u-r = 8 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l4_m028",
@@ -1855,7 +2095,9 @@
     "house"
    ],
    "correct": 3,
-   "explanation": "light + house = lighthouse."
+   "explanation": "light + house = lighthouse.",
+   "skill": "ret_wordform",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l4_m029",
@@ -1870,7 +2112,9 @@
     "hill"
    ],
    "correct": 2,
-   "explanation": "week + end = weekend."
+   "explanation": "week + end = weekend.",
+   "skill": "ret_wordform",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l4_o001",
@@ -1896,7 +2140,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "S-P-I-D-E-R = SPIDER"
+   "explanation": "S-P-I-D-E-R = SPIDER",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l4_o002",
@@ -1922,7 +2168,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "G-A-R-D-E-N = GARDEN"
+   "explanation": "G-A-R-D-E-N = GARDEN",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l5_m001",
@@ -1937,7 +2185,9 @@
     "eager"
    ],
    "correct": 1,
-   "explanation": "'reluctant' and 'unwilling' mean the same."
+   "explanation": "'reluctant' and 'unwilling' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l5_m002",
@@ -1952,7 +2202,9 @@
     "careful"
    ],
    "correct": 3,
-   "explanation": "'cautious' and 'careful' mean the same."
+   "explanation": "'cautious' and 'careful' mean the same.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l5_m003",
@@ -1967,7 +2219,9 @@
     "silent"
    ],
    "correct": 0,
-   "explanation": "'abundant' and 'plentiful' mean the same."
+   "explanation": "'abundant' and 'plentiful' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l5_m004",
@@ -1982,7 +2236,9 @@
     "dull"
    ],
    "correct": 0,
-   "explanation": "'vivid' and 'bright' mean the same."
+   "explanation": "'vivid' and 'bright' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l5_m005",
@@ -1997,7 +2253,9 @@
     "slowly"
    ],
    "correct": 0,
-   "explanation": "'frequently' and 'often' mean the same."
+   "explanation": "'frequently' and 'often' mean the same.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l5_m006",
@@ -2012,7 +2270,9 @@
     "follow"
    ],
    "correct": 2,
-   "explanation": "'conceal' and 'hide' mean the same."
+   "explanation": "'conceal' and 'hide' mean the same.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l5_m007",
@@ -2027,7 +2287,9 @@
     "bright"
    ],
    "correct": 2,
-   "explanation": "The opposite of 'transparent' is 'opaque'."
+   "explanation": "The opposite of 'transparent' is 'opaque'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l5_m008",
@@ -2042,7 +2304,9 @@
     "hopeful"
    ],
    "correct": 2,
-   "explanation": "The opposite of 'optimistic' is 'pessimistic'."
+   "explanation": "The opposite of 'optimistic' is 'pessimistic'.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l5_m009",
@@ -2057,7 +2321,9 @@
     "limited"
    ],
    "correct": 1,
-   "explanation": "The opposite of 'scarce' is 'plentiful'."
+   "explanation": "The opposite of 'scarce' is 'plentiful'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l5_m010",
@@ -2072,7 +2338,9 @@
     "thank"
    ],
    "correct": 1,
-   "explanation": "The opposite of 'praise' is 'criticise'."
+   "explanation": "The opposite of 'praise' is 'criticise'.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l5_m011",
@@ -2087,7 +2355,9 @@
     "optional"
    ],
    "correct": 2,
-   "explanation": "The opposite of 'voluntary' is 'compulsory'."
+   "explanation": "The opposite of 'voluntary' is 'compulsory'.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l5_m012",
@@ -2102,7 +2372,9 @@
     "rise"
    ],
    "correct": 1,
-   "explanation": "The opposite of 'ascend' is 'descend'."
+   "explanation": "The opposite of 'ascend' is 'descend'.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l5_m013",
@@ -2117,7 +2389,9 @@
     "slowly"
    ],
    "correct": 2,
-   "explanation": "Lovely is an adjective; the others are adverbs."
+   "explanation": "Lovely is an adjective; the others are adverbs.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l5_m014",
@@ -2132,7 +2406,9 @@
     "Rome"
    ],
    "correct": 1,
-   "explanation": "France is a country; the others are capital cities."
+   "explanation": "France is a country; the others are capital cities.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l5_m015",
@@ -2147,7 +2423,9 @@
     "liquid"
    ],
    "correct": 1,
-   "explanation": "Metal is a material; the others are states of matter."
+   "explanation": "Metal is a material; the others are states of matter.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l5_m016",
@@ -2162,7 +2440,9 @@
     "beneath"
    ],
    "correct": 3,
-   "explanation": "'beneath' tells us where: a preposition."
+   "explanation": "'beneath' tells us where: a preposition.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l5_m017",
@@ -2177,7 +2457,9 @@
     "always"
    ],
    "correct": 1,
-   "explanation": "'although' joins two ideas: a conjunction."
+   "explanation": "'although' joins two ideas: a conjunction.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l5_m018",
@@ -2192,7 +2474,9 @@
     "plan"
    ],
    "correct": 1,
-   "explanation": "Alphabetical order: plain, plan, plant, play."
+   "explanation": "Alphabetical order: plain, plan, plant, play.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l5_m019",
@@ -2207,7 +2491,9 @@
     "start"
    ],
    "correct": 0,
-   "explanation": "Alphabetical order: stair, star, start, stay."
+   "explanation": "Alphabetical order: stair, star, start, stay.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l5_m020",
@@ -2222,7 +2508,9 @@
     "womanes"
    ],
    "correct": 0,
-   "explanation": "one woman, two women."
+   "explanation": "one woman, two women.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l5_m021",
@@ -2237,7 +2525,9 @@
     "crises"
    ],
    "correct": 3,
-   "explanation": "one crisis, two crises."
+   "explanation": "one crisis, two crises.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l5_m022",
@@ -2252,7 +2542,9 @@
     "history"
    ],
    "correct": 2,
-   "explanation": "The next one is 'future'."
+   "explanation": "The next one is 'future'.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l5_m023",
@@ -2267,7 +2559,9 @@
     "gas"
    ],
    "correct": 3,
-   "explanation": "The next one is 'gas'."
+   "explanation": "The next one is 'gas'.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l5_m024",
@@ -2282,7 +2576,9 @@
     "8"
    ],
    "correct": 2,
-   "explanation": "W-e-d-n-e-s-d-a-y = 9 letters."
+   "explanation": "W-e-d-n-e-s-d-a-y = 9 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l5_m025",
@@ -2297,7 +2593,9 @@
     "8"
    ],
    "correct": 0,
-   "explanation": "n-e-c-e-s-s-a-r-y = 9 letters."
+   "explanation": "n-e-c-e-s-s-a-r-y = 9 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l5_m026",
@@ -2312,7 +2610,9 @@
     "9"
    ],
    "correct": 3,
-   "explanation": "n-e-i-g-h-b-o-u-r = 9 letters."
+   "explanation": "n-e-i-g-h-b-o-u-r = 9 letters.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l5_m027",
@@ -2327,7 +2627,9 @@
     "10"
    ],
    "correct": 0,
-   "explanation": "e-n-v-i-r-o-n-m-e-n-t = 11 letters."
+   "explanation": "e-n-v-i-r-o-n-m-e-n-t = 11 letters.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l5_m028",
@@ -2342,7 +2644,9 @@
     "table"
    ],
    "correct": 1,
-   "explanation": "every + thing = everything."
+   "explanation": "every + thing = everything.",
+   "skill": "ret_wordform",
+   "step": 1
   },
   {
    "id": "en_retos_rapidos_l5_m029",
@@ -2357,7 +2661,9 @@
     "chairs"
    ],
    "correct": 1,
-   "explanation": "some + times = sometimes."
+   "explanation": "some + times = sometimes.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "en_retos_rapidos_l5_o001",
@@ -2383,7 +2689,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "C-A-S-T-L-E = CASTLE"
+   "explanation": "C-A-S-T-L-E = CASTLE",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "en_retos_rapidos_l5_o002",
@@ -2409,7 +2717,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "K-N-I-G-H-T = KNIGHT"
+   "explanation": "K-N-I-G-H-T = KNIGHT",
+   "skill": "ret_letters",
+   "step": 3
   }
  ]
 }

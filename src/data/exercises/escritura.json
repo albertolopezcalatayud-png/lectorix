@@ -13,7 +13,9 @@
     "eL gato es negro."
    ],
    "correct": 2,
-   "explanation": "Las frases empiezan con mayúscula."
+   "explanation": "Las frases empiezan con mayúscula.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l1_m002",
@@ -28,7 +30,9 @@
     "Pablo"
    ],
    "correct": 3,
-   "explanation": "Los nombres de persona empiezan con mayúscula."
+   "explanation": "Los nombres de persona empiezan con mayúscula.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l1_m003",
@@ -43,7 +47,9 @@
     "Un signo de interrogación (?)"
    ],
    "correct": 1,
-   "explanation": "Las frases que cuentan algo terminan en punto."
+   "explanation": "Las frases que cuentan algo terminan en punto.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "es_escritura_l1_m004",
@@ -58,7 +64,9 @@
     "Cómo te llamas."
    ],
    "correct": 2,
-   "explanation": "En castellano, la pregunta lleva un signo al principio (¿) y otro al final (?)."
+   "explanation": "En castellano, la pregunta lleva un signo al principio (¿) y otro al final (?).",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l1_m005",
@@ -73,7 +81,9 @@
     "¿Qué bonito!"
    ],
    "correct": 2,
-   "explanation": "La exclamación lleva ¡ al principio y ! al final."
+   "explanation": "La exclamación lleva ¡ al principio y ! al final.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "es_escritura_l1_m006",
@@ -88,7 +98,9 @@
     "unos"
    ],
    "correct": 2,
-   "explanation": "«gato» es masculino: un gato."
+   "explanation": "«gato» es masculino: un gato.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l1_m007",
@@ -103,7 +115,9 @@
     "una"
    ],
    "correct": 3,
-   "explanation": "«manzana» es femenino: una manzana."
+   "explanation": "«manzana» es femenino: una manzana.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l1_m008",
@@ -118,7 +132,9 @@
     "gatas"
    ],
    "correct": 1,
-   "explanation": "Añadimos -s: gatos."
+   "explanation": "Añadimos -s: gatos.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l1_m009",
@@ -133,7 +149,9 @@
     "flores"
    ],
    "correct": 3,
-   "explanation": "Si acaba en consonante, añadimos -es: flores."
+   "explanation": "Si acaba en consonante, añadimos -es: flores.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l1_m010",
@@ -148,7 +166,9 @@
     "lune"
    ],
    "correct": 2,
-   "explanation": "Los días de la semana se escriben con minúscula."
+   "explanation": "Los días de la semana se escriben con minúscula.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l1_m011",
@@ -163,7 +183,9 @@
     "Me gusta las manzanas."
    ],
    "correct": 1,
-   "explanation": "Mayúscula al principio, punto al final y «gustan» con plural."
+   "explanation": "Mayúscula al principio, punto al final y «gustan» con plural.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l1_m012",
@@ -178,7 +200,9 @@
     "tengo"
    ],
    "correct": 2,
-   "explanation": "Ella tiene."
+   "explanation": "Ella tiene.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l1_m013",
@@ -193,7 +217,9 @@
     "está"
    ],
    "correct": 2,
-   "explanation": "Ellos están."
+   "explanation": "Ellos están.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l1_m014",
@@ -208,7 +234,9 @@
     "tengo"
    ],
    "correct": 3,
-   "explanation": "Yo tengo."
+   "explanation": "Yo tengo.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l1_m015",
@@ -223,7 +251,9 @@
     "ladran"
    ],
    "correct": 3,
-   "explanation": "Los perros (muchos) ladran."
+   "explanation": "Los perros (muchos) ladran.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l1_m016",
@@ -238,7 +268,9 @@
     "casas"
    ],
    "correct": 3,
-   "explanation": "las + plural femenino: las casas."
+   "explanation": "las + plural femenino: las casas.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l1_m017",
@@ -253,7 +285,9 @@
     "Mi mochila está aquí."
    ],
    "correct": 1,
-   "explanation": "Pregunta algo y lleva ¿?"
+   "explanation": "Pregunta algo y lleva ¿?",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l1_m018",
@@ -268,7 +302,9 @@
     "entre"
    ],
    "correct": 1,
-   "explanation": "El gato está encima de la silla."
+   "explanation": "El gato está encima de la silla.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l1_m019",
@@ -283,7 +319,9 @@
     "valenciA"
    ],
    "correct": 0,
-   "explanation": "Los nombres de ciudades empiezan con mayúscula."
+   "explanation": "Los nombres de ciudades empiezan con mayúscula.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l1_m020",
@@ -298,7 +336,9 @@
     "soy"
    ],
    "correct": 0,
-   "explanation": "Mi hermana es."
+   "explanation": "Mi hermana es.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l1_m021",
@@ -313,7 +353,9 @@
     "vamos"
    ],
    "correct": 3,
-   "explanation": "Nosotros vamos."
+   "explanation": "Nosotros vamos.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l1_m022",
@@ -328,7 +370,9 @@
     "niñe"
    ],
    "correct": 1,
-   "explanation": "niño → niña."
+   "explanation": "niño → niña.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l1_m023",
@@ -343,7 +387,9 @@
     "gatas"
    ],
    "correct": 0,
-   "explanation": "gata → gato."
+   "explanation": "gata → gato.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l1_m024",
@@ -358,7 +404,9 @@
     "vamos"
    ],
    "correct": 0,
-   "explanation": "Ayer es pasado: fuimos."
+   "explanation": "Ayer es pasado: fuimos.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "escritura_l1_w01",
@@ -371,7 +419,9 @@
    "answer": "gatos",
    "hint": "Añade una letra al final",
    "explanation": "gato → gatos",
-   "word": "gato"
+   "word": "gato",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l1_w02",
@@ -384,7 +434,9 @@
    "answer": "flores",
    "hint": "Termina en consonante: añade -es",
    "explanation": "flor → flores",
-   "word": "flor"
+   "word": "flor",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l1_w03",
@@ -396,7 +448,9 @@
    "correct": 0,
    "answer": "ladra",
    "hint": "Él/ella ...",
-   "explanation": "El perro ladra."
+   "explanation": "El perro ladra.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l1_w05",
@@ -409,7 +463,9 @@
    "answer": "niña",
    "hint": "Cambia la última letra",
    "explanation": "niño → niña",
-   "word": "niño"
+   "word": "niño",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l1_w06",
@@ -425,7 +481,9 @@
    "word": "grande",
    "acceptableAnswers": [
     "chico"
-   ]
+   ],
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l1_d01",
@@ -438,7 +496,9 @@
    "correct": 0,
    "answer": "Mi gato es gris.",
    "hint": "gato con g",
-   "explanation": "Mi ga-to es gris."
+   "explanation": "Mi ga-to es gris.",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "escritura_l1_d02",
@@ -451,7 +511,9 @@
    "correct": 0,
    "answer": "La casa es azul.",
    "hint": "azul acaba en z",
-   "explanation": "La ca-sa es a-zul."
+   "explanation": "La ca-sa es a-zul.",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "escritura_l1_d03",
@@ -464,7 +526,9 @@
    "correct": 0,
    "answer": "Papá come pan.",
    "hint": "Papá lleva tilde",
-   "explanation": "Pa-pá co-me pan."
+   "explanation": "Pa-pá co-me pan.",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "escritura_l1_d04",
@@ -477,7 +541,9 @@
    "correct": 0,
    "answer": "El sol sale.",
    "hint": "Tres palabras cortas",
-   "explanation": "El sol sa-le."
+   "explanation": "El sol sa-le.",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "escritura_l1_d05",
@@ -490,7 +556,9 @@
    "correct": 0,
    "answer": "Me gusta la sopa.",
    "hint": "gusta con g",
-   "explanation": "Me gus-ta la so-pa."
+   "explanation": "Me gus-ta la so-pa.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l1_d06",
@@ -503,7 +571,9 @@
    "correct": 0,
    "answer": "Mamá lee un libro.",
    "hint": "libro lleva b",
-   "explanation": "Ma-má lee un li-bro."
+   "explanation": "Ma-má lee un li-bro.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l1_d07",
@@ -516,7 +586,9 @@
    "correct": 0,
    "answer": "La bota es roja.",
    "hint": "bota con b, roja con j",
-   "explanation": "La bo-ta es ro-ja."
+   "explanation": "La bo-ta es ro-ja.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l1_d08",
@@ -529,7 +601,9 @@
    "correct": 0,
    "answer": "Veo una nube.",
    "hint": "Veo con v, nube con b",
-   "explanation": "Ve-o u-na nu-be."
+   "explanation": "Ve-o u-na nu-be.",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "es_escritura_l1_w001",
@@ -541,7 +615,9 @@
    "correct": 0,
    "answer": "luna",
    "hint": "Brilla de noche",
-   "explanation": "De noche vemos la luna y las estrellas."
+   "explanation": "De noche vemos la luna y las estrellas.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l1_o001",
@@ -563,7 +639,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El perro es grande."
+   "explanation": "El perro es grande.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l1_o002",
@@ -585,7 +663,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Me gusta mi gato."
+   "explanation": "Me gusta mi gato.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l1_o003",
@@ -605,7 +685,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Nosotros corremos mucho."
+   "explanation": "Nosotros corremos mucho.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l1_o004",
@@ -625,7 +707,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El sol quema."
+   "explanation": "El sol quema.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l1_o005",
@@ -647,7 +731,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Mi sombrero es rojo."
+   "explanation": "Mi sombrero es rojo.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l1_o006",
@@ -667,7 +753,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Veo un pájaro."
+   "explanation": "Veo un pájaro.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l2_m001",
@@ -682,7 +770,9 @@
     "lápizes"
    ],
    "correct": 1,
-   "explanation": "La z cambia a c delante de e: lápices."
+   "explanation": "La z cambia a c delante de e: lápices.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_m002",
@@ -697,7 +787,9 @@
     "pezes"
    ],
    "correct": 1,
-   "explanation": "pez → peces."
+   "explanation": "pez → peces.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_m003",
@@ -712,7 +804,9 @@
     "camions"
    ],
    "correct": 1,
-   "explanation": "camión → camiones (pierde la tilde)."
+   "explanation": "camión → camiones (pierde la tilde).",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "es_escritura_l2_m004",
@@ -727,7 +821,9 @@
     "ratons"
    ],
    "correct": 1,
-   "explanation": "ratón → ratones."
+   "explanation": "ratón → ratones.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_m005",
@@ -742,7 +838,9 @@
     "luzas"
    ],
    "correct": 1,
-   "explanation": "luz → luces."
+   "explanation": "luz → luces.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_m006",
@@ -757,7 +855,9 @@
     "luneses"
    ],
    "correct": 1,
-   "explanation": "Algunas palabras no cambian: el lunes, los lunes."
+   "explanation": "Algunas palabras no cambian: el lunes, los lunes.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_m007",
@@ -772,7 +872,9 @@
     "Fuimos a madrid en mayo."
    ],
    "correct": 2,
-   "explanation": "Las ciudades, con mayúscula; los meses, con minúscula."
+   "explanation": "Las ciudades, con mayúscula; los meses, con minúscula.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l2_m008",
@@ -787,7 +889,9 @@
     "o"
    ],
    "correct": 2,
-   "explanation": "«así que» presenta la consecuencia."
+   "explanation": "«así que» presenta la consecuencia.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l2_m009",
@@ -802,7 +906,9 @@
     "pero"
    ],
    "correct": 3,
-   "explanation": "«pero» marca un contraste."
+   "explanation": "«pero» marca un contraste.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l2_m010",
@@ -817,7 +923,9 @@
     "pero"
    ],
    "correct": 1,
-   "explanation": "«porque» explica la causa."
+   "explanation": "«porque» explica la causa.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l2_m011",
@@ -832,7 +940,9 @@
     "mesa"
    ],
    "correct": 1,
-   "explanation": "jamón es aguda y acaba en n: lleva tilde."
+   "explanation": "jamón es aguda y acaba en n: lleva tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l2_m012",
@@ -847,7 +957,9 @@
     "mesa"
    ],
    "correct": 2,
-   "explanation": "sofá es aguda y acaba en vocal: lleva tilde."
+   "explanation": "sofá es aguda y acaba en vocal: lleva tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l2_m013",
@@ -862,7 +974,9 @@
     "reloj"
    ],
    "correct": 3,
-   "explanation": "reloj es aguda pero acaba en j: no lleva tilde."
+   "explanation": "reloj es aguda pero acaba en j: no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l2_m014",
@@ -877,7 +991,9 @@
     "Hai"
    ],
    "correct": 2,
-   "explanation": "hay = del verbo haber (existe)."
+   "explanation": "hay = del verbo haber (existe).",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_m015",
@@ -892,7 +1008,9 @@
     "Ay"
    ],
    "correct": 3,
-   "explanation": "ay = exclamación de dolor o sorpresa."
+   "explanation": "ay = exclamación de dolor o sorpresa.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_m016",
@@ -907,7 +1025,9 @@
     "ahi"
    ],
    "correct": 1,
-   "explanation": "ahí = en ese lugar."
+   "explanation": "ahí = en ese lugar.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_m017",
@@ -922,7 +1042,9 @@
     "Voy a comprar pan."
    ],
    "correct": 3,
-   "explanation": "a (preposición), m antes de p y mayúscula."
+   "explanation": "a (preposición), m antes de p y mayúscula.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l2_m018",
@@ -937,7 +1059,9 @@
     "Mi madre a llegado."
    ],
    "correct": 1,
-   "explanation": "ha (verbo haber) lleva h."
+   "explanation": "ha (verbo haber) lleva h.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "es_escritura_l2_m019",
@@ -952,7 +1076,9 @@
     "contento"
    ],
    "correct": 0,
-   "explanation": "niñas (femenino plural) → contentas."
+   "explanation": "niñas (femenino plural) → contentas.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l2_m020",
@@ -967,7 +1093,9 @@
     "pequeñas"
    ],
    "correct": 1,
-   "explanation": "perro (masculino singular) → pequeño."
+   "explanation": "perro (masculino singular) → pequeño.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_m021",
@@ -982,7 +1110,9 @@
     "comerá"
    ],
    "correct": 1,
-   "explanation": "Ayer = pasado: comí."
+   "explanation": "Ayer = pasado: comí.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_m022",
@@ -997,7 +1127,9 @@
     "fueron"
    ],
    "correct": 1,
-   "explanation": "Mañana = futuro: iremos."
+   "explanation": "Mañana = futuro: iremos.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_m023",
@@ -1012,7 +1144,9 @@
     "He comprado huevos leche y pan."
    ],
    "correct": 2,
-   "explanation": "Las comas separan los elementos de una lista; antes de «y» no se pone coma."
+   "explanation": "Las comas separan los elementos de una lista; antes de «y» no se pone coma.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l2_m024",
@@ -1027,7 +1161,9 @@
     "Este libro es mío."
    ],
    "correct": 3,
-   "explanation": "«mío» lleva tilde en la í; «este» no la necesita."
+   "explanation": "«mío» lleva tilde en la í; «este» no la necesita.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "escritura_l2_w01",
@@ -1040,7 +1176,9 @@
    "answer": "lápices",
    "hint": "La z cambia a c",
    "explanation": "lápiz → lápices",
-   "word": "lápiz"
+   "word": "lápiz",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l2_w02",
@@ -1052,7 +1190,9 @@
    "correct": 0,
    "answer": "vaca",
    "hint": "Se escribe con v",
-   "explanation": "vaca se escribe con v"
+   "explanation": "vaca se escribe con v",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "escritura_l2_w03",
@@ -1064,7 +1204,9 @@
    "correct": 0,
    "answer": "jirafa",
    "hint": "Se escribe con j",
-   "explanation": "jirafa"
+   "explanation": "jirafa",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "escritura_l2_w04",
@@ -1077,7 +1219,9 @@
    "answer": "comí",
    "hint": "Yo ... ayer",
    "explanation": "yo comí",
-   "word": "comer"
+   "word": "comer",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l2_w05",
@@ -1093,7 +1237,9 @@
    "word": "contento",
    "acceptableAnswers": [
     "alegre"
-   ]
+   ],
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l2_w06",
@@ -1106,7 +1252,9 @@
    "answer": "casita",
    "hint": "Añade -ita",
    "explanation": "casa → casita",
-   "word": "casa"
+   "word": "casa",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l2_d01",
@@ -1119,7 +1267,9 @@
    "correct": 0,
    "answer": "El perro corre por el parque.",
    "hint": "perro y corre llevan rr",
-   "explanation": "El pe-rro co-rre por el par-que."
+   "explanation": "El pe-rro co-rre por el par-que.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l2_d02",
@@ -1132,7 +1282,9 @@
    "correct": 0,
    "answer": "Hoy hace mucho frío.",
    "hint": "Hoy y hace con h; frío lleva tilde",
-   "explanation": "Hoy ha-ce mu-cho frí-o."
+   "explanation": "Hoy ha-ce mu-cho frí-o.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l2_d03",
@@ -1145,7 +1297,9 @@
    "correct": 0,
    "answer": "La llave está en la mesa.",
    "hint": "llave con ll; está con tilde",
-   "explanation": "La lla-ve es-tá en la me-sa."
+   "explanation": "La lla-ve es-tá en la me-sa.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l2_d04",
@@ -1158,7 +1312,9 @@
    "correct": 0,
    "answer": "Quiero un vaso de agua.",
    "hint": "Quiero con qu; vaso con v",
-   "explanation": "Quie-ro un va-so de a-gua."
+   "explanation": "Quie-ro un va-so de a-gua.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l2_d05",
@@ -1171,7 +1327,9 @@
    "correct": 0,
    "answer": "Mi abuela vive en un pueblo.",
    "hint": "abuela con b; vive con v y v",
-   "explanation": "Mi a-bue-la vi-ve en un pue-blo."
+   "explanation": "Mi a-bue-la vi-ve en un pue-blo.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l2_d06",
@@ -1184,7 +1342,9 @@
    "correct": 0,
    "answer": "El queso es amarillo.",
    "hint": "queso con qu; amarillo con ll",
-   "explanation": "El que-so es a-ma-ri-llo."
+   "explanation": "El que-so es a-ma-ri-llo.",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "escritura_l2_d07",
@@ -1197,7 +1357,9 @@
    "correct": 0,
    "answer": "La jirafa come hojas.",
    "hint": "jirafa con j; hojas con h",
-   "explanation": "La ji-ra-fa co-me ho-jas."
+   "explanation": "La ji-ra-fa co-me ho-jas.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l2_d08",
@@ -1210,7 +1372,9 @@
    "correct": 0,
    "answer": "Hay un yate en el mar.",
    "hint": "Hay con h; yate con y",
-   "explanation": "Hay un ya-te en el mar."
+   "explanation": "Hay un ya-te en el mar.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l2_o001",
@@ -1236,7 +1400,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El pato nada en la charca."
+   "explanation": "El pato nada en la charca.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_o002",
@@ -1256,7 +1422,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "¿Me puedes ayudar?"
+   "explanation": "¿Me puedes ayudar?",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l2_o003",
@@ -1280,7 +1448,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ella tiene una gata negra."
+   "explanation": "Ella tiene una gata negra.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l2_o004",
@@ -1300,7 +1470,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Hoy comemos paella."
+   "explanation": "Hoy comemos paella.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l2_o005",
@@ -1322,7 +1494,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Mi amigo vive aquí."
+   "explanation": "Mi amigo vive aquí.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l2_o006",
@@ -1344,7 +1518,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "La rana salta mucho."
+   "explanation": "La rana salta mucho.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m001",
@@ -1359,7 +1535,9 @@
     "El"
    ],
    "correct": 0,
-   "explanation": "él (pronombre) lleva tilde; el (artículo) no."
+   "explanation": "él (pronombre) lleva tilde; el (artículo) no.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l3_m002",
@@ -1374,7 +1552,9 @@
     "Èl"
    ],
    "correct": 2,
-   "explanation": "el (artículo, va delante de un nombre) no lleva tilde."
+   "explanation": "el (artículo, va delante de un nombre) no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l3_m003",
@@ -1389,7 +1569,9 @@
     "Tú"
    ],
    "correct": 3,
-   "explanation": "tú (pronombre: la persona) lleva tilde."
+   "explanation": "tú (pronombre: la persona) lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m004",
@@ -1404,7 +1586,9 @@
     "Tú"
    ],
    "correct": 2,
-   "explanation": "tu (de ti, va delante de un nombre) no lleva tilde."
+   "explanation": "tu (de ti, va delante de un nombre) no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m005",
@@ -1419,7 +1603,9 @@
     "mií"
    ],
    "correct": 0,
-   "explanation": "mí (pronombre, después de para) lleva tilde."
+   "explanation": "mí (pronombre, después de para) lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m006",
@@ -1434,7 +1620,9 @@
     "Mí"
    ],
    "correct": 1,
-   "explanation": "mi (va delante de un nombre) no lleva tilde."
+   "explanation": "mi (va delante de un nombre) no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m007",
@@ -1449,7 +1637,9 @@
     "Si"
    ],
    "correct": 0,
-   "explanation": "sí (afirmación) lleva tilde."
+   "explanation": "sí (afirmación) lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m008",
@@ -1464,7 +1654,9 @@
     "Sií"
    ],
    "correct": 0,
-   "explanation": "si (condición) no lleva tilde."
+   "explanation": "si (condición) no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m009",
@@ -1479,7 +1671,9 @@
     "más"
    ],
    "correct": 3,
-   "explanation": "más (cantidad) lleva tilde."
+   "explanation": "más (cantidad) lleva tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l3_m010",
@@ -1494,7 +1688,9 @@
     "tè"
    ],
    "correct": 2,
-   "explanation": "té (la bebida) lleva tilde."
+   "explanation": "té (la bebida) lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m011",
@@ -1509,7 +1705,9 @@
     "Te"
    ],
    "correct": 3,
-   "explanation": "te (pronombre) no lleva tilde."
+   "explanation": "te (pronombre) no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m012",
@@ -1524,7 +1722,9 @@
     "árbol"
    ],
    "correct": 2,
-   "explanation": "pá-ja-ro: el golpe de voz va en la antepenúltima sílaba."
+   "explanation": "pá-ja-ro: el golpe de voz va en la antepenúltima sílaba.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m013",
@@ -1539,7 +1739,9 @@
     "árbol"
    ],
    "correct": 3,
-   "explanation": "ár-bol: llana que no acaba en n, s ni vocal."
+   "explanation": "ár-bol: llana que no acaba en n, s ni vocal.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l3_m014",
@@ -1554,7 +1756,9 @@
     "árbol"
    ],
    "correct": 1,
-   "explanation": "can-ción: aguda que acaba en n."
+   "explanation": "can-ción: aguda que acaba en n.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l3_m015",
@@ -1569,7 +1773,9 @@
     "Lucía ven, aquí."
    ],
    "correct": 0,
-   "explanation": "Cuando llamamos a alguien, su nombre va separado por coma."
+   "explanation": "Cuando llamamos a alguien, su nombre va separado por coma.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l3_m016",
@@ -1584,7 +1790,9 @@
     "¡Hola! ¿Qué tal estás?"
    ],
    "correct": 3,
-   "explanation": "Cada exclamación y cada pregunta abre y cierra sus signos."
+   "explanation": "Cada exclamación y cada pregunta abre y cierra sus signos.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l3_m017",
@@ -1599,7 +1807,9 @@
     "hiso"
    ],
    "correct": 2,
-   "explanation": "hizo, del verbo hacer, se escribe con h y z."
+   "explanation": "hizo, del verbo hacer, se escribe con h y z.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m018",
@@ -1614,7 +1824,9 @@
     "hecho"
    ],
    "correct": 3,
-   "explanation": "hecho (del verbo hacer) lleva h."
+   "explanation": "hecho (del verbo hacer) lleva h.",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m019",
@@ -1629,7 +1841,9 @@
     "hecha"
    ],
    "correct": 2,
-   "explanation": "echo (del verbo echar) va sin h."
+   "explanation": "echo (del verbo echar) va sin h.",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m020",
@@ -1644,7 +1858,9 @@
     "irè"
    ],
    "correct": 2,
-   "explanation": "iré (del verbo ir) se escribe sin h."
+   "explanation": "iré (del verbo ir) se escribe sin h.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m021",
@@ -1659,7 +1875,9 @@
     "Abía una vez un rey."
    ],
    "correct": 1,
-   "explanation": "Había lleva h y b; vez acaba en z."
+   "explanation": "Había lleva h y b; vez acaba en z.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "es_escritura_l3_m022",
@@ -1674,7 +1892,9 @@
     "va"
    ],
    "correct": 2,
-   "explanation": "Los coches (plural) van."
+   "explanation": "Los coches (plural) van.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_m023",
@@ -1689,7 +1909,9 @@
     "por eso"
    ],
    "correct": 3,
-   "explanation": "«por eso» introduce la consecuencia."
+   "explanation": "«por eso» introduce la consecuencia.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l3_m024",
@@ -1704,7 +1926,9 @@
     "Hay menos coches oy."
    ],
    "correct": 2,
-   "explanation": "Hay (existe) y hoy llevan h."
+   "explanation": "Hay (existe) y hoy llevan h.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "escritura_l3_w01",
@@ -1716,7 +1940,9 @@
    "correct": 0,
    "answer": "hielo",
    "hint": "Lleva h",
-   "explanation": "hielo se escribe con h"
+   "explanation": "hielo se escribe con h",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "escritura_l3_w02",
@@ -1729,7 +1955,9 @@
    "answer": "peces",
    "hint": "La z cambia a c",
    "explanation": "pez → peces",
-   "word": "pez"
+   "word": "pez",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l3_w03",
@@ -1742,7 +1970,9 @@
    "answer": "jugaremos",
    "hint": "Nosotros ... mañana",
    "explanation": "nosotros jugaremos",
-   "word": "jugar"
+   "word": "jugar",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l3_w04",
@@ -1754,7 +1984,9 @@
    "correct": 0,
    "answer": "lluvia",
    "hint": "Se escribe con ll",
-   "explanation": "lluvia"
+   "explanation": "lluvia",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "escritura_l3_w05",
@@ -1767,7 +1999,9 @@
    "answer": "después",
    "hint": "Empieza por d",
    "explanation": "antes ↔ después",
-   "word": "antes"
+   "word": "antes",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l3_w06",
@@ -1779,7 +2013,9 @@
    "correct": 0,
    "answer": "panadería",
    "hint": "Termina en -ería",
-   "explanation": "pan → panadería"
+   "explanation": "pan → panadería",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l3_d01",
@@ -1792,7 +2028,9 @@
    "correct": 0,
    "answer": "Los niños juegan en el jardín.",
    "hint": "jardín lleva tilde",
-   "explanation": "Los ni-ños jue-gan en el jar-dín."
+   "explanation": "Los ni-ños jue-gan en el jar-dín.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l3_d02",
@@ -1805,7 +2043,9 @@
    "correct": 0,
    "answer": "Ayer fuimos a la playa.",
    "hint": "Ayer y playa llevan y",
-   "explanation": "A-yer fui-mos a la pla-ya."
+   "explanation": "A-yer fui-mos a la pla-ya.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l3_d03",
@@ -1818,7 +2058,9 @@
    "correct": 0,
    "answer": "El tren llega a las tres.",
    "hint": "tren y tres con tr; llega con ll",
-   "explanation": "El tren lle-ga a las tres."
+   "explanation": "El tren lle-ga a las tres.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l3_d04",
@@ -1831,7 +2073,9 @@
    "correct": 0,
    "answer": "Me lavo las manos antes de comer.",
    "hint": "lavo con v",
-   "explanation": "Me la-vo las ma-nos an-tes de co-mer."
+   "explanation": "Me la-vo las ma-nos an-tes de co-mer.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l3_d05",
@@ -1844,7 +2088,9 @@
    "correct": 0,
    "answer": "La jirafa tiene el cuello largo.",
    "hint": "cuello con ll",
-   "explanation": "La ji-ra-fa tie-ne el cue-llo lar-go."
+   "explanation": "La ji-ra-fa tie-ne el cue-llo lar-go.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l3_d06",
@@ -1857,7 +2103,9 @@
    "correct": 0,
    "answer": "Hay una flor blanca en el balcón.",
    "hint": "balcón lleva tilde",
-   "explanation": "Hay u-na flor blan-ca en el bal-cón."
+   "explanation": "Hay u-na flor blan-ca en el bal-cón.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l3_d07",
@@ -1870,7 +2118,9 @@
    "correct": 0,
    "answer": "Mi hermano bebe un zumo de fresa.",
    "hint": "hermano con h; bebe con b",
-   "explanation": "Mi her-ma-no be-be un zu-mo de fre-sa."
+   "explanation": "Mi her-ma-no be-be un zu-mo de fre-sa.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l3_d08",
@@ -1883,7 +2133,9 @@
    "correct": 0,
    "answer": "El dragón vuela sobre el castillo.",
    "hint": "dragón con tilde; vuela con v",
-   "explanation": "El dra-gón vue-la so-bre el cas-ti-llo."
+   "explanation": "El dra-gón vue-la so-bre el cas-ti-llo.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l3_o001",
@@ -1909,7 +2161,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El domingo fuimos a la playa."
+   "explanation": "El domingo fuimos a la playa.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l3_o002",
@@ -1931,7 +2185,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "¿Dónde lo has encontrado?"
+   "explanation": "¿Dónde lo has encontrado?",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l3_o003",
@@ -1957,7 +2213,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Los niños juegan en el patio."
+   "explanation": "Los niños juegan en el patio.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "es_escritura_l3_o004",
@@ -1983,7 +2241,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Mi abuela hace las mejores tartas."
+   "explanation": "Mi abuela hace las mejores tartas.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "es_escritura_l3_o005",
@@ -2005,7 +2265,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Oigo llegar el tren."
+   "explanation": "Oigo llegar el tren.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l3_o006",
@@ -2027,7 +2289,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Se ponen los abrigos."
+   "explanation": "Se ponen los abrigos.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l4_m001",
@@ -2042,7 +2306,9 @@
     "pera"
    ],
    "correct": 1,
-   "explanation": "pero = enlace de contraste (una sola r)."
+   "explanation": "pero = enlace de contraste (una sola r).",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m002",
@@ -2057,7 +2323,9 @@
     "ola"
    ],
    "correct": 3,
-   "explanation": "ola (del mar) va sin h."
+   "explanation": "ola (del mar) va sin h.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m003",
@@ -2072,7 +2340,9 @@
     "Olla"
    ],
    "correct": 2,
-   "explanation": "hola (saludo) lleva h."
+   "explanation": "hola (saludo) lleva h.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m004",
@@ -2087,7 +2357,9 @@
     "tuvó"
    ],
    "correct": 2,
-   "explanation": "tuvo es del verbo tener: con v."
+   "explanation": "tuvo es del verbo tener: con v.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "es_escritura_l4_m005",
@@ -2102,7 +2374,9 @@
     "tuvo"
    ],
    "correct": 2,
-   "explanation": "tubo (cilindro hueco) va con b."
+   "explanation": "tubo (cilindro hueco) va con b.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m006",
@@ -2117,7 +2391,9 @@
     "valla"
    ],
    "correct": 3,
-   "explanation": "valla (cerca) va con v y ll."
+   "explanation": "valla (cerca) va con v y ll.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "es_escritura_l4_m007",
@@ -2132,7 +2408,9 @@
     "Valla"
    ],
    "correct": 1,
-   "explanation": "vaya (exclamación, del verbo ir) va con v e y."
+   "explanation": "vaya (exclamación, del verbo ir) va con v e y.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m008",
@@ -2147,7 +2425,9 @@
     "baca"
    ],
    "correct": 2,
-   "explanation": "vaca (animal) va con v; baca es la del coche."
+   "explanation": "vaca (animal) va con v; baca es la del coche.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m009",
@@ -2162,7 +2442,9 @@
     "vaca"
    ],
    "correct": 0,
-   "explanation": "baca (portaequipajes del coche) va con b."
+   "explanation": "baca (portaequipajes del coche) va con b.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m010",
@@ -2177,7 +2459,9 @@
     "hacia"
    ],
    "correct": 0,
-   "explanation": "hacía (del verbo hacer) lleva h y tilde; hacia indica dirección."
+   "explanation": "hacía (del verbo hacer) lleva h y tilde; hacia indica dirección.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m011",
@@ -2192,7 +2476,9 @@
     "Por que"
    ],
    "correct": 1,
-   "explanation": "En preguntas: «por qué», separado y con tilde."
+   "explanation": "En preguntas: «por qué», separado y con tilde.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "es_escritura_l4_m012",
@@ -2207,7 +2493,9 @@
     "porqué"
    ],
    "correct": 1,
-   "explanation": "Para dar la causa: «porque», junto y sin tilde."
+   "explanation": "Para dar la causa: «porque», junto y sin tilde.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "es_escritura_l4_m013",
@@ -2222,7 +2510,9 @@
     "qüe"
    ],
    "correct": 1,
-   "explanation": "qué lleva tilde cuando pregunta, aunque no haya signos."
+   "explanation": "qué lleva tilde cuando pregunta, aunque no haya signos.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l4_m014",
@@ -2237,7 +2527,9 @@
     "cuàndo"
    ],
    "correct": 0,
-   "explanation": "cuándo lleva tilde cuando pregunta."
+   "explanation": "cuándo lleva tilde cuando pregunta.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m015",
@@ -2252,7 +2544,9 @@
     "cuàndo"
    ],
    "correct": 1,
-   "explanation": "cuando (indica el momento) no lleva tilde."
+   "explanation": "cuando (indica el momento) no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m016",
@@ -2267,7 +2561,9 @@
     "Necesitarás: un lápiz: una regla y una goma."
    ],
    "correct": 2,
-   "explanation": "Los dos puntos pueden presentar una lista."
+   "explanation": "Los dos puntos pueden presentar una lista.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l4_m017",
@@ -2282,7 +2578,9 @@
     "Mi tío que vive en Alcoy (es cocinero."
    ],
    "correct": 1,
-   "explanation": "El paréntesis encierra información extra."
+   "explanation": "El paréntesis encierra información extra.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l4_m018",
@@ -2297,7 +2595,9 @@
     "dia"
    ],
    "correct": 0,
-   "explanation": "dí-a: la í y la a van en sílabas distintas."
+   "explanation": "dí-a: la í y la a van en sílabas distintas.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l4_m019",
@@ -2312,7 +2612,9 @@
     "rió"
    ],
    "correct": 0,
-   "explanation": "rí-o: la í tónica rompe el diptongo."
+   "explanation": "rí-o: la í tónica rompe el diptongo.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l4_m020",
@@ -2327,7 +2629,9 @@
     "buhó"
    ],
    "correct": 1,
-   "explanation": "bú-ho: h intercalada y tilde por hiato."
+   "explanation": "bú-ho: h intercalada y tilde por hiato.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m021",
@@ -2342,7 +2646,9 @@
     "Había mucho niños."
    ],
    "correct": 0,
-   "explanation": "«haber» con sentido de existir no tiene plural: había muchos niños."
+   "explanation": "«haber» con sentido de existir no tiene plural: había muchos niños.",
+   "skill": "esc_confusables",
+   "step": 3
   },
   {
    "id": "es_escritura_l4_m022",
@@ -2357,7 +2663,9 @@
     "hierve"
    ],
    "correct": 3,
-   "explanation": "hierve es del verbo hervir: con h y v."
+   "explanation": "hierve es del verbo hervir: con h y v.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m023",
@@ -2372,7 +2680,9 @@
     "yerva"
    ],
    "correct": 1,
-   "explanation": "hierba (planta) va con b."
+   "explanation": "hierba (planta) va con b.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_m024",
@@ -2387,7 +2697,9 @@
     "Así que"
    ],
    "correct": 1,
-   "explanation": "«aunque» marca un obstáculo que no impide la acción."
+   "explanation": "«aunque» marca un obstáculo que no impide la acción.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "escritura_l4_w01",
@@ -2400,7 +2712,9 @@
    "answer": "escrito",
    "hint": "Es irregular",
    "explanation": "escribir → escrito",
-   "word": "escribir"
+   "word": "escribir",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l4_w02",
@@ -2413,7 +2727,9 @@
    "answer": "roto",
    "hint": "Es irregular",
    "explanation": "romper → roto",
-   "word": "romper"
+   "word": "romper",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l4_w03",
@@ -2425,7 +2741,9 @@
    "correct": 0,
    "answer": "a",
    "hint": "Es una preposición",
-   "explanation": "Voy a comprar pan."
+   "explanation": "Voy a comprar pan.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l4_w04",
@@ -2437,7 +2755,9 @@
    "correct": 0,
    "answer": "ha",
    "hint": "Es del verbo haber",
-   "explanation": "Ella ha venido."
+   "explanation": "Ella ha venido.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l4_w06",
@@ -2450,7 +2770,9 @@
    "answer": "rápidamente",
    "hint": "Añade -mente",
    "explanation": "rápido → rápidamente",
-   "word": "rápido"
+   "word": "rápido",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l4_d01",
@@ -2463,7 +2785,9 @@
    "correct": 0,
    "answer": "El viernes iremos de excursión al bosque.",
    "hint": "viernes con v; excursión con x y tilde",
-   "explanation": "El vier-nes i-re-mos de ex-cur-sión al bos-que."
+   "explanation": "El vier-nes i-re-mos de ex-cur-sión al bos-que.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l4_d02",
@@ -2476,7 +2800,9 @@
    "correct": 0,
    "answer": "La ambulancia llegó muy rápido.",
    "hint": "ambulancia con mb; llegó y rápido con tilde",
-   "explanation": "La am-bu-lan-cia lle-gó muy rá-pi-do."
+   "explanation": "La am-bu-lan-cia lle-gó muy rá-pi-do.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l4_d03",
@@ -2489,7 +2815,9 @@
    "correct": 0,
    "answer": "Necesito una goma y un lápiz.",
    "hint": "lápiz con tilde y z",
-   "explanation": "Ne-ce-si-to u-na go-ma y un lá-piz."
+   "explanation": "Ne-ce-si-to u-na go-ma y un lá-piz.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l4_d04",
@@ -2502,7 +2830,9 @@
    "correct": 0,
    "answer": "Mi hermano ha ganado el campeonato.",
    "hint": "ha (del verbo haber) con h",
-   "explanation": "Mi her-ma-no ha ga-na-do el cam-pe-o-na-to."
+   "explanation": "Mi her-ma-no ha ga-na-do el cam-pe-o-na-to.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l4_d05",
@@ -2515,7 +2845,9 @@
    "correct": 0,
    "answer": "Hacía tanto viento que se cayó el árbol.",
    "hint": "Hacía, cayó y árbol llevan tilde",
-   "explanation": "Ha-cí-a tan-to vien-to que se ca-yó el ár-bol."
+   "explanation": "Ha-cí-a tan-to vien-to que se ca-yó el ár-bol.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l4_d06",
@@ -2528,7 +2860,9 @@
    "correct": 0,
    "answer": "En invierno nieva en la montaña.",
    "hint": "invierno con nv; nieva con v",
-   "explanation": "En in-vier-no nie-va en la mon-ta-ña."
+   "explanation": "En in-vier-no nie-va en la mon-ta-ña.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l4_d07",
@@ -2541,7 +2875,9 @@
    "correct": 0,
    "answer": "La ballena salta sobre las olas.",
    "hint": "ballena con b y ll",
-   "explanation": "La ba-lle-na sal-ta so-bre las o-las."
+   "explanation": "La ba-lle-na sal-ta so-bre las o-las.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l4_d08",
@@ -2554,7 +2890,9 @@
    "correct": 0,
    "answer": "Guardé la almohada en el armario.",
    "hint": "Guardé con gu y tilde; almohada con h",
-   "explanation": "Guar-dé la al-mo-ha-da en el ar-ma-rio."
+   "explanation": "Guar-dé la al-mo-ha-da en el ar-ma-rio.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l4_w001",
@@ -2567,7 +2905,9 @@
    "answer": "pintor",
    "hint": "Termina en -or",
    "explanation": "pintar → pintor",
-   "word": "pintar"
+   "word": "pintar",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l4_o001",
@@ -2595,7 +2935,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Después del colegio, fuimos a la biblioteca."
+   "explanation": "Después del colegio, fuimos a la biblioteca.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "es_escritura_l4_o002",
@@ -2617,7 +2959,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El caballo tiene sed."
+   "explanation": "El caballo tiene sed.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l4_o003",
@@ -2643,7 +2987,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El hermano de Pablo ha ganado."
+   "explanation": "El hermano de Pablo ha ganado.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_o004",
@@ -2663,7 +3009,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Mañana lloverá mucho."
+   "explanation": "Mañana lloverá mucho.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l4_o005",
@@ -2687,7 +3035,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "¿De quién es esta mochila?"
+   "explanation": "¿De quién es esta mochila?",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l4_o006",
@@ -2709,7 +3059,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ella caminó muy despacio."
+   "explanation": "Ella caminó muy despacio.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l5_m001",
@@ -2724,7 +3076,9 @@
     "Si lo hubiera sabido, hubiera venío."
    ],
    "correct": 0,
-   "explanation": "En la condición va «hubiera»; en el resultado, «habría»."
+   "explanation": "En la condición va «hubiera»; en el resultado, «habría».",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "es_escritura_l5_m002",
@@ -2739,7 +3093,9 @@
     "Hubo mucho problemas."
    ],
    "correct": 1,
-   "explanation": "«haber» con sentido de existir va siempre en singular: hubo."
+   "explanation": "«haber» con sentido de existir va siempre en singular: hubo.",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_m003",
@@ -2754,7 +3110,9 @@
     "Bi a Laura ayer."
    ],
    "correct": 2,
-   "explanation": "«vi» es monosílaba: no lleva tilde."
+   "explanation": "«vi» es monosílaba: no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_m004",
@@ -2769,7 +3127,9 @@
     "fuè"
    ],
    "correct": 1,
-   "explanation": "«fue» es monosílaba: no lleva tilde."
+   "explanation": "«fue» es monosílaba: no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l5_m005",
@@ -2784,7 +3144,9 @@
     "guión"
    ],
    "correct": 2,
-   "explanation": "Según la norma actual, «guion» es monosílaba y no lleva tilde."
+   "explanation": "Según la norma actual, «guion» es monosílaba y no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l5_m006",
@@ -2799,7 +3161,9 @@
     "El exámen fue difícil."
    ],
    "correct": 0,
-   "explanation": "examen es llana acabada en n: sin tilde; difícil, llana acabada en l: con tilde."
+   "explanation": "examen es llana acabada en n: sin tilde; difícil, llana acabada en l: con tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_m007",
@@ -2814,7 +3178,9 @@
     "exámenez"
    ],
    "correct": 2,
-   "explanation": "exámenes es esdrújula: siempre lleva tilde."
+   "explanation": "exámenes es esdrújula: siempre lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_m008",
@@ -2829,7 +3195,9 @@
     "jóvenez"
    ],
    "correct": 0,
-   "explanation": "jóvenes es esdrújula: siempre lleva tilde."
+   "explanation": "jóvenes es esdrújula: siempre lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_m009",
@@ -2844,7 +3212,9 @@
     "Me lo digiste ayer."
    ],
    "correct": 0,
-   "explanation": "dijiste: sin -s final, con j y con y en ayer."
+   "explanation": "dijiste: sin -s final, con j y con y en ayer.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_m010",
@@ -2859,7 +3229,9 @@
     "—¿Vienes? —preguntó Ana."
    ],
    "correct": 3,
-   "explanation": "En los diálogos, la raya (—) introduce lo que dice cada personaje y el comentario del narrador."
+   "explanation": "En los diálogos, la raya (—) introduce lo que dice cada personaje y el comentario del narrador.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_m011",
@@ -2874,7 +3246,9 @@
     "Mi abuelo dice «: Quien madruga, Dios le ayuda»."
    ],
    "correct": 2,
-   "explanation": "Las comillas encierran las palabras exactas que alguien dice."
+   "explanation": "Las comillas encierran las palabras exactas que alguien dice.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l5_m012",
@@ -2889,7 +3263,9 @@
     "Unos leían, otros; dibujaban."
    ],
    "correct": 1,
-   "explanation": "El punto y coma separa dos ideas relacionadas."
+   "explanation": "El punto y coma separa dos ideas relacionadas.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l5_m013",
@@ -2904,7 +3280,9 @@
     "verguenza"
    ],
    "correct": 0,
-   "explanation": "güe: la diéresis hace sonar la u."
+   "explanation": "güe: la diéresis hace sonar la u.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_m014",
@@ -2919,7 +3297,9 @@
     "exhausto"
    ],
    "correct": 3,
-   "explanation": "ex-haus-to: con x y h."
+   "explanation": "ex-haus-to: con x y h.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_m015",
@@ -2934,7 +3314,9 @@
     "bibliotéca"
    ],
    "correct": 0,
-   "explanation": "bi-blio-te-ca."
+   "explanation": "bi-blio-te-ca.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_m016",
@@ -2949,7 +3331,9 @@
     "allundamiento"
    ],
    "correct": 2,
-   "explanation": "a-yun-ta-mien-to."
+   "explanation": "a-yun-ta-mien-to.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_m017",
@@ -2964,7 +3348,9 @@
     "balenciano"
    ],
    "correct": 1,
-   "explanation": "Los gentilicios se escriben con minúscula."
+   "explanation": "Los gentilicios se escriben con minúscula.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_m018",
@@ -2979,7 +3365,9 @@
     "Ni Pablo, ni Marcos, estaban."
    ],
    "correct": 1,
-   "explanation": "ni ... ni ..., con el verbo en plural."
+   "explanation": "ni ... ni ..., con el verbo en plural.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l5_m019",
@@ -2994,7 +3382,9 @@
     "tuviera"
    ],
    "correct": 3,
-   "explanation": "En la condición irreal, subjuntivo: tuviera (o tuviese)."
+   "explanation": "En la condición irreal, subjuntivo: tuviera (o tuviese).",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l5_m020",
@@ -3009,7 +3399,9 @@
     "hizo"
    ],
    "correct": 2,
-   "explanation": "Ojalá pide subjuntivo: haga."
+   "explanation": "Ojalá pide subjuntivo: haga.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l5_m021",
@@ -3024,7 +3416,9 @@
     "Ojalá haya plazas libres."
    ],
    "correct": 3,
-   "explanation": "haya (verbo haber); halla es de hallar (encontrar); allá es un lugar."
+   "explanation": "haya (verbo haber); halla es de hallar (encontrar); allá es un lugar.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "es_escritura_l5_m022",
@@ -3039,7 +3433,9 @@
     "Se dio cuenta de qué llovía."
    ],
    "correct": 0,
-   "explanation": "«darse cuenta de algo»: lleva «de»; «dio» no lleva tilde."
+   "explanation": "«darse cuenta de algo»: lleva «de»; «dio» no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "es_escritura_l5_m023",
@@ -3054,7 +3450,9 @@
     "sin embargo"
    ],
    "correct": 0,
-   "explanation": "«por lo tanto» introduce una consecuencia."
+   "explanation": "«por lo tanto» introduce una consecuencia.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l5_m024",
@@ -3069,7 +3467,9 @@
     "sin embargo"
    ],
    "correct": 3,
-   "explanation": "«sin embargo» marca un contraste."
+   "explanation": "«sin embargo» marca un contraste.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "escritura_l5_w01",
@@ -3084,7 +3484,9 @@
    "explanation": "Si yo tuviera tiempo, iría.",
    "acceptableAnswers": [
     "tuviese"
-   ]
+   ],
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l5_w02",
@@ -3096,7 +3498,9 @@
    "correct": 0,
    "answer": "por qué",
    "hint": "Es una pregunta",
-   "explanation": "¿Por qué vienes?"
+   "explanation": "¿Por qué vienes?",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l5_w03",
@@ -3111,7 +3515,9 @@
    "explanation": "Valencia → valenciano",
    "acceptableAnswers": [
     "valenciana"
-   ]
+   ],
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l5_w04",
@@ -3124,7 +3530,9 @@
    "answer": "felicidad",
    "hint": "Termina en -idad",
    "explanation": "feliz → felicidad",
-   "word": "feliz"
+   "word": "feliz",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l5_w05",
@@ -3139,7 +3547,9 @@
    "explanation": "im- + posible",
    "acceptableAnswers": [
     "im-"
-   ]
+   ],
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l5_w06",
@@ -3151,7 +3561,9 @@
    "correct": 0,
    "answer": "qué",
    "hint": "Lleva tilde: interrogativo indirecto",
-   "explanation": "No sé qué hacer."
+   "explanation": "No sé qué hacer.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "escritura_l5_d01",
@@ -3164,7 +3576,9 @@
    "correct": 0,
    "answer": "Aunque llovía, salimos a pasear por la orilla.",
    "hint": "llovía con ll, v y tilde",
-   "explanation": "Aun-que llo-ví-a, sa-li-mos a pa-se-ar por la o-ri-lla."
+   "explanation": "Aun-que llo-ví-a, sa-li-mos a pa-se-ar por la o-ri-lla.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l5_d02",
@@ -3177,7 +3591,9 @@
    "correct": 0,
    "answer": "El científico explicó su descubrimiento con entusiasmo.",
    "hint": "científico y explicó llevan tilde",
-   "explanation": "El cien-tí-fi-co ex-pli-có su des-cu-bri-mien-to con en-tu-sias-mo."
+   "explanation": "El cien-tí-fi-co ex-pli-có su des-cu-bri-mien-to con en-tu-sias-mo.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l5_d03",
@@ -3190,7 +3606,9 @@
    "correct": 0,
    "answer": "Habría venido si me hubieras avisado.",
    "hint": "Habría y hubieras con h",
-   "explanation": "Ha-brí-a ve-ni-do si me hu-bie-ras a-vi-sa-do."
+   "explanation": "Ha-brí-a ve-ni-do si me hu-bie-ras a-vi-sa-do.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l5_d04",
@@ -3203,7 +3621,9 @@
    "correct": 0,
    "answer": "La biblioteca permanecerá cerrada hasta el lunes.",
    "hint": "permanecerá lleva tilde; hasta con h",
-   "explanation": "La bi-blio-te-ca per-ma-ne-ce-rá ce-rra-da has-ta el lu-nes."
+   "explanation": "La bi-blio-te-ca per-ma-ne-ce-rá ce-rra-da has-ta el lu-nes.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l5_d05",
@@ -3216,7 +3636,9 @@
    "correct": 0,
    "answer": "Exhausto, el excursionista se sentó junto al río.",
    "hint": "Exhausto con xh",
-   "explanation": "Ex-haus-to, el ex-cur-sio-nis-ta se sen-tó jun-to al rí-o."
+   "explanation": "Ex-haus-to, el ex-cur-sio-nis-ta se sen-tó jun-to al rí-o.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l5_d06",
@@ -3229,7 +3651,9 @@
    "correct": 0,
    "answer": "Ojalá haya plazas libres en el autobús.",
    "hint": "haya (del verbo haber) con h e y",
-   "explanation": "O-ja-lá ha-ya pla-zas li-bres en el au-to-bús."
+   "explanation": "O-ja-lá ha-ya pla-zas li-bres en el au-to-bús.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l5_d07",
@@ -3242,7 +3666,9 @@
    "correct": 0,
    "answer": "Me dio vergüenza hablar delante de todos.",
    "hint": "vergüenza con diéresis; hablar con h",
-   "explanation": "Me dio ver-güen-za ha-blar de-lan-te de to-dos."
+   "explanation": "Me dio ver-güen-za ha-blar de-lan-te de to-dos.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "escritura_l5_d08",
@@ -3255,7 +3681,9 @@
    "correct": 0,
    "answer": "El hipopótamo se bañaba en el río.",
    "hint": "hipopótamo con h y tilde; bañaba con b",
-   "explanation": "El hi-po-pó-ta-mo se ba-ña-ba en el rí-o."
+   "explanation": "El hi-po-pó-ta-mo se ba-ña-ba en el rí-o.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l5_o001",
@@ -3279,7 +3707,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Aunque era tarde, seguimos leyendo."
+   "explanation": "Aunque era tarde, seguimos leyendo.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l5_o002",
@@ -3307,7 +3737,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "La ventana se rompió con la pelota."
+   "explanation": "La ventana se rompió con la pelota.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_o003",
@@ -3337,7 +3769,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Mi tía, que es médica, vive en Elche."
+   "explanation": "Mi tía, que es médica, vive en Elche.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l5_o004",
@@ -3361,7 +3795,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ni Pablo ni Marcos estaban."
+   "explanation": "Ni Pablo ni Marcos estaban.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l5_o005",
@@ -3385,7 +3821,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Necesitamos harina, huevos y leche."
+   "explanation": "Necesitamos harina, huevos y leche.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l5_o006",
@@ -3411,7 +3849,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Por desgracia, la tienda estaba cerrada."
+   "explanation": "Por desgracia, la tienda estaba cerrada.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_m001",
@@ -3426,7 +3866,9 @@
     "El camión llego ayer."
    ],
    "correct": 0,
-   "explanation": "camión y llegó son agudas acabadas en vocal o n: llevan tilde."
+   "explanation": "camión y llegó son agudas acabadas en vocal o n: llevan tilde.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "es_escritura_l6_m002",
@@ -3441,7 +3883,9 @@
     "güésped"
    ],
    "correct": 2,
-   "explanation": "huésped: llana acabada en d, lleva tilde; empieza por hue-."
+   "explanation": "huésped: llana acabada en d, lleva tilde; empieza por hue-.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_m003",
@@ -3456,7 +3900,9 @@
     "Cuándó"
    ],
    "correct": 0,
-   "explanation": "Cuándo lleva tilde en las preguntas."
+   "explanation": "Cuándo lleva tilde en las preguntas.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_m004",
@@ -3471,7 +3917,9 @@
     "cuándo"
    ],
    "correct": 2,
-   "explanation": "cuando no lleva tilde si no pregunta ni exclama."
+   "explanation": "cuando no lleva tilde si no pregunta ni exclama.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_m005",
@@ -3486,7 +3934,9 @@
     "Él dijo que sí."
    ],
    "correct": 3,
-   "explanation": "él (pronombre) y sí (afirmación) llevan tilde."
+   "explanation": "él (pronombre) y sí (afirmación) llevan tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_m006",
@@ -3501,7 +3951,9 @@
     "Tu no sabés qué pasó."
    ],
    "correct": 1,
-   "explanation": "tú (pronombre) y qué (interrogativo indirecto) llevan tilde."
+   "explanation": "tú (pronombre) y qué (interrogativo indirecto) llevan tilde.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "es_escritura_l6_m007",
@@ -3516,7 +3968,9 @@
     "servir"
    ],
    "correct": 0,
-   "explanation": "Los verbos acabados en -bir llevan b, salvo hervir, servir y vivir."
+   "explanation": "Los verbos acabados en -bir llevan b, salvo hervir, servir y vivir.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "es_escritura_l6_m008",
@@ -3531,7 +3985,9 @@
     "lobo"
    ],
    "correct": 2,
-   "explanation": "Los adjetivos acabados en -avo, -evo, -ivo llevan v."
+   "explanation": "Los adjetivos acabados en -avo, -evo, -ivo llevan v.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "es_escritura_l6_m009",
@@ -3546,7 +4002,9 @@
     "tejer"
    ],
    "correct": 0,
-   "explanation": "Las palabras con -logía llevan g."
+   "explanation": "Las palabras con -logía llevan g.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "es_escritura_l6_m010",
@@ -3561,7 +4019,9 @@
     "conduje"
    ],
    "correct": 3,
-   "explanation": "Los pretéritos de verbos en -ducir llevan j: conduje."
+   "explanation": "Los pretéritos de verbos en -ducir llevan j: conduje.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "es_escritura_l6_m011",
@@ -3576,7 +4036,9 @@
     "Ana, cierra la puerta, por favor."
    ],
    "correct": 3,
-   "explanation": "El vocativo (Ana) y «por favor» van entre comas."
+   "explanation": "El vocativo (Ana) y «por favor» van entre comas.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l6_m012",
@@ -3591,7 +4053,9 @@
     "El río ebro pasa por Zaragoza."
    ],
    "correct": 0,
-   "explanation": "Los nombres propios (Ebro, Zaragoza) llevan mayúscula; río es nombre común."
+   "explanation": "Los nombres propios (Ebro, Zaragoza) llevan mayúscula; río es nombre común.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l6_m013",
@@ -3606,7 +4070,9 @@
     "Abía mucha gente en la plaza."
    ],
    "correct": 2,
-   "explanation": "«haber» impersonal va en singular; gente con g."
+   "explanation": "«haber» impersonal va en singular; gente con g.",
+   "skill": "esc_confusables",
+   "step": 3
   },
   {
    "id": "es_escritura_l6_m014",
@@ -3621,7 +4087,9 @@
     "Ayer vi ha tu hermano."
    ],
    "correct": 1,
-   "explanation": "vi es monosílabo: sin tilde; tu (posesivo) sin tilde."
+   "explanation": "vi es monosílabo: sin tilde; tu (posesivo) sin tilde.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "es_escritura_l6_m015",
@@ -3636,7 +4104,9 @@
     "ha"
    ],
    "correct": 0,
-   "explanation": "«a» es preposición: voy a estudiar."
+   "explanation": "«a» es preposición: voy a estudiar.",
+   "skill": "esc_confusables",
+   "step": 1
   },
   {
    "id": "es_escritura_l6_m016",
@@ -3651,7 +4121,9 @@
     "ah"
    ],
    "correct": 1,
-   "explanation": "«ha» es del verbo haber: ha terminado."
+   "explanation": "«ha» es del verbo haber: ha terminado.",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_m017",
@@ -3666,7 +4138,9 @@
     "joven"
    ],
    "correct": 2,
-   "explanation": "lápiz es llana acabada en z: lleva tilde."
+   "explanation": "lápiz es llana acabada en z: lleva tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l6_m018",
@@ -3681,7 +4155,9 @@
     "árbol"
    ],
    "correct": 0,
-   "explanation": "volumen es llana acabada en n: no lleva tilde."
+   "explanation": "volumen es llana acabada en n: no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l6_m019",
@@ -3696,7 +4172,9 @@
     "exámenes"
    ],
    "correct": 3,
-   "explanation": "exámenes es esdrújula: siempre lleva tilde."
+   "explanation": "exámenes es esdrújula: siempre lleva tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_m020",
@@ -3711,7 +4189,9 @@
     "Sustantivo"
    ],
    "correct": 0,
-   "explanation": "Las palabras en -mente que dicen cómo son adverbios."
+   "explanation": "Las palabras en -mente que dicen cómo son adverbios.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_m021",
@@ -3726,7 +4206,9 @@
     "Pronombre"
    ],
    "correct": 3,
-   "explanation": "nosotros sustituye a un nombre: es pronombre personal."
+   "explanation": "nosotros sustituye a un nombre: es pronombre personal.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l6_m022",
@@ -3741,7 +4223,9 @@
     "Habla en voz baja."
    ],
    "correct": 2,
-   "explanation": "«bajo la mesa» indica lugar: preposición."
+   "explanation": "«bajo la mesa» indica lugar: preposición.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_o001",
@@ -3767,7 +4251,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Aunque hacía frío, salimos a pasear."
+   "explanation": "Aunque hacía frío, salimos a pasear.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_o002",
@@ -3793,7 +4279,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El examen de biología fue difícil."
+   "explanation": "El examen de biología fue difícil.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_o003",
@@ -3817,7 +4305,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "¿Por qué no viniste ayer?"
+   "explanation": "¿Por qué no viniste ayer?",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_o004",
@@ -3849,7 +4339,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Mi abuela, que vive en Alcoy, cocina muy bien."
+   "explanation": "Mi abuela, que vive en Alcoy, cocina muy bien.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "es_escritura_l6_o005",
@@ -3877,7 +4369,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Los alumnos recogieron la basura del patio."
+   "explanation": "Los alumnos recogieron la basura del patio.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l6_w001",
@@ -3889,7 +4383,9 @@
    "correct": 0,
    "answer": "árbol",
    "hint": "Llana acabada en l",
-   "explanation": "árbol lleva tilde: es llana y no acaba en n, s ni vocal."
+   "explanation": "árbol lleva tilde: es llana y no acaba en n, s ni vocal.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l6_w002",
@@ -3901,7 +4397,9 @@
    "correct": 0,
    "answer": "jirafa",
    "hint": "Empieza con otra letra que suena igual",
-   "explanation": "jirafa se escribe con j."
+   "explanation": "jirafa se escribe con j.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "es_escritura_l6_w003",
@@ -3913,7 +4411,9 @@
    "correct": 0,
    "answer": "actrices",
    "hint": "La z cambia",
-   "explanation": "actriz → actrices: la z cambia a c delante de e."
+   "explanation": "actriz → actrices: la z cambia a c delante de e.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l6_w004",
@@ -3925,7 +4425,9 @@
    "correct": 0,
    "answer": "rápidamente",
    "hint": "Conserva la tilde",
-   "explanation": "rápido → rápidamente: conserva la tilde del adjetivo."
+   "explanation": "rápido → rápidamente: conserva la tilde del adjetivo.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l6_d001",
@@ -3939,7 +4441,9 @@
    "hint": "Tiene 8 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "El búho observaba el bosque desde la rama."
+   "word": "El búho observaba el bosque desde la rama.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l6_d002",
@@ -3953,7 +4457,9 @@
    "hint": "Tiene 7 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "Mañana iremos a la excursión en autobús."
+   "word": "Mañana iremos a la excursión en autobús.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l6_d003",
@@ -3967,7 +4473,9 @@
    "hint": "Tiene 7 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "Mi hermano envió un mensaje muy divertido."
+   "word": "Mi hermano envió un mensaje muy divertido.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l6_d004",
@@ -3981,7 +4489,9 @@
    "hint": "Tiene 7 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "La jirafa tiene el cuello muy largo."
+   "word": "La jirafa tiene el cuello muy largo.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l7_m001",
@@ -3996,7 +4506,9 @@
     "por qué"
    ],
    "correct": 3,
-   "explanation": "Interrogativa indirecta: por qué, separado y con tilde."
+   "explanation": "Interrogativa indirecta: por qué, separado y con tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l7_m002",
@@ -4011,7 +4523,9 @@
     "por que"
    ],
    "correct": 0,
-   "explanation": "«el porqué» es un sustantivo (= el motivo): junto y con tilde."
+   "explanation": "«el porqué» es un sustantivo (= el motivo): junto y con tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l7_m003",
@@ -4026,7 +4540,9 @@
     "si nó"
    ],
    "correct": 2,
-   "explanation": "«sino» opone dos ideas tras una negación."
+   "explanation": "«sino» opone dos ideas tras una negación.",
+   "skill": "esc_confusables",
+   "step": 1
   },
   {
    "id": "es_escritura_l7_m004",
@@ -4041,7 +4557,9 @@
     "Si nó"
    ],
    "correct": 2,
-   "explanation": "«si no» = condición (si) + negación (no)."
+   "explanation": "«si no» = condición (si) + negación (no).",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "es_escritura_l7_m005",
@@ -4056,7 +4574,9 @@
     "a ver"
    ],
    "correct": 3,
-   "explanation": "«a ver» = preposición + verbo ver."
+   "explanation": "«a ver» = preposición + verbo ver.",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "es_escritura_l7_m006",
@@ -4071,7 +4591,9 @@
     "a haber"
    ],
    "correct": 0,
-   "explanation": "«haber» es un verbo en infinitivo."
+   "explanation": "«haber» es un verbo en infinitivo.",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "es_escritura_l7_m007",
@@ -4086,7 +4608,9 @@
     "Opino de que tienes razón."
    ],
    "correct": 1,
-   "explanation": "Se piensa algo, no «de» algo: pienso que..."
+   "explanation": "Se piensa algo, no «de» algo: pienso que...",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l7_m008",
@@ -4101,7 +4625,9 @@
     "Me acuerdo que llovía."
    ],
    "correct": 0,
-   "explanation": "Uno se acuerda de algo: me acuerdo de que..."
+   "explanation": "Uno se acuerda de algo: me acuerdo de que...",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l7_m009",
@@ -4116,7 +4642,9 @@
     "Unos prefieren; el mar otros, la montaña."
    ],
    "correct": 0,
-   "explanation": "El punto y coma separa dos ideas relacionadas; la coma marca el verbo omitido."
+   "explanation": "El punto y coma separa dos ideas relacionadas; la coma marca el verbo omitido.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l7_m010",
@@ -4131,7 +4659,9 @@
     "Querida Marta, te escribo: para contarte algo."
    ],
    "correct": 1,
-   "explanation": "Tras el saludo de una carta van dos puntos."
+   "explanation": "Tras el saludo de una carta van dos puntos.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l7_m011",
@@ -4146,7 +4676,9 @@
     "La mayoría de los alumno aprobó."
    ],
    "correct": 1,
-   "explanation": "«La mayoría» es singular; también se admite el plural (aprobaron) cuando pensamos en los alumnos."
+   "explanation": "«La mayoría» es singular; también se admite el plural (aprobaron) cuando pensamos en los alumnos.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l7_m012",
@@ -4161,7 +4693,9 @@
     "ahí"
    ],
    "correct": 3,
-   "explanation": "ahí (adverbio de lugar) lleva h y tilde."
+   "explanation": "ahí (adverbio de lugar) lleva h y tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l7_m013",
@@ -4176,7 +4710,9 @@
     "fácilmente"
    ],
    "correct": 3,
-   "explanation": "Los adverbios en -mente mantienen la tilde del adjetivo: fácil → fácilmente."
+   "explanation": "Los adverbios en -mente mantienen la tilde del adjetivo: fácil → fácilmente.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l7_m014",
@@ -4191,7 +4727,9 @@
     "cómunmente"
    ],
    "correct": 1,
-   "explanation": "común lleva tilde, así que comúnmente también."
+   "explanation": "común lleva tilde, así que comúnmente también.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l7_m015",
@@ -4206,7 +4744,9 @@
     "me"
    ],
    "correct": 0,
-   "explanation": "Lo que gusta (los libros) es el sujeto: concuerda con «gustan»."
+   "explanation": "Lo que gusta (los libros) es el sujeto: concuerda con «gustan».",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l7_m016",
@@ -4221,7 +4761,9 @@
     "mayor estudia"
    ],
    "correct": 2,
-   "explanation": "El predicado es lo que se dice del sujeto."
+   "explanation": "El predicado es lo que se dice del sujeto.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l7_m017",
@@ -4236,7 +4778,9 @@
     "Desiderativa"
    ],
    "correct": 2,
-   "explanation": "Expresa una emoción entre signos de exclamación."
+   "explanation": "Expresa una emoción entre signos de exclamación.",
+   "skill": "esc_punct",
+   "step": 1
   },
   {
    "id": "es_escritura_l7_m018",
@@ -4251,7 +4795,9 @@
     "Dubitativa"
    ],
    "correct": 0,
-   "explanation": "Expresa un deseo."
+   "explanation": "Expresa un deseo.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l7_m019",
@@ -4266,7 +4812,9 @@
     "tuviera"
    ],
    "correct": 3,
-   "explanation": "En la condición irreal se usa el subjuntivo: tuviera (o tuviese)."
+   "explanation": "En la condición irreal se usa el subjuntivo: tuviera (o tuviese).",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l7_m020",
@@ -4281,7 +4829,9 @@
     "oso"
    ],
    "correct": 0,
-   "explanation": "Las palabras que empiezan por hue- llevan h."
+   "explanation": "Las palabras que empiezan por hue- llevan h.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "es_escritura_l7_m021",
@@ -4296,7 +4846,9 @@
     "estricto"
    ],
    "correct": 0,
-   "explanation": "excelente se escribe con x."
+   "explanation": "excelente se escribe con x.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "es_escritura_l7_m022",
@@ -4311,7 +4863,9 @@
     "hoyo"
    ],
    "correct": 2,
-   "explanation": "Las palabras acabadas en -illo, -illa llevan ll."
+   "explanation": "Las palabras acabadas en -illo, -illa llevan ll.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "es_escritura_l7_o001",
@@ -4337,7 +4891,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "No es verdad, sino una exageración."
+   "explanation": "No es verdad, sino una exageración.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l7_o002",
@@ -4363,7 +4919,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Me acuerdo de que llovía mucho."
+   "explanation": "Me acuerdo de que llovía mucho.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l7_o003",
@@ -4387,7 +4945,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Unos leían; otros, escuchaban música."
+   "explanation": "Unos leían; otros, escuchaban música.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l7_o004",
@@ -4411,7 +4971,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Si no estudias, no aprobarás."
+   "explanation": "Si no estudias, no aprobarás.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l7_o005",
@@ -4441,7 +5003,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "La mayoría de los vecinos votó a favor."
+   "explanation": "La mayoría de los vecinos votó a favor.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "es_escritura_l7_w001",
@@ -4453,7 +5017,9 @@
    "correct": 0,
    "answer": "Pienso que tienes razón.",
    "hint": "Sobra una palabra",
-   "explanation": "Se dice «pensar que», sin «de»."
+   "explanation": "Se dice «pensar que», sin «de».",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l7_w002",
@@ -4465,7 +5031,9 @@
    "correct": 0,
    "answer": "Había muchas personas.",
    "hint": "«haber» impersonal no tiene plural",
-   "explanation": "«haber» con sentido de existir va en singular."
+   "explanation": "«haber» con sentido de existir va en singular.",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "es_escritura_l7_w003",
@@ -4477,7 +5045,9 @@
    "correct": 0,
    "answer": "comúnmente",
    "hint": "Conserva la tilde",
-   "explanation": "común → comúnmente."
+   "explanation": "común → comúnmente.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l7_w004",
@@ -4489,7 +5059,9 @@
    "correct": 0,
    "answer": "porqué",
    "hint": "Es un sustantivo: va con «el»",
-   "explanation": "«el porqué» = el motivo: junto y con tilde."
+   "explanation": "«el porqué» = el motivo: junto y con tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l7_d001",
@@ -4503,7 +5075,9 @@
    "hint": "Tiene 7 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "Me acuerdo de que aquel invierno nevó."
+   "word": "Me acuerdo de que aquel invierno nevó.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l7_d002",
@@ -4517,7 +5091,9 @@
    "hint": "Tiene 6 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "No es fácil, sino muy complicado."
+   "word": "No es fácil, sino muy complicado.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l7_d003",
@@ -4531,7 +5107,9 @@
    "hint": "Tiene 8 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "La hierba estaba húmeda después de la tormenta."
+   "word": "La hierba estaba húmeda después de la tormenta.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l7_d004",
@@ -4545,7 +5123,9 @@
    "hint": "Tiene 7 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "¿Sabes por qué se suspendió el partido?"
+   "word": "¿Sabes por qué se suspendió el partido?",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l8_m001",
@@ -4560,7 +5140,9 @@
     "Lo dije la verdad a Laura."
    ],
    "correct": 0,
-   "explanation": "Laura es complemento indirecto: le dije."
+   "explanation": "Laura es complemento indirecto: le dije.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l8_m002",
@@ -4575,7 +5157,9 @@
     "A mi primo la regalé un libro."
    ],
    "correct": 0,
-   "explanation": "El libro es lo regalado (CD); a mi primo es CI: le."
+   "explanation": "El libro es lo regalado (CD); a mi primo es CI: le.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l8_m003",
@@ -4590,7 +5174,9 @@
     "Hubo varios accidentes en la carrretera."
    ],
    "correct": 1,
-   "explanation": "«haber» impersonal no tiene plural: hubo."
+   "explanation": "«haber» impersonal no tiene plural: hubo.",
+   "skill": "esc_confusables",
+   "step": 3
   },
   {
    "id": "es_escritura_l8_m004",
@@ -4605,7 +5191,9 @@
     "Se cayó, rompiéndose el brazo al día siguiente."
    ],
    "correct": 2,
-   "explanation": "El gerundio expresa algo simultáneo o inmediato, no posterior."
+   "explanation": "El gerundio expresa algo simultáneo o inmediato, no posterior.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l8_m005",
@@ -4620,7 +5208,9 @@
     "Debes estudiar más."
    ],
    "correct": 3,
-   "explanation": "«deber» + infinitivo = obligación; «deber de» = suposición."
+   "explanation": "«deber» + infinitivo = obligación; «deber de» = suposición.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l8_m006",
@@ -4635,7 +5225,9 @@
     "Tienes que ser las ocho."
    ],
    "correct": 0,
-   "explanation": "«deber de» + infinitivo expresa probabilidad."
+   "explanation": "«deber de» + infinitivo expresa probabilidad.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l8_m007",
@@ -4650,7 +5242,9 @@
     "Me pregunto dónde vivía."
    ],
    "correct": 0,
-   "explanation": "dónde lleva tilde en la interrogativa indirecta."
+   "explanation": "dónde lleva tilde en la interrogativa indirecta.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "es_escritura_l8_m008",
@@ -4665,7 +5259,9 @@
     "si no"
    ],
    "correct": 3,
-   "explanation": "Condición: si no estudias, no podrás salir."
+   "explanation": "Condición: si no estudias, no podrás salir.",
+   "skill": "esc_confusables",
+   "step": 1
   },
   {
    "id": "es_escritura_l8_m009",
@@ -4680,7 +5276,9 @@
     "con que"
    ],
    "correct": 1,
-   "explanation": "«conque» = así que (consecuencia)."
+   "explanation": "«conque» = así que (consecuencia).",
+   "skill": "esc_confusables",
+   "step": 1
   },
   {
    "id": "es_escritura_l8_m010",
@@ -4695,7 +5293,9 @@
     "Con que"
    ],
    "correct": 1,
-   "explanation": "Pregunta por el instrumento: con qué, con tilde."
+   "explanation": "Pregunta por el instrumento: con qué, con tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l8_m011",
@@ -4710,7 +5310,9 @@
     "onu"
    ],
    "correct": 0,
-   "explanation": "Las siglas se escriben en mayúscula y sin puntos."
+   "explanation": "Las siglas se escriben en mayúscula y sin puntos.",
+   "skill": "esc_punct",
+   "step": 1
   },
   {
    "id": "es_escritura_l8_m012",
@@ -4725,7 +5327,9 @@
     "ud"
    ],
    "correct": 0,
-   "explanation": "Las abreviaturas llevan punto: Ud."
+   "explanation": "Las abreviaturas llevan punto: Ud.",
+   "skill": "esc_punct",
+   "step": 1
   },
   {
    "id": "es_escritura_l8_m013",
@@ -4740,7 +5344,9 @@
     "La palabra «guay» es coloquial."
    ],
    "correct": 3,
-   "explanation": "Las comillas pueden marcar una palabra de la que se habla."
+   "explanation": "Las comillas pueden marcar una palabra de la que se habla.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l8_m014",
@@ -4755,7 +5361,9 @@
     "Si, llueve nos quedaremos en casa."
    ],
    "correct": 2,
-   "explanation": "Cuando la condición va delante, se separa con coma."
+   "explanation": "Cuando la condición va delante, se separa con coma.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l8_m015",
@@ -4770,7 +5378,9 @@
     "expectador"
    ],
    "correct": 0,
-   "explanation": "espectador se escribe con s."
+   "explanation": "espectador se escribe con s.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l8_m016",
@@ -4785,7 +5395,9 @@
     "excepcion"
    ],
    "correct": 0,
-   "explanation": "excepción lleva xc y tilde."
+   "explanation": "excepción lleva xc y tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l8_m017",
@@ -4800,7 +5412,9 @@
     "Estudié mucho."
    ],
    "correct": 1,
-   "explanation": "Tiene dos verbos conjugados unidos por «pero»."
+   "explanation": "Tiene dos verbos conjugados unidos por «pero».",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l8_m018",
@@ -4815,7 +5429,9 @@
     "Adversativa (oposición)"
    ],
    "correct": 3,
-   "explanation": "«pero» opone dos ideas."
+   "explanation": "«pero» opone dos ideas.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l8_m019",
@@ -4830,7 +5446,9 @@
     "Ya, bueno, perdón."
    ],
    "correct": 0,
-   "explanation": "«Le ruego que...» es propio de un registro formal."
+   "explanation": "«Le ruego que...» es propio de un registro formal.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l8_m020",
@@ -4845,7 +5463,9 @@
     "Se puso de acuerdo con nosotros."
    ],
    "correct": 3,
-   "explanation": "«de acuerdo» se escribe separado."
+   "explanation": "«de acuerdo» se escribe separado.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "es_escritura_l8_m021",
@@ -4860,7 +5480,9 @@
     "a menudo"
    ],
    "correct": 3,
-   "explanation": "«a menudo» se escribe en dos palabras."
+   "explanation": "«a menudo» se escribe en dos palabras.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l8_m022",
@@ -4875,7 +5497,9 @@
     "Tal vez llueva mañana."
    ],
    "correct": 3,
-   "explanation": "«tal vez» se escribe separado; llueva con v."
+   "explanation": "«tal vez» se escribe separado; llueva con v.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l8_o001",
@@ -4903,7 +5527,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Le regalé un libro a mi primo."
+   "explanation": "Le regalé un libro a mi primo.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l8_o002",
@@ -4931,7 +5557,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Deben de ser las ocho y media."
+   "explanation": "Deben de ser las ocho y media.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l8_o003",
@@ -4957,7 +5585,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Hubo muchas quejas durante la reunión."
+   "explanation": "Hubo muchas quejas durante la reunión.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l8_o004",
@@ -4981,7 +5611,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Estudié mucho, pero no aprobé."
+   "explanation": "Estudié mucho, pero no aprobé.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l8_o005",
@@ -5009,7 +5641,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Me preguntó dónde había dejado las llaves."
+   "explanation": "Me preguntó dónde había dejado las llaves.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l8_w001",
@@ -5021,7 +5655,9 @@
    "correct": 0,
    "answer": "Le dije que viniera.",
    "hint": "Es complemento indirecto",
-   "explanation": "Con el complemento indirecto se usa «le»."
+   "explanation": "Con el complemento indirecto se usa «le».",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l8_w002",
@@ -5033,7 +5669,9 @@
    "correct": 0,
    "answer": "Hubo muchas quejas.",
    "hint": "«haber» impersonal va en singular",
-   "explanation": "«haber» con sentido de existir no tiene plural."
+   "explanation": "«haber» con sentido de existir no tiene plural.",
+   "skill": "esc_confusables",
+   "step": 1
   },
   {
    "id": "es_escritura_l8_w003",
@@ -5045,7 +5683,9 @@
    "correct": 0,
    "answer": "UE",
    "hint": "Dos letras en mayúscula",
-   "explanation": "Las siglas van en mayúscula y sin puntos."
+   "explanation": "Las siglas van en mayúscula y sin puntos.",
+   "skill": "esc_punct",
+   "step": 1
   },
   {
    "id": "es_escritura_l8_w004",
@@ -5057,7 +5697,9 @@
    "correct": 0,
    "answer": "espectáculo",
    "hint": "Se escribe con s",
-   "explanation": "espectáculo se escribe con s, como espectador."
+   "explanation": "espectáculo se escribe con s, como espectador.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "es_escritura_l8_d001",
@@ -5071,7 +5713,9 @@
    "hint": "Tiene 6 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "Hubo varios heridos en el accidente."
+   "word": "Hubo varios heridos en el accidente.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l8_d002",
@@ -5085,7 +5729,9 @@
    "hint": "Tiene 10 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "Le dijimos a la profesora que no lo habíamos entendido."
+   "word": "Le dijimos a la profesora que no lo habíamos entendido.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l8_d003",
@@ -5099,7 +5745,9 @@
    "hint": "Tiene 6 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "El espectáculo fue una auténtica excepción."
+   "word": "El espectáculo fue una auténtica excepción.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l8_d004",
@@ -5113,7 +5761,9 @@
    "hint": "Tiene 10 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "Deben de ser más de las diez de la noche."
+   "word": "Deben de ser más de las diez de la noche.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l9_m001",
@@ -5128,7 +5778,9 @@
     "Solo quiero un baso de agua."
    ],
    "correct": 1,
-   "explanation": "Desde 2010, «solo» no necesita tilde."
+   "explanation": "Desde 2010, «solo» no necesita tilde.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "es_escritura_l9_m002",
@@ -5143,7 +5795,9 @@
     "Este es mi libro y ese, el tuyo."
    ],
    "correct": 3,
-   "explanation": "Los demostrativos no llevan tilde según la norma actual."
+   "explanation": "Los demostrativos no llevan tilde según la norma actual.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "es_escritura_l9_m003",
@@ -5158,7 +5812,9 @@
     "Por último, quiero dar las gracias."
    ],
    "correct": 3,
-   "explanation": "El infinitivo no puede ser el verbo principal de una oración independiente."
+   "explanation": "El infinitivo no puede ser el verbo principal de una oración independiente.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "es_escritura_l9_m004",
@@ -5173,7 +5829,9 @@
     "Se infligió la ley."
    ],
    "correct": 2,
-   "explanation": "infringir = incumplir una norma; infligir = causar daño."
+   "explanation": "infringir = incumplir una norma; infligir = causar daño.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l9_m005",
@@ -5188,7 +5846,9 @@
     "Le inflingieron un duro castigo."
    ],
    "correct": 2,
-   "explanation": "infligir = causar un daño o castigo."
+   "explanation": "infligir = causar un daño o castigo.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l9_m006",
@@ -5203,7 +5863,9 @@
     "Lo calculé grosso modo."
    ],
    "correct": 3,
-   "explanation": "Es «grosso modo», sin la preposición «a»."
+   "explanation": "Es «grosso modo», sin la preposición «a».",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "es_escritura_l9_m007",
@@ -5218,7 +5880,9 @@
     "Hay que preever los riesgos."
    ],
    "correct": 0,
-   "explanation": "prever (ver antes) se conjuga como ver: prever, previsto."
+   "explanation": "prever (ver antes) se conjuga como ver: prever, previsto.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l9_m008",
@@ -5233,7 +5897,9 @@
     "Adverbial de tiempo"
    ],
    "correct": 0,
-   "explanation": "Funciona como un sustantivo: «Quiero eso»."
+   "explanation": "Funciona como un sustantivo: «Quiero eso».",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l9_m009",
@@ -5248,7 +5914,9 @@
     "Adjetiva o de relativo"
    ],
    "correct": 3,
-   "explanation": "Complementa al sustantivo «libro», como un adjetivo."
+   "explanation": "Complementa al sustantivo «libro», como un adjetivo.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l9_m010",
@@ -5263,7 +5931,9 @@
     "Condición"
    ],
    "correct": 0,
-   "explanation": "«aunque» introduce un obstáculo que no impide la acción."
+   "explanation": "«aunque» introduce un obstáculo que no impide la acción.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l9_m011",
@@ -5278,7 +5948,9 @@
     "Tiempo"
    ],
    "correct": 1,
-   "explanation": "«para que» expresa el objetivo."
+   "explanation": "«para que» expresa el objetivo.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l9_m012",
@@ -5293,7 +5965,9 @@
     "Los alumnos que llegaron tarde no pudieron entrar."
    ],
    "correct": 3,
-   "explanation": "No se pone coma entre el sujeto y el verbo."
+   "explanation": "No se pone coma entre el sujeto y el verbo.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l9_m013",
@@ -5308,7 +5982,9 @@
     "Como afirma el autor, la lectura «es un viaje.»"
    ],
    "correct": 2,
-   "explanation": "La cita va entre comillas y el punto se pone fuera."
+   "explanation": "La cita va entre comillas y el punto se pone fuera.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "es_escritura_l9_m014",
@@ -5323,7 +5999,9 @@
     "en cambio"
    ],
    "correct": 1,
-   "explanation": "«por consiguiente» introduce una consecuencia."
+   "explanation": "«por consiguiente» introduce una consecuencia.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l9_m015",
@@ -5338,7 +6016,9 @@
     "es decir"
    ],
    "correct": 3,
-   "explanation": "«es decir» explica de otra manera lo anterior."
+   "explanation": "«es decir» explica de otra manera lo anterior.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l9_m016",
@@ -5353,7 +6033,9 @@
     "por ende"
    ],
    "correct": 1,
-   "explanation": "«no obstante» equivale a «sin embargo»."
+   "explanation": "«no obstante» equivale a «sin embargo».",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l9_m017",
@@ -5368,7 +6050,9 @@
     "exaustivo"
    ],
    "correct": 2,
-   "explanation": "exhaustivo lleva x y h: ex-haus-ti-vo."
+   "explanation": "exhaustivo lleva x y h: ex-haus-ti-vo.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "es_escritura_l9_m018",
@@ -5383,7 +6067,9 @@
     "Aun no ha llegado; aun así, esperaremos."
    ],
    "correct": 0,
-   "explanation": "aún (= todavía) lleva tilde; aun así (= incluso así) no."
+   "explanation": "aún (= todavía) lleva tilde; aun así (= incluso así) no.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "es_escritura_l9_m019",
@@ -5398,7 +6084,9 @@
     "Antes de examinar el asunto"
    ],
    "correct": 3,
-   "explanation": "«a priori» significa «de antemano»."
+   "explanation": "«a priori» significa «de antemano».",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l9_m020",
@@ -5413,7 +6101,9 @@
     "No lo hizo por dinero sino, por amistad."
    ],
    "correct": 1,
-   "explanation": "Tras una negación, «sino» introduce la idea correcta."
+   "explanation": "Tras una negación, «sino» introduce la idea correcta.",
+   "skill": "esc_confusables",
+   "step": 3
   },
   {
    "id": "es_escritura_l9_m021",
@@ -5428,7 +6118,9 @@
     "Este método es mejor."
    ],
    "correct": 3,
-   "explanation": "«mejor» ya es comparativo: no admite «más»."
+   "explanation": "«mejor» ya es comparativo: no admite «más».",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "es_escritura_l9_m022",
@@ -5443,7 +6135,9 @@
     "El 80 % de los encuestados respondió."
    ],
    "correct": 3,
-   "explanation": "El símbolo % se separa del número con un espacio."
+   "explanation": "El símbolo % se separa del número con un espacio.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "es_escritura_l9_o001",
@@ -5469,7 +6163,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Aunque llueva, el partido se jugará."
+   "explanation": "Aunque llueva, el partido se jugará.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l9_o002",
@@ -5497,7 +6193,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El libro que me prestaste es magnífico."
+   "explanation": "El libro que me prestaste es magnífico.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l9_o003",
@@ -5523,7 +6221,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Por consiguiente, debemos cambiar de plan."
+   "explanation": "Por consiguiente, debemos cambiar de plan.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l9_o004",
@@ -5553,7 +6253,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "No lo hizo por dinero, sino por amistad."
+   "explanation": "No lo hizo por dinero, sino por amistad.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "es_escritura_l9_o005",
@@ -5579,7 +6281,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Quiero que me expliques el porqué."
+   "explanation": "Quiero que me expliques el porqué.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "es_escritura_l9_w001",
@@ -5591,7 +6295,9 @@
    "correct": 0,
    "answer": "Este método es mejor.",
    "hint": "Sobra una palabra",
-   "explanation": "«mejor» ya es comparativo."
+   "explanation": "«mejor» ya es comparativo.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l9_w002",
@@ -5603,7 +6309,9 @@
    "correct": 0,
    "answer": "Hay que prever los gastos.",
    "hint": "Se conjuga como «ver»",
-   "explanation": "prever = pre + ver."
+   "explanation": "prever = pre + ver.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "es_escritura_l9_w003",
@@ -5615,7 +6323,9 @@
    "correct": 0,
    "answer": "grosso modo",
    "hint": "Sobra la preposición",
-   "explanation": "La expresión latina es «grosso modo»."
+   "explanation": "La expresión latina es «grosso modo».",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "es_escritura_l9_w004",
@@ -5627,7 +6337,9 @@
    "correct": 0,
    "answer": "Solo quiero agua.",
    "hint": "Según la norma actual",
-   "explanation": "Desde 2010, «solo» no lleva tilde."
+   "explanation": "Desde 2010, «solo» no lleva tilde.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "es_escritura_l9_d001",
@@ -5641,7 +6353,9 @@
    "hint": "Tiene 8 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "Aún no sabemos qué pasará; aun así, seguiremos."
+   "word": "Aún no sabemos qué pasará; aun así, seguiremos.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l9_d002",
@@ -5655,7 +6369,9 @@
    "hint": "Tiene 8 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "El jurado infligió una dura sanción al equipo."
+   "word": "El jurado infligió una dura sanción al equipo.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l9_d003",
@@ -5669,7 +6385,9 @@
    "hint": "Tiene 7 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "Solo quiero que me expliques el porqué."
+   "word": "Solo quiero que me expliques el porqué.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "es_escritura_l9_d004",
@@ -5683,7 +6401,9 @@
    "hint": "Tiene 6 palabras",
    "explanation": "Recuerda la mayúscula del principio, las tildes y el punto final.",
    "dictation": true,
-   "word": "La exhibición fue espléndida y exuberante."
+   "word": "La exhibición fue espléndida y exuberante.",
+   "skill": "dictation",
+   "step": 3
   }
  ]
 }

@@ -13,7 +13,9 @@
     "csaa"
    ],
    "correct": 0,
-   "explanation": "S'escriu «casa»."
+   "explanation": "S'escriu «casa».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m002",
@@ -28,7 +30,9 @@
     "agt"
    ],
    "correct": 1,
-   "explanation": "S'escriu «gat»."
+   "explanation": "S'escriu «gat».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m003",
@@ -43,7 +47,9 @@
     "sool"
    ],
    "correct": 2,
-   "explanation": "S'escriu «sol»."
+   "explanation": "S'escriu «sol».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m004",
@@ -58,7 +64,9 @@
     "pá"
    ],
    "correct": 0,
-   "explanation": "S'escriu «pa»."
+   "explanation": "S'escriu «pa».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_m005",
@@ -73,7 +81,9 @@
     "mle"
    ],
    "correct": 1,
-   "explanation": "S'escriu «mel»."
+   "explanation": "S'escriu «mel».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m006",
@@ -88,7 +98,9 @@
     "luna"
    ],
    "correct": 1,
-   "explanation": "S'escriu «lluna»."
+   "explanation": "S'escriu «lluna».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m007",
@@ -103,7 +115,9 @@
     "mnoa"
    ],
    "correct": 2,
-   "explanation": "S'escriu «mona»."
+   "explanation": "S'escriu «mona».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m008",
@@ -118,7 +132,9 @@
     "dit"
    ],
    "correct": 3,
-   "explanation": "S'escriu «dit»."
+   "explanation": "S'escriu «dit».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m009",
@@ -133,7 +149,9 @@
     "boou"
    ],
    "correct": 1,
-   "explanation": "S'escriu «bou»."
+   "explanation": "S'escriu «bou».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m010",
@@ -148,7 +166,9 @@
     "peraa"
    ],
    "correct": 1,
-   "explanation": "S'escriu «pera»."
+   "explanation": "S'escriu «pera».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m011",
@@ -163,7 +183,9 @@
     "pue"
    ],
    "correct": 2,
-   "explanation": "S'escriu «peu»."
+   "explanation": "S'escriu «peu».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m012",
@@ -178,7 +200,9 @@
     "naz"
    ],
    "correct": 2,
-   "explanation": "S'escriu «nas»."
+   "explanation": "S'escriu «nas».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m013",
@@ -193,7 +217,9 @@
     "pomma"
    ],
    "correct": 0,
-   "explanation": "S'escriu «poma»."
+   "explanation": "S'escriu «poma».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m014",
@@ -208,7 +234,9 @@
     "dau"
    ],
    "correct": 3,
-   "explanation": "S'escriu «dau»."
+   "explanation": "S'escriu «dau».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m015",
@@ -223,7 +251,9 @@
     "lleet"
    ],
    "correct": 2,
-   "explanation": "S'escriu «llet»."
+   "explanation": "S'escriu «llet».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m016",
@@ -238,7 +268,9 @@
     "boat"
    ],
    "correct": 0,
-   "explanation": "S'escriu «bota»."
+   "explanation": "S'escriu «bota».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m017",
@@ -253,7 +285,9 @@
     "pipá"
    ],
    "correct": 2,
-   "explanation": "S'escriu «pipa»."
+   "explanation": "S'escriu «pipa».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_m018",
@@ -268,7 +302,9 @@
     "nina"
    ],
    "correct": 3,
-   "explanation": "S'escriu «nina»."
+   "explanation": "S'escriu «nina».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_m019",
@@ -283,7 +319,9 @@
     "cucc"
    ],
    "correct": 1,
-   "explanation": "S'escriu «cuc»."
+   "explanation": "S'escriu «cuc».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m020",
@@ -298,7 +336,9 @@
     "ul"
    ],
    "correct": 0,
-   "explanation": "S'escriu «ull»."
+   "explanation": "S'escriu «ull».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m021",
@@ -313,7 +353,9 @@
     "oou"
    ],
    "correct": 0,
-   "explanation": "S'escriu «ou»."
+   "explanation": "S'escriu «ou».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_m022",
@@ -328,7 +370,9 @@
     "gotd"
    ],
    "correct": 1,
-   "explanation": "S'escriu «got»."
+   "explanation": "S'escriu «got».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m023",
@@ -343,7 +387,9 @@
     "rojg"
    ],
    "correct": 1,
-   "explanation": "S'escriu «roig»."
+   "explanation": "S'escriu «roig».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_m024",
@@ -358,7 +404,9 @@
     "foq"
    ],
    "correct": 0,
-   "explanation": "S'escriu «foc»."
+   "explanation": "S'escriu «foc».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l1_m025",
@@ -373,7 +421,9 @@
     "la 4a"
    ],
    "correct": 2,
-   "explanation": "És la 2a: «d». Les altres són «b»."
+   "explanation": "És la 2a: «d». Les altres són «b».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m026",
@@ -388,7 +438,9 @@
     "la 3a"
    ],
    "correct": 1,
-   "explanation": "És la 4a: «q». Les altres són «p»."
+   "explanation": "És la 4a: «q». Les altres són «p».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m027",
@@ -403,7 +455,9 @@
     "la 4a"
    ],
    "correct": 0,
-   "explanation": "És la 2a: «u». Les altres són «n»."
+   "explanation": "És la 2a: «u». Les altres són «n».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m028",
@@ -418,7 +472,9 @@
     "la 4a"
    ],
    "correct": 3,
-   "explanation": "És la 4a: «w». Les altres són «m»."
+   "explanation": "És la 4a: «w». Les altres són «m».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m029",
@@ -433,7 +489,9 @@
     "la 4a"
    ],
    "correct": 1,
-   "explanation": "És la 2a: «p». Les altres són «b»."
+   "explanation": "És la 2a: «p». Les altres són «b».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m030",
@@ -448,7 +506,9 @@
     "la 2a"
    ],
    "correct": 2,
-   "explanation": "És la 4a: «q». Les altres són «d»."
+   "explanation": "És la 4a: «q». Les altres són «d».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m031",
@@ -463,7 +523,9 @@
     "los"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: s-o-l."
+   "explanation": "Mira bé cada lletra: s-o-l.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_m032",
@@ -478,7 +540,9 @@
     "psa"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: p-a-s."
+   "explanation": "Mira bé cada lletra: p-a-s.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_m033",
@@ -493,7 +557,9 @@
     "anp"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: n-a-p."
+   "explanation": "Mira bé cada lletra: n-a-p.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_m034",
@@ -508,7 +574,9 @@
     "dua"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: d-a-u."
+   "explanation": "Mira bé cada lletra: d-a-u.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_m035",
@@ -523,7 +591,9 @@
     "buo"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: b-o-u."
+   "explanation": "Mira bé cada lletra: b-o-u.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_m036",
@@ -538,7 +608,9 @@
     "cor"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: r-o-c."
+   "explanation": "Mira bé cada lletra: r-o-c.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_m037",
@@ -553,7 +625,9 @@
     "la 3a"
    ],
    "correct": 2,
-   "explanation": "És la 2a: «los», no «sol»."
+   "explanation": "És la 2a: «los», no «sol».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m038",
@@ -568,7 +642,9 @@
     "la 1a"
    ],
    "correct": 2,
-   "explanation": "És la 3a: «sap», no «pas»."
+   "explanation": "És la 3a: «sap», no «pas».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m039",
@@ -583,7 +659,9 @@
     "la 2a"
    ],
    "correct": 2,
-   "explanation": "És la 4a: «pan», no «nap»."
+   "explanation": "És la 4a: «pan», no «nap».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m040",
@@ -598,7 +676,9 @@
     "la 4a"
    ],
    "correct": 0,
-   "explanation": "És la 1a: «bau», no «dau»."
+   "explanation": "És la 1a: «bau», no «dau».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_m041",
@@ -613,7 +693,9 @@
     "la 3a"
    ],
    "correct": 2,
-   "explanation": "És la 2a: «dou», no «bou»."
+   "explanation": "És la 2a: «dou», no «bou».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l1_o001",
@@ -635,7 +717,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: A, B, C, D."
+   "explanation": "Ordre alfabètic: A, B, C, D.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_o002",
@@ -657,7 +741,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: E, F, G, H."
+   "explanation": "Ordre alfabètic: E, F, G, H.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_o003",
@@ -679,7 +765,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: L, M, N, O."
+   "explanation": "Ordre alfabètic: L, M, N, O.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l1_o004",
@@ -701,7 +789,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: R, S, T, U."
+   "explanation": "Ordre alfabètic: R, S, T, U.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_m001",
@@ -716,7 +806,9 @@
     "chiquet"
    ],
    "correct": 1,
-   "explanation": "S'escriu «xiquet»."
+   "explanation": "S'escriu «xiquet».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m002",
@@ -731,7 +823,9 @@
     "caicha"
    ],
    "correct": 1,
-   "explanation": "S'escriu «caixa». ix entre vocals."
+   "explanation": "S'escriu «caixa». ix entre vocals.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m003",
@@ -746,7 +840,9 @@
     "coche"
    ],
    "correct": 0,
-   "explanation": "S'escriu «cotxe». tx entre vocals."
+   "explanation": "S'escriu «cotxe». tx entre vocals.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_m004",
@@ -761,7 +857,9 @@
     "peich"
    ],
    "correct": 2,
-   "explanation": "S'escriu «peix»."
+   "explanation": "S'escriu «peix».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m005",
@@ -776,7 +874,9 @@
     "platja"
    ],
    "correct": 3,
-   "explanation": "S'escriu «platja». tj davant de a."
+   "explanation": "S'escriu «platja». tj davant de a.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m006",
@@ -791,7 +891,9 @@
     "muntaña"
    ],
    "correct": 2,
-   "explanation": "S'escriu «muntanya». ny, no ñ."
+   "explanation": "S'escriu «muntanya». ny, no ñ.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m007",
@@ -806,7 +908,9 @@
     "añ"
    ],
    "correct": 1,
-   "explanation": "S'escriu «any». ny, no ñ."
+   "explanation": "S'escriu «any». ny, no ñ.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m008",
@@ -821,7 +925,9 @@
     "cania"
    ],
    "correct": 2,
-   "explanation": "S'escriu «canya». ny, no ñ."
+   "explanation": "S'escriu «canya». ny, no ñ.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_m009",
@@ -836,7 +942,9 @@
     "coni"
    ],
    "correct": 2,
-   "explanation": "S'escriu «conill»."
+   "explanation": "S'escriu «conill».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m010",
@@ -851,7 +959,9 @@
     "gallinna"
    ],
    "correct": 1,
-   "explanation": "S'escriu «gallina»."
+   "explanation": "S'escriu «gallina».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m011",
@@ -866,7 +976,9 @@
     "libre"
    ],
    "correct": 1,
-   "explanation": "S'escriu «llibre»."
+   "explanation": "S'escriu «llibre».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m012",
@@ -881,7 +993,9 @@
     "cadirra"
    ],
    "correct": 0,
-   "explanation": "S'escriu «cadira»."
+   "explanation": "S'escriu «cadira».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m013",
@@ -896,7 +1010,9 @@
     "finesta"
    ],
    "correct": 0,
-   "explanation": "S'escriu «finestra»."
+   "explanation": "S'escriu «finestra».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m014",
@@ -911,7 +1027,9 @@
     "formigga"
    ],
    "correct": 0,
-   "explanation": "S'escriu «formiga»."
+   "explanation": "S'escriu «formiga».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m015",
@@ -926,7 +1044,9 @@
     "granotta"
    ],
    "correct": 1,
-   "explanation": "S'escriu «granota»."
+   "explanation": "S'escriu «granota».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m016",
@@ -941,7 +1061,9 @@
     "tarongja"
    ],
    "correct": 2,
-   "explanation": "S'escriu «taronja»."
+   "explanation": "S'escriu «taronja».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m017",
@@ -956,7 +1078,9 @@
     "jardi"
    ],
    "correct": 0,
-   "explanation": "S'escriu «jardí»."
+   "explanation": "S'escriu «jardí».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m018",
@@ -971,7 +1095,9 @@
     "menxar"
    ],
    "correct": 2,
-   "explanation": "S'escriu «menjar»."
+   "explanation": "S'escriu «menjar».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m019",
@@ -986,7 +1112,9 @@
     "puxar"
    ],
    "correct": 0,
-   "explanation": "S'escriu «pujar»."
+   "explanation": "S'escriu «pujar».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m020",
@@ -1001,7 +1129,9 @@
     "rellotje"
    ],
    "correct": 2,
-   "explanation": "S'escriu «rellotge». tg davant de e."
+   "explanation": "S'escriu «rellotge». tg davant de e.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m021",
@@ -1016,7 +1146,9 @@
     "metxe"
    ],
    "correct": 2,
-   "explanation": "S'escriu «metge». tg davant de e."
+   "explanation": "S'escriu «metge». tg davant de e.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m022",
@@ -1031,7 +1163,9 @@
     "fletja"
    ],
    "correct": 1,
-   "explanation": "S'escriu «fletxa». tx entre vocals."
+   "explanation": "S'escriu «fletxa». tx entre vocals.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m023",
@@ -1046,7 +1180,9 @@
     "maduicha"
    ],
    "correct": 0,
-   "explanation": "S'escriu «maduixa». ix entre vocals."
+   "explanation": "S'escriu «maduixa». ix entre vocals.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m024",
@@ -1061,7 +1197,9 @@
     "pinia"
    ],
    "correct": 1,
-   "explanation": "S'escriu «pinya». ny, no ñ."
+   "explanation": "S'escriu «pinya». ny, no ñ.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l2_m025",
@@ -1076,7 +1214,9 @@
     "la 3a"
    ],
    "correct": 3,
-   "explanation": "És la 3a: «d». Les altres són «b»."
+   "explanation": "És la 3a: «d». Les altres són «b».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_m026",
@@ -1091,7 +1231,9 @@
     "la 3a"
    ],
    "correct": 0,
-   "explanation": "És la 1a: «q». Les altres són «p»."
+   "explanation": "És la 1a: «q». Les altres són «p».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_m027",
@@ -1106,7 +1248,9 @@
     "la 3a"
    ],
    "correct": 3,
-   "explanation": "És la 3a: «u». Les altres són «n»."
+   "explanation": "És la 3a: «u». Les altres són «n».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_m028",
@@ -1121,7 +1265,9 @@
     "la 1a"
    ],
    "correct": 3,
-   "explanation": "És la 1a: «w». Les altres són «m»."
+   "explanation": "És la 1a: «w». Les altres són «m».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_m029",
@@ -1136,7 +1282,9 @@
     "la 1a"
    ],
    "correct": 1,
-   "explanation": "És la 3a: «b». Les altres són «d»."
+   "explanation": "És la 3a: «b». Les altres són «d».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m030",
@@ -1151,7 +1299,9 @@
     "la 2a"
    ],
    "correct": 0,
-   "explanation": "És la 1a: «p». Les altres són «q»."
+   "explanation": "És la 1a: «p». Les altres són «q».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m031",
@@ -1166,7 +1316,9 @@
     "maca"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: c-a-m-a."
+   "explanation": "Mira bé cada lletra: c-a-m-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_m032",
@@ -1181,7 +1333,9 @@
     "arta"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: r-a-t-a."
+   "explanation": "Mira bé cada lletra: r-a-t-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m033",
@@ -1196,7 +1350,9 @@
     "loma"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: m-o-l-a."
+   "explanation": "Mira bé cada lletra: m-o-l-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_m034",
@@ -1211,7 +1367,9 @@
     "posa"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: s-o-p-a."
+   "explanation": "Mira bé cada lletra: s-o-p-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_m035",
@@ -1226,7 +1384,9 @@
     "roda"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: r-o-d-a."
+   "explanation": "Mira bé cada lletra: r-o-d-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_m036",
@@ -1241,7 +1401,9 @@
     "nola"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: l-o-n-a."
+   "explanation": "Mira bé cada lletra: l-o-n-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_m037",
@@ -1256,7 +1418,9 @@
     "la 2a"
    ],
    "correct": 2,
-   "explanation": "És la 3a: «maca», no «cama»."
+   "explanation": "És la 3a: «maca», no «cama».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m038",
@@ -1271,7 +1435,9 @@
     "la 1a"
    ],
    "correct": 2,
-   "explanation": "És la 4a: «tara», no «rata»."
+   "explanation": "És la 4a: «tara», no «rata».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m039",
@@ -1286,7 +1452,9 @@
     "la 2a"
    ],
    "correct": 1,
-   "explanation": "És la 1a: «loma», no «mola»."
+   "explanation": "És la 1a: «loma», no «mola».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m040",
@@ -1301,7 +1469,9 @@
     "la 4a"
    ],
    "correct": 0,
-   "explanation": "És la 2a: «posa», no «sopa»."
+   "explanation": "És la 2a: «posa», no «sopa».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_m041",
@@ -1316,7 +1486,9 @@
     "la 3a"
    ],
    "correct": 3,
-   "explanation": "És la 3a: «dora», no «roda»."
+   "explanation": "És la 3a: «dora», no «roda».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l2_o001",
@@ -1340,7 +1512,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: B, D, G, J, P."
+   "explanation": "Ordre alfabètic: B, D, G, J, P.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_o002",
@@ -1364,7 +1538,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: A, E, I, O, U."
+   "explanation": "Ordre alfabètic: A, E, I, O, U.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_o003",
@@ -1388,7 +1564,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: C, F, J, M, R."
+   "explanation": "Ordre alfabètic: C, F, J, M, R.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l2_o004",
@@ -1412,7 +1590,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: D, H, L, S, X."
+   "explanation": "Ordre alfabètic: D, H, L, S, X.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_m001",
@@ -1427,7 +1607,9 @@
     "canzó"
    ],
    "correct": 1,
-   "explanation": "S'escriu «cançó». ç davant de o."
+   "explanation": "S'escriu «cançó». ç davant de o.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_m002",
@@ -1442,7 +1624,9 @@
     "plaçça"
    ],
    "correct": 0,
-   "explanation": "S'escriu «plaça». ç davant de a."
+   "explanation": "S'escriu «plaça». ç davant de a.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m003",
@@ -1457,7 +1641,9 @@
     "dolss"
    ],
    "correct": 1,
-   "explanation": "S'escriu «dolç». ç a final de paraula."
+   "explanation": "S'escriu «dolç». ç a final de paraula.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m004",
@@ -1472,7 +1658,9 @@
     "braç"
    ],
    "correct": 3,
-   "explanation": "S'escriu «braç». ç a final de paraula."
+   "explanation": "S'escriu «braç». ç a final de paraula.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m005",
@@ -1487,7 +1675,9 @@
     "caçar"
    ],
    "correct": 3,
-   "explanation": "S'escriu «caçar». ç davant de a."
+   "explanation": "S'escriu «caçar». ç davant de a.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m006",
@@ -1502,7 +1692,9 @@
     "cazola"
    ],
    "correct": 1,
-   "explanation": "S'escriu «cassola»."
+   "explanation": "S'escriu «cassola».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m007",
@@ -1517,7 +1709,9 @@
     "roza"
    ],
    "correct": 1,
-   "explanation": "S'escriu «rosa»."
+   "explanation": "S'escriu «rosa».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m008",
@@ -1532,7 +1726,9 @@
     "passeig"
    ],
    "correct": 3,
-   "explanation": "S'escriu «passeig»."
+   "explanation": "S'escriu «passeig».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m009",
@@ -1547,7 +1743,9 @@
     "sero"
    ],
    "correct": 2,
-   "explanation": "S'escriu «zero». z al principi."
+   "explanation": "S'escriu «zero». z al principi.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_m010",
@@ -1562,7 +1760,9 @@
     "once"
    ],
    "correct": 0,
-   "explanation": "S'escriu «onze». z entre consonant i vocal."
+   "explanation": "S'escriu «onze». z entre consonant i vocal.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_m011",
@@ -1577,7 +1777,9 @@
     "doce"
    ],
    "correct": 1,
-   "explanation": "S'escriu «dotze». tz entre vocals."
+   "explanation": "S'escriu «dotze». tz entre vocals.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_m012",
@@ -1592,7 +1794,9 @@
     "tretse"
    ],
    "correct": 0,
-   "explanation": "S'escriu «tretze». tz entre vocals."
+   "explanation": "S'escriu «tretze». tz entre vocals.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m013",
@@ -1607,7 +1811,9 @@
     "càmio"
    ],
    "correct": 1,
-   "explanation": "S'escriu «camió»."
+   "explanation": "S'escriu «camió».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m014",
@@ -1622,7 +1828,9 @@
     "avión"
    ],
    "correct": 0,
-   "explanation": "S'escriu «avió»."
+   "explanation": "S'escriu «avió».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m015",
@@ -1637,7 +1845,9 @@
     "lléo"
    ],
    "correct": 2,
-   "explanation": "S'escriu «lleó»."
+   "explanation": "S'escriu «lleó».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_m016",
@@ -1652,7 +1862,9 @@
     "cafe"
    ],
    "correct": 2,
-   "explanation": "S'escriu «café». En valencià, accent tancat: café."
+   "explanation": "S'escriu «café». En valencià, accent tancat: café.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m017",
@@ -1667,7 +1879,9 @@
     "así"
    ],
    "correct": 1,
-   "explanation": "S'escriu «ací»."
+   "explanation": "S'escriu «ací».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_m018",
@@ -1682,7 +1896,9 @@
     "així"
    ],
    "correct": 3,
-   "explanation": "S'escriu «així»."
+   "explanation": "S'escriu «així».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m019",
@@ -1697,7 +1913,9 @@
     "tambè"
    ],
    "correct": 2,
-   "explanation": "S'escriu «també»."
+   "explanation": "S'escriu «també».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_m020",
@@ -1712,7 +1930,9 @@
     "bicicleta"
    ],
    "correct": 3,
-   "explanation": "S'escriu «bicicleta»."
+   "explanation": "S'escriu «bicicleta».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m021",
@@ -1727,7 +1947,9 @@
     "paragua"
    ],
    "correct": 0,
-   "explanation": "S'escriu «paraigua»."
+   "explanation": "S'escriu «paraigua».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m022",
@@ -1742,7 +1964,9 @@
     "aygua"
    ],
    "correct": 2,
-   "explanation": "S'escriu «aigua»."
+   "explanation": "S'escriu «aigua».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m023",
@@ -1757,7 +1981,9 @@
     "llengüa"
    ],
    "correct": 0,
-   "explanation": "S'escriu «llengua»."
+   "explanation": "S'escriu «llengua».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m024",
@@ -1772,7 +1998,9 @@
     "güitarra"
    ],
    "correct": 2,
-   "explanation": "S'escriu «guitarra»."
+   "explanation": "S'escriu «guitarra».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m025",
@@ -1787,7 +2015,9 @@
     "la 1a"
    ],
    "correct": 1,
-   "explanation": "És la 4a: «d». Les altres són «b»."
+   "explanation": "És la 4a: «d». Les altres són «b».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_m026",
@@ -1802,7 +2032,9 @@
     "la 3a"
    ],
    "correct": 0,
-   "explanation": "És la 1a: «q». Les altres són «p»."
+   "explanation": "És la 1a: «q». Les altres són «p».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_m027",
@@ -1817,7 +2049,9 @@
     "la 3a"
    ],
    "correct": 3,
-   "explanation": "És la 3a: «h». Les altres són «n»."
+   "explanation": "És la 3a: «h». Les altres són «n».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_m028",
@@ -1832,7 +2066,9 @@
     "la 2a"
    ],
    "correct": 1,
-   "explanation": "És la 5a: «n». Les altres són «m»."
+   "explanation": "És la 5a: «n». Les altres són «m».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m029",
@@ -1847,7 +2083,9 @@
     "la 4a"
    ],
    "correct": 0,
-   "explanation": "És la 2a: «j». Les altres són «i»."
+   "explanation": "És la 2a: «j». Les altres són «i».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m030",
@@ -1862,7 +2100,9 @@
     "la 4a"
    ],
    "correct": 3,
-   "explanation": "És la 4a: «f». Les altres són «t»."
+   "explanation": "És la 4a: «f». Les altres són «t».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m031",
@@ -1877,7 +2117,9 @@
     "parc"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: p-a-r-c."
+   "explanation": "Mira bé cada lletra: p-a-r-c.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_m032",
@@ -1892,7 +2134,9 @@
     "corda"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: c-o-r-d-a."
+   "explanation": "Mira bé cada lletra: c-o-r-d-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m033",
@@ -1907,7 +2151,9 @@
     "tomba"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: t-o-m-b-a."
+   "explanation": "Mira bé cada lletra: t-o-m-b-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m034",
@@ -1922,7 +2168,9 @@
     "darca"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: b-a-r-c-a."
+   "explanation": "Mira bé cada lletra: b-a-r-c-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m035",
@@ -1937,7 +2185,9 @@
     "pianta"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: p-i-n-t-a."
+   "explanation": "Mira bé cada lletra: p-i-n-t-a.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l3_m036",
@@ -1952,7 +2202,9 @@
     "forma"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: f-o-r-m-a."
+   "explanation": "Mira bé cada lletra: f-o-r-m-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m037",
@@ -1967,7 +2219,9 @@
     "la 4a"
    ],
    "correct": 3,
-   "explanation": "És la 4a: «pacr», no «parc»."
+   "explanation": "És la 4a: «pacr», no «parc».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m038",
@@ -1982,7 +2236,9 @@
     "la 1a"
    ],
    "correct": 3,
-   "explanation": "És la 1a: «cordá», no «corda»."
+   "explanation": "És la 1a: «cordá», no «corda».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m039",
@@ -1997,7 +2253,9 @@
     "la 2a"
    ],
    "correct": 3,
-   "explanation": "És la 2a: «bomta», no «tomba»."
+   "explanation": "És la 2a: «bomta», no «tomba».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m040",
@@ -2012,7 +2270,9 @@
     "la 1a"
    ],
    "correct": 0,
-   "explanation": "És la 3a: «braca», no «barca»."
+   "explanation": "És la 3a: «braca», no «barca».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_m041",
@@ -2027,7 +2287,9 @@
     "la 1a"
    ],
    "correct": 0,
-   "explanation": "És la 4a: «pianta», no «pinta»."
+   "explanation": "És la 4a: «pianta», no «pinta».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l3_o001",
@@ -2047,7 +2309,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: abella, bou, cavall."
+   "explanation": "Ordre alfabètic: abella, bou, cavall.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_o002",
@@ -2067,7 +2331,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: dofí, foca, gos."
+   "explanation": "Ordre alfabètic: dofí, foca, gos.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_o003",
@@ -2087,7 +2353,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: lleó, mona, ós."
+   "explanation": "Ordre alfabètic: lleó, mona, ós.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l3_o004",
@@ -2107,7 +2375,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: barca, cotxe, tren."
+   "explanation": "Ordre alfabètic: barca, cotxe, tren.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_m001",
@@ -2122,7 +2392,9 @@
     "colegi"
    ],
    "correct": 1,
-   "explanation": "S'escriu «col·legi». Porta ela geminada: l·l."
+   "explanation": "S'escriu «col·legi». Porta ela geminada: l·l.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m002",
@@ -2137,7 +2409,9 @@
     "pel·licula"
    ],
    "correct": 1,
-   "explanation": "S'escriu «pel·lícula». Ela geminada i accent a la í."
+   "explanation": "S'escriu «pel·lícula». Ela geminada i accent a la í.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m003",
@@ -2152,7 +2426,9 @@
     "illusió"
    ],
    "correct": 2,
-   "explanation": "S'escriu «il·lusió». Ela geminada: l·l."
+   "explanation": "S'escriu «il·lusió». Ela geminada: l·l.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m004",
@@ -2167,7 +2443,9 @@
     "tranquilla"
    ],
    "correct": 2,
-   "explanation": "S'escriu «tranquil·la». Ela geminada: l·l."
+   "explanation": "S'escriu «tranquil·la». Ela geminada: l·l.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m005",
@@ -2182,7 +2460,9 @@
     "intelligent"
    ],
    "correct": 0,
-   "explanation": "S'escriu «intel·ligent». Ela geminada: l·l."
+   "explanation": "S'escriu «intel·ligent». Ela geminada: l·l.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m006",
@@ -2197,7 +2477,9 @@
     "novvel·la"
    ],
    "correct": 1,
-   "explanation": "S'escriu «novel·la». Ela geminada: l·l."
+   "explanation": "S'escriu «novel·la». Ela geminada: l·l.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m007",
@@ -2212,7 +2494,9 @@
     "horra"
    ],
    "correct": 2,
-   "explanation": "S'escriu «hora». Porta h, encara que no sona."
+   "explanation": "S'escriu «hora». Porta h, encara que no sona.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m008",
@@ -2227,7 +2511,9 @@
     "herba"
    ],
    "correct": 3,
-   "explanation": "S'escriu «herba». Porta h, encara que no sona."
+   "explanation": "S'escriu «herba». Porta h, encara que no sona.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m009",
@@ -2242,7 +2528,9 @@
     "ivern"
    ],
    "correct": 1,
-   "explanation": "S'escriu «hivern». Porta h, encara que no sona."
+   "explanation": "S'escriu «hivern». Porta h, encara que no sona.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m010",
@@ -2257,7 +2545,9 @@
     "hombre"
    ],
    "correct": 0,
-   "explanation": "S'escriu «home». Porta h, encara que no sona."
+   "explanation": "S'escriu «home». Porta h, encara que no sona.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m011",
@@ -2272,7 +2562,9 @@
     "hui"
    ],
    "correct": 3,
-   "explanation": "S'escriu «hui». Porta h, encara que no sona."
+   "explanation": "S'escriu «hui». Porta h, encara que no sona.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_m012",
@@ -2287,7 +2579,9 @@
     "història"
    ],
    "correct": 3,
-   "explanation": "S'escriu «història». Porta h i accent obert a la ò."
+   "explanation": "S'escriu «història». Porta h i accent obert a la ò.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m013",
@@ -2302,7 +2596,9 @@
     "raim"
    ],
    "correct": 1,
-   "explanation": "S'escriu «raïm». La dièresi separa la a i la i: ra-ïm."
+   "explanation": "S'escriu «raïm». La dièresi separa la a i la i: ra-ïm.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_m014",
@@ -2317,7 +2613,9 @@
     "veina"
    ],
    "correct": 0,
-   "explanation": "S'escriu «veïna». La dièresi separa: ve-ï-na."
+   "explanation": "S'escriu «veïna». La dièresi separa: ve-ï-na.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_m015",
@@ -2332,7 +2630,9 @@
     "país"
    ],
    "correct": 3,
-   "explanation": "S'escriu «país». Accent a la í: pa-ís."
+   "explanation": "S'escriu «país». Accent a la í: pa-ís.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_m016",
@@ -2347,7 +2647,9 @@
     "pingüi"
    ],
    "correct": 2,
-   "explanation": "S'escriu «pingüí». La dièresi fa sonar la u."
+   "explanation": "S'escriu «pingüí». La dièresi fa sonar la u.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m017",
@@ -2362,7 +2664,9 @@
     "aqueducte"
    ],
    "correct": 2,
-   "explanation": "S'escriu «aqüeducte». La dièresi fa sonar la u."
+   "explanation": "S'escriu «aqüeducte». La dièresi fa sonar la u.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m018",
@@ -2377,7 +2681,9 @@
     "questió"
    ],
    "correct": 0,
-   "explanation": "S'escriu «qüestió». La dièresi fa sonar la u."
+   "explanation": "S'escriu «qüestió». La dièresi fa sonar la u.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m019",
@@ -2392,7 +2698,9 @@
     "laigua"
    ],
    "correct": 2,
-   "explanation": "S'escriu «l'aigua». Davant de vocal, l'article s'apostrofa."
+   "explanation": "S'escriu «l'aigua». Davant de vocal, l'article s'apostrofa.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m020",
@@ -2407,7 +2715,9 @@
     "la arbre"
    ],
    "correct": 2,
-   "explanation": "S'escriu «l'arbre». Davant de vocal, l'article s'apostrofa."
+   "explanation": "S'escriu «l'arbre». Davant de vocal, l'article s'apostrofa.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m021",
@@ -2422,7 +2732,9 @@
     "d'aigua"
    ],
    "correct": 3,
-   "explanation": "S'escriu «d'aigua». Davant de vocal, de s'apostrofa."
+   "explanation": "S'escriu «d'aigua». Davant de vocal, de s'apostrofa.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m022",
@@ -2437,7 +2749,9 @@
     "lescola"
    ],
    "correct": 0,
-   "explanation": "S'escriu «l'escola». Davant de vocal, l'article s'apostrofa."
+   "explanation": "S'escriu «l'escola». Davant de vocal, l'article s'apostrofa.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m023",
@@ -2452,7 +2766,9 @@
     "la història"
    ],
    "correct": 3,
-   "explanation": "S'escriu «la història». Davant de hi- àtona, la no s'apostrofa."
+   "explanation": "S'escriu «la història». Davant de hi- àtona, la no s'apostrofa.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m024",
@@ -2467,7 +2783,9 @@
     "la universitat"
    ],
    "correct": 3,
-   "explanation": "S'escriu «la universitat». Davant de u- àtona, la no s'apostrofa."
+   "explanation": "S'escriu «la universitat». Davant de u- àtona, la no s'apostrofa.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m025",
@@ -2482,7 +2800,9 @@
     "la 1a"
    ],
    "correct": 1,
-   "explanation": "És la 5a: «db». Les altres són «bd»."
+   "explanation": "És la 5a: «db». Les altres són «bd».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_m026",
@@ -2497,7 +2817,9 @@
     "la 3a"
    ],
    "correct": 2,
-   "explanation": "És la 2a: «qp». Les altres són «pq»."
+   "explanation": "És la 2a: «qp». Les altres són «pq».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_m027",
@@ -2512,7 +2834,9 @@
     "la 2a"
    ],
    "correct": 1,
-   "explanation": "És la 4a: «un». Les altres són «nu»."
+   "explanation": "És la 4a: «un». Les altres són «nu».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_m028",
@@ -2527,7 +2851,9 @@
     "la 4a"
    ],
    "correct": 1,
-   "explanation": "És la 1a: «ad». Les altres són «ab»."
+   "explanation": "És la 1a: «ad». Les altres són «ab».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_m029",
@@ -2542,7 +2868,9 @@
     "la 1a"
    ],
    "correct": 1,
-   "explanation": "És la 3a: «id». Les altres són «ib»."
+   "explanation": "És la 3a: «id». Les altres són «ib».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_m030",
@@ -2557,7 +2885,9 @@
     "la 3a"
    ],
    "correct": 2,
-   "explanation": "És la 5a: «od». Les altres són «ob»."
+   "explanation": "És la 5a: «od». Les altres són «ob».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_m031",
@@ -2572,7 +2902,9 @@
     "pressa"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: p-r-e-s-a."
+   "explanation": "Mira bé cada lletra: p-r-e-s-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m032",
@@ -2587,7 +2919,9 @@
     "coza"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: c-o-s-a."
+   "explanation": "Mira bé cada lletra: c-o-s-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m033",
@@ -2602,7 +2936,9 @@
     "casa"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: c-a-s-a."
+   "explanation": "Mira bé cada lletra: c-a-s-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m034",
@@ -2617,7 +2953,9 @@
     "roza"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: r-o-s-a."
+   "explanation": "Mira bé cada lletra: r-o-s-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m035",
@@ -2632,7 +2970,9 @@
     "poçar"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: p-o-s-a-r."
+   "explanation": "Mira bé cada lletra: p-o-s-a-r.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_m036",
@@ -2647,7 +2987,9 @@
     "dessert"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: d-e-s-e-r-t."
+   "explanation": "Mira bé cada lletra: d-e-s-e-r-t.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l4_m037",
@@ -2662,7 +3004,9 @@
     "la 2a"
    ],
    "correct": 0,
-   "explanation": "És la 1a: «pressa», no «presa»."
+   "explanation": "És la 1a: «pressa», no «presa».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m038",
@@ -2677,7 +3021,9 @@
     "la 4a"
    ],
    "correct": 1,
-   "explanation": "És la 2a: «cossa», no «cosa»."
+   "explanation": "És la 2a: «cossa», no «cosa».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m039",
@@ -2692,7 +3038,9 @@
     "la 4a"
    ],
    "correct": 2,
-   "explanation": "És la 3a: «caça», no «casa»."
+   "explanation": "És la 3a: «caça», no «casa».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m040",
@@ -2707,7 +3055,9 @@
     "la 2a"
    ],
    "correct": 2,
-   "explanation": "És la 4a: «rossa», no «rosa»."
+   "explanation": "És la 4a: «rossa», no «rosa».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_m041",
@@ -2722,7 +3072,9 @@
     "la 2a"
    ],
    "correct": 1,
-   "explanation": "És la 1a: «passar», no «posar»."
+   "explanation": "És la 1a: «passar», no «posar».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l4_o001",
@@ -2744,7 +3096,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: pera, plàtan, poma, préssec."
+   "explanation": "Ordre alfabètic: pera, plàtan, poma, préssec.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_o002",
@@ -2766,7 +3120,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: cadira, llit, sofà, taula."
+   "explanation": "Ordre alfabètic: cadira, llit, sofà, taula.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_o003",
@@ -2788,7 +3144,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: gall, gat, gos, guineu."
+   "explanation": "Ordre alfabètic: gall, gat, gos, guineu.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l4_o004",
@@ -2810,7 +3168,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: roda, roig, rosa, ruc."
+   "explanation": "Ordre alfabètic: roda, roig, rosa, ruc.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_m001",
@@ -2825,7 +3185,9 @@
     "englés"
    ],
    "correct": 2,
-   "explanation": "S'escriu «anglés». En valencià, accent tancat: anglés."
+   "explanation": "S'escriu «anglés». En valencià, accent tancat: anglés.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m002",
@@ -2840,7 +3202,9 @@
     "francés"
    ],
    "correct": 3,
-   "explanation": "S'escriu «francés». En valencià, accent tancat: francés."
+   "explanation": "S'escriu «francés». En valencià, accent tancat: francés.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m003",
@@ -2855,7 +3219,9 @@
     "conéicher"
    ],
    "correct": 2,
-   "explanation": "S'escriu «conéixer». En valencià, accent tancat: conéixer."
+   "explanation": "S'escriu «conéixer». En valencià, accent tancat: conéixer.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m004",
@@ -2870,7 +3236,9 @@
     "perqué"
    ],
    "correct": 0,
-   "explanation": "S'escriu «perquè». Accent obert a la è."
+   "explanation": "S'escriu «perquè». Accent obert a la è.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m005",
@@ -2885,7 +3253,9 @@
     "época"
    ],
    "correct": 2,
-   "explanation": "S'escriu «època»."
+   "explanation": "S'escriu «època».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_m006",
@@ -2900,7 +3270,9 @@
     "mùsica"
    ],
    "correct": 2,
-   "explanation": "S'escriu «música»."
+   "explanation": "S'escriu «música».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m007",
@@ -2915,7 +3287,9 @@
     "pàgína"
    ],
    "correct": 2,
-   "explanation": "S'escriu «pàgina»."
+   "explanation": "S'escriu «pàgina».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m008",
@@ -2930,7 +3304,9 @@
     "àvvia"
    ],
    "correct": 1,
-   "explanation": "S'escriu «àvia»."
+   "explanation": "S'escriu «àvia».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m009",
@@ -2945,7 +3321,9 @@
     "telèfon"
    ],
    "correct": 3,
-   "explanation": "S'escriu «telèfon»."
+   "explanation": "S'escriu «telèfon».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m010",
@@ -2960,7 +3338,9 @@
     "diumentge"
    ],
    "correct": 1,
-   "explanation": "S'escriu «diumenge»."
+   "explanation": "S'escriu «diumenge».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m011",
@@ -2975,7 +3355,9 @@
     "dimècres"
    ],
    "correct": 0,
-   "explanation": "S'escriu «dimecres»."
+   "explanation": "S'escriu «dimecres».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m012",
@@ -2990,7 +3372,9 @@
     "dijóus"
    ],
    "correct": 0,
-   "explanation": "S'escriu «dijous»."
+   "explanation": "S'escriu «dijous».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m013",
@@ -3005,7 +3389,9 @@
     "setmana"
    ],
    "correct": 3,
-   "explanation": "S'escriu «setmana»."
+   "explanation": "S'escriu «setmana».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m014",
@@ -3020,7 +3406,9 @@
     "mitjanit"
    ],
    "correct": 3,
-   "explanation": "S'escriu «mitjanit»."
+   "explanation": "S'escriu «mitjanit».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m015",
@@ -3035,7 +3423,9 @@
     "ajuntamen"
    ],
    "correct": 0,
-   "explanation": "S'escriu «ajuntament»."
+   "explanation": "S'escriu «ajuntament».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m016",
@@ -3050,7 +3440,9 @@
     "ciutat"
    ],
    "correct": 3,
-   "explanation": "S'escriu «ciutat»."
+   "explanation": "S'escriu «ciutat».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m017",
@@ -3065,7 +3457,9 @@
     "necesitat"
    ],
    "correct": 1,
-   "explanation": "S'escriu «necessitat»."
+   "explanation": "S'escriu «necessitat».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m018",
@@ -3080,7 +3474,9 @@
     "exercící"
    ],
    "correct": 1,
-   "explanation": "S'escriu «exercici»."
+   "explanation": "S'escriu «exercici».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m019",
@@ -3095,7 +3491,9 @@
     "examen"
    ],
    "correct": 3,
-   "explanation": "S'escriu «examen»."
+   "explanation": "S'escriu «examen».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m020",
@@ -3110,7 +3508,9 @@
     "excursio"
    ],
    "correct": 2,
-   "explanation": "S'escriu «excursió»."
+   "explanation": "S'escriu «excursió».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m021",
@@ -3125,7 +3525,9 @@
     "Mediterrany"
    ],
    "correct": 0,
-   "explanation": "S'escriu «Mediterrani»."
+   "explanation": "S'escriu «Mediterrani».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m022",
@@ -3140,7 +3542,9 @@
     "trènta"
    ],
    "correct": 0,
-   "explanation": "S'escriu «trenta»."
+   "explanation": "S'escriu «trenta».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m023",
@@ -3155,7 +3559,9 @@
     "cinqüanta"
    ],
    "correct": 0,
-   "explanation": "S'escriu «cinquanta»."
+   "explanation": "S'escriu «cinquanta».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m024",
@@ -3170,7 +3576,9 @@
     "dinosàure"
    ],
    "correct": 2,
-   "explanation": "S'escriu «dinosaure»."
+   "explanation": "S'escriu «dinosaure».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m025",
@@ -3185,7 +3593,9 @@
     "la 6a"
    ],
    "correct": 3,
-   "explanation": "És la 6a: «dou». Les altres són «bou»."
+   "explanation": "És la 6a: «dou». Les altres són «bou».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_m026",
@@ -3200,7 +3610,9 @@
     "la 3a"
    ],
    "correct": 0,
-   "explanation": "És la 2a: «bas». Les altres són «pas»."
+   "explanation": "És la 2a: «bas». Les altres són «pas».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_m027",
@@ -3215,7 +3627,9 @@
     "la 1a"
    ],
    "correct": 0,
-   "explanation": "És la 4a: «bau». Les altres són «dau»."
+   "explanation": "És la 4a: «bau». Les altres són «dau».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_m028",
@@ -3230,7 +3644,9 @@
     "la 1a"
    ],
    "correct": 2,
-   "explanation": "És la 6a: «bot». Les altres són «pot»."
+   "explanation": "És la 6a: «bot». Les altres són «pot».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_m029",
@@ -3245,7 +3661,9 @@
     "la 4a"
    ],
    "correct": 2,
-   "explanation": "És la 2a: «pan». Les altres són «nap»."
+   "explanation": "És la 2a: «pan». Les altres són «nap».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_m030",
@@ -3260,7 +3678,9 @@
     "la 3a"
    ],
    "correct": 2,
-   "explanation": "És la 4a: «roc». Les altres són «cor»."
+   "explanation": "És la 4a: «roc». Les altres són «cor».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_m031",
@@ -3275,7 +3695,9 @@
     "conservacio"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: c-o-n-s-e-r-v-a-c-i-ó."
+   "explanation": "Mira bé cada lletra: c-o-n-s-e-r-v-a-c-i-ó.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m032",
@@ -3290,7 +3712,9 @@
     "aceptar"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: a-c-c-e-p-t-a-r."
+   "explanation": "Mira bé cada lletra: a-c-c-e-p-t-a-r.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m033",
@@ -3305,7 +3729,9 @@
     "afecte"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: e-f-e-c-t-e."
+   "explanation": "Mira bé cada lletra: e-f-e-c-t-e.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m034",
@@ -3320,7 +3746,9 @@
     "adoptar"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: a-d-o-p-t-a-r."
+   "explanation": "Mira bé cada lletra: a-d-o-p-t-a-r.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m035",
@@ -3335,7 +3763,9 @@
     "respitar"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: r-e-s-p-i-r-a-r."
+   "explanation": "Mira bé cada lletra: r-e-s-p-i-r-a-r.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l5_m036",
@@ -3350,7 +3780,9 @@
     "rodo"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: r-o-d-ó."
+   "explanation": "Mira bé cada lletra: r-o-d-ó.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_m037",
@@ -3365,7 +3797,9 @@
     "la 4a"
    ],
    "correct": 1,
-   "explanation": "És la 2a: «conversació», no «conservació»."
+   "explanation": "És la 2a: «conversació», no «conservació».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_m038",
@@ -3380,7 +3814,9 @@
     "la 2a"
    ],
    "correct": 1,
-   "explanation": "És la 3a: «exceptar», no «acceptar»."
+   "explanation": "És la 3a: «exceptar», no «acceptar».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_m039",
@@ -3395,7 +3831,9 @@
     "la 2a"
    ],
    "correct": 0,
-   "explanation": "És la 4a: «afecte», no «efecte»."
+   "explanation": "És la 4a: «afecte», no «efecte».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_m040",
@@ -3410,7 +3848,9 @@
     "la 4a"
    ],
    "correct": 2,
-   "explanation": "És la 1a: «adaptar», no «adoptar»."
+   "explanation": "És la 1a: «adaptar», no «adoptar».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_m041",
@@ -3425,7 +3865,9 @@
     "la 3a"
    ],
    "correct": 0,
-   "explanation": "És la 2a: «inspirar», no «respirar»."
+   "explanation": "És la 2a: «inspirar», no «respirar».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l5_o001",
@@ -3449,7 +3891,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: cara, carro, casa, castell, catifa."
+   "explanation": "Ordre alfabètic: cara, carro, casa, castell, catifa.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_o002",
@@ -3473,7 +3917,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: mar, marc, mare, marit, marró."
+   "explanation": "Ordre alfabètic: mar, marc, mare, marit, marró.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_o003",
@@ -3497,7 +3943,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: pa, pal, pala, palau, palla."
+   "explanation": "Ordre alfabètic: pa, pal, pala, palau, palla.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l5_o004",
@@ -3521,7 +3969,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: sal, salt, salut, sant, sardina."
+   "explanation": "Ordre alfabètic: sal, salt, salut, sant, sardina.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l6_m001",
@@ -3536,7 +3986,9 @@
     "col·lègi"
    ],
    "correct": 1,
-   "explanation": "S'escriu «col·legi». Amb ela geminada (l·l)."
+   "explanation": "S'escriu «col·legi». Amb ela geminada (l·l).",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l6_m002",
@@ -3551,7 +4003,9 @@
     "il·lusió"
    ],
    "correct": 3,
-   "explanation": "S'escriu «il·lusió». Amb ela geminada (l·l)."
+   "explanation": "S'escriu «il·lusió». Amb ela geminada (l·l).",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l6_m003",
@@ -3566,7 +4020,9 @@
     "excursio"
    ],
    "correct": 0,
-   "explanation": "S'escriu «excursió»."
+   "explanation": "S'escriu «excursió».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l6_m004",
@@ -3581,7 +4037,9 @@
     "rellotge"
    ],
    "correct": 3,
-   "explanation": "S'escriu «rellotge». tg davant de e."
+   "explanation": "S'escriu «rellotge». tg davant de e.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l6_m005",
@@ -3596,7 +4054,9 @@
     "platxa"
    ],
    "correct": 0,
-   "explanation": "S'escriu «platja». tj davant de a."
+   "explanation": "S'escriu «platja». tj davant de a.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l6_m006",
@@ -3611,7 +4071,9 @@
     "vaixel"
    ],
    "correct": 0,
-   "explanation": "S'escriu «vaixell»."
+   "explanation": "S'escriu «vaixell».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l6_m007",
@@ -3626,7 +4088,9 @@
     "hiverm"
    ],
    "correct": 2,
-   "explanation": "S'escriu «hivern». Amb h i v."
+   "explanation": "S'escriu «hivern». Amb h i v.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l6_m008",
@@ -3641,7 +4105,9 @@
     "hospitàl"
    ],
    "correct": 1,
-   "explanation": "S'escriu «hospital»."
+   "explanation": "S'escriu «hospital».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l6_m009",
@@ -3656,7 +4122,9 @@
     "dibuixx"
    ],
    "correct": 2,
-   "explanation": "S'escriu «dibuix»."
+   "explanation": "S'escriu «dibuix».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l6_m010",
@@ -3671,7 +4139,9 @@
     "pinzell"
    ],
    "correct": 3,
-   "explanation": "S'escriu «pinzell»."
+   "explanation": "S'escriu «pinzell».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l6_m011",
@@ -3686,7 +4156,9 @@
     "taronga"
    ],
    "correct": 0,
-   "explanation": "S'escriu «taronja»."
+   "explanation": "S'escriu «taronja».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l6_m012",
@@ -3701,7 +4173,9 @@
     "esquenna"
    ],
    "correct": 0,
-   "explanation": "S'escriu «esquena»."
+   "explanation": "S'escriu «esquena».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l6_m013",
@@ -3716,7 +4190,9 @@
     "taça"
    ],
    "correct": 0,
-   "explanation": "S'escriu «tassa». s sorda entre vocals: ss."
+   "explanation": "S'escriu «tassa». s sorda entre vocals: ss.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l6_m014",
@@ -3731,7 +4207,9 @@
     "plugja"
    ],
    "correct": 0,
-   "explanation": "S'escriu «pluja»."
+   "explanation": "S'escriu «pluja».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l6_m015",
@@ -3746,7 +4224,9 @@
     "formatxe"
    ],
    "correct": 2,
-   "explanation": "S'escriu «formatge». tg davant de e."
+   "explanation": "S'escriu «formatge». tg davant de e.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l6_m016",
@@ -3761,7 +4241,9 @@
     "generos"
    ],
    "correct": 2,
-   "explanation": "S'escriu «generós»."
+   "explanation": "S'escriu «generós».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l6_m017",
@@ -3776,7 +4258,9 @@
     "geographia"
    ],
    "correct": 1,
-   "explanation": "S'escriu «geografia»."
+   "explanation": "S'escriu «geografia».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l6_m018",
@@ -3791,7 +4275,9 @@
     "menxar"
    ],
    "correct": 2,
-   "explanation": "S'escriu «menjar». j davant de a."
+   "explanation": "S'escriu «menjar». j davant de a.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l6_m019",
@@ -3806,7 +4292,9 @@
     "mege"
    ],
    "correct": 0,
-   "explanation": "S'escriu «metge». tg davant de e."
+   "explanation": "S'escriu «metge». tg davant de e.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l6_m020",
@@ -3821,7 +4309,9 @@
     "baitxar"
    ],
    "correct": 0,
-   "explanation": "S'escriu «baixar»."
+   "explanation": "S'escriu «baixar».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l6_m021",
@@ -3836,7 +4326,9 @@
     "caça"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: c-a-s-a."
+   "explanation": "Mira bé cada lletra: c-a-s-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l6_m022",
@@ -3851,7 +4343,9 @@
     "vil"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: v-i."
+   "explanation": "Mira bé cada lletra: v-i.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l6_m023",
@@ -3866,7 +4360,9 @@
     "pot"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: p-o-t."
+   "explanation": "Mira bé cada lletra: p-o-t.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l6_m024",
@@ -3881,7 +4377,9 @@
     "vena"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: v-e-n-a."
+   "explanation": "Mira bé cada lletra: v-e-n-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l6_m025",
@@ -3896,7 +4394,9 @@
     "bota"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: b-o-t-a."
+   "explanation": "Mira bé cada lletra: b-o-t-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l6_m026",
@@ -3911,7 +4411,9 @@
     "vel"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: v-e-l-l."
+   "explanation": "Mira bé cada lletra: v-e-l-l.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l6_m027",
@@ -3926,7 +4428,9 @@
     "la 3a"
    ],
    "correct": 2,
-   "explanation": "És la 2a: «caça», no «casa»."
+   "explanation": "És la 2a: «caça», no «casa».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l6_m028",
@@ -3941,7 +4445,9 @@
     "la 1a"
    ],
    "correct": 0,
-   "explanation": "És la 4a: «bi», no «vi»."
+   "explanation": "És la 4a: «bi», no «vi».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l6_m029",
@@ -3956,7 +4462,9 @@
     "la 3a"
    ],
    "correct": 1,
-   "explanation": "És la 1a: «bot», no «pot»."
+   "explanation": "És la 1a: «bot», no «pot».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l6_m030",
@@ -3971,7 +4479,9 @@
     "la 1a"
    ],
    "correct": 1,
-   "explanation": "És la 3a: «bena», no «vena»."
+   "explanation": "És la 3a: «bena», no «vena».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l6_m031",
@@ -3986,7 +4496,9 @@
     "la 5a"
    ],
    "correct": 3,
-   "explanation": "És la 5a: «vota», no «bota»."
+   "explanation": "És la 5a: «vota», no «bota».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l6_o001",
@@ -4008,7 +4520,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: abraçada, abric, abril, acabar."
+   "explanation": "Ordre alfabètic: abraçada, abric, abril, acabar.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l6_o002",
@@ -4030,7 +4544,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: ceba, cel, cella, cendra."
+   "explanation": "Ordre alfabètic: ceba, cel, cella, cendra.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l6_o003",
@@ -4052,7 +4568,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: llapis, llavor, llet, lluna."
+   "explanation": "Ordre alfabètic: llapis, llavor, llet, lluna.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l7_m001",
@@ -4067,7 +4585,9 @@
     "exhibició"
    ],
    "correct": 3,
-   "explanation": "S'escriu «exhibició»."
+   "explanation": "S'escriu «exhibició».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l7_m002",
@@ -4082,7 +4602,9 @@
     "ipòtesi"
    ],
    "correct": 0,
-   "explanation": "S'escriu «hipòtesi». Amb h i accent obert a la ò."
+   "explanation": "S'escriu «hipòtesi». Amb h i accent obert a la ò.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l7_m003",
@@ -4097,7 +4619,9 @@
     "absurt"
    ],
    "correct": 2,
-   "explanation": "S'escriu «absurd»."
+   "explanation": "S'escriu «absurd».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l7_m004",
@@ -4112,7 +4636,9 @@
     "adhesiu"
    ],
    "correct": 3,
-   "explanation": "S'escriu «adhesiu»."
+   "explanation": "S'escriu «adhesiu».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l7_m005",
@@ -4127,7 +4653,9 @@
     "garatje"
    ],
    "correct": 1,
-   "explanation": "S'escriu «garatge». Les paraules acabades en -atge s'escriuen amb tg."
+   "explanation": "S'escriu «garatge». Les paraules acabades en -atge s'escriuen amb tg.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l7_m006",
@@ -4142,7 +4670,9 @@
     "besàvi"
    ],
    "correct": 1,
-   "explanation": "S'escriu «besavi»."
+   "explanation": "S'escriu «besavi».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l7_m007",
@@ -4157,7 +4687,9 @@
     "abellana"
    ],
    "correct": 0,
-   "explanation": "S'escriu «avellana»."
+   "explanation": "S'escriu «avellana».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l7_m008",
@@ -4172,7 +4704,9 @@
     "hemisferi"
    ],
    "correct": 3,
-   "explanation": "S'escriu «hemisferi»."
+   "explanation": "S'escriu «hemisferi».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l7_m009",
@@ -4187,7 +4721,9 @@
     "subvenció"
    ],
    "correct": 3,
-   "explanation": "S'escriu «subvenció»."
+   "explanation": "S'escriu «subvenció».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l7_m010",
@@ -4202,7 +4738,9 @@
     "objeció"
    ],
    "correct": 1,
-   "explanation": "S'escriu «objecció»."
+   "explanation": "S'escriu «objecció».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l7_m011",
@@ -4217,7 +4755,9 @@
     "inherrent"
    ],
    "correct": 1,
-   "explanation": "S'escriu «inherent»."
+   "explanation": "S'escriu «inherent».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l7_m012",
@@ -4232,7 +4772,9 @@
     "intel·ligent"
    ],
    "correct": 3,
-   "explanation": "S'escriu «intel·ligent». Amb ela geminada (l·l)."
+   "explanation": "S'escriu «intel·ligent». Amb ela geminada (l·l).",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l7_m013",
@@ -4247,7 +4789,9 @@
     "paral·lel"
    ],
    "correct": 3,
-   "explanation": "S'escriu «paral·lel». Ela geminada al mig i una sola l al final."
+   "explanation": "S'escriu «paral·lel». Ela geminada al mig i una sola l al final.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l7_m014",
@@ -4262,7 +4806,9 @@
     "síl·lava"
    ],
    "correct": 0,
-   "explanation": "S'escriu «síl·laba». Amb ela geminada i accent a la í."
+   "explanation": "S'escriu «síl·laba». Amb ela geminada i accent a la í.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l7_m015",
@@ -4277,7 +4823,9 @@
     "sinquanta"
    ],
    "correct": 0,
-   "explanation": "S'escriu «cinquanta»."
+   "explanation": "S'escriu «cinquanta».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l7_m016",
@@ -4292,7 +4840,9 @@
     "viatje"
    ],
    "correct": 2,
-   "explanation": "S'escriu «viatge». Les paraules acabades en -atge s'escriuen amb tg."
+   "explanation": "S'escriu «viatge». Les paraules acabades en -atge s'escriuen amb tg.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l7_m017",
@@ -4307,7 +4857,9 @@
     "abogat"
    ],
    "correct": 0,
-   "explanation": "S'escriu «advocat». En valencià, advocat porta v (en castellà, abogado porta b)."
+   "explanation": "S'escriu «advocat». En valencià, advocat porta v (en castellà, abogado porta b).",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l7_m018",
@@ -4322,7 +4874,9 @@
     "govern"
    ],
    "correct": 3,
-   "explanation": "S'escriu «govern». En valencià, govern porta v."
+   "explanation": "S'escriu «govern». En valencià, govern porta v.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l7_m019",
@@ -4337,7 +4891,9 @@
     "trevallar"
    ],
    "correct": 1,
-   "explanation": "S'escriu «treballar». En valencià, treballar porta b."
+   "explanation": "S'escriu «treballar». En valencià, treballar porta b.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l7_m020",
@@ -4352,7 +4908,9 @@
     "asseguransa"
    ],
    "correct": 1,
-   "explanation": "S'escriu «assegurança»."
+   "explanation": "S'escriu «assegurança».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l7_m021",
@@ -4367,7 +4925,9 @@
     "altitud"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: a-c-t-i-t-u-d."
+   "explanation": "Mira bé cada lletra: a-c-t-i-t-u-d.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l7_m022",
@@ -4382,7 +4942,9 @@
     "absorbir"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: a-b-s-o-l-d-r-e."
+   "explanation": "Mira bé cada lletra: a-b-s-o-l-d-r-e.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l7_m023",
@@ -4397,7 +4959,9 @@
     "especial"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: e-s-p-è-c-i-e."
+   "explanation": "Mira bé cada lletra: e-s-p-è-c-i-e.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l7_m024",
@@ -4412,7 +4976,9 @@
     "adornar"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: a-d-o-p-t-a-r."
+   "explanation": "Mira bé cada lletra: a-d-o-p-t-a-r.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l7_m025",
@@ -4427,7 +4993,9 @@
     "defecte"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: e-f-e-c-t-e."
+   "explanation": "Mira bé cada lletra: e-f-e-c-t-e.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l7_m026",
@@ -4442,7 +5010,9 @@
     "preveu"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: p-r-e-v-e-u-r-e."
+   "explanation": "Mira bé cada lletra: p-r-e-v-e-u-r-e.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l7_m027",
@@ -4457,7 +5027,9 @@
     "la 3a"
    ],
    "correct": 3,
-   "explanation": "És la 3a: «aptitud», no «actitud»."
+   "explanation": "És la 3a: «aptitud», no «actitud».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l7_m028",
@@ -4472,7 +5044,9 @@
     "la 5a"
    ],
    "correct": 3,
-   "explanation": "És la 5a: «absorbir», no «absoldre»."
+   "explanation": "És la 5a: «absorbir», no «absoldre».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l7_m029",
@@ -4487,7 +5061,9 @@
     "la 1a"
    ],
    "correct": 0,
-   "explanation": "És la 2a: «espècia», no «espècie»."
+   "explanation": "És la 2a: «espècia», no «espècie».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l7_m030",
@@ -4502,7 +5078,9 @@
     "la 3a"
    ],
    "correct": 1,
-   "explanation": "És la 4a: «adaptar», no «adoptar»."
+   "explanation": "És la 4a: «adaptar», no «adoptar».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l7_m031",
@@ -4517,7 +5095,9 @@
     "la 1a"
    ],
    "correct": 3,
-   "explanation": "És la 1a: «afecte», no «efecte»."
+   "explanation": "És la 1a: «afecte», no «efecte».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l7_o001",
@@ -4539,7 +5119,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: paraigua, paral·lel, paraula, parc."
+   "explanation": "Ordre alfabètic: paraigua, paral·lel, paraula, parc.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l7_o002",
@@ -4561,7 +5143,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: comptar, contar, contenir, content."
+   "explanation": "Ordre alfabètic: comptar, contar, contenir, content.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l7_o003",
@@ -4583,7 +5167,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: examen, excavar, exhibir, exigir."
+   "explanation": "Ordre alfabètic: examen, excavar, exhibir, exigir.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l8_m001",
@@ -4598,7 +5184,9 @@
     "exuberant"
    ],
    "correct": 3,
-   "explanation": "S'escriu «exuberant»."
+   "explanation": "S'escriu «exuberant».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l8_m002",
@@ -4613,7 +5201,9 @@
     "espontanni"
    ],
    "correct": 0,
-   "explanation": "S'escriu «espontani»."
+   "explanation": "S'escriu «espontani».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l8_m003",
@@ -4628,7 +5218,9 @@
     "excéntric"
    ],
    "correct": 0,
-   "explanation": "S'escriu «excèntric»."
+   "explanation": "S'escriu «excèntric».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l8_m004",
@@ -4643,7 +5235,9 @@
     "adolescència"
    ],
    "correct": 3,
-   "explanation": "S'escriu «adolescència»."
+   "explanation": "S'escriu «adolescència».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l8_m005",
@@ -4658,7 +5252,9 @@
     "prescindir"
    ],
    "correct": 3,
-   "explanation": "S'escriu «prescindir»."
+   "explanation": "S'escriu «prescindir».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l8_m006",
@@ -4673,7 +5269,9 @@
     "ascensor"
    ],
    "correct": 3,
-   "explanation": "S'escriu «ascensor»."
+   "explanation": "S'escriu «ascensor».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l8_m007",
@@ -4688,7 +5286,9 @@
     "diciplina"
    ],
    "correct": 2,
-   "explanation": "S'escriu «disciplina»."
+   "explanation": "S'escriu «disciplina».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l8_m008",
@@ -4703,7 +5303,9 @@
     "efervescent"
    ],
    "correct": 3,
-   "explanation": "S'escriu «efervescent»."
+   "explanation": "S'escriu «efervescent».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l8_m009",
@@ -4718,7 +5320,9 @@
     "admosfera"
    ],
    "correct": 0,
-   "explanation": "S'escriu «atmosfera». En valencià és plana i no porta accent."
+   "explanation": "S'escriu «atmosfera». En valencià és plana i no porta accent.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l8_m010",
@@ -4733,7 +5337,9 @@
     "benèvol"
    ],
    "correct": 3,
-   "explanation": "S'escriu «benèvol»."
+   "explanation": "S'escriu «benèvol».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l8_m011",
@@ -4748,7 +5354,9 @@
     "expectatiba"
    ],
    "correct": 1,
-   "explanation": "S'escriu «expectativa»."
+   "explanation": "S'escriu «expectativa».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l8_m012",
@@ -4763,7 +5371,9 @@
     "espectacla"
    ],
    "correct": 1,
-   "explanation": "S'escriu «espectacle»."
+   "explanation": "S'escriu «espectacle».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l8_m013",
@@ -4778,7 +5388,9 @@
     "conscient"
    ],
    "correct": 3,
-   "explanation": "S'escriu «conscient». Amb sc: cons-ci-ent."
+   "explanation": "S'escriu «conscient». Amb sc: cons-ci-ent.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l8_m014",
@@ -4793,7 +5405,9 @@
     "excepsió"
    ],
    "correct": 2,
-   "explanation": "S'escriu «excepció»."
+   "explanation": "S'escriu «excepció».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l8_m015",
@@ -4808,7 +5422,9 @@
     "tranquil·litat"
    ],
    "correct": 3,
-   "explanation": "S'escriu «tranquil·litat». Amb ela geminada (l·l)."
+   "explanation": "S'escriu «tranquil·litat». Amb ela geminada (l·l).",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l8_m016",
@@ -4823,7 +5439,9 @@
     "assaig"
    ],
    "correct": 3,
-   "explanation": "S'escriu «assaig». s sorda entre vocals (ss) i ig al final."
+   "explanation": "S'escriu «assaig». s sorda entre vocals (ss) i ig al final.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l8_m017",
@@ -4838,7 +5456,9 @@
     "naixer"
    ],
    "correct": 2,
-   "explanation": "S'escriu «nàixer». En valencià, nàixer porta accent obert."
+   "explanation": "S'escriu «nàixer». En valencià, nàixer porta accent obert.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l8_m018",
@@ -4853,7 +5473,9 @@
     "amenaçe"
    ],
    "correct": 2,
-   "explanation": "S'escriu «amenaça». ç davant de a."
+   "explanation": "S'escriu «amenaça». ç davant de a.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l8_m019",
@@ -4868,7 +5490,9 @@
     "acció"
    ],
    "correct": 3,
-   "explanation": "S'escriu «acció»."
+   "explanation": "S'escriu «acció».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l8_m020",
@@ -4883,7 +5507,9 @@
     "ereu"
    ],
    "correct": 1,
-   "explanation": "S'escriu «hereu»."
+   "explanation": "S'escriu «hereu».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l8_m021",
@@ -4898,7 +5524,9 @@
     "infligit"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: i-n-f-l-i-g-i-r."
+   "explanation": "Mira bé cada lletra: i-n-f-l-i-g-i-r.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l8_m022",
@@ -4913,7 +5541,9 @@
     "perjudici"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: p-e-r-j-u-d-i-c-i."
+   "explanation": "Mira bé cada lletra: p-e-r-j-u-d-i-c-i.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l8_m023",
@@ -4928,7 +5558,9 @@
     "emanant"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: e-m-i-n-e-n-t."
+   "explanation": "Mira bé cada lletra: e-m-i-n-e-n-t.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l8_m024",
@@ -4943,7 +5575,9 @@
     "secció"
    ],
    "correct": 1,
-   "explanation": "Mira bé cada lletra: s-e-s-s-i-ó."
+   "explanation": "Mira bé cada lletra: s-e-s-s-i-ó.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l8_m025",
@@ -4958,7 +5592,9 @@
     "referència"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: d-e-f-e-r-è-n-c-i-a."
+   "explanation": "Mira bé cada lletra: d-e-f-e-r-è-n-c-i-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l8_m026",
@@ -4973,7 +5609,9 @@
     "espiar"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: e-s-p-i-a-r."
+   "explanation": "Mira bé cada lletra: e-s-p-i-a-r.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l8_m027",
@@ -4988,7 +5626,9 @@
     "la 3a"
    ],
    "correct": 0,
-   "explanation": "És la 4a: «infringir», no «infligir»."
+   "explanation": "És la 4a: «infringir», no «infligir».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l8_m028",
@@ -5003,7 +5643,9 @@
     "la 4a"
    ],
    "correct": 2,
-   "explanation": "És la 1a: «prejudici», no «perjudici»."
+   "explanation": "És la 1a: «prejudici», no «perjudici».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l8_m029",
@@ -5018,7 +5660,9 @@
     "la 4a"
    ],
    "correct": 1,
-   "explanation": "És la 3a: «imminent», no «eminent»."
+   "explanation": "És la 3a: «imminent», no «eminent».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l8_m030",
@@ -5033,7 +5677,9 @@
     "la 2a"
    ],
    "correct": 1,
-   "explanation": "És la 5a: «secció», no «sessió»."
+   "explanation": "És la 5a: «secció», no «sessió».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l8_m031",
@@ -5048,7 +5694,9 @@
     "la 1a"
    ],
    "correct": 1,
-   "explanation": "És la 2a: «diferència», no «deferència»."
+   "explanation": "És la 2a: «diferència», no «deferència».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l8_o001",
@@ -5070,7 +5718,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: desarmar, desastre, desatendre, desert."
+   "explanation": "Ordre alfabètic: desarmar, desastre, desatendre, desert.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l8_o002",
@@ -5092,7 +5742,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: vaga, vaixell, valor, vapor."
+   "explanation": "Ordre alfabètic: vaga, vaixell, valor, vapor.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l8_o003",
@@ -5114,7 +5766,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: preveure, previ, previst, prim."
+   "explanation": "Ordre alfabètic: preveure, previ, previst, prim.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l9_m001",
@@ -5129,7 +5783,9 @@
     "idiosincràsia"
    ],
    "correct": 3,
-   "explanation": "S'escriu «idiosincràsia». Acaba en -sia."
+   "explanation": "S'escriu «idiosincràsia». Acaba en -sia.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l9_m002",
@@ -5144,7 +5800,9 @@
     "exhacerbar"
    ],
    "correct": 2,
-   "explanation": "S'escriu «exacerbar»."
+   "explanation": "S'escriu «exacerbar».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l9_m003",
@@ -5159,7 +5817,9 @@
     "reabilitar"
    ],
    "correct": 1,
-   "explanation": "S'escriu «rehabilitar»."
+   "explanation": "S'escriu «rehabilitar».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l9_m004",
@@ -5174,7 +5834,9 @@
     "indenme"
    ],
    "correct": 1,
-   "explanation": "S'escriu «indemne»."
+   "explanation": "S'escriu «indemne».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l9_m005",
@@ -5189,7 +5851,9 @@
     "exhortàr"
    ],
    "correct": 1,
-   "explanation": "S'escriu «exhortar»."
+   "explanation": "S'escriu «exhortar».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l9_m006",
@@ -5204,7 +5868,9 @@
     "vicisitud"
    ],
    "correct": 1,
-   "explanation": "S'escriu «vicissitud»."
+   "explanation": "S'escriu «vicissitud».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l9_m007",
@@ -5219,7 +5885,9 @@
     "subjaent"
    ],
    "correct": 2,
-   "explanation": "S'escriu «subjacent»."
+   "explanation": "S'escriu «subjacent».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l9_m008",
@@ -5234,7 +5902,9 @@
     "inconscient"
    ],
    "correct": 3,
-   "explanation": "S'escriu «inconscient». Amb sc: in-cons-ci-ent."
+   "explanation": "S'escriu «inconscient». Amb sc: in-cons-ci-ent.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l9_m009",
@@ -5249,7 +5919,9 @@
     "obsolecència"
    ],
    "correct": 0,
-   "explanation": "S'escriu «obsolescència»."
+   "explanation": "S'escriu «obsolescència».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l9_m010",
@@ -5264,7 +5936,9 @@
     "sesagenari"
    ],
    "correct": 2,
-   "explanation": "S'escriu «sexagenari»."
+   "explanation": "S'escriu «sexagenari».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l9_m011",
@@ -5279,7 +5953,9 @@
     "ecatombe"
    ],
    "correct": 2,
-   "explanation": "S'escriu «hecatombe»."
+   "explanation": "S'escriu «hecatombe».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l9_m012",
@@ -5294,7 +5970,9 @@
     "vehícle"
    ],
    "correct": 0,
-   "explanation": "S'escriu «vehicle»."
+   "explanation": "S'escriu «vehicle».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l9_m013",
@@ -5309,7 +5987,9 @@
     "aleatòri"
    ],
    "correct": 2,
-   "explanation": "S'escriu «aleatori»."
+   "explanation": "S'escriu «aleatori».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l9_m014",
@@ -5324,7 +6004,9 @@
     "ambiguitat"
    ],
    "correct": 0,
-   "explanation": "S'escriu «ambigüitat». La dièresi fa sonar la u."
+   "explanation": "S'escriu «ambigüitat». La dièresi fa sonar la u.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l9_m015",
@@ -5339,7 +6021,9 @@
     "col·locui"
    ],
    "correct": 0,
-   "explanation": "S'escriu «col·loqui». Amb ela geminada (l·l)."
+   "explanation": "S'escriu «col·loqui». Amb ela geminada (l·l).",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l9_m016",
@@ -5354,7 +6038,9 @@
     "excel·lent"
    ],
    "correct": 3,
-   "explanation": "S'escriu «excel·lent». Amb x i ela geminada."
+   "explanation": "S'escriu «excel·lent». Amb x i ela geminada.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l9_m017",
@@ -5369,7 +6055,9 @@
     "anàlissi"
    ],
    "correct": 2,
-   "explanation": "S'escriu «anàlisi»."
+   "explanation": "S'escriu «anàlisi».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l9_m018",
@@ -5384,7 +6072,9 @@
     "psicóleg"
    ],
    "correct": 2,
-   "explanation": "S'escriu «psicòleg»."
+   "explanation": "S'escriu «psicòleg».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l9_m019",
@@ -5399,7 +6089,9 @@
     "assabentar"
    ],
    "correct": 3,
-   "explanation": "S'escriu «assabentar»."
+   "explanation": "S'escriu «assabentar».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l9_m020",
@@ -5414,7 +6106,9 @@
     "aqüeduct"
    ],
    "correct": 0,
-   "explanation": "S'escriu «aqüeducte». La dièresi fa sonar la u."
+   "explanation": "S'escriu «aqüeducte». La dièresi fa sonar la u.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "ca_memoria_visual_l9_m021",
@@ -5429,7 +6123,9 @@
     "contest"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: c-o-n-t-e-x-t."
+   "explanation": "Mira bé cada lletra: c-o-n-t-e-x-t.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l9_m022",
@@ -5444,7 +6140,9 @@
     "defecte"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: d-e-s-f-e-t."
+   "explanation": "Mira bé cada lletra: d-e-s-f-e-t.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l9_m023",
@@ -5459,7 +6157,9 @@
     "abertura"
    ],
    "correct": 0,
-   "explanation": "Mira bé cada lletra: o-b-e-r-t-u-r-a."
+   "explanation": "Mira bé cada lletra: o-b-e-r-t-u-r-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "ca_memoria_visual_l9_m024",
@@ -5474,7 +6174,9 @@
     "espècie"
    ],
    "correct": 2,
-   "explanation": "Mira bé cada lletra: e-s-p-è-c-i-a."
+   "explanation": "Mira bé cada lletra: e-s-p-è-c-i-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l9_m025",
@@ -5489,7 +6191,9 @@
     "ingerir"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: i-n-g-e-r-i-r."
+   "explanation": "Mira bé cada lletra: i-n-g-e-r-i-r.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l9_m026",
@@ -5504,7 +6208,9 @@
     "estàtic"
    ],
    "correct": 3,
-   "explanation": "Mira bé cada lletra: e-s-t-à-t-i-c."
+   "explanation": "Mira bé cada lletra: e-s-t-à-t-i-c.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l9_m027",
@@ -5519,7 +6225,9 @@
     "la 3a"
    ],
    "correct": 0,
-   "explanation": "És la 5a: «contest», no «context»."
+   "explanation": "És la 5a: «contest», no «context».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l9_m028",
@@ -5534,7 +6242,9 @@
     "la 3a"
    ],
    "correct": 0,
-   "explanation": "És la 2a: «desfeta», no «desfet»."
+   "explanation": "És la 2a: «desfeta», no «desfet».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l9_m029",
@@ -5549,7 +6259,9 @@
     "la 2a"
    ],
    "correct": 1,
-   "explanation": "És la 4a: «apertura», no «obertura»."
+   "explanation": "És la 4a: «apertura», no «obertura».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l9_m030",
@@ -5564,7 +6276,9 @@
     "la 3a"
    ],
    "correct": 1,
-   "explanation": "És la 1a: «espècie», no «espècia»."
+   "explanation": "És la 1a: «espècie», no «espècia».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l9_m031",
@@ -5579,7 +6293,9 @@
     "la 1a"
    ],
    "correct": 1,
-   "explanation": "És la 3a: «injectar», no «ingerir»."
+   "explanation": "És la 3a: «injectar», no «ingerir».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l9_o001",
@@ -5601,7 +6317,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: ambigu, àmbit, ambulància, amenaça."
+   "explanation": "Ordre alfabètic: ambigu, àmbit, ambulància, amenaça.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l9_o002",
@@ -5623,7 +6341,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: conscient, consell, conseqüència, conservar."
+   "explanation": "Ordre alfabètic: conscient, consell, conseqüència, conservar.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "ca_memoria_visual_l9_o003",
@@ -5645,7 +6365,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ordre alfabètic: subratllar, subsistir, subterrani, suburbi."
+   "explanation": "Ordre alfabètic: subratllar, subsistir, subterrani, suburbi.",
+   "skill": "mem_alpha",
+   "step": 1
   }
  ]
 }

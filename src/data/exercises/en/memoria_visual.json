@@ -13,7 +13,9 @@
     "beb"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'bed'."
+   "explanation": "The correct spelling is 'bed'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m002",
@@ -28,7 +30,9 @@
     "dqo"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'dog'."
+   "explanation": "The correct spelling is 'dog'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m003",
@@ -43,7 +47,9 @@
     "cet"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'cat'."
+   "explanation": "The correct spelling is 'cat'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m004",
@@ -58,7 +64,9 @@
     "nus"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'sun'."
+   "explanation": "The correct spelling is 'sun'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m005",
@@ -73,7 +81,9 @@
     "gip"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'pig'."
+   "explanation": "The correct spelling is 'pig'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m006",
@@ -88,7 +98,9 @@
     "bgi"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'big'."
+   "explanation": "The correct spelling is 'big'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m007",
@@ -103,7 +115,9 @@
     "aht"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'hat'."
+   "explanation": "The correct spelling is 'hat'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m008",
@@ -118,7 +132,9 @@
     "mpa"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'map'."
+   "explanation": "The correct spelling is 'map'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m009",
@@ -133,7 +149,9 @@
     "bsu"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'bus'."
+   "explanation": "The correct spelling is 'bus'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m010",
@@ -148,7 +166,9 @@
     "fich"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'fish'."
+   "explanation": "The correct spelling is 'fish'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m011",
@@ -163,7 +183,9 @@
     "milc"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'milk'."
+   "explanation": "The correct spelling is 'milk'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m012",
@@ -178,7 +200,9 @@
     "dukc"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'duck'."
+   "explanation": "The correct spelling is 'duck'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m013",
@@ -193,7 +217,9 @@
     "boko"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'book'."
+   "explanation": "The correct spelling is 'book'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m014",
@@ -208,7 +234,9 @@
     "dall"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'ball'."
+   "explanation": "The correct spelling is 'ball'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m015",
@@ -223,7 +251,9 @@
     "frgo"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'frog'."
+   "explanation": "The correct spelling is 'frog'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m016",
@@ -238,7 +268,9 @@
     "pen"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'pen'."
+   "explanation": "The correct spelling is 'pen'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m017",
@@ -253,7 +285,9 @@
     "cuq"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'cup'."
+   "explanation": "The correct spelling is 'cup'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m018",
@@ -268,7 +302,9 @@
     "bierd"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'bird'."
+   "explanation": "The correct spelling is 'bird'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m019",
@@ -283,7 +319,9 @@
     "droo"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'door'."
+   "explanation": "The correct spelling is 'door'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m020",
@@ -298,7 +336,9 @@
     "tne"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'ten'."
+   "explanation": "The correct spelling is 'ten'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m021",
@@ -313,7 +353,9 @@
     "byo"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'boy'."
+   "explanation": "The correct spelling is 'boy'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m022",
@@ -328,7 +370,9 @@
     "tre"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'tree'."
+   "explanation": "The correct spelling is 'tree'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m023",
@@ -343,7 +387,9 @@
     "redd"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'red'."
+   "explanation": "The correct spelling is 'red'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l1_m024",
@@ -358,7 +404,9 @@
     "boks"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'box'."
+   "explanation": "The correct spelling is 'box'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m025",
@@ -373,7 +421,9 @@
     "4th"
    ],
    "correct": 0,
-   "explanation": "The 2nd one is 'd'. The others are 'b'."
+   "explanation": "The 2nd one is 'd'. The others are 'b'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_m026",
@@ -388,7 +438,9 @@
     "2nd"
    ],
    "correct": 1,
-   "explanation": "The 4th one is 'q'. The others are 'p'."
+   "explanation": "The 4th one is 'q'. The others are 'p'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_m027",
@@ -403,7 +455,9 @@
     "4th"
    ],
    "correct": 2,
-   "explanation": "The 2nd one is 'u'. The others are 'n'."
+   "explanation": "The 2nd one is 'u'. The others are 'n'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_m028",
@@ -418,7 +472,9 @@
     "3rd"
    ],
    "correct": 0,
-   "explanation": "The 4th one is 'w'. The others are 'm'."
+   "explanation": "The 4th one is 'w'. The others are 'm'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_m029",
@@ -433,7 +489,9 @@
     "4th"
    ],
    "correct": 2,
-   "explanation": "The 2nd one is 'p'. The others are 'b'."
+   "explanation": "The 2nd one is 'p'. The others are 'b'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_m030",
@@ -448,7 +506,9 @@
     "2nd"
    ],
    "correct": 0,
-   "explanation": "The 4th one is 'q'. The others are 'd'."
+   "explanation": "The 4th one is 'q'. The others are 'd'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_m031",
@@ -463,7 +523,9 @@
     "wsa"
    ],
    "correct": 2,
-   "explanation": "Look carefully at every letter: w-a-s."
+   "explanation": "Look carefully at every letter: w-a-s.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m032",
@@ -478,7 +540,9 @@
     "an"
    ],
    "correct": 2,
-   "explanation": "Look carefully at every letter: o-n."
+   "explanation": "Look carefully at every letter: o-n.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_m033",
@@ -493,7 +557,9 @@
     "opt"
    ],
    "correct": 1,
-   "explanation": "Look carefully at every letter: t-o-p."
+   "explanation": "Look carefully at every letter: t-o-p.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m034",
@@ -508,7 +574,9 @@
     "pna"
    ],
    "correct": 0,
-   "explanation": "Look carefully at every letter: p-a-n."
+   "explanation": "Look carefully at every letter: p-a-n.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m035",
@@ -523,7 +591,9 @@
     "dut"
    ],
    "correct": 1,
-   "explanation": "Look carefully at every letter: t-u-b."
+   "explanation": "Look carefully at every letter: t-u-b.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m036",
@@ -538,7 +608,9 @@
     "pit"
    ],
    "correct": 3,
-   "explanation": "Look carefully at every letter: p-i-t."
+   "explanation": "Look carefully at every letter: p-i-t.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l1_m037",
@@ -553,7 +625,9 @@
     "3rd"
    ],
    "correct": 0,
-   "explanation": "The 2nd word is 'saw', not 'was'."
+   "explanation": "The 2nd word is 'saw', not 'was'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_m038",
@@ -568,7 +642,9 @@
     "3rd"
    ],
    "correct": 3,
-   "explanation": "The 3rd word is 'no', not 'on'."
+   "explanation": "The 3rd word is 'no', not 'on'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_m039",
@@ -583,7 +659,9 @@
     "4th"
    ],
    "correct": 3,
-   "explanation": "The 4th word is 'pot', not 'top'."
+   "explanation": "The 4th word is 'pot', not 'top'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_m040",
@@ -598,7 +676,9 @@
     "2nd"
    ],
    "correct": 1,
-   "explanation": "The 1st word is 'nap', not 'pan'."
+   "explanation": "The 1st word is 'nap', not 'pan'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_m041",
@@ -613,7 +693,9 @@
     "1st"
    ],
    "correct": 0,
-   "explanation": "The 2nd word is 'but', not 'tub'."
+   "explanation": "The 2nd word is 'but', not 'tub'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_o001",
@@ -635,7 +717,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: A, B, C, D."
+   "explanation": "Alphabetical order: A, B, C, D.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_o002",
@@ -657,7 +741,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: E, F, G, H."
+   "explanation": "Alphabetical order: E, F, G, H.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_o003",
@@ -679,7 +765,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: L, M, N, O."
+   "explanation": "Alphabetical order: L, M, N, O.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l1_o004",
@@ -701,7 +789,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: R, S, T, U."
+   "explanation": "Alphabetical order: R, S, T, U.",
+   "skill": "mem_alpha",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_m001",
@@ -716,7 +806,9 @@
     "sihp"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'ship'."
+   "explanation": "The correct spelling is 'ship'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_m002",
@@ -731,7 +823,9 @@
     "cahir"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'chair'."
+   "explanation": "The correct spelling is 'chair'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_m003",
@@ -746,7 +840,9 @@
     "thre"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'three'."
+   "explanation": "The correct spelling is 'three'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m004",
@@ -761,7 +857,9 @@
     "blak"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'black'."
+   "explanation": "The correct spelling is 'black'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m005",
@@ -776,7 +874,9 @@
     "shell"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'shell'."
+   "explanation": "The correct spelling is 'shell'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m006",
@@ -791,7 +891,9 @@
     "crad"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'crab'."
+   "explanation": "The correct spelling is 'crab'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_m007",
@@ -806,7 +908,9 @@
     "durm"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'drum'."
+   "explanation": "The correct spelling is 'drum'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_m008",
@@ -821,7 +925,9 @@
     "lucnh"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'lunch'."
+   "explanation": "The correct spelling is 'lunch'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_m009",
@@ -836,7 +942,9 @@
     "tahnk"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'thank'."
+   "explanation": "The correct spelling is 'thank'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m010",
@@ -851,7 +959,9 @@
     "cloc"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'clock'."
+   "explanation": "The correct spelling is 'clock'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m011",
@@ -866,7 +976,9 @@
     "swim"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'swim'."
+   "explanation": "The correct spelling is 'swim'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_m012",
@@ -881,7 +993,9 @@
     "bursh"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'brush'."
+   "explanation": "The correct spelling is 'brush'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m013",
@@ -896,7 +1010,9 @@
     "qween"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'queen'."
+   "explanation": "The correct spelling is 'queen'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m014",
@@ -911,7 +1027,9 @@
     "whael"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'whale'."
+   "explanation": "The correct spelling is 'whale'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m015",
@@ -926,7 +1044,9 @@
     "sheep"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'sheep'."
+   "explanation": "The correct spelling is 'sheep'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_m016",
@@ -941,7 +1061,9 @@
     "chicken"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'chicken'."
+   "explanation": "The correct spelling is 'chicken'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m017",
@@ -956,7 +1078,9 @@
     "dolfin"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'dolphin'."
+   "explanation": "The correct spelling is 'dolphin'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m018",
@@ -971,7 +1095,9 @@
     "spiber"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'spider'."
+   "explanation": "The correct spelling is 'spider'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_m019",
@@ -986,7 +1112,9 @@
     "plant"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'plant'."
+   "explanation": "The correct spelling is 'plant'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m020",
@@ -1001,7 +1129,9 @@
     "turck"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'truck'."
+   "explanation": "The correct spelling is 'truck'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m021",
@@ -1016,7 +1146,9 @@
     "sanke"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'snake'."
+   "explanation": "The correct spelling is 'snake'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m022",
@@ -1031,7 +1163,9 @@
     "falg"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'flag'."
+   "explanation": "The correct spelling is 'flag'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_m023",
@@ -1046,7 +1180,9 @@
     "glov"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'glove'."
+   "explanation": "The correct spelling is 'glove'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m024",
@@ -1061,7 +1197,9 @@
     "drees"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'dress'."
+   "explanation": "The correct spelling is 'dress'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l2_m025",
@@ -1076,7 +1214,9 @@
     "2nd"
    ],
    "correct": 0,
-   "explanation": "The 3rd one is 'd'. The others are 'b'."
+   "explanation": "The 3rd one is 'd'. The others are 'b'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m026",
@@ -1091,7 +1231,9 @@
     "4th"
    ],
    "correct": 2,
-   "explanation": "The 1st one is 'q'. The others are 'p'."
+   "explanation": "The 1st one is 'q'. The others are 'p'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m027",
@@ -1106,7 +1248,9 @@
     "1st"
    ],
    "correct": 2,
-   "explanation": "The 3rd one is 'u'. The others are 'n'."
+   "explanation": "The 3rd one is 'u'. The others are 'n'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m028",
@@ -1121,7 +1265,9 @@
     "3rd"
    ],
    "correct": 1,
-   "explanation": "The 1st one is 'w'. The others are 'm'."
+   "explanation": "The 1st one is 'w'. The others are 'm'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m029",
@@ -1136,7 +1282,9 @@
     "3rd"
    ],
    "correct": 3,
-   "explanation": "The 3rd one is 'b'. The others are 'd'."
+   "explanation": "The 3rd one is 'b'. The others are 'd'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m030",
@@ -1151,7 +1299,9 @@
     "4th"
    ],
    "correct": 2,
-   "explanation": "The 1st one is 'p'. The others are 'q'."
+   "explanation": "The 1st one is 'p'. The others are 'q'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m031",
@@ -1166,7 +1316,9 @@
     "ten"
    ],
    "correct": 3,
-   "explanation": "Look carefully at every letter: t-e-n."
+   "explanation": "Look carefully at every letter: t-e-n.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m032",
@@ -1181,7 +1333,9 @@
     "mgu"
    ],
    "correct": 0,
-   "explanation": "Look carefully at every letter: m-u-g."
+   "explanation": "Look carefully at every letter: m-u-g.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m033",
@@ -1196,7 +1350,9 @@
     "dad"
    ],
    "correct": 2,
-   "explanation": "Look carefully at every letter: b-a-d."
+   "explanation": "Look carefully at every letter: b-a-d.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m034",
@@ -1211,7 +1367,9 @@
     "tops"
    ],
    "correct": 0,
-   "explanation": "Look carefully at every letter: s-t-o-p."
+   "explanation": "Look carefully at every letter: s-t-o-p.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m035",
@@ -1226,7 +1384,9 @@
     "frmo"
    ],
    "correct": 2,
-   "explanation": "Look carefully at every letter: f-o-r-m."
+   "explanation": "Look carefully at every letter: f-o-r-m.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_m036",
@@ -1241,7 +1401,9 @@
     "left"
    ],
    "correct": 1,
-   "explanation": "Look carefully at every letter: f-e-l-t."
+   "explanation": "Look carefully at every letter: f-e-l-t.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_m037",
@@ -1256,7 +1418,9 @@
     "2nd"
    ],
    "correct": 0,
-   "explanation": "The 3rd word is 'net', not 'ten'."
+   "explanation": "The 3rd word is 'net', not 'ten'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m038",
@@ -1271,7 +1435,9 @@
     "4th"
    ],
    "correct": 3,
-   "explanation": "The 4th word is 'gum', not 'mug'."
+   "explanation": "The 4th word is 'gum', not 'mug'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m039",
@@ -1286,7 +1452,9 @@
     "3rd"
    ],
    "correct": 1,
-   "explanation": "The 1st word is 'dab', not 'bad'."
+   "explanation": "The 1st word is 'dab', not 'bad'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m040",
@@ -1301,7 +1469,9 @@
     "4th"
    ],
    "correct": 0,
-   "explanation": "The 2nd word is 'pots', not 'stop'."
+   "explanation": "The 2nd word is 'pots', not 'stop'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_m041",
@@ -1316,7 +1486,9 @@
     "3rd"
    ],
    "correct": 3,
-   "explanation": "The 3rd word is 'from', not 'form'."
+   "explanation": "The 3rd word is 'from', not 'form'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l2_o001",
@@ -1340,7 +1512,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: B, D, G, K, P."
+   "explanation": "Alphabetical order: B, D, G, K, P.",
+   "skill": "mem_alpha",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_o002",
@@ -1364,7 +1538,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: A, E, I, O, U."
+   "explanation": "Alphabetical order: A, E, I, O, U.",
+   "skill": "mem_alpha",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_o003",
@@ -1388,7 +1564,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: C, F, J, M, R."
+   "explanation": "Alphabetical order: C, F, J, M, R.",
+   "skill": "mem_alpha",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l2_o004",
@@ -1412,7 +1590,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: D, H, L, S, W."
+   "explanation": "Alphabetical order: D, H, L, S, W.",
+   "skill": "mem_alpha",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m001",
@@ -1427,7 +1607,9 @@
     "rain"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'rain'."
+   "explanation": "The correct spelling is 'rain'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m002",
@@ -1442,7 +1624,9 @@
     "boat"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'boat'."
+   "explanation": "The correct spelling is 'boat'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m003",
@@ -1457,7 +1641,9 @@
     "night"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'night'."
+   "explanation": "The correct spelling is 'night'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m004",
@@ -1472,7 +1658,9 @@
     "kake"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'cake'."
+   "explanation": "The correct spelling is 'cake'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m005",
@@ -1487,7 +1675,9 @@
     "biek"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'bike'."
+   "explanation": "The correct spelling is 'bike'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m006",
@@ -1502,7 +1692,9 @@
     "train"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'train'."
+   "explanation": "The correct spelling is 'train'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m007",
@@ -1517,7 +1709,9 @@
     "beach"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'beach'."
+   "explanation": "The correct spelling is 'beach'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m008",
@@ -1532,7 +1726,9 @@
     "snow"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'snow'."
+   "explanation": "The correct spelling is 'snow'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m009",
@@ -1547,7 +1743,9 @@
     "feet"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'feet'."
+   "explanation": "The correct spelling is 'feet'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m010",
@@ -1562,7 +1760,9 @@
     "gaot"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'goat'."
+   "explanation": "The correct spelling is 'goat'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m011",
@@ -1577,7 +1777,9 @@
     "lihgt"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'light'."
+   "explanation": "The correct spelling is 'light'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m012",
@@ -1592,7 +1794,9 @@
     "hoem"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'home'."
+   "explanation": "The correct spelling is 'home'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m013",
@@ -1607,7 +1811,9 @@
     "tueb"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'tube'."
+   "explanation": "The correct spelling is 'tube'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m014",
@@ -1622,7 +1828,9 @@
     "smial"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'smile'."
+   "explanation": "The correct spelling is 'smile'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m015",
@@ -1637,7 +1845,9 @@
     "draem"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'dream'."
+   "explanation": "The correct spelling is 'dream'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m016",
@@ -1652,7 +1862,9 @@
     "brade"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'bread'."
+   "explanation": "The correct spelling is 'bread'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m017",
@@ -1667,7 +1879,9 @@
     "chese"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'cheese'."
+   "explanation": "The correct spelling is 'cheese'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m018",
@@ -1682,7 +1896,9 @@
     "plae"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'play'."
+   "explanation": "The correct spelling is 'play'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m019",
@@ -1697,7 +1913,9 @@
     "road"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'road'."
+   "explanation": "The correct spelling is 'road'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m020",
@@ -1712,7 +1930,9 @@
     "fluet"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'flute'."
+   "explanation": "The correct spelling is 'flute'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m021",
@@ -1727,7 +1947,9 @@
     "plaen"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'plane'."
+   "explanation": "The correct spelling is 'plane'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m022",
@@ -1742,7 +1964,9 @@
     "seed"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'seed'."
+   "explanation": "The correct spelling is 'seed'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m023",
@@ -1757,7 +1981,9 @@
     "coat"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'coat'."
+   "explanation": "The correct spelling is 'coat'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m024",
@@ -1772,7 +1998,9 @@
     "bnoe"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'bone'."
+   "explanation": "The correct spelling is 'bone'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m025",
@@ -1787,7 +2015,9 @@
     "1st"
    ],
    "correct": 0,
-   "explanation": "The 4th one is 'd'. The others are 'b'."
+   "explanation": "The 4th one is 'd'. The others are 'b'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_m026",
@@ -1802,7 +2032,9 @@
     "1st"
    ],
    "correct": 3,
-   "explanation": "The 1st one is 'q'. The others are 'p'."
+   "explanation": "The 1st one is 'q'. The others are 'p'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_m027",
@@ -1817,7 +2049,9 @@
     "4th"
    ],
    "correct": 2,
-   "explanation": "The 3rd one is 'h'. The others are 'n'."
+   "explanation": "The 3rd one is 'h'. The others are 'n'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_m028",
@@ -1832,7 +2066,9 @@
     "1st"
    ],
    "correct": 2,
-   "explanation": "The 5th one is 'n'. The others are 'm'."
+   "explanation": "The 5th one is 'n'. The others are 'm'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_m029",
@@ -1847,7 +2083,9 @@
     "1st"
    ],
    "correct": 0,
-   "explanation": "The 2nd one is 'j'. The others are 'i'."
+   "explanation": "The 2nd one is 'j'. The others are 'i'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_m030",
@@ -1862,7 +2100,9 @@
     "2nd"
    ],
    "correct": 2,
-   "explanation": "The 4th one is 'f'. The others are 't'."
+   "explanation": "The 4th one is 'f'. The others are 't'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_m031",
@@ -1877,7 +2117,9 @@
     "loin"
    ],
    "correct": 2,
-   "explanation": "Look carefully at every letter: l-i-o-n."
+   "explanation": "Look carefully at every letter: l-i-o-n.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m032",
@@ -1892,7 +2134,9 @@
     "step"
    ],
    "correct": 3,
-   "explanation": "Look carefully at every letter: s-t-e-p."
+   "explanation": "Look carefully at every letter: s-t-e-p.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m033",
@@ -1907,7 +2151,9 @@
     "daisy"
    ],
    "correct": 0,
-   "explanation": "Look carefully at every letter: d-a-i-r-y."
+   "explanation": "Look carefully at every letter: d-a-i-r-y.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m034",
@@ -1922,7 +2168,9 @@
     "angle"
    ],
    "correct": 3,
-   "explanation": "Look carefully at every letter: a-n-g-l-e."
+   "explanation": "Look carefully at every letter: a-n-g-l-e.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l3_m035",
@@ -1937,7 +2185,9 @@
     "quiet"
    ],
    "correct": 3,
-   "explanation": "Look carefully at every letter: q-u-i-e-t."
+   "explanation": "Look carefully at every letter: q-u-i-e-t.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m036",
@@ -1952,7 +2202,9 @@
     "trial"
    ],
    "correct": 1,
-   "explanation": "Look carefully at every letter: t-r-a-i-l."
+   "explanation": "Look carefully at every letter: t-r-a-i-l.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l3_m037",
@@ -1967,7 +2219,9 @@
     "2nd"
    ],
    "correct": 2,
-   "explanation": "The 4th word is 'loin', not 'lion'."
+   "explanation": "The 4th word is 'loin', not 'lion'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_m038",
@@ -1982,7 +2236,9 @@
     "3rd"
    ],
    "correct": 1,
-   "explanation": "The 1st word is 'pets', not 'step'."
+   "explanation": "The 1st word is 'pets', not 'step'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_m039",
@@ -1997,7 +2253,9 @@
     "4th"
    ],
    "correct": 1,
-   "explanation": "The 2nd word is 'diary', not 'dairy'."
+   "explanation": "The 2nd word is 'diary', not 'dairy'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_m040",
@@ -2012,7 +2270,9 @@
     "1st"
    ],
    "correct": 1,
-   "explanation": "The 3rd word is 'angel', not 'angle'."
+   "explanation": "The 3rd word is 'angel', not 'angle'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_m041",
@@ -2027,7 +2287,9 @@
     "3rd"
    ],
    "correct": 2,
-   "explanation": "The 4th word is 'quite', not 'quiet'."
+   "explanation": "The 4th word is 'quite', not 'quiet'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_o001",
@@ -2047,7 +2309,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: ant, bee, cow."
+   "explanation": "Alphabetical order: ant, bee, cow.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_o002",
@@ -2067,7 +2331,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: dog, fox, pig."
+   "explanation": "Alphabetical order: dog, fox, pig.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_o003",
@@ -2087,7 +2353,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: hat, map, sun."
+   "explanation": "Alphabetical order: hat, map, sun.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l3_o004",
@@ -2107,7 +2375,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: bus, car, van."
+   "explanation": "Alphabetical order: bus, car, van.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_m001",
@@ -2122,7 +2392,9 @@
     "stra"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'star'."
+   "explanation": "The correct spelling is 'star'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m002",
@@ -2137,7 +2409,9 @@
     "sirht"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'shirt'."
+   "explanation": "The correct spelling is 'shirt'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m003",
@@ -2152,7 +2426,9 @@
     "purple"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'purple'."
+   "explanation": "The correct spelling is 'purple'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m004",
@@ -2167,7 +2443,9 @@
     "gadren"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'garden'."
+   "explanation": "The correct spelling is 'garden'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m005",
@@ -2182,7 +2460,9 @@
     "tirtle"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'turtle'."
+   "explanation": "The correct spelling is 'turtle'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m006",
@@ -2197,7 +2477,9 @@
     "croner"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'corner'."
+   "explanation": "The correct spelling is 'corner'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m007",
@@ -2212,7 +2494,9 @@
     "colud"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'cloud'."
+   "explanation": "The correct spelling is 'cloud'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m008",
@@ -2227,7 +2511,9 @@
     "muose"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'mouse'."
+   "explanation": "The correct spelling is 'mouse'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m009",
@@ -2242,7 +2528,9 @@
     "coine"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'coin'."
+   "explanation": "The correct spelling is 'coin'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m010",
@@ -2257,7 +2545,9 @@
     "toi"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'toy'."
+   "explanation": "The correct spelling is 'toy'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m011",
@@ -2272,7 +2562,9 @@
     "nusre"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'nurse'."
+   "explanation": "The correct spelling is 'nurse'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m012",
@@ -2287,7 +2579,9 @@
     "talbe"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'table'."
+   "explanation": "The correct spelling is 'table'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m013",
@@ -2302,7 +2596,9 @@
     "apple"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'apple'."
+   "explanation": "The correct spelling is 'apple'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m014",
@@ -2317,7 +2613,9 @@
     "circel"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'circle'."
+   "explanation": "The correct spelling is 'circle'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m015",
@@ -2332,7 +2630,9 @@
     "thirstie"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'thirsty'."
+   "explanation": "The correct spelling is 'thirsty'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m016",
@@ -2347,7 +2647,9 @@
     "markit"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'market'."
+   "explanation": "The correct spelling is 'market'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m017",
@@ -2362,7 +2664,9 @@
     "forist"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'forest'."
+   "explanation": "The correct spelling is 'forest'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m018",
@@ -2377,7 +2681,9 @@
     "dottle"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'bottle'."
+   "explanation": "The correct spelling is 'bottle'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m019",
@@ -2392,7 +2698,9 @@
     "wintre"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'winter'."
+   "explanation": "The correct spelling is 'winter'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m020",
@@ -2407,7 +2715,9 @@
     "sister"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'sister'."
+   "explanation": "The correct spelling is 'sister'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m021",
@@ -2422,7 +2732,9 @@
     "monstar"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'monster'."
+   "explanation": "The correct spelling is 'monster'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m022",
@@ -2437,7 +2749,9 @@
     "flwoer"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'flower'."
+   "explanation": "The correct spelling is 'flower'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m023",
@@ -2452,7 +2766,9 @@
     "towle"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'towel'."
+   "explanation": "The correct spelling is 'towel'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l4_m024",
@@ -2467,7 +2783,9 @@
     "boil"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'boil'."
+   "explanation": "The correct spelling is 'boil'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m025",
@@ -2482,7 +2800,9 @@
     "5th"
    ],
    "correct": 3,
-   "explanation": "The 5th one is 'db'. The others are 'bd'."
+   "explanation": "The 5th one is 'db'. The others are 'bd'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_m026",
@@ -2497,7 +2817,9 @@
     "1st"
    ],
    "correct": 0,
-   "explanation": "The 2nd one is 'qp'. The others are 'pq'."
+   "explanation": "The 2nd one is 'qp'. The others are 'pq'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_m027",
@@ -2512,7 +2834,9 @@
     "4th"
    ],
    "correct": 3,
-   "explanation": "The 4th one is 'un'. The others are 'nu'."
+   "explanation": "The 4th one is 'un'. The others are 'nu'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_m028",
@@ -2527,7 +2851,9 @@
     "2nd"
    ],
    "correct": 1,
-   "explanation": "The 1st one is 'ad'. The others are 'ab'."
+   "explanation": "The 1st one is 'ad'. The others are 'ab'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_m029",
@@ -2542,7 +2868,9 @@
     "4th"
    ],
    "correct": 1,
-   "explanation": "The 3rd one is 'id'. The others are 'ib'."
+   "explanation": "The 3rd one is 'id'. The others are 'ib'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_m030",
@@ -2557,7 +2885,9 @@
     "5th"
    ],
    "correct": 3,
-   "explanation": "The 5th one is 'od'. The others are 'ob'."
+   "explanation": "The 5th one is 'od'. The others are 'ob'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_m031",
@@ -2572,7 +2902,9 @@
     "unted"
    ],
    "correct": 2,
-   "explanation": "Look carefully at every letter: u-n-i-t-e-d."
+   "explanation": "Look carefully at every letter: u-n-i-t-e-d.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m032",
@@ -2587,7 +2919,9 @@
     "silnet"
    ],
    "correct": 0,
-   "explanation": "Look carefully at every letter: s-i-l-e-n-t."
+   "explanation": "Look carefully at every letter: s-i-l-e-n-t.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m033",
@@ -2602,7 +2936,9 @@
     "deserts"
    ],
    "correct": 0,
-   "explanation": "Look carefully at every letter: d-e-s-s-e-r-t."
+   "explanation": "Look carefully at every letter: d-e-s-s-e-r-t.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m034",
@@ -2617,7 +2953,9 @@
     "throughout"
    ],
    "correct": 0,
-   "explanation": "Look carefully at every letter: t-h-o-u-g-h-t."
+   "explanation": "Look carefully at every letter: t-h-o-u-g-h-t.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m035",
@@ -2632,7 +2970,9 @@
     "brougth"
    ],
    "correct": 2,
-   "explanation": "Look carefully at every letter: b-r-o-u-g-h-t."
+   "explanation": "Look carefully at every letter: b-r-o-u-g-h-t.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m036",
@@ -2647,7 +2987,9 @@
     "weather"
    ],
    "correct": 3,
-   "explanation": "Look carefully at every letter: w-e-a-t-h-e-r."
+   "explanation": "Look carefully at every letter: w-e-a-t-h-e-r.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l4_m037",
@@ -2662,7 +3004,9 @@
     "3rd"
    ],
    "correct": 0,
-   "explanation": "The 1st word is 'untied', not 'united'."
+   "explanation": "The 1st word is 'untied', not 'united'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_m038",
@@ -2677,7 +3021,9 @@
     "1st"
    ],
    "correct": 0,
-   "explanation": "The 2nd word is 'listen', not 'silent'."
+   "explanation": "The 2nd word is 'listen', not 'silent'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_m039",
@@ -2692,7 +3038,9 @@
     "1st"
    ],
    "correct": 2,
-   "explanation": "The 3rd word is 'desert', not 'dessert'."
+   "explanation": "The 3rd word is 'desert', not 'dessert'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_m040",
@@ -2707,7 +3055,9 @@
     "3rd"
    ],
    "correct": 2,
-   "explanation": "The 4th word is 'though', not 'thought'."
+   "explanation": "The 4th word is 'though', not 'thought'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_m041",
@@ -2722,7 +3072,9 @@
     "4th"
    ],
    "correct": 2,
-   "explanation": "The 1st word is 'bought', not 'brought'."
+   "explanation": "The 1st word is 'bought', not 'brought'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_o001",
@@ -2744,7 +3096,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: apple, banana, cherry, grape."
+   "explanation": "Alphabetical order: apple, banana, cherry, grape.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_o002",
@@ -2766,7 +3120,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: bed, chair, lamp, table."
+   "explanation": "Alphabetical order: bed, chair, lamp, table.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_o003",
@@ -2788,7 +3144,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: cat, cow, cub, kid."
+   "explanation": "Alphabetical order: cat, cow, cub, kid.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l4_o004",
@@ -2810,7 +3168,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: red, rice, road, rug."
+   "explanation": "Alphabetical order: red, rice, road, rug.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_m001",
@@ -2825,7 +3185,9 @@
     "knief"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'knife'."
+   "explanation": "The correct spelling is 'knife'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m002",
@@ -2840,7 +3202,9 @@
     "wirte"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'write'."
+   "explanation": "The correct spelling is 'write'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m003",
@@ -2855,7 +3219,9 @@
     "thum"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'thumb'."
+   "explanation": "The correct spelling is 'thumb'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m004",
@@ -2870,7 +3236,9 @@
     "island"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'island'."
+   "explanation": "The correct spelling is 'island'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m005",
@@ -2885,7 +3253,9 @@
     "catsle"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'castle'."
+   "explanation": "The correct spelling is 'castle'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m006",
@@ -2900,7 +3270,9 @@
     "lambb"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'lamb'."
+   "explanation": "The correct spelling is 'lamb'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m007",
@@ -2915,7 +3287,9 @@
     "otumn"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'autumn'."
+   "explanation": "The correct spelling is 'autumn'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m008",
@@ -2930,7 +3304,9 @@
     "cilmb"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'climb'."
+   "explanation": "The correct spelling is 'climb'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m009",
@@ -2945,7 +3321,9 @@
     "poeple"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'people'. Tip: people eat orange peel like elephants."
+   "explanation": "The correct spelling is 'people'. Tip: people eat orange peel like elephants.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m010",
@@ -2960,7 +3338,9 @@
     "beacuse"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'because'. Tip: Big Elephants Can Always Understand Small Elephants."
+   "explanation": "The correct spelling is 'because'. Tip: Big Elephants Can Always Understand Small Elephants.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m011",
@@ -2975,7 +3355,9 @@
     "frend"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'friend'. Tip: a friend is there to the end."
+   "explanation": "The correct spelling is 'friend'. Tip: a friend is there to the end.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m012",
@@ -2990,7 +3372,9 @@
     "Wensday"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'Wednesday'. Say it slowly: Wed-nes-day."
+   "explanation": "The correct spelling is 'Wednesday'. Say it slowly: Wed-nes-day.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m013",
@@ -3005,7 +3389,9 @@
     "beatiful"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'beautiful'. Tip: big elephants are useful."
+   "explanation": "The correct spelling is 'beautiful'. Tip: big elephants are useful.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m014",
@@ -3020,7 +3406,9 @@
     "sience"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'science'."
+   "explanation": "The correct spelling is 'science'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m015",
@@ -3035,7 +3423,9 @@
     "answre"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'answer'."
+   "explanation": "The correct spelling is 'answer'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m016",
@@ -3050,7 +3440,9 @@
     "listen"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'listen'."
+   "explanation": "The correct spelling is 'listen'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m017",
@@ -3065,7 +3457,9 @@
     "neccessary"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'necessary'. Tip: one collar (c) and two sleeves (ss)."
+   "explanation": "The correct spelling is 'necessary'. Tip: one collar (c) and two sleeves (ss).",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m018",
@@ -3080,7 +3474,9 @@
     "seprate"
    ],
    "correct": 2,
-   "explanation": "The correct spelling is 'separate'. Tip: there is 'a rat' in sep-a-rat-e."
+   "explanation": "The correct spelling is 'separate'. Tip: there is 'a rat' in sep-a-rat-e.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m019",
@@ -3095,7 +3491,9 @@
     "rythm"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'rhythm'. Tip: Rhythm Helps Your Two Hips Move."
+   "explanation": "The correct spelling is 'rhythm'. Tip: Rhythm Helps Your Two Hips Move.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m020",
@@ -3110,7 +3508,9 @@
     "knowledge"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'knowledge'."
+   "explanation": "The correct spelling is 'knowledge'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m021",
@@ -3125,7 +3525,9 @@
     "mussle"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'muscle'."
+   "explanation": "The correct spelling is 'muscle'.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m022",
@@ -3140,7 +3542,9 @@
     "giutar"
    ],
    "correct": 0,
-   "explanation": "The correct spelling is 'guitar'."
+   "explanation": "The correct spelling is 'guitar'.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m023",
@@ -3155,7 +3559,9 @@
     "receive"
    ],
    "correct": 3,
-   "explanation": "The correct spelling is 'receive'. Tip: i before e, except after c."
+   "explanation": "The correct spelling is 'receive'. Tip: i before e, except after c.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m024",
@@ -3170,7 +3576,9 @@
     "Febrary"
    ],
    "correct": 1,
-   "explanation": "The correct spelling is 'February'. Say it slowly: Feb-ru-ary."
+   "explanation": "The correct spelling is 'February'. Say it slowly: Feb-ru-ary.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m025",
@@ -3185,7 +3593,9 @@
     "6th"
    ],
    "correct": 3,
-   "explanation": "The 6th one is 'dab'. The others are 'bad'."
+   "explanation": "The 6th one is 'dab'. The others are 'bad'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_m026",
@@ -3200,7 +3610,9 @@
     "1st"
    ],
    "correct": 0,
-   "explanation": "The 2nd one is 'pid'. The others are 'dip'."
+   "explanation": "The 2nd one is 'pid'. The others are 'dip'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_m027",
@@ -3215,7 +3627,9 @@
     "4th"
    ],
    "correct": 3,
-   "explanation": "The 4th one is 'dub'. The others are 'bud'."
+   "explanation": "The 4th one is 'dub'. The others are 'bud'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_m028",
@@ -3230,7 +3644,9 @@
     "1st"
    ],
    "correct": 0,
-   "explanation": "The 6th one is 'bod'. The others are 'pod'."
+   "explanation": "The 6th one is 'bod'. The others are 'pod'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_m029",
@@ -3245,7 +3661,9 @@
     "3rd"
    ],
    "correct": 1,
-   "explanation": "The 2nd one is 'pan'. The others are 'nap'."
+   "explanation": "The 2nd one is 'pan'. The others are 'nap'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_m030",
@@ -3260,7 +3678,9 @@
     "4th"
    ],
    "correct": 3,
-   "explanation": "The 4th one is 'but'. The others are 'tub'."
+   "explanation": "The 4th one is 'but'. The others are 'tub'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_m031",
@@ -3275,7 +3695,9 @@
     "conservation"
    ],
    "correct": 2,
-   "explanation": "Look carefully at every letter: c-o-n-v-e-r-s-a-t-i-o-n."
+   "explanation": "Look carefully at every letter: c-o-n-v-e-r-s-a-t-i-o-n.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m032",
@@ -3290,7 +3712,9 @@
     "excpet"
    ],
    "correct": 2,
-   "explanation": "Look carefully at every letter: a-c-c-e-p-t."
+   "explanation": "Look carefully at every letter: a-c-c-e-p-t.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m033",
@@ -3305,7 +3729,9 @@
     "effect"
    ],
    "correct": 2,
-   "explanation": "Look carefully at every letter: a-f-f-e-c-t."
+   "explanation": "Look carefully at every letter: a-f-f-e-c-t.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m034",
@@ -3320,7 +3746,9 @@
     "advcie"
    ],
    "correct": 1,
-   "explanation": "Look carefully at every letter: a-d-v-i-c-e."
+   "explanation": "Look carefully at every letter: a-d-v-i-c-e.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "en_memoria_visual_l5_m035",
@@ -3335,7 +3763,9 @@
     "breahte"
    ],
    "correct": 1,
-   "explanation": "Look carefully at every letter: b-r-e-a-t-h-e."
+   "explanation": "Look carefully at every letter: b-r-e-a-t-h-e.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m036",
@@ -3350,7 +3780,9 @@
     "quartre"
    ],
    "correct": 0,
-   "explanation": "Look carefully at every letter: q-u-a-r-t-e-r."
+   "explanation": "Look carefully at every letter: q-u-a-r-t-e-r.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "en_memoria_visual_l5_m037",
@@ -3365,7 +3797,9 @@
     "2nd"
    ],
    "correct": 3,
-   "explanation": "The 2nd word is 'conservation', not 'conversation'."
+   "explanation": "The 2nd word is 'conservation', not 'conversation'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_m038",
@@ -3380,7 +3814,9 @@
     "1st"
    ],
    "correct": 1,
-   "explanation": "The 3rd word is 'except', not 'accept'."
+   "explanation": "The 3rd word is 'except', not 'accept'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_m039",
@@ -3395,7 +3831,9 @@
     "2nd"
    ],
    "correct": 1,
-   "explanation": "The 4th word is 'effect', not 'affect'."
+   "explanation": "The 4th word is 'effect', not 'affect'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_m040",
@@ -3410,7 +3848,9 @@
     "4th"
    ],
    "correct": 2,
-   "explanation": "The 1st word is 'advise', not 'advice'."
+   "explanation": "The 1st word is 'advise', not 'advice'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_m041",
@@ -3425,7 +3865,9 @@
     "1st"
    ],
    "correct": 2,
-   "explanation": "The 2nd word is 'breath', not 'breathe'."
+   "explanation": "The 2nd word is 'breath', not 'breathe'.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_o001",
@@ -3449,7 +3891,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: back, bake, ball, band, bank."
+   "explanation": "Alphabetical order: back, bake, ball, band, bank.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_o002",
@@ -3473,7 +3917,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: sea, seat, seed, seem, seen."
+   "explanation": "Alphabetical order: sea, seat, seed, seem, seen.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_o003",
@@ -3497,7 +3943,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: star, start, stay, steam, stop."
+   "explanation": "Alphabetical order: star, start, stay, steam, stop.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "en_memoria_visual_l5_o004",
@@ -3521,7 +3969,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Alphabetical order: plan, plane, plant, plate, play."
+   "explanation": "Alphabetical order: plan, plane, plant, plate, play.",
+   "skill": "mem_alpha",
+   "step": 1
   }
  ]
 }

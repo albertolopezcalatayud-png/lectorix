@@ -29,3 +29,7 @@ cur = json.load(open(lp, encoding='utf-8'))['readings']
 cur = [r for r in cur if r['level'] <= 5] + b.readings
 json.dump({'readings': cur}, open(lp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('lecturas', len(cur))
+
+# Skill and step (difficulty inside the level) for every exercise
+import tag_items
+tag_items.tag_lang('es')

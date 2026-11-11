@@ -13,7 +13,9 @@
     "enorme"
    ],
    "correct": 3,
-   "explanation": "«grande» y «enorme» significan lo mismo."
+   "explanation": "«grande» y «enorme» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l1_m002",
@@ -28,7 +30,9 @@
     "tarde"
    ],
    "correct": 1,
-   "explanation": "«contento» y «alegre» significan lo mismo."
+   "explanation": "«contento» y «alegre» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l1_m003",
@@ -43,7 +47,9 @@
     "veloz"
    ],
    "correct": 3,
-   "explanation": "«rápido» y «veloz» significan lo mismo."
+   "explanation": "«rápido» y «veloz» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l1_m004",
@@ -58,7 +64,9 @@
     "gigante"
    ],
    "correct": 2,
-   "explanation": "«pequeño» y «chiquito» significan lo mismo."
+   "explanation": "«pequeño» y «chiquito» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l1_m005",
@@ -73,7 +81,9 @@
     "tapar"
    ],
    "correct": 3,
-   "explanation": "«cerrar» y «tapar» significan lo mismo."
+   "explanation": "«cerrar» y «tapar» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l1_m006",
@@ -88,7 +98,9 @@
     "feo"
    ],
    "correct": 0,
-   "explanation": "«bonito» y «precioso» significan lo mismo."
+   "explanation": "«bonito» y «precioso» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l1_m007",
@@ -103,7 +115,9 @@
     "rojo"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «caliente» es «frío»."
+   "explanation": "Lo contrario de «caliente» es «frío».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l1_m008",
@@ -118,7 +132,9 @@
     "encima"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «arriba» es «abajo»."
+   "explanation": "Lo contrario de «arriba» es «abajo».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l1_m009",
@@ -133,7 +149,9 @@
     "sol"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «día» es «noche»."
+   "explanation": "Lo contrario de «día» es «noche».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l1_m010",
@@ -148,7 +166,9 @@
     "grande"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «viejo» es «nuevo»."
+   "explanation": "Lo contrario de «viejo» es «nuevo».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l1_m011",
@@ -163,7 +183,9 @@
     "lleno"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «mojado» es «seco»."
+   "explanation": "Lo contrario de «mojado» es «seco».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l1_m012",
@@ -178,7 +200,9 @@
     "rápido"
    ],
    "correct": 1,
-   "explanation": "Lo contrario de «contento» es «triste»."
+   "explanation": "Lo contrario de «contento» es «triste».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l1_m013",
@@ -193,7 +217,9 @@
     "gato"
    ],
    "correct": 1,
-   "explanation": "La manzana es una fruta; los demás son animales."
+   "explanation": "La manzana es una fruta; los demás son animales.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l1_m014",
@@ -208,7 +234,9 @@
     "silla"
    ],
    "correct": 3,
-   "explanation": "La silla es un mueble; los demás son colores."
+   "explanation": "La silla es un mueble; los demás son colores.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l1_m015",
@@ -223,7 +251,9 @@
     "tres"
    ],
    "correct": 1,
-   "explanation": "La tarta es comida; los demás son números."
+   "explanation": "La tarta es comida; los demás son números.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l1_m016",
@@ -238,7 +268,9 @@
     "caballo"
    ],
    "correct": 3,
-   "explanation": "El caballo es un animal."
+   "explanation": "El caballo es un animal.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l1_m017",
@@ -253,7 +285,9 @@
     "lápiz"
    ],
    "correct": 2,
-   "explanation": "Rosa es un color."
+   "explanation": "Rosa es un color.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l1_m018",
@@ -268,7 +302,9 @@
     "domingo"
    ],
    "correct": 0,
-   "explanation": "El siguiente es «miércoles»."
+   "explanation": "El siguiente es «miércoles».",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l1_m019",
@@ -283,7 +319,9 @@
     "diez"
    ],
    "correct": 2,
-   "explanation": "El siguiente es «cuatro»."
+   "explanation": "El siguiente es «cuatro».",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l1_m020",
@@ -298,7 +336,9 @@
     "3"
    ],
    "correct": 2,
-   "explanation": "g-a-t-o = 4 letras."
+   "explanation": "g-a-t-o = 4 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l1_m021",
@@ -313,7 +353,9 @@
     "2"
    ],
    "correct": 2,
-   "explanation": "s-o-l = 3 letras."
+   "explanation": "s-o-l = 3 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l1_m022",
@@ -328,7 +370,9 @@
     "4"
    ],
    "correct": 3,
-   "explanation": "m-e-s-a = 4 letras."
+   "explanation": "m-e-s-a = 4 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l1_m023",
@@ -343,7 +387,9 @@
     "6"
    ],
    "correct": 0,
-   "explanation": "p-a-t-o = 4 letras."
+   "explanation": "p-a-t-o = 4 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l1_m024",
@@ -358,7 +404,9 @@
     "gato"
    ],
    "correct": 2,
-   "explanation": "Orden alfabético: abeja, gato, oso, pato."
+   "explanation": "Orden alfabético: abeja, gato, oso, pato.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l1_m025",
@@ -373,7 +421,9 @@
     "cama"
    ],
    "correct": 3,
-   "explanation": "Orden alfabético: cama, mar, nariz, sol."
+   "explanation": "Orden alfabético: cama, mar, nariz, sol.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l1_m026",
@@ -388,7 +438,9 @@
     "gatos"
    ],
    "correct": 3,
-   "explanation": "un gato, dos gatos."
+   "explanation": "un gato, dos gatos.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l1_m027",
@@ -403,7 +455,9 @@
     "floris"
    ],
    "correct": 2,
-   "explanation": "una flor, dos flores."
+   "explanation": "una flor, dos flores.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l1_m028",
@@ -418,7 +472,9 @@
     "puntas"
    ],
    "correct": 3,
-   "explanation": "saca + puntas = sacapuntas."
+   "explanation": "saca + puntas = sacapuntas.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l1_m029",
@@ -433,7 +489,9 @@
     "mar"
    ],
    "correct": 2,
-   "explanation": "gira + sol = girasol."
+   "explanation": "gira + sol = girasol.",
+   "skill": "ret_wordform",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l1_o001",
@@ -455,7 +513,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "G-A-T-O = GATO"
+   "explanation": "G-A-T-O = GATO",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l1_o002",
@@ -475,7 +535,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "S-O-L = SOL"
+   "explanation": "S-O-L = SOL",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l2_m001",
@@ -490,7 +552,9 @@
     "comenzar"
    ],
    "correct": 3,
-   "explanation": "«empezar» y «comenzar» significan lo mismo."
+   "explanation": "«empezar» y «comenzar» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l2_m002",
@@ -505,7 +569,9 @@
     "susurrar"
    ],
    "correct": 0,
-   "explanation": "«gritar» y «chillar» significan lo mismo."
+   "explanation": "«gritar» y «chillar» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l2_m003",
@@ -520,7 +586,9 @@
     "contento"
    ],
    "correct": 1,
-   "explanation": "«asustado» y «atemorizado» significan lo mismo."
+   "explanation": "«asustado» y «atemorizado» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l2_m004",
@@ -535,7 +603,9 @@
     "hambriento"
    ],
    "correct": 2,
-   "explanation": "«cansado» y «agotado» significan lo mismo."
+   "explanation": "«cansado» y «agotado» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l2_m005",
@@ -550,7 +620,9 @@
     "correr"
    ],
    "correct": 2,
-   "explanation": "«mirar» y «observar» significan lo mismo."
+   "explanation": "«mirar» y «observar» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l2_m006",
@@ -565,7 +637,9 @@
     "largo"
    ],
    "correct": 2,
-   "explanation": "«fácil» y «sencillo» significan lo mismo."
+   "explanation": "«fácil» y «sencillo» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l2_m007",
@@ -580,7 +654,9 @@
     "cerrado"
    ],
    "correct": 3,
-   "explanation": "Lo contrario de «abierto» es «cerrado»."
+   "explanation": "Lo contrario de «abierto» es «cerrado».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l2_m008",
@@ -595,7 +671,9 @@
     "antes"
    ],
    "correct": 1,
-   "explanation": "Lo contrario de «temprano» es «tarde»."
+   "explanation": "Lo contrario de «temprano» es «tarde».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l2_m009",
@@ -610,7 +688,9 @@
     "ligero"
    ],
    "correct": 3,
-   "explanation": "Lo contrario de «pesado» es «ligero»."
+   "explanation": "Lo contrario de «pesado» es «ligero».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l2_m010",
@@ -625,7 +705,9 @@
     "agudo"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «ruidoso» es «silencioso»."
+   "explanation": "Lo contrario de «ruidoso» es «silencioso».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l2_m011",
@@ -640,7 +722,9 @@
     "coger"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «empujar» es «tirar»."
+   "explanation": "Lo contrario de «empujar» es «tirar».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l2_m012",
@@ -655,7 +739,9 @@
     "vencer"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «ganar» es «perder»."
+   "explanation": "Lo contrario de «ganar» es «perder».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l2_m013",
@@ -670,7 +756,9 @@
     "pera"
    ],
    "correct": 1,
-   "explanation": "La zanahoria es una hortaliza; las demás son frutas."
+   "explanation": "La zanahoria es una hortaliza; las demás son frutas.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l2_m014",
@@ -685,7 +773,9 @@
     "marzo"
    ],
    "correct": 3,
-   "explanation": "Marzo es un mes; los demás son días."
+   "explanation": "Marzo es un mes; los demás son días.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l2_m015",
@@ -700,7 +790,9 @@
     "autobús"
    ],
    "correct": 2,
-   "explanation": "Un puente no es un vehículo."
+   "explanation": "Un puente no es un vehículo.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l2_m016",
@@ -715,7 +807,9 @@
     "correr"
    ],
    "correct": 3,
-   "explanation": "«correr» es una acción: un verbo."
+   "explanation": "«correr» es una acción: un verbo.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l2_m017",
@@ -730,7 +824,9 @@
     "cantar"
    ],
    "correct": 2,
-   "explanation": "Una silla es una cosa: un sustantivo."
+   "explanation": "Una silla es una cosa: un sustantivo.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l2_m018",
@@ -745,7 +841,9 @@
     "mayo"
    ],
    "correct": 1,
-   "explanation": "El siguiente es «marzo»."
+   "explanation": "El siguiente es «marzo».",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l2_m019",
@@ -760,7 +858,9 @@
     "primavera"
    ],
    "correct": 1,
-   "explanation": "El siguiente es «otoño»."
+   "explanation": "El siguiente es «otoño».",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l2_m020",
@@ -775,7 +875,9 @@
     "6"
    ],
    "correct": 1,
-   "explanation": "v-e-n-t-a-n-a = 7 letras."
+   "explanation": "v-e-n-t-a-n-a = 7 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l2_m021",
@@ -790,7 +892,9 @@
     "7"
    ],
    "correct": 0,
-   "explanation": "c-o-n-e-j-o = 6 letras."
+   "explanation": "c-o-n-e-j-o = 6 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l2_m022",
@@ -805,7 +909,9 @@
     "5"
    ],
    "correct": 3,
-   "explanation": "p-l-a-y-a = 5 letras."
+   "explanation": "p-l-a-y-a = 5 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l2_m023",
@@ -820,7 +926,9 @@
     "7"
    ],
    "correct": 3,
-   "explanation": "m-o-n-t-a-ñ-a = 7 letras."
+   "explanation": "m-o-n-t-a-ñ-a = 7 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l2_m024",
@@ -835,7 +943,9 @@
     "piña"
    ],
    "correct": 0,
-   "explanation": "Orden alfabético: melón, pera, piña, plátano."
+   "explanation": "Orden alfabético: melón, pera, piña, plátano.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l2_m025",
@@ -850,7 +960,9 @@
     "taza"
    ],
    "correct": 2,
-   "explanation": "Orden alfabético: luz, puerta, silla, taza."
+   "explanation": "Orden alfabético: luz, puerta, silla, taza.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l2_m026",
@@ -865,7 +977,9 @@
     "peces"
    ],
    "correct": 3,
-   "explanation": "un pez, dos peces."
+   "explanation": "un pez, dos peces.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l2_m027",
@@ -880,7 +994,9 @@
     "camiónes"
    ],
    "correct": 1,
-   "explanation": "un camión, dos camiones."
+   "explanation": "un camión, dos camiones.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l2_m028",
@@ -895,7 +1011,9 @@
     "mesas"
    ],
    "correct": 2,
-   "explanation": "para + caídas = paracaídas."
+   "explanation": "para + caídas = paracaídas.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l2_m029",
@@ -910,7 +1028,9 @@
     "sillas"
    ],
    "correct": 0,
-   "explanation": "abre + latas = abrelatas."
+   "explanation": "abre + latas = abrelatas.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l2_o001",
@@ -932,7 +1052,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "P-E-R-A = PERA"
+   "explanation": "P-E-R-A = PERA",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l2_o002",
@@ -954,7 +1076,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "M-E-S-A = MESA"
+   "explanation": "M-E-S-A = MESA",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l3_m001",
@@ -969,7 +1093,9 @@
     "inmenso"
    ],
    "correct": 3,
-   "explanation": "«enorme» y «inmenso» significan lo mismo."
+   "explanation": "«enorme» y «inmenso» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l3_m002",
@@ -984,7 +1110,9 @@
     "callado"
    ],
    "correct": 3,
-   "explanation": "«silencioso» y «callado» significan lo mismo."
+   "explanation": "«silencioso» y «callado» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l3_m003",
@@ -999,7 +1127,9 @@
     "vago"
    ],
    "correct": 0,
-   "explanation": "«valiente» y «valeroso» significan lo mismo."
+   "explanation": "«valiente» y «valeroso» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l3_m004",
@@ -1014,7 +1144,9 @@
     "fácil"
    ],
    "correct": 2,
-   "explanation": "«difícil» y «complicado» significan lo mismo."
+   "explanation": "«difícil» y «complicado» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l3_m005",
@@ -1029,7 +1161,9 @@
     "desordenado"
    ],
    "correct": 2,
-   "explanation": "«ordenado» y «recogido» significan lo mismo."
+   "explanation": "«ordenado» y «recogido» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l3_m006",
@@ -1044,7 +1178,9 @@
     "pobre"
    ],
    "correct": 2,
-   "explanation": "«rico» y «adinerado» significan lo mismo."
+   "explanation": "«rico» y «adinerado» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l3_m007",
@@ -1059,7 +1195,9 @@
     "orgulloso"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «valiente» es «miedoso»."
+   "explanation": "Lo contrario de «valiente» es «miedoso».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l3_m008",
@@ -1074,7 +1212,9 @@
     "egoísta"
    ],
    "correct": 3,
-   "explanation": "Lo contrario de «generoso» es «egoísta»."
+   "explanation": "Lo contrario de «generoso» es «egoísta».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l3_m009",
@@ -1089,7 +1229,9 @@
     "entrar"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «llegar» es «irse»."
+   "explanation": "Lo contrario de «llegar» es «irse».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l3_m010",
@@ -1104,7 +1246,9 @@
     "polvoriento"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «antiguo» es «moderno»."
+   "explanation": "Lo contrario de «antiguo» es «moderno».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l3_m011",
@@ -1119,7 +1263,9 @@
     "profundo"
    ],
    "correct": 3,
-   "explanation": "Lo contrario de «superficial» es «profundo»."
+   "explanation": "Lo contrario de «superficial» es «profundo».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l3_m012",
@@ -1134,7 +1280,9 @@
     "suave"
    ],
    "correct": 3,
-   "explanation": "Lo contrario de «áspero» es «suave»."
+   "explanation": "Lo contrario de «áspero» es «suave».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l3_m013",
@@ -1149,7 +1297,9 @@
     "ballena"
    ],
    "correct": 0,
-   "explanation": "El águila vuela; los demás viven en el mar."
+   "explanation": "El águila vuela; los demás viven en el mar.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l3_m014",
@@ -1164,7 +1314,9 @@
     "piano"
    ],
    "correct": 1,
-   "explanation": "El martillo es una herramienta, no un instrumento."
+   "explanation": "El martillo es una herramienta, no un instrumento.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l3_m015",
@@ -1179,7 +1331,9 @@
     "verano"
    ],
    "correct": 2,
-   "explanation": "Martes es un día; los demás son estaciones."
+   "explanation": "Martes es un día; los demás son estaciones.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l3_m016",
@@ -1194,7 +1348,9 @@
     "jardín"
    ],
    "correct": 1,
-   "explanation": "«suave» describe: un adjetivo."
+   "explanation": "«suave» describe: un adjetivo.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l3_m017",
@@ -1209,7 +1365,9 @@
     "suave"
    ],
    "correct": 1,
-   "explanation": "«susurrar» es una acción: un verbo."
+   "explanation": "«susurrar» es una acción: un verbo.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l3_m018",
@@ -1224,7 +1382,9 @@
     "lunes"
    ],
    "correct": 2,
-   "explanation": "El siguiente es «sábado»."
+   "explanation": "El siguiente es «sábado».",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l3_m019",
@@ -1239,7 +1399,9 @@
     "cuatro"
    ],
    "correct": 2,
-   "explanation": "El siguiente es «cuarenta»."
+   "explanation": "El siguiente es «cuarenta».",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l3_m020",
@@ -1254,7 +1416,9 @@
     "9"
    ],
    "correct": 0,
-   "explanation": "e-l-e-f-a-n-t-e = 8 letras."
+   "explanation": "e-l-e-f-a-n-t-e = 8 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l3_m021",
@@ -1269,7 +1433,9 @@
     "7"
    ],
    "correct": 3,
-   "explanation": "n-a-r-a-n-j-a = 7 letras."
+   "explanation": "n-a-r-a-n-j-a = 7 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l3_m022",
@@ -1284,7 +1450,9 @@
     "6"
    ],
    "correct": 0,
-   "explanation": "t-o-r-t-u-g-a = 7 letras."
+   "explanation": "t-o-r-t-u-g-a = 7 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l3_m023",
@@ -1299,7 +1467,9 @@
     "7"
    ],
    "correct": 3,
-   "explanation": "c-a-n-c-i-ó-n = 7 letras."
+   "explanation": "c-a-n-c-i-ó-n = 7 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l3_m024",
@@ -1314,7 +1484,9 @@
     "buey"
    ],
    "correct": 2,
-   "explanation": "Orden alfabético: bota, buey, bufanda, caja."
+   "explanation": "Orden alfabético: bota, buey, bufanda, caja.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l3_m025",
@@ -1329,7 +1501,9 @@
     "gorro"
    ],
    "correct": 1,
-   "explanation": "Orden alfabético: coche, cola, cubo, gorro."
+   "explanation": "Orden alfabético: coche, cola, cubo, gorro.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l3_m026",
@@ -1344,7 +1518,9 @@
     "lápizs"
    ],
    "correct": 2,
-   "explanation": "un lápiz, dos lápices."
+   "explanation": "un lápiz, dos lápices.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l3_m027",
@@ -1359,7 +1535,9 @@
     "lucez"
    ],
    "correct": 0,
-   "explanation": "una luz, dos luces."
+   "explanation": "una luz, dos luces.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l3_m028",
@@ -1374,7 +1552,9 @@
     "perros"
    ],
    "correct": 0,
-   "explanation": "lava + platos = lavaplatos."
+   "explanation": "lava + platos = lavaplatos.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l3_m029",
@@ -1389,7 +1569,9 @@
     "lunas"
    ],
    "correct": 0,
-   "explanation": "cumple + años = cumpleaños."
+   "explanation": "cumple + años = cumpleaños.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l3_o001",
@@ -1415,7 +1597,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "P-L-A-N-T-A = PLANTA"
+   "explanation": "P-L-A-N-T-A = PLANTA",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l3_o002",
@@ -1437,7 +1621,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "T-R-E-N = TREN"
+   "explanation": "T-R-E-N = TREN",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l4_m001",
@@ -1452,7 +1638,9 @@
     "muy viejo"
    ],
    "correct": 3,
-   "explanation": "«antiguo» y «muy viejo» significan lo mismo."
+   "explanation": "«antiguo» y «muy viejo» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l4_m002",
@@ -1467,7 +1655,9 @@
     "muy frío"
    ],
    "correct": 0,
-   "explanation": "«furioso» y «muy enfadado» significan lo mismo."
+   "explanation": "«furioso» y «muy enfadado» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l4_m003",
@@ -1482,7 +1672,9 @@
     "que se rompe fácilmente"
    ],
    "correct": 3,
-   "explanation": "«frágil» y «que se rompe fácilmente» significan lo mismo."
+   "explanation": "«frágil» y «que se rompe fácilmente» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l4_m004",
@@ -1497,7 +1689,9 @@
     "muy cansado"
    ],
    "correct": 3,
-   "explanation": "«agotado» y «muy cansado» significan lo mismo."
+   "explanation": "«agotado» y «muy cansado» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l4_m005",
@@ -1512,7 +1706,9 @@
     "muy contento"
    ],
    "correct": 3,
-   "explanation": "«encantado» y «muy contento» significan lo mismo."
+   "explanation": "«encantado» y «muy contento» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l4_m006",
@@ -1527,7 +1723,9 @@
     "estrecho"
    ],
    "correct": 2,
-   "explanation": "«gigantesco» y «enorme» significan lo mismo."
+   "explanation": "«gigantesco» y «enorme» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l4_m007",
@@ -1542,7 +1740,9 @@
     "éxito"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «victoria» es «derrota»."
+   "explanation": "Lo contrario de «victoria» es «derrota».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l4_m008",
@@ -1557,7 +1757,9 @@
     "estirar"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «ensanchar» es «estrechar»."
+   "explanation": "Lo contrario de «ensanchar» es «estrechar».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l4_m009",
@@ -1572,7 +1774,9 @@
     "temporal"
    ],
    "correct": 3,
-   "explanation": "Lo contrario de «permanente» es «temporal»."
+   "explanation": "Lo contrario de «permanente» es «temporal».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l4_m010",
@@ -1587,7 +1791,9 @@
     "tranquilo"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «inocente» es «culpable»."
+   "explanation": "Lo contrario de «inocente» es «culpable».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l4_m011",
@@ -1602,7 +1808,9 @@
     "implicar"
    ],
    "correct": 1,
-   "explanation": "Lo contrario de «incluir» es «excluir»."
+   "explanation": "Lo contrario de «incluir» es «excluir».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l4_m012",
@@ -1617,7 +1825,9 @@
     "superior"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «máximo» es «mínimo»."
+   "explanation": "Lo contrario de «máximo» es «mínimo».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l4_m013",
@@ -1632,7 +1842,9 @@
     "Júpiter"
    ],
    "correct": 0,
-   "explanation": "La Luna no es un planeta."
+   "explanation": "La Luna no es un planeta.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l4_m014",
@@ -1647,7 +1859,9 @@
     "cubo"
    ],
    "correct": 3,
-   "explanation": "El cubo tiene tres dimensiones; los demás son figuras planas."
+   "explanation": "El cubo tiene tres dimensiones; los demás son figuras planas.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l4_m015",
@@ -1662,7 +1876,9 @@
     "contento"
    ],
    "correct": 3,
-   "explanation": "«contento» es un adjetivo; los demás son verbos."
+   "explanation": "«contento» es un adjetivo; los demás son verbos.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l4_m016",
@@ -1677,7 +1893,9 @@
     "cuidado"
    ],
    "correct": 2,
-   "explanation": "«cuidadosamente» dice cómo: un adverbio."
+   "explanation": "«cuidadosamente» dice cómo: un adverbio.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l4_m017",
@@ -1692,7 +1910,9 @@
     "ellos"
    ],
    "correct": 3,
-   "explanation": "«ellos» sustituye a un nombre: un pronombre."
+   "explanation": "«ellos» sustituye a un nombre: un pronombre.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l4_m018",
@@ -1707,7 +1927,9 @@
     "agosto"
    ],
    "correct": 0,
-   "explanation": "El siguiente es «diciembre»."
+   "explanation": "El siguiente es «diciembre».",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l4_m019",
@@ -1722,7 +1944,9 @@
     "cuarto"
    ],
    "correct": 3,
-   "explanation": "El siguiente es «cuarto»."
+   "explanation": "El siguiente es «cuarto».",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l4_m020",
@@ -1737,7 +1961,9 @@
     "10"
    ],
    "correct": 0,
-   "explanation": "m-a-r-i-p-o-s-a = 8 letras."
+   "explanation": "m-a-r-i-p-o-s-a = 8 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l4_m021",
@@ -1752,7 +1978,9 @@
     "12"
    ],
    "correct": 1,
-   "explanation": "d-i-n-o-s-a-u-r-i-o = 10 letras."
+   "explanation": "d-i-n-o-s-a-u-r-i-o = 10 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l4_m022",
@@ -1767,7 +1995,9 @@
     "12"
    ],
    "correct": 0,
-   "explanation": "i-m-p-o-r-t-a-n-t-e = 10 letras."
+   "explanation": "i-m-p-o-r-t-a-n-t-e = 10 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l4_m023",
@@ -1782,7 +2012,9 @@
     "10"
    ],
    "correct": 0,
-   "explanation": "b-i-c-i-c-l-e-t-a = 9 letras."
+   "explanation": "b-i-c-i-c-l-e-t-a = 9 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l4_m024",
@@ -1797,7 +2029,9 @@
     "sol"
    ],
    "correct": 0,
-   "explanation": "Orden alfabético: sal, sed, sol, sur."
+   "explanation": "Orden alfabético: sal, sed, sol, sur.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l4_m025",
@@ -1812,7 +2046,9 @@
     "pan"
    ],
    "correct": 3,
-   "explanation": "Orden alfabético: pan, pana, pañal, papel."
+   "explanation": "Orden alfabético: pan, pana, pañal, papel.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l4_m026",
@@ -1827,7 +2063,9 @@
     "exámens"
    ],
    "correct": 1,
-   "explanation": "un examen, dos exámenes."
+   "explanation": "un examen, dos exámenes.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l4_m027",
@@ -1842,7 +2080,9 @@
     "jovens"
    ],
    "correct": 1,
-   "explanation": "un joven, dos jóvenes."
+   "explanation": "un joven, dos jóvenes.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l4_m028",
@@ -1857,7 +2097,9 @@
     "pies"
    ],
    "correct": 0,
-   "explanation": "rasca + cielos = rascacielos."
+   "explanation": "rasca + cielos = rascacielos.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l4_m029",
@@ -1872,7 +2114,9 @@
     "peces"
    ],
    "correct": 2,
-   "explanation": "salva + vidas = salvavidas."
+   "explanation": "salva + vidas = salvavidas.",
+   "skill": "ret_wordform",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l4_o001",
@@ -1896,7 +2140,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "A-R-A-Ñ-A = ARAÑA"
+   "explanation": "A-R-A-Ñ-A = ARAÑA",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l4_o002",
@@ -1922,7 +2168,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "J-A-R-D-Í-N = JARDÍN"
+   "explanation": "J-A-R-D-Í-N = JARDÍN",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l5_m001",
@@ -1937,7 +2185,9 @@
     "entusiasta"
    ],
    "correct": 0,
-   "explanation": "«reacio» y «poco dispuesto» significan lo mismo."
+   "explanation": "«reacio» y «poco dispuesto» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l5_m002",
@@ -1952,7 +2202,9 @@
     "curioso"
    ],
    "correct": 2,
-   "explanation": "«prudente» y «cauteloso» significan lo mismo."
+   "explanation": "«prudente» y «cauteloso» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l5_m003",
@@ -1967,7 +2219,9 @@
     "silencioso"
    ],
    "correct": 1,
-   "explanation": "«abundante» y «copioso» significan lo mismo."
+   "explanation": "«abundante» y «copioso» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l5_m004",
@@ -1982,7 +2236,9 @@
     "áspero"
    ],
    "correct": 0,
-   "explanation": "«vívido» y «intenso» significan lo mismo."
+   "explanation": "«vívido» y «intenso» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l5_m005",
@@ -1997,7 +2253,9 @@
     "frecuentemente"
    ],
    "correct": 3,
-   "explanation": "«a menudo» y «frecuentemente» significan lo mismo."
+   "explanation": "«a menudo» y «frecuentemente» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l5_m006",
@@ -2012,7 +2270,9 @@
     "ocultar"
    ],
    "correct": 3,
-   "explanation": "«esconder» y «ocultar» significan lo mismo."
+   "explanation": "«esconder» y «ocultar» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l5_m007",
@@ -2027,7 +2287,9 @@
     "brillante"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «transparente» es «opaco»."
+   "explanation": "Lo contrario de «transparente» es «opaco».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l5_m008",
@@ -2042,7 +2304,9 @@
     "pesimista"
    ],
    "correct": 3,
-   "explanation": "Lo contrario de «optimista» es «pesimista»."
+   "explanation": "Lo contrario de «optimista» es «pesimista».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l5_m009",
@@ -2057,7 +2321,9 @@
     "corto"
    ],
    "correct": 1,
-   "explanation": "Lo contrario de «escaso» es «abundante»."
+   "explanation": "Lo contrario de «escaso» es «abundante».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l5_m010",
@@ -2072,7 +2338,9 @@
     "aplaudir"
    ],
    "correct": 1,
-   "explanation": "Lo contrario de «elogiar» es «criticar»."
+   "explanation": "Lo contrario de «elogiar» es «criticar».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l5_m011",
@@ -2087,7 +2355,9 @@
     "dispuesto"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «voluntario» es «obligatorio»."
+   "explanation": "Lo contrario de «voluntario» es «obligatorio».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l5_m012",
@@ -2102,7 +2372,9 @@
     "alzar"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «subir» es «bajar»."
+   "explanation": "Lo contrario de «subir» es «bajar».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l5_m013",
@@ -2117,7 +2389,9 @@
     "lentamente"
    ],
    "correct": 1,
-   "explanation": "«valiente» es un adjetivo; los demás son adverbios."
+   "explanation": "«valiente» es un adjetivo; los demás son adverbios.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l5_m014",
@@ -2132,7 +2406,9 @@
     "Francia"
    ],
    "correct": 3,
-   "explanation": "Francia es un país; los demás son capitales."
+   "explanation": "Francia es un país; los demás son capitales.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l5_m015",
@@ -2147,7 +2423,9 @@
     "líquido"
    ],
    "correct": 1,
-   "explanation": "El metal es un material; los demás son estados de la materia."
+   "explanation": "El metal es un material; los demás son estados de la materia.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l5_m016",
@@ -2162,7 +2440,9 @@
     "bonito"
    ],
    "correct": 2,
-   "explanation": "«entre» es una preposición: une palabras e indica una relación."
+   "explanation": "«entre» es una preposición: une palabras e indica una relación.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l5_m017",
@@ -2177,7 +2457,9 @@
     "aunque"
    ],
    "correct": 3,
-   "explanation": "«aunque» une dos ideas: una conjunción."
+   "explanation": "«aunque» une dos ideas: una conjunción.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l5_m018",
@@ -2192,7 +2474,9 @@
     "ayer"
    ],
    "correct": 2,
-   "explanation": "El siguiente es «futuro»."
+   "explanation": "El siguiente es «futuro».",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l5_m019",
@@ -2207,7 +2491,9 @@
     "agua"
    ],
    "correct": 1,
-   "explanation": "El siguiente es «gaseoso»."
+   "explanation": "El siguiente es «gaseoso».",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l5_m020",
@@ -2222,7 +2508,9 @@
     "9"
    ],
    "correct": 3,
-   "explanation": "m-i-é-r-c-o-l-e-s = 9 letras."
+   "explanation": "m-i-é-r-c-o-l-e-s = 9 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l5_m021",
@@ -2237,7 +2525,9 @@
     "11"
    ],
    "correct": 0,
-   "explanation": "n-e-c-e-s-i-d-a-d = 9 letras."
+   "explanation": "n-e-c-e-s-i-d-a-d = 9 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l5_m022",
@@ -2252,7 +2542,9 @@
     "9"
    ],
    "correct": 0,
-   "explanation": "b-i-b-l-i-o-t-e-c-a = 10 letras."
+   "explanation": "b-i-b-l-i-o-t-e-c-a = 10 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l5_m023",
@@ -2267,7 +2559,9 @@
     "14"
    ],
    "correct": 0,
-   "explanation": "a-y-u-n-t-a-m-i-e-n-t-o = 12 letras."
+   "explanation": "a-y-u-n-t-a-m-i-e-n-t-o = 12 letras.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l5_m024",
@@ -2282,7 +2576,9 @@
     "pluma"
    ],
    "correct": 2,
-   "explanation": "Orden alfabético: plato, playa, plaza, pluma."
+   "explanation": "Orden alfabético: plato, playa, plaza, pluma.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l5_m025",
@@ -2297,7 +2593,9 @@
     "estufa"
    ],
    "correct": 2,
-   "explanation": "Orden alfabético: estación, estrella, estuche, estufa."
+   "explanation": "Orden alfabético: estación, estrella, estuche, estufa.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l5_m026",
@@ -2312,7 +2610,9 @@
     "luneses"
    ],
    "correct": 2,
-   "explanation": "el lunes, los lunes: no cambia."
+   "explanation": "el lunes, los lunes: no cambia.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l5_m027",
@@ -2327,7 +2627,9 @@
     "sofases"
    ],
    "correct": 1,
-   "explanation": "un sofá, dos sofás."
+   "explanation": "un sofá, dos sofás.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l5_m028",
@@ -2342,7 +2644,9 @@
     "sillas"
    ],
    "correct": 1,
-   "explanation": "pasa + montañas = pasamontañas."
+   "explanation": "pasa + montañas = pasamontañas.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l5_m029",
@@ -2357,7 +2661,9 @@
     "puertas"
    ],
    "correct": 2,
-   "explanation": "casca + nueces = cascanueces."
+   "explanation": "casca + nueces = cascanueces.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l5_o001",
@@ -2387,7 +2693,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "C-A-S-T-I-L-L-O = CASTILLO"
+   "explanation": "C-A-S-T-I-L-L-O = CASTILLO",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l5_o002",
@@ -2415,7 +2723,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "V-E-N-T-A-N-A = VENTANA"
+   "explanation": "V-E-N-T-A-N-A = VENTANA",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l6_m001",
@@ -2430,7 +2740,9 @@
     "seguir"
    ],
    "correct": 1,
-   "explanation": "«comenzar» y «iniciar» significan lo mismo."
+   "explanation": "«comenzar» y «iniciar» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l6_m002",
@@ -2445,7 +2757,9 @@
     "rápido"
    ],
    "correct": 3,
-   "explanation": "«veloz» y «rápido» significan lo mismo."
+   "explanation": "«veloz» y «rápido» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l6_m003",
@@ -2460,7 +2774,9 @@
     "perder"
    ],
    "correct": 1,
-   "explanation": "«hallar» y «encontrar» significan lo mismo."
+   "explanation": "«hallar» y «encontrar» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l6_m004",
@@ -2475,7 +2791,9 @@
     "enfadado"
    ],
    "correct": 0,
-   "explanation": "«dichoso» y «feliz» significan lo mismo."
+   "explanation": "«dichoso» y «feliz» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l6_m005",
@@ -2490,7 +2808,9 @@
     "furioso"
    ],
    "correct": 0,
-   "explanation": "«sereno» y «tranquilo» significan lo mismo."
+   "explanation": "«sereno» y «tranquilo» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l6_m006",
@@ -2505,7 +2825,9 @@
     "rico"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «generoso» es «tacaño»."
+   "explanation": "Lo contrario de «generoso» es «tacaño».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l6_m007",
@@ -2520,7 +2842,9 @@
     "ampliar"
    ],
    "correct": 1,
-   "explanation": "Lo contrario de «aumentar» es «disminuir»."
+   "explanation": "Lo contrario de «aumentar» es «disminuir».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l6_m008",
@@ -2535,7 +2859,9 @@
     "audaz"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «valiente» es «cobarde»."
+   "explanation": "Lo contrario de «valiente» es «cobarde».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l6_m009",
@@ -2550,7 +2876,9 @@
     "privado"
    ],
    "correct": 3,
-   "explanation": "Lo contrario de «público» es «privado»."
+   "explanation": "Lo contrario de «público» es «privado».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l6_m010",
@@ -2565,7 +2893,9 @@
     "clásico"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «antiguo» es «moderno»."
+   "explanation": "Lo contrario de «antiguo» es «moderno».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l6_m011",
@@ -2580,7 +2910,9 @@
     "párrafo"
    ],
    "correct": 3,
-   "explanation": "Párrafo no es una categoría gramatical."
+   "explanation": "Párrafo no es una categoría gramatical.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l6_m012",
@@ -2595,7 +2927,9 @@
     "expositivo"
    ],
    "correct": 1,
-   "explanation": "La rima no es un tipo de texto."
+   "explanation": "La rima no es un tipo de texto.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l6_m013",
@@ -2610,7 +2944,9 @@
     "Júcar"
    ],
    "correct": 0,
-   "explanation": "El Teide es una montaña; los demás son ríos."
+   "explanation": "El Teide es una montaña; los demás son ríos.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l6_m014",
@@ -2625,7 +2961,9 @@
     "aquellos"
    ],
    "correct": 3,
-   "explanation": "«aquellos» acompaña al sustantivo: determinante demostrativo."
+   "explanation": "«aquellos» acompaña al sustantivo: determinante demostrativo.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l6_m015",
@@ -2640,7 +2978,9 @@
     "hacha"
    ],
    "correct": 0,
-   "explanation": "«hacia» indica dirección: preposición."
+   "explanation": "«hacia» indica dirección: preposición.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l6_m016",
@@ -2655,7 +2995,9 @@
     "perro"
    ],
    "correct": 0,
-   "explanation": "La libertad no se puede tocar: sustantivo abstracto."
+   "explanation": "La libertad no se puede tocar: sustantivo abstracto.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l6_m017",
@@ -2670,7 +3012,9 @@
     "Antes"
    ],
    "correct": 0,
-   "explanation": "sub- significa «debajo de»."
+   "explanation": "sub- significa «debajo de».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l6_m018",
@@ -2685,7 +3029,9 @@
     "Sin"
    ],
    "correct": 2,
-   "explanation": "pre- significa «antes»."
+   "explanation": "pre- significa «antes».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l6_m019",
@@ -2700,7 +3046,9 @@
     "Conjunto"
    ],
    "correct": 2,
-   "explanation": "-ero indica oficio: el que hace pan."
+   "explanation": "-ero indica oficio: el que hace pan.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l6_m020",
@@ -2715,7 +3063,9 @@
     "marca"
    ],
    "correct": 3,
-   "explanation": "marca no deriva de mar."
+   "explanation": "marca no deriva de mar.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l6_m021",
@@ -2730,7 +3080,9 @@
     "pánico"
    ],
    "correct": 0,
-   "explanation": "panadería deriva de pan."
+   "explanation": "panadería deriva de pan.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l6_m022",
@@ -2745,7 +3097,9 @@
     "Estar muy alto"
    ],
    "correct": 1,
-   "explanation": "Es una expresión: estar despistado."
+   "explanation": "Es una expresión: estar despistado.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l6_m023",
@@ -2760,7 +3114,9 @@
     "Doler mucho"
    ],
    "correct": 0,
-   "explanation": "Expresión: costar muchísimo dinero."
+   "explanation": "Expresión: costar muchísimo dinero.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l6_o001",
@@ -2790,7 +3146,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "B-I-O-L-O-G-Í-A = BIOLOGÍA"
+   "explanation": "B-I-O-L-O-G-Í-A = BIOLOGÍA",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l7_m001",
@@ -2805,7 +3163,9 @@
     "eterno"
    ],
    "correct": 0,
-   "explanation": "«efímero» y «pasajero» significan lo mismo."
+   "explanation": "«efímero» y «pasajero» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l7_m002",
@@ -2820,7 +3180,9 @@
     "aburrido"
    ],
    "correct": 0,
-   "explanation": "«perspicaz» y «agudo» significan lo mismo."
+   "explanation": "«perspicaz» y «agudo» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l7_m003",
@@ -2835,7 +3197,9 @@
     "trabajador"
    ],
    "correct": 3,
-   "explanation": "«diligente» y «trabajador» significan lo mismo."
+   "explanation": "«diligente» y «trabajador» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l7_m004",
@@ -2850,7 +3214,9 @@
     "entretenido"
    ],
    "correct": 3,
-   "explanation": "«ameno» y «entretenido» significan lo mismo."
+   "explanation": "«ameno» y «entretenido» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l7_m005",
@@ -2865,7 +3231,9 @@
     "breve"
    ],
    "correct": 3,
-   "explanation": "«escueto» y «breve» significan lo mismo."
+   "explanation": "«escueto» y «breve» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l7_m006",
@@ -2880,7 +3248,9 @@
     "fugaz"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «efímero» es «duradero»."
+   "explanation": "Lo contrario de «efímero» es «duradero».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l7_m007",
@@ -2895,7 +3265,9 @@
     "claro"
    ],
    "correct": 1,
-   "explanation": "Lo contrario de «sencillo» es «complejo»."
+   "explanation": "Lo contrario de «sencillo» es «complejo».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l7_m008",
@@ -2910,7 +3282,9 @@
     "rechazar"
    ],
    "correct": 3,
-   "explanation": "Lo contrario de «aceptar» es «rechazar»."
+   "explanation": "Lo contrario de «aceptar» es «rechazar».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l7_m009",
@@ -2925,7 +3299,9 @@
     "pobreza"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «escasez» es «abundancia»."
+   "explanation": "Lo contrario de «escasez» es «abundancia».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l7_m010",
@@ -2940,7 +3316,9 @@
     "alegre"
    ],
    "correct": 1,
-   "explanation": "Lo contrario de «optimista» es «pesimista»."
+   "explanation": "Lo contrario de «optimista» es «pesimista».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l7_m011",
@@ -2955,7 +3333,9 @@
     "titular"
    ],
    "correct": 3,
-   "explanation": "El titular es parte de la noticia, no un recurso literario."
+   "explanation": "El titular es parte de la noticia, no un recurso literario.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l7_m012",
@@ -2970,7 +3350,9 @@
     "sin embargo"
    ],
    "correct": 2,
-   "explanation": "«porque» expresa causa; los demás, oposición."
+   "explanation": "«porque» expresa causa; los demás, oposición.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l7_m013",
@@ -2985,7 +3367,9 @@
     "entrevista"
    ],
    "correct": 2,
-   "explanation": "El soneto es un poema; los demás son géneros periodísticos."
+   "explanation": "El soneto es un poema; los demás son géneros periodísticos.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l7_m014",
@@ -3000,7 +3384,9 @@
     "vienes"
    ],
    "correct": 1,
-   "explanation": "«que vengas» expresa deseo o posibilidad: subjuntivo."
+   "explanation": "«que vengas» expresa deseo o posibilidad: subjuntivo.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l7_m015",
@@ -3015,7 +3401,9 @@
     "bien"
    ],
    "correct": 0,
-   "explanation": "«cuyo» introduce una oración de relativo."
+   "explanation": "«cuyo» introduce una oración de relativo.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l7_m016",
@@ -3030,7 +3418,9 @@
     "pelo"
    ],
    "correct": 2,
-   "explanation": "«pero» une oraciones: conjunción."
+   "explanation": "«pero» une oraciones: conjunción.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l7_m017",
@@ -3045,7 +3435,9 @@
     "Dentro"
    ],
    "correct": 1,
-   "explanation": "anti- significa «contra»."
+   "explanation": "anti- significa «contra».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l7_m018",
@@ -3060,7 +3452,9 @@
     "Cercanía"
    ],
    "correct": 2,
-   "explanation": "des- indica lo contrario: deshacer."
+   "explanation": "des- indica lo contrario: deshacer.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l7_m019",
@@ -3075,7 +3469,9 @@
     "Oficio"
    ],
    "correct": 0,
-   "explanation": "-ito es un diminutivo."
+   "explanation": "-ito es un diminutivo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l7_m020",
@@ -3090,7 +3486,9 @@
     "luminoso"
    ],
    "correct": 2,
-   "explanation": "lucha no deriva de luz."
+   "explanation": "lucha no deriva de luz.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l7_m021",
@@ -3105,7 +3503,9 @@
     "terco"
    ],
    "correct": 2,
-   "explanation": "terrestre viene de tierra (latín terra)."
+   "explanation": "terrestre viene de tierra (latín terra).",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l7_m022",
@@ -3120,7 +3520,9 @@
     "Tropezar"
    ],
    "correct": 1,
-   "explanation": "Expresión: cometer un error."
+   "explanation": "Expresión: cometer un error.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l7_m023",
@@ -3135,7 +3537,9 @@
     "Cargar el móvil"
    ],
    "correct": 2,
-   "explanation": "Expresión: activarse."
+   "explanation": "Expresión: activarse.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l7_o001",
@@ -3167,7 +3571,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "H-I-P-Ó-T-E-S-I-S = HIPÓTESIS"
+   "explanation": "H-I-P-Ó-T-E-S-I-S = HIPÓTESIS",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l8_m001",
@@ -3182,7 +3588,9 @@
     "propio"
    ],
    "correct": 3,
-   "explanation": "«inherente» y «propio» significan lo mismo."
+   "explanation": "«inherente» y «propio» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l8_m002",
@@ -3197,7 +3605,9 @@
     "orgulloso"
    ],
    "correct": 2,
-   "explanation": "«ecuánime» y «imparcial» significan lo mismo."
+   "explanation": "«ecuánime» y «imparcial» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l8_m003",
@@ -3212,7 +3622,9 @@
     "enorme"
    ],
    "correct": 0,
-   "explanation": "«exiguo» y «escaso» significan lo mismo."
+   "explanation": "«exiguo» y «escaso» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l8_m004",
@@ -3227,7 +3639,9 @@
     "público"
    ],
    "correct": 2,
-   "explanation": "«subrepticio» y «oculto» significan lo mismo."
+   "explanation": "«subrepticio» y «oculto» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l8_m005",
@@ -3242,7 +3656,9 @@
     "débil"
    ],
    "correct": 1,
-   "explanation": "«acérrimo» y «tenaz» significan lo mismo."
+   "explanation": "«acérrimo» y «tenaz» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l8_m006",
@@ -3257,7 +3673,9 @@
     "implícito"
    ],
    "correct": 3,
-   "explanation": "Lo contrario de «explícito» es «implícito»."
+   "explanation": "Lo contrario de «explícito» es «implícito».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l8_m007",
@@ -3272,7 +3690,9 @@
     "permitir"
    ],
    "correct": 3,
-   "explanation": "Lo contrario de «prohibir» es «permitir»."
+   "explanation": "Lo contrario de «prohibir» es «permitir».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l8_m008",
@@ -3287,7 +3707,9 @@
     "parcial"
    ],
    "correct": 1,
-   "explanation": "Lo contrario de «subjetivo» es «objetivo»."
+   "explanation": "Lo contrario de «subjetivo» es «objetivo».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l8_m009",
@@ -3302,7 +3724,9 @@
     "preciso"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «concreto» es «abstracto»."
+   "explanation": "Lo contrario de «concreto» es «abstracto».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l8_m010",
@@ -3317,7 +3741,9 @@
     "adquirido"
    ],
    "correct": 3,
-   "explanation": "Lo contrario de «innato» es «adquirido»."
+   "explanation": "Lo contrario de «innato» es «adquirido».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l8_m011",
@@ -3332,7 +3758,9 @@
     "sujeto"
    ],
    "correct": 3,
-   "explanation": "El sujeto es una función sintáctica, no un recurso literario."
+   "explanation": "El sujeto es una función sintáctica, no un recurso literario.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l8_m012",
@@ -3347,7 +3775,9 @@
     "por tanto"
    ],
    "correct": 1,
-   "explanation": "«no obstante» opone; los demás expresan consecuencia."
+   "explanation": "«no obstante» opone; los demás expresan consecuencia.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l8_m013",
@@ -3362,7 +3792,9 @@
     "narrativa"
    ],
    "correct": 1,
-   "explanation": "La ortografía no es un género literario."
+   "explanation": "La ortografía no es un género literario.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l8_m014",
@@ -3377,7 +3809,9 @@
     "cantando"
    ],
    "correct": 3,
-   "explanation": "El gerundio acaba en -ando o -iendo."
+   "explanation": "El gerundio acaba en -ando o -iendo.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l8_m015",
@@ -3392,7 +3826,9 @@
     "escribiendo"
    ],
    "correct": 0,
-   "explanation": "escrito es el participio de escribir."
+   "explanation": "escrito es el participio de escribir.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l8_m016",
@@ -3407,7 +3843,9 @@
     "nunca"
    ],
    "correct": 1,
-   "explanation": "quizá expresa duda."
+   "explanation": "quizá expresa duda.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l8_m017",
@@ -3422,7 +3860,9 @@
     "Aire"
    ],
    "correct": 2,
-   "explanation": "hidro- significa agua."
+   "explanation": "hidro- significa agua.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l8_m018",
@@ -3437,7 +3877,9 @@
     "Estudio o ciencia"
    ],
    "correct": 3,
-   "explanation": "-logía significa estudio."
+   "explanation": "-logía significa estudio.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l8_m019",
@@ -3452,7 +3894,9 @@
     "Ninguno"
    ],
    "correct": 0,
-   "explanation": "poli- significa muchos."
+   "explanation": "poli- significa muchos.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l8_m020",
@@ -3467,7 +3911,9 @@
     "aguacero"
    ],
    "correct": 2,
-   "explanation": "águila no deriva de agua."
+   "explanation": "águila no deriva de agua.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l8_m021",
@@ -3482,7 +3928,9 @@
     "notable"
    ],
    "correct": 1,
-   "explanation": "nocturno viene del latín nox, noctis."
+   "explanation": "nocturno viene del latín nox, noctis.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l8_m022",
@@ -3497,7 +3945,9 @@
     "Ganar"
    ],
    "correct": 0,
-   "explanation": "Expresión del boxeo: abandonar."
+   "explanation": "Expresión del boxeo: abandonar.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l8_m023",
@@ -3512,7 +3962,9 @@
     "No tener salida"
    ],
    "correct": 3,
-   "explanation": "Expresión: tener que elegir entre dos opciones malas."
+   "explanation": "Expresión: tener que elegir entre dos opciones malas.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l8_o001",
@@ -3544,7 +3996,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "E-X-C-E-P-C-I-Ó-N = EXCEPCIÓN"
+   "explanation": "E-X-C-E-P-C-I-Ó-N = EXCEPCIÓN",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l9_m001",
@@ -3559,7 +4013,9 @@
     "corriente"
    ],
    "correct": 2,
-   "explanation": "«inefable» y «indescriptible» significan lo mismo."
+   "explanation": "«inefable» y «indescriptible» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l9_m002",
@@ -3574,7 +4030,9 @@
     "breve"
    ],
    "correct": 2,
-   "explanation": "«prolijo» y «extenso» significan lo mismo."
+   "explanation": "«prolijo» y «extenso» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l9_m003",
@@ -3589,7 +4047,9 @@
     "cobarde"
    ],
    "correct": 3,
-   "explanation": "«pusilánime» y «cobarde» significan lo mismo."
+   "explanation": "«pusilánime» y «cobarde» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l9_m004",
@@ -3604,7 +4064,9 @@
     "escaso"
    ],
    "correct": 0,
-   "explanation": "«ubicuo» y «omnipresente» significan lo mismo."
+   "explanation": "«ubicuo» y «omnipresente» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l9_m005",
@@ -3619,7 +4081,9 @@
     "elogiable"
    ],
    "correct": 3,
-   "explanation": "«loable» y «elogiable» significan lo mismo."
+   "explanation": "«loable» y «elogiable» significan lo mismo.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l9_m006",
@@ -3634,7 +4098,9 @@
     "extenso"
    ],
    "correct": 1,
-   "explanation": "Lo contrario de «prolijo» es «conciso»."
+   "explanation": "Lo contrario de «prolijo» es «conciso».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l9_m007",
@@ -3649,7 +4115,9 @@
     "generoso"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «altruista» es «egoísta»."
+   "explanation": "Lo contrario de «altruista» es «egoísta».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l9_m008",
@@ -3664,7 +4132,9 @@
     "breve"
    ],
    "correct": 0,
-   "explanation": "Lo contrario de «efímero» es «perenne»."
+   "explanation": "Lo contrario de «efímero» es «perenne».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l9_m009",
@@ -3679,7 +4149,9 @@
     "limpio"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «diáfano» es «turbio»."
+   "explanation": "Lo contrario de «diáfano» es «turbio».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l9_m010",
@@ -3694,7 +4166,9 @@
     "elogiar"
    ],
    "correct": 2,
-   "explanation": "Lo contrario de «ensalzar» es «denigrar»."
+   "explanation": "Lo contrario de «ensalzar» es «denigrar».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l9_m011",
@@ -3709,7 +4183,9 @@
     "adjetiva"
    ],
    "correct": 2,
-   "explanation": "Las coordinadas copulativas no son subordinadas."
+   "explanation": "Las coordinadas copulativas no son subordinadas.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l9_m012",
@@ -3724,7 +4200,9 @@
     "es decir"
    ],
    "correct": 2,
-   "explanation": "«en cambio» opone; los demás reformulan."
+   "explanation": "«en cambio» opone; los demás reformulan.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l9_m013",
@@ -3739,7 +4217,9 @@
     "Cervantes"
    ],
    "correct": 3,
-   "explanation": "Cervantes es del Siglo de Oro, no de la Generación del 27."
+   "explanation": "Cervantes es del Siglo de Oro, no de la Generación del 27.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l9_m014",
@@ -3754,7 +4234,9 @@
     "nocturno"
    ],
    "correct": 3,
-   "explanation": "nocturno conserva la forma latina; noche es la palabra patrimonial."
+   "explanation": "nocturno conserva la forma latina; noche es la palabra patrimonial.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l9_m015",
@@ -3769,7 +4251,9 @@
     "balompié"
    ],
    "correct": 2,
-   "explanation": "fútbol viene del inglés football."
+   "explanation": "fútbol viene del inglés football.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l9_m016",
@@ -3784,7 +4268,9 @@
     "hablar"
    ],
    "correct": 0,
-   "explanation": "tuitear es una palabra nueva creada a partir de una red social."
+   "explanation": "tuitear es una palabra nueva creada a partir de una red social.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l9_m017",
@@ -3799,7 +4285,9 @@
     "Enfermedad"
    ],
    "correct": 1,
-   "explanation": "-fobia significa miedo o rechazo."
+   "explanation": "-fobia significa miedo o rechazo.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l9_m018",
@@ -3814,7 +4302,9 @@
     "Miedo"
    ],
    "correct": 1,
-   "explanation": "filo- significa amigo o amante de."
+   "explanation": "filo- significa amigo o amante de.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l9_m019",
@@ -3829,7 +4319,9 @@
     "Cerca"
    ],
    "correct": 1,
-   "explanation": "tele- significa lejos."
+   "explanation": "tele- significa lejos.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "es_retos_rapidos_l9_m020",
@@ -3844,7 +4336,9 @@
     "ocular"
    ],
    "correct": 0,
-   "explanation": "hoja no deriva de ojo."
+   "explanation": "hoja no deriva de ojo.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l9_m021",
@@ -3859,7 +4353,9 @@
     "filete"
    ],
    "correct": 0,
-   "explanation": "filial viene del latín filius (hijo)."
+   "explanation": "filial viene del latín filius (hijo).",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l9_m022",
@@ -3874,7 +4370,9 @@
     "De mala gana"
    ],
    "correct": 3,
-   "explanation": "Hacer algo a regañadientes es hacerlo sin ganas."
+   "explanation": "Hacer algo a regañadientes es hacerlo sin ganas.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "es_retos_rapidos_l9_m023",
@@ -3889,7 +4387,9 @@
     "Algo muy pequeño"
    ],
    "correct": 1,
-   "explanation": "Expresión: el último motivo que provoca una reacción."
+   "explanation": "Expresión: el último motivo que provoca una reacción.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "es_retos_rapidos_l9_o001",
@@ -3923,7 +4423,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "A-M-B-I-G-Ü-E-D-A-D = AMBIGÜEDAD"
+   "explanation": "A-M-B-I-G-Ü-E-D-A-D = AMBIGÜEDAD",
+   "skill": "ret_letters",
+   "step": 3
   }
  ]
 }

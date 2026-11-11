@@ -14,7 +14,9 @@
    ],
    "correct": 0,
    "explanation": "The text says: 'Sam has a red ball.'",
-   "passage": "Sam has a red ball. He kicks the ball in the garden. His dog, Rex, runs after it. Rex brings the ball back to Sam."
+   "passage": "Sam has a red ball. He kicks the ball in the garden. His dog, Rex, runs after it. Rex brings the ball back to Sam.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_m002",
@@ -30,7 +32,9 @@
    ],
    "correct": 3,
    "explanation": "'His dog, Rex, runs after it.'",
-   "passage": "Sam has a red ball. He kicks the ball in the garden. His dog, Rex, runs after it. Rex brings the ball back to Sam."
+   "passage": "Sam has a red ball. He kicks the ball in the garden. His dog, Rex, runs after it. Rex brings the ball back to Sam.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_m003",
@@ -46,7 +50,9 @@
    ],
    "correct": 2,
    "explanation": "'He kicks the ball in the garden.'",
-   "passage": "Sam has a red ball. He kicks the ball in the garden. His dog, Rex, runs after it. Rex brings the ball back to Sam."
+   "passage": "Sam has a red ball. He kicks the ball in the garden. His dog, Rex, runs after it. Rex brings the ball back to Sam.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_m004",
@@ -62,7 +68,9 @@
    ],
    "correct": 3,
    "explanation": "'Rex brings the ball back to Sam.'",
-   "passage": "Sam has a red ball. He kicks the ball in the garden. His dog, Rex, runs after it. Rex brings the ball back to Sam."
+   "passage": "Sam has a red ball. He kicks the ball in the garden. His dog, Rex, runs after it. Rex brings the ball back to Sam.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_m005",
@@ -78,7 +86,9 @@
    ],
    "correct": 0,
    "explanation": "'with her gran'",
-   "passage": "Lily likes to bake. Today she makes a big chocolate cake with her gran. They put six candles on top. It is Lily's birthday!"
+   "passage": "Lily likes to bake. Today she makes a big chocolate cake with her gran. They put six candles on top. It is Lily's birthday!",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_m006",
@@ -94,7 +104,9 @@
    ],
    "correct": 1,
    "explanation": "'a big chocolate cake'",
-   "passage": "Lily likes to bake. Today she makes a big chocolate cake with her gran. They put six candles on top. It is Lily's birthday!"
+   "passage": "Lily likes to bake. Today she makes a big chocolate cake with her gran. They put six candles on top. It is Lily's birthday!",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_m007",
@@ -110,7 +122,9 @@
    ],
    "correct": 1,
    "explanation": "'They put six candles on top.'",
-   "passage": "Lily likes to bake. Today she makes a big chocolate cake with her gran. They put six candles on top. It is Lily's birthday!"
+   "passage": "Lily likes to bake. Today she makes a big chocolate cake with her gran. They put six candles on top. It is Lily's birthday!",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_m008",
@@ -126,7 +140,9 @@
    ],
    "correct": 0,
    "explanation": "It is her birthday and there are six candles, so she is six.",
-   "passage": "Lily likes to bake. Today she makes a big chocolate cake with her gran. They put six candles on top. It is Lily's birthday!"
+   "passage": "Lily likes to bake. Today she makes a big chocolate cake with her gran. They put six candles on top. It is Lily's birthday!",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_m009",
@@ -142,7 +158,9 @@
    ],
    "correct": 0,
    "explanation": "'A little frog sits on a green leaf.'",
-   "passage": "A little frog sits on a green leaf. The sun is hot. The frog jumps into the pond. Splash! Now the frog is cool."
+   "passage": "A little frog sits on a green leaf. The sun is hot. The frog jumps into the pond. Splash! Now the frog is cool.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_m010",
@@ -158,7 +176,9 @@
    ],
    "correct": 0,
    "explanation": "'The sun is hot.'",
-   "passage": "A little frog sits on a green leaf. The sun is hot. The frog jumps into the pond. Splash! Now the frog is cool."
+   "passage": "A little frog sits on a green leaf. The sun is hot. The frog jumps into the pond. Splash! Now the frog is cool.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_m011",
@@ -174,7 +194,9 @@
    ],
    "correct": 0,
    "explanation": "At the end the frog is cool: it jumped in because it was hot.",
-   "passage": "A little frog sits on a green leaf. The sun is hot. The frog jumps into the pond. Splash! Now the frog is cool."
+   "passage": "A little frog sits on a green leaf. The sun is hot. The frog jumps into the pond. Splash! Now the frog is cool.",
+   "skill": "comp_inference",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_m012",
@@ -190,7 +212,9 @@
    ],
    "correct": 1,
    "explanation": "'Splash!'",
-   "passage": "A little frog sits on a green leaf. The sun is hot. The frog jumps into the pond. Splash! Now the frog is cool."
+   "passage": "A little frog sits on a green leaf. The sun is hot. The frog jumps into the pond. Splash! Now the frog is cool.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_m013",
@@ -206,7 +230,9 @@
    ],
    "correct": 2,
    "explanation": "'Tom goes to school on the bus.'",
-   "passage": "Tom goes to school on the bus. He sits next to his friend Ali. They look out of the window and count red cars. Ali counts ten!"
+   "passage": "Tom goes to school on the bus. He sits next to his friend Ali. They look out of the window and count red cars. Ali counts ten!",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_m014",
@@ -222,7 +248,9 @@
    ],
    "correct": 0,
    "explanation": "'his friend Ali'",
-   "passage": "Tom goes to school on the bus. He sits next to his friend Ali. They look out of the window and count red cars. Ali counts ten!"
+   "passage": "Tom goes to school on the bus. He sits next to his friend Ali. They look out of the window and count red cars. Ali counts ten!",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_m015",
@@ -238,7 +266,9 @@
    ],
    "correct": 3,
    "explanation": "'count red cars'",
-   "passage": "Tom goes to school on the bus. He sits next to his friend Ali. They look out of the window and count red cars. Ali counts ten!"
+   "passage": "Tom goes to school on the bus. He sits next to his friend Ali. They look out of the window and count red cars. Ali counts ten!",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_m016",
@@ -254,7 +284,9 @@
    ],
    "correct": 0,
    "explanation": "'Ali counts ten!'",
-   "passage": "Tom goes to school on the bus. He sits next to his friend Ali. They look out of the window and count red cars. Ali counts ten!"
+   "passage": "Tom goes to school on the bus. He sits next to his friend Ali. They look out of the window and count red cars. Ali counts ten!",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_m017",
@@ -270,7 +302,9 @@
    ],
    "correct": 0,
    "explanation": "'Mia has a pet cat'",
-   "passage": "Mia has a pet cat called Snow. Snow is white and fluffy. She sleeps on Mia's bed every night. In the morning, Snow wants milk."
+   "passage": "Mia has a pet cat called Snow. Snow is white and fluffy. She sleeps on Mia's bed every night. In the morning, Snow wants milk.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_m018",
@@ -286,7 +320,9 @@
    ],
    "correct": 3,
    "explanation": "Snow is white, like snow.",
-   "passage": "Mia has a pet cat called Snow. Snow is white and fluffy. She sleeps on Mia's bed every night. In the morning, Snow wants milk."
+   "passage": "Mia has a pet cat called Snow. Snow is white and fluffy. She sleeps on Mia's bed every night. In the morning, Snow wants milk.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_m019",
@@ -302,7 +338,9 @@
    ],
    "correct": 0,
    "explanation": "'She sleeps on Mia's bed every night.'",
-   "passage": "Mia has a pet cat called Snow. Snow is white and fluffy. She sleeps on Mia's bed every night. In the morning, Snow wants milk."
+   "passage": "Mia has a pet cat called Snow. Snow is white and fluffy. She sleeps on Mia's bed every night. In the morning, Snow wants milk.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_m020",
@@ -318,7 +356,9 @@
    ],
    "correct": 1,
    "explanation": "'In the morning, Snow wants milk.'",
-   "passage": "Mia has a pet cat called Snow. Snow is white and fluffy. She sleeps on Mia's bed every night. In the morning, Snow wants milk."
+   "passage": "Mia has a pet cat called Snow. Snow is white and fluffy. She sleeps on Mia's bed every night. In the morning, Snow wants milk.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_m021",
@@ -334,7 +374,9 @@
    ],
    "correct": 0,
    "explanation": "'It is raining.'",
-   "passage": "It is raining. Ben puts on his yellow coat and his boots. He jumps in the puddles with his little sister. They both get very wet!"
+   "passage": "It is raining. Ben puts on his yellow coat and his boots. He jumps in the puddles with his little sister. They both get very wet!",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_m022",
@@ -350,7 +392,9 @@
    ],
    "correct": 1,
    "explanation": "'his yellow coat'",
-   "passage": "It is raining. Ben puts on his yellow coat and his boots. He jumps in the puddles with his little sister. They both get very wet!"
+   "passage": "It is raining. Ben puts on his yellow coat and his boots. He jumps in the puddles with his little sister. They both get very wet!",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_m023",
@@ -366,7 +410,9 @@
    ],
    "correct": 0,
    "explanation": "'with his little sister'",
-   "passage": "It is raining. Ben puts on his yellow coat and his boots. He jumps in the puddles with his little sister. They both get very wet!"
+   "passage": "It is raining. Ben puts on his yellow coat and his boots. He jumps in the puddles with his little sister. They both get very wet!",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_m024",
@@ -382,7 +428,9 @@
    ],
    "correct": 3,
    "explanation": "'They both get very wet!'",
-   "passage": "It is raining. Ben puts on his yellow coat and his boots. He jumps in the puddles with his little sister. They both get very wet!"
+   "passage": "It is raining. Ben puts on his yellow coat and his boots. He jumps in the puddles with his little sister. They both get very wet!",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_m025",
@@ -398,7 +446,9 @@
    ],
    "correct": 1,
    "explanation": "'a vegetable garden'",
-   "passage": "Grandad has a vegetable garden. He grows carrots, peas and big orange pumpkins. Ella helps him water the plants every Saturday."
+   "passage": "Grandad has a vegetable garden. He grows carrots, peas and big orange pumpkins. Ella helps him water the plants every Saturday.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_m026",
@@ -414,7 +464,9 @@
    ],
    "correct": 3,
    "explanation": "'big orange pumpkins'",
-   "passage": "Grandad has a vegetable garden. He grows carrots, peas and big orange pumpkins. Ella helps him water the plants every Saturday."
+   "passage": "Grandad has a vegetable garden. He grows carrots, peas and big orange pumpkins. Ella helps him water the plants every Saturday.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_m027",
@@ -430,7 +482,9 @@
    ],
    "correct": 0,
    "explanation": "'Ella helps him'",
-   "passage": "Grandad has a vegetable garden. He grows carrots, peas and big orange pumpkins. Ella helps him water the plants every Saturday."
+   "passage": "Grandad has a vegetable garden. He grows carrots, peas and big orange pumpkins. Ella helps him water the plants every Saturday.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_m028",
@@ -446,7 +500,9 @@
    ],
    "correct": 2,
    "explanation": "'every Saturday'",
-   "passage": "Grandad has a vegetable garden. He grows carrots, peas and big orange pumpkins. Ella helps him water the plants every Saturday."
+   "passage": "Grandad has a vegetable garden. He grows carrots, peas and big orange pumpkins. Ella helps him water the plants every Saturday.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_m029",
@@ -462,7 +518,9 @@
    ],
    "correct": 2,
    "explanation": "'At the zoo'",
-   "passage": "At the zoo, Noah sees a tall giraffe. The giraffe eats leaves from the top of a tree. Noah says, 'Its neck is so long!'"
+   "passage": "At the zoo, Noah sees a tall giraffe. The giraffe eats leaves from the top of a tree. Noah says, 'Its neck is so long!'",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_m030",
@@ -478,7 +536,9 @@
    ],
    "correct": 2,
    "explanation": "'a tall giraffe'",
-   "passage": "At the zoo, Noah sees a tall giraffe. The giraffe eats leaves from the top of a tree. Noah says, 'Its neck is so long!'"
+   "passage": "At the zoo, Noah sees a tall giraffe. The giraffe eats leaves from the top of a tree. Noah says, 'Its neck is so long!'",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_m031",
@@ -494,7 +554,9 @@
    ],
    "correct": 0,
    "explanation": "'eats leaves from the top of a tree'",
-   "passage": "At the zoo, Noah sees a tall giraffe. The giraffe eats leaves from the top of a tree. Noah says, 'Its neck is so long!'"
+   "passage": "At the zoo, Noah sees a tall giraffe. The giraffe eats leaves from the top of a tree. Noah says, 'Its neck is so long!'",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_m032",
@@ -510,7 +572,9 @@
    ],
    "correct": 3,
    "explanation": "Noah says its neck is so long.",
-   "passage": "At the zoo, Noah sees a tall giraffe. The giraffe eats leaves from the top of a tree. Noah says, 'Its neck is so long!'"
+   "passage": "At the zoo, Noah sees a tall giraffe. The giraffe eats leaves from the top of a tree. Noah says, 'Its neck is so long!'",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_f001",
@@ -529,7 +593,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Dogs say woof and cows say moo."
+   "explanation": "Dogs say woof and cows say moo.",
+   "skill": "comp_vocab",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_f002",
@@ -548,7 +614,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "We eat soup with a spoon."
+   "explanation": "We eat soup with a spoon.",
+   "skill": "comp_vocab",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_f003",
@@ -567,7 +635,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "The sun is hot; snow is cold."
+   "explanation": "The sun is hot; snow is cold.",
+   "skill": "comp_vocab",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_f004",
@@ -584,7 +654,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "We sleep in a bed."
+   "explanation": "We sleep in a bed.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_f005",
@@ -603,7 +675,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Fish swim; birds fly."
+   "explanation": "Fish swim; birds fly.",
+   "skill": "comp_vocab",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l1_f006",
@@ -620,7 +694,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "A hat goes on your head."
+   "explanation": "A hat goes on your head.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l1_f007",
@@ -639,7 +715,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "You read a book and drink water."
+   "explanation": "You read a book and drink water.",
+   "skill": "comp_vocab",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l1_f008",
@@ -656,7 +734,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "A car has four wheels."
+   "explanation": "A car has four wheels.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_m001",
@@ -672,7 +752,9 @@
    ],
    "correct": 2,
    "explanation": "Four brown hens and one black hen make five.",
-   "passage": "Every morning, Zara feeds her hens. There are four brown hens and one black hen. The hens lay eggs in a wooden box. On Sunday, Zara and her dad use the eggs to make pancakes for breakfast."
+   "passage": "Every morning, Zara feeds her hens. There are four brown hens and one black hen. The hens lay eggs in a wooden box. On Sunday, Zara and her dad use the eggs to make pancakes for breakfast.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_m002",
@@ -688,7 +770,9 @@
    ],
    "correct": 2,
    "explanation": "'in a wooden box'",
-   "passage": "Every morning, Zara feeds her hens. There are four brown hens and one black hen. The hens lay eggs in a wooden box. On Sunday, Zara and her dad use the eggs to make pancakes for breakfast."
+   "passage": "Every morning, Zara feeds her hens. There are four brown hens and one black hen. The hens lay eggs in a wooden box. On Sunday, Zara and her dad use the eggs to make pancakes for breakfast.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_m003",
@@ -704,7 +788,9 @@
    ],
    "correct": 3,
    "explanation": "'make pancakes for breakfast'",
-   "passage": "Every morning, Zara feeds her hens. There are four brown hens and one black hen. The hens lay eggs in a wooden box. On Sunday, Zara and her dad use the eggs to make pancakes for breakfast."
+   "passage": "Every morning, Zara feeds her hens. There are four brown hens and one black hen. The hens lay eggs in a wooden box. On Sunday, Zara and her dad use the eggs to make pancakes for breakfast.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_m004",
@@ -720,7 +806,9 @@
    ],
    "correct": 2,
    "explanation": "'Every morning, Zara feeds her hens.'",
-   "passage": "Every morning, Zara feeds her hens. There are four brown hens and one black hen. The hens lay eggs in a wooden box. On Sunday, Zara and her dad use the eggs to make pancakes for breakfast."
+   "passage": "Every morning, Zara feeds her hens. There are four brown hens and one black hen. The hens lay eggs in a wooden box. On Sunday, Zara and her dad use the eggs to make pancakes for breakfast.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_m005",
@@ -736,7 +824,9 @@
    ],
    "correct": 1,
    "explanation": "'Jack lost his blue hat'",
-   "passage": "Jack lost his blue hat at the park. He looked under the bench and behind the slide, but it was not there. Then he saw a small dog with something blue in its mouth. It was his hat!"
+   "passage": "Jack lost his blue hat at the park. He looked under the bench and behind the slide, but it was not there. Then he saw a small dog with something blue in its mouth. It was his hat!",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_m006",
@@ -752,7 +842,9 @@
    ],
    "correct": 0,
    "explanation": "'He looked under the bench and behind the slide'",
-   "passage": "Jack lost his blue hat at the park. He looked under the bench and behind the slide, but it was not there. Then he saw a small dog with something blue in its mouth. It was his hat!"
+   "passage": "Jack lost his blue hat at the park. He looked under the bench and behind the slide, but it was not there. Then he saw a small dog with something blue in its mouth. It was his hat!",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_m007",
@@ -768,7 +860,9 @@
    ],
    "correct": 2,
    "explanation": "'a small dog with something blue in its mouth'",
-   "passage": "Jack lost his blue hat at the park. He looked under the bench and behind the slide, but it was not there. Then he saw a small dog with something blue in its mouth. It was his hat!"
+   "passage": "Jack lost his blue hat at the park. He looked under the bench and behind the slide, but it was not there. Then he saw a small dog with something blue in its mouth. It was his hat!",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_m008",
@@ -784,7 +878,9 @@
    ],
    "correct": 1,
    "explanation": "He found his hat, so he probably felt happy.",
-   "passage": "Jack lost his blue hat at the park. He looked under the bench and behind the slide, but it was not there. Then he saw a small dog with something blue in its mouth. It was his hat!"
+   "passage": "Jack lost his blue hat at the park. He looked under the bench and behind the slide, but it was not there. Then he saw a small dog with something blue in its mouth. It was his hat!",
+   "skill": "comp_inference",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_m009",
@@ -800,7 +896,9 @@
    ],
    "correct": 1,
    "explanation": "'to collect nectar'",
-   "passage": "Bees are very busy insects. They fly from flower to flower to collect nectar. They take the nectar back to the hive and turn it into honey. Bees also help flowers and fruit to grow."
+   "passage": "Bees are very busy insects. They fly from flower to flower to collect nectar. They take the nectar back to the hive and turn it into honey. Bees also help flowers and fruit to grow.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_m010",
@@ -816,7 +914,9 @@
    ],
    "correct": 1,
    "explanation": "'back to the hive'",
-   "passage": "Bees are very busy insects. They fly from flower to flower to collect nectar. They take the nectar back to the hive and turn it into honey. Bees also help flowers and fruit to grow."
+   "passage": "Bees are very busy insects. They fly from flower to flower to collect nectar. They take the nectar back to the hive and turn it into honey. Bees also help flowers and fruit to grow.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_m011",
@@ -832,7 +932,9 @@
    ],
    "correct": 3,
    "explanation": "'turn it into honey'",
-   "passage": "Bees are very busy insects. They fly from flower to flower to collect nectar. They take the nectar back to the hive and turn it into honey. Bees also help flowers and fruit to grow."
+   "passage": "Bees are very busy insects. They fly from flower to flower to collect nectar. They take the nectar back to the hive and turn it into honey. Bees also help flowers and fruit to grow.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_m012",
@@ -848,7 +950,9 @@
    ],
    "correct": 1,
    "explanation": "'Bees also help flowers and fruit to grow.'",
-   "passage": "Bees are very busy insects. They fly from flower to flower to collect nectar. They take the nectar back to the hive and turn it into honey. Bees also help flowers and fruit to grow."
+   "passage": "Bees are very busy insects. They fly from flower to flower to collect nectar. They take the nectar back to the hive and turn it into honey. Bees also help flowers and fruit to grow.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_m013",
@@ -864,7 +968,9 @@
    ],
    "correct": 3,
    "explanation": "'learn to ride a bike'",
-   "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!"
+   "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_m014",
@@ -880,7 +986,9 @@
    ],
    "correct": 1,
    "explanation": "'she fell off and hurt her knee'",
-   "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!"
+   "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_m015",
@@ -896,7 +1004,9 @@
    ],
    "correct": 0,
    "explanation": "'After two weeks'",
-   "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!"
+   "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_m016",
@@ -912,7 +1022,9 @@
    ],
    "correct": 2,
    "explanation": "She did not give up and she succeeded.",
-   "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!"
+   "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_m017",
@@ -928,7 +1040,9 @@
    ],
    "correct": 0,
    "explanation": "'they cannot fly'",
-   "passage": "Penguins are birds, but they cannot fly. They use their wings like flippers to swim fast in the cold sea. Penguins eat fish. Many penguins live in Antarctica, where it is very cold and icy."
+   "passage": "Penguins are birds, but they cannot fly. They use their wings like flippers to swim fast in the cold sea. Penguins eat fish. Many penguins live in Antarctica, where it is very cold and icy.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_m018",
@@ -944,7 +1058,9 @@
    ],
    "correct": 3,
    "explanation": "'like flippers to swim fast'",
-   "passage": "Penguins are birds, but they cannot fly. They use their wings like flippers to swim fast in the cold sea. Penguins eat fish. Many penguins live in Antarctica, where it is very cold and icy."
+   "passage": "Penguins are birds, but they cannot fly. They use their wings like flippers to swim fast in the cold sea. Penguins eat fish. Many penguins live in Antarctica, where it is very cold and icy.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_m019",
@@ -960,7 +1076,9 @@
    ],
    "correct": 1,
    "explanation": "'Penguins eat fish.'",
-   "passage": "Penguins are birds, but they cannot fly. They use their wings like flippers to swim fast in the cold sea. Penguins eat fish. Many penguins live in Antarctica, where it is very cold and icy."
+   "passage": "Penguins are birds, but they cannot fly. They use their wings like flippers to swim fast in the cold sea. Penguins eat fish. Many penguins live in Antarctica, where it is very cold and icy.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_m020",
@@ -976,7 +1094,9 @@
    ],
    "correct": 1,
    "explanation": "'very cold and icy'",
-   "passage": "Penguins are birds, but they cannot fly. They use their wings like flippers to swim fast in the cold sea. Penguins eat fish. Many penguins live in Antarctica, where it is very cold and icy."
+   "passage": "Penguins are birds, but they cannot fly. They use their wings like flippers to swim fast in the cold sea. Penguins eat fish. Many penguins live in Antarctica, where it is very cold and icy.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_m021",
@@ -992,7 +1112,9 @@
    ],
    "correct": 3,
    "explanation": "'On Friday'",
-   "passage": "On Friday, Class 3 went to the museum. They saw a huge dinosaur skeleton. It was longer than a bus! Their teacher, Mr Patel, told them it was millions of years old. Everyone wanted to take a photo."
+   "passage": "On Friday, Class 3 went to the museum. They saw a huge dinosaur skeleton. It was longer than a bus! Their teacher, Mr Patel, told them it was millions of years old. Everyone wanted to take a photo.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_m022",
@@ -1008,7 +1130,9 @@
    ],
    "correct": 1,
    "explanation": "'a huge dinosaur skeleton'",
-   "passage": "On Friday, Class 3 went to the museum. They saw a huge dinosaur skeleton. It was longer than a bus! Their teacher, Mr Patel, told them it was millions of years old. Everyone wanted to take a photo."
+   "passage": "On Friday, Class 3 went to the museum. They saw a huge dinosaur skeleton. It was longer than a bus! Their teacher, Mr Patel, told them it was millions of years old. Everyone wanted to take a photo.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_m023",
@@ -1024,7 +1148,9 @@
    ],
    "correct": 0,
    "explanation": "'It was longer than a bus!'",
-   "passage": "On Friday, Class 3 went to the museum. They saw a huge dinosaur skeleton. It was longer than a bus! Their teacher, Mr Patel, told them it was millions of years old. Everyone wanted to take a photo."
+   "passage": "On Friday, Class 3 went to the museum. They saw a huge dinosaur skeleton. It was longer than a bus! Their teacher, Mr Patel, told them it was millions of years old. Everyone wanted to take a photo.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_m024",
@@ -1040,7 +1166,9 @@
    ],
    "correct": 3,
    "explanation": "'Their teacher, Mr Patel'",
-   "passage": "On Friday, Class 3 went to the museum. They saw a huge dinosaur skeleton. It was longer than a bus! Their teacher, Mr Patel, told them it was millions of years old. Everyone wanted to take a photo."
+   "passage": "On Friday, Class 3 went to the museum. They saw a huge dinosaur skeleton. It was longer than a bus! Their teacher, Mr Patel, told them it was millions of years old. Everyone wanted to take a photo.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_m025",
@@ -1056,7 +1184,9 @@
    ],
    "correct": 3,
    "explanation": "'made a bird feeder'",
-   "passage": "Leo and his mum made a bird feeder from an old plastic bottle. They cut two small holes and filled it with seeds. They hung it on a tree in the garden. The next morning, three robins came to eat."
+   "passage": "Leo and his mum made a bird feeder from an old plastic bottle. They cut two small holes and filled it with seeds. They hung it on a tree in the garden. The next morning, three robins came to eat.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_m026",
@@ -1072,7 +1202,9 @@
    ],
    "correct": 0,
    "explanation": "'from an old plastic bottle'",
-   "passage": "Leo and his mum made a bird feeder from an old plastic bottle. They cut two small holes and filled it with seeds. They hung it on a tree in the garden. The next morning, three robins came to eat."
+   "passage": "Leo and his mum made a bird feeder from an old plastic bottle. They cut two small holes and filled it with seeds. They hung it on a tree in the garden. The next morning, three robins came to eat.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_m027",
@@ -1088,7 +1220,9 @@
    ],
    "correct": 2,
    "explanation": "'They hung it on a tree'",
-   "passage": "Leo and his mum made a bird feeder from an old plastic bottle. They cut two small holes and filled it with seeds. They hung it on a tree in the garden. The next morning, three robins came to eat."
+   "passage": "Leo and his mum made a bird feeder from an old plastic bottle. They cut two small holes and filled it with seeds. They hung it on a tree in the garden. The next morning, three robins came to eat.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_m028",
@@ -1104,7 +1238,9 @@
    ],
    "correct": 0,
    "explanation": "'three robins came to eat'",
-   "passage": "Leo and his mum made a bird feeder from an old plastic bottle. They cut two small holes and filled it with seeds. They hung it on a tree in the garden. The next morning, three robins came to eat."
+   "passage": "Leo and his mum made a bird feeder from an old plastic bottle. They cut two small holes and filled it with seeds. They hung it on a tree in the garden. The next morning, three robins came to eat.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_m029",
@@ -1120,7 +1256,9 @@
    ],
    "correct": 3,
    "explanation": "'her first day at a new school'",
-   "passage": "Ruby was nervous. It was her first day at a new school. She did not know anyone. At lunchtime, a girl called Hana sat next to her and shared her crisps. By the end of the day, Ruby had a new friend."
+   "passage": "Ruby was nervous. It was her first day at a new school. She did not know anyone. At lunchtime, a girl called Hana sat next to her and shared her crisps. By the end of the day, Ruby had a new friend.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_m030",
@@ -1136,7 +1274,9 @@
    ],
    "correct": 1,
    "explanation": "'a girl called Hana'",
-   "passage": "Ruby was nervous. It was her first day at a new school. She did not know anyone. At lunchtime, a girl called Hana sat next to her and shared her crisps. By the end of the day, Ruby had a new friend."
+   "passage": "Ruby was nervous. It was her first day at a new school. She did not know anyone. At lunchtime, a girl called Hana sat next to her and shared her crisps. By the end of the day, Ruby had a new friend.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_m031",
@@ -1152,7 +1292,9 @@
    ],
    "correct": 2,
    "explanation": "'shared her crisps'",
-   "passage": "Ruby was nervous. It was her first day at a new school. She did not know anyone. At lunchtime, a girl called Hana sat next to her and shared her crisps. By the end of the day, Ruby had a new friend."
+   "passage": "Ruby was nervous. It was her first day at a new school. She did not know anyone. At lunchtime, a girl called Hana sat next to her and shared her crisps. By the end of the day, Ruby had a new friend.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_m032",
@@ -1168,7 +1310,9 @@
    ],
    "correct": 2,
    "explanation": "'Ruby had a new friend.'",
-   "passage": "Ruby was nervous. It was her first day at a new school. She did not know anyone. At lunchtime, a girl called Hana sat next to her and shared her crisps. By the end of the day, Ruby had a new friend."
+   "passage": "Ruby was nervous. It was her first day at a new school. She did not know anyone. At lunchtime, a girl called Hana sat next to her and shared her crisps. By the end of the day, Ruby had a new friend.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_f001",
@@ -1187,7 +1331,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Bees make honey in a hive."
+   "explanation": "Bees make honey in a hive.",
+   "skill": "comp_vocab",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_f002",
@@ -1204,7 +1350,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "An umbrella keeps you dry."
+   "explanation": "An umbrella keeps you dry.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_f003",
@@ -1223,7 +1371,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "An octopus has eight arms."
+   "explanation": "An octopus has eight arms.",
+   "skill": "comp_vocab",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_f004",
@@ -1242,7 +1392,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Winter is cold; summer is hot."
+   "explanation": "Winter is cold; summer is hot.",
+   "skill": "comp_vocab",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_f005",
@@ -1261,7 +1413,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Bakers make bread; farmers grow vegetables."
+   "explanation": "Bakers make bread; farmers grow vegetables.",
+   "skill": "comp_vocab",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_f006",
@@ -1278,7 +1432,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "We brush our teeth."
+   "explanation": "We brush our teeth.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_f007",
@@ -1295,7 +1451,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Caterpillars become butterflies."
+   "explanation": "Caterpillars become butterflies.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l2_f008",
@@ -1314,7 +1472,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "The Moon at night, the Sun in the day."
+   "explanation": "The Moon at night, the Sun in the day.",
+   "skill": "comp_vocab",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m001",
@@ -1330,7 +1490,9 @@
    ],
    "correct": 1,
    "explanation": "'because the Sun shines on it'",
-   "passage": "The Moon does not make its own light. It looks bright because the Sun shines on it. As the Moon travels around the Earth, we see different amounts of its sunny side. That is why it sometimes looks round and sometimes looks like a thin banana. These shapes are called phases."
+   "passage": "The Moon does not make its own light. It looks bright because the Sun shines on it. As the Moon travels around the Earth, we see different amounts of its sunny side. That is why it sometimes looks round and sometimes looks like a thin banana. These shapes are called phases.",
+   "skill": "comp_inference",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m002",
@@ -1346,7 +1508,9 @@
    ],
    "correct": 2,
    "explanation": "'travels around the Earth'",
-   "passage": "The Moon does not make its own light. It looks bright because the Sun shines on it. As the Moon travels around the Earth, we see different amounts of its sunny side. That is why it sometimes looks round and sometimes looks like a thin banana. These shapes are called phases."
+   "passage": "The Moon does not make its own light. It looks bright because the Sun shines on it. As the Moon travels around the Earth, we see different amounts of its sunny side. That is why it sometimes looks round and sometimes looks like a thin banana. These shapes are called phases.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m003",
@@ -1362,7 +1526,9 @@
    ],
    "correct": 1,
    "explanation": "'These shapes are called phases.'",
-   "passage": "The Moon does not make its own light. It looks bright because the Sun shines on it. As the Moon travels around the Earth, we see different amounts of its sunny side. That is why it sometimes looks round and sometimes looks like a thin banana. These shapes are called phases."
+   "passage": "The Moon does not make its own light. It looks bright because the Sun shines on it. As the Moon travels around the Earth, we see different amounts of its sunny side. That is why it sometimes looks round and sometimes looks like a thin banana. These shapes are called phases.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_m004",
@@ -1378,7 +1544,9 @@
    ],
    "correct": 2,
    "explanation": "The text explains the Moon's light and its phases.",
-   "passage": "The Moon does not make its own light. It looks bright because the Sun shines on it. As the Moon travels around the Earth, we see different amounts of its sunny side. That is why it sometimes looks round and sometimes looks like a thin banana. These shapes are called phases."
+   "passage": "The Moon does not make its own light. It looks bright because the Sun shines on it. As the Moon travels around the Earth, we see different amounts of its sunny side. That is why it sometimes looks round and sometimes looks like a thin banana. These shapes are called phases.",
+   "skill": "comp_main",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m005",
@@ -1394,7 +1562,9 @@
    ],
    "correct": 1,
    "explanation": "'on the pavement outside the shop'",
-   "passage": "Oscar found a wallet on the pavement outside the shop. Inside there was some money and a library card with a name on it: Mrs Green. Oscar's dad said they should take it to the police station. Later that day, Mrs Green phoned to say thank you. She had been very worried."
+   "passage": "Oscar found a wallet on the pavement outside the shop. Inside there was some money and a library card with a name on it: Mrs Green. Oscar's dad said they should take it to the police station. Later that day, Mrs Green phoned to say thank you. She had been very worried.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m006",
@@ -1410,7 +1580,9 @@
    ],
    "correct": 1,
    "explanation": "'a library card with a name on it'",
-   "passage": "Oscar found a wallet on the pavement outside the shop. Inside there was some money and a library card with a name on it: Mrs Green. Oscar's dad said they should take it to the police station. Later that day, Mrs Green phoned to say thank you. She had been very worried."
+   "passage": "Oscar found a wallet on the pavement outside the shop. Inside there was some money and a library card with a name on it: Mrs Green. Oscar's dad said they should take it to the police station. Later that day, Mrs Green phoned to say thank you. She had been very worried.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m007",
@@ -1426,7 +1598,9 @@
    ],
    "correct": 0,
    "explanation": "They took it to the police station.",
-   "passage": "Oscar found a wallet on the pavement outside the shop. Inside there was some money and a library card with a name on it: Mrs Green. Oscar's dad said they should take it to the police station. Later that day, Mrs Green phoned to say thank you. She had been very worried."
+   "passage": "Oscar found a wallet on the pavement outside the shop. Inside there was some money and a library card with a name on it: Mrs Green. Oscar's dad said they should take it to the police station. Later that day, Mrs Green phoned to say thank you. She had been very worried.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m008",
@@ -1442,7 +1616,9 @@
    ],
    "correct": 3,
    "explanation": "He returned the wallet instead of keeping it.",
-   "passage": "Oscar found a wallet on the pavement outside the shop. Inside there was some money and a library card with a name on it: Mrs Green. Oscar's dad said they should take it to the police station. Later that day, Mrs Green phoned to say thank you. She had been very worried."
+   "passage": "Oscar found a wallet on the pavement outside the shop. Inside there was some money and a library card with a name on it: Mrs Green. Oscar's dad said they should take it to the police station. Later that day, Mrs Green phoned to say thank you. She had been very worried.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_m009",
@@ -1458,7 +1634,9 @@
    ],
    "correct": 1,
    "explanation": "'Recycling means using old things to make new ones.'",
-   "passage": "Recycling means using old things to make new ones. Plastic bottles can be turned into fleece jumpers, and old newspapers can become cardboard boxes. When we recycle, we throw away less rubbish and we help to protect forests and wildlife. Remember to rinse bottles and tins before you put them in the recycling bin."
+   "passage": "Recycling means using old things to make new ones. Plastic bottles can be turned into fleece jumpers, and old newspapers can become cardboard boxes. When we recycle, we throw away less rubbish and we help to protect forests and wildlife. Remember to rinse bottles and tins before you put them in the recycling bin.",
+   "skill": "comp_vocab",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m010",
@@ -1474,7 +1652,9 @@
    ],
    "correct": 3,
    "explanation": "'Plastic bottles can be turned into fleece jumpers'",
-   "passage": "Recycling means using old things to make new ones. Plastic bottles can be turned into fleece jumpers, and old newspapers can become cardboard boxes. When we recycle, we throw away less rubbish and we help to protect forests and wildlife. Remember to rinse bottles and tins before you put them in the recycling bin."
+   "passage": "Recycling means using old things to make new ones. Plastic bottles can be turned into fleece jumpers, and old newspapers can become cardboard boxes. When we recycle, we throw away less rubbish and we help to protect forests and wildlife. Remember to rinse bottles and tins before you put them in the recycling bin.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m011",
@@ -1490,7 +1670,9 @@
    ],
    "correct": 2,
    "explanation": "'rinse bottles and tins'",
-   "passage": "Recycling means using old things to make new ones. Plastic bottles can be turned into fleece jumpers, and old newspapers can become cardboard boxes. When we recycle, we throw away less rubbish and we help to protect forests and wildlife. Remember to rinse bottles and tins before you put them in the recycling bin."
+   "passage": "Recycling means using old things to make new ones. Plastic bottles can be turned into fleece jumpers, and old newspapers can become cardboard boxes. When we recycle, we throw away less rubbish and we help to protect forests and wildlife. Remember to rinse bottles and tins before you put them in the recycling bin.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m012",
@@ -1506,7 +1688,9 @@
    ],
    "correct": 1,
    "explanation": "'we help to protect forests and wildlife'",
-   "passage": "Recycling means using old things to make new ones. Plastic bottles can be turned into fleece jumpers, and old newspapers can become cardboard boxes. When we recycle, we throw away less rubbish and we help to protect forests and wildlife. Remember to rinse bottles and tins before you put them in the recycling bin."
+   "passage": "Recycling means using old things to make new ones. Plastic bottles can be turned into fleece jumpers, and old newspapers can become cardboard boxes. When we recycle, we throw away less rubbish and we help to protect forests and wildlife. Remember to rinse bottles and tins before you put them in the recycling bin.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m013",
@@ -1522,7 +1706,9 @@
    ],
    "correct": 3,
    "explanation": "'came to visit from Japan'",
-   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner."
+   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_m014",
@@ -1538,7 +1724,9 @@
    ],
    "correct": 3,
    "explanation": "She folds paper until it becomes a crane.",
-   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner."
+   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m015",
@@ -1554,7 +1742,9 @@
    ],
    "correct": 3,
    "explanation": "'it became a crane'",
-   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner."
+   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m016",
@@ -1570,7 +1760,9 @@
    ],
    "correct": 0,
    "explanation": "'every expert was once a beginner'",
-   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner."
+   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner.",
+   "skill": "comp_vocab",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m017",
@@ -1586,7 +1778,9 @@
    ],
    "correct": 2,
    "explanation": "'come out at night'",
-   "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives."
+   "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_m018",
@@ -1602,7 +1796,9 @@
    ],
    "correct": 0,
    "explanation": "They eat the creatures that damage gardens.",
-   "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives."
+   "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m019",
@@ -1618,7 +1814,9 @@
    ],
    "correct": 2,
    "explanation": "'they sleep for many weeks ... until spring'",
-   "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives."
+   "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives.",
+   "skill": "comp_vocab",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m020",
@@ -1634,7 +1832,9 @@
    ],
    "correct": 2,
    "explanation": "'In winter, food is hard to find, so hedgehogs hibernate.'",
-   "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives."
+   "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m021",
@@ -1650,7 +1850,9 @@
    ],
    "correct": 1,
    "explanation": "'could not find her crown'",
-   "passage": "The school play was in one hour, and Freya could not find her crown. She checked her bag, the classroom and the hall. Then her friend Josh pointed at her head and laughed. Freya had been wearing the crown the whole time!"
+   "passage": "The school play was in one hour, and Freya could not find her crown. She checked her bag, the classroom and the hall. Then her friend Josh pointed at her head and laughed. Freya had been wearing the crown the whole time!",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m022",
@@ -1666,7 +1868,9 @@
    ],
    "correct": 3,
    "explanation": "'The school play was in one hour'",
-   "passage": "The school play was in one hour, and Freya could not find her crown. She checked her bag, the classroom and the hall. Then her friend Josh pointed at her head and laughed. Freya had been wearing the crown the whole time!"
+   "passage": "The school play was in one hour, and Freya could not find her crown. She checked her bag, the classroom and the hall. Then her friend Josh pointed at her head and laughed. Freya had been wearing the crown the whole time!",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m023",
@@ -1682,7 +1886,9 @@
    ],
    "correct": 3,
    "explanation": "'pointed at her head and laughed'",
-   "passage": "The school play was in one hour, and Freya could not find her crown. She checked her bag, the classroom and the hall. Then her friend Josh pointed at her head and laughed. Freya had been wearing the crown the whole time!"
+   "passage": "The school play was in one hour, and Freya could not find her crown. She checked her bag, the classroom and the hall. Then her friend Josh pointed at her head and laughed. Freya had been wearing the crown the whole time!",
+   "skill": "comp_inference",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m024",
@@ -1698,7 +1904,9 @@
    ],
    "correct": 2,
    "explanation": "The ending is a funny surprise.",
-   "passage": "The school play was in one hour, and Freya could not find her crown. She checked her bag, the classroom and the hall. Then her friend Josh pointed at her head and laughed. Freya had been wearing the crown the whole time!"
+   "passage": "The school play was in one hour, and Freya could not find her crown. She checked her bag, the classroom and the hall. Then her friend Josh pointed at her head and laughed. Freya had been wearing the crown the whole time!",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m025",
@@ -1714,7 +1922,9 @@
    ],
    "correct": 2,
    "explanation": "'The Sun heats water'",
-   "passage": "Water is always moving around our planet. The Sun heats water in seas and rivers, and it rises into the air as invisible vapour. High in the sky, the vapour cools and forms clouds. When the drops in the clouds get heavy, they fall as rain, and the journey starts again. This is called the water cycle."
+   "passage": "Water is always moving around our planet. The Sun heats water in seas and rivers, and it rises into the air as invisible vapour. High in the sky, the vapour cools and forms clouds. When the drops in the clouds get heavy, they fall as rain, and the journey starts again. This is called the water cycle.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m026",
@@ -1730,7 +1940,9 @@
    ],
    "correct": 3,
    "explanation": "'the vapour cools and forms clouds'",
-   "passage": "Water is always moving around our planet. The Sun heats water in seas and rivers, and it rises into the air as invisible vapour. High in the sky, the vapour cools and forms clouds. When the drops in the clouds get heavy, they fall as rain, and the journey starts again. This is called the water cycle."
+   "passage": "Water is always moving around our planet. The Sun heats water in seas and rivers, and it rises into the air as invisible vapour. High in the sky, the vapour cools and forms clouds. When the drops in the clouds get heavy, they fall as rain, and the journey starts again. This is called the water cycle.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_m027",
@@ -1746,7 +1958,9 @@
    ],
    "correct": 1,
    "explanation": "'When the drops in the clouds get heavy'",
-   "passage": "Water is always moving around our planet. The Sun heats water in seas and rivers, and it rises into the air as invisible vapour. High in the sky, the vapour cools and forms clouds. When the drops in the clouds get heavy, they fall as rain, and the journey starts again. This is called the water cycle."
+   "passage": "Water is always moving around our planet. The Sun heats water in seas and rivers, and it rises into the air as invisible vapour. High in the sky, the vapour cools and forms clouds. When the drops in the clouds get heavy, they fall as rain, and the journey starts again. This is called the water cycle.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m028",
@@ -1762,7 +1976,9 @@
    ],
    "correct": 1,
    "explanation": "'the journey starts again'",
-   "passage": "Water is always moving around our planet. The Sun heats water in seas and rivers, and it rises into the air as invisible vapour. High in the sky, the vapour cools and forms clouds. When the drops in the clouds get heavy, they fall as rain, and the journey starts again. This is called the water cycle."
+   "passage": "Water is always moving around our planet. The Sun heats water in seas and rivers, and it rises into the air as invisible vapour. High in the sky, the vapour cools and forms clouds. When the drops in the clouds get heavy, they fall as rain, and the journey starts again. This is called the water cycle.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m029",
@@ -1778,7 +1994,9 @@
    ],
    "correct": 1,
    "explanation": "'volunteers at the animal shelter'",
-   "passage": "Every Saturday, Dev volunteers at the animal shelter. He walks the dogs, cleans the cages and gives the cats fresh water. His favourite is an old dog called Biscuit, who is very gentle. Dev hopes that one day Biscuit will find a loving family."
+   "passage": "Every Saturday, Dev volunteers at the animal shelter. He walks the dogs, cleans the cages and gives the cats fresh water. His favourite is an old dog called Biscuit, who is very gentle. Dev hopes that one day Biscuit will find a loving family.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m030",
@@ -1794,7 +2012,9 @@
    ],
    "correct": 3,
    "explanation": "There are no horses in the text.",
-   "passage": "Every Saturday, Dev volunteers at the animal shelter. He walks the dogs, cleans the cages and gives the cats fresh water. His favourite is an old dog called Biscuit, who is very gentle. Dev hopes that one day Biscuit will find a loving family."
+   "passage": "Every Saturday, Dev volunteers at the animal shelter. He walks the dogs, cleans the cages and gives the cats fresh water. His favourite is an old dog called Biscuit, who is very gentle. Dev hopes that one day Biscuit will find a loving family.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m031",
@@ -1810,7 +2030,9 @@
    ],
    "correct": 2,
    "explanation": "'who is very gentle'",
-   "passage": "Every Saturday, Dev volunteers at the animal shelter. He walks the dogs, cleans the cages and gives the cats fresh water. His favourite is an old dog called Biscuit, who is very gentle. Dev hopes that one day Biscuit will find a loving family."
+   "passage": "Every Saturday, Dev volunteers at the animal shelter. He walks the dogs, cleans the cages and gives the cats fresh water. His favourite is an old dog called Biscuit, who is very gentle. Dev hopes that one day Biscuit will find a loving family.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_m032",
@@ -1826,7 +2048,9 @@
    ],
    "correct": 2,
    "explanation": "'Biscuit will find a loving family'",
-   "passage": "Every Saturday, Dev volunteers at the animal shelter. He walks the dogs, cleans the cages and gives the cats fresh water. His favourite is an old dog called Biscuit, who is very gentle. Dev hopes that one day Biscuit will find a loving family."
+   "passage": "Every Saturday, Dev volunteers at the animal shelter. He walks the dogs, cleans the cages and gives the cats fresh water. His favourite is an old dog called Biscuit, who is very gentle. Dev hopes that one day Biscuit will find a loving family.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_f001",
@@ -1845,7 +2069,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Plants need water and light."
+   "explanation": "Plants need water and light.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_f002",
@@ -1862,7 +2088,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Doctors work in hospitals."
+   "explanation": "Doctors work in hospitals.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_f003",
@@ -1879,7 +2107,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ancient means very old; modern means new."
+   "explanation": "Ancient means very old; modern means new.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_f004",
@@ -1898,7 +2128,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "They sleep because there is little food."
+   "explanation": "They sleep because there is little food.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_f005",
@@ -1915,7 +2147,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Water helps when you are thirsty."
+   "explanation": "Water helps when you are thirsty.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_f006",
@@ -1932,7 +2166,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "An author writes books."
+   "explanation": "An author writes books.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_f007",
@@ -1949,7 +2185,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "You want more if it is delicious."
+   "explanation": "You want more if it is delicious.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l3_f008",
@@ -1966,7 +2204,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "A telescope shows faraway things."
+   "explanation": "A telescope shows faraway things.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_m001",
@@ -1982,7 +2222,9 @@
    ],
    "correct": 0,
    "explanation": "'a powerful lamp at the top'",
-   "passage": "For hundreds of years, sailors used lighthouses to stay safe at night. A lighthouse is a tall tower with a powerful lamp at the top. Each lighthouse flashes its light in a special pattern, so sailors can tell which one they are looking at and work out where they are. Today, ships also use satellite navigation, but many lighthouses still shine along our coasts as a back-up."
+   "passage": "For hundreds of years, sailors used lighthouses to stay safe at night. A lighthouse is a tall tower with a powerful lamp at the top. Each lighthouse flashes its light in a special pattern, so sailors can tell which one they are looking at and work out where they are. Today, ships also use satellite navigation, but many lighthouses still shine along our coasts as a back-up.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m002",
@@ -1998,7 +2240,9 @@
    ],
    "correct": 0,
    "explanation": "'so sailors can tell which one they are looking at'",
-   "passage": "For hundreds of years, sailors used lighthouses to stay safe at night. A lighthouse is a tall tower with a powerful lamp at the top. Each lighthouse flashes its light in a special pattern, so sailors can tell which one they are looking at and work out where they are. Today, ships also use satellite navigation, but many lighthouses still shine along our coasts as a back-up."
+   "passage": "For hundreds of years, sailors used lighthouses to stay safe at night. A lighthouse is a tall tower with a powerful lamp at the top. Each lighthouse flashes its light in a special pattern, so sailors can tell which one they are looking at and work out where they are. Today, ships also use satellite navigation, but many lighthouses still shine along our coasts as a back-up.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m003",
@@ -2014,7 +2258,9 @@
    ],
    "correct": 2,
    "explanation": "'ships also use satellite navigation'",
-   "passage": "For hundreds of years, sailors used lighthouses to stay safe at night. A lighthouse is a tall tower with a powerful lamp at the top. Each lighthouse flashes its light in a special pattern, so sailors can tell which one they are looking at and work out where they are. Today, ships also use satellite navigation, but many lighthouses still shine along our coasts as a back-up."
+   "passage": "For hundreds of years, sailors used lighthouses to stay safe at night. A lighthouse is a tall tower with a powerful lamp at the top. Each lighthouse flashes its light in a special pattern, so sailors can tell which one they are looking at and work out where they are. Today, ships also use satellite navigation, but many lighthouses still shine along our coasts as a back-up.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m004",
@@ -2030,7 +2276,9 @@
    ],
    "correct": 0,
    "explanation": "Lighthouses still help if the satellite system does not work.",
-   "passage": "For hundreds of years, sailors used lighthouses to stay safe at night. A lighthouse is a tall tower with a powerful lamp at the top. Each lighthouse flashes its light in a special pattern, so sailors can tell which one they are looking at and work out where they are. Today, ships also use satellite navigation, but many lighthouses still shine along our coasts as a back-up."
+   "passage": "For hundreds of years, sailors used lighthouses to stay safe at night. A lighthouse is a tall tower with a powerful lamp at the top. Each lighthouse flashes its light in a special pattern, so sailors can tell which one they are looking at and work out where they are. Today, ships also use satellite navigation, but many lighthouses still shine along our coasts as a back-up.",
+   "skill": "comp_vocab",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m005",
@@ -2046,7 +2294,9 @@
    ],
    "correct": 0,
    "explanation": "She was in front of an audience.",
-   "passage": "Maya had practised her piano piece for weeks, but when she sat down in front of the audience, her hands began to shake. She took a deep breath and looked at her teacher, who gave her a thumbs-up. Maya started slowly. She made one small mistake in the middle, but she kept going. When she finished, the audience clapped loudly, and Maya realised that being brave was more important than being perfect."
+   "passage": "Maya had practised her piano piece for weeks, but when she sat down in front of the audience, her hands began to shake. She took a deep breath and looked at her teacher, who gave her a thumbs-up. Maya started slowly. She made one small mistake in the middle, but she kept going. When she finished, the audience clapped loudly, and Maya realised that being brave was more important than being perfect.",
+   "skill": "comp_inference",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m006",
@@ -2062,7 +2312,9 @@
    ],
    "correct": 1,
    "explanation": "'her teacher, who gave her a thumbs-up'",
-   "passage": "Maya had practised her piano piece for weeks, but when she sat down in front of the audience, her hands began to shake. She took a deep breath and looked at her teacher, who gave her a thumbs-up. Maya started slowly. She made one small mistake in the middle, but she kept going. When she finished, the audience clapped loudly, and Maya realised that being brave was more important than being perfect."
+   "passage": "Maya had practised her piano piece for weeks, but when she sat down in front of the audience, her hands began to shake. She took a deep breath and looked at her teacher, who gave her a thumbs-up. Maya started slowly. She made one small mistake in the middle, but she kept going. When she finished, the audience clapped loudly, and Maya realised that being brave was more important than being perfect.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m007",
@@ -2078,7 +2330,9 @@
    ],
    "correct": 1,
    "explanation": "'She made one small mistake in the middle'",
-   "passage": "Maya had practised her piano piece for weeks, but when she sat down in front of the audience, her hands began to shake. She took a deep breath and looked at her teacher, who gave her a thumbs-up. Maya started slowly. She made one small mistake in the middle, but she kept going. When she finished, the audience clapped loudly, and Maya realised that being brave was more important than being perfect."
+   "passage": "Maya had practised her piano piece for weeks, but when she sat down in front of the audience, her hands began to shake. She took a deep breath and looked at her teacher, who gave her a thumbs-up. Maya started slowly. She made one small mistake in the middle, but she kept going. When she finished, the audience clapped loudly, and Maya realised that being brave was more important than being perfect.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m008",
@@ -2094,7 +2348,9 @@
    ],
    "correct": 0,
    "explanation": "The last sentence tells us what she realised.",
-   "passage": "Maya had practised her piano piece for weeks, but when she sat down in front of the audience, her hands began to shake. She took a deep breath and looked at her teacher, who gave her a thumbs-up. Maya started slowly. She made one small mistake in the middle, but she kept going. When she finished, the audience clapped loudly, and Maya realised that being brave was more important than being perfect."
+   "passage": "Maya had practised her piano piece for weeks, but when she sat down in front of the audience, her hands began to shake. She took a deep breath and looked at her teacher, who gave her a thumbs-up. Maya started slowly. She made one small mistake in the middle, but she kept going. When she finished, the audience clapped loudly, and Maya realised that being brave was more important than being perfect.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m009",
@@ -2110,7 +2366,9 @@
    ],
    "correct": 2,
    "explanation": "'in a bakery on Pudding Lane'",
-   "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again."
+   "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m010",
@@ -2126,7 +2384,9 @@
    ],
    "correct": 2,
    "explanation": "'made of wood and were built very close together'",
-   "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again."
+   "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m011",
@@ -2142,7 +2402,9 @@
    ],
    "correct": 0,
    "explanation": "'It burned for four days.'",
-   "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again."
+   "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_m012",
@@ -2158,7 +2420,9 @@
    ],
    "correct": 1,
    "explanation": "'to stop such a terrible fire from happening again'",
-   "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again."
+   "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m013",
@@ -2174,7 +2438,9 @@
    ],
    "correct": 0,
    "explanation": "'Chameleons are lizards'",
-   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!"
+   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m014",
@@ -2190,7 +2456,9 @@
    ],
    "correct": 3,
    "explanation": "'it is mostly to show their mood or to control their temperature'",
-   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!"
+   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m015",
@@ -2206,7 +2474,9 @@
    ],
    "correct": 0,
    "explanation": "'can turn bright yellow or red'",
-   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!"
+   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_m016",
@@ -2222,7 +2492,9 @@
    ],
    "correct": 3,
    "explanation": "'Their eyes can also move separately'",
-   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!"
+   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m017",
@@ -2238,7 +2510,9 @@
    ],
    "correct": 1,
    "explanation": "She did not want to leave Ella.",
-   "passage": "Noor's family were moving to a new city. Noor did not want to leave her best friend, Ella, so she was quiet and grumpy for days. On the last evening, Ella gave her a notebook. On the first page she had written: 'Write to me every week, and I will write back.' Noor smiled for the first time in days. The distance suddenly did not seem so big."
+   "passage": "Noor's family were moving to a new city. Noor did not want to leave her best friend, Ella, so she was quiet and grumpy for days. On the last evening, Ella gave her a notebook. On the first page she had written: 'Write to me every week, and I will write back.' Noor smiled for the first time in days. The distance suddenly did not seem so big.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m018",
@@ -2254,7 +2528,9 @@
    ],
    "correct": 3,
    "explanation": "'Ella gave her a notebook'",
-   "passage": "Noor's family were moving to a new city. Noor did not want to leave her best friend, Ella, so she was quiet and grumpy for days. On the last evening, Ella gave her a notebook. On the first page she had written: 'Write to me every week, and I will write back.' Noor smiled for the first time in days. The distance suddenly did not seem so big."
+   "passage": "Noor's family were moving to a new city. Noor did not want to leave her best friend, Ella, so she was quiet and grumpy for days. On the last evening, Ella gave her a notebook. On the first page she had written: 'Write to me every week, and I will write back.' Noor smiled for the first time in days. The distance suddenly did not seem so big.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m019",
@@ -2270,7 +2546,9 @@
    ],
    "correct": 3,
    "explanation": "'Write to me every week'",
-   "passage": "Noor's family were moving to a new city. Noor did not want to leave her best friend, Ella, so she was quiet and grumpy for days. On the last evening, Ella gave her a notebook. On the first page she had written: 'Write to me every week, and I will write back.' Noor smiled for the first time in days. The distance suddenly did not seem so big."
+   "passage": "Noor's family were moving to a new city. Noor did not want to leave her best friend, Ella, so she was quiet and grumpy for days. On the last evening, Ella gave her a notebook. On the first page she had written: 'Write to me every week, and I will write back.' Noor smiled for the first time in days. The distance suddenly did not seem so big.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m020",
@@ -2286,7 +2564,9 @@
    ],
    "correct": 2,
    "explanation": "Writing letters would keep them close.",
-   "passage": "Noor's family were moving to a new city. Noor did not want to leave her best friend, Ella, so she was quiet and grumpy for days. On the last evening, Ella gave her a notebook. On the first page she had written: 'Write to me every week, and I will write back.' Noor smiled for the first time in days. The distance suddenly did not seem so big."
+   "passage": "Noor's family were moving to a new city. Noor did not want to leave her best friend, Ella, so she was quiet and grumpy for days. On the last evening, Ella gave her a notebook. On the first page she had written: 'Write to me every week, and I will write back.' Noor smiled for the first time in days. The distance suddenly did not seem so big.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m021",
@@ -2302,7 +2582,9 @@
    ],
    "correct": 2,
    "explanation": "'in the Himalayas, in Asia'",
-   "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well."
+   "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m022",
@@ -2318,7 +2600,9 @@
    ],
    "correct": 2,
    "explanation": "'at nearly nine kilometres'",
-   "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well."
+   "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m023",
@@ -2334,7 +2618,9 @@
    ],
    "correct": 0,
    "explanation": "'very little oxygen, and it is extremely cold'",
-   "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well."
+   "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m024",
@@ -2350,7 +2636,9 @@
    ],
    "correct": 0,
    "explanation": "'who live in the area and know the mountains well'",
-   "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well."
+   "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m025",
@@ -2366,7 +2654,9 @@
    ],
    "correct": 3,
    "explanation": "'When the power went off during the storm'",
-   "passage": "When the power went off during the storm, the whole street went dark. At first, Ethan was a little scared, but then his dad lit some candles and brought out a board game. They played by candlelight and listened to the rain on the windows. When the lights came back on two hours later, Ethan was almost disappointed."
+   "passage": "When the power went off during the storm, the whole street went dark. At first, Ethan was a little scared, but then his dad lit some candles and brought out a board game. They played by candlelight and listened to the rain on the windows. When the lights came back on two hours later, Ethan was almost disappointed.",
+   "skill": "comp_inference",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m026",
@@ -2382,7 +2672,9 @@
    ],
    "correct": 0,
    "explanation": "'lit some candles and brought out a board game'",
-   "passage": "When the power went off during the storm, the whole street went dark. At first, Ethan was a little scared, but then his dad lit some candles and brought out a board game. They played by candlelight and listened to the rain on the windows. When the lights came back on two hours later, Ethan was almost disappointed."
+   "passage": "When the power went off during the storm, the whole street went dark. At first, Ethan was a little scared, but then his dad lit some candles and brought out a board game. They played by candlelight and listened to the rain on the windows. When the lights came back on two hours later, Ethan was almost disappointed.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m027",
@@ -2398,7 +2690,9 @@
    ],
    "correct": 3,
    "explanation": "'two hours later'",
-   "passage": "When the power went off during the storm, the whole street went dark. At first, Ethan was a little scared, but then his dad lit some candles and brought out a board game. They played by candlelight and listened to the rain on the windows. When the lights came back on two hours later, Ethan was almost disappointed."
+   "passage": "When the power went off during the storm, the whole street went dark. At first, Ethan was a little scared, but then his dad lit some candles and brought out a board game. They played by candlelight and listened to the rain on the windows. When the lights came back on two hours later, Ethan was almost disappointed.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_m028",
@@ -2414,7 +2708,9 @@
    ],
    "correct": 3,
    "explanation": "He had fun playing by candlelight.",
-   "passage": "When the power went off during the storm, the whole street went dark. At first, Ethan was a little scared, but then his dad lit some candles and brought out a board game. They played by candlelight and listened to the rain on the windows. When the lights came back on two hours later, Ethan was almost disappointed."
+   "passage": "When the power went off during the storm, the whole street went dark. At first, Ethan was a little scared, but then his dad lit some candles and brought out a board game. They played by candlelight and listened to the rain on the windows. When the lights came back on two hours later, Ethan was almost disappointed.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m029",
@@ -2430,7 +2726,9 @@
    ],
    "correct": 1,
    "explanation": "'an adult has 206'",
-   "passage": "Our bones are alive and growing. A newborn baby has about 300 bones, but an adult has 206. This is because some bones join together as we grow. Bones need calcium to be strong, which we get from foods such as milk, cheese and green vegetables. Exercise also helps to keep our bones healthy."
+   "passage": "Our bones are alive and growing. A newborn baby has about 300 bones, but an adult has 206. This is because some bones join together as we grow. Bones need calcium to be strong, which we get from foods such as milk, cheese and green vegetables. Exercise also helps to keep our bones healthy.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_m030",
@@ -2446,7 +2744,9 @@
    ],
    "correct": 3,
    "explanation": "'some bones join together as we grow'",
-   "passage": "Our bones are alive and growing. A newborn baby has about 300 bones, but an adult has 206. This is because some bones join together as we grow. Bones need calcium to be strong, which we get from foods such as milk, cheese and green vegetables. Exercise also helps to keep our bones healthy."
+   "passage": "Our bones are alive and growing. A newborn baby has about 300 bones, but an adult has 206. This is because some bones join together as we grow. Bones need calcium to be strong, which we get from foods such as milk, cheese and green vegetables. Exercise also helps to keep our bones healthy.",
+   "skill": "comp_inference",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m031",
@@ -2462,7 +2762,9 @@
    ],
    "correct": 3,
    "explanation": "'Bones need calcium to be strong'",
-   "passage": "Our bones are alive and growing. A newborn baby has about 300 bones, but an adult has 206. This is because some bones join together as we grow. Bones need calcium to be strong, which we get from foods such as milk, cheese and green vegetables. Exercise also helps to keep our bones healthy."
+   "passage": "Our bones are alive and growing. A newborn baby has about 300 bones, but an adult has 206. This is because some bones join together as we grow. Bones need calcium to be strong, which we get from foods such as milk, cheese and green vegetables. Exercise also helps to keep our bones healthy.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_m032",
@@ -2478,7 +2780,9 @@
    ],
    "correct": 1,
    "explanation": "'milk, cheese and green vegetables'",
-   "passage": "Our bones are alive and growing. A newborn baby has about 300 bones, but an adult has 206. This is because some bones join together as we grow. Bones need calcium to be strong, which we get from foods such as milk, cheese and green vegetables. Exercise also helps to keep our bones healthy."
+   "passage": "Our bones are alive and growing. A newborn baby has about 300 bones, but an adult has 206. This is because some bones join together as we grow. Bones need calcium to be strong, which we get from foods such as milk, cheese and green vegetables. Exercise also helps to keep our bones healthy.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_f001",
@@ -2497,7 +2801,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Wooden houses burn easily."
+   "explanation": "Wooden houses burn easily.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_f002",
@@ -2514,7 +2820,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Historians study history."
+   "explanation": "Historians study history.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_f003",
@@ -2531,7 +2839,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "'Although' shows a contrast: she was nervous but brave."
+   "explanation": "'Although' shows a contrast: she was nervous but brave.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_f004",
@@ -2548,7 +2858,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "They warn sailors away from rocks."
+   "explanation": "They warn sailors away from rocks.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_f005",
@@ -2567,7 +2879,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Calcium keeps bones strong."
+   "explanation": "Calcium keeps bones strong.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_f006",
@@ -2584,7 +2898,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Exhausted means very tired."
+   "explanation": "Exhausted means very tired.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_f007",
@@ -2601,7 +2917,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Generous people share; selfish people do not."
+   "explanation": "Generous people share; selfish people do not.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l4_f008",
@@ -2618,7 +2936,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Chameleons change colour."
+   "explanation": "Chameleons change colour.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_m001",
@@ -2634,7 +2954,9 @@
    ],
    "correct": 3,
    "explanation": "'A mould had grown on one of his dishes of bacteria'",
-   "passage": "In 1928, the scientist Alexander Fleming returned from holiday to find something strange in his laboratory. A mould had grown on one of his dishes of bacteria, and around the mould, the bacteria had died. Instead of throwing the dish away, Fleming investigated. He had discovered penicillin, the first antibiotic. Since then, antibiotics have saved millions of lives, although doctors now warn that we must use them carefully so that bacteria do not become resistant."
+   "passage": "In 1928, the scientist Alexander Fleming returned from holiday to find something strange in his laboratory. A mould had grown on one of his dishes of bacteria, and around the mould, the bacteria had died. Instead of throwing the dish away, Fleming investigated. He had discovered penicillin, the first antibiotic. Since then, antibiotics have saved millions of lives, although doctors now warn that we must use them carefully so that bacteria do not become resistant.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m002",
@@ -2650,7 +2972,9 @@
    ],
    "correct": 3,
    "explanation": "'around the mould, the bacteria had died'",
-   "passage": "In 1928, the scientist Alexander Fleming returned from holiday to find something strange in his laboratory. A mould had grown on one of his dishes of bacteria, and around the mould, the bacteria had died. Instead of throwing the dish away, Fleming investigated. He had discovered penicillin, the first antibiotic. Since then, antibiotics have saved millions of lives, although doctors now warn that we must use them carefully so that bacteria do not become resistant."
+   "passage": "In 1928, the scientist Alexander Fleming returned from holiday to find something strange in his laboratory. A mould had grown on one of his dishes of bacteria, and around the mould, the bacteria had died. Instead of throwing the dish away, Fleming investigated. He had discovered penicillin, the first antibiotic. Since then, antibiotics have saved millions of lives, although doctors now warn that we must use them carefully so that bacteria do not become resistant.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m003",
@@ -2666,7 +2990,9 @@
    ],
    "correct": 2,
    "explanation": "Investigating it led to the discovery of penicillin.",
-   "passage": "In 1928, the scientist Alexander Fleming returned from holiday to find something strange in his laboratory. A mould had grown on one of his dishes of bacteria, and around the mould, the bacteria had died. Instead of throwing the dish away, Fleming investigated. He had discovered penicillin, the first antibiotic. Since then, antibiotics have saved millions of lives, although doctors now warn that we must use them carefully so that bacteria do not become resistant."
+   "passage": "In 1928, the scientist Alexander Fleming returned from holiday to find something strange in his laboratory. A mould had grown on one of his dishes of bacteria, and around the mould, the bacteria had died. Instead of throwing the dish away, Fleming investigated. He had discovered penicillin, the first antibiotic. Since then, antibiotics have saved millions of lives, although doctors now warn that we must use them carefully so that bacteria do not become resistant.",
+   "skill": "comp_inference",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m004",
@@ -2682,7 +3008,9 @@
    ],
    "correct": 1,
    "explanation": "'we must use them carefully so that bacteria do not become resistant'",
-   "passage": "In 1928, the scientist Alexander Fleming returned from holiday to find something strange in his laboratory. A mould had grown on one of his dishes of bacteria, and around the mould, the bacteria had died. Instead of throwing the dish away, Fleming investigated. He had discovered penicillin, the first antibiotic. Since then, antibiotics have saved millions of lives, although doctors now warn that we must use them carefully so that bacteria do not become resistant."
+   "passage": "In 1928, the scientist Alexander Fleming returned from holiday to find something strange in his laboratory. A mould had grown on one of his dishes of bacteria, and around the mould, the bacteria had died. Instead of throwing the dish away, Fleming investigated. He had discovered penicillin, the first antibiotic. Since then, antibiotics have saved millions of lives, although doctors now warn that we must use them carefully so that bacteria do not become resistant.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m005",
@@ -2698,7 +3026,9 @@
    ],
    "correct": 2,
    "explanation": "'she was no good at writing'",
-   "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer."
+   "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m006",
@@ -2714,7 +3044,9 @@
    ],
    "correct": 2,
    "explanation": "'something that had really happened to them'",
-   "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer."
+   "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m007",
@@ -2730,7 +3062,9 @@
    ],
    "correct": 3,
    "explanation": "The silence shows the story touched them.",
-   "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer."
+   "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m008",
@@ -2746,7 +3080,9 @@
    ],
    "correct": 1,
    "explanation": "The last sentence states the message.",
-   "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer."
+   "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer.",
+   "skill": "comp_main",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m009",
@@ -2762,7 +3098,9 @@
    ],
    "correct": 0,
    "explanation": "'so many different creatures live there'",
-   "passage": "Coral reefs are sometimes called the rainforests of the sea because so many different creatures live there. Although they look like colourful rocks, corals are actually animals. They have a special partnership with tiny algae, which live inside them and give them food and colour. When the sea becomes too warm, the algae leave, and the coral turns white. This is called bleaching, and if the water does not cool down, the coral can die."
+   "passage": "Coral reefs are sometimes called the rainforests of the sea because so many different creatures live there. Although they look like colourful rocks, corals are actually animals. They have a special partnership with tiny algae, which live inside them and give them food and colour. When the sea becomes too warm, the algae leave, and the coral turns white. This is called bleaching, and if the water does not cool down, the coral can die.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m010",
@@ -2778,7 +3116,9 @@
    ],
    "correct": 3,
    "explanation": "'corals are actually animals'",
-   "passage": "Coral reefs are sometimes called the rainforests of the sea because so many different creatures live there. Although they look like colourful rocks, corals are actually animals. They have a special partnership with tiny algae, which live inside them and give them food and colour. When the sea becomes too warm, the algae leave, and the coral turns white. This is called bleaching, and if the water does not cool down, the coral can die."
+   "passage": "Coral reefs are sometimes called the rainforests of the sea because so many different creatures live there. Although they look like colourful rocks, corals are actually animals. They have a special partnership with tiny algae, which live inside them and give them food and colour. When the sea becomes too warm, the algae leave, and the coral turns white. This is called bleaching, and if the water does not cool down, the coral can die.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_m011",
@@ -2794,7 +3134,9 @@
    ],
    "correct": 2,
    "explanation": "'give them food and colour'",
-   "passage": "Coral reefs are sometimes called the rainforests of the sea because so many different creatures live there. Although they look like colourful rocks, corals are actually animals. They have a special partnership with tiny algae, which live inside them and give them food and colour. When the sea becomes too warm, the algae leave, and the coral turns white. This is called bleaching, and if the water does not cool down, the coral can die."
+   "passage": "Coral reefs are sometimes called the rainforests of the sea because so many different creatures live there. Although they look like colourful rocks, corals are actually animals. They have a special partnership with tiny algae, which live inside them and give them food and colour. When the sea becomes too warm, the algae leave, and the coral turns white. This is called bleaching, and if the water does not cool down, the coral can die.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m012",
@@ -2810,7 +3152,9 @@
    ],
    "correct": 3,
    "explanation": "'When the sea becomes too warm, the algae leave'",
-   "passage": "Coral reefs are sometimes called the rainforests of the sea because so many different creatures live there. Although they look like colourful rocks, corals are actually animals. They have a special partnership with tiny algae, which live inside them and give them food and colour. When the sea becomes too warm, the algae leave, and the coral turns white. This is called bleaching, and if the water does not cool down, the coral can die."
+   "passage": "Coral reefs are sometimes called the rainforests of the sea because so many different creatures live there. Although they look like colourful rocks, corals are actually animals. They have a special partnership with tiny algae, which live inside them and give them food and colour. When the sea becomes too warm, the algae leave, and the coral turns white. This is called bleaching, and if the water does not cool down, the coral can die.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m013",
@@ -2826,7 +3170,9 @@
    ],
    "correct": 2,
    "explanation": "'to make space for a car park'",
-   "passage": "The village had argued about the old oak tree for months. Some people wanted to cut it down to make space for a car park; others said it had stood there for three hundred years and belonged to everyone. In the end, a group of children wrote letters to the council and collected over five hundred signatures. The council agreed to build the car park on a different site, and the oak was saved. Now there is a small sign under its branches that reads: 'Protected by the young people of this village.'"
+   "passage": "The village had argued about the old oak tree for months. Some people wanted to cut it down to make space for a car park; others said it had stood there for three hundred years and belonged to everyone. In the end, a group of children wrote letters to the council and collected over five hundred signatures. The council agreed to build the car park on a different site, and the oak was saved. Now there is a small sign under its branches that reads: 'Protected by the young people of this village.'",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m014",
@@ -2842,7 +3188,9 @@
    ],
    "correct": 2,
    "explanation": "'it had stood there for three hundred years'",
-   "passage": "The village had argued about the old oak tree for months. Some people wanted to cut it down to make space for a car park; others said it had stood there for three hundred years and belonged to everyone. In the end, a group of children wrote letters to the council and collected over five hundred signatures. The council agreed to build the car park on a different site, and the oak was saved. Now there is a small sign under its branches that reads: 'Protected by the young people of this village.'"
+   "passage": "The village had argued about the old oak tree for months. Some people wanted to cut it down to make space for a car park; others said it had stood there for three hundred years and belonged to everyone. In the end, a group of children wrote letters to the council and collected over five hundred signatures. The council agreed to build the car park on a different site, and the oak was saved. Now there is a small sign under its branches that reads: 'Protected by the young people of this village.'",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m015",
@@ -2858,7 +3206,9 @@
    ],
    "correct": 2,
    "explanation": "'wrote letters to the council and collected over five hundred signatures'",
-   "passage": "The village had argued about the old oak tree for months. Some people wanted to cut it down to make space for a car park; others said it had stood there for three hundred years and belonged to everyone. In the end, a group of children wrote letters to the council and collected over five hundred signatures. The council agreed to build the car park on a different site, and the oak was saved. Now there is a small sign under its branches that reads: 'Protected by the young people of this village.'"
+   "passage": "The village had argued about the old oak tree for months. Some people wanted to cut it down to make space for a car park; others said it had stood there for three hundred years and belonged to everyone. In the end, a group of children wrote letters to the council and collected over five hundred signatures. The council agreed to build the car park on a different site, and the oak was saved. Now there is a small sign under its branches that reads: 'Protected by the young people of this village.'",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m016",
@@ -2874,7 +3224,9 @@
    ],
    "correct": 3,
    "explanation": "The children's action saved the tree.",
-   "passage": "The village had argued about the old oak tree for months. Some people wanted to cut it down to make space for a car park; others said it had stood there for three hundred years and belonged to everyone. In the end, a group of children wrote letters to the council and collected over five hundred signatures. The council agreed to build the car park on a different site, and the oak was saved. Now there is a small sign under its branches that reads: 'Protected by the young people of this village.'"
+   "passage": "The village had argued about the old oak tree for months. Some people wanted to cut it down to make space for a car park; others said it had stood there for three hundred years and belonged to everyone. In the end, a group of children wrote letters to the council and collected over five hundred signatures. The council agreed to build the car park on a different site, and the oak was saved. Now there is a small sign under its branches that reads: 'Protected by the young people of this village.'",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m017",
@@ -2890,7 +3242,9 @@
    ],
    "correct": 1,
    "explanation": "'Many people think they are blind'",
-   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours."
+   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m018",
@@ -2906,7 +3260,9 @@
    ],
    "correct": 2,
    "explanation": "'make high-pitched sounds and listen for the echoes'",
-   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours."
+   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m019",
@@ -2922,7 +3278,9 @@
    ],
    "correct": 2,
    "explanation": "'catch tiny insects in mid-air'",
-   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours."
+   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_m020",
@@ -2938,7 +3296,9 @@
    ],
    "correct": 2,
    "explanation": "'can eat thousands of mosquitoes in one night'",
-   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours."
+   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m021",
@@ -2954,7 +3314,9 @@
    ],
    "correct": 3,
    "explanation": "'he spoke very little English, and the noise of the playground made him feel invisible'",
-   "passage": "When Samir first arrived from Syria, he spoke very little English, and the noise of the playground made him feel invisible. His classmate Fin noticed that Samir drew incredible pictures in the margins of his books. One lunchtime, Fin asked if Samir could teach him to draw a horse. They did not need many words: Samir drew, Fin copied, and they both laughed at Fin's wobbly attempts. By the end of the term, they were designing a comic together, with Samir's drawings and Fin's speech bubbles."
+   "passage": "When Samir first arrived from Syria, he spoke very little English, and the noise of the playground made him feel invisible. His classmate Fin noticed that Samir drew incredible pictures in the margins of his books. One lunchtime, Fin asked if Samir could teach him to draw a horse. They did not need many words: Samir drew, Fin copied, and they both laughed at Fin's wobbly attempts. By the end of the term, they were designing a comic together, with Samir's drawings and Fin's speech bubbles.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m022",
@@ -2970,7 +3332,9 @@
    ],
    "correct": 1,
    "explanation": "'drew incredible pictures'",
-   "passage": "When Samir first arrived from Syria, he spoke very little English, and the noise of the playground made him feel invisible. His classmate Fin noticed that Samir drew incredible pictures in the margins of his books. One lunchtime, Fin asked if Samir could teach him to draw a horse. They did not need many words: Samir drew, Fin copied, and they both laughed at Fin's wobbly attempts. By the end of the term, they were designing a comic together, with Samir's drawings and Fin's speech bubbles."
+   "passage": "When Samir first arrived from Syria, he spoke very little English, and the noise of the playground made him feel invisible. His classmate Fin noticed that Samir drew incredible pictures in the margins of his books. One lunchtime, Fin asked if Samir could teach him to draw a horse. They did not need many words: Samir drew, Fin copied, and they both laughed at Fin's wobbly attempts. By the end of the term, they were designing a comic together, with Samir's drawings and Fin's speech bubbles.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_m023",
@@ -2986,7 +3350,9 @@
    ],
    "correct": 3,
    "explanation": "'Samir drew, Fin copied'",
-   "passage": "When Samir first arrived from Syria, he spoke very little English, and the noise of the playground made him feel invisible. His classmate Fin noticed that Samir drew incredible pictures in the margins of his books. One lunchtime, Fin asked if Samir could teach him to draw a horse. They did not need many words: Samir drew, Fin copied, and they both laughed at Fin's wobbly attempts. By the end of the term, they were designing a comic together, with Samir's drawings and Fin's speech bubbles."
+   "passage": "When Samir first arrived from Syria, he spoke very little English, and the noise of the playground made him feel invisible. His classmate Fin noticed that Samir drew incredible pictures in the margins of his books. One lunchtime, Fin asked if Samir could teach him to draw a horse. They did not need many words: Samir drew, Fin copied, and they both laughed at Fin's wobbly attempts. By the end of the term, they were designing a comic together, with Samir's drawings and Fin's speech bubbles.",
+   "skill": "comp_inference",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m024",
@@ -3002,7 +3368,9 @@
    ],
    "correct": 2,
    "explanation": "'designing a comic together'",
-   "passage": "When Samir first arrived from Syria, he spoke very little English, and the noise of the playground made him feel invisible. His classmate Fin noticed that Samir drew incredible pictures in the margins of his books. One lunchtime, Fin asked if Samir could teach him to draw a horse. They did not need many words: Samir drew, Fin copied, and they both laughed at Fin's wobbly attempts. By the end of the term, they were designing a comic together, with Samir's drawings and Fin's speech bubbles."
+   "passage": "When Samir first arrived from Syria, he spoke very little English, and the noise of the playground made him feel invisible. His classmate Fin noticed that Samir drew incredible pictures in the margins of his books. One lunchtime, Fin asked if Samir could teach him to draw a horse. They did not need many words: Samir drew, Fin copied, and they both laughed at Fin's wobbly attempts. By the end of the term, they were designing a comic together, with Samir's drawings and Fin's speech bubbles.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m025",
@@ -3018,7 +3386,9 @@
    ],
    "correct": 1,
    "explanation": "'rock melts into a thick liquid called magma'",
-   "passage": "A volcano is an opening in the Earth's crust. Deep underground, it is so hot that rock melts into a thick liquid called magma. When pressure builds up, the magma rises and bursts out of the volcano. Once it reaches the surface, it is called lava. Although eruptions can be dangerous, the soil around volcanoes is often very fertile, which is why many farmers choose to live nearby."
+   "passage": "A volcano is an opening in the Earth's crust. Deep underground, it is so hot that rock melts into a thick liquid called magma. When pressure builds up, the magma rises and bursts out of the volcano. Once it reaches the surface, it is called lava. Although eruptions can be dangerous, the soil around volcanoes is often very fertile, which is why many farmers choose to live nearby.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m026",
@@ -3034,7 +3404,9 @@
    ],
    "correct": 2,
    "explanation": "'Once it reaches the surface, it is called lava.'",
-   "passage": "A volcano is an opening in the Earth's crust. Deep underground, it is so hot that rock melts into a thick liquid called magma. When pressure builds up, the magma rises and bursts out of the volcano. Once it reaches the surface, it is called lava. Although eruptions can be dangerous, the soil around volcanoes is often very fertile, which is why many farmers choose to live nearby."
+   "passage": "A volcano is an opening in the Earth's crust. Deep underground, it is so hot that rock melts into a thick liquid called magma. When pressure builds up, the magma rises and bursts out of the volcano. Once it reaches the surface, it is called lava. Although eruptions can be dangerous, the soil around volcanoes is often very fertile, which is why many farmers choose to live nearby.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_m027",
@@ -3050,7 +3422,9 @@
    ],
    "correct": 2,
    "explanation": "'When pressure builds up, the magma rises'",
-   "passage": "A volcano is an opening in the Earth's crust. Deep underground, it is so hot that rock melts into a thick liquid called magma. When pressure builds up, the magma rises and bursts out of the volcano. Once it reaches the surface, it is called lava. Although eruptions can be dangerous, the soil around volcanoes is often very fertile, which is why many farmers choose to live nearby."
+   "passage": "A volcano is an opening in the Earth's crust. Deep underground, it is so hot that rock melts into a thick liquid called magma. When pressure builds up, the magma rises and bursts out of the volcano. Once it reaches the surface, it is called lava. Although eruptions can be dangerous, the soil around volcanoes is often very fertile, which is why many farmers choose to live nearby.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_m028",
@@ -3066,7 +3440,9 @@
    ],
    "correct": 3,
    "explanation": "'the soil around volcanoes is often very fertile'",
-   "passage": "A volcano is an opening in the Earth's crust. Deep underground, it is so hot that rock melts into a thick liquid called magma. When pressure builds up, the magma rises and bursts out of the volcano. Once it reaches the surface, it is called lava. Although eruptions can be dangerous, the soil around volcanoes is often very fertile, which is why many farmers choose to live nearby."
+   "passage": "A volcano is an opening in the Earth's crust. Deep underground, it is so hot that rock melts into a thick liquid called magma. When pressure builds up, the magma rises and bursts out of the volcano. Once it reaches the surface, it is called lava. Although eruptions can be dangerous, the soil around volcanoes is often very fertile, which is why many farmers choose to live nearby.",
+   "skill": "comp_inference",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m029",
@@ -3082,7 +3458,9 @@
    ],
    "correct": 3,
    "explanation": "'all the way to Antarctica'",
-   "passage": "Every year, Arctic terns make one of the longest journeys of any animal. These small seabirds fly from the Arctic, where they spend the northern summer, all the way to Antarctica, and then back again. Over a lifetime, a single tern may fly the same distance as three return trips to the Moon. Because they follow the summer from one end of the world to the other, Arctic terns probably see more daylight than any other creature on Earth."
+   "passage": "Every year, Arctic terns make one of the longest journeys of any animal. These small seabirds fly from the Arctic, where they spend the northern summer, all the way to Antarctica, and then back again. Over a lifetime, a single tern may fly the same distance as three return trips to the Moon. Because they follow the summer from one end of the world to the other, Arctic terns probably see more daylight than any other creature on Earth.",
+   "skill": "comp_literal",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m030",
@@ -3098,7 +3476,9 @@
    ],
    "correct": 3,
    "explanation": "'These small seabirds'",
-   "passage": "Every year, Arctic terns make one of the longest journeys of any animal. These small seabirds fly from the Arctic, where they spend the northern summer, all the way to Antarctica, and then back again. Over a lifetime, a single tern may fly the same distance as three return trips to the Moon. Because they follow the summer from one end of the world to the other, Arctic terns probably see more daylight than any other creature on Earth."
+   "passage": "Every year, Arctic terns make one of the longest journeys of any animal. These small seabirds fly from the Arctic, where they spend the northern summer, all the way to Antarctica, and then back again. Over a lifetime, a single tern may fly the same distance as three return trips to the Moon. Because they follow the summer from one end of the world to the other, Arctic terns probably see more daylight than any other creature on Earth.",
+   "skill": "comp_literal",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_m031",
@@ -3114,7 +3494,9 @@
    ],
    "correct": 1,
    "explanation": "'three return trips to the Moon'",
-   "passage": "Every year, Arctic terns make one of the longest journeys of any animal. These small seabirds fly from the Arctic, where they spend the northern summer, all the way to Antarctica, and then back again. Over a lifetime, a single tern may fly the same distance as three return trips to the Moon. Because they follow the summer from one end of the world to the other, Arctic terns probably see more daylight than any other creature on Earth."
+   "passage": "Every year, Arctic terns make one of the longest journeys of any animal. These small seabirds fly from the Arctic, where they spend the northern summer, all the way to Antarctica, and then back again. Over a lifetime, a single tern may fly the same distance as three return trips to the Moon. Because they follow the summer from one end of the world to the other, Arctic terns probably see more daylight than any other creature on Earth.",
+   "skill": "comp_literal",
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m032",
@@ -3130,7 +3512,9 @@
    ],
    "correct": 1,
    "explanation": "'they follow the summer from one end of the world to the other'",
-   "passage": "Every year, Arctic terns make one of the longest journeys of any animal. These small seabirds fly from the Arctic, where they spend the northern summer, all the way to Antarctica, and then back again. Over a lifetime, a single tern may fly the same distance as three return trips to the Moon. Because they follow the summer from one end of the world to the other, Arctic terns probably see more daylight than any other creature on Earth."
+   "passage": "Every year, Arctic terns make one of the longest journeys of any animal. These small seabirds fly from the Arctic, where they spend the northern summer, all the way to Antarctica, and then back again. Over a lifetime, a single tern may fly the same distance as three return trips to the Moon. Because they follow the summer from one end of the world to the other, Arctic terns probably see more daylight than any other creature on Earth.",
+   "skill": "comp_inference",
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_f001",
@@ -3149,7 +3533,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Antibiotics kill bacteria, not viruses."
+   "explanation": "Antibiotics kill bacteria, not viruses.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_f002",
@@ -3166,7 +3552,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "That process is called bleaching."
+   "explanation": "That process is called bleaching.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_f003",
@@ -3185,7 +3573,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Echolocation works in the dark."
+   "explanation": "Echolocation works in the dark.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_f004",
@@ -3202,7 +3592,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Fertile soil helps plants grow."
+   "explanation": "Fertile soil helps plants grow.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_f005",
@@ -3221,7 +3613,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "A petition persuades the council."
+   "explanation": "A petition persuades the council.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_f006",
@@ -3238,7 +3632,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Migrating means travelling long distances."
+   "explanation": "Migrating means travelling long distances.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_f007",
@@ -3255,7 +3651,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Autobiographical means about your own life."
+   "explanation": "Autobiographical means about your own life.",
+   "skill": "comp_vocab",
+   "step": 1
   },
   {
    "id": "en_comprension_lectora_l5_f008",
@@ -3272,7 +3670,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "On the surface, magma is called lava."
+   "explanation": "On the surface, magma is called lava.",
+   "skill": "comp_vocab",
+   "step": 1
   }
  ]
 }

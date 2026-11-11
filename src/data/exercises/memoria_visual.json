@@ -13,7 +13,9 @@
     "caas"
    ],
    "correct": 1,
-   "explanation": "Se escribe «casa»."
+   "explanation": "Se escribe «casa».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m002",
@@ -28,7 +30,9 @@
     "agto"
    ],
    "correct": 0,
-   "explanation": "Se escribe «gato»."
+   "explanation": "Se escribe «gato».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m003",
@@ -43,7 +47,9 @@
     "sol"
    ],
    "correct": 3,
-   "explanation": "Se escribe «sol»."
+   "explanation": "Se escribe «sol».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_m004",
@@ -58,7 +64,9 @@
     "apn"
    ],
    "correct": 0,
-   "explanation": "Se escribe «pan»."
+   "explanation": "Se escribe «pan».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m005",
@@ -73,7 +81,9 @@
     "mesá"
    ],
    "correct": 2,
-   "explanation": "Se escribe «mesa»."
+   "explanation": "Se escribe «mesa».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m006",
@@ -88,7 +98,9 @@
     "luna"
    ],
    "correct": 3,
-   "explanation": "Se escribe «luna»."
+   "explanation": "Se escribe «luna».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m007",
@@ -103,7 +115,9 @@
     "moon"
    ],
    "correct": 1,
-   "explanation": "Se escribe «mono»."
+   "explanation": "Se escribe «mono».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m008",
@@ -118,7 +132,9 @@
     "bedo"
    ],
    "correct": 0,
-   "explanation": "Se escribe «dedo»."
+   "explanation": "Se escribe «dedo».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_m009",
@@ -133,7 +149,9 @@
     "bocca"
    ],
    "correct": 0,
-   "explanation": "Se escribe «boca»."
+   "explanation": "Se escribe «boca».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m010",
@@ -148,7 +166,9 @@
     "pierra"
    ],
    "correct": 1,
-   "explanation": "Se escribe «pera»."
+   "explanation": "Se escribe «pera».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_m011",
@@ -163,7 +183,9 @@
     "pei"
    ],
    "correct": 1,
-   "explanation": "Se escribe «pie»."
+   "explanation": "Se escribe «pie».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m012",
@@ -178,7 +200,9 @@
     "dabo"
    ],
    "correct": 0,
-   "explanation": "Se escribe «dado»."
+   "explanation": "Se escribe «dado».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_m013",
@@ -193,7 +217,9 @@
     "pumma"
    ],
    "correct": 2,
-   "explanation": "Se escribe «puma»."
+   "explanation": "Se escribe «puma».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m014",
@@ -208,7 +234,9 @@
     "leeche"
    ],
    "correct": 1,
-   "explanation": "Se escribe «leche»."
+   "explanation": "Se escribe «leche».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m015",
@@ -223,7 +251,9 @@
     "botta"
    ],
    "correct": 0,
-   "explanation": "Se escribe «bota»."
+   "explanation": "Se escribe «bota».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m016",
@@ -238,7 +268,9 @@
     "pipa"
    ],
    "correct": 3,
-   "explanation": "Se escribe «pipa»."
+   "explanation": "Se escribe «pipa».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_m017",
@@ -253,7 +285,9 @@
     "nubbe"
    ],
    "correct": 1,
-   "explanation": "Se escribe «nube»."
+   "explanation": "Se escribe «nube».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m018",
@@ -268,7 +302,9 @@
     "lboo"
    ],
    "correct": 2,
-   "explanation": "Se escribe «lobo»."
+   "explanation": "Se escribe «lobo».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m019",
@@ -283,7 +319,9 @@
     "ooj"
    ],
    "correct": 1,
-   "explanation": "Se escribe «ojo»."
+   "explanation": "Se escribe «ojo».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m020",
@@ -298,7 +336,9 @@
     "vua"
    ],
    "correct": 0,
-   "explanation": "Se escribe «uva»."
+   "explanation": "Se escribe «uva».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m021",
@@ -313,7 +353,9 @@
     "vazo"
    ],
    "correct": 1,
-   "explanation": "Se escribe «vaso»."
+   "explanation": "Se escribe «vaso».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l1_m022",
@@ -328,7 +370,9 @@
     "tzaa"
    ],
    "correct": 0,
-   "explanation": "Se escribe «taza»."
+   "explanation": "Se escribe «taza».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m023",
@@ -343,7 +387,9 @@
     "rosaa"
    ],
    "correct": 2,
-   "explanation": "Se escribe «rosa»."
+   "explanation": "Se escribe «rosa».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m024",
@@ -358,7 +404,9 @@
     "foac"
    ],
    "correct": 0,
-   "explanation": "Se escribe «foca»."
+   "explanation": "Se escribe «foca».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m025",
@@ -373,7 +421,9 @@
     "la 3.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 2.ª: «d». Las demás son «b»."
+   "explanation": "Es la 2.ª: «d». Las demás son «b».",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m026",
@@ -388,7 +438,9 @@
     "la 1.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 4.ª: «q». Las demás son «p»."
+   "explanation": "Es la 4.ª: «q». Las demás son «p».",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m027",
@@ -403,7 +455,9 @@
     "la 3.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 2.ª: «u». Las demás son «n»."
+   "explanation": "Es la 2.ª: «u». Las demás son «n».",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m028",
@@ -418,7 +472,9 @@
     "la 3.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 4.ª: «w». Las demás son «m»."
+   "explanation": "Es la 4.ª: «w». Las demás son «m».",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m029",
@@ -433,7 +489,9 @@
     "la 3.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 2.ª: «p». Las demás son «b»."
+   "explanation": "Es la 2.ª: «p». Las demás son «b».",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m030",
@@ -448,7 +506,9 @@
     "la 1.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 4.ª: «q». Las demás son «d»."
+   "explanation": "Es la 4.ª: «q». Las demás son «d».",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m031",
@@ -463,7 +523,9 @@
     "slo"
    ],
    "correct": 1,
-   "explanation": "Fíjate bien en cada letra: s-o-l."
+   "explanation": "Fíjate bien en cada letra: s-o-l.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_m032",
@@ -478,7 +540,9 @@
     "nap"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: p-a-n."
+   "explanation": "Fíjate bien en cada letra: p-a-n.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_m033",
@@ -493,7 +557,9 @@
     "lsa"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: l-a-s."
+   "explanation": "Fíjate bien en cada letra: l-a-s.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_m034",
@@ -508,7 +574,9 @@
     "dos"
    ],
    "correct": 3,
-   "explanation": "Fíjate bien en cada letra: d-o-s."
+   "explanation": "Fíjate bien en cada letra: d-o-s.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_m035",
@@ -523,7 +591,9 @@
     "pze"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: p-e-z."
+   "explanation": "Fíjate bien en cada letra: p-e-z.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_m036",
@@ -538,7 +608,9 @@
     "ram"
    ],
    "correct": 1,
-   "explanation": "Fíjate bien en cada letra: m-a-r."
+   "explanation": "Fíjate bien en cada letra: m-a-r.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_m037",
@@ -553,7 +625,9 @@
     "la 3.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 2.ª: «los», no «sol»."
+   "explanation": "Es la 2.ª: «los», no «sol».",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m038",
@@ -568,7 +642,9 @@
     "la 1.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 3.ª: «nap», no «pan»."
+   "explanation": "Es la 3.ª: «nap», no «pan».",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m039",
@@ -583,7 +659,9 @@
     "la 2.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 4.ª: «sal», no «las»."
+   "explanation": "Es la 4.ª: «sal», no «las».",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m040",
@@ -598,7 +676,9 @@
     "la 2.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 1.ª: «sod», no «dos»."
+   "explanation": "Es la 1.ª: «sod», no «dos».",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_m041",
@@ -613,7 +693,9 @@
     "la 4.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 2.ª: «zep», no «pez»."
+   "explanation": "Es la 2.ª: «zep», no «pez».",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l1_o001",
@@ -635,7 +717,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: A, B, C, D."
+   "explanation": "Orden alfabético: A, B, C, D.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_o002",
@@ -657,7 +741,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: E, F, G, H."
+   "explanation": "Orden alfabético: E, F, G, H.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_o003",
@@ -679,7 +765,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: L, M, N, Ñ."
+   "explanation": "Orden alfabético: L, M, N, Ñ.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l1_o004",
@@ -701,7 +789,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: R, S, T, U."
+   "explanation": "Orden alfabético: R, S, T, U.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_m001",
@@ -716,7 +806,9 @@
     "nyño"
    ],
    "correct": 0,
-   "explanation": "Se escribe «niño»."
+   "explanation": "Se escribe «niño».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_m002",
@@ -731,7 +823,9 @@
     "cocche"
    ],
    "correct": 0,
-   "explanation": "Se escribe «coche»."
+   "explanation": "Se escribe «coche».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m003",
@@ -746,7 +840,9 @@
     "caxa"
    ],
    "correct": 1,
-   "explanation": "Se escribe «caja»."
+   "explanation": "Se escribe «caja».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_m004",
@@ -761,7 +857,9 @@
     "plyaa"
    ],
    "correct": 2,
-   "explanation": "Se escribe «playa»."
+   "explanation": "Se escribe «playa».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_m005",
@@ -776,7 +874,9 @@
     "mondaña"
    ],
    "correct": 0,
-   "explanation": "Se escribe «montaña»."
+   "explanation": "Se escribe «montaña».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m006",
@@ -791,7 +891,9 @@
     "konejo"
    ],
    "correct": 2,
-   "explanation": "Se escribe «conejo»."
+   "explanation": "Se escribe «conejo».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m007",
@@ -806,7 +908,9 @@
     "galina"
    ],
    "correct": 0,
-   "explanation": "Se escribe «gallina»."
+   "explanation": "Se escribe «gallina».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m008",
@@ -821,7 +925,9 @@
     "libor"
    ],
    "correct": 2,
-   "explanation": "Se escribe «libro»."
+   "explanation": "Se escribe «libro».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_m009",
@@ -836,7 +942,9 @@
     "vemtana"
    ],
    "correct": 2,
-   "explanation": "Se escribe «ventana»."
+   "explanation": "Se escribe «ventana».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m010",
@@ -851,7 +959,9 @@
     "hormigga"
    ],
    "correct": 1,
-   "explanation": "Se escribe «hormiga»."
+   "explanation": "Se escribe «hormiga».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m011",
@@ -866,7 +976,9 @@
     "jiraffa"
    ],
    "correct": 0,
-   "explanation": "Se escribe «jirafa»."
+   "explanation": "Se escribe «jirafa».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m012",
@@ -881,7 +993,9 @@
     "girasoll"
    ],
    "correct": 1,
-   "explanation": "Se escribe «girasol»."
+   "explanation": "Se escribe «girasol».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m013",
@@ -896,7 +1010,9 @@
     "llave"
    ],
    "correct": 3,
-   "explanation": "Se escribe «llave»."
+   "explanation": "Se escribe «llave».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m014",
@@ -911,7 +1027,9 @@
     "yogurr"
    ],
    "correct": 0,
-   "explanation": "Se escribe «yogur»."
+   "explanation": "Se escribe «yogur».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m015",
@@ -926,7 +1044,9 @@
     "perro"
    ],
    "correct": 3,
-   "explanation": "Se escribe «perro»."
+   "explanation": "Se escribe «perro».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m016",
@@ -941,7 +1061,9 @@
     "ratón"
    ],
    "correct": 3,
-   "explanation": "Se escribe «ratón»."
+   "explanation": "Se escribe «ratón».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m017",
@@ -956,7 +1078,9 @@
     "keso"
    ],
    "correct": 1,
-   "explanation": "Se escribe «queso»."
+   "explanation": "Se escribe «queso».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m018",
@@ -971,7 +1095,9 @@
     "sielo"
    ],
    "correct": 0,
-   "explanation": "Se escribe «cielo»."
+   "explanation": "Se escribe «cielo».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_m019",
@@ -986,7 +1112,9 @@
     "sapato"
    ],
    "correct": 0,
-   "explanation": "Se escribe «zapato»."
+   "explanation": "Se escribe «zapato».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m020",
@@ -1001,7 +1129,9 @@
     "darco"
    ],
    "correct": 0,
-   "explanation": "Se escribe «barco»."
+   "explanation": "Se escribe «barco».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_m021",
@@ -1016,7 +1146,9 @@
     "bela"
    ],
    "correct": 2,
-   "explanation": "Se escribe «vela»."
+   "explanation": "Se escribe «vela».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m022",
@@ -1031,7 +1163,9 @@
     "oja"
    ],
    "correct": 2,
-   "explanation": "Se escribe «hoja»."
+   "explanation": "Se escribe «hoja».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m023",
@@ -1046,7 +1180,9 @@
     "guante"
    ],
    "correct": 3,
-   "explanation": "Se escribe «guante»."
+   "explanation": "Se escribe «guante».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m024",
@@ -1061,7 +1197,9 @@
     "cico"
    ],
    "correct": 2,
-   "explanation": "Se escribe «chico»."
+   "explanation": "Se escribe «chico».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l2_m025",
@@ -1076,7 +1214,9 @@
     "la 2.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 3.ª: «d». Las demás son «b»."
+   "explanation": "Es la 3.ª: «d». Las demás son «b».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m026",
@@ -1091,7 +1231,9 @@
     "la 2.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 1.ª: «q». Las demás son «p»."
+   "explanation": "Es la 1.ª: «q». Las demás son «p».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m027",
@@ -1106,7 +1248,9 @@
     "la 1.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 3.ª: «u». Las demás son «n»."
+   "explanation": "Es la 3.ª: «u». Las demás son «n».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m028",
@@ -1121,7 +1265,9 @@
     "la 4.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 1.ª: «w». Las demás son «m»."
+   "explanation": "Es la 1.ª: «w». Las demás son «m».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m029",
@@ -1136,7 +1282,9 @@
     "la 3.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 3.ª: «b». Las demás son «d»."
+   "explanation": "Es la 3.ª: «b». Las demás son «d».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m030",
@@ -1151,7 +1299,9 @@
     "la 3.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 1.ª: «p». Las demás son «q»."
+   "explanation": "Es la 1.ª: «p». Las demás son «q».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m031",
@@ -1166,7 +1316,9 @@
     "cmaa"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: c-a-m-a."
+   "explanation": "Fíjate bien en cada letra: c-a-m-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_m032",
@@ -1181,7 +1333,9 @@
     "tara"
    ],
    "correct": 1,
-   "explanation": "Fíjate bien en cada letra: r-a-t-a."
+   "explanation": "Fíjate bien en cada letra: r-a-t-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m033",
@@ -1196,7 +1350,9 @@
     "lima"
    ],
    "correct": 3,
-   "explanation": "Fíjate bien en cada letra: l-i-m-a."
+   "explanation": "Fíjate bien en cada letra: l-i-m-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_m034",
@@ -1211,7 +1367,9 @@
     "sopa"
    ],
    "correct": 3,
-   "explanation": "Fíjate bien en cada letra: s-o-p-a."
+   "explanation": "Fíjate bien en cada letra: s-o-p-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_m035",
@@ -1226,7 +1384,9 @@
     "mara"
    ],
    "correct": 1,
-   "explanation": "Fíjate bien en cada letra: r-a-m-a."
+   "explanation": "Fíjate bien en cada letra: r-a-m-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_m036",
@@ -1241,7 +1401,9 @@
     "mola"
    ],
    "correct": 1,
-   "explanation": "Fíjate bien en cada letra: l-o-m-a."
+   "explanation": "Fíjate bien en cada letra: l-o-m-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_m037",
@@ -1256,7 +1418,9 @@
     "la 3.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 3.ª: «maca», no «cama»."
+   "explanation": "Es la 3.ª: «maca», no «cama».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m038",
@@ -1271,7 +1435,9 @@
     "la 1.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 4.ª: «tara», no «rata»."
+   "explanation": "Es la 4.ª: «tara», no «rata».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m039",
@@ -1286,7 +1452,9 @@
     "la 2.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 1.ª: «mila», no «lima»."
+   "explanation": "Es la 1.ª: «mila», no «lima».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m040",
@@ -1301,7 +1469,9 @@
     "la 1.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 2.ª: «posa», no «sopa»."
+   "explanation": "Es la 2.ª: «posa», no «sopa».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_m041",
@@ -1316,7 +1486,9 @@
     "la 4.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 3.ª: «arma», no «rama»."
+   "explanation": "Es la 3.ª: «arma», no «rama».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l2_o001",
@@ -1340,7 +1512,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: B, D, G, J, P."
+   "explanation": "Orden alfabético: B, D, G, J, P.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_o002",
@@ -1364,7 +1538,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: A, E, I, O, U."
+   "explanation": "Orden alfabético: A, E, I, O, U.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_o003",
@@ -1388,7 +1564,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: C, F, J, M, R."
+   "explanation": "Orden alfabético: C, F, J, M, R.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l2_o004",
@@ -1412,7 +1590,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: D, H, L, S, X."
+   "explanation": "Orden alfabético: D, H, L, S, X.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_m001",
@@ -1427,7 +1607,9 @@
     "cansión"
    ],
    "correct": 1,
-   "explanation": "Se escribe «canción». Aguda acabada en n: lleva tilde."
+   "explanation": "Se escribe «canción». Aguda acabada en n: lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m002",
@@ -1442,7 +1624,9 @@
     "árvol"
    ],
    "correct": 0,
-   "explanation": "Se escribe «árbol». Es llana acabada en consonante distinta de n o s: lleva tilde."
+   "explanation": "Se escribe «árbol». Es llana acabada en consonante distinta de n o s: lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m003",
@@ -1457,7 +1641,9 @@
     "lápiç"
    ],
    "correct": 2,
-   "explanation": "Se escribe «lápiz». Llana acabada en z: lleva tilde."
+   "explanation": "Se escribe «lápiz». Llana acabada en z: lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_m004",
@@ -1472,7 +1658,9 @@
     "camion"
    ],
    "correct": 2,
-   "explanation": "Se escribe «camión». Aguda acabada en n: lleva tilde."
+   "explanation": "Se escribe «camión». Aguda acabada en n: lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_m005",
@@ -1487,7 +1675,9 @@
     "abión"
    ],
    "correct": 1,
-   "explanation": "Se escribe «avión». Aguda acabada en n: lleva tilde."
+   "explanation": "Se escribe «avión». Aguda acabada en n: lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_m006",
@@ -1502,7 +1692,9 @@
     "sofá"
    ],
    "correct": 3,
-   "explanation": "Se escribe «sofá». Aguda acabada en vocal: lleva tilde."
+   "explanation": "Se escribe «sofá». Aguda acabada en vocal: lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_m007",
@@ -1517,7 +1709,9 @@
     "caffé"
    ],
    "correct": 2,
-   "explanation": "Se escribe «café». Aguda acabada en vocal: lleva tilde."
+   "explanation": "Se escribe «café». Aguda acabada en vocal: lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_m008",
@@ -1532,7 +1726,9 @@
     "azúcar"
    ],
    "correct": 3,
-   "explanation": "Se escribe «azúcar». Llana acabada en r: lleva tilde."
+   "explanation": "Se escribe «azúcar». Llana acabada en r: lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m009",
@@ -1547,7 +1743,9 @@
     "pájarro"
    ],
    "correct": 0,
-   "explanation": "Se escribe «pájaro». Las esdrújulas siempre llevan tilde."
+   "explanation": "Se escribe «pájaro». Las esdrújulas siempre llevan tilde.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m010",
@@ -1562,7 +1760,9 @@
     "hielho"
    ],
    "correct": 2,
-   "explanation": "Se escribe «hielo». Las palabras que empiezan por hie- llevan h."
+   "explanation": "Se escribe «hielo». Las palabras que empiezan por hie- llevan h.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m011",
@@ -1577,7 +1777,9 @@
     "huebo"
    ],
    "correct": 0,
-   "explanation": "Se escribe «huevo». Las palabras que empiezan por hue- llevan h."
+   "explanation": "Se escribe «huevo». Las palabras que empiezan por hue- llevan h.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m012",
@@ -1592,7 +1794,9 @@
     "jierba"
    ],
    "correct": 2,
-   "explanation": "Se escribe «hierba». Empieza por hie- (con h) y lleva b."
+   "explanation": "Se escribe «hierba». Empieza por hie- (con h) y lleva b.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m013",
@@ -1607,7 +1811,9 @@
     "gitarra"
    ],
    "correct": 1,
-   "explanation": "Se escribe «guitarra»."
+   "explanation": "Se escribe «guitarra».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m014",
@@ -1622,7 +1828,9 @@
     "pingüíno"
    ],
    "correct": 0,
-   "explanation": "Se escribe «pingüino». La diéresis hace sonar la u."
+   "explanation": "Se escribe «pingüino». La diéresis hace sonar la u.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m015",
@@ -1637,7 +1845,9 @@
     "cigüeña"
    ],
    "correct": 3,
-   "explanation": "Se escribe «cigüeña». La diéresis hace sonar la u."
+   "explanation": "Se escribe «cigüeña». La diéresis hace sonar la u.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m016",
@@ -1652,7 +1862,9 @@
     "bisicleta"
    ],
    "correct": 1,
-   "explanation": "Se escribe «bicicleta»."
+   "explanation": "Se escribe «bicicleta».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m017",
@@ -1667,7 +1879,9 @@
     "paraguaz"
    ],
    "correct": 0,
-   "explanation": "Se escribe «paraguas»."
+   "explanation": "Se escribe «paraguas».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m018",
@@ -1682,7 +1896,9 @@
     "agua"
    ],
    "correct": 3,
-   "explanation": "Se escribe «agua»."
+   "explanation": "Se escribe «agua».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_m019",
@@ -1697,7 +1913,9 @@
     "lluvia"
    ],
    "correct": 3,
-   "explanation": "Se escribe «lluvia»."
+   "explanation": "Se escribe «lluvia».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_m020",
@@ -1712,7 +1930,9 @@
     "bombilla"
    ],
    "correct": 3,
-   "explanation": "Se escribe «bombilla». Antes de b, se escribe m."
+   "explanation": "Se escribe «bombilla». Antes de b, se escribe m.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m021",
@@ -1727,7 +1947,9 @@
     "campo"
    ],
    "correct": 3,
-   "explanation": "Se escribe «campo». Antes de p, se escribe m."
+   "explanation": "Se escribe «campo». Antes de p, se escribe m.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m022",
@@ -1742,7 +1964,9 @@
     "kambio"
    ],
    "correct": 1,
-   "explanation": "Se escribe «cambio». Antes de b, se escribe m."
+   "explanation": "Se escribe «cambio». Antes de b, se escribe m.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m023",
@@ -1757,7 +1981,9 @@
     "ombre"
    ],
    "correct": 1,
-   "explanation": "Se escribe «hombre». Antes de b, se escribe m, y empieza por h."
+   "explanation": "Se escribe «hombre». Antes de b, se escribe m, y empieza por h.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m024",
@@ -1772,7 +1998,9 @@
     "ahora"
    ],
    "correct": 3,
-   "explanation": "Se escribe «ahora»."
+   "explanation": "Se escribe «ahora».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m025",
@@ -1787,7 +2015,9 @@
     "la 4.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 4.ª: «d». Las demás son «b»."
+   "explanation": "Es la 4.ª: «d». Las demás son «b».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_m026",
@@ -1802,7 +2032,9 @@
     "la 1.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 1.ª: «q». Las demás son «p»."
+   "explanation": "Es la 1.ª: «q». Las demás son «p».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_m027",
@@ -1817,7 +2049,9 @@
     "la 3.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 3.ª: «h». Las demás son «n»."
+   "explanation": "Es la 3.ª: «h». Las demás son «n».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m028",
@@ -1832,7 +2066,9 @@
     "la 1.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 5.ª: «n». Las demás son «m»."
+   "explanation": "Es la 5.ª: «n». Las demás son «m».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m029",
@@ -1847,7 +2083,9 @@
     "la 1.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 2.ª: «j». Las demás son «i»."
+   "explanation": "Es la 2.ª: «j». Las demás son «i».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m030",
@@ -1862,7 +2100,9 @@
     "la 1.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 4.ª: «f». Las demás son «t»."
+   "explanation": "Es la 4.ª: «f». Las demás son «t».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m031",
@@ -1877,7 +2117,9 @@
     "prauqe"
    ],
    "correct": 1,
-   "explanation": "Fíjate bien en cada letra: p-a-r-q-u-e."
+   "explanation": "Fíjate bien en cada letra: p-a-r-q-u-e.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m032",
@@ -1892,7 +2134,9 @@
     "querda"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: c-u-e-r-d-a."
+   "explanation": "Fíjate bien en cada letra: c-u-e-r-d-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m033",
@@ -1907,7 +2151,9 @@
     "bumcre"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: c-u-m-b-r-e."
+   "explanation": "Fíjate bien en cada letra: c-u-m-b-r-e.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m034",
@@ -1922,7 +2168,9 @@
     "darca"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: b-a-r-c-a."
+   "explanation": "Fíjate bien en cada letra: b-a-r-c-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_m035",
@@ -1937,7 +2185,9 @@
     "pianta"
    ],
    "correct": 1,
-   "explanation": "Fíjate bien en cada letra: p-i-n-t-a."
+   "explanation": "Fíjate bien en cada letra: p-i-n-t-a.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l3_m036",
@@ -1952,7 +2202,9 @@
     "morfa"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: f-o-r-m-a."
+   "explanation": "Fíjate bien en cada letra: f-o-r-m-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_m037",
@@ -1967,7 +2219,9 @@
     "la 4.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 4.ª: «pacrue», no «parque»."
+   "explanation": "Es la 4.ª: «pacrue», no «parque».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m038",
@@ -1982,7 +2236,9 @@
     "la 2.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 1.ª: «cudera», no «cuerda»."
+   "explanation": "Es la 1.ª: «cudera», no «cuerda».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m039",
@@ -1997,7 +2253,9 @@
     "la 3.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 2.ª: «cubmre», no «cumbre»."
+   "explanation": "Es la 2.ª: «cubmre», no «cumbre».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m040",
@@ -2012,7 +2270,9 @@
     "la 3.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 3.ª: «braca», no «barca»."
+   "explanation": "Es la 3.ª: «braca», no «barca».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_m041",
@@ -2027,7 +2287,9 @@
     "la 4.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 4.ª: «pitna», no «pinta»."
+   "explanation": "Es la 4.ª: «pitna», no «pinta».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l3_o001",
@@ -2047,7 +2309,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: abeja, burro, caballo."
+   "explanation": "Orden alfabético: abeja, burro, caballo.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_o002",
@@ -2067,7 +2331,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: delfín, foca, gato."
+   "explanation": "Orden alfabético: delfín, foca, gato.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_o003",
@@ -2087,7 +2353,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: león, mono, oso."
+   "explanation": "Orden alfabético: león, mono, oso.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l3_o004",
@@ -2107,7 +2375,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: barco, coche, tren."
+   "explanation": "Orden alfabético: barco, coche, tren.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_m001",
@@ -2122,7 +2392,9 @@
     "murcielago"
    ],
    "correct": 1,
-   "explanation": "Se escribe «murciélago». Esdrújula: siempre lleva tilde."
+   "explanation": "Se escribe «murciélago». Esdrújula: siempre lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m002",
@@ -2137,7 +2409,9 @@
     "telefono"
    ],
    "correct": 0,
-   "explanation": "Se escribe «teléfono». Esdrújula: siempre lleva tilde."
+   "explanation": "Se escribe «teléfono». Esdrújula: siempre lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m003",
@@ -2152,7 +2426,9 @@
     "plátano"
    ],
    "correct": 3,
-   "explanation": "Se escribe «plátano». Esdrújula: siempre lleva tilde."
+   "explanation": "Se escribe «plátano». Esdrújula: siempre lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m004",
@@ -2167,7 +2443,9 @@
     "mérico"
    ],
    "correct": 2,
-   "explanation": "Se escribe «médico». Esdrújula: siempre lleva tilde."
+   "explanation": "Se escribe «médico». Esdrújula: siempre lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m005",
@@ -2182,7 +2460,9 @@
     "musica"
    ],
    "correct": 2,
-   "explanation": "Se escribe «música». Esdrújula: siempre lleva tilde."
+   "explanation": "Se escribe «música». Esdrújula: siempre lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_m006",
@@ -2197,7 +2477,9 @@
     "pagína"
    ],
    "correct": 0,
-   "explanation": "Se escribe «página». Esdrújula: siempre lleva tilde."
+   "explanation": "Se escribe «página». Esdrújula: siempre lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m007",
@@ -2212,7 +2494,9 @@
     "esamen"
    ],
    "correct": 2,
-   "explanation": "Se escribe «examen». Llana acabada en n: no lleva tilde."
+   "explanation": "Se escribe «examen». Llana acabada en n: no lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m008",
@@ -2227,7 +2511,9 @@
     "examenes"
    ],
    "correct": 2,
-   "explanation": "Se escribe «exámenes». Esdrújula: lleva tilde."
+   "explanation": "Se escribe «exámenes». Esdrújula: lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m009",
@@ -2242,7 +2528,9 @@
     "vehículo"
    ],
    "correct": 3,
-   "explanation": "Se escribe «vehículo»."
+   "explanation": "Se escribe «vehículo».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m010",
@@ -2257,7 +2545,9 @@
     "búo"
    ],
    "correct": 0,
-   "explanation": "Se escribe «búho»."
+   "explanation": "Se escribe «búho».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_m011",
@@ -2272,7 +2562,9 @@
     "zanahoria"
    ],
    "correct": 3,
-   "explanation": "Se escribe «zanahoria»."
+   "explanation": "Se escribe «zanahoria».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m012",
@@ -2287,7 +2579,9 @@
     "almohada"
    ],
    "correct": 3,
-   "explanation": "Se escribe «almohada»."
+   "explanation": "Se escribe «almohada».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m013",
@@ -2302,7 +2596,9 @@
     "herbir"
    ],
    "correct": 1,
-   "explanation": "Se escribe «hervir». Los verbos acabados en -bir van con b, excepto hervir, servir y vivir."
+   "explanation": "Se escribe «hervir». Los verbos acabados en -bir van con b, excepto hervir, servir y vivir.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m014",
@@ -2317,7 +2613,9 @@
     "biaje"
    ],
    "correct": 2,
-   "explanation": "Se escribe «viaje». Las palabras acabadas en -aje van con j."
+   "explanation": "Se escribe «viaje». Las palabras acabadas en -aje van con j.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m015",
@@ -2332,7 +2630,9 @@
     "garraje"
    ],
    "correct": 1,
-   "explanation": "Se escribe «garaje». Las palabras acabadas en -aje van con j."
+   "explanation": "Se escribe «garaje». Las palabras acabadas en -aje van con j.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m016",
@@ -2347,7 +2647,9 @@
     "jineté"
    ],
    "correct": 1,
-   "explanation": "Se escribe «jinete»."
+   "explanation": "Se escribe «jinete».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m017",
@@ -2362,7 +2664,9 @@
     "jemelo"
    ],
    "correct": 1,
-   "explanation": "Se escribe «gemelo»."
+   "explanation": "Se escribe «gemelo».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m018",
@@ -2377,7 +2681,9 @@
     "excursion"
    ],
    "correct": 2,
-   "explanation": "Se escribe «excursión»."
+   "explanation": "Se escribe «excursión».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m019",
@@ -2392,7 +2698,9 @@
     "esplicar"
    ],
    "correct": 0,
-   "explanation": "Se escribe «explicar»."
+   "explanation": "Se escribe «explicar».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m020",
@@ -2407,7 +2715,9 @@
     "rreloj"
    ],
    "correct": 2,
-   "explanation": "Se escribe «reloj»."
+   "explanation": "Se escribe «reloj».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m021",
@@ -2422,7 +2732,9 @@
     "ciudad"
    ],
    "correct": 3,
-   "explanation": "Se escribe «ciudad»."
+   "explanation": "Se escribe «ciudad».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m022",
@@ -2437,7 +2749,9 @@
     "tijerás"
    ],
    "correct": 1,
-   "explanation": "Se escribe «tijeras»."
+   "explanation": "Se escribe «tijeras».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l4_m023",
@@ -2452,7 +2766,9 @@
     "valel"
    ],
    "correct": 1,
-   "explanation": "Se escribe «valle»."
+   "explanation": "Se escribe «valle».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_m024",
@@ -2467,7 +2783,9 @@
     "seboya"
    ],
    "correct": 2,
-   "explanation": "Se escribe «cebolla»."
+   "explanation": "Se escribe «cebolla».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m025",
@@ -2482,7 +2800,9 @@
     "la 1.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 5.ª: «db». Las demás son «bd»."
+   "explanation": "Es la 5.ª: «db». Las demás son «bd».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_m026",
@@ -2497,7 +2817,9 @@
     "la 4.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 2.ª: «qp». Las demás son «pq»."
+   "explanation": "Es la 2.ª: «qp». Las demás son «pq».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_m027",
@@ -2512,7 +2834,9 @@
     "la 3.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 4.ª: «un». Las demás son «nu»."
+   "explanation": "Es la 4.ª: «un». Las demás son «nu».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_m028",
@@ -2527,7 +2851,9 @@
     "la 3.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 1.ª: «ad». Las demás son «ab»."
+   "explanation": "Es la 1.ª: «ad». Las demás son «ab».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_m029",
@@ -2542,7 +2868,9 @@
     "la 1.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 3.ª: «id». Las demás son «ib»."
+   "explanation": "Es la 3.ª: «id». Las demás son «ib».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_m030",
@@ -2557,7 +2885,9 @@
     "la 2.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 5.ª: «od». Las demás son «ob»."
+   "explanation": "Es la 5.ª: «od». Las demás son «ob».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_m031",
@@ -2572,7 +2902,9 @@
     "casa"
    ],
    "correct": 3,
-   "explanation": "Fíjate bien en cada letra: c-a-s-a."
+   "explanation": "Fíjate bien en cada letra: c-a-s-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m032",
@@ -2587,7 +2919,9 @@
     "velo"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: v-e-l-l-o."
+   "explanation": "Fíjate bien en cada letra: v-e-l-l-o.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m033",
@@ -2602,7 +2936,9 @@
     "hora"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: h-o-l-a."
+   "explanation": "Fíjate bien en cada letra: h-o-l-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_m034",
@@ -2617,7 +2953,9 @@
     "tuno"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: t-u-b-o."
+   "explanation": "Fíjate bien en cada letra: t-u-b-o.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_m035",
@@ -2632,7 +2970,9 @@
     "vaka"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: v-a-c-a."
+   "explanation": "Fíjate bien en cada letra: v-a-c-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m036",
@@ -2647,7 +2987,9 @@
     "heco"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: h-e-c-h-o."
+   "explanation": "Fíjate bien en cada letra: h-e-c-h-o.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m037",
@@ -2662,7 +3004,9 @@
     "la 2.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 1.ª: «caza», no «casa»."
+   "explanation": "Es la 1.ª: «caza», no «casa».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m038",
@@ -2677,7 +3021,9 @@
     "la 2.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 2.ª: «bello», no «vello»."
+   "explanation": "Es la 2.ª: «bello», no «vello».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m039",
@@ -2692,7 +3038,9 @@
     "la 4.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 3.ª: «ola», no «hola»."
+   "explanation": "Es la 3.ª: «ola», no «hola».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m040",
@@ -2707,7 +3055,9 @@
     "la 1.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 4.ª: «tuvo», no «tubo»."
+   "explanation": "Es la 4.ª: «tuvo», no «tubo».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_m041",
@@ -2722,7 +3072,9 @@
     "la 2.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 1.ª: «baca», no «vaca»."
+   "explanation": "Es la 1.ª: «baca», no «vaca».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l4_o001",
@@ -2744,7 +3096,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: pera, plátano, pomelo, puerro."
+   "explanation": "Orden alfabético: pera, plátano, pomelo, puerro.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_o002",
@@ -2766,7 +3120,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: cama, lámpara, sofá, tele."
+   "explanation": "Orden alfabético: cama, lámpara, sofá, tele.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_o003",
@@ -2788,7 +3144,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: gallo, gato, gorila, gusano."
+   "explanation": "Orden alfabético: gallo, gato, gorila, gusano.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l4_o004",
@@ -2810,7 +3168,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: rana, rata, reno, ruiseñor."
+   "explanation": "Orden alfabético: rana, rata, reno, ruiseñor.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_m001",
@@ -2825,7 +3185,9 @@
     "hipopótamo"
    ],
    "correct": 3,
-   "explanation": "Se escribe «hipopótamo»."
+   "explanation": "Se escribe «hipopótamo».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m002",
@@ -2840,7 +3202,9 @@
     "helicóptero"
    ],
    "correct": 3,
-   "explanation": "Se escribe «helicóptero»."
+   "explanation": "Se escribe «helicóptero».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m003",
@@ -2855,7 +3219,9 @@
     "direción"
    ],
    "correct": 0,
-   "explanation": "Se escribe «dirección». Lleva dos c: direc-ción."
+   "explanation": "Se escribe «dirección». Lleva dos c: direc-ción.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m004",
@@ -2870,7 +3236,9 @@
     "acción"
    ],
    "correct": 3,
-   "explanation": "Se escribe «acción». Lleva dos c: ac-ción."
+   "explanation": "Se escribe «acción». Lleva dos c: ac-ción.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m005",
@@ -2885,7 +3253,9 @@
     "lecion"
    ],
    "correct": 1,
-   "explanation": "Se escribe «lección». Lleva dos c: lec-ción."
+   "explanation": "Se escribe «lección». Lleva dos c: lec-ción.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m006",
@@ -2900,7 +3270,9 @@
     "eshausto"
    ],
    "correct": 1,
-   "explanation": "Se escribe «exhausto»."
+   "explanation": "Se escribe «exhausto».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m007",
@@ -2915,7 +3287,9 @@
     "prohibido"
    ],
    "correct": 3,
-   "explanation": "Se escribe «prohibido»."
+   "explanation": "Se escribe «prohibido».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m008",
@@ -2930,7 +3304,9 @@
     "henhorabuena"
    ],
    "correct": 2,
-   "explanation": "Se escribe «enhorabuena»."
+   "explanation": "Se escribe «enhorabuena».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m009",
@@ -2945,7 +3321,9 @@
     "adolesente"
    ],
    "correct": 0,
-   "explanation": "Se escribe «adolescente»."
+   "explanation": "Se escribe «adolescente».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m010",
@@ -2960,7 +3338,9 @@
     "conciensia"
    ],
    "correct": 0,
-   "explanation": "Se escribe «conciencia»."
+   "explanation": "Se escribe «conciencia».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m011",
@@ -2975,7 +3355,9 @@
     "subrallar"
    ],
    "correct": 0,
-   "explanation": "Se escribe «subrayar». Después de b, la r suena fuerte pero se escribe una sola."
+   "explanation": "Se escribe «subrayar». Después de b, la r suena fuerte pero se escribe una sola.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m012",
@@ -2990,7 +3372,9 @@
     "asorber"
    ],
    "correct": 2,
-   "explanation": "Se escribe «absorber»."
+   "explanation": "Se escribe «absorber».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m013",
@@ -3005,7 +3389,9 @@
     "vivir"
    ],
    "correct": 3,
-   "explanation": "Se escribe «vivir». Los verbos acabados en -bir van con b, menos hervir, servir y vivir."
+   "explanation": "Se escribe «vivir». Los verbos acabados en -bir van con b, menos hervir, servir y vivir.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_m014",
@@ -3020,7 +3406,9 @@
     "ábil"
    ],
    "correct": 0,
-   "explanation": "Se escribe «hábil»."
+   "explanation": "Se escribe «hábil».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m015",
@@ -3035,7 +3423,9 @@
     "ojalà"
    ],
    "correct": 0,
-   "explanation": "Se escribe «ojalá»."
+   "explanation": "Se escribe «ojalá».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m016",
@@ -3050,7 +3440,9 @@
     "athmósfera"
    ],
    "correct": 2,
-   "explanation": "Se escribe «atmósfera»."
+   "explanation": "Se escribe «atmósfera».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m017",
@@ -3065,7 +3457,9 @@
     "ambigüo"
    ],
    "correct": 2,
-   "explanation": "Se escribe «ambiguo»."
+   "explanation": "Se escribe «ambiguo».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m018",
@@ -3080,7 +3474,9 @@
     "vergüensa"
    ],
    "correct": 2,
-   "explanation": "Se escribe «vergüenza». La diéresis hace sonar la u."
+   "explanation": "Se escribe «vergüenza». La diéresis hace sonar la u.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m019",
@@ -3095,7 +3491,9 @@
     "exquisíto"
    ],
    "correct": 0,
-   "explanation": "Se escribe «exquisito»."
+   "explanation": "Se escribe «exquisito».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m020",
@@ -3110,7 +3508,9 @@
     "gimnacia"
    ],
    "correct": 1,
-   "explanation": "Se escribe «gimnasia»."
+   "explanation": "Se escribe «gimnasia».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m021",
@@ -3125,7 +3525,9 @@
     "biologia"
    ],
    "correct": 0,
-   "explanation": "Se escribe «biología»."
+   "explanation": "Se escribe «biología».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m022",
@@ -3140,7 +3542,9 @@
     "océano"
    ],
    "correct": 3,
-   "explanation": "Se escribe «océano»."
+   "explanation": "Se escribe «océano».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_m023",
@@ -3155,7 +3559,9 @@
     "Alántico"
    ],
    "correct": 2,
-   "explanation": "Se escribe «Atlántico»."
+   "explanation": "Se escribe «Atlántico».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m024",
@@ -3170,7 +3576,9 @@
     "exágono"
    ],
    "correct": 0,
-   "explanation": "Se escribe «hexágono»."
+   "explanation": "Se escribe «hexágono».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m025",
@@ -3185,7 +3593,9 @@
     "la 3.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 6.ª: «dola». Las demás son «bola»."
+   "explanation": "Es la 6.ª: «dola». Las demás son «bola».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_m026",
@@ -3200,7 +3610,9 @@
     "la 3.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 2.ª: «bato». Las demás son «pato»."
+   "explanation": "Es la 2.ª: «bato». Las demás son «pato».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_m027",
@@ -3215,7 +3627,9 @@
     "la 2.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 4.ª: «bedo». Las demás son «dedo»."
+   "explanation": "Es la 4.ª: «bedo». Las demás son «dedo».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_m028",
@@ -3230,7 +3644,9 @@
     "la 3.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 6.ª: «belo». Las demás son «pelo»."
+   "explanation": "Es la 6.ª: «belo». Las demás son «pelo».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_m029",
@@ -3245,7 +3661,9 @@
     "la 3.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 2.ª: «napa». Las demás son «mapa»."
+   "explanation": "Es la 2.ª: «napa». Las demás son «mapa».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_m030",
@@ -3260,7 +3678,9 @@
     "la 1.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 4.ª: «sapo». Las demás son «sopa»."
+   "explanation": "Es la 4.ª: «sapo». Las demás son «sopa».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_m031",
@@ -3275,7 +3695,9 @@
     "conservacion"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: c-o-n-s-e-r-v-a-c-i-ó-n."
+   "explanation": "Fíjate bien en cada letra: c-o-n-s-e-r-v-a-c-i-ó-n.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m032",
@@ -3290,7 +3712,9 @@
     "exceptuar"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: a-c-e-p-t-a-r."
+   "explanation": "Fíjate bien en cada letra: a-c-e-p-t-a-r.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m033",
@@ -3305,7 +3729,9 @@
     "efeto"
    ],
    "correct": 1,
-   "explanation": "Fíjate bien en cada letra: e-f-e-c-t-o."
+   "explanation": "Fíjate bien en cada letra: e-f-e-c-t-o.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m034",
@@ -3320,7 +3746,9 @@
     "adoptar"
    ],
    "correct": 3,
-   "explanation": "Fíjate bien en cada letra: a-d-o-p-t-a-r."
+   "explanation": "Fíjate bien en cada letra: a-d-o-p-t-a-r.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m035",
@@ -3335,7 +3763,9 @@
     "aptitud"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: a-c-t-i-t-u-d."
+   "explanation": "Fíjate bien en cada letra: a-c-t-i-t-u-d.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m036",
@@ -3350,7 +3780,9 @@
     "asorber"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: a-b-s-o-r-b-e-r."
+   "explanation": "Fíjate bien en cada letra: a-b-s-o-r-b-e-r.",
+   "skill": "mem_visual",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l5_m037",
@@ -3365,7 +3797,9 @@
     "la 1.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 2.ª: «conversación», no «conservación»."
+   "explanation": "Es la 2.ª: «conversación», no «conservación».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_m038",
@@ -3380,7 +3814,9 @@
     "la 3.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 3.ª: «exceptuar», no «aceptar»."
+   "explanation": "Es la 3.ª: «exceptuar», no «aceptar».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_m039",
@@ -3395,7 +3831,9 @@
     "la 1.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 4.ª: «afecto», no «efecto»."
+   "explanation": "Es la 4.ª: «afecto», no «efecto».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_m040",
@@ -3410,7 +3848,9 @@
     "la 4.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 1.ª: «adaptar», no «adoptar»."
+   "explanation": "Es la 1.ª: «adaptar», no «adoptar».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_m041",
@@ -3425,7 +3865,9 @@
     "la 2.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 2.ª: «aptitud», no «actitud»."
+   "explanation": "Es la 2.ª: «aptitud», no «actitud».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l5_o001",
@@ -3449,7 +3891,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: cara, carro, casa, castillo, cazo."
+   "explanation": "Orden alfabético: cara, carro, casa, castillo, cazo.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_o002",
@@ -3473,7 +3917,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: mar, marco, marea, marido, marrón."
+   "explanation": "Orden alfabético: mar, marco, marea, marido, marrón.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_o003",
@@ -3497,7 +3943,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: paja, pala, palacio, palma, paloma."
+   "explanation": "Orden alfabético: paja, pala, palacio, palma, paloma.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l5_o004",
@@ -3521,7 +3969,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: sal, salto, salud, santo, sardina."
+   "explanation": "Orden alfabético: sal, salto, salud, santo, sardina.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l6_m001",
@@ -3536,7 +3986,9 @@
     "jervir"
    ],
    "correct": 1,
-   "explanation": "Se escribe «hervir». Excepción: los verbos en -bir van con b, salvo hervir, servir y vivir."
+   "explanation": "Se escribe «hervir». Excepción: los verbos en -bir van con b, salvo hervir, servir y vivir.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l6_m002",
@@ -3551,7 +4003,9 @@
     "vegetall"
    ],
    "correct": 0,
-   "explanation": "Se escribe «vegetal»."
+   "explanation": "Se escribe «vegetal».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l6_m003",
@@ -3566,7 +4020,9 @@
     "girafa"
    ],
    "correct": 2,
-   "explanation": "Se escribe «jirafa»."
+   "explanation": "Se escribe «jirafa».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l6_m004",
@@ -3581,7 +4037,9 @@
     "asorber"
    ],
    "correct": 1,
-   "explanation": "Se escribe «absorber». absorber va con b; absolver (perdonar) también, pero es otra palabra."
+   "explanation": "Se escribe «absorber». absorber va con b; absolver (perdonar) también, pero es otra palabra.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l6_m005",
@@ -3596,7 +4054,9 @@
     "exterior"
    ],
    "correct": 3,
-   "explanation": "Se escribe «exterior». ex- significa «fuera»."
+   "explanation": "Se escribe «exterior». ex- significa «fuera».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l6_m006",
@@ -3611,7 +4071,9 @@
     "aogar"
    ],
    "correct": 2,
-   "explanation": "Se escribe «ahogar»."
+   "explanation": "Se escribe «ahogar».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l6_m007",
@@ -3626,7 +4088,9 @@
     "amaca"
    ],
    "correct": 2,
-   "explanation": "Se escribe «hamaca»."
+   "explanation": "Se escribe «hamaca».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l6_m008",
@@ -3641,7 +4105,9 @@
     "ziervo"
    ],
    "correct": 2,
-   "explanation": "Se escribe «ciervo»."
+   "explanation": "Se escribe «ciervo».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l6_m009",
@@ -3656,7 +4122,9 @@
     "ballena"
    ],
    "correct": 3,
-   "explanation": "Se escribe «ballena»."
+   "explanation": "Se escribe «ballena».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l6_m010",
@@ -3671,7 +4139,9 @@
     "yover"
    ],
    "correct": 2,
-   "explanation": "Se escribe «llover»."
+   "explanation": "Se escribe «llover».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l6_m011",
@@ -3686,7 +4156,9 @@
     "herramiénta"
    ],
    "correct": 2,
-   "explanation": "Se escribe «herramienta»."
+   "explanation": "Se escribe «herramienta».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l6_m012",
@@ -3701,7 +4173,9 @@
     "conserge"
    ],
    "correct": 1,
-   "explanation": "Se escribe «conserje». Las palabras acabadas en -erje se escriben con j."
+   "explanation": "Se escribe «conserje». Las palabras acabadas en -erje se escriben con j.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l6_m013",
@@ -3716,7 +4190,9 @@
     "tejer"
    ],
    "correct": 3,
-   "explanation": "Se escribe «tejer». tejer va con j, como tejido."
+   "explanation": "Se escribe «tejer». tejer va con j, como tejido.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l6_m014",
@@ -3731,7 +4207,9 @@
     "buzear"
    ],
    "correct": 0,
-   "explanation": "Se escribe «bucear»."
+   "explanation": "Se escribe «bucear».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l6_m015",
@@ -3746,7 +4224,9 @@
     "hormiga"
    ],
    "correct": 3,
-   "explanation": "Se escribe «hormiga»."
+   "explanation": "Se escribe «hormiga».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l6_m016",
@@ -3761,7 +4241,9 @@
     "baivén"
    ],
    "correct": 0,
-   "explanation": "Se escribe «vaivén»."
+   "explanation": "Se escribe «vaivén».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l6_m017",
@@ -3776,7 +4258,9 @@
     "ueco"
    ],
    "correct": 0,
-   "explanation": "Se escribe «hueco». Las palabras que empiezan por hue- llevan h."
+   "explanation": "Se escribe «hueco». Las palabras que empiezan por hue- llevan h.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l6_m018",
@@ -3791,7 +4275,9 @@
     "obserbar"
    ],
    "correct": 2,
-   "explanation": "Se escribe «observar»."
+   "explanation": "Se escribe «observar».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l6_m019",
@@ -3806,7 +4292,9 @@
     "geografia"
    ],
    "correct": 1,
-   "explanation": "Se escribe «geografía». geo- (tierra) se escribe con g."
+   "explanation": "Se escribe «geografía». geo- (tierra) se escribe con g.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l6_m020",
@@ -3821,7 +4309,9 @@
     "relámpaco"
    ],
    "correct": 2,
-   "explanation": "Se escribe «relámpago». Esdrújula: siempre lleva tilde; m antes de p."
+   "explanation": "Se escribe «relámpago». Esdrújula: siempre lleva tilde; m antes de p.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l6_m021",
@@ -3836,7 +4326,9 @@
     "hasta"
    ],
    "correct": 3,
-   "explanation": "Fíjate bien en cada letra: h-a-s-t-a."
+   "explanation": "Fíjate bien en cada letra: h-a-s-t-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l6_m022",
@@ -3851,7 +4343,9 @@
     "bello"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: v-e-l-l-o."
+   "explanation": "Fíjate bien en cada letra: v-e-l-l-o.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l6_m023",
@@ -3866,7 +4360,9 @@
     "tubo"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: t-u-v-o."
+   "explanation": "Fíjate bien en cada letra: t-u-v-o.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l6_m024",
@@ -3881,7 +4377,9 @@
     "echo"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: h-e-c-h-o."
+   "explanation": "Fíjate bien en cada letra: h-e-c-h-o.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l6_m025",
@@ -3896,7 +4394,9 @@
     "vaga"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: v-a-c-a."
+   "explanation": "Fíjate bien en cada letra: v-a-c-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l6_m026",
@@ -3911,7 +4411,9 @@
     "aya"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: h-a-y-a."
+   "explanation": "Fíjate bien en cada letra: h-a-y-a.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l6_m027",
@@ -3926,7 +4428,9 @@
     "la 4.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 2.ª: «asta», no «hasta»."
+   "explanation": "Es la 2.ª: «asta», no «hasta».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l6_m028",
@@ -3941,7 +4445,9 @@
     "la 3.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 4.ª: «bello», no «vello»."
+   "explanation": "Es la 4.ª: «bello», no «vello».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l6_m029",
@@ -3956,7 +4462,9 @@
     "la 3.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 1.ª: «tubo», no «tuvo»."
+   "explanation": "Es la 1.ª: «tubo», no «tuvo».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l6_m030",
@@ -3971,7 +4479,9 @@
     "la 4.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 3.ª: «echo», no «hecho»."
+   "explanation": "Es la 3.ª: «echo», no «hecho».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l6_m031",
@@ -3986,7 +4496,9 @@
     "la 2.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 5.ª: «baca», no «vaca»."
+   "explanation": "Es la 5.ª: «baca», no «vaca».",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l6_o001",
@@ -4008,7 +4520,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: abrazo, abrigo, abril, abrir."
+   "explanation": "Orden alfabético: abrazo, abrigo, abril, abrir.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l6_o002",
@@ -4030,7 +4544,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: cebo, ceja, celo, cena."
+   "explanation": "Orden alfabético: cebo, ceja, celo, cena.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l6_o003",
@@ -4052,7 +4568,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: llama, llano, llave, lluvia."
+   "explanation": "Orden alfabético: llama, llano, llave, lluvia.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l7_m001",
@@ -4067,7 +4585,9 @@
     "exibir"
    ],
    "correct": 2,
-   "explanation": "Se escribe «exhibir». exhibir lleva x y h."
+   "explanation": "Se escribe «exhibir». exhibir lleva x y h.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l7_m002",
@@ -4082,7 +4602,9 @@
     "excabar"
    ],
    "correct": 1,
-   "explanation": "Se escribe «excavar»."
+   "explanation": "Se escribe «excavar».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l7_m003",
@@ -4097,7 +4619,9 @@
     "extranjero"
    ],
    "correct": 3,
-   "explanation": "Se escribe «extranjero»."
+   "explanation": "Se escribe «extranjero».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l7_m004",
@@ -4112,7 +4636,9 @@
     "hipótesis"
    ],
    "correct": 3,
-   "explanation": "Se escribe «hipótesis». hipo-/hiper- llevan h."
+   "explanation": "Se escribe «hipótesis». hipo-/hiper- llevan h.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l7_m005",
@@ -4127,7 +4653,9 @@
     "absurdo"
    ],
    "correct": 3,
-   "explanation": "Se escribe «absurdo»."
+   "explanation": "Se escribe «absurdo».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l7_m006",
@@ -4142,7 +4670,9 @@
     "vehemmente"
    ],
    "correct": 0,
-   "explanation": "Se escribe «vehemente»."
+   "explanation": "Se escribe «vehemente».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l7_m007",
@@ -4157,7 +4687,9 @@
     "adhesibo"
    ],
    "correct": 2,
-   "explanation": "Se escribe «adhesivo»."
+   "explanation": "Se escribe «adhesivo».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l7_m008",
@@ -4172,7 +4704,9 @@
     "cónyugue"
    ],
    "correct": 0,
-   "explanation": "Se escribe «cónyuge»."
+   "explanation": "Se escribe «cónyuge».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l7_m009",
@@ -4187,7 +4721,9 @@
     "garraje"
    ],
    "correct": 1,
-   "explanation": "Se escribe «garaje». Las palabras acabadas en -aje se escriben con j."
+   "explanation": "Se escribe «garaje». Las palabras acabadas en -aje se escriben con j.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l7_m010",
@@ -4202,7 +4738,9 @@
     "visabuelo"
    ],
    "correct": 1,
-   "explanation": "Se escribe «bisabuelo»."
+   "explanation": "Se escribe «bisabuelo».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l7_m011",
@@ -4217,7 +4755,9 @@
     "ahuyentar"
    ],
    "correct": 3,
-   "explanation": "Se escribe «ahuyentar»."
+   "explanation": "Se escribe «ahuyentar».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l7_m012",
@@ -4232,7 +4772,9 @@
     "avellana"
    ],
    "correct": 3,
-   "explanation": "Se escribe «avellana»."
+   "explanation": "Se escribe «avellana».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l7_m013",
@@ -4247,7 +4789,9 @@
     "emisferio"
    ],
    "correct": 0,
-   "explanation": "Se escribe «hemisferio». hemi- (mitad) lleva h."
+   "explanation": "Se escribe «hemisferio». hemi- (mitad) lleva h.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l7_m014",
@@ -4262,7 +4806,9 @@
     "enhevrar"
    ],
    "correct": 2,
-   "explanation": "Se escribe «enhebrar»."
+   "explanation": "Se escribe «enhebrar».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l7_m015",
@@ -4277,7 +4823,9 @@
     "subvención"
    ],
    "correct": 3,
-   "explanation": "Se escribe «subvención». Después de b se escribe v en subvención."
+   "explanation": "Se escribe «subvención». Después de b se escribe v en subvención.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l7_m016",
@@ -4292,7 +4840,9 @@
     "extingir"
    ],
    "correct": 1,
-   "explanation": "Se escribe «extinguir»."
+   "explanation": "Se escribe «extinguir».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l7_m017",
@@ -4307,7 +4857,9 @@
     "objecion"
    ],
    "correct": 1,
-   "explanation": "Se escribe «objeción»."
+   "explanation": "Se escribe «objeción».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l7_m018",
@@ -4322,7 +4874,9 @@
     "inerente"
    ],
    "correct": 0,
-   "explanation": "Se escribe «inherente»."
+   "explanation": "Se escribe «inherente».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l7_m019",
@@ -4337,7 +4891,9 @@
     "desahucio"
    ],
    "correct": 3,
-   "explanation": "Se escribe «desahucio». desahucio lleva h intercalada."
+   "explanation": "Se escribe «desahucio». desahucio lleva h intercalada.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l7_m020",
@@ -4352,7 +4908,9 @@
     "bohemio"
    ],
    "correct": 3,
-   "explanation": "Se escribe «bohemio»."
+   "explanation": "Se escribe «bohemio».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l7_m021",
@@ -4367,7 +4925,9 @@
     "aptitud"
    ],
    "correct": 1,
-   "explanation": "Fíjate bien en cada letra: a-c-t-i-t-u-d."
+   "explanation": "Fíjate bien en cada letra: a-c-t-i-t-u-d.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l7_m022",
@@ -4382,7 +4942,9 @@
     "resolver"
    ],
    "correct": 1,
-   "explanation": "Fíjate bien en cada letra: a-b-s-o-l-v-e-r."
+   "explanation": "Fíjate bien en cada letra: a-b-s-o-l-v-e-r.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l7_m023",
@@ -4397,7 +4959,9 @@
     "especie"
    ],
    "correct": 3,
-   "explanation": "Fíjate bien en cada letra: e-s-p-e-c-i-e."
+   "explanation": "Fíjate bien en cada letra: e-s-p-e-c-i-e.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l7_m024",
@@ -4412,7 +4976,9 @@
     "adoptar"
    ],
    "correct": 3,
-   "explanation": "Fíjate bien en cada letra: a-d-o-p-t-a-r."
+   "explanation": "Fíjate bien en cada letra: a-d-o-p-t-a-r.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l7_m025",
@@ -4427,7 +4993,9 @@
     "defecto"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: e-f-e-c-t-o."
+   "explanation": "Fíjate bien en cada letra: e-f-e-c-t-o.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l7_m026",
@@ -4442,7 +5010,9 @@
     "proveer"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: p-r-e-v-e-r."
+   "explanation": "Fíjate bien en cada letra: p-r-e-v-e-r.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l7_m027",
@@ -4457,7 +5027,9 @@
     "la 2.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 3.ª: «aptitud», no «actitud»."
+   "explanation": "Es la 3.ª: «aptitud», no «actitud».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l7_m028",
@@ -4472,7 +5044,9 @@
     "la 1.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 5.ª: «absorber», no «absolver»."
+   "explanation": "Es la 5.ª: «absorber», no «absolver».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l7_m029",
@@ -4487,7 +5061,9 @@
     "la 2.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 2.ª: «especia», no «especie»."
+   "explanation": "Es la 2.ª: «especia», no «especie».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l7_m030",
@@ -4502,7 +5078,9 @@
     "la 1.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 4.ª: «adaptar», no «adoptar»."
+   "explanation": "Es la 4.ª: «adaptar», no «adoptar».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l7_m031",
@@ -4517,7 +5095,9 @@
     "la 4.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 1.ª: «afecto», no «efecto»."
+   "explanation": "Es la 1.ª: «afecto», no «efecto».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l7_o001",
@@ -4539,7 +5119,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: parada, paraguas, paraíso, paralelo."
+   "explanation": "Orden alfabético: parada, paraguas, paraíso, paralelo.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l7_o002",
@@ -4561,7 +5143,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: contar, contener, contento, contexto."
+   "explanation": "Orden alfabético: contar, contener, contento, contexto.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l7_o003",
@@ -4583,7 +5167,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: examen, excavar, exhibir, exigir."
+   "explanation": "Orden alfabético: examen, excavar, exhibir, exigir.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l8_m001",
@@ -4598,7 +5184,9 @@
     "esuberante"
    ],
    "correct": 2,
-   "explanation": "Se escribe «exuberante». exuberante no lleva h."
+   "explanation": "Se escribe «exuberante». exuberante no lleva h.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l8_m002",
@@ -4613,7 +5201,9 @@
     "expontáneo"
    ],
    "correct": 1,
-   "explanation": "Se escribe «espontáneo». espontáneo se escribe con s."
+   "explanation": "Se escribe «espontáneo». espontáneo se escribe con s.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l8_m003",
@@ -4628,7 +5218,9 @@
     "excentrico"
    ],
    "correct": 2,
-   "explanation": "Se escribe «excéntrico»."
+   "explanation": "Se escribe «excéntrico».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l8_m004",
@@ -4643,7 +5235,9 @@
     "adolesencia"
    ],
    "correct": 1,
-   "explanation": "Se escribe «adolescencia». adolescencia lleva sc."
+   "explanation": "Se escribe «adolescencia». adolescencia lleva sc.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l8_m005",
@@ -4658,7 +5252,9 @@
     "diserner"
    ],
    "correct": 1,
-   "explanation": "Se escribe «discernir»."
+   "explanation": "Se escribe «discernir».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l8_m006",
@@ -4673,7 +5269,9 @@
     "presindir"
    ],
    "correct": 2,
-   "explanation": "Se escribe «prescindir»."
+   "explanation": "Se escribe «prescindir».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l8_m007",
@@ -4688,7 +5286,9 @@
     "absceso"
    ],
    "correct": 3,
-   "explanation": "Se escribe «absceso»."
+   "explanation": "Se escribe «absceso».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l8_m008",
@@ -4703,7 +5303,9 @@
     "convalecencia"
    ],
    "correct": 3,
-   "explanation": "Se escribe «convalecencia»."
+   "explanation": "Se escribe «convalecencia».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l8_m009",
@@ -4718,7 +5320,9 @@
     "diócesys"
    ],
    "correct": 0,
-   "explanation": "Se escribe «diócesis»."
+   "explanation": "Se escribe «diócesis».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l8_m010",
@@ -4733,7 +5337,9 @@
     "ascenzor"
    ],
    "correct": 1,
-   "explanation": "Se escribe «ascensor»."
+   "explanation": "Se escribe «ascensor».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l8_m011",
@@ -4748,7 +5354,9 @@
     "disciplina"
    ],
    "correct": 3,
-   "explanation": "Se escribe «disciplina»."
+   "explanation": "Se escribe «disciplina».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l8_m012",
@@ -4763,7 +5371,9 @@
     "efervescente"
    ],
    "correct": 3,
-   "explanation": "Se escribe «efervescente»."
+   "explanation": "Se escribe «efervescente».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l8_m013",
@@ -4778,7 +5388,9 @@
     "hilvannar"
    ],
    "correct": 0,
-   "explanation": "Se escribe «hilvanar»."
+   "explanation": "Se escribe «hilvanar».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l8_m014",
@@ -4793,7 +5405,9 @@
     "admósfera"
    ],
    "correct": 0,
-   "explanation": "Se escribe «atmósfera». Esdrújula: siempre lleva tilde."
+   "explanation": "Se escribe «atmósfera». Esdrújula: siempre lleva tilde.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l8_m015",
@@ -4808,7 +5422,9 @@
     "benévolo"
    ],
    "correct": 3,
-   "explanation": "Se escribe «benévolo»."
+   "explanation": "Se escribe «benévolo».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l8_m016",
@@ -4823,7 +5439,9 @@
     "expectativa"
    ],
    "correct": 3,
-   "explanation": "Se escribe «expectativa». expectativa lleva x (de expectación)."
+   "explanation": "Se escribe «expectativa». expectativa lleva x (de expectación).",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l8_m017",
@@ -4838,7 +5456,9 @@
     "espectáculo"
    ],
    "correct": 3,
-   "explanation": "Se escribe «espectáculo». espectáculo lleva s (de espectador)."
+   "explanation": "Se escribe «espectáculo». espectáculo lleva s (de espectador).",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l8_m018",
@@ -4853,7 +5473,9 @@
     "bislumbrar"
    ],
    "correct": 2,
-   "explanation": "Se escribe «vislumbrar»."
+   "explanation": "Se escribe «vislumbrar».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l8_m019",
@@ -4868,7 +5490,9 @@
     "inmiscuir"
    ],
    "correct": 3,
-   "explanation": "Se escribe «inmiscuir»."
+   "explanation": "Se escribe «inmiscuir».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l8_m020",
@@ -4883,7 +5507,9 @@
     "transgrdir"
    ],
    "correct": 0,
-   "explanation": "Se escribe «transgredir»."
+   "explanation": "Se escribe «transgredir».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l8_m021",
@@ -4898,7 +5524,9 @@
     "infligir"
    ],
    "correct": 3,
-   "explanation": "Fíjate bien en cada letra: i-n-f-l-i-g-i-r."
+   "explanation": "Fíjate bien en cada letra: i-n-f-l-i-g-i-r.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l8_m022",
@@ -4913,7 +5541,9 @@
     "prejuzgar"
    ],
    "correct": 1,
-   "explanation": "Fíjate bien en cada letra: p-e-r-j-u-i-c-i-o."
+   "explanation": "Fíjate bien en cada letra: p-e-r-j-u-i-c-i-o.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l8_m023",
@@ -4928,7 +5558,9 @@
     "eminencia"
    ],
    "correct": 1,
-   "explanation": "Fíjate bien en cada letra: e-m-i-n-e-n-t-e."
+   "explanation": "Fíjate bien en cada letra: e-m-i-n-e-n-t-e.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l8_m024",
@@ -4943,7 +5575,9 @@
     "sesión"
    ],
    "correct": 3,
-   "explanation": "Fíjate bien en cada letra: s-e-s-i-ó-n."
+   "explanation": "Fíjate bien en cada letra: s-e-s-i-ó-n.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l8_m025",
@@ -4958,7 +5592,9 @@
     "referencia"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: d-e-f-e-r-e-n-c-i-a."
+   "explanation": "Fíjate bien en cada letra: d-e-f-e-r-e-n-c-i-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l8_m026",
@@ -4973,7 +5609,9 @@
     "espiar"
    ],
    "correct": 3,
-   "explanation": "Fíjate bien en cada letra: e-s-p-i-a-r."
+   "explanation": "Fíjate bien en cada letra: e-s-p-i-a-r.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l8_m027",
@@ -4988,7 +5626,9 @@
     "la 4.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 4.ª: «infringir», no «infligir»."
+   "explanation": "Es la 4.ª: «infringir», no «infligir».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l8_m028",
@@ -5003,7 +5643,9 @@
     "la 2.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 1.ª: «prejuicio», no «perjuicio»."
+   "explanation": "Es la 1.ª: «prejuicio», no «perjuicio».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l8_m029",
@@ -5018,7 +5660,9 @@
     "la 4.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 3.ª: «inminente», no «eminente»."
+   "explanation": "Es la 3.ª: «inminente», no «eminente».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l8_m030",
@@ -5033,7 +5677,9 @@
     "la 5.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 5.ª: «sección», no «sesión»."
+   "explanation": "Es la 5.ª: «sección», no «sesión».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l8_m031",
@@ -5048,7 +5694,9 @@
     "la 1.ª"
    ],
    "correct": 1,
-   "explanation": "Es la 2.ª: «diferencia», no «deferencia»."
+   "explanation": "Es la 2.ª: «diferencia», no «deferencia».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l8_o001",
@@ -5070,7 +5718,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: desarme, desastre, desatar, desayuno."
+   "explanation": "Orden alfabético: desarme, desastre, desatar, desayuno.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l8_o002",
@@ -5092,7 +5742,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: huelga, huella, huérfano, huerta."
+   "explanation": "Orden alfabético: huelga, huella, huérfano, huerta.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l8_o003",
@@ -5114,7 +5766,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: prever, previo, previsto, prez."
+   "explanation": "Orden alfabético: prever, previo, previsto, prez.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l9_m001",
@@ -5129,7 +5783,9 @@
     "idiosincrásia"
    ],
    "correct": 0,
-   "explanation": "Se escribe «idiosincrasia». Termina en -sia, no en -cia."
+   "explanation": "Se escribe «idiosincrasia». Termina en -sia, no en -cia.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l9_m002",
@@ -5144,7 +5800,9 @@
     "exacerbar"
    ],
    "correct": 3,
-   "explanation": "Se escribe «exacerbar»."
+   "explanation": "Se escribe «exacerbar».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l9_m003",
@@ -5159,7 +5817,9 @@
     "desavenensia"
    ],
    "correct": 1,
-   "explanation": "Se escribe «desavenencia»."
+   "explanation": "Se escribe «desavenencia».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l9_m004",
@@ -5174,7 +5834,9 @@
     "aínco"
    ],
    "correct": 1,
-   "explanation": "Se escribe «ahínco». ahínco lleva h y tilde por el hiato."
+   "explanation": "Se escribe «ahínco». ahínco lleva h y tilde por el hiato.",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l9_m005",
@@ -5189,7 +5851,9 @@
     "rehavilitar"
    ],
    "correct": 2,
-   "explanation": "Se escribe «rehabilitar»."
+   "explanation": "Se escribe «rehabilitar».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l9_m006",
@@ -5204,7 +5868,9 @@
     "abyecto"
    ],
    "correct": 3,
-   "explanation": "Se escribe «abyecto»."
+   "explanation": "Se escribe «abyecto».",
+   "skill": "mem_spelling",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l9_m007",
@@ -5219,7 +5885,9 @@
     "asetismo"
    ],
    "correct": 0,
-   "explanation": "Se escribe «ascetismo»."
+   "explanation": "Se escribe «ascetismo».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l9_m008",
@@ -5234,7 +5902,9 @@
     "indemnhe"
    ],
    "correct": 2,
-   "explanation": "Se escribe «indemne»."
+   "explanation": "Se escribe «indemne».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l9_m009",
@@ -5249,7 +5919,9 @@
     "exhortár"
    ],
    "correct": 1,
-   "explanation": "Se escribe «exhortar». exhortar lleva x y h."
+   "explanation": "Se escribe «exhortar». exhortar lleva x y h.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l9_m010",
@@ -5264,7 +5936,9 @@
     "vicicitud"
    ],
    "correct": 1,
-   "explanation": "Se escribe «vicisitud»."
+   "explanation": "Se escribe «vicisitud».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l9_m011",
@@ -5279,7 +5953,9 @@
     "prebaricar"
    ],
    "correct": 1,
-   "explanation": "Se escribe «prevaricar»."
+   "explanation": "Se escribe «prevaricar».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l9_m012",
@@ -5294,7 +5970,9 @@
     "subyacente"
    ],
    "correct": 3,
-   "explanation": "Se escribe «subyacente»."
+   "explanation": "Se escribe «subyacente».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l9_m013",
@@ -5309,7 +5987,9 @@
     "consciensia"
    ],
    "correct": 2,
-   "explanation": "Se escribe «conciencia». conciencia no lleva s antes de la c."
+   "explanation": "Se escribe «conciencia». conciencia no lleva s antes de la c.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l9_m014",
@@ -5324,7 +6004,9 @@
     "inconciente"
    ],
    "correct": 1,
-   "explanation": "Se escribe «inconsciente». inconsciente sí lleva s: in-cons-cien-te."
+   "explanation": "Se escribe «inconsciente». inconsciente sí lleva s: in-cons-cien-te.",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l9_m015",
@@ -5339,7 +6021,9 @@
     "obsolecencia"
    ],
    "correct": 1,
-   "explanation": "Se escribe «obsolescencia»."
+   "explanation": "Se escribe «obsolescencia».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l9_m016",
@@ -5354,7 +6038,9 @@
     "sexaginario"
    ],
    "correct": 1,
-   "explanation": "Se escribe «sexagenario»."
+   "explanation": "Se escribe «sexagenario».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l9_m017",
@@ -5369,7 +6055,9 @@
     "exéjesis"
    ],
    "correct": 1,
-   "explanation": "Se escribe «exégesis»."
+   "explanation": "Se escribe «exégesis».",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l9_m018",
@@ -5384,7 +6072,9 @@
     "hecatonbe"
    ],
    "correct": 2,
-   "explanation": "Se escribe «hecatombe»."
+   "explanation": "Se escribe «hecatombe».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l9_m019",
@@ -5399,7 +6089,9 @@
     "vehículo"
    ],
    "correct": 3,
-   "explanation": "Se escribe «vehículo». vehículo lleva h intercalada y tilde por el hiato."
+   "explanation": "Se escribe «vehículo». vehículo lleva h intercalada y tilde por el hiato.",
+   "skill": "mem_spelling",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l9_m020",
@@ -5414,7 +6106,9 @@
     "aleátorio"
    ],
    "correct": 0,
-   "explanation": "Se escribe «aleatorio»."
+   "explanation": "Se escribe «aleatorio».",
+   "skill": "mem_spelling",
+   "step": 3
   },
   {
    "id": "es_memoria_visual_l9_m021",
@@ -5429,7 +6123,9 @@
     "contesto"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: c-o-n-t-e-x-t-o."
+   "explanation": "Fíjate bien en cada letra: c-o-n-t-e-x-t-o.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l9_m022",
@@ -5444,7 +6140,9 @@
     "deshecho"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: d-e-s-e-c-h-o."
+   "explanation": "Fíjate bien en cada letra: d-e-s-e-c-h-o.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l9_m023",
@@ -5459,7 +6157,9 @@
     "obertura"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: a-b-e-r-t-u-r-a."
+   "explanation": "Fíjate bien en cada letra: a-b-e-r-t-u-r-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l9_m024",
@@ -5474,7 +6174,9 @@
     "especie"
    ],
    "correct": 2,
-   "explanation": "Fíjate bien en cada letra: e-s-p-e-c-i-a."
+   "explanation": "Fíjate bien en cada letra: e-s-p-e-c-i-a.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l9_m025",
@@ -5489,7 +6191,9 @@
     "injerir"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: i-n-g-e-r-i-r."
+   "explanation": "Fíjate bien en cada letra: i-n-g-e-r-i-r.",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l9_m026",
@@ -5504,7 +6208,9 @@
     "estatuto"
    ],
    "correct": 0,
-   "explanation": "Fíjate bien en cada letra: e-s-t-á-t-i-c-o."
+   "explanation": "Fíjate bien en cada letra: e-s-t-á-t-i-c-o.",
+   "skill": "mem_visual",
+   "step": 2
   },
   {
    "id": "es_memoria_visual_l9_m027",
@@ -5519,7 +6225,9 @@
     "la 5.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 5.ª: «contesto», no «contexto»."
+   "explanation": "Es la 5.ª: «contesto», no «contexto».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l9_m028",
@@ -5534,7 +6242,9 @@
     "la 1.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 2.ª: «deshecho», no «desecho»."
+   "explanation": "Es la 2.ª: «deshecho», no «desecho».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l9_m029",
@@ -5549,7 +6259,9 @@
     "la 2.ª"
    ],
    "correct": 2,
-   "explanation": "Es la 4.ª: «apertura», no «abertura»."
+   "explanation": "Es la 4.ª: «apertura», no «abertura».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l9_m030",
@@ -5564,7 +6276,9 @@
     "la 1.ª"
    ],
    "correct": 3,
-   "explanation": "Es la 1.ª: «especie», no «especia»."
+   "explanation": "Es la 1.ª: «especie», no «especia».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l9_m031",
@@ -5579,7 +6293,9 @@
     "la 4.ª"
    ],
    "correct": 0,
-   "explanation": "Es la 3.ª: «injerir», no «ingerir»."
+   "explanation": "Es la 3.ª: «injerir», no «ingerir».",
+   "skill": "mem_visual",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l9_o001",
@@ -5601,7 +6317,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: ambiguo, ámbito, ambos, ambulancia."
+   "explanation": "Orden alfabético: ambiguo, ámbito, ambos, ambulancia.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l9_o002",
@@ -5623,7 +6341,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: consciente, consecuencia, conseguir, consejo."
+   "explanation": "Orden alfabético: consciente, consecuencia, conseguir, consejo.",
+   "skill": "mem_alpha",
+   "step": 1
   },
   {
    "id": "es_memoria_visual_l9_o003",
@@ -5645,7 +6365,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Orden alfabético: subrayar, subsistir, subterráneo, suburbio."
+   "explanation": "Orden alfabético: subrayar, subsistir, subterráneo, suburbio.",
+   "skill": "mem_alpha",
+   "step": 1
   }
  ]
 }

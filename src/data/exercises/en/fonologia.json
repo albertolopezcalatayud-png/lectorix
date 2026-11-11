@@ -17,7 +17,9 @@
    "word": "cat",
    "syllables": [
     "cat"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m002",
@@ -36,7 +38,9 @@
    "word": "frog",
    "syllables": [
     "frog"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m003",
@@ -56,7 +60,9 @@
    "syllables": [
     "rab",
     "bit"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m004",
@@ -76,7 +82,9 @@
    "syllables": [
     "sun",
     "set"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m005",
@@ -96,7 +104,9 @@
    "syllables": [
     "pic",
     "nic"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m006",
@@ -116,7 +126,9 @@
    "syllables": [
     "pen",
     "cil"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m007",
@@ -136,7 +148,9 @@
    "syllables": [
     "ti",
     "ger"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m008",
@@ -156,7 +170,9 @@
    "syllables": [
     "hap",
     "py"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m009",
@@ -176,7 +192,9 @@
    "syllables": [
     "lem",
     "on"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m010",
@@ -196,7 +214,9 @@
    "syllables": [
     "but",
     "ton"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_m011",
@@ -215,7 +235,9 @@
    "word": "bed",
    "syllables": [
     "bed"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m012",
@@ -235,7 +257,9 @@
    "syllables": [
     "sand",
     "wich"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_o001",
@@ -254,7 +278,9 @@
    "options": [],
    "correct": 0,
    "explanation": "rab-bit = rabbit",
-   "word": "rabbit"
+   "word": "rabbit",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_o002",
@@ -273,7 +299,9 @@
    "options": [],
    "correct": 0,
    "explanation": "sun-set = sunset",
-   "word": "sunset"
+   "word": "sunset",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_o003",
@@ -292,7 +320,9 @@
    "options": [],
    "correct": 0,
    "explanation": "pic-nic = picnic",
-   "word": "picnic"
+   "word": "picnic",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_o004",
@@ -311,7 +341,9 @@
    "options": [],
    "correct": 0,
    "explanation": "pen-cil = pencil",
-   "word": "pencil"
+   "word": "pencil",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_o005",
@@ -330,7 +362,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ti-ger = tiger",
-   "word": "tiger"
+   "word": "tiger",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_o006",
@@ -349,7 +383,9 @@
    "options": [],
    "correct": 0,
    "explanation": "hap-py = happy",
-   "word": "happy"
+   "word": "happy",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_o007",
@@ -368,7 +404,9 @@
    "options": [],
    "correct": 0,
    "explanation": "lem-on = lemon",
-   "word": "lemon"
+   "word": "lemon",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_o008",
@@ -387,7 +425,9 @@
    "options": [],
    "correct": 0,
    "explanation": "but-ton = button",
-   "word": "button"
+   "word": "button",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_o009",
@@ -406,7 +446,9 @@
    "options": [],
    "correct": 0,
    "explanation": "sand-wich = sandwich",
-   "word": "sandwich"
+   "word": "sandwich",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_m013",
@@ -422,7 +464,9 @@
    ],
    "correct": 0,
    "explanation": "'cat' and 'hat' rhyme: they end with the same sound.",
-   "word": "cat"
+   "word": "cat",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_m014",
@@ -438,7 +482,9 @@
    ],
    "correct": 3,
    "explanation": "'dog' and 'log' rhyme: they end with the same sound.",
-   "word": "dog"
+   "word": "dog",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_m015",
@@ -454,7 +500,9 @@
    ],
    "correct": 3,
    "explanation": "'sun' and 'run' rhyme: they end with the same sound.",
-   "word": "sun"
+   "word": "sun",
+   "skill": "fon_rhyme",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m016",
@@ -470,7 +518,9 @@
    ],
    "correct": 0,
    "explanation": "'bed' and 'red' rhyme: they end with the same sound.",
-   "word": "bed"
+   "word": "bed",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_m017",
@@ -486,7 +536,9 @@
    ],
    "correct": 0,
    "explanation": "'pig' and 'wig' rhyme: they end with the same sound.",
-   "word": "pig"
+   "word": "pig",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_m018",
@@ -502,7 +554,9 @@
    ],
    "correct": 3,
    "explanation": "'hen' and 'ten' rhyme: they end with the same sound.",
-   "word": "hen"
+   "word": "hen",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_m019",
@@ -518,7 +572,9 @@
    ],
    "correct": 2,
    "explanation": "'fox' and 'box' rhyme: they end with the same sound.",
-   "word": "fox"
+   "word": "fox",
+   "skill": "fon_rhyme",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m020",
@@ -534,7 +590,9 @@
    ],
    "correct": 1,
    "explanation": "'bug' and 'rug' rhyme: they end with the same sound.",
-   "word": "bug"
+   "word": "bug",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_m021",
@@ -550,7 +608,9 @@
    ],
    "correct": 2,
    "explanation": "sun and sock both start with /s/.",
-   "word": "sun"
+   "word": "sun",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_m022",
@@ -566,7 +626,9 @@
    ],
    "correct": 0,
    "explanation": "mum and milk both start with /m/.",
-   "word": "mum"
+   "word": "mum",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m023",
@@ -582,7 +644,9 @@
    ],
    "correct": 0,
    "explanation": "bat and bus both start with /b/. Careful: b and d look alike!",
-   "word": "bat"
+   "word": "bat",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m024",
@@ -598,7 +662,9 @@
    ],
    "correct": 0,
    "explanation": "dad and duck both start with /d/.",
-   "word": "dad"
+   "word": "dad",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_m025",
@@ -614,7 +680,9 @@
    ],
    "correct": 1,
    "explanation": "pen and pig both start with /p/.",
-   "word": "pen"
+   "word": "pen",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_m026",
@@ -630,7 +698,9 @@
    ],
    "correct": 1,
    "explanation": "leg and lip both start with /l/.",
-   "word": "leg"
+   "word": "leg",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m027",
@@ -646,7 +716,9 @@
    ],
    "correct": 3,
    "explanation": "cat and map have the short a sound.",
-   "word": "cat"
+   "word": "cat",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_m028",
@@ -662,7 +734,9 @@
    ],
    "correct": 1,
    "explanation": "pig and fin have the short i sound.",
-   "word": "pig"
+   "word": "pig",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_m029",
@@ -678,7 +752,9 @@
    ],
    "correct": 0,
    "explanation": "dog and hot have the short o sound.",
-   "word": "dog"
+   "word": "dog",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_m030",
@@ -694,7 +770,9 @@
    ],
    "correct": 0,
    "explanation": "bed and leg have the short e sound.",
-   "word": "bed"
+   "word": "bed",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m031",
@@ -710,7 +788,9 @@
    ],
    "correct": 1,
    "explanation": "cup and bus have the short u sound.",
-   "word": "cup"
+   "word": "cup",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_m032",
@@ -726,7 +806,9 @@
    ],
    "correct": 0,
    "explanation": "sit and lip have the short i sound.",
-   "word": "sit"
+   "word": "sit",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "en_fonologia_l1_d001",
@@ -740,7 +822,9 @@
    "hint": "It has 3 letters",
    "explanation": "c-a-t.",
    "dictation": true,
-   "word": "cat"
+   "word": "cat",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_d002",
@@ -754,7 +838,9 @@
    "hint": "It has 3 letters",
    "explanation": "d-o-g.",
    "dictation": true,
-   "word": "dog"
+   "word": "dog",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_d003",
@@ -768,7 +854,9 @@
    "hint": "It has 3 letters",
    "explanation": "s-u-n.",
    "dictation": true,
-   "word": "sun"
+   "word": "sun",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_d004",
@@ -782,7 +870,9 @@
    "hint": "It has 3 letters",
    "explanation": "b-e-d.",
    "dictation": true,
-   "word": "bed"
+   "word": "bed",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_d005",
@@ -796,7 +886,9 @@
    "hint": "It has 3 letters",
    "explanation": "p-i-g.",
    "dictation": true,
-   "word": "pig"
+   "word": "pig",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_d006",
@@ -810,7 +902,9 @@
    "hint": "It has 3 letters",
    "explanation": "h-e-n.",
    "dictation": true,
-   "word": "hen"
+   "word": "hen",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_d007",
@@ -824,7 +918,9 @@
    "hint": "It has 3 letters",
    "explanation": "c-u-p.",
    "dictation": true,
-   "word": "cup"
+   "word": "cup",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_d008",
@@ -838,7 +934,9 @@
    "hint": "It has 3 letters",
    "explanation": "f-o-x.",
    "dictation": true,
-   "word": "fox"
+   "word": "fox",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_d009",
@@ -852,7 +950,9 @@
    "hint": "It has 3 letters",
    "explanation": "j-a-m.",
    "dictation": true,
-   "word": "jam"
+   "word": "jam",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_d010",
@@ -866,7 +966,9 @@
    "hint": "It has 3 letters",
    "explanation": "w-e-b.",
    "dictation": true,
-   "word": "web"
+   "word": "web",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_fonologia_l1_d011",
@@ -880,7 +982,9 @@
    "hint": "It has 3 letters",
    "explanation": "n-e-t.",
    "dictation": true,
-   "word": "net"
+   "word": "net",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l1_d012",
@@ -894,7 +998,9 @@
    "hint": "It has 3 letters",
    "explanation": "m-u-d.",
    "dictation": true,
-   "word": "mud"
+   "word": "mud",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m001",
@@ -914,7 +1020,9 @@
    "syllables": [
     "mon",
     "key"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_m002",
@@ -934,7 +1042,9 @@
    "syllables": [
     "car",
     "pet"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_m003",
@@ -954,7 +1064,9 @@
    "syllables": [
     "win",
     "dow"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_m004",
@@ -974,7 +1086,9 @@
    "syllables": [
     "ro",
     "bot"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_m005",
@@ -994,7 +1108,9 @@
    "syllables": [
     "bas",
     "ket"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_m006",
@@ -1014,7 +1130,9 @@
    "syllables": [
     "gar",
     "den"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_m007",
@@ -1034,7 +1152,9 @@
    "syllables": [
     "chick",
     "en"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_m008",
@@ -1054,7 +1174,9 @@
    "syllables": [
     "ten",
     "nis"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_m009",
@@ -1075,7 +1197,9 @@
     "di",
     "no",
     "saur"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_m010",
@@ -1096,7 +1220,9 @@
     "ba",
     "na",
     "na"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_m011",
@@ -1117,7 +1243,9 @@
     "to",
     "ma",
     "to"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_m012",
@@ -1138,7 +1266,9 @@
     "an",
     "i",
     "mal"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_o001",
@@ -1157,7 +1287,9 @@
    "options": [],
    "correct": 0,
    "explanation": "mon-key = monkey",
-   "word": "monkey"
+   "word": "monkey",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_o002",
@@ -1176,7 +1308,9 @@
    "options": [],
    "correct": 0,
    "explanation": "car-pet = carpet",
-   "word": "carpet"
+   "word": "carpet",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_o003",
@@ -1195,7 +1329,9 @@
    "options": [],
    "correct": 0,
    "explanation": "win-dow = window",
-   "word": "window"
+   "word": "window",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_o004",
@@ -1214,7 +1350,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ro-bot = robot",
-   "word": "robot"
+   "word": "robot",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_o005",
@@ -1233,7 +1371,9 @@
    "options": [],
    "correct": 0,
    "explanation": "bas-ket = basket",
-   "word": "basket"
+   "word": "basket",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_o006",
@@ -1252,7 +1392,9 @@
    "options": [],
    "correct": 0,
    "explanation": "gar-den = garden",
-   "word": "garden"
+   "word": "garden",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_o007",
@@ -1271,7 +1413,9 @@
    "options": [],
    "correct": 0,
    "explanation": "chick-en = chicken",
-   "word": "chicken"
+   "word": "chicken",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_o008",
@@ -1290,7 +1434,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ten-nis = tennis",
-   "word": "tennis"
+   "word": "tennis",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_o009",
@@ -1311,7 +1457,9 @@
    "options": [],
    "correct": 0,
    "explanation": "di-no-saur = dinosaur",
-   "word": "dinosaur"
+   "word": "dinosaur",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_m013",
@@ -1327,7 +1475,9 @@
    ],
    "correct": 1,
    "explanation": "'ship' and 'chip' rhyme: they end with the same sound.",
-   "word": "ship"
+   "word": "ship",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m014",
@@ -1343,7 +1493,9 @@
    ],
    "correct": 2,
    "explanation": "'fish' and 'dish' rhyme: they end with the same sound.",
-   "word": "fish"
+   "word": "fish",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m015",
@@ -1359,7 +1511,9 @@
    ],
    "correct": 2,
    "explanation": "'duck' and 'truck' rhyme: they end with the same sound.",
-   "word": "duck"
+   "word": "duck",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m016",
@@ -1375,7 +1529,9 @@
    ],
    "correct": 1,
    "explanation": "'ring' and 'king' rhyme: they end with the same sound.",
-   "word": "ring"
+   "word": "ring",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m017",
@@ -1391,7 +1547,9 @@
    ],
    "correct": 1,
    "explanation": "'clock' and 'sock' rhyme: they end with the same sound.",
-   "word": "clock"
+   "word": "clock",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m018",
@@ -1407,7 +1565,9 @@
    ],
    "correct": 3,
    "explanation": "'shell' and 'bell' rhyme: they end with the same sound.",
-   "word": "shell"
+   "word": "shell",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m019",
@@ -1423,7 +1583,9 @@
    ],
    "correct": 3,
    "explanation": "'bath' and 'path' rhyme: they end with the same sound.",
-   "word": "bath"
+   "word": "bath",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m020",
@@ -1439,7 +1601,9 @@
    ],
    "correct": 3,
    "explanation": "'moth' and 'cloth' rhyme: they end with the same sound.",
-   "word": "moth"
+   "word": "moth",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m021",
@@ -1455,7 +1619,9 @@
    ],
    "correct": 0,
    "explanation": "ship and shoe both start with /sh/.",
-   "word": "ship"
+   "word": "ship",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m022",
@@ -1471,7 +1637,9 @@
    ],
    "correct": 1,
    "explanation": "chair and cheese both start with /ch/.",
-   "word": "chair"
+   "word": "chair",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m023",
@@ -1487,7 +1655,9 @@
    ],
    "correct": 1,
    "explanation": "thumb and think both start with /th/.",
-   "word": "thumb"
+   "word": "thumb",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m024",
@@ -1503,7 +1673,9 @@
    ],
    "correct": 1,
    "explanation": "ph sounds like /f/: phone and fish start with the same sound.",
-   "word": "phone"
+   "word": "phone",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m025",
@@ -1519,7 +1691,9 @@
    ],
    "correct": 0,
    "explanation": "wh sounds like /w/: whale and window start with the same sound.",
-   "word": "whale"
+   "word": "whale",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m026",
@@ -1535,7 +1709,9 @@
    ],
    "correct": 1,
    "explanation": "qu sounds like /kw/: queen and quiet.",
-   "word": "queen"
+   "word": "queen",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m027",
@@ -1551,7 +1727,9 @@
    ],
    "correct": 3,
    "explanation": "ship and milk have the short i sound.",
-   "word": "ship"
+   "word": "ship",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_m028",
@@ -1567,7 +1745,9 @@
    ],
    "correct": 3,
    "explanation": "chop and frog have the short o sound.",
-   "word": "chop"
+   "word": "chop",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_m029",
@@ -1583,7 +1763,9 @@
    ],
    "correct": 3,
    "explanation": "much and duck have the short u sound.",
-   "word": "much"
+   "word": "much",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_m030",
@@ -1599,7 +1781,9 @@
    ],
    "correct": 1,
    "explanation": "thank and black have the short a sound.",
-   "word": "thank"
+   "word": "thank",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m031",
@@ -1615,7 +1799,9 @@
    ],
    "correct": 1,
    "explanation": "bell and dress have the short e sound.",
-   "word": "bell"
+   "word": "bell",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "en_fonologia_l2_m032",
@@ -1631,7 +1817,9 @@
    ],
    "correct": 1,
    "explanation": "lunch and drum have the short u sound.",
-   "word": "lunch"
+   "word": "lunch",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m033",
@@ -1646,7 +1834,9 @@
     "shop"
    ],
    "correct": 2,
-   "explanation": "chip has the 'ch' sound, not 'sh'."
+   "explanation": "chip has the 'ch' sound, not 'sh'.",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_m034",
@@ -1661,7 +1851,9 @@
     "three"
    ],
    "correct": 0,
-   "explanation": "tent starts with t, not th."
+   "explanation": "tent starts with t, not th.",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l2_d001",
@@ -1675,7 +1867,9 @@
    "hint": "It has 4 letters",
    "explanation": "s-h-i-p.",
    "dictation": true,
-   "word": "ship"
+   "word": "ship",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_d002",
@@ -1689,7 +1883,9 @@
    "hint": "It has 4 letters",
    "explanation": "c-h-o-p.",
    "dictation": true,
-   "word": "chop"
+   "word": "chop",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_d003",
@@ -1703,7 +1899,9 @@
    "hint": "It has 4 letters",
    "explanation": "t-h-i-n.",
    "dictation": true,
-   "word": "thin"
+   "word": "thin",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_d004",
@@ -1717,7 +1915,9 @@
    "hint": "It has 4 letters",
    "explanation": "d-u-c-k. ck at the end of a short word.",
    "dictation": true,
-   "word": "duck"
+   "word": "duck",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_d005",
@@ -1731,7 +1931,9 @@
    "hint": "It has 4 letters",
    "explanation": "f-r-o-g.",
    "dictation": true,
-   "word": "frog"
+   "word": "frog",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_d006",
@@ -1745,7 +1947,9 @@
    "hint": "It has 4 letters",
    "explanation": "c-r-a-b.",
    "dictation": true,
-   "word": "crab"
+   "word": "crab",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_d007",
@@ -1759,7 +1963,9 @@
    "hint": "It has 5 letters",
    "explanation": "s-h-e-l-l. Double l at the end.",
    "dictation": true,
-   "word": "shell"
+   "word": "shell",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_d008",
@@ -1773,7 +1979,9 @@
    "hint": "It has 5 letters",
    "explanation": "l-u-n-c-h. nch at the end.",
    "dictation": true,
-   "word": "lunch"
+   "word": "lunch",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_d009",
@@ -1787,7 +1995,9 @@
    "hint": "It has 5 letters",
    "explanation": "b-l-a-c-k. ck at the end of a short word.",
    "dictation": true,
-   "word": "black"
+   "word": "black",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_d010",
@@ -1801,7 +2011,9 @@
    "hint": "It has 4 letters",
    "explanation": "s-w-i-m.",
    "dictation": true,
-   "word": "swim"
+   "word": "swim",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_d011",
@@ -1815,7 +2027,9 @@
    "hint": "It has 4 letters",
    "explanation": "s-i-n-g. ng at the end.",
    "dictation": true,
-   "word": "sing"
+   "word": "sing",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l2_d012",
@@ -1829,7 +2043,9 @@
    "hint": "It has 4 letters",
    "explanation": "m-o-t-h. th at the end.",
    "dictation": true,
-   "word": "moth"
+   "word": "moth",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_m001",
@@ -1850,7 +2066,9 @@
     "el",
     "e",
     "phant"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_m002",
@@ -1871,7 +2089,9 @@
     "kan",
     "ga",
     "roo"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_m003",
@@ -1892,7 +2112,9 @@
     "um",
     "brel",
     "la"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_m004",
@@ -1913,7 +2135,9 @@
     "com",
     "pu",
     "ter"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_m005",
@@ -1934,7 +2158,9 @@
     "po",
     "ta",
     "to"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_m006",
@@ -1955,7 +2181,9 @@
     "hos",
     "pi",
     "tal"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_m007",
@@ -1976,7 +2204,9 @@
     "yes",
     "ter",
     "day"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_m008",
@@ -1997,7 +2227,9 @@
     "but",
     "ter",
     "fly"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_m009",
@@ -2018,7 +2250,9 @@
     "oc",
     "to",
     "pus"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_m010",
@@ -2039,7 +2273,9 @@
     "vol",
     "ca",
     "no"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_m011",
@@ -2060,7 +2296,9 @@
     "im",
     "por",
     "tant"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_m012",
@@ -2081,7 +2319,9 @@
     "ad",
     "ven",
     "ture"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_o001",
@@ -2102,7 +2342,9 @@
    "options": [],
    "correct": 0,
    "explanation": "el-e-phant = elephant",
-   "word": "elephant"
+   "word": "elephant",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_o002",
@@ -2123,7 +2365,9 @@
    "options": [],
    "correct": 0,
    "explanation": "kan-ga-roo = kangaroo",
-   "word": "kangaroo"
+   "word": "kangaroo",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_o003",
@@ -2144,7 +2388,9 @@
    "options": [],
    "correct": 0,
    "explanation": "um-brel-la = umbrella",
-   "word": "umbrella"
+   "word": "umbrella",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_o004",
@@ -2165,7 +2411,9 @@
    "options": [],
    "correct": 0,
    "explanation": "com-pu-ter = computer",
-   "word": "computer"
+   "word": "computer",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_o005",
@@ -2186,7 +2434,9 @@
    "options": [],
    "correct": 0,
    "explanation": "po-ta-to = potato",
-   "word": "potato"
+   "word": "potato",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_o006",
@@ -2207,7 +2457,9 @@
    "options": [],
    "correct": 0,
    "explanation": "hos-pi-tal = hospital",
-   "word": "hospital"
+   "word": "hospital",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_o007",
@@ -2228,7 +2480,9 @@
    "options": [],
    "correct": 0,
    "explanation": "yes-ter-day = yesterday",
-   "word": "yesterday"
+   "word": "yesterday",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_o008",
@@ -2249,7 +2503,9 @@
    "options": [],
    "correct": 0,
    "explanation": "but-ter-fly = butterfly",
-   "word": "butterfly"
+   "word": "butterfly",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_o009",
@@ -2270,7 +2526,9 @@
    "options": [],
    "correct": 0,
    "explanation": "oc-to-pus = octopus",
-   "word": "octopus"
+   "word": "octopus",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_m013",
@@ -2286,7 +2544,9 @@
    ],
    "correct": 3,
    "explanation": "'cake' and 'lake' rhyme: they end with the same sound.",
-   "word": "cake"
+   "word": "cake",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m014",
@@ -2302,7 +2562,9 @@
    ],
    "correct": 0,
    "explanation": "'bike' and 'like' rhyme: they end with the same sound.",
-   "word": "bike"
+   "word": "bike",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m015",
@@ -2318,7 +2580,9 @@
    ],
    "correct": 1,
    "explanation": "'rain' and 'train' rhyme: they end with the same sound.",
-   "word": "rain"
+   "word": "rain",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m016",
@@ -2334,7 +2598,9 @@
    ],
    "correct": 3,
    "explanation": "'boat' and 'coat' rhyme: they end with the same sound.",
-   "word": "boat"
+   "word": "boat",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m017",
@@ -2350,7 +2616,9 @@
    ],
    "correct": 2,
    "explanation": "'feet' and 'sheet' rhyme: they end with the same sound.",
-   "word": "feet"
+   "word": "feet",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m018",
@@ -2366,7 +2634,9 @@
    ],
    "correct": 3,
    "explanation": "'night' and 'light' rhyme: they end with the same sound.",
-   "word": "night"
+   "word": "night",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m019",
@@ -2382,7 +2652,9 @@
    ],
    "correct": 3,
    "explanation": "'bone' and 'phone' rhyme: they end with the same sound.",
-   "word": "bone"
+   "word": "bone",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m020",
@@ -2398,7 +2670,9 @@
    ],
    "correct": 1,
    "explanation": "'tree' and 'three' rhyme: they end with the same sound.",
-   "word": "tree"
+   "word": "tree",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m021",
@@ -2414,7 +2688,9 @@
    ],
    "correct": 1,
    "explanation": "In knee the k is silent, so it starts with /n/ like nose.",
-   "word": "knee"
+   "word": "knee",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m022",
@@ -2430,7 +2706,9 @@
    ],
    "correct": 1,
    "explanation": "In write the w is silent, so it starts with /r/ like rabbit.",
-   "word": "write"
+   "word": "write",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m023",
@@ -2446,7 +2724,9 @@
    ],
    "correct": 3,
    "explanation": "c before i sounds /s/: city and seven.",
-   "word": "city"
+   "word": "city",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_m024",
@@ -2462,7 +2742,9 @@
    ],
    "correct": 2,
    "explanation": "g before i can sound /j/: giant and jelly.",
-   "word": "giant"
+   "word": "giant",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m025",
@@ -2478,7 +2760,9 @@
    ],
    "correct": 3,
    "explanation": "c before e sounds /s/: cent and sand.",
-   "word": "cent"
+   "word": "cent",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m026",
@@ -2494,7 +2778,9 @@
    ],
    "correct": 2,
    "explanation": "g before e can sound /j/: gem and jam.",
-   "word": "gem"
+   "word": "gem",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_m027",
@@ -2510,7 +2796,9 @@
    ],
    "correct": 0,
    "explanation": "ai in rain and a-e in cake make the same long a sound.",
-   "word": "rain"
+   "word": "rain",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m028",
@@ -2526,7 +2814,9 @@
    ],
    "correct": 3,
    "explanation": "ee in feet and ea in beach make the same long e sound.",
-   "word": "feet"
+   "word": "feet",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m029",
@@ -2542,7 +2832,9 @@
    ],
    "correct": 0,
    "explanation": "oa in boat and o-e in home make the same long o sound.",
-   "word": "boat"
+   "word": "boat",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_m030",
@@ -2558,7 +2850,9 @@
    ],
    "correct": 1,
    "explanation": "igh in night and i-e in kite make the same long i sound.",
-   "word": "night"
+   "word": "night",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m031",
@@ -2574,7 +2868,9 @@
    ],
    "correct": 0,
    "explanation": "ay in play and ai in train make the same long a sound.",
-   "word": "play"
+   "word": "play",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m032",
@@ -2590,7 +2886,9 @@
    ],
    "correct": 0,
    "explanation": "ow in snow and oa in goat make the same long o sound.",
-   "word": "snow"
+   "word": "snow",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m033",
@@ -2605,7 +2903,9 @@
     "cat"
    ],
    "correct": 3,
-   "explanation": "cat has a short a."
+   "explanation": "cat has a short a.",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l3_m034",
@@ -2620,7 +2920,9 @@
     "bed"
    ],
    "correct": 3,
-   "explanation": "bed has a short e."
+   "explanation": "bed has a short e.",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_d001",
@@ -2634,7 +2936,9 @@
    "hint": "It has 4 letters",
    "explanation": "c-a-k-e. The magic e makes the a say its name.",
    "dictation": true,
-   "word": "cake"
+   "word": "cake",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_d002",
@@ -2648,7 +2952,9 @@
    "hint": "It has 4 letters",
    "explanation": "b-i-k-e. The magic e makes the i say its name.",
    "dictation": true,
-   "word": "bike"
+   "word": "bike",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_d003",
@@ -2662,7 +2968,9 @@
    "hint": "It has 4 letters",
    "explanation": "h-o-m-e. The magic e makes the o say its name.",
    "dictation": true,
-   "word": "home"
+   "word": "home",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_d004",
@@ -2676,7 +2984,9 @@
    "hint": "It has 4 letters",
    "explanation": "c-u-b-e. The magic e makes the u say its name.",
    "dictation": true,
-   "word": "cube"
+   "word": "cube",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_d005",
@@ -2690,7 +3000,9 @@
    "hint": "It has 4 letters",
    "explanation": "r-a-i-n. ai makes the long a sound.",
    "dictation": true,
-   "word": "rain"
+   "word": "rain",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_d006",
@@ -2704,7 +3016,9 @@
    "hint": "It has 4 letters",
    "explanation": "t-r-e-e. ee makes the long e sound.",
    "dictation": true,
-   "word": "tree"
+   "word": "tree",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_d007",
@@ -2718,7 +3032,9 @@
    "hint": "It has 4 letters",
    "explanation": "b-o-a-t. oa makes the long o sound.",
    "dictation": true,
-   "word": "boat"
+   "word": "boat",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_d008",
@@ -2732,7 +3048,9 @@
    "hint": "It has 5 letters",
    "explanation": "n-i-g-h-t. igh makes the long i sound.",
    "dictation": true,
-   "word": "night"
+   "word": "night",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "en_fonologia_l3_d009",
@@ -2746,7 +3064,9 @@
    "hint": "It has 4 letters",
    "explanation": "p-l-a-y. ay at the end of a word.",
    "dictation": true,
-   "word": "play"
+   "word": "play",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_d010",
@@ -2760,7 +3080,9 @@
    "hint": "It has 4 letters",
    "explanation": "s-n-o-w. ow makes the long o sound.",
    "dictation": true,
-   "word": "snow"
+   "word": "snow",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_d011",
@@ -2774,7 +3096,9 @@
    "hint": "It has 4 letters",
    "explanation": "f-e-e-t. ee makes the long e sound.",
    "dictation": true,
-   "word": "feet"
+   "word": "feet",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l3_d012",
@@ -2788,7 +3112,9 @@
    "hint": "It has 5 letters",
    "explanation": "s-l-i-d-e. The magic e makes the i say its name.",
    "dictation": true,
-   "word": "slide"
+   "word": "slide",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_m001",
@@ -2810,7 +3136,9 @@
     "i",
     "cop",
     "ter"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_m002",
@@ -2832,7 +3160,9 @@
     "er",
     "pil",
     "lar"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m003",
@@ -2854,7 +3184,9 @@
     "ter",
     "mel",
     "on"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_m004",
@@ -2876,7 +3208,9 @@
     "per",
     "mar",
     "ket"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m005",
@@ -2898,7 +3232,9 @@
     "cu",
     "la",
     "tor"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m006",
@@ -2920,7 +3256,9 @@
     "li",
     "ga",
     "tor"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_m007",
@@ -2942,7 +3280,9 @@
     "vis",
     "i",
     "ble"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_m008",
@@ -2964,7 +3304,9 @@
     "tiv",
     "i",
     "ty"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_m009",
@@ -2986,7 +3328,9 @@
     "e",
     "bra",
     "tion"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m010",
@@ -3008,7 +3352,9 @@
     "for",
     "ma",
     "tion"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m011",
@@ -3030,7 +3376,9 @@
     "e",
     "vi",
     "sion"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m012",
@@ -3052,7 +3400,9 @@
     "vi",
     "ron",
     "ment"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_o001",
@@ -3075,7 +3425,9 @@
    "options": [],
    "correct": 0,
    "explanation": "hel-i-cop-ter = helicopter",
-   "word": "helicopter"
+   "word": "helicopter",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_o002",
@@ -3098,7 +3450,9 @@
    "options": [],
    "correct": 0,
    "explanation": "cat-er-pil-lar = caterpillar",
-   "word": "caterpillar"
+   "word": "caterpillar",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_o003",
@@ -3121,7 +3475,9 @@
    "options": [],
    "correct": 0,
    "explanation": "wa-ter-mel-on = watermelon",
-   "word": "watermelon"
+   "word": "watermelon",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_o004",
@@ -3144,7 +3500,9 @@
    "options": [],
    "correct": 0,
    "explanation": "su-per-mar-ket = supermarket",
-   "word": "supermarket"
+   "word": "supermarket",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_o005",
@@ -3167,7 +3525,9 @@
    "options": [],
    "correct": 0,
    "explanation": "cal-cu-la-tor = calculator",
-   "word": "calculator"
+   "word": "calculator",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_o006",
@@ -3190,7 +3550,9 @@
    "options": [],
    "correct": 0,
    "explanation": "al-li-ga-tor = alligator",
-   "word": "alligator"
+   "word": "alligator",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_o007",
@@ -3213,7 +3575,9 @@
    "options": [],
    "correct": 0,
    "explanation": "in-vis-i-ble = invisible",
-   "word": "invisible"
+   "word": "invisible",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_o008",
@@ -3236,7 +3600,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ac-tiv-i-ty = activity",
-   "word": "activity"
+   "word": "activity",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_o009",
@@ -3259,7 +3625,9 @@
    "options": [],
    "correct": 0,
    "explanation": "cel-e-bra-tion = celebration",
-   "word": "celebration"
+   "word": "celebration",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m013",
@@ -3275,7 +3643,9 @@
    ],
    "correct": 2,
    "explanation": "'star' and 'car' rhyme: they end with the same sound.",
-   "word": "star"
+   "word": "star",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m014",
@@ -3291,7 +3661,9 @@
    ],
    "correct": 3,
    "explanation": "'horn' and 'corn' rhyme: they end with the same sound.",
-   "word": "horn"
+   "word": "horn",
+   "skill": "fon_rhyme",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m015",
@@ -3307,7 +3679,9 @@
    ],
    "correct": 0,
    "explanation": "'bird' and 'third' rhyme: they end with the same sound.",
-   "word": "bird"
+   "word": "bird",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m016",
@@ -3323,7 +3697,9 @@
    ],
    "correct": 2,
    "explanation": "'shirt' and 'skirt' rhyme: they end with the same sound.",
-   "word": "shirt"
+   "word": "shirt",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m017",
@@ -3339,7 +3715,9 @@
    ],
    "correct": 1,
    "explanation": "'fur' and 'her' rhyme: they end with the same sound.",
-   "word": "fur"
+   "word": "fur",
+   "skill": "fon_rhyme",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_m018",
@@ -3355,7 +3733,9 @@
    ],
    "correct": 0,
    "explanation": "'burn' and 'turn' rhyme: they end with the same sound.",
-   "word": "burn"
+   "word": "burn",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m019",
@@ -3371,7 +3751,9 @@
    ],
    "correct": 3,
    "explanation": "'nurse' and 'purse' rhyme: they end with the same sound.",
-   "word": "nurse"
+   "word": "nurse",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m020",
@@ -3387,7 +3769,9 @@
    ],
    "correct": 1,
    "explanation": "'storm' and 'form' rhyme: they end with the same sound.",
-   "word": "storm"
+   "word": "storm",
+   "skill": "fon_rhyme",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m021",
@@ -3403,7 +3787,9 @@
    ],
    "correct": 1,
    "explanation": "In gnome the g is silent, so it starts with /n/.",
-   "word": "gnome"
+   "word": "gnome",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m022",
@@ -3419,7 +3805,9 @@
    ],
    "correct": 0,
    "explanation": "In wrist the w is silent, so it starts with /r/.",
-   "word": "wrist"
+   "word": "wrist",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m023",
@@ -3435,7 +3823,9 @@
    ],
    "correct": 0,
    "explanation": "In chef, ch sounds /sh/ (it comes from French).",
-   "word": "chef"
+   "word": "chef",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m024",
@@ -3451,7 +3841,9 @@
    ],
    "correct": 2,
    "explanation": "In chemist, ch sounds /k/.",
-   "word": "chemist"
+   "word": "chemist",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m025",
@@ -3467,7 +3859,9 @@
    ],
    "correct": 0,
    "explanation": "In honest the h is silent, so it starts with a vowel sound.",
-   "word": "honest"
+   "word": "honest",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m026",
@@ -3483,7 +3877,9 @@
    ],
    "correct": 0,
    "explanation": "In knock the k is silent, so it starts with /n/.",
-   "word": "knock"
+   "word": "knock",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m027",
@@ -3499,7 +3895,9 @@
    ],
    "correct": 2,
    "explanation": "star and park have the ar sound.",
-   "word": "star"
+   "word": "star",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m028",
@@ -3515,7 +3913,9 @@
    ],
    "correct": 1,
    "explanation": "ir in bird and ur in fur make the same sound.",
-   "word": "bird"
+   "word": "bird",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m029",
@@ -3531,7 +3931,9 @@
    ],
    "correct": 0,
    "explanation": "or in horn and oor in door make the same sound.",
-   "word": "horn"
+   "word": "horn",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_m030",
@@ -3547,7 +3949,9 @@
    ],
    "correct": 3,
    "explanation": "oi in coin and oy in boy make the same sound.",
-   "word": "coin"
+   "word": "coin",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m031",
@@ -3563,7 +3967,9 @@
    ],
    "correct": 3,
    "explanation": "ou in cloud and ow in cow make the same sound.",
-   "word": "cloud"
+   "word": "cloud",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m032",
@@ -3579,7 +3985,9 @@
    ],
    "correct": 2,
    "explanation": "oo in moon and ue in blue make the same sound.",
-   "word": "moon"
+   "word": "moon",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_m033",
@@ -3594,7 +4002,9 @@
     "war"
    ],
    "correct": 3,
-   "explanation": "In war, ar sounds like 'or'."
+   "explanation": "In war, ar sounds like 'or'.",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l4_m034",
@@ -3609,7 +4019,9 @@
     "brown"
    ],
    "correct": 1,
-   "explanation": "In snow, ow is a long o."
+   "explanation": "In snow, ow is a long o.",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l4_d001",
@@ -3623,7 +4035,9 @@
    "hint": "It has 4 letters",
    "explanation": "s-t-a-r.",
    "dictation": true,
-   "word": "star"
+   "word": "star",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_d002",
@@ -3637,7 +4051,9 @@
    "hint": "It has 4 letters",
    "explanation": "h-o-r-n.",
    "dictation": true,
-   "word": "horn"
+   "word": "horn",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_d003",
@@ -3651,7 +4067,9 @@
    "hint": "It has 4 letters",
    "explanation": "b-i-r-d.",
    "dictation": true,
-   "word": "bird"
+   "word": "bird",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_d004",
@@ -3665,7 +4083,9 @@
    "hint": "It has 5 letters",
    "explanation": "s-h-i-r-t.",
    "dictation": true,
-   "word": "shirt"
+   "word": "shirt",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_d005",
@@ -3679,7 +4099,9 @@
    "hint": "It has 4 letters",
    "explanation": "t-u-r-n.",
    "dictation": true,
-   "word": "turn"
+   "word": "turn",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_d006",
@@ -3693,7 +4115,9 @@
    "hint": "It has 6 letters",
    "explanation": "p-u-r-p-l-e. ur and then ple.",
    "dictation": true,
-   "word": "purple"
+   "word": "purple",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_d007",
@@ -3707,7 +4131,9 @@
    "hint": "It has 6 letters",
    "explanation": "g-a-r-d-e-n.",
    "dictation": true,
-   "word": "garden"
+   "word": "garden",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_d008",
@@ -3721,7 +4147,9 @@
    "hint": "It has 6 letters",
    "explanation": "c-o-r-n-e-r.",
    "dictation": true,
-   "word": "corner"
+   "word": "corner",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_d009",
@@ -3735,7 +4163,9 @@
    "hint": "It has 5 letters",
    "explanation": "r-i-v-e-r.",
    "dictation": true,
-   "word": "river"
+   "word": "river",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_d010",
@@ -3749,7 +4179,9 @@
    "hint": "It has 5 letters",
    "explanation": "c-h-a-i-r. air at the end.",
    "dictation": true,
-   "word": "chair"
+   "word": "chair",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_d011",
@@ -3763,7 +4195,9 @@
    "hint": "It has 5 letters",
    "explanation": "c-l-o-u-d. ou makes the ow sound.",
    "dictation": true,
-   "word": "cloud"
+   "word": "cloud",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l4_d012",
@@ -3777,7 +4211,9 @@
    "hint": "It has 4 letters",
    "explanation": "c-o-i-n. oi in the middle of the word.",
    "dictation": true,
-   "word": "coin"
+   "word": "coin",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_m001",
@@ -3800,7 +4236,9 @@
     "pot",
     "a",
     "mus"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m002",
@@ -3823,7 +4261,9 @@
     "er",
     "a",
     "tor"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m003",
@@ -3846,7 +4286,9 @@
     "tric",
     "i",
     "ty"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_m004",
@@ -3869,7 +4311,9 @@
     "liev",
     "a",
     "ble"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m005",
@@ -3892,7 +4336,9 @@
     "i",
     "na",
     "tion"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m006",
@@ -3915,7 +4361,9 @@
     "ni",
     "ca",
     "tion"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m007",
@@ -3938,7 +4386,9 @@
     "u",
     "lar",
     "y"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_m008",
@@ -3961,7 +4411,9 @@
     "tu",
     "ni",
     "ty"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m009",
@@ -3984,7 +4436,9 @@
     "al",
     "i",
     "ty"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m010",
@@ -4007,7 +4461,9 @@
     "ver",
     "si",
     "ty"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_m011",
@@ -4029,7 +4485,9 @@
     "de",
     "pen",
     "dent"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m012",
@@ -4051,7 +4509,9 @@
     "tog",
     "ra",
     "pher"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_o001",
@@ -4076,7 +4536,9 @@
    "options": [],
    "correct": 0,
    "explanation": "hip-po-pot-a-mus = hippopotamus",
-   "word": "hippopotamus"
+   "word": "hippopotamus",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_o002",
@@ -4101,7 +4563,9 @@
    "options": [],
    "correct": 0,
    "explanation": "re-frig-er-a-tor = refrigerator",
-   "word": "refrigerator"
+   "word": "refrigerator",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_o003",
@@ -4126,7 +4590,9 @@
    "options": [],
    "correct": 0,
    "explanation": "e-lec-tric-i-ty = electricity",
-   "word": "electricity"
+   "word": "electricity",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_o004",
@@ -4151,7 +4617,9 @@
    "options": [],
    "correct": 0,
    "explanation": "un-be-liev-a-ble = unbelievable",
-   "word": "unbelievable"
+   "word": "unbelievable",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_o005",
@@ -4176,7 +4644,9 @@
    "options": [],
    "correct": 0,
    "explanation": "i-mag-i-na-tion = imagination",
-   "word": "imagination"
+   "word": "imagination",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_o006",
@@ -4201,7 +4671,9 @@
    "options": [],
    "correct": 0,
    "explanation": "com-mu-ni-ca-tion = communication",
-   "word": "communication"
+   "word": "communication",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_o007",
@@ -4226,7 +4698,9 @@
    "options": [],
    "correct": 0,
    "explanation": "vo-cab-u-lar-y = vocabulary",
-   "word": "vocabulary"
+   "word": "vocabulary",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_o008",
@@ -4251,7 +4725,9 @@
    "options": [],
    "correct": 0,
    "explanation": "op-por-tu-ni-ty = opportunity",
-   "word": "opportunity"
+   "word": "opportunity",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_o009",
@@ -4276,7 +4752,9 @@
    "options": [],
    "correct": 0,
    "explanation": "per-son-al-i-ty = personality",
-   "word": "personality"
+   "word": "personality",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_m013",
@@ -4292,7 +4770,9 @@
    ],
    "correct": 1,
    "explanation": "'rough' and 'tough' rhyme: they end with the same sound.",
-   "word": "rough"
+   "word": "rough",
+   "skill": "fon_rhyme",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m014",
@@ -4308,7 +4788,9 @@
    ],
    "correct": 1,
    "explanation": "'through' and 'blue' rhyme: they end with the same sound.",
-   "word": "through"
+   "word": "through",
+   "skill": "fon_rhyme",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m015",
@@ -4324,7 +4806,9 @@
    ],
    "correct": 2,
    "explanation": "'caught' and 'short' rhyme: they end with the same sound.",
-   "word": "caught"
+   "word": "caught",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_m016",
@@ -4340,7 +4824,9 @@
    ],
    "correct": 2,
    "explanation": "'weight' and 'late' rhyme: they end with the same sound.",
-   "word": "weight"
+   "word": "weight",
+   "skill": "fon_rhyme",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m017",
@@ -4356,7 +4842,9 @@
    ],
    "correct": 0,
    "explanation": "'bear' and 'chair' rhyme: they end with the same sound.",
-   "word": "bear"
+   "word": "bear",
+   "skill": "fon_rhyme",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_m018",
@@ -4372,7 +4860,9 @@
    ],
    "correct": 3,
    "explanation": "'eight' and 'plate' rhyme: they end with the same sound.",
-   "word": "eight"
+   "word": "eight",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_m019",
@@ -4388,7 +4878,9 @@
    ],
    "correct": 2,
    "explanation": "'key' and 'sea' rhyme: they end with the same sound.",
-   "word": "key"
+   "word": "key",
+   "skill": "fon_rhyme",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_m020",
@@ -4404,7 +4896,9 @@
    ],
    "correct": 0,
    "explanation": "'shoe' and 'two' rhyme: they end with the same sound.",
-   "word": "shoe"
+   "word": "shoe",
+   "skill": "fon_rhyme",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_m021",
@@ -4420,7 +4914,9 @@
    ],
    "correct": 2,
    "explanation": "In psychology the p is silent: it starts with /s/.",
-   "word": "psychology"
+   "word": "psychology",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_m022",
@@ -4436,7 +4932,9 @@
    ],
    "correct": 3,
    "explanation": "In wholesome the w is silent: it starts with /h/.",
-   "word": "wholesome"
+   "word": "wholesome",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m023",
@@ -4452,7 +4950,9 @@
    ],
    "correct": 1,
    "explanation": "In character, ch sounds /k/.",
-   "word": "character"
+   "word": "character",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_m024",
@@ -4468,7 +4968,9 @@
    ],
    "correct": 0,
    "explanation": "In machine, ch sounds /sh/.",
-   "word": "machine"
+   "word": "machine",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m025",
@@ -4484,7 +4986,9 @@
    ],
    "correct": 0,
    "explanation": "c before e sounds /s/: cereal and silver.",
-   "word": "cereal"
+   "word": "cereal",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m026",
@@ -4500,7 +5004,9 @@
    ],
    "correct": 1,
    "explanation": "g before y sounds /j/: gymnastics and jungle.",
-   "word": "gymnastics"
+   "word": "gymnastics",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_m027",
@@ -4516,7 +5022,9 @@
    ],
    "correct": 1,
    "explanation": "Careful: ea can sound like short e, as in bread and head.",
-   "word": "bread"
+   "word": "bread",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_m028",
@@ -4532,7 +5040,9 @@
    ],
    "correct": 0,
    "explanation": "In great, ea sounds like long a, as in plate.",
-   "word": "great"
+   "word": "great",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m029",
@@ -4548,7 +5058,9 @@
    ],
    "correct": 2,
    "explanation": "ou in could sounds like oo in wood.",
-   "word": "could"
+   "word": "could",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_m030",
@@ -4564,7 +5076,9 @@
    ],
    "correct": 1,
    "explanation": "In friend, ie sounds like short e.",
-   "word": "friend"
+   "word": "friend",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_m031",
@@ -4580,7 +5094,9 @@
    ],
    "correct": 0,
    "explanation": "In touch, ou sounds like short u.",
-   "word": "touch"
+   "word": "touch",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "en_fonologia_l5_m032",
@@ -4596,7 +5112,9 @@
    ],
    "correct": 3,
    "explanation": "In heart, ea sounds like ar.",
-   "word": "heart"
+   "word": "heart",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_m033",
@@ -4611,7 +5129,9 @@
     "comb"
    ],
    "correct": 1,
-   "explanation": "knot (k), wrap (w) and comb (b) have silent letters."
+   "explanation": "knot (k), wrap (w) and comb (b) have silent letters.",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_m034",
@@ -4626,7 +5146,9 @@
     "laugh"
    ],
    "correct": 2,
-   "explanation": "In light, gh is silent. In laugh it sounds /f/."
+   "explanation": "In light, gh is silent. In laugh it sounds /f/.",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "en_fonologia_l5_d001",
@@ -4640,7 +5162,9 @@
    "hint": "It has 5 letters",
    "explanation": "k-n-i-f-e. The k is silent.",
    "dictation": true,
-   "word": "knife"
+   "word": "knife",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_d002",
@@ -4654,7 +5178,9 @@
    "hint": "It has 5 letters",
    "explanation": "w-r-i-t-e. The w is silent.",
    "dictation": true,
-   "word": "write"
+   "word": "write",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_d003",
@@ -4668,7 +5194,9 @@
    "hint": "It has 4 letters",
    "explanation": "l-a-m-b. The b is silent.",
    "dictation": true,
-   "word": "lamb"
+   "word": "lamb",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_d004",
@@ -4682,7 +5210,9 @@
    "hint": "It has 5 letters",
    "explanation": "p-h-o-n-e. ph sounds /f/.",
    "dictation": true,
-   "word": "phone"
+   "word": "phone",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_d005",
@@ -4696,7 +5226,9 @@
    "hint": "It has 5 letters",
    "explanation": "l-a-u-g-h. gh sounds /f/ here.",
    "dictation": true,
-   "word": "laugh"
+   "word": "laugh",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_d006",
@@ -4710,7 +5242,9 @@
    "hint": "It has 7 letters",
    "explanation": "s-t-a-t-i-o-n. tion sounds /shun/.",
    "dictation": true,
-   "word": "station"
+   "word": "station",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_d007",
@@ -4724,7 +5258,9 @@
    "hint": "It has 7 letters",
    "explanation": "p-i-c-t-u-r-e. ture sounds /cher/.",
    "dictation": true,
-   "word": "picture"
+   "word": "picture",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_d008",
@@ -4738,7 +5274,9 @@
    "hint": "It has 6 letters",
    "explanation": "i-s-l-a-n-d. The s is silent.",
    "dictation": true,
-   "word": "island"
+   "word": "island",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_d009",
@@ -4752,7 +5290,9 @@
    "hint": "It has 6 letters",
    "explanation": "s-c-h-o-o-l. ch sounds /k/.",
    "dictation": true,
-   "word": "school"
+   "word": "school",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_d010",
@@ -4766,7 +5306,9 @@
    "hint": "It has 5 letters",
    "explanation": "e-i-g-h-t. eigh makes the long a sound.",
    "dictation": true,
-   "word": "eight"
+   "word": "eight",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_d011",
@@ -4780,7 +5322,9 @@
    "hint": "It has 5 letters",
    "explanation": "t-h-u-m-b. The b is silent.",
    "dictation": true,
-   "word": "thumb"
+   "word": "thumb",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "en_fonologia_l5_d012",
@@ -4794,7 +5338,9 @@
    "hint": "It has 6 letters",
    "explanation": "c-a-s-t-l-e. The t is silent.",
    "dictation": true,
-   "word": "castle"
+   "word": "castle",
+   "skill": "dictation",
+   "step": 1
   }
  ]
 }

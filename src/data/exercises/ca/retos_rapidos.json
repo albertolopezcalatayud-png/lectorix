@@ -13,7 +13,9 @@
     "xicotet"
    ],
    "correct": 0,
-   "explanation": "«gran» i «enorme» volen dir el mateix."
+   "explanation": "«gran» i «enorme» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l1_m002",
@@ -28,7 +30,9 @@
     "alegre"
    ],
    "correct": 3,
-   "explanation": "«content» i «alegre» volen dir el mateix."
+   "explanation": "«content» i «alegre» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l1_m003",
@@ -43,7 +47,9 @@
     "banyat"
    ],
    "correct": 0,
-   "explanation": "«ràpid» i «veloç» volen dir el mateix."
+   "explanation": "«ràpid» i «veloç» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l1_m004",
@@ -58,7 +64,9 @@
     "sorollós"
    ],
    "correct": 2,
-   "explanation": "«xicotet» i «menut» volen dir el mateix."
+   "explanation": "«xicotet» i «menut» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l1_m005",
@@ -73,7 +81,9 @@
     "botar"
    ],
    "correct": 1,
-   "explanation": "«tancar» i «cloure» volen dir el mateix."
+   "explanation": "«tancar» i «cloure» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l1_m006",
@@ -88,7 +98,9 @@
     "fort"
    ],
    "correct": 1,
-   "explanation": "«bonic» i «preciós» volen dir el mateix."
+   "explanation": "«bonic» i «preciós» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l1_m007",
@@ -103,7 +115,9 @@
     "fred"
    ],
    "correct": 3,
-   "explanation": "El contrari de «calent» és «fred»."
+   "explanation": "El contrari de «calent» és «fred».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l1_m008",
@@ -118,7 +132,9 @@
     "ací"
    ],
    "correct": 2,
-   "explanation": "El contrari de «dalt» és «baix»."
+   "explanation": "El contrari de «dalt» és «baix».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l1_m009",
@@ -133,7 +149,9 @@
     "nit"
    ],
    "correct": 3,
-   "explanation": "El contrari de «dia» és «nit»."
+   "explanation": "El contrari de «dia» és «nit».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l1_m010",
@@ -148,7 +166,9 @@
     "lent"
    ],
    "correct": 0,
-   "explanation": "El contrari de «vell» és «nou»."
+   "explanation": "El contrari de «vell» és «nou».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l1_m011",
@@ -163,7 +183,9 @@
     "fred"
    ],
    "correct": 0,
-   "explanation": "El contrari de «banyat» és «sec»."
+   "explanation": "El contrari de «banyat» és «sec».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l1_m012",
@@ -178,7 +200,9 @@
     "trist"
    ],
    "correct": 3,
-   "explanation": "El contrari de «content» és «trist»."
+   "explanation": "El contrari de «content» és «trist».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l1_m013",
@@ -193,7 +217,9 @@
     "poma"
    ],
    "correct": 3,
-   "explanation": "La poma és una fruita; els altres són animals."
+   "explanation": "La poma és una fruita; els altres són animals.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l1_m014",
@@ -208,7 +234,9 @@
     "verd"
    ],
    "correct": 1,
-   "explanation": "La cadira és un moble; els altres són colors."
+   "explanation": "La cadira és un moble; els altres són colors.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l1_m015",
@@ -223,7 +251,9 @@
     "pastís"
    ],
    "correct": 3,
-   "explanation": "El pastís és menjar; els altres són números."
+   "explanation": "El pastís és menjar; els altres són números.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l1_m016",
@@ -238,7 +268,9 @@
     "taula"
    ],
    "correct": 2,
-   "explanation": "El cavall és un animal."
+   "explanation": "El cavall és un animal.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l1_m017",
@@ -253,7 +285,9 @@
     "rosa"
    ],
    "correct": 3,
-   "explanation": "Rosa és un color."
+   "explanation": "Rosa és un color.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l1_m018",
@@ -268,7 +302,9 @@
     "divendres"
    ],
    "correct": 0,
-   "explanation": "El següent és «dimecres»."
+   "explanation": "El següent és «dimecres».",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l1_m019",
@@ -283,7 +319,9 @@
     "sis"
    ],
    "correct": 2,
-   "explanation": "El següent és «quatre»."
+   "explanation": "El següent és «quatre».",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l1_m020",
@@ -298,7 +336,9 @@
     "2"
    ],
    "correct": 2,
-   "explanation": "g-a-t = 3 lletres."
+   "explanation": "g-a-t = 3 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l1_m021",
@@ -313,7 +353,9 @@
     "4"
    ],
    "correct": 0,
-   "explanation": "l-l-u-n-a = 5 lletres."
+   "explanation": "l-l-u-n-a = 5 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l1_m022",
@@ -328,7 +370,9 @@
     "2"
    ],
    "correct": 2,
-   "explanation": "s-o-l = 3 lletres."
+   "explanation": "s-o-l = 3 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l1_m023",
@@ -343,7 +387,9 @@
     "6"
    ],
    "correct": 0,
-   "explanation": "p-e-i-x = 4 lletres."
+   "explanation": "p-e-i-x = 4 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l1_m024",
@@ -358,7 +404,9 @@
     "porc"
    ],
    "correct": 1,
-   "explanation": "Ordre alfabètic: abella, gat, gos, porc."
+   "explanation": "Ordre alfabètic: abella, gat, gos, porc.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l1_m025",
@@ -373,7 +421,9 @@
     "mar"
    ],
    "correct": 1,
-   "explanation": "Ordre alfabètic: llit, mar, nas, sol."
+   "explanation": "Ordre alfabètic: llit, mar, nas, sol.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l1_m026",
@@ -388,7 +438,9 @@
     "gats"
    ],
    "correct": 3,
-   "explanation": "un gat, dos gats."
+   "explanation": "un gat, dos gats.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l1_m027",
@@ -403,7 +455,9 @@
     "poms"
    ],
    "correct": 1,
-   "explanation": "una poma, dues pomes."
+   "explanation": "una poma, dues pomes.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l1_m028",
@@ -418,7 +472,9 @@
     "vespre"
    ],
    "correct": 3,
-   "explanation": "cap + vespre = capvespre."
+   "explanation": "cap + vespre = capvespre.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l1_m029",
@@ -433,7 +489,9 @@
     "peu"
    ],
    "correct": 2,
-   "explanation": "sobre + taula = sobretaula."
+   "explanation": "sobre + taula = sobretaula.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l1_o001",
@@ -453,7 +511,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "G-O-S = GOS"
+   "explanation": "G-O-S = GOS",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l1_o002",
@@ -473,7 +533,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "S-O-L = SOL"
+   "explanation": "S-O-L = SOL",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l2_m001",
@@ -488,7 +550,9 @@
     "parar"
    ],
    "correct": 0,
-   "explanation": "«començar» i «iniciar» volen dir el mateix."
+   "explanation": "«començar» i «iniciar» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l2_m002",
@@ -503,7 +567,9 @@
     "somriure"
    ],
    "correct": 2,
-   "explanation": "«cridar» i «vociferar» volen dir el mateix."
+   "explanation": "«cridar» i «vociferar» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l2_m003",
@@ -518,7 +584,9 @@
     "valent"
    ],
    "correct": 2,
-   "explanation": "«espantat» i «atemorit» volen dir el mateix."
+   "explanation": "«espantat» i «atemorit» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l2_m004",
@@ -533,7 +601,9 @@
     "descansat"
    ],
    "correct": 2,
-   "explanation": "«cansat» i «esgotat» volen dir el mateix."
+   "explanation": "«cansat» i «esgotat» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l2_m005",
@@ -548,7 +618,9 @@
     "observar"
    ],
    "correct": 3,
-   "explanation": "«mirar» i «observar» volen dir el mateix."
+   "explanation": "«mirar» i «observar» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l2_m006",
@@ -563,7 +635,9 @@
     "fosc"
    ],
    "correct": 0,
-   "explanation": "«fàcil» i «senzill» volen dir el mateix."
+   "explanation": "«fàcil» i «senzill» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l2_m007",
@@ -578,7 +652,9 @@
     "buit"
    ],
    "correct": 2,
-   "explanation": "El contrari d'«obert» és «tancat»."
+   "explanation": "El contrari d'«obert» és «tancat».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l2_m008",
@@ -593,7 +669,9 @@
     "tard"
    ],
    "correct": 3,
-   "explanation": "El contrari de «prompte» és «tard»."
+   "explanation": "El contrari de «prompte» és «tard».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l2_m009",
@@ -608,7 +686,9 @@
     "lleuger"
    ],
    "correct": 3,
-   "explanation": "El contrari de «pesat» és «lleuger»."
+   "explanation": "El contrari de «pesat» és «lleuger».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l2_m010",
@@ -623,7 +703,9 @@
     "fondo"
    ],
    "correct": 2,
-   "explanation": "El contrari de «sorollós» és «silenciós»."
+   "explanation": "El contrari de «sorollós» és «silenciós».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l2_m011",
@@ -638,7 +720,9 @@
     "estirar"
    ],
    "correct": 3,
-   "explanation": "El contrari d'«empényer» és «estirar»."
+   "explanation": "El contrari d'«empényer» és «estirar».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l2_m012",
@@ -653,7 +737,9 @@
     "véncer"
    ],
    "correct": 2,
-   "explanation": "El contrari de «guanyar» és «perdre»."
+   "explanation": "El contrari de «guanyar» és «perdre».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l2_m013",
@@ -668,7 +754,9 @@
     "pastanaga"
    ],
    "correct": 3,
-   "explanation": "La pastanaga és una hortalissa; els altres són fruites."
+   "explanation": "La pastanaga és una hortalissa; els altres són fruites.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l2_m014",
@@ -683,7 +771,9 @@
     "dilluns"
    ],
    "correct": 0,
-   "explanation": "Març és un mes; els altres són dies."
+   "explanation": "Març és un mes; els altres són dies.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l2_m015",
@@ -698,7 +788,9 @@
     "autobús"
    ],
    "correct": 1,
-   "explanation": "Un pont no és un vehicle."
+   "explanation": "Un pont no és un vehicle.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l2_m016",
@@ -713,7 +805,9 @@
     "caixa"
    ],
    "correct": 2,
-   "explanation": "«córrer» és una acció: un verb."
+   "explanation": "«córrer» és una acció: un verb.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l2_m017",
@@ -728,7 +822,9 @@
     "ràpidament"
    ],
    "correct": 2,
-   "explanation": "Una cadira és una cosa: un nom."
+   "explanation": "Una cadira és una cosa: un nom.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l2_m018",
@@ -743,7 +839,9 @@
     "maig"
    ],
    "correct": 2,
-   "explanation": "El següent és «març»."
+   "explanation": "El següent és «març».",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l2_m019",
@@ -758,7 +856,9 @@
     "tardor"
    ],
    "correct": 3,
-   "explanation": "El següent és «tardor»."
+   "explanation": "El següent és «tardor».",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l2_m020",
@@ -773,7 +873,9 @@
     "7"
    ],
    "correct": 1,
-   "explanation": "c-a-d-i-r-a = 6 lletres."
+   "explanation": "c-a-d-i-r-a = 6 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l2_m021",
@@ -788,7 +890,9 @@
     "6"
    ],
    "correct": 3,
-   "explanation": "c-o-n-i-l-l = 6 lletres."
+   "explanation": "c-o-n-i-l-l = 6 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l2_m022",
@@ -803,7 +907,9 @@
     "7"
    ],
    "correct": 0,
-   "explanation": "p-l-a-t-j-a = 6 lletres."
+   "explanation": "p-l-a-t-j-a = 6 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l2_m023",
@@ -818,7 +924,9 @@
     "10"
    ],
    "correct": 2,
-   "explanation": "m-u-n-t-a-n-y-a = 8 lletres."
+   "explanation": "m-u-n-t-a-n-y-a = 8 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l2_m024",
@@ -833,7 +941,9 @@
     "plàtan"
    ],
    "correct": 0,
-   "explanation": "Ordre alfabètic: meló, pera, plàtan, poma."
+   "explanation": "Ordre alfabètic: meló, pera, plàtan, poma.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l2_m025",
@@ -848,7 +958,9 @@
     "porta"
    ],
    "correct": 1,
-   "explanation": "Ordre alfabètic: cadira, llum, porta, taula."
+   "explanation": "Ordre alfabètic: cadira, llum, porta, taula.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l2_m026",
@@ -863,7 +975,9 @@
     "vaques"
    ],
    "correct": 3,
-   "explanation": "una vaca, dues vaques."
+   "explanation": "una vaca, dues vaques.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l2_m027",
@@ -878,7 +992,9 @@
     "peixes"
    ],
    "correct": 2,
-   "explanation": "un peix, dos peixos."
+   "explanation": "un peix, dos peixos.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l2_m028",
@@ -893,7 +1009,9 @@
     "caigudes"
    ],
    "correct": 3,
-   "explanation": "para + caigudes = paracaigudes."
+   "explanation": "para + caigudes = paracaigudes.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l2_m029",
@@ -908,7 +1026,9 @@
     "cadires"
    ],
    "correct": 2,
-   "explanation": "escura + dents = escuradents."
+   "explanation": "escura + dents = escuradents.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l2_o001",
@@ -930,7 +1050,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "P-E-I-X = PEIX"
+   "explanation": "P-E-I-X = PEIX",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l2_o002",
@@ -952,7 +1074,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "L-L-I-T = LLIT"
+   "explanation": "L-L-I-T = LLIT",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l3_m001",
@@ -967,7 +1091,9 @@
     "silenciós"
    ],
    "correct": 1,
-   "explanation": "«enorme» i «immens» volen dir el mateix."
+   "explanation": "«enorme» i «immens» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l3_m002",
@@ -982,7 +1108,9 @@
     "assolellat"
    ],
    "correct": 1,
-   "explanation": "«silenciós» i «callat» volen dir el mateix."
+   "explanation": "«silenciós» i «callat» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l3_m003",
@@ -997,7 +1125,9 @@
     "poruc"
    ],
    "correct": 1,
-   "explanation": "«valent» i «coratjós» volen dir el mateix."
+   "explanation": "«valent» i «coratjós» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l3_m004",
@@ -1012,7 +1142,9 @@
     "suau"
    ],
    "correct": 0,
-   "explanation": "«difícil» i «complicat» volen dir el mateix."
+   "explanation": "«difícil» i «complicat» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l3_m005",
@@ -1027,7 +1159,9 @@
     "endreçat"
    ],
    "correct": 3,
-   "explanation": "«ordenat» i «endreçat» volen dir el mateix."
+   "explanation": "«ordenat» i «endreçat» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l3_m006",
@@ -1042,7 +1176,9 @@
     "adinerat"
    ],
    "correct": 3,
-   "explanation": "«ric» i «adinerat» volen dir el mateix."
+   "explanation": "«ric» i «adinerat» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l3_m007",
@@ -1057,7 +1193,9 @@
     "fort"
    ],
    "correct": 0,
-   "explanation": "El contrari de «valent» és «poruc»."
+   "explanation": "El contrari de «valent» és «poruc».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l3_m008",
@@ -1072,7 +1210,9 @@
     "educat"
    ],
    "correct": 2,
-   "explanation": "El contrari de «generós» és «egoista»."
+   "explanation": "El contrari de «generós» és «egoista».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l3_m009",
@@ -1087,7 +1227,9 @@
     "anar-se'n"
    ],
    "correct": 3,
-   "explanation": "El contrari d'«arribar» és «anar-se'n»."
+   "explanation": "El contrari d'«arribar» és «anar-se'n».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l3_m010",
@@ -1102,7 +1244,9 @@
     "històric"
    ],
    "correct": 1,
-   "explanation": "El contrari d'«antic» és «modern»."
+   "explanation": "El contrari d'«antic» és «modern».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l3_m011",
@@ -1117,7 +1261,9 @@
     "estret"
    ],
    "correct": 2,
-   "explanation": "El contrari de «superficial» és «profund»."
+   "explanation": "El contrari de «superficial» és «profund».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l3_m012",
@@ -1132,7 +1278,9 @@
     "dur"
    ],
    "correct": 0,
-   "explanation": "El contrari d'«aspre» és «suau»."
+   "explanation": "El contrari d'«aspre» és «suau».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l3_m013",
@@ -1147,7 +1295,9 @@
     "àguila"
    ],
    "correct": 3,
-   "explanation": "L'àguila vola; els altres viuen a la mar."
+   "explanation": "L'àguila vola; els altres viuen a la mar.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l3_m014",
@@ -1162,7 +1312,9 @@
     "martell"
    ],
    "correct": 3,
-   "explanation": "El martell és una eina, no un instrument."
+   "explanation": "El martell és una eina, no un instrument.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l3_m015",
@@ -1177,7 +1329,9 @@
     "estiu"
    ],
    "correct": 0,
-   "explanation": "Dimarts és un dia; els altres són estacions."
+   "explanation": "Dimarts és un dia; els altres són estacions.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l3_m016",
@@ -1192,7 +1346,9 @@
     "botar"
    ],
    "correct": 2,
-   "explanation": "«suau» descriu: un adjectiu."
+   "explanation": "«suau» descriu: un adjectiu.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l3_m017",
@@ -1207,7 +1363,9 @@
     "silenciós"
    ],
    "correct": 2,
-   "explanation": "«xiuxiuejar» és una acció: un verb."
+   "explanation": "«xiuxiuejar» és una acció: un verb.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l3_m018",
@@ -1222,7 +1380,9 @@
     "diumenge"
    ],
    "correct": 2,
-   "explanation": "El següent és «dissabte»."
+   "explanation": "El següent és «dissabte».",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l3_m019",
@@ -1237,7 +1397,9 @@
     "quatre"
    ],
    "correct": 0,
-   "explanation": "El següent és «quaranta»."
+   "explanation": "El següent és «quaranta».",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l3_m020",
@@ -1252,7 +1414,9 @@
     "7"
    ],
    "correct": 3,
-   "explanation": "e-l-e-f-a-n-t = 7 lletres."
+   "explanation": "e-l-e-f-a-n-t = 7 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l3_m021",
@@ -1267,7 +1431,9 @@
     "8"
    ],
    "correct": 2,
-   "explanation": "t-a-r-o-n-j-a = 7 lletres."
+   "explanation": "t-a-r-o-n-j-a = 7 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l3_m022",
@@ -1282,7 +1448,9 @@
     "10"
    ],
    "correct": 0,
-   "explanation": "g-u-i-t-a-r-r-a = 8 lletres."
+   "explanation": "g-u-i-t-a-r-r-a = 8 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l3_m023",
@@ -1297,7 +1465,9 @@
     "5"
    ],
    "correct": 3,
-   "explanation": "c-a-n-ç-ó = 5 lletres."
+   "explanation": "c-a-n-ç-ó = 5 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l3_m024",
@@ -1312,7 +1482,9 @@
     "bota"
    ],
    "correct": 3,
-   "explanation": "Ordre alfabètic: bota, bou, bufanda, caixa."
+   "explanation": "Ordre alfabètic: bota, bou, bufanda, caixa.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l3_m025",
@@ -1327,7 +1499,9 @@
     "cuc"
    ],
    "correct": 0,
-   "explanation": "Ordre alfabètic: coca, cotxe, cuc, got."
+   "explanation": "Ordre alfabètic: coca, cotxe, cuc, got.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l3_m026",
@@ -1342,7 +1516,9 @@
     "plasses"
    ],
    "correct": 1,
-   "explanation": "una plaça, dues places."
+   "explanation": "una plaça, dues places.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l3_m027",
@@ -1357,7 +1533,9 @@
     "plujas"
    ],
    "correct": 2,
-   "explanation": "una pluja, dues pluges."
+   "explanation": "una pluja, dues pluges.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l3_m028",
@@ -1372,7 +1550,9 @@
     "llibres"
    ],
    "correct": 1,
-   "explanation": "renta + plats = rentaplats."
+   "explanation": "renta + plats = rentaplats.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l3_m029",
@@ -1387,7 +1567,9 @@
     "cases"
    ],
    "correct": 1,
-   "explanation": "trenca + closques = trencaclosques."
+   "explanation": "trenca + closques = trencaclosques.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l3_o001",
@@ -1413,7 +1595,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "P-L-A-N-T-A = PLANTA"
+   "explanation": "P-L-A-N-T-A = PLANTA",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l3_o002",
@@ -1435,7 +1619,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "T-R-E-N = TREN"
+   "explanation": "T-R-E-N = TREN",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l4_m001",
@@ -1450,7 +1636,9 @@
     "molt ràpid"
    ],
    "correct": 2,
-   "explanation": "«antic» i «molt vell» volen dir el mateix."
+   "explanation": "«antic» i «molt vell» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l4_m002",
@@ -1465,7 +1653,9 @@
     "molt cansat"
    ],
    "correct": 2,
-   "explanation": "«furiós» i «molt enfadat» volen dir el mateix."
+   "explanation": "«furiós» i «molt enfadat» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l4_m003",
@@ -1480,7 +1670,9 @@
     "molt pesat"
    ],
    "correct": 0,
-   "explanation": "«fràgil» i «que es trenca fàcilment» volen dir el mateix."
+   "explanation": "«fràgil» i «que es trenca fàcilment» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l4_m004",
@@ -1495,7 +1687,9 @@
     "molt cansat"
    ],
    "correct": 3,
-   "explanation": "«esgotat» i «molt cansat» volen dir el mateix."
+   "explanation": "«esgotat» i «molt cansat» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l4_m005",
@@ -1510,7 +1704,9 @@
     "molt molest"
    ],
    "correct": 0,
-   "explanation": "«encantat» i «molt content» volen dir el mateix."
+   "explanation": "«encantat» i «molt content» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l4_m006",
@@ -1525,7 +1721,9 @@
     "enorme"
    ],
    "correct": 3,
-   "explanation": "«gegantí» i «enorme» volen dir el mateix."
+   "explanation": "«gegantí» i «enorme» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l4_m007",
@@ -1540,7 +1738,9 @@
     "triomf"
    ],
    "correct": 2,
-   "explanation": "El contrari de «victòria» és «derrota»."
+   "explanation": "El contrari de «victòria» és «derrota».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l4_m008",
@@ -1555,7 +1755,9 @@
     "allargar"
    ],
    "correct": 1,
-   "explanation": "El contrari d'«eixamplar» és «estrényer»."
+   "explanation": "El contrari d'«eixamplar» és «estrényer».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l4_m009",
@@ -1570,7 +1772,9 @@
     "estable"
    ],
    "correct": 2,
-   "explanation": "El contrari de «permanent» és «temporal»."
+   "explanation": "El contrari de «permanent» és «temporal».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l4_m010",
@@ -1585,7 +1789,9 @@
     "tranquil"
    ],
    "correct": 0,
-   "explanation": "El contrari d'«innocent» és «culpable»."
+   "explanation": "El contrari d'«innocent» és «culpable».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l4_m011",
@@ -1600,7 +1806,9 @@
     "implicar"
    ],
    "correct": 0,
-   "explanation": "El contrari d'«incloure» és «excloure»."
+   "explanation": "El contrari d'«incloure» és «excloure».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l4_m012",
@@ -1615,7 +1823,9 @@
     "major"
    ],
    "correct": 0,
-   "explanation": "El contrari de «màxim» és «mínim»."
+   "explanation": "El contrari de «màxim» és «mínim».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l4_m013",
@@ -1630,7 +1840,9 @@
     "Lluna"
    ],
    "correct": 3,
-   "explanation": "La Lluna no és un planeta."
+   "explanation": "La Lluna no és un planeta.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l4_m014",
@@ -1645,7 +1857,9 @@
     "quadrat"
    ],
    "correct": 0,
-   "explanation": "El cub té tres dimensions; els altres són figures planes."
+   "explanation": "El cub té tres dimensions; els altres són figures planes.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l4_m015",
@@ -1660,7 +1874,9 @@
     "content"
    ],
    "correct": 3,
-   "explanation": "«content» és un adjectiu; els altres són verbs."
+   "explanation": "«content» és un adjectiu; els altres són verbs.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l4_m016",
@@ -1675,7 +1891,9 @@
     "acuradament"
    ],
    "correct": 3,
-   "explanation": "«acuradament» diu com: un adverbi."
+   "explanation": "«acuradament» diu com: un adverbi.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l4_m017",
@@ -1690,7 +1908,9 @@
     "ells"
    ],
    "correct": 3,
-   "explanation": "«ells» substituïx un nom: un pronom."
+   "explanation": "«ells» substituïx un nom: un pronom.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l4_m018",
@@ -1705,7 +1925,9 @@
     "agost"
    ],
    "correct": 2,
-   "explanation": "El següent és «desembre»."
+   "explanation": "El següent és «desembre».",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l4_m019",
@@ -1720,7 +1942,9 @@
     "quatre"
    ],
    "correct": 2,
-   "explanation": "El següent és «quart»."
+   "explanation": "El següent és «quart».",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l4_m020",
@@ -1735,7 +1959,9 @@
     "10"
    ],
    "correct": 0,
-   "explanation": "p-a-p-a-l-l-o-n-a = 9 lletres."
+   "explanation": "p-a-p-a-l-l-o-n-a = 9 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l4_m021",
@@ -1750,7 +1976,9 @@
     "8"
    ],
    "correct": 3,
-   "explanation": "x-o-c-o-l-a-t-e = 8 lletres."
+   "explanation": "x-o-c-o-l-a-t-e = 8 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l4_m022",
@@ -1765,7 +1993,9 @@
     "11"
    ],
    "correct": 0,
-   "explanation": "i-m-p-o-r-t-a-n-t = 9 lletres."
+   "explanation": "i-m-p-o-r-t-a-n-t = 9 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l4_m023",
@@ -1780,7 +2010,9 @@
     "11"
    ],
    "correct": 1,
-   "explanation": "d-i-n-o-s-a-u-r-e = 9 lletres."
+   "explanation": "d-i-n-o-s-a-u-r-e = 9 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l4_m024",
@@ -1795,7 +2027,9 @@
     "suc"
    ],
    "correct": 2,
-   "explanation": "Ordre alfabètic: sal, sec, sol, suc."
+   "explanation": "Ordre alfabètic: sal, sec, sol, suc.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l4_m025",
@@ -1810,7 +2044,9 @@
     "pallasso"
    ],
    "correct": 0,
-   "explanation": "Ordre alfabètic: pa, pal, pala, pallasso."
+   "explanation": "Ordre alfabètic: pa, pal, pala, pallasso.",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l4_m026",
@@ -1825,7 +2061,9 @@
     "lleons"
    ],
    "correct": 3,
-   "explanation": "un lleó, dos lleons."
+   "explanation": "un lleó, dos lleons.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l4_m027",
@@ -1840,7 +2078,9 @@
     "col·legis"
    ],
    "correct": 3,
-   "explanation": "un col·legi, dos col·legis."
+   "explanation": "un col·legi, dos col·legis.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l4_m028",
@@ -1855,7 +2095,9 @@
     "sol"
    ],
    "correct": 2,
-   "explanation": "porta + veu = portaveu."
+   "explanation": "porta + veu = portaveu.",
+   "skill": "ret_wordform",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l4_m029",
@@ -1870,7 +2112,9 @@
     "vides"
    ],
    "correct": 3,
-   "explanation": "salva + vides = salvavides."
+   "explanation": "salva + vides = salvavides.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l4_o001",
@@ -1896,7 +2140,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "A-R-A-N-Y-A = ARANYA"
+   "explanation": "A-R-A-N-Y-A = ARANYA",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l4_o002",
@@ -1920,7 +2166,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "J-A-R-D-Í = JARDÍ"
+   "explanation": "J-A-R-D-Í = JARDÍ",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l5_m001",
@@ -1935,7 +2183,9 @@
     "sincer"
    ],
    "correct": 0,
-   "explanation": "«reticent» i «poc disposat» volen dir el mateix."
+   "explanation": "«reticent» i «poc disposat» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l5_m002",
@@ -1950,7 +2200,9 @@
     "cautelós"
    ],
    "correct": 3,
-   "explanation": "«prudent» i «cautelós» volen dir el mateix."
+   "explanation": "«prudent» i «cautelós» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l5_m003",
@@ -1965,7 +2217,9 @@
     "silenciós"
    ],
    "correct": 0,
-   "explanation": "«abundant» i «copiós» volen dir el mateix."
+   "explanation": "«abundant» i «copiós» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l5_m004",
@@ -1980,7 +2234,9 @@
     "aspre"
    ],
    "correct": 1,
-   "explanation": "«vívid» i «intens» volen dir el mateix."
+   "explanation": "«vívid» i «intens» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l5_m005",
@@ -1995,7 +2251,9 @@
     "lentament"
    ],
    "correct": 0,
-   "explanation": "«sovint» i «freqüentment» volen dir el mateix."
+   "explanation": "«sovint» i «freqüentment» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l5_m006",
@@ -2010,7 +2268,9 @@
     "construir"
    ],
    "correct": 0,
-   "explanation": "«amagar» i «ocultar» volen dir el mateix."
+   "explanation": "«amagar» i «ocultar» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l5_m007",
@@ -2025,7 +2285,9 @@
     "cristal·lí"
    ],
    "correct": 0,
-   "explanation": "El contrari de «transparent» és «opac»."
+   "explanation": "El contrari de «transparent» és «opac».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l5_m008",
@@ -2040,7 +2302,9 @@
     "pessimista"
    ],
    "correct": 3,
-   "explanation": "El contrari d'«optimista» és «pessimista»."
+   "explanation": "El contrari d'«optimista» és «pessimista».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l5_m009",
@@ -2055,7 +2319,9 @@
     "limitat"
    ],
    "correct": 1,
-   "explanation": "El contrari d'«escàs» és «abundant»."
+   "explanation": "El contrari d'«escàs» és «abundant».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l5_m010",
@@ -2070,7 +2336,9 @@
     "agrair"
    ],
    "correct": 1,
-   "explanation": "El contrari de «lloar» és «criticar»."
+   "explanation": "El contrari de «lloar» és «criticar».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l5_m011",
@@ -2085,7 +2353,9 @@
     "disposat"
    ],
    "correct": 0,
-   "explanation": "El contrari de «voluntari» és «obligatori»."
+   "explanation": "El contrari de «voluntari» és «obligatori».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l5_m012",
@@ -2100,7 +2370,9 @@
     "escalar"
    ],
    "correct": 2,
-   "explanation": "El contrari de «pujar» és «baixar»."
+   "explanation": "El contrari de «pujar» és «baixar».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l5_m013",
@@ -2115,7 +2387,9 @@
     "ràpidament"
    ],
    "correct": 0,
-   "explanation": "«valent» és un adjectiu; els altres són adverbis."
+   "explanation": "«valent» és un adjectiu; els altres són adverbis.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l5_m014",
@@ -2130,7 +2404,9 @@
     "Roma"
    ],
    "correct": 2,
-   "explanation": "França és un país; els altres són capitals."
+   "explanation": "França és un país; els altres són capitals.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l5_m015",
@@ -2145,7 +2421,9 @@
     "gas"
    ],
    "correct": 1,
-   "explanation": "El metall és un material; els altres són estats de la matèria."
+   "explanation": "El metall és un material; els altres són estats de la matèria.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l5_m016",
@@ -2160,7 +2438,9 @@
     "perquè"
    ],
    "correct": 0,
-   "explanation": "«entre» és una preposició: unix paraules i indica una relació."
+   "explanation": "«entre» és una preposició: unix paraules i indica una relació.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l5_m017",
@@ -2175,7 +2455,9 @@
     "encara que"
    ],
    "correct": 3,
-   "explanation": "«encara que» unix dues idees: una conjunció."
+   "explanation": "«encara que» unix dues idees: una conjunció.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l5_m018",
@@ -2190,7 +2472,9 @@
     "futur"
    ],
    "correct": 3,
-   "explanation": "El següent és «futur»."
+   "explanation": "El següent és «futur».",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l5_m019",
@@ -2205,7 +2489,9 @@
     "vapor d'aigua"
    ],
    "correct": 2,
-   "explanation": "El següent és «gas»."
+   "explanation": "El següent és «gas».",
+   "skill": "ret_letters",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l5_m020",
@@ -2220,7 +2506,9 @@
     "8"
    ],
    "correct": 3,
-   "explanation": "d-i-m-e-c-r-e-s = 8 lletres."
+   "explanation": "d-i-m-e-c-r-e-s = 8 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l5_m021",
@@ -2235,7 +2523,9 @@
     "12"
    ],
    "correct": 1,
-   "explanation": "n-e-c-e-s-s-i-t-a-t = 10 lletres."
+   "explanation": "n-e-c-e-s-s-i-t-a-t = 10 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l5_m022",
@@ -2250,7 +2540,9 @@
     "11"
    ],
    "correct": 1,
-   "explanation": "b-i-b-l-i-o-t-e-c-a = 10 lletres."
+   "explanation": "b-i-b-l-i-o-t-e-c-a = 10 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l5_m023",
@@ -2265,7 +2557,9 @@
     "12"
    ],
    "correct": 0,
-   "explanation": "a-j-u-n-t-a-m-e-n-t = 10 lletres."
+   "explanation": "a-j-u-n-t-a-m-e-n-t = 10 lletres.",
+   "skill": "ret_letters",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l5_m024",
@@ -2280,7 +2574,9 @@
     "platja"
    ],
    "correct": 0,
-   "explanation": "Ordre alfabètic: plaça, plat, platja, ploma."
+   "explanation": "Ordre alfabètic: plaça, plat, platja, ploma.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l5_m025",
@@ -2295,7 +2591,9 @@
     "estrela"
    ],
    "correct": 1,
-   "explanation": "Ordre alfabètic: estel, estiu, estrela, estudi."
+   "explanation": "Ordre alfabètic: estel, estiu, estrela, estudi.",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l5_m026",
@@ -2310,7 +2608,9 @@
     "llapis"
    ],
    "correct": 3,
-   "explanation": "un llapis, dos llapis."
+   "explanation": "un llapis, dos llapis.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l5_m027",
@@ -2325,7 +2625,9 @@
     "braçs"
    ],
    "correct": 1,
-   "explanation": "un braç, dos braços."
+   "explanation": "un braç, dos braços.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l5_m028",
@@ -2340,7 +2642,9 @@
     "finestres"
    ],
    "correct": 2,
-   "explanation": "passa + muntanyes = passamuntanyes."
+   "explanation": "passa + muntanyes = passamuntanyes.",
+   "skill": "ret_wordform",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l5_m029",
@@ -2355,7 +2659,9 @@
     "llaunes"
    ],
    "correct": 3,
-   "explanation": "obre + llaunes = obrellaunes."
+   "explanation": "obre + llaunes = obrellaunes.",
+   "skill": "ret_wordform",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l5_o001",
@@ -2383,7 +2689,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "C-A-S-T-E-L-L = CASTELL"
+   "explanation": "C-A-S-T-E-L-L = CASTELL",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l5_o002",
@@ -2413,7 +2721,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "F-I-N-E-S-T-R-A = FINESTRA"
+   "explanation": "F-I-N-E-S-T-R-A = FINESTRA",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l6_m001",
@@ -2428,7 +2738,9 @@
     "seguir"
    ],
    "correct": 1,
-   "explanation": "«començar» i «iniciar» volen dir el mateix."
+   "explanation": "«començar» i «iniciar» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l6_m002",
@@ -2443,7 +2755,9 @@
     "tranquil"
    ],
    "correct": 0,
-   "explanation": "«veloç» i «ràpid» volen dir el mateix."
+   "explanation": "«veloç» i «ràpid» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l6_m003",
@@ -2458,7 +2772,9 @@
     "descobrir"
    ],
    "correct": 3,
-   "explanation": "«trobar» i «descobrir» volen dir el mateix."
+   "explanation": "«trobar» i «descobrir» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l6_m004",
@@ -2473,7 +2789,9 @@
     "enfadat"
    ],
    "correct": 0,
-   "explanation": "«content» i «alegre» volen dir el mateix."
+   "explanation": "«content» i «alegre» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l6_m005",
@@ -2488,7 +2806,9 @@
     "furiós"
    ],
    "correct": 0,
-   "explanation": "«serè» i «tranquil» volen dir el mateix."
+   "explanation": "«serè» i «tranquil» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l6_m006",
@@ -2503,7 +2823,9 @@
     "ric"
    ],
    "correct": 0,
-   "explanation": "El contrari de «generós» és «garrepa»."
+   "explanation": "El contrari de «generós» és «garrepa».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l6_m007",
@@ -2518,7 +2840,9 @@
     "ampliar"
    ],
    "correct": 2,
-   "explanation": "El contrari d'«augmentar» és «disminuir»."
+   "explanation": "El contrari d'«augmentar» és «disminuir».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l6_m008",
@@ -2533,7 +2857,9 @@
     "audaç"
    ],
    "correct": 2,
-   "explanation": "El contrari de «valent» és «covard»."
+   "explanation": "El contrari de «valent» és «covard».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l6_m009",
@@ -2548,7 +2874,9 @@
     "privat"
    ],
    "correct": 3,
-   "explanation": "El contrari de «públic» és «privat»."
+   "explanation": "El contrari de «públic» és «privat».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l6_m010",
@@ -2563,7 +2891,9 @@
     "històric"
    ],
    "correct": 0,
-   "explanation": "El contrari d'«antic» és «modern»."
+   "explanation": "El contrari d'«antic» és «modern».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l6_m011",
@@ -2578,7 +2908,9 @@
     "substantiu"
    ],
    "correct": 1,
-   "explanation": "Paràgraf no és una categoria gramatical."
+   "explanation": "Paràgraf no és una categoria gramatical.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l6_m012",
@@ -2593,7 +2925,9 @@
     "narratiu"
    ],
    "correct": 0,
-   "explanation": "La rima no és un tipus de text."
+   "explanation": "La rima no és un tipus de text.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l6_m013",
@@ -2608,7 +2942,9 @@
     "Xúquer"
    ],
    "correct": 0,
-   "explanation": "El Montgó és una muntanya; els altres són rius."
+   "explanation": "El Montgó és una muntanya; els altres són rius.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l6_m014",
@@ -2623,7 +2959,9 @@
     "ràpidament"
    ],
    "correct": 0,
-   "explanation": "«aquells» acompanya el substantiu: determinant demostratiu."
+   "explanation": "«aquells» acompanya el substantiu: determinant demostratiu.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l6_m015",
@@ -2638,7 +2976,9 @@
     "amb"
    ],
    "correct": 3,
-   "explanation": "«amb» és una preposició."
+   "explanation": "«amb» és una preposició.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l6_m016",
@@ -2653,7 +2993,9 @@
     "llibertat"
    ],
    "correct": 3,
-   "explanation": "La llibertat no es pot tocar: substantiu abstracte."
+   "explanation": "La llibertat no es pot tocar: substantiu abstracte.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l6_m017",
@@ -2668,7 +3010,9 @@
     "Davall"
    ],
    "correct": 3,
-   "explanation": "sub- vol dir «davall de»."
+   "explanation": "sub- vol dir «davall de».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l6_m018",
@@ -2683,7 +3027,9 @@
     "Davall"
    ],
    "correct": 2,
-   "explanation": "pre- vol dir «abans»."
+   "explanation": "pre- vol dir «abans».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l6_m019",
@@ -2698,7 +3044,9 @@
     "Conjunt"
    ],
    "correct": 1,
-   "explanation": "-er indica ofici: el qui fa el pa al forn."
+   "explanation": "-er indica ofici: el qui fa el pa al forn.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l6_m020",
@@ -2713,7 +3061,9 @@
     "marca"
    ],
    "correct": 3,
-   "explanation": "marca no deriva de mar."
+   "explanation": "marca no deriva de mar.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l6_m021",
@@ -2728,7 +3078,9 @@
     "pànic"
    ],
    "correct": 2,
-   "explanation": "panet deriva de pa."
+   "explanation": "panet deriva de pa.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l6_m022",
@@ -2743,7 +3095,9 @@
     "Estar molt alt"
    ],
    "correct": 1,
-   "explanation": "És una expressió: estar despistat."
+   "explanation": "És una expressió: estar despistat.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l6_m023",
@@ -2758,7 +3112,9 @@
     "Ser molt car"
    ],
    "correct": 3,
-   "explanation": "Expressió: costar moltíssims diners."
+   "explanation": "Expressió: costar moltíssims diners.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l6_o001",
@@ -2788,7 +3144,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "B-I-O-L-O-G-I-A = BIOLOGIA"
+   "explanation": "B-I-O-L-O-G-I-A = BIOLOGIA",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l7_m001",
@@ -2803,7 +3161,9 @@
     "valent"
    ],
    "correct": 2,
-   "explanation": "«efímer» i «passatger» volen dir el mateix."
+   "explanation": "«efímer» i «passatger» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l7_m002",
@@ -2818,7 +3178,9 @@
     "avorrit"
    ],
    "correct": 2,
-   "explanation": "«perspicaç» i «agut» volen dir el mateix."
+   "explanation": "«perspicaç» i «agut» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l7_m003",
@@ -2833,7 +3195,9 @@
     "gandul"
    ],
    "correct": 1,
-   "explanation": "«diligent» i «treballador» volen dir el mateix."
+   "explanation": "«diligent» i «treballador» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l7_m004",
@@ -2848,7 +3212,9 @@
     "curt"
    ],
    "correct": 0,
-   "explanation": "«tediós» i «avorrit» volen dir el mateix."
+   "explanation": "«tediós» i «avorrit» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l7_m005",
@@ -2863,7 +3229,9 @@
     "lent"
    ],
    "correct": 2,
-   "explanation": "«concís» i «breu» volen dir el mateix."
+   "explanation": "«concís» i «breu» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l7_m006",
@@ -2878,7 +3246,9 @@
     "curt"
    ],
    "correct": 1,
-   "explanation": "El contrari d'«efímer» és «durador»."
+   "explanation": "El contrari d'«efímer» és «durador».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l7_m007",
@@ -2893,7 +3263,9 @@
     "clar"
    ],
    "correct": 2,
-   "explanation": "El contrari de «senzill» és «complex»."
+   "explanation": "El contrari de «senzill» és «complex».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l7_m008",
@@ -2908,7 +3280,9 @@
     "aprovar"
    ],
    "correct": 0,
-   "explanation": "El contrari d'«acceptar» és «rebutjar»."
+   "explanation": "El contrari d'«acceptar» és «rebutjar».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l7_m009",
@@ -2923,7 +3297,9 @@
     "carència"
    ],
    "correct": 2,
-   "explanation": "El contrari d'«escassetat» és «abundància»."
+   "explanation": "El contrari d'«escassetat» és «abundància».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l7_m010",
@@ -2938,7 +3314,9 @@
     "positiu"
    ],
    "correct": 2,
-   "explanation": "El contrari d'«optimista» és «pessimista»."
+   "explanation": "El contrari d'«optimista» és «pessimista».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l7_m011",
@@ -2953,7 +3331,9 @@
     "metàfora"
    ],
    "correct": 1,
-   "explanation": "El titular és part de la notícia, no un recurs literari."
+   "explanation": "El titular és part de la notícia, no un recurs literari.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l7_m012",
@@ -2968,7 +3348,9 @@
     "però"
    ],
    "correct": 2,
-   "explanation": "«perquè» expressa causa; els altres, oposició."
+   "explanation": "«perquè» expressa causa; els altres, oposició.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l7_m013",
@@ -2983,7 +3365,9 @@
     "sonet"
    ],
    "correct": 3,
-   "explanation": "El sonet és un poema; els altres són gèneres periodístics."
+   "explanation": "El sonet és un poema; els altres són gèneres periodístics.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l7_m014",
@@ -2998,7 +3382,9 @@
     "venies"
    ],
    "correct": 2,
-   "explanation": "«que vingues» expressa desig o possibilitat: subjuntiu."
+   "explanation": "«que vingues» expressa desig o possibilitat: subjuntiu.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l7_m015",
@@ -3013,7 +3399,9 @@
     "ací"
    ],
    "correct": 0,
-   "explanation": "«hi» és un pronom feble."
+   "explanation": "«hi» és un pronom feble.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l7_m016",
@@ -3028,7 +3416,9 @@
     "pèl"
    ],
    "correct": 2,
-   "explanation": "«però» unix oracions: conjunció."
+   "explanation": "«però» unix oracions: conjunció.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l7_m017",
@@ -3043,7 +3433,9 @@
     "Dins"
    ],
    "correct": 1,
-   "explanation": "anti- vol dir «contra»."
+   "explanation": "anti- vol dir «contra».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l7_m018",
@@ -3058,7 +3450,9 @@
     "Negació o inversió"
    ],
    "correct": 3,
-   "explanation": "des- indica el contrari: desfer."
+   "explanation": "des- indica el contrari: desfer.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l7_m019",
@@ -3073,7 +3467,9 @@
     "Xicotet o afectuós"
    ],
    "correct": 3,
-   "explanation": "-et és un diminutiu."
+   "explanation": "-et és un diminutiu.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l7_m020",
@@ -3088,7 +3484,9 @@
     "lluïssor"
    ],
    "correct": 1,
-   "explanation": "lluita no deriva de llum."
+   "explanation": "lluita no deriva de llum.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l7_m021",
@@ -3103,7 +3501,9 @@
     "terrible"
    ],
    "correct": 2,
-   "explanation": "terrestre ve de terra."
+   "explanation": "terrestre ve de terra.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l7_m022",
@@ -3118,7 +3518,9 @@
     "Equivocar-se"
    ],
    "correct": 3,
-   "explanation": "Expressió: cometre un error."
+   "explanation": "Expressió: cometre un error.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l7_m023",
@@ -3133,7 +3535,9 @@
     "Espavilar-se i esforçar-se"
    ],
    "correct": 3,
-   "explanation": "Expressió: activar-se."
+   "explanation": "Expressió: activar-se.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l7_o001",
@@ -3163,7 +3567,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "H-I-P-Ò-T-E-S-I = HIPÒTESI"
+   "explanation": "H-I-P-Ò-T-E-S-I = HIPÒTESI",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l8_m001",
@@ -3178,7 +3584,9 @@
     "alié"
    ],
    "correct": 1,
-   "explanation": "«inherent» i «propi» volen dir el mateix."
+   "explanation": "«inherent» i «propi» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l8_m002",
@@ -3193,7 +3601,9 @@
     "nerviós"
    ],
    "correct": 1,
-   "explanation": "«imparcial» i «objectiu» volen dir el mateix."
+   "explanation": "«imparcial» i «objectiu» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l8_m003",
@@ -3208,7 +3618,9 @@
     "escàs"
    ],
    "correct": 3,
-   "explanation": "«exigu» i «escàs» volen dir el mateix."
+   "explanation": "«exigu» i «escàs» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l8_m004",
@@ -3223,7 +3635,9 @@
     "evident"
    ],
    "correct": 0,
-   "explanation": "«subreptici» i «amagat» volen dir el mateix."
+   "explanation": "«subreptici» i «amagat» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l8_m005",
@@ -3238,7 +3652,9 @@
     "fluix"
    ],
    "correct": 1,
-   "explanation": "«tenaç» i «persistent» volen dir el mateix."
+   "explanation": "«tenaç» i «persistent» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l8_m006",
@@ -3253,7 +3669,9 @@
     "directe"
    ],
    "correct": 2,
-   "explanation": "El contrari d'«explícit» és «implícit»."
+   "explanation": "El contrari d'«explícit» és «implícit».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l8_m007",
@@ -3268,7 +3686,9 @@
     "permetre"
    ],
    "correct": 3,
-   "explanation": "El contrari de «prohibir» és «permetre»."
+   "explanation": "El contrari de «prohibir» és «permetre».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l8_m008",
@@ -3283,7 +3703,9 @@
     "parcial"
    ],
    "correct": 0,
-   "explanation": "El contrari de «subjectiu» és «objectiu»."
+   "explanation": "El contrari de «subjectiu» és «objectiu».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l8_m009",
@@ -3298,7 +3720,9 @@
     "exacte"
    ],
    "correct": 2,
-   "explanation": "El contrari de «concret» és «abstracte»."
+   "explanation": "El contrari de «concret» és «abstracte».",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l8_m010",
@@ -3313,7 +3737,9 @@
     "natural"
    ],
    "correct": 1,
-   "explanation": "El contrari d'«innat» és «adquirit»."
+   "explanation": "El contrari d'«innat» és «adquirit».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l8_m011",
@@ -3328,7 +3754,9 @@
     "metàfora"
    ],
    "correct": 0,
-   "explanation": "El subjecte és una funció sintàctica, no un recurs literari."
+   "explanation": "El subjecte és una funció sintàctica, no un recurs literari.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l8_m012",
@@ -3343,7 +3771,9 @@
     "no obstant això"
    ],
    "correct": 3,
-   "explanation": "«no obstant això» oposa; els altres expressen conseqüència."
+   "explanation": "«no obstant això» oposa; els altres expressen conseqüència.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l8_m013",
@@ -3358,7 +3788,9 @@
     "dramàtica"
    ],
    "correct": 2,
-   "explanation": "L'ortografia no és un gènere literari."
+   "explanation": "L'ortografia no és un gènere literari.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l8_m014",
@@ -3373,7 +3805,9 @@
     "cantat"
    ],
    "correct": 2,
-   "explanation": "El gerundi acaba en -ant, -ent o -int."
+   "explanation": "El gerundi acaba en -ant, -ent o -int.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l8_m015",
@@ -3388,7 +3822,9 @@
     "escrit"
    ],
    "correct": 3,
-   "explanation": "escrit és el participi d'escriure."
+   "explanation": "escrit és el participi d'escriure.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l8_m016",
@@ -3403,7 +3839,9 @@
     "ací"
    ],
    "correct": 0,
-   "explanation": "potser expressa dubte."
+   "explanation": "potser expressa dubte.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l8_m017",
@@ -3418,7 +3856,9 @@
     "Aigua"
    ],
    "correct": 3,
-   "explanation": "hidro- vol dir aigua."
+   "explanation": "hidro- vol dir aigua.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l8_m018",
@@ -3433,7 +3873,9 @@
     "Por"
    ],
    "correct": 1,
-   "explanation": "-logia vol dir estudi."
+   "explanation": "-logia vol dir estudi.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l8_m019",
@@ -3448,7 +3890,9 @@
     "Un"
    ],
    "correct": 2,
-   "explanation": "poli- vol dir molts."
+   "explanation": "poli- vol dir molts.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l8_m020",
@@ -3463,7 +3907,9 @@
     "aiguat"
    ],
    "correct": 0,
-   "explanation": "àguila no deriva d'aigua."
+   "explanation": "àguila no deriva d'aigua.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l8_m021",
@@ -3478,7 +3924,9 @@
     "notícia"
    ],
    "correct": 2,
-   "explanation": "nocturn ve del llatí nox, noctis."
+   "explanation": "nocturn ve del llatí nox, noctis.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l8_m022",
@@ -3493,7 +3941,9 @@
     "Guanyar"
    ],
    "correct": 2,
-   "explanation": "Expressió de la boxa: abandonar."
+   "explanation": "Expressió de la boxa: abandonar.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l8_m023",
@@ -3508,7 +3958,9 @@
     "Estar molt còmode"
    ],
    "correct": 2,
-   "explanation": "Expressió: haver de triar entre dues opcions roïnes."
+   "explanation": "Expressió: haver de triar entre dues opcions roïnes.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l8_o001",
@@ -3538,7 +3990,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "E-X-C-E-P-C-I-Ó = EXCEPCIÓ"
+   "explanation": "E-X-C-E-P-C-I-Ó = EXCEPCIÓ",
+   "skill": "ret_letters",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l9_m001",
@@ -3553,7 +4007,9 @@
     "vulgar"
    ],
    "correct": 2,
-   "explanation": "«inefable» i «indescriptible» volen dir el mateix."
+   "explanation": "«inefable» i «indescriptible» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l9_m002",
@@ -3568,7 +4024,9 @@
     "extens"
    ],
    "correct": 3,
-   "explanation": "«prolix» i «extens» volen dir el mateix."
+   "explanation": "«prolix» i «extens» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l9_m003",
@@ -3583,7 +4041,9 @@
     "covard"
    ],
    "correct": 3,
-   "explanation": "«pusil·lànime» i «covard» volen dir el mateix."
+   "explanation": "«pusil·lànime» i «covard» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l9_m004",
@@ -3598,7 +4058,9 @@
     "absent"
    ],
    "correct": 2,
-   "explanation": "«ubic» i «omnipresent» volen dir el mateix."
+   "explanation": "«ubic» i «omnipresent» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l9_m005",
@@ -3613,7 +4075,9 @@
     "censurable"
    ],
    "correct": 0,
-   "explanation": "«lloable» i «elogiable» volen dir el mateix."
+   "explanation": "«lloable» i «elogiable» volen dir el mateix.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l9_m006",
@@ -3628,7 +4092,9 @@
     "llarg"
    ],
    "correct": 1,
-   "explanation": "El contrari de «prolix» és «concís»."
+   "explanation": "El contrari de «prolix» és «concís».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l9_m007",
@@ -3643,7 +4109,9 @@
     "generós"
    ],
    "correct": 1,
-   "explanation": "El contrari d'«altruista» és «egoista»."
+   "explanation": "El contrari d'«altruista» és «egoista».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l9_m008",
@@ -3658,7 +4126,9 @@
     "fugaç"
    ],
    "correct": 1,
-   "explanation": "El contrari d'«efímer» és «perenne»."
+   "explanation": "El contrari d'«efímer» és «perenne».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l9_m009",
@@ -3673,7 +4143,9 @@
     "clar"
    ],
    "correct": 0,
-   "explanation": "El contrari de «diàfan» és «tèrbol»."
+   "explanation": "El contrari de «diàfan» és «tèrbol».",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l9_m010",
@@ -3688,7 +4160,9 @@
     "exaltar"
    ],
    "correct": 0,
-   "explanation": "El contrari de «lloar» és «denigrar»."
+   "explanation": "El contrari de «lloar» és «denigrar».",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l9_m011",
@@ -3703,7 +4177,9 @@
     "copulativa"
    ],
    "correct": 3,
-   "explanation": "Les coordinades copulatives no són subordinades."
+   "explanation": "Les coordinades copulatives no són subordinades.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l9_m012",
@@ -3718,7 +4194,9 @@
     "és a dir"
    ],
    "correct": 1,
-   "explanation": "«en canvi» oposa; els altres reformulen."
+   "explanation": "«en canvi» oposa; els altres reformulen.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l9_m013",
@@ -3733,7 +4211,9 @@
     "Ausiàs March"
    ],
    "correct": 2,
-   "explanation": "Estellés és del segle XX; els altres són del Segle d'Or valencià (s. XV)."
+   "explanation": "Estellés és del segle XX; els altres són del Segle d'Or valencià (s. XV).",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l9_m014",
@@ -3748,7 +4228,9 @@
     "nocturn"
    ],
    "correct": 3,
-   "explanation": "nocturn conserva la forma llatina; nit és la paraula patrimonial."
+   "explanation": "nocturn conserva la forma llatina; nit és la paraula patrimonial.",
+   "skill": "ret_categories",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l9_m015",
@@ -3763,7 +4245,9 @@
     "futbol"
    ],
    "correct": 3,
-   "explanation": "futbol ve de l'anglés football."
+   "explanation": "futbol ve de l'anglés football.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l9_m016",
@@ -3778,7 +4262,9 @@
     "parlar"
    ],
    "correct": 2,
-   "explanation": "tuitejar és una paraula nova creada a partir d'una xarxa social."
+   "explanation": "tuitejar és una paraula nova creada a partir d'una xarxa social.",
+   "skill": "ret_categories",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l9_m017",
@@ -3793,7 +4279,9 @@
     "Por"
    ],
    "correct": 3,
-   "explanation": "-fòbia vol dir por o rebuig."
+   "explanation": "-fòbia vol dir por o rebuig.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l9_m018",
@@ -3808,7 +4296,9 @@
     "Amor o afició"
    ],
    "correct": 3,
-   "explanation": "filo- vol dir amic o amant de."
+   "explanation": "filo- vol dir amic o amant de.",
+   "skill": "ret_vocab",
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l9_m019",
@@ -3823,7 +4313,9 @@
     "Xicotet"
    ],
    "correct": 0,
-   "explanation": "tele- vol dir lluny."
+   "explanation": "tele- vol dir lluny.",
+   "skill": "ret_vocab",
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l9_m020",
@@ -3838,7 +4330,9 @@
     "ullal"
    ],
    "correct": 1,
-   "explanation": "fulla no deriva d'ull."
+   "explanation": "fulla no deriva d'ull.",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l9_m021",
@@ -3853,7 +4347,9 @@
     "filet"
    ],
    "correct": 0,
-   "explanation": "filial ve del llatí filius (fill)."
+   "explanation": "filial ve del llatí filius (fill).",
+   "skill": "ret_categories",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l9_m022",
@@ -3868,7 +4364,9 @@
     "Fer-la amb alegria"
    ],
    "correct": 2,
-   "explanation": "De mala gana: sense voluntat."
+   "explanation": "De mala gana: sense voluntat.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l9_m023",
@@ -3883,7 +4381,9 @@
     "L'última cosa que fa perdre la paciència"
    ],
    "correct": 3,
-   "explanation": "Expressió: l'últim motiu que provoca una reacció."
+   "explanation": "Expressió: l'últim motiu que provoca una reacció.",
+   "skill": "ret_vocab",
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l9_o001",
@@ -3917,7 +4417,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "A-M-B-I-G-Ü-I-T-A-T = AMBIGÜITAT"
+   "explanation": "A-M-B-I-G-Ü-I-T-A-T = AMBIGÜITAT",
+   "skill": "ret_letters",
+   "step": 3
   }
  ]
 }

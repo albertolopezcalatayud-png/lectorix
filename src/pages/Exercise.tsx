@@ -27,7 +27,7 @@ export default function Exercise() {
   const examTimeLimit: number = location.state?.examTimeLimit || 0; // ms, 0 = no limit
   const sessionMode = reviewExerciseIds ? 'review' : examMode ? 'exam' : 'normal';
 
-  const { exercises: allExercises, loading, error } = useExercises(module, level, reviewExerciseIds ? 1000 : 10);
+  const { exercises: allExercises, loading, error } = useExercises(module, level, reviewExerciseIds ? 1000 : 10, !examMode && !reviewExerciseIds);
 
   // Filter exercises for review mode
   const exercises = reviewExerciseIds
@@ -192,6 +192,11 @@ export default function Exercise() {
 
       {/* Exercise */}
       <div className="px-4 py-6 max-w-lg mx-auto">
+        {currentExercise.preview && (
+          <div className="mb-3 mx-auto w-fit px-3 py-1 rounded-full bg-mint-pale text-[11px] font-bold text-fg">
+            ⬆️ {t('step_preview')}
+          </div>
+        )}
         {currentExercise.type === 'write' ? (
           <WriteExercise
             key={currentExercise.id}

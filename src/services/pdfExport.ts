@@ -9,6 +9,8 @@ interface ExportData {
   progress: StudentProgress[];
   language: string;
   weekly?: string[];
+  /** Skill map lines (to work on, strengths) */
+  skills?: { title: string; lines: string[] };
   /** Levels per area in the practice language */
   levelCount?: number;
 }
@@ -17,7 +19,7 @@ function escapeHtml(str: string): string {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-export function generateParentReport({ user, progress, language, weekly, levelCount = 5 }: ExportData): string {
+export function generateParentReport({ user, progress, language, weekly, skills, levelCount = 5 }: ExportData): string {
   const t = getTranslator(language);
   const totalXP = user?.total_xp || 0;
   const { level } = calculateXPLevel(totalXP);
@@ -251,6 +253,10 @@ export function generateParentReport({ user, progress, language, weekly, levelCo
     </div>
   </div>
 
+  ${skills && skills.lines.length ? `<div class="section">
+    <h2>${escapeHtml(skills.title)}</h2>
+    <ul>${skills.lines.map((l) => `<li>${escapeHtml(l)}</li>`).join('')}</ul>
+  </div>` : ''}
   ${weekly && weekly.length ? `<div class="section">
     <h2>🗓️ ${escapeHtml(t('wk_title' as TranslationKey))}</h2>
     <ul>${weekly.map((l) => `<li>${escapeHtml(l)}</li>`).join('')}</ul>

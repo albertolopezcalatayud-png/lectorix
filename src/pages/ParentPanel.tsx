@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useAppStore, useLevelCount } from '@/stores/useAppStore';
+import { useAppStore, useLevelCount, usePracticeLang } from '@/stores/useAppStore';
 import { calculateXPLevel } from '@/services/gamification';
 import {MODULES, MODULE_TEXT } from '@/data/modules';
 import { Header } from '@/components/layout/Header';
@@ -12,6 +12,9 @@ import { generateParentReport, downloadReport, printReport } from '@/services/pd
 import { useI18n } from '@/i18n';
 import { WeeklySummary, HomeTips, useWeeklyLines, FamilyLanguagePicker } from '@/components/family/WeeklySummary';
 import { StartingPoint } from '@/components/family/StartingPoint';
+import { SkillMap } from '@/components/skills/SkillMap';
+import { useExerciseIndex, skillStats } from '@/services/skills';
+import { skillNameKey } from '@/data/skills';
 
 export default function ParentPanel() {
   const user = useAppStore((s) => s.user);
@@ -21,6 +24,17 @@ export default function ParentPanel() {
   const { level } = calculateXPLevel(totalXP);
   const { t, language } = useI18n();
   const weekly = useWeeklyLines(true);
+  const skillIndex = useExerciseIndex(usePracticeLang());
+  const skillLines = (() => {
+    if (!skillIndex) return undefined;
+    const st = skillStats(useAppStore.getState().sessionHistory, skillIndex);
+    const weak = st.filter((s) => s.status === 'weak').slice(0, 3).map((s) => `${t(skillNameKey(s.id))} (${s.pct}%)`);
+    const strong = [...st].reverse().filter((s) => s.status === 'strong').slice(0, 3).map((s) => `${t(skillNameKey(s.id))} (${s.pct}%)`);
+    const lines = [];
+    if (weak.length) lines.push(`${t('skill_map_weak')}: ${weak.join(', ')}`);
+    if (strong.length) lines.push(`${t('skill_map_strong')}: ${strong.join(', ')}`);
+    return { title: t('skill_map_title'), lines };
+  })();
 
   const sessionHistory = useAppStore((s) => s.sessionHistory);
   const totalStars = progress.reduce((sum, p) => sum + p.stars, 0);
@@ -46,7 +60,7 @@ export default function ParentPanel() {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex gap-2 justify-end">
           <button
             onClick={() => {
-              const html = generateParentReport({ user, progress, language, weekly, levelCount });
+              const html = generateParentReport({ user, progress, language, weekly, skills: skillLines, levelCount });
               const name = user?.display_name || 'estudiante';
               const date = new Date().toISOString().slice(0, 10);
               downloadReport(html, `informe-lectorix-${name}-${date}.html`);
@@ -57,7 +71,7 @@ export default function ParentPanel() {
           </button>
           <button
             onClick={() => {
-              const html = generateParentReport({ user, progress, language, weekly, levelCount });
+              const html = generateParentReport({ user, progress, language, weekly, skills: skillLines, levelCount });
               printReport(html);
             }}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-bg-card border border-border text-xs font-bold hover:bg-accent-pale/30 transition-colors"
@@ -198,6 +212,8 @@ export default function ParentPanel() {
         )}
 
         {/* Starting level per area, adjustable */}
+        <SkillMap />
+
         <StartingPoint />
 
         {/* Per-module detail */}

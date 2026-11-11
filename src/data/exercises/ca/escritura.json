@@ -13,7 +13,9 @@
     "el Gat és negre."
    ],
    "correct": 2,
-   "explanation": "Les frases comencen amb majúscula."
+   "explanation": "Les frases comencen amb majúscula.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_m002",
@@ -28,7 +30,9 @@
     "pau"
    ],
    "correct": 1,
-   "explanation": "Els noms de persona comencen amb majúscula."
+   "explanation": "Els noms de persona comencen amb majúscula.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_m003",
@@ -43,7 +47,9 @@
     "Un interrogant (?)"
    ],
    "correct": 2,
-   "explanation": "Les frases que expliquen acaben amb punt."
+   "explanation": "Les frases que expliquen acaben amb punt.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_m004",
@@ -58,7 +64,9 @@
     "Un apòstrof (')"
    ],
    "correct": 2,
-   "explanation": "Les preguntes acaben amb interrogant."
+   "explanation": "Les preguntes acaben amb interrogant.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_m005",
@@ -73,7 +81,9 @@
     "Com et dius?"
    ],
    "correct": 3,
-   "explanation": "En valencià només posem l'interrogant al final."
+   "explanation": "En valencià només posem l'interrogant al final.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_m006",
@@ -88,7 +98,9 @@
     "unes"
    ],
    "correct": 1,
-   "explanation": "«gat» és masculí: un gat."
+   "explanation": "«gat» és masculí: un gat.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_m007",
@@ -103,7 +115,9 @@
     "el"
    ],
    "correct": 0,
-   "explanation": "«poma» és femení: una poma."
+   "explanation": "«poma» és femení: una poma.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_m008",
@@ -118,7 +132,9 @@
     "gats"
    ],
    "correct": 3,
-   "explanation": "Afegim -s: gats."
+   "explanation": "Afegim -s: gats.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_m009",
@@ -133,7 +149,9 @@
     "llibrs"
    ],
    "correct": 2,
-   "explanation": "Afegim -s: llibres."
+   "explanation": "Afegim -s: llibres.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_m010",
@@ -148,7 +166,9 @@
     "dilluns"
    ],
    "correct": 3,
-   "explanation": "Els dies de la setmana s'escriuen amb minúscula."
+   "explanation": "Els dies de la setmana s'escriuen amb minúscula.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_m011",
@@ -163,7 +183,9 @@
     "M'agraden les pomes"
    ],
    "correct": 2,
-   "explanation": "Majúscula al principi i punt al final."
+   "explanation": "Majúscula al principi i punt al final.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_m012",
@@ -178,7 +200,9 @@
     "tinc"
    ],
    "correct": 2,
-   "explanation": "Ella té."
+   "explanation": "Ella té.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_m013",
@@ -193,7 +217,9 @@
     "estic"
    ],
    "correct": 2,
-   "explanation": "Ells estan."
+   "explanation": "Ells estan.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_m014",
@@ -208,7 +234,9 @@
     "tinc"
    ],
    "correct": 3,
-   "explanation": "Jo tinc."
+   "explanation": "Jo tinc.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_m015",
@@ -223,7 +251,9 @@
     "casas"
    ],
    "correct": 1,
-   "explanation": "Les paraules acabades en -a fan el plural en -es: cases."
+   "explanation": "Les paraules acabades en -a fan el plural en -es: cases.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_m016",
@@ -238,7 +268,9 @@
     "taulos"
    ],
    "correct": 2,
-   "explanation": "-a → -es: taules."
+   "explanation": "-a → -es: taules.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_m017",
@@ -253,7 +285,9 @@
     "La motxilla és roja."
    ],
    "correct": 2,
-   "explanation": "Pregunta alguna cosa i acaba amb ?"
+   "explanation": "Pregunta alguna cosa i acaba amb ?",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_m018",
@@ -268,7 +302,9 @@
     "entre"
    ],
    "correct": 2,
-   "explanation": "El gat està damunt de la cadira."
+   "explanation": "El gat està damunt de la cadira.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_m019",
@@ -283,7 +319,9 @@
     "huit"
    ],
    "correct": 3,
-   "explanation": "En valencià escrivim «huit»."
+   "explanation": "En valencià escrivim «huit».",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_m020",
@@ -298,7 +336,9 @@
     "xiqoteta"
    ],
    "correct": 1,
-   "explanation": "x-i-c-o-t-e-t-a."
+   "explanation": "x-i-c-o-t-e-t-a.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_m021",
@@ -313,7 +353,9 @@
     "molt"
    ],
    "correct": 3,
-   "explanation": "m-o-l-t."
+   "explanation": "m-o-l-t.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_m022",
@@ -328,7 +370,9 @@
     "uí"
    ],
    "correct": 2,
-   "explanation": "«hui» porta h."
+   "explanation": "«hui» porta h.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_m023",
@@ -343,7 +387,9 @@
     "tambè"
    ],
    "correct": 1,
-   "explanation": "També porta accent tancat a la é."
+   "explanation": "També porta accent tancat a la é.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_m024",
@@ -358,7 +404,9 @@
     "anem"
    ],
    "correct": 2,
-   "explanation": "El passat d'anar: vam anar."
+   "explanation": "El passat d'anar: vam anar.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_w001",
@@ -371,7 +419,9 @@
    "answer": "gats",
    "hint": "Afegix una lletra",
    "explanation": "gat → gats",
-   "word": "gat"
+   "word": "gat",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_w002",
@@ -384,7 +434,9 @@
    "answer": "llibres",
    "hint": "Afegix una lletra",
    "explanation": "llibre → llibres",
-   "word": "llibre"
+   "word": "llibre",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_w003",
@@ -397,7 +449,9 @@
    "answer": "cases",
    "hint": "La a canvia",
    "explanation": "casa → cases",
-   "word": "casa"
+   "word": "casa",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_w004",
@@ -410,7 +464,9 @@
    "answer": "taules",
    "hint": "La a canvia",
    "explanation": "taula → taules",
-   "word": "taula"
+   "word": "taula",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_w005",
@@ -423,7 +479,9 @@
    "answer": "xiqueta",
    "hint": "Afegix una lletra",
    "explanation": "xiquet → xiqueta",
-   "word": "xiquet"
+   "word": "xiquet",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_w006",
@@ -436,7 +494,9 @@
    "answer": "gata",
    "hint": "Afegix una lletra",
    "explanation": "gat → gata",
-   "word": "gat"
+   "word": "gat",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_d001",
@@ -450,7 +510,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "El gat dorm al sofà."
+   "word": "El gat dorm al sofà.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_d002",
@@ -464,7 +526,9 @@
    "hint": "Té 4 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Tinc un gos xicotet."
+   "word": "Tinc un gos xicotet.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_d003",
@@ -478,7 +542,9 @@
    "hint": "Té 4 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "La lluna és blanca."
+   "word": "La lluna és blanca.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_d004",
@@ -492,7 +558,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Mon pare fa el pa."
+   "word": "Mon pare fa el pa.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_d005",
@@ -506,7 +574,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Hui fa molt de sol."
+   "word": "Hui fa molt de sol.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_d006",
@@ -520,7 +590,9 @@
    "hint": "Té 4 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "La mona menja plàtans."
+   "word": "La mona menja plàtans.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_d007",
@@ -534,7 +606,9 @@
    "hint": "Té 4 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "El llibre és nou."
+   "word": "El llibre és nou.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l1_d008",
@@ -548,7 +622,9 @@
    "hint": "Té 3 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Juguem al parc."
+   "word": "Juguem al parc.",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_o001",
@@ -570,7 +646,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El gos és gran."
+   "explanation": "El gos és gran.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_o002",
@@ -592,7 +670,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "M'agrada el meu gat."
+   "explanation": "M'agrada el meu gat.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_o003",
@@ -612,7 +692,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Nosaltres correm molt."
+   "explanation": "Nosaltres correm molt.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_o004",
@@ -632,7 +714,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El sol crema."
+   "explanation": "El sol crema.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l1_o005",
@@ -656,7 +740,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El meu barret és roig."
+   "explanation": "El meu barret és roig.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l1_o006",
@@ -676,7 +762,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Veig un ocell."
+   "explanation": "Veig un ocell.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_m001",
@@ -691,7 +779,9 @@
     "vacas"
    ],
    "correct": 2,
-   "explanation": "La c es convertix en qu davant de e: vaques."
+   "explanation": "La c es convertix en qu davant de e: vaques.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m002",
@@ -706,7 +796,9 @@
     "places"
    ],
    "correct": 3,
-   "explanation": "La ç es convertix en c davant de e: places."
+   "explanation": "La ç es convertix en c davant de e: places.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m003",
@@ -721,7 +813,9 @@
     "pluges"
    ],
    "correct": 3,
-   "explanation": "La j es convertix en g davant de e: pluges."
+   "explanation": "La j es convertix en g davant de e: pluges.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m004",
@@ -736,7 +830,9 @@
     "amigues"
    ],
    "correct": 3,
-   "explanation": "La g es convertix en gu davant de e: amigues."
+   "explanation": "La g es convertix en gu davant de e: amigues.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_m005",
@@ -751,7 +847,9 @@
     "peixs"
    ],
    "correct": 1,
-   "explanation": "Les paraules acabades en -ix fan -ixos: peixos."
+   "explanation": "Les paraules acabades en -ix fan -ixos: peixos.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m006",
@@ -766,7 +864,9 @@
     "brasos"
    ],
    "correct": 1,
-   "explanation": "braç → braços."
+   "explanation": "braç → braços.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m007",
@@ -781,7 +881,9 @@
     "gosses"
    ],
    "correct": 0,
-   "explanation": "gos → gossos (amb dues s)."
+   "explanation": "gos → gossos (amb dues s).",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m008",
@@ -796,7 +898,9 @@
     "camiones"
    ],
    "correct": 0,
-   "explanation": "camió → camions (perd l'accent)."
+   "explanation": "camió → camions (perd l'accent).",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_m009",
@@ -811,7 +915,9 @@
     "lleons"
    ],
    "correct": 3,
-   "explanation": "lleó → lleons."
+   "explanation": "lleó → lleons.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m010",
@@ -826,7 +932,9 @@
     "Vam anar a valència al maig."
    ],
    "correct": 1,
-   "explanation": "Les ciutats amb majúscula; els mesos amb minúscula."
+   "explanation": "Les ciutats amb majúscula; els mesos amb minúscula.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_m011",
@@ -841,7 +949,9 @@
     "montanya"
    ],
    "correct": 0,
-   "explanation": "En valencià, el so /ny/ s'escriu ny."
+   "explanation": "En valencià, el so /ny/ s'escriu ny.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m012",
@@ -856,7 +966,9 @@
     "añ"
    ],
    "correct": 0,
-   "explanation": "ny al final: any."
+   "explanation": "ny al final: any.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m013",
@@ -871,7 +983,9 @@
     "coche"
    ],
    "correct": 1,
-   "explanation": "tx entre vocals: cotxe."
+   "explanation": "tx entre vocals: cotxe.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m014",
@@ -886,7 +1000,9 @@
     "caxa"
    ],
    "correct": 1,
-   "explanation": "ix entre vocals: caixa."
+   "explanation": "ix entre vocals: caixa.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m015",
@@ -901,7 +1017,9 @@
     "rellodge"
    ],
    "correct": 1,
-   "explanation": "tg davant de e: rellotge."
+   "explanation": "tg davant de e: rellotge.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m016",
@@ -916,7 +1034,9 @@
     "platxa"
    ],
    "correct": 1,
-   "explanation": "tj davant de a: platja."
+   "explanation": "tj davant de a: platja.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m017",
@@ -931,7 +1051,9 @@
     "non"
    ],
    "correct": 1,
-   "explanation": "Hui no plou."
+   "explanation": "Hui no plou.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_m018",
@@ -946,7 +1068,9 @@
     "però"
    ],
    "correct": 1,
-   "explanation": "«així que» introduïx la conseqüència."
+   "explanation": "«així que» introduïx la conseqüència.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_m019",
@@ -961,7 +1085,9 @@
     "així que"
    ],
    "correct": 2,
-   "explanation": "«però» indica contrast."
+   "explanation": "«però» indica contrast.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_m020",
@@ -976,7 +1102,9 @@
     "perké"
    ],
    "correct": 2,
-   "explanation": "perquè porta accent obert a la è."
+   "explanation": "perquè porta accent obert a la è.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m021",
@@ -991,7 +1119,9 @@
     "escola"
    ],
    "correct": 3,
-   "explanation": "es-co-la."
+   "explanation": "es-co-la.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l2_m022",
@@ -1006,7 +1136,9 @@
     "dimècres"
    ],
    "correct": 1,
-   "explanation": "di-me-cres."
+   "explanation": "di-me-cres.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_m023",
@@ -1021,7 +1153,9 @@
     "la mía mare"
    ],
    "correct": 1,
-   "explanation": "la meua mare: possessiu valencià i mare amb minúscula."
+   "explanation": "la meua mare: possessiu valencià i mare amb minúscula.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_m024",
@@ -1036,7 +1170,9 @@
     "estos llibre"
    ],
    "correct": 2,
-   "explanation": "«este» és valencià normatiu."
+   "explanation": "«este» és valencià normatiu.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_w001",
@@ -1049,7 +1185,9 @@
    "answer": "vaques",
    "hint": "c → qu",
    "explanation": "vaca → vaques",
-   "word": "vaca"
+   "word": "vaca",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_w002",
@@ -1062,7 +1200,9 @@
    "answer": "places",
    "hint": "ç → c",
    "explanation": "plaça → places",
-   "word": "plaça"
+   "word": "plaça",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_w003",
@@ -1075,7 +1215,9 @@
    "answer": "peixos",
    "hint": "Acaba en -os",
    "explanation": "peix → peixos",
-   "word": "peix"
+   "word": "peix",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_w004",
@@ -1088,7 +1230,9 @@
    "answer": "gossos",
    "hint": "Dues s",
    "explanation": "gos → gossos",
-   "word": "gos"
+   "word": "gos",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_w005",
@@ -1101,7 +1245,9 @@
    "answer": "camions",
    "hint": "Perd l'accent",
    "explanation": "camió → camions",
-   "word": "camió"
+   "word": "camió",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_w006",
@@ -1114,7 +1260,9 @@
    "answer": "amiga",
    "hint": "c → g",
    "explanation": "amic → amiga",
-   "word": "amic"
+   "word": "amic",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_d001",
@@ -1128,7 +1276,9 @@
    "hint": "Té 4 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "El xiquet menja peix."
+   "word": "El xiquet menja peix.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_d002",
@@ -1142,7 +1292,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "La platja té molta arena."
+   "word": "La platja té molta arena.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_d003",
@@ -1156,7 +1308,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Tinc una caixa de colors."
+   "word": "Tinc una caixa de colors.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_d004",
@@ -1170,7 +1324,9 @@
    "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "El cotxe de ma mare és roig."
+   "word": "El cotxe de ma mare és roig.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_d005",
@@ -1184,7 +1340,9 @@
    "hint": "Té 4 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Les vaques mengen herba."
+   "word": "Les vaques mengen herba.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_d006",
@@ -1198,7 +1356,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Cada any anem a la muntanya."
+   "word": "Cada any anem a la muntanya.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_d007",
@@ -1212,7 +1372,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "El conill bota pel camp."
+   "word": "El conill bota pel camp.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_d008",
@@ -1226,7 +1388,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Ma germana llig un conte."
+   "word": "Ma germana llig un conte.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l2_o001",
@@ -1250,7 +1414,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "L'ànec nada a la bassa."
+   "explanation": "L'ànec nada a la bassa.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_o002",
@@ -1270,7 +1436,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Em pots ajudar?"
+   "explanation": "Em pots ajudar?",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_o003",
@@ -1294,7 +1462,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ella té una gata negra."
+   "explanation": "Ella té una gata negra.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_o004",
@@ -1314,7 +1484,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Hui dinem paella."
+   "explanation": "Hui dinem paella.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_o005",
@@ -1338,7 +1510,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El meu amic viu ací."
+   "explanation": "El meu amic viu ací.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l2_o006",
@@ -1360,7 +1534,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "La granota bota molt."
+   "explanation": "La granota bota molt.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_m001",
@@ -1375,7 +1551,9 @@
     "l'arbre"
    ],
    "correct": 3,
-   "explanation": "Davant de vocal, «el» s'apostrofa: l'arbre."
+   "explanation": "Davant de vocal, «el» s'apostrofa: l'arbre.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_m002",
@@ -1390,7 +1568,9 @@
     "l àvia"
    ],
    "correct": 2,
-   "explanation": "Davant de vocal tònica, «la» s'apostrofa: l'àvia."
+   "explanation": "Davant de vocal tònica, «la» s'apostrofa: l'àvia.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_m003",
@@ -1405,7 +1585,9 @@
     "la universitat"
    ],
    "correct": 3,
-   "explanation": "Davant de u- àtona, «la» no s'apostrofa."
+   "explanation": "Davant de u- àtona, «la» no s'apostrofa.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_m004",
@@ -1420,7 +1602,9 @@
     "un got d' aigua"
    ],
    "correct": 1,
-   "explanation": "Davant de vocal, «de» s'apostrofa."
+   "explanation": "Davant de vocal, «de» s'apostrofa.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_m005",
@@ -1435,7 +1619,9 @@
     "Vaig al parc."
    ],
    "correct": 3,
-   "explanation": "a + el = al."
+   "explanation": "a + el = al.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_m006",
@@ -1450,7 +1636,9 @@
     "Vinc de el mercat."
    ],
    "correct": 1,
-   "explanation": "de + el = del."
+   "explanation": "de + el = del.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_m007",
@@ -1465,7 +1653,9 @@
     "Passegem pels parc."
    ],
    "correct": 0,
-   "explanation": "per + el = pel."
+   "explanation": "per + el = pel.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_m008",
@@ -1480,7 +1670,9 @@
     "pa"
    ],
    "correct": 1,
-   "explanation": "«per a» indica destinatari."
+   "explanation": "«per a» indica destinatari.",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_m009",
@@ -1495,7 +1687,9 @@
     "pa"
    ],
    "correct": 1,
-   "explanation": "«per» indica causa."
+   "explanation": "«per» indica causa.",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_m010",
@@ -1510,7 +1704,9 @@
     "camion"
    ],
    "correct": 1,
-   "explanation": "Les agudes acabades en vocal porten accent: camió."
+   "explanation": "Les agudes acabades en vocal porten accent: camió.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_m011",
@@ -1525,7 +1721,9 @@
     "camió"
    ],
    "correct": 2,
-   "explanation": "rellotge és plana acabada en -e: no porta accent."
+   "explanation": "rellotge és plana acabada en -e: no porta accent.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_m012",
@@ -1540,7 +1738,9 @@
     "sofà"
    ],
    "correct": 3,
-   "explanation": "La a sempre porta accent obert: sofà."
+   "explanation": "La a sempre porta accent obert: sofà.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_m013",
@@ -1555,7 +1755,9 @@
     "raim"
    ],
    "correct": 0,
-   "explanation": "La dièresi separa la a i la i: ra-ïm."
+   "explanation": "La dièresi separa la a i la i: ra-ïm.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_m014",
@@ -1570,7 +1772,9 @@
     "pingüi"
    ],
    "correct": 2,
-   "explanation": "La dièresi fa sonar la u: pingüí."
+   "explanation": "La dièresi fa sonar la u: pingüí.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_m015",
@@ -1585,7 +1789,9 @@
     "cançó"
    ],
    "correct": 3,
-   "explanation": "ç davant de o."
+   "explanation": "ç davant de o.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_m016",
@@ -1600,7 +1806,9 @@
     "doce"
    ],
    "correct": 2,
-   "explanation": "tz entre vocals."
+   "explanation": "tz entre vocals.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_m017",
@@ -1615,7 +1823,9 @@
     "çero"
    ],
    "correct": 0,
-   "explanation": "z al principi."
+   "explanation": "z al principi.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_m018",
@@ -1630,7 +1840,9 @@
     "casola"
    ],
    "correct": 1,
-   "explanation": "Entre vocals, el so /s/ sord s'escriu ss."
+   "explanation": "Entre vocals, el so /s/ sord s'escriu ss.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_m019",
@@ -1645,7 +1857,9 @@
     "possar"
    ],
    "correct": 0,
-   "explanation": "Entre vocals, el so /z/ sonor s'escriu s."
+   "explanation": "Entre vocals, el so /z/ sonor s'escriu s.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_m020",
@@ -1660,7 +1874,9 @@
     "Ostres, que bonic?"
    ],
    "correct": 0,
-   "explanation": "En valencià l'exclamació només va al final."
+   "explanation": "En valencià l'exclamació només va al final.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_m021",
@@ -1675,7 +1891,9 @@
     "He comprat ous, llet i pa."
    ],
    "correct": 3,
-   "explanation": "Les comes separen els elements d'una llista."
+   "explanation": "Les comes separen els elements d'una llista.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_m022",
@@ -1690,7 +1908,9 @@
     "guiterra"
    ],
    "correct": 2,
-   "explanation": "gui: la u no sona però s'escriu."
+   "explanation": "gui: la u no sona però s'escriu.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_m023",
@@ -1705,7 +1925,9 @@
     "aigua"
    ],
    "correct": 3,
-   "explanation": "ai-gua."
+   "explanation": "ai-gua.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_m024",
@@ -1720,7 +1942,9 @@
     "Jo cantu."
    ],
    "correct": 2,
-   "explanation": "En valencià: jo cante."
+   "explanation": "En valencià: jo cante.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_w001",
@@ -1733,7 +1957,9 @@
    "answer": "l'arbre",
    "hint": "Usa l'apòstrof",
    "explanation": "el arbre → l'arbre",
-   "word": "el + arbre"
+   "word": "el + arbre",
+   "skill": "esc_punct",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_w002",
@@ -1746,7 +1972,9 @@
    "answer": "d'aigua",
    "hint": "Usa l'apòstrof",
    "explanation": "de aigua → d'aigua",
-   "word": "de + aigua"
+   "word": "de + aigua",
+   "skill": "esc_punct",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_w003",
@@ -1759,7 +1987,9 @@
    "answer": "al",
    "hint": "Són dues lletres",
    "explanation": "a + el = al",
-   "word": "a + el"
+   "word": "a + el",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_w004",
@@ -1772,7 +2002,9 @@
    "answer": "dels",
    "hint": "Són quatre lletres",
    "explanation": "de + els = dels",
-   "word": "de + els"
+   "word": "de + els",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_w005",
@@ -1785,7 +2017,9 @@
    "answer": "pluges",
    "hint": "j → g",
    "explanation": "pluja → pluges",
-   "word": "pluja"
+   "word": "pluja",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_w006",
@@ -1798,7 +2032,9 @@
    "answer": "amigues",
    "hint": "g → gu",
    "explanation": "amiga → amigues",
-   "word": "amiga"
+   "word": "amiga",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_d001",
@@ -1812,7 +2048,9 @@
    "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Hui hem fet una cançó molt bonica."
+   "word": "Hui hem fet una cançó molt bonica.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_d002",
@@ -1826,7 +2064,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "La plaça del poble és gran."
+   "word": "La plaça del poble és gran.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_d003",
@@ -1840,7 +2080,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Tinc dotze llapis de colors."
+   "word": "Tinc dotze llapis de colors.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_d004",
@@ -1854,7 +2096,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "L'àvia fa una cassola d'arròs."
+   "word": "L'àvia fa una cassola d'arròs.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_d005",
@@ -1868,7 +2112,9 @@
    "hint": "Té 4 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "El camió porta taronges."
+   "word": "El camió porta taronges.",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_d006",
@@ -1882,7 +2128,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Anem al mercat a comprar pa."
+   "word": "Anem al mercat a comprar pa.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_d007",
@@ -1896,7 +2144,9 @@
    "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "El pingüí viu en un lloc fred."
+   "word": "El pingüí viu en un lloc fred.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_d008",
@@ -1910,7 +2160,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Vull un got d'aigua fresca."
+   "word": "Vull un got d'aigua fresca.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l3_o001",
@@ -1936,7 +2188,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Diumenge vam anar a la platja."
+   "explanation": "Diumenge vam anar a la platja.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l3_o002",
@@ -1956,7 +2210,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "On l'has trobat?"
+   "explanation": "On l'has trobat?",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_o003",
@@ -1980,7 +2236,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Els xiquets juguen al pati."
+   "explanation": "Els xiquets juguen al pati.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_o004",
@@ -2004,7 +2262,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "L'àvia fa els millors pastissos."
+   "explanation": "L'àvia fa els millors pastissos.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_o005",
@@ -2026,7 +2286,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Sent arribar el tren."
+   "explanation": "Sent arribar el tren.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l3_o006",
@@ -2048,7 +2310,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Es posen els abrics."
+   "explanation": "Es posen els abrics.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_m001",
@@ -2063,7 +2327,9 @@
     "té"
    ],
    "correct": 3,
-   "explanation": "té (verb tindre) porta accent; te és pronom."
+   "explanation": "té (verb tindre) porta accent; te és pronom.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_m002",
@@ -2078,7 +2344,9 @@
     "Té"
    ],
    "correct": 1,
-   "explanation": "te (pronom) no porta accent."
+   "explanation": "te (pronom) no porta accent.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m003",
@@ -2093,7 +2361,9 @@
     "es"
    ],
    "correct": 0,
-   "explanation": "és (verb ser) porta accent."
+   "explanation": "és (verb ser) porta accent.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m004",
@@ -2108,7 +2378,9 @@
     "es"
    ],
    "correct": 3,
-   "explanation": "es (pronom) no porta accent."
+   "explanation": "es (pronom) no porta accent.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m005",
@@ -2123,7 +2395,9 @@
     "mès"
    ],
    "correct": 2,
-   "explanation": "més (quantitat) porta accent; mes és un període de temps."
+   "explanation": "més (quantitat) porta accent; mes és un període de temps.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m006",
@@ -2138,7 +2412,9 @@
     "mes"
    ],
    "correct": 3,
-   "explanation": "mes (de l'any) no porta accent."
+   "explanation": "mes (de l'any) no porta accent.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_m007",
@@ -2153,7 +2429,9 @@
     "sòn"
    ],
    "correct": 2,
-   "explanation": "són (verb ser) porta accent; son és somni."
+   "explanation": "són (verb ser) porta accent; son és somni.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m008",
@@ -2168,7 +2446,9 @@
     "sónn"
    ],
    "correct": 2,
-   "explanation": "son (ganes de dormir) no porta accent."
+   "explanation": "son (ganes de dormir) no porta accent.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_m009",
@@ -2183,7 +2463,9 @@
     "se"
    ],
    "correct": 1,
-   "explanation": "sé (verb saber) porta accent."
+   "explanation": "sé (verb saber) porta accent.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m010",
@@ -2198,7 +2480,9 @@
     "pel"
    ],
    "correct": 2,
-   "explanation": "pèl (cabell) porta accent; pel és per + el."
+   "explanation": "pèl (cabell) porta accent; pel és per + el.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m011",
@@ -2213,7 +2497,9 @@
     "Sí"
    ],
    "correct": 3,
-   "explanation": "sí (afirmació) porta accent; si (condició) no en porta."
+   "explanation": "sí (afirmació) porta accent; si (condició) no en porta.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m012",
@@ -2228,7 +2514,9 @@
     "Hém"
    ],
    "correct": 2,
-   "explanation": "Hem (verb haver) porta h."
+   "explanation": "Hem (verb haver) porta h.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m013",
@@ -2243,7 +2531,9 @@
     "ah"
    ],
    "correct": 1,
-   "explanation": "ha (verb haver) porta h; a és preposició."
+   "explanation": "ha (verb haver) porta h; a és preposició.",
+   "skill": "esc_confusables",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_m014",
@@ -2258,7 +2548,9 @@
     "a"
    ],
    "correct": 3,
-   "explanation": "a és preposició: vaig a l'escola."
+   "explanation": "a és preposició: vaig a l'escola.",
+   "skill": "esc_confusables",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_m015",
@@ -2273,7 +2565,9 @@
     "y"
    ],
    "correct": 2,
-   "explanation": "hi ha porta h."
+   "explanation": "hi ha porta h.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_m016",
@@ -2288,7 +2582,9 @@
     "y"
    ],
    "correct": 2,
-   "explanation": "i (conjunció) no porta h."
+   "explanation": "i (conjunció) no porta h.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_m017",
@@ -2303,7 +2599,9 @@
     "colegi"
    ],
    "correct": 2,
-   "explanation": "col·legi: ela geminada (l·l)."
+   "explanation": "col·legi: ela geminada (l·l).",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m018",
@@ -2318,7 +2616,9 @@
     "il·lusió"
    ],
    "correct": 3,
-   "explanation": "il·lusió."
+   "explanation": "il·lusió.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m019",
@@ -2333,7 +2633,9 @@
     "película"
    ],
    "correct": 1,
-   "explanation": "pel·lícula: ela geminada i accent."
+   "explanation": "pel·lícula: ela geminada i accent.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_m020",
@@ -2348,7 +2650,9 @@
     "tranquila"
    ],
    "correct": 2,
-   "explanation": "tranquil·la: ela geminada."
+   "explanation": "tranquil·la: ela geminada.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_m021",
@@ -2363,7 +2667,9 @@
     "erba"
    ],
    "correct": 0,
-   "explanation": "herba porta h."
+   "explanation": "herba porta h.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m022",
@@ -2378,7 +2684,9 @@
     "ivern"
    ],
    "correct": 0,
-   "explanation": "hivern porta h."
+   "explanation": "hivern porta h.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_m023",
@@ -2393,7 +2701,9 @@
     "històría"
    ],
    "correct": 1,
-   "explanation": "història: h i accent obert."
+   "explanation": "història: h i accent obert.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_m024",
@@ -2408,7 +2718,9 @@
     "Hi a menys cotxes hui."
    ],
    "correct": 1,
-   "explanation": "hi ha: amb h a hi i a ha."
+   "explanation": "hi ha: amb h a hi i a ha.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_w001",
@@ -2421,7 +2733,9 @@
    "answer": "tranquil·la",
    "hint": "Usa l·l",
    "explanation": "tranquil → tranquil·la",
-   "word": "tranquil"
+   "word": "tranquil",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_w002",
@@ -2434,7 +2748,9 @@
    "answer": "col·legis",
    "hint": "Afegix una lletra",
    "explanation": "col·legi → col·legis",
-   "word": "col·legi"
+   "word": "col·legi",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_w003",
@@ -2447,7 +2763,9 @@
    "answer": "lleons",
    "hint": "Perd l'accent",
    "explanation": "lleó → lleons",
-   "word": "lleó"
+   "word": "lleó",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_w004",
@@ -2460,7 +2778,9 @@
    "answer": "gatet",
    "hint": "Acaba en -et",
    "explanation": "gat → gatet",
-   "word": "gat"
+   "word": "gat",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_w005",
@@ -2473,7 +2793,9 @@
    "answer": "infeliç",
    "hint": "Usa in-",
    "explanation": "feliç → infeliç",
-   "word": "feliç"
+   "word": "feliç",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_w006",
@@ -2486,7 +2808,9 @@
    "answer": "impossible",
    "hint": "Usa im-",
    "explanation": "possible → impossible",
-   "word": "possible"
+   "word": "possible",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_d001",
@@ -2500,7 +2824,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Al col·legi hem vist una pel·lícula."
+   "word": "Al col·legi hem vist una pel·lícula.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_d002",
@@ -2514,7 +2840,9 @@
    "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Hi ha herba a l'hort de l'avi."
+   "word": "Hi ha herba a l'hort de l'avi.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_d003",
@@ -2528,7 +2856,9 @@
    "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "La meua veïna té un gat negre."
+   "word": "La meua veïna té un gat negre.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_d004",
@@ -2542,7 +2872,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "A l'hivern fa fred i plou."
+   "word": "A l'hivern fa fred i plou.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_d005",
@@ -2556,7 +2888,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Esta història és molt antiga."
+   "word": "Esta història és molt antiga.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_d006",
@@ -2570,7 +2904,9 @@
    "hint": "Té 8 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "El raïm és la fruita de la tardor."
+   "word": "El raïm és la fruita de la tardor.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_d007",
@@ -2584,7 +2920,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Tinc la il·lusió de viatjar."
+   "word": "Tinc la il·lusió de viatjar.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_d008",
@@ -2598,7 +2936,9 @@
    "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "El gat té el pèl molt suau."
+   "word": "El gat té el pèl molt suau.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_o001",
@@ -2628,7 +2968,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Després de l'escola, vam anar a la biblioteca."
+   "explanation": "Després de l'escola, vam anar a la biblioteca.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "ca_escritura_l4_o002",
@@ -2650,7 +2992,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El cavall té set."
+   "explanation": "El cavall té set.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_o003",
@@ -2676,7 +3020,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El germà de Pau ha guanyat."
+   "explanation": "El germà de Pau ha guanyat.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_o004",
@@ -2696,7 +3042,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Demà plourà molt."
+   "explanation": "Demà plourà molt.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l4_o005",
@@ -2720,7 +3068,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "De qui és esta motxilla?"
+   "explanation": "De qui és esta motxilla?",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l4_o006",
@@ -2748,7 +3098,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ella va caminar a poc a poc."
+   "explanation": "Ella va caminar a poc a poc.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_m001",
@@ -2763,7 +3115,9 @@
     "englés"
    ],
    "correct": 1,
-   "explanation": "En valencià, accent tancat: anglés."
+   "explanation": "En valencià, accent tancat: anglés.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_m002",
@@ -2778,7 +3132,9 @@
     "conéxer"
    ],
    "correct": 0,
-   "explanation": "En valencià, accent tancat: conéixer."
+   "explanation": "En valencià, accent tancat: conéixer.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_m003",
@@ -2793,7 +3149,9 @@
     "quinté"
    ],
    "correct": 1,
-   "explanation": "En valencià, accent tancat: cinqué."
+   "explanation": "En valencià, accent tancat: cinqué.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_m004",
@@ -2808,7 +3166,9 @@
     "Ell llixc un conte."
    ],
    "correct": 2,
-   "explanation": "Verb llegir: ell llig."
+   "explanation": "Verb llegir: ell llig.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_m005",
@@ -2823,7 +3183,9 @@
     "Ella sirve el dinar."
    ],
    "correct": 1,
-   "explanation": "Verb servir: ella servix."
+   "explanation": "Verb servir: ella servix.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_m006",
@@ -2838,7 +3200,9 @@
     "Nosaltres ixim prompte."
    ],
    "correct": 0,
-   "explanation": "Verb eixir: nosaltres eixim."
+   "explanation": "Verb eixir: nosaltres eixim.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_m007",
@@ -2853,7 +3217,9 @@
     "Vosaltres venen a casa."
    ],
    "correct": 0,
-   "explanation": "Verb vindre: vosaltres veniu."
+   "explanation": "Verb vindre: vosaltres veniu.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_m008",
@@ -2868,7 +3234,9 @@
     "musicà"
    ],
    "correct": 1,
-   "explanation": "Les esdrúixoles sempre porten accent: mú-si-ca."
+   "explanation": "Les esdrúixoles sempre porten accent: mú-si-ca.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_m009",
@@ -2883,7 +3251,9 @@
     "pagína"
    ],
    "correct": 0,
-   "explanation": "Les esdrúixoles sempre porten accent: pà-gi-na."
+   "explanation": "Les esdrúixoles sempre porten accent: pà-gi-na.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_m010",
@@ -2898,7 +3268,9 @@
     "examen"
    ],
    "correct": 3,
-   "explanation": "Compte: examen és plana acabada en -en i no porta accent."
+   "explanation": "Compte: examen és plana acabada en -en i no porta accent.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_m011",
@@ -2913,7 +3285,9 @@
     "telefòn"
    ],
    "correct": 1,
-   "explanation": "Plana que no acaba en vocal, -es, -is, -en ni -in: porta accent."
+   "explanation": "Plana que no acaba en vocal, -es, -is, -en ni -in: porta accent.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_m012",
@@ -2928,7 +3302,9 @@
     "Necessitaràs: un llapis: un regle i una goma."
    ],
    "correct": 1,
-   "explanation": "Els dos punts poden introduir una llista."
+   "explanation": "Els dos punts poden introduir una llista.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_m013",
@@ -2943,7 +3319,9 @@
     "El meu (oncle que viu) a Alcoi és cuiner."
    ],
    "correct": 0,
-   "explanation": "Els parèntesis tanquen informació extra."
+   "explanation": "Els parèntesis tanquen informació extra.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_m014",
@@ -2958,7 +3336,9 @@
     "Donamela."
    ],
    "correct": 1,
-   "explanation": "Els pronoms darrere del verb van amb guionet."
+   "explanation": "Els pronoms darrere del verb van amb guionet.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_m015",
@@ -2973,7 +3353,9 @@
     "neccessitat"
    ],
    "correct": 2,
-   "explanation": "ne-ces-si-tat: c i després ss."
+   "explanation": "ne-ces-si-tat: c i després ss.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_m016",
@@ -2988,7 +3370,9 @@
     "exercící"
    ],
    "correct": 1,
-   "explanation": "e-xer-ci-ci."
+   "explanation": "e-xer-ci-ci.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_m017",
@@ -3003,7 +3387,9 @@
     "escursió"
    ],
    "correct": 2,
-   "explanation": "ex-cur-si-ó."
+   "explanation": "ex-cur-si-ó.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_m018",
@@ -3018,7 +3404,9 @@
     "questionari"
    ],
    "correct": 0,
-   "explanation": "La dièresi fa sonar la u."
+   "explanation": "La dièresi fa sonar la u.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_m019",
@@ -3033,7 +3421,9 @@
     "intelligència"
    ],
    "correct": 2,
-   "explanation": "Ela geminada i accent obert."
+   "explanation": "Ela geminada i accent obert.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_m020",
@@ -3048,7 +3438,9 @@
     "ajuntamen"
    ],
    "correct": 0,
-   "explanation": "a-jun-ta-ment."
+   "explanation": "a-jun-ta-ment.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_m021",
@@ -3063,7 +3455,9 @@
     "biblioteka"
    ],
    "correct": 0,
-   "explanation": "bi-bli-o-te-ca."
+   "explanation": "bi-bli-o-te-ca.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_m022",
@@ -3078,7 +3472,9 @@
     "dissabte"
    ],
    "correct": 3,
-   "explanation": "dis-sab-te."
+   "explanation": "dis-sab-te.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_m023",
@@ -3093,7 +3489,9 @@
     "perquè"
    ],
    "correct": 2,
-   "explanation": "«per això» introduïx una conseqüència."
+   "explanation": "«per això» introduïx una conseqüència.",
+   "skill": "esc_confusables",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_m024",
@@ -3108,7 +3506,9 @@
     "Ni Pau ni Marc hi era."
    ],
    "correct": 1,
-   "explanation": "ni ... ni ..., i el pronom hi porta h."
+   "explanation": "ni ... ni ..., i el pronom hi porta h.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_w001",
@@ -3121,7 +3521,9 @@
    "answer": "decisió",
    "hint": "Acaba en -ció o -sió",
    "explanation": "decidir → decisió",
-   "word": "decidir"
+   "word": "decidir",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_w002",
@@ -3137,7 +3539,9 @@
    "word": "inventar",
    "acceptableAnswers": [
     "invent"
-   ]
+   ],
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_w003",
@@ -3150,7 +3554,9 @@
    "answer": "perillós",
    "hint": "Acaba en -ós",
    "explanation": "perill → perillós",
-   "word": "perill"
+   "word": "perill",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_w004",
@@ -3163,7 +3569,9 @@
    "answer": "perillosa",
    "hint": "Perd l'accent",
    "explanation": "perillós → perillosa",
-   "word": "perillós"
+   "word": "perillós",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_w005",
@@ -3176,7 +3584,9 @@
    "answer": "il·legal",
    "hint": "Usa il- (amb ela geminada)",
    "explanation": "legal → il·legal",
-   "word": "legal"
+   "word": "legal",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_w006",
@@ -3189,7 +3599,9 @@
    "answer": "cante",
    "hint": "Jo ...",
    "explanation": "jo cante",
-   "word": "cantar"
+   "word": "cantar",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_d001",
@@ -3203,7 +3615,9 @@
    "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "El meu cosí estudia anglés i francés."
+   "word": "El meu cosí estudia anglés i francés.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_d002",
@@ -3217,7 +3631,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Vull conéixer la història de València."
+   "word": "Vull conéixer la història de València.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_d003",
@@ -3231,7 +3647,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "La música ens fa sentir bé."
+   "word": "La música ens fa sentir bé.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_d004",
@@ -3245,7 +3663,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Dissabte anirem d'excursió a la muntanya."
+   "word": "Dissabte anirem d'excursió a la muntanya.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_d005",
@@ -3259,7 +3679,9 @@
    "hint": "Té 8 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "La biblioteca obri a les deu del matí."
+   "word": "La biblioteca obri a les deu del matí.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_d006",
@@ -3273,7 +3695,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Ella llig una pàgina cada nit."
+   "word": "Ella llig una pàgina cada nit.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_d007",
@@ -3287,7 +3711,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "Necessitem exercici per a estar sans."
+   "word": "Necessitem exercici per a estar sans.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_d008",
@@ -3301,7 +3727,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi i el punt del final.",
    "dictation": true,
-   "word": "L'aqüeducte romà és molt antic."
+   "word": "L'aqüeducte romà és molt antic.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_o001",
@@ -3329,7 +3757,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Encara que era tard, vam continuar llegint."
+   "explanation": "Encara que era tard, vam continuar llegint.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_o002",
@@ -3359,7 +3789,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "La finestra es va trencar amb la pilota."
+   "explanation": "La finestra es va trencar amb la pilota.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_o003",
@@ -3391,7 +3823,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "La meua tia, que és metgessa, viu a Elx."
+   "explanation": "La meua tia, que és metgessa, viu a Elx.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "ca_escritura_l5_o004",
@@ -3417,7 +3851,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ni Pau ni Marc hi eren."
+   "explanation": "Ni Pau ni Marc hi eren.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l5_o005",
@@ -3441,7 +3877,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Necessitem farina, ous i llet."
+   "explanation": "Necessitem farina, ous i llet.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l5_o006",
@@ -3465,7 +3903,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Malauradament, la botiga estava tancada."
+   "explanation": "Malauradament, la botiga estava tancada.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_m001",
@@ -3480,7 +3920,9 @@
     "El càmio va arribar ahir."
    ],
    "correct": 0,
-   "explanation": "camió és aguda acabada en vocal: porta accent; «va» no en porta."
+   "explanation": "camió és aguda acabada en vocal: porta accent; «va» no en porta.",
+   "skill": "esc_accents",
+   "step": 3
   },
   {
    "id": "ca_escritura_l6_m002",
@@ -3495,7 +3937,9 @@
     "també"
    ],
    "correct": 2,
-   "explanation": "telèfon porta è oberta; les altres porten accent tancat (´)."
+   "explanation": "telèfon porta è oberta; les altres porten accent tancat (´).",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_m003",
@@ -3510,7 +3954,9 @@
     "telèfon"
    ],
    "correct": 1,
-   "explanation": "cançó porta ó tancada."
+   "explanation": "cançó porta ó tancada.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_m004",
@@ -3525,7 +3971,9 @@
     "la escola"
    ],
    "correct": 0,
-   "explanation": "Davant de vocal, «la» s'apostrofa: l'escola."
+   "explanation": "Davant de vocal, «la» s'apostrofa: l'escola.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_m005",
@@ -3540,7 +3988,9 @@
     "lhora"
    ],
    "correct": 1,
-   "explanation": "La h no sona: davant de h + vocal també s'apostrofa."
+   "explanation": "La h no sona: davant de h + vocal també s'apostrofa.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_m006",
@@ -3555,7 +4005,9 @@
     "Es la una."
    ],
    "correct": 2,
-   "explanation": "Davant de «una» (l'hora) l'article no s'apostrofa."
+   "explanation": "Davant de «una» (l'hora) l'article no s'apostrofa.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_m007",
@@ -3570,7 +4022,9 @@
     "Anem a'ls jardins."
    ],
    "correct": 0,
-   "explanation": "a + els = als."
+   "explanation": "a + els = als.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l6_m008",
@@ -3585,7 +4039,9 @@
     "Este regal és per al teu germà."
    ],
    "correct": 3,
-   "explanation": "per a + el = per al."
+   "explanation": "per a + el = per al.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l6_m009",
@@ -3600,7 +4056,9 @@
     "llibre"
    ],
    "correct": 0,
-   "explanation": "col·legi s'escriu amb l·l."
+   "explanation": "col·legi s'escriu amb l·l.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_m010",
@@ -3615,7 +4073,9 @@
     "casa"
    ],
    "correct": 3,
-   "explanation": "Entre vocals, la s sonora s'escriu amb una s; la sorda, amb ss."
+   "explanation": "Entre vocals, la s sonora s'escriu amb una s; la sorda, amb ss.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_m011",
@@ -3630,7 +4090,9 @@
     "zero"
    ],
    "correct": 2,
-   "explanation": "Davant de a, o, u, el so /s/ de c s'escriu ç."
+   "explanation": "Davant de a, o, u, el so /s/ de c s'escriu ç.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_m012",
@@ -3645,7 +4107,9 @@
     "advocat"
    ],
    "correct": 3,
-   "explanation": "advocat porta v (en castellà, abogado porta b)."
+   "explanation": "advocat porta v (en castellà, abogado porta b).",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_m013",
@@ -3660,7 +4124,9 @@
     "advocat"
    ],
    "correct": 0,
-   "explanation": "treballar porta b; govern, en canvi, porta v."
+   "explanation": "treballar porta b; govern, en canvi, porta v.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_m014",
@@ -3675,7 +4141,9 @@
     "mentjar"
    ],
    "correct": 2,
-   "explanation": "Davant de a, el so de j s'escriu j: menjar."
+   "explanation": "Davant de a, el so de j s'escriu j: menjar.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_m015",
@@ -3690,7 +4158,9 @@
     "metje"
    ],
    "correct": 2,
-   "explanation": "Davant de e, s'escriu tg: metge."
+   "explanation": "Davant de e, s'escriu tg: metge.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_m016",
@@ -3705,7 +4175,9 @@
     "baixar"
    ],
    "correct": 3,
-   "explanation": "Després de vocal, el so /x/ s'escriu ix: baixar."
+   "explanation": "Després de vocal, el so /x/ s'escriu ix: baixar.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_m017",
@@ -3720,7 +4192,9 @@
     "Verb"
    ],
    "correct": 0,
-   "explanation": "Les paraules en -ment que diuen com són adverbis."
+   "explanation": "Les paraules en -ment que diuen com són adverbis.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_m018",
@@ -3735,7 +4209,9 @@
     "Preposició"
    ],
    "correct": 1,
-   "explanation": "nosaltres substituïx un nom: és un pronom personal."
+   "explanation": "nosaltres substituïx un nom: és un pronom personal.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_m019",
@@ -3750,7 +4226,9 @@
     "ha"
    ],
    "correct": 0,
-   "explanation": "«a» és una preposició: vaig a casa."
+   "explanation": "«a» és una preposició: vaig a casa.",
+   "skill": "esc_confusables",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_m020",
@@ -3765,7 +4243,9 @@
     "a"
    ],
    "correct": 0,
-   "explanation": "«ha» és del verb haver: ha acabat."
+   "explanation": "«ha» és del verb haver: ha acabat.",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_m021",
@@ -3780,7 +4260,9 @@
     "examen"
    ],
    "correct": 1,
-   "explanation": "camió és aguda acabada en vocal."
+   "explanation": "camió és aguda acabada en vocal.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_m022",
@@ -3795,7 +4277,9 @@
     "examens"
    ],
    "correct": 1,
-   "explanation": "exàmens: plana acabada en -ens, porta accent."
+   "explanation": "exàmens: plana acabada en -ens, porta accent.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_m023",
@@ -3810,7 +4294,9 @@
     "El riu Xúquer passa per Alzira."
    ],
    "correct": 3,
-   "explanation": "Els noms propis (Xúquer, Alzira) porten majúscula; riu és un nom comú."
+   "explanation": "Els noms propis (Xúquer, Alzira) porten majúscula; riu és un nom comú.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l6_m024",
@@ -3825,7 +4311,9 @@
     "Anna, tanca la porta, per favor."
    ],
    "correct": 3,
-   "explanation": "El vocatiu (Anna) i «per favor» van entre comes."
+   "explanation": "El vocatiu (Anna) i «per favor» van entre comes.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l6_o001",
@@ -3855,7 +4343,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Encara que feia fred, vam eixir a passejar."
+   "explanation": "Encara que feia fred, vam eixir a passejar.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "ca_escritura_l6_o002",
@@ -3881,7 +4371,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "L'examen de biologia va ser difícil."
+   "explanation": "L'examen de biologia va ser difícil.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_o003",
@@ -3907,7 +4399,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Per què no vas vindre ahir?"
+   "explanation": "Per què no vas vindre ahir?",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l6_o004",
@@ -3941,7 +4435,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "La meua iaia, que viu a Alcoi, cuina molt bé."
+   "explanation": "La meua iaia, que viu a Alcoi, cuina molt bé.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "ca_escritura_l6_o005",
@@ -3971,7 +4467,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Els alumnes van arreplegar el fem del pati."
+   "explanation": "Els alumnes van arreplegar el fem del pati.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "ca_escritura_l6_w001",
@@ -3983,7 +4481,9 @@
    "correct": 0,
    "answer": "pàgina",
    "hint": "És esdrúixola",
-   "explanation": "Les esdrúixoles porten sempre accent: pàgina."
+   "explanation": "Les esdrúixoles porten sempre accent: pàgina.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_w002",
@@ -3995,7 +4495,9 @@
    "correct": 0,
    "answer": "col·legi",
    "hint": "Porta ela geminada",
-   "explanation": "col·legi s'escriu amb l·l."
+   "explanation": "col·legi s'escriu amb l·l.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_w003",
@@ -4007,7 +4509,9 @@
    "correct": 0,
    "answer": "peixos",
    "hint": "Acaba en -os",
-   "explanation": "Les paraules acabades en -ix fan el plural en -ixos."
+   "explanation": "Les paraules acabades en -ix fan el plural en -ixos.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_w004",
@@ -4019,7 +4523,9 @@
    "correct": 0,
    "answer": "ràpidament",
    "hint": "Conserva l'accent",
-   "explanation": "ràpid → ràpidament."
+   "explanation": "ràpid → ràpidament.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l6_d001",
@@ -4033,7 +4539,9 @@
    "hint": "Té 9 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "El mussol observava el bosc des de la branca."
+   "word": "El mussol observava el bosc des de la branca.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l6_d002",
@@ -4047,7 +4555,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "Demà anirem d'excursió en autobús."
+   "word": "Demà anirem d'excursió en autobús.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l6_d003",
@@ -4061,7 +4571,9 @@
    "hint": "Té 9 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "El meu germà va enviar un missatge molt divertit."
+   "word": "El meu germà va enviar un missatge molt divertit.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l6_d004",
@@ -4075,7 +4587,9 @@
    "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "La girafa té el coll molt llarg."
+   "word": "La girafa té el coll molt llarg.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l7_m001",
@@ -4090,7 +4604,9 @@
     "tê"
    ],
    "correct": 1,
-   "explanation": "té (verb tindre) porta accent diacrític."
+   "explanation": "té (verb tindre) porta accent diacrític.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_m002",
@@ -4105,7 +4621,9 @@
     "mes"
    ],
    "correct": 0,
-   "explanation": "més (quantitat) porta accent; mes és el del calendari."
+   "explanation": "més (quantitat) porta accent; mes és el del calendari.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_m003",
@@ -4120,7 +4638,9 @@
     "mès"
    ],
    "correct": 2,
-   "explanation": "mes (del calendari) no porta accent."
+   "explanation": "mes (del calendari) no porta accent.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_m004",
@@ -4135,7 +4655,9 @@
     "sôn"
    ],
    "correct": 2,
-   "explanation": "són (verb ser) porta accent; son és el de dormir."
+   "explanation": "són (verb ser) porta accent; son és el de dormir.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_m005",
@@ -4150,7 +4672,9 @@
     "sòn"
    ],
    "correct": 0,
-   "explanation": "son (ganes de dormir) no porta accent."
+   "explanation": "son (ganes de dormir) no porta accent.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_m006",
@@ -4165,7 +4689,9 @@
     "sé"
    ],
    "correct": 3,
-   "explanation": "sé (verb saber) porta accent; se és un pronom."
+   "explanation": "sé (verb saber) porta accent; se és un pronom.",
+   "skill": "esc_accents",
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_m007",
@@ -4180,7 +4706,9 @@
     "Perquè"
    ],
    "correct": 0,
-   "explanation": "En les preguntes per la causa: per què, separat i amb accent."
+   "explanation": "En les preguntes per la causa: per què, separat i amb accent.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_m008",
@@ -4195,7 +4723,9 @@
     "per a què"
    ],
    "correct": 0,
-   "explanation": "Per a donar la causa: perquè, junt."
+   "explanation": "Per a donar la causa: perquè, junt.",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_m009",
@@ -4210,7 +4740,9 @@
     "si nó"
    ],
    "correct": 2,
-   "explanation": "«sinó» oposa dues idees després d'una negació."
+   "explanation": "«sinó» oposa dues idees després d'una negació.",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_m010",
@@ -4225,7 +4757,9 @@
     "Sino"
    ],
    "correct": 0,
-   "explanation": "«si no» = condició (si) + negació (no)."
+   "explanation": "«si no» = condició (si) + negació (no).",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_m011",
@@ -4240,7 +4774,9 @@
     "doncs"
    ],
    "correct": 0,
-   "explanation": "«bueno» és un castellanisme; diem «bé» o «doncs»."
+   "explanation": "«bueno» és un castellanisme; diem «bé» o «doncs».",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_m012",
@@ -4255,7 +4791,9 @@
     "Hem que estudiar més."
    ],
    "correct": 1,
-   "explanation": "L'obligació s'expressa amb «haver de»."
+   "explanation": "L'obligació s'expressa amb «haver de».",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l7_m013",
@@ -4270,7 +4808,9 @@
     "Uns preferixen; la mar altres, la muntanya."
    ],
    "correct": 2,
-   "explanation": "El punt i coma separa dues idees relacionades; la coma marca el verb omés."
+   "explanation": "El punt i coma separa dues idees relacionades; la coma marca el verb omés.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l7_m014",
@@ -4285,7 +4825,9 @@
     "Benvolguda Marta: t'escric per a contar-te una cosa."
    ],
    "correct": 3,
-   "explanation": "Darrere de la salutació d'una carta van dos punts."
+   "explanation": "Darrere de la salutació d'una carta van dos punts.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l7_m015",
@@ -4300,7 +4842,9 @@
     "fàcilmènt"
    ],
    "correct": 0,
-   "explanation": "Els adverbis en -ment mantenen l'accent de l'adjectiu: fàcil → fàcilment."
+   "explanation": "Els adverbis en -ment mantenen l'accent de l'adjectiu: fàcil → fàcilment.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_m016",
@@ -4315,7 +4859,9 @@
     "aventures"
    ],
    "correct": 0,
-   "explanation": "El que agrada (els llibres) és el subjecte: concorda amb «agraden»."
+   "explanation": "El que agrada (els llibres) és el subjecte: concorda amb «agraden».",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l7_m017",
@@ -4330,7 +4876,9 @@
     "estudia Medicina"
    ],
    "correct": 3,
-   "explanation": "El predicat és el que es diu del subjecte."
+   "explanation": "El predicat és el que es diu del subjecte.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_m018",
@@ -4345,7 +4893,9 @@
     "Exclamativa"
    ],
    "correct": 1,
-   "explanation": "Expressa un desig."
+   "explanation": "Expressa un desig.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_m019",
@@ -4360,7 +4910,9 @@
     "Agafa-li."
    ],
    "correct": 1,
-   "explanation": "La pilota (femení singular, CD) → la; amb l'imperatiu va darrere: agafa-la."
+   "explanation": "La pilota (femení singular, CD) → la; amb l'imperatiu va darrere: agafa-la.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l7_m020",
@@ -4375,7 +4927,9 @@
     "Porta-ho el llibre."
    ],
    "correct": 0,
-   "explanation": "Al teu germà és complement indirecte: li."
+   "explanation": "Al teu germà és complement indirecte: li.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l7_m021",
@@ -4390,7 +4944,9 @@
     "orella"
    ],
    "correct": 0,
-   "explanation": "hivern porta h inicial, que no sona."
+   "explanation": "hivern porta h inicial, que no sona.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_m022",
@@ -4405,7 +4961,9 @@
     "excel·lent"
    ],
    "correct": 3,
-   "explanation": "excel·lent s'escriu amb x i ela geminada."
+   "explanation": "excel·lent s'escriu amb x i ela geminada.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_o001",
@@ -4431,7 +4989,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "No és veritat, sinó una exageració."
+   "explanation": "No és veritat, sinó una exageració.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_o002",
@@ -4457,7 +5017,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Hem d'arribar a l'hora a classe."
+   "explanation": "Hem d'arribar a l'hora a classe.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_o003",
@@ -4481,7 +5043,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Uns llegien; altres, escoltaven música."
+   "explanation": "Uns llegien; altres, escoltaven música.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_o004",
@@ -4505,7 +5069,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Si no estudies, no aprovaràs."
+   "explanation": "Si no estudies, no aprovaràs.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_o005",
@@ -4533,7 +5099,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Ells són de Gandia i tenen son."
+   "explanation": "Ells són de Gandia i tenen son.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "ca_escritura_l7_w001",
@@ -4545,7 +5113,9 @@
    "correct": 0,
    "answer": "Hem d'estudiar.",
    "hint": "Obligació amb «haver de»",
-   "explanation": "L'obligació s'expressa amb «haver de»."
+   "explanation": "L'obligació s'expressa amb «haver de».",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l7_w002",
@@ -4560,7 +5130,9 @@
    "explanation": "el llapis → 'l: agafa'l.",
    "acceptableAnswers": [
     "Agafa-lo."
-   ]
+   ],
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_w003",
@@ -4572,7 +5144,9 @@
    "correct": 0,
    "answer": "fàcilment",
    "hint": "Conserva l'accent",
-   "explanation": "fàcil → fàcilment."
+   "explanation": "fàcil → fàcilment.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_w004",
@@ -4587,7 +5161,9 @@
    "explanation": "«bueno» és un castellanisme; diem «bé».",
    "acceptableAnswers": [
     "d'acord"
-   ]
+   ],
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l7_d001",
@@ -4601,7 +5177,9 @@
    "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "Ella té dos germans i molta son."
+   "word": "Ella té dos germans i molta son.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l7_d002",
@@ -4615,7 +5193,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "No és fàcil, sinó molt complicat."
+   "word": "No és fàcil, sinó molt complicat.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l7_d003",
@@ -4629,7 +5209,9 @@
    "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "L'herba estava humida després de la tempesta."
+   "word": "L'herba estava humida després de la tempesta.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l7_d004",
@@ -4643,7 +5225,9 @@
    "hint": "Té 8 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "Saps per què es va suspendre el partit?"
+   "word": "Saps per què es va suspendre el partit?",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l8_m001",
@@ -4658,7 +5242,9 @@
     "Ho vaig."
    ],
    "correct": 2,
-   "explanation": "Els complements de lloc (a València) se substituïxen per «hi»."
+   "explanation": "Els complements de lloc (a València) se substituïxen per «hi».",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_m002",
@@ -4673,7 +5259,9 @@
     "Hi vinc."
    ],
    "correct": 0,
-   "explanation": "Els complements introduïts per «de» se substituïxen per «en»."
+   "explanation": "Els complements introduïts per «de» se substituïxen per «en».",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_m003",
@@ -4688,7 +5276,9 @@
     "Hi sé."
    ],
    "correct": 0,
-   "explanation": "Una oració completa com a CD se substituïx per «ho»."
+   "explanation": "Una oració completa com a CD se substituïx per «ho».",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_m004",
@@ -4703,7 +5293,9 @@
     "les"
    ],
    "correct": 1,
-   "explanation": "«en» substituïx un nom quan indiquem una quantitat."
+   "explanation": "«en» substituïx un nom quan indiquem una quantitat.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_m005",
@@ -4718,7 +5310,9 @@
     "Va eixir de casa corrent."
    ],
    "correct": 3,
-   "explanation": "El gerundi expressa una acció simultània, no posterior."
+   "explanation": "El gerundi expressa una acció simultània, no posterior.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_m006",
@@ -4733,7 +5327,9 @@
     "Has que estudiar més."
    ],
    "correct": 0,
-   "explanation": "Obligació: «haver de» + infinitiu. «Deure» + infinitiu expressa probabilitat."
+   "explanation": "Obligació: «haver de» + infinitiu. «Deure» + infinitiu expressa probabilitat.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l8_m007",
@@ -4748,7 +5344,9 @@
     "Deuen ser les huit."
    ],
    "correct": 3,
-   "explanation": "«deure» + infinitiu expressa suposició."
+   "explanation": "«deure» + infinitiu expressa suposició.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_m008",
@@ -4763,7 +5361,9 @@
     "ONU"
    ],
    "correct": 3,
-   "explanation": "Les sigles s'escriuen en majúscula i sense punts."
+   "explanation": "Les sigles s'escriuen en majúscula i sense punts.",
+   "skill": "esc_punct",
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_m009",
@@ -4778,7 +5378,9 @@
     "La paraula «guai» és col·loquial."
    ],
    "correct": 3,
-   "explanation": "Les cometes poden marcar una paraula de la qual es parla."
+   "explanation": "Les cometes poden marcar una paraula de la qual es parla.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l8_m010",
@@ -4793,7 +5395,9 @@
     "Si, plou ens quedarem a casa."
    ],
    "correct": 1,
-   "explanation": "Quan la condició va davant, se separa amb una coma."
+   "explanation": "Quan la condició va davant, se separa amb una coma.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l8_m011",
@@ -4808,7 +5412,9 @@
     "espectador"
    ],
    "correct": 3,
-   "explanation": "espectador s'escriu amb s."
+   "explanation": "espectador s'escriu amb s.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_m012",
@@ -4823,7 +5429,9 @@
     "excepció"
    ],
    "correct": 3,
-   "explanation": "excepció porta xc i accent."
+   "explanation": "excepció porta xc i accent.",
+   "skill": "esc_accents",
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_m013",
@@ -4838,7 +5446,9 @@
     "Vaig estudiar molt."
    ],
    "correct": 2,
-   "explanation": "Té dos verbs conjugats units per «però»."
+   "explanation": "Té dos verbs conjugats units per «però».",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l8_m014",
@@ -4853,7 +5463,9 @@
     "Disjuntiva (elecció)"
    ],
    "correct": 2,
-   "explanation": "«però» oposa dues idees."
+   "explanation": "«però» oposa dues idees.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_m015",
@@ -4868,7 +5480,9 @@
     "Li prego que em disculpe."
    ],
    "correct": 3,
-   "explanation": "«Li prego que...» és propi d'un registre formal."
+   "explanation": "«Li prego que...» és propi d'un registre formal.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_m016",
@@ -4883,7 +5497,9 @@
     "en cuant a"
    ],
    "correct": 0,
-   "explanation": "«En quant a» és un castellanisme; diem «pel que fa a» o «quant a»."
+   "explanation": "«En quant a» és un castellanisme; diem «pel que fa a» o «quant a».",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_m017",
@@ -4898,7 +5514,9 @@
     "així doncs"
    ],
    "correct": 0,
-   "explanation": "«tanmateix» equival a «però, no obstant»."
+   "explanation": "«tanmateix» equival a «però, no obstant».",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_m018",
@@ -4913,7 +5531,9 @@
     "d'acord"
    ],
    "correct": 3,
-   "explanation": "«d'acord»: la preposició s'apostrofa davant de vocal."
+   "explanation": "«d'acord»: la preposició s'apostrofa davant de vocal.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_m019",
@@ -4928,7 +5548,9 @@
     "Men vaig."
    ],
    "correct": 0,
-   "explanation": "El verb és «anar-se'n»: me'n vaig."
+   "explanation": "El verb és «anar-se'n»: me'n vaig.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_m020",
@@ -4943,7 +5565,9 @@
     "assebentar-se"
    ],
    "correct": 1,
-   "explanation": "«enterar-se» és un castellanisme; diem «assabentar-se»."
+   "explanation": "«enterar-se» és un castellanisme; diem «assabentar-se».",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_m021",
@@ -4958,7 +5582,9 @@
     "Ens vam adonar que plovia."
    ],
    "correct": 3,
-   "explanation": "«adonar-se» és la forma genuïna."
+   "explanation": "«adonar-se» és la forma genuïna.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l8_m022",
@@ -4973,7 +5599,9 @@
     "Fa tres anys que vivo ací."
    ],
    "correct": 2,
-   "explanation": "La primera persona de viure és «visc»."
+   "explanation": "La primera persona de viure és «visc».",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l8_o001",
@@ -5001,7 +5629,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Hi vaig cada dissabte amb la família."
+   "explanation": "Hi vaig cada dissabte amb la família.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_o002",
@@ -5027,7 +5657,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Deuen ser les huit i mitja."
+   "explanation": "Deuen ser les huit i mitja.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_o003",
@@ -5055,7 +5687,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Vaig estudiar molt, però no vaig aprovar."
+   "explanation": "Vaig estudiar molt, però no vaig aprovar.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_o004",
@@ -5083,7 +5717,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Me'n vaig a casa perquè és tard."
+   "explanation": "Me'n vaig a casa perquè és tard.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l8_o005",
@@ -5115,7 +5751,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Pel que fa a l'excursió, eixirem a les nou."
+   "explanation": "Pel que fa a l'excursió, eixirem a les nou.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "ca_escritura_l8_w001",
@@ -5127,7 +5765,9 @@
    "correct": 0,
    "answer": "Hi vaig.",
    "hint": "Pronom de lloc",
-   "explanation": "a l'institut → hi."
+   "explanation": "a l'institut → hi.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_w002",
@@ -5142,7 +5782,9 @@
    "explanation": "«En quant a» és un castellanisme.",
    "acceptableAnswers": [
     "quant a"
-   ]
+   ],
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_w003",
@@ -5154,7 +5796,9 @@
    "correct": 0,
    "answer": "UE",
    "hint": "Dues lletres en majúscula",
-   "explanation": "Les sigles van en majúscula i sense punts."
+   "explanation": "Les sigles van en majúscula i sense punts.",
+   "skill": "esc_punct",
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_w004",
@@ -5166,7 +5810,9 @@
    "correct": 0,
    "answer": "espectacle",
    "hint": "S'escriu amb s",
-   "explanation": "espectacle s'escriu amb s, com espectador."
+   "explanation": "espectacle s'escriu amb s, com espectador.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l8_d001",
@@ -5180,7 +5826,9 @@
    "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "Hi vam anar dissabte amb els amics."
+   "word": "Hi vam anar dissabte amb els amics.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l8_d002",
@@ -5194,7 +5842,9 @@
    "hint": "Té 12 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "Li vam dir a la professora que no havíem fet els deures."
+   "word": "Li vam dir a la professora que no havíem fet els deures.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l8_d003",
@@ -5208,7 +5858,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "L'espectacle va ser una autèntica excepció."
+   "word": "L'espectacle va ser una autèntica excepció.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l8_d004",
@@ -5222,7 +5874,9 @@
    "hint": "Té 9 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "Deuen ser més de les deu de la nit."
+   "word": "Deuen ser més de les deu de la nit.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l9_m001",
@@ -5237,7 +5891,9 @@
     "Estic segur en que vindrà."
    ],
    "correct": 1,
-   "explanation": "Davant de la conjunció «que», la preposició «de» desapareix."
+   "explanation": "Davant de la conjunció «que», la preposició «de» desapareix.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_m002",
@@ -5252,7 +5908,9 @@
     "M'alegre que hages aprovat."
    ],
    "correct": 3,
-   "explanation": "Davant de «que», la preposició cau: m'alegre que..."
+   "explanation": "Davant de «que», la preposició cau: m'alegre que...",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l9_m003",
@@ -5267,7 +5925,9 @@
     "Ho vaig calcular de grosso modo."
    ],
    "correct": 1,
-   "explanation": "És «grosso modo», sense la preposició «a»."
+   "explanation": "És «grosso modo», sense la preposició «a».",
+   "skill": "esc_confusables",
+   "step": 3
   },
   {
    "id": "ca_escritura_l9_m004",
@@ -5282,7 +5942,9 @@
     "Cal prevere les despeses."
    ],
    "correct": 2,
-   "explanation": "preveure = pre + veure."
+   "explanation": "preveure = pre + veure.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "ca_escritura_l9_m005",
@@ -5297,7 +5959,9 @@
     "Adverbial de lloc"
    ],
    "correct": 0,
-   "explanation": "Funciona com un substantiu: «Vull això»."
+   "explanation": "Funciona com un substantiu: «Vull això».",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_m006",
@@ -5312,7 +5976,9 @@
     "Adjectiva o de relatiu"
    ],
    "correct": 3,
-   "explanation": "Complementa el substantiu «llibre», com un adjectiu."
+   "explanation": "Complementa el substantiu «llibre», com un adjectiu.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_m007",
@@ -5327,7 +5993,9 @@
     "Finalitat"
    ],
    "correct": 1,
-   "explanation": "«encara que» introduïx un obstacle que no impedix l'acció."
+   "explanation": "«encara que» introduïx un obstacle que no impedix l'acció.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_m008",
@@ -5342,7 +6010,9 @@
     "Finalitat"
    ],
    "correct": 3,
-   "explanation": "«per a» + infinitiu expressa l'objectiu."
+   "explanation": "«per a» + infinitiu expressa l'objectiu.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_m009",
@@ -5357,7 +6027,9 @@
     "Els alumnes que van arribar tard no van poder entrar."
    ],
    "correct": 3,
-   "explanation": "No es posa coma entre el subjecte i el verb."
+   "explanation": "No es posa coma entre el subjecte i el verb.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l9_m010",
@@ -5372,7 +6044,9 @@
     "Com afirma, l'autor «la lectura és un viatge»."
    ],
    "correct": 1,
-   "explanation": "La cita va entre cometes i el punt es posa fora."
+   "explanation": "La cita va entre cometes i el punt es posa fora.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "ca_escritura_l9_m011",
@@ -5387,7 +6061,9 @@
     "per consegüent"
    ],
    "correct": 3,
-   "explanation": "«per consegüent» introduïx una conseqüència."
+   "explanation": "«per consegüent» introduïx una conseqüència.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_m012",
@@ -5402,7 +6078,9 @@
     "tanmateix"
    ],
    "correct": 1,
-   "explanation": "«és a dir» explica d'una altra manera el que s'ha dit."
+   "explanation": "«és a dir» explica d'una altra manera el que s'ha dit.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_m013",
@@ -5417,7 +6095,9 @@
     "és a dir"
    ],
    "correct": 0,
-   "explanation": "«malgrat que» introduïx un obstacle que no impedix l'acció."
+   "explanation": "«malgrat que» introduïx un obstacle que no impedix l'acció.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_m014",
@@ -5432,7 +6112,9 @@
     "Per casualitat"
    ],
    "correct": 0,
-   "explanation": "«a priori» vol dir «per endavant»."
+   "explanation": "«a priori» vol dir «per endavant».",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_m015",
@@ -5447,7 +6129,9 @@
     "No ho va fer per diners sinó, per amistat."
    ],
    "correct": 2,
-   "explanation": "Després d'una negació, «sinó» introduïx la idea correcta."
+   "explanation": "Després d'una negació, «sinó» introduïx la idea correcta.",
+   "skill": "esc_confusables",
+   "step": 3
   },
   {
    "id": "ca_escritura_l9_m016",
@@ -5462,7 +6146,9 @@
     "Este mètode és més bo millor."
    ],
    "correct": 1,
-   "explanation": "«millor» ja és comparatiu: no admet «més»."
+   "explanation": "«millor» ja és comparatiu: no admet «més».",
+   "skill": "esc_confusables",
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_m017",
@@ -5477,7 +6163,9 @@
     "El 80 per cent dels enquestats van respondre tots."
    ],
    "correct": 0,
-   "explanation": "El símbol % se separa del número amb un espai."
+   "explanation": "El símbol % se separa del número amb un espai.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "ca_escritura_l9_m018",
@@ -5492,7 +6180,9 @@
     "Ja"
    ],
    "correct": 3,
-   "explanation": "«ja» s'escriu amb j."
+   "explanation": "«ja» s'escriu amb j.",
+   "skill": "esc_letters",
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_m019",
@@ -5507,7 +6197,9 @@
     "exhaustiv"
    ],
    "correct": 0,
-   "explanation": "exhaustiu porta x i h."
+   "explanation": "exhaustiu porta x i h.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_m020",
@@ -5522,7 +6214,9 @@
     "Per acabar, vull donar les gràcies."
    ],
    "correct": 3,
-   "explanation": "L'infinitiu no pot ser el verb principal d'una oració independent."
+   "explanation": "L'infinitiu no pot ser el verb principal d'una oració independent.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "ca_escritura_l9_o001",
@@ -5550,7 +6244,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Encara que ploga, el partit es jugarà."
+   "explanation": "Encara que ploga, el partit es jugarà.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_o002",
@@ -5580,7 +6276,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "El llibre que em vas deixar és magnífic."
+   "explanation": "El llibre que em vas deixar és magnífic.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_o003",
@@ -5608,7 +6306,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Per consegüent, hem de canviar de pla."
+   "explanation": "Per consegüent, hem de canviar de pla.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_o004",
@@ -5640,7 +6340,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "No ho va fer per diners, sinó per amistat."
+   "explanation": "No ho va fer per diners, sinó per amistat.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_o005",
@@ -5664,7 +6366,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Estic segur que ho aconseguirem."
+   "explanation": "Estic segur que ho aconseguirem.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_w001",
@@ -5676,7 +6380,9 @@
    "correct": 0,
    "answer": "Estic segur que vindrà.",
    "hint": "Sobra una paraula",
-   "explanation": "Davant de «que», la preposició «de» cau."
+   "explanation": "Davant de «que», la preposició «de» cau.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_w002",
@@ -5688,7 +6394,9 @@
    "correct": 0,
    "answer": "Este mètode és millor.",
    "hint": "Sobra una paraula",
-   "explanation": "«millor» ja és comparatiu."
+   "explanation": "«millor» ja és comparatiu.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_w003",
@@ -5700,7 +6408,9 @@
    "correct": 0,
    "answer": "grosso modo",
    "hint": "Sobra la preposició",
-   "explanation": "L'expressió llatina és «grosso modo»."
+   "explanation": "L'expressió llatina és «grosso modo».",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "ca_escritura_l9_w004",
@@ -5712,7 +6422,9 @@
    "correct": 0,
    "answer": "Ens vam assabentar ahir.",
    "hint": "Un verb genuí",
-   "explanation": "«enterar-se» és un castellanisme."
+   "explanation": "«enterar-se» és un castellanisme.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_d001",
@@ -5726,7 +6438,9 @@
    "hint": "Té 7 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "Encara no sabem què passarà; tanmateix, continuarem."
+   "word": "Encara no sabem què passarà; tanmateix, continuarem.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l9_d002",
@@ -5740,7 +6454,9 @@
    "hint": "Té 5 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "Estic segur que ho aconseguirem."
+   "word": "Estic segur que ho aconseguirem.",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_escritura_l9_d003",
@@ -5754,7 +6470,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "Només vull que m'expliques el perquè."
+   "word": "Només vull que m'expliques el perquè.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_escritura_l9_d004",
@@ -5768,7 +6486,9 @@
    "hint": "Té 6 paraules",
    "explanation": "Recorda la majúscula del principi, els accents i el punt final.",
    "dictation": true,
-   "word": "L'exhibició va ser esplèndida i exuberant."
+   "word": "L'exhibició va ser esplèndida i exuberant.",
+   "skill": "dictation",
+   "step": 3
   }
  ]
 }

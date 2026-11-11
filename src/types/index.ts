@@ -22,6 +22,10 @@ export interface Exercise {
   hint?: string;               // Optional hint shown to the student
   acceptableAnswers?: string[]; // Alternative correct answers (case-insensitive)
   dictation?: boolean;          // The word/sentence is heard, not shown
+  // Adaptive fields (added by scripts/content/tag_items.py)
+  skill?: string;               // Specific skill it trains (see src/data/skills.ts)
+  step?: 1 | 2 | 3;             // Easy, middle or challenge inside its level
+  preview?: boolean;            // Picked from the next level to ease the jump (set at runtime)
 }
 
 export type ModuleId =
@@ -77,7 +81,8 @@ export interface SessionResult {
   answers: AnswerResult[];
   completed_at: string;
   avg_time_per_exercise?: number; // ms average per exercise
-  mode?: 'normal' | 'review' | 'exam' | 'dictation' | 'reading' | 'daily' | 'srs'; // session mode
+  mode?: 'normal' | 'review' | 'exam' | 'dictation' | 'reading' | 'daily' | 'srs' | 'skill'; // session mode
+  skill_id?: string; // trained skill, when mode === 'skill'
   reading_id?: string; // guided reading text, when mode === 'reading'
 }
 

@@ -13,7 +13,9 @@
     "the Cat is black."
    ],
    "correct": 0,
-   "explanation": "A sentence starts with a capital letter."
+   "explanation": "A sentence starts with a capital letter.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_m002",
@@ -28,7 +30,9 @@
     "sAm"
    ],
    "correct": 0,
-   "explanation": "Names start with a capital letter."
+   "explanation": "Names start with a capital letter.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_m003",
@@ -43,7 +47,9 @@
     "A full stop (.)"
    ],
    "correct": 3,
-   "explanation": "A telling sentence ends with a full stop."
+   "explanation": "A telling sentence ends with a full stop.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_m004",
@@ -58,7 +64,9 @@
     "A full stop (.)"
    ],
    "correct": 1,
-   "explanation": "Questions end with a question mark."
+   "explanation": "Questions end with a question mark.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_m005",
@@ -73,7 +81,9 @@
     "Can i Play?"
    ],
    "correct": 0,
-   "explanation": "The word I is always a capital letter."
+   "explanation": "The word I is always a capital letter.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_m006",
@@ -88,7 +98,9 @@
     "a"
    ],
    "correct": 0,
-   "explanation": "Use 'an' before a vowel sound: an apple."
+   "explanation": "Use 'an' before a vowel sound: an apple.",
+   "skill": "esc_confusables",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_m007",
@@ -103,7 +115,9 @@
     "an"
    ],
    "correct": 1,
-   "explanation": "Use 'a' before a consonant sound: a dog."
+   "explanation": "Use 'a' before a consonant sound: a dog.",
+   "skill": "esc_confusables",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_m008",
@@ -118,7 +132,9 @@
     "cates"
    ],
    "correct": 1,
-   "explanation": "Most words just add -s: cats."
+   "explanation": "Most words just add -s: cats.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_m009",
@@ -133,7 +149,9 @@
     "dogz"
    ],
    "correct": 1,
-   "explanation": "Add -s: dogs."
+   "explanation": "Add -s: dogs.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_m010",
@@ -148,7 +166,9 @@
     "Mundy"
    ],
    "correct": 1,
-   "explanation": "Days of the week start with a capital letter."
+   "explanation": "Days of the week start with a capital letter.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_m011",
@@ -163,7 +183,9 @@
     "I like red apples?"
    ],
    "correct": 1,
-   "explanation": "Capital letter at the start and full stop at the end."
+   "explanation": "Capital letter at the start and full stop at the end.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_m012",
@@ -178,7 +200,9 @@
     "have"
    ],
    "correct": 1,
-   "explanation": "He/she/it has."
+   "explanation": "He/she/it has.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_m013",
@@ -193,7 +217,9 @@
     "is"
    ],
    "correct": 2,
-   "explanation": "They are."
+   "explanation": "They are.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_m014",
@@ -208,7 +234,9 @@
     "are"
    ],
    "correct": 2,
-   "explanation": "I am."
+   "explanation": "I am.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_m015",
@@ -223,7 +251,9 @@
     "boxes"
    ],
    "correct": 3,
-   "explanation": "Words ending in x add -es: boxes."
+   "explanation": "Words ending in x add -es: boxes.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_m016",
@@ -238,7 +268,9 @@
     "buss"
    ],
    "correct": 1,
-   "explanation": "Words ending in s add -es: buses."
+   "explanation": "Words ending in s add -es: buses.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_m017",
@@ -253,7 +285,9 @@
     "My bag is here."
    ],
    "correct": 1,
-   "explanation": "It asks something and ends with ?"
+   "explanation": "It asks something and ends with ?",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_m018",
@@ -268,7 +302,9 @@
     "at"
    ],
    "correct": 2,
-   "explanation": "The cat sat on the mat."
+   "explanation": "The cat sat on the mat.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_m019",
@@ -283,7 +319,9 @@
     "said"
    ],
    "correct": 3,
-   "explanation": "'said' is a tricky word: s-a-i-d."
+   "explanation": "'said' is a tricky word: s-a-i-d.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_m020",
@@ -298,7 +336,9 @@
     "tthe"
    ],
    "correct": 2,
-   "explanation": "t-h-e."
+   "explanation": "t-h-e.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_m021",
@@ -313,7 +353,9 @@
     "was"
    ],
    "correct": 3,
-   "explanation": "'was' is a tricky word: w-a-s."
+   "explanation": "'was' is a tricky word: w-a-s.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_m022",
@@ -328,7 +370,9 @@
     "tey"
    ],
    "correct": 1,
-   "explanation": "t-h-e-y."
+   "explanation": "t-h-e-y.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_m023",
@@ -343,7 +387,9 @@
     "come"
    ],
    "correct": 3,
-   "explanation": "'come' is a tricky word: c-o-m-e."
+   "explanation": "'come' is a tricky word: c-o-m-e.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_m024",
@@ -358,7 +404,9 @@
     "go"
    ],
    "correct": 1,
-   "explanation": "The past of go is went."
+   "explanation": "The past of go is went.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_w001",
@@ -371,7 +419,9 @@
    "answer": "cats",
    "hint": "Add one letter",
    "explanation": "cat → cats",
-   "word": "cat"
+   "word": "cat",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_w002",
@@ -384,7 +434,9 @@
    "answer": "pens",
    "hint": "Add one letter",
    "explanation": "pen → pens",
-   "word": "pen"
+   "word": "pen",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_w003",
@@ -397,7 +449,9 @@
    "answer": "foxes",
    "hint": "Add two letters",
    "explanation": "fox → foxes",
-   "word": "fox"
+   "word": "fox",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_w004",
@@ -410,7 +464,9 @@
    "answer": "buses",
    "hint": "Add two letters",
    "explanation": "bus → buses",
-   "word": "bus"
+   "word": "bus",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_w005",
@@ -423,7 +479,9 @@
    "answer": "frogs",
    "hint": "Add one letter",
    "explanation": "frog → frogs",
-   "word": "frog"
+   "word": "frog",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_w006",
@@ -436,7 +494,9 @@
    "answer": "dishes",
    "hint": "Words ending in sh add -es",
    "explanation": "dish → dishes",
-   "word": "dish"
+   "word": "dish",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_d001",
@@ -450,7 +510,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The cat is on the mat."
+   "word": "The cat is on the mat.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_d002",
@@ -464,7 +526,9 @@
    "hint": "It has 7 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "I can see a big red bus."
+   "word": "I can see a big red bus.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_d003",
@@ -478,7 +542,9 @@
    "hint": "It has 5 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "My dog likes to run."
+   "word": "My dog likes to run.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_d004",
@@ -492,7 +558,9 @@
    "hint": "It has 5 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "We go to the park."
+   "word": "We go to the park.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_d005",
@@ -506,7 +574,9 @@
    "hint": "It has 5 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The sun is hot today."
+   "word": "The sun is hot today.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_d006",
@@ -520,7 +590,9 @@
    "hint": "It has 5 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "I have a pet fish."
+   "word": "I have a pet fish.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_d007",
@@ -534,7 +606,9 @@
    "hint": "It has 5 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "Mum has a new hat."
+   "word": "Mum has a new hat.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_d008",
@@ -548,7 +622,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The pig is in the mud."
+   "word": "The pig is in the mud.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l1_o001",
@@ -570,7 +646,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "The dog is big."
+   "explanation": "The dog is big.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_o002",
@@ -592,7 +670,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "I like my cat."
+   "explanation": "I like my cat.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_o003",
@@ -614,7 +694,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "We can run fast."
+   "explanation": "We can run fast.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l1_o004",
@@ -636,7 +718,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "The sun is hot."
+   "explanation": "The sun is hot.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_o005",
@@ -658,7 +742,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "My hat is red."
+   "explanation": "My hat is red.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l1_o006",
@@ -680,7 +766,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "I see a bird."
+   "explanation": "I see a bird.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_m001",
@@ -695,7 +783,9 @@
     "toe"
    ],
    "correct": 0,
-   "explanation": "'to' goes before a verb: to go."
+   "explanation": "'to' goes before a verb: to go.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_m002",
@@ -710,7 +800,9 @@
     "tow"
    ],
    "correct": 1,
-   "explanation": "'two' is the number 2."
+   "explanation": "'two' is the number 2.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_m003",
@@ -725,7 +817,9 @@
     "tow"
    ],
    "correct": 1,
-   "explanation": "'too' means also."
+   "explanation": "'too' means also.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_m004",
@@ -740,7 +834,9 @@
     "baby's"
    ],
    "correct": 1,
-   "explanation": "Consonant + y: change y to i and add -es."
+   "explanation": "Consonant + y: change y to i and add -es.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_m005",
@@ -755,7 +851,9 @@
     "dishs"
    ],
    "correct": 2,
-   "explanation": "Words ending in sh add -es."
+   "explanation": "Words ending in sh add -es.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_m006",
@@ -770,7 +868,9 @@
     "toys"
    ],
    "correct": 3,
-   "explanation": "Vowel + y: just add -s."
+   "explanation": "Vowel + y: just add -s.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_m007",
@@ -785,7 +885,9 @@
     "churchs"
    ],
    "correct": 0,
-   "explanation": "Words ending in ch add -es."
+   "explanation": "Words ending in ch add -es.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_m008",
@@ -800,7 +902,9 @@
     "jumping"
    ],
    "correct": 2,
-   "explanation": "Add -ed: jumped."
+   "explanation": "Add -ed: jumped.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_m009",
@@ -815,7 +919,9 @@
     "played"
    ],
    "correct": 3,
-   "explanation": "Add -ed: played."
+   "explanation": "Add -ed: played.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_m010",
@@ -830,7 +936,9 @@
     "hoped"
    ],
    "correct": 2,
-   "explanation": "Short vowel + one consonant: double it, then add -ed."
+   "explanation": "Short vowel + one consonant: double it, then add -ed.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_m011",
@@ -845,7 +953,9 @@
     "sawed"
    ],
    "correct": 0,
-   "explanation": "The past of see is saw."
+   "explanation": "The past of see is saw.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_m012",
@@ -860,7 +970,9 @@
     "eated"
    ],
    "correct": 1,
-   "explanation": "The past of eat is ate."
+   "explanation": "The past of eat is ate.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_m013",
@@ -875,7 +987,9 @@
     "We went to london in may."
    ],
    "correct": 0,
-   "explanation": "Places and months start with a capital letter."
+   "explanation": "Places and months start with a capital letter.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_m014",
@@ -890,7 +1004,9 @@
     "mine"
    ],
    "correct": 0,
-   "explanation": "'my ball'."
+   "explanation": "'my ball'.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_m015",
@@ -905,7 +1021,9 @@
     "my"
    ],
    "correct": 3,
-   "explanation": "Use 'my' before a noun."
+   "explanation": "Use 'my' before a noun.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_m016",
@@ -920,7 +1038,9 @@
     "The dog wagged its' tail."
    ],
    "correct": 2,
-   "explanation": "'its' (no apostrophe) means belonging to it."
+   "explanation": "'its' (no apostrophe) means belonging to it.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_m017",
@@ -935,7 +1055,9 @@
     "don't"
    ],
    "correct": 3,
-   "explanation": "The apostrophe replaces the missing o."
+   "explanation": "The apostrophe replaces the missing o.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_m018",
@@ -950,7 +1072,9 @@
     "Iam"
    ],
    "correct": 2,
-   "explanation": "The apostrophe replaces the missing a."
+   "explanation": "The apostrophe replaces the missing a.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_m019",
@@ -965,7 +1089,9 @@
     "can't"
    ],
    "correct": 3,
-   "explanation": "can not → can't."
+   "explanation": "can not → can't.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_m020",
@@ -980,7 +1106,9 @@
     "but"
    ],
    "correct": 1,
-   "explanation": "'so' tells us the result."
+   "explanation": "'so' tells us the result.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_m021",
@@ -995,7 +1123,9 @@
     "so"
    ],
    "correct": 0,
-   "explanation": "'but' shows a contrast."
+   "explanation": "'but' shows a contrast.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_m022",
@@ -1010,7 +1140,9 @@
     "because"
    ],
    "correct": 3,
-   "explanation": "be-cause."
+   "explanation": "be-cause.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_m023",
@@ -1025,7 +1157,9 @@
     "frend"
    ],
    "correct": 2,
-   "explanation": "fr-i-e-n-d."
+   "explanation": "fr-i-e-n-d.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_m024",
@@ -1040,7 +1174,9 @@
     "school"
    ],
    "correct": 3,
-   "explanation": "'ch' sounds /k/ in school."
+   "explanation": "'ch' sounds /k/ in school.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_w001",
@@ -1053,7 +1189,9 @@
    "answer": "babies",
    "hint": "Change the y",
    "explanation": "baby → babies",
-   "word": "baby"
+   "word": "baby",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_w002",
@@ -1066,7 +1204,9 @@
    "answer": "parties",
    "hint": "Change the y",
    "explanation": "party → parties",
-   "word": "party"
+   "word": "party",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_w003",
@@ -1079,7 +1219,9 @@
    "answer": "keys",
    "hint": "Vowel + y: just add -s",
    "explanation": "key → keys",
-   "word": "key"
+   "word": "key",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_w004",
@@ -1092,7 +1234,9 @@
    "answer": "jumped",
    "hint": "Add -ed",
    "explanation": "jump → jumped",
-   "word": "jump"
+   "word": "jump",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_w005",
@@ -1105,7 +1249,9 @@
    "answer": "stopped",
    "hint": "Double the last letter",
    "explanation": "stop → stopped",
-   "word": "stop"
+   "word": "stop",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_w006",
@@ -1118,7 +1264,9 @@
    "answer": "liked",
    "hint": "It already ends in e",
    "explanation": "like → liked",
-   "word": "like"
+   "word": "like",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_d001",
@@ -1132,7 +1280,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The ship sails on the sea."
+   "word": "The ship sails on the sea.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_d002",
@@ -1146,7 +1296,9 @@
    "hint": "It has 5 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "I had chips for lunch."
+   "word": "I had chips for lunch.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_d003",
@@ -1160,7 +1312,9 @@
    "hint": "It has 7 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "She sang a song with her friend."
+   "word": "She sang a song with her friend.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_d004",
@@ -1174,7 +1328,9 @@
    "hint": "It has 7 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The black duck swims in the pond."
+   "word": "The black duck swims in the pond.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_d005",
@@ -1188,7 +1344,9 @@
    "hint": "It has 5 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "Can you catch the ball?"
+   "word": "Can you catch the ball?",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_d006",
@@ -1202,7 +1360,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "My brother has a green shirt."
+   "word": "My brother has a green shirt.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_d007",
@@ -1216,7 +1376,9 @@
    "hint": "It has 5 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "We played in the snow."
+   "word": "We played in the snow.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_d008",
@@ -1230,7 +1392,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The frog jumped onto a rock."
+   "word": "The frog jumped onto a rock.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l2_o001",
@@ -1256,7 +1420,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "The duck swims in the pond."
+   "explanation": "The duck swims in the pond.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_o002",
@@ -1278,7 +1444,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Can you help me?"
+   "explanation": "Can you help me?",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l2_o003",
@@ -1302,7 +1470,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "She has a black cat."
+   "explanation": "She has a black cat.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_o004",
@@ -1326,7 +1496,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "We had chips for lunch."
+   "explanation": "We had chips for lunch.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_o005",
@@ -1350,7 +1522,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "My friend lives next door."
+   "explanation": "My friend lives next door.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l2_o006",
@@ -1372,7 +1546,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "The frog jumped high."
+   "explanation": "The frog jumped high.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_m001",
@@ -1387,7 +1563,9 @@
     "they're"
    ],
    "correct": 2,
-   "explanation": "'their' means belonging to them."
+   "explanation": "'their' means belonging to them.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_m002",
@@ -1402,7 +1580,9 @@
     "thare"
    ],
    "correct": 2,
-   "explanation": "'there' is a place."
+   "explanation": "'there' is a place.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_m003",
@@ -1417,7 +1597,9 @@
     "Their"
    ],
    "correct": 1,
-   "explanation": "'they're' = they are."
+   "explanation": "'they're' = they are.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_m004",
@@ -1432,7 +1614,9 @@
     "Wear"
    ],
    "correct": 2,
-   "explanation": "'where' asks about a place."
+   "explanation": "'where' asks about a place.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_m005",
@@ -1447,7 +1631,9 @@
     "wear"
    ],
    "correct": 3,
-   "explanation": "'wear' is for clothes."
+   "explanation": "'wear' is for clothes.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_m006",
@@ -1462,7 +1648,9 @@
     "heer"
    ],
    "correct": 2,
-   "explanation": "You hear with your ear: h-EAR."
+   "explanation": "You hear with your ear: h-EAR.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_m007",
@@ -1477,7 +1665,9 @@
     "heer"
    ],
    "correct": 1,
-   "explanation": "'here' is a place."
+   "explanation": "'here' is a place.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_m008",
@@ -1492,7 +1682,9 @@
     "Wow, that is amazing!"
    ],
    "correct": 3,
-   "explanation": "An exclamation mark shows surprise."
+   "explanation": "An exclamation mark shows surprise.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_m009",
@@ -1507,7 +1699,9 @@
     "I bought, eggs, milk, and, bread."
    ],
    "correct": 2,
-   "explanation": "Commas separate items in a list."
+   "explanation": "Commas separate items in a list.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_m010",
@@ -1522,7 +1716,9 @@
     "\"Let's go, said Mum.\""
    ],
    "correct": 2,
-   "explanation": "Speech marks go around the words that are spoken."
+   "explanation": "Speech marks go around the words that are spoken.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_m011",
@@ -1537,7 +1733,9 @@
     "leafs"
    ],
    "correct": 2,
-   "explanation": "Some words ending in f change to -ves."
+   "explanation": "Some words ending in f change to -ves.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_m012",
@@ -1552,7 +1750,9 @@
     "children"
    ],
    "correct": 3,
-   "explanation": "child → children is irregular."
+   "explanation": "child → children is irregular.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_m013",
@@ -1567,7 +1767,9 @@
     "mouses"
    ],
    "correct": 1,
-   "explanation": "mouse → mice is irregular."
+   "explanation": "mouse → mice is irregular.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_m014",
@@ -1582,7 +1784,9 @@
     "tooths"
    ],
    "correct": 2,
-   "explanation": "tooth → teeth is irregular."
+   "explanation": "tooth → teeth is irregular.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_m015",
@@ -1597,7 +1801,9 @@
     "unnhappy"
    ],
    "correct": 0,
-   "explanation": "un + happy = unhappy (not happy)."
+   "explanation": "un + happy = unhappy (not happy).",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_m016",
@@ -1612,7 +1818,9 @@
     "carefull"
    ],
    "correct": 0,
-   "explanation": "The suffix -ful has only one l."
+   "explanation": "The suffix -ful has only one l.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_m017",
@@ -1627,7 +1835,9 @@
     "makin"
    ],
    "correct": 1,
-   "explanation": "Drop the e before adding -ing."
+   "explanation": "Drop the e before adding -ing.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_m018",
@@ -1642,7 +1852,9 @@
     "swimmimg"
    ],
    "correct": 1,
-   "explanation": "Double the m before -ing."
+   "explanation": "Double the m before -ing.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_m019",
@@ -1657,7 +1869,9 @@
     "beautifull"
    ],
    "correct": 1,
-   "explanation": "beau-ti-ful."
+   "explanation": "beau-ti-ful.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_m020",
@@ -1672,7 +1886,9 @@
     "peopel"
    ],
    "correct": 0,
-   "explanation": "p-e-o-p-l-e."
+   "explanation": "p-e-o-p-l-e.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_m021",
@@ -1687,7 +1903,9 @@
     "culd"
    ],
    "correct": 1,
-   "explanation": "c-o-u-l-d (the l is silent)."
+   "explanation": "c-o-u-l-d (the l is silent).",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_m022",
@@ -1702,7 +1920,9 @@
     "cought"
    ],
    "correct": 2,
-   "explanation": "catch → caught."
+   "explanation": "catch → caught.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_m023",
@@ -1717,7 +1937,9 @@
     "thot"
    ],
    "correct": 1,
-   "explanation": "think → thought."
+   "explanation": "think → thought.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_m024",
@@ -1732,7 +1954,9 @@
     "We was late for school."
    ],
    "correct": 0,
-   "explanation": "We were."
+   "explanation": "We were.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_w001",
@@ -1745,7 +1969,9 @@
    "answer": "leaves",
    "hint": "f changes to v",
    "explanation": "leaf → leaves",
-   "word": "leaf"
+   "word": "leaf",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_w002",
@@ -1758,7 +1984,9 @@
    "answer": "children",
    "hint": "It is irregular",
    "explanation": "child → children",
-   "word": "child"
+   "word": "child",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_w003",
@@ -1771,7 +1999,9 @@
    "answer": "feet",
    "hint": "It is irregular",
    "explanation": "foot → feet",
-   "word": "foot"
+   "word": "foot",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_w004",
@@ -1784,7 +2014,9 @@
    "answer": "caught",
    "hint": "It is irregular",
    "explanation": "catch → caught",
-   "word": "catch"
+   "word": "catch",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_w005",
@@ -1797,7 +2029,9 @@
    "answer": "running",
    "hint": "Double the n",
    "explanation": "run → running",
-   "word": "run"
+   "word": "run",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_w006",
@@ -1810,7 +2044,9 @@
    "answer": "smiling",
    "hint": "Drop the e",
    "explanation": "smile → smiling",
-   "word": "smile"
+   "word": "smile",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_d001",
@@ -1824,7 +2060,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The train leaves at three o'clock."
+   "word": "The train leaves at three o'clock.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_d002",
@@ -1838,7 +2076,9 @@
    "hint": "It has 7 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "We had a picnic by the lake."
+   "word": "We had a picnic by the lake.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_d003",
@@ -1852,7 +2092,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "My friend rode her bike home."
+   "word": "My friend rode her bike home.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_d004",
@@ -1866,7 +2108,9 @@
    "hint": "It has 7 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "There are seven days in a week."
+   "word": "There are seven days in a week.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_d005",
@@ -1880,7 +2124,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The children played on the beach."
+   "word": "The children played on the beach.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_d006",
@@ -1894,7 +2140,9 @@
    "hint": "It has 8 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "I need a coat because it is cold."
+   "word": "I need a coat because it is cold.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_d007",
@@ -1908,7 +2156,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "Where did you put my book?"
+   "word": "Where did you put my book?",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_d008",
@@ -1922,7 +2172,9 @@
    "hint": "It has 7 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The night sky was full of stars."
+   "word": "The night sky was full of stars.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_o001",
@@ -1950,7 +2202,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "We went to the beach on Sunday."
+   "explanation": "We went to the beach on Sunday.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "en_escritura_l3_o002",
@@ -1974,7 +2228,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Where did you find it?"
+   "explanation": "Where did you find it?",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l3_o003",
@@ -2000,7 +2256,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "The children played in the rain."
+   "explanation": "The children played in the rain.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_o004",
@@ -2026,7 +2284,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "My gran makes the best cakes."
+   "explanation": "My gran makes the best cakes.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_o005",
@@ -2052,7 +2312,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "I can hear the train coming."
+   "explanation": "I can hear the train coming.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l3_o006",
@@ -2076,7 +2338,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "They put on their coats."
+   "explanation": "They put on their coats.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_m001",
@@ -2091,7 +2355,9 @@
     "This is Toms' bike."
    ],
    "correct": 0,
-   "explanation": "Tom's = belonging to Tom."
+   "explanation": "Tom's = belonging to Tom.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_m002",
@@ -2106,7 +2372,9 @@
     "the dogs's toys"
    ],
    "correct": 1,
-   "explanation": "Plural ending in s: the apostrophe goes after the s."
+   "explanation": "Plural ending in s: the apostrophe goes after the s.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_m003",
@@ -2121,7 +2389,9 @@
     "Its'"
    ],
    "correct": 0,
-   "explanation": "it's = it is."
+   "explanation": "it's = it is.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_m004",
@@ -2136,7 +2406,9 @@
     "Who's"
    ],
    "correct": 3,
-   "explanation": "who's = who is."
+   "explanation": "who's = who is.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_m005",
@@ -2151,7 +2423,9 @@
     "Who"
    ],
    "correct": 1,
-   "explanation": "'whose' asks who owns something."
+   "explanation": "'whose' asks who owns something.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_m006",
@@ -2166,7 +2440,9 @@
     "yore"
    ],
    "correct": 1,
-   "explanation": "'your' means belonging to you."
+   "explanation": "'your' means belonging to you.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_m007",
@@ -2181,7 +2457,9 @@
     "Yore"
    ],
    "correct": 0,
-   "explanation": "you're = you are."
+   "explanation": "you're = you are.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m008",
@@ -2196,7 +2474,9 @@
     "afect"
    ],
    "correct": 1,
-   "explanation": "'affect' is usually the verb."
+   "explanation": "'affect' is usually the verb.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m009",
@@ -2211,7 +2491,9 @@
     "wan"
    ],
    "correct": 2,
-   "explanation": "'won' is the past of win; 'one' is a number."
+   "explanation": "'won' is the past of win; 'one' is a number.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_m010",
@@ -2226,7 +2508,9 @@
     "bougth"
    ],
    "correct": 1,
-   "explanation": "buy → bought; bring → brought."
+   "explanation": "buy → bought; bring → brought.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m011",
@@ -2241,7 +2525,9 @@
     "bought"
    ],
    "correct": 2,
-   "explanation": "bring → brought."
+   "explanation": "bring → brought.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m012",
@@ -2256,7 +2542,9 @@
     "After lunch we, played football."
    ],
    "correct": 0,
-   "explanation": "Put a comma after an opening phrase."
+   "explanation": "Put a comma after an opening phrase.",
+   "skill": "esc_punct",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_m013",
@@ -2271,7 +2559,9 @@
     "happier"
    ],
    "correct": 2,
-   "explanation": "A noun names a thing or idea: happiness."
+   "explanation": "A noun names a thing or idea: happiness.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_m014",
@@ -2286,7 +2576,9 @@
     "quickness"
    ],
    "correct": 0,
-   "explanation": "Many adverbs end in -ly and tell us how."
+   "explanation": "Many adverbs end in -ly and tell us how.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m015",
@@ -2301,7 +2593,9 @@
     "happly"
    ],
    "correct": 0,
-   "explanation": "Change y to i, then add -ly."
+   "explanation": "Change y to i, then add -ly.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m016",
@@ -2316,7 +2610,9 @@
     "kindness"
    ],
    "correct": 3,
-   "explanation": "kind + ness = kindness."
+   "explanation": "kind + ness = kindness.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m017",
@@ -2331,7 +2627,9 @@
     "dissappear"
    ],
    "correct": 2,
-   "explanation": "dis + appear: one s, two p's."
+   "explanation": "dis + appear: one s, two p's.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m018",
@@ -2346,7 +2644,9 @@
     "mispel"
    ],
    "correct": 1,
-   "explanation": "mis + spell: two s's."
+   "explanation": "mis + spell: two s's.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m019",
@@ -2361,7 +2661,9 @@
     "libary"
    ],
    "correct": 0,
-   "explanation": "li-brar-y: say both r's."
+   "explanation": "li-brar-y: say both r's.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m020",
@@ -2376,7 +2678,9 @@
     "different"
    ],
    "correct": 3,
-   "explanation": "dif-fer-ent."
+   "explanation": "dif-fer-ent.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m021",
@@ -2391,7 +2695,9 @@
     "guvernment"
    ],
    "correct": 0,
-   "explanation": "govern + ment."
+   "explanation": "govern + ment.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_m022",
@@ -2406,7 +2712,9 @@
     "surprize"
    ],
    "correct": 2,
-   "explanation": "sur-prise."
+   "explanation": "sur-prise.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m023",
@@ -2421,7 +2729,9 @@
     "belive"
    ],
    "correct": 1,
-   "explanation": "be-lie-ve: i before e."
+   "explanation": "be-lie-ve: i before e.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_m024",
@@ -2436,7 +2746,9 @@
     "Their are fewer cars today."
    ],
    "correct": 1,
-   "explanation": "Use 'fewer' with things you can count."
+   "explanation": "Use 'fewer' with things you can count.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_w001",
@@ -2449,7 +2761,9 @@
    "answer": "happily",
    "hint": "Change y to i",
    "explanation": "happy → happily",
-   "word": "happy"
+   "word": "happy",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_w002",
@@ -2462,7 +2776,9 @@
    "answer": "sadness",
    "hint": "Just add -ness",
    "explanation": "sad → sadness",
-   "word": "sad"
+   "word": "sad",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_w003",
@@ -2475,7 +2791,9 @@
    "answer": "disagree",
    "hint": "dis + agree",
    "explanation": "agree → disagree",
-   "word": "agree"
+   "word": "agree",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_w004",
@@ -2488,7 +2806,9 @@
    "answer": "misspell",
    "hint": "Keep both s's",
    "explanation": "spell → misspell",
-   "word": "spell"
+   "word": "spell",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_w005",
@@ -2501,7 +2821,9 @@
    "answer": "won't",
    "hint": "It is irregular",
    "explanation": "will not → won't",
-   "word": "will not"
+   "word": "will not",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_w006",
@@ -2514,7 +2836,9 @@
    "answer": "they're",
    "hint": "Use an apostrophe",
    "explanation": "they are → they're",
-   "word": "they are"
+   "word": "they are",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_d001",
@@ -2528,7 +2852,9 @@
    "hint": "It has 8 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The circus came to our town in March."
+   "word": "The circus came to our town in March.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_d002",
@@ -2542,7 +2868,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "My sister's birthday is next Thursday."
+   "word": "My sister's birthday is next Thursday.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_d003",
@@ -2556,7 +2884,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "We couldn't find the key anywhere."
+   "word": "We couldn't find the key anywhere.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_d004",
@@ -2570,7 +2900,9 @@
    "hint": "It has 7 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The thirsty dog drank all the water."
+   "word": "The thirsty dog drank all the water.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_d005",
@@ -2584,7 +2916,9 @@
    "hint": "It has 7 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "Our teacher read us a funny story."
+   "word": "Our teacher read us a funny story.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_d006",
@@ -2598,7 +2932,9 @@
    "hint": "It has 8 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The bird built a nest in the corner."
+   "word": "The bird built a nest in the corner.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_d007",
@@ -2612,7 +2948,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "I thought the film was brilliant."
+   "word": "I thought the film was brilliant.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_d008",
@@ -2626,7 +2964,9 @@
    "hint": "It has 8 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "Turn left at the end of the road."
+   "word": "Turn left at the end of the road.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_o001",
@@ -2654,7 +2994,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "After school, we went to the library."
+   "explanation": "After school, we went to the library.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "en_escritura_l4_o002",
@@ -2680,7 +3022,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "The thirsty horse drank some water."
+   "explanation": "The thirsty horse drank some water.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l4_o003",
@@ -2704,7 +3048,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Tom's brother won the race."
+   "explanation": "Tom's brother won the race.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_o004",
@@ -2728,7 +3074,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "It's going to rain tomorrow."
+   "explanation": "It's going to rain tomorrow.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_o005",
@@ -2750,7 +3098,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Whose bag is this?"
+   "explanation": "Whose bag is this?",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l4_o006",
@@ -2776,7 +3126,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "She walked slowly to the door."
+   "explanation": "She walked slowly to the door.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m001",
@@ -2791,7 +3143,9 @@
     "It was late; we went home."
    ],
    "correct": 3,
-   "explanation": "A semicolon joins two complete, related sentences."
+   "explanation": "A semicolon joins two complete, related sentences.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_m002",
@@ -2806,7 +3160,9 @@
     "You: will need a pen."
    ],
    "correct": 2,
-   "explanation": "A colon can introduce a list."
+   "explanation": "A colon can introduce a list.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_m003",
@@ -2821,7 +3177,9 @@
     "My uncle (who lives in Wales) is a chef."
    ],
    "correct": 3,
-   "explanation": "Brackets hold extra information."
+   "explanation": "Brackets hold extra information.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_m004",
@@ -2836,7 +3194,9 @@
     "advice's"
    ],
    "correct": 0,
-   "explanation": "'advice' is the noun; 'advise' is the verb."
+   "explanation": "'advice' is the noun; 'advise' is the verb.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_m005",
@@ -2851,7 +3211,9 @@
     "advice"
    ],
    "correct": 0,
-   "explanation": "'advise' is the verb."
+   "explanation": "'advise' is the verb.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_m006",
@@ -2866,7 +3228,9 @@
     "effect"
    ],
    "correct": 3,
-   "explanation": "'effect' is usually the noun."
+   "explanation": "'effect' is usually the noun.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m007",
@@ -2881,7 +3245,9 @@
     "accept"
    ],
    "correct": 3,
-   "explanation": "'accept' means to receive."
+   "explanation": "'accept' means to receive.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_m008",
@@ -2896,7 +3262,9 @@
     "excep"
    ],
    "correct": 1,
-   "explanation": "'except' means not including."
+   "explanation": "'except' means not including.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m009",
@@ -2911,7 +3279,9 @@
     "breathe"
    ],
    "correct": 3,
-   "explanation": "'breathe' is the verb; 'breath' is the noun."
+   "explanation": "'breathe' is the verb; 'breath' is the noun.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m010",
@@ -2926,7 +3296,9 @@
     "then"
    ],
    "correct": 2,
-   "explanation": "Use 'than' to compare."
+   "explanation": "Use 'than' to compare.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_m011",
@@ -2941,7 +3313,9 @@
     "then"
    ],
    "correct": 3,
-   "explanation": "'then' is about time."
+   "explanation": "'then' is about time.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_m012",
@@ -2956,7 +3330,9 @@
     "The ball broke the window."
    ],
    "correct": 0,
-   "explanation": "In the passive, the subject receives the action."
+   "explanation": "In the passive, the subject receives the action.",
+   "skill": "esc_grammar",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m013",
@@ -2971,7 +3347,9 @@
     "quiet"
    ],
    "correct": 2,
-   "explanation": "enormous and huge both mean very big."
+   "explanation": "enormous and huge both mean very big.",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_m014",
@@ -2986,7 +3364,9 @@
     "accomodation"
    ],
    "correct": 2,
-   "explanation": "Two c's and two m's."
+   "explanation": "Two c's and two m's.",
+   "skill": "esc_punct",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m015",
@@ -3001,7 +3381,9 @@
     "embarass"
    ],
    "correct": 0,
-   "explanation": "Two r's and two s's."
+   "explanation": "Two r's and two s's.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m016",
@@ -3016,7 +3398,9 @@
     "occassion"
    ],
    "correct": 2,
-   "explanation": "Two c's, one s."
+   "explanation": "Two c's, one s.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m017",
@@ -3031,7 +3415,9 @@
     "parlaiment"
    ],
    "correct": 0,
-   "explanation": "par-li-a-ment: don't forget the i."
+   "explanation": "par-li-a-ment: don't forget the i.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m018",
@@ -3046,7 +3432,9 @@
     "consience"
    ],
    "correct": 1,
-   "explanation": "con-sci-ence."
+   "explanation": "con-sci-ence.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m019",
@@ -3061,7 +3449,9 @@
     "enviroment"
    ],
    "correct": 1,
-   "explanation": "en-vi-ron-ment."
+   "explanation": "en-vi-ron-ment.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m020",
@@ -3076,7 +3466,9 @@
     "definitely"
    ],
    "correct": 3,
-   "explanation": "There's 'finite' in de-finite-ly."
+   "explanation": "There's 'finite' in de-finite-ly.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m021",
@@ -3091,7 +3483,9 @@
     "immeadiately"
    ],
    "correct": 1,
-   "explanation": "im-me-di-ate-ly."
+   "explanation": "im-me-di-ate-ly.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m022",
@@ -3106,7 +3500,9 @@
     "privilege"
    ],
    "correct": 3,
-   "explanation": "pri-vi-lege: no d."
+   "explanation": "pri-vi-lege: no d.",
+   "skill": "esc_letters",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_m023",
@@ -3121,7 +3517,9 @@
     "She is a-well known author."
    ],
    "correct": 2,
-   "explanation": "well-known is a compound adjective."
+   "explanation": "well-known is a compound adjective.",
+   "skill": "esc_letters",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_m024",
@@ -3136,7 +3534,9 @@
     "Neither Tom nor Sam were there."
    ],
    "correct": 0,
-   "explanation": "neither ... nor, with a singular verb."
+   "explanation": "neither ... nor, with a singular verb.",
+   "skill": "esc_grammar",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_w001",
@@ -3149,7 +3549,9 @@
    "answer": "decision",
    "hint": "It ends in -sion",
    "explanation": "decide → decision",
-   "word": "decide"
+   "word": "decide",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_w002",
@@ -3162,7 +3564,9 @@
    "answer": "invention",
    "hint": "It ends in -tion",
    "explanation": "invent → invention",
-   "word": "invent"
+   "word": "invent",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_w003",
@@ -3175,7 +3579,9 @@
    "answer": "dangerous",
    "hint": "It ends in -ous",
    "explanation": "danger → dangerous",
-   "word": "danger"
+   "word": "danger",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_w004",
@@ -3188,7 +3594,9 @@
    "answer": "reliable",
    "hint": "Change y to i",
    "explanation": "rely → reliable",
-   "word": "rely"
+   "word": "rely",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_w005",
@@ -3201,7 +3609,9 @@
    "answer": "impossible",
    "hint": "Use im-",
    "explanation": "possible → impossible",
-   "word": "possible"
+   "word": "possible",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_w006",
@@ -3214,7 +3624,9 @@
    "answer": "illegal",
    "hint": "Use il-",
    "explanation": "legal → illegal",
-   "word": "legal"
+   "word": "legal",
+   "skill": "esc_grammar",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_d001",
@@ -3228,7 +3640,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The scientist explained the experiment carefully."
+   "word": "The scientist explained the experiment carefully.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_d002",
@@ -3242,7 +3656,9 @@
    "hint": "It has 8 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "Although it was raining, we continued our journey."
+   "word": "Although it was raining, we continued our journey.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_d003",
@@ -3256,7 +3672,9 @@
    "hint": "It has 6 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "Their neighbours received a mysterious parcel."
+   "word": "Their neighbours received a mysterious parcel.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_d004",
@@ -3270,7 +3688,9 @@
    "hint": "It has 7 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "Unfortunately, the museum was closed on Wednesday."
+   "word": "Unfortunately, the museum was closed on Wednesday.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_d005",
@@ -3284,7 +3704,9 @@
    "hint": "It has 8 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The knight climbed the castle wall in silence."
+   "word": "The knight climbed the castle wall in silence.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_d006",
@@ -3298,7 +3720,9 @@
    "hint": "It has 8 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "It is necessary to listen to each other."
+   "word": "It is necessary to listen to each other.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_d007",
@@ -3312,7 +3736,9 @@
    "hint": "It has 7 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "The island was surrounded by beautiful coral."
+   "word": "The island was surrounded by beautiful coral.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_d008",
@@ -3326,7 +3752,9 @@
    "hint": "It has 8 words",
    "explanation": "Remember the capital letter at the start and the punctuation at the end.",
    "dictation": true,
-   "word": "We definitely need more vegetables in our diet."
+   "word": "We definitely need more vegetables in our diet.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_o001",
@@ -3354,7 +3782,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Although it was late, we kept reading."
+   "explanation": "Although it was late, we kept reading.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_o002",
@@ -3382,7 +3812,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "The window was broken by the ball."
+   "explanation": "The window was broken by the ball.",
+   "skill": "esc_sentences",
+   "step": 2
   },
   {
    "id": "en_escritura_l5_o003",
@@ -3414,7 +3846,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "My aunt, who is a doctor, lives in York."
+   "explanation": "My aunt, who is a doctor, lives in York.",
+   "skill": "esc_sentences",
+   "step": 3
   },
   {
    "id": "en_escritura_l5_o004",
@@ -3440,7 +3874,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Neither Tom nor Sam was there."
+   "explanation": "Neither Tom nor Sam was there.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_o005",
@@ -3466,7 +3902,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "We need flour, eggs and milk."
+   "explanation": "We need flour, eggs and milk.",
+   "skill": "esc_sentences",
+   "step": 1
   },
   {
    "id": "en_escritura_l5_o006",
@@ -3490,7 +3928,9 @@
    ],
    "options": [],
    "correct": 0,
-   "explanation": "Unfortunately, the shop was closed."
+   "explanation": "Unfortunately, the shop was closed.",
+   "skill": "esc_sentences",
+   "step": 1
   }
  ]
 }

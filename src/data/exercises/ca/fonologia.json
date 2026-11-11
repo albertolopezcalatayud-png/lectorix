@@ -17,7 +17,9 @@
    "word": "sol",
    "syllables": [
     "sol"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m002",
@@ -36,7 +38,9 @@
    "word": "pa",
    "syllables": [
     "pa"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m003",
@@ -56,7 +60,9 @@
    "syllables": [
     "ca",
     "sa"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m004",
@@ -75,7 +81,9 @@
    "word": "gat",
    "syllables": [
     "gat"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m005",
@@ -95,7 +103,9 @@
    "syllables": [
     "llu",
     "na"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m006",
@@ -115,7 +125,9 @@
    "syllables": [
     "tau",
     "la"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m007",
@@ -136,7 +148,9 @@
     "pi",
     "lo",
     "ta"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m008",
@@ -156,7 +170,9 @@
    "syllables": [
     "mo",
     "na"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m009",
@@ -175,7 +191,9 @@
    "word": "peix",
    "syllables": [
     "peix"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m010",
@@ -196,7 +214,9 @@
     "ca",
     "di",
     "ra"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m011",
@@ -216,7 +236,9 @@
    "syllables": [
     "po",
     "ma"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m012",
@@ -236,7 +258,9 @@
    "syllables": [
     "ni",
     "na"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_o001",
@@ -255,7 +279,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ca-sa = casa",
-   "word": "casa"
+   "word": "casa",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_o002",
@@ -274,7 +300,9 @@
    "options": [],
    "correct": 0,
    "explanation": "llu-na = lluna",
-   "word": "lluna"
+   "word": "lluna",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_o003",
@@ -293,7 +321,9 @@
    "options": [],
    "correct": 0,
    "explanation": "tau-la = taula",
-   "word": "taula"
+   "word": "taula",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_o004",
@@ -314,7 +344,9 @@
    "options": [],
    "correct": 0,
    "explanation": "pi-lo-ta = pilota",
-   "word": "pilota"
+   "word": "pilota",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_o005",
@@ -333,7 +365,9 @@
    "options": [],
    "correct": 0,
    "explanation": "mo-na = mona",
-   "word": "mona"
+   "word": "mona",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_o006",
@@ -354,7 +388,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ca-di-ra = cadira",
-   "word": "cadira"
+   "word": "cadira",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_o007",
@@ -373,7 +409,9 @@
    "options": [],
    "correct": 0,
    "explanation": "po-ma = poma",
-   "word": "poma"
+   "word": "poma",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_o008",
@@ -392,7 +430,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ni-na = nina",
-   "word": "nina"
+   "word": "nina",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_m013",
@@ -408,7 +448,9 @@
    ],
    "correct": 0,
    "explanation": "«gat» i «plat» acaben amb el mateix so.",
-   "word": "gat"
+   "word": "gat",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_m014",
@@ -424,7 +466,9 @@
    ],
    "correct": 3,
    "explanation": "«sol» i «col» acaben amb el mateix so.",
-   "word": "sol"
+   "word": "sol",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_m015",
@@ -440,7 +484,9 @@
    ],
    "correct": 3,
    "explanation": "«mà» i «pa» acaben amb el mateix so.",
-   "word": "mà"
+   "word": "mà",
+   "skill": "fon_rhyme",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m016",
@@ -456,7 +502,9 @@
    ],
    "correct": 0,
    "explanation": "«lluna» i «una» acaben amb el mateix so.",
-   "word": "lluna"
+   "word": "lluna",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_m017",
@@ -472,7 +520,9 @@
    ],
    "correct": 0,
    "explanation": "«pilota» i «gota» acaben amb el mateix so.",
-   "word": "pilota"
+   "word": "pilota",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_m018",
@@ -488,7 +538,9 @@
    ],
    "correct": 3,
    "explanation": "«casa» i «brasa» acaben amb el mateix so.",
-   "word": "casa"
+   "word": "casa",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_m019",
@@ -504,7 +556,9 @@
    ],
    "correct": 2,
    "explanation": "«mona» i «dona» acaben amb el mateix so.",
-   "word": "mona"
+   "word": "mona",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_m020",
@@ -520,7 +574,9 @@
    ],
    "correct": 1,
    "explanation": "«peix» i «creix» acaben amb el mateix so.",
-   "word": "peix"
+   "word": "peix",
+   "skill": "fon_rhyme",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m021",
@@ -536,7 +592,9 @@
    ],
    "correct": 2,
    "explanation": "sol i sopa comencen pel so /s/.",
-   "word": "sol"
+   "word": "sol",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_m022",
@@ -552,7 +610,9 @@
    ],
    "correct": 0,
    "explanation": "mare i mel comencen pel so /m/.",
-   "word": "mare"
+   "word": "mare",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l1_m023",
@@ -568,7 +628,9 @@
    ],
    "correct": 0,
    "explanation": "bou i barca comencen per b. Compte: b i d s'assemblen!",
-   "word": "bou"
+   "word": "bou",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_m024",
@@ -584,7 +646,9 @@
    ],
    "correct": 0,
    "explanation": "dit i dau comencen pel so /d/.",
-   "word": "dit"
+   "word": "dit",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_m025",
@@ -600,7 +664,9 @@
    ],
    "correct": 1,
    "explanation": "pa i pera comencen pel so /p/.",
-   "word": "pa"
+   "word": "pa",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_m026",
@@ -616,7 +682,9 @@
    ],
    "correct": 1,
    "explanation": "lloc i llet comencen per ll.",
-   "word": "lloc"
+   "word": "lloc",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_d001",
@@ -630,7 +698,9 @@
    "hint": "Té 3 lletres",
    "explanation": "s-o-l.",
    "dictation": true,
-   "word": "sol"
+   "word": "sol",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_d002",
@@ -644,7 +714,9 @@
    "hint": "Té 2 lletres",
    "explanation": "p-a.",
    "dictation": true,
-   "word": "pa"
+   "word": "pa",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_d003",
@@ -658,7 +730,9 @@
    "hint": "Té 3 lletres",
    "explanation": "g-a-t.",
    "dictation": true,
-   "word": "gat"
+   "word": "gat",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_d004",
@@ -672,7 +746,9 @@
    "hint": "Té 3 lletres",
    "explanation": "m-e-l.",
    "dictation": true,
-   "word": "mel"
+   "word": "mel",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_d005",
@@ -686,7 +762,9 @@
    "hint": "Té 4 lletres",
    "explanation": "c-a-s-a.",
    "dictation": true,
-   "word": "casa"
+   "word": "casa",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_d006",
@@ -700,7 +778,9 @@
    "hint": "Té 5 lletres",
    "explanation": "l-l-u-n-a.",
    "dictation": true,
-   "word": "lluna"
+   "word": "lluna",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l1_d007",
@@ -714,7 +794,9 @@
    "hint": "Té 4 lletres",
    "explanation": "m-o-n-a.",
    "dictation": true,
-   "word": "mona"
+   "word": "mona",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_d008",
@@ -728,7 +810,9 @@
    "hint": "Té 4 lletres",
    "explanation": "p-e-r-a.",
    "dictation": true,
-   "word": "pera"
+   "word": "pera",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_d009",
@@ -742,7 +826,9 @@
    "hint": "Té 3 lletres",
    "explanation": "d-i-t.",
    "dictation": true,
-   "word": "dit"
+   "word": "dit",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_d010",
@@ -756,7 +842,9 @@
    "hint": "Té 3 lletres",
    "explanation": "p-e-u.",
    "dictation": true,
-   "word": "peu"
+   "word": "peu",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_d011",
@@ -770,7 +858,9 @@
    "hint": "Té 3 lletres",
    "explanation": "n-a-s.",
    "dictation": true,
-   "word": "nas"
+   "word": "nas",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l1_d012",
@@ -784,7 +874,9 @@
    "hint": "Té 4 lletres",
    "explanation": "p-o-m-a.",
    "dictation": true,
-   "word": "poma"
+   "word": "poma",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m001",
@@ -804,7 +896,9 @@
    "syllables": [
     "xi",
     "quet"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_m002",
@@ -825,7 +919,9 @@
     "fi",
     "nes",
     "tra"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_m003",
@@ -846,7 +942,9 @@
     "to",
     "ma",
     "ca"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_m004",
@@ -867,7 +965,9 @@
     "mun",
     "ta",
     "nya"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_m005",
@@ -887,7 +987,9 @@
    "syllables": [
     "cot",
     "xe"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_m006",
@@ -908,7 +1010,9 @@
     "for",
     "mi",
     "ga"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_m007",
@@ -928,7 +1032,9 @@
    "syllables": [
     "plat",
     "ja"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_m008",
@@ -948,7 +1054,9 @@
    "syllables": [
     "co",
     "nill"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_m009",
@@ -969,7 +1077,9 @@
     "gra",
     "no",
     "ta"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_m010",
@@ -989,7 +1099,9 @@
    "syllables": [
     "cai",
     "xa"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_m011",
@@ -1010,7 +1122,9 @@
     "ga",
     "lli",
     "na"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_m012",
@@ -1030,7 +1144,9 @@
    "syllables": [
     "lli",
     "bre"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_o001",
@@ -1049,7 +1165,9 @@
    "options": [],
    "correct": 0,
    "explanation": "xi-quet = xiquet",
-   "word": "xiquet"
+   "word": "xiquet",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_o002",
@@ -1070,7 +1188,9 @@
    "options": [],
    "correct": 0,
    "explanation": "fi-nes-tra = finestra",
-   "word": "finestra"
+   "word": "finestra",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_o003",
@@ -1091,7 +1211,9 @@
    "options": [],
    "correct": 0,
    "explanation": "to-ma-ca = tomaca",
-   "word": "tomaca"
+   "word": "tomaca",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_o004",
@@ -1112,7 +1234,9 @@
    "options": [],
    "correct": 0,
    "explanation": "mun-ta-nya = muntanya",
-   "word": "muntanya"
+   "word": "muntanya",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_o005",
@@ -1131,7 +1255,9 @@
    "options": [],
    "correct": 0,
    "explanation": "cot-xe = cotxe",
-   "word": "cotxe"
+   "word": "cotxe",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_o006",
@@ -1152,7 +1278,9 @@
    "options": [],
    "correct": 0,
    "explanation": "for-mi-ga = formiga",
-   "word": "formiga"
+   "word": "formiga",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_o007",
@@ -1171,7 +1299,9 @@
    "options": [],
    "correct": 0,
    "explanation": "plat-ja = platja",
-   "word": "platja"
+   "word": "platja",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_o008",
@@ -1190,7 +1320,9 @@
    "options": [],
    "correct": 0,
    "explanation": "co-nill = conill",
-   "word": "conill"
+   "word": "conill",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_o009",
@@ -1211,7 +1343,9 @@
    "options": [],
    "correct": 0,
    "explanation": "gra-no-ta = granota",
-   "word": "granota"
+   "word": "granota",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m013",
@@ -1227,7 +1361,9 @@
    ],
    "correct": 3,
    "explanation": "«xiquet» i «paquet» acaben amb el mateix so.",
-   "word": "xiquet"
+   "word": "xiquet",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m014",
@@ -1243,7 +1379,9 @@
    ],
    "correct": 3,
    "explanation": "«bufanda» i «banda» acaben amb el mateix so.",
-   "word": "bufanda"
+   "word": "bufanda",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m015",
@@ -1259,7 +1397,9 @@
    ],
    "correct": 2,
    "explanation": "«conill» i «fill» acaben amb el mateix so.",
-   "word": "conill"
+   "word": "conill",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m016",
@@ -1275,7 +1415,9 @@
    ],
    "correct": 0,
    "explanation": "«formiga» i «amiga» acaben amb el mateix so.",
-   "word": "formiga"
+   "word": "formiga",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m017",
@@ -1291,7 +1433,9 @@
    ],
    "correct": 2,
    "explanation": "«finestra» i «mestra» acaben amb el mateix so.",
-   "word": "finestra"
+   "word": "finestra",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m018",
@@ -1307,7 +1451,9 @@
    ],
    "correct": 1,
    "explanation": "«caixa» i «baixa» acaben amb el mateix so.",
-   "word": "caixa"
+   "word": "caixa",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m019",
@@ -1323,7 +1469,9 @@
    ],
    "correct": 1,
    "explanation": "«gallina» i «farina» acaben amb el mateix so.",
-   "word": "gallina"
+   "word": "gallina",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m020",
@@ -1339,7 +1487,9 @@
    ],
    "correct": 2,
    "explanation": "«pinzell» i «castell» acaben amb el mateix so.",
-   "word": "pinzell"
+   "word": "pinzell",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m021",
@@ -1355,7 +1505,9 @@
    ],
    "correct": 2,
    "explanation": "xiquet i xocolate comencen pel so /tx/ escrit amb x.",
-   "word": "xiquet"
+   "word": "xiquet",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m022",
@@ -1371,7 +1523,9 @@
    ],
    "correct": 1,
    "explanation": "cotxe i casa comencen pel so /k/.",
-   "word": "cotxe"
+   "word": "cotxe",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m023",
@@ -1387,7 +1541,9 @@
    ],
    "correct": 1,
    "explanation": "Davant de a, o, u, la g sona /g/: gat i goma.",
-   "word": "gat"
+   "word": "gat",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m024",
@@ -1403,7 +1559,9 @@
    ],
    "correct": 3,
    "explanation": "j i g davant de e, i fan el mateix so: jardí i gerro.",
-   "word": "jardí"
+   "word": "jardí",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m025",
@@ -1419,7 +1577,9 @@
    ],
    "correct": 3,
    "explanation": "Davant de e, i, la c sona /s/: ceba i sabata.",
-   "word": "ceba"
+   "word": "ceba",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m026",
@@ -1435,7 +1595,9 @@
    ],
    "correct": 3,
    "explanation": "qu i c davant de a, o, u fan el so /k/.",
-   "word": "queixal"
+   "word": "queixal",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m027",
@@ -1450,7 +1612,9 @@
     "canya"
    ],
    "correct": 0,
-   "explanation": "nina porta n, no ny."
+   "explanation": "nina porta n, no ny.",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l2_m028",
@@ -1465,7 +1629,9 @@
     "xiular"
    ],
    "correct": 1,
-   "explanation": "sabó comença per s."
+   "explanation": "sabó comença per s.",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_d001",
@@ -1479,7 +1645,9 @@
    "hint": "Té 6 lletres",
    "explanation": "x-i-q-u-e-t. x a l'inici.",
    "dictation": true,
-   "word": "xiquet"
+   "word": "xiquet",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_d002",
@@ -1493,7 +1661,9 @@
    "hint": "Té 5 lletres",
    "explanation": "c-o-t-x-e. tx entre vocals.",
    "dictation": true,
-   "word": "cotxe"
+   "word": "cotxe",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_d003",
@@ -1507,7 +1677,9 @@
    "hint": "Té 5 lletres",
    "explanation": "c-a-i-x-a. ix entre vocals.",
    "dictation": true,
-   "word": "caixa"
+   "word": "caixa",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_d004",
@@ -1521,7 +1693,9 @@
    "hint": "Té 6 lletres",
    "explanation": "p-l-a-t-j-a. tj davant de a.",
    "dictation": true,
-   "word": "platja"
+   "word": "platja",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_d005",
@@ -1535,7 +1709,9 @@
    "hint": "Té 6 lletres",
    "explanation": "c-o-n-i-l-l. ll al final.",
    "dictation": true,
-   "word": "conill"
+   "word": "conill",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_d006",
@@ -1549,7 +1725,9 @@
    "hint": "Té 6 lletres",
    "explanation": "l-l-i-b-r-e.",
    "dictation": true,
-   "word": "llibre"
+   "word": "llibre",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_d007",
@@ -1563,7 +1741,9 @@
    "hint": "Té 3 lletres",
    "explanation": "a-n-y. ny al final.",
    "dictation": true,
-   "word": "any"
+   "word": "any",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_d008",
@@ -1577,7 +1757,9 @@
    "hint": "Té 7 lletres",
    "explanation": "g-a-l-l-i-n-a. ll entre vocals.",
    "dictation": true,
-   "word": "gallina"
+   "word": "gallina",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_d009",
@@ -1591,7 +1773,9 @@
    "hint": "Té 4 lletres",
    "explanation": "p-e-i-x. ix al final.",
    "dictation": true,
-   "word": "peix"
+   "word": "peix",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l2_d010",
@@ -1605,7 +1789,9 @@
    "hint": "Té 7 lletres",
    "explanation": "f-o-r-m-i-g-a.",
    "dictation": true,
-   "word": "formiga"
+   "word": "formiga",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_d011",
@@ -1619,7 +1805,9 @@
    "hint": "Té 6 lletres",
    "explanation": "c-a-d-i-r-a.",
    "dictation": true,
-   "word": "cadira"
+   "word": "cadira",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l2_d012",
@@ -1633,7 +1821,9 @@
    "hint": "Té 8 lletres",
    "explanation": "f-i-n-e-s-t-r-a.",
    "dictation": true,
-   "word": "finestra"
+   "word": "finestra",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_m001",
@@ -1655,7 +1845,9 @@
     "pa",
     "llo",
     "na"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_m002",
@@ -1677,7 +1869,9 @@
     "ci",
     "cle",
     "ta"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_m003",
@@ -1698,7 +1892,9 @@
     "ta",
     "ron",
     "ja"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_m004",
@@ -1719,7 +1915,9 @@
     "e",
     "le",
     "fant"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_m005",
@@ -1740,7 +1938,9 @@
     "co",
     "co",
     "dril"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_m006",
@@ -1762,7 +1962,9 @@
     "no",
     "sau",
     "re"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_m007",
@@ -1785,7 +1987,9 @@
     "o",
     "ne",
     "ta"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_m008",
@@ -1806,7 +2010,9 @@
     "pa",
     "rai",
     "gua"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_m009",
@@ -1828,7 +2034,9 @@
     "lí",
     "cu",
     "la"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_m010",
@@ -1850,7 +2058,9 @@
     "di",
     "na",
     "dor"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_m011",
@@ -1871,7 +2081,9 @@
     "es",
     "qui",
     "rol"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_m012",
@@ -1894,7 +2106,9 @@
     "o",
     "te",
     "ca"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_o001",
@@ -1917,7 +2131,9 @@
    "options": [],
    "correct": 0,
    "explanation": "pa-pa-llo-na = papallona",
-   "word": "papallona"
+   "word": "papallona",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_o002",
@@ -1940,7 +2156,9 @@
    "options": [],
    "correct": 0,
    "explanation": "bi-ci-cle-ta = bicicleta",
-   "word": "bicicleta"
+   "word": "bicicleta",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_o003",
@@ -1961,7 +2179,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ta-ron-ja = taronja",
-   "word": "taronja"
+   "word": "taronja",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_o004",
@@ -1982,7 +2202,9 @@
    "options": [],
    "correct": 0,
    "explanation": "e-le-fant = elefant",
-   "word": "elefant"
+   "word": "elefant",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_o005",
@@ -2003,7 +2225,9 @@
    "options": [],
    "correct": 0,
    "explanation": "co-co-dril = cocodril",
-   "word": "cocodril"
+   "word": "cocodril",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_o006",
@@ -2026,7 +2250,9 @@
    "options": [],
    "correct": 0,
    "explanation": "di-no-sau-re = dinosaure",
-   "word": "dinosaure"
+   "word": "dinosaure",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_o007",
@@ -2051,7 +2277,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ca-mi-o-ne-ta = camioneta",
-   "word": "camioneta"
+   "word": "camioneta",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_o008",
@@ -2072,7 +2300,9 @@
    "options": [],
    "correct": 0,
    "explanation": "pa-rai-gua = paraigua",
-   "word": "paraigua"
+   "word": "paraigua",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_o009",
@@ -2095,7 +2325,9 @@
    "options": [],
    "correct": 0,
    "explanation": "pel-lí-cu-la = pel·lícula",
-   "word": "pel·lícula"
+   "word": "pel·lícula",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m013",
@@ -2111,7 +2343,9 @@
    ],
    "correct": 2,
    "explanation": "«taronja» i «monja» acaben amb el mateix so.",
-   "word": "taronja"
+   "word": "taronja",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m014",
@@ -2127,7 +2361,9 @@
    ],
    "correct": 2,
    "explanation": "«papallona» i «corona» acaben amb el mateix so.",
-   "word": "papallona"
+   "word": "papallona",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m015",
@@ -2143,7 +2379,9 @@
    ],
    "correct": 0,
    "explanation": "«cançó» i «lleó» acaben amb el mateix so.",
-   "word": "cançó"
+   "word": "cançó",
+   "skill": "fon_rhyme",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_m016",
@@ -2159,7 +2397,9 @@
    ],
    "correct": 0,
    "explanation": "«camió» i «avió» acaben amb el mateix so.",
-   "word": "camió"
+   "word": "camió",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m017",
@@ -2175,7 +2415,9 @@
    ],
    "correct": 2,
    "explanation": "«esquirol» i «caragol» acaben amb el mateix so.",
-   "word": "esquirol"
+   "word": "esquirol",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m018",
@@ -2191,7 +2433,9 @@
    ],
    "correct": 1,
    "explanation": "«bicicleta» i «maleta» acaben amb el mateix so.",
-   "word": "bicicleta"
+   "word": "bicicleta",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m019",
@@ -2207,7 +2451,9 @@
    ],
    "correct": 2,
    "explanation": "«elefant» i «gegant» acaben amb el mateix so.",
-   "word": "elefant"
+   "word": "elefant",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m020",
@@ -2223,7 +2469,9 @@
    ],
    "correct": 2,
    "explanation": "«paraigua» i «aigua» acaben amb el mateix so.",
-   "word": "paraigua"
+   "word": "paraigua",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m021",
@@ -2239,7 +2487,9 @@
    ],
    "correct": 0,
    "explanation": "La h no sona: hora comença pel so de la o, com olla.",
-   "word": "hora"
+   "word": "hora",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_m022",
@@ -2255,7 +2505,9 @@
    ],
    "correct": 1,
    "explanation": "zero i zona comencen pel so /z/ (sonor).",
-   "word": "zero"
+   "word": "zero",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m023",
@@ -2271,7 +2523,9 @@
    ],
    "correct": 3,
    "explanation": "gan- i gal- tenen el so /g/.",
-   "word": "ganivet"
+   "word": "ganivet",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m024",
@@ -2287,7 +2541,9 @@
    ],
    "correct": 1,
    "explanation": "gui- sona /g/, com gos.",
-   "word": "guitarra"
+   "word": "guitarra",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m025",
@@ -2303,7 +2559,9 @@
    ],
    "correct": 3,
    "explanation": "ull i ungla comencen pel so de la u.",
-   "word": "ull"
+   "word": "ull",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m026",
@@ -2319,7 +2577,9 @@
    ],
    "correct": 0,
    "explanation": "La h no sona: herba comença pel so de la e, com estrela.",
-   "word": "herba"
+   "word": "herba",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m027",
@@ -2334,7 +2594,9 @@
     "home"
    ],
    "correct": 1,
-   "explanation": "orella no porta h."
+   "explanation": "orella no porta h.",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l3_m028",
@@ -2349,7 +2611,9 @@
     "guitarra"
    ],
    "correct": 3,
-   "explanation": "En guitarra, gui- fa /gi/ i la u no sona."
+   "explanation": "En guitarra, gui- fa /gi/ i la u no sona.",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_d001",
@@ -2363,7 +2627,9 @@
    "hint": "Té 5 lletres",
    "explanation": "c-a-n-ç-ó. Davant de o, la ç sona /s/.",
    "dictation": true,
-   "word": "cançó"
+   "word": "cançó",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_d002",
@@ -2377,7 +2643,9 @@
    "hint": "Té 5 lletres",
    "explanation": "p-l-a-ç-a. Davant de a, la ç sona /s/.",
    "dictation": true,
-   "word": "plaça"
+   "word": "plaça",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_d003",
@@ -2391,7 +2659,9 @@
    "hint": "Té 4 lletres",
    "explanation": "d-o-l-ç. Al final de paraula, ç.",
    "dictation": true,
-   "word": "dolç"
+   "word": "dolç",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_d004",
@@ -2405,7 +2675,9 @@
    "hint": "Té 7 lletres",
    "explanation": "t-a-r-o-n-j-a. j davant de a.",
    "dictation": true,
-   "word": "taronja"
+   "word": "taronja",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_d005",
@@ -2419,7 +2691,9 @@
    "hint": "Té 5 lletres",
    "explanation": "j-a-r-d-í. j davant de a.",
    "dictation": true,
-   "word": "jardí"
+   "word": "jardí",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_d006",
@@ -2433,7 +2707,9 @@
    "hint": "Té 5 lletres",
    "explanation": "g-e-r-r-o. g davant de e.",
    "dictation": true,
-   "word": "gerro"
+   "word": "gerro",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_d007",
@@ -2447,7 +2723,9 @@
    "hint": "Té 8 lletres",
    "explanation": "g-u-i-t-a-r-r-a. gui: la u no sona.",
    "dictation": true,
-   "word": "guitarra"
+   "word": "guitarra",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_d008",
@@ -2461,7 +2739,9 @@
    "hint": "Té 5 lletres",
    "explanation": "a-i-g-u-a. gua: la u sí que sona.",
    "dictation": true,
-   "word": "aigua"
+   "word": "aigua",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_d009",
@@ -2475,7 +2755,9 @@
    "hint": "Té 5 lletres",
    "explanation": "c-a-m-i-ó. Porta accent tancat a la o.",
    "dictation": true,
-   "word": "camió"
+   "word": "camió",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_d010",
@@ -2489,7 +2771,9 @@
    "hint": "Té 4 lletres",
    "explanation": "a-v-i-ó. Porta accent tancat a la o.",
    "dictation": true,
-   "word": "avió"
+   "word": "avió",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l3_d011",
@@ -2503,7 +2787,9 @@
    "hint": "Té 4 lletres",
    "explanation": "l-l-e-ó. Porta accent tancat a la o.",
    "dictation": true,
-   "word": "lleó"
+   "word": "lleó",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l3_d012",
@@ -2517,7 +2803,9 @@
    "hint": "Té 4 lletres",
    "explanation": "b-r-a-ç. Al final de paraula, ç.",
    "dictation": true,
-   "word": "braç"
+   "word": "braç",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_m001",
@@ -2538,7 +2826,9 @@
     "col",
     "le",
     "gi"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_m002",
@@ -2560,7 +2850,9 @@
     "po",
     "pò",
     "tam"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_m003",
@@ -2582,7 +2874,9 @@
     "li",
     "còp",
     "ter"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_m004",
@@ -2605,7 +2899,9 @@
     "mà",
     "ti",
     "ques"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_m005",
@@ -2628,7 +2924,9 @@
     "la",
     "do",
     "ra"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_m006",
@@ -2650,7 +2948,9 @@
     "per",
     "mer",
     "cat"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_m007",
@@ -2673,7 +2973,9 @@
     "vi",
     "si",
     "ó"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_m008",
@@ -2694,7 +2996,9 @@
     "tram",
     "vi",
     "a"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_m009",
@@ -2716,7 +3020,9 @@
     "tel",
     "li",
     "gent"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_m010",
@@ -2738,7 +3044,9 @@
     "ma",
     "ve",
     "ra"
-   ]
+   ],
+   "skill": "fon_rhyme",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_m011",
@@ -2760,7 +3068,9 @@
     "ra",
     "ve",
     "llós"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_m012",
@@ -2781,7 +3091,9 @@
     "tran",
     "quil",
     "la"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_o001",
@@ -2802,7 +3114,9 @@
    "options": [],
    "correct": 0,
    "explanation": "col-le-gi = col·legi",
-   "word": "col·legi"
+   "word": "col·legi",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_o002",
@@ -2825,7 +3139,9 @@
    "options": [],
    "correct": 0,
    "explanation": "hi-po-pò-tam = hipopòtam",
-   "word": "hipopòtam"
+   "word": "hipopòtam",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_o003",
@@ -2848,7 +3164,9 @@
    "options": [],
    "correct": 0,
    "explanation": "he-li-còp-ter = helicòpter",
-   "word": "helicòpter"
+   "word": "helicòpter",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_o004",
@@ -2873,7 +3191,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ma-te-mà-ti-ques = matemàtiques",
-   "word": "matemàtiques"
+   "word": "matemàtiques",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_o005",
@@ -2898,7 +3218,9 @@
    "options": [],
    "correct": 0,
    "explanation": "cal-cu-la-do-ra = calculadora",
-   "word": "calculadora"
+   "word": "calculadora",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_o006",
@@ -2921,7 +3243,9 @@
    "options": [],
    "correct": 0,
    "explanation": "su-per-mer-cat = supermercat",
-   "word": "supermercat"
+   "word": "supermercat",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_o007",
@@ -2946,7 +3270,9 @@
    "options": [],
    "correct": 0,
    "explanation": "te-le-vi-si-ó = televisió",
-   "word": "televisió"
+   "word": "televisió",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_o008",
@@ -2967,7 +3293,9 @@
    "options": [],
    "correct": 0,
    "explanation": "tram-vi-a = tramvia",
-   "word": "tramvia"
+   "word": "tramvia",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_o009",
@@ -2990,7 +3318,9 @@
    "options": [],
    "correct": 0,
    "explanation": "in-tel-li-gent = intel·ligent",
-   "word": "intel·ligent"
+   "word": "intel·ligent",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_m013",
@@ -3006,7 +3336,9 @@
    ],
    "correct": 0,
    "explanation": "«col·legi» i «privilegi» acaben amb el mateix so.",
-   "word": "col·legi"
+   "word": "col·legi",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_m014",
@@ -3022,7 +3354,9 @@
    ],
    "correct": 1,
    "explanation": "«primavera» i «carrera» acaben amb el mateix so.",
-   "word": "primavera"
+   "word": "primavera",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_m015",
@@ -3038,7 +3372,9 @@
    ],
    "correct": 0,
    "explanation": "«televisió» i «il·lusió» acaben amb el mateix so.",
-   "word": "televisió"
+   "word": "televisió",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_m016",
@@ -3054,7 +3390,9 @@
    ],
    "correct": 0,
    "explanation": "«tranquil·la» i «vila» acaben amb el mateix so.",
-   "word": "tranquil·la"
+   "word": "tranquil·la",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_m017",
@@ -3070,7 +3408,9 @@
    ],
    "correct": 3,
    "explanation": "«calculadora» i «senyora» acaben amb el mateix so.",
-   "word": "calculadora"
+   "word": "calculadora",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_m018",
@@ -3086,7 +3426,9 @@
    ],
    "correct": 3,
    "explanation": "«meravellós» i «famós» acaben amb el mateix so.",
-   "word": "meravellós"
+   "word": "meravellós",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_m019",
@@ -3102,7 +3444,9 @@
    ],
    "correct": 1,
    "explanation": "«intel·ligent» i «valent» acaben amb el mateix so.",
-   "word": "intel·ligent"
+   "word": "intel·ligent",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_m020",
@@ -3118,7 +3462,9 @@
    ],
    "correct": 0,
    "explanation": "«ordinador» i «nadador» acaben amb el mateix so.",
-   "word": "ordinador"
+   "word": "ordinador",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_m021",
@@ -3134,7 +3480,9 @@
    ],
    "correct": 3,
    "explanation": "llengua i llaurador comencen per ll, no per l.",
-   "word": "llengua"
+   "word": "llengua",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_m022",
@@ -3150,7 +3498,9 @@
    ],
    "correct": 1,
    "explanation": "nyora i nyap comencen pel so /ny/.",
-   "word": "nyora"
+   "word": "nyora",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l4_m023",
@@ -3166,7 +3516,9 @@
    ],
    "correct": 3,
    "explanation": "pou i pa comencen pel so /p/.",
-   "word": "pou"
+   "word": "pou",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_m024",
@@ -3182,7 +3534,9 @@
    ],
    "correct": 3,
    "explanation": "figa i foc comencen pel so /f/.",
-   "word": "figa"
+   "word": "figa",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_m025",
@@ -3198,7 +3552,9 @@
    ],
    "correct": 0,
    "explanation": "nas i nit comencen pel so /n/.",
-   "word": "nas"
+   "word": "nas",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_m026",
@@ -3214,7 +3570,9 @@
    ],
    "correct": 3,
    "explanation": "mel i món comencen pel so /m/.",
-   "word": "mel"
+   "word": "mel",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_m027",
@@ -3229,7 +3587,9 @@
     "il·lusió"
    ],
    "correct": 0,
-   "explanation": "pala porta una sola l."
+   "explanation": "pala porta una sola l.",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_m028",
@@ -3244,7 +3604,9 @@
     "pingüí"
    ],
    "correct": 2,
-   "explanation": "camí porta accent, però no dièresi."
+   "explanation": "camí porta accent, però no dièresi.",
+   "skill": "fon_vowels",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_d001",
@@ -3258,7 +3620,9 @@
    "hint": "Té 7 lletres",
    "explanation": "c-o-l·l-e-g-i. Amb ela geminada (l·l).",
    "dictation": true,
-   "word": "col·legi"
+   "word": "col·legi",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_d002",
@@ -3272,7 +3636,9 @@
    "hint": "Té 9 lletres",
    "explanation": "p-e-l·l-í-c-u-l-a. Amb ela geminada (l·l) i accent a la í.",
    "dictation": true,
-   "word": "pel·lícula"
+   "word": "pel·lícula",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_d003",
@@ -3286,7 +3652,9 @@
    "hint": "Té 7 lletres",
    "explanation": "i-l·l-u-s-i-ó. Amb ela geminada (l·l).",
    "dictation": true,
-   "word": "il·lusió"
+   "word": "il·lusió",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_d004",
@@ -3300,7 +3668,9 @@
    "hint": "Té 10 lletres",
    "explanation": "t-r-a-n-q-u-i-l·l-a. Amb ela geminada (l·l).",
    "dictation": true,
-   "word": "tranquil·la"
+   "word": "tranquil·la",
+   "skill": "dictation",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l4_d005",
@@ -3314,7 +3684,9 @@
    "hint": "Té 4 lletres",
    "explanation": "h-o-r-a. Amb h, que no sona.",
    "dictation": true,
-   "word": "hora"
+   "word": "hora",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_d006",
@@ -3328,7 +3700,9 @@
    "hint": "Té 5 lletres",
    "explanation": "h-e-r-b-a. Amb h, que no sona.",
    "dictation": true,
-   "word": "herba"
+   "word": "herba",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_d007",
@@ -3342,7 +3716,9 @@
    "hint": "Té 4 lletres",
    "explanation": "z-e-r-o. Amb z, so sonor.",
    "dictation": true,
-   "word": "zero"
+   "word": "zero",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_d008",
@@ -3356,7 +3732,9 @@
    "hint": "Té 4 lletres",
    "explanation": "o-n-z-e. Amb z, so sonor.",
    "dictation": true,
-   "word": "onze"
+   "word": "onze",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_d009",
@@ -3370,7 +3748,9 @@
    "hint": "Té 6 lletres",
    "explanation": "p-i-n-g-ü-í. Amb dièresi: la u sona.",
    "dictation": true,
-   "word": "pingüí"
+   "word": "pingüí",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_d010",
@@ -3384,7 +3764,9 @@
    "hint": "Té 4 lletres",
    "explanation": "r-a-ï-m. Amb dièresi a la ï: ra-ïm.",
    "dictation": true,
-   "word": "raïm"
+   "word": "raïm",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_d011",
@@ -3398,7 +3780,9 @@
    "hint": "Té 5 lletres",
    "explanation": "v-e-ï-n-a. Amb dièresi a la ï: ve-ï-na.",
    "dictation": true,
-   "word": "veïna"
+   "word": "veïna",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l4_d012",
@@ -3412,7 +3796,9 @@
    "hint": "Té 4 lletres",
    "explanation": "p-a-í-s. Accent a la í: pa-ís.",
    "dictation": true,
-   "word": "país"
+   "word": "país",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_m001",
@@ -3436,7 +3822,9 @@
     "di",
     "na",
     "ri"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m002",
@@ -3459,7 +3847,9 @@
     "tri",
     "ci",
     "tat"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m003",
@@ -3483,7 +3873,9 @@
     "ca",
     "ci",
     "ó"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m004",
@@ -3507,7 +3899,9 @@
     "bi",
     "li",
     "tat"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m005",
@@ -3531,7 +3925,9 @@
     "na",
     "ci",
     "ó"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_m006",
@@ -3554,7 +3950,9 @@
     "ver",
     "si",
     "tat"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m007",
@@ -3577,7 +3975,9 @@
     "ter",
     "ra",
     "ni"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m008",
@@ -3600,7 +4000,9 @@
     "tra",
     "ci",
     "ó"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m009",
@@ -3623,7 +4025,9 @@
     "ge",
     "ra",
     "dor"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m010",
@@ -3647,7 +4051,9 @@
     "nà",
     "ri",
     "a"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m011",
@@ -3669,7 +4075,9 @@
     "que",
     "ò",
     "leg"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_m012",
@@ -3693,7 +4101,9 @@
     "ver",
     "si",
     "tat"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_o001",
@@ -3720,7 +4130,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ex-tra-or-di-na-ri = extraordinari",
-   "word": "extraordinari"
+   "word": "extraordinari",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_o002",
@@ -3745,7 +4157,9 @@
    "options": [],
    "correct": 0,
    "explanation": "e-lec-tri-ci-tat = electricitat",
-   "word": "electricitat"
+   "word": "electricitat",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_o003",
@@ -3772,7 +4186,9 @@
    "options": [],
    "correct": 0,
    "explanation": "co-mu-ni-ca-ci-ó = comunicació",
-   "word": "comunicació"
+   "word": "comunicació",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_o004",
@@ -3799,7 +4215,9 @@
    "options": [],
    "correct": 0,
    "explanation": "res-pon-sa-bi-li-tat = responsabilitat",
-   "word": "responsabilitat"
+   "word": "responsabilitat",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_o005",
@@ -3826,7 +4244,9 @@
    "options": [],
    "correct": 0,
    "explanation": "i-ma-gi-na-ci-ó = imaginació",
-   "word": "imaginació"
+   "word": "imaginació",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_o006",
@@ -3851,7 +4271,9 @@
    "options": [],
    "correct": 0,
    "explanation": "u-ni-ver-si-tat = universitat",
-   "word": "universitat"
+   "word": "universitat",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_o007",
@@ -3876,7 +4298,9 @@
    "options": [],
    "correct": 0,
    "explanation": "Me-di-ter-ra-ni = Mediterrani",
-   "word": "Mediterrani"
+   "word": "Mediterrani",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_o008",
@@ -3901,7 +4325,9 @@
    "options": [],
    "correct": 0,
    "explanation": "il-lus-tra-ci-ó = il·lustració",
-   "word": "il·lustració"
+   "word": "il·lustració",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_o009",
@@ -3926,7 +4352,9 @@
    "options": [],
    "correct": 0,
    "explanation": "re-fri-ge-ra-dor = refrigerador",
-   "word": "refrigerador"
+   "word": "refrigerador",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_m013",
@@ -3942,7 +4370,9 @@
    ],
    "correct": 0,
    "explanation": "«comunicació» i «estació» acaben amb el mateix so.",
-   "word": "comunicació"
+   "word": "comunicació",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_m014",
@@ -3958,7 +4388,9 @@
    ],
    "correct": 2,
    "explanation": "«electricitat» i «ciutat» acaben amb el mateix so.",
-   "word": "electricitat"
+   "word": "electricitat",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_m015",
@@ -3974,7 +4406,9 @@
    ],
    "correct": 0,
    "explanation": "«universitat» i «amistat» acaben amb el mateix so.",
-   "word": "universitat"
+   "word": "universitat",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_m016",
@@ -3990,7 +4424,9 @@
    ],
    "correct": 0,
    "explanation": "«imaginació» i «emoció» acaben amb el mateix so.",
-   "word": "imaginació"
+   "word": "imaginació",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_m017",
@@ -4006,7 +4442,9 @@
    ],
    "correct": 2,
    "explanation": "«arqueòleg» i «geòleg» acaben amb el mateix so.",
-   "word": "arqueòleg"
+   "word": "arqueòleg",
+   "skill": "fon_rhyme",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m018",
@@ -4022,7 +4460,9 @@
    ],
    "correct": 1,
    "explanation": "«Mediterrani» i «urani» acaben amb el mateix so.",
-   "word": "Mediterrani"
+   "word": "Mediterrani",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_m019",
@@ -4038,7 +4478,9 @@
    ],
    "correct": 0,
    "explanation": "«refrigerador» i «corredor» acaben amb el mateix so.",
-   "word": "refrigerador"
+   "word": "refrigerador",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_m020",
@@ -4054,7 +4496,9 @@
    ],
    "correct": 3,
    "explanation": "«biodiversitat» i «llibertat» acaben amb el mateix so.",
-   "word": "biodiversitat"
+   "word": "biodiversitat",
+   "skill": "fon_rhyme",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_m021",
@@ -4070,7 +4514,9 @@
    ],
    "correct": 3,
    "explanation": "xarop i xiulet comencen pel so de la x de xiquet.",
-   "word": "xarop"
+   "word": "xarop",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m022",
@@ -4086,7 +4532,9 @@
    ],
    "correct": 2,
    "explanation": "ge- i jo- tenen el mateix so.",
-   "word": "geni"
+   "word": "geni",
+   "skill": "fon_sounds",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_m023",
@@ -4102,7 +4550,9 @@
    ],
    "correct": 3,
    "explanation": "qui- sona /k/, com ca-.",
-   "word": "química"
+   "word": "química",
+   "skill": "fon_sounds",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l5_m024",
@@ -4118,7 +4568,9 @@
    ],
    "correct": 1,
    "explanation": "La h no sona: hipopòtam comença pel so de la i, com illa.",
-   "word": "hipopòtam"
+   "word": "hipopòtam",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m025",
@@ -4134,7 +4586,9 @@
    ],
    "correct": 1,
    "explanation": "zebra i zero comencen pel so /z/ (sonor).",
-   "word": "zebra"
+   "word": "zebra",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m026",
@@ -4150,7 +4604,9 @@
    ],
    "correct": 3,
    "explanation": "La h no sona: hivern comença pel so de la i.",
-   "word": "hivern"
+   "word": "hivern",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l5_m027",
@@ -4165,7 +4621,9 @@
     "perquè"
    ],
    "correct": 0,
-   "explanation": "anglés porta accent tancat (´)."
+   "explanation": "anglés porta accent tancat (´).",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_m028",
@@ -4180,7 +4638,9 @@
     "anglés"
    ],
    "correct": 2,
-   "explanation": "època porta accent obert (`)."
+   "explanation": "època porta accent obert (`).",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_d001",
@@ -4194,7 +4654,9 @@
    "hint": "Té 11 lletres",
    "explanation": "i-n-t-e-l·l-i-g-e-n-t. Amb ela geminada (l·l).",
    "dictation": true,
-   "word": "intel·ligent"
+   "word": "intel·ligent",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_d002",
@@ -4208,7 +4670,9 @@
    "hint": "Té 8 lletres",
    "explanation": "h-i-s-t-ò-r-i-a. Accent obert a la ò.",
    "dictation": true,
-   "word": "història"
+   "word": "història",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_d003",
@@ -4222,7 +4686,9 @@
    "hint": "Té 6 lletres",
    "explanation": "m-ú-s-i-c-a. Accent a la ú.",
    "dictation": true,
-   "word": "música"
+   "word": "música",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_d004",
@@ -4236,7 +4702,9 @@
    "hint": "Té 6 lletres",
    "explanation": "p-à-g-i-n-a. Accent obert a la à.",
    "dictation": true,
-   "word": "pàgina"
+   "word": "pàgina",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_d005",
@@ -4250,7 +4718,9 @@
    "hint": "Té 6 lletres",
    "explanation": "a-n-g-l-é-s. En valencià, accent tancat: anglés.",
    "dictation": true,
-   "word": "anglés"
+   "word": "anglés",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_d006",
@@ -4264,7 +4734,9 @@
    "hint": "Té 4 lletres",
    "explanation": "c-a-f-é. En valencià, accent tancat: café.",
    "dictation": true,
-   "word": "café"
+   "word": "café",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_d007",
@@ -4278,7 +4750,9 @@
    "hint": "Té 6 lletres",
    "explanation": "p-e-r-q-u-è. Accent obert a la è.",
    "dictation": true,
-   "word": "perquè"
+   "word": "perquè",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_d008",
@@ -4292,7 +4766,9 @@
    "hint": "Té 9 lletres",
    "explanation": "a-q-ü-e-d-u-c-t-e. Amb dièresi: la u sona.",
    "dictation": true,
-   "word": "aqüeducte"
+   "word": "aqüeducte",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_d009",
@@ -4306,7 +4782,9 @@
    "hint": "Té 7 lletres",
    "explanation": "q-ü-e-s-t-i-ó. Amb dièresi: la u sona.",
    "dictation": true,
-   "word": "qüestió"
+   "word": "qüestió",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_d010",
@@ -4320,7 +4798,9 @@
    "hint": "Té 8 lletres",
    "explanation": "r-e-l-l-o-t-g-e. tg davant de e.",
    "dictation": true,
-   "word": "rellotge"
+   "word": "rellotge",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_d011",
@@ -4334,7 +4814,9 @@
    "hint": "Té 5 lletres",
    "explanation": "m-e-t-g-e. tg davant de e.",
    "dictation": true,
-   "word": "metge"
+   "word": "metge",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l5_d012",
@@ -4348,7 +4830,9 @@
    "hint": "Té 5 lletres",
    "explanation": "f-e-t-g-e. tg davant de e.",
    "dictation": true,
-   "word": "fetge"
+   "word": "fetge",
+   "skill": "dictation",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m001",
@@ -4371,7 +4855,9 @@
     "vi",
     "si",
     "ó"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m002",
@@ -4394,7 +4880,9 @@
     "lo",
     "gi",
     "a"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m003",
@@ -4415,7 +4903,9 @@
     "ciu",
     "ta",
     "dà"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m004",
@@ -4436,7 +4926,9 @@
     "ve",
     "ï",
     "nat"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m005",
@@ -4456,7 +4948,9 @@
    "syllables": [
     "ai",
     "gua"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m006",
@@ -4477,7 +4971,9 @@
     "Llu",
     "ï",
     "sa"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m007",
@@ -4500,7 +4996,9 @@
     "o",
     "na",
     "ri"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_m008",
@@ -4520,7 +5018,9 @@
    "syllables": [
     "cui",
     "na"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_o001",
@@ -4545,7 +5045,9 @@
    "options": [],
    "correct": 0,
    "explanation": "te-le-vi-si-ó = televisió",
-   "word": "televisió"
+   "word": "televisió",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l6_o002",
@@ -4570,7 +5072,9 @@
    "options": [],
    "correct": 0,
    "explanation": "bi-o-lo-gi-a = biologia",
-   "word": "biologia"
+   "word": "biologia",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l6_o003",
@@ -4591,7 +5095,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ciu-ta-dà = ciutadà",
-   "word": "ciutadà"
+   "word": "ciutadà",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_o004",
@@ -4612,7 +5118,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ve-ï-nat = veïnat",
-   "word": "veïnat"
+   "word": "veïnat",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_o005",
@@ -4631,7 +5139,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ai-gua = aigua",
-   "word": "aigua"
+   "word": "aigua",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m009",
@@ -4646,7 +5156,9 @@
    ],
    "correct": 0,
    "explanation": "En ca-ràc-ter, la síl·laba que sona més forta és «ràc».",
-   "word": "caràcter"
+   "word": "caràcter",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_m010",
@@ -4660,7 +5172,9 @@
    ],
    "correct": 1,
    "explanation": "En sen-glar, la síl·laba que sona més forta és «glar».",
-   "word": "senglar"
+   "word": "senglar",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m011",
@@ -4674,7 +5188,9 @@
    ],
    "correct": 1,
    "explanation": "En ges-pa, la síl·laba que sona més forta és «ges».",
-   "word": "gespa"
+   "word": "gespa",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m012",
@@ -4689,7 +5205,9 @@
    ],
    "correct": 1,
    "explanation": "En di-me-cres, la síl·laba que sona més forta és «me».",
-   "word": "dimecres"
+   "word": "dimecres",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_m013",
@@ -4703,7 +5221,9 @@
    ],
    "correct": 0,
    "explanation": "En ta-üt, la síl·laba que sona més forta és «üt».",
-   "word": "taüt"
+   "word": "taüt",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_m014",
@@ -4717,7 +5237,9 @@
    ],
    "correct": 1,
    "explanation": "En vo-lum, la síl·laba que sona més forta és «lum».",
-   "word": "volum"
+   "word": "volum",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m015",
@@ -4732,7 +5254,9 @@
    ],
    "correct": 1,
    "explanation": "«també» és aguda: la síl·laba tònica és l'última.",
-   "word": "també"
+   "word": "també",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_m016",
@@ -4747,7 +5271,9 @@
    ],
    "correct": 2,
    "explanation": "«pàgina» és esdrúixola: la síl·laba tònica és l'antepenúltima.",
-   "word": "pàgina"
+   "word": "pàgina",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_m017",
@@ -4762,7 +5288,9 @@
    ],
    "correct": 0,
    "explanation": "«cançó» és aguda: la síl·laba tònica és l'última.",
-   "word": "cançó"
+   "word": "cançó",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_m018",
@@ -4777,7 +5305,9 @@
    ],
    "correct": 2,
    "explanation": "«examen» és plana: la síl·laba tònica és la penúltima.",
-   "word": "examen"
+   "word": "examen",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_m019",
@@ -4792,7 +5322,9 @@
    ],
    "correct": 1,
    "explanation": "«difícil» és plana: la síl·laba tònica és la penúltima.",
-   "word": "difícil"
+   "word": "difícil",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_m020",
@@ -4807,7 +5339,9 @@
    ],
    "correct": 0,
    "explanation": "«rellotge» és plana: la síl·laba tònica és la penúltima.",
-   "word": "rellotge"
+   "word": "rellotge",
+   "skill": "fon_stress",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l6_m021",
@@ -4822,7 +5356,9 @@
    ],
    "correct": 0,
    "explanation": "rei: la e i la i van en la mateixa síl·laba; acaba en vocal feble.",
-   "word": "rei"
+   "word": "rei",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l6_m022",
@@ -4837,7 +5373,9 @@
    ],
    "correct": 0,
    "explanation": "qua-tre: després de q, la u sona i forma diftong amb la a.",
-   "word": "quatre"
+   "word": "quatre",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l6_m023",
@@ -4852,7 +5390,9 @@
    ],
    "correct": 2,
    "explanation": "pa-ís: la í tònica va en una altra síl·laba.",
-   "word": "país"
+   "word": "país",
+   "skill": "fon_vowels",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m024",
@@ -4867,7 +5407,9 @@
    ],
    "correct": 0,
    "explanation": "cui-na: la u i la i van juntes.",
-   "word": "cuina"
+   "word": "cuina",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l6_m025",
@@ -4882,7 +5424,9 @@
    ],
    "correct": 1,
    "explanation": "ve-ï-na: la dièresi indica que la i fa síl·laba a part.",
-   "word": "veïna"
+   "word": "veïna",
+   "skill": "fon_vowels",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l6_m026",
@@ -4897,7 +5441,9 @@
    ],
    "correct": 1,
    "explanation": "peus: e i u en una sola síl·laba.",
-   "word": "peus"
+   "word": "peus",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l6_m027",
@@ -4912,7 +5458,9 @@
     "cuina"
    ],
    "correct": 3,
-   "explanation": "En cui-na, la u i la i formen diftong."
+   "explanation": "En cui-na, la u i la i formen diftong.",
+   "skill": "fon_vowels",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_m028",
@@ -4927,7 +5475,9 @@
     "rei"
    ],
    "correct": 0,
-   "explanation": "qua-tre: després de q, la u sona."
+   "explanation": "qua-tre: després de q, la u sona.",
+   "skill": "fon_sounds",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l6_d001",
@@ -4941,7 +5491,9 @@
    "hint": "cigonya amb ny; campanar amb m",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "Vam veure una cigonya damunt del campanar."
+   "word": "Vam veure una cigonya damunt del campanar.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l6_d002",
@@ -4955,7 +5507,9 @@
    "hint": "guanyat amb ny; dibuix amb ix",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "La meua germana ha guanyat el concurs de dibuix."
+   "word": "La meua germana ha guanyat el concurs de dibuix.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l6_d003",
@@ -4969,7 +5523,9 @@
    "hint": "rellotge amb tg; plaça amb ç",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "El rellotge de la plaça s'ha parat."
+   "word": "El rellotge de la plaça s'ha parat.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l6_d004",
@@ -4983,7 +5539,9 @@
    "hint": "Hui amb h; biblioteca amb b",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "Hui hem anat a la biblioteca del barri."
+   "word": "Hui hem anat a la biblioteca del barri.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l6_d005",
@@ -4997,7 +5555,9 @@
    "hint": "excursió amb x; fantàstica amb accent",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "L'excursió a la muntanya va ser fantàstica."
+   "word": "L'excursió a la muntanya va ser fantàstica.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l6_d006",
@@ -5011,7 +5571,9 @@
    "hint": "xiquets amb x; jugaven amb v",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "Els xiquets jugaven al pati de l'escola."
+   "word": "Els xiquets jugaven al pati de l'escola.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_m001",
@@ -5034,7 +5596,9 @@
     "on",
     "tò",
     "leg"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_m002",
@@ -5057,7 +5621,9 @@
     "po",
     "ra",
     "ni"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_m003",
@@ -5078,7 +5644,9 @@
     "qua",
     "ran",
     "ta"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_m004",
@@ -5098,7 +5666,9 @@
    "syllables": [
     "pin",
     "güí"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_m005",
@@ -5118,7 +5688,9 @@
    "syllables": [
     "di",
     "ürn"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_m006",
@@ -5141,7 +5713,9 @@
     "gra",
     "fi",
     "a"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_m007",
@@ -5161,7 +5735,9 @@
    "syllables": [
     "no",
     "ia"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_m008",
@@ -5182,7 +5758,9 @@
     "Eu",
     "ro",
     "pa"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_o001",
@@ -5207,7 +5785,9 @@
    "options": [],
    "correct": 0,
    "explanation": "pa-le-on-tò-leg = paleontòleg",
-   "word": "paleontòleg"
+   "word": "paleontòleg",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_o002",
@@ -5232,7 +5812,9 @@
    "options": [],
    "correct": 0,
    "explanation": "con-tem-po-ra-ni = contemporani",
-   "word": "contemporani"
+   "word": "contemporani",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_o003",
@@ -5253,7 +5835,9 @@
    "options": [],
    "correct": 0,
    "explanation": "qua-ran-ta = quaranta",
-   "word": "quaranta"
+   "word": "quaranta",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_o004",
@@ -5272,7 +5856,9 @@
    "options": [],
    "correct": 0,
    "explanation": "pin-güí = pingüí",
-   "word": "pingüí"
+   "word": "pingüí",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_o005",
@@ -5291,7 +5877,9 @@
    "options": [],
    "correct": 0,
    "explanation": "di-ürn = diürn",
-   "word": "diürn"
+   "word": "diürn",
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_m009",
@@ -5305,7 +5893,9 @@
    ],
    "correct": 0,
    "explanation": "En rè-gim, la síl·laba que sona més forta és «rè».",
-   "word": "règim"
+   "word": "règim",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_m010",
@@ -5320,7 +5910,9 @@
    ],
    "correct": 2,
    "explanation": "En in-ter-val, la síl·laba que sona més forta és «val».",
-   "word": "interval"
+   "word": "interval",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_m011",
@@ -5335,7 +5927,9 @@
    ],
    "correct": 0,
    "explanation": "En im-bè-cil, la síl·laba que sona més forta és «bè».",
-   "word": "imbècil"
+   "word": "imbècil",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_m012",
@@ -5349,7 +5943,9 @@
    ],
    "correct": 0,
    "explanation": "En càn-cer, la síl·laba que sona més forta és «càn».",
-   "word": "càncer"
+   "word": "càncer",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_m013",
@@ -5364,7 +5960,9 @@
    ],
    "correct": 1,
    "explanation": "En e-xa-men, la síl·laba que sona més forta és «xa».",
-   "word": "examen"
+   "word": "examen",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_m014",
@@ -5379,7 +5977,9 @@
    ],
    "correct": 1,
    "explanation": "En e-xà-mens, la síl·laba que sona més forta és «xà».",
-   "word": "exàmens"
+   "word": "exàmens",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_m015",
@@ -5394,7 +5994,9 @@
    ],
    "correct": 0,
    "explanation": "«àlbum» és plana: la síl·laba tònica és la penúltima.",
-   "word": "àlbum"
+   "word": "àlbum",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_m016",
@@ -5409,7 +6011,9 @@
    ],
    "correct": 2,
    "explanation": "«música» és esdrúixola: la síl·laba tònica és l'antepenúltima.",
-   "word": "música"
+   "word": "música",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_m017",
@@ -5424,7 +6028,9 @@
    ],
    "correct": 1,
    "explanation": "«camió» és aguda: la síl·laba tònica és l'última.",
-   "word": "camió"
+   "word": "camió",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_m018",
@@ -5439,7 +6045,9 @@
    ],
    "correct": 1,
    "explanation": "«estudiant» és aguda: la síl·laba tònica és l'última.",
-   "word": "estudiant"
+   "word": "estudiant",
+   "skill": "fon_stress",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_m019",
@@ -5454,7 +6062,9 @@
    ],
    "correct": 0,
    "explanation": "«llapis» és plana: la síl·laba tònica és la penúltima.",
-   "word": "llapis"
+   "word": "llapis",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_m020",
@@ -5469,7 +6079,9 @@
    ],
    "correct": 2,
    "explanation": "«pàrquing» és plana: la síl·laba tònica és la penúltima.",
-   "word": "pàrquing"
+   "word": "pàrquing",
+   "skill": "fon_stress",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_m021",
@@ -5484,7 +6096,9 @@
    ],
    "correct": 1,
    "explanation": "llen-gua: després de g, la u sona i forma diftong.",
-   "word": "llengua"
+   "word": "llengua",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_m022",
@@ -5499,7 +6113,9 @@
    ],
    "correct": 2,
    "explanation": "di-a-ri: en valencià, i + vocal després de consonant forma hiat.",
-   "word": "diari"
+   "word": "diari",
+   "skill": "fon_vowels",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_m023",
@@ -5514,7 +6130,9 @@
    ],
    "correct": 0,
    "explanation": "noi: o i i en una sola síl·laba.",
-   "word": "noi"
+   "word": "noi",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_m024",
@@ -5529,7 +6147,9 @@
    ],
    "correct": 1,
    "explanation": "pin-güí: la dièresi fa sonar la u, que forma diftong amb la í.",
-   "word": "pingüí"
+   "word": "pingüí",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_m025",
@@ -5544,7 +6164,9 @@
    ],
    "correct": 0,
    "explanation": "ciu-tat: i i u en la mateixa síl·laba.",
-   "word": "ciutat"
+   "word": "ciutat",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_m026",
@@ -5559,7 +6181,9 @@
    ],
    "correct": 2,
    "explanation": "Ma-ri-a: la i i la a van en síl·labes diferents.",
-   "word": "Maria"
+   "word": "Maria",
+   "skill": "fon_vowels",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_m027",
@@ -5574,7 +6198,9 @@
     "camió"
    ],
    "correct": 3,
-   "explanation": "camió és aguda."
+   "explanation": "camió és aguda.",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l7_m028",
@@ -5589,7 +6215,9 @@
     "pingüí"
    ],
    "correct": 3,
-   "explanation": "En pingüí, la ü sona; en les altres, la ï indica hiat."
+   "explanation": "En pingüí, la ü sona; en les altres, la ï indica hiat.",
+   "skill": "fon_vowels",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l7_d001",
@@ -5603,7 +6231,9 @@
    "hint": "col·legi amb ela geminada; exposició amb x",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "El col·legi organitza una exposició de pintura."
+   "word": "El col·legi organitza una exposició de pintura.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_d002",
@@ -5617,7 +6247,9 @@
    "hint": "il·lusió amb ela geminada",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "La il·lusió de l'avi era tornar al seu poble."
+   "word": "La il·lusió de l'avi era tornar al seu poble.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_d003",
@@ -5631,7 +6263,9 @@
    "hint": "sé amb accent; vindrà amb accent",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "No sé si vindrà, però l'esperarem."
+   "word": "No sé si vindrà, però l'esperarem.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_d004",
@@ -5645,7 +6279,9 @@
    "hint": "pluja amb j; créixer amb ix",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "La pluja d'ahir va fer créixer els bolets."
+   "word": "La pluja d'ahir va fer créixer els bolets.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_d005",
@@ -5659,7 +6295,9 @@
    "hint": "Hem amb h; vidre amb v",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "Hem de reciclar el paper i el vidre."
+   "word": "Hem de reciclar el paper i el vidre.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l7_d006",
@@ -5673,7 +6311,9 @@
    "hint": "eixirem amb ix; passejar amb ss",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "Quan acabes els deures, eixirem a passejar."
+   "word": "Quan acabes els deures, eixirem a passejar.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_m001",
@@ -5695,7 +6335,9 @@
     "mos",
     "fè",
     "ric"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_m002",
@@ -5717,7 +6359,9 @@
     "truc",
     "ci",
     "ó"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_m003",
@@ -5741,7 +6385,9 @@
     "ra",
     "ci",
     "ó"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_m004",
@@ -5763,7 +6409,9 @@
     "güís",
     "ti",
     "ca"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_m005",
@@ -5785,7 +6433,9 @@
     "u",
     "ní",
     "em"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_m006",
@@ -5807,7 +6457,9 @@
     "tru",
     "ï",
     "a"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_m007",
@@ -5829,7 +6481,9 @@
     "e",
     "ro",
     "port"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_m008",
@@ -5850,7 +6504,9 @@
     "pai",
     "sat",
     "ge"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_o001",
@@ -5873,7 +6529,9 @@
    "options": [],
    "correct": 0,
    "explanation": "at-mos-fè-ric = atmosfèric",
-   "word": "atmosfèric"
+   "word": "atmosfèric",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_o002",
@@ -5896,7 +6554,9 @@
    "options": [],
    "correct": 0,
    "explanation": "ins-truc-ci-ó = instrucció",
-   "word": "instrucció"
+   "word": "instrucció",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_o003",
@@ -5923,7 +6583,9 @@
    "options": [],
    "correct": 0,
    "explanation": "co-o-pe-ra-ci-ó = cooperació",
-   "word": "cooperació"
+   "word": "cooperació",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_o004",
@@ -5946,7 +6608,9 @@
    "options": [],
    "correct": 0,
    "explanation": "lin-güís-ti-ca = lingüística",
-   "word": "lingüística"
+   "word": "lingüística",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_o005",
@@ -5969,7 +6633,9 @@
    "options": [],
    "correct": 0,
    "explanation": "re-u-ní-em = reuníem",
-   "word": "reuníem"
+   "word": "reuníem",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_m009",
@@ -5983,7 +6649,9 @@
    ],
    "correct": 1,
    "explanation": "En à-tom, la síl·laba que sona més forta és «à».",
-   "word": "àtom"
+   "word": "àtom",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_m010",
@@ -5997,7 +6665,9 @@
    ],
    "correct": 0,
    "explanation": "En dò-cil, la síl·laba que sona més forta és «dò».",
-   "word": "dòcil"
+   "word": "dòcil",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_m011",
@@ -6013,7 +6683,9 @@
    ],
    "correct": 1,
    "explanation": "En pe-rí-o-de, la síl·laba que sona més forta és «rí».",
-   "word": "període"
+   "word": "període",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_m012",
@@ -6029,7 +6701,9 @@
    ],
    "correct": 1,
    "explanation": "En aus-te-ri-tat, la síl·laba que sona més forta és «tat».",
-   "word": "austeritat"
+   "word": "austeritat",
+   "skill": "fon_stress",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_m013",
@@ -6043,7 +6717,9 @@
    ],
    "correct": 0,
    "explanation": "En crà-ter, la síl·laba que sona més forta és «crà».",
-   "word": "cràter"
+   "word": "cràter",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_m014",
@@ -6058,7 +6734,9 @@
    ],
    "correct": 1,
    "explanation": "En in-tèr-pret, la síl·laba que sona més forta és «tèr».",
-   "word": "intèrpret"
+   "word": "intèrpret",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_m015",
@@ -6073,7 +6751,9 @@
    ],
    "correct": 1,
    "explanation": "«parèntesi» és esdrúixola: la síl·laba tònica és l'antepenúltima.",
-   "word": "parèntesi"
+   "word": "parèntesi",
+   "skill": "fon_stress",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_m016",
@@ -6088,7 +6768,9 @@
    ],
    "correct": 2,
    "explanation": "«matís» és aguda: la síl·laba tònica és l'última.",
-   "word": "matís"
+   "word": "matís",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_m017",
@@ -6103,7 +6785,9 @@
    ],
    "correct": 0,
    "explanation": "«bíceps» és plana: la síl·laba tònica és la penúltima.",
-   "word": "bíceps"
+   "word": "bíceps",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_m018",
@@ -6118,7 +6802,9 @@
    ],
    "correct": 1,
    "explanation": "«anàlisi» és esdrúixola: la síl·laba tònica és l'antepenúltima.",
-   "word": "anàlisi"
+   "word": "anàlisi",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_m019",
@@ -6133,7 +6819,9 @@
    ],
    "correct": 1,
    "explanation": "«caos» és plana: la síl·laba tònica és la penúltima.",
-   "word": "caos"
+   "word": "caos",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_m020",
@@ -6148,7 +6836,9 @@
    ],
    "correct": 2,
    "explanation": "«volum» és aguda: la síl·laba tònica és l'última.",
-   "word": "volum"
+   "word": "volum",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_m021",
@@ -6163,7 +6853,9 @@
    ],
    "correct": 0,
    "explanation": "cau: a i u en una sola síl·laba.",
-   "word": "cau"
+   "word": "cau",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_m022",
@@ -6178,7 +6870,9 @@
    ],
    "correct": 0,
    "explanation": "a-qüe-duc-te: la dièresi fa sonar la u.",
-   "word": "aqüeducte"
+   "word": "aqüeducte",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_m023",
@@ -6193,7 +6887,9 @@
    ],
    "correct": 0,
    "explanation": "ra-ïm: la dièresi separa les vocals.",
-   "word": "raïm"
+   "word": "raïm",
+   "skill": "fon_vowels",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_m024",
@@ -6208,7 +6904,9 @@
    ],
    "correct": 0,
    "explanation": "he-roi: o i i en la mateixa síl·laba.",
-   "word": "heroi"
+   "word": "heroi",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_m025",
@@ -6223,7 +6921,9 @@
    ],
    "correct": 1,
    "explanation": "te-a-tre: dues vocals fortes formen hiat.",
-   "word": "teatre"
+   "word": "teatre",
+   "skill": "fon_vowels",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_m026",
@@ -6238,7 +6938,9 @@
    ],
    "correct": 0,
    "explanation": "qües-ti-ó: la dièresi fa sonar la u.",
-   "word": "qüestió"
+   "word": "qüestió",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_m027",
@@ -6253,7 +6955,9 @@
     "país"
    ],
    "correct": 3,
-   "explanation": "pa-ís: sense accent faria diftong."
+   "explanation": "pa-ís: sense accent faria diftong.",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l8_m028",
@@ -6268,7 +6972,9 @@
     "aqüeducte"
    ],
    "correct": 1,
-   "explanation": "camí porta accent, però no dièresi."
+   "explanation": "camí porta accent, però no dièresi.",
+   "skill": "fon_vowels",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l8_d001",
@@ -6282,7 +6988,9 @@
    "hint": "investigació amb v; paciència amb accent",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "La investigació científica necessita paciència."
+   "word": "La investigació científica necessita paciència.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_d002",
@@ -6296,7 +7004,9 @@
    "hint": "excursionistes amb x; voltor amb v",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "Els excursionistes van veure un voltor al cim."
+   "word": "Els excursionistes van veure un voltor al cim.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_d003",
@@ -6310,7 +7020,9 @@
    "hint": "distingir amb g",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "Cal distingir entre fets i opinions."
+   "word": "Cal distingir entre fets i opinions.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_d004",
@@ -6324,7 +7036,9 @@
    "hint": "prohibit amb h; avinguda amb v",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "L'ajuntament ha prohibit aparcar a l'avinguda."
+   "word": "L'ajuntament ha prohibit aparcar a l'avinguda.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_d005",
@@ -6338,7 +7052,9 @@
    "hint": "hipòtesi amb h i accent obert",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "El científic va exposar la seua hipòtesi."
+   "word": "El científic va exposar la seua hipòtesi.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l8_d006",
@@ -6352,7 +7068,9 @@
    "hint": "tempesta amb m; diversos amb v",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "La tempesta va arrancar diversos arbres."
+   "word": "La tempesta va arrancar diversos arbres.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_m001",
@@ -6379,7 +7097,9 @@
     "lo",
     "gra",
     "ma"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_m002",
@@ -6403,7 +7123,9 @@
     "si",
     "ble",
     "ment"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_m003",
@@ -6429,7 +7151,9 @@
     "ci",
     "o",
     "nal"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_m004",
@@ -6453,7 +7177,9 @@
     "ne",
     "ï",
     "tat"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m005",
@@ -6481,7 +7207,9 @@
     "lo",
     "gi",
     "a"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_m006",
@@ -6506,7 +7234,9 @@
     "ta",
     "ci",
     "ó"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_m007",
@@ -6527,7 +7257,9 @@
     "ve",
     "hi",
     "cle"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m008",
@@ -6552,7 +7284,9 @@
     "crà",
     "si",
     "a"
-   ]
+   ],
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_o001",
@@ -6585,7 +7319,9 @@
    "options": [],
    "correct": 0,
    "explanation": "e-lec-tro-en-ce-fa-lo-gra-ma = electroencefalograma",
-   "word": "electroencefalograma"
+   "word": "electroencefalograma",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_o002",
@@ -6612,7 +7348,9 @@
    "options": [],
    "correct": 0,
    "explanation": "in-com-pren-si-ble-ment = incomprensiblement",
-   "word": "incomprensiblement"
+   "word": "incomprensiblement",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_o003",
@@ -6643,7 +7381,9 @@
    "options": [],
    "correct": 0,
    "explanation": "an-ti-cons-ti-tu-ci-o-nal = anticonstitucional",
-   "word": "anticonstitucional"
+   "word": "anticonstitucional",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_o004",
@@ -6670,7 +7410,9 @@
    "options": [],
    "correct": 0,
    "explanation": "es-pon-ta-ne-ï-tat = espontaneïtat",
-   "word": "espontaneïtat"
+   "word": "espontaneïtat",
+   "skill": "fon_syllables",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_o005",
@@ -6705,7 +7447,9 @@
    "options": [],
    "correct": 0,
    "explanation": "o-to-ri-no-la-rin-go-lo-gi-a = otorinolaringologia",
-   "word": "otorinolaringologia"
+   "word": "otorinolaringologia",
+   "skill": "fon_syllables",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_m009",
@@ -6719,7 +7463,9 @@
    ],
    "correct": 1,
    "explanation": "En pe-rit, la síl·laba que sona més forta és «rit».",
-   "word": "perit"
+   "word": "perit",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m010",
@@ -6733,7 +7479,9 @@
    ],
    "correct": 1,
    "explanation": "En còc-tel, la síl·laba que sona més forta és «còc».",
-   "word": "còctel"
+   "word": "còctel",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m011",
@@ -6747,7 +7495,9 @@
    ],
    "correct": 1,
    "explanation": "En tàc-til, la síl·laba que sona més forta és «tàc».",
-   "word": "tàctil"
+   "word": "tàctil",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m012",
@@ -6763,7 +7513,9 @@
    ],
    "correct": 1,
    "explanation": "En hi-pèr-ba-ton, la síl·laba que sona més forta és «pèr».",
-   "word": "hipèrbaton"
+   "word": "hipèrbaton",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m013",
@@ -6779,7 +7531,9 @@
    ],
    "correct": 0,
    "explanation": "En ter-mò-me-tre, la síl·laba que sona més forta és «mò».",
-   "word": "termòmetre"
+   "word": "termòmetre",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_m014",
@@ -6794,7 +7548,9 @@
    ],
    "correct": 1,
    "explanation": "En di-à-leg, la síl·laba que sona més forta és «à».",
-   "word": "diàleg"
+   "word": "diàleg",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m015",
@@ -6809,7 +7565,9 @@
    ],
    "correct": 2,
    "explanation": "«hipòtesi» és esdrúixola: la síl·laba tònica és l'antepenúltima.",
-   "word": "hipòtesi"
+   "word": "hipòtesi",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_m016",
@@ -6824,7 +7582,9 @@
    ],
    "correct": 0,
    "explanation": "«còmic» és plana: la síl·laba tònica és la penúltima.",
-   "word": "còmic"
+   "word": "còmic",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_m017",
@@ -6839,7 +7599,9 @@
    ],
    "correct": 2,
    "explanation": "«ítem» és plana: la síl·laba tònica és la penúltima.",
-   "word": "ítem"
+   "word": "ítem",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m018",
@@ -6854,7 +7616,9 @@
    ],
    "correct": 2,
    "explanation": "«comboi» és aguda: la síl·laba tònica és l'última.",
-   "word": "comboi"
+   "word": "comboi",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_m019",
@@ -6869,7 +7633,9 @@
    ],
    "correct": 2,
    "explanation": "«sàndvitx» és plana: la síl·laba tònica és la penúltima.",
-   "word": "sàndvitx"
+   "word": "sàndvitx",
+   "skill": "fon_stress",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_m020",
@@ -6884,7 +7650,9 @@
    ],
    "correct": 1,
    "explanation": "«aquí» és aguda: la síl·laba tònica és l'última.",
-   "word": "aquí"
+   "word": "aquí",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m021",
@@ -6899,7 +7667,9 @@
    ],
    "correct": 2,
    "explanation": "re-u-ni-ó: el prefix re- fa que la e i la u vagen separades.",
-   "word": "reunió"
+   "word": "reunió",
+   "skill": "fon_vowels",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m022",
@@ -6914,7 +7684,9 @@
    ],
    "correct": 1,
    "explanation": "re-mei: e i i en la mateixa síl·laba.",
-   "word": "remei"
+   "word": "remei",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_m023",
@@ -6929,7 +7701,9 @@
    ],
    "correct": 0,
    "explanation": "guant: després de g, la u sona i forma diftong.",
-   "word": "guant"
+   "word": "guant",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_m024",
@@ -6944,7 +7718,9 @@
    ],
    "correct": 1,
    "explanation": "o-ce-à: dues vocals fortes formen hiat.",
-   "word": "oceà"
+   "word": "oceà",
+   "skill": "fon_vowels",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m025",
@@ -6959,7 +7735,9 @@
    ],
    "correct": 1,
    "explanation": "Llu-ís: la í tònica fa síl·laba a part.",
-   "word": "Lluís"
+   "word": "Lluís",
+   "skill": "fon_vowels",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m026",
@@ -6974,7 +7752,9 @@
    ],
    "correct": 2,
    "explanation": "pau-sa: a i u en una sola síl·laba.",
-   "word": "pausa"
+   "word": "pausa",
+   "skill": "fon_vowels",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_m027",
@@ -6989,7 +7769,9 @@
     "pàgina"
    ],
    "correct": 0,
-   "explanation": "En valencià, anglés porta accent tancat (´)."
+   "explanation": "En valencià, anglés porta accent tancat (´).",
+   "skill": "fon_stress",
+   "step": 1
   },
   {
    "id": "ca_fonologia_l9_m028",
@@ -7004,7 +7786,9 @@
     "pausa"
    ],
    "correct": 3,
-   "explanation": "pau-sa: a i u formen diftong."
+   "explanation": "pau-sa: a i u formen diftong.",
+   "skill": "fon_vowels",
+   "step": 2
   },
   {
    "id": "ca_fonologia_l9_d001",
@@ -7018,7 +7802,9 @@
    "hint": "aconseguir amb gu; objectiu amb j",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "Malgrat les dificultats, van aconseguir l'objectiu."
+   "word": "Malgrat les dificultats, van aconseguir l'objectiu.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_d002",
@@ -7032,7 +7818,9 @@
    "hint": "Tanmateix junt; votació amb v",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "Tanmateix, el jurat va decidir ajornar la votació."
+   "word": "Tanmateix, el jurat va decidir ajornar la votació.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_d003",
@@ -7046,7 +7834,9 @@
    "hint": "imprescindible amb sc; vigent amb g",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "És imprescindible que complim el reglament vigent."
+   "word": "És imprescindible que complim el reglament vigent.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_d004",
@@ -7060,7 +7850,9 @@
    "hint": "adolescent amb sc; escèptic amb sc i accent obert",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "L'adolescent es va mostrar escèptic davant la proposta."
+   "word": "L'adolescent es va mostrar escèptic davant la proposta.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_d005",
@@ -7074,7 +7866,9 @@
    "hint": "exuberant sense h; ruïnes amb dièresi",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "La vegetació exuberant cobria les ruïnes del temple."
+   "word": "La vegetació exuberant cobria les ruïnes del temple.",
+   "skill": "dictation",
+   "step": 3
   },
   {
    "id": "ca_fonologia_l9_d006",
@@ -7088,7 +7882,9 @@
    "hint": "ambigüitat amb dièresi; missatge amb ss",
    "explanation": "Fixa't en les majúscules, els accents i els signes.",
    "dictation": true,
-   "word": "L'ambigüitat del missatge va provocar confusió."
+   "word": "L'ambigüitat del missatge va provocar confusió.",
+   "skill": "dictation",
+   "step": 3
   }
  ]
 }
