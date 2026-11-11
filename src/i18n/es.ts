@@ -742,6 +742,26 @@ export const es = {
   st_again: 'Otra ronda con preguntas nuevas',
   st_back_text: 'Volver al texto',
   st_too_short: 'El texto es demasiado corto para preparar preguntas. Prueba con una página entera.',
+
+  // Stories made for you
+  sto_title: 'Cuentos a tu medida',
+  sto_card_desc: 'Inventa un cuento con tus palabras',
+  sto_desc: 'Elige un protagonista, un lugar y un objeto. La app escribe un cuento de tu nivel con tus palabras difíciles.',
+  sto_pick_hero: '1. ¿Quién es el protagonista?',
+  sto_pick_place: '2. ¿Dónde pasa?',
+  sto_pick_thing: '3. ¿Qué encuentra?',
+  sto_create: 'Crear mi cuento',
+  sto_magic: 'Palabras mágicas del cuento (tócalas para oírlas)',
+  sto_questions: 'Responder {n} preguntas',
+  sto_another: 'Inventar otro cuento',
+  sto_reread: 'Volver a leer el cuento',
+  sto_done_desc: 'Cada cuento que lees te ayuda a leer con más soltura.',
+  sto_mine: 'Mis cuentos',
+  sto_tip_words: 'Guarda palabras en tu cuaderno y saldrán en tus cuentos',
+  sto_q_who: '¿Quién es el protagonista del cuento?',
+  sto_q_where: '¿Dónde está {name}?',
+  sto_q_what: '¿Qué encuentra {name}?',
+  sto_q_word: '¿Cuál de estas palabras mágicas aparece en el cuento?',
 } as const;
 
 export type TranslationKey = keyof typeof es;
