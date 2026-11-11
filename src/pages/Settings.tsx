@@ -510,6 +510,10 @@ export default function Settings() {
         {/* App info */}
         <div className="text-center text-xs text-fg-muted pt-2">
           <p>Lectorix v{__APP_VERSION__}</p>
+          <details className="mt-2 text-left">
+            <summary className="text-center cursor-pointer font-bold">{t('credits_title')}</summary>
+            <p className="mt-2 leading-snug">{t('credits_text')}</p>
+          </details>
 
         </div>
       </div>

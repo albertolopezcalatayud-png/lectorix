@@ -1,0 +1,17 @@
+Word lists for the offline spelling check of Lectorix ("Escribe y escúchalo").
+They are derived from these Hunspell dictionaries (all word forms expanded, words with
+hyphens or apostrophes removed, front-coded and gzipped by scripts/spell/build.py):
+
+es.fc.gz  Spanish dictionary (es_ES), RLA-ES project, Santiago Bosio and contributors.
+          License: GPL-3+ or LGPL-3+ or MPL-1.1+ (used here under LGPL-3+).
+          https://github.com/sbosio/rla-es
+
+ca.fc.gz  Catalan dictionary, Valencian variant (ca_ES-valencia), Softcatalà,
+          Joan Moratinos, Jaume Ortolà and contributors. License: GPL-2+ and LGPL-2.1+
+          (used here under LGPL-2.1+). https://github.com/Softcatala/catalan-dict-tools
+
+en.fc.gz  British English dictionary (en_GB), David Bartlett, Andrew Brown,
+          Marco A.G. Pinto and contributors. License: LGPL.
+          https://github.com/marcoagpinto/aoo-mozilla-en-dict
+
+These files may be replaced by modified versions; the app only reads them as data.

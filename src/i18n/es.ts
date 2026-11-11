@@ -762,6 +762,39 @@ export const es = {
   sto_q_where: '¿Dónde está {name}?',
   sto_q_what: '¿Qué encuentra {name}?',
   sto_q_word: '¿Cuál de estas palabras mágicas aparece en el cuento?',
+
+  // Write and listen
+  wl_title: 'Escribe y escúchalo',
+  wl_card_desc: 'Oye lo que escribes y revísalo',
+  wl_lang: 'Idioma del texto',
+  wl_lang_es: 'Castellano',
+  wl_lang_ca: 'Valenciano',
+  wl_lang_en: 'Inglés',
+  wl_placeholder: 'Escribe aquí tu texto: una redacción, un resumen, un mensaje...',
+  wl_listen: 'Escúchalo',
+  wl_stop: 'Parar',
+  wl_check: 'Revisar',
+  wl_edit: 'Seguir escribiendo',
+  wl_words: '{n} palabras',
+  wl_clear: 'Borrar todo',
+  wl_loading: 'Preparando el diccionario...',
+  wl_failed: 'No se ha podido cargar el diccionario. Inténtalo otra vez con conexión a internet.',
+  wl_all_known: 'Todas las palabras están en el diccionario.',
+  wl_found: 'Hay {n} palabras subrayadas. Tócalas para ver ideas.',
+  wl_unknown: '«{word}» no está en el diccionario.',
+  wl_maybe: '¿Querías escribir alguna de estas? Tócala para cambiarla.',
+  wl_no_ideas: 'No encuentro ninguna parecida. Puede ser un nombre propio.',
+  wl_hear: 'Escuchar {word}',
+  wl_hear_mine: 'Escuchar cómo la he escrito',
+  wl_keep: 'Está bien así',
+  wl_fixed: 'Cambiada por «{word}».',
+  wl_save: 'Guardar «{word}» en mi cuaderno',
+  wl_tip: 'Escuchar lo que has escrito ayuda a descubrir palabras que faltan o que no suenan bien.',
+  wl_note: 'La revisión se hace en este dispositivo, sin enviar el texto a ningún sitio, y busca palabras que no están en el diccionario. No revisa la gramática ni las palabras que existen con y sin tilde (como «esta» y «está»).',
+
+  // Credits
+  credits_title: 'Créditos y licencias',
+  credits_text: 'Diccionarios de ortografía: RLA-ES (castellano, LGPL), Softcatalà (valenciano, LGPL) y el diccionario británico de LibreOffice (inglés, LGPL). Lectura de fotos: Tesseract (Apache 2.0). Fuente OpenDyslexic (SIL OFL).',
 } as const;
 
 export type TranslationKey = keyof typeof es;

@@ -40,6 +40,12 @@ export default defineConfig({
         globIgnores: ['tesseract/**'],
         runtimeCaching: [
           {
+            // Spelling word lists: downloaded the first time "Write and listen" checks a text, then offline
+            urlPattern: /\/dict\/[a-z]+\.fc\.gz$/,
+            handler: 'CacheFirst',
+            options: { cacheName: 'lectorix-dict', expiration: { maxEntries: 6 } },
+          },
+          {
             urlPattern: /^https:\/\/fonts\.(googleapis|gstatic)\.com\/.*/i,
             handler: 'CacheFirst',
             options: { cacheName: 'google-fonts', expiration: { maxEntries: 20, maxAgeSeconds: 60 * 60 * 24 * 365 } },

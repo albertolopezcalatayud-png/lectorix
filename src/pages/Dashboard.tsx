@@ -148,12 +148,13 @@ export default function Dashboard() {
         {/* Tools */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
           <h2 className="font-heading font-extrabold text-sm mb-2">{t('tools_title')}</h2>
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-3 gap-2">
             {([
               { to: '/fluidez', icon: '⏱️', title: 'flu_title', desc: 'flu_card_desc' },
               { to: '/adaptar', icon: '📷', title: 'hw_title', desc: 'hw_card_desc' },
               { to: '/juntos', icon: '🤝', title: 'tg_title', desc: 'tg_card_desc' },
               { to: '/cuentos', icon: '🧚', title: 'sto_title', desc: 'sto_card_desc' },
+              { to: '/escribe', icon: '✍️', title: 'wl_title', desc: 'wl_card_desc' },
             ] as const).map((x) => (
               <Card key={x.to} hover onClick={() => navigate(x.to)} className="!p-3">
                 <span className="text-2xl">{x.icon}</span>
