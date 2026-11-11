@@ -141,7 +141,7 @@ export default function Fluency() {
             <Card>
               <span className="text-xs text-fg-muted block mb-2">{t('flu_choose_level')}</span>
               <div className="flex gap-1.5">
-                {[1, 2, 3, 4, 5].map((l) => (
+                {(readings ? [...new Set(readings.map((r) => r.level))].sort((a, b) => a - b) : [1, 2, 3, 4, 5]).map((l) => (
                   <button key={l} onClick={() => setLevel(l)}
                     className={`flex-1 py-2 rounded-xl font-bold text-sm ${level === l ? 'bg-accent text-white' : 'bg-bg border border-border'}`}>
                     {l}

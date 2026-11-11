@@ -175,9 +175,10 @@ export function recommendedLevel(
   module: ModuleId,
   levels: number,
   isUnlocked: (m: ModuleId, l: number) => boolean,
+  start = 1,
 ): number {
-  let highest = 1;
-  for (let l = 1; l <= levels; l++) {
+  let highest = start;
+  for (let l = start; l <= levels; l++) {
     if (!isUnlocked(module, l)) break;
     highest = l;
     const p = progress.find((x) => x.module === module && x.level === l);

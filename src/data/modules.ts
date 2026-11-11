@@ -60,12 +60,25 @@ export const MODULES: ModuleInfo[] = [
   },
 ];
 
-export const LEVEL_NAMES: Record<number, string> = {
-  1: 'Iniciación',
-  2: 'Consolidación',
-  3: 'Desarrollo',
-  4: 'Avanzado',
-  5: 'Dominio',
+/**
+ * How many levels each practice language has.
+ * Spanish and Valencian go from early Primary to the end of ESO (levels 6-9 = ESO).
+ * English is a foreign language for the students, so it keeps its own scale.
+ */
+export const LEVEL_COUNT: Record<'es' | 'ca' | 'en', number> = { es: 9, ca: 9, en: 5 };
+
+/** School stage the family or teacher can tell the app (only used to pick a starting level) */
+export type SchoolStage = 'p12' | 'p34' | 'p56' | 'eso12' | 'eso34';
+export const SCHOOL_STAGES: SchoolStage[] = ['p12', 'p34', 'p56', 'eso12', 'eso34'];
+
+/**
+ * Suggested starting level for each stage. It is set a little below the course on purpose:
+ * the app is for students who find reading and writing hard, and they can always move up.
+ */
+export const STAGE_START: Record<'es' | 'ca' | 'en', Record<SchoolStage, number>> = {
+  es: { p12: 1, p34: 2, p56: 4, eso12: 5, eso34: 7 },
+  ca: { p12: 1, p34: 2, p56: 4, eso12: 5, eso34: 7 },
+  en: { p12: 1, p34: 1, p56: 2, eso12: 2, eso34: 3 },
 };
 
 export function getModule(id: string): ModuleInfo | undefined {

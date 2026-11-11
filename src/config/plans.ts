@@ -10,7 +10,8 @@ export const FEATURE_PLAN = {
   homework: 'free',         // adapt any text or a photo of a page
   together: 'free',         // family "Together" mode
   familyLanguages: 'free',  // family panel in more languages
-} as Record<'fluency' | 'homework' | 'together' | 'familyLanguages', FeaturePlan>;
+  allLevels: 'free',        // levels above 1 in every area
+} as Record<'fluency' | 'homework' | 'together' | 'familyLanguages' | 'allLevels', FeaturePlan>;
 
 export type Feature = keyof typeof FEATURE_PLAN;
 

@@ -9,20 +9,22 @@ interface ExportData {
   progress: StudentProgress[];
   language: string;
   weekly?: string[];
+  /** Levels per area in the practice language */
+  levelCount?: number;
 }
 
 function escapeHtml(str: string): string {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-export function generateParentReport({ user, progress, language, weekly }: ExportData): string {
+export function generateParentReport({ user, progress, language, weekly, levelCount = 5 }: ExportData): string {
   const t = getTranslator(language);
   const totalXP = user?.total_xp || 0;
   const { level } = calculateXPLevel(totalXP);
   const totalStars = progress.reduce((sum, p) => sum + p.stars, 0);
-  const maxStars = MODULES.reduce((sum, m) => sum + m.levels * 3, 0);
+  const maxStars = MODULES.length * levelCount * 3;
   const completedLevels = progress.filter((p) => p.stars > 0).length;
-  const totalLevels = MODULES.reduce((sum, m) => sum + m.levels, 0);
+  const totalLevels = MODULES.length * levelCount;
   const avgScore = progress.length > 0
     ? Math.round(progress.reduce((sum, p) => sum + p.best_score, 0) / progress.length)
     : 0;
@@ -38,7 +40,7 @@ export function generateParentReport({ user, progress, language, weekly }: Expor
       ? Math.round(mp.reduce((s, p) => s + p.best_score, 0) / mp.length)
       : 0;
     const attempts = mp.reduce((s, p) => s + p.attempts, 0);
-    const pct = Math.round((completed / mod.levels) * 100);
+    const pct = Math.round((completed / levelCount) * 100);
 
     const levelDetails = mp.map((p) => `
       <tr class="level-row">
@@ -52,7 +54,7 @@ export function generateParentReport({ user, progress, language, weekly }: Expor
     return `
       <tr class="module-row">
         <td><strong>${mod.icon} ${escapeHtml(t(MODULE_TEXT[mod.id].name))}</strong></td>
-        <td>${modStars}/${mod.levels * 3} ★</td>
+        <td>${modStars}/${levelCount * 3} ★</td>
         <td>${modAvg}%</td>
         <td>${attempts}</td>
       </tr>
@@ -61,7 +63,7 @@ export function generateParentReport({ user, progress, language, weekly }: Expor
           <div class="progress-bar">
             <div class="progress-fill" style="width:${pct}%; background:${mod.color};"></div>
           </div>
-          <span class="progress-label">${t('pdf_levels_pct' as TranslationKey, { done: completed, total: mod.levels, pct })}</span>
+          <span class="progress-label">${t('pdf_levels_pct' as TranslationKey, { done: completed, total: levelCount, pct })}</span>
         </td>
       </tr>
       ${levelDetails}

@@ -5,11 +5,11 @@ import type { Exercise, AnswerResult, ModuleId } from '@/types';
 import { recordSession } from '@/services/session';
 import { useReviewStore, recommendedLevel } from '@/services/review';
 import { buildSessionResult } from '@/services/gamification';
-import { MODULES } from '@/data/modules';
+import { MODULES, LEVEL_COUNT } from '@/data/modules';
 import { ExerciseCard } from '@/components/exercise/ExerciseCard';
 import { useI18n } from '@/i18n';
 import { loadModule } from '@/data/content';
-import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
+import { useAppStore, usePracticeLang, resolvePracticeLang } from '@/stores/useAppStore';
 
 const DAILY_COUNT = 5;
 
@@ -36,7 +36,7 @@ export default function DailyChallenge() {
             // The daily challenge renders multiple-choice cards only
             // Adaptive: take it from the level the student is working on in that module
             const st = useAppStore.getState();
-            const lvl = recommendedLevel(st.progress, mod.id, mod.levels, st.isLevelUnlocked);
+            const lvl = recommendedLevel(st.progress, mod.id, LEVEL_COUNT[resolvePracticeLang(st)], st.isLevelUnlocked, st.startLevel(mod.id));
             const mc = data.filter((e: Exercise) => e.type === 'multiple_choice');
             const atLevel = mc.filter((e: Exercise) => e.level === lvl);
             const modExercises = atLevel.length > 0 ? atLevel : mc;

@@ -1,7 +1,8 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {MODULE_TEXT, getModule, levelNameKey } from '@/data/modules';
-import { useAppStore } from '@/stores/useAppStore';
+import { useAppStore, useLevelCount } from '@/stores/useAppStore';
+import { featureLocked } from '@/config/plans';
 import { Card } from '@/components/ui/Card';
 import { Stars } from '@/components/ui/Stars';
 import { Header } from '@/components/layout/Header';
@@ -15,6 +16,11 @@ export default function Levels() {
   const progress = useAppStore((s) => s.progress);
   const isLevelUnlocked = useAppStore((s) => s.isLevelUnlocked);
   const isPremium = useAppStore((s) => s.isPremium);
+  const startLevel = useAppStore((s) => s.startLevel);
+  // Re-render when the starting point changes
+  useAppStore((s) => s.startLevels);
+  useAppStore((s) => s.schoolStage);
+  const levelCount = useLevelCount();
   const { t } = useI18n();
 
   if (!mod) {
@@ -22,8 +28,9 @@ export default function Levels() {
     return null;
   }
 
-  const levels = Array.from({ length: mod.levels }, (_, i) => i + 1);
-  const recommended = recommendedLevel(progress, mod.id, mod.levels, isLevelUnlocked);
+  const levels = Array.from({ length: levelCount }, (_, i) => i + 1);
+  const start = startLevel(mod.id);
+  const recommended = recommendedLevel(progress, mod.id, levelCount, isLevelUnlocked, start);
 
   return (
     <div className="min-h-screen pb-24">
@@ -53,9 +60,8 @@ export default function Levels() {
           <Card
             hover
             onClick={() => {
-              const firstUnlocked = levels.find(l => isLevelUnlocked(mod.id, l));
-              if (firstUnlocked) {
-                navigate(`/ejercicio/${mod.id}/${firstUnlocked}`, {
+              if (recommended) {
+                navigate(`/ejercicio/${mod.id}/${recommended}`, {
                   state: { examMode: true, examTimeLimit: 5 * 60 * 1000 }, // 5 min
                 });
               }
@@ -78,8 +84,7 @@ export default function Levels() {
           {levels.map((level, i) => {
             const unlocked = isLevelUnlocked(mod.id, level);
             const levelProgress = progress.find((p) => p.module === mod.id && p.level === level);
-            const isFree = mod.id === 'fonologia' && level === 1; // Free tier content
-            const needsPremium = !isFree && !isPremium() && level > 1;
+            const needsPremium = level > 1 && featureLocked('allLevels', isPremium());
 
             return (
               <motion.div

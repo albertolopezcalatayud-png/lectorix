@@ -107,8 +107,8 @@ export default function Dictation() {
             <Card className="border-red/30 bg-red-pale/30 text-sm">⚠️ {t('dict_no_voice')}</Card>
           )}
           <h3 className="font-heading font-extrabold text-sm pt-1">{t('dict_choose')}</h3>
-          {[1, 2, 3, 4, 5].map((l, i) => {
-            const count = pool.filter((e) => e.level === l).length;
+          {[...new Set((pool ?? []).map((e) => e.level))].sort((a, b) => a - b).map((l, i) => {
+            const count = (pool ?? []).filter((e) => e.level === l).length;
             return (
               <motion.div key={l} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }}>
                 <Card hover onClick={() => setLevel(l)}>

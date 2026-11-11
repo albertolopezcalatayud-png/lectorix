@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
+import { useAppStore, usePracticeLang, useLevelCount } from '@/stores/useAppStore';
 import { useReviewStore, dueItems, notebookWords } from '@/services/review';
 import { calculateXPLevel } from '@/services/gamification';
 import {MODULES, MODULE_TEXT } from '@/data/modules';
@@ -13,6 +13,7 @@ import { useI18n } from '@/i18n';
 export default function Dashboard() {
   const navigate = useNavigate();
   const user = useAppStore((s) => s.user);
+  const levelCount = useLevelCount();
   const progress = useAppStore((s) => s.progress);
   const mascot = useAppStore((s) => s.mascot);
   const { t } = useI18n();
@@ -147,7 +148,7 @@ export default function Dashboard() {
             {MODULES.map((mod, i) => {
               const modProgress = progress.filter((p) => p.module === mod.id);
               const completedLevels = modProgress.filter((p) => p.stars > 0).length;
-              const pct = (completedLevels / mod.levels) * 100;
+              const pct = (completedLevels / levelCount) * 100;
 
               return (
                 <motion.div
@@ -169,7 +170,7 @@ export default function Dashboard() {
                           <ProgressBar value={pct} color={mod.color} height={4} />
                         </div>
                       </div>
-                      <span className="text-xs font-bold text-fg-muted">{completedLevels}/{mod.levels}</span>
+                      <span className="text-xs font-bold text-fg-muted">{completedLevels}/{levelCount}</span>
                     </div>
                   </Card>
                 </motion.div>

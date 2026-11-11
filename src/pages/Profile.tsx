@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { useAppStore } from '@/stores/useAppStore';
+import { useAppStore, useLevelCount } from '@/stores/useAppStore';
 import { calculateXPLevel } from '@/services/gamification';
 import {MODULES, MODULE_TEXT } from '@/data/modules';
 import { Header } from '@/components/layout/Header';
@@ -13,6 +13,7 @@ import { useI18n } from '@/i18n';
 export default function Profile() {
   const navigate = useNavigate();
   const user = useAppStore((s) => s.user);
+  const levelCount = useLevelCount();
   const progress = useAppStore((s) => s.progress);
   const mascot = useAppStore((s) => s.mascot);
   const { t } = useI18n();
@@ -108,7 +109,7 @@ export default function Profile() {
               {MODULES.map((mod) => {
                 const modProgress = progress.filter((p) => p.module === mod.id);
                 const completed = modProgress.filter((p) => p.stars > 0).length;
-                const pct = (completed / mod.levels) * 100;
+                const pct = (completed / levelCount) * 100;
 
                 return (
                   <div key={mod.id} className="flex items-center gap-3">
@@ -116,7 +117,7 @@ export default function Profile() {
                     <div className="flex-1">
                       <div className="flex justify-between text-xs mb-1">
                         <span className="font-bold">{t(MODULE_TEXT[mod.id].name)}</span>
-                        <span className="text-fg-muted">{completed}/{mod.levels}</span>
+                        <span className="text-fg-muted">{completed}/{levelCount}</span>
                       </div>
                       <ProgressBar value={pct} color={mod.color} height={5} />
                     </div>

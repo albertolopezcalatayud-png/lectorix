@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {MODULES, MODULE_TEXT } from '@/data/modules';
-import { useAppStore } from '@/stores/useAppStore';
+import { useAppStore, useLevelCount } from '@/stores/useAppStore';
 import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { Header } from '@/components/layout/Header';
@@ -9,6 +9,7 @@ import { useI18n } from '@/i18n';
 
 export default function Modules() {
   const navigate = useNavigate();
+  const levelCount = useLevelCount();
   const progress = useAppStore((s) => s.progress);
   const { t } = useI18n();
 
@@ -21,7 +22,7 @@ export default function Modules() {
           const modProgress = progress.filter((p) => p.module === mod.id);
           const completedLevels = modProgress.filter((p) => p.stars > 0).length;
           const totalStars = modProgress.reduce((sum, p) => sum + p.stars, 0);
-          const pct = (completedLevels / mod.levels) * 100;
+          const pct = (completedLevels / levelCount) * 100;
 
           return (
             <motion.div
@@ -44,12 +45,12 @@ export default function Modules() {
                     <div className="flex items-center gap-3 mt-2">
                       <ProgressBar value={pct} color={mod.color} height={6} />
                       <span className="text-xs font-bold text-fg-muted whitespace-nowrap">
-                        {completedLevels}/{mod.levels}
+                        {completedLevels}/{levelCount}
                       </span>
                     </div>
                     <div className="flex gap-3 mt-2">
                       <span className="text-xs text-fg-muted">⭐ {totalStars} {t('prof_stars').toLowerCase()}</span>
-                      <span className="text-xs text-fg-muted">{t('mod_levels', { n: mod.levels })}</span>
+                      <span className="text-xs text-fg-muted">{t('mod_levels', { n: levelCount })}</span>
                     </div>
                   </div>
                 </div>

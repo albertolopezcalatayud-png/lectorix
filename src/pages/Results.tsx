@@ -1,3 +1,4 @@
+import { useLevelCount } from '@/stores/useAppStore';
 import { useEffect, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -19,6 +20,7 @@ export default function Results() {
   const srs: { added: number; promoted: number; mastered: number } | undefined = location.state?.srs;
   const soundPlayed = useRef(false);
   const { t } = useI18n();
+  const levelCount = useLevelCount();
   const readingFound = useReading(result?.mode === 'reading' ? result.reading_id : undefined);
 
   useEffect(() => {
@@ -34,7 +36,7 @@ export default function Results() {
       }
     }, 700);
     const t3 = setTimeout(() => sounds.xp(), 700 + result.stars * 250 + 200);
-    const t4 = unlocked && result.level < 5
+    const t4 = unlocked && result.level < levelCount
       ? setTimeout(() => sounds.levelUp(), 1200 + result.stars * 250)
       : null;
 
@@ -185,7 +187,7 @@ export default function Results() {
       </motion.div>
 
       {/* Level unlocked notification */}
-      {unlocked && result.level < 5 && !isExam && !isReview && !isStandalone && (
+      {unlocked && result.level < levelCount && !isExam && !isReview && !isStandalone && (
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -252,7 +254,7 @@ export default function Results() {
           </Button>
         )}
 
-        {unlocked && result.level < 5 && !isExam && !isReview && !isStandalone && (
+        {unlocked && result.level < levelCount && !isExam && !isReview && !isStandalone && (
           <Button
             fullWidth
             onClick={() => navigate(`/ejercicio/${result.module}/${result.level + 1}`, { replace: true })}

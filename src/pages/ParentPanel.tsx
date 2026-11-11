@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useAppStore } from '@/stores/useAppStore';
+import { useAppStore, useLevelCount } from '@/stores/useAppStore';
 import { calculateXPLevel } from '@/services/gamification';
 import {MODULES, MODULE_TEXT } from '@/data/modules';
 import { Header } from '@/components/layout/Header';
@@ -14,6 +14,7 @@ import { WeeklySummary, HomeTips, useWeeklyLines, FamilyLanguagePicker } from '@
 
 export default function ParentPanel() {
   const user = useAppStore((s) => s.user);
+  const levelCount = useLevelCount();
   const progress = useAppStore((s) => s.progress);
   const totalXP = user?.total_xp || 0;
   const { level } = calculateXPLevel(totalXP);
@@ -22,9 +23,9 @@ export default function ParentPanel() {
 
   const sessionHistory = useAppStore((s) => s.sessionHistory);
   const totalStars = progress.reduce((sum, p) => sum + p.stars, 0);
-  const maxStars = MODULES.reduce((sum, m) => sum + m.levels * 3, 0);
+  const maxStars = MODULES.length * levelCount * 3;
   const completedLevels = progress.filter((p) => p.stars > 0).length;
-  const totalLevels = MODULES.reduce((sum, m) => sum + m.levels, 0);
+  const totalLevels = MODULES.length * levelCount;
   const avgScore = progress.length > 0
     ? Math.round(progress.reduce((sum, p) => sum + p.best_score, 0) / progress.length)
     : 0;
@@ -44,7 +45,7 @@ export default function ParentPanel() {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex gap-2 justify-end">
           <button
             onClick={() => {
-              const html = generateParentReport({ user, progress, language, weekly });
+              const html = generateParentReport({ user, progress, language, weekly, levelCount });
               const name = user?.display_name || 'estudiante';
               const date = new Date().toISOString().slice(0, 10);
               downloadReport(html, `informe-lectorix-${name}-${date}.html`);
@@ -55,7 +56,7 @@ export default function ParentPanel() {
           </button>
           <button
             onClick={() => {
-              const html = generateParentReport({ user, progress, language, weekly });
+              const html = generateParentReport({ user, progress, language, weekly, levelCount });
               printReport(html);
             }}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-bg-card border border-border text-xs font-bold hover:bg-accent-pale/30 transition-colors"
@@ -127,7 +128,7 @@ export default function ParentPanel() {
                   name: t(MODULE_TEXT[mod.id].name),
                   icon: mod.icon,
                   color: mod.color,
-                  value: Math.round((completed / mod.levels) * 100),
+                  value: Math.round((completed / levelCount) * 100),
                 };
               })}
             />
@@ -213,11 +214,11 @@ export default function ParentPanel() {
                     <div className="flex items-center gap-2 mb-1.5">
                       <span className="text-lg">{mod.icon}</span>
                       <span className="font-heading font-extrabold text-sm">{t(MODULE_TEXT[mod.id].name)}</span>
-                      <span className="ml-auto text-xs text-fg-muted">{t('parent_levels_label', { n: completed, total: mod.levels })}</span>
+                      <span className="ml-auto text-xs text-fg-muted">{t('parent_levels_label', { n: completed, total: levelCount })}</span>
                     </div>
-                    <ProgressBar value={(completed / mod.levels) * 100} color={mod.color} height={5} />
+                    <ProgressBar value={(completed / levelCount) * 100} color={mod.color} height={5} />
                     <div className="flex gap-4 mt-1 text-[10px] text-fg-muted">
-                      <span>⭐ {modStars}/{mod.levels * 3}</span>
+                      <span>⭐ {modStars}/{levelCount * 3}</span>
                       <span>{t('parent_avg_label', { score: modAvg })}</span>
                       <span>{t('parent_attempts_label', { n: modProgress.reduce((s, p) => s + p.attempts, 0) })}</span>
                     </div>

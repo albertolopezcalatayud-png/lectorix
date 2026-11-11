@@ -2,6 +2,9 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { UserProfile, StudentProgress, Subscription, ModuleId, SessionResult } from '@/types';
 import type { MascotCustomization } from '@/components/mascot/MascotAvatar';
+import { LEVEL_COUNT, STAGE_START, type SchoolStage } from '@/data/modules';
+
+type Lang = 'es' | 'ca' | 'en';
 
 interface AppState {
   // Auth
@@ -15,6 +18,20 @@ interface AppState {
   updateProgress: (entry: StudentProgress) => void;
   getModuleProgress: (module: ModuleId) => StudentProgress[];
   isLevelUnlocked: (module: ModuleId, level: number) => boolean;
+  /** Level a student starts from in an area (levels up to it are open), for the current practice language */
+  startLevel: (module: ModuleId) => number;
+
+  // Starting point
+  schoolStage: SchoolStage | null;
+  setSchoolStage: (stage: SchoolStage | null) => void;
+  /** Starting levels set by the placement test or by an adult, per practice language */
+  startLevels: Partial<Record<Lang, Partial<Record<ModuleId, number>>>>;
+  setStartLevels: (lang: Lang, levels: Partial<Record<ModuleId, number>>) => void;
+  /** Practice languages in which the placement test has been done */
+  placementDone: Partial<Record<Lang, string>>;
+  setPlacementDone: (lang: Lang) => void;
+  placementDismissed: boolean;
+  setPlacementDismissed: (v: boolean) => void;
 
   // Subscription
   subscription: Subscription;
@@ -103,10 +120,28 @@ export const useAppStore = create<AppState>()(
         }),
       getModuleProgress: (module) => get().progress.filter((p) => p.module === module),
       isLevelUnlocked: (module, level) => {
-        if (level === 1) return true;
+        if (level <= get().startLevel(module)) return true;
         const prev = get().progress.find((p) => p.module === module && p.level === level - 1);
         return prev ? prev.stars > 0 : false;
       },
+      startLevel: (module) => {
+        const st = get();
+        const lang = resolvePracticeLang(st);
+        const max = LEVEL_COUNT[lang];
+        const explicit = st.startLevels[lang]?.[module];
+        const fromStage = st.schoolStage ? STAGE_START[lang][st.schoolStage] : 1;
+        return Math.max(1, Math.min(max, explicit ?? fromStage));
+      },
+
+      schoolStage: null,
+      setSchoolStage: (schoolStage) => set({ schoolStage }),
+      startLevels: {},
+      setStartLevels: (lang, levels) =>
+        set((st) => ({ startLevels: { ...st.startLevels, [lang]: { ...st.startLevels[lang], ...levels } } })),
+      placementDone: {},
+      setPlacementDone: (lang) => set((st) => ({ placementDone: { ...st.placementDone, [lang]: new Date().toISOString() } })),
+      placementDismissed: false,
+      setPlacementDismissed: (placementDismissed) => set({ placementDismissed }),
 
       // Subscription
       subscription: { plan_id: 'free', status: 'active', started_at: new Date().toISOString() } as Subscription,
@@ -238,6 +273,10 @@ export const useAppStore = create<AppState>()(
         syllableColors: state.syllableColors,
         readingRuler: state.readingRuler,
         onboardingDone: state.onboardingDone,
+        schoolStage: state.schoolStage,
+        startLevels: state.startLevels,
+        placementDone: state.placementDone,
+        placementDismissed: state.placementDismissed,
         sessionHistory: state.sessionHistory,
         mascot: state.mascot,
       }),
@@ -251,3 +290,6 @@ export function resolvePracticeLang(s: { language: 'es' | 'ca' | 'en'; practiceL
 }
 
 export const usePracticeLang = () => useAppStore((s) => resolvePracticeLang(s));
+
+/** Number of levels in the current practice language */
+export const useLevelCount = () => useAppStore((s) => LEVEL_COUNT[resolvePracticeLang(s)]);

@@ -19,7 +19,7 @@ export default function ReadingList() {
       <Header title={t('read_title')} showBack />
       <div className="px-4 py-5 max-w-lg mx-auto space-y-6">
         <p className="text-sm text-fg-muted">{t('read_desc')}</p>
-        {[1, 2, 3, 4, 5].map((level) => (
+        {[...new Set(readings.map((r) => r.level))].sort((a, b) => a - b).map((level) => (
           <section key={level}>
             <h3 className="font-heading font-extrabold text-sm mb-2.5">
               {t('dash_level', { level })} · {t(levelNameKey(level))}
