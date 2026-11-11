@@ -1,0 +1,50 @@
+const { chromium } = require('playwright');
+const BASE = 'http://localhost:4173/lectorix/';
+const OUT = __dirname + '/wl-';
+const TXT = { es: 'Ayer fui aver a mi ermano. El pinguino bolaba.', ca: 'Hui he vist el meu germa. Vaig coneixer un xiquet.', en: "Yesterday I went becuase I didn't know my freind." };
+(async () => {
+  const b = await chromium.launch();
+  const errors = [];
+  const check = (c, m) => { console.log(c ? 'PASS' : 'FAIL', m); if (!c) errors.push(m); };
+  for (const lang of ['es', 'ca', 'en']) {
+    const ctx = await b.newContext({ viewport: { width: 390, height: 844 } });
+    const p = await ctx.newPage();
+    p.on('pageerror', (e) => errors.push(`${lang} pageerror ${e.message}`));
+    p.on('console', (m) => { if (m.type() === 'error') errors.push(`${lang} console ${m.text()}`); });
+    await p.goto(BASE);
+    await p.evaluate((lang) => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); }, lang);
+    await p.reload(); await p.waitForTimeout(700);
+    check(/Escribe y escúchalo|Escriu i escolta-ho|Write and listen/.test(await p.innerText('body')), `${lang}: dashboard card`);
+    await p.goto(BASE + '#/escribe'); await p.waitForTimeout(800);
+    await p.fill('textarea', TXT[lang]);
+    await p.screenshot({ path: OUT + lang + '-write.png' });
+    await p.getByRole('button', { name: /Revisar|Check/ }).click();
+    await p.waitForTimeout(2500);
+    let body = await p.innerText('body');
+    await p.screenshot({ path: OUT + lang + '-check.png' });
+    const under = await p.locator('button.decoration-wavy').allInnerTexts();
+    console.log('  underlined:', under.join(', '));
+    const expect = { es: ['aver', 'ermano', 'pinguino', 'bolaba'], ca: ['germa', 'coneixer'], en: ['becuase', 'freind'] }[lang];
+    check(expect.every((w) => under.includes(w)) && under.length === expect.length, `${lang}: flags exactly ${expect.join(',')}`);
+    await p.locator('button.decoration-wavy').nth(lang === 'es' ? 1 : 0).click(); await p.waitForTimeout(300);
+    await p.screenshot({ path: OUT + lang + '-sugg.png' });
+    const want = { es: 'hermano', ca: 'germà', en: 'because' }[lang];
+    await p.getByRole('button', { name: want, exact: true }).click(); await p.waitForTimeout(300);
+    await p.getByRole('button', { name: /Guardar|Save/ }).click(); await p.waitForTimeout(300);
+    const nb = await p.evaluate(() => Object.values(JSON.parse(localStorage.getItem('lectorix-review')).state.items).map((i) => i.word));
+    check(nb.includes(want), `${lang}: corrected word saved to notebook`);
+    // ignore one
+    await p.locator('button.decoration-wavy').first().click(); await p.waitForTimeout(200);
+    await p.getByRole('button', { name: /Está bien así|Està bé així|fine like this/ }).click(); await p.waitForTimeout(300);
+    const under2 = await p.locator('button.decoration-wavy').count();
+    check(under2 === expect.length - 2, `${lang}: ${under2} left after fix + ignore`);
+    await p.getByRole('button', { name: /Seguir escribiendo|Continuar escrivint|Keep writing/ }).click();
+    const val = await p.inputValue('textarea');
+    check(val.includes(want), `${lang}: textarea has the fix: ${val}`);
+    await p.reload(); await p.waitForTimeout(700);
+    check((await p.inputValue('textarea')) === val, `${lang}: draft kept after reload`);
+    await ctx.close();
+  }
+  await b.close();
+  console.log('ERRORS', errors.length, errors.slice(0, 10));
+})();

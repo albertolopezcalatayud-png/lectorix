@@ -1,0 +1,42 @@
+const { chromium } = require('playwright');
+const BASE = 'http://localhost:4173/lectorix/';
+(async () => {
+  const b = await chromium.launch();
+  const errors = [];
+  const check = (c, m) => { console.log(c ? 'PASS' : 'FAIL', m); if (!c) errors.push(m); };
+  const ctx = await b.newContext({ viewport: { width: 390, height: 844 } });
+  let p = await ctx.newPage();
+  p.on('console', (m) => { if (m.type() === 'error') errors.push(`console ${m.text()}`); });
+  await p.goto(BASE);
+  await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); });
+  await p.reload(); await p.waitForTimeout(600);
+  await p.goto(BASE + '#/lectura/lectura_l1_gato'); await p.waitForTimeout(900);
+  check(!/Léelo tú en voz alta/.test(await p.innerText('body')), 'no read-aloud button while off');
+  await p.goto(BASE + '#/leer-en-voz-alta/lectura_l1_gato'); await p.waitForTimeout(700);
+  check(/desactivada/.test(await p.innerText('body')), 'read-aloud page says it is off');
+  await p.goto(BASE + '#/panel-padres'); await p.waitForTimeout(1200);
+  let body = await p.innerText('body');
+  check(/Todavía no se ha comprobado/.test(body), 'parent panel: unchecked, no automatic probe');
+  check(await p.getByRole('switch', { name: /Corrección de lectura/ }).isDisabled(), 'switch disabled until the device is checked');
+  await p.getByRole('switch', { name: /Corrección de lectura/ }).scrollIntoViewIfNeeded();
+  await p.screenshot({ path: __dirname + '/ra-parent.png' });
+  // In this headless browser the check crashes the tab: the crash must be remembered
+  await p.getByRole('button', { name: 'Comprobar este dispositivo' }).click().catch(() => console.log('  (tab crashed during the check, as expected here)'));
+  await new Promise((r) => setTimeout(r, 2500));
+  await p.close().catch(() => {});
+  p = await ctx.newPage();
+  p.on('pageerror', (e) => errors.push(`pageerror ${e.message}`));
+  await p.goto(BASE + '#/panel-padres'); await p.waitForTimeout(1500);
+  body = await p.innerText('body');
+  check(/no puede reconocer la voz sin conexión/.test(body), 'after a crashed check the option is marked unavailable');
+  check(await p.getByRole('switch', { name: /Corrección de lectura/ }).isDisabled(), 'switch stays disabled');
+  // Simulated available device: cached result
+  await p.evaluate(() => { localStorage.setItem('lectorix-ra-probe', JSON.stringify({ langs: { 'es-ES': 'available' } })); localStorage.setItem('lectorix-readaloud', JSON.stringify({ state: { enabled: true }, version: 0 })); });
+  await p.goto(BASE + '#/lectura/lectura_l1_gato'); await p.reload(); await p.waitForTimeout(1000);
+  await p.getByText(/Léelo tú en voz alta/).click(); await p.waitForTimeout(900);
+  body = await p.innerText('body');
+  await p.screenshot({ path: __dirname + '/ra-page.png', fullPage: true });
+  check(/Empezar a leer/.test(body) && /No se graba ni se guarda/.test(body), 'read-aloud page ready, privacy line shown');
+  await b.close();
+  console.log('ERRORS', errors.length, errors.slice(0, 10));
+})();

@@ -1,0 +1,45 @@
+const { chromium } = require('playwright');
+const BASE = 'http://localhost:4173/lectorix/';
+const OUT = __dirname + '/sh-';
+(async () => {
+  const b = await chromium.launch();
+  const errors = [];
+  const check = (c, m) => { console.log(c ? 'PASS' : 'FAIL', m); if (!c) errors.push(m); };
+  for (const lang of ['es', 'ca', 'en']) {
+    const ctx = await b.newContext({ viewport: { width: 390, height: 844 } });
+    const p = await ctx.newPage();
+    p.on('pageerror', (e) => errors.push(`${lang} pageerror ${e.message}`));
+    p.on('console', (m) => { if (m.type() === 'error') errors.push(`${lang} console ${m.text()}`); });
+    await p.goto(BASE);
+    await p.evaluate((lang) => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Lucía', total_xp: 0, streak_days: 0, last_session: '2020-01-01T00:00:00Z' } }, version: 0 })); }, lang);
+    await p.reload(); await p.waitForTimeout(700);
+    await p.screenshot({ path: OUT + lang + '-dash.png', fullPage: true });
+    await p.goto(BASE + '#/estanteria'); await p.waitForTimeout(700);
+    await p.getByRole('button', { name: /Añadir un libro|Afegir un llibre|Add a book/ }).click();
+    await p.fill('#sh-title', 'Manolito Gafotas'); await p.fill('#sh-author', 'Elvira Lindo'); await p.fill('#sh-pages', '160');
+    await p.getByRole('button', { name: /^(Guardar|Save)$/ }).click(); await p.waitForTimeout(400);
+    await p.getByRole('button', { name: '20', exact: true }).click();
+    await p.fill('#sh-page', '34');
+    await p.getByRole('button', { name: /Fácil|Fàcil|Easy/ }).click();
+    await p.getByRole('button', { name: /Apuntar 20|Log 20/ }).click(); await p.waitForTimeout(400);
+    let body = await p.innerText('body');
+    check(/(Página|Pàgina|Page) 34 (de|of) 160/.test(body), `${lang}: progress shown`);
+    await p.screenshot({ path: OUT + lang + '-book.png', fullPage: true });
+    const st = await p.evaluate(() => JSON.parse(localStorage.getItem('lectorix-store')).state.user);
+    check(st.streak_days === 1 && st.total_xp === 10, `${lang}: streak ${st.streak_days}, xp ${st.total_xp}`);
+    await p.getByRole('button', { name: /terminado|acabat|finished it/ }).click(); await p.waitForTimeout(600);
+    await p.getByRole('button', { name: /Mucho|Molt|Loved/ }).click();
+    await p.getByText(/Volver a la estantería|Tornar a la prestatgeria|Back to the bookshelf/).click(); await p.waitForTimeout(400);
+    body = await p.innerText('body');
+    await p.screenshot({ path: OUT + lang + '-shelf.png', fullPage: true });
+    check(/\b20\b/.test(body) && /Manolito/.test(body), `${lang}: shelf stats and finished book`);
+    await p.goto(BASE + '#/panel-padres'); await p.waitForTimeout(1200);
+    body = await p.innerText('body');
+    check(/20 (minutos|minuts|minutes)/.test(body) && /: Manolito Gafotas\./.test(body), `${lang}: weekly summary mentions paper reading`);
+    const line = body.split('\n').filter((l) => /Lucía|papel|paper|Manolito/.test(l)).join(' | ');
+    console.log('  ', line);
+    await ctx.close();
+  }
+  await b.close();
+  console.log('ERRORS', errors.length, errors.slice(0, 10));
+})();
