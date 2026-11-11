@@ -34,6 +34,7 @@ const Homework = lazy(() => import('@/pages/Homework'));
 const Together = lazy(() => import('@/pages/Together'));
 const Placement = lazy(() => import('@/pages/Placement'));
 const SkillPractice = lazy(() => import('@/pages/SkillPractice'));
+const StudyNotes = lazy(() => import('@/pages/StudyNotes'));
 
 function LoadingSpinner() {
   return (
@@ -78,6 +79,7 @@ function AnimatedRoutes() {
         <Route path="/juntos" element={<PageTransition><Together /></PageTransition>} />
         <Route path="/prueba-nivel" element={<PageTransition><Placement /></PageTransition>} />
         <Route path="/entrenar/:skill" element={<PageTransition><SkillPractice /></PageTransition>} />
+        <Route path="/estudiar" element={<PageTransition><StudyNotes /></PageTransition>} />
       </Routes>
     </AnimatePresence>
   );
@@ -93,7 +95,7 @@ function ErrorBoundaryWithRoute({ children }: { children: ReactNode }) {
 function RulerHost() {
   const location = useLocation();
   const on = useAppStore((s) => s.readingRuler);
-  const readingScreen = /^\/(lectura\/|ejercicio\/|repaso|entrenar|reto-diario|dictado|fluidez|adaptar|juntos)/.test(location.pathname);
+  const readingScreen = /^\/(lectura\/|ejercicio\/|repaso|entrenar|estudiar|reto-diario|dictado|fluidez|adaptar|juntos)/.test(location.pathname);
   return on && readingScreen ? <ReadingRuler /> : null;
 }
 

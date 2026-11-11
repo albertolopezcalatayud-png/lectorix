@@ -726,4 +726,22 @@ export const en: Record<TranslationKey, string> = {
   err_copy: 'Send or copy the report',
   err_copied: 'Report copied. Paste it into a message to the Lectorix team.',
   err_clear: 'Clear',
+
+  // Study your notes
+  st_cta: 'Study this text',
+  st_title: 'Study your notes',
+  st_words_title: 'Key words in the text',
+  st_words_desc: 'Tap them to hear them. Then there are some questions about them.',
+  st_start: 'Start ({n} questions)',
+  st_cloze: 'Which word is missing from the sentence?',
+  st_order: 'Put the words in order to make the sentence from the text',
+  st_dictation: 'Listen and write the word',
+  st_letters: 'It has {n} letters',
+  st_done: '{right} out of {total} right',
+  st_missed: 'Words to review',
+  st_save_words: 'Save to My tricky words',
+  st_saved: 'Saved to My tricky words ✓',
+  st_again: 'Another round with new questions',
+  st_back_text: 'Back to the text',
+  st_too_short: 'The text is too short to make questions. Try a whole page.',
 };

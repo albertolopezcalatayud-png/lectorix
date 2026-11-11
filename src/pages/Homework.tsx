@@ -1,4 +1,5 @@
 import { useState, useRef, useMemo } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -29,6 +30,7 @@ const OCR_LANG = { es: 'spa', ca: 'cat', en: 'eng' } as const;
 
 /** Adapt any text — typed, pasted or from a photo of a page — with the reading aids */
 export default function Homework() {
+  const navigate = useNavigate();
   const { t } = useI18n();
   const lang = usePracticeLang();
   const sylLang = useSyllableColoring();
@@ -147,6 +149,7 @@ export default function Homework() {
               ))}
             </div>
           </Card>
+          <Button fullWidth onClick={() => { tts.stop(); navigate('/estudiar', { state: { text: view.text, lang: view.lang, title: view.title } }); }}>🎓 {t('st_cta')}</Button>
           <Button variant="secondary" fullWidth onClick={() => { tts.stop(); setView(null); setPicked(null); }}>{t('hw_new')}</Button>
         </div>
 

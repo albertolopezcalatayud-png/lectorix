@@ -724,6 +724,24 @@ export const es = {
   err_copy: 'Enviar o copiar el informe',
   err_copied: 'Informe copiado. Pégalo en un mensaje para el equipo de Lectorix.',
   err_clear: 'Borrar',
+
+  // Study your notes
+  st_cta: 'Estudiar este texto',
+  st_title: 'Estudia tus apuntes',
+  st_words_title: 'Palabras clave del texto',
+  st_words_desc: 'Tócalas para escucharlas. Después vienen unas preguntas con ellas.',
+  st_start: 'Empezar ({n} preguntas)',
+  st_cloze: '¿Qué palabra falta en la frase?',
+  st_order: 'Ordena las palabras para formar la frase del texto',
+  st_dictation: 'Escucha y escribe la palabra',
+  st_letters: 'Tiene {n} letras',
+  st_done: '{right} de {total} bien',
+  st_missed: 'Palabras para repasar',
+  st_save_words: 'Guardar en Mis palabras difíciles',
+  st_saved: 'Guardadas en Mis palabras difíciles ✓',
+  st_again: 'Otra ronda con preguntas nuevas',
+  st_back_text: 'Volver al texto',
+  st_too_short: 'El texto es demasiado corto para preparar preguntas. Prueba con una página entera.',
 } as const;
 
 export type TranslationKey = keyof typeof es;

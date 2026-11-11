@@ -726,4 +726,22 @@ export const ca: Record<TranslationKey, string> = {
   err_copy: 'Enviar o copiar l’informe',
   err_copied: 'Informe copiat. Apega’l en un missatge per a l’equip de Lectorix.',
   err_clear: 'Esborrar',
+
+  // Study your notes
+  st_cta: 'Estudiar este text',
+  st_title: 'Estudia els teus apunts',
+  st_words_title: 'Paraules clau del text',
+  st_words_desc: 'Toca-les per a escoltar-les. Després hi ha unes preguntes amb elles.',
+  st_start: 'Començar ({n} preguntes)',
+  st_cloze: 'Quina paraula falta en la frase?',
+  st_order: 'Ordena les paraules per a formar la frase del text',
+  st_dictation: 'Escolta i escriu la paraula',
+  st_letters: 'Té {n} lletres',
+  st_done: '{right} de {total} bé',
+  st_missed: 'Paraules per a repassar',
+  st_save_words: 'Guardar en Les meues paraules difícils',
+  st_saved: 'Guardades en Les meues paraules difícils ✓',
+  st_again: 'Una altra ronda amb preguntes noves',
+  st_back_text: 'Tornar al text',
+  st_too_short: 'El text és massa curt per a preparar preguntes. Prova amb una pàgina sencera.',
 };
