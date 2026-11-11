@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { AnswerResult, Exercise } from '@/types';
-import { HEROES, PLACES, THINGS, writeStory, storyTitle, tierFor, heroName, cap, type StoryLang, type Tier } from '@/data/storyKit';
+import { HEROES, PLACES, THINGS, writeStory, storyTitle, tierFor, heroName, cap, type StoryLang, type Tier, type Plot } from '@/data/storyKit';
 import { LEVEL_COUNT } from '@/data/modules';
 import { useAppStore, usePracticeLang, resolvePracticeLang } from '@/stores/useAppStore';
 import { useReviewStore, notebookWords, recommendedLevel } from '@/services/review';
@@ -17,7 +17,7 @@ import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { useI18n } from '@/i18n';
 
-interface SavedStory { id: string; lang: StoryLang; tier: Tier; hero: string; place: string; thing: string; words: string[]; date: string }
+interface SavedStory { id: string; lang: StoryLang; tier: Tier; hero: string; place: string; thing: string; words: string[]; date: string; plot?: Plot }
 
 const useStoryStore = create<{ stories: SavedStory[]; add: (s: SavedStory) => void }>()(
   persist((set) => ({ stories: [], add: (s) => set((st) => ({ stories: [s, ...st.stories].slice(0, 10) })) }), { name: 'lectorix-stories' }),
@@ -79,7 +79,7 @@ export default function Stories() {
     const max = LEVEL_COUNT[resolvePracticeLang(st)];
     const level = recommendedLevel(st.progress, 'comprension_lectora', max, st.isLevelUnlocked, st.startLevel('comprension_lectora'));
     const { words, spare: sp } = await pickWords(lang, level);
-    const s: SavedStory = { id: String(Date.now()), lang, tier: tierFor(level), hero, place, thing, words, date: new Date().toISOString() };
+    const s: SavedStory = { id: String(Date.now()), lang, tier: tierFor(level), hero, place, thing, words, date: new Date().toISOString(), plot: (Math.random() < 0.5 ? 0 : 1) as Plot };
     add(s);
     setSpare(sp);
     setStory(s);
@@ -90,7 +90,7 @@ export default function Stories() {
   const text = useMemo(() => {
     if (!story) return '';
     const h = HEROES.find((x) => x.id === story.hero)!, p = PLACES.find((x) => x.id === story.place)!, o = THINGS.find((x) => x.id === story.thing)!;
-    return writeStory(story.lang, story.tier, h, p, o, story.words);
+    return writeStory(story.lang, story.tier, h, p, o, story.words, story.plot ?? 0);
   }, [story]);
   const title = story ? storyTitle(story.lang, HEROES.find((x) => x.id === story.hero)!, THINGS.find((x) => x.id === story.thing)!) : '';
 

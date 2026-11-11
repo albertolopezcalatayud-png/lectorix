@@ -16,9 +16,12 @@ export const HEROES: Hero[] = [
   { id: 'cat', emoji: '🐱', name: 'Misi', intro: { es: 'una gata detective llamada Misi', ca: 'una gata detectiu que es deia Misi', en: 'a detective cat called Misi' } },
   { id: 'player', emoji: '⚽', name: 'Dani', intro: { es: 'un chico muy futbolero llamado Dani', ca: 'un xic molt futboler que es deia Dani', en: 'a football-mad boy called Dani' } },
   { id: 'pirate', emoji: '🏴‍☠️', name: 'Coral', intro: { es: 'una pirata valiente llamada Coral', ca: 'una pirata valenta que es deia Coral', en: 'a brave pirate called Coral' } },
+  { id: 'inventor', emoji: '👩‍🔬', name: 'Lía', intro: { es: 'una inventora llamada Lía', ca: 'una inventora que es deia Lia', en: 'an inventor called Lia' } },
+  { id: 'dog', emoji: '🐶', name: 'Rufo', intro: { es: 'un perro explorador llamado Rufo', ca: 'un gos explorador que es deia Rufo', en: 'an explorer dog called Rufo' } },
+  { id: 'dino', emoji: '🦖', name: 'Tito', intro: { es: 'un dinosaurio muy curioso llamado Tito', ca: 'un dinosaure molt curiós que es deia Tito', en: 'a very curious dinosaur called Tito' } },
 ];
 // The dragon is called Spark in English and Xispa in Valencian
-export const heroName = (h: Hero, lang: StoryLang) => (h.id === 'dragon' ? { es: 'Chispa', ca: 'Xispa', en: 'Spark' }[lang] : h.name);
+export const heroName = (h: Hero, lang: StoryLang) => (h.id === 'dragon' ? { es: 'Chispa', ca: 'Xispa', en: 'Spark' }[lang] : h.id === 'inventor' && lang !== 'es' ? 'Lia' : h.name);
 
 export const PLACES: Place[] = [
   { id: 'forest', emoji: '🌲', t: {
@@ -45,6 +48,18 @@ export const PLACES: Place[] = [
     es: { in: 'cerca de un colegio muy grande', the: 'el colegio', de: 'del colegio', through: 'por el colegio' },
     ca: { in: 'prop d’una escola molt gran', the: 'l’escola', de: 'de l’escola', through: 'per l’escola' },
     en: { in: 'near a very big school', the: 'the school', de: 'of the school', through: 'around the school' } } },
+  { id: 'farm', emoji: '🐄', t: {
+    es: { in: 'en una granja con muchos animales', the: 'la granja', de: 'de la granja', through: 'por la granja' },
+    ca: { in: 'en una granja amb molts animals', the: 'la granja', de: 'de la granja', through: 'per la granja' },
+    en: { in: 'on a farm with lots of animals', the: 'the farm', de: 'of the farm', through: 'around the farm' } } },
+  { id: 'mountain', emoji: '🏔️', t: {
+    es: { in: 'en una montaña nevada', the: 'la montaña', de: 'de la montaña', through: 'por la montaña' },
+    ca: { in: 'en una muntanya nevada', the: 'la muntanya', de: 'de la muntanya', through: 'per la muntanya' },
+    en: { in: 'on a snowy mountain', the: 'the mountain', de: 'of the mountain', through: 'across the mountain' } } },
+  { id: 'museum', emoji: '🦴', t: {
+    es: { in: 'en un museo muy antiguo', the: 'el museo', de: 'del museo', through: 'por el museo' },
+    ca: { in: 'en un museu molt antic', the: 'el museu', de: 'del museu', through: 'pel museu' },
+    en: { in: 'in a very old museum', the: 'the museum', de: 'of the museum', through: 'around the museum' } } },
 ];
 
 export const THINGS: Thing[] = [
@@ -54,6 +69,9 @@ export const THINGS: Thing[] = [
   { id: 'torch', emoji: '🔦', t: { es: { a: 'una linterna antigua', the: 'la linterna' }, ca: { a: 'una llanterna antiga', the: 'la llanterna' }, en: { a: 'an old torch', the: 'the torch' } } },
   { id: 'book', emoji: '📘', t: { es: { a: 'un libro mágico', the: 'el libro' }, ca: { a: 'un llibre màgic', the: 'el llibre' }, en: { a: 'a magic book', the: 'the book' } } },
   { id: 'rocket', emoji: '🚀', t: { es: { a: 'un cohete de juguete', the: 'el cohete' }, ca: { a: 'un coet de joguet', the: 'el coet' }, en: { a: 'a toy rocket', the: 'the rocket' } } },
+  { id: 'compass', emoji: '🧭', t: { es: { a: 'una brújula vieja', the: 'la brújula' }, ca: { a: 'una brúixola vella', the: 'la brúixola' }, en: { a: 'an old compass', the: 'the compass' } } },
+  { id: 'telescope', emoji: '🔭', t: { es: { a: 'un telescopio pequeño', the: 'el telescopio' }, ca: { a: 'un telescopi xicotet', the: 'el telescopi' }, en: { a: 'a small telescope', the: 'the telescope' } } },
+  { id: 'musicbox', emoji: '🎶', t: { es: { a: 'una caja de música', the: 'la caja de música' }, ca: { a: 'una caixa de música', the: 'la caixa de música' }, en: { a: 'a music box', the: 'the music box' } } },
 ];
 
 const cap = (s: string): string => s.charAt(0).toUpperCase() + s.slice(1);
@@ -63,14 +81,18 @@ const quoted = (w: string[], lang: StoryLang) => w.map((x) => (lang === 'en' ? `
 const inner = (w: string[], lang: StoryLang) => w.map((x) => (lang === 'en' ? `‘${x}’` : `“${x}”`));
 
 export type Tier = 1 | 2 | 3; // 1: levels 1-2, 2: levels 3-5, 3: levels 6+
+/** 0: the magic note; 1: the locked door */
+export type Plot = 0 | 1;
+export const PLOTS: Plot[] = [0, 1];
 
 /** Story text (paragraphs separated by blank lines) */
-export function writeStory(lang: StoryLang, tier: Tier, hero: Hero, place: Place, thing: Thing, words: string[]): string {
+export function writeStory(lang: StoryLang, tier: Tier, hero: Hero, place: Place, thing: Thing, words: string[], plot: Plot = 0): string {
   const N = heroName(hero, lang);
   const P = place.t[lang];
   const O = thing.t[lang];
   const W = quoted(words, lang);
   const WI = inner(words, lang);
+  if (plot === 1) return plotB(lang, tier, hero, N, P, O, W, WI, words);
   if (lang === 'es') {
     if (tier === 1) return [
       `Había una vez ${hero.intro.es}. ${N} vivía ${P.in}.`,
@@ -155,3 +177,78 @@ export function storyTitle(lang: StoryLang, hero: Hero, thing: Thing): string {
 
 export const tierFor = (level: number): Tier => (level <= 2 ? 1 : level <= 5 ? 2 : 3);
 export { cap };
+
+/** Second plot: a locked door that only opens when someone reads the words */
+function plotB(lang: StoryLang, tier: Tier, hero: Hero, N: string, P: Place['t'][StoryLang], O: Thing['t'][StoryLang], W: string[], WI: string[], words: string[]): string {
+  const I = cap(hero.intro[lang]);
+  if (lang === 'es') {
+    if (tier === 1) return [
+      `${I} vivía ${P.in}. Un día vio una puerta pequeña y cerrada.`,
+      `En la puerta había ${O.a} y un cartel: «Para abrir, lee: ${list(words, 'y')}».`,
+      `${N} leyó las palabras con calma. ¡La puerta se abrió!`,
+      `Dentro había un jardín lleno de flores. ¡Qué alegría!`,
+    ].join('\n\n');
+    if (tier === 2) return [
+      `${I} vivía ${P.in}. Una mañana, ${N} oyó un ruido extraño que venía de detrás de una puerta vieja.`,
+      `La puerta estaba cerrada con un candado. Junto al candado había ${O.a} y una nota: «Esta puerta solo se abre si alguien lee bien estas palabras: ${list(WI, 'y')}».`,
+      `${N} miró las palabras. Una era larga y otra tenía letras que se parecían mucho. Así que primero las leyó en silencio y después en voz alta, señalando cada sílaba.`,
+      `¡Clic! El candado se abrió. Detrás de la puerta había una luciérnaga atrapada que no podía salir.`,
+      `${N} la ayudó a salir y la luciérnaga voló muy alto ${P.through}, como si quisiera darle las gracias.`,
+      `Desde aquel día, cada vez que ${N} encontraba una palabra difícil, se acordaba de aquel clic.`,
+    ].join('\n\n');
+    return [
+      `${I} vivía ${P.in}. Allí todo el mundo conocía a ${N}, pero casi nadie sabía que leer le costaba más que a los demás. Por eso, cuando le pidieron que leyera el mensaje de la gran fiesta ${P.de}, sintió que el corazón le latía muy deprisa.`,
+      `Dentro de una caja había ${O.a} y un pergamino antiguo con el mensaje. Tenía palabras que ${N} no había leído nunca: ${list(W, 'y')}.`,
+      `${N} pidió un momento. Buscó un rincón tranquilo, separó cada palabra en sílabas y las practicó varias veces en voz baja. No era magia: era un truco que había aprendido con paciencia.`,
+      `Cuando llegó el momento, subió al escenario. Leyó despacio, sin prisa, y nadie se rio. Al contrario: todo el mundo escuchaba en silencio.`,
+      `Al terminar, ${O.the} empezó a brillar y una lluvia de luces de colores cayó sobre ${P.the}. La fiesta había comenzado.`,
+      `Más tarde, una niña pequeña se acercó a ${N} y le dijo en voz baja: «A mí también me cuesta leer». ${N} sonrió y le enseñó su truco de las sílabas.`,
+    ].join('\n\n');
+  }
+  if (lang === 'ca') {
+    if (tier === 1) return [
+      `${I} vivia ${P.in}. Un dia va veure una porta xicoteta i tancada.`,
+      `En la porta hi havia ${O.a} i un cartell: «Per a obrir, llig: ${list(words, 'i')}».`,
+      `${N} va llegir les paraules amb calma. La porta es va obrir!`,
+      `Dins hi havia un jardí ple de flors. Quina alegria!`,
+    ].join('\n\n');
+    if (tier === 2) return [
+      `${I} vivia ${P.in}. Un matí, ${N} va sentir un soroll estrany que venia de darrere d’una porta vella.`,
+      `La porta estava tancada amb un cadenat. Al costat del cadenat hi havia ${O.a} i una nota: «Esta porta només s’obri si algú llig bé estes paraules: ${list(WI, 'i')}».`,
+      `${N} va mirar les paraules. Una era llarga i una altra tenia lletres que s’assemblaven molt. Així que primer les va llegir en silenci i després en veu alta, assenyalant cada síl·laba.`,
+      `Clic! El cadenat es va obrir. Darrere de la porta hi havia una cuca de llum atrapada que no podia eixir.`,
+      `${N} la va ajudar a eixir i la cuca de llum va volar ben alt ${P.through}, com si volguera donar-li les gràcies.`,
+      `Des d’aquell dia, cada vegada que ${N} trobava una paraula difícil, recordava aquell clic.`,
+    ].join('\n\n');
+    return [
+      `${I} vivia ${P.in}. Allí tothom coneixia ${N}, però quasi ningú no sabia que llegir li costava més que als altres. Per això, quan li van demanar que llegira el missatge de la gran festa ${P.de}, va sentir que el cor li bategava molt de pressa.`,
+      `Dins d’una capsa hi havia ${O.a} i un pergamí antic amb el missatge. Tenia paraules que ${N} no havia llegit mai: ${list(W, 'i')}.`,
+      `${N} va demanar un moment. Va buscar un racó tranquil, va separar cada paraula en síl·labes i les va practicar diverses vegades en veu baixa. No era màgia: era un truc que havia après amb paciència.`,
+      `Quan va arribar el moment, va pujar a l’escenari. Va llegir a poc a poc, sense pressa, i ningú no va riure. Al contrari: tothom escoltava en silenci.`,
+      `En acabar, ${O.the} va començar a brillar i una pluja de llums de colors va caure sobre ${P.the}. La festa havia començat.`,
+      `Més tard, una xiqueta xicoteta es va acostar a ${N} i li va dir en veu baixa: «A mi també em costa llegir». ${N} va somriure i li va ensenyar el seu truc de les síl·labes.`,
+    ].join('\n\n');
+  }
+  if (tier === 1) return [
+    `${I} lived ${P.in}. One day, ${N} saw a small door. It was locked.`,
+    `On the door there was ${O.a} and a sign: “To open, read: ${list(words, 'and')}.”`,
+    `${N} read the words calmly. The door opened!`,
+    `Inside, there was a garden full of flowers. What a happy day!`,
+  ].join('\n\n');
+  if (tier === 2) return [
+    `${I} lived ${P.in}. One morning, ${N} heard a strange noise coming from behind an old door.`,
+    `The door was locked with a padlock. Next to the padlock there was ${O.a} and a note: “This door only opens if someone reads these words well: ${list(WI, 'and')}.”`,
+    `${N} looked at the words. One was long and another had letters that looked very alike. So ${N} read them silently first, and then out loud, pointing at each syllable.`,
+    `Click! The padlock opened. Behind the door, there was a firefly that was trapped and could not get out.`,
+    `${N} helped it out, and the firefly flew high ${P.through}, as if it wanted to say thank you.`,
+    `From that day on, whenever ${N} found a difficult word, ${N} remembered that click.`,
+  ].join('\n\n');
+  return [
+    `${I} lived ${P.in}. Everybody there knew ${N}, but hardly anyone knew that reading was harder for ${N} than for others. So when ${N} was asked to read the message for the big party, ${N}’s heart started beating very fast.`,
+    `Inside a box there was ${O.a} and an ancient scroll with the message. It had words ${N} had never read before: ${list(W, 'and')}.`,
+    `${N} asked for a moment, found a quiet corner, split each word into syllables and practised them a few times in a whisper. It wasn’t magic: it was a trick ${N} had learnt with patience.`,
+    `When the time came, ${N} went up on stage and read slowly, without rushing. Nobody laughed. In fact, everyone listened in silence.`,
+    `At the end, ${O.the} began to glow, and a shower of coloured lights fell over ${P.the}. The party had begun.`,
+    `Later, a little girl came up to ${N} and whispered: “Reading is hard for me too.” ${N} smiled and showed her the syllable trick.`,
+  ].join('\n\n');
+}
