@@ -1104,4 +1104,9 @@ export const ca: Record<TranslationKey, string> = {
   es_finish: 'He acabat',
   es_done: 'Redacció acabada! Està guardada en «Les meues redaccions».',
   es_new: 'Tornar a les meues redaccions',
+
+  // Header
+  hdr_level: 'Nv.{n}',
+  hdr_level_aria: 'Nivell {n}',
+  hdr_streak_aria: 'Ratxa: {n} dies',
 };

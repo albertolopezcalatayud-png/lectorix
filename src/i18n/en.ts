@@ -1104,4 +1104,9 @@ export const en: Record<TranslationKey, string> = {
   es_finish: 'I have finished',
   es_done: 'Writing finished! It is saved in “My writing”.',
   es_new: 'Back to my writing',
+
+  // Header
+  hdr_level: 'Lv.{n}',
+  hdr_level_aria: 'Level {n}',
+  hdr_streak_aria: 'Streak: {n} days',
 };

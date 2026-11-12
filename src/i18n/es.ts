@@ -1102,6 +1102,11 @@ export const es = {
   es_finish: 'He terminado',
   es_done: '¡Redacción terminada! Está guardada en «Mis redacciones».',
   es_new: 'Volver a mis redacciones',
+
+  // Header
+  hdr_level: 'Nv.{n}',
+  hdr_level_aria: 'Nivel {n}',
+  hdr_streak_aria: 'Racha: {n} días',
 } as const;
 
 export type TranslationKey = keyof typeof es;
