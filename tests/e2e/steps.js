@@ -87,11 +87,16 @@ const load = (lang, m) => JSON.parse(fs.readFileSync(`${ROOT}/${lang === 'es' ? 
     }
     check(previews >= 1, `${lang}: next-level preview questions appear on step 3 (${previews} at positions ${positions})`);
 
-    // Parent panel: skill map
-    await p.goto(BASE + '#/panel-padres'); await p.waitForTimeout(1500);
+    // Parent panel: skill map. The session just played added random answers, so start again from the seeded history
+    await p.evaluate(({ lang, history, progress }) => {
+      localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress, sessionHistory: history, placementDismissed: true }, version: 0 }));
+    }, { lang, history, progress });
+    await p.goto(BASE + '#/panel-padres'); await p.reload(); await p.waitForTimeout(1500);
     body = await p.innerText('body');
     check(/Mapa de habilidades|Mapa d’habilitats/.test(body), `${lang}: skill map in parent panel`);
     check(/Para entrenar[\s\S]*Tildes|Per a entrenar[\s\S]*Accents/.test(body), `${lang}: accents listed to work on`);
+    // the map shows three strengths; the rest are behind "see the others"
+    const more = p.getByText(/^(Ver las demás|Veure les altres)/); if (await more.count()) { await more.first().click(); await p.waitForTimeout(300); body = await p.innerText('body'); }
     check(/Puntos fuertes|Punts forts/.test(body) && /Rimas|Rimes/.test(body), `${lang}: strengths listed and rhymes present in the map`);
     await p.locator('text=' + (lang === 'es' ? 'Mapa de habilidades' : 'Mapa d’habilitats')).first().scrollIntoViewIfNeeded();
     await p.screenshot({ path: OUT + lang + '-map.png' });
