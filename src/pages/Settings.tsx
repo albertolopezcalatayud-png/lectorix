@@ -162,6 +162,7 @@ export default function Settings() {
                   setSoundOn(next);
                   setSoundEnabled(next);
                 }}
+                role="switch" aria-checked={soundOn} aria-label={t('set_sound_effects')}
                 className={`relative w-11 h-6 rounded-full transition-colors ${
                   soundOn ? 'bg-accent' : 'bg-border'
                 }`}
@@ -188,7 +189,8 @@ export default function Settings() {
                       setTtsOn(next);
                       setTTSEnabled(next);
                     }}
-                    className={`relative w-11 h-6 rounded-full transition-colors ${
+                    role="switch" aria-checked={ttsOn} aria-label={t('set_read_aloud')}
+                className={`relative w-11 h-6 rounded-full transition-colors ${
                       ttsOn ? 'bg-accent' : 'bg-border'
                     }`}
                   >
@@ -219,6 +221,7 @@ export default function Settings() {
                         setTTSRate(val);
                       }}
                       className="w-full accent-accent"
+                      aria-label={t('set_read_speed')}
                     />
                     <div className="flex justify-between text-[10px] text-fg-muted">
                       <span>{t('set_slow')}</span>
@@ -300,6 +303,7 @@ export default function Settings() {
               </div>
               <button
                 onClick={() => setHighContrast(!highContrast)}
+                role="switch" aria-checked={highContrast} aria-label={t('set_contrast')}
                 className={`relative w-11 h-6 rounded-full transition-colors ${
                   highContrast ? 'bg-accent' : 'bg-border'
                 }`}
@@ -418,6 +422,7 @@ export default function Settings() {
                     setNotifOn(await notifications.request());
                   }
                 }}
+                role="switch" aria-checked={notifOn}
                 className={`relative w-11 h-6 rounded-full transition-colors ${notifOn ? 'bg-accent' : 'bg-border'}`}
                 aria-label={notifOn ? t('push_disable') : t('push_enable')}
               >

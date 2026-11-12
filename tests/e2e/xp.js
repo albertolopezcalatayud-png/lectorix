@@ -32,7 +32,7 @@ const BASE = 'http://localhost:4173/lectorix/';
   await p.getByText(/Responder/).click(); await p.waitForTimeout(800);
   await answerAll(/Inventar otro/);
   let gain = (await xp()) - before, s = await shown();
-  check(gain > 0 && gain === s, `story: shown +${s}, total grew ${gain}`);
+  check(gain === s, `story: shown +${s}, total grew ${gain} (0 only if every answer was wrong)`);
   // the same story again gives nothing more
   before = await xp();
   await p.getByText(/Volver a leer/).click(); await p.waitForTimeout(500);

@@ -109,7 +109,7 @@ export default function Levels() {
                       navigate(`/ejercicio/${mod.id}/${level}`);
                     }
                   }}
-                  className={!unlocked ? 'opacity-50' : ''}
+                  className={!unlocked ? 'grayscale' : ''}
                 >
                   <div className="flex items-center gap-4">
                     <div

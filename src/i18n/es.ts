@@ -1119,6 +1119,9 @@ export const es = {
   read_glossary: 'Palabras clave',
   read_glossary_tip: 'Léelas antes del texto: te ayudarán a entenderlo.',
   read_glossary_listen: 'Escuchar «{word}»',
+
+  // Onboarding
+  onb_slide: 'Pantalla {n} de {total}',
 } as const;
 
 export type TranslationKey = keyof typeof es;

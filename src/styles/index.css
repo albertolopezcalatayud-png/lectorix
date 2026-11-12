@@ -19,8 +19,8 @@
   --color-bg: #F7F5FF;
   --color-bg-card: #FFFFFF;
   --color-fg: #2D2640;
-  --color-fg-muted: #7A6F94;
-  --color-accent: #8B5CF6;
+  --color-fg-muted: #6B6185;
+  --color-accent: #7C3AED;
   --color-accent-pale: #EDE9FF;
   --color-mint: #34D399;
   --color-mint-pale: #ECFDF5;
@@ -127,14 +127,29 @@ h1, h2, h3, h4, h5, h6 {
   --color-accent: #6D28D9;
 }
 
-:root[data-contrast="high"][data-theme="dark"],
-:root[data-contrast="high"]:not([data-theme="light"]) {
+:root[data-contrast="high"][data-theme="dark"] {
   --color-fg: #FFFFFF;
   --color-fg-muted: #CCCCCC;
   --color-bg: #000000;
   --color-bg-card: #1A1A1A;
   --color-border: #666666;
   --color-accent: #C4B5FD;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-contrast="high"]:not([data-theme="light"]) {
+    --color-fg: #FFFFFF;
+    --color-fg-muted: #CCCCCC;
+    --color-bg: #000000;
+    --color-bg-card: #1A1A1A;
+    --color-border: #666666;
+    --color-accent: #C4B5FD;
+  }
+}
+
+/* In dark mode the accent is light, so text on accent buttons is dark to stay readable */
+:root[data-theme="dark"] .bg-accent.text-white { color: var(--color-bg); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .bg-accent.text-white { color: var(--color-bg); }
 }
 
 /* ─── Reading aids: spacing for reading text ─── */
@@ -199,3 +214,33 @@ h1, h2, h3, h4, h5, h6 {
 .animate-pop {
   animation: pop 0.3s ease-out;
 }
+
+/* ─── Readable text colours (WCAG AA) ───
+   The pastel colours stay for backgrounds, bars and icons; text and filled buttons use a deeper shade
+   in light mode so they reach a 4.5:1 contrast. These rules are outside Tailwind's layers on purpose. */
+:root {
+  --ink-mint: #067A55;
+  --ink-red: #C81E1E;
+  --ink-peach: #C2410C;
+  --ink-yellow: #A16207;
+  --ink-sky: #0369A1;
+}
+.text-mint { color: var(--ink-mint); }
+.text-red { color: var(--ink-red); }
+.text-peach { color: var(--ink-peach); }
+.text-yellow { color: var(--ink-yellow); }
+.text-sky { color: var(--ink-sky); }
+.bg-mint.text-white { background-color: var(--ink-mint); }
+.bg-red.text-white { background-color: var(--ink-red); }
+.decoration-red { text-decoration-color: var(--ink-red); }
+:root[data-theme="dark"] {
+  --ink-mint: var(--color-mint); --ink-red: var(--color-red); --ink-peach: var(--color-peach); --ink-yellow: var(--color-yellow); --ink-sky: var(--color-sky);
+}
+:root[data-theme="dark"] .bg-mint.text-white, :root[data-theme="dark"] .bg-red.text-white { color: var(--color-bg); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink-mint: var(--color-mint); --ink-red: var(--color-red); --ink-peach: var(--color-peach); --ink-yellow: var(--color-yellow); --ink-sky: var(--color-sky);
+  }
+  :root:not([data-theme="light"]) .bg-mint.text-white, :root:not([data-theme="light"]) .bg-red.text-white { color: var(--color-bg); }
+}
+:root[data-contrast="high"]:not([data-theme="dark"]) { --ink-mint: #035C40; --ink-red: #A11616; --ink-peach: #9A3412; --ink-yellow: #854D0E; --ink-sky: #075985; }

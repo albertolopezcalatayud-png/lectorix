@@ -39,7 +39,7 @@ export default function Dashboard() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
           className="flex items-center gap-4"
         >
-          <button onClick={() => navigate('/mascota')} className="flex-shrink-0">
+          <button onClick={() => navigate('/mascota')} className="flex-shrink-0" aria-label={t('mascot_title')}>
             <MascotAvatar customization={mascot} size={72} />
           </button>
           <div>

@@ -100,10 +100,9 @@ export default function Reading() {
                 <p className="text-xs text-fg-muted mt-1">{t('read_glossary_tip')}</p>
                 <dl className="mt-2 space-y-1.5">
                   {reading.glossary.map(([term, def]) => (
-                    <div key={term} className="flex items-start gap-2">
-                      <button onClick={() => { tts.stop(); void tts.speakIn(`${term}. ${def}`, readingVoice(reading.id), 0.85); }}
-                        aria-label={t('read_glossary_listen', { word: term })} className="text-sm shrink-0">🔊</button>
-                      <div className="text-sm"><dt className="inline font-extrabold">{term}:</dt> <dd className="inline">{def}</dd></div>
+                    <div key={term} className="text-sm">
+                      <dt className="inline font-extrabold"><button onClick={() => { tts.stop(); void tts.speakIn(`${term}. ${def}`, readingVoice(reading.id), 0.85); }}
+                        aria-label={t('read_glossary_listen', { word: term })} className="mr-1.5">🔊</button>{term}:</dt> <dd className="inline">{def}</dd>
                     </div>
                   ))}
                 </dl>

@@ -1121,4 +1121,7 @@ export const en: Record<TranslationKey, string> = {
   read_glossary: 'Key words',
   read_glossary_tip: 'Read them before the text: they will help you understand it.',
   read_glossary_listen: 'Listen to “{word}”',
+
+  // Onboarding
+  onb_slide: 'Screen {n} of {total}',
 };

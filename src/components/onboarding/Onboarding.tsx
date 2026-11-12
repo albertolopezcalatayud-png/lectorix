@@ -75,6 +75,8 @@ export function Onboarding({ onComplete }: OnboardingProps) {
           <button
             key={i}
             onClick={() => setCurrent(i)}
+            aria-label={t('onb_slide', { n: i + 1, total: SLIDES.length })}
+            aria-current={i === current ? 'step' : undefined}
             className={`w-2.5 h-2.5 rounded-full transition-colors ${
               i === current ? 'bg-accent scale-125' : 'bg-border'
             }`}

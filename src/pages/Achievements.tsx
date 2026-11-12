@@ -224,7 +224,7 @@ export default function Achievements() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.3 + i * 0.04 }}
                   >
-                    <Card className="flex items-center gap-3 py-2.5 opacity-70">
+                    <Card className="flex items-center gap-3 py-2.5 grayscale">
                       <BadgeRing progress={pct} color={a.color} size={44}>
                         <span className="text-lg grayscale">{a.icon}</span>
                       </BadgeRing>

@@ -1121,4 +1121,7 @@ export const ca: Record<TranslationKey, string> = {
   read_glossary: 'Paraules clau',
   read_glossary_tip: 'Llig-les abans del text: t’ajudaran a entendre’l.',
   read_glossary_listen: 'Escoltar «{word}»',
+
+  // Onboarding
+  onb_slide: 'Pantalla {n} de {total}',
 };
