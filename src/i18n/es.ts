@@ -1107,6 +1107,18 @@ export const es = {
   hdr_level: 'Nv.{n}',
   hdr_level_aria: 'Nivel {n}',
   hdr_streak_aria: 'Racha: {n} días',
+
+  // Subject readings
+  subj_title: 'Lecturas para estudiar',
+  subj_card_desc: 'Ciencias, historia y geografía',
+  subj_desc: 'Textos de Secundaria con las palabras clave explicadas y preguntas, para practicar lo que se estudia en clase.',
+  subj_all: 'Todas',
+  subj_bio: 'Biología',
+  subj_fyq: 'Física y Química',
+  subj_geohist: 'Geografía e Historia',
+  read_glossary: 'Palabras clave',
+  read_glossary_tip: 'Léelas antes del texto: te ayudarán a entenderlo.',
+  read_glossary_listen: 'Escuchar «{word}»',
 } as const;
 
 export type TranslationKey = keyof typeof es;

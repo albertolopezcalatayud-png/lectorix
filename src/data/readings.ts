@@ -20,7 +20,20 @@ export interface Reading {
   topics?: string[];
   text: string;
   questions: ReadingQuestion[];
+  /** Readings of other school subjects (Secondary) */
+  subject?: 'bio' | 'fyq' | 'geohist';
+  /** Key words of a subject reading: [term, meaning] */
+  glossary?: [string, string][];
 }
+
+export const SUBJECTS = [
+  { id: 'bio', emoji: '🧬' },
+  { id: 'fyq', emoji: '⚗️' },
+  { id: 'geohist', emoji: '🗺️' },
+] as const;
+
+/** Voice of a reading, from its id */
+export const readingVoice = (id: string) => (id.startsWith('reading_en') ? 'en-GB' : id.startsWith('lectura_ca') ? 'ca-ES' : 'es-ES');
 
 /** Readings of the current practice language (null while loading) */
 export function useReadings(): Reading[] | null {

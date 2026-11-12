@@ -163,8 +163,9 @@ export default function Dashboard() {
               { to: '/estanteria', icon: '📚', title: 'sh_title', desc: 'sh_card_desc' },
               { to: '/enunciados', icon: '🧩', title: 'ev_title', desc: 'ev_card_desc' },
               { to: '/redaccion', icon: '📝', title: 'es_title', desc: 'es_card_desc' },
+              { to: '/lectura', icon: '🎓', title: 'subj_title', desc: 'subj_card_desc', state: { subjects: true } },
             ] as const).map((x) => (
-              <Card key={x.to} hover onClick={() => navigate(x.to)} className="!p-3">
+              <Card key={x.title} hover onClick={() => navigate(x.to, 'state' in x ? { state: x.state } : undefined)} className="!p-3">
                 <span className="text-2xl">{x.icon}</span>
                 <h3 className="font-heading font-extrabold text-xs mt-1 leading-tight">{t(x.title)}</h3>
                 <p className="text-[10px] text-fg-muted leading-snug mt-0.5">{t(x.desc)}</p>

@@ -1275,6 +1275,232 @@
    ]
   },
   {
+   "id": "lectura_eso_celula",
+   "level": 5,
+   "title": "La célula, la unidad de la vida",
+   "emoji": "🔬",
+   "topics": [
+    "ciencia",
+    "naturaleza"
+   ],
+   "text": "Todos los seres vivos, desde una bacteria hasta una ballena, están formados por células. La célula es la parte más pequeña de un ser vivo que puede realizar por sí misma las funciones vitales: nutrición, relación y reproducción.\n\nAlgunos seres vivos tienen una sola célula y se llaman unicelulares, como las bacterias. Otros, como las plantas y los animales, están formados por millones de células y se llaman pluricelulares.\n\nCasi todas las células tienen tres partes. La membrana es una capa fina que las rodea y deja pasar unas sustancias y otras no. El citoplasma es el interior de la célula, una especie de líquido espeso donde están los orgánulos. El material genético contiene las instrucciones para que la célula funcione y se divida.\n\nLas células animales y las vegetales se parecen, pero tienen diferencias. Las vegetales tienen una pared celular rígida que les da forma y cloroplastos, unos orgánulos verdes donde se fabrica el alimento a partir de la luz del sol.",
+   "questions": [
+    {
+     "id": "lectura_eso_celula_q1",
+     "prompt": "¿Qué es la célula?",
+     "options": [
+      "El órgano más grande del cuerpo",
+      "La parte más pequeña de un ser vivo que puede realizar las funciones vitales",
+      "Una sustancia que fabrican las plantas"
+     ],
+     "correct": 1,
+     "explanation": "Es «la parte más pequeña de un ser vivo que puede realizar por sí misma las funciones vitales»."
+    },
+    {
+     "id": "lectura_eso_celula_q2",
+     "prompt": "¿Cómo se llama un ser vivo formado por una sola célula?",
+     "options": [
+      "Pluricelular",
+      "Unicelular",
+      "Vegetal"
+     ],
+     "correct": 1,
+     "explanation": "«Algunos seres vivos tienen una sola célula y se llaman unicelulares.»"
+    },
+    {
+     "id": "lectura_eso_celula_q3",
+     "prompt": "¿Qué parte de la célula decide qué sustancias entran y salen?",
+     "options": [
+      "La membrana",
+      "El citoplasma",
+      "El material genético"
+     ],
+     "correct": 0,
+     "explanation": "La membrana «deja pasar unas sustancias y otras no»."
+    },
+    {
+     "id": "lectura_eso_celula_q4",
+     "prompt": "¿Por qué una célula vegetal puede fabricar su alimento y una animal no?",
+     "options": [
+      "Porque es más grande",
+      "Porque tiene cloroplastos",
+      "Porque no tiene membrana"
+     ],
+     "correct": 1,
+     "explanation": "En los cloroplastos «se fabrica el alimento a partir de la luz del sol»."
+    }
+   ],
+   "subject": "bio",
+   "glossary": [
+    [
+     "membrana",
+     "Capa fina que rodea la célula y controla lo que entra y sale."
+    ],
+    [
+     "citoplasma",
+     "Interior de la célula, donde están los orgánulos."
+    ],
+    [
+     "unicelular",
+     "Ser vivo formado por una sola célula."
+    ],
+    [
+     "cloroplasto",
+     "Orgánulo verde de las células vegetales donde se hace la fotosíntesis."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_eso_neolitico",
+   "level": 5,
+   "title": "El Neolítico: aprender a cultivar",
+   "emoji": "🌾",
+   "topics": [
+    "historia"
+   ],
+   "text": "Durante miles de años, los seres humanos vivieron de la caza, la pesca y la recolección de frutos. Eran nómadas: se desplazaban de un lugar a otro siguiendo a los animales y buscando alimento. Esta etapa se llama Paleolítico.\n\nHace unos 10.000 años, en una zona de Oriente Próximo, algunos grupos descubrieron que podían sembrar semillas y recoger la cosecha. También empezaron a domesticar animales como la cabra, la oveja o el buey. Había comenzado el Neolítico.\n\nLa agricultura y la ganadería lo cambiaron todo. Como ya no necesitaban moverse para conseguir comida, muchas personas se hicieron sedentarias y construyeron los primeros poblados, con casas de barro y piedra. Además, a veces obtenían más alimento del que necesitaban, y ese excedente se podía guardar o intercambiar.\n\nCon el tiempo aparecieron nuevos oficios, como el de alfarero, que fabricaba vasijas de cerámica para almacenar el grano, o el de tejedor. Por eso muchos historiadores hablan de la «revolución neolítica».",
+   "questions": [
+    {
+     "id": "lectura_eso_neolitico_q1",
+     "prompt": "¿Cómo conseguían alimento los seres humanos del Paleolítico?",
+     "options": [
+      "Con la agricultura y la ganadería",
+      "Con la caza, la pesca y la recolección",
+      "Comprándolo en los poblados"
+     ],
+     "correct": 1,
+     "explanation": "«Vivieron de la caza, la pesca y la recolección de frutos.»"
+    },
+    {
+     "id": "lectura_eso_neolitico_q2",
+     "prompt": "¿Dónde y cuándo empezó el Neolítico?",
+     "options": [
+      "En Europa, hace 1.000 años",
+      "En Oriente Próximo, hace unos 10.000 años",
+      "En América, hace 500 años"
+     ],
+     "correct": 1,
+     "explanation": "«Hace unos 10.000 años, en una zona de Oriente Próximo…»"
+    },
+    {
+     "id": "lectura_eso_neolitico_q3",
+     "prompt": "¿Por qué muchas personas se hicieron sedentarias?",
+     "options": [
+      "Porque ya no necesitaban moverse para conseguir comida",
+      "Porque hacía demasiado frío para viajar",
+      "Porque se acabaron los animales"
+     ],
+     "correct": 0,
+     "explanation": "«Como ya no necesitaban moverse para conseguir comida…»"
+    },
+    {
+     "id": "lectura_eso_neolitico_q4",
+     "prompt": "¿Para qué servían las vasijas de cerámica?",
+     "options": [
+      "Para decorar las casas",
+      "Para almacenar el grano",
+      "Para cazar animales"
+     ],
+     "correct": 1,
+     "explanation": "El alfarero fabricaba «vasijas de cerámica para almacenar el grano»."
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "nómada",
+     "Persona o grupo que no vive siempre en el mismo lugar."
+    ],
+    [
+     "sedentario",
+     "Que vive siempre en el mismo lugar."
+    ],
+    [
+     "domesticar",
+     "Acostumbrar a un animal salvaje a vivir con las personas."
+    ],
+    [
+     "excedente",
+     "Lo que sobra después de cubrir lo necesario."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_eso_climas",
+   "level": 5,
+   "title": "Los climas de la Tierra",
+   "emoji": "🌍",
+   "topics": [
+    "naturaleza"
+   ],
+   "text": "El tiempo atmosférico es el estado de la atmósfera en un momento concreto: hoy llueve, mañana hará sol. El clima, en cambio, es el tiempo que suele hacer en un lugar a lo largo de muchos años.\n\nLos dos elementos más importantes del clima son la temperatura y las precipitaciones, es decir, la lluvia o la nieve que cae. Dependen sobre todo de la latitud, que es la distancia de un lugar al ecuador. Cerca del ecuador los rayos del sol llegan más directos y hace calor todo el año; cerca de los polos llegan inclinados y hace mucho frío.\n\nPor eso la Tierra se divide en grandes zonas climáticas. En la zona cálida, alrededor del ecuador, están los climas ecuatorial, tropical y desértico. En las dos zonas templadas, los veranos y los inviernos son diferentes; aquí se encuentra el clima mediterráneo, el de la Comunitat Valenciana. Y en las dos zonas frías, cerca de los polos, el invierno es muy largo y el verano, corto y fresco.\n\nOtros factores, como la altitud o la cercanía del mar, también influyen: en la montaña hace más frío y en la costa las temperaturas son más suaves.",
+   "questions": [
+    {
+     "id": "lectura_eso_climas_q1",
+     "prompt": "¿Cuál es la diferencia entre tiempo atmosférico y clima?",
+     "options": [
+      "No hay ninguna diferencia",
+      "El tiempo es lo que pasa en un momento; el clima, lo que suele pasar durante muchos años",
+      "El clima solo habla de la lluvia"
+     ],
+     "correct": 1,
+     "explanation": "El clima es «el tiempo que suele hacer en un lugar a lo largo de muchos años»."
+    },
+    {
+     "id": "lectura_eso_climas_q2",
+     "prompt": "¿Por qué hace calor todo el año cerca del ecuador?",
+     "options": [
+      "Porque hay más mar",
+      "Porque los rayos del sol llegan más directos",
+      "Porque hay montañas altas"
+     ],
+     "correct": 1,
+     "explanation": "«Cerca del ecuador los rayos del sol llegan más directos.»"
+    },
+    {
+     "id": "lectura_eso_climas_q3",
+     "prompt": "¿En qué zona climática está la Comunitat Valenciana?",
+     "options": [
+      "En la zona cálida",
+      "En una zona templada",
+      "En una zona fría"
+     ],
+     "correct": 1,
+     "explanation": "El clima mediterráneo está en las zonas templadas."
+    },
+    {
+     "id": "lectura_eso_climas_q4",
+     "prompt": "Si subes a una montaña alta en verano, ¿qué es lo más probable?",
+     "options": [
+      "Que haga más frío que en la costa",
+      "Que haga más calor que en la playa",
+      "Que llueva siempre"
+     ],
+     "correct": 0,
+     "explanation": "Influye la altitud: «en la montaña hace más frío»."
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "clima",
+     "Tiempo que suele hacer en un lugar durante muchos años."
+    ],
+    [
+     "precipitaciones",
+     "Agua que cae de las nubes: lluvia, nieve o granizo."
+    ],
+    [
+     "latitud",
+     "Distancia de un lugar al ecuador."
+    ],
+    [
+     "altitud",
+     "Altura de un lugar sobre el nivel del mar."
+    ]
+   ]
+  },
+  {
    "id": "lectura_l6_dama",
    "level": 6,
    "title": "El misterio de la Dama de Elche",
@@ -1496,6 +1722,231 @@
    ]
   },
   {
+   "id": "lectura_eso_materia",
+   "level": 6,
+   "title": "Sólido, líquido y gas",
+   "emoji": "🧊",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "Todo lo que nos rodea es materia: el agua, el aire, una mesa o nuestro propio cuerpo. La materia está formada por partículas diminutas que no podemos ver, y la forma en que se mueven y se unen explica sus tres estados principales.\n\nEn los sólidos, las partículas están muy juntas y apenas se mueven; solo vibran. Por eso los sólidos tienen una forma y un volumen fijos. En los líquidos, las partículas están juntas, pero pueden deslizarse unas sobre otras: los líquidos tienen volumen fijo, pero adoptan la forma del recipiente. En los gases, las partículas están muy separadas y se mueven a gran velocidad en todas direcciones, de modo que ocupan todo el espacio disponible.\n\nUna misma sustancia puede pasar de un estado a otro si cambia la temperatura. Cuando calentamos hielo, sus partículas se mueven cada vez más y llega un momento en que el sólido se convierte en líquido: es la fusión. Si seguimos calentando, el agua hierve y se transforma en vapor: es la vaporización. Al enfriarse ocurre lo contrario: el vapor se condensa en gotas y el agua líquida se solidifica cuando se congela.\n\nCada sustancia cambia de estado a una temperatura concreta. El agua pura, por ejemplo, se funde a 0 °C y hierve a 100 °C al nivel del mar.",
+   "questions": [
+    {
+     "id": "lectura_eso_materia_q1",
+     "prompt": "¿Por qué un sólido tiene forma fija?",
+     "options": [
+      "Porque sus partículas están muy juntas y apenas se mueven",
+      "Porque sus partículas están muy separadas",
+      "Porque es más pesado"
+     ],
+     "correct": 0,
+     "explanation": "«Las partículas están muy juntas y apenas se mueven.»"
+    },
+    {
+     "id": "lectura_eso_materia_q2",
+     "prompt": "¿Qué estado adopta la forma del recipiente pero mantiene su volumen?",
+     "options": [
+      "El sólido",
+      "El líquido",
+      "El gas"
+     ],
+     "correct": 1,
+     "explanation": "«Los líquidos tienen volumen fijo, pero adoptan la forma del recipiente.»"
+    },
+    {
+     "id": "lectura_eso_materia_q3",
+     "prompt": "¿Cómo se llama el paso de sólido a líquido?",
+     "options": [
+      "Vaporización",
+      "Condensación",
+      "Fusión"
+     ],
+     "correct": 2,
+     "explanation": "«El sólido se convierte en líquido: es la fusión.»"
+    },
+    {
+     "id": "lectura_eso_materia_q4",
+     "prompt": "Cuando se empaña el espejo del baño después de una ducha, ¿qué ocurre?",
+     "options": [
+      "Fusión: el espejo se derrite",
+      "Condensación: el vapor se convierte en gotas de agua",
+      "Solidificación: el agua se congela"
+     ],
+     "correct": 1,
+     "explanation": "El vapor toca el espejo frío y «se condensa en gotas»."
+    }
+   ],
+   "subject": "fyq",
+   "glossary": [
+    [
+     "partícula",
+     "Parte diminuta de la que está formada la materia."
+    ],
+    [
+     "volumen",
+     "Espacio que ocupa un cuerpo."
+    ],
+    [
+     "fusión",
+     "Paso de sólido a líquido."
+    ],
+    [
+     "condensarse",
+     "Pasar de gas a líquido."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_eso_feudalismo",
+   "level": 6,
+   "title": "Señores y campesinos en la Edad Media",
+   "emoji": "🏰",
+   "topics": [
+    "historia"
+   ],
+   "text": "En Europa, durante buena parte de la Edad Media, la sociedad se organizó según un sistema llamado feudalismo. Tras la caída del Imperio romano, los reyes eran débiles y había guerras e invasiones frecuentes. Para defenderse, muchos campesinos buscaron la protección de los nobles más poderosos, los señores.\n\nEl señor era el dueño de un territorio llamado feudo, que había recibido del rey a cambio de fidelidad y ayuda militar. En el feudo estaban su castillo, las tierras de cultivo y las aldeas de los campesinos. Los campesinos trabajaban la tierra y, a cambio de protección, entregaban al señor una parte de la cosecha, pagaban impuestos y trabajaban gratis en sus tierras algunos días.\n\nLa sociedad feudal se dividía en tres grupos, llamados estamentos. Los nobles se dedicaban a la guerra; el clero, formado por obispos, sacerdotes y monjes, se dedicaba a rezar; y los campesinos, que eran la gran mayoría, trabajaban para mantener a todos. Se nacía en un estamento y era muy difícil cambiar de grupo.\n\nA partir del siglo XI, el crecimiento de las ciudades y del comercio hizo aparecer un nuevo grupo, la burguesía, formada por comerciantes y artesanos que no dependían de ningún señor.",
+   "questions": [
+    {
+     "id": "lectura_eso_feudalismo_q1",
+     "prompt": "¿Por qué los campesinos buscaron la protección de los señores?",
+     "options": [
+      "Porque los reyes eran débiles y había guerras e invasiones",
+      "Porque querían ser nobles",
+      "Porque los señores les pagaban un sueldo"
+     ],
+     "correct": 0,
+     "explanation": "«Los reyes eran débiles y había guerras e invasiones frecuentes.»"
+    },
+    {
+     "id": "lectura_eso_feudalismo_q2",
+     "prompt": "¿Qué daban los campesinos al señor a cambio de protección?",
+     "options": [
+      "Armas y caballos",
+      "Parte de la cosecha, impuestos y días de trabajo",
+      "Nada, la protección era gratis"
+     ],
+     "correct": 1,
+     "explanation": "Entregaban parte de la cosecha, pagaban impuestos y trabajaban gratis algunos días."
+    },
+    {
+     "id": "lectura_eso_feudalismo_q3",
+     "prompt": "¿Qué estamento era el más numeroso?",
+     "options": [
+      "La nobleza",
+      "El clero",
+      "Los campesinos"
+     ],
+     "correct": 2,
+     "explanation": "«Los campesinos, que eran la gran mayoría…»"
+    },
+    {
+     "id": "lectura_eso_feudalismo_q4",
+     "prompt": "¿Qué tenía de nuevo la burguesía?",
+     "options": [
+      "Que se dedicaba a rezar",
+      "Que no dependía de ningún señor",
+      "Que vivía en los castillos"
+     ],
+     "correct": 1,
+     "explanation": "Comerciantes y artesanos «que no dependían de ningún señor»."
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "feudo",
+     "Territorio que el rey entregaba a un noble a cambio de fidelidad."
+    ],
+    [
+     "estamento",
+     "Grupo social cerrado de la Edad Media: nobleza, clero o campesinado."
+    ],
+    [
+     "clero",
+     "Conjunto de las personas dedicadas a la Iglesia."
+    ],
+    [
+     "burguesía",
+     "Grupo de comerciantes y artesanos de las ciudades."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_eso_poblacion",
+   "level": 6,
+   "title": "¿Cuántos somos en el mundo?",
+   "emoji": "👥",
+   "topics": [
+    "vida"
+   ],
+   "text": "En el año 1800 vivían en la Tierra unos mil millones de personas. Hoy somos más de ocho mil millones. La demografía es la ciencia que estudia cómo cambia la población, y para hacerlo usa algunos datos básicos.\n\nLa natalidad es el número de nacimientos en un año, y la mortalidad, el número de fallecimientos. Si nacen más personas de las que mueren, la población crece: es lo que se llama crecimiento natural. También influyen las migraciones: las personas que llegan a un país, los inmigrantes, y las que se van, los emigrantes.\n\nLa población no está repartida por igual. Hay zonas muy pobladas, como el sur y el este de Asia, Europa occidental o muchas costas, porque tienen un clima suave, tierras fértiles o mucha actividad económica. Otras zonas, como los desiertos, las altas montañas o las regiones polares, están casi vacías porque es muy difícil vivir en ellas.\n\nAdemás, cada país tiene una estructura diferente. En muchos países de África la población es joven, porque nacen muchos niños. En España, en cambio, nacen pocos niños y la esperanza de vida es alta, así que la población está envejeciendo: cada vez hay más personas mayores y menos jóvenes.",
+   "questions": [
+    {
+     "id": "lectura_eso_poblacion_q1",
+     "prompt": "¿Cuántas personas viven hoy en la Tierra, según el texto?",
+     "options": [
+      "Unos mil millones",
+      "Más de ocho mil millones",
+      "Unos cien millones"
+     ],
+     "correct": 1,
+     "explanation": "«Hoy somos más de ocho mil millones.»"
+    },
+    {
+     "id": "lectura_eso_poblacion_q2",
+     "prompt": "¿Cuándo crece la población por crecimiento natural?",
+     "options": [
+      "Cuando nacen más personas de las que mueren",
+      "Cuando llegan muchos turistas",
+      "Cuando hay más ciudades"
+     ],
+     "correct": 0,
+     "explanation": "«Si nacen más personas de las que mueren, la población crece.»"
+    },
+    {
+     "id": "lectura_eso_poblacion_q3",
+     "prompt": "¿Por qué los desiertos están casi vacíos?",
+     "options": [
+      "Porque está prohibido vivir allí",
+      "Porque es muy difícil vivir en ellos",
+      "Porque hay demasiada gente"
+     ],
+     "correct": 1,
+     "explanation": "«Están casi vacíos porque es muy difícil vivir en ellas.»"
+    },
+    {
+     "id": "lectura_eso_poblacion_q4",
+     "prompt": "¿Por qué la población de España está envejeciendo?",
+     "options": [
+      "Porque nacen pocos niños y la gente vive muchos años",
+      "Porque nacen muchos niños",
+      "Porque todos los jóvenes emigran"
+     ],
+     "correct": 0,
+     "explanation": "«Nacen pocos niños y la esperanza de vida es alta.»"
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "demografía",
+     "Ciencia que estudia la población."
+    ],
+    [
+     "natalidad",
+     "Número de nacimientos en un tiempo y un lugar."
+    ],
+    [
+     "mortalidad",
+     "Número de fallecimientos en un tiempo y un lugar."
+    ],
+    [
+     "esperanza de vida",
+     "Años que, de media, se espera que viva una persona."
+    ]
+   ]
+  },
+  {
    "id": "lectura_l7_vikingos",
    "level": 7,
    "title": "Los vikingos no llevaban cuernos",
@@ -1713,6 +2164,232 @@
    ]
   },
   {
+   "id": "lectura_eso_digestion",
+   "level": 7,
+   "title": "El viaje de los alimentos",
+   "emoji": "🍎",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "Cuando comemos un bocadillo, empieza un largo viaje. El aparato digestivo transforma los alimentos en sustancias muy pequeñas, los nutrientes, que el cuerpo puede absorber y utilizar para obtener energía, crecer y reparar los tejidos.\n\nTodo comienza en la boca. Los dientes trituran la comida y la saliva la humedece y empieza a descomponer algunos nutrientes, como el almidón del pan. Se forma así el bolo alimenticio, que tragamos y que baja por el esófago gracias a los movimientos de sus músculos.\n\nEn el estómago, el bolo se mezcla durante unas horas con los jugos gástricos, que son muy ácidos, y se convierte en una especie de papilla llamada quimo. Después pasa al intestino delgado, un tubo de unos siete metros plegado dentro del abdomen. Allí actúan los jugos que fabrican el hígado y el páncreas, y la digestión se completa. Las paredes del intestino delgado están cubiertas de pequeños pliegues, las vellosidades, a través de las cuales los nutrientes pasan a la sangre.\n\nLo que no se ha podido aprovechar llega al intestino grueso, donde se absorbe gran parte del agua. Los restos forman las heces, que se expulsan por el ano. Por eso es importante beber agua y comer fibra, que ayuda a que este último tramo funcione bien.",
+   "questions": [
+    {
+     "id": "lectura_eso_digestion_q1",
+     "prompt": "¿Para qué sirve el aparato digestivo?",
+     "options": [
+      "Para transportar el oxígeno",
+      "Para transformar los alimentos en nutrientes que el cuerpo pueda usar",
+      "Para eliminar el dióxido de carbono"
+     ],
+     "correct": 1,
+     "explanation": "Transforma los alimentos en nutrientes que el cuerpo puede absorber y utilizar."
+    },
+    {
+     "id": "lectura_eso_digestion_q2",
+     "prompt": "¿Dónde se forma el quimo?",
+     "options": [
+      "En la boca",
+      "En el estómago",
+      "En el intestino grueso"
+     ],
+     "correct": 1,
+     "explanation": "En el estómago el bolo «se convierte en una especie de papilla llamada quimo»."
+    },
+    {
+     "id": "lectura_eso_digestion_q3",
+     "prompt": "¿Por dónde pasan los nutrientes a la sangre?",
+     "options": [
+      "Por las vellosidades del intestino delgado",
+      "Por el esófago",
+      "Por los dientes"
+     ],
+     "correct": 0,
+     "explanation": "Las vellosidades, «a través de las cuales los nutrientes pasan a la sangre»."
+    },
+    {
+     "id": "lectura_eso_digestion_q4",
+     "prompt": "Según el texto, ¿por qué conviene comer fibra?",
+     "options": [
+      "Porque da mucha energía",
+      "Porque ayuda a que el intestino grueso funcione bien",
+      "Porque sustituye al agua"
+     ],
+     "correct": 1,
+     "explanation": "La fibra «ayuda a que este último tramo funcione bien»."
+    }
+   ],
+   "subject": "bio",
+   "glossary": [
+    [
+     "nutriente",
+     "Sustancia de los alimentos que el cuerpo utiliza."
+    ],
+    [
+     "bolo alimenticio",
+     "Masa de comida masticada y mezclada con saliva."
+    ],
+    [
+     "quimo",
+     "Papilla en que se convierte el alimento en el estómago."
+    ],
+    [
+     "vellosidades",
+     "Pliegues del intestino delgado por los que los nutrientes pasan a la sangre."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_eso_atomo",
+   "level": 7,
+   "title": "Dentro del átomo",
+   "emoji": "⚛️",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "Hace unos 2.400 años, el filósofo griego Demócrito pensó que, si partimos un objeto una y otra vez, al final llegaríamos a un trozo que ya no se podría dividir. Lo llamó átomo, que en griego significa «indivisible». Durante siglos fue solo una idea, pero hoy sabemos que toda la materia está formada por átomos, y que estos sí tienen partes.\n\nEn el centro del átomo está el núcleo, muy pequeño y con casi toda la masa. En él hay protones, que tienen carga eléctrica positiva, y neutrones, que no tienen carga. Alrededor del núcleo se mueven los electrones, mucho más ligeros y con carga negativa. Como un átomo tiene tantos electrones como protones, en conjunto es neutro.\n\nLo que distingue un elemento químico de otro es el número de protones, llamado número atómico. Todos los átomos de hidrógeno tienen un protón; todos los de carbono, seis; y todos los de oxígeno, ocho.\n\nEn el siglo XIX, el químico ruso Dmitri Mendeléiev ordenó los elementos conocidos en una tabla según sus propiedades. Dejó huecos para elementos que todavía no se habían descubierto y predijo cómo serían. Cuando se encontraron, sus predicciones resultaron acertadas. Su idea es la base de la tabla periódica que se usa hoy, con más de cien elementos.",
+   "questions": [
+    {
+     "id": "lectura_eso_atomo_q1",
+     "prompt": "¿Qué significa «átomo» en griego?",
+     "options": [
+      "Pequeño",
+      "Indivisible",
+      "Eléctrico"
+     ],
+     "correct": 1,
+     "explanation": "Átomo «en griego significa “indivisible”»."
+    },
+    {
+     "id": "lectura_eso_atomo_q2",
+     "prompt": "¿Qué carga tienen los electrones?",
+     "options": [
+      "Positiva",
+      "Negativa",
+      "No tienen carga"
+     ],
+     "correct": 1,
+     "explanation": "Los electrones son «mucho más ligeros y con carga negativa»."
+    },
+    {
+     "id": "lectura_eso_atomo_q3",
+     "prompt": "¿Qué distingue un elemento químico de otro?",
+     "options": [
+      "El número de protones",
+      "El color",
+      "El tamaño del átomo"
+     ],
+     "correct": 0,
+     "explanation": "«Lo que distingue un elemento químico de otro es el número de protones.»"
+    },
+    {
+     "id": "lectura_eso_atomo_q4",
+     "prompt": "¿Por qué fue importante que Mendeléiev dejara huecos en su tabla?",
+     "options": [
+      "Porque así la tabla era más bonita",
+      "Porque permitió predecir elementos que aún no se conocían",
+      "Porque no sabía ordenar los elementos"
+     ],
+     "correct": 1,
+     "explanation": "Predijo cómo serían esos elementos y acertó cuando se descubrieron."
+    }
+   ],
+   "subject": "fyq",
+   "glossary": [
+    [
+     "átomo",
+     "Partícula muy pequeña que forma la materia."
+    ],
+    [
+     "núcleo",
+     "Centro del átomo, donde están los protones y los neutrones."
+    ],
+    [
+     "número atómico",
+     "Número de protones de un átomo."
+    ],
+    [
+     "elemento químico",
+     "Sustancia formada por átomos con el mismo número de protones."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_eso_sectores",
+   "level": 7,
+   "title": "¿En qué trabajamos?",
+   "emoji": "🏭",
+   "topics": [
+    "vida",
+    "tecnologia"
+   ],
+   "text": "Las actividades económicas son las que realizan las personas para producir bienes y ofrecer servicios. Para estudiarlas, se agrupan en tres sectores.\n\nEl sector primario obtiene los recursos directamente de la naturaleza: la agricultura, la ganadería, la pesca y la explotación de los bosques. Los cítricos de la Comunitat Valenciana o el arroz de la Albufera son productos del sector primario.\n\nEl sector secundario transforma esas materias primas en productos elaborados. Incluye la industria, la construcción y la producción de energía. Una fábrica que convierte el barro en azulejos, como las de Castellón, o una que fabrica coches pertenece a este sector.\n\nEl sector terciario no produce objetos, sino que ofrece servicios a las personas: el comercio, el transporte, la educación, la sanidad, el turismo o la banca. Una profesora, un médico o una dependienta trabajan en el sector terciario.\n\nEl peso de cada sector ha cambiado con la historia. Hace un siglo, en España, la mayoría de la población trabajaba en el campo. Con la industrialización creció el sector secundario, y hoy alrededor de tres de cada cuatro trabajadores se dedican a los servicios. Por eso se dice que vivimos en una economía terciarizada.",
+   "questions": [
+    {
+     "id": "lectura_eso_sectores_q1",
+     "prompt": "¿A qué sector pertenece la pesca?",
+     "options": [
+      "Primario",
+      "Secundario",
+      "Terciario"
+     ],
+     "correct": 0,
+     "explanation": "El primario «obtiene los recursos directamente de la naturaleza»."
+    },
+    {
+     "id": "lectura_eso_sectores_q2",
+     "prompt": "Una fábrica de azulejos de Castellón es un ejemplo del sector…",
+     "options": [
+      "primario",
+      "secundario",
+      "terciario"
+     ],
+     "correct": 1,
+     "explanation": "El secundario «transforma esas materias primas en productos elaborados»."
+    },
+    {
+     "id": "lectura_eso_sectores_q3",
+     "prompt": "¿Qué tienen en común el turismo, la sanidad y la educación?",
+     "options": [
+      "Que obtienen recursos de la naturaleza",
+      "Que ofrecen servicios a las personas",
+      "Que fabrican objetos"
+     ],
+     "correct": 1,
+     "explanation": "Son actividades del sector terciario, que «ofrece servicios a las personas»."
+    },
+    {
+     "id": "lectura_eso_sectores_q4",
+     "prompt": "¿Qué significa que vivimos en una economía terciarizada?",
+     "options": [
+      "Que la mayoría trabaja en los servicios",
+      "Que casi todos trabajan en el campo",
+      "Que hay tres tipos de fábricas"
+     ],
+     "correct": 0,
+     "explanation": "«Tres de cada cuatro trabajadores se dedican a los servicios.»"
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "materia prima",
+     "Recurso natural que se transforma para fabricar algo."
+    ],
+    [
+     "bienes",
+     "Objetos que se producen y se pueden comprar."
+    ],
+    [
+     "servicios",
+     "Trabajos que se hacen para otras personas sin producir objetos."
+    ],
+    [
+     "industrialización",
+     "Proceso por el que la industria pasa a ser una actividad principal."
+    ]
+   ]
+  },
+  {
    "id": "lectura_l8_tribunal",
    "level": 8,
    "title": "El Tribunal de las Aguas",
@@ -1926,6 +2603,232 @@
      "correct": 1,
      "explanation": "Expone una pregunta, da argumentos y termina con una reflexión."
     }
+   ]
+  },
+  {
+   "id": "lectura_eso_revolucion_industrial",
+   "level": 8,
+   "title": "La Revolución Industrial",
+   "emoji": "🚂",
+   "topics": [
+    "historia",
+    "tecnologia"
+   ],
+   "text": "A finales del siglo XVIII comenzó en Gran Bretaña una transformación tan profunda que se conoce como Revolución Industrial. En pocas décadas cambió la forma de producir, de trabajar y de vivir, primero en Europa y después en buena parte del mundo.\n\nEl cambio fundamental fue la mecanización: el trabajo que antes se hacía a mano o con la fuerza de los animales empezó a hacerlo una máquina. El invento clave fue la máquina de vapor, mejorada por James Watt en la segunda mitad del siglo XVIII, que quemaba carbón para producir movimiento. Se aplicó primero a la industria textil, donde los nuevos telares fabricaban telas mucho más deprisa y más baratas que los artesanos.\n\nLa máquina de vapor también transformó el transporte. El ferrocarril y los barcos de vapor permitieron llevar materias primas y productos a lugares lejanos en poco tiempo, lo que hizo crecer el comercio.\n\nLas fábricas se instalaron en las ciudades, y miles de campesinos emigraron a ellas en busca de trabajo. Así se formó una nueva clase social, el proletariado. Sus condiciones eran muy duras: jornadas de hasta catorce horas, salarios bajos, trabajo infantil y barrios insalubres. Para defender sus derechos, los obreros se organizaron en sindicatos y, poco a poco, consiguieron mejoras como la reducción de la jornada laboral.\n\nMientras tanto, los propietarios de las fábricas y de los bancos, la burguesía, se enriquecieron y ganaron poder político. La sociedad dejó de dividirse por el nacimiento y empezó a dividirse por la riqueza: era la sociedad de clases.",
+   "questions": [
+    {
+     "id": "lectura_eso_revolucion_industrial_q1",
+     "prompt": "¿Dónde y cuándo empezó la Revolución Industrial?",
+     "options": [
+      "En Francia, en el siglo XV",
+      "En Gran Bretaña, a finales del siglo XVIII",
+      "En España, en el siglo XX"
+     ],
+     "correct": 1,
+     "explanation": "«A finales del siglo XVIII comenzó en Gran Bretaña…»"
+    },
+    {
+     "id": "lectura_eso_revolucion_industrial_q2",
+     "prompt": "¿Qué quemaba la máquina de vapor para producir movimiento?",
+     "options": [
+      "Carbón",
+      "Petróleo",
+      "Gas natural"
+     ],
+     "correct": 0,
+     "explanation": "La máquina de vapor «quemaba carbón para producir movimiento»."
+    },
+    {
+     "id": "lectura_eso_revolucion_industrial_q3",
+     "prompt": "¿Por qué miles de campesinos emigraron a las ciudades?",
+     "options": [
+      "Para buscar trabajo en las fábricas",
+      "Porque el campo estaba prohibido",
+      "Para estudiar en la universidad"
+     ],
+     "correct": 0,
+     "explanation": "«Emigraron a ellas en busca de trabajo.»"
+    },
+    {
+     "id": "lectura_eso_revolucion_industrial_q4",
+     "prompt": "¿Qué cambio social destaca el último párrafo?",
+     "options": [
+      "La sociedad pasó a dividirse por la riqueza y no por el nacimiento",
+      "Desaparecieron los ricos",
+      "Los campesinos se convirtieron en nobles"
+     ],
+     "correct": 0,
+     "explanation": "«Dejó de dividirse por el nacimiento y empezó a dividirse por la riqueza.»"
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "mecanización",
+     "Uso de máquinas para hacer trabajos que antes se hacían a mano."
+    ],
+    [
+     "proletariado",
+     "Clase social de los obreros que trabajaban a cambio de un salario."
+    ],
+    [
+     "sindicato",
+     "Asociación de trabajadores que defiende sus derechos."
+    ],
+    [
+     "insalubre",
+     "Malo para la salud."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_eso_adn",
+   "level": 8,
+   "title": "El ADN, el libro de instrucciones",
+   "emoji": "🧬",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "¿Por qué tienes los ojos del color de los de tu madre o el pelo rizado como tu abuelo? La respuesta está en el ADN, una molécula que se encuentra en el núcleo de casi todas tus células y que contiene la información necesaria para construir y hacer funcionar un ser vivo.\n\nEl ADN tiene forma de doble hélice, como una escalera de caracol. Su estructura fue descrita en 1953 por James Watson y Francis Crick, gracias en gran parte a las imágenes de rayos X obtenidas por la científica Rosalind Franklin. Los peldaños de esa escalera están formados por cuatro bases, representadas por las letras A, T, C y G. El orden en que aparecen funciona como un código: igual que las letras forman palabras, las bases forman instrucciones.\n\nUn fragmento de ADN que contiene la instrucción para un carácter concreto se llama gen. Los seres humanos tenemos unos veinte mil genes, repartidos en 46 cromosomas, es decir, 23 parejas. De cada pareja, un cromosoma procede de la madre y el otro del padre. Por eso nos parecemos a los dos, pero no somos idénticos a ninguno.\n\nA mediados del siglo XIX, sin saber nada del ADN, el monje Gregor Mendel ya había descubierto, cruzando plantas de guisante, que algunos caracteres son dominantes y otros recesivos: un carácter recesivo puede no notarse en una generación y reaparecer en la siguiente. Hoy la genética permite diagnosticar enfermedades, mejorar cultivos e incluso resolver delitos.",
+   "questions": [
+    {
+     "id": "lectura_eso_adn_q1",
+     "prompt": "¿Dónde se encuentra el ADN?",
+     "options": [
+      "Solo en la sangre",
+      "En el núcleo de casi todas las células",
+      "En los huesos"
+     ],
+     "correct": 1,
+     "explanation": "«Se encuentra en el núcleo de casi todas tus células.»"
+    },
+    {
+     "id": "lectura_eso_adn_q2",
+     "prompt": "¿Qué forma tiene la molécula de ADN?",
+     "options": [
+      "De esfera",
+      "De doble hélice",
+      "De estrella"
+     ],
+     "correct": 1,
+     "explanation": "«Tiene forma de doble hélice, como una escalera de caracol.»"
+    },
+    {
+     "id": "lectura_eso_adn_q3",
+     "prompt": "¿Por qué nos parecemos a nuestro padre y a nuestra madre, pero no somos idénticos a ninguno?",
+     "options": [
+      "Porque de cada pareja de cromosomas, uno viene de la madre y otro del padre",
+      "Porque tenemos más genes que ellos",
+      "Porque el ADN cambia cada año"
+     ],
+     "correct": 0,
+     "explanation": "«De cada pareja, un cromosoma procede de la madre y el otro del padre.»"
+    },
+    {
+     "id": "lectura_eso_adn_q4",
+     "prompt": "¿Qué descubrió Mendel con las plantas de guisante?",
+     "options": [
+      "La forma del ADN",
+      "Que algunos caracteres son dominantes y otros recesivos",
+      "Cómo diagnosticar enfermedades"
+     ],
+     "correct": 1,
+     "explanation": "Descubrió «que algunos caracteres son dominantes y otros recesivos»."
+    }
+   ],
+   "subject": "bio",
+   "glossary": [
+    [
+     "molécula",
+     "Conjunto de átomos unidos."
+    ],
+    [
+     "gen",
+     "Fragmento de ADN con la información de un carácter."
+    ],
+    [
+     "cromosoma",
+     "Estructura del núcleo formada por ADN muy enrollado."
+    ],
+    [
+     "recesivo",
+     "Carácter que puede quedar oculto y solo se nota si se hereda del padre y de la madre."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_eso_newton",
+   "level": 8,
+   "title": "Las leyes del movimiento",
+   "emoji": "🍏",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "Una fuerza es cualquier acción capaz de cambiar el movimiento de un cuerpo o de deformarlo. Empujar un carro, chutar un balón o estirar una goma son ejemplos de fuerzas. Se miden en newtons (N), en honor al científico inglés Isaac Newton, que en 1687 publicó las tres leyes que explican cómo se mueven los cuerpos.\n\nLa primera ley, o principio de inercia, dice que un cuerpo permanece en reposo o se mueve en línea recta a velocidad constante si no actúa ninguna fuerza sobre él. Por eso, cuando un autobús frena de golpe, los pasajeros se van hacia delante: su cuerpo tiende a seguir moviéndose.\n\nLa segunda ley relaciona la fuerza con la aceleración, que es el cambio de velocidad. Cuanto mayor es la fuerza, mayor es la aceleración; y cuanto mayor es la masa del cuerpo, más fuerza hace falta para acelerarlo. Se resume en la fórmula F = m · a. Por eso es más fácil empujar un carro de la compra vacío que uno lleno.\n\nLa tercera ley, o principio de acción y reacción, afirma que cuando un cuerpo ejerce una fuerza sobre otro, este ejerce sobre el primero una fuerza igual y de sentido contrario. Cuando nadamos, empujamos el agua hacia atrás y el agua nos empuja hacia delante. Los cohetes funcionan del mismo modo: expulsan gases hacia abajo y los gases los impulsan hacia arriba.",
+   "questions": [
+    {
+     "id": "lectura_eso_newton_q1",
+     "prompt": "¿En qué unidad se miden las fuerzas?",
+     "options": [
+      "En kilogramos",
+      "En newtons",
+      "En metros"
+     ],
+     "correct": 1,
+     "explanation": "«Se miden en newtons (N).»"
+    },
+    {
+     "id": "lectura_eso_newton_q2",
+     "prompt": "¿Qué ley explica que los pasajeros se vayan hacia delante cuando el autobús frena?",
+     "options": [
+      "La primera, o principio de inercia",
+      "La segunda",
+      "La tercera"
+     ],
+     "correct": 0,
+     "explanation": "Por la inercia, «su cuerpo tiende a seguir moviéndose»."
+    },
+    {
+     "id": "lectura_eso_newton_q3",
+     "prompt": "Según la segunda ley, ¿por qué cuesta más empujar un carro lleno?",
+     "options": [
+      "Porque tiene más masa y necesita más fuerza para acelerar",
+      "Porque tiene menos inercia",
+      "Porque el suelo está más liso"
+     ],
+     "correct": 0,
+     "explanation": "«Cuanto mayor es la masa del cuerpo, más fuerza hace falta para acelerarlo.»"
+    },
+    {
+     "id": "lectura_eso_newton_q4",
+     "prompt": "¿Cómo explica la tercera ley que un cohete suba?",
+     "options": [
+      "Los gases expulsados hacia abajo empujan el cohete hacia arriba",
+      "El cohete es más ligero que el aire",
+      "La gravedad desaparece"
+     ],
+     "correct": 0,
+     "explanation": "Acción y reacción: «expulsan gases hacia abajo y los gases los impulsan hacia arriba»."
+    }
+   ],
+   "subject": "fyq",
+   "glossary": [
+    [
+     "fuerza",
+     "Acción que puede cambiar el movimiento o la forma de un cuerpo."
+    ],
+    [
+     "inercia",
+     "Tendencia de un cuerpo a seguir como está, quieto o en movimiento."
+    ],
+    [
+     "aceleración",
+     "Cambio de la velocidad de un cuerpo."
+    ],
+    [
+     "masa",
+     "Cantidad de materia de un cuerpo."
+    ]
    ]
   },
   {

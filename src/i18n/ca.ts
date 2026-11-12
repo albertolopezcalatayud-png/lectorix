@@ -1109,4 +1109,16 @@ export const ca: Record<TranslationKey, string> = {
   hdr_level: 'Nv.{n}',
   hdr_level_aria: 'Nivell {n}',
   hdr_streak_aria: 'Ratxa: {n} dies',
+
+  // Subject readings
+  subj_title: 'Lectures per a estudiar',
+  subj_card_desc: 'Ciències, història i geografia',
+  subj_desc: 'Textos de Secundària amb les paraules clau explicades i preguntes, per a practicar el que s’estudia a classe.',
+  subj_all: 'Totes',
+  subj_bio: 'Biologia',
+  subj_fyq: 'Física i Química',
+  subj_geohist: 'Geografia i Història',
+  read_glossary: 'Paraules clau',
+  read_glossary_tip: 'Llig-les abans del text: t’ajudaran a entendre’l.',
+  read_glossary_listen: 'Escoltar «{word}»',
 };

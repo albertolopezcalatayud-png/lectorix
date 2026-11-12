@@ -2,7 +2,7 @@ import { useState, useCallback, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import type { AnswerResult, ModuleId } from '@/types';
-import { useReading, questionsAsExercises } from '@/data/readings';
+import { useReading, questionsAsExercises, readingVoice } from '@/data/readings';
 import { buildSessionResult } from '@/services/gamification';
 import { recordSession } from '@/services/session';
 import { GuidedReader } from '@/components/reading/GuidedReader';
@@ -94,6 +94,21 @@ export default function Reading() {
             <h1 className="font-heading font-black text-2xl text-center mt-5 mb-1">
               {reading.emoji} {reading.title}
             </h1>
+            {reading.glossary?.length ? (
+              <details open className="rounded-[14px] border border-border bg-bg-card px-4 py-2.5 mt-3">
+                <summary className="cursor-pointer text-sm font-bold text-accent">🔑 {t('read_glossary')}</summary>
+                <p className="text-xs text-fg-muted mt-1">{t('read_glossary_tip')}</p>
+                <dl className="mt-2 space-y-1.5">
+                  {reading.glossary.map(([term, def]) => (
+                    <div key={term} className="flex items-start gap-2">
+                      <button onClick={() => { tts.stop(); void tts.speakIn(`${term}. ${def}`, readingVoice(reading.id), 0.85); }}
+                        aria-label={t('read_glossary_listen', { word: term })} className="text-sm shrink-0">🔊</button>
+                      <div className="text-sm"><dt className="inline font-extrabold">{term}:</dt> <dd className="inline">{def}</dd></div>
+                    </div>
+                  ))}
+                </dl>
+              </details>
+            ) : null}
             <GuidedReader text={reading.text} onFinishedListening={onFinishedListening} />
             {readAloudOn && (
               <button onClick={() => { tts.stop(); navigate(`/leer-en-voz-alta/${reading.id}`); }}

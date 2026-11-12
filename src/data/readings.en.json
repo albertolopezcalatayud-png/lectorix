@@ -999,6 +999,232 @@
    ]
   },
   {
+   "id": "reading_en_eso_cell",
+   "level": 4,
+   "title": "The cell: the unit of life",
+   "emoji": "🔬",
+   "topics": [
+    "ciencia",
+    "naturaleza"
+   ],
+   "text": "All living things, from a tiny bacterium to a huge whale, are made of cells. A cell is the smallest part of a living thing that can carry out the life processes on its own: nutrition, interaction and reproduction.\n\nSome living things have only one cell. They are called unicellular, like bacteria. Others, like plants and animals, have millions of cells. They are called multicellular.\n\nMost cells have three main parts. The membrane is a thin layer around the cell. It lets some substances in and keeps others out. The cytoplasm is the inside of the cell, a thick liquid with small parts called organelles. The genetic material has the instructions for the cell to work and to divide.\n\nAnimal cells and plant cells are similar, but plant cells also have a hard cell wall and chloroplasts. Chloroplasts are green organelles where the plant makes its food using sunlight.",
+   "questions": [
+    {
+     "id": "reading_en_eso_cell_q1",
+     "prompt": "What is a cell?",
+     "options": [
+      "The biggest organ in the body",
+      "The smallest part of a living thing that can carry out the life processes",
+      "A substance made by plants"
+     ],
+     "correct": 1,
+     "explanation": "It is “the smallest part of a living thing that can carry out the life processes on its own”."
+    },
+    {
+     "id": "reading_en_eso_cell_q2",
+     "prompt": "What do we call a living thing with only one cell?",
+     "options": [
+      "Multicellular",
+      "Unicellular",
+      "A plant"
+     ],
+     "correct": 1,
+     "explanation": "“Some living things have only one cell. They are called unicellular.”"
+    },
+    {
+     "id": "reading_en_eso_cell_q3",
+     "prompt": "Which part of the cell controls what goes in and out?",
+     "options": [
+      "The membrane",
+      "The cytoplasm",
+      "The genetic material"
+     ],
+     "correct": 0,
+     "explanation": "The membrane “lets some substances in and keeps others out”."
+    },
+    {
+     "id": "reading_en_eso_cell_q4",
+     "prompt": "Why can a plant cell make its own food?",
+     "options": [
+      "Because it is bigger",
+      "Because it has chloroplasts",
+      "Because it has no membrane"
+     ],
+     "correct": 1,
+     "explanation": "In chloroplasts “the plant makes its food using sunlight”."
+    }
+   ],
+   "subject": "bio",
+   "glossary": [
+    [
+     "membrane",
+     "A thin layer around a cell that controls what goes in and out."
+    ],
+    [
+     "cytoplasm",
+     "The inside of a cell, where the organelles are."
+    ],
+    [
+     "unicellular",
+     "Made of only one cell."
+    ],
+    [
+     "chloroplast",
+     "A green part of a plant cell where photosynthesis happens."
+    ]
+   ]
+  },
+  {
+   "id": "reading_en_eso_neolithic",
+   "level": 4,
+   "title": "The Neolithic: learning to farm",
+   "emoji": "🌾",
+   "topics": [
+    "historia"
+   ],
+   "text": "For thousands of years, people lived by hunting, fishing and gathering fruit. They were nomads: they moved from place to place, following animals and looking for food. This period is called the Palaeolithic.\n\nAbout 10,000 years ago, in the Middle East, some groups discovered that they could plant seeds and harvest crops. They also started to domesticate animals like goats, sheep and cattle. The Neolithic had begun.\n\nFarming changed everything. People did not need to move to find food, so many of them settled in one place and built the first villages, with houses of mud and stone. Sometimes they produced more food than they needed, and they could store this surplus or exchange it.\n\nOver time, new jobs appeared, like the potter, who made clay pots to store grain, and the weaver. That is why many historians talk about the “Neolithic Revolution”.",
+   "questions": [
+    {
+     "id": "reading_en_eso_neolithic_q1",
+     "prompt": "How did Palaeolithic people get their food?",
+     "options": [
+      "By farming",
+      "By hunting, fishing and gathering",
+      "By buying it in villages"
+     ],
+     "correct": 1,
+     "explanation": "“People lived by hunting, fishing and gathering fruit.”"
+    },
+    {
+     "id": "reading_en_eso_neolithic_q2",
+     "prompt": "Where and when did the Neolithic begin?",
+     "options": [
+      "In Europe, 1,000 years ago",
+      "In the Middle East, about 10,000 years ago",
+      "In America, 500 years ago"
+     ],
+     "correct": 1,
+     "explanation": "“About 10,000 years ago, in the Middle East…”"
+    },
+    {
+     "id": "reading_en_eso_neolithic_q3",
+     "prompt": "Why did many people settle in one place?",
+     "options": [
+      "Because they did not need to move to find food",
+      "Because it was too cold to travel",
+      "Because there were no more animals"
+     ],
+     "correct": 0,
+     "explanation": "“People did not need to move to find food, so many of them settled.”"
+    },
+    {
+     "id": "reading_en_eso_neolithic_q4",
+     "prompt": "What were clay pots used for?",
+     "options": [
+      "To decorate houses",
+      "To store grain",
+      "To hunt animals"
+     ],
+     "correct": 1,
+     "explanation": "The potter “made clay pots to store grain”."
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "nomad",
+     "A person who moves from place to place."
+    ],
+    [
+     "settle",
+     "To start living in one place."
+    ],
+    [
+     "domesticate",
+     "To make a wild animal live with people."
+    ],
+    [
+     "surplus",
+     "What is left over after you have what you need."
+    ]
+   ]
+  },
+  {
+   "id": "reading_en_eso_climates",
+   "level": 4,
+   "title": "The Earth’s climates",
+   "emoji": "🌍",
+   "topics": [
+    "naturaleza"
+   ],
+   "text": "Weather is what the atmosphere is like at one moment: today it is raining, tomorrow it will be sunny. Climate is the usual weather in a place over many years.\n\nThe two most important parts of climate are temperature and precipitation, that is, the rain or snow that falls. They depend mostly on latitude, the distance from a place to the equator. Near the equator, the sun’s rays hit the Earth directly, so it is hot all year. Near the poles, the rays arrive at an angle, so it is very cold.\n\nThat is why the Earth has large climate zones. In the hot zone, around the equator, there are equatorial, tropical and desert climates. In the two temperate zones, summers and winters are different. The Mediterranean climate of Valencia is in a temperate zone. In the two cold zones, near the poles, winters are very long and summers are short and cool.\n\nOther things also matter, like altitude and the sea: it is colder in the mountains, and temperatures are milder on the coast.",
+   "questions": [
+    {
+     "id": "reading_en_eso_climates_q1",
+     "prompt": "What is the difference between weather and climate?",
+     "options": [
+      "There is no difference",
+      "Weather is one moment; climate is the usual weather over many years",
+      "Climate is only about rain"
+     ],
+     "correct": 1,
+     "explanation": "Climate is “the usual weather in a place over many years”."
+    },
+    {
+     "id": "reading_en_eso_climates_q2",
+     "prompt": "Why is it hot all year near the equator?",
+     "options": [
+      "Because there is more sea",
+      "Because the sun’s rays hit the Earth directly",
+      "Because there are high mountains"
+     ],
+     "correct": 1,
+     "explanation": "“Near the equator, the sun’s rays hit the Earth directly.”"
+    },
+    {
+     "id": "reading_en_eso_climates_q3",
+     "prompt": "Which zone is Valencia in?",
+     "options": [
+      "The hot zone",
+      "A temperate zone",
+      "A cold zone"
+     ],
+     "correct": 1,
+     "explanation": "“The Mediterranean climate of Valencia is in a temperate zone.”"
+    },
+    {
+     "id": "reading_en_eso_climates_q4",
+     "prompt": "If you climb a high mountain in summer, what will probably happen?",
+     "options": [
+      "It will be colder than on the coast",
+      "It will be hotter than on the beach",
+      "It will always rain"
+     ],
+     "correct": 0,
+     "explanation": "Altitude matters: “it is colder in the mountains”."
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "climate",
+     "The usual weather in a place over many years."
+    ],
+    [
+     "precipitation",
+     "Water that falls from clouds: rain, snow or hail."
+    ],
+    [
+     "latitude",
+     "The distance from a place to the equator."
+    ],
+    [
+     "altitude",
+     "How high a place is above sea level."
+    ]
+   ]
+  },
+  {
    "id": "reading_en_l5_brain",
    "level": 5,
    "title": "How the brain learns",
@@ -1269,6 +1495,231 @@
      "correct": 1,
      "explanation": "“The Sorolla Museum in Madrid, which used to be his home.”"
     }
+   ]
+  },
+  {
+   "id": "reading_en_eso_matter",
+   "level": 5,
+   "title": "Solids, liquids and gases",
+   "emoji": "🧊",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "Everything around us is matter: water, air, a table and even our own bodies. Matter is made of tiny particles that we cannot see. The way these particles move and join together explains the three main states of matter.\n\nIn solids, the particles are very close together and hardly move; they only vibrate. That is why solids have a fixed shape and volume. In liquids, the particles are close together but can slide past each other, so liquids have a fixed volume but take the shape of their container. In gases, the particles are far apart and move very fast in all directions, so gases fill all the space they can.\n\nA substance can change from one state to another when its temperature changes. When we heat ice, its particles move more and more until the solid becomes a liquid. This is melting. If we keep heating, the water boils and turns into steam. This is evaporation. When it cools down, the opposite happens: steam condenses into drops, and liquid water freezes into ice.\n\nEach substance changes state at a particular temperature. Pure water, for example, melts at 0 °C and boils at 100 °C at sea level.",
+   "questions": [
+    {
+     "id": "reading_en_eso_matter_q1",
+     "prompt": "Why does a solid have a fixed shape?",
+     "options": [
+      "Its particles are very close together and hardly move",
+      "Its particles are far apart",
+      "It is heavier"
+     ],
+     "correct": 0,
+     "explanation": "“The particles are very close together and hardly move.”"
+    },
+    {
+     "id": "reading_en_eso_matter_q2",
+     "prompt": "Which state takes the shape of its container but keeps its volume?",
+     "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+     ],
+     "correct": 1,
+     "explanation": "“Liquids have a fixed volume but take the shape of their container.”"
+    },
+    {
+     "id": "reading_en_eso_matter_q3",
+     "prompt": "What do we call it when a solid becomes a liquid?",
+     "options": [
+      "Evaporation",
+      "Condensation",
+      "Melting"
+     ],
+     "correct": 2,
+     "explanation": "“The solid becomes a liquid. This is melting.”"
+    },
+    {
+     "id": "reading_en_eso_matter_q4",
+     "prompt": "The bathroom mirror goes misty after a shower. What is happening?",
+     "options": [
+      "Melting: the mirror is melting",
+      "Condensation: steam is turning into drops of water",
+      "Freezing: the water is turning into ice"
+     ],
+     "correct": 1,
+     "explanation": "The steam touches the cold mirror and “condenses into drops”."
+    }
+   ],
+   "subject": "fyq",
+   "glossary": [
+    [
+     "particle",
+     "A tiny piece that matter is made of."
+    ],
+    [
+     "volume",
+     "The amount of space something takes up."
+    ],
+    [
+     "melting",
+     "When a solid changes into a liquid."
+    ],
+    [
+     "condense",
+     "To change from a gas into a liquid."
+    ]
+   ]
+  },
+  {
+   "id": "reading_en_eso_feudalism",
+   "level": 5,
+   "title": "Lords and peasants in the Middle Ages",
+   "emoji": "🏰",
+   "topics": [
+    "historia"
+   ],
+   "text": "In Europe, for a large part of the Middle Ages, society was organised in a system called feudalism. After the fall of the Roman Empire, kings were weak and there were many wars and invasions. To stay safe, many peasants asked powerful nobles, called lords, to protect them.\n\nA lord owned an area of land called a fief. He received it from the king in exchange for loyalty and military help. On the fief there was the lord’s castle, the fields and the peasants’ villages. The peasants worked the land. In exchange for protection, they gave the lord part of their harvest, paid taxes and worked on his land for free on some days.\n\nFeudal society had three groups, called estates. The nobles fought in wars. The clergy, made up of bishops, priests and monks, prayed. The peasants, who were the great majority, worked to feed everyone. People were born into an estate, and it was very difficult to change.\n\nFrom the 11th century, towns and trade grew, and a new group appeared: the bourgeoisie. They were merchants and craftspeople who did not depend on any lord.",
+   "questions": [
+    {
+     "id": "reading_en_eso_feudalism_q1",
+     "prompt": "Why did peasants ask lords to protect them?",
+     "options": [
+      "Kings were weak and there were wars and invasions",
+      "They wanted to become nobles",
+      "The lords paid them"
+     ],
+     "correct": 0,
+     "explanation": "“Kings were weak and there were many wars and invasions.”"
+    },
+    {
+     "id": "reading_en_eso_feudalism_q2",
+     "prompt": "What did peasants give the lord in exchange for protection?",
+     "options": [
+      "Weapons and horses",
+      "Part of their harvest, taxes and days of work",
+      "Nothing, protection was free"
+     ],
+     "correct": 1,
+     "explanation": "They gave part of the harvest, paid taxes and worked for free on some days."
+    },
+    {
+     "id": "reading_en_eso_feudalism_q3",
+     "prompt": "Which estate was the largest?",
+     "options": [
+      "The nobles",
+      "The clergy",
+      "The peasants"
+     ],
+     "correct": 2,
+     "explanation": "“The peasants, who were the great majority…”"
+    },
+    {
+     "id": "reading_en_eso_feudalism_q4",
+     "prompt": "What was new about the bourgeoisie?",
+     "options": [
+      "They prayed all day",
+      "They did not depend on any lord",
+      "They lived in castles"
+     ],
+     "correct": 1,
+     "explanation": "Merchants and craftspeople “who did not depend on any lord”."
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "fief",
+     "Land a king gave to a noble in exchange for loyalty."
+    ],
+    [
+     "estate",
+     "A closed social group in the Middle Ages: nobles, clergy or peasants."
+    ],
+    [
+     "clergy",
+     "People who work for the Church."
+    ],
+    [
+     "bourgeoisie",
+     "Merchants and craftspeople who lived in towns."
+    ]
+   ]
+  },
+  {
+   "id": "reading_en_eso_population",
+   "level": 5,
+   "title": "How many of us are there?",
+   "emoji": "👥",
+   "topics": [
+    "vida"
+   ],
+   "text": "In 1800, about one billion people lived on Earth. Today there are more than eight billion. Demography is the science that studies how population changes, and it uses some basic data.\n\nThe birth rate is the number of births in a year, and the death rate is the number of deaths. If more people are born than die, the population grows. This is called natural increase. Migration also matters: people who arrive in a country are immigrants, and people who leave are emigrants.\n\nPopulation is not spread out evenly. Some areas, like southern and eastern Asia, western Europe and many coasts, have a lot of people because they have a mild climate, good land or a lot of jobs. Other areas, like deserts, high mountains and polar regions, are almost empty because it is very hard to live there.\n\nEach country is also different. In many African countries, the population is young because many babies are born. In Spain, few babies are born and people live a long time, so the population is ageing: there are more and more older people and fewer young people.",
+   "questions": [
+    {
+     "id": "reading_en_eso_population_q1",
+     "prompt": "How many people live on Earth today, according to the text?",
+     "options": [
+      "About one billion",
+      "More than eight billion",
+      "About one hundred million"
+     ],
+     "correct": 1,
+     "explanation": "“Today there are more than eight billion.”"
+    },
+    {
+     "id": "reading_en_eso_population_q2",
+     "prompt": "When does a population have natural increase?",
+     "options": [
+      "When more people are born than die",
+      "When many tourists arrive",
+      "When there are more cities"
+     ],
+     "correct": 0,
+     "explanation": "“If more people are born than die, the population grows.”"
+    },
+    {
+     "id": "reading_en_eso_population_q3",
+     "prompt": "Why are deserts almost empty?",
+     "options": [
+      "Living there is not allowed",
+      "It is very hard to live there",
+      "There are too many people"
+     ],
+     "correct": 1,
+     "explanation": "“They are almost empty because it is very hard to live there.”"
+    },
+    {
+     "id": "reading_en_eso_population_q4",
+     "prompt": "Why is the population of Spain ageing?",
+     "options": [
+      "Few babies are born and people live a long time",
+      "Many babies are born",
+      "All young people emigrate"
+     ],
+     "correct": 0,
+     "explanation": "“Few babies are born and people live a long time.”"
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "demography",
+     "The science that studies population."
+    ],
+    [
+     "birth rate",
+     "The number of births in a place and time."
+    ],
+    [
+     "death rate",
+     "The number of deaths in a place and time."
+    ],
+    [
+     "ageing",
+     "Getting older; having more and more older people."
+    ]
    ]
   },
   {
@@ -1564,6 +2015,232 @@
    ]
   },
   {
+   "id": "reading_en_eso_digestion",
+   "level": 6,
+   "title": "The journey of food",
+   "emoji": "🍎",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "When you eat a sandwich, a long journey begins. The digestive system breaks food down into very small substances called nutrients. The body can absorb them and use them to get energy, to grow and to repair itself.\n\nIt all starts in the mouth. Your teeth crush the food, and saliva makes it wet and starts to break down some nutrients, like the starch in bread. This forms a ball of food that you swallow. It travels down the oesophagus, pushed by the movement of its muscles.\n\nIn the stomach, the food is mixed for a few hours with very acidic gastric juices and becomes a kind of thick liquid called chyme. Then it moves into the small intestine, a tube about seven metres long, folded up inside the abdomen. There, juices from the liver and the pancreas finish digestion. The walls of the small intestine are covered in tiny folds called villi, and nutrients pass through them into the blood.\n\nWhatever cannot be used goes to the large intestine, where most of the water is absorbed. The waste forms faeces, which leave the body through the anus. That is why it is important to drink water and eat fibre, which helps this last part work well.",
+   "questions": [
+    {
+     "id": "reading_en_eso_digestion_q1",
+     "prompt": "What does the digestive system do?",
+     "options": [
+      "It carries oxygen",
+      "It breaks food down into nutrients the body can use",
+      "It removes carbon dioxide"
+     ],
+     "correct": 1,
+     "explanation": "It “breaks food down into very small substances called nutrients”."
+    },
+    {
+     "id": "reading_en_eso_digestion_q2",
+     "prompt": "Where is chyme formed?",
+     "options": [
+      "In the mouth",
+      "In the stomach",
+      "In the large intestine"
+     ],
+     "correct": 1,
+     "explanation": "In the stomach the food “becomes a kind of thick liquid called chyme”."
+    },
+    {
+     "id": "reading_en_eso_digestion_q3",
+     "prompt": "How do nutrients get into the blood?",
+     "options": [
+      "Through the villi in the small intestine",
+      "Through the oesophagus",
+      "Through the teeth"
+     ],
+     "correct": 0,
+     "explanation": "Nutrients “pass through them [the villi] into the blood”."
+    },
+    {
+     "id": "reading_en_eso_digestion_q4",
+     "prompt": "According to the text, why is fibre good for you?",
+     "options": [
+      "It gives a lot of energy",
+      "It helps the large intestine work well",
+      "It replaces water"
+     ],
+     "correct": 1,
+     "explanation": "Fibre “helps this last part work well”."
+    }
+   ],
+   "subject": "bio",
+   "glossary": [
+    [
+     "nutrient",
+     "A substance in food that the body uses."
+    ],
+    [
+     "oesophagus",
+     "The tube that carries food from the mouth to the stomach."
+    ],
+    [
+     "chyme",
+     "The thick liquid food becomes in the stomach."
+    ],
+    [
+     "villi",
+     "Tiny folds in the small intestine that let nutrients into the blood."
+    ]
+   ]
+  },
+  {
+   "id": "reading_en_eso_atom",
+   "level": 6,
+   "title": "Inside the atom",
+   "emoji": "⚛️",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "About 2,400 years ago, the Greek philosopher Democritus had an idea: if you cut something in half again and again, in the end you get a piece that cannot be divided. He called it an atom, which means “uncuttable” in Greek. For centuries it was only an idea, but today we know that all matter is made of atoms, and that atoms do have parts.\n\nIn the centre of the atom is the nucleus. It is very small, but it has almost all the mass. It contains protons, which have a positive electric charge, and neutrons, which have no charge. Electrons move around the nucleus. They are much lighter and have a negative charge. An atom has the same number of electrons as protons, so overall it is neutral.\n\nWhat makes one chemical element different from another is the number of protons, called the atomic number. Every hydrogen atom has one proton, every carbon atom has six and every oxygen atom has eight.\n\nIn the 19th century, the Russian chemist Dmitri Mendeleev put the known elements in a table according to their properties. He left gaps for elements that had not been discovered yet and predicted what they would be like. When they were found, his predictions were right. His idea is the basis of the periodic table we use today, with more than a hundred elements.",
+   "questions": [
+    {
+     "id": "reading_en_eso_atom_q1",
+     "prompt": "What does “atom” mean in Greek?",
+     "options": [
+      "Small",
+      "Uncuttable",
+      "Electric"
+     ],
+     "correct": 1,
+     "explanation": "Atom “means ‘uncuttable’ in Greek”."
+    },
+    {
+     "id": "reading_en_eso_atom_q2",
+     "prompt": "What charge do electrons have?",
+     "options": [
+      "Positive",
+      "Negative",
+      "No charge"
+     ],
+     "correct": 1,
+     "explanation": "Electrons “are much lighter and have a negative charge”."
+    },
+    {
+     "id": "reading_en_eso_atom_q3",
+     "prompt": "What makes one element different from another?",
+     "options": [
+      "The number of protons",
+      "Its colour",
+      "The size of the atom"
+     ],
+     "correct": 0,
+     "explanation": "“What makes one chemical element different from another is the number of protons.”"
+    },
+    {
+     "id": "reading_en_eso_atom_q4",
+     "prompt": "Why was it important that Mendeleev left gaps in his table?",
+     "options": [
+      "It made the table look nicer",
+      "It helped predict elements nobody knew yet",
+      "He did not know how to order the elements"
+     ],
+     "correct": 1,
+     "explanation": "He predicted what those elements would be like, and he was right."
+    }
+   ],
+   "subject": "fyq",
+   "glossary": [
+    [
+     "atom",
+     "A very small particle that matter is made of."
+    ],
+    [
+     "nucleus",
+     "The centre of an atom, with the protons and neutrons."
+    ],
+    [
+     "atomic number",
+     "The number of protons in an atom."
+    ],
+    [
+     "element",
+     "A substance made of atoms with the same number of protons."
+    ]
+   ]
+  },
+  {
+   "id": "reading_en_eso_sectors",
+   "level": 6,
+   "title": "What do people work in?",
+   "emoji": "🏭",
+   "topics": [
+    "vida",
+    "tecnologia"
+   ],
+   "text": "Economic activities are the things people do to produce goods and provide services. To study them, we put them into three sectors.\n\nThe primary sector gets resources directly from nature: farming, fishing and forestry. The oranges of Valencia and the rice from the Albufera are products of the primary sector.\n\nThe secondary sector turns those raw materials into manufactured products. It includes industry, construction and energy production. A factory that turns clay into tiles, like the ones in Castellón, or a car factory belongs to this sector.\n\nThe tertiary sector does not make objects. It provides services for people: shops, transport, education, healthcare, tourism and banking. A teacher, a doctor and a shop assistant all work in the tertiary sector.\n\nThe importance of each sector has changed over time. A hundred years ago, most people in Spain worked on the land. With industrialisation, the secondary sector grew, and today about three out of four workers are in services. That is why we say we live in a service economy.",
+   "questions": [
+    {
+     "id": "reading_en_eso_sectors_q1",
+     "prompt": "Which sector does fishing belong to?",
+     "options": [
+      "Primary",
+      "Secondary",
+      "Tertiary"
+     ],
+     "correct": 0,
+     "explanation": "The primary sector “gets resources directly from nature”."
+    },
+    {
+     "id": "reading_en_eso_sectors_q2",
+     "prompt": "A tile factory in Castellón is an example of the…",
+     "options": [
+      "primary sector",
+      "secondary sector",
+      "tertiary sector"
+     ],
+     "correct": 1,
+     "explanation": "The secondary sector “turns those raw materials into manufactured products”."
+    },
+    {
+     "id": "reading_en_eso_sectors_q3",
+     "prompt": "What do tourism, healthcare and education have in common?",
+     "options": [
+      "They get resources from nature",
+      "They provide services for people",
+      "They make objects"
+     ],
+     "correct": 1,
+     "explanation": "They are part of the tertiary sector, which “provides services for people”."
+    },
+    {
+     "id": "reading_en_eso_sectors_q4",
+     "prompt": "What does “we live in a service economy” mean?",
+     "options": [
+      "Most people work in services",
+      "Almost everyone works on the land",
+      "There are three kinds of factories"
+     ],
+     "correct": 0,
+     "explanation": "“About three out of four workers are in services.”"
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "raw material",
+     "A natural resource used to make something."
+    ],
+    [
+     "goods",
+     "Things that are made and can be bought."
+    ],
+    [
+     "services",
+     "Work done for other people without making objects."
+    ],
+    [
+     "industrialisation",
+     "When industry becomes a main activity in a country."
+    ]
+   ]
+  },
+  {
    "id": "reading_l7_gapyear",
    "level": 7,
    "title": "Is a gap year worth it?",
@@ -1852,6 +2529,232 @@
      "correct": 1,
      "explanation": "“It has become a symbol against war all over the world.”"
     }
+   ]
+  },
+  {
+   "id": "reading_en_eso_industrial",
+   "level": 7,
+   "title": "The Industrial Revolution",
+   "emoji": "🚂",
+   "topics": [
+    "historia",
+    "tecnologia"
+   ],
+   "text": "In the late 18th century, a change began in Great Britain that was so deep it is called the Industrial Revolution. In just a few decades it changed the way people produced goods, worked and lived, first in Europe and then in much of the world.\n\nThe key change was mechanisation: work that had been done by hand or with animals began to be done by machines. The most important invention was the steam engine, improved by James Watt in the second half of the 18th century. It burned coal to produce movement. It was first used in the textile industry, where new machines made cloth much faster and more cheaply than craftspeople could.\n\nThe steam engine also changed transport. Railways and steamships carried raw materials and products to distant places quickly, and trade grew.\n\nFactories were built in towns and cities, and thousands of people from the countryside moved there to find work. This created a new social class: the working class. Their conditions were very hard: working days of up to fourteen hours, low wages, child labour and unhealthy neighbourhoods. To defend their rights, workers joined together in trade unions, and little by little they won improvements such as shorter working hours.\n\nMeanwhile, the owners of factories and banks became rich and gained political power. Society stopped being divided by birth and started to be divided by wealth: it became a class society.",
+   "questions": [
+    {
+     "id": "reading_en_eso_industrial_q1",
+     "prompt": "Where and when did the Industrial Revolution begin?",
+     "options": [
+      "In France, in the 15th century",
+      "In Great Britain, in the late 18th century",
+      "In Spain, in the 20th century"
+     ],
+     "correct": 1,
+     "explanation": "“In the late 18th century, a change began in Great Britain…”"
+    },
+    {
+     "id": "reading_en_eso_industrial_q2",
+     "prompt": "What did the steam engine burn to produce movement?",
+     "options": [
+      "Coal",
+      "Oil",
+      "Gas"
+     ],
+     "correct": 0,
+     "explanation": "It “burned coal to produce movement”."
+    },
+    {
+     "id": "reading_en_eso_industrial_q3",
+     "prompt": "Why did thousands of people move to the cities?",
+     "options": [
+      "To find work in the factories",
+      "Because the countryside was closed",
+      "To study at university"
+     ],
+     "correct": 0,
+     "explanation": "They “moved there to find work”."
+    },
+    {
+     "id": "reading_en_eso_industrial_q4",
+     "prompt": "What social change does the last paragraph describe?",
+     "options": [
+      "Society became divided by wealth instead of by birth",
+      "Rich people disappeared",
+      "Peasants became nobles"
+     ],
+     "correct": 0,
+     "explanation": "“Society stopped being divided by birth and started to be divided by wealth.”"
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "mechanisation",
+     "Using machines to do work that was done by hand."
+    ],
+    [
+     "working class",
+     "People who work for a wage, especially in factories."
+    ],
+    [
+     "trade union",
+     "A group of workers that defends their rights."
+    ],
+    [
+     "wages",
+     "Money paid for work."
+    ]
+   ]
+  },
+  {
+   "id": "reading_en_eso_dna",
+   "level": 7,
+   "title": "DNA: the instruction book",
+   "emoji": "🧬",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "Why do you have your mother’s eye colour or curly hair like your grandfather? The answer is DNA, a molecule found in the nucleus of almost all your cells. It contains the information needed to build a living thing and make it work.\n\nDNA has the shape of a double helix, like a spiral staircase. Its structure was described in 1953 by James Watson and Francis Crick, thanks largely to X-ray images taken by the scientist Rosalind Franklin. The steps of the staircase are made of four bases, shown by the letters A, T, C and G. Their order works like a code: just as letters make words, bases make instructions.\n\nA piece of DNA with the instructions for one particular feature is called a gene. Humans have about twenty thousand genes, arranged in 46 chromosomes, or 23 pairs. In each pair, one chromosome comes from the mother and the other from the father. That is why we look like both of them but are not identical to either.\n\nIn the mid-19th century, long before anyone knew about DNA, a monk called Gregor Mendel had already discovered, by crossing pea plants, that some features are dominant and others are recessive: a recessive feature can disappear in one generation and come back in the next. Today, genetics helps doctors diagnose diseases, helps farmers improve crops and even helps the police solve crimes.",
+   "questions": [
+    {
+     "id": "reading_en_eso_dna_q1",
+     "prompt": "Where is DNA found?",
+     "options": [
+      "Only in the blood",
+      "In the nucleus of almost all cells",
+      "In the bones"
+     ],
+     "correct": 1,
+     "explanation": "“A molecule found in the nucleus of almost all your cells.”"
+    },
+    {
+     "id": "reading_en_eso_dna_q2",
+     "prompt": "What shape is a DNA molecule?",
+     "options": [
+      "A ball",
+      "A double helix",
+      "A star"
+     ],
+     "correct": 1,
+     "explanation": "“DNA has the shape of a double helix, like a spiral staircase.”"
+    },
+    {
+     "id": "reading_en_eso_dna_q3",
+     "prompt": "Why do we look like both our parents but are not identical to either?",
+     "options": [
+      "In each pair of chromosomes, one comes from the mother and one from the father",
+      "We have more genes than they do",
+      "Our DNA changes every year"
+     ],
+     "correct": 0,
+     "explanation": "“In each pair, one chromosome comes from the mother and the other from the father.”"
+    },
+    {
+     "id": "reading_en_eso_dna_q4",
+     "prompt": "What did Mendel discover with pea plants?",
+     "options": [
+      "The shape of DNA",
+      "That some features are dominant and others recessive",
+      "How to diagnose diseases"
+     ],
+     "correct": 1,
+     "explanation": "He discovered “that some features are dominant and others are recessive”."
+    }
+   ],
+   "subject": "bio",
+   "glossary": [
+    [
+     "molecule",
+     "A group of atoms joined together."
+    ],
+    [
+     "gene",
+     "A piece of DNA with the information for one feature."
+    ],
+    [
+     "chromosome",
+     "A structure in the nucleus made of tightly coiled DNA."
+    ],
+    [
+     "recessive",
+     "A feature that can stay hidden and only shows if it comes from both parents."
+    ]
+   ]
+  },
+  {
+   "id": "reading_en_eso_newton",
+   "level": 7,
+   "title": "The laws of motion",
+   "emoji": "🍏",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "A force is any push or pull that can change how an object moves or change its shape. Pushing a trolley, kicking a ball and stretching an elastic band are all forces. Forces are measured in newtons (N), named after the English scientist Isaac Newton, who in 1687 published three laws that explain how objects move.\n\nThe first law, or law of inertia, says that an object stays still, or keeps moving in a straight line at the same speed, unless a force acts on it. That is why, when a bus stops suddenly, the passengers lurch forward: their bodies tend to keep moving.\n\nThe second law links force and acceleration, which is a change in speed. The bigger the force, the bigger the acceleration; and the more mass an object has, the more force you need to accelerate it. It is summed up in the formula F = m × a. That is why it is easier to push an empty shopping trolley than a full one.\n\nThe third law, or law of action and reaction, says that when one object pushes on another, the second object pushes back with a force that is equal and opposite. When we swim, we push the water backwards and the water pushes us forwards. Rockets work in the same way: they push gases down, and the gases push them up.",
+   "questions": [
+    {
+     "id": "reading_en_eso_newton_q1",
+     "prompt": "What unit are forces measured in?",
+     "options": [
+      "Kilograms",
+      "Newtons",
+      "Metres"
+     ],
+     "correct": 1,
+     "explanation": "“Forces are measured in newtons (N).”"
+    },
+    {
+     "id": "reading_en_eso_newton_q2",
+     "prompt": "Which law explains why passengers lurch forward when a bus stops suddenly?",
+     "options": [
+      "The first law, the law of inertia",
+      "The second law",
+      "The third law"
+     ],
+     "correct": 0,
+     "explanation": "Because of inertia, “their bodies tend to keep moving”."
+    },
+    {
+     "id": "reading_en_eso_newton_q3",
+     "prompt": "According to the second law, why is a full trolley harder to push?",
+     "options": [
+      "It has more mass, so it needs more force to accelerate",
+      "It has less inertia",
+      "The floor is smoother"
+     ],
+     "correct": 0,
+     "explanation": "“The more mass an object has, the more force you need to accelerate it.”"
+    },
+    {
+     "id": "reading_en_eso_newton_q4",
+     "prompt": "How does the third law explain how a rocket goes up?",
+     "options": [
+      "The gases pushed down push the rocket up",
+      "The rocket is lighter than air",
+      "Gravity disappears"
+     ],
+     "correct": 0,
+     "explanation": "Action and reaction: “they push gases down, and the gases push them up”."
+    }
+   ],
+   "subject": "fyq",
+   "glossary": [
+    [
+     "force",
+     "A push or pull that can change how something moves or its shape."
+    ],
+    [
+     "inertia",
+     "The tendency of an object to stay as it is, still or moving."
+    ],
+    [
+     "acceleration",
+     "A change in speed."
+    ],
+    [
+     "mass",
+     "The amount of matter in an object."
+    ]
    ]
   }
  ]

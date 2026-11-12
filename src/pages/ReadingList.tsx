@@ -1,7 +1,8 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
+import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useAppStore, useLevelCount } from '@/stores/useAppStore';
-import { useReadings, wordCount, readingMinutes, type Reading } from '@/data/readings';
+import { useReadings, wordCount, readingMinutes, SUBJECTS, type Reading } from '@/data/readings';
 import { levelNameKey, levelTag } from '@/data/modules';
 import { TOPICS, TOPIC_EMOJI, topicKey, useInterests } from '@/data/topics';
 import { recommendedLevel } from '@/services/review';
@@ -12,7 +13,11 @@ import { useI18n } from '@/i18n';
 
 export default function ReadingList() {
   const navigate = useNavigate();
+  const location = useLocation();
   const { t } = useI18n();
+  const [subject, setSubject] = useState<string>('all');
+  const subjectsRef = useRef<HTMLElement>(null);
+  const wantSubjects = !!location.state?.subjects;
   const sessionHistory = useAppStore((s) => s.sessionHistory);
   const readings = useReadings() ?? [];
   const lang = usePracticeLang();
@@ -29,6 +34,12 @@ export default function ReadingList() {
     .sort((a, b) => Number(done.has(a.id)) - Number(done.has(b.id)) || Math.abs(a.level - rec) - Math.abs(b.level - rec) || a.level - b.level)
     .slice(0, 4);
 
+  const subjectReadings = readings.filter((r) => r.subject);
+  const general = readings.filter((r) => !r.subject);
+  useEffect(() => {
+    if (wantSubjects && subjectReadings.length) subjectsRef.current?.scrollIntoView({ block: 'start' });
+  }, [wantSubjects, subjectReadings.length]);
+
   const Item = ({ r, i }: { r: Reading; i: number }) => (
     <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.04 }}>
       <Card hover onClick={() => navigate(`/lectura/${r.id}`)}>
@@ -38,7 +49,8 @@ export default function ReadingList() {
             <h4 className="font-heading font-extrabold text-sm truncate">{r.title}</h4>
             <p className="text-xs text-fg-muted">
               {t('read_meta', { n: wordCount(r), m: readingMinutes(r) })}
-              {r.topics?.length ? <span aria-hidden="true"> · {r.topics.map((x) => TOPIC_EMOJI[x]).join(' ')}</span> : null}
+              {r.subject ? <span> · {t(`subj_${r.subject}` as never)} · {t('dash_level', { level: r.level })}</span>
+                : r.topics?.length ? <span aria-hidden="true"> · {r.topics.map((x) => TOPIC_EMOJI[x]).join(' ')}</span> : null}
             </p>
           </div>
           {done.has(r.id) ? (
@@ -76,13 +88,30 @@ export default function ReadingList() {
               : <p className="text-xs text-fg-muted">{t('int_none')}</p>}
           </section>
         )}
-        {[...new Set(readings.map((r) => r.level))].sort((a, b) => a - b).map((level) => (
+        {subjectReadings.length > 0 && (
+          <section ref={subjectsRef} className="scroll-mt-20">
+            <h3 className="font-heading font-extrabold text-sm">🎓 {t('subj_title')}</h3>
+            <p className="text-xs text-fg-muted mb-2">{t('subj_desc')}</p>
+            <div className="flex flex-wrap gap-1.5 mb-2.5">
+              {[{ id: 'all', emoji: '📚' }, ...SUBJECTS].map((x) => (
+                <button key={x.id} onClick={() => setSubject(x.id)} aria-pressed={subject === x.id}
+                  className={`px-3 py-1.5 rounded-full text-xs font-bold border ${subject === x.id ? 'bg-accent text-white border-accent' : 'bg-bg border-border'}`}>
+                  {x.emoji} {t(`subj_${x.id}` as never)}
+                </button>
+              ))}
+            </div>
+            <div className="space-y-2.5">
+              {subjectReadings.filter((r) => subject === 'all' || r.subject === subject).sort((a, b) => a.level - b.level).map((r, i) => <Item key={r.id} r={r} i={i} />)}
+            </div>
+          </section>
+        )}
+        {[...new Set(general.map((r) => r.level))].sort((a, b) => a - b).map((level) => (
           <section key={level}>
             <h3 className="font-heading font-extrabold text-sm mb-2.5">
               {t('dash_level', { level })} · {t(levelNameKey(level))}{levelTag(lang, level)}
             </h3>
             <div className="space-y-2.5">
-              {readings.filter((r) => r.level === level).map((r, i) => <Item key={r.id} r={r} i={i} />)}
+              {general.filter((r) => r.level === level).map((r, i) => <Item key={r.id} r={r} i={i} />)}
             </div>
           </section>
         ))}

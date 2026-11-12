@@ -1272,6 +1272,232 @@
    ]
   },
   {
+   "id": "lectura_ca_eso_cellula",
+   "level": 5,
+   "title": "La cèl·lula, la unitat de la vida",
+   "emoji": "🔬",
+   "topics": [
+    "ciencia",
+    "naturaleza"
+   ],
+   "text": "Tots els éssers vius, des d’un bacteri fins a una balena, estan formats per cèl·lules. La cèl·lula és la part més xicoteta d’un ésser viu que pot fer per si mateixa les funcions vitals: nutrició, relació i reproducció.\n\nAlguns éssers vius tenen una sola cèl·lula i s’anomenen unicel·lulars, com els bacteris. Altres, com les plantes i els animals, estan formats per milions de cèl·lules i s’anomenen pluricel·lulars.\n\nQuasi totes les cèl·lules tenen tres parts. La membrana és una capa fina que les envolta i deixa passar unes substàncies i altres no. El citoplasma és l’interior de la cèl·lula, una espècie de líquid espés on hi ha els orgànuls. El material genètic conté les instruccions perquè la cèl·lula funcione i es dividisca.\n\nLes cèl·lules animals i les vegetals s’assemblen, però tenen diferències. Les vegetals tenen una paret cel·lular rígida que els dona forma i cloroplasts, uns orgànuls verds on es fabrica l’aliment a partir de la llum del sol.",
+   "questions": [
+    {
+     "id": "lectura_ca_eso_cellula_q1",
+     "prompt": "Què és la cèl·lula?",
+     "options": [
+      "L’òrgan més gran del cos",
+      "La part més xicoteta d’un ésser viu que pot fer les funcions vitals",
+      "Una substància que fabriquen les plantes"
+     ],
+     "correct": 1,
+     "explanation": "És «la part més xicoteta d’un ésser viu que pot fer per si mateixa les funcions vitals»."
+    },
+    {
+     "id": "lectura_ca_eso_cellula_q2",
+     "prompt": "Com s’anomena un ésser viu format per una sola cèl·lula?",
+     "options": [
+      "Pluricel·lular",
+      "Unicel·lular",
+      "Vegetal"
+     ],
+     "correct": 1,
+     "explanation": "«Alguns éssers vius tenen una sola cèl·lula i s’anomenen unicel·lulars.»"
+    },
+    {
+     "id": "lectura_ca_eso_cellula_q3",
+     "prompt": "Quina part de la cèl·lula decideix quines substàncies entren i ixen?",
+     "options": [
+      "La membrana",
+      "El citoplasma",
+      "El material genètic"
+     ],
+     "correct": 0,
+     "explanation": "La membrana «deixa passar unes substàncies i altres no»."
+    },
+    {
+     "id": "lectura_ca_eso_cellula_q4",
+     "prompt": "Per què una cèl·lula vegetal pot fabricar el seu aliment i una animal no?",
+     "options": [
+      "Perquè és més gran",
+      "Perquè té cloroplasts",
+      "Perquè no té membrana"
+     ],
+     "correct": 1,
+     "explanation": "Als cloroplasts «es fabrica l’aliment a partir de la llum del sol»."
+    }
+   ],
+   "subject": "bio",
+   "glossary": [
+    [
+     "membrana",
+     "Capa fina que envolta la cèl·lula i controla el que entra i ix."
+    ],
+    [
+     "citoplasma",
+     "Interior de la cèl·lula, on hi ha els orgànuls."
+    ],
+    [
+     "unicel·lular",
+     "Ésser viu format per una sola cèl·lula."
+    ],
+    [
+     "cloroplast",
+     "Orgànul verd de les cèl·lules vegetals on es fa la fotosíntesi."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_ca_eso_neolitic",
+   "level": 5,
+   "title": "El Neolític: aprendre a cultivar",
+   "emoji": "🌾",
+   "topics": [
+    "historia"
+   ],
+   "text": "Durant milers d’anys, els éssers humans van viure de la caça, la pesca i la recol·lecció de fruits. Eren nòmades: es desplaçaven d’un lloc a un altre seguint els animals i buscant aliment. Esta etapa s’anomena Paleolític.\n\nFa uns 10.000 anys, en una zona del Pròxim Orient, alguns grups van descobrir que podien sembrar llavors i arreplegar la collita. També van començar a domesticar animals com la cabra, l’ovella o el bou. Havia començat el Neolític.\n\nL’agricultura i la ramaderia ho van canviar tot. Com que ja no necessitaven moure’s per a aconseguir menjar, moltes persones es van fer sedentàries i van construir els primers poblats, amb cases de fang i pedra. A més, de vegades obtenien més aliment del que necessitaven, i eixe excedent es podia guardar o intercanviar.\n\nAmb el temps van aparéixer nous oficis, com el de terrisser, que fabricava gerres de ceràmica per a emmagatzemar el gra, o el de teixidor. Per això molts historiadors parlen de la «revolució neolítica».",
+   "questions": [
+    {
+     "id": "lectura_ca_eso_neolitic_q1",
+     "prompt": "Com aconseguien aliment els éssers humans del Paleolític?",
+     "options": [
+      "Amb l’agricultura i la ramaderia",
+      "Amb la caça, la pesca i la recol·lecció",
+      "Comprant-lo als poblats"
+     ],
+     "correct": 1,
+     "explanation": "«Van viure de la caça, la pesca i la recol·lecció de fruits.»"
+    },
+    {
+     "id": "lectura_ca_eso_neolitic_q2",
+     "prompt": "On i quan va començar el Neolític?",
+     "options": [
+      "A Europa, fa 1.000 anys",
+      "Al Pròxim Orient, fa uns 10.000 anys",
+      "A Amèrica, fa 500 anys"
+     ],
+     "correct": 1,
+     "explanation": "«Fa uns 10.000 anys, en una zona del Pròxim Orient…»"
+    },
+    {
+     "id": "lectura_ca_eso_neolitic_q3",
+     "prompt": "Per què moltes persones es van fer sedentàries?",
+     "options": [
+      "Perquè ja no necessitaven moure’s per a aconseguir menjar",
+      "Perquè feia massa fred per a viatjar",
+      "Perquè es van acabar els animals"
+     ],
+     "correct": 0,
+     "explanation": "«Com que ja no necessitaven moure’s per a aconseguir menjar…»"
+    },
+    {
+     "id": "lectura_ca_eso_neolitic_q4",
+     "prompt": "Per a què servien les gerres de ceràmica?",
+     "options": [
+      "Per a decorar les cases",
+      "Per a emmagatzemar el gra",
+      "Per a caçar animals"
+     ],
+     "correct": 1,
+     "explanation": "El terrisser fabricava «gerres de ceràmica per a emmagatzemar el gra»."
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "nòmada",
+     "Persona o grup que no viu sempre en el mateix lloc."
+    ],
+    [
+     "sedentari",
+     "Que viu sempre en el mateix lloc."
+    ],
+    [
+     "domesticar",
+     "Acostumar un animal salvatge a viure amb les persones."
+    ],
+    [
+     "excedent",
+     "El que sobra després de cobrir el que és necessari."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_ca_eso_climes",
+   "level": 5,
+   "title": "Els climes de la Terra",
+   "emoji": "🌍",
+   "topics": [
+    "naturaleza"
+   ],
+   "text": "El temps atmosfèric és l’estat de l’atmosfera en un moment concret: hui plou, demà farà sol. El clima, en canvi, és el temps que sol fer en un lloc al llarg de molts anys.\n\nEls dos elements més importants del clima són la temperatura i les precipitacions, és a dir, la pluja o la neu que cau. Depenen sobretot de la latitud, que és la distància d’un lloc a l’equador. Prop de l’equador els raigs del sol arriben més directes i fa calor tot l’any; prop dels pols arriben inclinats i fa molt de fred.\n\nPer això la Terra es dividix en grans zones climàtiques. En la zona càlida, al voltant de l’equador, hi ha els climes equatorial, tropical i desèrtic. En les dues zones temperades, els estius i els hiverns són diferents; ací es troba el clima mediterrani, el de la Comunitat Valenciana. I en les dues zones fredes, prop dels pols, l’hivern és molt llarg i l’estiu, curt i fresc.\n\nAltres factors, com l’altitud o la proximitat de la mar, també hi influïxen: a la muntanya fa més fred i a la costa les temperatures són més suaus.",
+   "questions": [
+    {
+     "id": "lectura_ca_eso_climes_q1",
+     "prompt": "Quina diferència hi ha entre temps atmosfèric i clima?",
+     "options": [
+      "No hi ha cap diferència",
+      "El temps és el que passa en un moment; el clima, el que sol passar durant molts anys",
+      "El clima només parla de la pluja"
+     ],
+     "correct": 1,
+     "explanation": "El clima és «el temps que sol fer en un lloc al llarg de molts anys»."
+    },
+    {
+     "id": "lectura_ca_eso_climes_q2",
+     "prompt": "Per què fa calor tot l’any prop de l’equador?",
+     "options": [
+      "Perquè hi ha més mar",
+      "Perquè els raigs del sol arriben més directes",
+      "Perquè hi ha muntanyes altes"
+     ],
+     "correct": 1,
+     "explanation": "«Prop de l’equador els raigs del sol arriben més directes.»"
+    },
+    {
+     "id": "lectura_ca_eso_climes_q3",
+     "prompt": "En quina zona climàtica està la Comunitat Valenciana?",
+     "options": [
+      "En la zona càlida",
+      "En una zona temperada",
+      "En una zona freda"
+     ],
+     "correct": 1,
+     "explanation": "El clima mediterrani està en les zones temperades."
+    },
+    {
+     "id": "lectura_ca_eso_climes_q4",
+     "prompt": "Si puges a una muntanya alta a l’estiu, què és el més probable?",
+     "options": [
+      "Que faça més fred que a la costa",
+      "Que faça més calor que a la platja",
+      "Que ploga sempre"
+     ],
+     "correct": 0,
+     "explanation": "Hi influïx l’altitud: «a la muntanya fa més fred»."
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "clima",
+     "Temps que sol fer en un lloc durant molts anys."
+    ],
+    [
+     "precipitacions",
+     "Aigua que cau dels núvols: pluja, neu o calamarsa."
+    ],
+    [
+     "latitud",
+     "Distància d’un lloc a l’equador."
+    ],
+    [
+     "altitud",
+     "Altura d’un lloc sobre el nivell de la mar."
+    ]
+   ]
+  },
+  {
    "id": "lectura_ca_l6_dama",
    "level": 6,
    "title": "El misteri de la Dama d'Elx",
@@ -1493,6 +1719,231 @@
    ]
   },
   {
+   "id": "lectura_ca_eso_materia",
+   "level": 6,
+   "title": "Sòlid, líquid i gas",
+   "emoji": "🧊",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "Tot el que ens envolta és matèria: l’aigua, l’aire, una taula o el nostre propi cos. La matèria està formada per partícules diminutes que no podem veure, i la manera com es mouen i s’unixen explica els seus tres estats principals.\n\nEn els sòlids, les partícules estan molt juntes i quasi no es mouen; només vibren. Per això els sòlids tenen una forma i un volum fixos. En els líquids, les partícules estan juntes, però poden lliscar unes sobre les altres: els líquids tenen volum fix, però adopten la forma del recipient. En els gasos, les partícules estan molt separades i es mouen a gran velocitat en totes direccions, de manera que ocupen tot l’espai disponible.\n\nUna mateixa substància pot passar d’un estat a un altre si canvia la temperatura. Quan escalfem gel, les seues partícules es mouen cada vegada més i arriba un moment en què el sòlid es convertix en líquid: és la fusió. Si continuem escalfant, l’aigua bull i es transforma en vapor: és la vaporització. En refredar-se passa el contrari: el vapor es condensa en gotes i l’aigua líquida se solidifica quan es gela.\n\nCada substància canvia d’estat a una temperatura concreta. L’aigua pura, per exemple, es fon a 0 °C i bull a 100 °C al nivell de la mar.",
+   "questions": [
+    {
+     "id": "lectura_ca_eso_materia_q1",
+     "prompt": "Per què un sòlid té forma fixa?",
+     "options": [
+      "Perquè les seues partícules estan molt juntes i quasi no es mouen",
+      "Perquè les seues partícules estan molt separades",
+      "Perquè pesa més"
+     ],
+     "correct": 0,
+     "explanation": "«Les partícules estan molt juntes i quasi no es mouen.»"
+    },
+    {
+     "id": "lectura_ca_eso_materia_q2",
+     "prompt": "Quin estat adopta la forma del recipient però manté el volum?",
+     "options": [
+      "El sòlid",
+      "El líquid",
+      "El gas"
+     ],
+     "correct": 1,
+     "explanation": "«Els líquids tenen volum fix, però adopten la forma del recipient.»"
+    },
+    {
+     "id": "lectura_ca_eso_materia_q3",
+     "prompt": "Com s’anomena el pas de sòlid a líquid?",
+     "options": [
+      "Vaporització",
+      "Condensació",
+      "Fusió"
+     ],
+     "correct": 2,
+     "explanation": "«El sòlid es convertix en líquid: és la fusió.»"
+    },
+    {
+     "id": "lectura_ca_eso_materia_q4",
+     "prompt": "Quan s’entela l’espill del bany després d’una dutxa, què passa?",
+     "options": [
+      "Fusió: l’espill es fon",
+      "Condensació: el vapor es convertix en gotes d’aigua",
+      "Solidificació: l’aigua es gela"
+     ],
+     "correct": 1,
+     "explanation": "El vapor toca l’espill fred i «es condensa en gotes»."
+    }
+   ],
+   "subject": "fyq",
+   "glossary": [
+    [
+     "partícula",
+     "Part diminuta de què està formada la matèria."
+    ],
+    [
+     "volum",
+     "Espai que ocupa un cos."
+    ],
+    [
+     "fusió",
+     "Pas de sòlid a líquid."
+    ],
+    [
+     "condensar-se",
+     "Passar de gas a líquid."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_ca_eso_feudalisme",
+   "level": 6,
+   "title": "Senyors i llauradors a l’edat mitjana",
+   "emoji": "🏰",
+   "topics": [
+    "historia"
+   ],
+   "text": "A Europa, durant bona part de l’edat mitjana, la societat es va organitzar segons un sistema anomenat feudalisme. Després de la caiguda de l’Imperi romà, els reis eren dèbils i hi havia guerres i invasions sovint. Per a defendre’s, molts llauradors van buscar la protecció dels nobles més poderosos, els senyors.\n\nEl senyor era l’amo d’un territori anomenat feu, que havia rebut del rei a canvi de fidelitat i ajuda militar. En el feu hi havia el seu castell, les terres de conreu i els llogarets dels llauradors. Els llauradors treballaven la terra i, a canvi de protecció, donaven al senyor una part de la collita, pagaven impostos i treballaven de franc en les seues terres alguns dies.\n\nLa societat feudal es dividia en tres grups, anomenats estaments. Els nobles es dedicaven a la guerra; el clergat, format per bisbes, sacerdots i monjos, es dedicava a resar; i els llauradors, que eren la gran majoria, treballaven per a mantindre tothom. Es naixia en un estament i era molt difícil canviar de grup.\n\nA partir del segle XI, el creixement de les ciutats i del comerç va fer aparéixer un grup nou, la burgesia, formada per comerciants i artesans que no depenien de cap senyor.",
+   "questions": [
+    {
+     "id": "lectura_ca_eso_feudalisme_q1",
+     "prompt": "Per què els llauradors van buscar la protecció dels senyors?",
+     "options": [
+      "Perquè els reis eren dèbils i hi havia guerres i invasions",
+      "Perquè volien ser nobles",
+      "Perquè els senyors els pagaven un sou"
+     ],
+     "correct": 0,
+     "explanation": "«Els reis eren dèbils i hi havia guerres i invasions sovint.»"
+    },
+    {
+     "id": "lectura_ca_eso_feudalisme_q2",
+     "prompt": "Què donaven els llauradors al senyor a canvi de protecció?",
+     "options": [
+      "Armes i cavalls",
+      "Part de la collita, impostos i dies de treball",
+      "Res, la protecció era de franc"
+     ],
+     "correct": 1,
+     "explanation": "Donaven part de la collita, pagaven impostos i treballaven de franc alguns dies."
+    },
+    {
+     "id": "lectura_ca_eso_feudalisme_q3",
+     "prompt": "Quin estament era el més nombrós?",
+     "options": [
+      "La noblesa",
+      "El clergat",
+      "Els llauradors"
+     ],
+     "correct": 2,
+     "explanation": "«Els llauradors, que eren la gran majoria…»"
+    },
+    {
+     "id": "lectura_ca_eso_feudalisme_q4",
+     "prompt": "Què tenia de nou la burgesia?",
+     "options": [
+      "Que es dedicava a resar",
+      "Que no depenia de cap senyor",
+      "Que vivia als castells"
+     ],
+     "correct": 1,
+     "explanation": "Comerciants i artesans «que no depenien de cap senyor»."
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "feu",
+     "Territori que el rei donava a un noble a canvi de fidelitat."
+    ],
+    [
+     "estament",
+     "Grup social tancat de l’edat mitjana: noblesa, clergat o llauradors."
+    ],
+    [
+     "clergat",
+     "Conjunt de les persones dedicades a l’Església."
+    ],
+    [
+     "burgesia",
+     "Grup de comerciants i artesans de les ciutats."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_ca_eso_poblacio",
+   "level": 6,
+   "title": "Quants som al món?",
+   "emoji": "👥",
+   "topics": [
+    "vida"
+   ],
+   "text": "L’any 1800 vivien a la Terra uns mil milions de persones. Hui som més de huit mil milions. La demografia és la ciència que estudia com canvia la població, i per a fer-ho usa algunes dades bàsiques.\n\nLa natalitat és el nombre de naixements en un any, i la mortalitat, el nombre de defuncions. Si naixen més persones de les que moren, la població creix: és el que s’anomena creixement natural. També hi influïxen les migracions: les persones que arriben a un país, els immigrants, i les que se’n van, els emigrants.\n\nLa població no està repartida per igual. Hi ha zones molt poblades, com el sud i l’est d’Àsia, l’Europa occidental o moltes costes, perquè tenen un clima suau, terres fèrtils o molta activitat econòmica. Altres zones, com els deserts, les muntanyes altes o les regions polars, estan quasi buides perquè és molt difícil viure-hi.\n\nA més, cada país té una estructura diferent. En molts països d’Àfrica la població és jove, perquè naixen molts xiquets. A Espanya, en canvi, naixen pocs xiquets i l’esperança de vida és alta, així que la població està envellint: cada vegada hi ha més persones majors i menys joves.",
+   "questions": [
+    {
+     "id": "lectura_ca_eso_poblacio_q1",
+     "prompt": "Quantes persones viuen hui a la Terra, segons el text?",
+     "options": [
+      "Uns mil milions",
+      "Més de huit mil milions",
+      "Uns cent milions"
+     ],
+     "correct": 1,
+     "explanation": "«Hui som més de huit mil milions.»"
+    },
+    {
+     "id": "lectura_ca_eso_poblacio_q2",
+     "prompt": "Quan creix la població per creixement natural?",
+     "options": [
+      "Quan naixen més persones de les que moren",
+      "Quan arriben molts turistes",
+      "Quan hi ha més ciutats"
+     ],
+     "correct": 0,
+     "explanation": "«Si naixen més persones de les que moren, la població creix.»"
+    },
+    {
+     "id": "lectura_ca_eso_poblacio_q3",
+     "prompt": "Per què els deserts estan quasi buits?",
+     "options": [
+      "Perquè està prohibit viure-hi",
+      "Perquè és molt difícil viure-hi",
+      "Perquè hi ha massa gent"
+     ],
+     "correct": 1,
+     "explanation": "«Estan quasi buides perquè és molt difícil viure-hi.»"
+    },
+    {
+     "id": "lectura_ca_eso_poblacio_q4",
+     "prompt": "Per què la població d’Espanya està envellint?",
+     "options": [
+      "Perquè naixen pocs xiquets i la gent viu molts anys",
+      "Perquè naixen molts xiquets",
+      "Perquè tots els joves emigren"
+     ],
+     "correct": 0,
+     "explanation": "«Naixen pocs xiquets i l’esperança de vida és alta.»"
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "demografia",
+     "Ciència que estudia la població."
+    ],
+    [
+     "natalitat",
+     "Nombre de naixements en un temps i un lloc."
+    ],
+    [
+     "mortalitat",
+     "Nombre de defuncions en un temps i un lloc."
+    ],
+    [
+     "esperança de vida",
+     "Anys que, de mitjana, s’espera que visca una persona."
+    ]
+   ]
+  },
+  {
    "id": "lectura_ca_l7_vikings",
    "level": 7,
    "title": "Els víkings no portaven banyes",
@@ -1710,6 +2161,232 @@
    ]
   },
   {
+   "id": "lectura_ca_eso_digestio",
+   "level": 7,
+   "title": "El viatge dels aliments",
+   "emoji": "🍎",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "Quan mengem un entrepà, comença un llarg viatge. L’aparell digestiu transforma els aliments en substàncies molt xicotetes, els nutrients, que el cos pot absorbir i utilitzar per a obtindre energia, créixer i reparar els teixits.\n\nTot comença a la boca. Les dents trituren el menjar i la saliva l’humiteja i comença a descompondre alguns nutrients, com el midó del pa. Es forma així el bol alimentari, que empassem i que baixa per l’esòfag gràcies als moviments dels seus músculs.\n\nA l’estómac, el bol es mescla durant unes hores amb els sucs gàstrics, que són molt àcids, i es convertix en una espècie de farinetes anomenades quim. Després passa a l’intestí prim, un tub d’uns set metres plegat dins de l’abdomen. Allí actuen els sucs que fabriquen el fetge i el pàncrees, i la digestió es completa. Les parets de l’intestí prim estan cobertes de xicotets plecs, les vellositats, a través de les quals els nutrients passen a la sang.\n\nEl que no s’ha pogut aprofitar arriba a l’intestí gros, on s’absorbix gran part de l’aigua. Les restes formen els excrements, que s’expulsen per l’anus. Per això és important beure aigua i menjar fibra, que ajuda que este últim tram funcione bé.",
+   "questions": [
+    {
+     "id": "lectura_ca_eso_digestio_q1",
+     "prompt": "Per a què servix l’aparell digestiu?",
+     "options": [
+      "Per a transportar l’oxigen",
+      "Per a transformar els aliments en nutrients que el cos puga usar",
+      "Per a eliminar el diòxid de carboni"
+     ],
+     "correct": 1,
+     "explanation": "Transforma els aliments en nutrients que el cos pot absorbir i utilitzar."
+    },
+    {
+     "id": "lectura_ca_eso_digestio_q2",
+     "prompt": "On es forma el quim?",
+     "options": [
+      "A la boca",
+      "A l’estómac",
+      "A l’intestí gros"
+     ],
+     "correct": 1,
+     "explanation": "A l’estómac el bol «es convertix en una espècie de farinetes anomenades quim»."
+    },
+    {
+     "id": "lectura_ca_eso_digestio_q3",
+     "prompt": "Per on passen els nutrients a la sang?",
+     "options": [
+      "Per les vellositats de l’intestí prim",
+      "Per l’esòfag",
+      "Per les dents"
+     ],
+     "correct": 0,
+     "explanation": "Les vellositats, «a través de les quals els nutrients passen a la sang»."
+    },
+    {
+     "id": "lectura_ca_eso_digestio_q4",
+     "prompt": "Segons el text, per què convé menjar fibra?",
+     "options": [
+      "Perquè dona molta energia",
+      "Perquè ajuda que l’intestí gros funcione bé",
+      "Perquè substituïx l’aigua"
+     ],
+     "correct": 1,
+     "explanation": "La fibra «ajuda que este últim tram funcione bé»."
+    }
+   ],
+   "subject": "bio",
+   "glossary": [
+    [
+     "nutrient",
+     "Substància dels aliments que el cos utilitza."
+    ],
+    [
+     "bol alimentari",
+     "Massa de menjar mastegat i mesclat amb saliva."
+    ],
+    [
+     "quim",
+     "Farinetes en què es convertix l’aliment a l’estómac."
+    ],
+    [
+     "vellositats",
+     "Plecs de l’intestí prim per on els nutrients passen a la sang."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_ca_eso_atom",
+   "level": 7,
+   "title": "Dins de l’àtom",
+   "emoji": "⚛️",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "Fa uns 2.400 anys, el filòsof grec Demòcrit va pensar que, si partim un objecte una vegada i una altra, al final arribaríem a un tros que ja no es podria dividir. El va anomenar àtom, que en grec significa «indivisible». Durant segles va ser només una idea, però hui sabem que tota la matèria està formada per àtoms, i que estos sí que tenen parts.\n\nAl centre de l’àtom hi ha el nucli, molt xicotet i amb quasi tota la massa. En el nucli hi ha protons, que tenen càrrega elèctrica positiva, i neutrons, que no tenen càrrega. Al voltant del nucli es mouen els electrons, molt més lleugers i amb càrrega negativa. Com que un àtom té tants electrons com protons, en conjunt és neutre.\n\nEl que distingix un element químic d’un altre és el nombre de protons, anomenat nombre atòmic. Tots els àtoms d’hidrogen tenen un protó; tots els de carboni, sis; i tots els d’oxigen, huit.\n\nEn el segle XIX, el químic rus Dmitri Mendeléiev va ordenar els elements coneguts en una taula segons les seues propietats. Va deixar buits per a elements que encara no s’havien descobert i va predir com serien. Quan es van trobar, les seues prediccions van resultar encertades. La seua idea és la base de la taula periòdica que s’usa hui, amb més de cent elements.",
+   "questions": [
+    {
+     "id": "lectura_ca_eso_atom_q1",
+     "prompt": "Què significa «àtom» en grec?",
+     "options": [
+      "Xicotet",
+      "Indivisible",
+      "Elèctric"
+     ],
+     "correct": 1,
+     "explanation": "Àtom «en grec significa “indivisible”»."
+    },
+    {
+     "id": "lectura_ca_eso_atom_q2",
+     "prompt": "Quina càrrega tenen els electrons?",
+     "options": [
+      "Positiva",
+      "Negativa",
+      "No tenen càrrega"
+     ],
+     "correct": 1,
+     "explanation": "Els electrons són «molt més lleugers i amb càrrega negativa»."
+    },
+    {
+     "id": "lectura_ca_eso_atom_q3",
+     "prompt": "Què distingix un element químic d’un altre?",
+     "options": [
+      "El nombre de protons",
+      "El color",
+      "La grandària de l’àtom"
+     ],
+     "correct": 0,
+     "explanation": "«El que distingix un element químic d’un altre és el nombre de protons.»"
+    },
+    {
+     "id": "lectura_ca_eso_atom_q4",
+     "prompt": "Per què va ser important que Mendeléiev deixara buits en la taula?",
+     "options": [
+      "Perquè així la taula era més bonica",
+      "Perquè va permetre predir elements que encara no es coneixien",
+      "Perquè no sabia ordenar els elements"
+     ],
+     "correct": 1,
+     "explanation": "Va predir com serien eixos elements i va encertar quan es van descobrir."
+    }
+   ],
+   "subject": "fyq",
+   "glossary": [
+    [
+     "àtom",
+     "Partícula molt xicoteta que forma la matèria."
+    ],
+    [
+     "nucli",
+     "Centre de l’àtom, on hi ha els protons i els neutrons."
+    ],
+    [
+     "nombre atòmic",
+     "Nombre de protons d’un àtom."
+    ],
+    [
+     "element químic",
+     "Substància formada per àtoms amb el mateix nombre de protons."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_ca_eso_sectors",
+   "level": 7,
+   "title": "En què treballem?",
+   "emoji": "🏭",
+   "topics": [
+    "vida",
+    "tecnologia"
+   ],
+   "text": "Les activitats econòmiques són les que fan les persones per a produir béns i oferir serveis. Per a estudiar-les, s’agrupen en tres sectors.\n\nEl sector primari obté els recursos directament de la natura: l’agricultura, la ramaderia, la pesca i l’explotació dels boscos. Els cítrics de la Comunitat Valenciana o l’arròs de l’Albufera són productes del sector primari.\n\nEl sector secundari transforma eixes matèries primeres en productes elaborats. Inclou la indústria, la construcció i la producció d’energia. Una fàbrica que convertix el fang en taulells, com les de Castelló, o una que fabrica cotxes pertany a este sector.\n\nEl sector terciari no produïx objectes, sinó que oferix serveis a les persones: el comerç, el transport, l’educació, la sanitat, el turisme o la banca. Una professora, un metge o una dependenta treballen en el sector terciari.\n\nEl pes de cada sector ha canviat amb la història. Fa un segle, a Espanya, la majoria de la població treballava al camp. Amb la industrialització va créixer el sector secundari, i hui al voltant de tres de cada quatre treballadors es dediquen als serveis. Per això es diu que vivim en una economia terciaritzada.",
+   "questions": [
+    {
+     "id": "lectura_ca_eso_sectors_q1",
+     "prompt": "A quin sector pertany la pesca?",
+     "options": [
+      "Primari",
+      "Secundari",
+      "Terciari"
+     ],
+     "correct": 0,
+     "explanation": "El primari «obté els recursos directament de la natura»."
+    },
+    {
+     "id": "lectura_ca_eso_sectors_q2",
+     "prompt": "Una fàbrica de taulells de Castelló és un exemple del sector…",
+     "options": [
+      "primari",
+      "secundari",
+      "terciari"
+     ],
+     "correct": 1,
+     "explanation": "El secundari «transforma eixes matèries primeres en productes elaborats»."
+    },
+    {
+     "id": "lectura_ca_eso_sectors_q3",
+     "prompt": "Què tenen en comú el turisme, la sanitat i l’educació?",
+     "options": [
+      "Que obtenen recursos de la natura",
+      "Que oferixen serveis a les persones",
+      "Que fabriquen objectes"
+     ],
+     "correct": 1,
+     "explanation": "Són activitats del sector terciari, que «oferix serveis a les persones»."
+    },
+    {
+     "id": "lectura_ca_eso_sectors_q4",
+     "prompt": "Què vol dir que vivim en una economia terciaritzada?",
+     "options": [
+      "Que la majoria treballa en els serveis",
+      "Que quasi tothom treballa al camp",
+      "Que hi ha tres tipus de fàbriques"
+     ],
+     "correct": 0,
+     "explanation": "«Tres de cada quatre treballadors es dediquen als serveis.»"
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "matèria primera",
+     "Recurs natural que es transforma per a fabricar alguna cosa."
+    ],
+    [
+     "béns",
+     "Objectes que es produïxen i es poden comprar."
+    ],
+    [
+     "serveis",
+     "Treballs que es fan per a altres persones sense produir objectes."
+    ],
+    [
+     "industrialització",
+     "Procés pel qual la indústria passa a ser una activitat principal."
+    ]
+   ]
+  },
+  {
    "id": "lectura_ca_l8_tribunal",
    "level": 8,
    "title": "El Tribunal de les Aigües",
@@ -1923,6 +2600,232 @@
      "correct": 1,
      "explanation": "Planteja una pregunta, aporta arguments i acaba amb una reflexió."
     }
+   ]
+  },
+  {
+   "id": "lectura_ca_eso_revolucio_industrial",
+   "level": 8,
+   "title": "La Revolució Industrial",
+   "emoji": "🚂",
+   "topics": [
+    "historia",
+    "tecnologia"
+   ],
+   "text": "A finals del segle XVIII va començar a la Gran Bretanya una transformació tan profunda que es coneix com a Revolució Industrial. En poques dècades va canviar la manera de produir, de treballar i de viure, primer a Europa i després en bona part del món.\n\nEl canvi fonamental va ser la mecanització: el treball que abans es feia a mà o amb la força dels animals el va començar a fer una màquina. L’invent clau va ser la màquina de vapor, millorada per James Watt en la segona meitat del segle XVIII, que cremava carbó per a produir moviment. Es va aplicar primer a la indústria tèxtil, on els nous telers fabricaven teles molt més de pressa i més barates que els artesans.\n\nLa màquina de vapor també va transformar el transport. El ferrocarril i els vaixells de vapor van permetre portar matèries primeres i productes a llocs llunyans en poc de temps, i això va fer créixer el comerç.\n\nLes fàbriques es van instal·lar a les ciutats, i milers de llauradors hi van emigrar a la recerca de treball. Així es va formar una nova classe social, el proletariat. Les seues condicions eren molt dures: jornades de fins a catorze hores, salaris baixos, treball infantil i barris insalubres. Per a defendre els seus drets, els obrers es van organitzar en sindicats i, a poc a poc, van aconseguir millores com la reducció de la jornada laboral.\n\nMentrestant, els propietaris de les fàbriques i dels bancs, la burgesia, es van enriquir i van guanyar poder polític. La societat va deixar de dividir-se pel naixement i va començar a dividir-se per la riquesa: era la societat de classes.",
+   "questions": [
+    {
+     "id": "lectura_ca_eso_revolucio_industrial_q1",
+     "prompt": "On i quan va començar la Revolució Industrial?",
+     "options": [
+      "A França, en el segle XV",
+      "A la Gran Bretanya, a finals del segle XVIII",
+      "A Espanya, en el segle XX"
+     ],
+     "correct": 1,
+     "explanation": "«A finals del segle XVIII va començar a la Gran Bretanya…»"
+    },
+    {
+     "id": "lectura_ca_eso_revolucio_industrial_q2",
+     "prompt": "Què cremava la màquina de vapor per a produir moviment?",
+     "options": [
+      "Carbó",
+      "Petroli",
+      "Gas natural"
+     ],
+     "correct": 0,
+     "explanation": "La màquina de vapor «cremava carbó per a produir moviment»."
+    },
+    {
+     "id": "lectura_ca_eso_revolucio_industrial_q3",
+     "prompt": "Per què milers de llauradors van emigrar a les ciutats?",
+     "options": [
+      "Per a buscar treball a les fàbriques",
+      "Perquè el camp estava prohibit",
+      "Per a estudiar a la universitat"
+     ],
+     "correct": 0,
+     "explanation": "«Hi van emigrar a la recerca de treball.»"
+    },
+    {
+     "id": "lectura_ca_eso_revolucio_industrial_q4",
+     "prompt": "Quin canvi social destaca l’últim paràgraf?",
+     "options": [
+      "La societat va passar a dividir-se per la riquesa i no pel naixement",
+      "Van desaparéixer els rics",
+      "Els llauradors es van convertir en nobles"
+     ],
+     "correct": 0,
+     "explanation": "«Va deixar de dividir-se pel naixement i va començar a dividir-se per la riquesa.»"
+    }
+   ],
+   "subject": "geohist",
+   "glossary": [
+    [
+     "mecanització",
+     "Ús de màquines per a fer treballs que abans es feien a mà."
+    ],
+    [
+     "proletariat",
+     "Classe social dels obrers que treballaven a canvi d’un salari."
+    ],
+    [
+     "sindicat",
+     "Associació de treballadors que defén els seus drets."
+    ],
+    [
+     "insalubre",
+     "Dolent per a la salut."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_ca_eso_adn",
+   "level": 8,
+   "title": "L’ADN, el llibre d’instruccions",
+   "emoji": "🧬",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "Per què tens els ulls del color dels de ta mare o els cabells arrissats com el teu iaio? La resposta és en l’ADN, una molècula que es troba en el nucli de quasi totes les teues cèl·lules i que conté la informació necessària per a construir i fer funcionar un ésser viu.\n\nL’ADN té forma de doble hèlix, com una escala de cargol. La seua estructura la van descriure el 1953 James Watson i Francis Crick, gràcies en gran part a les imatges de raigs X que va obtindre la científica Rosalind Franklin. Els esglaons d’eixa escala estan formats per quatre bases, representades per les lletres A, T, C i G. L’ordre en què apareixen funciona com un codi: igual que les lletres formen paraules, les bases formen instruccions.\n\nUn fragment d’ADN que conté la instrucció per a un caràcter concret s’anomena gen. Els éssers humans tenim uns vint mil gens, repartits en 46 cromosomes, és a dir, 23 parelles. De cada parella, un cromosoma ve de la mare i l’altre del pare. Per això ens assemblem a tots dos, però no som idèntics a cap.\n\nA mitjan segle XIX, sense saber res de l’ADN, el monjo Gregor Mendel ja havia descobert, encreuant plantes de pèsol, que alguns caràcters són dominants i altres recessius: un caràcter recessiu pot no notar-se en una generació i tornar a aparéixer en la següent. Hui la genètica permet diagnosticar malalties, millorar conreus i fins i tot resoldre delictes.",
+   "questions": [
+    {
+     "id": "lectura_ca_eso_adn_q1",
+     "prompt": "On es troba l’ADN?",
+     "options": [
+      "Només a la sang",
+      "En el nucli de quasi totes les cèl·lules",
+      "Als ossos"
+     ],
+     "correct": 1,
+     "explanation": "«Es troba en el nucli de quasi totes les teues cèl·lules.»"
+    },
+    {
+     "id": "lectura_ca_eso_adn_q2",
+     "prompt": "Quina forma té la molècula d’ADN?",
+     "options": [
+      "D’esfera",
+      "De doble hèlix",
+      "D’estrela"
+     ],
+     "correct": 1,
+     "explanation": "«Té forma de doble hèlix, com una escala de cargol.»"
+    },
+    {
+     "id": "lectura_ca_eso_adn_q3",
+     "prompt": "Per què ens assemblem al pare i a la mare, però no som idèntics a cap?",
+     "options": [
+      "Perquè de cada parella de cromosomes, un ve de la mare i l’altre del pare",
+      "Perquè tenim més gens que ells",
+      "Perquè l’ADN canvia cada any"
+     ],
+     "correct": 0,
+     "explanation": "«De cada parella, un cromosoma ve de la mare i l’altre del pare.»"
+    },
+    {
+     "id": "lectura_ca_eso_adn_q4",
+     "prompt": "Què va descobrir Mendel amb les plantes de pèsol?",
+     "options": [
+      "La forma de l’ADN",
+      "Que alguns caràcters són dominants i altres recessius",
+      "Com diagnosticar malalties"
+     ],
+     "correct": 1,
+     "explanation": "Va descobrir «que alguns caràcters són dominants i altres recessius»."
+    }
+   ],
+   "subject": "bio",
+   "glossary": [
+    [
+     "molècula",
+     "Conjunt d’àtoms units."
+    ],
+    [
+     "gen",
+     "Fragment d’ADN amb la informació d’un caràcter."
+    ],
+    [
+     "cromosoma",
+     "Estructura del nucli formada per ADN molt enrotllat."
+    ],
+    [
+     "recessiu",
+     "Caràcter que pot quedar amagat i només es nota si s’hereta del pare i de la mare."
+    ]
+   ]
+  },
+  {
+   "id": "lectura_ca_eso_newton",
+   "level": 8,
+   "title": "Les lleis del moviment",
+   "emoji": "🍏",
+   "topics": [
+    "ciencia"
+   ],
+   "text": "Una força és qualsevol acció capaç de canviar el moviment d’un cos o de deformar-lo. Empényer un carro, xutar una pilota o estirar una goma són exemples de forces. Es mesuren en newtons (N), en honor del científic anglés Isaac Newton, que el 1687 va publicar les tres lleis que expliquen com es mouen els cossos.\n\nLa primera llei, o principi d’inèrcia, diu que un cos es manté en repòs o es mou en línia recta a velocitat constant si no hi actua cap força. Per això, quan un autobús frena de colp, els passatgers se’n van cap avant: el seu cos tendix a continuar movent-se.\n\nLa segona llei relaciona la força amb l’acceleració, que és el canvi de velocitat. Com més gran és la força, més gran és l’acceleració; i com més massa té el cos, més força cal per a accelerar-lo. Es resumix en la fórmula F = m · a. Per això és més fàcil empényer un carro de la compra buit que un de ple.\n\nLa tercera llei, o principi d’acció i reacció, afirma que quan un cos fa una força sobre un altre, este en fa una sobre el primer igual i de sentit contrari. Quan nadem, empenyem l’aigua cap arrere i l’aigua ens empeny cap avant. Els coets funcionen de la mateixa manera: expulsen gasos cap avall i els gasos els impulsen cap amunt.",
+   "questions": [
+    {
+     "id": "lectura_ca_eso_newton_q1",
+     "prompt": "En quina unitat es mesuren les forces?",
+     "options": [
+      "En quilograms",
+      "En newtons",
+      "En metres"
+     ],
+     "correct": 1,
+     "explanation": "«Es mesuren en newtons (N).»"
+    },
+    {
+     "id": "lectura_ca_eso_newton_q2",
+     "prompt": "Quina llei explica que els passatgers se’n vagen cap avant quan l’autobús frena?",
+     "options": [
+      "La primera, o principi d’inèrcia",
+      "La segona",
+      "La tercera"
+     ],
+     "correct": 0,
+     "explanation": "Per la inèrcia, «el seu cos tendix a continuar movent-se»."
+    },
+    {
+     "id": "lectura_ca_eso_newton_q3",
+     "prompt": "Segons la segona llei, per què costa més empényer un carro ple?",
+     "options": [
+      "Perquè té més massa i necessita més força per a accelerar",
+      "Perquè té menys inèrcia",
+      "Perquè el sòl és més llis"
+     ],
+     "correct": 0,
+     "explanation": "«Com més massa té el cos, més força cal per a accelerar-lo.»"
+    },
+    {
+     "id": "lectura_ca_eso_newton_q4",
+     "prompt": "Com explica la tercera llei que un coet puge?",
+     "options": [
+      "Els gasos expulsats cap avall empenyen el coet cap amunt",
+      "El coet és més lleuger que l’aire",
+      "La gravetat desapareix"
+     ],
+     "correct": 0,
+     "explanation": "Acció i reacció: «expulsen gasos cap avall i els gasos els impulsen cap amunt»."
+    }
+   ],
+   "subject": "fyq",
+   "glossary": [
+    [
+     "força",
+     "Acció que pot canviar el moviment o la forma d’un cos."
+    ],
+    [
+     "inèrcia",
+     "Tendència d’un cos a continuar com està, quiet o en moviment."
+    ],
+    [
+     "acceleració",
+     "Canvi de la velocitat d’un cos."
+    ],
+    [
+     "massa",
+     "Quantitat de matèria d’un cos."
+    ]
    ]
   },
   {

@@ -1109,4 +1109,16 @@ export const en: Record<TranslationKey, string> = {
   hdr_level: 'Lv.{n}',
   hdr_level_aria: 'Level {n}',
   hdr_streak_aria: 'Streak: {n} days',
+
+  // Subject readings
+  subj_title: 'Reading for school subjects',
+  subj_card_desc: 'Science, history and geography',
+  subj_desc: 'Secondary school texts with the key words explained and questions, to practise what you study in class.',
+  subj_all: 'All',
+  subj_bio: 'Biology',
+  subj_fyq: 'Physics and Chemistry',
+  subj_geohist: 'Geography and History',
+  read_glossary: 'Key words',
+  read_glossary_tip: 'Read them before the text: they will help you understand it.',
+  read_glossary_listen: 'Listen to “{word}”',
 };

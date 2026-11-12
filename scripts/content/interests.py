@@ -39,17 +39,28 @@ EXISTING = {
 }
 
 
-def reading(rid, level, title, emoji, topics, text, qs):
-    return {
+def reading(rid, level, title, emoji, topics, text, qs, extra=None):
+    r = {
         'id': rid, 'level': level, 'title': title, 'emoji': emoji, 'topics': topics, 'text': text,
         'questions': [{'id': f'{rid}_q{i + 1}', 'prompt': p, 'options': o, 'correct': c, 'explanation': e} for i, (p, o, c, e) in enumerate(qs)],
     }
+    if extra:  # subject readings: 'subject' and a 'glossary' of [term, meaning]
+        assert extra['subject'] in SUBJECTS, rid
+        import unicodedata
+        flat = lambda x: ''.join(c for c in unicodedata.normalize('NFD', x.lower()) if unicodedata.category(c) != 'Mn')
+        missing = [t for t, _ in extra['glossary'] if not all(flat(w)[:max(3, len(w) - 3)] in flat(text) for w in t.replace('-', ' ').split() if len(w) > 2)]
+        assert not missing, (rid, missing)  # every term of the glossary appears in the text
+        r.update(extra)
+    return r
+
+
+SUBJECTS = ['bio', 'fyq', 'geohist']
 
 
 def apply(lang):
     path = os.path.join(DATA, FILES[lang])
     cur = json.load(open(path, encoding='utf-8'))['readings']
-    new = [reading(*r) for r in importlib.import_module(f'interests_{lang}').R]
+    new = [reading(*r) for r in importlib.import_module(f'interests_{lang}').R + importlib.import_module(f'subjects_{lang}').R]
     ids = {r['id'] for r in new}
     out = [r for r in cur if r['id'] not in ids] + new
     for r in out:
