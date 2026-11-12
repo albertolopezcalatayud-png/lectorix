@@ -3,8 +3,8 @@ M = 'retos_rapidos'
 
 SYN = {
 1: [("gran", "enorme", ["xicotet", "roig", "lent"]), ("content", "alegre", ["trist", "fred", "tard"]), ("ràpid", "veloç", ["lent", "alt", "banyat"]),
-    ("xicotet", "menut", ["gegant", "sorollós", "vell"]), ("tancar", "cloure", ["obrir", "botar", "cantar"]), ("bonic", "preciós", ["lleig", "fred", "fort"])],
-2: [("començar", "iniciar", ["acabar", "parar", "dormir"]), ("cridar", "vociferar", ["xiuxiuejar", "cantar", "somriure"]), ("espantat", "atemorit", ["valent", "content", "avorrit"]),
+    ("xicotet", "menut", ["gegant", "sorollós", "vell"]), ("pedra", "roca", ["fusta", "aigua", "flor"]), ("bonic", "preciós", ["lleig", "fred", "fort"])],
+2: [("començar", "iniciar", ["acabar", "parar", "dormir"]), ("cridar", "bramar", ["xiuxiuejar", "cantar", "somriure"]), ("espantat", "atemorit", ["valent", "content", "avorrit"]),
     ("cansat", "esgotat", ["descansat", "enfadat", "afamat"]), ("mirar", "observar", ["escoltar", "menjar", "córrer"]), ("fàcil", "senzill", ["difícil", "llarg", "fosc"])],
 3: [("enorme", "immens", ["diminut", "silenciós", "primerenc"]), ("silenciós", "callat", ["sorollós", "assolellat", "divertit"]), ("valent", "coratjós", ["poruc", "gandul", "maleducat"]),
     ("difícil", "complicat", ["fàcil", "suau", "lleuger"]), ("ordenat", "endreçat", ["desordenat", "brut", "ocupat"]), ("ric", "adinerat", ["pobre", "feble", "prim"])],
@@ -76,7 +76,7 @@ PLURAL = {
 5: [("llapis", "llapis", ["llapissos", "llapises", "llapiss"]), ("braç", "braços", ["braçs", "brasos", "braces"])],
 }
 COMPOUND = {
-1: [("cap", "vespre", ["gat", "pa", "nas"]), ("sobre", "taula", ["gat", "peu", "llit"])],
+1: [("trenca", "closques", ["gat", "pa", "nas"]), ("grata", "cel", ["gat", "peu", "llit"])],
 2: [("para", "caigudes", ["taules", "llibres", "gossos"]), ("escura", "dents", ["cadires", "portes", "pomes"])],
 3: [("renta", "plats", ["taules", "llibres", "gossos"]), ("trenca", "closques", ["llunes", "flors", "cases"])],
 4: [("porta", "veu", ["cel", "sol", "mar"]), ("salva", "vides", ["peixos", "llibres", "taules"])],

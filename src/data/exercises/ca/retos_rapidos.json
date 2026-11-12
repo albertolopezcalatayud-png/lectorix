@@ -73,17 +73,17 @@
    "module": "retos_rapidos",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "Quina paraula vol dir el mateix que «tancar»?",
+   "prompt": "Quina paraula vol dir el mateix que «pedra»?",
    "options": [
-    "obrir",
-    "cloure",
-    "cantar",
-    "botar"
+    "fusta",
+    "roca",
+    "flor",
+    "aigua"
    ],
    "correct": 1,
-   "explanation": "«tancar» i «cloure» volen dir el mateix.",
+   "explanation": "«pedra» i «roca» volen dir el mateix.",
    "skill": "ret_vocab",
-   "step": 2
+   "step": 1
   },
   {
    "id": "ca_retos_rapidos_l1_m006",
@@ -406,7 +406,7 @@
    "correct": 1,
    "explanation": "Ordre alfabètic: abella, gat, gos, porc.",
    "skill": "ret_letters",
-   "step": 1
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l1_m025",
@@ -464,15 +464,15 @@
    "module": "retos_rapidos",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "Quina paraula forma una paraula nova amb «cap»?",
+   "prompt": "Quina paraula forma una paraula nova amb «trenca»?",
    "options": [
     "pa",
     "nas",
     "gat",
-    "vespre"
+    "closques"
    ],
    "correct": 3,
-   "explanation": "cap + vespre = capvespre.",
+   "explanation": "trenca + closques = trencaclosques.",
    "skill": "ret_wordform",
    "step": 2
   },
@@ -481,15 +481,15 @@
    "module": "retos_rapidos",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "Quina paraula forma una paraula nova amb «sobre»?",
+   "prompt": "Quina paraula forma una paraula nova amb «grata»?",
    "options": [
     "llit",
     "gat",
-    "taula",
+    "cel",
     "peu"
    ],
    "correct": 2,
-   "explanation": "sobre + taula = sobretaula.",
+   "explanation": "grata + cel = gratacel.",
    "skill": "ret_wordform",
    "step": 2
   },
@@ -563,13 +563,13 @@
    "options": [
     "cantar",
     "xiuxiuejar",
-    "vociferar",
+    "bramar",
     "somriure"
    ],
    "correct": 2,
-   "explanation": "«cridar» i «vociferar» volen dir el mateix.",
+   "explanation": "«cridar» i «bramar» volen dir el mateix.",
    "skill": "ret_vocab",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_retos_rapidos_l2_m003",
@@ -824,7 +824,7 @@
    "correct": 2,
    "explanation": "Una cadira és una cosa: un nom.",
    "skill": "ret_categories",
-   "step": 2
+   "step": 3
   },
   {
    "id": "ca_retos_rapidos_l2_m018",
