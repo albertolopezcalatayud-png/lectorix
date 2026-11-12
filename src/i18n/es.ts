@@ -21,7 +21,7 @@ export const es = {
   dash_xp: '{xp} XP total',
   dash_streak: '{days} días',
   dash_daily: 'Reto del día',
-  dash_daily_desc: '5 preguntas aleatorias · Gana 50 XP extra',
+  dash_daily_desc: '5 preguntas · 50 XP extra una vez al día',
   dash_play: 'Jugar →',
   dash_modules: 'Módulos',
   dash_view_all: 'Ver todos →',
@@ -916,6 +916,10 @@ export const es = {
   // Plans
   plans_now: 'Mientras Lectorix está en fase de pruebas, se pueden usar todas sus funciones. Probarla no cuesta nada.',
   plans_later: 'Más adelante tendrá planes de suscripción opcionales. Antes de que lleguen, lo explicaremos dentro de la app.',
+
+  // Daily bonus
+  daily_bonus_got: 'Incluye +{n} XP del reto del día',
+  daily_done_today: '¡Hecho hoy! Puedes repetirlo; el bonus de 50 XP vuelve mañana',
 } as const;
 
 export type TranslationKey = keyof typeof es;

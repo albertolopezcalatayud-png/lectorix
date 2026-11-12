@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAppStore, usePracticeLang, useLevelCount } from '@/stores/useAppStore';
 import { useReviewStore, dueItems, notebookWords } from '@/services/review';
-import { calculateXPLevel } from '@/services/gamification';
+import { calculateXPLevel, dailyDoneToday } from '@/services/gamification';
 import {MODULES, MODULE_TEXT } from '@/data/modules';
 import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
@@ -13,6 +13,7 @@ import { useI18n } from '@/i18n';
 
 export default function Dashboard() {
   const navigate = useNavigate();
+  const dailyDone = dailyDoneToday(useAppStore((s) => s.sessionHistory));
   const user = useAppStore((s) => s.user);
   const levelCount = useLevelCount();
   const progress = useAppStore((s) => s.progress);
@@ -122,7 +123,7 @@ export default function Dashboard() {
               <span className="text-3xl">⚡</span>
               <div className="flex-1">
                 <h3 className="font-heading font-extrabold">{t('dash_daily')}</h3>
-                <p className="text-xs text-fg-muted">{t('dash_daily_desc')}</p>
+                <p className="text-xs text-fg-muted">{dailyDone ? t('daily_done_today') : t('dash_daily_desc')}</p>
               </div>
               <span className="text-accent font-extrabold text-sm">{t('dash_play')}</span>
             </div>

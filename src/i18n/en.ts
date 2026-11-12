@@ -23,7 +23,7 @@ export const en: Record<TranslationKey, string> = {
   dash_xp: '{xp} XP total',
   dash_streak: '{days} days',
   dash_daily: 'Daily Challenge',
-  dash_daily_desc: '5 random questions · Earn 50 extra XP',
+  dash_daily_desc: '5 questions · 50 extra XP once a day',
   dash_play: 'Play →',
   dash_modules: 'Modules',
   dash_view_all: 'View all →',
@@ -918,4 +918,8 @@ export const en: Record<TranslationKey, string> = {
   // Plans
   plans_now: 'While Lectorix is being tested, every feature can be used. Trying it costs nothing.',
   plans_later: 'Later on it will have optional subscription plans. Before they arrive, we will explain them inside the app.',
+
+  // Daily bonus
+  daily_bonus_got: 'Includes +{n} XP daily bonus',
+  daily_done_today: 'Done today! You can play again; the 50 XP bonus is back tomorrow',
 };

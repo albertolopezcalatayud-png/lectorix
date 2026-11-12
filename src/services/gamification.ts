@@ -120,3 +120,11 @@ export function buildSessionResult(args: {
     avg_time_per_exercise: avgTime,
   };
 }
+
+/** The daily challenge gives this extra XP the first time it is completed each day */
+export const DAILY_BONUS_XP = 50;
+
+export function dailyDoneToday(history: { mode?: string; completed_at: string }[], now = new Date()): boolean {
+  const today = now.toDateString();
+  return history.some((s) => s.mode === 'daily' && new Date(s.completed_at).toDateString() === today);
+}

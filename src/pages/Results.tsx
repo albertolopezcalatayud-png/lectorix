@@ -170,6 +170,7 @@ export default function Results() {
             <div className="text-center">
               <div className="text-2xl font-heading font-black text-mint">+{result.xp_earned}</div>
               <div className="text-xs text-fg-muted">{t('res_xp')}</div>
+              {!!result.bonus_xp && <div className="text-[10px] font-bold text-mint mt-0.5">{t('daily_bonus_got', { n: result.bonus_xp })}</div>}
             </div>
             <div className="text-center">
               <div className="text-2xl font-heading font-black">{result.correct_answers}/{result.total_questions}</div>

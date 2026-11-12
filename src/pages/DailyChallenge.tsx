@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import type { Exercise, AnswerResult, ModuleId } from '@/types';
+import { dailyDoneToday, DAILY_BONUS_XP } from '@/services/gamification';
 import { recordSession } from '@/services/session';
 import { useReviewStore, recommendedLevel } from '@/services/review';
 import { buildSessionResult } from '@/services/gamification';
@@ -87,6 +88,11 @@ export default function DailyChallenge() {
         });
 
         result.mode = 'daily';
+        // Bonus once a day: only the first daily challenge finished today
+        if (!dailyDoneToday(useAppStore.getState().sessionHistory)) {
+          result.bonus_xp = DAILY_BONUS_XP;
+          result.xp_earned += DAILY_BONUS_XP;
+        }
         recordSession(result);
         const srs = useReviewStore.getState().track(exercises, newAnswers, lang);
 

@@ -23,7 +23,7 @@ export const ca: Record<TranslationKey, string> = {
   dash_xp: '{xp} XP total',
   dash_streak: '{days} dies',
   dash_daily: 'Repte del dia',
-  dash_daily_desc: '5 preguntes aleatòries · Guanya 50 XP extra',
+  dash_daily_desc: '5 preguntes · 50 XP extra una vegada al dia',
   dash_play: 'Jugar →',
   dash_modules: 'Mòduls',
   dash_view_all: 'Veure tots →',
@@ -918,4 +918,8 @@ export const ca: Record<TranslationKey, string> = {
   // Plans
   plans_now: 'Mentre Lectorix està en fase de proves, es poden usar totes les seues funcions. Provar-la no costa res.',
   plans_later: 'Més avant tindrà plans de subscripció opcionals. Abans que arriben, ho explicarem dins de l’aplicació.',
+
+  // Daily bonus
+  daily_bonus_got: 'Inclou +{n} XP del repte del dia',
+  daily_done_today: 'Fet hui! El pots repetir; el bonus de 50 XP torna demà',
 };

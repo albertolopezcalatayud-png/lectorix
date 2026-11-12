@@ -77,6 +77,8 @@ export interface SessionResult {
   score_percent: number;
   stars: number;
   xp_earned: number;
+  /** Extra XP included in xp_earned (the daily challenge bonus, once a day) */
+  bonus_xp?: number;
   time_ms: number;
   answers: AnswerResult[];
   completed_at: string;
