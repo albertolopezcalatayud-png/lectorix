@@ -128,12 +128,12 @@ export default function History() {
                       >
                         <Card className="flex items-center gap-3">
                           <div className="w-10 h-10 rounded-xl flex items-center justify-center text-lg bg-accent-pale">
-                            {session.mode === 'story' ? '🐉' : session.mode === 'study' ? '📄' : mod?.icon || '📝'}
+                            {session.mode === 'story' ? '🐉' : session.mode === 'study' ? '📄' : session.mode === 'exam_words' ? '🧩' : mod?.icon || '📝'}
                           </div>
                           <div className="flex-1 min-w-0">
                             <div className="flex items-center gap-2">
                               <p className="font-heading font-extrabold text-sm truncate">
-                                {session.mode === 'story' ? t('sto_title') : session.mode === 'study' ? t('st_title') : (mod ? t(MODULE_TEXT[mod.id].name) : '') || session.module}
+                                {session.mode === 'story' ? t('sto_title') : session.mode === 'study' ? t('st_title') : session.mode === 'exam_words' ? t('ev_title') : (mod ? t(MODULE_TEXT[mod.id].name) : '') || session.module}
                               </p>
                               <span className="text-[10px] text-fg-muted flex-shrink-0">
                                 {formatDate(session.completed_at, t)}

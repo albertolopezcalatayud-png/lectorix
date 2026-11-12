@@ -36,6 +36,7 @@ const Placement = lazy(() => import('@/pages/Placement'));
 const SkillPractice = lazy(() => import('@/pages/SkillPractice'));
 const StudyNotes = lazy(() => import('@/pages/StudyNotes'));
 const Stories = lazy(() => import('@/pages/Stories'));
+const ExamWords = lazy(() => import('@/pages/ExamWords'));
 const WriteListen = lazy(() => import('@/pages/WriteListen'));
 const Shelf = lazy(() => import('@/pages/Shelf'));
 const Voices = lazy(() => import('@/pages/Voices'));
@@ -97,6 +98,7 @@ function AnimatedRoutes() {
         <Route path="/estanteria" element={<PageTransition><Shelf /></PageTransition>} />
         <Route path="/escribe" element={<PageTransition><WriteListen /></PageTransition>} />
         <Route path="/cuentos" element={<PageTransition><Stories /></PageTransition>} />
+        <Route path="/enunciados" element={<PageTransition><ExamWords /></PageTransition>} />
         <Route path="/estudiar" element={<PageTransition><StudyNotes /></PageTransition>} />
       </Routes>
     </AnimatePresence>

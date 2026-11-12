@@ -83,7 +83,7 @@ export interface SessionResult {
   answers: AnswerResult[];
   completed_at: string;
   avg_time_per_exercise?: number; // ms average per exercise
-  mode?: 'normal' | 'review' | 'exam' | 'dictation' | 'reading' | 'daily' | 'srs' | 'skill' | 'story' | 'study'; // session mode
+  mode?: 'normal' | 'review' | 'exam' | 'dictation' | 'reading' | 'daily' | 'srs' | 'skill' | 'story' | 'study' | 'exam_words'; // session mode
   skill_id?: string; // trained skill, when mode === 'skill'
   reading_id?: string; // guided reading text, when mode === 'reading'
 }

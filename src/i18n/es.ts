@@ -1024,6 +1024,31 @@ export const es = {
 
   // Reading challenge (friends)
   rc_kind_help_minutes_friends: 'Cada uno suma sus propios minutos en su dispositivo; al final podéis enseñaros la medalla.',
+
+  // Exam questions
+  ev_title: 'Entiende los enunciados',
+  ev_card_desc: 'Qué te pide cada pregunta',
+  ev_intro: 'En un examen, el verbo del enunciado te dice qué tienes que hacer: no es lo mismo definir que explicar o comparar. Si lo entiendes bien, no pierdes puntos.',
+  ev_tab_learn: 'Aprende',
+  ev_tab_split: 'Desmonta',
+  ev_tab_practice: 'Practica',
+  ev_how: 'Cómo responder:',
+  ev_example: 'Ejemplo:',
+  ev_not_this: 'Esto NO responde a lo que piden:',
+  ev_listen: 'Escuchar',
+  ev_split_desc: 'Copia aquí un enunciado de tu examen o de tus deberes. Te lo separo en tareas, en orden, para que no se te olvide ninguna.',
+  ev_split_ph: 'Por ejemplo: Lee el texto y resume las ideas principales.',
+  ev_try_example: 'Ejemplo {n}',
+  ev_none: 'No encuentro verbos de enunciado. Copia el enunciado completo, con su verbo (explica, compara, justifica…).',
+  ev_found: 'Te piden {n} cosas:',
+  ev_all_done: '¡Todo hecho! Repasa tu respuesta antes de entregar.',
+  ev_split_note: 'Marca cada tarea cuando la tengas. Si algo no encaja, fíate del enunciado: esto es una ayuda, no lo sustituye.',
+  ev_q_what: '¿Qué te pide este enunciado?',
+  ev_q_answer: '¿Qué respuesta hace lo que piden?',
+  ev_q_count: '¿Cuántas cosas te piden?',
+  ev_done_tip: 'Antes de responder en un examen, rodea el verbo del enunciado y pregúntate: ¿qué me piden exactamente?',
+  ev_again: 'Otras 10 preguntas',
+  ev_cta: 'Desmontar el enunciado en tareas',
 } as const;
 
 export type TranslationKey = keyof typeof es;

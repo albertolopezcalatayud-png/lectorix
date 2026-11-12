@@ -1026,4 +1026,29 @@ export const en: Record<TranslationKey, string> = {
 
   // Reading challenge (friends)
   rc_kind_help_minutes_friends: 'Everyone adds up their own minutes on their own device; at the end you can show each other your medal.',
+
+  // Exam questions
+  ev_title: 'Understand exam questions',
+  ev_card_desc: 'What each question asks',
+  ev_intro: 'In an exam, the verb in the question tells you what to do: defining is not the same as explaining or comparing. If you understand it, you do not lose marks.',
+  ev_tab_learn: 'Learn',
+  ev_tab_split: 'Break it down',
+  ev_tab_practice: 'Practise',
+  ev_how: 'How to answer:',
+  ev_example: 'Example:',
+  ev_not_this: 'These do NOT answer what is asked:',
+  ev_listen: 'Listen',
+  ev_split_desc: 'Paste a question from your exam or homework here. I will split it into tasks, in order, so you do not forget any.',
+  ev_split_ph: 'For example: Read the text and summarise the main ideas.',
+  ev_try_example: 'Example {n}',
+  ev_none: 'I cannot find any question verbs. Paste the whole question, with its verb (explain, compare, justify…).',
+  ev_found: 'You are asked to do {n} things:',
+  ev_all_done: 'All done! Check your answer before you hand it in.',
+  ev_split_note: 'Tick each task when you have done it. If something does not fit, trust the question: this is a help, not a replacement.',
+  ev_q_what: 'What does this question ask you to do?',
+  ev_q_answer: 'Which answer does what is asked?',
+  ev_q_count: 'How many things are you asked to do?',
+  ev_done_tip: 'Before you answer in an exam, circle the verb in the question and ask yourself: what exactly am I asked to do?',
+  ev_again: '10 more questions',
+  ev_cta: 'Break the question into tasks',
 };

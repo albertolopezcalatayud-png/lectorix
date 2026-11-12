@@ -161,6 +161,7 @@ export default function Dashboard() {
               { to: '/cuentos', icon: '🧚', title: 'sto_title', desc: 'sto_card_desc' },
               { to: '/escribe', icon: '✍️', title: 'wl_title', desc: 'wl_card_desc' },
               { to: '/estanteria', icon: '📚', title: 'sh_title', desc: 'sh_card_desc' },
+              { to: '/enunciados', icon: '🧩', title: 'ev_title', desc: 'ev_card_desc' },
             ] as const).map((x) => (
               <Card key={x.to} hover onClick={() => navigate(x.to)} className="!p-3">
                 <span className="text-2xl">{x.icon}</span>

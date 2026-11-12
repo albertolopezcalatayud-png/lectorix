@@ -1026,4 +1026,29 @@ export const ca: Record<TranslationKey, string> = {
 
   // Reading challenge (friends)
   rc_kind_help_minutes_friends: 'Cadascú suma els seus minuts en el seu dispositiu; al final us podeu ensenyar la medalla.',
+
+  // Exam questions
+  ev_title: 'Entén els enunciats',
+  ev_card_desc: 'Què et demana cada pregunta',
+  ev_intro: 'En un examen, el verb de l’enunciat et diu què has de fer: no és el mateix definir que explicar o comparar. Si l’entens bé, no perds punts.',
+  ev_tab_learn: 'Aprén',
+  ev_tab_split: 'Desmunta',
+  ev_tab_practice: 'Practica',
+  ev_how: 'Com respondre:',
+  ev_example: 'Exemple:',
+  ev_not_this: 'Això NO respon al que demanen:',
+  ev_listen: 'Escoltar',
+  ev_split_desc: 'Copia ací un enunciat del teu examen o dels teus deures. Te’l separe en tasques, en ordre, perquè no se t’oblide cap.',
+  ev_split_ph: 'Per exemple: Llig el text i resumeix les idees principals.',
+  ev_try_example: 'Exemple {n}',
+  ev_none: 'No trobe verbs d’enunciat. Copia l’enunciat complet, amb el verb (explica, compara, justifica…).',
+  ev_found: 'Et demanen {n} coses:',
+  ev_all_done: 'Tot fet! Repassa la resposta abans d’entregar.',
+  ev_split_note: 'Marca cada tasca quan la tingues. Si alguna cosa no encaixa, fia’t de l’enunciat: això és una ajuda, no el substitueix.',
+  ev_q_what: 'Què et demana aquest enunciat?',
+  ev_q_answer: 'Quina resposta fa el que demanen?',
+  ev_q_count: 'Quantes coses et demanen?',
+  ev_done_tip: 'Abans de respondre en un examen, encercla el verb de l’enunciat i pregunta’t: què em demanen exactament?',
+  ev_again: 'Altres 10 preguntes',
+  ev_cta: 'Desmuntar l’enunciat en tasques',
 };

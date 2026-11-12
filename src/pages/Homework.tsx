@@ -172,6 +172,7 @@ export default function Homework() {
             </div>
           </Card>
           <Button fullWidth onClick={() => { tts.stop(); navigate('/estudiar', { state: { text: view.text, lang: view.lang, title: view.title } }); }}>🎓 {t('st_cta')}</Button>
+          <Button fullWidth variant="secondary" onClick={() => { tts.stop(); navigate('/enunciados', { state: { text: view.text, lang: view.lang } }); }}>🧩 {t('ev_cta')}</Button>
           <Button variant="secondary" fullWidth onClick={() => { tts.stop(); setView(null); setPicked(null); }}>{t('hw_new')}</Button>
         </div>
 
