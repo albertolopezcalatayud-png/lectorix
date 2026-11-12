@@ -56,6 +56,8 @@ export function Onboarding({ onComplete }: OnboardingProps) {
                   <button
                     key={l.value}
                     onClick={() => setLanguage(l.value)}
+                    aria-pressed={language === l.value}
+                    lang={l.value}
                     className={`px-3 py-2 rounded-xl text-sm font-bold border transition-colors ${
                       language === l.value ? 'bg-accent text-white border-accent' : 'bg-bg border-border'
                     }`}

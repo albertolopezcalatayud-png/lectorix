@@ -88,6 +88,18 @@ interface AppState {
   setOnboardingDone: (done: boolean) => void;
 }
 
+function deviceLanguage(): 'es' | 'ca' | 'en' {
+  try {
+    const list = (navigator.languages?.length ? navigator.languages : [navigator.language]).map((l) => l.toLowerCase());
+    for (const l of list) {
+      if (l.startsWith('es')) return 'es';
+      if (l.startsWith('ca') || l.startsWith('va')) return 'ca';
+      if (l.startsWith('en')) return 'en';
+    }
+  } catch { /* not in a browser */ }
+  return 'es';
+}
+
 export const useAppStore = create<AppState>()(
   persist(
     (set, get) => ({
@@ -188,8 +200,8 @@ export const useAppStore = create<AppState>()(
         }
       },
 
-      // Language
-      language: 'es',
+      // Language: the first time, the device's language if the app has it (Valencian/Catalan or English)
+      language: deviceLanguage(),
       setLanguage: (language) => set({ language }),
       practiceLanguage: 'auto',
       setPracticeLanguage: (practiceLanguage) => set({ practiceLanguage }),
