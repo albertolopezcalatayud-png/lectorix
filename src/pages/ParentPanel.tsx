@@ -9,7 +9,9 @@ import { ProgressBar } from '@/components/ui/ProgressBar';
 import { Stars } from '@/components/ui/Stars';
 import { ModuleBarChart } from '@/components/charts/ModuleBarChart';
 import { SkillRadar } from '@/components/charts/SkillRadar';
-import { generateParentReport, downloadReport, printReport } from '@/services/pdfExport';
+import { generateParentReport, downloadReport } from '@/services/pdfExport';
+import { printHtml } from '@/services/printDoc';
+import { isNativeApp } from '@/native/app';
 import { useI18n } from '@/i18n';
 import { WeeklySummary, HomeTips, useWeeklyLines, FamilyLanguagePicker } from '@/components/family/WeeklySummary';
 import { StartingPoint } from '@/components/family/StartingPoint';
@@ -61,25 +63,27 @@ export default function ParentPanel() {
       <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
         {/* Export buttons */}
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex gap-2 justify-end">
+          {!isNativeApp && (
+            <button
+              onClick={() => {
+                const html = generateParentReport({ user, progress, language, weekly, skills: skillLines, levelCount });
+                const name = user?.display_name || 'estudiante';
+                const date = new Date().toISOString().slice(0, 10);
+                downloadReport(html, `informe-lectorix-${name}-${date}.html`);
+              }}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-accent text-white text-xs font-bold hover:bg-accent/90 transition-colors"
+            >
+              {t('parent_download')}
+            </button>
+          )}
           <button
             onClick={() => {
               const html = generateParentReport({ user, progress, language, weekly, skills: skillLines, levelCount });
-              const name = user?.display_name || 'estudiante';
-              const date = new Date().toISOString().slice(0, 10);
-              downloadReport(html, `informe-lectorix-${name}-${date}.html`);
+              void printHtml(html, 'Lectorix');
             }}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-accent text-white text-xs font-bold hover:bg-accent/90 transition-colors"
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-colors ${isNativeApp ? 'bg-accent text-white' : 'bg-bg-card border border-border hover:bg-accent-pale/30'}`}
           >
-            {t('parent_download')}
-          </button>
-          <button
-            onClick={() => {
-              const html = generateParentReport({ user, progress, language, weekly, skills: skillLines, levelCount });
-              printReport(html);
-            }}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-bg-card border border-border text-xs font-bold hover:bg-accent-pale/30 transition-colors"
-          >
-            {t('parent_print')}
+            {isNativeApp ? t('print_pdf_native') : t('parent_print')}
           </button>
         </motion.div>
 
@@ -113,6 +117,17 @@ export default function ParentPanel() {
             <div className="flex-1">
               <h3 className="font-heading font-extrabold text-sm">{t('hil_family_title')}</h3>
               <p className="text-xs text-fg-muted">{t('hil_family_desc')}</p>
+            </div>
+            <span className="text-accent font-extrabold">→</span>
+          </div>
+        </Card>
+
+        <Card hover onClick={() => navigate('/fichas')}>
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">🖨️</span>
+            <div className="flex-1">
+              <h3 className="font-heading font-extrabold text-sm">{t('ws_title')}</h3>
+              <p className="text-xs text-fg-muted">{t('ws_card_desc')}</p>
             </div>
             <span className="text-accent font-extrabold">→</span>
           </div>

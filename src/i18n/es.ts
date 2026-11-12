@@ -948,6 +948,33 @@ export const es = {
   voice_all_ok: '¡Este dispositivo tiene las tres voces!',
   voice_banner: 'Falta la voz en valenciano en este dispositivo. Toca aquí para ver cómo instalarla.',
   voice_fix_link: 'Cómo instalar la voz',
+
+  // Paper worksheets
+  ws_title: 'Practicar en papel',
+  ws_card_desc: 'Fichas de su nivel para imprimir',
+  ws_desc: 'Crea una ficha con ejercicios del nivel del alumno en cada área, para hacer en papel sin pantallas. La última página es para el adulto: el dictado que hay que leer y las soluciones.',
+  ws_areas: 'Áreas',
+  ws_per_area: 'Ejercicios por área',
+  ws_with_dict: 'Incluir un dictado (lo lee un adulto)',
+  ws_with_reading: 'Incluir una lectura con preguntas',
+  ws_big_text: 'Letra grande',
+  ws_make: 'Crear la ficha e imprimir',
+  print_pdf_native: 'Guardar en PDF o imprimir',
+  ws_note: 'Para guardarla en PDF, en la pantalla de impresión elige «Guardar como PDF». Cada vez que la creas salen ejercicios distintos.',
+  ws_sheet_title: 'Ficha de práctica',
+  ws_name: 'Nombre',
+  ws_date: 'Fecha',
+  ws_circle: 'Rodea la respuesta correcta.',
+  ws_order: 'Ordena las palabras y escribe la frase:',
+  ws_fill: 'Completa la frase con las palabras del recuadro:',
+  ws_write: 'Escribe la respuesta:',
+  ws_dict_title: 'Dictado',
+  ws_dict_instr: 'Escucha cada frase o palabra y escríbela en su línea.',
+  ws_read_title: 'Lectura',
+  ws_answers: 'Soluciones',
+  ws_for_adult: 'Para el adulto',
+  ws_dict_adult: 'Dictado: lee cada frase despacio, dos veces',
+  ws_footer: 'Lectorix · Ficha para practicar en papel',
 } as const;
 
 export type TranslationKey = keyof typeof es;
