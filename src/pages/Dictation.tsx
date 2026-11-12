@@ -104,7 +104,7 @@ export default function Dictation() {
         <div className="px-4 py-5 max-w-lg mx-auto space-y-3">
           <p className="text-sm text-fg-muted">{t('dict_tip')}</p>
           {!tts.isAvailable() && (
-            <Card className="border-red/30 bg-red-pale/30 text-sm">⚠️ {t('dict_no_voice')}</Card>
+            <Card className="border-red/30 bg-red-pale/30 text-sm">⚠️ {t('dict_no_voice')} <a href="#/voces" className="font-bold text-accent">{t('voice_fix_link')} →</a></Card>
           )}
           <h3 className="font-heading font-extrabold text-sm pt-1">{t('dict_choose')}</h3>
           {[...new Set((pool ?? []).map((e) => e.level))].sort((a, b) => a - b).map((l, i) => {

@@ -920,6 +920,34 @@ export const es = {
   // Daily bonus
   daily_bonus_got: 'Incluye +{n} XP del reto del día',
   daily_done_today: '¡Hecho hoy! Puedes repetirlo; el bonus de 50 XP vuelve mañana',
+
+  // Device voices
+  voice_title: 'Voces para leer en voz alta',
+  voice_link: 'Voces del dispositivo',
+  voice_intro: 'Lectorix usa las voces que trae el propio dispositivo. Muchos móviles no traen la voz en valenciano: aquí puedes ver cuáles tienes y cómo instalar las que faltan.',
+  voice_test: 'Probar',
+  voice_missing: 'No instalada',
+  voice_recheck: 'Volver a comprobar',
+  voice_how_title: 'Cómo instalar la voz que falta',
+  voice_device_android: 'En un móvil o tablet Android:',
+  voice_device_ios: 'En un iPhone o iPad:',
+  voice_device_windows: 'En un ordenador con Windows:',
+  voice_device_mac: 'En un Mac:',
+  voice_device_other: 'En tu dispositivo:',
+  voice_steps_android: 'Abre los Ajustes del móvil y busca «Texto a voz» o «Salida de texto a voz» con la lupa.|En «Motor preferido», elige «Servicios de voz de Google». Si no aparece, instala esa aplicación desde Google Play.|Toca el engranaje ⚙️ que hay junto al motor y entra en «Instalar datos de voz».|Busca {lang} y toca el botón de descargar. Mejor con wifi: ocupa unos cientos de megas.|Vuelve a Lectorix: esta pantalla lo comprobará sola.',
+  voice_steps_ios: 'Abre Ajustes › Accesibilidad › Contenido leído › Voces.|Elige {lang} y descarga una de las voces.|Vuelve a Lectorix y pulsa «Volver a comprobar».',
+  voice_steps_windows: 'Abre Configuración › Hora e idioma › Voz.|Pulsa «Agregar voces» y busca {lang}, si aparece en la lista.|Cuando se instale, cierra y vuelve a abrir el navegador.|Vuelve a Lectorix y pulsa «Volver a comprobar».',
+  voice_steps_mac: 'Abre Ajustes del Sistema › Accesibilidad › Contenido leído.|Junto a «Voz del sistema», entra en «Gestionar voces».|Marca una voz de {lang} y espera a que se descargue.|Cierra y vuelve a abrir el navegador, y pulsa «Volver a comprobar».',
+  voice_steps_other: 'Busca «texto a voz» en la configuración de accesibilidad o de idioma del dispositivo.|Añade una voz de {lang}.|Vuelve a Lectorix y pulsa «Volver a comprobar».',
+  voice_engine_name_ca: '«Català» (para el valenciano)',
+  voice_engine_name_es: '«Español (España)»',
+  voice_engine_name_en: '«English (United Kingdom)»',
+  voice_open_android: 'Abrir la instalación de voces de Android',
+  voice_names_vary: 'Los nombres de los menús pueden cambiar un poco según la marca y la versión del dispositivo.',
+  voice_ca_note: 'Para el valenciano se usa la voz catalana del dispositivo: se entiende bien, aunque algunas palabras pueden sonar con otro acento.',
+  voice_all_ok: '¡Este dispositivo tiene las tres voces!',
+  voice_banner: 'Falta la voz en valenciano en este dispositivo. Toca aquí para ver cómo instalarla.',
+  voice_fix_link: 'Cómo instalar la voz',
 } as const;
 
 export type TranslationKey = keyof typeof es;

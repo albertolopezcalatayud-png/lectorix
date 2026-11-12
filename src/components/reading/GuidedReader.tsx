@@ -194,7 +194,7 @@ export function GuidedReader({ text, onFinishedListening }: Props) {
       {/* Controls — sticky so they stay reachable while scrolling */}
       <div className="sticky top-0 z-10 -mx-4 px-4 py-3 bg-bg/95 backdrop-blur border-b border-border mb-5">
         {noVoice ? (
-          <p className="text-xs text-fg-muted text-center">⚠️ {t('read_no_voice')}</p>
+          <p className="text-xs text-fg-muted text-center">⚠️ {t('read_no_voice')} <a href="#/voces" className="font-bold text-accent">{t('voice_fix_link')} →</a></p>
         ) : (
           <>
             <div className="flex items-center gap-2">

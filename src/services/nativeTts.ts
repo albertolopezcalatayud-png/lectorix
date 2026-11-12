@@ -77,3 +77,14 @@ export async function nativeSpeakTracked(
 if (isNative) {
   for (const tag of ['es-ES', 'ca-ES', 'en-GB']) void nativeCheck(tag);
 }
+
+/** Forget the cached answer (after the family installs a voice) and ask again */
+export async function nativeRecheck(tag: string): Promise<boolean> {
+  support.delete(tag);
+  return nativeCheck(tag);
+}
+
+/** Opens Android's screen to download voice data (the TTS engine's own installer) */
+export async function nativeOpenInstall(): Promise<boolean> {
+  try { await TextToSpeech.openInstall(); return true; } catch { return false; }
+}

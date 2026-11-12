@@ -141,13 +141,14 @@ export default function Settings() {
             ))}
           </div>
           {isTTSAvailable() && voicesReady && !tts.hasVoiceFor(effectivePractice) && (
-            <p className="mt-3 text-xs rounded-xl bg-yellow-pale px-3 py-2">🔇 {t('set_voice_missing')}</p>
+            <button onClick={() => navigate('/voces')} className="mt-3 w-full text-left text-xs rounded-xl bg-yellow-pale px-3 py-2">🔇 {t('set_voice_missing')} <span className="font-bold text-accent">{t('voice_fix_link')} →</span></button>
           )}
         </Card>
 
         {/* Audio */}
         <Card>
           <h3 className="font-heading font-extrabold text-sm mb-3">{t('set_audio')}</h3>
+          <button onClick={() => navigate('/voces')} className="w-full mb-3 px-3 py-2 rounded-xl bg-accent-pale text-left text-sm font-bold flex items-center gap-2">🗣️ {t('voice_link')}<span className="ml-auto text-accent">→</span></button>
           <div className="space-y-3">
             {/* Sound effects toggle */}
             <div className="flex items-center justify-between">

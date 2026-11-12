@@ -1,4 +1,5 @@
 import { SkillOfTheDay } from '@/components/skills/SkillMap';
+import { MissingVoiceBanner } from '@/components/system/MissingVoiceBanner';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAppStore, usePracticeLang, useLevelCount } from '@/stores/useAppStore';
@@ -70,6 +71,7 @@ export default function Dashboard() {
         )}
 
         {/* Today's personal training: the weakest skill */}
+        <MissingVoiceBanner />
         <SkillOfTheDay />
 
         {/* XP Card */}
