@@ -30,10 +30,18 @@ adb shell pm grant com.lectorix.app android.permission.POST_NOTIFICATIONS 2>/dev
 adb logcat -c
 adb shell am start -W -n com.lectorix.app/.MainActivity > /dev/null 2>&1
 sleep 8
-PID=$(adb shell pidof com.lectorix.app | tr -d '\r')
-adb forward tcp:9222 localabstract:webview_devtools_remote_$PID
+# wait until the app's WebView can be debugged (it can take a while on a cold emulator)
+for i in $(seq 1 20); do
+  PID=$(adb shell pidof com.lectorix.app | tr -d '\r')
+  adb forward --remove-all > /dev/null 2>&1
+  adb forward tcp:9222 localabstract:webview_devtools_remote_$PID > /dev/null 2>&1
+  if curl -s --max-time 3 http://localhost:9222/json | grep -q '"type": *"page"'; then break; fi
+  sleep 3
+done
 node .github/scripts/webview-check.mjs "$OUT" > "$OUT/webview-check.txt" 2>&1
 adb logcat -d > "$OUT/logcat-debug.txt"
 grep -E -A40 'FATAL EXCEPTION' "$OUT/logcat-debug.txt" > "$OUT/crash-debug.txt"
 grep -i -E 'Capacitor|TextToSpeech|TTS|Console' "$OUT/logcat-debug.txt" | tail -300 > "$OUT/logcat-app.txt"
+# a failed check fails the step, so the workflow tries once more on a fresh emulator
+grep -q 'RESULT PASS' "$OUT/webview-check.txt" || exit 1
 exit 0
