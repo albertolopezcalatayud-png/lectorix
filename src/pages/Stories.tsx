@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback, useEffect } from 'react';
+import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { create } from 'zustand';
@@ -16,6 +16,8 @@ import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { useI18n } from '@/i18n';
+import { buildSessionResult } from '@/services/gamification';
+import { recordSession } from '@/services/session';
 
 interface SavedStory { id: string; lang: StoryLang; tier: Tier; hero: string; place: string; thing: string; words: string[]; date: string; plot?: Plot }
 
@@ -70,6 +72,10 @@ export default function Stories() {
   const [qi, setQi] = useState(0);
   const [answers, setAnswers] = useState<AnswerResult[]>([]);
   const [busy, setBusy] = useState(false);
+  const [level, setLevel] = useState(1);
+  const [xp, setXp] = useState(0);
+  const startRef = useRef(Date.now());
+  const scored = useRef(new Set<string>()); // each story's quiz gives XP once
 
   useEffect(() => () => tts.stop(), []);
 
@@ -81,6 +87,7 @@ export default function Stories() {
     const { words, spare: sp } = await pickWords(lang, level);
     const s: SavedStory = { id: String(Date.now()), lang, tier: tierFor(level), hero, place, thing, words, date: new Date().toISOString(), plot: (Math.random() < 0.5 ? 0 : 1) as Plot };
     add(s);
+    setLevel(level);
     setSpare(sp);
     setStory(s);
     setPhase('read');
@@ -107,9 +114,19 @@ export default function Stories() {
 
   const onAnswer = useCallback((selected: number, ok: boolean, timeMs: number) => {
     const ex = quiz[qi];
-    setAnswers((a) => [...a, { exercise_id: ex.id, selected, correct: ex.correct, is_correct: ok, time_ms: timeMs }]);
-    if (qi + 1 < quiz.length) setQi(qi + 1); else setPhase('done');
-  }, [quiz, qi]);
+    const next = [...answers, { exercise_id: ex.id, selected, correct: ex.correct, is_correct: ok, time_ms: timeMs }];
+    setAnswers(next);
+    if (qi + 1 < quiz.length) { setQi(qi + 1); return; }
+    // the story quiz counts like any other practice: XP, streak and history
+    if (story && !scored.current.has(story.id)) {
+      scored.current.add(story.id);
+      const result = buildSessionResult({ module: 'comprension_lectora', level, answers: next, startTime: startRef.current });
+      result.mode = 'story';
+      recordSession(result);
+      setXp(result.xp_earned);
+    } else setXp(0);
+    setPhase('done');
+  }, [quiz, qi, answers, level, story]);
 
   if (phase === 'read' && story) {
     return (
@@ -135,7 +152,7 @@ export default function Stories() {
               {text.split('\n\n').map((para, i) => <p key={i}><SyllableText text={para} /></p>)}
             </div>
           </Card>
-          <Button fullWidth onClick={() => { tts.stop(); setQi(0); setAnswers([]); setPhase('quiz'); }}>{t('sto_questions', { n: quiz.length })}</Button>
+          <Button fullWidth onClick={() => { tts.stop(); setQi(0); setAnswers([]); startRef.current = Date.now(); setPhase('quiz'); }}>{t('sto_questions', { n: quiz.length })}</Button>
           <Button variant="secondary" fullWidth onClick={() => { tts.stop(); setPhase('pick'); }}>{t('sto_another')}</Button>
         </div>
       </div>
@@ -161,6 +178,7 @@ export default function Stories() {
         <div className="px-4 py-8 max-w-lg mx-auto space-y-4 text-center">
           <motion.div initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="text-6xl">📖</motion.div>
           <h2 className="font-heading font-black text-xl">{t('st_done', { right, total: answers.length })}</h2>
+          {xp > 0 && <p className="font-heading font-black text-2xl text-mint">+{xp} XP</p>}
           <p className="text-sm text-fg-muted">{t('sto_done_desc')}</p>
           <Button fullWidth onClick={() => setPhase('read')}>{t('sto_reread')}</Button>
           <Button variant="secondary" fullWidth onClick={() => setPhase('pick')}>{t('sto_another')}</Button>

@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { usePracticeLang } from '@/stores/useAppStore';
 import { loadModule } from '@/data/content';
@@ -12,6 +12,7 @@ import { Button } from '@/components/ui/Button';
 import { SyllableText } from '@/components/reading/SyllableText';
 import tts from '@/services/tts';
 import { useI18n } from '@/i18n';
+import { awardActivityXP } from '@/services/session';
 
 type Game = 'duet' | 'claps' | 'rhymes' | 'reverse';
 const GAMES: { id: Game; icon: string }[] = [
@@ -98,11 +99,16 @@ export default function Together() {
 
 function Finish({ score, onExit, onAgain }: { score?: number; onExit: () => void; onAgain: () => void }) {
   const { t } = useI18n();
+  // a family game counts as practice too (a few times a day)
+  const [xp, setXp] = useState(0);
+  const given = useRef(false);
+  useEffect(() => { if (!given.current) { given.current = true; setXp(awardActivityXP('together', 10, 3)); } }, []);
   return (
     <Card className="text-center space-y-3">
       <div className="text-5xl">🤝</div>
       <h3 className="font-heading font-extrabold">{t('tg_well_done')}</h3>
       {score !== undefined && <p className="text-sm">{t('tg_team_score', { n: score })}</p>}
+      {xp > 0 && <p className="font-heading font-black text-mint">+{xp} XP</p>}
       <Button fullWidth onClick={onAgain}>{t('tg_again')}</Button>
       <Button fullWidth variant="secondary" onClick={onExit}>{t('tg_other_game')}</Button>
     </Card>

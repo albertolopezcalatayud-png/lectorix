@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import type { AnswerResult } from '@/types';
@@ -12,6 +12,8 @@ import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { useI18n } from '@/i18n';
+import { buildSessionResult } from '@/services/gamification';
+import { recordSession } from '@/services/session';
 
 /** "Study your notes": vocabulary + about ten questions made from a text the student brought */
 export default function StudyNotes() {
@@ -26,6 +28,8 @@ export default function StudyNotes() {
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<AnswerResult[]>([]);
   const [saved, setSaved] = useState(false);
+  const [xp, setXp] = useState(0);
+  const startRef = useRef(Date.now());
 
   const study = useMemo(() => buildStudy(text, lang, {
     cloze: t('st_cloze'), order: t('st_order'), dictation: t('st_dictation'), letters: (n) => t('st_letters', { n }),
@@ -37,9 +41,16 @@ export default function StudyNotes() {
     const ex = study.exercises[index];
     const next = [...answers, { exercise_id: ex.id, selected, correct: ex.correct, is_correct: ok, time_ms: timeMs }];
     setAnswers(next);
-    if (index + 1 < study.exercises.length) setIndex(index + 1);
-    else setPhase('done');
-  }, [study, index, answers]);
+    if (index + 1 < study.exercises.length) { setIndex(index + 1); return; }
+    // studying your own notes counts like any other practice: XP, streak and history
+    if (round < 3) { // the same notes give XP up to three rounds
+      const result = buildSessionResult({ module: 'comprension_lectora', level: 1, answers: next, startTime: startRef.current });
+      result.mode = 'study';
+      recordSession(result);
+      setXp(result.xp_earned);
+    } else setXp(0);
+    setPhase('done');
+  }, [study, index, answers, round]);
 
   if (!text || study.exercises.length < 3) {
     return (
@@ -87,6 +98,7 @@ export default function StudyNotes() {
         <div className="px-4 py-6 max-w-lg mx-auto space-y-4 text-center">
           <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="text-6xl">{right / answers.length >= 0.8 ? '🏆' : right / answers.length >= 0.5 ? '👍' : '💪'}</motion.div>
           <h2 className="font-heading font-black text-xl">{t('st_done', { right, total: answers.length })}</h2>
+          {xp > 0 && <p className="font-heading font-black text-2xl text-mint">+{xp} XP</p>}
           {missed.length > 0 && (
             <Card className="text-left">
               <p className="text-sm font-bold mb-2">{t('st_missed')}</p>
@@ -99,7 +111,7 @@ export default function StudyNotes() {
               </button>
             </Card>
           )}
-          <Button fullWidth onClick={() => { setRound(round + 1); setIndex(0); setAnswers([]); setSaved(false); setPhase('quiz'); }}>{t('st_again')}</Button>
+          <Button fullWidth onClick={() => { setRound(round + 1); setIndex(0); setAnswers([]); startRef.current = Date.now(); setSaved(false); setPhase('quiz'); }}>{t('st_again')}</Button>
           <Button variant="secondary" fullWidth onClick={() => navigate(-1)}>{t('st_back_text')}</Button>
         </div>
       </div>

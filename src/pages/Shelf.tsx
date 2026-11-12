@@ -8,6 +8,7 @@ import { Confetti } from '@/components/ui/Confetti';
 import { useAppStore } from '@/stores/useAppStore';
 import { useShelfStore, paperWeek, type Book } from '@/services/shelf';
 import { useI18n } from '@/i18n';
+import { awardXP } from '@/services/session';
 
 const MINUTES = [5, 10, 15, 20, 30, 45];
 const XP_PER_LOG = 10;
@@ -50,9 +51,8 @@ export default function Shelf() {
     const today = new Date().toDateString();
     const todayLogs = logs.filter((l) => new Date(l.date).toDateString() === today).length;
     logReading({ bookId: b.id, minutes, page: p > 0 ? (b.pages ? Math.min(p, b.pages) : p) : undefined, feel: feel ?? undefined });
-    const app = useAppStore.getState();
-    app.updateStreak();
-    if (todayLogs < XP_LOGS_PER_DAY) app.addXP(XP_PER_LOG);
+    if (todayLogs < XP_LOGS_PER_DAY) awardXP(XP_PER_LOG);
+    else useAppStore.getState().updateStreak();
     setLogged(true); setPage(''); setFeel(null);
   };
 

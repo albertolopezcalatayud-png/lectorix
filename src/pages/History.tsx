@@ -36,6 +36,7 @@ const starsDisplay = (stars: number) => {
 
 export default function History() {
   const sessionHistory = useAppStore((s) => s.sessionHistory);
+  const user = useAppStore((s) => s.user);
   const navigate = useNavigate();
   const { t } = useI18n();
 
@@ -96,7 +97,7 @@ export default function History() {
                   </div>
                   <div>
                     <p className="font-heading font-black text-xl text-peach">
-                      {sessionHistory.reduce((s, r) => s + r.xp_earned, 0)}
+                      {user?.total_xp ?? sessionHistory.reduce((s, r) => s + r.xp_earned, 0)}
                     </p>
                     <p className="text-[10px] text-fg-muted">{t('hist_xp_total')}</p>
                   </div>
@@ -127,12 +128,12 @@ export default function History() {
                       >
                         <Card className="flex items-center gap-3">
                           <div className="w-10 h-10 rounded-xl flex items-center justify-center text-lg bg-accent-pale">
-                            {mod?.icon || '📝'}
+                            {session.mode === 'story' ? '🐉' : session.mode === 'study' ? '📄' : mod?.icon || '📝'}
                           </div>
                           <div className="flex-1 min-w-0">
                             <div className="flex items-center gap-2">
                               <p className="font-heading font-extrabold text-sm truncate">
-                                {(mod ? t(MODULE_TEXT[mod.id].name) : '') || session.module}
+                                {session.mode === 'story' ? t('sto_title') : session.mode === 'study' ? t('st_title') : (mod ? t(MODULE_TEXT[mod.id].name) : '') || session.module}
                               </p>
                               <span className="text-[10px] text-fg-muted flex-shrink-0">
                                 {formatDate(session.completed_at, t)}

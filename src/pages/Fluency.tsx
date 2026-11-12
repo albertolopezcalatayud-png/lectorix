@@ -9,6 +9,7 @@ import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { SyllableWord, useSyllableColoring } from '@/components/reading/SyllableText';
 import { useI18n } from '@/i18n';
+import { awardActivityXP } from '@/services/session';
 
 const TEST_SECONDS = 60;
 type Phase = 'setup' | 'ready' | 'reading' | 'mark' | 'done';
@@ -55,6 +56,7 @@ export default function Fluency() {
   const [markErrors, setMarkErrors] = useState(false);
   const [result, setResult] = useState<FluencyResult | null>(null);
   const [prevBefore, setPrevBefore] = useState<FluencyResult | null>(null);
+  const [xp, setXp] = useState(0);
   const startRef = useRef(0);
 
   const words = useMemo(() => (reading ? reading.text.split(/\s+/).filter(Boolean) : []), [reading]);
@@ -115,6 +117,7 @@ export default function Fluency() {
     setPrevBefore(mine.length ? mine[mine.length - 1] : null);
     const r = add({ lang, level, readingId: reading.id, wordsRead: lastWord + 1, errors: errors.size, seconds: elapsed });
     setResult(r);
+    setXp(awardActivityXP('fluency', 20, 2));
     setPhase('done');
   };
 
@@ -237,6 +240,7 @@ export default function Fluency() {
                 <Card className="text-center space-y-2">
                   <div className="text-5xl font-heading font-black text-accent">{result.wcpm}</div>
                   <p className="font-bold">{t('flu_wcpm')}</p>
+                  {xp > 0 && <p className="font-heading font-black text-mint">+{xp} XP</p>}
                   <p className="text-xs text-fg-muted">
                     {t('flu_detail', { words: result.wordsRead, errors: result.errors, s: result.seconds })}
                   </p>

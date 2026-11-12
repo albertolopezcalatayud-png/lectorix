@@ -8,6 +8,7 @@ import { useReviewStore } from '@/services/review';
 import { availability, installLanguage, listen, align, norm, useReadAloud, SPEECH_TAG, type Availability, type Listening } from '@/services/readAloud';
 import tts from '@/services/tts';
 import { useI18n } from '@/i18n';
+import { awardActivityXP } from '@/services/session';
 
 const langOf = (id: string) => (id.includes('_ca_') ? 'ca' : /^reading_/.test(id) ? 'en' : 'es');
 
@@ -25,6 +26,8 @@ export default function ReadAloud() {
   const [error, setError] = useState<string | null>(null);
   const [saved, setSaved] = useState<Set<string>>(new Set());
   const session = useRef<Listening | null>(null);
+  const [xp, setXp] = useState(0);
+  const scored = useRef(false);
 
   useEffect(() => { let off = false; void availability(lang).then((a) => { if (!off) setAvail(a); }); return () => { off = true; }; }, [lang]);
   useEffect(() => () => { session.current?.stop(); session.current = null; }, []);
@@ -40,7 +43,7 @@ export default function ReadAloud() {
   }, [states, words]);
 
   const start = async () => {
-    setError(null); setHeard(''); setSaved(new Set());
+    setError(null); setHeard(''); setSaved(new Set()); setXp(0); scored.current = false;
     try {
       session.current = await listen(lang, setHeard, (code) => { setError(code); session.current?.stop(); session.current = null; setPhase('done'); });
       setPhase('listening');
@@ -49,6 +52,13 @@ export default function ReadAloud() {
     }
   };
   const stop = () => { session.current?.stop(); session.current = null; setPhase('done'); };
+
+  // Reading at least half of the text aloud counts as practice (a few times a day)
+  useEffect(() => {
+    if (phase !== 'done' || scored.current || words.length === 0) return;
+    scored.current = true;
+    if (read >= Math.ceil(words.length / 2)) setXp(awardActivityXP('readaloud', 15, 3));
+  }, [phase, read, words.length]);
 
   // All read: stop on its own
   useEffect(() => { if (phase === 'listening' && words.length > 0 && position >= words.length) stop(); }, [phase, position, words.length]);
@@ -106,6 +116,7 @@ export default function ReadAloud() {
             {phase === 'done' && (
               <Card className="space-y-2">
                 <p className="font-heading font-black text-center">{t('ra_result', { read, total: words.length })}</p>
+                {xp > 0 && <p className="font-heading font-black text-center text-mint">+{xp} XP</p>}
                 {missed.length > 0 ? (
                   <>
                     <p className="text-sm">{t('ra_missed')}</p>
