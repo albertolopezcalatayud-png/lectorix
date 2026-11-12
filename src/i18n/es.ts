@@ -391,7 +391,7 @@ export const es = {
   ex_listen_passage: 'Escuchar el texto',
   ex_stop_reading: 'Detener la lectura',
   ex_listen_question: 'Escuchar la pregunta',
-  ex_drag_hint: 'Mantén pulsado y arrastra para ordenar',
+  ex_drag_hint: 'Arrastra las piezas, o toca dos para cambiarlas de sitio',
   ex_tap_hint: 'Pulsa una palabra para colocarla',
   mod_desc_fonologia: 'Reconocimiento de sonidos, sílabas y conciencia fonológica',
   mod_desc_memoria_visual: 'Reconocimiento visual de palabras y patrones ortográficos',
@@ -1125,6 +1125,14 @@ export const es = {
 
   // OCR download
   hw_ocr_net: 'La primera vez que lees una foto en este idioma hace falta conexión a internet para descargar los datos de lectura (entre 1 y 3 MB). Después funciona sin conexión.',
+
+  // Drag order without dragging
+  ex_piece: '{text}, pieza {n} de {total}',
+  ex_right_order: 'El orden correcto es: {order}',
+
+  // Gap labels
+  ex_gap_empty: 'Hueco {n}, vacío',
+  ex_gap_filled: 'Hueco {n}: {word}. Toca para quitarla',
 } as const;
 
 export type TranslationKey = keyof typeof es;

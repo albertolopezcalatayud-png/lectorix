@@ -393,7 +393,7 @@ export const en: Record<TranslationKey, string> = {
   ex_listen_passage: 'Listen to the text',
   ex_stop_reading: 'Stop reading',
   ex_listen_question: 'Listen to the question',
-  ex_drag_hint: 'Press, hold and drag to put them in order',
+  ex_drag_hint: 'Drag the pieces, or tap two of them to swap them',
   ex_tap_hint: 'Tap a word to place it',
   mod_desc_fonologia: 'Sounds, syllables and phonics',
   mod_desc_memoria_visual: 'Recognising words and spelling patterns by sight',
@@ -1127,4 +1127,12 @@ export const en: Record<TranslationKey, string> = {
 
   // OCR download
   hw_ocr_net: 'The first time you read a photo in this language you need an internet connection to download the reading data (1 to 3 MB). After that it works offline.',
+
+  // Drag order without dragging
+  ex_piece: '{text}, piece {n} of {total}',
+  ex_right_order: 'The right order is: {order}',
+
+  // Gap labels
+  ex_gap_empty: 'Gap {n}, empty',
+  ex_gap_filled: 'Gap {n}: {word}. Tap to remove it',
 };

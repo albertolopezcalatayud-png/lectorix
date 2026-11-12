@@ -16,6 +16,7 @@ type Phase = 'setup' | 'ready' | 'reading' | 'mark' | 'done';
 
 /** Small line chart of words-correct-per-minute over time */
 export function FluencyChart({ results }: { results: FluencyResult[] }) {
+  const { t } = useI18n();
   const pts = results.slice(-12);
   if (pts.length < 2) return null;
   const max = Math.max(...pts.map((p) => p.wcpm), 10);
@@ -24,7 +25,7 @@ export function FluencyChart({ results }: { results: FluencyResult[] }) {
   const y = (v: number) => H - P - (v / max) * (H - 2 * P);
   const d = pts.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.wcpm).toFixed(1)}`).join(' ');
   return (
-    <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label="wcpm">
+    <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label={t('flu_wcpm')}>
       <line x1={P} y1={H - P} x2={W - P} y2={H - P} stroke="currentColor" opacity="0.15" />
       <path d={d} fill="none" stroke="var(--color-accent, #7C5CFC)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
       {pts.map((p, i) => (

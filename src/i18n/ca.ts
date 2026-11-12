@@ -393,7 +393,7 @@ export const ca: Record<TranslationKey, string> = {
   ex_listen_passage: 'Escoltar el text',
   ex_stop_reading: 'Parar la lectura',
   ex_listen_question: 'Escoltar la pregunta',
-  ex_drag_hint: 'Mantín premut i arrossega per a ordenar',
+  ex_drag_hint: 'Arrossega les peces, o toca’n dues per a canviar-les de lloc',
   ex_tap_hint: 'Prem una paraula per a col·locar-la',
   mod_desc_fonologia: 'Reconeixement de sons, síl·labes i consciència fonològica',
   mod_desc_memoria_visual: 'Reconeixement visual de paraules i patrons ortogràfics',
@@ -1127,4 +1127,12 @@ export const ca: Record<TranslationKey, string> = {
 
   // OCR download
   hw_ocr_net: 'La primera vegada que lliges una foto en este idioma cal connexió a internet per a descarregar les dades de lectura (entre 1 i 3 MB). Després funciona sense connexió.',
+
+  // Drag order without dragging
+  ex_piece: '{text}, peça {n} de {total}',
+  ex_right_order: 'L’ordre correcte és: {order}',
+
+  // Gap labels
+  ex_gap_empty: 'Buit {n}, sense omplir',
+  ex_gap_filled: 'Buit {n}: {word}. Toca per a llevar-la',
 };

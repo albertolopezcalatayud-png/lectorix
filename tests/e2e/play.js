@@ -9,7 +9,7 @@ const LEVELS = { es: [1, 5, 9], ca: [1, 5, 9], en: [1, 4, 7] };
   const b = await chromium.launch();
   const issues = [];
   let played = 0;
-  for (const lang of ['es', 'ca', 'en']) {
+  for (const lang of (process.env.LANGS || 'es,ca,en').split(',')) {
     const ctx = await b.newContext({ viewport: { width: 390, height: 844 } });
     const p = await ctx.newPage();
     let where = '';
@@ -41,9 +41,15 @@ const LEVELS = { es: [1, 5, 9], ca: [1, 5, 9], en: [1, 4, 7] };
             const check = btns.find((x) => /Comprobar|Comprova|Check/.test(x.innerText)); if (check) check.click();
             return 'write';
           }
-          // drag & drop exercises: tap every piece in order, then check
-          const pieces = btns.filter((x) => x.closest('[class*="flex-wrap"]') && x.innerText.trim().length > 0 && x.innerText.trim().length < 30 && !/Comprobar|Comprova|Check|Siguiente|Següent|Next/.test(x.innerText));
-          if (pieces.length) { pieces.forEach((x) => x.click()); const check = [...document.querySelectorAll('button')].filter(vis).find((x) => /Comprobar|Comprova|Check/.test(x.innerText)); if (check) check.click(); return 'drag'; }
+          // ordering: pieces can be swapped by tapping; just tap two and check
+          const pieces = btns.filter((x) => x.closest('[role=list]'));
+          if (pieces.length) { pieces[0].click(); pieces[1]?.click(); }
+          const check = btns.find((x) => /Comprobar|Comprova|Check/.test(x.innerText) && !x.disabled);
+          if (pieces.length && check) { check.click(); return 'order'; }
+          // fill the gaps: tap one word of the bank each time, check when all gaps are full
+          if (check) { check.click(); return 'fill'; }
+          const bank = btns.filter((x) => !x.disabled && x.closest('[class*="flex-wrap"]') && !x.closest('[role=list]') && x.innerText.trim().length > 0 && x.innerText.trim().length < 30);
+          if (bank.length) { bank[bank.length - 1].click(); return 'word'; }
           return '';
         });
         await p.waitForTimeout(acted ? 2300 : 800);

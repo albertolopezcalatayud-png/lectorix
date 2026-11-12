@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import { useI18n } from '@/i18n';
 import { motion, AnimatePresence, Reorder } from 'framer-motion';
 import type { Exercise } from '@/types';
@@ -48,22 +48,39 @@ function DragOrderExercise({
 }: DragDropExerciseProps & { startTime: number }) {
   const { t } = useI18n();
   const correctOrder = exercise.correctOrder || [];
+  // Each piece keeps its own id, so repeated pieces (two «ma», two «A») stay separate
   const [items, setItems] = useState(() => {
-    const shuffled = [...(exercise.pieces || correctOrder)];
-    // Shuffle until different from correct order
+    const shuffled = (exercise.pieces || correctOrder).map((text, i) => ({ id: `${i}`, text }));
     for (let i = 0; i < 10; i++) {
       shuffled.sort(() => Math.random() - 0.5);
-      if (shuffled.join('') !== correctOrder.join('')) break;
+      if (shuffled.map((x) => x.text).join('') !== correctOrder.join('')) break;
     }
     return shuffled;
   });
+  // Without dragging: tap one piece and then another to swap them (also with the keyboard)
+  const [picked, setPicked] = useState<number | null>(null);
+  const dragged = useRef(false); // a drag ends with a click: ignore it
+  const tapPiece = (i: number) => {
+    if (dragged.current) { dragged.current = false; return; }
+    if (showFeedback) return;
+    if (picked === null) { setPicked(i); return; }
+    if (picked !== i) setItems((list) => { const next = [...list]; [next[picked], next[i]] = [next[i], next[picked]]; return next; });
+    setPicked(null);
+  };
+  const moveBy = (i: number, d: number) => {
+    const j = i + d;
+    if (showFeedback || j < 0 || j >= items.length) return;
+    setItems((list) => { const next = [...list]; [next[i], next[j]] = [next[j], next[i]]; return next; });
+    setPicked(j);
+  };
   const [showFeedback, setShowFeedback] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
 
   const handleCheck = () => {
     if (showFeedback) return;
-    const correct = items.join('') === correctOrder.join('');
+    const correct = items.map((x) => x.text).join('') === correctOrder.join('');
+    setPicked(null);
     setIsCorrect(correct);
     setShowFeedback(true);
 
@@ -132,22 +149,35 @@ function DragOrderExercise({
             values={items}
             onReorder={setItems}
             className="flex flex-wrap gap-2 justify-center"
+            role="list"
           >
-            {items.map((item) => (
+            {items.map((item, i) => (
               <Reorder.Item
-                key={item}
+                key={item.id}
                 value={item}
-                className={`px-4 py-2.5 rounded-xl font-heading font-bold text-base cursor-grab active:cursor-grabbing select-none shadow-sm transition-colors ${
-                  showFeedback
-                    ? isCorrect
-                      ? 'bg-mint text-white'
-                      : 'bg-red text-white'
-                    : 'bg-white dark:bg-bg-card text-fg border border-border'
-                }`}
+                role="listitem"
+                onDragStart={() => { dragged.current = true; setPicked(null); }}
+                className="select-none"
                 whileDrag={{ scale: 1.1, zIndex: 10, boxShadow: '0 8px 20px rgba(0,0,0,0.15)' }}
-                whileTap={{ scale: 0.95 }}
               >
-                {item}
+                <button
+                  type="button"
+                  onClick={() => tapPiece(i)}
+                  onKeyDown={(e) => { if (e.key === 'ArrowLeft') { e.preventDefault(); moveBy(i, -1); } if (e.key === 'ArrowRight') { e.preventDefault(); moveBy(i, 1); } }}
+                  aria-pressed={picked === i}
+                  aria-label={t('ex_piece', { text: item.text, n: i + 1, total: items.length })}
+                  className={`px-4 py-2.5 rounded-xl font-heading font-bold text-base cursor-grab active:cursor-grabbing shadow-sm transition-colors ${
+                    showFeedback
+                      ? isCorrect
+                        ? 'bg-mint text-white'
+                        : 'bg-red text-white'
+                      : picked === i
+                        ? 'bg-accent text-white ring-2 ring-accent ring-offset-2'
+                        : 'bg-white dark:bg-bg-card text-fg border border-border'
+                  }`}
+                >
+                  {item.text}
+                </button>
               </Reorder.Item>
             ))}
           </Reorder.Group>
@@ -156,7 +186,7 @@ function DragOrderExercise({
         {/* Preview of current order */}
         <div className="text-center">
           <span className="text-sm text-fg-muted">{t('ex_result')} </span>
-          <span className="font-heading font-bold text-accent">{items.join(exercise.word ? '' : ' ')}</span>
+          <span className="font-heading font-bold text-accent" aria-live="polite">{items.map((x) => x.text).join(exercise.word ? '' : ' ')}</span>
         </div>
 
         {/* Check button */}
@@ -185,7 +215,7 @@ function DragOrderExercise({
               <div>
                 <span className="font-bold">{isCorrect ? t('ex_correct') : t('ex_incorrect')}</span>
                 <span className="block text-xs font-normal text-fg-muted mt-0.5">
-                  {isCorrect ? exercise.explanation : `El orden correcto es: ${correctOrder.join(exercise.word ? '' : ' ')}`}
+                  {isCorrect ? exercise.explanation : t('ex_right_order', { order: correctOrder.join(exercise.word ? '' : ' ') })}
                 </span>
               </div>
             </motion.div>
@@ -319,6 +349,7 @@ function DragFillExercise({
                 {i < parts.length - 1 && (
                   <motion.button
                     onClick={() => handleBlankTap(i)}
+                    aria-label={filledBlanks[i] ? t('ex_gap_filled', { n: i + 1, word: filledBlanks[i]! }) : t('ex_gap_empty', { n: i + 1 })}
                     className={`inline-flex items-center justify-center min-w-[60px] h-9 px-3 rounded-lg border-2 border-dashed font-bold text-sm transition-colors ${
                       filledBlanks[i]
                         ? showFeedback
@@ -347,6 +378,7 @@ function DragFillExercise({
               <motion.button
                 key={`${word}-${i}`}
                 onClick={() => handleWordTap(word, i)}
+                disabled={usedWords.has(i) || showFeedback}
                 className={`px-4 py-2 rounded-xl font-bold text-sm shadow-sm transition-all ${
                   usedWords.has(i)
                     ? 'opacity-30 bg-border text-fg-muted scale-90'
