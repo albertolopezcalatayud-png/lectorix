@@ -1,0 +1,34 @@
+const { chromium } = require('playwright');
+(async () => {
+  const b = await chromium.launch(); const errors = [];
+  const ctx = await b.newContext({ viewport: { width: 390, height: 844 } });
+  const p = await ctx.newPage(); p.on('pageerror', (e) => errors.push(e.message));
+  await p.goto('http://localhost:4173/lectorix/');
+  await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 }));
+    localStorage.setItem('lectorix-shelf', JSON.stringify({ state: { books: [{ id: 'b1', title: 'Matilda', color: '#f00', status: 'reading', started: new Date().toISOString() }], logs: [{ id: 'l1', bookId: 'b1', date: new Date().toISOString(), minutes: 30 }] }, version: 0 })); });
+  await p.goto('http://localhost:4173/lectorix/#/reto-lectura'); await p.reload(); await p.waitForTimeout(900);
+  await p.getByRole('button', { name: /60 min/ }).click();
+  await p.getByRole('button', { name: /Empezar el reto/ }).click(); await p.waitForTimeout(500);
+  let body = await p.innerText('body');
+  console.log(/30 min de 60 min/.test(body) ? 'PASS my paper minutes counted' : 'FAIL ' + body.slice(0, 300));
+  await p.fill('input[aria-label="Añadir a alguien de casa"]', 'Mamá'); await p.getByRole('button', { name: 'Añadir', exact: true }).click();
+  await p.getByRole('button', { name: '+30' }).click(); await p.waitForTimeout(800);
+  body = await p.innerText('body');
+  console.log(/Reto conseguido/.test(body) ? 'PASS team reached 60 → completed' : 'FAIL not completed');
+  await p.screenshot({ path: __dirname + '/rc.png', fullPage: true });
+  await p.goto('http://localhost:4173/lectorix/#/'); await p.waitForTimeout(800);
+  console.log(/Reto de la semana: 60 min de 60 min/.test(await p.innerText('body')) ? 'PASS dashboard card' : 'FAIL dashboard');
+  // friends: code
+  const code = await p.evaluate(() => JSON.parse(localStorage.getItem('lectorix-challenge')).state.current.code);
+  const p2 = await (await b.newContext({ viewport: { width: 390, height: 844 } })).newPage();
+  await p2.goto('http://localhost:4173/lectorix/');
+  await p2.evaluate(() => { localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'ca', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); });
+  await p2.goto('http://localhost:4173/lectorix/#/reto-lectura'); await p2.reload(); await p2.waitForTimeout(800);
+  await p2.fill('input[aria-label="Tinc un codi"]', 'LX-M60-000000'); await p2.getByRole('button', { name: 'Unir-me' }).click();
+  console.log(/no és vàlid/.test(await p2.innerText('body')) ? 'PASS bad code rejected' : 'FAIL bad code');
+  await p2.fill('input[aria-label="Tinc un codi"]', code.toLowerCase()); await p2.getByRole('button', { name: 'Unir-me' }).click(); await p2.waitForTimeout(500);
+  body = await p2.innerText('body');
+  console.log(/0 min de 60 min/.test(body) && new RegExp(code).test(body) ? 'PASS friend joined same challenge ' + code : 'FAIL join');
+  await p2.screenshot({ path: __dirname + '/rc-ca.png', fullPage: true });
+  console.log('ERRORS', errors); await b.close();
+})();

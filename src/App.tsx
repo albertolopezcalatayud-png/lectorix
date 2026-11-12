@@ -40,6 +40,7 @@ const WriteListen = lazy(() => import('@/pages/WriteListen'));
 const Shelf = lazy(() => import('@/pages/Shelf'));
 const Voices = lazy(() => import('@/pages/Voices'));
 const Printables = lazy(() => import('@/pages/Printables'));
+const ReadingChallenge = lazy(() => import('@/pages/ReadingChallenge'));
 const ReadAloud = lazy(() => import('@/pages/ReadAloud'));
 const HowILearn = lazy(() => import('@/pages/HowILearn'));
 const FamilyGuide = lazy(() => import('@/pages/HowILearn').then((m) => ({ default: m.FamilyGuide })));
@@ -90,6 +91,7 @@ function AnimatedRoutes() {
         <Route path="/como-aprendo" element={<PageTransition><HowILearn /></PageTransition>} />
         <Route path="/guia-familias" element={<PageTransition><FamilyGuide /></PageTransition>} />
         <Route path="/leer-en-voz-alta/:id" element={<PageTransition><ReadAloud /></PageTransition>} />
+        <Route path="/reto-lectura" element={<PageTransition><ReadingChallenge /></PageTransition>} />
         <Route path="/fichas" element={<PageTransition><Printables /></PageTransition>} />
         <Route path="/voces" element={<PageTransition><Voices /></PageTransition>} />
         <Route path="/estanteria" element={<PageTransition><Shelf /></PageTransition>} />

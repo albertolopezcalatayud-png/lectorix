@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Header } from '@/components/layout/Header';
@@ -15,6 +16,7 @@ const XP_LOGS_PER_DAY = 2;
 /** "My bookshelf": paper books the student is reading, time spent, books finished */
 export default function Shelf() {
   const { t } = useI18n();
+  const navigate = useNavigate();
   const { books, logs, addBook, updateBook, removeBook, logReading } = useShelfStore();
   const [adding, setAdding] = useState(false);
   const [title, setTitle] = useState('');
@@ -167,6 +169,11 @@ export default function Shelf() {
       <Header title={t('sh_title')} showBack />
       <div className="px-4 py-4 max-w-lg mx-auto space-y-4">
         <p className="text-sm text-fg-muted text-center">{t('sh_desc')}</p>
+        <button onClick={() => navigate('/reto-lectura')} className="w-full text-left rounded-2xl bg-accent-pale/50 border border-accent/30 px-4 py-3 flex items-center gap-3">
+          <span className="text-2xl">🏆</span>
+          <span className="flex-1"><span className="block font-heading font-extrabold text-sm">{t('rc_title')}</span><span className="block text-xs text-fg-muted">{t('rc_card_desc')}</span></span>
+          <span className="text-accent font-extrabold">→</span>
+        </button>
         <div className="grid grid-cols-3 gap-2 text-center">
           <Card padding="sm"><p className="text-xl font-black">{week.minutes}</p><p className="text-[10px] text-fg-muted">{t('sh_stat_min')}</p></Card>
           <Card padding="sm"><p className="text-xl font-black">{week.days.size}</p><p className="text-[10px] text-fg-muted">{t('sh_stat_days')}</p></Card>

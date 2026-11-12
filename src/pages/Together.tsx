@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { usePracticeLang } from '@/stores/useAppStore';
@@ -25,6 +26,7 @@ const shuffle = <T,>(a: T[]) => [...a].sort(() => Math.random() - 0.5);
 
 /** "Together" mode: short turn-based games for a child and an adult on one device */
 export default function Together() {
+  const navigate = useNavigate();
   const { t } = useI18n();
   const lang = usePracticeLang();
   const readings = useReadings();
@@ -46,6 +48,11 @@ export default function Together() {
     <div className="min-h-screen pb-24">
       <Header title={t('tg_title')} showBack />
       <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
+        <button onClick={() => navigate('/reto-lectura')} className="w-full text-left rounded-2xl bg-accent-pale/50 border border-accent/30 px-4 py-3 flex items-center gap-3 mb-1">
+          <span className="text-2xl">🏆</span>
+          <span className="flex-1"><span className="block font-heading font-extrabold text-sm">{t('rc_title')}</span><span className="block text-xs text-fg-muted">{t('rc_card_desc')}</span></span>
+          <span className="text-accent font-extrabold">→</span>
+        </button>
         {!game ? (
           <>
             <p className="text-sm text-fg-muted">{t('tg_desc')}</p>
