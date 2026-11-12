@@ -30,6 +30,8 @@ const useHomeworkStore = create<{ texts: SavedText[]; save: (t: SavedText) => vo
 const OCR_LANG = { es: 'spa', ca: 'cat', en: 'eng' } as const;
 
 /** Adapt any text — typed, pasted or from a photo of a page — with the reading aids */
+const OCR_REMOTE = 'https://albertolopezcalatayud-png.github.io/lectorix/tesseract/lang';
+
 export default function Homework() {
   const navigate = useNavigate();
   const { t } = useI18n();
@@ -47,7 +49,7 @@ export default function Homework() {
   const [draft, setDraft] = useState('');
   const [view, setView] = useState<SavedText | null>(null);
   const [ocr, setOcr] = useState<{ progress: number; status: string } | null>(null);
-  const [ocrError, setOcrError] = useState(false);
+  const [ocrError, setOcrError] = useState<boolean | 'net'>(false);
   const [picked, setPicked] = useState<{ p: number; w: number; word: string } | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
@@ -66,10 +68,12 @@ export default function Homework() {
       const worker = await createWorker(OCR_LANG[lang], 1, {
         workerPath: `${base}worker.min.js`,
         corePath: base,
-        langPath: `${base}lang`,
+        // The Android app does not carry the reading data of the three languages (about 6 MB):
+        // the first photo in a language downloads it from the Lectorix website and it is kept
+        // on the device for the next times. No photo or text leaves the device.
+        langPath: isNativeApp ? OCR_REMOTE : `${base}lang`,
         workerBlobURL: false,
-        // Android packaging renames .gz assets, so the app ships the language data uncompressed
-        gzip: !isNativeApp,
+        gzip: true,
         logger: (m: { status: string; progress: number }) => {
           if (m.status === 'recognizing text') setOcr({ progress: m.progress, status: t('hw_ocr_reading') });
         },
@@ -86,7 +90,7 @@ export default function Homework() {
       setOcr(null);
     } catch {
       setOcr(null);
-      setOcrError(true);
+      setOcrError(isNativeApp && !navigator.onLine ? 'net' : true);
     }
   };
 
@@ -224,7 +228,7 @@ export default function Homework() {
               </div>
             </div>
           )}
-          {ocrError && <p className="text-xs text-red">{t('hw_ocr_error')}</p>}
+          {ocrError && <p className="text-xs text-red">{t(ocrError === 'net' ? 'hw_ocr_net' : 'hw_ocr_error')}</p>}
           <p className="text-[10px] text-fg-muted">🔒 {t('hw_photo_privacy')}</p>
           <textarea
             value={draft}

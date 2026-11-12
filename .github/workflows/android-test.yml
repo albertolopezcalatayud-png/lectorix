@@ -39,6 +39,7 @@ jobs:
           npm ci
           npm run build:app
           npx cap sync android
+          rm -rf android/app/src/main/assets/public/tesseract/lang
       - name: Build release and debug APKs
         working-directory: android
         run: |

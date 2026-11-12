@@ -1122,6 +1122,9 @@ export const es = {
 
   // Onboarding
   onb_slide: 'Pantalla {n} de {total}',
+
+  // OCR download
+  hw_ocr_net: 'La primera vez que lees una foto en este idioma hace falta conexión a internet para descargar los datos de lectura (entre 1 y 3 MB). Después funciona sin conexión.',
 } as const;
 
 export type TranslationKey = keyof typeof es;

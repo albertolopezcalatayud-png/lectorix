@@ -34,6 +34,8 @@ jobs:
           npm ci
           npm run build:app
           npx cap sync android
+          # OCR reading data is downloaded on first use (see Homework.tsx), not shipped in the app
+          rm -rf android/app/src/main/assets/public/tesseract/lang
       - name: Build release bundle
         working-directory: android
         env:

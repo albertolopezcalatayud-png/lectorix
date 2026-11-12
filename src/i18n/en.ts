@@ -1124,4 +1124,7 @@ export const en: Record<TranslationKey, string> = {
 
   // Onboarding
   onb_slide: 'Screen {n} of {total}',
+
+  // OCR download
+  hw_ocr_net: 'The first time you read a photo in this language you need an internet connection to download the reading data (1 to 3 MB). After that it works offline.',
 };

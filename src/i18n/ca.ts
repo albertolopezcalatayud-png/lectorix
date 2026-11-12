@@ -1124,4 +1124,7 @@ export const ca: Record<TranslationKey, string> = {
 
   // Onboarding
   onb_slide: 'Pantalla {n} de {total}',
+
+  // OCR download
+  hw_ocr_net: 'La primera vegada que lliges una foto en este idioma cal connexió a internet per a descarregar les dades de lectura (entre 1 i 3 MB). Després funciona sense connexió.',
 };
