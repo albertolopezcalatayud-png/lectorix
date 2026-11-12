@@ -58,7 +58,7 @@ await ev(`(() => {
 await ev('location.hash = "#/"; location.reload(); true');
 await sleep(5000);
 
-const routes = ['/', '/modulos', '/ejercicio/fonologia/1', '/lectura', '/dictado', '/fluidez', '/adaptar', '/juntos', '/panel-padres', '/ajustes', '/mis-palabras', '/cuentos', '/escribe', '/estanteria', '/como-aprendo', '/guia-familias', '/leer-en-voz-alta/lectura_l1_gato'];
+const routes = ['/', '/modulos', '/ejercicio/fonologia/1', '/lectura', '/dictado', '/fluidez', '/adaptar', '/juntos', '/panel-padres', '/ajustes', '/mis-palabras', '/cuentos', '/escribe', '/estanteria', '/como-aprendo', '/guia-familias', '/leer-en-voz-alta/lectura_l1_gato', '/voces', '/fichas'];
 results.routes = {};
 for (const r of routes) {
   await ev(`location.hash = '#${r}'; true`);
@@ -89,6 +89,9 @@ results.spell = await ev(`(async () => {
   for (let i = 0; i < 20; i++) { await new Promise((r) => setTimeout(r, 500)); const u = [...document.querySelectorAll('button.decoration-wavy')].map((b) => b.innerText); if (u.length) return 'flagged: ' + u.join(','); if (/No se ha podido/.test(document.body.innerText)) return 'FAIL: dictionary not loaded'; }
   return 'FAIL: timeout'; })()`, 30000);
 shot('screen-spell');
+
+// Native plugins registered (print / save as PDF, share, on-device speech)
+results.plugins = await ev(`['HtmlPrint', 'ShareReceiver', 'OnDeviceSpeech'].map((n) => n + ':' + Capacitor.isPluginAvailable(n)).join(' ')`);
 
 // On-device speech recognition plugin (read-aloud check): it must answer, never crash
 results.onDeviceSpeech = {};
@@ -135,7 +138,7 @@ results.backButton = await ev('location.hash');
 results.errors = errors;
 log(JSON.stringify(results, null, 2));
 const ok = results.native && !results.speechSynthesisInWebView !== undefined && String(results.ocr).startsWith('OK') && errors.length === 0
-  && Object.values(results.onDeviceSpeech).every((v) => ['available', 'downloadable', 'downloading', 'unavailable'].includes(v)) && String(results.dict).includes('gzip true') && results.spell === 'flagged: ermano' && results.shareText === '#/adaptar | text shown';
+  && Object.values(results.onDeviceSpeech).every((v) => ['available', 'downloadable', 'downloading', 'unavailable'].includes(v)) && String(results.dict).includes('gzip true') && results.spell === 'flagged: ermano' && results.shareText === '#/adaptar | text shown' && !String(results.plugins).includes('false');
 log('RESULT', ok ? 'PASS' : 'CHECK');
 ws.close();
 process.exit(0);
