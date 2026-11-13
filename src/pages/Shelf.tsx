@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/Button';
 import { Confetti } from '@/components/ui/Confetti';
 import { useAppStore } from '@/stores/useAppStore';
 import { useShelfStore, paperWeek, type Book } from '@/services/shelf';
-import { useI18n } from '@/i18n';
+import { useI18n, dateLocale } from '@/i18n';
 import { awardXP } from '@/services/session';
 
 const MINUTES = [5, 10, 15, 20, 30, 45];
@@ -16,7 +16,7 @@ const XP_LOGS_PER_DAY = 2;
 
 /** "My bookshelf": paper books the student is reading, time spent, books finished */
 export default function Shelf() {
-  const { t } = useI18n();
+  const { t, language } = useI18n();
   const navigate = useNavigate();
   const { books, logs, addBook, updateBook, removeBook, logReading } = useShelfStore();
   const [adding, setAdding] = useState(false);
@@ -116,7 +116,7 @@ export default function Shelf() {
           ) : (
             <Card className="text-center">
               <p className="text-4xl mb-1">🏆</p>
-              <p className="font-heading font-black">{t('sh_finished_on', { date: new Date(book.finished!).toLocaleDateString() })}</p>
+              <p className="font-heading font-black">{t('sh_finished_on', { date: new Date(book.finished!).toLocaleDateString(dateLocale(language)) })}</p>
               <p className="text-xs font-bold mt-3 mb-1">{t('sh_liked_q')}</p>
               <div className="flex gap-1.5 justify-center">
                 {([1, 2, 3] as const).map((v) => (
@@ -136,7 +136,7 @@ export default function Shelf() {
               <ul className="space-y-1">
                 {bookLogs.slice(0, 15).map((l) => (
                   <li key={l.id} className="flex justify-between text-xs">
-                    <span>{new Date(l.date).toLocaleDateString()}</span>
+                    <span>{new Date(l.date).toLocaleDateString(dateLocale(language))}</span>
                     <span className="font-bold">{l.minutes} min{l.page ? ` · p. ${l.page}` : ''}{l.feel ? ` · ${['😀', '🙂', '😓'][l.feel - 1]}` : ''}</span>
                   </li>
                 ))}

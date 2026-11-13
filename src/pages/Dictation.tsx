@@ -25,6 +25,8 @@ async function loadDictations(lang: PracticeLang): Promise<Exercise[]> {
 const shuffle = <T,>(arr: T[]) => [...arr].sort(() => Math.random() - 0.5);
 const isSentence = (e: Exercise) => (e.answer || '').trim().includes(' ');
 
+const TABS = ['var(--color-coral)', 'var(--color-mint)', 'var(--color-yellow)', 'var(--color-sky)'];
+
 export default function Dictation() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -111,7 +113,7 @@ export default function Dictation() {
             const count = (pool ?? []).filter((e) => e.level === l).length;
             return (
               <motion.div key={l} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }}>
-                <Card hover onClick={() => setLevel(l)}>
+                <Card hover onClick={() => setLevel(l)} className="card-margin" style={{ ['--tab' as string]: TABS[i % TABS.length] }}>
                   <div className="flex items-center gap-3">
                     <span className="w-10 h-10 rounded-[12px] bg-accent-pale text-accent font-heading font-black flex items-center justify-center">
                       {l}

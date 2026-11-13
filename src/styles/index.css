@@ -264,3 +264,6 @@ h1, h2, h3, h4, h5, h6 {
 :root[data-reduce-motion="true"] .sticky-note, .no-tilt .sticky-note { transform: none; }
 /* Coloured tab on top of a card */
 .card-tab::before { content: ""; display: block; width: 36px; height: 5px; border-radius: 3px; background: var(--tab, var(--color-coral)); margin-bottom: 8px; }
+
+/* Notebook margin: a coloured strip on the left of list cards */
+.card-margin { border-left: 6px solid var(--tab, var(--color-coral)) !important; }

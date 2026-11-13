@@ -12,7 +12,7 @@ import { SyllableWord, useSyllableColoring } from '@/components/reading/Syllable
 import tts from '@/services/tts';
 import { isNativeApp } from '@/native/app';
 import { useShareInbox } from '@/native/share';
-import { useI18n } from '@/i18n';
+import { useI18n, dateLocale } from '@/i18n';
 
 interface SavedText { id: string; title: string; text: string; lang: string; date: string }
 
@@ -34,7 +34,7 @@ const OCR_REMOTE = 'https://albertolopezcalatayud-png.github.io/lectorix/tessera
 
 export default function Homework() {
   const navigate = useNavigate();
-  const { t } = useI18n();
+  const { t, language } = useI18n();
   const lang = usePracticeLang();
   const sylLang = useSyllableColoring();
   const { texts, save, remove } = useHomeworkStore();
@@ -252,7 +252,7 @@ export default function Homework() {
                     <span className="text-xl">📄</span>
                     <div className="flex-1 min-w-0">
                       <p className="text-sm font-bold truncate">{x.title}</p>
-                      <p className="text-[10px] text-fg-muted">{new Date(x.date).toLocaleDateString()}</p>
+                      <p className="text-[10px] text-fg-muted">{new Date(x.date).toLocaleDateString(dateLocale(language))}</p>
                     </div>
                     <button onClick={(e) => { e.stopPropagation(); remove(x.id); }} className="text-xs text-fg-muted px-2" aria-label={t('hw_delete')}>🗑</button>
                   </div>

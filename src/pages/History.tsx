@@ -4,10 +4,11 @@ import { useAppStore } from '@/stores/useAppStore';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import {MODULE_TEXT, getModule, levelNameKey } from '@/data/modules';
-import { useI18n } from '@/i18n';
+import { useI18n, dateLocale } from '@/i18n';
+import { LapiNote } from '@/components/mascot/LapiNote';
 import type { TranslationKey } from '@/i18n';
 
-function formatDate(iso: string, t: (key: TranslationKey, params?: Record<string, string | number>) => string): string {
+function formatDate(iso: string, t: (key: TranslationKey, params?: Record<string, string | number>) => string, loc: string): string {
   const d = new Date(iso);
   const now = new Date();
   const diff = now.getTime() - d.getTime();
@@ -20,7 +21,7 @@ function formatDate(iso: string, t: (key: TranslationKey, params?: Record<string
   if (hours < 24) return t('hist_hours_ago', { n: hours });
   if (days === 1) return t('hist_yesterday');
   if (days < 7) return t('hist_days_ago', { n: days });
-  return d.toLocaleDateString(undefined, { day: 'numeric', month: 'short' });
+  return d.toLocaleDateString(loc, { day: 'numeric', month: 'short' });
 }
 
 function formatTime(ms: number): string {
@@ -38,13 +39,13 @@ export default function History() {
   const sessionHistory = useAppStore((s) => s.sessionHistory);
   const user = useAppStore((s) => s.user);
   const navigate = useNavigate();
-  const { t } = useI18n();
+  const { t, language } = useI18n();
 
   // Group sessions by date
   const grouped: Record<string, typeof sessionHistory> = {};
   for (const session of sessionHistory) {
     const d = new Date(session.completed_at);
-    const key = d.toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'long' });
+    const key = d.toLocaleDateString(dateLocale(language), { weekday: 'long', day: 'numeric', month: 'long' });
     if (!grouped[key]) grouped[key] = [];
     grouped[key].push(session);
   }
@@ -58,13 +59,9 @@ export default function History() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center py-12"
+            className="text-center py-6"
           >
-            <span className="text-5xl block mb-4">📋</span>
-            <h2 className="font-heading font-extrabold text-lg mb-2">{t('hist_empty')}</h2>
-            <p className="text-sm text-fg-muted mb-4">
-              {t('hist_empty_desc')}
-            </p>
+            <LapiNote title={t('hist_empty')}>{t('hist_empty_desc')}</LapiNote>
             <button
               onClick={() => navigate('/modulos')}
               className="text-accent font-bold text-sm"
@@ -136,7 +133,7 @@ export default function History() {
                                 {session.mode === 'story' ? t('sto_title') : session.mode === 'study' ? t('st_title') : session.mode === 'exam_words' ? t('ev_title') : (mod ? t(MODULE_TEXT[mod.id].name) : '') || session.module}
                               </p>
                               <span className="text-[10px] text-fg-muted flex-shrink-0">
-                                {formatDate(session.completed_at, t)}
+                                {formatDate(session.completed_at, t, dateLocale(language))}
                               </span>
                             </div>
                             <div className="flex items-center gap-2 mt-0.5">

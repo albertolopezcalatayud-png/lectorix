@@ -17,31 +17,31 @@ export function Header({ title, showBack = false, showXP = true }: HeaderProps) 
 
   return (
     <header className="flex items-center justify-between px-4 py-3 bg-bg-card/80 backdrop-blur-md border-b border-border sticky top-0 z-40">
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 min-w-0">
         {showBack && (
           <button
             onClick={() => navigate(-1)}
             aria-label={t('back')}
-            className="w-9 h-9 flex items-center justify-center rounded-xl bg-accent-pale text-accent text-lg"
+            className="w-9 h-9 shrink-0 flex items-center justify-center rounded-xl bg-accent-pale text-accent text-lg"
           >
             ←
           </button>
         )}
         {title ? (
-          <h1 className="font-heading font-bold text-lg"><span className="ink-underline">{title}</span></h1>
+          <h1 className={`font-heading font-bold leading-tight ${title.length > 20 ? 'text-base' : 'text-lg'}`}><span className="ink-underline">{title}</span></h1>
         ) : (
           <span className="font-heading font-black text-xl text-accent">Lectorix</span>
         )}
       </div>
 
       {showXP && user && xpInfo && (
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 shrink-0 ml-2">
           <div className="flex items-center gap-1 bg-yellow-pale px-2.5 py-1 rounded-full" role="img" aria-label={t('hdr_streak_aria', { n: user.streak_days })}>
             <span className="text-sm">✏️</span>
             <span className="text-xs font-extrabold text-yellow">{user.streak_days}</span>
           </div>
           <div className="flex items-center gap-1 bg-accent-pale px-2.5 py-1 rounded-full" role="img" aria-label={t('hdr_level_aria', { n: xpInfo.level })}>
-            <span className="text-xs font-extrabold text-accent" aria-hidden>{t('hdr_level', { n: xpInfo.level })}</span>
+            <span className="text-xs font-extrabold text-accent whitespace-nowrap" aria-hidden>{t('hdr_level', { n: xpInfo.level })}</span>
           </div>
         </div>
       )}

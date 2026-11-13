@@ -197,7 +197,7 @@ export default function Dashboard() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.2 + i * 0.05 }}
                 >
-                  <Card hover onClick={() => navigate(`/modulos/${mod.id}`)}>
+                  <Card hover onClick={() => navigate(`/modulos/${mod.id}`)} className="card-margin" style={{ ['--tab' as string]: mod.color }}>
                     <div className="flex items-center gap-3">
                       <span className="text-2xl w-10 h-10 flex items-center justify-center rounded-[12px]"
                         style={{ backgroundColor: mod.colorPale }}>

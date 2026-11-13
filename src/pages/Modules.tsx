@@ -31,7 +31,7 @@ export default function Modules() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.06 }}
             >
-              <Card hover onClick={() => navigate(`/modulos/${mod.id}`)} padding="lg">
+              <Card hover onClick={() => navigate(`/modulos/${mod.id}`)} padding="lg" className="card-margin" style={{ ['--tab' as string]: mod.color }}>
                 <div className="flex items-start gap-4">
                   <div
                     className="w-14 h-14 flex items-center justify-center rounded-2xl text-3xl"

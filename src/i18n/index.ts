@@ -51,3 +51,8 @@ export function getTranslator(language: string) {
 }
 
 export type { TranslationKey };
+
+/** Locale for dates and numbers in the interface language (never the device's own language) */
+export function dateLocale(language: string): string {
+  return language === 'ca' ? 'ca-ES' : language === 'en' ? 'en-GB' : 'es-ES';
+}

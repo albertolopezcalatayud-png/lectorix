@@ -8,6 +8,7 @@ import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import tts from '@/services/tts';
+import { LapiNote } from '@/components/mascot/LapiNote';
 import { useI18n } from '@/i18n';
 
 /** Personal notebook of the words the student finds hard */
@@ -36,11 +37,7 @@ export default function Notebook() {
         <p className="text-sm text-fg-muted">{t('nb_desc')}</p>
 
         {pending.length === 0 ? (
-          <Card className="text-center py-8">
-            <div className="text-4xl mb-2">📒</div>
-            <p className="font-heading font-extrabold">{t('nb_empty_title')}</p>
-            <p className="text-xs text-fg-muted mt-1">{t('nb_empty_desc')}</p>
-          </Card>
+          <LapiNote title={t('nb_empty_title')}>{t('nb_empty_desc')}</LapiNote>
         ) : (
           <>
             <Button fullWidth onClick={() => navigate('/repaso', { state: { all: true, keys: pending.map((w) => w.key) } })}>

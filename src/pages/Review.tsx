@@ -13,6 +13,7 @@ import { WriteExercise } from '@/components/exercise/WriteExercise';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
+import { LapiNote } from '@/components/mascot/LapiNote';
 import { useI18n } from '@/i18n';
 
 const MAX_PER_SESSION = 12;
@@ -97,10 +98,8 @@ export default function Review() {
     return (
       <div className="min-h-screen pb-24">
         <Header title={t('srs_title')} showBack />
-        <div className="px-4 py-10 max-w-lg mx-auto text-center space-y-4">
-          <div className="text-5xl">🌟</div>
-          <h2 className="font-heading font-extrabold text-lg">{t('srs_none_title')}</h2>
-          <p className="text-sm text-fg-muted">{t('srs_none_desc')}</p>
+        <div className="px-4 py-8 max-w-lg mx-auto space-y-4">
+          <LapiNote title={t('srs_none_title')}>{t('srs_none_desc')}</LapiNote>
           <Button fullWidth onClick={() => navigate('/', { replace: true })}>{t('res_home')}</Button>
         </div>
       </div>
