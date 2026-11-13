@@ -78,19 +78,52 @@ export function getSpeechLang(): SpeechLang {
   return speechLang;
 }
 
-/** Best voice for a language. English prefers British voices; Valencian uses Catalan voices. */
-function getVoiceFor(lang: SpeechLang): SpeechSynthesisVoice | null {
+/**
+ * Best installed voice for a BCP-47 tag (es-ES, ca-ES, en-GB…).
+ * Valencian prefers a voice labelled as Valencian when the device has one, then any Catalan voice;
+ * English prefers British voices. null when no voice for that language is installed.
+ */
+export function pickVoice(tag: string): SpeechSynthesisVoice | null {
+  if (!('speechSynthesis' in window)) return null;
   const voices = window.speechSynthesis.getVoices();
-  const norm = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-').toLowerCase();
-  const tag = BCP47[lang].toLowerCase();
+  const norm = (v: SpeechSynthesisVoice) => v.lang.replace(/_/g, '-').toLowerCase();
+  const want = tag.toLowerCase();
+  const base = want.split('-')[0];
   const good = (v: SpeechSynthesisVoice) => v.localService || v.name.toLowerCase().includes('google');
+  const valencian = (v: SpeechSynthesisVoice) => norm(v).includes('valencia') || /valenci/i.test(v.name);
   return (
-    voices.find((v) => norm(v) === tag && good(v)) ||
-    voices.find((v) => norm(v) === tag) ||
-    voices.find((v) => norm(v).startsWith(lang + '-')) ||
-    voices.find((v) => norm(v) === lang) ||
+    (base === 'ca' ? voices.find(valencian) : undefined) ||
+    voices.find((v) => norm(v) === want && good(v)) ||
+    voices.find((v) => norm(v) === want) ||
+    voices.find((v) => norm(v).startsWith(base + '-') && good(v)) ||
+    voices.find((v) => norm(v).startsWith(base + '-')) ||
+    voices.find((v) => norm(v) === base) ||
     null
   );
+}
+
+function getVoiceFor(lang: SpeechLang): SpeechSynthesisVoice | null {
+  return pickVoice(BCP47[lang]);
+}
+
+/**
+ * The device has voices, but none for this language: speaking would make another language's
+ * voice read the text (a Spanish voice reading Valencian teaches the wrong sounds).
+ * In that case Lectorix stays silent and tells the family once how to install the voice.
+ */
+const warned = new Set<string>();
+function missingVoice(tag: string): boolean {
+  let missing = false;
+  if (isNative) missing = !nativeHas(tag);
+  else if ('speechSynthesis' in window) {
+    const all = window.speechSynthesis.getVoices();
+    missing = all.length > 0 && pickVoice(tag) === null;
+  }
+  if (missing && !warned.has(tag)) {
+    warned.add(tag);
+    try { window.dispatchEvent(new CustomEvent('lectorix:novoice', { detail: { tag } })); } catch { /* ignore */ }
+  }
+  return missing;
 }
 
 /** true when the device has a voice for the language (false while voices are still loading) */
@@ -107,6 +140,11 @@ export function hasVoiceFor(lang: SpeechLang): boolean {
 export function speak(text: string, options?: { rate?: number; pitch?: number }): Promise<void> {
   return new Promise((resolve) => {
     if (!isTTSAvailable() || !isTTSEnabled()) {
+      resolve();
+      return;
+    }
+
+    if (missingVoice(BCP47[speechLang])) {
       resolve();
       return;
     }
@@ -165,6 +203,10 @@ export function speakTracked(
 ): Promise<TrackedResult> {
   return new Promise((resolve) => {
     if (!isTTSAvailable() || !isTTSEnabled()) {
+      resolve({ ok: false, boundaries: false, interrupted: false });
+      return;
+    }
+    if (missingVoice(BCP47[speechLang])) {
       resolve({ ok: false, boundaries: false, interrupted: false });
       return;
     }
@@ -253,14 +295,14 @@ export async function spellWord(word: string, delayMs = 350): Promise<void> {
 
 /** Speak in any language tag (used by the family panel). Resolves when finished. */
 export function speakIn(text: string, tag: string, rate = 0.9): Promise<void> {
+  if (missingVoice(tag)) return Promise.resolve();
   if (isNative) return nativeSpeak(text, tag, rate).then(() => undefined);
   return new Promise((resolve) => {
     if (!('speechSynthesis' in window)) return resolve();
     window.speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = tag;
-    const base = tag.split('-')[0].toLowerCase();
-    const v = window.speechSynthesis.getVoices().find((x) => x.lang.toLowerCase().replace('_', '-').startsWith(base));
+    const v = pickVoice(tag);
     if (v) u.voice = v;
     u.rate = rate;
     u.onend = () => resolve();

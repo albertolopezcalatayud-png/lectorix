@@ -1138,6 +1138,13 @@ export const es = {
   xp_page: 'Página {level}',
   pts_plus: '+{n} puntos',
   pts_n: '{n} puntos',
+
+  // No-voice notice
+  novoice_ca: 'Este dispositivo no tiene voz en valenciano, así que no lo leo con otra voz que lo pronunciaría mal.',
+  novoice_es: 'Este dispositivo no tiene voz en castellano, así que no lo leo con otra voz que lo pronunciaría mal.',
+  novoice_en: 'Este dispositivo no tiene voz en inglés, así que no lo leo con otra voz que lo pronunciaría mal.',
+  novoice_how: 'Instalarla',
+  novoice_close: 'Cerrar aviso',
 } as const;
 
 export type TranslationKey = keyof typeof es;

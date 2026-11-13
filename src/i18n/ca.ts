@@ -1140,4 +1140,11 @@ export const ca: Record<TranslationKey, string> = {
   xp_page: 'Pàgina {level}',
   pts_plus: '+{n} punts',
   pts_n: '{n} punts',
+
+  // No-voice notice
+  novoice_ca: 'Este dispositiu no té veu en valencià, així que no ho llig amb una altra veu que ho pronunciaria malament.',
+  novoice_es: 'Este dispositiu no té veu en castellà, així que no ho llig amb una altra veu que ho pronunciaria malament.',
+  novoice_en: 'Este dispositiu no té veu en anglés, així que no ho llig amb una altra veu que ho pronunciaria malament.',
+  novoice_how: 'Instal·lar-la',
+  novoice_close: 'Tancar l’avís',
 };

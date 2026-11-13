@@ -1140,4 +1140,11 @@ export const en: Record<TranslationKey, string> = {
   xp_page: 'Page {level}',
   pts_plus: '+{n} points',
   pts_n: '{n} points',
+
+  // No-voice notice
+  novoice_ca: 'This device has no Valencian voice, so I won’t read it with another voice that would say it wrong.',
+  novoice_es: 'This device has no Spanish voice, so I won’t read it with another voice that would say it wrong.',
+  novoice_en: 'This device has no English voice, so I won’t read it with another voice that would say it wrong.',
+  novoice_how: 'Install it',
+  novoice_close: 'Close notice',
 };

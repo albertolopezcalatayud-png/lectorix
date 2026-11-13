@@ -6,6 +6,7 @@ import { OfflineBanner } from '@/components/ui/OfflineBanner';
 import { Onboarding } from '@/components/onboarding/Onboarding';
 import { PageTransition } from '@/components/layout/PageTransition';
 import { ErrorBoundary } from '@/components/system/ErrorBoundary';
+import { NoVoiceNotice } from '@/components/system/NoVoiceNotice';
 import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
 import { setSpeechLang } from '@/services/tts';
 import { ReadingRuler } from '@/components/reading/ReadingRuler';
@@ -171,6 +172,7 @@ export default function App() {
           </Suspense>
         </ErrorBoundaryWithRoute>
         <RulerHost />
+        <NoVoiceNotice />
         <BottomNav />
       </div>
     </HashRouter>
