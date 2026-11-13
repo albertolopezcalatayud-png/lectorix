@@ -1,0 +1,1 @@
+    topResumedActivity=ActivityRecord{a2b04c7 u0 com.lectorix.app/.MainActivity t8}

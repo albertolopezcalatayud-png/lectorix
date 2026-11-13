@@ -1,0 +1,50 @@
+target https://localhost/
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+{
+  "native": true,
+  "userAgent": "Mozilla/5.0 (Linux; Android 15; sdk_gphone64_x86_64 Build/AE3A.240806.036; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.219 Mobile Safari/537.36",
+  "speechSynthesisInWebView": false,
+  "routes": {
+    "/": "Lectorix ✏️ 2 Pág. 1 ¡Hola, Estudiante! 👋 ¿Listo para practicar hoy? 🧭 Encuentra tu nivel Una prueba corta para empeza",
+    "/modulos": "← Módulos ✏️ 2 Pág. 1 🔊 Fonología Reconocimiento de sonidos, sílabas y conciencia fonológica 0/9 ⭐ 0 estrellas 9 nivele",
+    "/ejercicio/fonologia/1": "✕ Fonología Nivel 1 Pregunta 1 de 10 1/10 🔊 Ordena las sílabas para formar la palabra Arrastra las piezas, o toca dos p",
+    "/lectura": "← 📖 Lectura guiada ✏️ 2 Pág. 1 Lee mientras escuchas, palabra a palabra 💭 ¿Qué te gusta leer? Elige tus temas favorito",
+    "/dictado": "← 🎧 Dictado ✏️ 2 Pág. 1 Consejo: escucha la frase entera antes de empezar a escribir. Elige tu nivel 1 Despegue 22 dict",
+    "/fluidez": "← Fluidez lectora ✏️ 2 Pág. 1 Lee en voz alta durante un minuto. Al terminar, toca la última palabra que has leído y la ",
+    "/adaptar": "← Adaptar mis deberes ✏️ 2 Pág. 1 Haz una foto a una página del libro o pega un texto, y léelo con sílabas de colores, m",
+    "/juntos": "← Juntos ✏️ 2 Pág. 1 🏆 Reto de lectura Un reto semanal en familia o con amigos → Juegos cortos para hacer con un adulto",
+    "/panel-padres": "← Panel para padres ✏️ 2 Pág. 1 Guardar en PDF o imprimir 🧑‍🎓 Estudiante Página 1 · 20 puntos · ✏️ 2 días seguidos 🌍 ",
+    "/ajustes": "← Ajustes ✏️ 2 Pág. 1 Pantalla 💻 Sistema ☀️ Claro 🌙 Oscuro Idioma 🇪🇸 Español ✓ 🟧 Valencià 🇬🇧 English Idioma de pr",
+    "/mis-palabras": "← Mis palabras difíciles ✏️ 2 Pág. 1 Aquí se guardan las palabras que has fallado. Escúchalas, repásalas y márcalas cuan",
+    "/cuentos": "← Cuentos a tu medida ✏️ 2 Pág. 1 Elige un protagonista, un lugar y un objeto. La app escribe un cuento de tu nivel con ",
+    "/escribe": "← Escribe y escúchalo ✏️ 2 Pág. 1 Castellano Valenciano Inglés Sugerirme palabras mientras escribo 🔊 Escúchalo 🔍 Revis",
+    "/estanteria": "← Mi estantería ✏️ 2 Pág. 1 Apunta aquí los libros de papel que lees. El tiempo de lectura cuenta para tus días seguidos",
+    "/como-aprendo": "← Entiendo cómo aprendo ✏️ 2 Pág. 1 Cada cerebro aprende a leer a su manera. Aquí tienes ideas para conocerte mejor y sa",
+    "/guia-familias": "← Guía para la familia ✏️ 2 Pág. 1 Ideas generales para acompañar la lectura y la escritura en casa. No sustituye la val",
+    "/leer-en-voz-alta/lectura_l1_gato": "← Léelo tú en voz alta ✏️ 2 Pág. 1 🎤 Esta opción está desactivada. La familia puede activarla en el panel para familias",
+    "/voces": "← Voces para leer en voz alta ✏️ 2 Pág. 1 Lectorix usa las voces que trae el propio dispositivo. Muchos móviles no traen",
+    "/fichas": "← Practicar en papel ✏️ 2 Pág. 1 Crea una ficha con ejercicios del nivel del alumno en cada área, para hacer en papel si"
+  },
+  "tts": {
+    "es-ES": true,
+    "ca-ES": true,
+    "en-GB": true
+  },
+  "ttsSpeak": "spoke in 3452 ms",
+  "ttsWords": "word events: 7",
+  "dict": "bytes 289746, gzip true",
+  "spell": "flagged: ermano",
+  "plugins": "HtmlPrint:true ShareReceiver:true OnDeviceSpeech:true",
+  "onDeviceSpeech": {
+    "es-ES": "downloadable",
+    "ca-ES": "unavailable",
+    "en-GB": "downloadable"
+  },
+  "ocr": "OK: El río Turia atraviesa la ciudad de Valencia. Los niños juegan en el parque.",
+  "notifPerm": "granted",
+  "notifSchedule": "scheduled",
+  "shareText": "#/adaptar | text shown",
+  "backButton": "#/modulos",
+  "errors": []
+}
+RESULT PASS

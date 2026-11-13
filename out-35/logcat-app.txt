@@ -1,0 +1,300 @@
+11-13 19:17:09.440  4544  4609 D Capacitor: Handling local request: https://localhost/assets/content-BIfcPJNZ.js
+11-13 19:17:09.455  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Card-Dy0wRnRT.js
+11-13 19:17:09.456  4544  4609 D Capacitor: Handling local request: https://localhost/assets/shelf-xpb1ZBRq.js
+11-13 19:17:09.456  4544  4609 D Capacitor: Handling local request: https://localhost/assets/challenge-Dfy8QbKl.js
+11-13 19:17:09.459  4544  4595 D Capacitor: Handling local request: https://localhost/assets/review-czc3noR3.js
+11-13 19:17:09.460  4544  4595 D Capacitor: Handling local request: https://localhost/assets/gamification-D89VJHAx.js
+11-13 19:17:09.490  4544  4613 D Capacitor: Handling local request: https://localhost/assets/ProgressBar-010SAuuv.js
+11-13 19:17:09.491  4544  4608 D Capacitor: Handling local request: https://localhost/assets/Header-BrkYjQpF.js
+11-13 19:17:09.496  4544  4609 D Capacitor: Handling local request: https://localhost/assets/MascotAvatar-DmSe6DP_.js
+11-13 19:17:09.585  4544  4583 D Capacitor: Handling local request: https://localhost/assets/lexend-latin-700-normal-zYJ_wVsA.woff2
+11-13 19:17:09.586  4544  4583 D Capacitor: Handling local request: https://localhost/assets/lexend-latin-400-normal-4kmgQazr.woff2
+11-13 19:17:09.644  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:09.724  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:10.018  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445783, pluginId: StatusBar, methodName: setStyle
+11-13 19:17:10.019  4544  4544 V Capacitor: callback: 46445783, pluginId: StatusBar, methodName: setStyle, methodData: {"style":"LIGHT"}
+11-13 19:17:10.084  4544  4583 D Capacitor: Handling local request: https://localhost/assets/fonologia-Cm1-mCzA.js
+11-13 19:17:10.099  4544  4583 D Capacitor: Handling local request: https://localhost/assets/memoria_visual-DCfgOGMP.js
+11-13 19:17:10.104  4544  4584 D Capacitor: Handling local request: https://localhost/assets/comprension_lectora-BR4wThPs.js
+11-13 19:17:10.104  4544  4584 D Capacitor: Handling local request: https://localhost/assets/escritura-DrEovznH.js
+11-13 19:17:10.104  4544  4584 D Capacitor: Handling local request: https://localhost/assets/retos_rapidos-B-HL-BMe.js
+11-13 19:17:10.159  4544  4583 D Capacitor: Handling local request: https://localhost/assets/lexend-latin-800-normal-CnQOEYd9.woff2
+11-13 19:17:10.184  4544  4544 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-13 19:17:10.185  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445784, pluginId: StatusBar, methodName: setBackgroundColor
+11-13 19:17:10.185  4544  4544 V Capacitor: callback: 46445784, pluginId: StatusBar, methodName: setBackgroundColor, methodData: {"color":"#FBF8F1"}
+11-13 19:17:10.218  4544  4544 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-13 19:17:10.221  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445785, pluginId: App, methodName: addListener
+11-13 19:17:10.221  4544  4544 V Capacitor: callback: 46445785, pluginId: App, methodName: addListener, methodData: {"eventName":"backButton"}
+11-13 19:17:10.292   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:13.387  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445786, pluginId: SplashScreen, methodName: hide
+11-13 19:17:13.389  4544  4544 V Capacitor: callback: 46445786, pluginId: SplashScreen, methodName: hide, methodData: {"fadeOutDuration":250}
+11-13 19:17:13.510  4544  4544 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-13 19:17:15.004  1238  1244 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:17.452  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:17.803  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Modules-9eZ20C7q.js
+11-13 19:17:18.267   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:18.389  1238  1244 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:20.351  2356  2356 I PhenotypeBackgroundRecv: Skipping com.google.android.libraries.search.device#com.google.android.tts which doesn't use ProcessStable flags.
+11-13 19:17:20.692  1409  2189 I AiAiCaptions: TtsLangFetcherImpl::fetch(). Fetching locales en_US
+11-13 19:17:20.710  1409  2189 I TextToSpeech: Sucessfully bound to com.google.android.tts
+11-13 19:17:20.711  1409  2189 I AiAiCaptions: TtsLangFetcherImpl::fetch(). Fetching locales en_US
+11-13 19:17:20.711  1409  2189 W AiAiCaptions: TtsSynthesizerImpl::initialize(): TTS engine is initializing
+11-13 19:17:20.713   545  2580 D TextToSpeechManagerPerUserService: Trying to start connection to TTS engine: com.google.android.tts
+11-13 19:17:20.717   545   545 D TextToSpeechManagerPerUserService: Connected successfully to TTS engine: com.google.android.tts
+11-13 19:17:20.723  1409  2661 I TextToSpeech: Connected to TTS engine
+11-13 19:17:20.750  2356  3370 I GoogleTTSServiceImpl: currentLocale = en-US
+11-13 19:17:20.825  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:20.832  2356  3370 I GoogleTTSServiceImpl: For default lang en-us is name en-US-language (en-us-x-iog-server)
+11-13 19:17:20.832  1409  2523 I TextToSpeech: Setting up the connection to TTS engine...
+11-13 19:17:20.841  1409  1409 I AiAiCaptions: TtsSynthesizerImpl::onInit(): status: true(0).
+11-13 19:17:21.093  2356  2861 I GoogleTTSServiceImpl: onIsValidVoiceName(en-us-x-tpf-local): SUCCESS
+11-13 19:17:21.151  2356  4641 I GoogleTTSServiceImpl: Synthesis request for locale eng-USA and name en-us-x-tpf-local
+11-13 19:17:21.152  2356  4641 I GoogleTTSServiceImpl: TTS dispatch: en-us-x-tpf-lstm-embedded
+11-13 19:17:21.176  2356  2861 I GoogleTTSServiceImpl: onIsValidVoiceName(en-us-x-tpf-local): SUCCESS
+11-13 19:17:21.453  1409  1425 W ogle.android.as: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:21.533  2356  2504 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.gms.icing.mdd#com.google.android.tts
+11-13 19:17:21.559  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Exercise-CmRZkBrn.js
+11-13 19:17:21.584  4544  4584 D Capacitor: Handling local request: https://localhost/assets/steps-BJYCqNZz.js
+11-13 19:17:21.585  2356  2504 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.tts#com.google.android.tts
+11-13 19:17:21.636  4544  4584 D Capacitor: Handling local request: https://localhost/assets/ExerciseCard-J0kwoTAN.js
+11-13 19:17:21.637  4544  4584 D Capacitor: Handling local request: https://localhost/assets/SyllableText-Bw-vRbbZ.js
+11-13 19:17:21.637  4544  4584 D Capacitor: Handling local request: https://localhost/assets/sounds-Dz7cy2TD.js
+11-13 19:17:21.637  4544  4584 D Capacitor: Handling local request: https://localhost/assets/DragDropExercise-CSoDdZDL.js
+11-13 19:17:21.638  4544  4583 D Capacitor: Handling local request: https://localhost/assets/WriteExercise-Dvy7PpZz.js
+11-13 19:17:21.638  4544  4583 D Capacitor: Handling local request: https://localhost/assets/session-Bu1Fdz6o.js
+11-13 19:17:21.639  4544  4583 D Capacitor: Handling local request: https://localhost/assets/notifications-B31MrjGD.js
+11-13 19:17:21.919  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445787, pluginId: LocalNotifications, methodName: checkPermissions
+11-13 19:17:21.919  4544  4544 V Capacitor: callback: 46445787, pluginId: LocalNotifications, methodName: checkPermissions, methodData: {}
+11-13 19:17:22.304  1409  4975 I AiAiCaptions: TtsSynthesizerImpl::handleRequestSuccess(): requestId: requestId: 2
+11-13 19:17:22.307  2356  4641 I GoogleTTSServiceImpl: Synthesis request for locale eng-USA and name en-us-x-tpf-local
+11-13 19:17:22.309  2356  4641 I GoogleTTSServiceImpl: TTS dispatch: en-us-x-tpf-lstm-embedded
+11-13 19:17:22.313  1409  1755 I AiAiCaptions: TtsSynthesizerImpl::handleRequestSuccess(): requestId: requestId: 3
+11-13 19:17:22.338  1409  2574 I AiAiCaptions: TtsLangFetcherImpl::fetch(). Fetching 1 lang packs is finished. Failures count: 0
+11-13 19:17:22.340   545  2580 D TextToSpeechManagerPerUserService: Unbinding TTS engine: com.google.android.tts. Reason: client disconnection request
+11-13 19:17:22.341   545   545 W TextToSpeechManagerPerUserService: Disconnected from TTS engine
+11-13 19:17:22.353  1409  2574 I AiAiCaptions: TtsLangFetcherImpl::fetch(). Fetching 1 lang packs is finished. Failures count: 0
+11-13 19:17:22.355  1409  2660 I TextToSpeech: Disconnected from TTS engine
+11-13 19:17:22.801  1372  1384 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:25.264  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:25.579  4544  4584 D Capacitor: Handling local request: https://localhost/assets/ReadingList-DHiyztlV.js
+11-13 19:17:25.589  4544  4584 D Capacitor: Handling local request: https://localhost/assets/readings-CwyQkow5.js
+11-13 19:17:25.873  4544  4583 D Capacitor: Handling local request: https://localhost/assets/lecturas-C4_jab9E.js
+11-13 19:17:26.739  1238  1244 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:28.463  1372  1384 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:28.793  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:29.399  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Dictation-wXq6ZnvS.js
+11-13 19:17:29.947  1238  1244 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:32.145  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:32.469  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Fluency-BC9vol59.js
+11-13 19:17:32.469  4544  4583 D Capacitor: Handling local request: https://localhost/assets/fluency-D6iRbhpN.js
+11-13 19:17:33.646   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:35.421  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:35.654  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Homework-C1kQ6Zem.js
+11-13 19:17:37.820   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:38.400  5029  5035 W android.vending: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:38.783  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:39.017  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Together-B2_FhaXB.js
+11-13 19:17:40.238   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:42.067  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:42.338  4544  4583 D Capacitor: Handling local request: https://localhost/assets/ParentPanel-C19hKmvb.js
+11-13 19:17:42.350  4544  4595 D Capacitor: Handling local request: https://localhost/assets/Stars-CoCQl8EH.js
+11-13 19:17:42.350  4544  4595 D Capacitor: Handling local request: https://localhost/assets/readAloud-CZvWObdw.js
+11-13 19:17:42.350  4544  4609 D Capacitor: Handling local request: https://localhost/assets/printDoc-Co0K6HZi.js
+11-13 19:17:42.672  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445788, pluginId: OnDeviceSpeech, methodName: availability
+11-13 19:17:42.672  4544  4544 V Capacitor: callback: 46445788, pluginId: OnDeviceSpeech, methodName: availability, methodData: {"lang":"es-ES"}
+11-13 19:17:42.707  4544  4583 D Capacitor: Handling local request: https://localhost/assets/lexend-latin-600-normal-CnenkszJ.woff2
+11-13 19:17:42.734  4544  4583 D Capacitor: Handling local request: https://localhost/assets/lexend-latin-ext-700-normal-BqyU7xwf.woff2
+11-13 19:17:42.760  5029  5029 W Finsky  : [2] No everExternallyHosted provided for com.google.android.tts
+11-13 19:17:42.766  5029  5077 I Finsky  : [57] UCtl: Capture account null for next update of com.google.android.tts
+11-13 19:17:42.772  5029  5029 I Finsky  : [2] UChk: package com.google.android.tts has available update because at least one of the following constraints met: isAutoDeployInstall=false, canUpdateApp=true.
+11-13 19:17:42.891  5029  5095 I Finsky  : [63] AU2: building with PhoneBasic for com.google.android.tts
+11-13 19:17:42.900  5029  5095 I Finsky  : [63] AU2: Auto update is enabled, skipping global auto update disabled check for package com.google.android.tts
+11-13 19:17:43.419  5029  5077 I Finsky  : [57] UIMP: No update discovered for com.google.android.tts
+11-13 19:17:43.572  5082  5143 I Finsky:background: [60] IQ: Attempting to validate incoming request. [Package:com.google.android.tts, isid:SoOW0UHLSQyn5nlk4BmI-A]
+11-13 19:17:43.572  5082  5143 I Finsky:background: [60] IQ: Attempting to validate incoming request. [Package:com.google.android.gm, isid:nerwyNk_Rk6KhTTsOlqk6g]
+11-13 19:17:43.572  5082  5143 I Finsky:background: [60] IQ::SLP: Process requests [Package:com.google.android.apps.wellbeing, isid:gRfQJcg3RG6EQu4jDaNidA], [Package:com.google.android.apps.restore, isid:TjwsktinQqiQvz9HQJYXpQ], [Package:com.google.android.partnersetup, isid:jsxUVaHZRT6GfEtqJS8yXw], [Package:com.google.android.tts, isid:SoOW0UHLSQyn5nlk4BmI-A], [Package:com.google.android.apps.photos, isid:tg_GAIhoSVSiNI2BRpvFWA], [Package:com.google.android.apps.youtube.music, isid:E3RROsVKSsyFDktU_KMsng], [Package:com.google.android.webview, isid:Af1RpKjgSl2oNFomIcB_0w], [Package:com.google.android.apps.docs, isid:5G1IGFd3QkeQnhsWcqqvEg], [Package:com.google.android.gms, isid:U1qRcTtDRxKg4BJO6_j7_g], [Package:com.google.android.dialer, isid:a0Yl3GbbRDinWkJ6O4kAIw], [Package:com.google.android.deskclock, isid:67MvRjdnR8u7Kk8Jnp4hgQ], [Package:com.google.android.apps.safetyhub, isid:nElHVln4SJWbFhX1HcKYsg], [Package:com.google.android.apps.maps, isid:TfDuTZVMR_-616yDMZgkPQ], [Package:com.google.android.apps.messaging, isid:QtkEcCLwSEa3x0pzLELbEA], [Package:com.google.android.googlequicksearchbox, isid:WF1VIPoFQKmc_koImBZhNA], [Package:com.google.android.as.oss, isid:cPr-17JeSwau1TdoPCoAfw], [Package:com.android.chrome, isid:uA47u6B3TB6LAqBIK5dX-Q], [Package:com.google.android.youtube, isid:VFcXpTCITnyntl52sq1W-Q], [Package:com.google.android.contacts, isid:eHFPnoI_QeygYZ9kk7MqIg], [Package:com.google.android.gm, isid:nerwyNk_Rk6KhTTsOlqk6g], [Package:com.google.android.inputmethod.latin, isid:pMe-GMygQFe_whpyfzZEaQ], [Package:com.google.android.calendar, isid:ULd2wTmASgGF7hd1DIQj5g].
+11-13 19:17:43.668  5082  5143 I Finsky:background: [60] IQ: Scheduling install request package_name=com.google.android.tts, pm_package_name=com.google.android.tts, version=210693707, priority=3, reason=auto_update, account_name=, type=0, isid=SoOW0UHLSQyn5nlk4BmI-A, install_tier_type=INSTALL_TIER_TYPE_UNSPECIFIED, constraints=((REQ_CHARGING, REQ_DEVICE_IDLE, REQ_GEARHEAD_PROJECTION_OFF, NETWORK=UNMETERED, PROVISIONING_STATE=PROVISIONED, BACKUP_MANAGER_STATE=BACKUP_READY),(REQ_DEVICE_IDLE, REQ_GEARHEAD_PROJECTION_OFF, MIN_BATTERY=20, SHOULD_APPLY_BUDGET=true, NETWORK=UNMETERED, PROVISIONING_STATE=PROVISIONED, BACKUP_MANAGER_STATE=BACKUP_READY, TIME=[2026-11-14T01:00:00Z-2026-11-14T04:00:00Z]),), install_primary_identifier=UNKNOWN_ACTION_SURFACE
+11-13 19:17:43.668  5082  5143 I Finsky:background: [60] IQ: Scheduling install request package_name=com.google.android.gm, pm_package_name=com.google.android.gm, version=66160149, priority=3, reason=auto_update, account_name=, type=0, isid=nerwyNk_Rk6KhTTsOlqk6g, install_tier_type=INSTALL_TIER_TYPE_UNSPECIFIED, constraints=((REQ_CHARGING, REQ_DEVICE_IDLE, REQ_GEARHEAD_PROJECTION_OFF, NETWORK=UNMETERED, PROVISIONING_STATE=PROVISIONED, BACKUP_MANAGER_STATE=BACKUP_READY),(REQ_DEVICE_IDLE, REQ_GEARHEAD_PROJECTION_OFF, MIN_BATTERY=20, SHOULD_APPLY_BUDGET=true, NETWORK=UNMETERED, PROVISIONING_STATE=PROVISIONED, BACKUP_MANAGER_STATE=BACKUP_READY, TIME=[2026-11-14T01:00:00Z-2026-11-14T04:00:00Z]),), install_primary_identifier=UNKNOWN_ACTION_SURFACE
+11-13 19:17:43.741  5082  5088 W ding:background: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:43.809  5029  5079 I Finsky  : [59] UCtl: For package com.google.android.tts, first update discovery timestamp is set to 2026-11-13T19:17:42.686251Z
+11-13 19:17:43.809  5029  5079 I Finsky  : [59] UCtl: For package com.google.android.tts, latest version update discovery timestamp is set to: 2026-11-13T19:17:43.800Z, old timestamp: 1970-01-01T00:00:00Z, old discovered version: 0, new discovered version: 210693707
+11-13 19:17:43.809  5029  5079 I Finsky  : [59] UCtl: Package com.google.android.tts client staleness timestamp changed from 1970-01-01T00:00:00Z to 2026-11-13T19:17:43.800Z, available version changed from 0 to 210693707 or in-app update priority changed from 0 to 0, Server update discovery timestamp is changed from 1970-01-01T00:00:00Z to 2026-11-13T19:17:42.686251Z
+11-13 19:17:43.817  5082  5158 I Finsky:background: [64] IQ: Notifying installation update. [Package:com.google.android.gm, isid:nerwyNk_Rk6KhTTsOlqk6g] state:SCHEDULED, status=SCHEDULED, status_code=0, reason=auto_update, tsc=PT0.615S, attempt=0
+11-13 19:17:43.839  5082  5082 I Finsky:background: [2] PIM: Ignore install package event for: com.google.android.gm, isid: nerwyNk_Rk6KhTTsOlqk6g
+11-13 19:17:44.044  5082  5158 I Finsky:background: [64] IQ: Notifying installation update. [Package:com.google.android.tts, isid:SoOW0UHLSQyn5nlk4BmI-A] state:SCHEDULED, status=SCHEDULED, status_code=0, reason=auto_update, tsc=PT1.154S, attempt=0
+11-13 19:17:44.049  5082  5082 I Finsky:background: [2] PIM: Ignore install package event for: com.google.android.tts, isid: SoOW0UHLSQyn5nlk4BmI-A
+11-13 19:17:44.057  5029  5029 I Finsky  : [2] DL: Data loader session turned off due to Incremental install not requested: com.google.android.tts
+11-13 19:17:44.368   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:45.300  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:45.584  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Settings-DCw3z_6g.js
+11-13 19:17:45.919  4544  4583 D Capacitor: Handling local request: https://localhost/assets/opendyslexic-latin-700-normal-Bnmt45Ln.woff2
+11-13 19:17:47.100   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:47.310  1238  1244 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:48.494  1238  1244 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:48.635  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:48.900  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Notebook-CewWsA8o.js
+11-13 19:17:48.905  4544  4584 D Capacitor: Handling local request: https://localhost/assets/LapiNote-DitoPHJo.js
+11-13 19:17:52.330  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:52.632  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Stories-DcdO-5h9.js
+11-13 19:17:54.741  1238  1244 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:55.661  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:55.972  4544  4583 D Capacitor: Handling local request: https://localhost/assets/WriteListen-noP6cWf0.js
+11-13 19:17:55.978  4544  4584 D Capacitor: Handling local request: https://localhost/assets/spell-BKbt1lew.js
+11-13 19:17:56.038  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445789, pluginId: TextToSpeech, methodName: stop
+11-13 19:17:56.038  4544  4544 V Capacitor: callback: 46445789, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-13 19:17:56.088  4544  4544 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-13 19:17:56.336  4544  4584 D Capacitor: Handling local request: https://localhost/dict/es.frz
+11-13 19:17:56.342  4544  4583 D Capacitor: Handling local request: https://localhost/dict/es.fcz
+11-13 19:17:57.724   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:17:58.972  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:17:59.217  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Shelf-BVgb1IF5.js
+11-13 19:17:59.219  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Confetti-CAZkDYhO.js
+11-13 19:17:59.233  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445790, pluginId: TextToSpeech, methodName: stop
+11-13 19:17:59.233  4544  4544 V Capacitor: callback: 46445790, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-13 19:17:59.271  4544  4544 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-13 19:18:02.122  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:18:02.362  4544  4583 D Capacitor: Handling local request: https://localhost/assets/HowILearn-DLJ8RFDK.js
+11-13 19:18:03.724  1372  1384 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:05.265  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:18:08.399  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:18:08.660  4544  4583 D Capacitor: Handling local request: https://localhost/assets/ReadAloud-pZM7DWZ3.js
+11-13 19:18:08.957  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445791, pluginId: OnDeviceSpeech, methodName: availability
+11-13 19:18:08.957  4544  4544 V Capacitor: callback: 46445791, pluginId: OnDeviceSpeech, methodName: availability, methodData: {"lang":"es-ES"}
+11-13 19:18:08.958  4544  4583 D Capacitor: Handling local request: https://localhost/assets/lectures.ca-B1LiAKWU.js
+11-13 19:18:08.960  4544  4584 D Capacitor: Handling local request: https://localhost/assets/readings.en-0HR8ypsv.js
+11-13 19:18:11.541  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:18:11.772  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Voices-BHTBb4CT.js
+11-13 19:18:12.084  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445792, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-13 19:18:12.084  4544  4544 V Capacitor: callback: 46445792, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"ca-ES"}
+11-13 19:18:12.084  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445793, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-13 19:18:12.084  4544  4544 V Capacitor: callback: 46445793, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"es-ES"}
+11-13 19:18:12.084  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445794, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-13 19:18:12.084  4544  4544 V Capacitor: callback: 46445794, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"en-GB"}
+11-13 19:18:12.133  2356  2697 I GoogleTTSServiceImpl: currentLocale = ca-ES
+11-13 19:18:12.134  2356  2697 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-13 19:18:12.137  2356  4980 I GoogleTTSServiceImpl: currentLocale = en-GB
+11-13 19:18:14.692  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:18:14.911  4544  4583 D Capacitor: Handling local request: https://localhost/assets/Printables-OKhLRfeF.js
+11-13 19:18:16.843   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:17.948  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445795, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-13 19:18:17.948  4544  4544 V Capacitor: callback: 46445795, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"es-ES"}
+11-13 19:18:17.949  2356  4980 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-13 19:18:17.961  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445796, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-13 19:18:17.961  4544  4544 V Capacitor: callback: 46445796, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"ca-ES"}
+11-13 19:18:17.962  2356  4980 I GoogleTTSServiceImpl: currentLocale = ca-ES
+11-13 19:18:18.006  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445797, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-13 19:18:18.006  4544  4544 V Capacitor: callback: 46445797, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"en-GB"}
+11-13 19:18:18.007  2356  4980 I GoogleTTSServiceImpl: currentLocale = en-GB
+11-13 19:18:18.052  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445798, pluginId: TextToSpeech, methodName: speak
+11-13 19:18:18.053  4544  4544 V Capacitor: callback: 46445798, pluginId: TextToSpeech, methodName: speak, methodData: {"text":"Hola, esto es una prueba de voz.","lang":"es-ES","rate":1}
+11-13 19:18:18.054  2356  4980 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-13 19:18:18.055  2356  2697 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-13 19:18:18.059  2356  2697 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-13 19:18:18.060  2356  2697 I GoogleTTSServiceImpl: For default lang es-es is name es-ES-language (es-es-x-eed-server)
+11-13 19:18:18.061  2356  2941 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-13 19:18:18.260  2356  2360 I gle.android.tts: Background concurrent mark compact GC freed 5632KB AllocSpace bytes, 1(28KB) LOS objects, 49% free, 4898KB/9796KB, paused 315us,661us total 186.524ms
+11-13 19:18:18.262  2356  2520 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v26/es-es/es-es-x-multi-r50.zvoice to es-es-x-multi-r50.zvoice.fetched (constraints: m:b:u:l)
+11-13 19:18:18.408  2356  4641 I GoogleTTSServiceImpl: Synthesis request for locale spa-ESP and name es-ES-language
+11-13 19:18:18.411  2356  4641 I GoogleTTSServiceImpl: TTS dispatch: es-es-x-eed-server
+11-13 19:18:18.507  2356  6087 I hksu    : Unable to retrieve flag snapshot for com.google.android.gms.providerinstaller#com.google.android.tts, using defaults.
+11-13 19:18:18.628  2356  2520 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v26/es-us/es-us-x-multi-r55.zvoice to es-us-x-multi-r55.zvoice.fetched (constraints: m:b:u:l)
+11-13 19:18:18.975  2356  2360 I gle.android.tts: Background concurrent mark compact GC freed 3814KB AllocSpace bytes, 1(68KB) LOS objects, 49% free, 6053KB/11MB, paused 3.725ms,2.620ms total 159.561ms
+11-13 19:18:19.326  4544  4554 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:19.327  4544  4554 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-13 19:18:19.519  4544  4554 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:19.519  4544  4554 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-13 19:18:19.662  4544  4554 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:19.662  4544  4554 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-13 19:18:19.743  4544  4554 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:19.743  4544  4554 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-13 19:18:19.811  4544  4554 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:19.811  4544  4554 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-13 19:18:19.991  4544  4554 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:19.993  4544  4554 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-13 19:18:20.043  4544  4554 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:20.043  4544  4554 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-13 19:18:20.726   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:21.504  4544  4544 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-13 19:18:21.510  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445799, pluginId: TextToSpeech, methodName: addListener
+11-13 19:18:21.510  4544  4544 V Capacitor: callback: 46445799, pluginId: TextToSpeech, methodName: addListener, methodData: {"eventName":"onRangeStart"}
+11-13 19:18:21.511  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445800, pluginId: TextToSpeech, methodName: speak
+11-13 19:18:21.511  4544  4544 V Capacitor: callback: 46445800, pluginId: TextToSpeech, methodName: speak, methodData: {"text":"El gato come pescado en la cocina.","lang":"es-ES","rate":1}
+11-13 19:18:21.568  2356  2941 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-13 19:18:21.585  2356  2941 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-13 19:18:21.591  2356  2941 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-13 19:18:21.615  2356  2941 I GoogleTTSServiceImpl: For default lang es-es is name es-ES-language (es-es-x-eed-server)
+11-13 19:18:21.617  2356  2941 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-13 19:18:22.002  2356  2360 I gle.android.tts: Background concurrent mark compact GC freed 6092KB AllocSpace bytes, 7(280KB) LOS objects, 49% free, 6153KB/12MB, paused 260us,2.306ms total 374.968ms
+11-13 19:18:22.482  2356  4641 I GoogleTTSServiceImpl: Synthesis request for locale spa-ESP and name es-ES-language
+11-13 19:18:22.484  2356  4641 I GoogleTTSServiceImpl: TTS dispatch: es-es-x-eee-lstm-embedded
+11-13 19:18:23.060  4544  6336 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:23.209  4544  6336 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:23.599  4544  4557 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:23.632   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:23.891  4544  4557 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:24.471  4544  6336 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:24.557  4544  4557 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:24.738  4544  4557 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-13 19:18:25.401   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:25.664  2356  6087 W hksu    : Failed to update snapshot for com.google.android.gms.providerinstaller#com.google.android.tts flags may be stale.
+11-13 19:18:25.664  2356  6087 W hksu    : java.io.IOException: Unable to create parent directories of /data/user/0/com.google.android.gms/files/phenotype/shared/com.google.android.gms.providerinstaller#com.google.android.tts.pb
+11-13 19:18:25.691  4544  4544 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-13 19:18:25.698  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445801, pluginId: TextToSpeech, methodName: removeListener
+11-13 19:18:25.698  4544  4544 V Capacitor: callback: 46445801, pluginId: TextToSpeech, methodName: removeListener, methodData: {"eventName":"onRangeStart","callbackId":"46445799"}
+11-13 19:18:25.704  4544  4583 D Capacitor: Handling local request: https://localhost/dict/es.fcz
+11-13 19:18:25.735  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:18:26.257  5776  5783 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:27.315   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:27.328  2356  6087 W FlagStore: Failed to commit to updated flags for com.google.android.gms.providerinstaller#com.google.android.tts
+11-13 19:18:28.618  5776  5783 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:28.740  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445802, pluginId: TextToSpeech, methodName: stop
+11-13 19:18:28.740  4544  4544 V Capacitor: callback: 46445802, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-13 19:18:28.745  4544  4544 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-13 19:18:29.526  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445803, pluginId: OnDeviceSpeech, methodName: availability
+11-13 19:18:29.526  4544  4544 V Capacitor: callback: 46445803, pluginId: OnDeviceSpeech, methodName: availability, methodData: {"lang":"es-ES"}
+11-13 19:18:29.602  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445804, pluginId: OnDeviceSpeech, methodName: availability
+11-13 19:18:29.602  4544  4544 V Capacitor: callback: 46445804, pluginId: OnDeviceSpeech, methodName: availability, methodData: {"lang":"ca-ES"}
+11-13 19:18:29.631  5776  5783 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:29.644  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445805, pluginId: OnDeviceSpeech, methodName: availability
+11-13 19:18:29.644  4544  4544 V Capacitor: callback: 46445805, pluginId: OnDeviceSpeech, methodName: availability, methodData: {"lang":"en-GB"}
+11-13 19:18:29.698  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:18:29.952  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445806, pluginId: TextToSpeech, methodName: stop
+11-13 19:18:29.952  4544  4544 V Capacitor: callback: 46445806, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-13 19:18:29.964  4544  4544 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-13 19:18:30.665  2356  2356 I PhenotypeBackgroundRecv: Skipping com.google.android.gms.providerinstaller#com.google.android.tts which doesn't use ProcessStable flags.
+11-13 19:18:32.024   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:32.237  4544  4583 D Capacitor: Handling local request: https://localhost/assets/src-BX_HuAdg.js
+11-13 19:18:32.286  4544  4583 D Capacitor: Handling local request: https://localhost/tesseract/worker.min.js
+11-13 19:18:32.419  5776  5783 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:32.483  4544  4583 D Capacitor: Handling local request: https://localhost/tesseract/tesseract-core-simd-lstm.wasm.js
+11-13 19:18:32.945  5776  5783 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:34.242  6305  6311 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:34.485  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445807, pluginId: LocalNotifications, methodName: checkPermissions
+11-13 19:18:34.485  4544  4544 V Capacitor: callback: 46445807, pluginId: LocalNotifications, methodName: checkPermissions, methodData: {}
+11-13 19:18:34.495  4544  4544 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 46445808, pluginId: LocalNotifications, methodName: schedule
+11-13 19:18:34.495  4544  4544 V Capacitor: callback: 46445808, pluginId: LocalNotifications, methodName: schedule, methodData: {"notifications":[{"id":4242,"title":"Prueba Lectorix","body":"Recordatorio de prueba","schedule":{"at":"2026-11-13T19:18:38.492Z"},"smallIcon":"ic_stat_lectorix"}]}
+11-13 19:18:34.524  4544  4625 W Capacitor/LocalNotification: Exact alarms not allowed in user settings.  Notification scheduled with non-exact alarm.
+11-13 19:18:35.630   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:36.202  6305  6311 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:38.512  5842  5926 I Finsky  : [57] ItemStore: Not cached: com.google.android.tts
+11-13 19:18:38.783  5842  5953 E Finsky  : [61] ItemStore: getItems RPC failed for item com.google.android.tts
+11-13 19:18:39.258  5776  5783 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:39.526  4544  4544 V Capacitor/LocalNotificationsPlugin: Notifying listeners for event localNotificationReceived
+11-13 19:18:39.526  4544  4544 D Capacitor/LocalNotificationsPlugin: No listeners found for event localNotificationReceived
+11-13 19:18:43.267  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:18:44.168  4544  4544 V Capacitor/AppPlugin: Notifying listeners for event pause
+11-13 19:18:44.168  4544  4544 D Capacitor/AppPlugin: No listeners found for event pause
+11-13 19:18:44.169  4544  4544 D Capacitor: App paused
+11-13 19:18:44.169  4544  4544 V Capacitor/ShareReceiverPlugin: Notifying listeners for event shared
+11-13 19:18:44.171  4544  4544 D Capacitor/AppPlugin: Firing change: true
+11-13 19:18:44.171  4544  4544 V Capacitor/AppPlugin: Notifying listeners for event appStateChange
+11-13 19:18:44.171  4544  4544 D Capacitor/AppPlugin: No listeners found for event appStateChange
+11-13 19:18:44.173  4544  4544 V Capacitor/AppPlugin: Notifying listeners for event resume
+11-13 19:18:44.173  4544  4544 D Capacitor/AppPlugin: No listeners found for event resume
+11-13 19:18:44.183  4544  4544 D Capacitor: App resumed
+11-13 19:18:44.226  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:18:44.241   545   558 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-13 19:18:47.786  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:18:48.994  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-13 19:18:50.231  4544  4544 V Capacitor/AppPlugin: Notifying listeners for event backButton
+11-13 19:18:50.245  4544  4583 D Capacitor: Handling local request: https://localhost/favicon.svg
