@@ -100,6 +100,32 @@ function deviceLanguage(): 'es' | 'ca' | 'en' {
   return 'es';
 }
 
+/**
+ * The student's local profile (points, days in a row). Since the old sign-in screen was removed,
+ * new installs had no profile and points were never added. It is created when needed, and
+ * points and days in a row are rebuilt from the sessions already saved on the device.
+ */
+const dayKey = (d: Date) => d.toDateString();
+export function localProfile(history: SessionResult[]): UserProfile {
+  const now = new Date();
+  const days = new Set(history.map((h) => dayKey(new Date(h.completed_at))));
+  let streak = 0;
+  const cursor = new Date(now);
+  if (!days.has(dayKey(cursor))) cursor.setDate(cursor.getDate() - 1);
+  while (days.has(dayKey(cursor))) { streak++; cursor.setDate(cursor.getDate() - 1); }
+  const last = history.length ? history.map((h) => h.completed_at).sort().pop()! : new Date(0).toISOString();
+  return {
+    id: typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : String(Date.now()),
+    display_name: '',
+    email: '',
+    plan: 'free',
+    total_xp: history.reduce((a, h) => a + (h.xp_earned || 0), 0),
+    streak_days: streak,
+    last_session: last,
+    created_at: now.toISOString(),
+  };
+}
+
 export const useAppStore = create<AppState>()(
   persist(
     (set, get) => ({
@@ -166,26 +192,26 @@ export const useAppStore = create<AppState>()(
       // XP
       addXP: (amount) =>
         set((state) => ({
-          user: state.user ? { ...state.user, total_xp: state.user.total_xp + amount } : null,
+          user: (() => { const u = state.user ?? localProfile(state.sessionHistory); return { ...u, total_xp: u.total_xp + amount }; })(),
         })),
 
       // Streak
       updateStreak: () =>
         set((state) => {
-          if (!state.user) return {};
+          const user = state.user ?? localProfile(state.sessionHistory);
           const today = new Date().toDateString();
-          const lastActive = new Date(state.user.last_session).toDateString();
+          const lastActive = new Date(user.last_session).toDateString();
           const yesterday = new Date(Date.now() - 86400000).toDateString();
 
-          let streak = state.user.streak_days;
-          if (lastActive === today) return {};
+          let streak = user.streak_days;
+          if (lastActive === today) return state.user ? {} : { user };
           if (lastActive === yesterday) {
             streak += 1;
           } else {
             streak = 1;
           }
           return {
-            user: { ...state.user, streak_days: streak, last_session: new Date().toISOString() },
+            user: { ...user, streak_days: streak, last_session: new Date().toISOString() },
           };
         }),
 
@@ -241,7 +267,7 @@ export const useAppStore = create<AppState>()(
 
       // Onboarding
       onboardingDone: false,
-      setOnboardingDone: (done) => set({ onboardingDone: done }),
+      setOnboardingDone: (done) => set((state) => ({ onboardingDone: done, user: done && !state.user ? localProfile(state.sessionHistory) : state.user })),
 
       letterSpacing: 'normal',
       setLetterSpacing: (letterSpacing) => {
@@ -292,6 +318,14 @@ export const useAppStore = create<AppState>()(
         sessionHistory: state.sessionHistory,
         mascot: state.mascot,
       }),
+      // Devices that never had a profile get one, with the points of the sessions they already did
+      onRehydrateStorage: () => (state) => {
+        // (hydration can run while the store is still being created, so this waits a tick)
+        if (state && !state.user && state.onboardingDone) {
+          const history = state.sessionHistory ?? [];
+          setTimeout(() => { if (!useAppStore.getState().user) useAppStore.setState({ user: localProfile(history) }); }, 0);
+        }
+      },
     }
   )
 );

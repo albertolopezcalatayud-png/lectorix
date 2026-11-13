@@ -50,7 +50,7 @@ const BASE = 'http://localhost:4173/lectorix/';
   await p.getByRole('button', { name: /Empezar \(\d+ preguntas\)/ }).click(); await p.waitForTimeout(1000);
   await answerAll(/\d+ de \d+ bien/);
   gain = (await xp()) - before; s = await shown();
-  check(gain > 0 && gain === s, `study notes: shown +${s}, total grew ${gain}`);
+  check(gain === s, `study notes: shown +${s}, total grew ${gain} (0 only if every answer was wrong)`);
 
   // 3. Paper reading on the shelf (10 XP, twice a day)
   const st = await p.evaluate(() => JSON.parse(localStorage.getItem('lectorix-store')).state);

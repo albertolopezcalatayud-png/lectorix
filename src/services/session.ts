@@ -34,8 +34,8 @@ export function recordSession(result: SessionResult) {
  */
 export function awardXP(amount: number) {
   const store = useAppStore.getState();
-  if (!store.user || amount <= 0) return 0;
-  const prevStreak = store.user.streak_days || 0;
+  if (amount <= 0) return 0;
+  const prevStreak = store.user?.streak_days || 0;
   store.addXP(amount);
   store.updateStreak();
   const after = useAppStore.getState();
