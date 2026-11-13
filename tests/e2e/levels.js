@@ -15,6 +15,7 @@ const seed = (lang, extra = {}) => (args) => {
   localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: args.lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], ...args.extra }, version: 0 }));
 };
 
+const COUNTERS = [];
 async function answerAll(p, lang, mode) {
   // Answers placement questions until the results screen appears
   for (let i = 0; i < 80; i++) {
@@ -24,6 +25,8 @@ async function answerAll(p, lang, mode) {
     const texts = (await Promise.all(buttons.map((b) => b.innerText()))).map((t) => t.trim().split('\n').pop().trim());
     const ex = bank[lang].find((e) => body.includes(e.prompt) && e.options.every((o) => texts.some((t) => t.trim() === o)) && (!e.passage || body.includes(e.passage.slice(0, 40))));
     if (!ex) { await p.waitForTimeout(400); continue; }
+    const c = body.match(/\b(\d+)\/(\d+)\b/);
+    if (c) COUNTERS.push([+c[1], +c[2]]);
     const want = mode === 'right' ? ex.options[ex.correct] : ex.options.find((_, k) => k !== ex.correct);
     const idx = texts.findIndex((t) => t.trim() === want);
     await buttons[idx].click();
@@ -31,6 +34,8 @@ async function answerAll(p, lang, mode) {
   }
   return -1;
 }
+// Question counter never goes past its total, and the total never changes (testers saw 9/9, 10/10, 11/11)
+const counterOk = () => COUNTERS.length > 0 && COUNTERS.every(([n, t]) => n <= t && t === COUNTERS[0][1]);
 
 (async () => {
   const b = await chromium.launch();
@@ -67,6 +72,7 @@ async function answerAll(p, lang, mode) {
     await p.screenshot({ path: OUT + lang + '-plc-q.png', fullPage: true });
     const n = await answerAll(p, lang, 'right');
     check(n > 0, `${lang}: placement finished after ${n} answers (all right)`);
+    check(counterOk(), `${lang}: question counter never passes its total (max seen ${Math.max(...COUNTERS.map((c) => c[0]))}/${COUNTERS[0] && COUNTERS[0][1]})`);
     await p.screenshot({ path: OUT + lang + '-plc-done.png', fullPage: true });
     body = await p.innerText('body');
     const nines = (body.match(/(Nivel|Nivell) 9/g) || []).length;

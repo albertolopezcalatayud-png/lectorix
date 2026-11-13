@@ -1147,4 +1147,7 @@ export const ca: Record<TranslationKey, string> = {
   novoice_en: 'Este dispositiu no té veu en anglés, així que no ho llig amb una altra veu que ho pronunciaria malament.',
   novoice_how: 'Instal·lar-la',
   novoice_close: 'Tancar l’avís',
+
+  // Placement: fixed question total
+  plc_max_note: 'Com a molt {n} preguntes per àrea. Si ja sabem el teu nivell, acaba abans.',
 };

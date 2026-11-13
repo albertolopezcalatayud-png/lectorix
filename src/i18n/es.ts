@@ -1145,6 +1145,9 @@ export const es = {
   novoice_en: 'Este dispositivo no tiene voz en inglés, así que no lo leo con otra voz que lo pronunciaría mal.',
   novoice_how: 'Instalarla',
   novoice_close: 'Cerrar aviso',
+
+  // Placement: fixed question total
+  plc_max_note: 'Como mucho {n} preguntas por área. Si ya sabemos tu nivel, acaba antes.',
 } as const;
 
 export type TranslationKey = keyof typeof es;

@@ -223,11 +223,12 @@ export default function Placement() {
         <div className="flex-1">
           <h3 className="font-heading font-extrabold text-sm">{t('plc_title')}</h3>
           <p className="text-[10px] text-fg-muted">{t('plc_area', { n: areaIdx + 1, total: TESTED.length })} · {t(MODULE_TEXT[m].name)}</p>
+          <p className="text-[10px] text-fg-muted">{t('plc_max_note', { n: PER_STEP * MAX_STEPS })}</p>
         </div>
       </div>
       <div className="px-4 py-5 max-w-lg mx-auto">
         {q ? (
-          <ExerciseCard key={qKey} exercise={q} questionNumber={area!.asked + 1} totalQuestions={Math.max(area!.asked + 1, PER_STEP * 3)}
+          <ExerciseCard key={qKey} exercise={q} questionNumber={area!.asked + 1} totalQuestions={PER_STEP * MAX_STEPS}
             onAnswer={onAnswer} examMode />
         ) : (
           <Card className="text-center text-sm">

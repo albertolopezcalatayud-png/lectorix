@@ -1147,4 +1147,7 @@ export const en: Record<TranslationKey, string> = {
   novoice_en: 'This device has no English voice, so I won’t read it with another voice that would say it wrong.',
   novoice_how: 'Install it',
   novoice_close: 'Close notice',
+
+  // Placement: fixed question total
+  plc_max_note: 'At most {n} questions per area. If we already know your level, it ends sooner.',
 };
