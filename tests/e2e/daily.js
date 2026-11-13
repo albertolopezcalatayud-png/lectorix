@@ -16,10 +16,10 @@ const { chromium } = require('playwright');
     }
     await p.waitForTimeout(1200);
     const after = await xp(); const body = await p.innerText('body');
-    console.log('round', round, 'url', p.url().split('#')[1], 'xp', before, '→', after, 'gained', after - before, /Incluye \+50 XP/.test(body) ? 'bonus shown' : 'no bonus line');
+    console.log('round', round, 'url', p.url().split('#')[1], 'xp', before, '→', after, 'gained', after - before, /Incluye \+50 puntos/.test(body) ? 'bonus shown' : 'no bonus line');
     if (round === 1) await p.screenshot({ path: __dirname + '/daily.png' });
   }
   await p.goto('http://localhost:4173/lectorix/#/'); await p.waitForTimeout(800);
-  console.log(/Hecho hoy/.test(await p.innerText('body')) ? 'dashboard shows done today' : 'dashboard not updated', 'ERRORS', errors);
+  console.log(/Hecha hoy/.test(await p.innerText('body')) ? 'dashboard shows done today' : 'dashboard not updated', 'ERRORS', errors);
   await b.close();
 })();

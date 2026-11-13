@@ -77,7 +77,7 @@ export function SkillRadar({ skills }: SkillRadarProps) {
         <motion.polygon
           points={polygonPoints}
           fill="rgba(139, 92, 246, 0.15)"
-          stroke="#8B5CF6"
+          stroke="#34437A"
           strokeWidth={2}
           initial={{ opacity: 0, scale: 0.3 }}
           animate={{ opacity: 1, scale: 1 }}

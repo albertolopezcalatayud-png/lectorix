@@ -23,7 +23,7 @@ export interface ReadLog {
   feel?: 1 | 2 | 3;       // 1 easy, 2 ok, 3 hard
 }
 
-export const SPINES = ['#8b5cf6', '#f97316', '#10b981', '#0ea5e9', '#ef4444', '#eab308', '#ec4899', '#14b8a6'];
+export const SPINES = ['#34437a', '#f97316', '#10b981', '#0ea5e9', '#ef4444', '#eab308', '#ec4899', '#14b8a6'];
 
 interface ShelfState {
   books: Book[];

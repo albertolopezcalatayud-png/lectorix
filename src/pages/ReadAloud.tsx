@@ -116,7 +116,7 @@ export default function ReadAloud() {
             {phase === 'done' && (
               <Card className="space-y-2">
                 <p className="font-heading font-black text-center">{t('ra_result', { read, total: words.length })}</p>
-                {xp > 0 && <p className="font-heading font-black text-center text-mint">+{xp} XP</p>}
+                {xp > 0 && <p className="font-heading font-black text-center text-mint">{t('pts_plus', { n: xp })}</p>}
                 {missed.length > 0 ? (
                   <>
                     <p className="text-sm">{t('ra_missed')}</p>

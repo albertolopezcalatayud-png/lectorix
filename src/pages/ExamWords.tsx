@@ -181,7 +181,7 @@ export default function ExamWords() {
           <Card className="text-center space-y-3">
             <div className="text-5xl">{answers.filter((a) => a.is_correct).length >= 8 ? '🏆' : '💪'}</div>
             <h2 className="font-heading font-black text-xl">{t('st_done', { right: answers.filter((a) => a.is_correct).length, total: answers.length })}</h2>
-            {xp > 0 && <p className="font-heading font-black text-2xl text-mint">+{xp} XP</p>}
+            {xp > 0 && <p className="font-heading font-black text-2xl text-mint">{t('pts_plus', { n: xp })}</p>}
             <p className="text-sm text-fg-muted">{t('ev_done_tip')}</p>
             <Button fullWidth onClick={restart}>{t('ev_again')}</Button>
             <Button fullWidth variant="secondary" onClick={() => setTab('learn')}>{t('ev_tab_learn')}</Button>

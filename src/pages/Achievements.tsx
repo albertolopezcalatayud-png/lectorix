@@ -28,7 +28,7 @@ const ACHIEVEMENTS: AchievementDef[] = [
   {
     id: 'first_step', icon: '👣', titleKey: 'ach_first_step', descKey: 'ach_first_step_desc',
     check: (s) => s.attempts >= 1, progress: (s) => ({ current: Math.min(s.attempts, 1), target: 1 }),
-    color: '#8B5CF6',
+    color: '#34437A',
   },
   {
     id: 'star_collector', icon: '⭐', titleKey: 'ach_star_collector', descKey: 'ach_star_collector_desc',
@@ -56,17 +56,17 @@ const ACHIEVEMENTS: AchievementDef[] = [
     color: '#FB923C',
   },
   {
-    id: 'streak_3', icon: '🔥', titleKey: 'ach_streak_3', descKey: 'ach_streak_3_desc',
+    id: 'streak_3', icon: '✏️', titleKey: 'ach_streak_3', descKey: 'ach_streak_3_desc',
     check: (s) => s.streak >= 3, progress: (s) => ({ current: Math.min(s.streak, 3), target: 3 }),
     color: '#F87171',
   },
   {
-    id: 'streak_7', icon: '🔥', titleKey: 'ach_streak_7', descKey: 'ach_streak_7_desc',
+    id: 'streak_7', icon: '📅', titleKey: 'ach_streak_7', descKey: 'ach_streak_7_desc',
     check: (s) => s.streak >= 7, progress: (s) => ({ current: Math.min(s.streak, 7), target: 7 }),
     color: '#F87171',
   },
   {
-    id: 'streak_30', icon: '🔥', titleKey: 'ach_streak_30', descKey: 'ach_streak_30_desc',
+    id: 'streak_30', icon: '📚', titleKey: 'ach_streak_30', descKey: 'ach_streak_30_desc',
     check: (s) => s.streak >= 30, progress: (s) => ({ current: Math.min(s.streak, 30), target: 30 }),
     color: '#F87171',
   },
@@ -78,12 +78,12 @@ const ACHIEVEMENTS: AchievementDef[] = [
   {
     id: 'level_5', icon: '🎓', titleKey: 'ach_level_5', descKey: 'ach_level_5_desc',
     check: (s) => s.completedLevels >= 5, progress: (s) => ({ current: Math.min(s.completedLevels, 5), target: 5 }),
-    color: '#A78BFA',
+    color: '#8FA0D8',
   },
   {
     id: 'level_15', icon: '🏅', titleKey: 'ach_level_15', descKey: 'ach_level_15_desc',
     check: (s) => s.completedLevels >= 15, progress: (s) => ({ current: Math.min(s.completedLevels, 15), target: 15 }),
-    color: '#A78BFA',
+    color: '#8FA0D8',
   },
 ];
 
@@ -147,7 +147,7 @@ export default function Achievements() {
           animate={{ opacity: 1, y: 0 }}
           className="flex items-center gap-4 mb-6"
         >
-          <BadgeRing progress={totalPct / 100} color="#8B5CF6" size={64}>
+          <BadgeRing progress={totalPct / 100} color="#34437A" size={64}>
             <span className="font-heading font-black text-sm text-accent">{totalPct}%</span>
           </BadgeRing>
           <div>

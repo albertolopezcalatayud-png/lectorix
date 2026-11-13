@@ -111,10 +111,10 @@ export function buildWorksheet(args: {
 <style>
   @page { size: A4; margin: 16mm 14mm; }
   body { font-family: Verdana, Tahoma, Arial, sans-serif; font-size: ${size}pt; line-height: 1.65; letter-spacing: .02em; color: #222; margin: 0; }
-  header { display: flex; justify-content: space-between; gap: 12px; border-bottom: 2px solid #8b5cf6; padding-bottom: 6px; margin-bottom: 12px; }
-  header h1 { font-size: 1.25em; margin: 0; color: #6d28d9; }
+  header { display: flex; justify-content: space-between; gap: 12px; border-bottom: 2px solid #34437a; padding-bottom: 6px; margin-bottom: 12px; }
+  header h1 { font-size: 1.25em; margin: 0; color: #34437a; }
   .fields { font-size: .8em; color: #444; text-align: right; }
-  h2 { font-size: 1.05em; margin: 18px 0 8px; color: #6d28d9; border-left: 6px solid #c4b5fd; padding-left: 8px; }
+  h2 { font-size: 1.05em; margin: 18px 0 8px; color: #34437a; border-left: 6px solid #f2a28b; padding-left: 8px; }
   .lvl { font-size: .75em; color: #777; font-weight: normal; }
   .item { margin: 0 0 14px; break-inside: avoid; }
   .q { margin-bottom: 4px; }
@@ -124,7 +124,7 @@ export function buildWorksheet(args: {
   .word { font-size: 1.3em; font-weight: bold; padding-left: 18px; margin: 2px 0 4px; }
   .passage, .sentence { background: #f5f3ff; border-radius: 10px; padding: 6px 10px; margin: 4px 0 6px 18px; }
   .pieces { display: flex; flex-wrap: wrap; gap: 6px; padding-left: 18px; margin: 4px 0; }
-  .piece { border: 1.5px solid #a78bfa; border-radius: 8px; padding: 1px 8px; }
+  .piece { border: 1.5px solid #8fa0d8; border-radius: 8px; padding: 1px 8px; }
   .gap { display: inline-block; min-width: 4.5em; border-bottom: 1.5px solid #333; }
   .line { border-bottom: 1.5px solid #999; height: 1.9em; margin: 4px 0 0 18px; }
   .hint { font-size: .85em; color: #555; padding-left: 18px; }

@@ -110,7 +110,7 @@ export default function Shelf() {
                 ))}
               </div>
               <Button fullWidth onClick={() => log(book)}>{t('sh_log_btn', { min: minutes })}</Button>
-              {logged && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-sm font-bold text-center mt-2">🔥 {t('sh_logged')}</motion.p>}
+              {logged && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-sm font-bold text-center mt-2">✏️ {t('sh_logged')}</motion.p>}
               <Button variant="secondary" fullWidth className="mt-2" onClick={() => finish(book)}>🏁 {t('sh_finish')}</Button>
             </Card>
           ) : (

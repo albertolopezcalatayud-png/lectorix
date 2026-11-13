@@ -108,7 +108,7 @@ function Finish({ score, onExit, onAgain }: { score?: number; onExit: () => void
       <div className="text-5xl">🤝</div>
       <h3 className="font-heading font-extrabold">{t('tg_well_done')}</h3>
       {score !== undefined && <p className="text-sm">{t('tg_team_score', { n: score })}</p>}
-      {xp > 0 && <p className="font-heading font-black text-mint">+{xp} XP</p>}
+      {xp > 0 && <p className="font-heading font-black text-mint">{t('pts_plus', { n: xp })}</p>}
       <Button fullWidth onClick={onAgain}>{t('tg_again')}</Button>
       <Button fullWidth variant="secondary" onClick={onExit}>{t('tg_other_game')}</Button>
     </Card>

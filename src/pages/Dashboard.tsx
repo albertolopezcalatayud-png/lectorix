@@ -43,7 +43,7 @@ export default function Dashboard() {
             <MascotAvatar customization={mascot} size={72} />
           </button>
           <div>
-            <h2 className="font-heading font-black text-xl">
+            <h2 className="font-heading font-extrabold text-xl ink-underline">
               {t('dash_hello', { name: user?.display_name || t('student_default') })}
             </h2>
             <p className="text-fg-muted text-sm mt-1">{t('dash_ready')}</p>
@@ -80,13 +80,13 @@ export default function Dashboard() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
           <Card>
             <div className="flex items-center justify-between mb-2">
-              <span className="font-heading font-extrabold text-sm">{t('dash_level', { level: xpInfo.level })}</span>
-              <span className="text-xs text-fg-muted">{xpInfo.currentXP}/{xpInfo.nextLevelXP} XP</span>
+              <span className="font-heading font-extrabold text-sm">{t('xp_page', { level: xpInfo.level })}</span>
+              <span className="text-xs text-fg-muted">{xpInfo.currentXP}/{t('pts_n', { n: xpInfo.nextLevelXP })}</span>
             </div>
             <ProgressBar value={xpInfo.progress * 100} />
             <div className="flex gap-3 mt-3">
               <div className="flex items-center gap-1.5 text-sm">
-                <span>🔥</span>
+                <span aria-hidden>✏️</span>
                 <span className="font-bold">{t('dash_streak', { days: user?.streak_days || 0 })}</span>
               </div>
               <div className="flex items-center gap-1.5 text-sm">
@@ -122,28 +122,28 @@ export default function Dashboard() {
 
         {/* Daily Challenge */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }}>
-          <Card hover onClick={() => navigate('/reto-diario')} className="border-yellow/30 bg-yellow-pale/30">
+          <button onClick={() => navigate('/reto-diario')} className="sticky-note relative w-full text-left p-4 mt-1">
             <div className="flex items-center gap-3">
-              <span className="text-3xl">⚡</span>
+              <span className="text-3xl" aria-hidden>📝</span>
               <div className="flex-1">
                 <h3 className="font-heading font-extrabold">{t('dash_daily')}</h3>
                 <p className="text-xs text-fg-muted">{dailyDone ? t('daily_done_today') : t('dash_daily_desc')}</p>
               </div>
               <span className="text-accent font-extrabold text-sm">{t('dash_play')}</span>
             </div>
-          </Card>
+          </button>
         </motion.div>
 
         {/* Dictation & guided reading */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.18 }}
           className="grid grid-cols-2 gap-2.5"
         >
-          <Card hover onClick={() => navigate('/dictado')} className="border-sky/30">
+          <Card hover onClick={() => navigate('/dictado')} className="card-tab [--tab:var(--color-sky)]">
             <span className="text-2xl">🎧</span>
             <h3 className="font-heading font-extrabold text-sm mt-1">{t('dict_title').replace('🎧 ', '')}</h3>
             <p className="text-[11px] text-fg-muted leading-snug mt-0.5">{t('dict_desc')}</p>
           </Card>
-          <Card hover onClick={() => navigate('/lectura')} className="border-mint/30">
+          <Card hover onClick={() => navigate('/lectura')} className="card-tab [--tab:var(--color-mint)]">
             <span className="text-2xl">📖</span>
             <h3 className="font-heading font-extrabold text-sm mt-1">{t('read_title').replace('📖 ', '')}</h3>
             <p className="text-[11px] text-fg-muted leading-snug mt-0.5">{t('read_desc')}</p>
@@ -164,8 +164,9 @@ export default function Dashboard() {
               { to: '/enunciados', icon: '🧩', title: 'ev_title', desc: 'ev_card_desc' },
               { to: '/redaccion', icon: '📝', title: 'es_title', desc: 'es_card_desc' },
               { to: '/lectura', icon: '🎓', title: 'subj_title', desc: 'subj_card_desc', state: { subjects: true } },
-            ] as const).map((x) => (
-              <Card key={x.title} hover onClick={() => navigate(x.to, 'state' in x ? { state: x.state } : undefined)} className="!p-3">
+            ] as const).map((x, i) => (
+              <Card key={x.title} hover onClick={() => navigate(x.to, 'state' in x ? { state: x.state } : undefined)} className="!p-3 card-tab"
+                style={{ ['--tab' as string]: ['var(--color-coral)', 'var(--color-mint)', 'var(--color-yellow)', 'var(--color-sky)'][i % 4] }}>
                 <span className="text-2xl">{x.icon}</span>
                 <h3 className="font-heading font-extrabold text-xs mt-1 leading-tight">{t(x.title)}</h3>
                 <p className="text-[10px] text-fg-muted leading-snug mt-0.5">{t(x.desc)}</p>

@@ -10,7 +10,7 @@ export const es = {
   // Nav
   nav_home: 'Inicio',
   nav_modules: 'Módulos',
-  nav_challenge: 'Reto',
+  nav_challenge: 'Tarea',
   nav_achievements: 'Logros',
   nav_profile: 'Perfil',
 
@@ -18,10 +18,10 @@ export const es = {
   dash_hello: '¡Hola, {name}! 👋',
   dash_ready: '¿Listo para practicar hoy?',
   dash_level: 'Nivel {level}',
-  dash_xp: '{xp} XP total',
-  dash_streak: '{days} días',
-  dash_daily: 'Reto del día',
-  dash_daily_desc: '5 preguntas · 50 XP extra una vez al día',
+  dash_xp: '{xp} puntos en total',
+  dash_streak: '{days} días seguidos',
+  dash_daily: 'Tarea de hoy',
+  dash_daily_desc: '5 preguntas · 50 puntos extra una vez al día',
   dash_play: 'Jugar →',
   dash_modules: 'Módulos',
   dash_view_all: 'Ver todos →',
@@ -53,7 +53,7 @@ export const es = {
   res_title: '¡Sesión completada!',
   res_score: 'Puntuación',
   res_stars: 'Estrellas',
-  res_xp: 'XP ganado',
+  res_xp: 'Puntos ganados',
   res_time: 'Tiempo',
   res_correct: 'Aciertos',
   res_retry: 'Repetir nivel',
@@ -65,9 +65,9 @@ export const es = {
 
   // Profile
   prof_title: 'Mi Perfil',
-  prof_experience: 'Experiencia',
-  prof_xp_total: '{xp} XP total',
-  prof_xp_next: '{current} / {next} XP para nivel {level}',
+  prof_experience: 'Puntos',
+  prof_xp_total: '{xp} puntos en total',
+  prof_xp_next: '{current} / {next} puntos para pasar a la página {level}',
   prof_stats: 'Estadísticas',
   prof_stars: 'Estrellas',
   prof_levels: 'Niveles',
@@ -80,8 +80,8 @@ export const es = {
 
   // Mascot
   mascot_title: 'Mi Mascota',
-  mascot_owl: 'El búho de {name}',
-  mascot_your_owl: 'Tu búho',
+  mascot_owl: 'Lapi, el lápiz de {name}',
+  mascot_your_owl: 'Tu Lapi',
   mascot_unlocked: '{n}/{total} recompensas desbloqueadas',
   mascot_color: 'Color',
   mascot_hats: 'Gorros',
@@ -99,7 +99,7 @@ export const es = {
   hist_go_modules: 'Ir a módulos →',
   hist_sessions: 'Sesiones',
   hist_avg: 'Media',
-  hist_xp_total: 'XP total',
+  hist_xp_total: 'Puntos en total',
   hist_now: 'Ahora mismo',
   hist_min_ago: 'Hace {n} min',
   hist_hours_ago: 'Hace {n}h',
@@ -138,12 +138,12 @@ export const es = {
   ach_star_master: 'Maestro estelar',
   ach_star_master_desc: 'Consigue 50 estrellas',
   ach_xp_100: 'Centenario',
-  ach_xp_100_desc: 'Acumula 100 XP',
+  ach_xp_100_desc: 'Consigue 100 puntos',
   ach_xp_500: 'Medio millar',
-  ach_xp_500_desc: 'Acumula 500 XP',
+  ach_xp_500_desc: 'Consigue 500 puntos',
   ach_xp_1000: 'Leyenda',
-  ach_xp_1000_desc: 'Acumula 1000 XP',
-  ach_streak_3: 'En racha',
+  ach_xp_1000_desc: 'Consigue 1000 puntos',
+  ach_streak_3: 'Tres días seguidos',
   ach_streak_3_desc: '3 días seguidos practicando',
   ach_streak_7: 'Semana perfecta',
   ach_streak_7_desc: '7 días seguidos',
@@ -188,14 +188,14 @@ export const es = {
   onb_modules_title: '5 módulos de aprendizaje',
   onb_modules_desc: 'Fonología, memoria visual, comprensión, escritura y retos rápidos',
   onb_gamification_title: 'Aprende jugando',
-  onb_gamification_desc: 'Gana estrellas, XP y desbloquea logros mientras practicas',
+  onb_gamification_desc: 'Gana estrellas y puntos, y desbloquea logros mientras practicas',
   onb_start: '¡Empezar!',
 
   // Daily Challenge
-  daily_title: '⚡ Reto Diario',
+  daily_title: '📝 Tarea de hoy',
   daily_subtitle: '5 preguntas variadas',
   daily_no_exercises: 'Sin ejercicios',
-  daily_no_exercises_desc: 'No se pudieron cargar los ejercicios del reto diario.',
+  daily_no_exercises_desc: 'No se pudieron cargar los ejercicios de la tarea de hoy.',
   daily_back: '← Volver al inicio',
 
   // Login
@@ -262,15 +262,15 @@ export const es = {
   reward_castillo: 'Castillo',
   reward_arcoiris: 'Arcoíris',
   reward_req_stars: '{n} estrellas',
-  reward_req_xp: '{n} XP',
+  reward_req_xp: '{n} puntos',
   reward_req_levels: 'Completa {n} niveles',
   reward_req_sessions: '{n} sesiones',
-  reward_req_streak: 'Racha de {n} días',
+  reward_req_streak: '{n} días seguidos',
 
   // PDF Report
   pdf_title: 'Informe Lectorix',
   pdf_student: 'Estudiante',
-  pdf_level_xp: 'Nivel {level} · {xp} XP · Racha: {streak} días',
+  pdf_level_xp: 'Página {level} · {xp} puntos · {streak} días seguidos',
   pdf_avg_score: 'Puntuación media',
   pdf_stars: 'Estrellas',
   pdf_levels: 'Niveles',
@@ -339,8 +339,8 @@ export const es = {
   parent_seconds: '{n}s',
 
   // Push notifications
-  push_streak_title: '🔥 ¡No pierdas tu racha!',
-  push_streak_body: 'Llevas {n} días seguidos. ¡No lo dejes hoy!',
+  push_streak_title: '✏️ ¡Sigue con tus días seguidos!',
+  push_streak_body: 'Llevas {n} días seguidos practicando. ¡No pares ahora!',
   push_reminder_title: '📚 ¡Hora de practicar!',
   push_reminder_body: 'Solo 10 minutos al día marcan la diferencia.',
   push_enable: 'Activar recordatorios',
@@ -412,8 +412,8 @@ export const es = {
   onb_s1_desc: 'Tu compañero de lectura y escritura. Practica a tu ritmo con ejercicios divertidos diseñados para ti.',
   onb_s2_title: '5 módulos de práctica',
   onb_s2_desc: 'Fonología, Memoria Visual, Comprensión Lectora, Escritura y Retos Rápidos. Cada uno con 5 niveles de dificultad.',
-  onb_s3_title: 'Gana estrellas y XP',
-  onb_s3_desc: 'Cada ejercicio te da puntos de experiencia. Consigue 3 estrellas para desbloquear el siguiente nivel.',
+  onb_s3_title: 'Gana estrellas y puntos',
+  onb_s3_desc: 'Cada ejercicio te da puntos. Consigue 3 estrellas para desbloquear el siguiente nivel.',
   onb_s4_title: 'Lee y escucha',
   onb_s4_desc: 'Pulsa el botón 🔊 para escuchar cualquier texto en voz alta. Ajusta la velocidad en Ajustes.',
   onb_s5_title: 'Hecho para ti',
@@ -434,7 +434,7 @@ export const es = {
   set_practice_auto: 'El mismo que los menús',
   set_voice_missing: 'Este dispositivo no tiene voz en este idioma. Puedes instalarla en Ajustes del móvil → Idioma → Síntesis de voz.',
   student_default: 'Estudiante',
-  notif_streak_title: '🔥 ¡Racha de {n} días!',
+  notif_streak_title: '✏️ ¡{n} días seguidos!',
   notif_streak_body: 'Sigue así, estás mejorando día a día.',
   notif_reminder_title: '📚 ¡Hora de practicar!',
   notif_reminder_body: 'Solo 10 minutos al día marcan la diferencia. ¡Vamos!',
@@ -457,7 +457,7 @@ export const es = {
   srs_mastered: 'Dominados: {n}',
   nb_title: 'Mis palabras difíciles',
   nb_desc: 'Aquí se guardan las palabras que has fallado. Escúchalas, repásalas y márcalas cuando ya te las sepas.',
-  nb_empty_title: 'Tu cuaderno está vacío',
+  nb_empty_title: 'Tu libreta está vacía',
   nb_empty_desc: 'Cuando falles una palabra, aparecerá aquí.',
   nb_practise: 'Practicar ahora ({n})',
   nb_misses: 'fallos: {n}',
@@ -757,7 +757,7 @@ export const es = {
   sto_reread: 'Volver a leer el cuento',
   sto_done_desc: 'Cada cuento que lees te ayuda a leer con más soltura.',
   sto_mine: 'Mis cuentos',
-  sto_tip_words: 'Guarda palabras en tu cuaderno y saldrán en tus cuentos',
+  sto_tip_words: 'Guarda palabras en tu libreta y saldrán en tus cuentos',
   sto_q_who: '¿Quién es el protagonista del cuento?',
   sto_q_where: '¿Dónde está {name}?',
   sto_q_what: '¿Qué encuentra {name}?',
@@ -788,7 +788,7 @@ export const es = {
   wl_hear_mine: 'Escuchar cómo la he escrito',
   wl_keep: 'Está bien así',
   wl_fixed: 'Cambiada por «{word}».',
-  wl_save: 'Guardar «{word}» en mi cuaderno',
+  wl_save: 'Guardar «{word}» en mi libreta',
   wl_tip: 'Escuchar lo que has escrito ayuda a descubrir palabras que faltan o que no suenan bien.',
   wl_note: 'La revisión se hace en este dispositivo, sin enviar el texto a ningún sitio, y busca palabras que no están en el diccionario. No revisa la gramática ni las palabras que existen con y sin tilde (como «esta» y «está»).',
 
@@ -799,7 +799,7 @@ export const es = {
   // My bookshelf
   sh_title: 'Mi estantería',
   sh_card_desc: 'Apunta los libros que lees en papel',
-  sh_desc: 'Apunta aquí los libros de papel que lees. El tiempo de lectura cuenta para tu racha y para el resumen semanal.',
+  sh_desc: 'Apunta aquí los libros de papel que lees. El tiempo de lectura cuenta para tus días seguidos y para el resumen semanal.',
   sh_stat_min: 'minutos esta semana',
   sh_stat_days: 'días leyendo',
   sh_stat_done: 'libros terminados',
@@ -823,7 +823,7 @@ export const es = {
   sh_feel_3: 'Difícil',
   sh_log_btn: 'Apuntar {min} minutos',
   sh_log_short: 'Apuntar',
-  sh_logged: '¡Apuntado! Cuenta para tu racha de hoy.',
+  sh_logged: '¡Apuntado! Cuenta para tus días seguidos.',
   sh_finish: '¡Lo he terminado!',
   sh_finished_on: 'Terminado el {date}',
   sh_liked_q: '¿Te ha gustado?',
@@ -871,7 +871,7 @@ export const es = {
   ra_listening: 'Te escucho... lee con calma, a tu ritmo.',
   ra_stop: 'He terminado',
   ra_result: 'Ha reconocido {read} de {total} palabras',
-  ra_missed: 'Estas palabras no las ha reconocido. Escúchalas y, si quieres, guárdalas en tu cuaderno:',
+  ra_missed: 'Estas palabras no las ha reconocido. Escúchalas y, si quieres, guárdalas en tu libreta:',
   ra_all: '¡Ha reconocido todas las palabras que has leído!',
   ra_caveat: 'El reconocimiento de voz a veces se equivoca, sobre todo con nombres, ruido o voces infantiles. Úsalo como ayuda, no como nota.',
   ra_again: 'Volver a intentarlo',
@@ -918,8 +918,8 @@ export const es = {
   plans_later: 'Más adelante tendrá planes de suscripción opcionales. Antes de que lleguen, lo explicaremos dentro de la app.',
 
   // Daily bonus
-  daily_bonus_got: 'Incluye +{n} XP del reto del día',
-  daily_done_today: '¡Hecho hoy! Puedes repetirlo; el bonus de 50 XP vuelve mañana',
+  daily_bonus_got: 'Incluye +{n} puntos de la tarea de hoy',
+  daily_done_today: '¡Hecha hoy! Puedes repetirla; los 50 puntos extra vuelven mañana',
 
   // Device voices
   voice_title: 'Voces para leer en voz alta',
@@ -1104,9 +1104,9 @@ export const es = {
   es_new: 'Volver a mis redacciones',
 
   // Header
-  hdr_level: 'Nv.{n}',
-  hdr_level_aria: 'Nivel {n}',
-  hdr_streak_aria: 'Racha: {n} días',
+  hdr_level: 'Pág. {n}',
+  hdr_level_aria: 'Página {n}',
+  hdr_streak_aria: '{n} días seguidos',
 
   // Subject readings
   subj_title: 'Lecturas para estudiar',
@@ -1133,6 +1133,11 @@ export const es = {
   // Gap labels
   ex_gap_empty: 'Hueco {n}, vacío',
   ex_gap_filled: 'Hueco {n}: {word}. Toca para quitarla',
+
+  // Notebook vocabulary
+  xp_page: 'Página {level}',
+  pts_plus: '+{n} puntos',
+  pts_n: '{n} puntos',
 } as const;
 
 export type TranslationKey = keyof typeof es;

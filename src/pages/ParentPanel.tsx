@@ -96,7 +96,7 @@ export default function ParentPanel() {
               </div>
               <div>
                 <h2 className="font-heading font-black text-lg">{user?.display_name || t('parent_student')}</h2>
-                <p className="text-xs text-fg-muted">{t('dash_level', { level })} · {totalXP} XP · 🔥 {t('parent_days', { n: user?.streak_days || 0 })}</p>
+                <p className="text-xs text-fg-muted">{t('xp_page', { level })} · {t('pts_n', { n: totalXP })} · ✏️ {t('dash_streak', { days: user?.streak_days || 0 })}</p>
               </div>
             </div>
           </Card>

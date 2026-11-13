@@ -241,7 +241,7 @@ export default function Fluency() {
                 <Card className="text-center space-y-2">
                   <div className="text-5xl font-heading font-black text-accent">{result.wcpm}</div>
                   <p className="font-bold">{t('flu_wcpm')}</p>
-                  {xp > 0 && <p className="font-heading font-black text-mint">+{xp} XP</p>}
+                  {xp > 0 && <p className="font-heading font-black text-mint">{t('pts_plus', { n: xp })}</p>}
                   <p className="text-xs text-fg-muted">
                     {t('flu_detail', { words: result.wordsRead, errors: result.errors, s: result.seconds })}
                   </p>

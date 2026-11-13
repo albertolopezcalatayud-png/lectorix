@@ -45,8 +45,8 @@ export default function Profile() {
           <h2 className="font-heading font-black text-xl">{user?.display_name || t('student_default')}</h2>
           <p className="text-sm text-fg-muted">{user?.email || ''}</p>
           <div className="flex gap-2 mt-2">
-            <Badge color="accent">{t('dash_level', { level })}</Badge>
-            <Badge color="yellow">🔥 {t('dash_streak', { days: streak })}</Badge>
+            <Badge color="accent">{t('xp_page', { level })}</Badge>
+            <Badge color="yellow">✏️ {t('dash_streak', { days: streak })}</Badge>
           </div>
         </motion.div>
 

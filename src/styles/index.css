@@ -1,14 +1,12 @@
 @import "tailwindcss";
 
 /* ─── Google Fonts ─── */
-@import "@fontsource/nunito/400.css";
-@import "@fontsource/nunito/600.css";
-@import "@fontsource/nunito/700.css";
-@import "@fontsource/nunito/800.css";
-@import "@fontsource/nunito/900.css";
-@import "@fontsource/nunito-sans/400.css";
-@import "@fontsource/nunito-sans/600.css";
-@import "@fontsource/nunito-sans/700.css";
+/* Lexend: designed to make reading easier */
+@import "@fontsource/lexend/400.css";
+@import "@fontsource/lexend/500.css";
+@import "@fontsource/lexend/600.css";
+@import "@fontsource/lexend/700.css";
+@import "@fontsource/lexend/800.css";
 
 /* ─── OpenDyslexic (accessibility font) ─── */
 @import "@fontsource/opendyslexic/400.css";
@@ -16,26 +14,28 @@
 
 /* ─── Design Tokens ─── */
 @theme {
-  --color-bg: #F7F5FF;
+  --color-bg: #FBF8F1;
   --color-bg-card: #FFFFFF;
-  --color-fg: #2D2640;
-  --color-fg-muted: #6B6185;
-  --color-accent: #7C3AED;
-  --color-accent-pale: #EDE9FF;
-  --color-mint: #34D399;
-  --color-mint-pale: #ECFDF5;
-  --color-peach: #FB923C;
-  --color-peach-pale: #FFF4EC;
-  --color-sky: #38BDF8;
-  --color-sky-pale: #F0F9FF;
-  --color-yellow: #FBBF24;
-  --color-yellow-pale: #FFFBEB;
-  --color-red: #F87171;
-  --color-red-pale: #FEF2F2;
-  --color-border: #E8E3F5;
+  --color-fg: #28324A;
+  --color-fg-muted: #5F6478;
+  --color-accent: #34437A;
+  --color-accent-pale: #E9ECF6;
+  --color-mint: #7CC4B1;
+  --color-mint-pale: #E8F5F1;
+  --color-peach: #EE8E73;
+  --color-peach-pale: #FDEDE7;
+  --color-sky: #8FB7E0;
+  --color-sky-pale: #EAF2FB;
+  --color-yellow: #F2C75C;
+  --color-yellow-pale: #FFF3C4;
+  --color-red: #E57373;
+  --color-red-pale: #FDECEC;
+  --color-border: #E7DFCF;
+  --color-coral: #F2A28B;
+  --color-paper-line: #EFE8DA;
 
-  --font-heading: 'Nunito', sans-serif;
-  --font-body: 'Nunito Sans', sans-serif;
+  --font-heading: 'Lexend', sans-serif;
+  --font-body: 'Lexend', sans-serif;
 
   --radius-lg: 20px;
   --radius-md: 14px;
@@ -46,50 +46,56 @@
 /* ─── Dark mode ─── */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --color-bg: #1A1626;
-    --color-bg-card: #241E35;
-    --color-fg: #F0EBF8;
-    --color-fg-muted: #A89DC4;
-    --color-accent: #A78BFA;
-    --color-accent-pale: #2E2250;
-    --color-mint: #6EE7B7;
-    --color-mint-pale: #1A2E26;
-    --color-peach: #FDBA74;
-    --color-peach-pale: #2E2218;
-    --color-sky: #7DD3FC;
-    --color-sky-pale: #1A2430;
-    --color-yellow: #FCD34D;
-    --color-yellow-pale: #2E2A18;
-    --color-red: #FCA5A5;
-    --color-red-pale: #2E1A1A;
-    --color-border: #3D3458;
+    --color-bg: #1B1E2A;
+    --color-bg-card: #252938;
+    --color-fg: #F3EFE6;
+    --color-fg-muted: #B4B6C6;
+    --color-accent: #B7C3F2;
+    --color-accent-pale: #2E3550;
+    --color-mint: #8FD3C0;
+    --color-mint-pale: #1D2E2B;
+    --color-peach: #F4A68F;
+    --color-peach-pale: #33241F;
+    --color-sky: #A9C9EC;
+    --color-sky-pale: #1E2838;
+    --color-yellow: #F2CF73;
+    --color-yellow-pale: #332D1C;
+    --color-red: #F29C9C;
+    --color-red-pale: #331F22;
+    --color-border: #3A3F52;
+    --color-coral: #F4A68F;
+    --color-paper-line: #262A38;
   }
 }
 
 :root[data-theme="dark"] {
-  --color-bg: #1A1626;
-  --color-bg-card: #241E35;
-  --color-fg: #F0EBF8;
-  --color-fg-muted: #A89DC4;
-  --color-accent: #A78BFA;
-  --color-accent-pale: #2E2250;
-  --color-mint: #6EE7B7;
-  --color-mint-pale: #1A2E26;
-  --color-peach: #FDBA74;
-  --color-peach-pale: #2E2218;
-  --color-sky: #7DD3FC;
-  --color-sky-pale: #1A2430;
-  --color-yellow: #FCD34D;
-  --color-yellow-pale: #2E2A18;
-  --color-red: #FCA5A5;
-  --color-red-pale: #2E1A1A;
-  --color-border: #3D3458;
+  --color-bg: #1B1E2A;
+    --color-bg-card: #252938;
+    --color-fg: #F3EFE6;
+    --color-fg-muted: #B4B6C6;
+    --color-accent: #B7C3F2;
+    --color-accent-pale: #2E3550;
+    --color-mint: #8FD3C0;
+    --color-mint-pale: #1D2E2B;
+    --color-peach: #F4A68F;
+    --color-peach-pale: #33241F;
+    --color-sky: #A9C9EC;
+    --color-sky-pale: #1E2838;
+    --color-yellow: #F2CF73;
+    --color-yellow-pale: #332D1C;
+    --color-red: #F29C9C;
+    --color-red-pale: #331F22;
+    --color-border: #3A3F52;
+    --color-coral: #F4A68F;
+    --color-paper-line: #262A38;
 }
 
 /* ─── Base ─── */
 body {
   font-family: var(--font-body);
   background-color: var(--color-bg);
+  /* ruled notebook paper */
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 31px, var(--color-paper-line) 31px, var(--color-paper-line) 32px);
   color: var(--color-fg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -124,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   --color-bg: #FFFFFF;
   --color-bg-card: #F5F5F5;
   --color-border: #999999;
-  --color-accent: #6D28D9;
+  --color-accent: #26315C;
 }
 
 :root[data-contrast="high"][data-theme="dark"] {
@@ -133,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
   --color-bg: #000000;
   --color-bg-card: #1A1A1A;
   --color-border: #666666;
-  --color-accent: #C4B5FD;
+  --color-accent: #C7D2FE;
 }
 @media (prefers-color-scheme: dark) {
   :root[data-contrast="high"]:not([data-theme="light"]) {
@@ -142,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
     --color-bg: #000000;
     --color-bg-card: #1A1A1A;
     --color-border: #666666;
-    --color-accent: #C4B5FD;
+    --color-accent: #C7D2FE;
   }
 }
 
@@ -222,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
   --ink-mint: #067A55;
   --ink-red: #C81E1E;
   --ink-peach: #C2410C;
-  --ink-yellow: #A16207;
+  --ink-yellow: #85500A;
   --ink-sky: #0369A1;
 }
 .text-mint { color: var(--ink-mint); }
@@ -244,3 +250,17 @@ h1, h2, h3, h4, h5, h6 {
   :root:not([data-theme="light"]) .bg-mint.text-white, :root:not([data-theme="light"]) .bg-red.text-white { color: var(--color-bg); }
 }
 :root[data-contrast="high"]:not([data-theme="dark"]) { --ink-mint: #035C40; --ink-red: #A11616; --ink-peach: #9A3412; --ink-yellow: #854D0E; --ink-sky: #075985; }
+
+/* ─── Notebook touches ─── */
+/* Hand-drawn underline under a title */
+.ink-underline { position: relative; display: inline-block; }
+.ink-underline::after {
+  content: ""; position: absolute; left: -2px; right: -4px; bottom: -4px; height: 9px; pointer-events: none;
+  background: no-repeat center / 100% 100% url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 10' preserveAspectRatio='none'%3E%3Cpath d='M2 7 C 30 2, 60 9, 118 4' stroke='%23F2A28B' stroke-width='3.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+/* Sticky note */
+.sticky-note { background: var(--color-yellow-pale); border-radius: 4px 16px 16px 16px; box-shadow: 2px 3px 0 rgba(40, 50, 74, .08); transform: rotate(-.6deg); }
+.sticky-note::before { content: ""; position: absolute; top: -8px; left: 50%; width: 56px; height: 16px; transform: translateX(-50%) rotate(-3deg); background: rgba(242, 199, 92, .55); border-radius: 3px; }
+:root[data-reduce-motion="true"] .sticky-note, .no-tilt .sticky-note { transform: none; }
+/* Coloured tab on top of a card */
+.card-tab::before { content: ""; display: block; width: 36px; height: 5px; border-radius: 3px; background: var(--tab, var(--color-coral)); margin-bottom: 8px; }

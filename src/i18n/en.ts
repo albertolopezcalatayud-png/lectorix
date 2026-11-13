@@ -12,7 +12,7 @@ export const en: Record<TranslationKey, string> = {
   // Nav
   nav_home: 'Home',
   nav_modules: 'Modules',
-  nav_challenge: 'Challenge',
+  nav_challenge: 'Task',
   nav_achievements: 'Achievements',
   nav_profile: 'Profile',
 
@@ -20,10 +20,10 @@ export const en: Record<TranslationKey, string> = {
   dash_hello: 'Hi, {name}! 👋',
   dash_ready: 'Ready to practice today?',
   dash_level: 'Level {level}',
-  dash_xp: '{xp} XP total',
-  dash_streak: '{days} days',
-  dash_daily: 'Daily Challenge',
-  dash_daily_desc: '5 questions · 50 extra XP once a day',
+  dash_xp: '{xp} points in total',
+  dash_streak: '{days} days in a row',
+  dash_daily: 'Today’s task',
+  dash_daily_desc: '5 questions · 50 extra points once a day',
   dash_play: 'Play →',
   dash_modules: 'Modules',
   dash_view_all: 'View all →',
@@ -55,7 +55,7 @@ export const en: Record<TranslationKey, string> = {
   res_title: 'Session complete!',
   res_score: 'Score',
   res_stars: 'Stars',
-  res_xp: 'XP earned',
+  res_xp: 'Points earned',
   res_time: 'Time',
   res_correct: 'Correct',
   res_retry: 'Retry level',
@@ -67,9 +67,9 @@ export const en: Record<TranslationKey, string> = {
 
   // Profile
   prof_title: 'My Profile',
-  prof_experience: 'Experience',
-  prof_xp_total: '{xp} XP total',
-  prof_xp_next: '{current} / {next} XP for level {level}',
+  prof_experience: 'Points',
+  prof_xp_total: '{xp} points in total',
+  prof_xp_next: '{current} / {next} points to turn to page {level}',
   prof_stats: 'Statistics',
   prof_stars: 'Stars',
   prof_levels: 'Levels',
@@ -82,8 +82,8 @@ export const en: Record<TranslationKey, string> = {
 
   // Mascot
   mascot_title: 'My Mascot',
-  mascot_owl: '{name}\'s owl',
-  mascot_your_owl: 'Your owl',
+  mascot_owl: 'Lapi, {name}’s pencil',
+  mascot_your_owl: 'Your Lapi',
   mascot_unlocked: '{n}/{total} rewards unlocked',
   mascot_color: 'Colour',
   mascot_hats: 'Hats',
@@ -101,7 +101,7 @@ export const en: Record<TranslationKey, string> = {
   hist_go_modules: 'Go to modules →',
   hist_sessions: 'Sessions',
   hist_avg: 'Average',
-  hist_xp_total: 'XP total',
+  hist_xp_total: 'Total points',
   hist_now: 'Just now',
   hist_min_ago: '{n} min ago',
   hist_hours_ago: '{n}h ago',
@@ -140,12 +140,12 @@ export const en: Record<TranslationKey, string> = {
   ach_star_master: 'Star master',
   ach_star_master_desc: 'Get 50 stars',
   ach_xp_100: 'Centennial',
-  ach_xp_100_desc: 'Accumulate 100 XP',
+  ach_xp_100_desc: 'Earn 100 points',
   ach_xp_500: 'Half thousand',
-  ach_xp_500_desc: 'Accumulate 500 XP',
+  ach_xp_500_desc: 'Earn 500 points',
   ach_xp_1000: 'Legend',
-  ach_xp_1000_desc: 'Accumulate 1000 XP',
-  ach_streak_3: 'On a roll',
+  ach_xp_1000_desc: 'Earn 1000 points',
+  ach_streak_3: 'Three days in a row',
   ach_streak_3_desc: '3 days in a row practising',
   ach_streak_7: 'Perfect week',
   ach_streak_7_desc: '7 days in a row',
@@ -190,14 +190,14 @@ export const en: Record<TranslationKey, string> = {
   onb_modules_title: '5 learning modules',
   onb_modules_desc: 'Phonology, visual memory, comprehension, writing and quick challenges',
   onb_gamification_title: 'Learn by playing',
-  onb_gamification_desc: 'Earn stars, XP and unlock achievements while you practice',
+  onb_gamification_desc: 'Earn stars and points, and unlock achievements while you practise',
   onb_start: 'Start!',
 
   // Daily Challenge
-  daily_title: '⚡ Daily Challenge',
+  daily_title: '📝 Today’s task',
   daily_subtitle: '5 mixed questions',
   daily_no_exercises: 'No exercises',
-  daily_no_exercises_desc: 'Could not load exercises for the daily challenge.',
+  daily_no_exercises_desc: 'Could not load the exercises for today’s task.',
   daily_back: '← Back to home',
 
   // Login
@@ -264,15 +264,15 @@ export const en: Record<TranslationKey, string> = {
   reward_castillo: 'Castle',
   reward_arcoiris: 'Rainbow',
   reward_req_stars: '{n} stars',
-  reward_req_xp: '{n} XP',
+  reward_req_xp: '{n} points',
   reward_req_levels: 'Complete {n} levels',
   reward_req_sessions: '{n} sessions',
-  reward_req_streak: '{n} day streak',
+  reward_req_streak: '{n} days in a row',
 
   // PDF Report
   pdf_title: 'Lectorix Report',
   pdf_student: 'Student',
-  pdf_level_xp: 'Level {level} · {xp} XP · Streak: {streak} days',
+  pdf_level_xp: 'Page {level} · {xp} points · {streak} days in a row',
   pdf_avg_score: 'Average score',
   pdf_stars: 'Stars',
   pdf_levels: 'Levels',
@@ -341,8 +341,8 @@ export const en: Record<TranslationKey, string> = {
   parent_seconds: '{n}s',
 
   // Push notifications
-  push_streak_title: '🔥 Don\'t lose your streak!',
-  push_streak_body: 'You\'re on a {n}-day streak. Don\'t stop now!',
+  push_streak_title: '✏️ Keep your days in a row going!',
+  push_streak_body: 'You have practised {n} days in a row. Don’t stop now!',
   push_reminder_title: '📚 Time to practice!',
   push_reminder_body: 'Just 10 minutes a day makes a difference.',
   push_enable: 'Enable reminders',
@@ -414,8 +414,8 @@ export const en: Record<TranslationKey, string> = {
   onb_s1_desc: 'Your reading and writing buddy. Practise at your own pace with fun activities made for you.',
   onb_s2_title: '5 practice areas',
   onb_s2_desc: 'Phonics, Visual Memory, Reading Comprehension, Writing and Quick Challenges. Each one has 5 levels.',
-  onb_s3_title: 'Earn stars and XP',
-  onb_s3_desc: 'Every activity gives you experience points. Get 3 stars to unlock the next level.',
+  onb_s3_title: 'Earn stars and points',
+  onb_s3_desc: 'Every activity gives you points. Get 3 stars to unlock the next level.',
   onb_s4_title: 'Read and listen',
   onb_s4_desc: 'Tap the 🔊 button to hear any text read aloud. Change the speed in Settings.',
   onb_s5_title: 'Made for you',
@@ -436,7 +436,7 @@ export const en: Record<TranslationKey, string> = {
   set_practice_auto: 'Same as the menus',
   set_voice_missing: 'This device has no voice for this language. You can install one in your phone settings → Language → Text-to-speech.',
   student_default: 'Student',
-  notif_streak_title: '🔥 {n}-day streak!',
+  notif_streak_title: '✏️ {n} days in a row!',
   notif_streak_body: 'Keep it up, you are getting better every day.',
   notif_reminder_title: '📚 Time to practise!',
   notif_reminder_body: 'Just 10 minutes a day makes a difference. Let’s go!',
@@ -801,7 +801,7 @@ export const en: Record<TranslationKey, string> = {
   // My bookshelf
   sh_title: 'My bookshelf',
   sh_card_desc: 'Log the paper books you read',
-  sh_desc: 'Log the paper books you read here. Reading time counts towards your streak and the weekly summary.',
+  sh_desc: 'Log the paper books you read here. Reading time counts towards your days in a row and the weekly summary.',
   sh_stat_min: 'minutes this week',
   sh_stat_days: 'reading days',
   sh_stat_done: 'books finished',
@@ -825,7 +825,7 @@ export const en: Record<TranslationKey, string> = {
   sh_feel_3: 'Hard',
   sh_log_btn: 'Log {min} minutes',
   sh_log_short: 'Log',
-  sh_logged: 'Logged! It counts towards today’s streak.',
+  sh_logged: 'Logged! It counts towards your days in a row.',
   sh_finish: 'I finished it!',
   sh_finished_on: 'Finished on {date}',
   sh_liked_q: 'Did you like it?',
@@ -920,8 +920,8 @@ export const en: Record<TranslationKey, string> = {
   plans_later: 'Later on it will have optional subscription plans. Before they arrive, we will explain them inside the app.',
 
   // Daily bonus
-  daily_bonus_got: 'Includes +{n} XP daily bonus',
-  daily_done_today: 'Done today! You can play again; the 50 XP bonus is back tomorrow',
+  daily_bonus_got: 'Includes +{n} points from today’s task',
+  daily_done_today: 'Done today! You can do it again; the 50 extra points are back tomorrow',
 
   // Device voices
   voice_title: 'Voices for reading aloud',
@@ -1106,9 +1106,9 @@ export const en: Record<TranslationKey, string> = {
   es_new: 'Back to my writing',
 
   // Header
-  hdr_level: 'Lv.{n}',
-  hdr_level_aria: 'Level {n}',
-  hdr_streak_aria: 'Streak: {n} days',
+  hdr_level: 'p. {n}',
+  hdr_level_aria: 'Page {n}',
+  hdr_streak_aria: '{n} days in a row',
 
   // Subject readings
   subj_title: 'Reading for school subjects',
@@ -1135,4 +1135,9 @@ export const en: Record<TranslationKey, string> = {
   // Gap labels
   ex_gap_empty: 'Gap {n}, empty',
   ex_gap_filled: 'Gap {n}: {word}. Tap to remove it',
+
+  // Notebook vocabulary
+  xp_page: 'Page {level}',
+  pts_plus: '+{n} points',
+  pts_n: '{n} points',
 };

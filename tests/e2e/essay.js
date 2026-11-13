@@ -54,7 +54,7 @@ const TEXT = {
     await p.getByRole('button', { name: /(He terminado|He acabat|I have finished)/ }).click(); await p.waitForTimeout(500);
     body = await p.innerText('body');
     const xp = await p.evaluate(() => JSON.parse(localStorage.getItem('lectorix-store')).state.user.total_xp);
-    check(/\+20 XP/.test(body) && xp === 20, `${lang}: finished, +20 XP (total ${xp})`);
+    check(/\+20 (puntos|punts|points)/.test(body) && xp === 20, `${lang}: finished, +20 XP (total ${xp})`);
     await p.getByRole('button', { name: /(Volver a mis|Tornar a les meues|Back to my)/ }).click(); await p.waitForTimeout(400);
     check(/(Mis redacciones|Les meues redaccions|My writing)/.test(await p.innerText('body')) && /✅/.test(await p.innerText('body')), `${lang}: saved in the list`);
     await p.close();

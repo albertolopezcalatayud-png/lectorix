@@ -23,8 +23,8 @@ export default defineConfig({
         start_url: '/lectorix/',
         display: 'standalone',
         orientation: 'portrait',
-        theme_color: '#8B5CF6',
-        background_color: '#F7F5FF',
+        theme_color: '#34437A',
+        background_color: '#FBF8F1',
         lang: 'es',
         categories: ['education', 'kids'],
         // "Share with Lectorix" from other apps when the web app is installed (text only)

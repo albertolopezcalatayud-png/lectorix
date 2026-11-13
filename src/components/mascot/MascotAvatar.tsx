@@ -37,12 +37,13 @@ const BACKGROUNDS: Record<string, string> = {
   arcoiris: '🌈',
 };
 
-const MASCOT_COLORS: Record<string, { body: string; cheeks: string }> = {
-  purple: { body: '#8B5CF6', cheeks: '#C4B5FD' },
-  blue: { body: '#38BDF8', cheeks: '#BAE6FD' },
-  green: { body: '#34D399', cheeks: '#A7F3D0' },
-  orange: { body: '#FB923C', cheeks: '#FED7AA' },
-  pink: { body: '#F472B6', cheeks: '#FBCFE8' },
+// Lapi, the pencil. The colour keys are the ones saved in the profile (purple is the default)
+const MASCOT_COLORS: Record<string, { body: string; stripe: string; ribbon: string }> = {
+  purple: { body: '#F2A28B', stripe: '#E88C72', ribbon: '#7CC4B1' },
+  blue: { body: '#8FB7E0', stripe: '#77A3D1', ribbon: '#F2A28B' },
+  green: { body: '#7CC4B1', stripe: '#63B19C', ribbon: '#F2A28B' },
+  orange: { body: '#F4B183', stripe: '#EA9C66', ribbon: '#8FB7E0' },
+  pink: { body: '#F4B6C8', stripe: '#EA9DB3', ribbon: '#7CC4B1' },
 };
 
 export function MascotAvatar({ customization, size = 120, animate = true }: MascotAvatarProps) {
@@ -65,41 +66,30 @@ export function MascotAvatar({ customization, size = 120, animate = true }: Masc
         </span>
       )}
 
-      {/* Body — SVG owl mascot */}
-      <svg
-        width={size}
-        height={size}
-        viewBox="0 0 120 120"
-        fill="none"
-        className="relative z-10"
-      >
-        {/* Body */}
-        <ellipse cx="60" cy="68" rx="38" ry="40" fill={colors.body} />
-        {/* Belly */}
-        <ellipse cx="60" cy="78" rx="24" ry="22" fill={colors.cheeks} opacity="0.5" />
-        {/* Left eye */}
-        <circle cx="44" cy="55" r="14" fill="white" />
-        <circle cx="46" cy="54" r="8" fill="#1E1B4B" />
-        <circle cx="48" cy="52" r="3" fill="white" />
-        {/* Right eye */}
-        <circle cx="76" cy="55" r="14" fill="white" />
-        <circle cx="74" cy="54" r="8" fill="#1E1B4B" />
-        <circle cx="76" cy="52" r="3" fill="white" />
-        {/* Beak */}
-        <path d="M54 65 L60 72 L66 65" fill="#FBBF24" stroke="#F59E0B" strokeWidth="1" />
-        {/* Cheeks */}
-        <circle cx="36" cy="66" r="6" fill={colors.cheeks} opacity="0.6" />
-        <circle cx="84" cy="66" r="6" fill={colors.cheeks} opacity="0.6" />
-        {/* Left wing */}
-        <ellipse cx="26" cy="72" rx="10" ry="18" fill={colors.body} opacity="0.8" transform="rotate(-10, 26, 72)" />
-        {/* Right wing */}
-        <ellipse cx="94" cy="72" rx="10" ry="18" fill={colors.body} opacity="0.8" transform="rotate(10, 94, 72)" />
-        {/* Feet */}
-        <ellipse cx="48" cy="105" rx="10" ry="5" fill="#FBBF24" />
-        <ellipse cx="72" cy="105" rx="10" ry="5" fill="#FBBF24" />
-        {/* Eyebrows */}
-        <path d="M32 44 Q44 38 56 44" stroke={colors.body} strokeWidth="3" fill="none" opacity="0.6" />
-        <path d="M64 44 Q76 38 88 44" stroke={colors.body} strokeWidth="3" fill="none" opacity="0.6" />
+      {/* Lapi, a pencil with a bookmark ribbon */}
+      <svg width={size} height={size} viewBox="0 0 120 120" fill="none" className="relative z-10" aria-hidden="true">
+        <g transform="rotate(-14 60 60)">
+          {/* ribbon hanging from the eraser */}
+          <path d="M66 22 C 80 26, 84 40, 78 52 L 84 56 L 74 58 Z" fill={colors.ribbon} />
+          {/* eraser and metal band */}
+          <rect x="44" y="10" width="32" height="16" rx="6" fill="#F4B6C8" />
+          <rect x="44" y="24" width="32" height="7" fill="#C9CBD3" />
+          <rect x="44" y="27" width="32" height="2" fill="#B3B6C0" />
+          {/* body */}
+          <rect x="44" y="31" width="32" height="54" rx="3" fill={colors.body} />
+          <rect x="52" y="31" width="6" height="54" fill={colors.stripe} />
+          {/* wood tip and lead */}
+          <path d="M44 85 L60 108 L76 85 Z" fill="#F3D9B5" />
+          <path d="M55.2 101 L60 108 L64.8 101 Z" fill="#28324A" />
+          {/* face */}
+          <circle cx="54" cy="55" r="4.4" fill="#28324A" />
+          <circle cx="68" cy="55" r="4.4" fill="#28324A" />
+          <circle cx="55.4" cy="53.6" r="1.4" fill="white" />
+          <circle cx="69.4" cy="53.6" r="1.4" fill="white" />
+          <path d="M55 65 Q61 70.5 67 65" stroke="#28324A" strokeWidth="2.8" fill="none" strokeLinecap="round" />
+          <circle cx="49" cy="63" r="3.2" fill="#FFFFFF" opacity="0.45" />
+          <circle cx="73" cy="63" r="3.2" fill="#FFFFFF" opacity="0.45" />
+        </g>
       </svg>
 
       {/* Hat */}
@@ -107,8 +97,8 @@ export function MascotAvatar({ customization, size = 120, animate = true }: Masc
         <span
           className="absolute z-20"
           style={{
-            top: -size * 0.08,
-            left: '50%',
+            top: -size * 0.1,
+            left: '43%',
             transform: 'translateX(-50%)',
             fontSize: size * 0.35,
           }}

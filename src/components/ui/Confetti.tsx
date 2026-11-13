@@ -11,7 +11,7 @@ interface ConfettiPiece {
   shape: 'rect' | 'circle';
 }
 
-const COLORS = ['#8B5CF6', '#34D399', '#FB923C', '#38BDF8', '#FBBF24', '#F87171', '#A78BFA', '#6EE7B7'];
+const COLORS = ['#F2A28B', '#7CC4B1', '#F2C75C', '#8FB7E0', '#B9B3E8', '#34437A', '#F4C7B8', '#BFE3D9'];
 
 function generatePieces(count: number): ConfettiPiece[] {
   return Array.from({ length: count }, (_, i) => ({

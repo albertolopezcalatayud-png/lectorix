@@ -158,7 +158,7 @@ export default function History() {
                                 ⏱ {formatTime(session.time_ms)}
                               </span>
                               <span className="text-[10px] text-accent font-bold">
-                                +{session.xp_earned} XP
+                                {t('pts_plus', { n: session.xp_earned })}
                               </span>
                             </div>
                           </div>

@@ -12,7 +12,7 @@ export const ca: Record<TranslationKey, string> = {
   // Nav
   nav_home: 'Inici',
   nav_modules: 'Mòduls',
-  nav_challenge: 'Repte',
+  nav_challenge: 'Tasca',
   nav_achievements: 'Assoliments',
   nav_profile: 'Perfil',
 
@@ -20,10 +20,10 @@ export const ca: Record<TranslationKey, string> = {
   dash_hello: 'Hola, {name}! 👋',
   dash_ready: 'Preparat per a practicar hui?',
   dash_level: 'Nivell {level}',
-  dash_xp: '{xp} XP total',
-  dash_streak: '{days} dies',
-  dash_daily: 'Repte del dia',
-  dash_daily_desc: '5 preguntes · 50 XP extra una vegada al dia',
+  dash_xp: '{xp} punts en total',
+  dash_streak: '{days} dies seguits',
+  dash_daily: 'Tasca d’avui',
+  dash_daily_desc: '5 preguntes · 50 punts extra una vegada al dia',
   dash_play: 'Jugar →',
   dash_modules: 'Mòduls',
   dash_view_all: 'Veure tots →',
@@ -55,7 +55,7 @@ export const ca: Record<TranslationKey, string> = {
   res_title: 'Sessió completada!',
   res_score: 'Puntuació',
   res_stars: 'Estreles',
-  res_xp: 'XP guanyat',
+  res_xp: 'Punts guanyats',
   res_time: 'Temps',
   res_correct: 'Encerts',
   res_retry: 'Repetir nivell',
@@ -67,9 +67,9 @@ export const ca: Record<TranslationKey, string> = {
 
   // Profile
   prof_title: 'El meu perfil',
-  prof_experience: 'Experiència',
-  prof_xp_total: '{xp} XP total',
-  prof_xp_next: '{current} / {next} XP per al nivell {level}',
+  prof_experience: 'Punts',
+  prof_xp_total: '{xp} punts en total',
+  prof_xp_next: '{current} / {next} punts per a passar a la pàgina {level}',
   prof_stats: 'Estadístiques',
   prof_stars: 'Estreles',
   prof_levels: 'Nivells',
@@ -82,8 +82,8 @@ export const ca: Record<TranslationKey, string> = {
 
   // Mascot
   mascot_title: 'La meua mascota',
-  mascot_owl: 'El mussol de {name}',
-  mascot_your_owl: 'El teu mussol',
+  mascot_owl: 'Lapi, el llapis de {name}',
+  mascot_your_owl: 'El teu Lapi',
   mascot_unlocked: '{n}/{total} recompenses desbloquejades',
   mascot_color: 'Color',
   mascot_hats: 'Barrets',
@@ -101,7 +101,7 @@ export const ca: Record<TranslationKey, string> = {
   hist_go_modules: 'Anar a mòduls →',
   hist_sessions: 'Sessions',
   hist_avg: 'Mitjana',
-  hist_xp_total: 'XP total',
+  hist_xp_total: 'Punts en total',
   hist_now: 'Ara mateix',
   hist_min_ago: 'Fa {n} min',
   hist_hours_ago: 'Fa {n}h',
@@ -140,12 +140,12 @@ export const ca: Record<TranslationKey, string> = {
   ach_star_master: 'Mestre estel·lar',
   ach_star_master_desc: 'Aconseguix 50 estreles',
   ach_xp_100: 'Centenari',
-  ach_xp_100_desc: 'Acumula 100 XP',
+  ach_xp_100_desc: 'Aconseguix 100 punts',
   ach_xp_500: 'Mig miler',
-  ach_xp_500_desc: 'Acumula 500 XP',
+  ach_xp_500_desc: 'Aconseguix 500 punts',
   ach_xp_1000: 'Llegenda',
-  ach_xp_1000_desc: 'Acumula 1000 XP',
-  ach_streak_3: 'En ratxa',
+  ach_xp_1000_desc: 'Aconseguix 1000 punts',
+  ach_streak_3: 'Tres dies seguits',
   ach_streak_3_desc: '3 dies seguits practicant',
   ach_streak_7: 'Setmana perfecta',
   ach_streak_7_desc: '7 dies seguits',
@@ -190,14 +190,14 @@ export const ca: Record<TranslationKey, string> = {
   onb_modules_title: '5 mòduls d\'aprenentatge',
   onb_modules_desc: 'Fonologia, memòria visual, comprensió, escriptura i reptes ràpids',
   onb_gamification_title: 'Aprén jugant',
-  onb_gamification_desc: 'Guanya estreles, XP i desbloqueja assoliments mentre practiques',
+  onb_gamification_desc: 'Guanya estreles i punts, i desbloqueja assoliments mentre practiques',
   onb_start: 'Començar!',
 
   // Daily Challenge
-  daily_title: '⚡ Repte Diari',
+  daily_title: '📝 Tasca d’avui',
   daily_subtitle: '5 preguntes variades',
   daily_no_exercises: 'Sense exercicis',
-  daily_no_exercises_desc: 'No s\'han pogut carregar els exercicis del repte diari.',
+  daily_no_exercises_desc: 'No s’han pogut carregar els exercicis de la tasca d’avui.',
   daily_back: '← Tornar a l\'inici',
 
   // Login
@@ -264,15 +264,15 @@ export const ca: Record<TranslationKey, string> = {
   reward_castillo: 'Castell',
   reward_arcoiris: 'Arc de Sant Martí',
   reward_req_stars: '{n} estreles',
-  reward_req_xp: '{n} XP',
+  reward_req_xp: '{n} punts',
   reward_req_levels: 'Completa {n} nivells',
   reward_req_sessions: '{n} sessions',
-  reward_req_streak: 'Ratxa de {n} dies',
+  reward_req_streak: '{n} dies seguits',
 
   // PDF Report
   pdf_title: 'Informe Lectorix',
   pdf_student: 'Estudiant',
-  pdf_level_xp: 'Nivell {level} · {xp} XP · Ratxa: {streak} dies',
+  pdf_level_xp: 'Pàgina {level} · {xp} punts · {streak} dies seguits',
   pdf_avg_score: 'Puntuació mitjana',
   pdf_stars: 'Estreles',
   pdf_levels: 'Nivells',
@@ -341,8 +341,8 @@ export const ca: Record<TranslationKey, string> = {
   parent_seconds: '{n}s',
 
   // Push notifications
-  push_streak_title: '🔥 No perdes la ratxa!',
-  push_streak_body: 'Portes {n} dies seguits. No ho deixes hui!',
+  push_streak_title: '✏️ Continua amb els teus dies seguits!',
+  push_streak_body: 'Portes {n} dies seguits practicant. No pares ara!',
   push_reminder_title: '📚 Hora de practicar!',
   push_reminder_body: 'Només 10 minuts al dia marquen la diferència.',
   push_enable: 'Activar recordatoris',
@@ -414,8 +414,8 @@ export const ca: Record<TranslationKey, string> = {
   onb_s1_desc: 'El teu company de lectura i escriptura. Practica al teu ritme amb exercicis divertits pensats per a tu.',
   onb_s2_title: '5 mòduls de pràctica',
   onb_s2_desc: 'Fonologia, Memòria Visual, Comprensió Lectora, Escriptura i Reptes Ràpids. Cada un amb 5 nivells de dificultat.',
-  onb_s3_title: 'Guanya estreles i XP',
-  onb_s3_desc: 'Cada exercici et dona punts d’experiència. Aconseguix 3 estreles per a desbloquejar el nivell següent.',
+  onb_s3_title: 'Guanya estreles i punts',
+  onb_s3_desc: 'Cada exercici et dona punts. Aconseguix 3 estreles per a desbloquejar el nivell següent.',
   onb_s4_title: 'Llig i escolta',
   onb_s4_desc: 'Prem el botó 🔊 per a escoltar qualsevol text en veu alta. Ajusta la velocitat en Configuració.',
   onb_s5_title: 'Fet per a tu',
@@ -436,7 +436,7 @@ export const ca: Record<TranslationKey, string> = {
   set_practice_auto: 'La mateixa que els menús',
   set_voice_missing: 'Este dispositiu no té veu en esta llengua. Pots instal·lar-la en la configuració del mòbil → Idioma → Síntesi de veu.',
   student_default: 'Estudiant',
-  notif_streak_title: '🔥 Ratxa de {n} dies!',
+  notif_streak_title: '✏️ {n} dies seguits!',
   notif_streak_body: 'Continua així, cada dia ho fas millor.',
   notif_reminder_title: '📚 Hora de practicar!',
   notif_reminder_body: 'Només 10 minuts al dia marquen la diferència. Som-hi!',
@@ -459,7 +459,7 @@ export const ca: Record<TranslationKey, string> = {
   srs_mastered: 'Dominats: {n}',
   nb_title: 'Les meues paraules difícils',
   nb_desc: 'Ací es guarden les paraules que has fallat. Escolta-les, repassa-les i marca-les quan ja te les sàpies.',
-  nb_empty_title: 'El teu quadern està buit',
+  nb_empty_title: 'La teua llibreta està buida',
   nb_empty_desc: 'Quan falles una paraula, apareixerà ací.',
   nb_practise: 'Practicar ara ({n})',
   nb_misses: 'errades: {n}',
@@ -759,7 +759,7 @@ export const ca: Record<TranslationKey, string> = {
   sto_reread: 'Tornar a llegir el conte',
   sto_done_desc: 'Cada conte que llegixes t’ajuda a llegir amb més soltesa.',
   sto_mine: 'Els meus contes',
-  sto_tip_words: 'Guarda paraules en el teu quadern i eixiran en els teus contes',
+  sto_tip_words: 'Guarda paraules en la teua llibreta i eixiran en els teus contes',
   sto_q_who: 'Qui és el protagonista del conte?',
   sto_q_where: 'On està {name}?',
   sto_q_what: 'Què troba {name}?',
@@ -790,7 +790,7 @@ export const ca: Record<TranslationKey, string> = {
   wl_hear_mine: 'Escoltar com l’he escrita',
   wl_keep: 'Està bé així',
   wl_fixed: 'Canviada per «{word}».',
-  wl_save: 'Guardar «{word}» en el meu quadern',
+  wl_save: 'Guardar «{word}» en la meua llibreta',
   wl_tip: 'Escoltar el que has escrit ajuda a descobrir paraules que falten o que no sonen bé.',
   wl_note: 'La revisió es fa en este dispositiu, sense enviar el text enlloc, i busca paraules que no estan en el diccionari. No revisa la gramàtica ni les paraules que existixen amb accent i sense (com «te» i «té»).',
 
@@ -801,7 +801,7 @@ export const ca: Record<TranslationKey, string> = {
   // My bookshelf
   sh_title: 'La meua prestatgeria',
   sh_card_desc: 'Apunta els llibres que llegixes en paper',
-  sh_desc: 'Apunta ací els llibres de paper que llegixes. El temps de lectura compta per a la teua ratxa i per al resum setmanal.',
+  sh_desc: 'Apunta ací els llibres de paper que llegixes. El temps de lectura compta per als teus dies seguits i per al resum setmanal.',
   sh_stat_min: 'minuts esta setmana',
   sh_stat_days: 'dies llegint',
   sh_stat_done: 'llibres acabats',
@@ -825,7 +825,7 @@ export const ca: Record<TranslationKey, string> = {
   sh_feel_3: 'Difícil',
   sh_log_btn: 'Apuntar {min} minuts',
   sh_log_short: 'Apuntar',
-  sh_logged: 'Apuntat! Compta per a la teua ratxa de hui.',
+  sh_logged: 'Apuntat! Compta per als teus dies seguits.',
   sh_finish: 'L’he acabat!',
   sh_finished_on: 'Acabat el {date}',
   sh_liked_q: 'T’ha agradat?',
@@ -873,7 +873,7 @@ export const ca: Record<TranslationKey, string> = {
   ra_listening: 'T’escolte... llig amb calma, al teu ritme.',
   ra_stop: 'He acabat',
   ra_result: 'Ha reconegut {read} de {total} paraules',
-  ra_missed: 'Estes paraules no les ha reconegudes. Escolta-les i, si vols, guarda-les en el teu quadern:',
+  ra_missed: 'Estes paraules no les ha reconegudes. Escolta-les i, si vols, guarda-les en la teua llibreta:',
   ra_all: 'Ha reconegut totes les paraules que has llegit!',
   ra_caveat: 'El reconeixement de veu a vegades s’equivoca, sobretot amb noms, soroll o veus infantils. Usa’l com una ajuda, no com una nota.',
   ra_again: 'Tornar-ho a provar',
@@ -920,8 +920,8 @@ export const ca: Record<TranslationKey, string> = {
   plans_later: 'Més avant tindrà plans de subscripció opcionals. Abans que arriben, ho explicarem dins de l’aplicació.',
 
   // Daily bonus
-  daily_bonus_got: 'Inclou +{n} XP del repte del dia',
-  daily_done_today: 'Fet hui! El pots repetir; el bonus de 50 XP torna demà',
+  daily_bonus_got: 'Inclou +{n} punts de la tasca d’avui',
+  daily_done_today: 'Feta hui! La pots repetir; els 50 punts extra tornen demà',
 
   // Device voices
   voice_title: 'Veus per a llegir en veu alta',
@@ -1106,9 +1106,9 @@ export const ca: Record<TranslationKey, string> = {
   es_new: 'Tornar a les meues redaccions',
 
   // Header
-  hdr_level: 'Nv.{n}',
-  hdr_level_aria: 'Nivell {n}',
-  hdr_streak_aria: 'Ratxa: {n} dies',
+  hdr_level: 'Pàg. {n}',
+  hdr_level_aria: 'Pàgina {n}',
+  hdr_streak_aria: '{n} dies seguits',
 
   // Subject readings
   subj_title: 'Lectures per a estudiar',
@@ -1135,4 +1135,9 @@ export const ca: Record<TranslationKey, string> = {
   // Gap labels
   ex_gap_empty: 'Buit {n}, sense omplir',
   ex_gap_filled: 'Buit {n}: {word}. Toca per a llevar-la',
+
+  // Notebook vocabulary
+  xp_page: 'Pàgina {level}',
+  pts_plus: '+{n} punts',
+  pts_n: '{n} punts',
 };

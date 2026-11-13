@@ -5,7 +5,7 @@ import type { TranslationKey } from '@/i18n';
 const NAV_ITEMS: { path: string; icon: string; labelKey: TranslationKey }[] = [
   { path: '/', icon: '🏠', labelKey: 'nav_home' },
   { path: '/modulos', icon: '📚', labelKey: 'nav_modules' },
-  { path: '/reto-diario', icon: '⚡', labelKey: 'nav_challenge' },
+  { path: '/reto-diario', icon: '📝', labelKey: 'nav_challenge' },
   { path: '/logros', icon: '🏆', labelKey: 'nav_achievements' },
   { path: '/perfil', icon: '👤', labelKey: 'nav_profile' },
 ];

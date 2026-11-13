@@ -98,7 +98,7 @@ export default function StudyNotes() {
         <div className="px-4 py-6 max-w-lg mx-auto space-y-4 text-center">
           <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="text-6xl">{right / answers.length >= 0.8 ? '🏆' : right / answers.length >= 0.5 ? '👍' : '💪'}</motion.div>
           <h2 className="font-heading font-black text-xl">{t('st_done', { right, total: answers.length })}</h2>
-          {xp > 0 && <p className="font-heading font-black text-2xl text-mint">+{xp} XP</p>}
+          {xp > 0 && <p className="font-heading font-black text-2xl text-mint">{t('pts_plus', { n: xp })}</p>}
           {missed.length > 0 && (
             <Card className="text-left">
               <p className="text-sm font-bold mb-2">{t('st_missed')}</p>

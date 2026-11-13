@@ -178,7 +178,7 @@ export default function Stories() {
         <div className="px-4 py-8 max-w-lg mx-auto space-y-4 text-center">
           <motion.div initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="text-6xl">📖</motion.div>
           <h2 className="font-heading font-black text-xl">{t('st_done', { right, total: answers.length })}</h2>
-          {xp > 0 && <p className="font-heading font-black text-2xl text-mint">+{xp} XP</p>}
+          {xp > 0 && <p className="font-heading font-black text-2xl text-mint">{t('pts_plus', { n: xp })}</p>}
           <p className="text-sm text-fg-muted">{t('sto_done_desc')}</p>
           <Button fullWidth onClick={() => setPhase('read')}>{t('sto_reread')}</Button>
           <Button variant="secondary" fullWidth onClick={() => setPhase('pick')}>{t('sto_another')}</Button>

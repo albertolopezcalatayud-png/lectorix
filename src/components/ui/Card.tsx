@@ -19,8 +19,8 @@ export function Card({ children, hover = false, padding = 'md', className = '', 
       whileHover={hover ? { scale: 1.02, y: -2 } : undefined}
       whileTap={hover ? { scale: 0.98 } : undefined}
       className={`
-        bg-bg-card border border-border rounded-[20px]
-        shadow-[0_4px_24px_rgba(139,92,246,0.10)]
+        bg-bg-card border-[1.5px] border-border rounded-[18px]
+        shadow-[0_4px_24px_rgba(40,50,74,0.06)]
         ${paddings[padding]}
         ${hover ? 'cursor-pointer' : ''}
         ${className}

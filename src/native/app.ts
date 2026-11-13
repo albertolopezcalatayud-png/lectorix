@@ -12,7 +12,7 @@ export async function initNativeApp() {
   ]);
   try {
     await StatusBar.setStyle({ style: Style.Light });
-    await StatusBar.setBackgroundColor({ color: '#F7F5FF' });
+    await StatusBar.setBackgroundColor({ color: '#FBF8F1' });
   } catch { /* ignore */ }
   // System back button: go back inside the app; on the home screen, leave the app
   void App.addListener('backButton', () => {

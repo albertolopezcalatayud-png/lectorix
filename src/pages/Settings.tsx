@@ -250,7 +250,7 @@ export default function Settings() {
                       : 'bg-bg border border-border'
                   }`}
                 >
-                  <span className="block text-base mb-0.5" style={{ fontFamily: 'Nunito, sans-serif' }}>Aa</span>
+                  <span className="block text-base mb-0.5" style={{ fontFamily: 'Lexend, sans-serif' }}>Aa</span>
                   {t('set_font_default')}
                 </button>
                 <button

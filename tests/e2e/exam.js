@@ -34,7 +34,7 @@ const BASE = 'http://localhost:4173/lectorix/';
     }
     body = await p.innerText('body');
     const xp = await p.evaluate(() => JSON.parse(localStorage.getItem('lectorix-store')).state.user.total_xp);
-    const shown = Number((body.match(/\+(\d+) XP/) || [])[1] || 0);
+    const shown = Number((body.match(/\+(\d+) (?:puntos|punts|points)/) || [])[1] || 0);
     check(/(Otras|Altres|more questions)/.test(body) && xp === shown, `${lang}: finished practice, shown +${shown}, total ${xp}`);
     await p.screenshot({ path: __dirname + `/exam-${lang}-done.png`, fullPage: true });
     await p.close();

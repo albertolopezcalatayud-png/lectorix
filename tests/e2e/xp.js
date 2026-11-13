@@ -9,7 +9,7 @@ const BASE = 'http://localhost:4173/lectorix/';
   await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, placementDismissed: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Ana', total_xp: 40, streak_days: 0, last_session: '2020-01-01T00:00:00Z' } }, version: 0 })); });
   await p.reload(); await p.waitForTimeout(800);
   const xp = () => p.evaluate(() => JSON.parse(localStorage.getItem('lectorix-store')).state.user.total_xp);
-  const shown = async () => { const m = (await p.innerText('body')).match(/\+(\d+) XP/); return m ? Number(m[1]) : 0; };
+  const shown = async () => { const m = (await p.innerText('body')).match(/\+(\d+) (?:puntos|punts|points)/); return m ? Number(m[1]) : 0; };
   const answerAll = async (doneRe) => {
     for (let i = 0; i < 15; i++) {
       const t = await p.innerText('body'); if (doneRe.test(t)) break;
@@ -58,7 +58,7 @@ const BASE = 'http://localhost:4173/lectorix/';
   await p.goto(BASE + '#/historial'); await p.waitForTimeout(1000);
   const body = await p.innerText('body');
   const total = await xp();
-  check(new RegExp(`\\b${total}\\s*\\n?\\s*XP total`).test(body), `history shows XP total ${total} (sessions: ${st.sessionHistory.length}, modes ${st.sessionHistory.map((x) => x.mode).join(',')})`);
+  check(new RegExp(`\\b${total}\\s*\\n?\\s*(?:Puntos en total|Punts en total|Total points)`).test(body), `history shows XP total ${total} (sessions: ${st.sessionHistory.length}, modes ${st.sessionHistory.map((x) => x.mode).join(',')})`);
   check(/Cuentos a tu medida/.test(body) && /Estudia tus apuntes/.test(body), 'history names the story and study sessions');
   await p.screenshot({ path: __dirname + '/xp-history.png', fullPage: true });
   await b.close(); console.log('ERRORS', errors.length, errors.slice(0, 5));

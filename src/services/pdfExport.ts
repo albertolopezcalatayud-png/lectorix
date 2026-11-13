@@ -124,13 +124,13 @@ export function generateParentReport({ user, progress, language, weekly, skills,
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 3px solid #8B5CF6;
+    border-bottom: 3px solid #34437A;
     padding-bottom: 12px;
     margin-bottom: 20px;
   }
   .header h1 {
     font-size: 22px;
-    color: #8B5CF6;
+    color: #34437A;
     font-weight: 800;
   }
   .header .date {
@@ -138,7 +138,7 @@ export function generateParentReport({ user, progress, language, weekly, skills,
     color: #666;
   }
   .student-info {
-    background: #F7F5FF;
+    background: #FBF8F1;
     border: 1px solid #E4DEFF;
     border-radius: 8px;
     padding: 14px;
@@ -165,7 +165,7 @@ export function generateParentReport({ user, progress, language, weekly, skills,
   .stat-value {
     font-size: 20px;
     font-weight: 800;
-    color: #8B5CF6;
+    color: #34437A;
   }
   .stat-label { font-size: 9px; color: #888; text-transform: uppercase; }
   .section { margin-bottom: 16px; }

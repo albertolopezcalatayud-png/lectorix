@@ -28,7 +28,7 @@ export function Header({ title, showBack = false, showXP = true }: HeaderProps) 
           </button>
         )}
         {title ? (
-          <h1 className="font-heading font-extrabold text-lg">{title}</h1>
+          <h1 className="font-heading font-bold text-lg"><span className="ink-underline">{title}</span></h1>
         ) : (
           <span className="font-heading font-black text-xl text-accent">Lectorix</span>
         )}
@@ -37,7 +37,7 @@ export function Header({ title, showBack = false, showXP = true }: HeaderProps) 
       {showXP && user && xpInfo && (
         <div className="flex items-center gap-2">
           <div className="flex items-center gap-1 bg-yellow-pale px-2.5 py-1 rounded-full" role="img" aria-label={t('hdr_streak_aria', { n: user.streak_days })}>
-            <span className="text-sm">🔥</span>
+            <span className="text-sm">✏️</span>
             <span className="text-xs font-extrabold text-yellow">{user.streak_days}</span>
           </div>
           <div className="flex items-center gap-1 bg-accent-pale px-2.5 py-1 rounded-full" role="img" aria-label={t('hdr_level_aria', { n: xpInfo.level })}>

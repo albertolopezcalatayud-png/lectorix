@@ -106,7 +106,7 @@ export default function Essay() {
     try { await navigator.clipboard.writeText(`${d.title ? d.title + '\n\n' : ''}${fullText}`); setCopied(true); setTimeout(() => setCopied(false), 2000); } catch { /* not allowed */ }
   };
   const print = () => {
-    const html = `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><title>${esc(d.title || type.name)}</title><style>@page{size:A4;margin:20mm}body{font-family:Verdana,Arial,sans-serif;font-size:13pt;line-height:1.8;letter-spacing:.02em;color:#222}h1{font-size:1.3em;color:#6d28d9}p{margin:0 0 12px}</style></head><body><h1>${esc(d.title || type.name)}</h1>${fullText.split('\n\n').map((p) => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`).join('')}</body></html>`;
+    const html = `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><title>${esc(d.title || type.name)}</title><style>@page{size:A4;margin:20mm}body{font-family:Verdana,Arial,sans-serif;font-size:13pt;line-height:1.8;letter-spacing:.02em;color:#222}h1{font-size:1.3em;color:#34437a}p{margin:0 0 12px}</style></head><body><h1>${esc(d.title || type.name)}</h1>${fullText.split('\n\n').map((p) => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`).join('')}</body></html>`;
     void printHtml(html, d.title || type.name);
   };
   const finish = () => {
@@ -274,7 +274,7 @@ export default function Essay() {
                 <Card className="text-center space-y-1">
                   <div className="text-4xl">🎉</div>
                   <p className="font-heading font-black">{t('es_done')}</p>
-                  {xp > 0 && <p className="font-heading font-black text-2xl text-mint">+{xp} XP</p>}
+                  {xp > 0 && <p className="font-heading font-black text-2xl text-mint">{t('pts_plus', { n: xp })}</p>}
                 </Card>
               </motion.div>
             ) : (
