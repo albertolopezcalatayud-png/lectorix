@@ -1148,6 +1148,15 @@ export const es = {
 
   // Placement: fixed question total
   plc_max_note: 'Como mucho {n} preguntas por área. Si ya sabemos tu nivel, acaba antes.',
+
+  // Voice picker
+  voice_choose_title: 'Elige la voz en {lang}',
+  voice_choose_desc: 'Este dispositivo tiene varias voces. Algunas suenan mucho más naturales que otras: escúchalas y quédate con la que mejor se entienda. Lectorix ya elige la que suele sonar mejor.',
+  voice_use: 'Usar',
+  voice_in_use: 'En uso',
+  voice_recommended: 'Recomendada',
+  voice_online: 'Necesita internet',
+  voice_auto: 'Volver a la recomendada',
 } as const;
 
 export type TranslationKey = keyof typeof es;

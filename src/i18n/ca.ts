@@ -1150,4 +1150,13 @@ export const ca: Record<TranslationKey, string> = {
 
   // Placement: fixed question total
   plc_max_note: 'Com a molt {n} preguntes per àrea. Si ja sabem el teu nivell, acaba abans.',
+
+  // Voice picker
+  voice_choose_title: 'Tria la veu en {lang}',
+  voice_choose_desc: 'Este dispositiu té diverses veus. Algunes sonen molt més naturals que altres: escolta-les i queda’t amb la que millor s’entenga. Lectorix ja tria la que sol sonar millor.',
+  voice_use: 'Usar',
+  voice_in_use: 'En ús',
+  voice_recommended: 'Recomanada',
+  voice_online: 'Necessita internet',
+  voice_auto: 'Tornar a la recomanada',
 };

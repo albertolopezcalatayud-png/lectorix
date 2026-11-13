@@ -1150,4 +1150,13 @@ export const en: Record<TranslationKey, string> = {
 
   // Placement: fixed question total
   plc_max_note: 'At most {n} questions per area. If we already know your level, it ends sooner.',
+
+  // Voice picker
+  voice_choose_title: 'Choose the {lang} voice',
+  voice_choose_desc: 'This device has several voices. Some sound much more natural than others: listen and keep the one that is easiest to understand. Lectorix already picks the one that usually sounds best.',
+  voice_use: 'Use',
+  voice_in_use: 'In use',
+  voice_recommended: 'Recommended',
+  voice_online: 'Needs internet',
+  voice_auto: 'Back to the recommended one',
 };

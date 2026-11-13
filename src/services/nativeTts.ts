@@ -39,18 +39,20 @@ export async function nativeStop() {
 }
 
 /** Speaks and resolves when finished. ok=false on engine error. */
-export async function nativeSpeak(text: string, tag: string, rate = 1, pitch = 1): Promise<{ ok: boolean; interrupted: boolean }> {
+export async function nativeSpeak(text: string, tag: string, rate = 1, pitch = 1, voice?: number): Promise<{ ok: boolean; interrupted: boolean }> {
   const my = ++generation;
   // Safety net: if the device's voice engine stops answering, never leave the app waiting
   const limit = Math.max(8000, (text.length * 180) / Math.max(0.5, rate));
   try {
     const finished = await Promise.race([
-      TextToSpeech.speak({ text, lang: tag, rate, pitch, volume: 1, category: 'playback', queueStrategy: QueueStrategy.Flush }).then(() => true),
+      TextToSpeech.speak({ text, lang: tag, rate, pitch, volume: 1, category: 'playback', queueStrategy: QueueStrategy.Flush, ...(voice != null ? { voice } : {}) }).then(() => true),
       new Promise<boolean>((r) => setTimeout(() => r(false), limit)),
     ]);
     if (!finished) return { ok: false, interrupted: false };
     return { ok: true, interrupted: my !== generation };
   } catch {
+    // A chosen voice that cannot speak now (e.g. an online voice without internet): try the engine's default
+    if (voice != null && my === generation) return nativeSpeak(text, tag, rate, pitch);
     return { ok: my !== generation, interrupted: my !== generation };
   }
 }
@@ -61,6 +63,7 @@ export async function nativeSpeakTracked(
   rate: number,
   onStart?: () => void,
   onWord?: (charIndex: number) => void,
+  voice?: number,
 ): Promise<{ ok: boolean; boundaries: boolean; interrupted: boolean }> {
   let boundaries = false;
   const handle = await TextToSpeech.addListener('onRangeStart', (info) => {
@@ -68,7 +71,7 @@ export async function nativeSpeakTracked(
     onWord?.(info.start);
   }).catch(() => null);
   onStart?.();
-  const r = await nativeSpeak(text, tag, rate);
+  const r = await nativeSpeak(text, tag, rate, 1, voice);
   await handle?.remove();
   return { ...r, boundaries };
 }

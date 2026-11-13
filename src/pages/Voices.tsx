@@ -4,6 +4,7 @@ import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import tts from '@/services/tts';
 import { isNative, nativeRecheck, nativeOpenInstall } from '@/services/nativeTts';
+import { voicesFor, bestVoice, getPreferredVoice, setPreferredVoice, loadNativeVoices, voiceLabel, type VoiceInfo } from '@/services/voices';
 import { useI18n } from '@/i18n';
 
 const LANGS = [
@@ -11,6 +12,51 @@ const LANGS = [
   { id: 'es', tag: 'es-ES', flag: '🟥', key: 'wl_lang_es', sample: { es: 'Hola, soy la voz en castellano.', ca: 'Hola, soy la voz en castellano.', en: 'Hola, soy la voz en castellano.' } },
   { id: 'en', tag: 'en-GB', flag: '🟦', key: 'wl_lang_en', sample: { es: 'Hello, I am the English voice.', ca: 'Hello, I am the English voice.', en: 'Hello, I am the English voice.' } },
 ] as const;
+
+const SAMPLES = {
+  es: 'Había una vez una niña que quería aprender a leer cuentos de dragones. Cada día leía un poquito más.',
+  ca: 'Hi havia una vegada una xiqueta que volia aprendre a llegir contes de dracs. Cada dia llegia un poquet més.',
+  en: 'Once upon a time, a girl wanted to learn to read stories about dragons. Every day, she read a little more.',
+} as const;
+
+/** The voices this device has for one language, most natural first; the family can choose one */
+function VoicePicker({ tag, title, sample, refresh }: { tag: string; title: string; sample: string; refresh: boolean }) {
+  const { t } = useI18n();
+  const [list, setList] = useState<VoiceInfo[]>([]);
+  const [chosen, setChosen] = useState<string | null>(null);
+  useEffect(() => {
+    const load = () => { setList(voicesFor(tag).slice(0, 6)); setChosen(bestVoice(tag)?.id ?? null); };
+    load();
+    if (!isNative && 'speechSynthesis' in window) { window.speechSynthesis.addEventListener?.('voiceschanged', load); return () => window.speechSynthesis.removeEventListener?.('voiceschanged', load); }
+  }, [tag, refresh]);
+  if (list.length < 2) return null;
+  const recommended = list[0].id;
+  const use = (v: VoiceInfo | null) => { setPreferredVoice(tag, v ? v.id : null); setChosen(v ? v.id : recommended); };
+  const test = (v: VoiceInfo) => { const keep = getPreferredVoice(tag); setPreferredVoice(tag, v.id); void tts.speakIn(sample, tag, 0.92).finally(() => setPreferredVoice(tag, keep)); };
+  return (
+    <Card>
+      <h3 className="font-heading font-extrabold text-sm">🎙️ {t('voice_choose_title', { lang: title })}</h3>
+      <p className="text-xs text-fg-muted mb-2">{t('voice_choose_desc')}</p>
+      <ul className="space-y-1.5">
+        {list.map((v) => (
+          <li key={v.id} className={`flex items-center gap-2 rounded-xl border px-2.5 py-2 ${chosen === v.id ? 'border-accent bg-accent-pale/50' : 'border-border'}`}>
+            <span className="flex-1 min-w-0">
+              <span className="block text-sm font-bold truncate">{voiceLabel(v)}</span>
+              <span className="block text-[10px] text-fg-muted">
+                {v.id === recommended ? `⭐ ${t('voice_recommended')}` : ''}{v.id === recommended && v.online ? ' · ' : ''}{v.online ? `🌐 ${t('voice_online')}` : ''}
+              </span>
+            </span>
+            <button onClick={() => test(v)} className="px-2.5 py-1.5 rounded-lg bg-surface-alt text-xs font-bold" aria-label={`${t('voice_test')}: ${voiceLabel(v)}`}>🔊</button>
+            <button onClick={() => use(v)} aria-pressed={chosen === v.id} className={`px-2.5 py-1.5 rounded-lg text-xs font-extrabold ${chosen === v.id ? 'bg-accent text-white' : 'bg-accent-pale text-accent'}`}>
+              {chosen === v.id ? `✓ ${t('voice_in_use')}` : t('voice_use')}
+            </button>
+          </li>
+        ))}
+      </ul>
+      {getPreferredVoice(tag) && <button onClick={() => use(null)} className="mt-2 text-xs font-bold text-accent">↺ {t('voice_auto')}</button>}
+    </Card>
+  );
+}
 
 type Platform = 'android' | 'ios' | 'windows' | 'mac' | 'other';
 function platform(): Platform {
@@ -31,6 +77,7 @@ export default function Voices() {
 
   const check = async () => {
     setChecking(true);
+    await loadNativeVoices(true);
     const res = await Promise.all(LANGS.map((l) => (isNative ? nativeRecheck(l.tag) : tts.canSpeak(l.tag))));
     setState(Object.fromEntries(LANGS.map((l, i) => [l.id, res[i]])));
     setChecking(false);
@@ -79,6 +126,8 @@ export default function Voices() {
             <p className="text-[11px] text-fg-muted mt-3">{t('voice_names_vary')}</p>
           </Card>
         )}
+
+        {LANGS.filter((l) => state[l.id]).map((l) => <VoicePicker key={l.id} tag={l.tag} title={t(l.key)} sample={SAMPLES[l.id]} refresh={checking} />)}
 
         {state.ca === true && <p className="text-[11px] text-fg-muted">ℹ️ {t('voice_ca_note')}</p>}
         {missing.length === 0 && !checking && state.ca !== null && <p className="text-sm text-center font-bold">🌟 {t('voice_all_ok')}</p>}

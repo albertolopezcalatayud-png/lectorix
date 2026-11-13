@@ -50,9 +50,9 @@ function estimateOffsets(sentence: Sentence, rate: number): number[] {
 }
 
 export const SPEEDS = [
-  { key: 'read_slow', rate: 0.6 },
-  { key: 'read_normal', rate: 0.8 },
-  { key: 'read_fast', rate: 1.0 },
+  { key: 'read_slow', rate: 0.75 },
+  { key: 'read_normal', rate: 0.92 },
+  { key: 'read_fast', rate: 1.08 },
 ] as const;
 
 interface Props {

@@ -6,6 +6,7 @@
  */
 
 import { isNative, nativeHas, nativeSpeak, nativeSpeakTracked, nativeStop, nativeCheck } from './nativeTts';
+import { bestVoice } from './voices';
 
 const STORAGE_KEY = 'lectorix-tts-enabled';
 const RATE_KEY = 'lectorix-tts-rate';
@@ -32,9 +33,9 @@ export function setTTSEnabled(enabled: boolean) {
 export function getTTSRate(): number {
   try {
     const stored = localStorage.getItem(RATE_KEY);
-    return stored ? parseFloat(stored) : 0.85; // slightly slower than default for kids
+    return stored ? parseFloat(stored) : 0.92; // a touch slower than normal, still natural
   } catch {
-    return 0.85;
+    return 0.92;
   }
 }
 
@@ -45,6 +46,13 @@ export function setTTSRate(rate: number) {
     // ignore
   }
 }
+
+/**
+ * Very slow rates make every engine sound robotic (vowels get stretched and the melody breaks).
+ * Slow listening is kept, but never below this; slower help comes from pauses between pieces instead.
+ */
+const MIN_RATE = 0.72;
+export const natural = (rate: number) => Math.max(MIN_RATE, rate);
 
 // ── Core TTS ─────────────────────────────────────────────
 
@@ -85,21 +93,14 @@ export function getSpeechLang(): SpeechLang {
  */
 export function pickVoice(tag: string): SpeechSynthesisVoice | null {
   if (!('speechSynthesis' in window)) return null;
-  const voices = window.speechSynthesis.getVoices();
-  const norm = (v: SpeechSynthesisVoice) => v.lang.replace(/_/g, '-').toLowerCase();
-  const want = tag.toLowerCase();
-  const base = want.split('-')[0];
-  const good = (v: SpeechSynthesisVoice) => v.localService || v.name.toLowerCase().includes('google');
-  const valencian = (v: SpeechSynthesisVoice) => norm(v).includes('valencia') || /valenci/i.test(v.name);
-  return (
-    (base === 'ca' ? voices.find(valencian) : undefined) ||
-    voices.find((v) => norm(v) === want && good(v)) ||
-    voices.find((v) => norm(v) === want) ||
-    voices.find((v) => norm(v).startsWith(base + '-') && good(v)) ||
-    voices.find((v) => norm(v).startsWith(base + '-')) ||
-    voices.find((v) => norm(v) === base) ||
-    null
-  );
+  const best = bestVoice(tag);
+  if (!best) return null;
+  return window.speechSynthesis.getVoices().find((v) => (v.voiceURI || v.name) === best.id) ?? null;
+}
+
+/** Android: index of the chosen voice in the engine's list (undefined = the engine's default for the language) */
+function nativeVoice(tag: string): number | undefined {
+  return bestVoice(tag)?.index;
 }
 
 function getVoiceFor(lang: SpeechLang): SpeechSynthesisVoice | null {
@@ -150,7 +151,7 @@ export function speak(text: string, options?: { rate?: number; pitch?: number })
     }
 
     if (isNative) {
-      void nativeSpeak(text, BCP47[speechLang], options?.rate ?? getTTSRate(), options?.pitch ?? 1).then(() => resolve());
+      void nativeSpeak(text, BCP47[speechLang], natural(options?.rate ?? getTTSRate()), options?.pitch ?? 1, nativeVoice(BCP47[speechLang])).then(() => resolve());
       return;
     }
 
@@ -159,7 +160,7 @@ export function speak(text: string, options?: { rate?: number; pitch?: number })
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = BCP47[speechLang];
-    utterance.rate = options?.rate ?? getTTSRate();
+    utterance.rate = natural(options?.rate ?? getTTSRate());
     utterance.pitch = options?.pitch ?? 1.0;
     utterance.volume = 1.0;
 
@@ -211,7 +212,7 @@ export function speakTracked(
       return;
     }
     if (isNative) {
-      void nativeSpeakTracked(text, BCP47[speechLang], options.rate ?? getTTSRate(), options.onStart, options.onWord).then(resolve);
+      void nativeSpeakTracked(text, BCP47[speechLang], natural(options.rate ?? getTTSRate()), options.onStart, options.onWord, nativeVoice(BCP47[speechLang])).then(resolve);
       return;
     }
     stopSpeaking();
@@ -219,7 +220,7 @@ export function speakTracked(
     let boundaries = false;
     const u = new SpeechSynthesisUtterance(text);
     u.lang = BCP47[speechLang];
-    u.rate = options.rate ?? getTTSRate();
+    u.rate = natural(options.rate ?? getTTSRate());
     const voice = getVoiceFor(speechLang);
     if (voice) u.voice = voice;
 
@@ -254,11 +255,11 @@ export function estimateSyllables(word: string): number {
  * Speak a word slowly, syllable by syllable.
  * Useful for phonology exercises.
  */
-export async function speakSyllables(syllables: string[], delayMs = 400): Promise<void> {
+export async function speakSyllables(syllables: string[], delayMs = 550): Promise<void> {
   if (!isTTSAvailable() || !isTTSEnabled()) return;
 
   for (let i = 0; i < syllables.length; i++) {
-    await speak(syllables[i], { rate: 0.6 });
+    await speak(syllables[i], { rate: 0.8 });
     if (i < syllables.length - 1) {
       await new Promise((r) => setTimeout(r, delayMs));
     }
@@ -269,7 +270,7 @@ export async function speakSyllables(syllables: string[], delayMs = 400): Promis
  * Read a passage aloud at a comfortable pace.
  */
 export function speakPassage(text: string): Promise<void> {
-  return speak(text, { rate: getTTSRate() * 0.9 }); // slightly slower for passages
+  return speak(text, { rate: getTTSRate() });
 }
 
 /**
@@ -286,7 +287,7 @@ export async function spellWord(word: string, delayMs = 350): Promise<void> {
   if (!isTTSAvailable() || !isTTSEnabled()) return;
 
   for (let i = 0; i < word.length; i++) {
-    await speak(word[i], { rate: 0.7 });
+    await speak(word[i], { rate: 0.85 });
     if (i < word.length - 1) {
       await new Promise((r) => setTimeout(r, delayMs));
     }
@@ -296,7 +297,7 @@ export async function spellWord(word: string, delayMs = 350): Promise<void> {
 /** Speak in any language tag (used by the family panel). Resolves when finished. */
 export function speakIn(text: string, tag: string, rate = 0.9): Promise<void> {
   if (missingVoice(tag)) return Promise.resolve();
-  if (isNative) return nativeSpeak(text, tag, rate).then(() => undefined);
+  if (isNative) return nativeSpeak(text, tag, natural(rate), 1, nativeVoice(tag)).then(() => undefined);
   return new Promise((resolve) => {
     if (!('speechSynthesis' in window)) return resolve();
     window.speechSynthesis.cancel();
@@ -304,7 +305,7 @@ export function speakIn(text: string, tag: string, rate = 0.9): Promise<void> {
     u.lang = tag;
     const v = pickVoice(tag);
     if (v) u.voice = v;
-    u.rate = rate;
+    u.rate = natural(rate);
     u.onend = () => resolve();
     u.onerror = () => resolve();
     window.speechSynthesis.speak(u);
