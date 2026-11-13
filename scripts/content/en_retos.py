@@ -88,6 +88,12 @@ COMPOUND = {
 }
 
 
+def _mix(words):
+    """Shows the group in a fixed but varied order, so the odd word is not always the last one."""
+    import hashlib
+    return sorted(words, key=lambda w: hashlib.md5(w.encode('utf-8')).hexdigest())
+
+
 def build(b):
     for level in range(1, 6):
         for w, s, wrong in SYN[level]:
@@ -95,7 +101,7 @@ def build(b):
         for w, a, wrong in ANT[level]:
             b.mc(M, level, f"What is the opposite of '{w}'?", a, wrong, f"The opposite of '{w}' is '{a}'.")
         for group, odd, expl in ODD[level]:
-            b.mc(M, level, f"Which word does NOT belong: {', '.join(group)} or {odd}?", odd, group, expl.capitalize())
+            b.mc(M, level, f"Which word is the odd one out? {', '.join(_mix(group + [odd]))}", odd, group, expl.capitalize())
         for prompt, ans, wrong, expl in CLASS[level]:
             b.mc(M, level, prompt, ans, wrong, expl)
         for words in FIRST_ABC[level]:

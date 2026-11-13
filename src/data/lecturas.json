@@ -22,9 +22,9 @@
      "id": "lectura_l1_gato_q2",
      "prompt": "¿Con qué juega Tom?",
      "options": [
-      "Con una pelota",
+      "Con una pelota de goma",
       "Con una bola de lana",
-      "Con un ratón"
+      "Con un ratón de juguete"
      ],
      "correct": 1,
      "explanation": "«Por la tarde, juega con una bola de lana.»"
@@ -79,8 +79,8 @@
      "id": "lectura_l1_playa_q3",
      "prompt": "¿Qué lleva el niño?",
      "options": [
-      "La comida",
-      "La sombrilla",
+      "La toalla y la comida",
+      "La sombrilla y el balón",
       "Su cubo y su pala"
      ],
      "correct": 2,
@@ -148,8 +148,8 @@
      "id": "lectura_l1_lluvia_q1",
      "prompt": "¿Qué se pone para salir?",
      "options": [
-      "Una bufanda",
-      "El bañador",
+      "Una bufanda y un gorro",
+      "El bañador y las chanclas",
       "Las botas y el chubasquero"
      ],
      "correct": 2,
@@ -352,8 +352,8 @@
      "prompt": "¿Cómo volvió a casa?",
      "options": [
       "Cansado, pero muy contento",
-      "Enfadado",
-      "Triste"
+      "Enfadado con su hermano",
+      "Triste porque llovía"
      ],
      "correct": 0,
      "explanation": "«Volví a casa cansado, pero muy contento.»"
@@ -422,9 +422,9 @@
      "id": "lectura_l2_baloncesto_q1",
      "prompt": "¿A qué juega Sara?",
      "options": [
-      "Al fútbol",
+      "Al fútbol sala",
       "Al baloncesto",
-      "Al tenis"
+      "Al tenis de mesa"
      ],
      "correct": 1,
      "explanation": "«Sara juega al baloncesto.»"
@@ -556,9 +556,9 @@
      "id": "lectura_l3_faro_q1",
      "prompt": "¿Para qué servía la luz del faro?",
      "options": [
-      "Para iluminar la playa",
+      "Para iluminar la playa por la noche",
       "Para avisar a los barcos de las rocas",
-      "Para buscar peces"
+      "Para que los peces subieran a la superficie"
      ],
      "correct": 1,
      "explanation": "«Para avisar a los barcos de que había rocas cerca.»"
@@ -578,8 +578,8 @@
      "id": "lectura_l3_faro_q3",
      "prompt": "¿Cómo le dieron las gracias los pescadores?",
      "options": [
-      "Con una carta",
-      "Con una fiesta",
+      "Con una carta muy bonita",
+      "Con una fiesta en el puerto",
       "Con una cesta de pescado"
      ],
      "correct": 2,
@@ -602,9 +602,9 @@
      "id": "lectura_l3_biblioteca_q1",
      "prompt": "¿Qué pasó cuando Nora abrió el libro?",
      "options": [
-      "Se quedó dormida",
+      "Nora se quedó dormida enseguida",
       "Las letras empezaron a moverse",
-      "El libro se rompió"
+      "El libro se rompió por la mitad"
      ],
      "correct": 1,
      "explanation": "«Las letras empezaron a moverse.»"
@@ -624,9 +624,9 @@
      "id": "lectura_l3_biblioteca_q3",
      "prompt": "¿Dónde encontró la última página?",
      "options": [
-      "Bajo una piedra",
+      "Debajo de una piedra grande",
       "En lo alto de una torre",
-      "En el río"
+      "En la orilla de un río"
      ],
      "correct": 1,
      "explanation": "«En lo alto de una torre, encontró la página perdida.»"
@@ -647,9 +647,9 @@
      "id": "lectura_l3_agua_q1",
      "prompt": "¿Dónde se limpia el agua?",
      "options": [
-      "En el grifo",
+      "En el grifo de cada casa",
       "En una planta potabilizadora",
-      "En el embalse"
+      "En el fondo del embalse"
      ],
      "correct": 1,
      "explanation": "«El agua viaja por grandes tuberías hasta una planta potabilizadora. En ella se limpia.»"
@@ -670,8 +670,8 @@
      "prompt": "¿Qué consejo da el texto?",
      "options": [
       "Cerrar el grifo al lavarnos los dientes",
-      "Beber mucha agua",
-      "No bañarse en los ríos"
+      "Beber mucha agua antes de dormir",
+      "No bañarse nunca en los ríos"
      ],
      "correct": 0,
      "explanation": "«Debemos cerrar el grifo mientras nos lavamos los dientes.»"
@@ -719,9 +719,9 @@
      "id": "lectura_l3_planetas_q3",
      "prompt": "¿Por qué Marte se ve rojizo?",
      "options": [
-      "Porque hace mucho calor",
+      "Porque allí hace muchísimo calor siempre",
       "Porque su suelo tiene mucho óxido de hierro",
-      "Porque está cerca del Sol"
+      "Porque está más cerca del Sol que la Tierra"
      ],
      "correct": 1,
      "explanation": "«Su suelo tiene mucho óxido de hierro.»"
@@ -1023,9 +1023,9 @@
      "id": "lectura_l5_cerebro_q2",
      "prompt": "¿Con qué compara el texto el refuerzo de las conexiones?",
      "options": [
-      "Con un río que se seca",
+      "Con un río que se seca en verano",
       "Con un sendero que se marca al recorrerlo",
-      "Con una carretera nueva"
+      "Con una carretera nueva y muy ancha"
      ],
      "correct": 1,
      "explanation": "«Igual que un sendero se marca más cuanto más se recorre.»"
@@ -1114,8 +1114,8 @@
      "id": "lectura_l5_bosque_q2",
      "prompt": "¿Qué hicieron Iker y Amaia?",
      "options": [
-      "Plantaron árboles nuevos",
-      "Escribieron una carta al periódico",
+      "Plantaron árboles nuevos en la parte del bosque que se iba a talar",
+      "Escribieron una carta al periódico para quejarse de la fábrica",
       "Anotaron las especies del bosque y lo explicaron en el pleno"
      ],
      "correct": 2,
@@ -1170,8 +1170,8 @@
      "id": "lectura_l5_palabras_q3",
      "prompt": "¿Cuál es la idea principal del texto?",
      "options": [
-      "El inglés no toma palabras de otras lenguas",
-      "El español es la lengua más antigua",
+      "El español es la lengua más antigua y no ha cambiado en siglos",
+      "El inglés nunca ha tomado palabras de otras lenguas",
       "Las lenguas cambian y se enriquecen con el contacto entre pueblos"
      ],
      "correct": 2,
@@ -1208,9 +1208,9 @@
      "id": "lectura_l5_estacion_q2",
      "prompt": "¿Cuánto tarda en dar una vuelta a la Tierra?",
      "options": [
-      "Un día",
+      "Un día entero",
       "Unos noventa minutos",
-      "Una semana"
+      "Una semana y media"
      ],
      "correct": 1,
      "explanation": "«Da una vuelta completa a la Tierra en unos noventa minutos.»"
@@ -1219,9 +1219,9 @@
      "id": "lectura_l5_estacion_q3",
      "prompt": "¿Por qué hacen ejercicio los astronautas?",
      "options": [
-      "Para no aburrirse",
+      "Para no aburrirse durante los viajes largos",
       "Para que sus músculos y huesos no se debiliten",
-      "Para ganar una carrera"
+      "Para ganar una carrera contra otra nave"
      ],
      "correct": 1,
      "explanation": "«Para que sus músculos y huesos no se debiliten.»"
@@ -1254,9 +1254,9 @@
      "id": "lectura_l5_sorolla_q2",
      "prompt": "¿Por qué pintaba deprisa?",
      "options": [
-      "Porque tenía prisa por comer",
+      "Porque tenía prisa por ir a comer",
       "Para atrapar la luz antes de que cambiara",
-      "Porque no le gustaba pintar"
+      "Porque los cuadros pequeños se venden mejor"
      ],
      "correct": 1,
      "explanation": "«Para atrapar la luz del sol antes de que cambiara.»"

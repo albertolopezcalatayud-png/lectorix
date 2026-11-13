@@ -209,7 +209,7 @@
    "module": "retos_rapidos",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: cat, dog, cow or apple?",
+   "prompt": "Which word is the odd one out? dog, apple, cow, cat",
    "options": [
     "apple",
     "dog",
@@ -226,7 +226,7 @@
    "module": "retos_rapidos",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: red, blue, green or chair?",
+   "prompt": "Which word is the odd one out? blue, green, chair, red",
    "options": [
     "green",
     "chair",
@@ -243,7 +243,7 @@
    "module": "retos_rapidos",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: one, two, three or cake?",
+   "prompt": "Which word is the odd one out? three, cake, two, one",
    "options": [
     "two",
     "one",
@@ -746,7 +746,7 @@
    "module": "retos_rapidos",
    "level": 2,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: banana, pear, grape or carrot?",
+   "prompt": "Which word is the odd one out? carrot, banana, pear, grape",
    "options": [
     "banana",
     "grape",
@@ -763,7 +763,7 @@
    "module": "retos_rapidos",
    "level": 2,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: Monday, Friday, Sunday or March?",
+   "prompt": "Which word is the odd one out? Monday, Sunday, Friday, March",
    "options": [
     "March",
     "Monday",
@@ -780,7 +780,7 @@
    "module": "retos_rapidos",
    "level": 2,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: car, bus, train or bridge?",
+   "prompt": "Which word is the odd one out? train, bridge, bus, car",
    "options": [
     "bus",
     "train",
@@ -1287,7 +1287,7 @@
    "module": "retos_rapidos",
    "level": 3,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: shark, whale, dolphin or eagle?",
+   "prompt": "Which word is the odd one out? whale, dolphin, eagle, shark",
    "options": [
     "eagle",
     "shark",
@@ -1304,7 +1304,7 @@
    "module": "retos_rapidos",
    "level": 3,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: violin, guitar, piano or hammer?",
+   "prompt": "Which word is the odd one out? guitar, hammer, violin, piano",
    "options": [
     "piano",
     "violin",
@@ -1321,7 +1321,7 @@
    "module": "retos_rapidos",
    "level": 3,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: spring, summer, autumn or Tuesday?",
+   "prompt": "Which word is the odd one out? spring, autumn, Tuesday, summer",
    "options": [
     "summer",
     "spring",
@@ -1832,7 +1832,7 @@
    "module": "retos_rapidos",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: Mars, Venus, Jupiter or Moon?",
+   "prompt": "Which word is the odd one out? Venus, Mars, Jupiter, Moon",
    "options": [
     "Venus",
     "Mars",
@@ -1849,7 +1849,7 @@
    "module": "retos_rapidos",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: triangle, square, circle or cube?",
+   "prompt": "Which word is the odd one out? cube, square, circle, triangle",
    "options": [
     "square",
     "cube",
@@ -1866,7 +1866,7 @@
    "module": "retos_rapidos",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: run, jump, swim or happy?",
+   "prompt": "Which word is the odd one out? swim, happy, run, jump",
    "options": [
     "happy",
     "run",
@@ -2381,7 +2381,7 @@
    "module": "retos_rapidos",
    "level": 5,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: quickly, slowly, loudly or lovely?",
+   "prompt": "Which word is the odd one out? lovely, quickly, loudly, slowly",
    "options": [
     "quickly",
     "loudly",
@@ -2398,7 +2398,7 @@
    "module": "retos_rapidos",
    "level": 5,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: Paris, Madrid, Rome or France?",
+   "prompt": "Which word is the odd one out? France, Rome, Madrid, Paris",
    "options": [
     "Madrid",
     "France",
@@ -2415,7 +2415,7 @@
    "module": "retos_rapidos",
    "level": 5,
    "type": "multiple_choice",
-   "prompt": "Which word does NOT belong: liquid, solid, gas or metal?",
+   "prompt": "Which word is the odd one out? metal, solid, liquid, gas",
    "options": [
     "solid",
     "metal",

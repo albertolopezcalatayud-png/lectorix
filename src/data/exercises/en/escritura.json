@@ -5,15 +5,15 @@
    "module": "escritura",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "Which sentence starts correctly?",
+   "prompt": "Which sentence is written correctly?",
    "options": [
     "The cat is black.",
-    "tHe cat is black.",
+    "The cat is black",
     "the cat is black.",
-    "the Cat is black."
+    "The Cat is black."
    ],
    "correct": 0,
-   "explanation": "A sentence starts with a capital letter.",
+   "explanation": "A sentence starts with a capital letter and ends with a full stop. 'cat' is lower case.",
    "skill": "esc_punct",
    "step": 3
   },
@@ -25,12 +25,12 @@
    "prompt": "Which name is written correctly?",
    "options": [
     "Sam",
-    "saM",
+    "Mas",
     "sam",
-    "sAm"
+    "Sma"
    ],
    "correct": 0,
-   "explanation": "Names start with a capital letter.",
+   "explanation": "Names start with a capital letter: S-a-m.",
    "skill": "esc_punct",
    "step": 3
   },
@@ -1081,7 +1081,7 @@
    "module": "escritura",
    "level": 2,
    "type": "multiple_choice",
-   "prompt": "What is the short form of 'can not'?",
+   "prompt": "What is the short form of 'cannot'?",
    "options": [
     "cant",
     "can'tt",
@@ -1089,7 +1089,7 @@
     "can't"
    ],
    "correct": 3,
-   "explanation": "can not → can't.",
+   "explanation": "cannot → can't.",
    "skill": "esc_grammar",
    "step": 2
   },

@@ -4,12 +4,12 @@ M = 'retos_rapidos'
 SYN = {
 1: [("gran", "enorme", ["xicotet", "roig", "lent"]), ("content", "alegre", ["trist", "fred", "tard"]), ("ràpid", "veloç", ["lent", "alt", "banyat"]),
     ("xicotet", "menut", ["gegant", "sorollós", "vell"]), ("pedra", "roca", ["fusta", "aigua", "flor"]), ("bonic", "preciós", ["lleig", "fred", "fort"])],
-2: [("començar", "iniciar", ["acabar", "parar", "dormir"]), ("cridar", "bramar", ["xiuxiuejar", "cantar", "somriure"]), ("espantat", "atemorit", ["valent", "content", "avorrit"]),
+2: [("començar", "iniciar", ["acabar", "parar", "dormir"]), ("cridar", "xisclar", ["xiuxiuejar", "cantar", "somriure"]), ("espantat", "amb por", ["amb ganes", "amb fred", "amb son"]),
     ("cansat", "esgotat", ["descansat", "enfadat", "afamat"]), ("mirar", "observar", ["escoltar", "menjar", "córrer"]), ("fàcil", "senzill", ["difícil", "llarg", "fosc"])],
 3: [("enorme", "immens", ["diminut", "silenciós", "primerenc"]), ("silenciós", "callat", ["sorollós", "assolellat", "divertit"]), ("valent", "coratjós", ["poruc", "gandul", "maleducat"]),
     ("difícil", "complicat", ["fàcil", "suau", "lleuger"]), ("ordenat", "endreçat", ["desordenat", "brut", "ocupat"]), ("ric", "adinerat", ["pobre", "feble", "prim"])],
 4: [("antic", "molt vell", ["nou de trinca", "molt ràpid", "molt xicotet"]), ("furiós", "molt enfadat", ["molt tranquil", "molt fred", "molt cansat"]),
-    ("fràgil", "que es trenca fàcilment", ["molt fort", "molt pesat", "molt brillant"]), ("esgotat", "molt cansat", ["molt despert", "molt emocionat", "molt afamat"]),
+    ("fràgil", "que es trenca fàcilment", ["que pesa moltíssim", "que brilla amb el sol", "que aguanta colps forts"]), ("esgotat", "molt cansat", ["molt despert", "molt emocionat", "molt afamat"]),
     ("encantat", "molt content", ["molt molest", "molt avorrit", "molt espantat"]), ("gegantí", "enorme", ["minúscul", "normal", "estret"])],
 5: [("reticent", "poc disposat", ["entusiasta", "descuidat", "sincer"]), ("prudent", "cautelós", ["imprudent", "alegre", "curiós"]),
     ("abundant", "copiós", ["escàs", "fràgil", "silenciós"]), ("vívid", "intens", ["apagat", "lent", "aspre"]),
@@ -88,6 +88,12 @@ ORD_LETTERS2 = {1: ["s", "o", "l"], 2: ["l", "l", "i", "t"], 3: ["t", "r", "e", 
                 5: ["f", "i", "n", "e", "s", "t", "r", "a"]}
 
 
+def _mix(words):
+    """Shows the group in a fixed but varied order, so the odd word is not always the last one."""
+    import hashlib
+    return sorted(words, key=lambda w: hashlib.md5(w.encode('utf-8')).hexdigest())
+
+
 def build(b):
     for level in range(1, 6):
         for w, s, wrong in SYN[level]:
@@ -96,7 +102,7 @@ def build(b):
             de = "d'" if w[0].lower() in "aeiouàèéíòóúh" else "de "
             b.mc(M, level, f"Quin és el contrari {de}«{w}»?", a, wrong, f"El contrari {de}«{w}» és «{a}».")
         for group, odd, expl in ODD[level]:
-            b.mc(M, level, f"Quina paraula NO és del grup: {', '.join(group)} o {odd}?", odd, group, expl)
+            b.mc(M, level, f"Quina paraula sobra? {', '.join(_mix(group + [odd]))}", odd, group, expl)
         for prompt, ans, wrong, expl in CLASS[level]:
             b.mc(M, level, prompt, ans, wrong, expl)
         for seq, ans, wrong in SERIES[level]:

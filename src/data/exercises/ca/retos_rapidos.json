@@ -209,7 +209,7 @@
    "module": "retos_rapidos",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: gat, gos, vaca o poma?",
+   "prompt": "Quina paraula sobra? gos, poma, vaca, gat",
    "options": [
     "vaca",
     "gat",
@@ -226,7 +226,7 @@
    "module": "retos_rapidos",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: roig, blau, verd o cadira?",
+   "prompt": "Quina paraula sobra? blau, roig, cadira, verd",
    "options": [
     "roig",
     "cadira",
@@ -243,7 +243,7 @@
    "module": "retos_rapidos",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: un, dos, tres o pastís?",
+   "prompt": "Quina paraula sobra? dos, un, tres, pastís",
    "options": [
     "un",
     "dos",
@@ -563,11 +563,11 @@
    "options": [
     "cantar",
     "xiuxiuejar",
-    "bramar",
+    "xisclar",
     "somriure"
    ],
    "correct": 2,
-   "explanation": "«cridar» i «bramar» volen dir el mateix.",
+   "explanation": "«cridar» i «xisclar» volen dir el mateix.",
    "skill": "ret_vocab",
    "step": 2
   },
@@ -578,13 +578,13 @@
    "type": "multiple_choice",
    "prompt": "Quina paraula vol dir el mateix que «espantat»?",
    "options": [
-    "avorrit",
-    "content",
-    "atemorit",
-    "valent"
+    "amb son",
+    "amb fred",
+    "amb por",
+    "amb ganes"
    ],
    "correct": 2,
-   "explanation": "«espantat» i «atemorit» volen dir el mateix.",
+   "explanation": "«espantat» i «amb por» volen dir el mateix.",
    "skill": "ret_vocab",
    "step": 3
   },
@@ -746,7 +746,7 @@
    "module": "retos_rapidos",
    "level": 2,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: plàtan, pera, raïm o pastanaga?",
+   "prompt": "Quina paraula sobra? pastanaga, plàtan, raïm, pera",
    "options": [
     "raïm",
     "pera",
@@ -763,7 +763,7 @@
    "module": "retos_rapidos",
    "level": 2,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: dilluns, divendres, diumenge o març?",
+   "prompt": "Quina paraula sobra? dilluns, divendres, diumenge, març",
    "options": [
     "març",
     "divendres",
@@ -780,7 +780,7 @@
    "module": "retos_rapidos",
    "level": 2,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: cotxe, autobús, tren o pont?",
+   "prompt": "Quina paraula sobra? pont, tren, cotxe, autobús",
    "options": [
     "tren",
     "pont",
@@ -1287,7 +1287,7 @@
    "module": "retos_rapidos",
    "level": 3,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: tauró, balena, dofí o àguila?",
+   "prompt": "Quina paraula sobra? dofí, àguila, tauró, balena",
    "options": [
     "tauró",
     "dofí",
@@ -1304,7 +1304,7 @@
    "module": "retos_rapidos",
    "level": 3,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: violí, guitarra, piano o martell?",
+   "prompt": "Quina paraula sobra? guitarra, violí, martell, piano",
    "options": [
     "violí",
     "piano",
@@ -1321,7 +1321,7 @@
    "module": "retos_rapidos",
    "level": 3,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: primavera, estiu, tardor o dimarts?",
+   "prompt": "Quina paraula sobra? dimarts, primavera, estiu, tardor",
    "options": [
     "dimarts",
     "primavera",
@@ -1665,9 +1665,9 @@
    "prompt": "Quina paraula vol dir el mateix que «fràgil»?",
    "options": [
     "que es trenca fàcilment",
-    "molt brillant",
-    "molt fort",
-    "molt pesat"
+    "que aguanta colps forts",
+    "que pesa moltíssim",
+    "que brilla amb el sol"
    ],
    "correct": 0,
    "explanation": "«fràgil» i «que es trenca fàcilment» volen dir el mateix.",
@@ -1832,7 +1832,7 @@
    "module": "retos_rapidos",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: Mart, Venus, Júpiter o Lluna?",
+   "prompt": "Quina paraula sobra? Venus, Mart, Lluna, Júpiter",
    "options": [
     "Mart",
     "Júpiter",
@@ -1849,7 +1849,7 @@
    "module": "retos_rapidos",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: triangle, quadrat, cercle o cub?",
+   "prompt": "Quina paraula sobra? cercle, cub, triangle, quadrat",
    "options": [
     "cub",
     "triangle",
@@ -1866,7 +1866,7 @@
    "module": "retos_rapidos",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: córrer, botar, nadar o content?",
+   "prompt": "Quina paraula sobra? nadar, botar, content, córrer",
    "options": [
     "nadar",
     "córrer",
@@ -2379,7 +2379,7 @@
    "module": "retos_rapidos",
    "level": 5,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: ràpidament, lentament, fortament o valent?",
+   "prompt": "Quina paraula sobra? valent, fortament, lentament, ràpidament",
    "options": [
     "valent",
     "lentament",
@@ -2396,7 +2396,7 @@
    "module": "retos_rapidos",
    "level": 5,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: París, Madrid, Roma o França?",
+   "prompt": "Quina paraula sobra? Madrid, París, França, Roma",
    "options": [
     "Madrid",
     "París",
@@ -2413,7 +2413,7 @@
    "module": "retos_rapidos",
    "level": 5,
    "type": "multiple_choice",
-   "prompt": "Quina paraula NO és del grup: líquid, sòlid, gas o metall?",
+   "prompt": "Quina paraula sobra? sòlid, líquid, metall, gas",
    "options": [
     "sòlid",
     "metall",

@@ -61,9 +61,9 @@
    "type": "multiple_choice",
    "prompt": "What does Rex do with the ball?",
    "options": [
-    "He breaks it",
-    "He hides it",
-    "He eats it",
+    "He runs off with it",
+    "He hides it in a hole",
+    "He chews it to bits",
     "He brings it back"
    ],
    "correct": 3,
@@ -961,16 +961,16 @@
    "type": "multiple_choice",
    "prompt": "What did Amira want to learn?",
    "options": [
-    "To skate",
-    "To dance",
-    "To swim",
+    "To skate on ice",
+    "To skip with a rope",
+    "To swim a length",
     "To ride a bike"
    ],
    "correct": 3,
    "explanation": "'learn to ride a bike'",
    "passage": "Amira wanted to learn to ride a bike. The first time, she fell off and hurt her knee. She felt sad, but she did not give up. She practised every day after school. After two weeks, she could ride all the way round the park!",
    "skill": "comp_literal",
-   "step": 2
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l2_m014",
@@ -1196,9 +1196,9 @@
    "prompt": "What did they use?",
    "options": [
     "An old plastic bottle",
-    "A shoe box",
-    "A glass jar",
-    "Some wood"
+    "An old shoe box",
+    "A big glass jar",
+    "Some pieces of wood"
    ],
    "correct": 0,
    "explanation": "'from an old plastic bottle'",
@@ -1249,9 +1249,9 @@
    "type": "multiple_choice",
    "prompt": "Why was Ruby nervous?",
    "options": [
-    "She was late",
-    "She was ill",
-    "She had a test",
+    "She was late for school that morning",
+    "She had lost her crisps on the bus",
+    "She had a very hard test that day",
     "It was her first day at a new school"
    ],
    "correct": 3,
@@ -1394,7 +1394,7 @@
    "correct": 0,
    "explanation": "Winter is cold; summer is hot.",
    "skill": "comp_vocab",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l2_f005",
@@ -1537,10 +1537,10 @@
    "type": "multiple_choice",
    "prompt": "What is the main idea of the text?",
    "options": [
-    "How bananas grow",
-    "How to visit the Moon",
+    "How stars appear in the night sky",
+    "How people can travel to the Moon",
     "Why the Moon seems to change shape",
-    "Why the Sun is hot"
+    "Why the Sun is so hot in summer"
    ],
    "correct": 2,
    "explanation": "The text explains the Moon's light and its phases.",
@@ -1592,9 +1592,9 @@
    "prompt": "What did Oscar and his dad do?",
    "options": [
     "Took it to the police station",
-    "Kept the money",
-    "Gave it to the shop",
-    "Left it there"
+    "Kept the money for themselves",
+    "Left it on the pavement",
+    "Gave it to the shop assistant"
    ],
    "correct": 0,
    "explanation": "They took it to the police station.",
@@ -1681,10 +1681,10 @@
    "type": "multiple_choice",
    "prompt": "Why is recycling good?",
    "options": [
-    "It uses more plastic",
+    "It keeps the bins nice and full",
     "It protects forests and wildlife",
-    "It is expensive",
-    "It makes more rubbish"
+    "It uses up more plastic bottles",
+    "It means we buy more new things"
    ],
    "correct": 1,
    "explanation": "'we help to protect forests and wildlife'",
@@ -1706,7 +1706,7 @@
    ],
    "correct": 3,
    "explanation": "'came to visit from Japan'",
-   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner.",
+   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky. But his grandmother smiled and said that every expert was once a beginner.",
    "skill": "comp_literal",
    "step": 1
   },
@@ -1717,14 +1717,14 @@
    "type": "multiple_choice",
    "prompt": "What is origami?",
    "options": [
-    "Writing poems",
-    "Painting pictures",
-    "Cooking rice",
+    "Writing poems on paper",
+    "Painting shapes on paper",
+    "Cutting paper with scissors",
     "Folding paper to make shapes"
    ],
    "correct": 3,
    "explanation": "She folds paper until it becomes a crane.",
-   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner.",
+   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky. But his grandmother smiled and said that every expert was once a beginner.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -1742,9 +1742,9 @@
    ],
    "correct": 3,
    "explanation": "'it became a crane'",
-   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner.",
+   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky. But his grandmother smiled and said that every expert was once a beginner.",
    "skill": "comp_literal",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l3_m016",
@@ -1754,13 +1754,13 @@
    "prompt": "What did his grandmother mean?",
    "options": [
     "Everyone gets better with practice",
-    "Kai's crane was perfect",
-    "Kai should stop",
-    "Origami is too hard"
+    "Kai should stop doing origami",
+    "Kai's first crane was perfect",
+    "Origami is far too hard for Kai"
    ],
    "correct": 0,
    "explanation": "'every expert was once a beginner'",
-   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky, but his grandmother smiled and said that every expert was once a beginner.",
+   "passage": "When Kai's grandmother came to visit from Japan, she taught him how to make origami. She showed him how to fold a square of paper again and again until it became a crane. Kai's first crane was a bit wonky. But his grandmother smiled and said that every expert was once a beginner.",
    "skill": "comp_vocab",
    "step": 3
   },
@@ -1790,9 +1790,9 @@
    "prompt": "Why do gardeners like hedgehogs?",
    "options": [
     "They eat slugs and beetles",
-    "They plant flowers",
-    "They are spiky",
-    "They dig holes"
+    "They plant flowers in gardens",
+    "They water plants at night",
+    "They dig holes in the soil"
    ],
    "correct": 0,
    "explanation": "They eat the creatures that damage gardens.",
@@ -1807,16 +1807,16 @@
    "type": "multiple_choice",
    "prompt": "What does 'hibernate' mean?",
    "options": [
-    "Build a nest",
-    "Run very fast",
+    "Build a nest of leaves",
+    "Look for food in winter",
     "Sleep through the winter",
-    "Hunt for food"
+    "Hide during the day"
    ],
    "correct": 2,
    "explanation": "'they sleep for many weeks ... until spring'",
    "passage": "Hedgehogs are small, spiky animals that come out at night. They eat beetles, worms and slugs, so gardeners like them. In winter, food is hard to find, so hedgehogs hibernate. This means they sleep for many weeks in a warm nest of leaves until spring arrives.",
    "skill": "comp_vocab",
-   "step": 2
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l3_m020",
@@ -1825,10 +1825,10 @@
    "type": "multiple_choice",
    "prompt": "Why do hedgehogs hibernate?",
    "options": [
-    "They are bored",
-    "They are too hot",
+    "They are scared of people in winter",
+    "They get too hot in winter",
     "Food is hard to find in winter",
-    "They are scared"
+    "They get bored in winter"
    ],
    "correct": 2,
    "explanation": "'In winter, food is hard to find, so hedgehogs hibernate.'",
@@ -1879,9 +1879,9 @@
    "type": "multiple_choice",
    "prompt": "Why did Josh laugh?",
    "options": [
-    "He had hidden it",
-    "He told a joke",
-    "She fell over",
+    "Freya fell over on stage",
+    "He told a funny joke",
+    "He had hidden the crown",
     "The crown was on her head"
    ],
    "correct": 3,
@@ -1951,10 +1951,10 @@
    "type": "multiple_choice",
    "prompt": "When does rain fall?",
    "options": [
-    "At night only",
+    "When it is very windy",
     "When the drops get heavy",
-    "When it is windy",
-    "When it is sunny"
+    "When vapour rises into the air",
+    "When the Sun heats the sea"
    ],
    "correct": 1,
    "explanation": "'When the drops in the clouds get heavy'",
@@ -1987,10 +1987,10 @@
    "type": "multiple_choice",
    "prompt": "Where does Dev volunteer?",
    "options": [
-    "At a zoo",
+    "At a pet shop in town",
     "At an animal shelter",
-    "At a farm",
-    "At a vet's"
+    "At the zoo every week",
+    "At a farm with cows"
    ],
    "correct": 1,
    "explanation": "'volunteers at the animal shelter'",
@@ -2234,9 +2234,9 @@
    "prompt": "Why does each lighthouse flash in a different pattern?",
    "options": [
     "So sailors know which one it is",
-    "To scare birds",
-    "To look pretty",
-    "To save electricity"
+    "So it looks prettier at night",
+    "So it uses less electricity",
+    "So birds stay away from it"
    ],
    "correct": 0,
    "explanation": "'so sailors can tell which one they are looking at'",
@@ -2270,9 +2270,9 @@
    "prompt": "What does 'back-up' mean here?",
    "options": [
     "Something used if the main system fails",
-    "Going backwards",
-    "A traffic jam",
-    "A spare ship"
+    "Something newer than satellite navigation",
+    "A place where ships are kept at night",
+    "A light that is only there to look nice"
    ],
    "correct": 0,
    "explanation": "Lighthouses still help if the satellite system does not work.",
@@ -2342,9 +2342,9 @@
    "prompt": "What did Maya learn?",
    "options": [
     "Being brave matters more than being perfect",
-    "Audiences are unkind",
-    "She should give up the piano",
-    "Mistakes ruin everything"
+    "You should practise less so you are not nervous",
+    "Audiences only clap when nobody goes wrong",
+    "If you make a mistake, it is best to stop"
    ],
    "correct": 0,
    "explanation": "The last sentence tells us what she realised.",
@@ -2413,16 +2413,16 @@
    "type": "multiple_choice",
    "prompt": "Why were wider streets built?",
    "options": [
-    "To build more shops",
+    "So that bigger carts could pass",
     "To stop fire spreading again",
-    "For bigger cars",
-    "To make parks"
+    "To make room for more shops",
+    "To make space for new parks"
    ],
    "correct": 1,
    "explanation": "'to stop such a terrible fire from happening again'",
    "passage": "The Great Fire of London started in 1666 in a bakery on Pudding Lane. At that time, most houses were made of wood and were built very close together, so the fire spread quickly. It burned for four days. Afterwards, the city was rebuilt with brick and stone, and wider streets, to stop such a terrible fire from happening again.",
    "skill": "comp_inference",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l4_m013",
@@ -2438,7 +2438,7 @@
    ],
    "correct": 0,
    "explanation": "'Chameleons are lizards'",
-   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!",
+   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide. But scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!",
    "skill": "comp_literal",
    "step": 2
   },
@@ -2449,14 +2449,14 @@
    "type": "multiple_choice",
    "prompt": "According to scientists, why do they mostly change colour?",
    "options": [
-    "Only to hide",
-    "To sleep",
-    "To find food",
+    "Mostly to hide from the animals that hunt them",
+    "To sleep more calmly among green leaves",
+    "To find food and see better at night",
     "To show their mood or control temperature"
    ],
    "correct": 3,
    "explanation": "'it is mostly to show their mood or to control their temperature'",
-   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!",
+   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide. But scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!",
    "skill": "comp_inference",
    "step": 3
   },
@@ -2474,7 +2474,7 @@
    ],
    "correct": 0,
    "explanation": "'can turn bright yellow or red'",
-   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!",
+   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide. But scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!",
    "skill": "comp_literal",
    "step": 1
   },
@@ -2492,7 +2492,7 @@
    ],
    "correct": 3,
    "explanation": "'Their eyes can also move separately'",
-   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide, but scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!",
+   "passage": "Chameleons are lizards famous for changing colour. Many people think they change colour to hide. But scientists have found that it is mostly to show their mood or to control their temperature. A calm chameleon may be green or brown, while an excited or angry one can turn bright yellow or red. Their eyes can also move separately, so they can look in two directions at once!",
    "skill": "comp_literal",
    "step": 3
   },
@@ -2503,10 +2503,10 @@
    "type": "multiple_choice",
    "prompt": "Why was Noor grumpy?",
    "options": [
-    "She was ill",
+    "She did not like her new bedroom",
     "She did not want to leave her friend",
-    "She was hungry",
-    "She had lost something"
+    "Ella did not want to write to her",
+    "She had lost her favourite notebook"
    ],
    "correct": 1,
    "explanation": "She did not want to leave Ella.",
@@ -2557,10 +2557,10 @@
    "type": "multiple_choice",
    "prompt": "Why did the distance 'not seem so big'?",
    "options": [
-    "Noor was not moving",
-    "Ella was moving too",
+    "The new city was very close by",
+    "In the end Noor was not moving",
     "They had a way to stay in touch",
-    "The new city was close"
+    "Ella was moving to the same city"
    ],
    "correct": 2,
    "explanation": "Writing letters would keep them close.",
@@ -2612,9 +2612,9 @@
    "prompt": "Why do climbers need special equipment?",
    "options": [
     "There is little oxygen and it is very cold",
-    "There are wild animals",
-    "It rains every day",
-    "There are no paths"
+    "There are no paths to follow",
+    "It rains every single day",
+    "There are wild animals at the top"
    ],
    "correct": 0,
    "explanation": "'very little oxygen, and it is extremely cold'",
@@ -2630,15 +2630,15 @@
    "prompt": "Who are Sherpas?",
    "options": [
     "Local people who guide climbers",
-    "Scientists",
-    "Mountain animals",
-    "Pilots"
+    "Pilots who fly climbers up",
+    "Scientists who study the snow",
+    "Animals that live on mountains"
    ],
    "correct": 0,
    "explanation": "'who live in the area and know the mountains well'",
    "passage": "Some of the world's tallest mountains are in the Himalayas, in Asia. Mount Everest is the highest of all, at nearly nine kilometres. Climbers need special equipment because the air at the top has very little oxygen, and it is extremely cold. Many climbers are helped by Sherpa guides, who live in the area and know the mountains well.",
    "skill": "comp_literal",
-   "step": 2
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l4_m025",
@@ -2666,9 +2666,9 @@
    "prompt": "What did Dad do?",
    "options": [
     "Lit candles and got a board game",
-    "Fixed the power",
-    "Went to bed",
-    "Called a neighbour"
+    "Went to bed very early",
+    "Fixed the power for the whole street",
+    "Called a neighbour to ask for help"
    ],
    "correct": 0,
    "explanation": "'lit some candles and brought out a board game'",
@@ -2947,9 +2947,9 @@
    "type": "multiple_choice",
    "prompt": "What did Fleming find when he returned?",
    "options": [
-    "A new animal",
-    "A broken microscope",
-    "A letter",
+    "A broken microscope on his desk",
+    "A letter from a famous scientist",
+    "New bacteria in a bottle",
     "Mould on a dish of bacteria"
    ],
    "correct": 3,
@@ -2965,9 +2965,9 @@
    "type": "multiple_choice",
    "prompt": "What was special about the mould?",
    "options": [
-    "It glowed",
-    "It smelled nice",
-    "It grew very fast",
+    "It had grown overnight",
+    "It glowed in the dark lab",
+    "It smelled nice and was colourful",
     "Bacteria around it had died"
    ],
    "correct": 3,
@@ -3037,16 +3037,16 @@
    "type": "multiple_choice",
    "prompt": "What did Ms Okafor ask the class to write about?",
    "options": [
-    "Dragons",
-    "A science experiment",
+    "An adventure with dragons",
+    "Their favourite food recipe",
     "Something that really happened",
-    "Their favourite food"
+    "A science experiment from class"
    ],
    "correct": 2,
    "explanation": "'something that had really happened to them'",
    "passage": "Isla had always believed that she was 'no good at writing'. Her stories never seemed as exciting as her classmates'. Then her new teacher, Ms Okafor, asked the class to write about something that had really happened to them. Isla wrote about the night her grandfather taught her the names of the stars. When Ms Okafor read it aloud, the room fell silent. For the first time, Isla understood that a story does not need dragons to be powerful; it needs to be true to the writer.",
    "skill": "comp_literal",
-   "step": 2
+   "step": 3
   },
   {
    "id": "en_comprension_lectora_l5_m007",
@@ -3055,9 +3055,9 @@
    "type": "multiple_choice",
    "prompt": "What does 'the room fell silent' suggest?",
    "options": [
-    "There was a fire drill",
-    "The class was asleep",
-    "Nobody was listening",
+    "Nobody was listening to Isla's story",
+    "The class had fallen asleep",
+    "There was a fire drill outside",
     "Everyone was moved by the story"
    ],
    "correct": 3,
@@ -3092,9 +3092,9 @@
    "prompt": "Why are reefs called 'the rainforests of the sea'?",
    "options": [
     "Many different creatures live there",
-    "They have trees",
-    "It rains a lot there",
-    "They are green"
+    "They have trees under the water",
+    "They are as green as plants",
+    "It rains a lot above them"
    ],
    "correct": 0,
    "explanation": "'so many different creatures live there'",
@@ -3145,9 +3145,9 @@
    "type": "multiple_choice",
    "prompt": "What causes bleaching?",
    "options": [
-    "Too many fish",
-    "Sunlight at night",
-    "Cold winters",
+    "Winters that are too cold",
+    "Too many fish on the reef",
+    "Moonlight shining at night",
     "The sea becoming too warm"
    ],
    "correct": 3,
@@ -3199,10 +3199,10 @@
    "type": "multiple_choice",
    "prompt": "How did the children help?",
    "options": [
-    "They climbed the tree",
-    "They paid for it",
+    "They climbed the tree so nobody could cut it",
+    "They paid for the car park with their savings",
     "They wrote letters and collected signatures",
-    "They built a fence"
+    "They built a fence all round the oak tree"
    ],
    "correct": 2,
    "explanation": "'wrote letters to the council and collected over five hundred signatures'",
@@ -3217,9 +3217,9 @@
    "type": "multiple_choice",
    "prompt": "What does the story show?",
    "options": [
-    "Councils never listen",
-    "Trees are not important",
-    "Car parks are useless",
+    "Old trees are not very important",
+    "Councils never listen to anybody",
+    "Car parks are always a bad idea",
     "Young people can make a difference"
    ],
    "correct": 3,
@@ -3242,7 +3242,7 @@
    ],
    "correct": 1,
    "explanation": "'Many people think they are blind'",
-   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours.",
+   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark. They make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -3253,14 +3253,14 @@
    "type": "multiple_choice",
    "prompt": "What is echolocation?",
    "options": [
-    "Smelling food",
-    "Seeing in colour",
+    "Flying very high to look for insects",
+    "Seeing colours clearly in the dark",
     "Using echoes of sounds to find things",
-    "Flying very high"
+    "Smelling food from very far away"
    ],
    "correct": 2,
    "explanation": "'make high-pitched sounds and listen for the echoes'",
-   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours.",
+   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark. They make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -3278,7 +3278,7 @@
    ],
    "correct": 2,
    "explanation": "'catch tiny insects in mid-air'",
-   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours.",
+   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark. They make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours.",
    "skill": "comp_literal",
    "step": 1
   },
@@ -3289,16 +3289,16 @@
    "type": "multiple_choice",
    "prompt": "Why are bats 'useful neighbours'?",
    "options": [
-    "They guard houses",
-    "They are quiet",
+    "They guard houses at night",
+    "They help make honey",
     "They eat lots of mosquitoes",
-    "They make honey"
+    "They make no noise at all"
    ],
    "correct": 2,
    "explanation": "'can eat thousands of mosquitoes in one night'",
-   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark: they make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours.",
+   "passage": "Bats are often misunderstood. Many people think they are blind, but most bats can see quite well. However, many species also use echolocation to find their way in the dark. They make high-pitched sounds and listen for the echoes that bounce back from objects around them. This allows them to catch tiny insects in mid-air. A single bat can eat thousands of mosquitoes in one night, which makes them very useful neighbours.",
    "skill": "comp_inference",
-   "step": 3
+   "step": 2
   },
   {
    "id": "en_comprension_lectora_l5_m021",
@@ -3307,9 +3307,9 @@
    "type": "multiple_choice",
    "prompt": "Why did Samir feel invisible at first?",
    "options": [
-    "He was very small",
-    "Nobody could see him",
-    "He was always late",
+    "He was the smallest in the class and nobody saw him",
+    "He was always late and sat at the back",
+    "He was not allowed out into the playground",
     "He spoke little English and the playground was noisy"
    ],
    "correct": 3,
@@ -3379,10 +3379,10 @@
    "type": "multiple_choice",
    "prompt": "What is magma?",
    "options": [
-    "A type of cloud",
+    "Smoke from the volcano",
     "Melted rock underground",
-    "Cold rock",
-    "Volcano smoke"
+    "Cold rock on the surface",
+    "A kind of very dark cloud"
    ],
    "correct": 1,
    "explanation": "'rock melts into a thick liquid called magma'",
@@ -3487,10 +3487,10 @@
    "type": "multiple_choice",
    "prompt": "How far may a tern fly in its lifetime?",
    "options": [
-    "Across one country",
+    "As far as crossing one country",
     "As far as three return trips to the Moon",
-    "Ten kilometres",
-    "Once round a lake"
+    "As far as one trip to Antarctica",
+    "As far as ten trips round a big lake"
    ],
    "correct": 1,
    "explanation": "'three return trips to the Moon'",

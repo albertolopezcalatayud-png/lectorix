@@ -3,8 +3,8 @@ M = 'escritura'
 
 # (prompt, correct, wrong, explanation)
 MC = {
-1: [("Which sentence starts correctly?", "The cat is black.", ["the cat is black.", "tHe cat is black.", "the Cat is black."], "A sentence starts with a capital letter."),
-    ("Which name is written correctly?", "Sam", ["sam", "sAm", "saM"], "Names start with a capital letter."),
+1: [("Which sentence is written correctly?", "The cat is black.", ["the cat is black.", "The cat is black", "The Cat is black."], "A sentence starts with a capital letter and ends with a full stop. 'cat' is lower case."),
+    ("Which name is written correctly?", "Sam", ["sam", "Sma", "Mas"], "Names start with a capital letter: S-a-m."),
     ("What goes at the end of a sentence that tells you something?", "A full stop (.)", ["A question mark (?)", "A comma (,)", "Nothing"], "A telling sentence ends with a full stop."),
     ("What goes at the end of a question?", "A question mark (?)", ["A full stop (.)", "A comma (,)", "An apostrophe (')"], "Questions end with a question mark."),
     ("In which sentence is 'I' written correctly?", "Can I play?", ["Can i play?", "can i play?", "Can i Play?"], "The word I is always a capital letter."),
@@ -45,7 +45,7 @@ MC = {
     ("Which sentence is correct?", "The dog wagged its tail.", ["The dog wagged it's tail.", "The dog wagged its' tail.", "The dog wagged it tail."], "'its' (no apostrophe) means belonging to it."),
     ("What is the short form of 'do not'?", "don't", ["dont", "do'nt", "don't'"], "The apostrophe replaces the missing o."),
     ("What is the short form of 'I am'?", "I'm", ["Im", "I'am", "Iam"], "The apostrophe replaces the missing a."),
-    ("What is the short form of 'can not'?", "can't", ["cant", "ca'nt", "can'tt"], "can not → can't."),
+    ("What is the short form of 'cannot'?", "can't", ["cant", "ca'nt", "can'tt"], "cannot → can't."),
     ("Choose the joining word: 'I was cold, ___ I put on my coat.'", "so", ["but", "or", "if"], "'so' tells us the result."),
     ("Choose the joining word: 'I like apples ___ I don't like pears.'", "but", ["so", "and", "because"], "'but' shows a contrast."),
     ("Which word is spelled correctly?", "because", ["becos", "becuase", "beacause"], "be-cause."),

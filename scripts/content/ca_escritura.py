@@ -2,8 +2,8 @@
 M = 'escritura'
 
 MC = {
-1: [("Quina frase comença bé?", "El gat és negre.", ["el gat és negre.", "eL gat és negre.", "el Gat és negre."], "Les frases comencen amb majúscula."),
-    ("Quin nom està ben escrit?", "Pau", ["pau", "pAu", "paU"], "Els noms de persona comencen amb majúscula."),
+1: [("Quina frase està ben escrita?", "El gat és negre.", ["el gat és negre.", "El gat és negre", "El Gat és negre."], "Les frases comencen amb majúscula i acaben amb punt. «gat» va en minúscula."),
+    ("Quin nom està ben escrit?", "Pau", ["pau", "Pua", "Apu"], "Els noms de persona comencen amb majúscula: P-a-u."),
     ("Què posem al final d'una frase que explica alguna cosa?", "Un punt (.)", ["Un interrogant (?)", "Una coma (,)", "Res"], "Les frases que expliquen acaben amb punt."),
     ("Què posem al final d'una pregunta?", "Un interrogant (?)", ["Un punt (.)", "Una coma (,)", "Un apòstrof (')"], "Les preguntes acaben amb interrogant."),
     ("Quina pregunta està ben escrita en valencià?", "Com et dius?", ["¿Com et dius?", "¿Com et dius", "Com et dius."], "En valencià només posem l'interrogant al final."),

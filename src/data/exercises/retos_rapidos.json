@@ -209,7 +209,7 @@
    "module": "retos_rapidos",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: gato, perro, vaca o manzana?",
+   "prompt": "¿Qué palabra sobra? gato, manzana, vaca, perro",
    "options": [
     "vaca",
     "manzana",
@@ -226,7 +226,7 @@
    "module": "retos_rapidos",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: rojo, azul, verde o silla?",
+   "prompt": "¿Qué palabra sobra? azul, silla, rojo, verde",
    "options": [
     "verde",
     "azul",
@@ -243,7 +243,7 @@
    "module": "retos_rapidos",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: uno, dos, tres o tarta?",
+   "prompt": "¿Qué palabra sobra? dos, tres, uno, tarta",
    "options": [
     "dos",
     "tarta",
@@ -580,13 +580,13 @@
    "type": "multiple_choice",
    "prompt": "¿Qué palabra significa lo mismo que «asustado»?",
    "options": [
-    "aburrido",
-    "atemorizado",
-    "valiente",
-    "contento"
+    "con sueño",
+    "con miedo",
+    "con ganas",
+    "con frío"
    ],
    "correct": 1,
-   "explanation": "«asustado» y «atemorizado» significan lo mismo.",
+   "explanation": "«asustado» y «con miedo» significan lo mismo.",
    "skill": "ret_vocab",
    "step": 3
   },
@@ -748,7 +748,7 @@
    "module": "retos_rapidos",
    "level": 2,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: plátano, pera, uva o zanahoria?",
+   "prompt": "¿Qué palabra sobra? zanahoria, plátano, uva, pera",
    "options": [
     "plátano",
     "zanahoria",
@@ -765,7 +765,7 @@
    "module": "retos_rapidos",
    "level": 2,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: lunes, viernes, domingo o marzo?",
+   "prompt": "¿Qué palabra sobra? lunes, marzo, viernes, domingo",
    "options": [
     "domingo",
     "viernes",
@@ -782,7 +782,7 @@
    "module": "retos_rapidos",
    "level": 2,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: coche, autobús, tren o puente?",
+   "prompt": "¿Qué palabra sobra? coche, puente, tren, autobús",
    "options": [
     "tren",
     "coche",
@@ -1289,7 +1289,7 @@
    "module": "retos_rapidos",
    "level": 3,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: tiburón, ballena, delfín o águila?",
+   "prompt": "¿Qué palabra sobra? ballena, tiburón, águila, delfín",
    "options": [
     "águila",
     "delfín",
@@ -1306,7 +1306,7 @@
    "module": "retos_rapidos",
    "level": 3,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: violín, guitarra, piano o martillo?",
+   "prompt": "¿Qué palabra sobra? violín, martillo, guitarra, piano",
    "options": [
     "violín",
     "martillo",
@@ -1323,7 +1323,7 @@
    "module": "retos_rapidos",
    "level": 3,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: primavera, verano, otoño o martes?",
+   "prompt": "¿Qué palabra sobra? otoño, verano, martes, primavera",
    "options": [
     "otoño",
     "primavera",
@@ -1666,9 +1666,9 @@
    "type": "multiple_choice",
    "prompt": "¿Qué palabra significa lo mismo que «frágil»?",
    "options": [
-    "muy brillante",
-    "muy fuerte",
-    "muy pesado",
+    "que aguanta golpes fuertes",
+    "que pesa muchísimo",
+    "que brilla con el sol",
     "que se rompe fácilmente"
    ],
    "correct": 3,
@@ -1834,7 +1834,7 @@
    "module": "retos_rapidos",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: Marte, Venus, Júpiter o Luna?",
+   "prompt": "¿Qué palabra sobra? Venus, Marte, Luna, Júpiter",
    "options": [
     "Luna",
     "Venus",
@@ -1851,7 +1851,7 @@
    "module": "retos_rapidos",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: triángulo, cuadrado, círculo o cubo?",
+   "prompt": "¿Qué palabra sobra? cuadrado, círculo, cubo, triángulo",
    "options": [
     "triángulo",
     "cuadrado",
@@ -1868,7 +1868,7 @@
    "module": "retos_rapidos",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: correr, saltar, nadar o contento?",
+   "prompt": "¿Qué palabra sobra? nadar, contento, saltar, correr",
    "options": [
     "saltar",
     "correr",
@@ -2381,7 +2381,7 @@
    "module": "retos_rapidos",
    "level": 5,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: rápidamente, lentamente, fuertemente o valiente?",
+   "prompt": "¿Qué palabra sobra? valiente, rápidamente, fuertemente, lentamente",
    "options": [
     "fuertemente",
     "valiente",
@@ -2398,7 +2398,7 @@
    "module": "retos_rapidos",
    "level": 5,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: París, Madrid, Roma o Francia?",
+   "prompt": "¿Qué palabra sobra? Madrid, Francia, París, Roma",
    "options": [
     "Madrid",
     "París",
@@ -2415,7 +2415,7 @@
    "module": "retos_rapidos",
    "level": 5,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra NO es del grupo: líquido, sólido, gas o metal?",
+   "prompt": "¿Qué palabra sobra? líquido, metal, sólido, gas",
    "options": [
     "gas",
     "metal",

@@ -217,9 +217,9 @@
      "id": "reading_en_l1_moon_q3",
      "prompt": "Why does the Moon shine?",
      "options": [
-      "It has its own light",
+      "It has its own light at night",
       "Light from the Sun reaches it",
-      "It is made of fire"
+      "It is made of fire and rock"
      ],
      "correct": 1,
      "explanation": "“It shines because light from the Sun reaches it.”"
@@ -248,8 +248,8 @@
      "id": "reading_en_l2_lost_q2",
      "prompt": "Where did they find Teddy?",
      "options": [
-      "Under a car",
-      "In a shop",
+      "In the corner shop",
+      "Under a parked car",
       "On a garden wall"
      ],
      "correct": 2,
@@ -294,8 +294,8 @@
      "id": "reading_en_l2_ants_q2",
      "prompt": "What can an ant carry?",
      "options": [
-      "Nothing at all",
-      "Only leaves",
+      "Only very light leaves",
+      "Nothing, it is far too small",
       "Things heavier than its body"
      ],
      "correct": 2,
@@ -306,8 +306,8 @@
      "prompt": "Why does an ant leave a smelly trail?",
      "options": [
       "So others can find the food",
-      "To scare birds",
-      "To mark its bed"
+      "So birds stay away from it",
+      "So it can find its own bed"
      ],
      "correct": 0,
      "explanation": "«so the others can follow it»"
@@ -374,8 +374,8 @@
      "prompt": "What did Zack use to build Robo?",
      "options": [
       "Boxes, bottle tops and wires",
-      "Metal and screws",
-      "Wood and nails"
+      "Metal sheets and screws",
+      "Wood, nails and glue"
      ],
      "correct": 0,
      "explanation": "«from boxes, bottle tops and old wires»"
@@ -531,8 +531,8 @@
      "id": "reading_en_l3_owls_q3",
      "prompt": "What is an owl pellet?",
      "options": [
-      "Its nest",
-      "A kind of egg",
+      "An egg that did not hatch",
+      "A piece of its twig nest",
       "Bones and fur it coughs up"
      ],
      "correct": 2,
@@ -555,8 +555,8 @@
      "prompt": "Where was the door?",
      "options": [
       "In the corner of the library",
-      "In the classroom",
-      "In the playground"
+      "Behind the classroom board",
+      "At the end of the playground"
      ],
      "correct": 0,
      "explanation": "«In the corner of the school library»"
@@ -600,8 +600,8 @@
      "prompt": "Why did Jamal make a volcano?",
      "options": [
       "For the science fair",
-      "For art class",
-      "For a birthday"
+      "For a friend's birthday",
+      "For his art lesson"
      ],
      "correct": 0,
      "explanation": "«For the science fair»"
@@ -611,8 +611,8 @@
      "prompt": "What made the foam red?",
      "options": [
       "Food colouring",
-      "Ketchup",
-      "Paint"
+      "Red poster paint",
+      "Tomato ketchup"
      ],
      "correct": 0,
      "explanation": "«a drop of red food colouring»"
@@ -622,8 +622,8 @@
      "prompt": "Why does the foam come out?",
      "options": [
       "The reaction makes a gas",
-      "Jamal shakes it",
-      "The bottle is hot"
+      "The bottle gets very hot",
+      "Jamal shakes the bottle"
      ],
      "correct": 0,
      "explanation": "«make a gas, which pushes the foam out»"
@@ -666,9 +666,9 @@
      "id": "reading_en_l3_water_q3",
      "prompt": "How much can a dripping tap waste in a day?",
      "options": [
-      "One cup",
+      "Half a litre a week",
       "More than fifteen litres",
-      "Half a litre"
+      "One cup a month"
      ],
      "correct": 1,
      "explanation": "«more than fifteen litres of water every day»"
@@ -792,9 +792,9 @@
      "id": "reading_en_l4_race_q2",
      "prompt": "Why did Kofi stop?",
      "options": [
-      "He was tired",
+      "He was far too tired",
       "To help a runner who fell",
-      "He lost his shoe"
+      "He had lost a shoe"
      ],
      "correct": 1,
      "explanation": "«he stopped and helped the boy to his feet»"
@@ -803,9 +803,9 @@
      "id": "reading_en_l4_race_q3",
      "prompt": "Why was Kofi proud?",
      "options": [
-      "He was the fastest",
+      "He was the fastest runner",
       "He had done the right thing",
-      "He won the race"
+      "He had won the race"
      ],
      "correct": 1,
      "explanation": "He got an award for sportsmanship."
@@ -873,8 +873,8 @@
      "prompt": "Where was the tin box?",
      "options": [
       "Behind some old curtains",
-      "Under the bed",
-      "In the garden"
+      "Under Grandma's bed",
+      "Buried in the garden"
      ],
      "correct": 0,
      "explanation": "«hidden behind a pile of old curtains»"
@@ -894,9 +894,9 @@
      "id": "reading_en_l4_attic_q3",
      "prompt": "Why did the attic feel like a treasure chest?",
      "options": [
-      "They found gold coins",
+      "They found hidden gold coins",
       "Rosa discovered family stories",
-      "It was full of toys"
+      "It was full of old toys"
      ],
      "correct": 1,
      "explanation": "She learned stories she had never heard."
@@ -928,8 +928,8 @@
      "id": "reading_en_l4_bees_q2",
      "prompt": "How does pollen travel?",
      "options": [
-      "Bees eat it",
-      "The wind only",
+      "Only the wind carries it",
+      "Bees eat it and fly away",
       "It sticks to the bee's body"
      ],
      "correct": 2,
@@ -1247,8 +1247,8 @@
      "prompt": "Why is the brain compared to a path in a field?",
      "options": [
       "Connections get stronger with use",
-      "The brain is green",
-      "Paths are hard to find"
+      "The brain is green like grass",
+      "Paths are very hard to find"
      ],
      "correct": 0,
      "explanation": "«a path ... that gets clearer each time someone walks along it»"
@@ -1303,8 +1303,8 @@
      "prompt": "What suggests the builders studied the sky?",
      "options": [
       "The Sun rises in line with the stones",
-      "The stones are blue",
-      "It is on a plain"
+      "Some of the stones are blue",
+      "It was built on a flat plain"
      ],
      "correct": 0,
      "explanation": "«the Sun rises in line with the stones»"
@@ -1348,8 +1348,8 @@
      "id": "reading_en_l5_forest_q3",
      "prompt": "What made the owners change their minds?",
      "options": [
-      "A court order",
-      "A storm",
+      "A judge's court order",
+      "A very strong storm",
       "Reading the stories"
      ],
      "correct": 2,
@@ -1393,9 +1393,9 @@
      "id": "reading_en_l5_words_q3",
      "prompt": "What is the main idea of the text?",
      "options": [
-      "Vikings spoke French",
+      "English has never changed at all",
       "English borrowed words from many languages",
-      "English never changes"
+      "The Vikings spoke only French"
      ],
      "correct": 1,
      "explanation": "The text explains the origins of English words."
@@ -1431,9 +1431,9 @@
      "id": "reading_en_l5_iss_q2",
      "prompt": "How long does it take to go around the Earth?",
      "options": [
-      "A day",
+      "A whole day",
       "About ninety minutes",
-      "A week"
+      "A week and a half"
      ],
      "correct": 1,
      "explanation": "“It goes all the way around the Earth in about ninety minutes.”"
@@ -1442,9 +1442,9 @@
      "id": "reading_en_l5_iss_q3",
      "prompt": "Why do the astronauts exercise?",
      "options": [
-      "So they do not get bored",
+      "So they do not get bored on long journeys",
       "So that their muscles and bones do not get weaker",
-      "To win a race"
+      "So they can win a race against another crew"
      ],
      "correct": 1,
      "explanation": "“So that their muscles and bones do not get weaker.”"

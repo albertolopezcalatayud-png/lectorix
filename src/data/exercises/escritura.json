@@ -5,15 +5,15 @@
    "module": "escritura",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "¿Qué frase empieza bien?",
+   "prompt": "¿Qué frase está bien escrita?",
    "options": [
     "el gato es negro.",
-    "el Gato es negro.",
+    "El Gato es negro.",
     "El gato es negro.",
-    "eL gato es negro."
+    "El gato es negro"
    ],
    "correct": 2,
-   "explanation": "Las frases empiezan con mayúscula.",
+   "explanation": "Las frases empiezan con mayúscula y terminan con punto. «gato» va en minúscula.",
    "skill": "esc_punct",
    "step": 3
   },
@@ -24,13 +24,13 @@
    "type": "multiple_choice",
    "prompt": "¿Qué nombre está bien escrito?",
    "options": [
-    "pAblo",
+    "Plabo",
     "pablo",
-    "pablO",
+    "Palbo",
     "Pablo"
    ],
    "correct": 3,
-   "explanation": "Los nombres de persona empiezan con mayúscula.",
+   "explanation": "Los nombres de persona empiezan con mayúscula: P-a-b-l-o.",
    "skill": "esc_punct",
    "step": 3
   },
@@ -314,12 +314,12 @@
    "prompt": "¿Qué nombre de ciudad está bien escrito?",
    "options": [
     "Valencia",
-    "vAlencia",
+    "Balencia",
     "valencia",
-    "valenciA"
+    "Valensia"
    ],
    "correct": 0,
-   "explanation": "Los nombres de ciudades empiezan con mayúscula.",
+   "explanation": "Los nombres de ciudades empiezan con mayúscula. Valencia se escribe con v y con c.",
    "skill": "esc_punct",
    "step": 3
   },

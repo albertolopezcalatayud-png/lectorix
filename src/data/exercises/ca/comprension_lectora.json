@@ -403,10 +403,10 @@
    "type": "multiple_choice",
    "prompt": "Amb qui bota Toni?",
    "options": [
-    "Amb sa mare",
+    "Amb el seu germà",
     "Amb la seua germana",
-    "Amb son germà",
-    "Amb un amic"
+    "Amb la seua mare",
+    "Amb un amic de classe"
    ],
    "correct": 1,
    "explanation": "«amb la seua germana xicoteta»",
@@ -761,9 +761,9 @@
    "type": "multiple_choice",
    "prompt": "On ponen els ous?",
    "options": [
-    "A la cuina",
-    "A l'herba",
-    "En un cistell",
+    "En un niu de l'arbre",
+    "En un cistell de la cuina",
+    "A l'herba del jardí",
     "En una caixa de fusta"
    ],
    "correct": 3,
@@ -842,7 +842,7 @@
    "explanation": "«Va buscar davall del banc i darrere del tobogan»",
    "passage": "Jaume va perdre la gorra blava al parc. Va buscar davall del banc i darrere del tobogan, però no hi era. Llavors va veure un gos xicotet amb una cosa blava a la boca. Era la seua gorra!",
    "skill": "comp_literal",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_comprension_lectora_l2_m007",
@@ -942,9 +942,9 @@
    "prompt": "Per què són importants per a les plantes?",
    "options": [
     "Ajuden les flors i la fruita a créixer",
-    "Mengen insectes",
-    "Les protegixen del fred",
-    "Les reguen"
+    "Les protegixen del fred i de la pluja",
+    "Els porten aigua des del rusc",
+    "Lleven els insectes de les fulles"
    ],
    "correct": 0,
    "explanation": "«ajuden les flors i la fruita a créixer»",
@@ -959,9 +959,9 @@
    "type": "multiple_choice",
    "prompt": "Què volia aprendre Amira?",
    "options": [
-    "A ballar",
-    "A nadar",
-    "A patinar",
+    "A botar a la corda",
+    "A nadar a la piscina",
+    "A patinar sobre gel",
     "A anar amb bicicleta"
    ],
    "correct": 3,
@@ -997,14 +997,14 @@
    "options": [
     "Dues setmanes",
     "Dos dies",
-    "Un dia",
-    "Dos mesos"
+    "Dos mesos",
+    "Una setmana"
    ],
    "correct": 0,
    "explanation": "«Al cap de dues setmanes»",
    "passage": "Amira volia aprendre a anar amb bicicleta. La primera vegada, va caure i es va fer mal al genoll. Es va posar trista, però no es va rendir. Practicava cada dia després de l'escola. Al cap de dues setmanes, ja podia fer tota la volta al parc!",
    "skill": "comp_literal",
-   "step": 2
+   "step": 3
   },
   {
    "id": "ca_comprension_lectora_l2_m016",
@@ -1038,7 +1038,7 @@
    ],
    "correct": 0,
    "explanation": "«no poden volar»",
-   "passage": "Els pingüins són ocells, però no poden volar. Usen les ales com si foren aletes per a nadar molt de pressa en la mar freda. Els pingüins mengen peixos. Molts pingüins viuen a l'Antàrtida, on fa molt de fred i hi ha molt de gel.",
+   "passage": "Els pingüins són ocells, però no poden volar. Usen les ales com si foren aletes. Així naden molt de pressa en la mar freda. Els pingüins mengen peixos. Molts pingüins viuen a l'Antàrtida, on fa molt de fred i hi ha molt de gel.",
    "skill": "comp_literal",
    "step": 1
   },
@@ -1055,8 +1055,8 @@
     "Per a cantar"
    ],
    "correct": 1,
-   "explanation": "«com si foren aletes per a nadar»",
-   "passage": "Els pingüins són ocells, però no poden volar. Usen les ales com si foren aletes per a nadar molt de pressa en la mar freda. Els pingüins mengen peixos. Molts pingüins viuen a l'Antàrtida, on fa molt de fred i hi ha molt de gel.",
+   "explanation": "«Usen les ales com si foren aletes. Així naden molt de pressa»",
+   "passage": "Els pingüins són ocells, però no poden volar. Usen les ales com si foren aletes. Així naden molt de pressa en la mar freda. Els pingüins mengen peixos. Molts pingüins viuen a l'Antàrtida, on fa molt de fred i hi ha molt de gel.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -1074,7 +1074,7 @@
    ],
    "correct": 0,
    "explanation": "«Els pingüins mengen peixos.»",
-   "passage": "Els pingüins són ocells, però no poden volar. Usen les ales com si foren aletes per a nadar molt de pressa en la mar freda. Els pingüins mengen peixos. Molts pingüins viuen a l'Antàrtida, on fa molt de fred i hi ha molt de gel.",
+   "passage": "Els pingüins són ocells, però no poden volar. Usen les ales com si foren aletes. Així naden molt de pressa en la mar freda. Els pingüins mengen peixos. Molts pingüins viuen a l'Antàrtida, on fa molt de fred i hi ha molt de gel.",
    "skill": "comp_literal",
    "step": 1
   },
@@ -1092,7 +1092,7 @@
    ],
    "correct": 1,
    "explanation": "«fa molt de fred i hi ha molt de gel»",
-   "passage": "Els pingüins són ocells, però no poden volar. Usen les ales com si foren aletes per a nadar molt de pressa en la mar freda. Els pingüins mengen peixos. Molts pingüins viuen a l'Antàrtida, on fa molt de fred i hi ha molt de gel.",
+   "passage": "Els pingüins són ocells, però no poden volar. Usen les ales com si foren aletes. Així naden molt de pressa en la mar freda. Els pingüins mengen peixos. Molts pingüins viuen a l'Antàrtida, on fa molt de fred i hi ha molt de gel.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -1121,9 +1121,9 @@
    "type": "multiple_choice",
    "prompt": "Què van veure?",
    "options": [
-    "Una nau espacial",
-    "Un dinosaure viu",
-    "Un quadre",
+    "Un dinosaure de joguet",
+    "Un quadre d'un dinosaure",
+    "Una nau espacial antiga",
     "Un esquelet de dinosaure"
    ],
    "correct": 3,
@@ -1248,13 +1248,13 @@
    "prompt": "Per què estava nerviosa Rut?",
    "options": [
     "Era el primer dia en una escola nova",
-    "Tenia un examen",
-    "Arribava tard",
-    "Estava malalta"
+    "Tenia un examen molt difícil eixe dia",
+    "Arribava tard a classe de bon matí",
+    "Havia perdut l'esmorzar a l'autobús"
    ],
    "correct": 0,
    "explanation": "«el primer dia en una escola nova»",
-   "passage": "Rut estava nerviosa. Era el primer dia en una escola nova i no coneixia ningú. A l'hora del pati, una xiqueta que es deia Hana es va asseure al seu costat i va compartir el seu esmorzar. Quan va acabar el dia, Rut tenia una amiga nova.",
+   "passage": "Rut estava nerviosa. Era el primer dia en una escola nova i no coneixia ningú. A l'hora del pati, una xiqueta es va asseure al seu costat. Es deia Hana i va compartir el seu esmorzar amb Rut. Quan va acabar el dia, Rut tenia una amiga nova.",
    "skill": "comp_inference",
    "step": 3
   },
@@ -1271,8 +1271,8 @@
     "Hana"
    ],
    "correct": 3,
-   "explanation": "«una xiqueta que es deia Hana»",
-   "passage": "Rut estava nerviosa. Era el primer dia en una escola nova i no coneixia ningú. A l'hora del pati, una xiqueta que es deia Hana es va asseure al seu costat i va compartir el seu esmorzar. Quan va acabar el dia, Rut tenia una amiga nova.",
+   "explanation": "«una xiqueta es va asseure al seu costat. Es deia Hana»",
+   "passage": "Rut estava nerviosa. Era el primer dia en una escola nova i no coneixia ningú. A l'hora del pati, una xiqueta es va asseure al seu costat. Es deia Hana i va compartir el seu esmorzar amb Rut. Quan va acabar el dia, Rut tenia una amiga nova.",
    "skill": "comp_literal",
    "step": 2
   },
@@ -1290,7 +1290,7 @@
    ],
    "correct": 2,
    "explanation": "«va compartir el seu esmorzar»",
-   "passage": "Rut estava nerviosa. Era el primer dia en una escola nova i no coneixia ningú. A l'hora del pati, una xiqueta que es deia Hana es va asseure al seu costat i va compartir el seu esmorzar. Quan va acabar el dia, Rut tenia una amiga nova.",
+   "passage": "Rut estava nerviosa. Era el primer dia en una escola nova i no coneixia ningú. A l'hora del pati, una xiqueta es va asseure al seu costat. Es deia Hana i va compartir el seu esmorzar amb Rut. Quan va acabar el dia, Rut tenia una amiga nova.",
    "skill": "comp_literal",
    "step": 2
   },
@@ -1308,7 +1308,7 @@
    ],
    "correct": 2,
    "explanation": "«Rut tenia una amiga nova.»",
-   "passage": "Rut estava nerviosa. Era el primer dia en una escola nova i no coneixia ningú. A l'hora del pati, una xiqueta que es deia Hana es va asseure al seu costat i va compartir el seu esmorzar. Quan va acabar el dia, Rut tenia una amiga nova.",
+   "passage": "Rut estava nerviosa. Era el primer dia en una escola nova i no coneixia ningú. A l'hora del pati, una xiqueta es va asseure al seu costat. Es deia Hana i va compartir el seu esmorzar amb Rut. Quan va acabar el dia, Rut tenia una amiga nova.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -1536,9 +1536,9 @@
    "prompt": "Quina és la idea principal?",
    "options": [
     "Per què la Lluna sembla que canvia de forma",
-    "Com creixen els plàtans",
-    "Com viatjar a la Lluna",
-    "Per què el Sol crema"
+    "Com es formen les estreles de nit",
+    "Com es pot viatjar fins a la Lluna",
+    "Per què el Sol calfa tant la Terra"
    ],
    "correct": 0,
    "explanation": "El text explica la llum de la Lluna i les fases.",
@@ -1571,10 +1571,10 @@
    "type": "multiple_choice",
    "prompt": "Com van saber de qui era?",
    "options": [
-    "Òscar la coneixia",
+    "La propietària l'esperava allí",
     "Hi havia un carnet amb el nom",
-    "Ella estava allí",
-    "Ho va dir la policia"
+    "Ho va dir un policia del carrer",
+    "Òscar ja coneixia la propietària"
    ],
    "correct": 1,
    "explanation": "«un carnet de la biblioteca amb un nom»",
@@ -1625,14 +1625,14 @@
    "type": "multiple_choice",
    "prompt": "Què vol dir reciclar?",
    "options": [
-    "Cremar el fem",
-    "Comprar coses noves",
-    "Llançar-ho tot",
+    "Guardar les coses velles a casa",
+    "Llançar el fem al contenidor",
+    "Comprar coses noves a la botiga",
     "Fer coses noves amb coses velles"
    ],
    "correct": 3,
    "explanation": "«Reciclar vol dir fer coses noves amb coses velles.»",
-   "passage": "Reciclar vol dir fer coses noves amb coses velles. Amb les botelles de plàstic es poden fer jerseis de forro polar, i amb els periòdics vells, caixes de cartó. Quan reciclem, llancem menys fem i ajudem a protegir els boscos i els animals. Recorda esbandir les botelles i les llandes abans de tirar-les al contenidor.",
+   "passage": "Reciclar vol dir fer coses noves amb coses velles. Amb les botelles de plàstic es poden fer jerseis de forro polar. I amb els periòdics vells, caixes de cartó. Quan reciclem, llancem menys fem i ajudem a protegir els boscos i els animals. Recorda esbandir les botelles i les llandes abans de tirar-les al contenidor.",
    "skill": "comp_vocab",
    "step": 3
   },
@@ -1650,7 +1650,7 @@
    ],
    "correct": 1,
    "explanation": "«jerseis de forro polar»",
-   "passage": "Reciclar vol dir fer coses noves amb coses velles. Amb les botelles de plàstic es poden fer jerseis de forro polar, i amb els periòdics vells, caixes de cartó. Quan reciclem, llancem menys fem i ajudem a protegir els boscos i els animals. Recorda esbandir les botelles i les llandes abans de tirar-les al contenidor.",
+   "passage": "Reciclar vol dir fer coses noves amb coses velles. Amb les botelles de plàstic es poden fer jerseis de forro polar. I amb els periòdics vells, caixes de cartó. Quan reciclem, llancem menys fem i ajudem a protegir els boscos i els animals. Recorda esbandir les botelles i les llandes abans de tirar-les al contenidor.",
    "skill": "comp_literal",
    "step": 2
   },
@@ -1668,7 +1668,7 @@
    ],
    "correct": 3,
    "explanation": "«esbandir les botelles i les llandes»",
-   "passage": "Reciclar vol dir fer coses noves amb coses velles. Amb les botelles de plàstic es poden fer jerseis de forro polar, i amb els periòdics vells, caixes de cartó. Quan reciclem, llancem menys fem i ajudem a protegir els boscos i els animals. Recorda esbandir les botelles i les llandes abans de tirar-les al contenidor.",
+   "passage": "Reciclar vol dir fer coses noves amb coses velles. Amb les botelles de plàstic es poden fer jerseis de forro polar. I amb els periòdics vells, caixes de cartó. Quan reciclem, llancem menys fem i ajudem a protegir els boscos i els animals. Recorda esbandir les botelles i les llandes abans de tirar-les al contenidor.",
    "skill": "comp_literal",
    "step": 2
   },
@@ -1679,14 +1679,14 @@
    "type": "multiple_choice",
    "prompt": "Per què és bo reciclar?",
    "options": [
-    "És molt car",
+    "Servix per a gastar més plàstic",
     "Protegix els boscos i els animals",
-    "Gasta més plàstic",
-    "Fa més fem"
+    "Així els contenidors estan plens",
+    "Fa que comprem més coses noves"
    ],
    "correct": 1,
    "explanation": "«ajudem a protegir els boscos i els animals»",
-   "passage": "Reciclar vol dir fer coses noves amb coses velles. Amb les botelles de plàstic es poden fer jerseis de forro polar, i amb els periòdics vells, caixes de cartó. Quan reciclem, llancem menys fem i ajudem a protegir els boscos i els animals. Recorda esbandir les botelles i les llandes abans de tirar-les al contenidor.",
+   "passage": "Reciclar vol dir fer coses noves amb coses velles. Amb les botelles de plàstic es poden fer jerseis de forro polar. I amb els periòdics vells, caixes de cartó. Quan reciclem, llancem menys fem i ajudem a protegir els boscos i els animals. Recorda esbandir les botelles i les llandes abans de tirar-les al contenidor.",
    "skill": "comp_inference",
    "step": 3
   },
@@ -1704,7 +1704,7 @@
    ],
    "correct": 0,
    "explanation": "«va vindre del Japó»",
-   "passage": "Quan l'àvia de Kai va vindre del Japó, li va ensenyar a fer papiroflèxia. Li va mostrar com doblegar un quadrat de paper una vegada i una altra fins que es convertia en una grua. La primera grua de Kai va eixir un poc torta, però l'àvia va somriure i li va dir que tots els experts han sigut principiants.",
+   "passage": "Quan l'àvia de Kai va vindre del Japó, li va ensenyar a fer papiroflèxia. Li va mostrar com doblegar un quadrat de paper una vegada i una altra. Al final, es convertia en una grua. La primera grua de Kai va eixir un poc torta. Però l'àvia va somriure i li va dir que tots els experts han sigut principiants.",
    "skill": "comp_literal",
    "step": 2
   },
@@ -1715,14 +1715,14 @@
    "type": "multiple_choice",
    "prompt": "Què és la papiroflèxia?",
    "options": [
-    "Cuinar arròs",
-    "Escriure poemes",
+    "Retallar paper amb tisores",
+    "Escriure poemes en un paper",
     "Doblegar paper per a fer figures",
-    "Pintar quadres"
+    "Pintar figures en un paper"
    ],
    "correct": 2,
    "explanation": "Doblega el paper fins que es convertix en una grua.",
-   "passage": "Quan l'àvia de Kai va vindre del Japó, li va ensenyar a fer papiroflèxia. Li va mostrar com doblegar un quadrat de paper una vegada i una altra fins que es convertia en una grua. La primera grua de Kai va eixir un poc torta, però l'àvia va somriure i li va dir que tots els experts han sigut principiants.",
+   "passage": "Quan l'àvia de Kai va vindre del Japó, li va ensenyar a fer papiroflèxia. Li va mostrar com doblegar un quadrat de paper una vegada i una altra. Al final, es convertia en una grua. La primera grua de Kai va eixir un poc torta. Però l'àvia va somriure i li va dir que tots els experts han sigut principiants.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -1740,7 +1740,7 @@
    ],
    "correct": 0,
    "explanation": "«es convertia en una grua»",
-   "passage": "Quan l'àvia de Kai va vindre del Japó, li va ensenyar a fer papiroflèxia. Li va mostrar com doblegar un quadrat de paper una vegada i una altra fins que es convertia en una grua. La primera grua de Kai va eixir un poc torta, però l'àvia va somriure i li va dir que tots els experts han sigut principiants.",
+   "passage": "Quan l'àvia de Kai va vindre del Japó, li va ensenyar a fer papiroflèxia. Li va mostrar com doblegar un quadrat de paper una vegada i una altra. Al final, es convertia en una grua. La primera grua de Kai va eixir un poc torta. Però l'àvia va somriure i li va dir que tots els experts han sigut principiants.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -1758,7 +1758,7 @@
    ],
    "correct": 3,
    "explanation": "«tots els experts han sigut principiants»",
-   "passage": "Quan l'àvia de Kai va vindre del Japó, li va ensenyar a fer papiroflèxia. Li va mostrar com doblegar un quadrat de paper una vegada i una altra fins que es convertia en una grua. La primera grua de Kai va eixir un poc torta, però l'àvia va somriure i li va dir que tots els experts han sigut principiants.",
+   "passage": "Quan l'àvia de Kai va vindre del Japó, li va ensenyar a fer papiroflèxia. Li va mostrar com doblegar un quadrat de paper una vegada i una altra. Al final, es convertia en una grua. La primera grua de Kai va eixir un poc torta. Però l'àvia va somriure i li va dir que tots els experts han sigut principiants.",
    "skill": "comp_literal",
    "step": 2
   },
@@ -1776,7 +1776,7 @@
    ],
    "correct": 1,
    "explanation": "«que ixen de nit»",
-   "passage": "Els eriçons són animals xicotets i punxents que ixen de nit. Mengen escarabats, cucs i llimacs, per això agraden a la gent que té horts. A l'hivern costa trobar menjar, així que els eriçons hibernen: dormen moltes setmanes en un niu calentet de fulles fins que arriba la primavera.",
+   "passage": "Els eriçons són animals xicotets i punxents que ixen de nit. Mengen escarabats, cucs i llimacs, per això agraden a la gent que té horts. A l'hivern costa trobar menjar, així que els eriçons hibernen. Dormen moltes setmanes en un niu calentet de fulles fins que arriba la primavera.",
    "skill": "comp_literal",
    "step": 1
   },
@@ -1787,14 +1787,14 @@
    "type": "multiple_choice",
    "prompt": "Per què agraden a la gent que té horts?",
    "options": [
-    "Fan forats",
+    "Fan forats a la terra",
     "Mengen llimacs i escarabats",
-    "Planten flors",
-    "Són punxents"
+    "Planten flors a l'hort",
+    "Reguen les plantes de nit"
    ],
    "correct": 1,
    "explanation": "Mengen els bitxos que fan mal a l'hort.",
-   "passage": "Els eriçons són animals xicotets i punxents que ixen de nit. Mengen escarabats, cucs i llimacs, per això agraden a la gent que té horts. A l'hivern costa trobar menjar, així que els eriçons hibernen: dormen moltes setmanes en un niu calentet de fulles fins que arriba la primavera.",
+   "passage": "Els eriçons són animals xicotets i punxents que ixen de nit. Mengen escarabats, cucs i llimacs, per això agraden a la gent que té horts. A l'hivern costa trobar menjar, així que els eriçons hibernen. Dormen moltes setmanes en un niu calentet de fulles fins que arriba la primavera.",
    "skill": "comp_inference",
    "step": 2
   },
@@ -1805,14 +1805,14 @@
    "type": "multiple_choice",
    "prompt": "Què vol dir «hibernar»?",
    "options": [
-    "Fer un niu",
-    "Caçar",
-    "Córrer molt",
+    "Fer un niu de fulles",
+    "Amagar-se durant el dia",
+    "Buscar menjar a l'hivern",
     "Dormir durant l'hivern"
    ],
    "correct": 3,
    "explanation": "«dormen moltes setmanes ... fins que arriba la primavera»",
-   "passage": "Els eriçons són animals xicotets i punxents que ixen de nit. Mengen escarabats, cucs i llimacs, per això agraden a la gent que té horts. A l'hivern costa trobar menjar, així que els eriçons hibernen: dormen moltes setmanes en un niu calentet de fulles fins que arriba la primavera.",
+   "passage": "Els eriçons són animals xicotets i punxents que ixen de nit. Mengen escarabats, cucs i llimacs, per això agraden a la gent que té horts. A l'hivern costa trobar menjar, així que els eriçons hibernen. Dormen moltes setmanes en un niu calentet de fulles fins que arriba la primavera.",
    "skill": "comp_vocab",
    "step": 2
   },
@@ -1823,16 +1823,16 @@
    "type": "multiple_choice",
    "prompt": "Per què hibernen?",
    "options": [
-    "Tenen massa calor",
+    "A l'hivern tenen massa calor",
     "A l'hivern costa trobar menjar",
-    "S'avorrixen",
-    "Tenen por"
+    "A l'hivern tenen por de la gent",
+    "A l'hivern s'avorrixen molt"
    ],
    "correct": 1,
    "explanation": "«A l'hivern costa trobar menjar»",
-   "passage": "Els eriçons són animals xicotets i punxents que ixen de nit. Mengen escarabats, cucs i llimacs, per això agraden a la gent que té horts. A l'hivern costa trobar menjar, així que els eriçons hibernen: dormen moltes setmanes en un niu calentet de fulles fins que arriba la primavera.",
+   "passage": "Els eriçons són animals xicotets i punxents que ixen de nit. Mengen escarabats, cucs i llimacs, per això agraden a la gent que té horts. A l'hivern costa trobar menjar, així que els eriçons hibernen. Dormen moltes setmanes en un niu calentet de fulles fins que arriba la primavera.",
    "skill": "comp_inference",
-   "step": 2
+   "step": 3
   },
   {
    "id": "ca_comprension_lectora_l3_m021",
@@ -1877,9 +1877,9 @@
    "type": "multiple_choice",
    "prompt": "Per què reia Jordi?",
    "options": [
-    "L'havia amagada ell",
-    "Va contar un acudit",
-    "Neus va caure",
+    "Neus havia caigut a l'escenari",
+    "Havia contat un acudit molt graciós",
+    "Ell havia amagat la corona a classe",
     "La corona estava al cap de Neus"
    ],
    "correct": 3,
@@ -1920,7 +1920,7 @@
    ],
    "correct": 2,
    "explanation": "«El Sol calfa l'aigua»",
-   "passage": "L'aigua sempre està en moviment pel nostre planeta. El Sol calfa l'aigua de la mar i dels rius, i puja a l'aire en forma de vapor invisible. Allà dalt, el vapor es refreda i forma núvols. Quan les gotes dels núvols pesen massa, cauen en forma de pluja, i el viatge torna a començar. Això és el cicle de l'aigua.",
+   "passage": "L'aigua sempre està en moviment pel nostre planeta. El Sol calfa l'aigua de la mar i dels rius. L'aigua puja a l'aire en forma de vapor invisible. Allà dalt, el vapor es refreda i forma núvols. Quan les gotes dels núvols pesen massa, cauen en forma de pluja, i el viatge torna a començar. Això és el cicle de l'aigua.",
    "skill": "comp_literal",
    "step": 2
   },
@@ -1938,7 +1938,7 @@
    ],
    "correct": 0,
    "explanation": "«el vapor es refreda i forma núvols»",
-   "passage": "L'aigua sempre està en moviment pel nostre planeta. El Sol calfa l'aigua de la mar i dels rius, i puja a l'aire en forma de vapor invisible. Allà dalt, el vapor es refreda i forma núvols. Quan les gotes dels núvols pesen massa, cauen en forma de pluja, i el viatge torna a començar. Això és el cicle de l'aigua.",
+   "passage": "L'aigua sempre està en moviment pel nostre planeta. El Sol calfa l'aigua de la mar i dels rius. L'aigua puja a l'aire en forma de vapor invisible. Allà dalt, el vapor es refreda i forma núvols. Quan les gotes dels núvols pesen massa, cauen en forma de pluja, i el viatge torna a començar. Això és el cicle de l'aigua.",
    "skill": "comp_literal",
    "step": 1
   },
@@ -1949,14 +1949,14 @@
    "type": "multiple_choice",
    "prompt": "Quan cau la pluja?",
    "options": [
-    "Quan fa vent",
-    "Només de nit",
-    "Quan fa sol",
+    "Quan el vapor puja a l'aire",
+    "Quan fa molt de vent",
+    "Quan el Sol calfa la mar",
     "Quan les gotes pesen massa"
    ],
    "correct": 3,
    "explanation": "«Quan les gotes dels núvols pesen massa»",
-   "passage": "L'aigua sempre està en moviment pel nostre planeta. El Sol calfa l'aigua de la mar i dels rius, i puja a l'aire en forma de vapor invisible. Allà dalt, el vapor es refreda i forma núvols. Quan les gotes dels núvols pesen massa, cauen en forma de pluja, i el viatge torna a començar. Això és el cicle de l'aigua.",
+   "passage": "L'aigua sempre està en moviment pel nostre planeta. El Sol calfa l'aigua de la mar i dels rius. L'aigua puja a l'aire en forma de vapor invisible. Allà dalt, el vapor es refreda i forma núvols. Quan les gotes dels núvols pesen massa, cauen en forma de pluja, i el viatge torna a començar. Això és el cicle de l'aigua.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -1967,14 +1967,14 @@
    "type": "multiple_choice",
    "prompt": "Per què s'anomena cicle?",
    "options": [
-    "És molt ràpid",
+    "Va molt ràpid pel cel",
     "Es repetix una vegada i una altra",
-    "Té rodes",
-    "Només passa una vegada"
+    "Només passa una vegada a l'any",
+    "Comença i acaba a la mar"
    ],
    "correct": 1,
    "explanation": "«el viatge torna a començar»",
-   "passage": "L'aigua sempre està en moviment pel nostre planeta. El Sol calfa l'aigua de la mar i dels rius, i puja a l'aire en forma de vapor invisible. Allà dalt, el vapor es refreda i forma núvols. Quan les gotes dels núvols pesen massa, cauen en forma de pluja, i el viatge torna a començar. Això és el cicle de l'aigua.",
+   "passage": "L'aigua sempre està en moviment pel nostre planeta. El Sol calfa l'aigua de la mar i dels rius. L'aigua puja a l'aire en forma de vapor invisible. Allà dalt, el vapor es refreda i forma núvols. Quan les gotes dels núvols pesen massa, cauen en forma de pluja, i el viatge torna a començar. Això és el cicle de l'aigua.",
    "skill": "comp_inference",
    "step": 3
   },
@@ -1994,7 +1994,7 @@
    "explanation": "«en un refugi d'animals»",
    "passage": "Tots els dissabtes, Dev fa de voluntari en un refugi d'animals. Passeja els gossos, neteja les gàbies i posa aigua fresca als gats. El seu preferit és un gos vell que es diu Galeta i que és molt bonàs. Dev espera que algun dia Galeta trobe una família que se l'estime.",
    "skill": "comp_literal",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_comprension_lectora_l3_m030",
@@ -2213,10 +2213,10 @@
    "type": "multiple_choice",
    "prompt": "Què hi ha a dalt d'un far?",
    "options": [
-    "Una campana",
+    "Una campana molt gran",
     "Un llum molt potent",
-    "Una bandera",
-    "Un satèl·lit"
+    "Una antena de satèl·lit",
+    "Una bandera de colors"
    ],
    "correct": 1,
    "explanation": "«un llum molt potent a dalt de tot»",
@@ -2231,10 +2231,10 @@
    "type": "multiple_choice",
    "prompt": "Per què cada far té una seqüència pròpia?",
    "options": [
-    "Per a espantar ocells",
-    "Per a ser bonic",
+    "Perquè el far es veja més bonic",
+    "Per a gastar menys llum de nit",
     "Perquè els mariners sàpien quin és",
-    "Per a estalviar llum"
+    "Perquè els ocells no s'hi acosten"
    ],
    "correct": 2,
    "explanation": "«així els mariners saben quin estan veient»",
@@ -2267,16 +2267,16 @@
    "type": "multiple_choice",
    "prompt": "Què vol dir «com a reserva» en el text?",
    "options": [
-    "Anar arrere",
+    "Perquè són més moderns que els satèl·lits",
     "Per si falla el sistema principal",
-    "Un vaixell de recanvi",
-    "Un embús de trànsit"
+    "Per a adornar la costa",
+    "Per a guardar els vaixells de nit"
    ],
    "correct": 1,
    "explanation": "Els fars ajuden si el satèl·lit no funciona.",
    "passage": "Durant centenars d'anys, els mariners han fet servir els fars per a navegar segurs de nit. Un far és una torre alta amb un llum molt potent a dalt de tot. Cada far llança la llum amb una seqüència pròpia, així els mariners saben quin estan veient i on es troben. Hui els vaixells també usen la navegació per satèl·lit, però molts fars continuen encesos a la costa com a reserva.",
    "skill": "comp_vocab",
-   "step": 2
+   "step": 3
   },
   {
    "id": "ca_comprension_lectora_l4_m005",
@@ -2339,9 +2339,9 @@
    "type": "multiple_choice",
    "prompt": "Què va aprendre Maria?",
    "options": [
-    "Ha de deixar el piano",
-    "Els errors ho espatlen tot",
-    "El públic és cruel",
+    "El públic només aplaudix qui no s'equivoca",
+    "Si t'equivoques, és millor deixar de tocar",
+    "Cal assajar menys per a no posar-se nerviosa",
     "Ser valenta és més important que ser perfecta"
    ],
    "correct": 3,
@@ -2393,16 +2393,16 @@
    "type": "multiple_choice",
    "prompt": "Què van fer per a evitar-ho?",
    "options": [
-    "Construir un pont",
-    "Tancar la ciutat",
-    "Assecar la mar",
+    "Tancar el centre de la ciutat",
+    "Assecar el riu amb bombes",
+    "Construir un pont molt alt",
     "Desviar el riu cap al sud"
    ],
    "correct": 3,
    "explanation": "«es va desviar el riu cap al sud»",
    "passage": "La gran inundació de València va passar el 1957, quan el riu Túria es va desbordar després de pluges molt fortes. L'aigua va arribar a molts carrers del centre i va causar molts danys. Per a evitar que tornara a passar, es va desviar el riu cap al sud de la ciutat. L'antic llit del riu es va convertir en el Jardí del Túria, un parc llarguíssim on hui la gent passeja, corre i juga.",
    "skill": "comp_literal",
-   "step": 2
+   "step": 3
   },
   {
    "id": "ca_comprension_lectora_l4_m012",
@@ -2436,7 +2436,7 @@
    ],
    "correct": 3,
    "explanation": "«Els camaleons són sauris»",
-   "passage": "Els camaleons són sauris famosos perquè canvien de color. Molta gent pensa que ho fan per a amagar-se, però els científics han descobert que és sobretot per a mostrar el seu estat d'ànim o per a controlar la temperatura. Un camaleó tranquil pot ser verd o marró, mentre que un d'emocionat o enfadat es pot tornar groc o roig intens. A més, poden moure cada ull per separat i mirar en dues direccions alhora!",
+   "passage": "Els camaleons són sauris famosos perquè canvien de color. Molta gent pensa que ho fan per a amagar-se. Però els científics han descobert que és sobretot per a mostrar el seu estat d'ànim o per a controlar la temperatura. Un camaleó tranquil pot ser verd o marró, mentre que un d'emocionat o enfadat es pot tornar groc o roig intens. A més, poden moure cada ull per separat i mirar en dues direccions alhora!",
    "skill": "comp_literal",
    "step": 1
   },
@@ -2448,13 +2448,13 @@
    "prompt": "Segons els científics, per què canvien de color sobretot?",
    "options": [
     "Per a mostrar l'estat d'ànim o controlar la temperatura",
-    "Només per a amagar-se",
-    "Per a trobar menjar",
-    "Per a dormir"
+    "Sobretot per a amagar-se dels animals que els cacen",
+    "Per a trobar menjar i veure millor de nit",
+    "Per a dormir més tranquils entre les fulles verdes"
    ],
    "correct": 0,
    "explanation": "«per a mostrar el seu estat d'ànim o per a controlar la temperatura»",
-   "passage": "Els camaleons són sauris famosos perquè canvien de color. Molta gent pensa que ho fan per a amagar-se, però els científics han descobert que és sobretot per a mostrar el seu estat d'ànim o per a controlar la temperatura. Un camaleó tranquil pot ser verd o marró, mentre que un d'emocionat o enfadat es pot tornar groc o roig intens. A més, poden moure cada ull per separat i mirar en dues direccions alhora!",
+   "passage": "Els camaleons són sauris famosos perquè canvien de color. Molta gent pensa que ho fan per a amagar-se. Però els científics han descobert que és sobretot per a mostrar el seu estat d'ànim o per a controlar la temperatura. Un camaleó tranquil pot ser verd o marró, mentre que un d'emocionat o enfadat es pot tornar groc o roig intens. A més, poden moure cada ull per separat i mirar en dues direccions alhora!",
    "skill": "comp_inference",
    "step": 3
   },
@@ -2472,7 +2472,7 @@
    ],
    "correct": 2,
    "explanation": "«groc o roig intens»",
-   "passage": "Els camaleons són sauris famosos perquè canvien de color. Molta gent pensa que ho fan per a amagar-se, però els científics han descobert que és sobretot per a mostrar el seu estat d'ànim o per a controlar la temperatura. Un camaleó tranquil pot ser verd o marró, mentre que un d'emocionat o enfadat es pot tornar groc o roig intens. A més, poden moure cada ull per separat i mirar en dues direccions alhora!",
+   "passage": "Els camaleons són sauris famosos perquè canvien de color. Molta gent pensa que ho fan per a amagar-se. Però els científics han descobert que és sobretot per a mostrar el seu estat d'ànim o per a controlar la temperatura. Un camaleó tranquil pot ser verd o marró, mentre que un d'emocionat o enfadat es pot tornar groc o roig intens. A més, poden moure cada ull per separat i mirar en dues direccions alhora!",
    "skill": "comp_literal",
    "step": 1
   },
@@ -2484,13 +2484,13 @@
    "prompt": "Què tenen d'especial els ulls?",
    "options": [
     "Es poden moure per separat",
-    "Brillen de nit",
-    "Són blaus",
-    "No es tanquen mai"
+    "Brillen molt durant la nit",
+    "Canvien de color amb el sol",
+    "No es tanquen mai del tot"
    ],
    "correct": 0,
    "explanation": "«poden moure cada ull per separat»",
-   "passage": "Els camaleons són sauris famosos perquè canvien de color. Molta gent pensa que ho fan per a amagar-se, però els científics han descobert que és sobretot per a mostrar el seu estat d'ànim o per a controlar la temperatura. Un camaleó tranquil pot ser verd o marró, mentre que un d'emocionat o enfadat es pot tornar groc o roig intens. A més, poden moure cada ull per separat i mirar en dues direccions alhora!",
+   "passage": "Els camaleons són sauris famosos perquè canvien de color. Molta gent pensa que ho fan per a amagar-se. Però els científics han descobert que és sobretot per a mostrar el seu estat d'ànim o per a controlar la temperatura. Un camaleó tranquil pot ser verd o marró, mentre que un d'emocionat o enfadat es pot tornar groc o roig intens. A més, poden moure cada ull per separat i mirar en dues direccions alhora!",
    "skill": "comp_literal",
    "step": 2
   },
@@ -2510,7 +2510,7 @@
    "explanation": "No volia deixar Elsa.",
    "passage": "La família de Nur se n'anava a viure a una altra ciutat. Nur no volia deixar la seua millor amiga, Elsa, i va estar callada i enfadada durant dies. L'última vesprada, Elsa li va regalar una llibreta. En la primera pàgina havia escrit: «Escriu-me cada setmana i jo et contestaré.» Nur va somriure per primera vegada en molts dies. De sobte, la distància ja no li pareixia tan gran.",
    "skill": "comp_inference",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_comprension_lectora_l4_m018",
@@ -2555,9 +2555,9 @@
    "type": "multiple_choice",
    "prompt": "Per què la distància ja no pareixia tan gran?",
    "options": [
-    "Elsa també se n'anava",
-    "Nur no se n'anava",
-    "La ciutat era a prop",
+    "Al final Nur ja no se n'anava",
+    "La nova ciutat estava molt a prop",
+    "Elsa també se n'anava a viure allí",
     "Tenien una manera de seguir en contacte"
    ],
    "correct": 3,
@@ -2609,10 +2609,10 @@
    "type": "multiple_choice",
    "prompt": "Per què necessiten un equip especial?",
    "options": [
-    "Plou cada dia",
-    "No hi ha camins",
+    "Plou cada dia sense parar",
+    "Hi ha animals salvatges al cim",
     "Hi ha poc oxigen i fa molt de fred",
-    "Hi ha animals salvatges"
+    "No hi ha camins per a pujar"
    ],
    "correct": 2,
    "explanation": "«molt poc oxigen i fa un fred extrem»",
@@ -2627,9 +2627,9 @@
    "type": "multiple_choice",
    "prompt": "Qui són els xerpes?",
    "options": [
-    "Científics",
-    "Pilots",
-    "Animals de muntanya",
+    "Pilots que porten els alpinistes",
+    "Animals que viuen a les muntanyes",
+    "Científics que estudien la neu",
     "Gent de la zona que fa de guia"
    ],
    "correct": 3,
@@ -2663,10 +2663,10 @@
    "type": "multiple_choice",
    "prompt": "Què va fer son pare?",
    "options": [
-    "Va telefonar a un veí",
+    "Va telefonar a un veí per a demanar ajuda",
     "Va encendre espelmes i va traure un joc",
-    "Va arreglar la llum",
-    "Se'n va anar a dormir"
+    "Se'n va anar a dormir molt prompte",
+    "Va arreglar la llum de tot el carrer"
    ],
    "correct": 1,
    "explanation": "«va encendre unes espelmes i va traure un joc de taula»",
@@ -2744,7 +2744,7 @@
    "explanation": "«alguns ossos s'unixen a mesura que creixem»",
    "passage": "Els nostres ossos estan vius i creixen. Un nadó té uns 300 ossos, però una persona adulta en té 206. Això és perquè alguns ossos s'unixen a mesura que creixem. Els ossos necessiten calci per a ser forts, i el traiem d'aliments com la llet, el formatge i les verdures de fulla verda. L'exercici també ajuda a mantindre els ossos sans.",
    "skill": "comp_inference",
-   "step": 3
+   "step": 2
   },
   {
    "id": "ca_comprension_lectora_l4_m031",
@@ -2945,14 +2945,14 @@
    "type": "multiple_choice",
    "prompt": "Què va trobar Fleming quan va tornar?",
    "options": [
-    "Un microscopi trencat",
-    "Un animal nou",
+    "Una carta d'un científic famós",
+    "Un microscopi trencat damunt la taula",
     "Un fong en una placa amb bacteris",
-    "Una carta"
+    "Bacteris nous en una botella"
    ],
    "correct": 2,
    "explanation": "«Havia crescut un fong en una de les plaques amb bacteris»",
-   "passage": "El 1928, el científic Alexander Fleming va tornar de vacances i va trobar una cosa estranya al seu laboratori. Havia crescut un fong en una de les plaques amb bacteris, i al voltant del fong els bacteris havien mort. En compte de llançar la placa, Fleming la va investigar. Havia descobert la penicil·lina, el primer antibiòtic. Des de llavors, els antibiòtics han salvat milions de vides, encara que els metges avisen que cal usar-los amb compte perquè els bacteris no es tornen resistents.",
+   "passage": "El 1928, el científic Alexander Fleming va tornar de vacances i va trobar una cosa estranya al seu laboratori. Havia crescut un fong en una de les plaques amb bacteris, i al voltant del fong els bacteris havien mort. En compte de llançar la placa, Fleming la va investigar. Havia descobert la penicil·lina, el primer antibiòtic. Des de llavors, els antibiòtics han salvat milions de vides. Tot i això, els metges avisen que cal usar-los amb compte perquè els bacteris no es tornen resistents.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -2964,13 +2964,13 @@
    "prompt": "Què tenia d'especial el fong?",
    "options": [
     "Els bacteris del voltant havien mort",
-    "Feia bona olor",
-    "Brillava",
-    "Creixia molt de pressa"
+    "Brillava en la foscor del laboratori",
+    "Havia crescut molt de pressa en una nit",
+    "Feia molt bona olor i tenia colors"
    ],
    "correct": 0,
    "explanation": "«al voltant del fong els bacteris havien mort»",
-   "passage": "El 1928, el científic Alexander Fleming va tornar de vacances i va trobar una cosa estranya al seu laboratori. Havia crescut un fong en una de les plaques amb bacteris, i al voltant del fong els bacteris havien mort. En compte de llançar la placa, Fleming la va investigar. Havia descobert la penicil·lina, el primer antibiòtic. Des de llavors, els antibiòtics han salvat milions de vides, encara que els metges avisen que cal usar-los amb compte perquè els bacteris no es tornen resistents.",
+   "passage": "El 1928, el científic Alexander Fleming va tornar de vacances i va trobar una cosa estranya al seu laboratori. Havia crescut un fong en una de les plaques amb bacteris, i al voltant del fong els bacteris havien mort. En compte de llançar la placa, Fleming la va investigar. Havia descobert la penicil·lina, el primer antibiòtic. Des de llavors, els antibiòtics han salvat milions de vides. Tot i això, els metges avisen que cal usar-los amb compte perquè els bacteris no es tornen resistents.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -2988,7 +2988,7 @@
    ],
    "correct": 0,
    "explanation": "Investigar-la el va portar a la penicil·lina.",
-   "passage": "El 1928, el científic Alexander Fleming va tornar de vacances i va trobar una cosa estranya al seu laboratori. Havia crescut un fong en una de les plaques amb bacteris, i al voltant del fong els bacteris havien mort. En compte de llançar la placa, Fleming la va investigar. Havia descobert la penicil·lina, el primer antibiòtic. Des de llavors, els antibiòtics han salvat milions de vides, encara que els metges avisen que cal usar-los amb compte perquè els bacteris no es tornen resistents.",
+   "passage": "El 1928, el científic Alexander Fleming va tornar de vacances i va trobar una cosa estranya al seu laboratori. Havia crescut un fong en una de les plaques amb bacteris, i al voltant del fong els bacteris havien mort. En compte de llançar la placa, Fleming la va investigar. Havia descobert la penicil·lina, el primer antibiòtic. Des de llavors, els antibiòtics han salvat milions de vides. Tot i això, els metges avisen que cal usar-los amb compte perquè els bacteris no es tornen resistents.",
    "skill": "comp_inference",
    "step": 2
   },
@@ -3006,7 +3006,7 @@
    ],
    "correct": 1,
    "explanation": "«cal usar-los amb compte»",
-   "passage": "El 1928, el científic Alexander Fleming va tornar de vacances i va trobar una cosa estranya al seu laboratori. Havia crescut un fong en una de les plaques amb bacteris, i al voltant del fong els bacteris havien mort. En compte de llançar la placa, Fleming la va investigar. Havia descobert la penicil·lina, el primer antibiòtic. Des de llavors, els antibiòtics han salvat milions de vides, encara que els metges avisen que cal usar-los amb compte perquè els bacteris no es tornen resistents.",
+   "passage": "El 1928, el científic Alexander Fleming va tornar de vacances i va trobar una cosa estranya al seu laboratori. Havia crescut un fong en una de les plaques amb bacteris, i al voltant del fong els bacteris havien mort. En compte de llançar la placa, Fleming la va investigar. Havia descobert la penicil·lina, el primer antibiòtic. Des de llavors, els antibiòtics han salvat milions de vides. Tot i això, els metges avisen que cal usar-los amb compte perquè els bacteris no es tornen resistents.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -3036,9 +3036,9 @@
    "prompt": "Sobre què va demanar la mestra que escrigueren?",
    "options": [
     "Una cosa que els haguera passat de veritat",
-    "El menjar preferit",
-    "Un experiment",
-    "Dracs"
+    "Un experiment que van fer a classe",
+    "El menjar preferit i com es fa",
+    "Un conte de dracs i aventures"
    ],
    "correct": 0,
    "explanation": "«una cosa que els haguera passat de veritat»",
@@ -3071,10 +3071,10 @@
    "type": "multiple_choice",
    "prompt": "Quin és el missatge principal?",
    "options": [
-    "Els noms de les estreles són fàcils",
-    "Només els mestres escriuen bé",
+    "Els noms de les estreles són molt fàcils d'aprendre",
+    "Només els mestres saben escriure bones històries",
     "Una història verdadera i personal pot ser poderosa",
-    "Els contes han de tindre dracs"
+    "Els contes només són bons si tenen dracs i màgia"
    ],
    "correct": 2,
    "explanation": "L'última frase ho diu.",
@@ -3090,9 +3090,9 @@
    "prompt": "Per què s'anomenen «les selves de la mar»?",
    "options": [
     "Hi viuen moltes criatures diferents",
-    "Tenen arbres",
-    "Són verds",
-    "Hi plou molt"
+    "Tenen arbres davall de l'aigua",
+    "Hi plou molt damunt d'ells",
+    "Són verds com les plantes"
    ],
    "correct": 0,
    "explanation": "«hi viuen moltíssimes criatures diferents»",
@@ -3143,9 +3143,9 @@
    "type": "multiple_choice",
    "prompt": "Què causa l'emblanquiment?",
    "options": [
-    "Massa peixos",
-    "Els hiverns freds",
-    "La llum de nit",
+    "Els hiverns massa freds",
+    "La llum de la lluna de nit",
+    "Que hi haja massa peixos",
     "Que la mar es calfe massa"
    ],
    "correct": 3,
@@ -3179,9 +3179,9 @@
    "type": "multiple_choice",
    "prompt": "Quants anys tenia l'olivera?",
    "options": [
-    "Tres",
-    "Cinquanta",
-    "Trenta",
+    "Menys de cent",
+    "Més de cinquanta",
+    "Uns trenta",
     "Més de cinc-cents"
    ],
    "correct": 3,
@@ -3197,10 +3197,10 @@
    "type": "multiple_choice",
    "prompt": "Com van ajudar els xiquets?",
    "options": [
-    "Pagant-la",
+    "Pagant l'aparcament amb els seus estalvis",
     "Escrivint cartes i arreplegant firmes",
-    "Pujant a l'arbre",
-    "Fent una tanca"
+    "Pujant a l'arbre perquè no el tallaren",
+    "Fent una tanca al voltant de l'olivera"
    ],
    "correct": 1,
    "explanation": "«va escriure cartes ... i va arreplegar més de cinc-centes firmes»",
@@ -3240,7 +3240,7 @@
    ],
    "correct": 3,
    "explanation": "«Molta gent pensa que són cegues»",
-   "passage": "Sovint la gent no coneix bé les rates penades. Molta gent pensa que són cegues, però la majoria hi veuen bastant bé. Tot i això, moltes espècies usen també l'ecolocalització per a orientar-se a fosques: fan sons molt aguts i escolten l'eco que torna quan xoca amb els objectes del voltant. Així poden caçar insectes xicotets en ple vol. Una sola rata penada pot menjar milers de mosquits en una nit, cosa que les convertix en unes veïnes molt útils.",
+   "passage": "Sovint la gent no coneix bé les rates penades. Molta gent pensa que són cegues, però la majoria hi veuen bastant bé. Tot i això, moltes espècies usen també l'ecolocalització per a orientar-se a fosques. Fan sons molt aguts i escolten l'eco que torna quan xoca amb els objectes del voltant. Així poden caçar insectes xicotets en ple vol. Una sola rata penada pot menjar milers de mosquits en una nit, cosa que les convertix en unes veïnes molt útils.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -3251,14 +3251,14 @@
    "type": "multiple_choice",
    "prompt": "Què és l'ecolocalització?",
    "options": [
-    "Olorar el menjar",
-    "Volar molt alt",
+    "Volar molt alt per a buscar insectes",
+    "Olorar el menjar des de molt lluny",
     "Usar l'eco dels sons per a trobar coses",
-    "Veure en color"
+    "Veure molt bé els colors en la foscor"
    ],
    "correct": 2,
    "explanation": "«fan sons molt aguts i escolten l'eco»",
-   "passage": "Sovint la gent no coneix bé les rates penades. Molta gent pensa que són cegues, però la majoria hi veuen bastant bé. Tot i això, moltes espècies usen també l'ecolocalització per a orientar-se a fosques: fan sons molt aguts i escolten l'eco que torna quan xoca amb els objectes del voltant. Així poden caçar insectes xicotets en ple vol. Una sola rata penada pot menjar milers de mosquits en una nit, cosa que les convertix en unes veïnes molt útils.",
+   "passage": "Sovint la gent no coneix bé les rates penades. Molta gent pensa que són cegues, però la majoria hi veuen bastant bé. Tot i això, moltes espècies usen també l'ecolocalització per a orientar-se a fosques. Fan sons molt aguts i escolten l'eco que torna quan xoca amb els objectes del voltant. Així poden caçar insectes xicotets en ple vol. Una sola rata penada pot menjar milers de mosquits en una nit, cosa que les convertix en unes veïnes molt útils.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -3276,7 +3276,7 @@
    ],
    "correct": 2,
    "explanation": "«caçar insectes xicotets en ple vol»",
-   "passage": "Sovint la gent no coneix bé les rates penades. Molta gent pensa que són cegues, però la majoria hi veuen bastant bé. Tot i això, moltes espècies usen també l'ecolocalització per a orientar-se a fosques: fan sons molt aguts i escolten l'eco que torna quan xoca amb els objectes del voltant. Així poden caçar insectes xicotets en ple vol. Una sola rata penada pot menjar milers de mosquits en una nit, cosa que les convertix en unes veïnes molt útils.",
+   "passage": "Sovint la gent no coneix bé les rates penades. Molta gent pensa que són cegues, però la majoria hi veuen bastant bé. Tot i això, moltes espècies usen també l'ecolocalització per a orientar-se a fosques. Fan sons molt aguts i escolten l'eco que torna quan xoca amb els objectes del voltant. Així poden caçar insectes xicotets en ple vol. Una sola rata penada pot menjar milers de mosquits en una nit, cosa que les convertix en unes veïnes molt útils.",
    "skill": "comp_literal",
    "step": 1
   },
@@ -3294,7 +3294,7 @@
    ],
    "correct": 2,
    "explanation": "«pot menjar milers de mosquits en una nit»",
-   "passage": "Sovint la gent no coneix bé les rates penades. Molta gent pensa que són cegues, però la majoria hi veuen bastant bé. Tot i això, moltes espècies usen també l'ecolocalització per a orientar-se a fosques: fan sons molt aguts i escolten l'eco que torna quan xoca amb els objectes del voltant. Així poden caçar insectes xicotets en ple vol. Una sola rata penada pot menjar milers de mosquits en una nit, cosa que les convertix en unes veïnes molt útils.",
+   "passage": "Sovint la gent no coneix bé les rates penades. Molta gent pensa que són cegues, però la majoria hi veuen bastant bé. Tot i això, moltes espècies usen també l'ecolocalització per a orientar-se a fosques. Fan sons molt aguts i escolten l'eco que torna quan xoca amb els objectes del voltant. Així poden caçar insectes xicotets en ple vol. Una sola rata penada pot menjar milers de mosquits en una nit, cosa que les convertix en unes veïnes molt útils.",
    "skill": "comp_inference",
    "step": 2
   },
@@ -3306,9 +3306,9 @@
    "prompt": "Per què se sentia invisible Samir al principi?",
    "options": [
     "Parlava poc valencià i el pati era sorollós",
-    "Arribava sempre tard",
-    "Ningú el veia",
-    "Era molt xicotet"
+    "No el deixaven eixir al pati a jugar",
+    "Sempre arribava tard i s'asseia al fons",
+    "Era el més xicotet de la classe i ningú el veia"
    ],
    "correct": 0,
    "explanation": "«parlava molt poc valencià, i el soroll del pati el feia sentir invisible»",
@@ -3341,9 +3341,9 @@
    "type": "multiple_choice",
    "prompt": "Per què no els calien moltes paraules?",
    "options": [
-    "Biel parlava àrab",
-    "Usaven el mòbil",
-    "Estaven enfadats",
+    "Biel ja parlava àrab",
+    "Estaven enfadats i no parlaven",
+    "Usaven el mòbil per a traduir",
     "Es comunicaven dibuixant"
    ],
    "correct": 3,
@@ -3377,9 +3377,9 @@
    "type": "multiple_choice",
    "prompt": "Què és el magma?",
    "options": [
-    "Roca freda",
-    "Un tipus de núvol",
-    "Fum del volcà",
+    "Roca freda de la superfície",
+    "Fum que ix del volcà",
+    "Un tipus de núvol molt fosc",
     "Roca fosa davall de terra"
    ],
    "correct": 3,
@@ -3485,9 +3485,9 @@
    "type": "multiple_choice",
    "prompt": "Quina distància pot volar en tota la vida?",
    "options": [
-    "Deu quilòmetres",
-    "Una volta a un llac",
-    "Un país",
+    "Com un viatge d'anada a l'Antàrtida",
+    "Com deu voltes a un llac gran",
+    "Com travessar un país de punta a punta",
     "Com tres viatges d'anada i tornada a la Lluna"
    ],
    "correct": 3,

@@ -169,8 +169,8 @@
      "id": "lectura_ca_l1_neu_q3",
      "prompt": "Què és el nas del ninot?",
      "options": [
-      "Una pedra",
-      "Un botó",
+      "Una pedra grossa",
+      "Un botó negre",
       "Una pastanaga"
      ],
      "correct": 2,
@@ -217,9 +217,9 @@
      "id": "lectura_ca_l1_lluna_q3",
      "prompt": "Per què brilla la Lluna?",
      "options": [
-      "Perquè té llum pròpia",
+      "Perquè té llum pròpia de nit",
       "Perquè li arriba la llum del Sol",
-      "Perquè és de foc"
+      "Perquè és feta de foc i de pedra"
      ],
      "correct": 1,
      "explanation": "«Brilla perquè li arriba la llum del Sol.»"
@@ -294,9 +294,9 @@
      "id": "lectura_ca_l2_formigues_q2",
      "prompt": "Què pot portar una formiga?",
      "options": [
-      "Res",
+      "Només fulles molt lleugeres",
       "Coses que pesen més que el seu cos",
-      "Només fulles"
+      "Res, perquè és massa xicoteta"
      ],
      "correct": 1,
      "explanation": "«coses que pesen molt més que el seu cos»"
@@ -340,8 +340,8 @@
      "prompt": "Què feia primer cada matí?",
      "options": [
       "Donava menjar a les gallines",
-      "Regava",
-      "Collia melons"
+      "Collia els melons madurs",
+      "Regava les tomaqueres"
      ],
      "correct": 0,
      "explanation": "«Primer, donava menjar a les gallines.»"
@@ -531,8 +531,8 @@
      "id": "lectura_ca_l3_mussols_q3",
      "prompt": "Què és la bola que escupen?",
      "options": [
-      "El seu niu",
-      "Un ou",
+      "Un ou que no ha eixit bé",
+      "Un tros del seu niu de branques",
       "Ossos i pèl que no poden digerir"
      ],
      "correct": 2,
@@ -554,8 +554,8 @@
      "id": "lectura_ca_l3_biblioteca_q1",
      "prompt": "On era la porteta?",
      "options": [
-      "Al pati",
-      "A la classe",
+      "Al fons del pati de l'escola",
+      "Darrere de la pissarra de classe",
       "En un racó de la biblioteca"
      ],
      "correct": 2,
@@ -667,8 +667,8 @@
      "prompt": "Quanta aigua pot malgastar una aixeta que goteja?",
      "options": [
       "Més de quinze litres al dia",
-      "Mig litre",
-      "Un got"
+      "Un got d'aigua al mes",
+      "Mig litre a la setmana"
      ],
      "correct": 0,
      "explanation": "«més de quinze litres d'aigua cada dia»"
@@ -716,9 +716,9 @@
      "id": "lectura_ca_l3_planetes_q3",
      "prompt": "Per què Mart es veu rogenc?",
      "options": [
-      "Perquè fa molta calor",
+      "Perquè allí sempre fa moltíssima calor",
       "Perquè el seu sòl té molt d’òxid de ferro",
-      "Perquè està prop del Sol"
+      "Perquè està més prop del Sol que la Terra"
      ],
      "correct": 1,
      "explanation": "«El seu sòl té molt d’òxid de ferro.»"
@@ -793,8 +793,8 @@
      "prompt": "Per què es va parar Kofi?",
      "options": [
       "Per a ajudar un xiquet que havia caigut",
-      "Estava cansat",
-      "Va perdre una sabata"
+      "Perquè estava massa cansat per a seguir",
+      "Perquè havia perdut una sabata"
      ],
      "correct": 0,
      "explanation": "«es va parar i el va ajudar a alçar-se»"
@@ -803,8 +803,8 @@
      "id": "lectura_ca_l4_cursa_q3",
      "prompt": "Per què estava orgullós Kofi?",
      "options": [
-      "Va guanyar la cursa",
-      "Era el més ràpid",
+      "Havia guanyat la cursa",
+      "Era el més ràpid de tots",
       "Havia fet el que era correcte"
      ],
      "correct": 2,
@@ -837,8 +837,8 @@
      "id": "lectura_ca_l4_impremta_q2",
      "prompt": "Què tenien d'especial les lletres de Gutenberg?",
      "options": [
-      "Eren molt grans",
-      "Eren d'or",
+      "Eren d'or i brillaven molt",
+      "Eren molt grans i de colors",
       "Es podien moure i tornar a usar"
      ],
      "correct": 2,
@@ -873,8 +873,8 @@
      "prompt": "On era la caixeta?",
      "options": [
       "Darrere d'unes cortines velles",
-      "Al jardí",
-      "Davall del llit"
+      "Enterrada al jardí de casa",
+      "Davall del llit de l'àvia"
      ],
      "correct": 0,
      "explanation": "«amagada darrere d'un munt de cortines velles»"
@@ -895,8 +895,8 @@
      "prompt": "Per què la golfa li va semblar un cofre del tresor?",
      "options": [
       "Va descobrir històries de la família",
-      "Van trobar monedes d'or",
-      "Estava plena de joguets"
+      "Van trobar monedes d'or amagades",
+      "Estava plena de joguets antics"
      ],
      "correct": 0,
      "explanation": "Va escoltar històries que no havia sentit mai."
@@ -917,8 +917,8 @@
      "id": "lectura_ca_l4_abelles_q1",
      "prompt": "Quina part del que mengem depén de la pol·linització?",
      "options": [
+      "Tot el que mengem",
       "Quasi res",
-      "Tot",
       "Una tercera part"
      ],
      "correct": 2,
@@ -1009,9 +1009,9 @@
      "id": "lectura_ca_l5_cervell_q1",
      "prompt": "Què són les neurones?",
      "options": [
-      "Músculs",
+      "Ossos del cap",
       "Cèl·lules del cervell",
-      "Ossos"
+      "Músculs de les cames"
      ],
      "correct": 1,
      "explanation": "«unes cèl·lules diminutes del cervell que s'anomenen neurones»"
@@ -1077,8 +1077,8 @@
      "prompt": "Per què l'Albufera és un parc natural protegit?",
      "options": [
       "Hi viuen i passen l'hivern molts ocells",
-      "Hi ha una fàbrica",
-      "Hi ha molts cotxes"
+      "Hi passen molts cotxes cada dia",
+      "Hi ha una fàbrica molt important"
      ],
      "correct": 0,
      "explanation": "«milers d'ocells ... hi passen l'hivern o hi fan el niu»"
@@ -1112,8 +1112,8 @@
      "prompt": "Què arreplegava la web de Nàdia?",
      "options": [
       "Els records de la gent sobre el bosc",
-      "Fotos de la fàbrica",
-      "Diners"
+      "Diners per a comprar el bosc",
+      "Fotos de la fàbrica nova del poble"
      ],
      "correct": 0,
      "explanation": "«compartir els seus records del bosc»"
@@ -1122,8 +1122,8 @@
      "id": "lectura_ca_l5_bosc_q3",
      "prompt": "Què va fer canviar d'opinió els propietaris?",
      "options": [
-      "Una sentència",
-      "Una tempesta",
+      "Una sentència del jutge",
+      "Una tempesta molt forta",
       "Llegir les històries"
      ],
      "correct": 2,
@@ -1167,9 +1167,9 @@
      "id": "lectura_ca_l5_paraules_q3",
      "prompt": "Quina és la idea principal del text?",
      "options": [
-      "Els romans parlaven àrab",
+      "El valencià no ha canviat mai",
       "El valencià té paraules de moltes llengües",
-      "El valencià no canvia mai"
+      "Els romans ja parlaven àrab"
      ],
      "correct": 1,
      "explanation": "El text explica l'origen de moltes paraules."
@@ -1205,9 +1205,9 @@
      "id": "lectura_ca_l5_estacio_q2",
      "prompt": "Quant tarda a fer una volta a la Terra?",
      "options": [
-      "Un dia",
+      "Un dia sencer",
       "Uns noranta minuts",
-      "Una setmana"
+      "Una setmana i mitja"
      ],
      "correct": 1,
      "explanation": "«Fa una volta completa a la Terra en uns noranta minuts.»"
@@ -1216,9 +1216,9 @@
      "id": "lectura_ca_l5_estacio_q3",
      "prompt": "Per què fan exercici els astronautes?",
      "options": [
-      "Per a no avorrir-se",
+      "Per a no avorrir-se durant els viatges llargs",
       "Perquè els músculs i els ossos no es debiliten",
-      "Per a guanyar una carrera"
+      "Per a guanyar una cursa contra una altra nau"
      ],
      "correct": 1,
      "explanation": "«Perquè els músculs i els ossos no es debiliten.»"

@@ -4,12 +4,12 @@ M = 'retos_rapidos'
 SYN = {
 1: [("grande", "enorme", ["pequeño", "rojo", "lento"]), ("contento", "alegre", ["triste", "frío", "tarde"]), ("rápido", "veloz", ["lento", "alto", "mojado"]),
     ("pequeño", "chiquito", ["gigante", "ruidoso", "viejo"]), ("cerrar", "tapar", ["abrir", "saltar", "cantar"]), ("bonito", "precioso", ["feo", "frío", "fuerte"])],
-2: [("empezar", "comenzar", ["acabar", "parar", "dormir"]), ("gritar", "chillar", ["susurrar", "cantar", "sonreír"]), ("asustado", "atemorizado", ["valiente", "contento", "aburrido"]),
+2: [("empezar", "comenzar", ["acabar", "parar", "dormir"]), ("gritar", "chillar", ["susurrar", "cantar", "sonreír"]), ("asustado", "con miedo", ["con ganas", "con frío", "con sueño"]),
     ("cansado", "agotado", ["descansado", "enfadado", "hambriento"]), ("mirar", "observar", ["escuchar", "comer", "correr"]), ("fácil", "sencillo", ["difícil", "largo", "oscuro"])],
 3: [("enorme", "inmenso", ["diminuto", "silencioso", "temprano"]), ("silencioso", "callado", ["ruidoso", "soleado", "divertido"]), ("valiente", "valeroso", ["miedoso", "vago", "maleducado"]),
     ("difícil", "complicado", ["fácil", "suave", "ligero"]), ("ordenado", "recogido", ["desordenado", "sucio", "ocupado"]), ("rico", "adinerado", ["pobre", "débil", "delgado"])],
 4: [("antiguo", "muy viejo", ["nuevo a estrenar", "muy rápido", "muy pequeño"]), ("furioso", "muy enfadado", ["muy tranquilo", "muy frío", "muy cansado"]),
-    ("frágil", "que se rompe fácilmente", ["muy fuerte", "muy pesado", "muy brillante"]), ("agotado", "muy cansado", ["muy despierto", "muy emocionado", "muy hambriento"]),
+    ("frágil", "que se rompe fácilmente", ["que pesa muchísimo", "que brilla con el sol", "que aguanta golpes fuertes"]), ("agotado", "muy cansado", ["muy despierto", "muy emocionado", "muy hambriento"]),
     ("encantado", "muy contento", ["muy molesto", "muy aburrido", "muy asustado"]), ("gigantesco", "enorme", ["minúsculo", "normal", "estrecho"])],
 5: [("reacio", "poco dispuesto", ["entusiasta", "descuidado", "sincero"]), ("prudente", "cauteloso", ["imprudente", "alegre", "curioso"]),
     ("abundante", "copioso", ["escaso", "frágil", "silencioso"]), ("vívido", "intenso", ["apagado", "lento", "áspero"]),
@@ -90,6 +90,12 @@ ORD_LETTERS2 = {1: ["s", "o", "l"], 2: ["m", "e", "s", "a"], 3: ["t", "r", "e", 
 FEM = {"flor", "luz"}
 
 
+def _mix(words):
+    """Shows the group in a fixed but varied order, so the odd word is not always the last one."""
+    import hashlib
+    return sorted(words, key=lambda w: hashlib.md5(w.encode('utf-8')).hexdigest())
+
+
 def build(b):
     for level in range(1, 6):
         for w, s, wrong in SYN[level]:
@@ -97,7 +103,7 @@ def build(b):
         for w, a, wrong in ANT[level]:
             b.mc(M, level, f"¿Cuál es lo contrario de «{w}»?", a, wrong, f"Lo contrario de «{w}» es «{a}».")
         for group, odd, expl in ODD[level]:
-            b.mc(M, level, f"¿Qué palabra NO es del grupo: {', '.join(group)} o {odd}?", odd, group, expl)
+            b.mc(M, level, f"¿Qué palabra sobra? {', '.join(_mix(group + [odd]))}", odd, group, expl)
         for prompt, ans, wrong, expl in CLASS[level]:
             b.mc(M, level, prompt, ans, wrong, expl)
         for seq, ans, wrong in SERIES[level]:

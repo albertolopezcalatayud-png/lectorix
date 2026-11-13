@@ -61,9 +61,9 @@
    "type": "multiple_choice",
    "prompt": "¿Qué hace Rufo con la pelota?",
    "options": [
-    "La esconde",
-    "La rompe",
-    "Se la come",
+    "La esconde en el jardín",
+    "La rompe con los dientes",
+    "Se la lleva a su caseta",
     "Se la devuelve a Pablo"
    ],
    "correct": 3,
@@ -332,9 +332,9 @@
    "prompt": "¿Dónde duerme Nieve?",
    "options": [
     "En la cama de Carla",
-    "En el sofá",
-    "En una caja",
-    "En el jardín"
+    "En el jardín de Carla",
+    "En una caja del salón",
+    "En el sofá de la abuela"
    ],
    "correct": 0,
    "explanation": "«Duerme cada noche en la cama de Carla.»",
@@ -494,9 +494,9 @@
    "prompt": "¿Cuándo le ayuda?",
    "options": [
     "Todos los sábados",
-    "Los domingos",
-    "Los lunes",
-    "Cada día"
+    "Todos los lunes",
+    "Todas las tardes",
+    "Todos los domingos"
    ],
    "correct": 0,
    "explanation": "«todos los sábados»",
@@ -566,9 +566,9 @@
    "prompt": "¿Por qué llega a lo alto del árbol?",
    "options": [
     "Tiene el cuello muy largo",
-    "Puede volar",
-    "Salta muy alto",
-    "Trepa al árbol"
+    "Trepa por el tronco del árbol",
+    "Sube por una escalera",
+    "Salta muy muy alto"
    ],
    "correct": 0,
    "explanation": "Juan dice que tiene el cuello muy largo.",
@@ -762,9 +762,9 @@
    "prompt": "¿Dónde ponen los huevos?",
    "options": [
     "En una caja de madera",
-    "En la hierba",
-    "En una cesta",
-    "En la cocina"
+    "En una cesta de la cocina",
+    "En la hierba del jardín",
+    "En un nido del árbol"
    ],
    "correct": 0,
    "explanation": "«en una caja de madera»",
@@ -842,7 +842,7 @@
    "explanation": "«Buscó debajo del banco y detrás del tobogán»",
    "passage": "Jaime perdió su gorra azul en el parque. Buscó debajo del banco y detrás del tobogán, pero no estaba. Entonces vio a un perro pequeño con algo azul en la boca. ¡Era su gorra!",
    "skill": "comp_literal",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_comprension_lectora_l2_m007",
@@ -852,15 +852,15 @@
    "prompt": "¿Quién tenía la gorra?",
    "options": [
     "Un perro pequeño",
-    "Un amigo",
-    "Una niña",
-    "Un pájaro"
+    "Un pájaro azul",
+    "Un niño del parque",
+    "Una niña pequeña"
    ],
    "correct": 0,
    "explanation": "«un perro pequeño con algo azul en la boca»",
    "passage": "Jaime perdió su gorra azul en el parque. Buscó debajo del banco y detrás del tobogán, pero no estaba. Entonces vio a un perro pequeño con algo azul en la boca. ¡Era su gorra!",
    "skill": "comp_literal",
-   "step": 2
+   "step": 3
   },
   {
    "id": "es_comprension_lectora_l2_m008",
@@ -941,9 +941,9 @@
    "type": "multiple_choice",
    "prompt": "¿Por qué son importantes para las plantas?",
    "options": [
-    "Las protegen del frío",
-    "Las riegan",
-    "Comen insectos",
+    "Les llevan agua de la colmena",
+    "Les quitan los insectos de las hojas",
+    "Las protegen del frío y de la lluvia",
     "Ayudan a que crezcan las flores y la fruta"
    ],
    "correct": 3,
@@ -960,15 +960,15 @@
    "prompt": "¿Qué quería aprender Amira?",
    "options": [
     "A montar en bicicleta",
-    "A bailar",
-    "A nadar",
-    "A patinar"
+    "A saltar a la comba",
+    "A nadar en la piscina",
+    "A patinar sobre hielo"
    ],
    "correct": 0,
    "explanation": "«aprender a montar en bicicleta»",
    "passage": "Amira quería aprender a montar en bicicleta. La primera vez, se cayó y se hizo daño en la rodilla. Se puso triste, pero no se rindió. Practicaba cada día después del colegio. ¡A las dos semanas ya podía dar la vuelta entera al parque!",
    "skill": "comp_literal",
-   "step": 2
+   "step": 3
   },
   {
    "id": "es_comprension_lectora_l2_m014",
@@ -1004,7 +1004,7 @@
    "explanation": "«A las dos semanas»",
    "passage": "Amira quería aprender a montar en bicicleta. La primera vez, se cayó y se hizo daño en la rodilla. Se puso triste, pero no se rindió. Practicaba cada día después del colegio. ¡A las dos semanas ya podía dar la vuelta entera al parque!",
    "skill": "comp_literal",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_comprension_lectora_l2_m016",
@@ -1121,10 +1121,10 @@
    "type": "multiple_choice",
    "prompt": "¿Qué vieron?",
    "options": [
-    "Una nave espacial",
-    "Un cuadro",
+    "Un dinosaurio de juguete",
+    "Una nave espacial antigua",
     "Un esqueleto de dinosaurio",
-    "Un dinosaurio vivo"
+    "Un cuadro de un dinosaurio"
    ],
    "correct": 2,
    "explanation": "«un esqueleto enorme de dinosaurio»",
@@ -1193,10 +1193,10 @@
    "type": "multiple_choice",
    "prompt": "¿Qué utilizaron?",
    "options": [
-    "Un bote de cristal",
+    "Un bote de cristal grande",
     "Una botella de plástico vieja",
-    "Una caja de zapatos",
-    "Madera"
+    "Una caja de zapatos vieja",
+    "Unas tablas de madera"
    ],
    "correct": 1,
    "explanation": "«con una botella de plástico vieja»",
@@ -1247,14 +1247,14 @@
    "type": "multiple_choice",
    "prompt": "¿Por qué estaba nerviosa Ruth?",
    "options": [
-    "Llegaba tarde",
-    "Estaba enferma",
-    "Tenía un examen",
+    "Llegaba tarde a clase por la mañana",
+    "Había perdido el almuerzo en el autobús",
+    "Tenía un examen muy difícil ese día",
     "Era su primer día en un colegio nuevo"
    ],
    "correct": 3,
    "explanation": "«su primer día en un colegio nuevo»",
-   "passage": "Ruth estaba nerviosa. Era su primer día en un colegio nuevo y no conocía a nadie. A la hora del recreo, una niña que se llamaba Hana se sentó a su lado y compartió su almuerzo. Al terminar el día, Ruth tenía una amiga nueva.",
+   "passage": "Ruth estaba nerviosa. Era su primer día en un colegio nuevo y no conocía a nadie. A la hora del recreo, una niña se sentó a su lado. Se llamaba Hana y compartió su almuerzo con Ruth. Al terminar el día, Ruth tenía una amiga nueva.",
    "skill": "comp_inference",
    "step": 3
   },
@@ -1271,8 +1271,8 @@
     "Carla"
    ],
    "correct": 1,
-   "explanation": "«una niña que se llamaba Hana»",
-   "passage": "Ruth estaba nerviosa. Era su primer día en un colegio nuevo y no conocía a nadie. A la hora del recreo, una niña que se llamaba Hana se sentó a su lado y compartió su almuerzo. Al terminar el día, Ruth tenía una amiga nueva.",
+   "explanation": "«una niña se sentó a su lado. Se llamaba Hana»",
+   "passage": "Ruth estaba nerviosa. Era su primer día en un colegio nuevo y no conocía a nadie. A la hora del recreo, una niña se sentó a su lado. Se llamaba Hana y compartió su almuerzo con Ruth. Al terminar el día, Ruth tenía una amiga nueva.",
    "skill": "comp_inference",
    "step": 1
   },
@@ -1290,7 +1290,7 @@
    ],
    "correct": 3,
    "explanation": "«compartió su almuerzo»",
-   "passage": "Ruth estaba nerviosa. Era su primer día en un colegio nuevo y no conocía a nadie. A la hora del recreo, una niña que se llamaba Hana se sentó a su lado y compartió su almuerzo. Al terminar el día, Ruth tenía una amiga nueva.",
+   "passage": "Ruth estaba nerviosa. Era su primer día en un colegio nuevo y no conocía a nadie. A la hora del recreo, una niña se sentó a su lado. Se llamaba Hana y compartió su almuerzo con Ruth. Al terminar el día, Ruth tenía una amiga nueva.",
    "skill": "comp_literal",
    "step": 2
   },
@@ -1308,7 +1308,7 @@
    ],
    "correct": 1,
    "explanation": "«Ruth tenía una amiga nueva.»",
-   "passage": "Ruth estaba nerviosa. Era su primer día en un colegio nuevo y no conocía a nadie. A la hora del recreo, una niña que se llamaba Hana se sentó a su lado y compartió su almuerzo. Al terminar el día, Ruth tenía una amiga nueva.",
+   "passage": "Ruth estaba nerviosa. Era su primer día en un colegio nuevo y no conocía a nadie. A la hora del recreo, una niña se sentó a su lado. Se llamaba Hana y compartió su almuerzo con Ruth. Al terminar el día, Ruth tenía una amiga nueva.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -1535,9 +1535,9 @@
    "type": "multiple_choice",
    "prompt": "¿Cuál es la idea principal?",
    "options": [
-    "Cómo viajar a la Luna",
-    "Por qué el Sol quema",
-    "Cómo crecen los plátanos",
+    "Cómo se puede viajar hasta la Luna",
+    "Por qué el Sol calienta tanto la Tierra",
+    "Cómo se forman las estrellas de noche",
     "Por qué la Luna parece cambiar de forma"
    ],
    "correct": 3,
@@ -1571,10 +1571,10 @@
    "type": "multiple_choice",
    "prompt": "¿Cómo supieron de quién era?",
    "options": [
-    "Lo dijo la policía",
+    "Óscar conocía a la dueña de antes",
     "Había un carné con el nombre",
-    "Ella estaba allí",
-    "Óscar la conocía"
+    "Se lo dijo un policía de la calle",
+    "La dueña lo estaba esperando allí"
    ],
    "correct": 1,
    "explanation": "«un carné de la biblioteca con un nombre»",
@@ -1626,9 +1626,9 @@
    "prompt": "¿Qué significa reciclar?",
    "options": [
     "Hacer cosas nuevas con cosas viejas",
-    "Comprar cosas nuevas",
-    "Quemar la basura",
-    "Tirarlo todo"
+    "Tirar la basura al contenedor",
+    "Guardar las cosas viejas en casa",
+    "Comprar cosas nuevas en la tienda"
    ],
    "correct": 0,
    "explanation": "«Reciclar significa hacer cosas nuevas con cosas viejas.»",
@@ -1680,9 +1680,9 @@
    "prompt": "¿Por qué es bueno reciclar?",
    "options": [
     "Protege los bosques y los animales",
-    "Hace más basura",
-    "Es muy caro",
-    "Gasta más plástico"
+    "Hace que compremos más cosas nuevas",
+    "Sirve para gastar más plástico",
+    "Así los contenedores están llenos"
    ],
    "correct": 0,
    "explanation": "«ayudamos a proteger los bosques y los animales»",
@@ -1704,7 +1704,7 @@
    ],
    "correct": 2,
    "explanation": "«vino de Japón»",
-   "passage": "Cuando la abuela de Kai vino de Japón, le enseñó a hacer papiroflexia. Le mostró cómo doblar un cuadrado de papel una y otra vez hasta que se convertía en una grulla. La primera grulla de Kai salió un poco torcida, pero la abuela sonrió y le dijo que todos los expertos han sido principiantes.",
+   "passage": "Cuando la abuela de Kai vino de Japón, le enseñó a hacer papiroflexia. Le mostró cómo doblar un cuadrado de papel una y otra vez. Al final, se convertía en una grulla. La primera grulla de Kai salió un poco torcida. Pero la abuela sonrió y le dijo que todos los expertos han sido principiantes.",
    "skill": "comp_literal",
    "step": 2
   },
@@ -1716,15 +1716,15 @@
    "prompt": "¿Qué es la papiroflexia?",
    "options": [
     "Doblar papel para hacer figuras",
-    "Escribir poemas",
-    "Cocinar arroz",
-    "Pintar cuadros"
+    "Escribir poemas en un papel",
+    "Recortar papel con tijeras",
+    "Pintar figuras en un papel"
    ],
    "correct": 0,
    "explanation": "Dobla el papel hasta que se convierte en una grulla.",
-   "passage": "Cuando la abuela de Kai vino de Japón, le enseñó a hacer papiroflexia. Le mostró cómo doblar un cuadrado de papel una y otra vez hasta que se convertía en una grulla. La primera grulla de Kai salió un poco torcida, pero la abuela sonrió y le dijo que todos los expertos han sido principiantes.",
+   "passage": "Cuando la abuela de Kai vino de Japón, le enseñó a hacer papiroflexia. Le mostró cómo doblar un cuadrado de papel una y otra vez. Al final, se convertía en una grulla. La primera grulla de Kai salió un poco torcida. Pero la abuela sonrió y le dijo que todos los expertos han sido principiantes.",
    "skill": "comp_literal",
-   "step": 2
+   "step": 3
   },
   {
    "id": "es_comprension_lectora_l3_m015",
@@ -1740,9 +1740,9 @@
    ],
    "correct": 3,
    "explanation": "«se convertía en una grulla»",
-   "passage": "Cuando la abuela de Kai vino de Japón, le enseñó a hacer papiroflexia. Le mostró cómo doblar un cuadrado de papel una y otra vez hasta que se convertía en una grulla. La primera grulla de Kai salió un poco torcida, pero la abuela sonrió y le dijo que todos los expertos han sido principiantes.",
+   "passage": "Cuando la abuela de Kai vino de Japón, le enseñó a hacer papiroflexia. Le mostró cómo doblar un cuadrado de papel una y otra vez. Al final, se convertía en una grulla. La primera grulla de Kai salió un poco torcida. Pero la abuela sonrió y le dijo que todos los expertos han sido principiantes.",
    "skill": "comp_literal",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_comprension_lectora_l3_m016",
@@ -1751,16 +1751,16 @@
    "type": "multiple_choice",
    "prompt": "¿Qué quería decir la abuela?",
    "options": [
-    "Kai debía dejarlo",
+    "La grulla de Kai era perfecta",
     "Todo el mundo mejora practicando",
-    "La grulla era perfecta",
-    "Es demasiado difícil"
+    "Kai debía dejar la papiroflexia",
+    "La papiroflexia es demasiado difícil"
    ],
    "correct": 1,
    "explanation": "«todos los expertos han sido principiantes»",
-   "passage": "Cuando la abuela de Kai vino de Japón, le enseñó a hacer papiroflexia. Le mostró cómo doblar un cuadrado de papel una y otra vez hasta que se convertía en una grulla. La primera grulla de Kai salió un poco torcida, pero la abuela sonrió y le dijo que todos los expertos han sido principiantes.",
+   "passage": "Cuando la abuela de Kai vino de Japón, le enseñó a hacer papiroflexia. Le mostró cómo doblar un cuadrado de papel una y otra vez. Al final, se convertía en una grulla. La primera grulla de Kai salió un poco torcida. Pero la abuela sonrió y le dijo que todos los expertos han sido principiantes.",
    "skill": "comp_literal",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_comprension_lectora_l3_m017",
@@ -1776,7 +1776,7 @@
    ],
    "correct": 2,
    "explanation": "«que salen de noche»",
-   "passage": "Los erizos son animales pequeños y con púas que salen de noche. Comen escarabajos, gusanos y babosas, por eso gustan a la gente que tiene huerto. En invierno cuesta encontrar comida, así que los erizos hibernan: duermen muchas semanas en un nido calentito de hojas hasta que llega la primavera.",
+   "passage": "Los erizos son animales pequeños y con púas que salen de noche. Comen escarabajos, gusanos y babosas, por eso gustan a la gente que tiene huerto. En invierno cuesta encontrar comida, así que los erizos hibernan. Duermen muchas semanas en un nido calentito de hojas hasta que llega la primavera.",
    "skill": "comp_literal",
    "step": 1
   },
@@ -1787,14 +1787,14 @@
    "type": "multiple_choice",
    "prompt": "¿Por qué gustan a la gente que tiene huerto?",
    "options": [
-    "Plantan flores",
-    "Tienen púas",
+    "Plantan flores en el huerto",
+    "Riegan las plantas por la noche",
     "Comen babosas y escarabajos",
-    "Hacen agujeros"
+    "Hacen agujeros en la tierra"
    ],
    "correct": 2,
    "explanation": "Se comen los bichos que dañan el huerto.",
-   "passage": "Los erizos son animales pequeños y con púas que salen de noche. Comen escarabajos, gusanos y babosas, por eso gustan a la gente que tiene huerto. En invierno cuesta encontrar comida, así que los erizos hibernan: duermen muchas semanas en un nido calentito de hojas hasta que llega la primavera.",
+   "passage": "Los erizos son animales pequeños y con púas que salen de noche. Comen escarabajos, gusanos y babosas, por eso gustan a la gente que tiene huerto. En invierno cuesta encontrar comida, así que los erizos hibernan. Duermen muchas semanas en un nido calentito de hojas hasta que llega la primavera.",
    "skill": "comp_inference",
    "step": 2
   },
@@ -1805,16 +1805,16 @@
    "type": "multiple_choice",
    "prompt": "¿Qué significa «hibernar»?",
    "options": [
-    "Correr mucho",
+    "Buscar comida en invierno",
     "Dormir durante el invierno",
-    "Cazar",
-    "Hacer un nido"
+    "Esconderse durante el día",
+    "Hacer un nido de hojas"
    ],
    "correct": 1,
    "explanation": "«duermen muchas semanas ... hasta que llega la primavera»",
-   "passage": "Los erizos son animales pequeños y con púas que salen de noche. Comen escarabajos, gusanos y babosas, por eso gustan a la gente que tiene huerto. En invierno cuesta encontrar comida, así que los erizos hibernan: duermen muchas semanas en un nido calentito de hojas hasta que llega la primavera.",
+   "passage": "Los erizos son animales pequeños y con púas que salen de noche. Comen escarabajos, gusanos y babosas, por eso gustan a la gente que tiene huerto. En invierno cuesta encontrar comida, así que los erizos hibernan. Duermen muchas semanas en un nido calentito de hojas hasta que llega la primavera.",
    "skill": "comp_vocab",
-   "step": 2
+   "step": 3
   },
   {
    "id": "es_comprension_lectora_l3_m020",
@@ -1823,14 +1823,14 @@
    "type": "multiple_choice",
    "prompt": "¿Por qué hibernan?",
    "options": [
-    "Se aburren",
-    "Tienen demasiado calor",
+    "En invierno tienen miedo de la gente",
+    "En invierno tienen demasiado calor",
     "En invierno cuesta encontrar comida",
-    "Tienen miedo"
+    "En invierno se aburren mucho"
    ],
    "correct": 2,
    "explanation": "«En invierno cuesta encontrar comida»",
-   "passage": "Los erizos son animales pequeños y con púas que salen de noche. Comen escarabajos, gusanos y babosas, por eso gustan a la gente que tiene huerto. En invierno cuesta encontrar comida, así que los erizos hibernan: duermen muchas semanas en un nido calentito de hojas hasta que llega la primavera.",
+   "passage": "Los erizos son animales pequeños y con púas que salen de noche. Comen escarabajos, gusanos y babosas, por eso gustan a la gente que tiene huerto. En invierno cuesta encontrar comida, así que los erizos hibernan. Duermen muchas semanas en un nido calentito de hojas hasta que llega la primavera.",
    "skill": "comp_inference",
    "step": 3
   },
@@ -1877,10 +1877,10 @@
    "type": "multiple_choice",
    "prompt": "¿Por qué se reía Jorge?",
    "options": [
-    "Nieves se cayó",
+    "Él había escondido la corona en clase",
     "La corona estaba en la cabeza de Nieves",
-    "La había escondido él",
-    "Contó un chiste"
+    "Nieves se había caído en el escenario",
+    "Había contado un chiste muy gracioso"
    ],
    "correct": 1,
    "explanation": "«le señaló la cabeza»",
@@ -1920,7 +1920,7 @@
    ],
    "correct": 0,
    "explanation": "«El Sol calienta el agua»",
-   "passage": "El agua siempre está en movimiento por nuestro planeta. El Sol calienta el agua del mar y de los ríos, y sube al aire en forma de vapor invisible. Allí arriba, el vapor se enfría y forma nubes. Cuando las gotas de las nubes pesan demasiado, caen en forma de lluvia, y el viaje vuelve a empezar. Esto es el ciclo del agua.",
+   "passage": "El agua siempre está en movimiento por nuestro planeta. El Sol calienta el agua del mar y de los ríos. El agua sube al aire en forma de vapor invisible. Allí arriba, el vapor se enfría y forma nubes. Cuando las gotas de las nubes pesan demasiado, caen en forma de lluvia. Y el viaje vuelve a empezar. Esto es el ciclo del agua.",
    "skill": "comp_literal",
    "step": 1
   },
@@ -1938,7 +1938,7 @@
    ],
    "correct": 3,
    "explanation": "«el vapor se enfría y forma nubes»",
-   "passage": "El agua siempre está en movimiento por nuestro planeta. El Sol calienta el agua del mar y de los ríos, y sube al aire en forma de vapor invisible. Allí arriba, el vapor se enfría y forma nubes. Cuando las gotas de las nubes pesan demasiado, caen en forma de lluvia, y el viaje vuelve a empezar. Esto es el ciclo del agua.",
+   "passage": "El agua siempre está en movimiento por nuestro planeta. El Sol calienta el agua del mar y de los ríos. El agua sube al aire en forma de vapor invisible. Allí arriba, el vapor se enfría y forma nubes. Cuando las gotas de las nubes pesan demasiado, caen en forma de lluvia. Y el viaje vuelve a empezar. Esto es el ciclo del agua.",
    "skill": "comp_literal",
    "step": 1
   },
@@ -1949,14 +1949,14 @@
    "type": "multiple_choice",
    "prompt": "¿Cuándo cae la lluvia?",
    "options": [
-    "Cuando hace viento",
+    "Cuando el vapor sube al aire",
     "Cuando las gotas pesan demasiado",
-    "Cuando hace sol",
-    "Solo de noche"
+    "Cuando el Sol calienta el mar",
+    "Cuando sopla mucho viento"
    ],
    "correct": 1,
    "explanation": "«Cuando las gotas de las nubes pesan demasiado»",
-   "passage": "El agua siempre está en movimiento por nuestro planeta. El Sol calienta el agua del mar y de los ríos, y sube al aire en forma de vapor invisible. Allí arriba, el vapor se enfría y forma nubes. Cuando las gotas de las nubes pesan demasiado, caen en forma de lluvia, y el viaje vuelve a empezar. Esto es el ciclo del agua.",
+   "passage": "El agua siempre está en movimiento por nuestro planeta. El Sol calienta el agua del mar y de los ríos. El agua sube al aire en forma de vapor invisible. Allí arriba, el vapor se enfría y forma nubes. Cuando las gotas de las nubes pesan demasiado, caen en forma de lluvia. Y el viaje vuelve a empezar. Esto es el ciclo del agua.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -1967,16 +1967,16 @@
    "type": "multiple_choice",
    "prompt": "¿Por qué se llama ciclo?",
    "options": [
-    "Es muy rápido",
-    "Tiene ruedas",
-    "Solo pasa una vez",
+    "Va muy rápido por el cielo",
+    "Solo pasa una vez al año",
+    "Empieza y termina en el mar",
     "Se repite una y otra vez"
    ],
    "correct": 3,
    "explanation": "«el viaje vuelve a empezar»",
-   "passage": "El agua siempre está en movimiento por nuestro planeta. El Sol calienta el agua del mar y de los ríos, y sube al aire en forma de vapor invisible. Allí arriba, el vapor se enfría y forma nubes. Cuando las gotas de las nubes pesan demasiado, caen en forma de lluvia, y el viaje vuelve a empezar. Esto es el ciclo del agua.",
+   "passage": "El agua siempre está en movimiento por nuestro planeta. El Sol calienta el agua del mar y de los ríos. El agua sube al aire en forma de vapor invisible. Allí arriba, el vapor se enfría y forma nubes. Cuando las gotas de las nubes pesan demasiado, caen en forma de lluvia. Y el viaje vuelve a empezar. Esto es el ciclo del agua.",
    "skill": "comp_inference",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_comprension_lectora_l3_m029",
@@ -1985,16 +1985,16 @@
    "type": "multiple_choice",
    "prompt": "¿Dónde hace de voluntario Dev?",
    "options": [
-    "En un zoo",
-    "En una granja",
+    "En una tienda de animales",
+    "En un zoo de su ciudad",
     "En un refugio de animales",
-    "En un veterinario"
+    "En una granja de vacas"
    ],
    "correct": 2,
    "explanation": "«en un refugio de animales»",
    "passage": "Todos los sábados, Dev hace de voluntario en un refugio de animales. Pasea a los perros, limpia las jaulas y pone agua fresca a los gatos. Su favorito es un perro viejo que se llama Galleta y que es muy bueno. Dev espera que algún día Galleta encuentre una familia que lo quiera.",
    "skill": "comp_literal",
-   "step": 2
+   "step": 3
   },
   {
    "id": "es_comprension_lectora_l3_m030",
@@ -2213,9 +2213,9 @@
    "type": "multiple_choice",
    "prompt": "¿Qué hay en lo alto de un faro?",
    "options": [
-    "Un satélite",
-    "Una bandera",
-    "Una campana",
+    "Una bandera de colores",
+    "Una antena de satélite",
+    "Una campana muy grande",
     "Una luz muy potente"
    ],
    "correct": 3,
@@ -2232,9 +2232,9 @@
    "prompt": "¿Por qué cada faro tiene una secuencia propia?",
    "options": [
     "Para que los marineros sepan cuál es",
-    "Para ser bonito",
-    "Para ahorrar luz",
-    "Para espantar pájaros"
+    "Para gastar menos luz por la noche",
+    "Para que los pájaros no se acerquen",
+    "Para que el faro se vea más bonito"
    ],
    "correct": 0,
    "explanation": "«así los marineros saben cuál están viendo»",
@@ -2268,9 +2268,9 @@
    "prompt": "¿Qué significa «como reserva» en el texto?",
    "options": [
     "Por si falla el sistema principal",
-    "Un atasco de tráfico",
-    "Ir hacia atrás",
-    "Un barco de repuesto"
+    "Para guardar los barcos de noche",
+    "Porque son más modernos que los satélites",
+    "Para adornar la costa"
    ],
    "correct": 0,
    "explanation": "Los faros ayudan si el satélite no funciona.",
@@ -2294,7 +2294,7 @@
    "explanation": "Estaba delante del público.",
    "passage": "María había ensayado la pieza de piano durante semanas, pero cuando se sentó delante del público, las manos le empezaron a temblar. Respiró hondo y miró a su profesora, que le hizo un gesto de ánimo con el pulgar. María empezó despacio. Se equivocó una vez en la parte del medio, pero siguió. Cuando terminó, el público aplaudió con fuerza y María entendió que ser valiente era más importante que ser perfecta.",
    "skill": "comp_inference",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_comprension_lectora_l4_m006",
@@ -2303,10 +2303,10 @@
    "type": "multiple_choice",
    "prompt": "¿Qué la ayudó a empezar?",
    "options": [
-    "Una llamada",
-    "Los gritos del público",
+    "Una llamada de su familia",
+    "Los aplausos del público al entrar",
     "El gesto de ánimo de la profesora",
-    "Un vaso de agua"
+    "Un vaso de agua que le dieron"
    ],
    "correct": 2,
    "explanation": "«le hizo un gesto de ánimo con el pulgar»",
@@ -2339,9 +2339,9 @@
    "type": "multiple_choice",
    "prompt": "¿Qué aprendió María?",
    "options": [
-    "El público es cruel",
-    "Debe dejar el piano",
-    "Los errores lo estropean todo",
+    "Hay que ensayar menos para no ponerse nerviosa",
+    "El público solo aplaude a quien no falla",
+    "Si te equivocas, es mejor dejar de tocar",
     "Ser valiente es más importante que ser perfecta"
    ],
    "correct": 3,
@@ -2375,10 +2375,10 @@
    "type": "multiple_choice",
    "prompt": "¿Por qué se desbordó el río?",
    "options": [
-    "Por la nieve",
-    "Por un terremoto",
+    "Por un terremoto en la ciudad",
+    "Por la nieve de las montañas",
     "Por unas lluvias muy fuertes",
-    "Por un barco"
+    "Por un barco que lo bloqueó"
    ],
    "correct": 2,
    "explanation": "«tras unas lluvias muy fuertes»",
@@ -2393,16 +2393,16 @@
    "type": "multiple_choice",
    "prompt": "¿Qué hicieron para evitarlo?",
    "options": [
-    "Construir un puente",
-    "Secar el mar",
+    "Cerrar el centro de la ciudad",
+    "Construir un puente muy alto",
     "Desviar el río hacia el sur",
-    "Cerrar la ciudad"
+    "Secar el río con bombas"
    ],
    "correct": 2,
    "explanation": "«se desvió el río hacia el sur»",
    "passage": "La gran riada de Valencia ocurrió en 1957, cuando el río Turia se desbordó tras unas lluvias muy fuertes. El agua llegó a muchas calles del centro y causó muchos daños. Para evitar que volviera a pasar, se desvió el río hacia el sur de la ciudad. El antiguo cauce se convirtió en el Jardín del Turia, un parque larguísimo donde hoy la gente pasea, corre y juega.",
    "skill": "comp_literal",
-   "step": 2
+   "step": 3
   },
   {
    "id": "es_comprension_lectora_l4_m012",
@@ -2436,7 +2436,7 @@
    ],
    "correct": 1,
    "explanation": "«Los camaleones son reptiles»",
-   "passage": "Los camaleones son reptiles famosos porque cambian de color. Mucha gente piensa que lo hacen para esconderse, pero los científicos han descubierto que es sobre todo para mostrar su estado de ánimo o para controlar su temperatura. Un camaleón tranquilo puede ser verde o marrón, mientras que uno emocionado o enfadado puede volverse amarillo o rojo intenso. Además, ¡pueden mover cada ojo por separado y mirar en dos direcciones a la vez!",
+   "passage": "Los camaleones son reptiles famosos porque cambian de color. Mucha gente piensa que lo hacen para esconderse. Pero los científicos han descubierto que es sobre todo para mostrar su estado de ánimo o para controlar su temperatura. Un camaleón tranquilo puede ser verde o marrón, mientras que uno emocionado o enfadado puede volverse amarillo o rojo intenso. Además, ¡pueden mover cada ojo por separado y mirar en dos direcciones a la vez!",
    "skill": "comp_literal",
    "step": 1
   },
@@ -2447,14 +2447,14 @@
    "type": "multiple_choice",
    "prompt": "Según los científicos, ¿por qué cambian de color sobre todo?",
    "options": [
-    "Para encontrar comida",
+    "Para encontrar comida y ver mejor por la noche",
     "Para mostrar su estado de ánimo o controlar la temperatura",
-    "Para dormir",
-    "Solo para esconderse"
+    "Para dormir más tranquilos entre las hojas verdes",
+    "Sobre todo para esconderse de los animales que los cazan"
    ],
    "correct": 1,
    "explanation": "«para mostrar su estado de ánimo o para controlar su temperatura»",
-   "passage": "Los camaleones son reptiles famosos porque cambian de color. Mucha gente piensa que lo hacen para esconderse, pero los científicos han descubierto que es sobre todo para mostrar su estado de ánimo o para controlar su temperatura. Un camaleón tranquilo puede ser verde o marrón, mientras que uno emocionado o enfadado puede volverse amarillo o rojo intenso. Además, ¡pueden mover cada ojo por separado y mirar en dos direcciones a la vez!",
+   "passage": "Los camaleones son reptiles famosos porque cambian de color. Mucha gente piensa que lo hacen para esconderse. Pero los científicos han descubierto que es sobre todo para mostrar su estado de ánimo o para controlar su temperatura. Un camaleón tranquilo puede ser verde o marrón, mientras que uno emocionado o enfadado puede volverse amarillo o rojo intenso. Además, ¡pueden mover cada ojo por separado y mirar en dos direcciones a la vez!",
    "skill": "comp_inference",
    "step": 3
   },
@@ -2472,7 +2472,7 @@
    ],
    "correct": 1,
    "explanation": "«amarillo o rojo intenso»",
-   "passage": "Los camaleones son reptiles famosos porque cambian de color. Mucha gente piensa que lo hacen para esconderse, pero los científicos han descubierto que es sobre todo para mostrar su estado de ánimo o para controlar su temperatura. Un camaleón tranquilo puede ser verde o marrón, mientras que uno emocionado o enfadado puede volverse amarillo o rojo intenso. Además, ¡pueden mover cada ojo por separado y mirar en dos direcciones a la vez!",
+   "passage": "Los camaleones son reptiles famosos porque cambian de color. Mucha gente piensa que lo hacen para esconderse. Pero los científicos han descubierto que es sobre todo para mostrar su estado de ánimo o para controlar su temperatura. Un camaleón tranquilo puede ser verde o marrón, mientras que uno emocionado o enfadado puede volverse amarillo o rojo intenso. Además, ¡pueden mover cada ojo por separado y mirar en dos direcciones a la vez!",
    "skill": "comp_literal",
    "step": 1
   },
@@ -2483,14 +2483,14 @@
    "type": "multiple_choice",
    "prompt": "¿Qué tienen de especial sus ojos?",
    "options": [
-    "Son azules",
-    "Brillan de noche",
-    "Nunca se cierran",
+    "Cambian de color con el sol",
+    "Brillan mucho por la noche",
+    "Nunca se cierran del todo",
     "Se pueden mover por separado"
    ],
    "correct": 3,
    "explanation": "«pueden mover cada ojo por separado»",
-   "passage": "Los camaleones son reptiles famosos porque cambian de color. Mucha gente piensa que lo hacen para esconderse, pero los científicos han descubierto que es sobre todo para mostrar su estado de ánimo o para controlar su temperatura. Un camaleón tranquilo puede ser verde o marrón, mientras que uno emocionado o enfadado puede volverse amarillo o rojo intenso. Además, ¡pueden mover cada ojo por separado y mirar en dos direcciones a la vez!",
+   "passage": "Los camaleones son reptiles famosos porque cambian de color. Mucha gente piensa que lo hacen para esconderse. Pero los científicos han descubierto que es sobre todo para mostrar su estado de ánimo o para controlar su temperatura. Un camaleón tranquilo puede ser verde o marrón, mientras que uno emocionado o enfadado puede volverse amarillo o rojo intenso. Además, ¡pueden mover cada ojo por separado y mirar en dos direcciones a la vez!",
    "skill": "comp_literal",
    "step": 2
   },
@@ -2501,10 +2501,10 @@
    "type": "multiple_choice",
    "prompt": "¿Por qué estaba enfadada Nur?",
    "options": [
-    "Estaba enferma",
-    "Tenía hambre",
+    "No le gustaba su habitación",
+    "Elsa no quería escribirle",
     "No quería dejar a su amiga",
-    "Había perdido algo"
+    "Había perdido su cuaderno"
    ],
    "correct": 2,
    "explanation": "No quería dejar a Elsa.",
@@ -2556,9 +2556,9 @@
    "prompt": "¿Por qué la distancia ya no parecía tan grande?",
    "options": [
     "Tenían una forma de seguir en contacto",
-    "Elsa también se iba",
-    "La ciudad estaba cerca",
-    "Nur no se iba"
+    "Al final Nur ya no se mudaba",
+    "Elsa también se iba a vivir allí",
+    "La nueva ciudad estaba muy cerca"
    ],
    "correct": 0,
    "explanation": "Las cartas las mantendrían unidas.",
@@ -2610,9 +2610,9 @@
    "prompt": "¿Por qué necesitan un equipo especial?",
    "options": [
     "Hay poco oxígeno y hace mucho frío",
-    "Hay animales salvajes",
-    "Llueve cada día",
-    "No hay caminos"
+    "No hay caminos para subir",
+    "Llueve cada día sin parar",
+    "Hay animales salvajes en la cima"
    ],
    "correct": 0,
    "explanation": "«muy poco oxígeno y hace un frío extremo»",
@@ -2627,10 +2627,10 @@
    "type": "multiple_choice",
    "prompt": "¿Quiénes son los sherpas?",
    "options": [
-    "Pilotos",
+    "Animales que viven en las montañas",
     "Gente de la zona que hace de guía",
-    "Animales de montaña",
-    "Científicos"
+    "Científicos que estudian la nieve",
+    "Pilotos que llevan a los alpinistas"
    ],
    "correct": 1,
    "explanation": "«viven en la zona y conocen muy bien las montañas»",
@@ -2664,9 +2664,9 @@
    "prompt": "¿Qué hizo su padre?",
    "options": [
     "Encendió velas y sacó un juego",
-    "Arregló la luz",
-    "Llamó a un vecino",
-    "Se fue a dormir"
+    "Se fue a dormir muy temprano",
+    "Llamó a un vecino para pedir ayuda",
+    "Arregló la luz de toda la calle"
    ],
    "correct": 0,
    "explanation": "«encendió unas velas y sacó un juego de mesa»",
@@ -2946,13 +2946,13 @@
    "prompt": "¿Qué encontró Fleming al volver?",
    "options": [
     "Un hongo en una placa con bacterias",
-    "Una carta",
-    "Un microscopio roto",
-    "Un animal nuevo"
+    "Bacterias nuevas en una botella",
+    "Una carta de un científico famoso",
+    "Un microscopio roto en la mesa"
    ],
    "correct": 0,
    "explanation": "«Había crecido un hongo en una de sus placas con bacterias»",
-   "passage": "En 1928, el científico Alexander Fleming volvió de vacaciones y encontró algo extraño en su laboratorio. Había crecido un hongo en una de sus placas con bacterias, y alrededor del hongo las bacterias habían muerto. En lugar de tirar la placa, Fleming la investigó. Había descubierto la penicilina, el primer antibiótico. Desde entonces, los antibióticos han salvado millones de vidas, aunque los médicos advierten que hay que usarlos con cuidado para que las bacterias no se vuelvan resistentes.",
+   "passage": "En 1928, el científico Alexander Fleming volvió de vacaciones y encontró algo extraño en su laboratorio. Había crecido un hongo en una de sus placas con bacterias, y alrededor del hongo las bacterias habían muerto. En lugar de tirar la placa, Fleming la investigó. Había descubierto la penicilina, el primer antibiótico. Desde entonces, los antibióticos han salvado millones de vidas. Aun así, los médicos advierten que hay que usarlos con cuidado para que las bacterias no se vuelvan resistentes.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -2963,14 +2963,14 @@
    "type": "multiple_choice",
    "prompt": "¿Qué tenía de especial el hongo?",
    "options": [
-    "Crecía muy deprisa",
-    "Olía bien",
-    "Brillaba",
+    "Olía muy bien y tenía muchos colores",
+    "Brillaba en la oscuridad del laboratorio",
+    "Había crecido muy deprisa en una noche",
     "Las bacterias de alrededor habían muerto"
    ],
    "correct": 3,
    "explanation": "«alrededor del hongo las bacterias habían muerto»",
-   "passage": "En 1928, el científico Alexander Fleming volvió de vacaciones y encontró algo extraño en su laboratorio. Había crecido un hongo en una de sus placas con bacterias, y alrededor del hongo las bacterias habían muerto. En lugar de tirar la placa, Fleming la investigó. Había descubierto la penicilina, el primer antibiótico. Desde entonces, los antibióticos han salvado millones de vidas, aunque los médicos advierten que hay que usarlos con cuidado para que las bacterias no se vuelvan resistentes.",
+   "passage": "En 1928, el científico Alexander Fleming volvió de vacaciones y encontró algo extraño en su laboratorio. Había crecido un hongo en una de sus placas con bacterias, y alrededor del hongo las bacterias habían muerto. En lugar de tirar la placa, Fleming la investigó. Había descubierto la penicilina, el primer antibiótico. Desde entonces, los antibióticos han salvado millones de vidas. Aun así, los médicos advierten que hay que usarlos con cuidado para que las bacterias no se vuelvan resistentes.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -2981,14 +2981,14 @@
    "type": "multiple_choice",
    "prompt": "¿Por qué fue una suerte que no tirara la placa?",
    "options": [
-    "Estaba limpia",
+    "Era su placa favorita",
     "Descubrió la penicilina",
-    "Podía venderla",
-    "Era su favorita"
+    "Así la placa siguió limpia",
+    "Podía venderla muy cara"
    ],
    "correct": 1,
    "explanation": "Investigarla le llevó a la penicilina.",
-   "passage": "En 1928, el científico Alexander Fleming volvió de vacaciones y encontró algo extraño en su laboratorio. Había crecido un hongo en una de sus placas con bacterias, y alrededor del hongo las bacterias habían muerto. En lugar de tirar la placa, Fleming la investigó. Había descubierto la penicilina, el primer antibiótico. Desde entonces, los antibióticos han salvado millones de vidas, aunque los médicos advierten que hay que usarlos con cuidado para que las bacterias no se vuelvan resistentes.",
+   "passage": "En 1928, el científico Alexander Fleming volvió de vacaciones y encontró algo extraño en su laboratorio. Había crecido un hongo en una de sus placas con bacterias, y alrededor del hongo las bacterias habían muerto. En lugar de tirar la placa, Fleming la investigó. Había descubierto la penicilina, el primer antibiótico. Desde entonces, los antibióticos han salvado millones de vidas. Aun así, los médicos advierten que hay que usarlos con cuidado para que las bacterias no se vuelvan resistentes.",
    "skill": "comp_inference",
    "step": 2
   },
@@ -3006,7 +3006,7 @@
    ],
    "correct": 3,
    "explanation": "«hay que usarlos con cuidado»",
-   "passage": "En 1928, el científico Alexander Fleming volvió de vacaciones y encontró algo extraño en su laboratorio. Había crecido un hongo en una de sus placas con bacterias, y alrededor del hongo las bacterias habían muerto. En lugar de tirar la placa, Fleming la investigó. Había descubierto la penicilina, el primer antibiótico. Desde entonces, los antibióticos han salvado millones de vidas, aunque los médicos advierten que hay que usarlos con cuidado para que las bacterias no se vuelvan resistentes.",
+   "passage": "En 1928, el científico Alexander Fleming volvió de vacaciones y encontró algo extraño en su laboratorio. Había crecido un hongo en una de sus placas con bacterias, y alrededor del hongo las bacterias habían muerto. En lugar de tirar la placa, Fleming la investigó. Había descubierto la penicilina, el primer antibiótico. Desde entonces, los antibióticos han salvado millones de vidas. Aun así, los médicos advierten que hay que usarlos con cuidado para que las bacterias no se vuelvan resistentes.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -3035,10 +3035,10 @@
    "type": "multiple_choice",
    "prompt": "¿Sobre qué pidió la maestra que escribieran?",
    "options": [
-    "Un experimento",
-    "Su comida favorita",
+    "Su comida favorita y cómo se hace",
+    "Un experimento que hicieron en clase",
     "Algo que les hubiera pasado de verdad",
-    "Dragones"
+    "Un cuento de dragones y aventuras"
    ],
    "correct": 2,
    "explanation": "«algo que les hubiera pasado de verdad»",
@@ -3090,9 +3090,9 @@
    "prompt": "¿Por qué se les llama «las selvas del mar»?",
    "options": [
     "Viven muchas criaturas distintas",
-    "Son verdes",
-    "Llueve mucho",
-    "Tienen árboles"
+    "Llueve mucho encima de ellos",
+    "Son verdes como las plantas",
+    "Tienen árboles debajo del agua"
    ],
    "correct": 0,
    "explanation": "«viven muchísimas criaturas distintas»",
@@ -3144,15 +3144,15 @@
    "prompt": "¿Qué causa el blanqueamiento?",
    "options": [
     "Que el mar se caliente demasiado",
-    "Los inviernos fríos",
-    "Demasiados peces",
-    "La luz de noche"
+    "La luz de la luna por la noche",
+    "Los inviernos demasiado fríos",
+    "Que haya demasiados peces"
    ],
    "correct": 0,
    "explanation": "«Cuando el mar se calienta demasiado, las algas se van»",
    "passage": "A los arrecifes de coral a veces se les llama las selvas del mar porque en ellos viven muchísimas criaturas distintas. Aunque parecen rocas de colores, los corales son animales. Tienen una alianza especial con unas algas diminutas que viven dentro de ellos y les dan alimento y color. Cuando el mar se calienta demasiado, las algas se van y el coral se vuelve blanco. Esto se llama blanqueamiento, y si el agua no se enfría, el coral puede morir.",
    "skill": "comp_literal",
-   "step": 2
+   "step": 3
   },
   {
    "id": "es_comprension_lectora_l5_m013",
@@ -3179,9 +3179,9 @@
    "type": "multiple_choice",
    "prompt": "¿Cuántos años tenía el olivo?",
    "options": [
-    "Tres",
-    "Treinta",
-    "Cincuenta",
+    "Menos de cien",
+    "Unos treinta",
+    "Más de cincuenta",
     "Más de quinientos"
    ],
    "correct": 3,
@@ -3197,10 +3197,10 @@
    "type": "multiple_choice",
    "prompt": "¿Cómo ayudaron los niños?",
    "options": [
-    "Subiendo al árbol",
+    "Subiendo al árbol para que no lo cortaran",
     "Escribiendo cartas y recogiendo firmas",
-    "Haciendo una valla",
-    "Pagándolo"
+    "Haciendo una valla alrededor del olivo",
+    "Pagando el aparcamiento con sus ahorros"
    ],
    "correct": 1,
    "explanation": "«escribió cartas ... y recogió más de quinientas firmas»",
@@ -3224,7 +3224,7 @@
    "explanation": "La acción de los niños salvó el árbol.",
    "passage": "El pueblo llevaba meses discutiendo sobre el olivo viejo de la plaza. Unos querían arrancarlo para hacer un aparcamiento; otros decían que tenía más de quinientos años y que era de todos. Al final, un grupo de niños y niñas escribió cartas al ayuntamiento y recogió más de quinientas firmas. El ayuntamiento decidió hacer el aparcamiento en otro lugar y el olivo se salvó. Ahora, bajo sus ramas, hay un cartel que dice: «Protegido por los jóvenes de este pueblo».",
    "skill": "comp_literal",
-   "step": 3
+   "step": 2
   },
   {
    "id": "es_comprension_lectora_l5_m017",
@@ -3240,7 +3240,7 @@
    ],
    "correct": 3,
    "explanation": "«Mucha gente piensa que son ciegos»",
-   "passage": "A menudo la gente no conoce bien a los murciélagos. Mucha gente piensa que son ciegos, pero la mayoría ven bastante bien. Aun así, muchas especies usan también la ecolocalización para orientarse a oscuras: emiten sonidos muy agudos y escuchan el eco que vuelve cuando choca con los objetos de alrededor. Así pueden cazar insectos pequeños en pleno vuelo. Un solo murciélago puede comer miles de mosquitos en una noche, lo que los convierte en unos vecinos muy útiles.",
+   "passage": "A menudo la gente no conoce bien a los murciélagos. Mucha gente piensa que son ciegos, pero la mayoría ven bastante bien. Aun así, muchas especies usan también la ecolocalización para orientarse a oscuras. Emiten sonidos muy agudos y escuchan el eco que vuelve cuando choca con los objetos de alrededor. Así pueden cazar insectos pequeños en pleno vuelo. Un solo murciélago puede comer miles de mosquitos en una noche, lo que los convierte en unos vecinos muy útiles.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -3251,14 +3251,14 @@
    "type": "multiple_choice",
    "prompt": "¿Qué es la ecolocalización?",
    "options": [
-    "Ver en color",
+    "Ver los colores muy bien en la oscuridad",
     "Usar el eco de los sonidos para encontrar cosas",
-    "Volar muy alto",
-    "Oler la comida"
+    "Oler la comida desde muy lejos",
+    "Volar muy alto para buscar insectos"
    ],
    "correct": 1,
    "explanation": "«emiten sonidos muy agudos y escuchan el eco»",
-   "passage": "A menudo la gente no conoce bien a los murciélagos. Mucha gente piensa que son ciegos, pero la mayoría ven bastante bien. Aun así, muchas especies usan también la ecolocalización para orientarse a oscuras: emiten sonidos muy agudos y escuchan el eco que vuelve cuando choca con los objetos de alrededor. Así pueden cazar insectos pequeños en pleno vuelo. Un solo murciélago puede comer miles de mosquitos en una noche, lo que los convierte en unos vecinos muy útiles.",
+   "passage": "A menudo la gente no conoce bien a los murciélagos. Mucha gente piensa que son ciegos, pero la mayoría ven bastante bien. Aun así, muchas especies usan también la ecolocalización para orientarse a oscuras. Emiten sonidos muy agudos y escuchan el eco que vuelve cuando choca con los objetos de alrededor. Así pueden cazar insectos pequeños en pleno vuelo. Un solo murciélago puede comer miles de mosquitos en una noche, lo que los convierte en unos vecinos muy útiles.",
    "skill": "comp_literal",
    "step": 3
   },
@@ -3276,7 +3276,7 @@
    ],
    "correct": 3,
    "explanation": "«cazar insectos pequeños en pleno vuelo»",
-   "passage": "A menudo la gente no conoce bien a los murciélagos. Mucha gente piensa que son ciegos, pero la mayoría ven bastante bien. Aun así, muchas especies usan también la ecolocalización para orientarse a oscuras: emiten sonidos muy agudos y escuchan el eco que vuelve cuando choca con los objetos de alrededor. Así pueden cazar insectos pequeños en pleno vuelo. Un solo murciélago puede comer miles de mosquitos en una noche, lo que los convierte en unos vecinos muy útiles.",
+   "passage": "A menudo la gente no conoce bien a los murciélagos. Mucha gente piensa que son ciegos, pero la mayoría ven bastante bien. Aun así, muchas especies usan también la ecolocalización para orientarse a oscuras. Emiten sonidos muy agudos y escuchan el eco que vuelve cuando choca con los objetos de alrededor. Así pueden cazar insectos pequeños en pleno vuelo. Un solo murciélago puede comer miles de mosquitos en una noche, lo que los convierte en unos vecinos muy útiles.",
    "skill": "comp_literal",
    "step": 1
   },
@@ -3294,7 +3294,7 @@
    ],
    "correct": 3,
    "explanation": "«puede comer miles de mosquitos en una noche»",
-   "passage": "A menudo la gente no conoce bien a los murciélagos. Mucha gente piensa que son ciegos, pero la mayoría ven bastante bien. Aun así, muchas especies usan también la ecolocalización para orientarse a oscuras: emiten sonidos muy agudos y escuchan el eco que vuelve cuando choca con los objetos de alrededor. Así pueden cazar insectos pequeños en pleno vuelo. Un solo murciélago puede comer miles de mosquitos en una noche, lo que los convierte en unos vecinos muy útiles.",
+   "passage": "A menudo la gente no conoce bien a los murciélagos. Mucha gente piensa que son ciegos, pero la mayoría ven bastante bien. Aun así, muchas especies usan también la ecolocalización para orientarse a oscuras. Emiten sonidos muy agudos y escuchan el eco que vuelve cuando choca con los objetos de alrededor. Así pueden cazar insectos pequeños en pleno vuelo. Un solo murciélago puede comer miles de mosquitos en una noche, lo que los convierte en unos vecinos muy útiles.",
    "skill": "comp_inference",
    "step": 2
   },
@@ -3305,10 +3305,10 @@
    "type": "multiple_choice",
    "prompt": "¿Por qué se sentía invisible Samir al principio?",
    "options": [
-    "Era muy pequeño",
-    "Nadie lo veía",
+    "Era el más pequeño de la clase y nadie lo veía",
+    "Siempre llegaba tarde y se sentaba al fondo",
     "Hablaba poco castellano y el patio era ruidoso",
-    "Siempre llegaba tarde"
+    "No le dejaban salir al patio a jugar"
    ],
    "correct": 2,
    "explanation": "«hablaba muy poco castellano, y el ruido del patio le hacía sentirse invisible»",
@@ -3377,9 +3377,9 @@
    "type": "multiple_choice",
    "prompt": "¿Qué es el magma?",
    "options": [
-    "Humo del volcán",
-    "Roca fría",
-    "Un tipo de nube",
+    "Un tipo de nube muy oscura",
+    "Roca fría de la superficie",
+    "Humo que sale del volcán",
     "Roca fundida bajo tierra"
    ],
    "correct": 3,
@@ -3485,10 +3485,10 @@
    "type": "multiple_choice",
    "prompt": "¿Qué distancia puede volar en toda su vida?",
    "options": [
-    "Un país",
-    "Diez kilómetros",
+    "Como cruzar un país de punta a punta",
+    "Como un viaje de ida a la Antártida",
     "Como tres viajes de ida y vuelta a la Luna",
-    "Una vuelta a un lago"
+    "Como diez vueltas a un lago grande"
    ],
    "correct": 2,
    "explanation": "«tres viajes de ida y vuelta a la Luna»",

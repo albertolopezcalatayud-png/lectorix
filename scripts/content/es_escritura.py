@@ -2,8 +2,8 @@
 M = 'escritura'
 
 MC = {
-1: [("¿Qué frase empieza bien?", "El gato es negro.", ["el gato es negro.", "eL gato es negro.", "el Gato es negro."], "Las frases empiezan con mayúscula."),
-    ("¿Qué nombre está bien escrito?", "Pablo", ["pablo", "pAblo", "pablO"], "Los nombres de persona empiezan con mayúscula."),
+1: [("¿Qué frase está bien escrita?", "El gato es negro.", ["el gato es negro.", "El gato es negro", "El Gato es negro."], "Las frases empiezan con mayúscula y terminan con punto. «gato» va en minúscula."),
+    ("¿Qué nombre está bien escrito?", "Pablo", ["pablo", "Plabo", "Palbo"], "Los nombres de persona empiezan con mayúscula: P-a-b-l-o."),
     ("¿Qué ponemos al final de una frase que cuenta algo?", "Un punto (.)", ["Un signo de interrogación (?)", "Una coma (,)", "Nada"], "Las frases que cuentan algo terminan en punto."),
     ("¿Qué pregunta está bien escrita?", "¿Cómo te llamas?", ["Cómo te llamas?", "¿Cómo te llamas", "Cómo te llamas."], "En castellano, la pregunta lleva un signo al principio (¿) y otro al final (?)."),
     ("¿Qué exclamación está bien escrita?", "¡Qué bonito!", ["Qué bonito!", "¡Qué bonito", "¿Qué bonito!"], "La exclamación lleva ¡ al principio y ! al final."),
@@ -20,7 +20,7 @@ MC = {
     ("¿Qué palabra va con «las»?", "casas", ["casa", "caso", "casos"], "las + plural femenino: las casas."),
     ("¿Qué frase es una pregunta?", "¿Dónde está mi mochila?", ["Mi mochila está aquí.", "Tengo una mochila.", "La mochila es roja."], "Pregunta algo y lleva ¿?"),
     ("Elige la palabra: «El gato está ___ la silla.»", "encima de", ["dentro de", "entre", "hasta"], "El gato está encima de la silla."),
-    ("¿Qué nombre de ciudad está bien escrito?", "Valencia", ["valencia", "vAlencia", "valenciA"], "Los nombres de ciudades empiezan con mayúscula."),
+    ("¿Qué nombre de ciudad está bien escrito?", "Valencia", ["valencia", "Balencia", "Valensia"], "Los nombres de ciudades empiezan con mayúscula. Valencia se escribe con v y con c."),
     ("Elige la palabra: «Mi hermana ___ alta.»", "es", ["son", "soy", "eres"], "Mi hermana es."),
     ("Elige la palabra: «Nosotros ___ al parque.»", "vamos", ["va", "voy", "van"], "Nosotros vamos."),
     ("¿Cuál es el femenino de «niño»?", "niña", ["niñe", "niños", "niñas"], "niño → niña."),

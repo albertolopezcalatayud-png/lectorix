@@ -5,15 +5,15 @@
    "module": "escritura",
    "level": 1,
    "type": "multiple_choice",
-   "prompt": "Quina frase comença bé?",
+   "prompt": "Quina frase està ben escrita?",
    "options": [
     "el gat és negre.",
-    "eL gat és negre.",
+    "El gat és negre",
     "El gat és negre.",
-    "el Gat és negre."
+    "El Gat és negre."
    ],
    "correct": 2,
-   "explanation": "Les frases comencen amb majúscula.",
+   "explanation": "Les frases comencen amb majúscula i acaben amb punt. «gat» va en minúscula.",
    "skill": "esc_punct",
    "step": 3
   },
@@ -24,13 +24,13 @@
    "type": "multiple_choice",
    "prompt": "Quin nom està ben escrit?",
    "options": [
-    "pAu",
+    "Pua",
     "Pau",
-    "paU",
+    "Apu",
     "pau"
    ],
    "correct": 1,
-   "explanation": "Els noms de persona comencen amb majúscula.",
+   "explanation": "Els noms de persona comencen amb majúscula: P-a-u.",
    "skill": "esc_punct",
    "step": 2
   },
