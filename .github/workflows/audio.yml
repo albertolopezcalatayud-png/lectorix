@@ -1,0 +1,65 @@
+name: Natural voices (Azure)
+
+# Generates the audio of the fixed texts with Azure neural voices and keeps it in the "audio" branch.
+# Needs the secret AZURE_SPEECH_KEY (free tier F0, region westeurope). Without it, it does nothing.
+on:
+  workflow_dispatch:
+    inputs:
+      samples:
+        description: 'Only voice samples (1) or full generation (0)'
+        default: '0'
+  schedule:
+    - cron: '23 */6 * * *'   # continues where it left off until everything is generated
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: audio
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+      AZURE_SPEECH_REGION: ${{ vars.AZURE_SPEECH_REGION || 'westeurope' }}
+    steps:
+      - name: Key present?
+        id: key
+        run: if [ -n "$AZURE_SPEECH_KEY" ]; then echo "ok=1" >> $GITHUB_OUTPUT; else echo "No AZURE_SPEECH_KEY secret yet: nothing to do"; fi
+      - uses: actions/checkout@v4
+        if: steps.key.outputs.ok
+      - name: Audio branch
+        if: steps.key.outputs.ok
+        run: |
+          git fetch origin audio:audio 2>/dev/null && git worktree add audio-out audio || { git worktree add --detach audio-out && cd audio-out && git checkout --orphan audio && git rm -rf . -q || true; }
+      - uses: actions/setup-node@v4
+        if: steps.key.outputs.ok
+        with: { node-version: 20 }
+      - name: Texts
+        if: steps.key.outputs.ok
+        run: |
+          npm i --no-save --no-audit --no-fund microsoft-cognitiveservices-speech-sdk@1 tsx@4
+          npx tsx --tsconfig tsconfig.app.json scripts/audio/collect.ts > /tmp/texts.json
+      - name: Generate
+        if: steps.key.outputs.ok
+        env:
+          SAMPLES: ${{ github.event.inputs.samples == '1' && '1' || '0' }}
+        run: node scripts/audio/generate.mjs /tmp/texts.json audio-out
+      - name: Save
+        if: steps.key.outputs.ok
+        run: |
+          cd audio-out
+          git config user.name "lectorix-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && { echo "nothing new"; exit 0; }
+          git commit -q -m "Audio: $(git diff --cached --name-only | grep -c '\.mp3$') clips"
+          git push -q origin HEAD:audio
+          echo "changed=1" >> $GITHUB_ENV
+      - name: Publish the web with the new audio
+        if: env.changed == '1'
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: gh workflow run deploy.yml --ref main

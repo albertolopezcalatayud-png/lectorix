@@ -7,6 +7,7 @@
 
 import { isNative, nativeHas, nativeSpeak, nativeSpeakTracked, nativeStop, nativeCheck } from './nativeTts';
 import { bestVoice } from './voices';
+import { playClip, stopClip, preloadClips } from './clips';
 
 const STORAGE_KEY = 'lectorix-tts-enabled';
 const RATE_KEY = 'lectorix-tts-rate';
@@ -63,6 +64,7 @@ export function isTTSAvailable(): boolean {
 
 /** Stop any currently playing speech */
 export function stopSpeaking() {
+  stopClip();
   if (isNative) {
     void nativeStop();
     return;
@@ -80,6 +82,7 @@ let speechLang: SpeechLang = 'es';
 
 export function setSpeechLang(lang: SpeechLang) {
   speechLang = lang;
+  preloadClips(lang);
 }
 
 export function getSpeechLang(): SpeechLang {
@@ -138,7 +141,7 @@ export function hasVoiceFor(lang: SpeechLang): boolean {
  * Speak text aloud in the current practice language.
  * Returns a promise that resolves when speaking finishes.
  */
-export function speak(text: string, options?: { rate?: number; pitch?: number }): Promise<void> {
+function deviceSpeak(text: string, options?: { rate?: number; pitch?: number }): Promise<void> {
   return new Promise((resolve) => {
     if (!isTTSAvailable() || !isTTSEnabled()) {
       resolve();
@@ -198,7 +201,7 @@ export interface TrackedResult {
  * Not every engine fires word boundaries (e.g. Chrome's online Google voices),
  * so callers must be ready to estimate timing when `boundaries` stays false.
  */
-export function speakTracked(
+function deviceSpeakTracked(
   text: string,
   options: { rate?: number; onStart?: () => void; onWord?: (charIndex: number) => void } = {},
 ): Promise<TrackedResult> {
@@ -295,7 +298,7 @@ export async function spellWord(word: string, delayMs = 350): Promise<void> {
 }
 
 /** Speak in any language tag (used by the family panel). Resolves when finished. */
-export function speakIn(text: string, tag: string, rate = 0.9): Promise<void> {
+function deviceSpeakIn(text: string, tag: string, rate = 0.9): Promise<void> {
   if (missingVoice(tag)) return Promise.resolve();
   if (isNative) return nativeSpeak(text, tag, natural(rate), 1, nativeVoice(tag)).then(() => undefined);
   return new Promise((resolve) => {
@@ -310,6 +313,37 @@ export function speakIn(text: string, tag: string, rate = 0.9): Promise<void> {
     u.onerror = () => resolve();
     window.speechSynthesis.speak(u);
   });
+}
+
+// ── Natural-voice clips first, then the device's voice ─────
+// A clip generated in advance with a neural voice is used when it exists for exactly this text.
+
+export async function speak(text: string, options?: { rate?: number; pitch?: number }): Promise<void> {
+  if (!isTTSEnabled()) return;
+  stopSpeaking();
+  const r = await playClip(speechLang, text, options?.rate ?? getTTSRate());
+  if (r) return;
+  return deviceSpeak(text, options);
+}
+
+export async function speakTracked(
+  text: string,
+  options: { rate?: number; onStart?: () => void; onWord?: (charIndex: number) => void } = {},
+): Promise<TrackedResult> {
+  if (isTTSEnabled()) {
+    stopSpeaking();
+    const r = await playClip(speechLang, text, options.rate ?? getTTSRate(), { onStart: options.onStart, onWord: options.onWord });
+    if (r) return { ok: true, boundaries: true, interrupted: r.interrupted };
+  }
+  return deviceSpeakTracked(text, options);
+}
+
+/** Speak in any language tag (used by the family panel and pages with their own language). Resolves when finished. */
+export async function speakIn(text: string, tag: string, rate = 0.9): Promise<void> {
+  stopSpeaking();
+  const r = await playClip(tag.split('-')[0].toLowerCase(), text, rate);
+  if (r) return;
+  return deviceSpeakIn(text, tag, rate);
 }
 
 /** Whether a language tag can be spoken on this device (async, waits for voices) */

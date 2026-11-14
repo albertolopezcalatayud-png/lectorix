@@ -1174,6 +1174,10 @@ export const es = {
   flu_mic_nothing: 'No se ha oído ninguna palabra del texto. Acerca el dispositivo, lee en voz alta y vuelve a probar.',
   flu_too_fast: 'Es demasiado rápido para leer en voz alta. Repite la prueba leyendo de verdad, mejor con un adulto al lado.',
   flu_try_again: 'Repetir con otro texto',
+
+  // Natural voices
+  nv_title: 'Voces naturales de Lectorix',
+  nv_desc: 'Las lecturas, los dictados y los ejercicios se oyen con voces naturales preparadas para la app, en vez de con la voz del dispositivo. Se descargan cuando hacen falta y luego funcionan sin internet. Lo que escribe el alumno o los textos nuevos se leen con la voz del dispositivo.',
 } as const;
 
 export type TranslationKey = keyof typeof es;

@@ -4,6 +4,7 @@ import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import tts from '@/services/tts';
 import { isNative, nativeRecheck, nativeOpenInstall } from '@/services/nativeTts';
+import { naturalVoiceEnabled, setNaturalVoiceEnabled } from '@/services/clips';
 import { voicesFor, bestVoice, getPreferredVoice, setPreferredVoice, loadNativeVoices, voiceLabel, type VoiceInfo } from '@/services/voices';
 import { useI18n } from '@/i18n';
 
@@ -54,6 +55,25 @@ function VoicePicker({ tag, title, sample, refresh }: { tag: string; title: stri
         ))}
       </ul>
       {getPreferredVoice(tag) && <button onClick={() => use(null)} className="mt-2 text-xs font-bold text-accent">↺ {t('voice_auto')}</button>}
+    </Card>
+  );
+}
+
+/** Natural voices recorded for Lectorix (neural voices generated in advance for readings, dictations and exercises) */
+function NaturalVoiceCard() {
+  const { t } = useI18n();
+  const [on, setOn] = useState(naturalVoiceEnabled());
+  return (
+    <Card className="flex items-start gap-3">
+      <span className="text-2xl" aria-hidden>🎙️</span>
+      <div className="flex-1">
+        <h3 className="font-heading font-extrabold text-sm">{t('nv_title')}</h3>
+        <p className="text-xs text-fg-muted">{t('nv_desc')}</p>
+      </div>
+      <button role="switch" aria-checked={on} aria-label={t('nv_title')} onClick={() => { setNaturalVoiceEnabled(!on); setOn(!on); }}
+        className={`shrink-0 w-12 h-7 rounded-full relative transition-colors ${on ? 'bg-accent' : 'bg-border'}`}>
+        <span className={`absolute top-1 w-5 h-5 rounded-full bg-white transition-all ${on ? 'left-6' : 'left-1'}`} />
+      </button>
     </Card>
   );
 }
@@ -127,6 +147,7 @@ export default function Voices() {
           </Card>
         )}
 
+        <NaturalVoiceCard />
         {LANGS.filter((l) => state[l.id]).map((l) => <VoicePicker key={l.id} tag={l.tag} title={t(l.key)} sample={SAMPLES[l.id]} refresh={checking} />)}
 
         {state.ca === true && <p className="text-[11px] text-fg-muted">ℹ️ {t('voice_ca_note')}</p>}

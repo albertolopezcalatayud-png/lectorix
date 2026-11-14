@@ -1176,4 +1176,8 @@ export const en: Record<TranslationKey, string> = {
   flu_mic_nothing: 'No words from the text were heard. Move the device closer, read aloud and try again.',
   flu_too_fast: 'That is too fast for reading aloud. Do the test again reading for real, ideally with an adult next to you.',
   flu_try_again: 'Try again with another text',
+
+  // Natural voices
+  nv_title: 'Lectorix natural voices',
+  nv_desc: 'Readings, dictations and exercises are heard with natural voices prepared for the app instead of the device’s voice. They download when needed and then work offline. What the student writes and new texts are read with the device’s voice.',
 };

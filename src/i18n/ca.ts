@@ -1176,4 +1176,8 @@ export const ca: Record<TranslationKey, string> = {
   flu_mic_nothing: 'No s’ha sentit cap paraula del text. Acosta el dispositiu, llig en veu alta i torna a provar.',
   flu_too_fast: 'És massa ràpid per a llegir en veu alta. Repetix la prova llegint de veritat, millor amb un adult al costat.',
   flu_try_again: 'Repetir amb un altre text',
+
+  // Natural voices
+  nv_title: 'Veus naturals de Lectorix',
+  nv_desc: 'Les lectures, els dictats i els exercicis se senten amb veus naturals preparades per a l’app, en lloc de la veu del dispositiu. Es descarreguen quan cal i després funcionen sense internet. El que escriu l’alumne o els textos nous es lligen amb la veu del dispositiu.',
 };
