@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAppStore, useLevelCount, usePracticeLang } from '@/stores/useAppStore';
-import { calculateXPLevel } from '@/services/gamification';
+import { calculateXPLevel, stickerCount, stickerText } from '@/services/gamification';
 import {MODULES, MODULE_TEXT } from '@/data/modules';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
@@ -96,7 +96,7 @@ export default function ParentPanel() {
               </div>
               <div>
                 <h2 className="font-heading font-black text-lg">{user?.display_name || t('parent_student')}</h2>
-                <p className="text-xs text-fg-muted">{t('xp_page', { level })} · {t('pts_n', { n: totalXP })} · ✏️ {t('dash_streak', { days: user?.streak_days || 0 })}</p>
+                <p className="text-xs text-fg-muted">🌟 {stickerText(t, stickerCount(level))} · {t('pts_n', { n: totalXP })} · ✏️ {t('dash_streak', { days: user?.streak_days || 0 })}</p>
               </div>
             </div>
           </Card>

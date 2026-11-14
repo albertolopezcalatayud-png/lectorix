@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAppStore, usePracticeLang, useLevelCount } from '@/stores/useAppStore';
 import { useReviewStore, dueItems, notebookWords } from '@/services/review';
-import { calculateXPLevel, dailyDoneToday } from '@/services/gamification';
+import { calculateXPLevel, dailyDoneToday, stickerCount, stickerText } from '@/services/gamification';
 import {MODULES, MODULE_TEXT } from '@/data/modules';
 import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
@@ -79,11 +79,9 @@ export default function Dashboard() {
         {/* XP Card */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
           <Card>
-            <div className="flex items-center justify-between mb-2">
-              <span className="font-heading font-extrabold text-sm">{t('xp_page', { level: xpInfo.level })}</span>
-              <span className="text-xs text-fg-muted">{xpInfo.currentXP}/{t('pts_n', { n: xpInfo.nextLevelXP })}</span>
-            </div>
+            <p className="font-heading font-extrabold text-sm mb-2">🌟 {stickerText(t, stickerCount(xpInfo.level))}</p>
             <ProgressBar value={xpInfo.progress * 100} />
+            <p className="text-xs text-fg-muted mt-1.5">{t('stk_next', { n: xpInfo.nextLevelXP - xpInfo.currentXP })}</p>
             <div className="flex gap-3 mt-3">
               <div className="flex items-center gap-1.5 text-sm">
                 <span aria-hidden>✏️</span>

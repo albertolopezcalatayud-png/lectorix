@@ -128,3 +128,12 @@ export function dailyDoneToday(history: { mode?: string; completed_at: string }[
   const today = now.toDateString();
   return history.some((s) => s.mode === 'daily' && new Date(s.completed_at).toDateString() === today);
 }
+
+/**
+ * Stickers: every time the student fills the points bar they earn a sticker for their notebook
+ * (a "level" in game terms; testers found "Page 3" confusing, as if it were a page of a book).
+ */
+export const stickerCount = (level: number) => Math.max(0, level - 1);
+export function stickerText(t: (k: 'stk_one' | 'stk_n' | 'stk_none', p?: Record<string, number>) => string, n: number): string {
+  return n === 0 ? t('stk_none') : n === 1 ? t('stk_one') : t('stk_n', { n });
+}

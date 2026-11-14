@@ -1,5 +1,5 @@
 import type { UserProfile, StudentProgress } from '@/types';
-import { calculateXPLevel } from '@/services/gamification';
+import { calculateXPLevel, stickerCount, stickerText } from '@/services/gamification';
 import {MODULES, MODULE_TEXT, levelNameKey } from '@/data/modules';
 import { getTranslator } from '@/i18n';
 import type { TranslationKey } from '@/i18n';
@@ -230,7 +230,7 @@ export function generateParentReport({ user, progress, language, weekly, skills,
   <div class="student-info">
     <div>
       <div class="student-name">${escapeHtml(user?.display_name || t('pdf_student' as TranslationKey))}</div>
-      <div class="student-meta">${t('pdf_level_xp' as TranslationKey, { level, xp: totalXP, streak: user?.streak_days || 0 })}</div>
+      <div class="student-meta">${t('pdf_level_xp' as TranslationKey, { stickers: stickerText(t as never, stickerCount(level)), xp: totalXP, streak: user?.streak_days || 0 })}</div>
     </div>
   </div>
 

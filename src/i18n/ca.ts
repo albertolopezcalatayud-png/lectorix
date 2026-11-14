@@ -69,7 +69,7 @@ export const ca: Record<TranslationKey, string> = {
   prof_title: 'El meu perfil',
   prof_experience: 'Punts',
   prof_xp_total: '{xp} punts en total',
-  prof_xp_next: '{current} / {next} punts per a passar a la pàgina {level}',
+  prof_xp_next: '{current} / {next} punts per a la pròxima enganxina',
   prof_stats: 'Estadístiques',
   prof_stars: 'Estreles',
   prof_levels: 'Nivells',
@@ -272,7 +272,7 @@ export const ca: Record<TranslationKey, string> = {
   // PDF Report
   pdf_title: 'Informe Lectorix',
   pdf_student: 'Estudiant',
-  pdf_level_xp: 'Pàgina {level} · {xp} punts · {streak} dies seguits',
+  pdf_level_xp: '{stickers} · {xp} punts · {streak} dies seguits',
   pdf_avg_score: 'Puntuació mitjana',
   pdf_stars: 'Estreles',
   pdf_levels: 'Nivells',
@@ -1106,8 +1106,8 @@ export const ca: Record<TranslationKey, string> = {
   es_new: 'Tornar a les meues redaccions',
 
   // Header
-  hdr_level: 'Pàg. {n}',
-  hdr_level_aria: 'Pàgina {n}',
+  hdr_level: '🌟 {n}',
+  hdr_level_aria: '{n} enganxines',
   hdr_streak_aria: '{n} dies seguits',
 
   // Subject readings
@@ -1159,4 +1159,11 @@ export const ca: Record<TranslationKey, string> = {
   voice_recommended: 'Recomanada',
   voice_online: 'Necessita internet',
   voice_auto: 'Tornar a la recomanada',
+
+  // Stickers instead of pages
+  stk_one: '1 enganxina',
+  stk_n: '{n} enganxines',
+  stk_none: 'Encara sense enganxines',
+  stk_next: 'Falten {n} punts per a la pròxima enganxina',
+  stk_how: 'Cada vegada que reuneixes prou punts, guanyes una enganxina per a la teua llibreta.',
 };

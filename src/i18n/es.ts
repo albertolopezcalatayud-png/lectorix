@@ -67,7 +67,7 @@ export const es = {
   prof_title: 'Mi Perfil',
   prof_experience: 'Puntos',
   prof_xp_total: '{xp} puntos en total',
-  prof_xp_next: '{current} / {next} puntos para pasar a la página {level}',
+  prof_xp_next: '{current} / {next} puntos para la próxima pegatina',
   prof_stats: 'Estadísticas',
   prof_stars: 'Estrellas',
   prof_levels: 'Niveles',
@@ -270,7 +270,7 @@ export const es = {
   // PDF Report
   pdf_title: 'Informe Lectorix',
   pdf_student: 'Estudiante',
-  pdf_level_xp: 'Página {level} · {xp} puntos · {streak} días seguidos',
+  pdf_level_xp: '{stickers} · {xp} puntos · {streak} días seguidos',
   pdf_avg_score: 'Puntuación media',
   pdf_stars: 'Estrellas',
   pdf_levels: 'Niveles',
@@ -1104,8 +1104,8 @@ export const es = {
   es_new: 'Volver a mis redacciones',
 
   // Header
-  hdr_level: 'Pág. {n}',
-  hdr_level_aria: 'Página {n}',
+  hdr_level: '🌟 {n}',
+  hdr_level_aria: '{n} pegatinas',
   hdr_streak_aria: '{n} días seguidos',
 
   // Subject readings
@@ -1157,6 +1157,13 @@ export const es = {
   voice_recommended: 'Recomendada',
   voice_online: 'Necesita internet',
   voice_auto: 'Volver a la recomendada',
+
+  // Stickers instead of pages
+  stk_one: '1 pegatina',
+  stk_n: '{n} pegatinas',
+  stk_none: 'Aún sin pegatinas',
+  stk_next: 'Faltan {n} puntos para la próxima pegatina',
+  stk_how: 'Cada vez que juntas puntos suficientes, ganas una pegatina para tu libreta.',
 } as const;
 
 export type TranslationKey = keyof typeof es;

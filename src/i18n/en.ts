@@ -69,7 +69,7 @@ export const en: Record<TranslationKey, string> = {
   prof_title: 'My Profile',
   prof_experience: 'Points',
   prof_xp_total: '{xp} points in total',
-  prof_xp_next: '{current} / {next} points to turn to page {level}',
+  prof_xp_next: '{current} / {next} points for the next sticker',
   prof_stats: 'Statistics',
   prof_stars: 'Stars',
   prof_levels: 'Levels',
@@ -272,7 +272,7 @@ export const en: Record<TranslationKey, string> = {
   // PDF Report
   pdf_title: 'Lectorix Report',
   pdf_student: 'Student',
-  pdf_level_xp: 'Page {level} · {xp} points · {streak} days in a row',
+  pdf_level_xp: '{stickers} · {xp} points · {streak} days in a row',
   pdf_avg_score: 'Average score',
   pdf_stars: 'Stars',
   pdf_levels: 'Levels',
@@ -1106,8 +1106,8 @@ export const en: Record<TranslationKey, string> = {
   es_new: 'Back to my writing',
 
   // Header
-  hdr_level: 'p. {n}',
-  hdr_level_aria: 'Page {n}',
+  hdr_level: '🌟 {n}',
+  hdr_level_aria: '{n} stickers',
   hdr_streak_aria: '{n} days in a row',
 
   // Subject readings
@@ -1159,4 +1159,11 @@ export const en: Record<TranslationKey, string> = {
   voice_recommended: 'Recommended',
   voice_online: 'Needs internet',
   voice_auto: 'Back to the recommended one',
+
+  // Stickers instead of pages
+  stk_one: '1 sticker',
+  stk_n: '{n} stickers',
+  stk_none: 'No stickers yet',
+  stk_next: '{n} more points for the next sticker',
+  stk_how: 'Every time you collect enough points, you earn a sticker for your notebook.',
 };

@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '@/stores/useAppStore';
-import { calculateXPLevel } from '@/services/gamification';
+import { calculateXPLevel, stickerCount } from '@/services/gamification';
 import { useI18n } from '@/i18n';
 
 interface HeaderProps {
@@ -40,8 +40,8 @@ export function Header({ title, showBack = false, showXP = true }: HeaderProps) 
             <span className="text-sm">✏️</span>
             <span className="text-xs font-extrabold text-yellow">{user.streak_days}</span>
           </div>
-          <div className="flex items-center gap-1 bg-accent-pale px-2.5 py-1 rounded-full" role="img" aria-label={t('hdr_level_aria', { n: xpInfo.level })}>
-            <span className="text-xs font-extrabold text-accent whitespace-nowrap" aria-hidden>{t('hdr_level', { n: xpInfo.level })}</span>
+          <div className="flex items-center gap-1 bg-accent-pale px-2.5 py-1 rounded-full" role="img" aria-label={t('hdr_level_aria', { n: stickerCount(xpInfo.level) })}>
+            <span className="text-xs font-extrabold text-accent whitespace-nowrap" aria-hidden>{t('hdr_level', { n: stickerCount(xpInfo.level) })}</span>
           </div>
         </div>
       )}
