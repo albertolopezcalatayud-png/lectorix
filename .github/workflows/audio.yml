@@ -29,7 +29,8 @@ jobs:
     steps:
       - name: Key present?
         id: key
-        run: if [ -n "$AZURE_SPEECH_KEY" ]; then echo "ok=1" >> $GITHUB_OUTPUT; else echo "No AZURE_SPEECH_KEY secret yet: nothing to do"; fi
+        run: |
+          if [ -n "$AZURE_SPEECH_KEY" ]; then echo "ok=1" >> $GITHUB_OUTPUT; else echo "No AZURE_SPEECH_KEY secret yet, nothing to do"; fi
       - uses: actions/checkout@v4
         if: steps.key.outputs.ok
       - name: Audio branch
