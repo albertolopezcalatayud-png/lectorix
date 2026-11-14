@@ -10,8 +10,11 @@ import { Button } from '@/components/ui/Button';
 import { SyllableWord, useSyllableColoring } from '@/components/reading/SyllableText';
 import { useI18n } from '@/i18n';
 import { awardActivityXP } from '@/services/session';
+import { availability, listen, align, useReadAloud, type Availability, type Listening } from '@/services/readAloud';
 
 const TEST_SECONDS = 60;
+/** Faster than this is not reading aloud (fluent adults read about 150–180 words a minute aloud) */
+const MAX_PLAUSIBLE_WCPM = 200;
 type Phase = 'setup' | 'ready' | 'reading' | 'mark' | 'done';
 
 /** Small line chart of words-correct-per-minute over time */
@@ -60,7 +63,22 @@ export default function Fluency() {
   const [xp, setXp] = useState(0);
   const startRef = useRef(0);
 
+  // When the family has turned on «read aloud» and the device can recognise speech offline, the device
+  // listens during the minute: only words it actually hears count, so made-up words are not counted as read.
+  const raEnabled = useReadAloud((s) => s.enabled);
+  const [avail, setAvail] = useState<Availability | 'unchecked' | null>(null);
+  useEffect(() => { let off = false; void availability(lang).then((a) => { if (!off) setAvail(a); }); return () => { off = true; }; }, [lang]);
+  const micMode = raEnabled && avail === 'available';
+  const [heard, setHeard] = useState('');
+  const [micLimit, setMicLimit] = useState(-1);   // last word the device heard
+  const [micMissed, setMicMissed] = useState<Set<number>>(new Set());
+  const [micError, setMicError] = useState(false);
+  const [tooFast, setTooFast] = useState(false);
+  const listening = useRef<Listening | null>(null);
+  useEffect(() => () => { listening.current?.stop(); listening.current = null; }, []);
+
   const words = useMemo(() => (reading ? reading.text.split(/\s+/).filter(Boolean) : []), [reading]);
+  const live = useMemo(() => (micMode ? align(words, heard) : null), [micMode, words, heard]);
 
   // Pick a text of the level, preferring one not used recently
   const pick = () => {
@@ -75,6 +93,25 @@ export default function Fluency() {
     setErrors(new Set());
     setLeft(TEST_SECONDS);
     setResult(null);
+    setHeard(''); setMicLimit(-1); setMicMissed(new Set()); setMicError(false); setTooFast(false);
+  };
+
+  /** End of the minute (or of the text): with the microphone, the result comes from what was heard */
+  const toMark = (secs: number, early: boolean) => {
+    setElapsed(secs);
+    if (micMode) {
+      listening.current?.stop(); listening.current = null;
+      const { states, position } = align(words, heard);
+      const missed = new Set<number>();
+      states.forEach((st, i) => { if (st === 'missed' && i < position) missed.add(i); });
+      setMicLimit(position - 1);
+      setMicMissed(missed);
+      setLastWord(position > 0 ? position - 1 : null);
+      setErrors(missed);
+    } else {
+      setLastWord(early ? words.length - 1 : null);
+    }
+    setPhase('mark');
   };
 
   useEffect(() => {
@@ -82,32 +119,39 @@ export default function Fluency() {
     const id = setInterval(() => {
       const e = Math.min(TEST_SECONDS, Math.round((Date.now() - startRef.current) / 1000));
       setLeft(TEST_SECONDS - e);
-      if (e >= TEST_SECONDS) {
-        setElapsed(TEST_SECONDS);
-        setPhase('mark');
-      }
+      if (e >= TEST_SECONDS) toMark(TEST_SECONDS, false);
     }, 250);
     return () => clearInterval(id);
-  }, [phase]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, heard]);
 
-  const start = () => {
+  const start = async () => {
+    setHeard(''); setMicError(false);
+    if (micMode) {
+      try {
+        listening.current = await listen(lang, setHeard, () => { setMicError(true); });
+      } catch { setMicError(true); return; }
+    }
     startRef.current = Date.now();
     setPhase('reading');
   };
-  const finishedEarly = () => {
-    setElapsed(Math.max(5, Math.round((Date.now() - startRef.current) / 1000)));
-    setLastWord(words.length - 1);
-    setPhase('mark');
-  };
+  const finishedEarly = () => toMark(Math.max(5, Math.round((Date.now() - startRef.current) / 1000)), true);
+  // With the microphone, reaching the end of the text stops the test on its own
+  useEffect(() => {
+    if (phase === 'reading' && live && words.length > 0 && live.position >= words.length) finishedEarly();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, live?.position]);
 
   const tapWord = (i: number) => {
     if (phase !== 'mark') return;
     if (markErrors) {
       if (lastWord !== null && i > lastWord) return;
+      if (micMode && micMissed.has(i)) return; // words the device did not hear stay as errors
       const n = new Set(errors);
       n.has(i) ? n.delete(i) : n.add(i);
       setErrors(n);
     } else {
+      if (micMode && i > micLimit) return;      // cannot claim words the device did not hear
       setLastWord(i);
       setErrors(new Set([...errors].filter((e) => e <= i)));
     }
@@ -115,6 +159,8 @@ export default function Fluency() {
 
   const save = () => {
     if (!reading || lastWord === null) return;
+    const correct = lastWord + 1 - errors.size;
+    if (elapsed > 0 && (correct * 60) / elapsed > MAX_PLAUSIBLE_WCPM) { setTooFast(true); return; }
     setPrevBefore(mine.length ? mine[mine.length - 1] : null);
     const r = add({ lang, level, readingId: reading.id, wordsRead: lastWord + 1, errors: errors.size, seconds: elapsed });
     setResult(r);
@@ -184,6 +230,8 @@ export default function Fluency() {
             {phase === 'ready' && (
               <Card className="text-center space-y-3">
                 <p className="text-sm">{t('flu_ready')}</p>
+                <p className="text-xs text-fg-muted">{micMode ? `🎤 ${t('flu_mic_on')}` : `👂 ${t('flu_adult_listen')}`}</p>
+                {micError && <p className="text-xs text-red font-bold">{t('ra_err')}</p>}
                 <Button fullWidth onClick={start}>▶ {t('flu_start')}</Button>
                 <button onClick={pick} className="text-xs font-bold text-accent">{t('flu_other_text')}</button>
               </Card>
@@ -202,7 +250,9 @@ export default function Fluency() {
                     ✗ {t('flu_tab_errors')} ({errors.size})
                   </button>
                 </div>
-                <p className="text-[11px] text-fg-muted">{t('flu_errors_optional')}</p>
+                {micMode
+                  ? <p className="text-[11px] text-fg-muted">🎤 {t('flu_mic_checked')}</p>
+                  : <p className="text-[11px] font-bold">👂 {t('flu_adult_needed')}</p>}
               </Card>
             )}
 
@@ -214,11 +264,12 @@ export default function Fluency() {
                     const after = lastWord !== null && i > lastWord;
                     const err = errors.has(i);
                     const last = i === lastWord;
+                    const heardOk = phase === 'reading' && live?.states[i] === 'read';
                     return (
                       <span key={i}>
                         <span
                           onClick={() => tapWord(i)}
-                          className={`rounded px-0.5 ${phase === 'mark' ? 'cursor-pointer' : ''} ${after ? 'opacity-35' : ''} ${err ? 'bg-red/25 line-through decoration-red' : ''} ${last ? 'ring-2 ring-accent bg-accent-pale' : ''}`}
+                          className={`rounded px-0.5 ${phase === 'mark' ? 'cursor-pointer' : ''} ${after ? 'opacity-35' : ''} ${err ? 'bg-red/25 line-through decoration-red' : ''} ${last ? 'ring-2 ring-accent bg-accent-pale' : ''} ${heardOk ? 'bg-mint/30' : ''}`}
                         >
                           {sylLang ? <SyllableWord word={w} lang={sylLang} /> : w}
                         </span>{' '}
@@ -232,8 +283,20 @@ export default function Fluency() {
             {phase === 'reading' && (
               <Button fullWidth variant="secondary" onClick={finishedEarly}>{t('flu_finished_early')}</Button>
             )}
-            {phase === 'mark' && (
-              <Button fullWidth onClick={save} disabled={lastWord === null}>{t('flu_save')}</Button>
+            {phase === 'mark' && micMode && lastWord === null && (
+              <Card className="text-center space-y-2">
+                <p className="text-sm font-bold">🎤 {t('flu_mic_nothing')}</p>
+                <Button fullWidth onClick={pick}>{t('flu_try_again')}</Button>
+              </Card>
+            )}
+            {phase === 'mark' && tooFast && (
+              <Card className="border-red/40 bg-red/5 text-sm space-y-2">
+                <p className="font-bold">⏱️ {t('flu_too_fast')}</p>
+                <Button fullWidth variant="secondary" onClick={pick}>{t('flu_try_again')}</Button>
+              </Card>
+            )}
+            {phase === 'mark' && (lastWord !== null || !micMode) && (
+              <Button fullWidth onClick={save} disabled={lastWord === null}>{micMode ? t('flu_save') : t('flu_save_adult')}</Button>
             )}
 
             {phase === 'done' && result && (

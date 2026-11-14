@@ -518,10 +518,10 @@ export const en: Record<TranslationKey, string> = {
   flu_card_desc: 'Read for one minute and watch yourself improve',
   flu_desc: 'Read aloud for one minute. When time is up, tap the last word you read and the app works out how many words you read correctly per minute.',
   flu_how_title: 'How it works',
-  flu_step1: 'It works best with an adult listening.',
+  flu_step1: 'An adult needs to sit next to you and listen. If the «Read-aloud check» is turned on in the family panel, the device’s microphone checks the reading.',
   flu_step2: 'Press “Start” and read aloud at your own pace, without rushing.',
   flu_step3: 'When the minute is up, tap the last word you read.',
-  flu_step4: 'If you like, the adult can mark the words that were misread.',
+  flu_step4: 'The adult marks the words read wrongly: only words read correctly count.',
   flu_privacy: 'No audio is recorded: only the result is saved on this device.',
   flu_choose_level: 'Choose the text level',
   flu_prepare: 'Get the text ready',
@@ -885,7 +885,7 @@ export const en: Record<TranslationKey, string> = {
   ra_err: 'Speech recognition stopped. Please try again.',
   ra_privacy: 'Speech is recognised on this device, offline. It is not recorded or saved: it is only compared with the text and then discarded.',
   ra_family_title: 'Read-aloud check (optional)',
-  ra_family_desc: 'When it is on, guided readings show “Read it aloud yourself”: the student reads and the app marks the words it recognises. It uses the device’s own microphone and speech recognition, offline. The voice is not recorded, not saved and never leaves the device. It is only offered if the device can do this offline.',
+  ra_family_desc: 'When it is on, guided readings show “Read it aloud yourself”: the student reads and the app marks the words it recognises. It uses the device’s own microphone and speech recognition, offline. The voice is not recorded, not saved and never leaves the device. It is only offered if the device can do this offline. It also checks the reading fluency test.',
   ra_status_ok: 'This device can do this offline.',
   ra_family_where: 'You will find it in every guided reading, under the text.',
 
@@ -1166,4 +1166,14 @@ export const en: Record<TranslationKey, string> = {
   stk_none: 'No stickers yet',
   stk_next: '{n} more points for the next sticker',
   stk_how: 'Every time you collect enough points, you earn a sticker for your notebook.',
+
+  // Fluency: checked reading
+  flu_mic_on: 'The device will listen to the reading: only words it hears correctly count. Nothing is recorded.',
+  flu_adult_listen: 'This device cannot check the reading with the microphone, so an adult needs to listen and, at the end, mark the words read wrongly.',
+  flu_mic_checked: 'Checked with the microphone: crossed-out words were not heard correctly. An adult can mark more mistakes.',
+  flu_adult_needed: 'Without the microphone, Lectorix cannot tell what was read correctly: the adult who listened marks the last word and the mistakes.',
+  flu_save_adult: 'An adult listened: see the result',
+  flu_mic_nothing: 'No words from the text were heard. Move the device closer, read aloud and try again.',
+  flu_too_fast: 'That is too fast for reading aloud. Do the test again reading for real, ideally with an adult next to you.',
+  flu_try_again: 'Try again with another text',
 };

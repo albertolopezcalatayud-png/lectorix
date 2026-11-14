@@ -518,10 +518,10 @@ export const ca: Record<TranslationKey, string> = {
   flu_card_desc: 'Llig un minut i mira com millores',
   flu_desc: 'Llig en veu alta durant un minut. Quan acabes, toca l’última paraula que has llegit i l’app calcula quantes paraules llegixes bé per minut.',
   flu_how_title: 'Com es fa',
-  flu_step1: 'Millor amb un adult al costat que escolte.',
+  flu_step1: 'Cal un adult al costat que escolte. Si en el tauler per a famílies està activada la «Correcció de lectura en veu alta», el micròfon del dispositiu comprova la lectura.',
   flu_step2: 'Prem «Començar» i llig en veu alta al teu ritme, sense córrer.',
   flu_step3: 'Quan acabe el minut, toca l’última paraula que has llegit.',
-  flu_step4: 'Si voleu, l’adult pot marcar les paraules que s’han llegit malament.',
+  flu_step4: 'L’adult marca les paraules que s’han llegit malament: només compten les que es lligen bé.',
   flu_privacy: 'No es grava cap àudio: només es guarda el resultat en este dispositiu.',
   flu_choose_level: 'Tria el nivell del text',
   flu_prepare: 'Preparar el text',
@@ -885,7 +885,7 @@ export const ca: Record<TranslationKey, string> = {
   ra_err: 'S’ha interromput el reconeixement de veu. Torna-ho a provar.',
   ra_privacy: 'La veu es reconeix en este dispositiu, sense connexió. No es grava ni es guarda: només es compara amb el text i es descarta.',
   ra_family_title: 'Correcció de lectura en veu alta (opcional)',
-  ra_family_desc: 'En activar-la, en les lectures guiades apareix «Llig-ho tu en veu alta»: l’alumne llig i l’aplicació marca les paraules que reconeix. Usa el micròfon i el reconeixement de veu del mateix dispositiu, sense connexió. La veu no es grava, no es guarda i no ix del dispositiu. Només s’oferix si el dispositiu ho pot fer sense connexió.',
+  ra_family_desc: 'En activar-la, en les lectures guiades apareix «Llig-ho tu en veu alta»: l’alumne llig i l’aplicació marca les paraules que reconeix. Usa el micròfon i el reconeixement de veu del mateix dispositiu, sense connexió. La veu no es grava, no es guarda i no ix del dispositiu. Només s’oferix si el dispositiu ho pot fer sense connexió. També comprova la prova de fluïdesa lectora.',
   ra_status_ok: 'Este dispositiu ho pot fer sense connexió.',
   ra_family_where: 'El trobareu en cada lectura guiada, davall del text.',
 
@@ -1166,4 +1166,14 @@ export const ca: Record<TranslationKey, string> = {
   stk_none: 'Encara sense enganxines',
   stk_next: 'Falten {n} punts per a la pròxima enganxina',
   stk_how: 'Cada vegada que reuneixes prou punts, guanyes una enganxina per a la teua llibreta.',
+
+  // Fluency: checked reading
+  flu_mic_on: 'El dispositiu escoltarà la lectura: només compten les paraules que se senten bé. No es grava res.',
+  flu_adult_listen: 'Este dispositiu no pot comprovar la lectura amb el micròfon, així que un adult ha d’escoltar i, al final, marcar les paraules mal llegides.',
+  flu_mic_checked: 'Ho ha comprovat el micròfon: les paraules ratllades no s’han sentit bé. Un adult pot marcar més errors.',
+  flu_adult_needed: 'Sense micròfon, Lectorix no sap què s’ha llegit bé: l’adult que ha escoltat marca l’última paraula i els errors.',
+  flu_save_adult: 'Ho ha escoltat un adult: veure el resultat',
+  flu_mic_nothing: 'No s’ha sentit cap paraula del text. Acosta el dispositiu, llig en veu alta i torna a provar.',
+  flu_too_fast: 'És massa ràpid per a llegir en veu alta. Repetix la prova llegint de veritat, millor amb un adult al costat.',
+  flu_try_again: 'Repetir amb un altre text',
 };

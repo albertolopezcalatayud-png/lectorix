@@ -516,10 +516,10 @@ export const es = {
   flu_card_desc: 'Lee un minuto y mira cómo mejoras',
   flu_desc: 'Lee en voz alta durante un minuto. Al terminar, toca la última palabra que has leído y la app calcula cuántas palabras lees bien por minuto.',
   flu_how_title: 'Cómo se hace',
-  flu_step1: 'Mejor con un adulto al lado que escuche.',
+  flu_step1: 'Hace falta un adulto al lado que escuche. Si en el panel para familias está activada la «Corrección de lectura en voz alta», el micrófono del dispositivo comprueba la lectura.',
   flu_step2: 'Pulsa «Empezar» y lee en voz alta a tu ritmo, sin correr.',
   flu_step3: 'Cuando acabe el minuto, toca la última palabra que has leído.',
-  flu_step4: 'Si queréis, el adulto puede marcar las palabras que se han leído mal.',
+  flu_step4: 'El adulto marca las palabras que se han leído mal: solo cuentan las que se leen bien.',
   flu_privacy: 'No se graba ningún audio: solo se guarda el resultado en este dispositivo.',
   flu_choose_level: 'Elige el nivel del texto',
   flu_prepare: 'Preparar el texto',
@@ -883,7 +883,7 @@ export const es = {
   ra_err: 'Se ha interrumpido el reconocimiento de voz. Prueba otra vez.',
   ra_privacy: 'La voz se reconoce en este dispositivo, sin conexión. No se graba ni se guarda: solo se compara con el texto y se descarta.',
   ra_family_title: 'Corrección de lectura en voz alta (opcional)',
-  ra_family_desc: 'Al activarla, en las lecturas guiadas aparece «Léelo tú en voz alta»: el alumno lee y la app marca las palabras que reconoce. Usa el micrófono y el reconocimiento de voz del propio dispositivo, sin conexión. La voz no se graba, no se guarda y no sale del dispositivo. Solo se ofrece si el dispositivo puede hacerlo sin conexión.',
+  ra_family_desc: 'Al activarla, en las lecturas guiadas aparece «Léelo tú en voz alta»: el alumno lee y la app marca las palabras que reconoce. Usa el micrófono y el reconocimiento de voz del propio dispositivo, sin conexión. La voz no se graba, no se guarda y no sale del dispositivo. Solo se ofrece si el dispositivo puede hacerlo sin conexión. También comprueba la prueba de fluidez lectora.',
   ra_status_ok: 'Este dispositivo puede hacerlo sin conexión.',
   ra_family_where: 'Lo encontraréis en cada lectura guiada, debajo del texto.',
 
@@ -1164,6 +1164,16 @@ export const es = {
   stk_none: 'Aún sin pegatinas',
   stk_next: 'Faltan {n} puntos para la próxima pegatina',
   stk_how: 'Cada vez que juntas puntos suficientes, ganas una pegatina para tu libreta.',
+
+  // Fluency: checked reading
+  flu_mic_on: 'El dispositivo escuchará la lectura: solo cuentan las palabras que se oyen bien. No se graba nada.',
+  flu_adult_listen: 'Este dispositivo no puede comprobar la lectura con el micrófono, así que un adulto tiene que escuchar y, al final, marcar las palabras mal leídas.',
+  flu_mic_checked: 'Lo ha comprobado el micrófono: las palabras tachadas no se han oído bien. Un adulto puede marcar más errores.',
+  flu_adult_needed: 'Sin micrófono, Lectorix no sabe qué se ha leído bien: el adulto que ha escuchado marca la última palabra y los errores.',
+  flu_save_adult: 'Lo ha escuchado un adulto: ver el resultado',
+  flu_mic_nothing: 'No se ha oído ninguna palabra del texto. Acerca el dispositivo, lee en voz alta y vuelve a probar.',
+  flu_too_fast: 'Es demasiado rápido para leer en voz alta. Repite la prueba leyendo de verdad, mejor con un adulto al lado.',
+  flu_try_again: 'Repetir con otro texto',
 } as const;
 
 export type TranslationKey = keyof typeof es;
