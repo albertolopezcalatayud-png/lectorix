@@ -20,7 +20,7 @@ jobs:
       - name: Tools
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg build-essential autoconf automake libtool pkg-config > /dev/null
-          pip install -q piper-tts==1.2.0 onnxruntime phonemizer scipy unidecode fastapi soundfile "huggingface_hub[cli]" uvicorn
+          pip install -q piper-tts onnxruntime phonemizer scipy unidecode fastapi soundfile "huggingface_hub[cli]" uvicorn
       - name: Piper voices
         run: |
           mkdir -p out/piper voices
@@ -37,7 +37,7 @@ jobs:
           import json,sys; [print(t) for t in json.load(open('scripts/audio/samples.json'))[sys.argv[1]]]
           PY
             while IFS= read -r line; do
-              echo "$line" | piper --model "voices/${name}__$name.onnx" --config "voices/${name}__$name.onnx.json" --output_file "out/piper/$name.$i.wav" -q 2>/dev/null || echo "fail $name $i"
+              echo "$line" | piper --model "voices/${name}__$name.onnx" --config "voices/${name}__$name.onnx.json" -f "out/piper/$name.$i.wav" || echo "fail $name $i"
               ffmpeg -nostdin -loglevel error -y -i "out/piper/$name.$i.wav" -ac 1 -b:a 64k "out/piper/$name.$i.mp3" && rm "out/piper/$name.$i.wav"
               i=$((i+1))
             done < /tmp/lines.txt
