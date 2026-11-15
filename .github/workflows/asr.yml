@@ -37,6 +37,7 @@ jobs:
           cp -r asr dist/asr
       - name: Test audio (synthetic readings)
         run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
           pip install -q piper-tts numpy
           HF=https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/es/es_ES/davefx/medium/es_ES-davefx-medium
           for e in .onnx .onnx.json; do curl -sfL "$HF$e" -o "/tmp/v$e"; done
