@@ -8,7 +8,7 @@
     "captureInput": true,
     "webContentsDebuggingEnabled": false,
     "minWebViewVersion": 111,
-    "adjustMarginsForEdgeToEdge": "auto"
+    "adjustMarginsForEdgeToEdge": "force"
   },
   "plugins": {
     "SplashScreen": {

@@ -27,7 +27,7 @@ ws.addEventListener('message', (ev) => {
   const m = JSON.parse(ev.data);
   if (m.id && pending.has(m.id)) { pending.get(m.id)(m); pending.delete(m.id); }
   if (m.method === 'Runtime.exceptionThrown') errors.push('exception: ' + (m.params.exceptionDetails.exception?.description || m.params.exceptionDetails.text));
-  if (m.method === 'Runtime.consoleAPICalled' && m.params.type === 'error') errors.push('console: ' + m.params.args.map((a) => a.value ?? a.description).join(' '));
+  if (m.method === 'Runtime.consoleAPICalled' && m.params.type === 'error') errors.push('console: ' + m.params.args.map((a) => a.value ?? (a.preview ? a.description + ' ' + JSON.stringify(a.preview.properties?.map((x) => [x.name, x.value])) : a.description)).join(' ') + ' @ ' + (m.params.stackTrace?.callFrames?.slice(0, 3).map((f) => `${f.functionName}:${f.url.split('/').pop()}:${f.lineNumber}`).join(' < ') ?? ''));
 });
 const send = (method, params = {}) => new Promise((r) => { const i = ++id; pending.set(i, r); ws.send(JSON.stringify({ id: i, method, params })); });
 const ev = async (expr, timeout = 60000) => {
@@ -150,7 +150,11 @@ const blank = Object.entries(results.routes).filter(([, t]) => typeof t !== 'str
 results.blankRoutes = blank;
 log(JSON.stringify(results, null, 2));
 log('BLANK', JSON.stringify(blank));
-const ok = blank.length === 0 && results.native && !results.speechSynthesisInWebView !== undefined && String(results.ocr).startsWith('OK') && errors.length === 0
+// The web page must start below the status bar (its top edge is not at 0)
+const top = Number((String(results.webviewBounds).match(/ \d+,(\d+)-\d+,\d+ /) || [])[1]);
+results.underStatusBar = !(top > 0);
+log('UNDER_STATUS_BAR', results.underStatusBar, top);
+const ok = !results.underStatusBar && blank.length === 0 && results.native && !results.speechSynthesisInWebView !== undefined && String(results.ocr).startsWith('OK') && errors.length === 0
   && Object.values(results.onDeviceSpeech).every((v) => ['available', 'downloadable', 'downloading', 'unavailable'].includes(v)) && String(results.dict).includes('gzip true') && results.spell === 'flagged: ermano' && results.shareText === '#/adaptar | text shown' && !String(results.plugins).includes('false');
 log('RESULT', ok ? 'PASS' : 'CHECK');
 ws.close();
