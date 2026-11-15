@@ -10,7 +10,7 @@ import { Button } from '@/components/ui/Button';
 import { SyllableWord, useSyllableColoring } from '@/components/reading/SyllableText';
 import { useI18n } from '@/i18n';
 import { awardActivityXP } from '@/services/session';
-import { availability, listen, align, useReadAloud, type Availability, type Listening } from '@/services/readAloud';
+import { availability, installLanguage, listen, align, useReadAloud, type Availability, type Listening } from '@/services/readAloud';
 
 const TEST_SECONDS = 60;
 /** Faster than this is not reading aloud (fluent adults read about 150–180 words a minute aloud) */
@@ -129,7 +129,7 @@ export default function Fluency() {
     setHeard(''); setMicError(false);
     if (micMode) {
       try {
-        listening.current = await listen(lang, setHeard, () => { setMicError(true); });
+        listening.current = await listen(lang, setHeard, () => { setMicError(true); }, words);
       } catch { setMicError(true); return; }
     }
     startRef.current = Date.now();
@@ -232,6 +232,12 @@ export default function Fluency() {
                 <p className="text-sm">{t('flu_ready')}</p>
                 <p className="text-xs text-fg-muted">{micMode ? `🎤 ${t('flu_mic_on')}` : `👂 ${t('flu_adult_listen')}`}</p>
                 {micError && <p className="text-xs text-red font-bold">{t('ra_err')}</p>}
+                {raEnabled && (avail === 'downloadable' || avail === 'downloading') && (
+                  <Button fullWidth variant="secondary" disabled={avail === 'downloading'}
+                    onClick={() => { setAvail('downloading'); void installLanguage(lang).then(() => availability(lang, true)).then(setAvail); }}>
+                    {avail === 'downloading' ? `⏳ ${t('flu_mic_downloading')}` : `🎤 ${t('flu_mic_download')}`}
+                  </Button>
+                )}
                 <Button fullWidth onClick={start}>▶ {t('flu_start')}</Button>
                 <button onClick={pick} className="text-xs font-bold text-accent">{t('flu_other_text')}</button>
               </Card>

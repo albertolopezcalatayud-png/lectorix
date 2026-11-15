@@ -1,0 +1,71 @@
+name: Reading recogniser (models and real test)
+
+# Packages the Vosk language models (Apache 2.0) for the app into the "asr-models" branch, which the web
+# publishes at /lectorix/asr/, after a real test: the built app listens to a synthetic reading through
+# Chromium's microphone and must mark the words read and reject made-up ones.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  models:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Models
+        run: |
+          mkdir -p asr /tmp/m
+          for pair in es:vosk-model-small-es-0.42 ca:vosk-model-small-ca-0.4 en:vosk-model-small-en-us-0.15; do
+            lang=${pair%%:*}; m=${pair#*:}
+            curl -sfL "https://alphacephei.com/vosk/models/$m.zip" -o /tmp/m.zip && unzip -q /tmp/m.zip -d /tmp/m
+            cat /tmp/m/$m/README* 2>/dev/null | head -20 || true
+            tar -czf asr/$lang.tar.gz -C /tmp/m $m && ls -la asr/$lang.tar.gz
+          done
+          echo '{"engine":"vosk","models":{"es":"vosk-model-small-es-0.42","ca":"vosk-model-small-ca-0.4","en":"vosk-model-small-en-us-0.15"},"license":"Apache-2.0","source":"https://alphacephei.com/vosk/models"}' > asr/ready.json
+      - name: Build the app with the models
+        run: |
+          npm ci
+          npm run build
+          cp -r asr dist/asr
+      - name: Test audio (synthetic readings)
+        run: |
+          pip install -q piper-tts numpy
+          HF=https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/es/es_ES/davefx/medium/es_ES-davefx-medium
+          for e in .onnx .onnx.json; do curl -sfL "$HF$e" -o "/tmp/v$e"; done
+          python - <<'PY'
+          import json, subprocess
+          r = [x for x in json.load(open('src/data/lecturas.json'))['readings'] if x['id'] == 'lectura_l1_gato'][0]
+          words = r['text'].split()
+          print(len(words), 'words')
+          fake = ['tururú', 'pimpampum', 'zorfino', 'mertaco', 'lupendo', 'brinfa']
+          cases = {'ok': ' '.join(words), 'gibberish': ' '.join(fake[i % 6] for i in range(len(words))), 'half': ' '.join(words[:len(words) // 2])}
+          for name, text in cases.items():
+              subprocess.run(['piper', '-m', '/tmp/v.onnx', '-c', '/tmp/v.onnx.json', '-f', f'/tmp/{name}.raw.wav'], input=text.encode(), check=True)
+              subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', f'/tmp/{name}.raw.wav', '-ar', '48000', '-ac', '1', f'/tmp/{name}.wav'], check=True)
+          open('/tmp/n.txt', 'w').write(str(len(words)))
+          PY
+      - name: Real test in the browser
+        run: |
+          npm i --no-save --no-audit --no-fund playwright@1 > /dev/null && npx playwright install --with-deps chromium > /dev/null
+          (npx vite preview --port 4173 > /dev/null 2>&1 &) ; sleep 5
+          N=$(cat /tmp/n.txt)
+          node tests/e2e/asr-real.js /tmp/ok.wav lectura_l1_gato $((N * 80 / 100)) $N
+          node tests/e2e/asr-real.js /tmp/gibberish.wav lectura_l1_gato 0 $((N * 12 / 100))
+          node tests/e2e/asr-real.js /tmp/half.wav lectura_l1_gato $((N * 38 / 100)) $((N * 55 / 100))
+      - name: Publish the models
+        run: |
+          cd asr && git init -q && git checkout -q -b asr-models
+          git config user.name "lectorix-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A && git commit -qm "Vosk models for the reading recogniser"
+          git push -fq "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" asr-models
+      - name: Publish the web with the models
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: gh workflow run deploy.yml --ref main

@@ -1183,4 +1183,8 @@ export const ca: Record<TranslationKey, string> = {
 
   // Voice credits
   nv_credits: 'Origen de les veus',
+
+  // Fluency mic download
+  flu_mic_download: 'Descarregar la comprovació per micròfon (una sola vegada, uns 50 MB)',
+  flu_mic_downloading: 'Descarregant… pot tardar un parell de minuts',
 };

@@ -1181,6 +1181,10 @@ export const es = {
 
   // Voice credits
   nv_credits: 'Origen de las voces',
+
+  // Fluency mic download
+  flu_mic_download: 'Descargar la comprobación por micrófono (una sola vez, unos 50 MB)',
+  flu_mic_downloading: 'Descargando… puede tardar un par de minutos',
 } as const;
 
 export type TranslationKey = keyof typeof es;

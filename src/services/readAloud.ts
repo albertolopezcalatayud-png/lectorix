@@ -1,7 +1,8 @@
 /**
  * Optional read-aloud check. The family turns it on; it is off by default.
- * Speech recognition runs ONLY on the device: on Android through the on-device recognizer
- * (OnDeviceSpeechPlugin.java), on the web through the Web Speech API with processLocally = true.
+ * Speech recognition runs ONLY on the device: with Lectorix's own recogniser (Vosk in WebAssembly,
+ * voskEngine.ts) wherever the device can run it; otherwise the Android on-device recognizer
+ * (OnDeviceSpeechPlugin.java) or the Web Speech API with processLocally = true.
  * If on-device recognition is not available, the feature is not offered (never an online fallback).
  * No audio is recorded or stored: the recognizer returns text, which is compared with the reading
  * and discarded when the page closes.
@@ -9,6 +10,10 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { Capacitor, registerPlugin, type PluginListenerHandle } from '@capacitor/core';
+import { voskState, voskInstall, voskListen, voskReady } from './voskEngine';
+
+/** Lectorix's own recogniser is used when the device can run it and its models are published */
+const own = async (lang: string) => (await voskReady()) && voskState(lang) !== 'unavailable';
 
 export type Availability = 'available' | 'downloadable' | 'downloading' | 'unavailable';
 export const SPEECH_TAG: Record<string, string> = { es: 'es-ES', ca: 'ca-ES', en: 'en-GB' };
@@ -69,6 +74,8 @@ function readProbe(): ProbeCache {
  */
 export async function availability(lang: string, probe = false): Promise<Availability | 'unchecked'> {
   const tag = SPEECH_TAG[lang] ?? lang;
+  // Lectorix's own recogniser (Vosk, inside the app) is used wherever the device can run it
+  if (await own(lang)) return voskState(lang);
   try {
     if (native) return (await native.availability({ lang: tag })).state;
     // Only browsers that can promise on-device processing qualify
@@ -90,6 +97,7 @@ export async function availability(lang: string, probe = false): Promise<Availab
 
 export async function installLanguage(lang: string): Promise<boolean> {
   const tag = SPEECH_TAG[lang] ?? lang;
+  if (await own(lang)) return voskInstall(lang);
   try {
     if (native) return (await native.install({ lang: tag })).ok;
     if (!WebRecognition?.install) return false;
@@ -105,7 +113,8 @@ export interface Listening { stop: () => void }
  * Listens until stop() is called. onText receives the whole transcript so far (finished parts + the
  * part being recognised). Android stops after a pause, so it is restarted while the session is on.
  */
-export async function listen(lang: string, onText: (text: string) => void, onError: (code: string) => void): Promise<Listening> {
+export async function listen(lang: string, onText: (text: string) => void, onError: (code: string) => void, words?: string[]): Promise<Listening> {
+  if (await own(lang)) return voskListen(lang, onText, onError, words);
   const tag = SPEECH_TAG[lang] ?? lang;
   let done = '';
   let active = true;

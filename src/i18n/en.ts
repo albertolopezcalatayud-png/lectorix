@@ -1183,4 +1183,8 @@ export const en: Record<TranslationKey, string> = {
 
   // Voice credits
   nv_credits: 'Where the voices come from',
+
+  // Fluency mic download
+  flu_mic_download: 'Download the microphone check (once, about 50 MB)',
+  flu_mic_downloading: 'Downloading… this can take a couple of minutes',
 };

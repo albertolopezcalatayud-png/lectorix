@@ -39,8 +39,14 @@ export default defineConfig({
       workbox: {
         importScripts: ['push-sw.js'],
         globPatterns: ['**/*.{js,css,html,png,svg,woff2}'],
-        globIgnores: ['tesseract/**'],
+        globIgnores: ['tesseract/**', 'assets/vosk-*.js', 'audio/**', 'asr/**'],
         runtimeCaching: [
+          {
+            // The reading recogniser (6 MB) is only fetched when the family turns the microphone check on
+            urlPattern: /\/assets\/vosk-[\w-]+\.js$/,
+            handler: 'CacheFirst',
+            options: { cacheName: 'lectorix-asr-engine', expiration: { maxEntries: 2 } },
+          },
           {
             // Spelling word lists: downloaded the first time "Write and listen" checks a text, then offline
             urlPattern: /\/dict\/[a-z]+\.(fcz|frz)$/,

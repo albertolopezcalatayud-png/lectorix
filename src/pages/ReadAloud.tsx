@@ -45,7 +45,7 @@ export default function ReadAloud() {
   const start = async () => {
     setError(null); setHeard(''); setSaved(new Set()); setXp(0); scored.current = false;
     try {
-      session.current = await listen(lang, setHeard, (code) => { setError(code); session.current?.stop(); session.current = null; setPhase('done'); });
+      session.current = await listen(lang, setHeard, (code) => { setError(code); session.current?.stop(); session.current = null; setPhase('done'); }, words);
       setPhase('listening');
     } catch (e) {
       setError(String((e as { message?: string })?.message ?? e).includes('permission') ? 'permission' : 'unavailable');
