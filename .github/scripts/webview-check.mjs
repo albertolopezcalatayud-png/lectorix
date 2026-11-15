@@ -62,9 +62,19 @@ const routes = ['/', '/modulos', '/ejercicio/fonologia/1', '/lectura', '/dictado
 results.routes = {};
 for (const r of routes) {
   await ev(`location.hash = '#${r}'; true`);
-  await sleep(3000);
-  const txt = await ev('document.body.innerText.replace(/\\s+/g, " ").slice(0, 120)');
+  // Wait until the screen has really drawn (more than the bottom tab bar), up to 20 s on a slow emulator
+  let txt = '';
+  for (let i = 0; i < 20; i++) {
+    await sleep(1000);
+    txt = await ev('document.body.innerText.replace(/\\s+/g, " ").slice(0, 120)');
+    if (typeof txt === 'string' && txt.length > 0 && !/^🏠 Inicio 📚 Módulos 📝 Tarea 🏆 Logros 👤 Perfil$/.test(txt.trim()) && i >= 2) break;
+  }
   results.routes[r] = txt;
+  if (r === '/') {
+    // Where the web page sits on the screen: the header must not be under the status bar
+    results.layout = await ev(`JSON.stringify({ innerH: innerHeight, screenH: screen.height, dpr: devicePixelRatio, scrollY, headerTop: document.querySelector('header')?.getBoundingClientRect().top, safeTop: getComputedStyle(document.documentElement).getPropertyValue('--sat') })`);
+    try { results.webviewBounds = String(execSync("adb shell dumpsys activity top | grep -m1 -i 'CapacitorWebView'")).trim().slice(0, 200); } catch { results.webviewBounds = 'n/a'; }
+  }
   shot('screen' + (r === '/' ? '-home' : r.replace(/\//g, '-')));
 }
 
@@ -136,8 +146,11 @@ execSync('adb shell input keyevent 4'); await sleep(1500);
 results.backButton = await ev('location.hash');
 
 results.errors = errors;
+const blank = Object.entries(results.routes).filter(([, t]) => typeof t !== 'string' || t.trim().length === 0 || /^🏠 Inicio 📚 Módulos 📝 Tarea 🏆 Logros 👤 Perfil$/.test(t.trim())).map(([r]) => r);
+results.blankRoutes = blank;
 log(JSON.stringify(results, null, 2));
-const ok = results.native && !results.speechSynthesisInWebView !== undefined && String(results.ocr).startsWith('OK') && errors.length === 0
+log('BLANK', JSON.stringify(blank));
+const ok = blank.length === 0 && results.native && !results.speechSynthesisInWebView !== undefined && String(results.ocr).startsWith('OK') && errors.length === 0
   && Object.values(results.onDeviceSpeech).every((v) => ['available', 'downloadable', 'downloading', 'unavailable'].includes(v)) && String(results.dict).includes('gzip true') && results.spell === 'flagged: ermano' && results.shareText === '#/adaptar | text shown' && !String(results.plugins).includes('false');
 log('RESULT', ok ? 'PASS' : 'CHECK');
 ws.close();
