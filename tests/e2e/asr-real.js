@@ -8,6 +8,7 @@ const [wav, id, minRead, maxRead] = process.argv.slice(2);
   const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, permissions: ['microphone'] });
   const p = await ctx.newPage(); const errors = [];
   p.on('pageerror', (e) => errors.push(e.message));
+  p.on('console', (m) => { if (m.type() === 'error' || m.type() === 'warning') console.log('console:', m.text().slice(0, 300)); });
   await p.goto('http://localhost:4173/lectorix/');
   await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); localStorage.setItem('lectorix-readaloud', JSON.stringify({ state: { enabled: true }, version: 0 })); });
   await p.goto(`http://localhost:4173/lectorix/#/leer-en-voz-alta/${id}`); await p.reload(); await p.waitForTimeout(2500);
@@ -15,11 +16,14 @@ const [wav, id, minRead, maxRead] = process.argv.slice(2);
   if (await dl.count()) { const t0 = Date.now(); await dl.click(); await p.getByRole('button', { name: /Empezar a leer/ }).waitFor({ timeout: 240000 }); console.log('model downloaded and loaded in', Math.round((Date.now() - t0) / 1000), 's'); }
   await p.getByRole('button', { name: /Empezar a leer/ }).click();
   await p.waitForTimeout(Number(process.env.LISTEN_MS || 25000));
-  await p.getByRole('button', { name: /He terminado/ }).click(); await p.waitForTimeout(800);
+  const stop = p.getByRole('button', { name: /He terminado/ });
+  if (await stop.count()) await stop.click({ timeout: 5000 }); // the page finishes on its own when the whole text was heard
+  await p.waitForTimeout(800);
   const body = await p.innerText('body');
   const m = body.match(/Ha reconocido (\d+) de (\d+) palabras/);
   const read = m ? +m[1] : -1;
   const ok = read >= +minRead && read <= +maxRead && errors.length === 0;
+  if (!m) console.log('Page says:', body.slice(0, 900));
   console.log((ok ? 'PASS ' : 'FAIL ') + `${wav.split('/').pop()}: recognised ${read} of ${m ? m[2] : '?'} (expected ${minRead}–${maxRead})`, errors);
   await b.close(); process.exit(ok ? 0 : 1);
 })();

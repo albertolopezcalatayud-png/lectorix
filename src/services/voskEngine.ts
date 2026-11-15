@@ -71,9 +71,9 @@ export async function voskListen(
   let stream: MediaStream;
   try {
     stream = await navigator.mediaDevices.getUserMedia({ audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true } });
-  } catch { onError('permission'); throw new Error('permission'); }
+  } catch (e) { console.warn('microphone', e); onError('permission'); throw new Error('permission'); }
   let m: VoskModel;
-  try { m = await model(lang); } catch { stream.getTracks().forEach((t) => t.stop()); onError('language'); throw new Error('language'); }
+  try { m = await model(lang); } catch (e) { console.warn('recogniser model', e); stream.getTracks().forEach((t) => t.stop()); onError('language'); throw new Error('language'); }
 
   const Ctx = window.AudioContext ?? (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
   const ctx = new Ctx();
