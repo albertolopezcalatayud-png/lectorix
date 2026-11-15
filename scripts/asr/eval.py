@@ -65,10 +65,10 @@ for lang, c in LANGS.items():
     data = json.load(open(os.path.join(ROOT, c['readings']), encoding='utf-8'))['readings']
     sents = []
     for r in data:
-        if r['level'] > 4: continue
+        if r["level"] > 6: continue
         for s in re.split(r'(?<=[.!?])\s+', r['text']):
             if 7 <= len(words(s)) <= 16: sents.append(s)
-    sents = random.sample(sents, 25)
+    sents = random.sample(sents, min(25, len(sents)))
     voice = PiperVoice.load(os.path.join(voices_dir, c['voice'] + '.onnx'), os.path.join(voices_dir, c['voice'] + '.onnx.json'))
     model = Model(os.path.join(models_dir, c['vosk']))
     engines = {'vosk_text': None, 'vosk_free': None}
