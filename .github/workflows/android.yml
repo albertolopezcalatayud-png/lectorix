@@ -56,6 +56,6 @@ jobs:
           cd /tmp/out && git init -q && git checkout -q -b android-build
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          echo "Unsigned build of ${GITHUB_SHA} (versionCode ${{ github.event.inputs.version_code || '16' }})" > README.md
+          echo "Unsigned build of ${GITHUB_SHA} (versionCode ${{ github.event.inputs.version_code || '17' }})" > README.md
           git add . && git commit -q -m "Unsigned AAB from ${GITHUB_SHA}"
           git push -q -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" android-build
