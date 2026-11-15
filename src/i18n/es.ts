@@ -1177,7 +1177,10 @@ export const es = {
 
   // Natural voices
   nv_title: 'Voces naturales de Lectorix',
-  nv_desc: 'Las lecturas, los dictados y los ejercicios se oyen con voces naturales preparadas para la app, en vez de con la voz del dispositivo. Se descargan cuando hacen falta y luego funcionan sin internet. Lo que escribe el alumno o los textos nuevos se leen con la voz del dispositivo.',
+  nv_desc: 'Las lecturas, los dictados y los ejercicios se oyen con voces naturales preparadas para la app (voces libres, en valenciano con acento central de momento), en vez de con la voz del dispositivo. Se descargan cuando hacen falta y luego funcionan sin internet. Lo que escribe el alumno o los textos nuevos se leen con la voz del dispositivo.',
+
+  // Voice credits
+  nv_credits: 'Origen de las voces',
 } as const;
 
 export type TranslationKey = keyof typeof es;

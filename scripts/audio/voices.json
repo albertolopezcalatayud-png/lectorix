@@ -1,0 +1,14 @@
+{
+  "es": [
+    { "id": "davefx", "name": "Davefx", "model": "es/es_ES/davefx/medium/es_ES-davefx-medium", "speaker": null, "license": "CC0 1.0", "credit": "Voz «davefx» de Piper (rhasspy/piper-voices), datos de NabuCasa, CC0" },
+    { "id": "sharvard", "name": "Sharvard", "model": "es/es_ES/sharvard/medium/es_ES-sharvard-medium", "speaker": 0, "license": "CC BY 3.0", "credit": "Voz «sharvard» de Piper (rhasspy/piper-voices), corpus Sharvard, CC BY 3.0" }
+  ],
+  "ca": [
+    { "id": "ona", "name": "Ona", "model": "ca/ca_ES/upc_ona/medium/ca_ES-upc_ona-medium", "speaker": null, "license": "CC BY-SA 3.0 ES", "credit": "Veu «upc_ona» de Piper (rhasspy/piper-voices), corpus Festcat de la Universitat Politècnica de Catalunya, CC BY-SA 3.0 ES" },
+    { "id": "pau", "name": "Pau", "model": "ca/ca_ES/upc_pau/x_low/ca_ES-upc_pau-x_low", "speaker": null, "license": "CC BY-SA 3.0 ES", "credit": "Veu «upc_pau» de Piper (rhasspy/piper-voices), corpus Festcat de la Universitat Politècnica de Catalunya, CC BY-SA 3.0 ES" }
+  ],
+  "en": [
+    { "id": "cori", "name": "Cori", "model": "en/en_GB/cori/high/en_GB-cori-high", "speaker": null, "license": "Public domain", "credit": "Voice «cori» from Piper (rhasspy/piper-voices), LibriVox recordings, public domain" },
+    { "id": "northern", "name": "Northern English", "model": "en/en_GB/northern_english_male/medium/en_GB-northern_english_male-medium", "speaker": null, "license": "CC BY-SA 4.0", "credit": "Voice «northern_english_male» from Piper (rhasspy/piper-voices), CC BY-SA 4.0" }
+  ]
+}

@@ -4,7 +4,7 @@ import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import tts from '@/services/tts';
 import { isNative, nativeRecheck, nativeOpenInstall } from '@/services/nativeTts';
-import { naturalVoiceEnabled, setNaturalVoiceEnabled } from '@/services/clips';
+import { naturalVoiceEnabled, setNaturalVoiceEnabled, naturalVoices, chosenNaturalVoice, setChosenNaturalVoice, playVoiceSample, type NaturalVoice } from '@/services/clips';
 import { voicesFor, bestVoice, getPreferredVoice, setPreferredVoice, loadNativeVoices, voiceLabel, type VoiceInfo } from '@/services/voices';
 import { useI18n } from '@/i18n';
 
@@ -63,17 +63,51 @@ function VoicePicker({ tag, title, sample, refresh }: { tag: string; title: stri
 function NaturalVoiceCard() {
   const { t } = useI18n();
   const [on, setOn] = useState(naturalVoiceEnabled());
+  const [voices, setVoices] = useState<Partial<Record<'es' | 'ca' | 'en', NaturalVoice[]>>>({});
+  const [chosen, setChosen] = useState<Record<string, string>>({});
+  useEffect(() => {
+    void naturalVoices().then((v) => {
+      setVoices(v);
+      setChosen(Object.fromEntries(Object.entries(v).map(([l, list]) => [l, chosenNaturalVoice(l) ?? list?.[0]?.id ?? ''])));
+    });
+  }, []);
+  const langs = (['es', 'ca', 'en'] as const).filter((l) => (voices[l]?.length ?? 0) > 0);
+  const LABEL = { es: 'wl_lang_es', ca: 'wl_lang_ca', en: 'wl_lang_en' } as const;
   return (
-    <Card className="flex items-start gap-3">
-      <span className="text-2xl" aria-hidden>🎙️</span>
-      <div className="flex-1">
-        <h3 className="font-heading font-extrabold text-sm">{t('nv_title')}</h3>
-        <p className="text-xs text-fg-muted">{t('nv_desc')}</p>
+    <Card className="space-y-3">
+      <div className="flex items-start gap-3">
+        <span className="text-2xl" aria-hidden>🎙️</span>
+        <div className="flex-1">
+          <h3 className="font-heading font-extrabold text-sm">{t('nv_title')}</h3>
+          <p className="text-xs text-fg-muted">{t('nv_desc')}</p>
+        </div>
+        <button role="switch" aria-checked={on} aria-label={t('nv_title')} onClick={() => { setNaturalVoiceEnabled(!on); setOn(!on); }}
+          className={`shrink-0 w-12 h-7 rounded-full relative transition-colors ${on ? 'bg-accent' : 'bg-border'}`}>
+          <span className={`absolute top-1 w-5 h-5 rounded-full bg-white transition-all ${on ? 'left-6' : 'left-1'}`} />
+        </button>
       </div>
-      <button role="switch" aria-checked={on} aria-label={t('nv_title')} onClick={() => { setNaturalVoiceEnabled(!on); setOn(!on); }}
-        className={`shrink-0 w-12 h-7 rounded-full relative transition-colors ${on ? 'bg-accent' : 'bg-border'}`}>
-        <span className={`absolute top-1 w-5 h-5 rounded-full bg-white transition-all ${on ? 'left-6' : 'left-1'}`} />
-      </button>
+      {on && langs.map((l) => (
+        <div key={l}>
+          <p className="text-xs font-extrabold mb-1">{t(LABEL[l])}</p>
+          <div className="flex flex-wrap gap-2">
+            {voices[l]!.map((v) => (
+              <span key={v.id} className={`inline-flex items-center rounded-xl border ${chosen[l] === v.id ? 'border-accent bg-accent-pale' : 'border-border'}`}>
+                <button onClick={() => void playVoiceSample(l, v.id)} className="px-2 py-1.5 text-sm" aria-label={`${t('voice_test')}: ${v.name}`}>🔊</button>
+                <button onClick={() => { setChosenNaturalVoice(l, v.id); setChosen({ ...chosen, [l]: v.id }); }} aria-pressed={chosen[l] === v.id}
+                  className="pr-3 py-1.5 text-xs font-bold">{chosen[l] === v.id ? '✓ ' : ''}{v.name}</button>
+              </span>
+            ))}
+          </div>
+        </div>
+      ))}
+      {langs.length > 0 && (
+        <details className="text-[11px] text-fg-muted">
+          <summary className="cursor-pointer font-bold">{t('nv_credits')}</summary>
+          <ul className="mt-1 space-y-0.5 list-disc pl-4">
+            {langs.flatMap((l) => voices[l]!.map((v) => <li key={`${l}-${v.id}`}>{v.credit}</li>))}
+          </ul>
+        </details>
+      )}
     </Card>
   );
 }

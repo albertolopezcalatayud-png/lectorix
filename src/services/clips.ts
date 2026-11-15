@@ -18,7 +18,43 @@ const NATURAL_RATE = 0.92;
 export const naturalVoiceEnabled = () => { try { return localStorage.getItem(PREF) !== 'off'; } catch { return true; } };
 export const setNaturalVoiceEnabled = (on: boolean) => { try { localStorage.setItem(PREF, on ? 'on' : 'off'); } catch { /* ignore */ } };
 
-const manifests: Partial<Record<Lang, Promise<Set<string>>>> = {};
+const CHOICE = 'lectorix-natural-voice-choice';
+export interface NaturalVoice { id: string; name: string; license: string; credit: string }
+let voicesIndex: Promise<Partial<Record<Lang, NaturalVoice[]>>> | null = null;
+/** The natural voices available for each language (published with the audio) */
+export function naturalVoices(): Promise<Partial<Record<Lang, NaturalVoice[]>>> {
+  if (!voicesIndex) voicesIndex = cachedFetch(`${base()}voices.json`).then(async (r) => (r ? await r.json() : {})).catch(() => ({}));
+  return voicesIndex;
+}
+export function chosenNaturalVoice(lang: string): string | null {
+  try { return (JSON.parse(localStorage.getItem(CHOICE) || '{}') as Record<string, string>)[lang] ?? null; } catch { return null; }
+}
+export function setChosenNaturalVoice(lang: string, id: string) {
+  try { const c = JSON.parse(localStorage.getItem(CHOICE) || '{}'); c[lang] = id; localStorage.setItem(CHOICE, JSON.stringify(c)); } catch { /* ignore */ }
+  delete manifests[lang as Lang]; delete known[lang as Lang];
+}
+/** Listen to a natural voice before choosing it */
+export async function playVoiceSample(lang: string, id: string): Promise<void> {
+  stopClip();
+  const r = await cachedFetch(`${base()}${lang}/${id}/sample.mp3`);
+  if (!r) return;
+  const url = URL.createObjectURL(await r.blob());
+  await new Promise<void>((resolve) => {
+    const audio = new Audio(url);
+    current = { audio, url, done: () => resolve() };
+    audio.onended = () => { if (current?.audio === audio) current = null; URL.revokeObjectURL(url); resolve(); };
+    audio.play().catch(() => resolve());
+  });
+}
+
+/** The voice to use for a language: the family's choice if it exists, else the first one */
+async function voiceFor(lang: Lang): Promise<string | null> {
+  const list = (await naturalVoices())[lang] ?? [];
+  const chosen = chosenNaturalVoice(lang);
+  return list.find((v) => v.id === chosen)?.id ?? list[0]?.id ?? null;
+}
+
+const manifests: Partial<Record<Lang, Promise<{ voice: string | null; items: Set<string> }>>> = {};
 async function cachedFetch(url: string): Promise<Response | null> {
   try {
     const cache = 'caches' in window ? await caches.open(CACHE) : null;
@@ -31,18 +67,21 @@ async function cachedFetch(url: string): Promise<Response | null> {
     return hit ?? null;
   } catch { return null; }
 }
-function manifest(lang: Lang): Promise<Set<string>> {
+function manifest(lang: Lang): Promise<{ voice: string | null; items: Set<string> }> {
   if (!manifests[lang]) {
-    manifests[lang] = cachedFetch(`${base()}${lang}/manifest.json`)
-      .then(async (r) => new Set(Object.keys(((r ? await r.json() : {}) as { items?: Record<string, 1> }).items ?? {})))
-      .catch(() => new Set<string>());
+    manifests[lang] = voiceFor(lang).then(async (voice) => {
+      if (!voice) return { voice: null, items: new Set<string>() };
+      const r = await cachedFetch(`${base()}${lang}/${voice}/manifest.json`);
+      const items = new Set(Object.keys(((r ? await r.json() : {}) as { items?: Record<string, 1> }).items ?? {}));
+      return { voice, items };
+    }).catch(() => ({ voice: null, items: new Set<string>() }));
   }
   return manifests[lang]!;
 }
 /** Start loading the list of clips for a language (cheap; called when the language is chosen) */
 export function preloadClips(lang: string) { if (lang === 'es' || lang === 'ca' || lang === 'en') void manifest(lang); }
 
-let known: Partial<Record<Lang, Set<string>>> = {};
+const known: Partial<Record<Lang, Set<string>>> = {};
 /** Synchronous check (after the list has loaded): is there a clip for this text? */
 export function hasClipSync(lang: string, text: string): boolean {
   const set = known[lang as Lang];
@@ -50,9 +89,9 @@ export function hasClipSync(lang: string, text: string): boolean {
 }
 export async function hasClip(lang: string, text: string): Promise<boolean> {
   if (!naturalVoiceEnabled() || !(lang === 'es' || lang === 'ca' || lang === 'en')) return false;
-  const set = await manifest(lang);
-  known[lang] = set;
-  return set.has(clipKey(lang, text));
+  const m = await manifest(lang);
+  known[lang] = m.items;
+  return m.items.has(clipKey(lang, text));
 }
 
 let current: { audio: HTMLAudioElement; url: string; done: (interrupted: boolean) => void } | null = null;
@@ -74,9 +113,11 @@ export async function playClip(
 ): Promise<{ interrupted: boolean } | null> {
   if (!(await hasClip(lang, text))) return null;
   const key = clipKey(lang, text);
+  const voice = (await manifest(lang as Lang)).voice;
+  const dir = `${base()}${lang}/${voice}/`;
   const [audioRes, timingRes] = await Promise.all([
-    cachedFetch(`${base()}${lang}/${key}.mp3`),
-    hooks.onWord ? cachedFetch(`${base()}${lang}/${key}.json`) : Promise.resolve(null),
+    cachedFetch(`${dir}${key}.mp3`),
+    hooks.onWord ? cachedFetch(`${dir}${key}.json`) : Promise.resolve(null),
   ]);
   if (!audioRes) return null;
   const blob = await audioRes.blob();

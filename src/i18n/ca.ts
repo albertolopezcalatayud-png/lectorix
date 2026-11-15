@@ -1179,5 +1179,8 @@ export const ca: Record<TranslationKey, string> = {
 
   // Natural voices
   nv_title: 'Veus naturals de Lectorix',
-  nv_desc: 'Les lectures, els dictats i els exercicis se senten amb veus naturals preparades per a l’app, en lloc de la veu del dispositiu. Es descarreguen quan cal i després funcionen sense internet. El que escriu l’alumne o els textos nous es lligen amb la veu del dispositiu.',
+  nv_desc: 'Les lectures, els dictats i els exercicis se senten amb veus naturals preparades per a l’app (veus lliures, en valencià amb accent central de moment), en lloc de la veu del dispositiu. Es descarreguen quan cal i després funcionen sense internet. El que escriu l’alumne o els textos nous es lligen amb la veu del dispositiu.',
+
+  // Voice credits
+  nv_credits: 'Origen de les veus',
 };
