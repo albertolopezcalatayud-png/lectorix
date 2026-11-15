@@ -192,7 +192,15 @@ export default function Mascot() {
                     }`}
                   >
                     <div className="flex items-center justify-between mb-1">
-                      <span className="text-2xl">{item.emoji}</span>
+                      {/* preview: Lapi wearing this item (not an emoji, so it looks exactly as it will) */}
+                      <span aria-hidden>
+                        <MascotAvatar size={52} animate={false} customization={{
+                          color: item.category === 'color' ? COLOR_MAP[item.id] : mascot.color,
+                          hat: item.category === 'hat' ? ITEM_VALUE_MAP[item.id] : null,
+                          accessory: item.category === 'accessory' ? ITEM_VALUE_MAP[item.id] : null,
+                          background: item.category === 'background' ? ITEM_VALUE_MAP[item.id] : null,
+                        }} />
+                      </span>
                       {equipped && (
                         <span className="text-[10px] bg-accent text-white px-1.5 py-0.5 rounded-full font-bold">
                           {t('mascot_equipped')}
