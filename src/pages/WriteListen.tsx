@@ -74,6 +74,10 @@ export default function WriteListen() {
   const predictions = useMemo(() => (predictOn && freq && partial && mode === 'write' ? predict(freq, dict, lang, partial.word, [...common]) : []), [predictOn, freq, dict, lang, partial, mode, common]);
   const applyPrediction = (w: string) => {
     if (!partial) return;
+    // Phone keyboards keep the word being typed "in composition". If the text changes under them, they put
+    // their own copy back on the next key ("jugará" turned into "jugara" again). Leaving the field closes
+    // the composition; the cursor goes back in right after (useLayoutEffect above).
+    area.current?.blur();
     const next = text.slice(0, partial.start) + w + ' ' + text.slice(caret);
     const pos = partial.start + w.length + 1;
     pendingCaret.current = pos;
