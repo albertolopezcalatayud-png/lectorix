@@ -76,7 +76,9 @@ for lang, c in LANGS.items():
     stats = {e: dict(ok_hit=0, ok_tot=0, fake_acc=0, fake_tot=0, skip_acc=0, skip_tot=0, near_acc=0, near_tot=0, gib_acc=0, gib_tot=0, secs=0.0, audio=0.0) for e in engines}
     for s in sents:
         raw = s.split(); tgt = words(s)
-        pos = sorted(random.sample([i for i, w in enumerate(tgt) if len(w) >= 4] or list(range(len(tgt))), min(3, len(tgt))))
+        cands = [i for i, w in enumerate(tgt) if len(w) >= 4]
+        if len(cands) < 3: cands = list(range(len(tgt)))
+        pos = sorted(random.sample(cands, 3))
         def spoken(kind):
             toks = list(tgt)
             if kind == 'fake':
