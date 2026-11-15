@@ -5,6 +5,8 @@ set -x
 OUT=/tmp/out-$1
 mkdir -p "$OUT"
 adb wait-for-device
+# Three navigation buttons instead of gestures, to check they can be seen on the app's background
+adb shell cmd overlay enable com.android.internal.systemui.navbar.threebutton > "$OUT/threebutton.txt" 2>&1
 adb shell getprop ro.build.version.release > "$OUT/android-version.txt"
 adb shell pm list packages | grep -i -E 'tts|webview' > "$OUT/engines.txt"
 adb install -r /tmp/universal.apk > "$OUT/install.txt" 2>&1
@@ -21,7 +23,6 @@ adb shell monkey -p com.lectorix.app -c android.intent.category.LAUNCHER 1 > "$O
 sleep 8
 adb exec-out screencap -p > "$OUT/release-relaunch.png"
 # System bars: the three navigation buttons must be visible on the app's background, in light and dark
-adb shell cmd overlay enable com.android.internal.systemui.navbar.threebutton > "$OUT/threebutton.txt" 2>&1
 sleep 4
 adb exec-out screencap -p > "$OUT/bars-light.png"
 adb shell cmd uimode night yes

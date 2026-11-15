@@ -34,8 +34,18 @@ public class SystemBarsPlugin extends Plugin {
         });
     }
 
+    // Last colours asked for, so the activity can put them back when it gets the focus again
+    static Integer lastColor = null;
+    static boolean lastDark = false;
+
+    static void reapply(Window window) {
+        if (lastColor != null) apply(window, lastColor, lastDark);
+    }
+
     @SuppressWarnings("deprecation")
     static void apply(Window window, int color, boolean dark) {
+        lastColor = color;
+        lastDark = dark;
         // Android 15+ draws the app behind both bars: what shows there is the window background
         window.setBackgroundDrawable(new ColorDrawable(color));
         // Older versions paint the bars themselves

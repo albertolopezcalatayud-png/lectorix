@@ -31,4 +31,17 @@ public class MainActivity extends BridgeActivity {
             }
         });
     }
+
+    // The splash screen and some system dialogs reset the colour of the bar icons: put ours back
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+        if (hasFocus) SystemBarsPlugin.reapply(getWindow());
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        SystemBarsPlugin.reapply(getWindow());
+    }
 }

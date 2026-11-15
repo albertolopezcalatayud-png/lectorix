@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark icons and buttons on the system bars (the background is light) -->
+    <bool name="lightBars">true</bool>
+</resources>

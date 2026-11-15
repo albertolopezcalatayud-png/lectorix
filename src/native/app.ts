@@ -27,9 +27,9 @@ export async function initNativeApp() {
   // with their icons in a colour that can be seen on it. Repeated whenever the theme changes.
   const SystemBars = registerPlugin<{ set(o: { color: string; dark: boolean }): Promise<void> }>('SystemBars');
   let last = '';
-  const paintBars = async () => {
+  const paintBars = async (force = false) => {
     const color = toHex(getComputedStyle(document.documentElement).getPropertyValue('--color-bg').trim()) ?? '#FBF8F1';
-    if (color === last) return;
+    if (color === last && !force) return;
     last = color;
     const dark = isDark(color);
     try {
@@ -40,6 +40,9 @@ export async function initNativeApp() {
     }
   };
   void paintBars();
+  // Again once the splash screen has gone (it resets the colour of the icons) and when coming back to the app
+  for (const ms of [600, 2000, 5000]) setTimeout(() => void paintBars(true), ms);
+  void App.addListener('resume', () => void paintBars(true));
   new MutationObserver(() => void paintBars()).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme', 'data-contrast', 'class', 'style'] });
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => void paintBars());
   // System back button: go back inside the app; on the home screen, leave the app
