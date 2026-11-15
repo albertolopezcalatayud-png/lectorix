@@ -20,6 +20,20 @@ adb shell am force-stop com.lectorix.app
 adb shell monkey -p com.lectorix.app -c android.intent.category.LAUNCHER 1 > "$OUT/relaunch.txt" 2>&1
 sleep 8
 adb exec-out screencap -p > "$OUT/release-relaunch.png"
+# System bars: the three navigation buttons must be visible on the app's background, in light and dark
+adb shell cmd overlay enable com.android.internal.systemui.navbar.threebutton > "$OUT/threebutton.txt" 2>&1
+sleep 4
+adb exec-out screencap -p > "$OUT/bars-light.png"
+adb shell cmd uimode night yes
+sleep 6
+adb exec-out screencap -p > "$OUT/bars-dark.png"
+adb shell am force-stop com.lectorix.app
+adb shell monkey -p com.lectorix.app -c android.intent.category.LAUNCHER 1 > /dev/null 2>&1
+sleep 8
+adb exec-out screencap -p > "$OUT/bars-dark-relaunch.png"
+adb shell cmd uimode night no
+sleep 5
+adb exec-out screencap -p > "$OUT/bars-light-again.png"
 adb logcat -d > "$OUT/logcat-release.txt"
 grep -E -A40 'FATAL EXCEPTION' "$OUT/logcat-release.txt" > "$OUT/crash-release.txt"
 
