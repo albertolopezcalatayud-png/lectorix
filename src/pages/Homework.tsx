@@ -134,7 +134,7 @@ export default function Homework() {
     return (
       <div className="min-h-screen pb-28">
         <Header title={t('hw_title')} showBack />
-        <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-3">
+        <div className="px-4 py-4 max-w-lg wmd:max-w-2xl mx-auto space-y-3">
           {/* quick aids */}
           <div className="flex gap-1.5 flex-wrap">
             <button onClick={() => tts.speak(view.text)} className="px-3 py-1.5 rounded-full bg-accent text-white text-xs font-bold">🔊 {t('hw_listen_all')}</button>
@@ -183,8 +183,8 @@ export default function Homework() {
         <AnimatePresence>
           {picked && (
             <motion.div initial={{ y: 80 }} animate={{ y: 0 }} exit={{ y: 80 }}
-              className="fixed bottom-20 lg:bottom-6 left-0 lg:left-60 right-0 z-40 px-4">
-              <div className="max-w-lg md:max-w-2xl mx-auto bg-bg-card border border-border rounded-2xl shadow-lg p-3 flex items-center gap-2">
+              className="fixed bottom-20 wlg:bottom-6 left-0 wlg:left-60 right-0 z-40 px-4">
+              <div className="max-w-lg wmd:max-w-2xl mx-auto bg-bg-card border border-border rounded-2xl shadow-lg p-3 flex items-center gap-2">
                 <span className="font-heading font-extrabold text-lg flex-1 truncate">{picked.word.replace(/[^\p{L}\p{N}'’·-]/gu, '')}</span>
                 <button onClick={() => tts.speak(picked.word.replace(/[^\p{L}\p{N}'’·-]/gu, ''))} className="w-9 h-9 rounded-xl bg-accent-pale text-accent">🔊</button>
                 <button
@@ -210,7 +210,7 @@ export default function Homework() {
   return (
     <div className="min-h-screen pb-24">
       <Header title={t('hw_title')} showBack />
-      <div className="px-4 py-5 max-w-lg md:max-w-2xl mx-auto space-y-4">
+      <div className="px-4 py-5 max-w-lg wmd:max-w-2xl mx-auto space-y-4">
         <p className="text-sm text-fg-muted">{t('hw_desc')}</p>
         {isNativeApp && <p className="text-xs text-fg-muted">📤 {t('hw_share_tip')}</p>}
 

@@ -58,7 +58,7 @@ export default function ReadingChallenge() {
     return (
       <div className="min-h-screen pb-28">
         <Header title={t('rc_title')} showBack />
-        <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-3">
+        <div className="px-4 py-4 max-w-lg wmd:max-w-2xl mx-auto space-y-3">
           <p className="text-sm text-fg-muted">{t('rc_desc')}</p>
           {past && prog && (
             <Card className={past.done ? 'bg-mint-pale/40' : ''}>
@@ -116,7 +116,7 @@ export default function ReadingChallenge() {
     <div className="min-h-screen pb-28">
       <Confetti active={party} />
       <Header title={t('rc_title')} showBack />
-      <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-3">
+      <div className="px-4 py-4 max-w-lg wmd:max-w-2xl mx-auto space-y-3">
         <Card className={active.done ? 'bg-mint-pale/40' : 'bg-accent-pale/30'}>
           <p className="text-xs font-bold text-fg-muted">{active.mode === 'family' ? `👨‍👩‍👧 ${t('rc_mode_family')}` : `🧑‍🤝‍🧑 ${t('rc_mode_friends')}`} · {t('rc_days_left', { n: daysLeft })}</p>
           <h2 className="font-heading font-black text-lg mt-1">{active.done ? `🏅 ${t('rc_done')}` : unit(active.kind, active.goal)}</h2>

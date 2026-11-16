@@ -23,7 +23,7 @@ export function BottomNav() {
   if (!showNav(location.pathname)) return null;
 
   return (
-    <nav className="lg:hidden fixed bottom-0 left-0 right-0 bg-bg-card border-t border-border z-50 pb-[env(safe-area-inset-bottom)]">
+    <nav className="wlg:hidden fixed bottom-0 left-0 right-0 bg-bg-card border-t border-border z-50 pb-[env(safe-area-inset-bottom)]">
       <div className="flex justify-around items-center h-16 max-w-lg mx-auto">
         {NAV_ITEMS.map((item) => {
           const active = location.pathname === item.path;

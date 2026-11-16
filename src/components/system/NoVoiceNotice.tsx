@@ -33,7 +33,7 @@ export function NoVoiceNotice() {
     <AnimatePresence>
       {show && (
         <motion.div role="status" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 20 }}
-          className="fixed left-3 right-3 bottom-24 lg:bottom-6 lg:left-64 z-50 max-w-lg mx-auto sticky-note p-3 flex items-center gap-3 shadow-lg">
+          className="fixed left-3 right-3 bottom-24 wlg:bottom-6 wlg:left-64 z-50 max-w-lg mx-auto sticky-note p-3 flex items-center gap-3 shadow-lg">
           <span className="text-2xl" aria-hidden>🔇</span>
           <p className="flex-1 text-sm font-bold leading-snug">{t(NAME[base as keyof typeof NAME] ?? 'novoice_ca')}</p>
           <button onClick={() => { setTag(null); navigate('/voces'); }} className="px-3 py-2 rounded-xl bg-accent text-white text-xs font-extrabold">{t('novoice_how')}</button>

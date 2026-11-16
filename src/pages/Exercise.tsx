@@ -191,7 +191,7 @@ export default function Exercise() {
       </div>
 
       {/* Exercise */}
-      <div className="px-4 py-6 max-w-lg md:max-w-2xl mx-auto">
+      <div className="px-4 py-6 max-w-lg wmd:max-w-2xl mx-auto">
         {currentExercise.preview && (
           <div className="mb-3 mx-auto w-fit px-3 py-1 rounded-full bg-mint-pale text-[11px] font-bold text-fg">
             ⬆️ {t('step_preview')}

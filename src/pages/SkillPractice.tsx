@@ -68,7 +68,7 @@ export default function SkillPractice() {
     return (
       <div className="min-h-screen pb-24">
         <Header title={t('skill_train_title')} showBack />
-        <div className="px-4 py-10 max-w-lg md:max-w-2xl mx-auto text-center space-y-4">
+        <div className="px-4 py-10 max-w-lg wmd:max-w-2xl mx-auto text-center space-y-4">
           <div className="text-5xl">🤔</div>
           <p className="text-sm text-fg-muted">{t('skill_train_none')}</p>
           <Button fullWidth onClick={() => navigate('/', { replace: true })}>{t('res_home')}</Button>
@@ -89,7 +89,7 @@ export default function SkillPractice() {
         </div>
         <span className="text-xs font-bold text-fg-muted">{t('ex_question', { n: currentIndex + 1, total: exercises.length })}</span>
       </div>
-      <div className="px-4 py-6 max-w-lg md:max-w-2xl mx-auto">
+      <div className="px-4 py-6 max-w-lg wmd:max-w-2xl mx-auto">
         {ex.type === 'write' ? (
           <WriteExercise key={ex.id} exercise={ex} questionNumber={currentIndex + 1} totalQuestions={exercises.length} onAnswer={handleAnswer} />
         ) : ex.type === 'drag_order' || ex.type === 'drag_fill' ? (
@@ -100,7 +100,7 @@ export default function SkillPractice() {
         )}
       </div>
       {currentIndex === 0 && (
-        <div className="px-4 max-w-lg md:max-w-2xl mx-auto">
+        <div className="px-4 max-w-lg wmd:max-w-2xl mx-auto">
           <Card className="text-xs text-fg-muted">🏡 {t(skillTipKey(skill))}</Card>
         </div>
       )}

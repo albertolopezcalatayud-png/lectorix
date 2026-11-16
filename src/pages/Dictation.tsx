@@ -103,7 +103,7 @@ export default function Dictation() {
     return (
       <div className="min-h-screen pb-24">
         <Header title={t('dict_title')} showBack />
-        <div className="px-4 py-5 max-w-lg md:max-w-2xl mx-auto space-y-3">
+        <div className="px-4 py-5 max-w-lg wmd:max-w-2xl mx-auto space-y-3">
           <p className="text-sm text-fg-muted">{t('dict_tip')}</p>
           {!tts.isAvailable() && (
             <Card className="border-red/30 bg-red-pale/30 text-sm">⚠️ {t('dict_no_voice')} <a href="#/voces" className="font-bold text-accent">{t('voice_fix_link')} →</a></Card>
@@ -152,7 +152,7 @@ export default function Dictation() {
           {t('ex_question', { n: currentIndex + 1, total: exercises.length })}
         </span>
       </div>
-      <div className="px-4 py-6 max-w-lg md:max-w-2xl mx-auto">
+      <div className="px-4 py-6 max-w-lg wmd:max-w-2xl mx-auto">
         <WriteExercise
           key={exercises[currentIndex].id}
           exercise={exercises[currentIndex]}

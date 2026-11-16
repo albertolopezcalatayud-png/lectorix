@@ -22,11 +22,11 @@ export function ProfilePicker({ onDone, onZone }: { onDone: () => void; onZone: 
   const choose = (p: Profile | 'manage') => { if (hasPin()) setPending(p); else void enter(p); };
   return (
     <div className="min-h-screen bg-bg text-fg px-4 py-8">
-      <div className="max-w-lg md:max-w-3xl lg:max-w-5xl mx-auto space-y-5">
+      <div className="max-w-lg wmd:max-w-3xl wlg:max-w-5xl mx-auto space-y-5">
         <h1 className="font-heading font-black text-2xl text-center">👋 {t('pf_who')}</h1>
         {hasPin() && list.length > 0 && <p className="text-sm text-fg-muted text-center">🔒 {t('pf_who_pin')}</p>}
         {list.length === 0 && <p className="text-sm text-center">{t('pf_none_yet')}</p>}
-        <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+        <ul className="grid grid-cols-2 sm:grid-cols-3 wlg:grid-cols-4 wxl:grid-cols-5 gap-3">
           {list.map((p) => (
             <li key={p.id}>
               <button disabled={busy} onClick={() => choose(p)}

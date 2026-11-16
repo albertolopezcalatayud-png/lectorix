@@ -91,7 +91,7 @@ export default function Mascot() {
     <div className="min-h-screen pb-24">
       <Header title={t('mascot_title')} />
 
-      <div className="px-4 py-5 max-w-lg md:max-w-3xl lg:max-w-4xl mx-auto space-y-4">
+      <div className="px-4 py-5 max-w-lg wmd:max-w-3xl wlg:max-w-4xl mx-auto space-y-4">
         {/* Mascot Preview */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
@@ -138,7 +138,7 @@ export default function Mascot() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3"
+            className="grid grid-cols-2 wmd:grid-cols-3 wlg:grid-cols-4 gap-3"
           >
             {/* Default / Remove option */}
             {activeTab !== 'color' && (

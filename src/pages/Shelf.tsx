@@ -67,7 +67,7 @@ export default function Shelf() {
       <div className="min-h-screen pb-28">
         <Confetti active={party} />
         <Header title={t('sh_title')} showBack />
-        <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-3">
+        <div className="px-4 py-4 max-w-lg wmd:max-w-2xl mx-auto space-y-3">
           <button onClick={() => setOpenId(null)} className="text-xs font-bold text-accent">← {t('sh_back')}</button>
           <Card>
             <div className="flex gap-3 items-center">
@@ -167,7 +167,7 @@ export default function Shelf() {
   return (
     <div className="min-h-screen pb-28">
       <Header title={t('sh_title')} showBack />
-      <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-4">
+      <div className="px-4 py-4 max-w-lg wmd:max-w-2xl mx-auto space-y-4">
         <p className="text-sm text-fg-muted text-center">{t('sh_desc')}</p>
         <button onClick={() => navigate('/reto-lectura')} className="w-full text-left rounded-2xl bg-accent-pale/50 border border-accent/30 px-4 py-3 flex items-center gap-3">
           <span className="text-2xl">🏆</span>

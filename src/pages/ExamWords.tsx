@@ -97,7 +97,7 @@ export default function ExamWords() {
   return (
     <div className="min-h-screen pb-28">
       <Header title={t('ev_title')} showBack />
-      <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-4">
+      <div className="px-4 py-4 max-w-lg wmd:max-w-2xl mx-auto space-y-4">
         <p className="text-sm text-fg-muted">{t('ev_intro')}</p>
         <div className="flex gap-2 bg-surface-alt p-1 rounded-2xl" role="group">
           <TabBtn id="learn" label={`📚 ${t('ev_tab_learn')}`} />

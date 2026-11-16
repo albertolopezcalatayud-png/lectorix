@@ -19,7 +19,7 @@ export function SideNav() {
   const group = mode() === 'group';
   const avatar = group ? activeProfile()?.avatar : null;
   return (
-    <nav aria-label={t('nav_main')} className="hidden lg:flex fixed top-0 bottom-0 left-0 w-60 z-40 flex-col bg-bg-card border-r border-border px-4 py-6">
+    <nav aria-label={t('nav_main')} className="hidden wlg:flex fixed top-0 bottom-0 left-0 w-60 z-40 flex-col bg-bg-card border-r border-border px-4 py-6">
       <button onClick={() => navigate('/')} className="font-heading font-black text-2xl text-accent text-left px-3 mb-6">Lectorix</button>
       <ul className="space-y-1">
         {NAV_ITEMS.map((item) => {
@@ -54,5 +54,5 @@ export function SideNav() {
 /** Leaves room for the side navigation on large screens when it is shown */
 export function NavOffset({ children }: { children: React.ReactNode }) {
   const location = useLocation();
-  return <div className={showNav(location.pathname) ? 'lg:pl-60' : ''}>{children}</div>;
+  return <div className={showNav(location.pathname) ? 'wlg:pl-60' : ''}>{children}</div>;
 }

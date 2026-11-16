@@ -40,7 +40,7 @@ export default function Levels() {
     <div className="min-h-screen pb-24">
       <Header title={t(MODULE_TEXT[mod.id].name)} showBack />
 
-      <div className="px-4 py-5 max-w-lg md:max-w-3xl lg:max-w-4xl mx-auto">
+      <div className="px-4 py-5 max-w-lg wmd:max-w-3xl wlg:max-w-4xl mx-auto">
         {lang === 'en' && (
           <p className="mb-4 px-3 py-2 rounded-xl bg-sky-pale text-[11px] font-bold text-fg">🇬🇧 {t('cefr_note')}</p>
         )}
@@ -87,7 +87,7 @@ export default function Levels() {
         </motion.div>
 
         {/* Level cards */}
-        <div className="grid gap-3 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-3 wmd:grid-cols-2">
           {levels.map((level, i) => {
             const unlocked = isLevelUnlocked(mod.id, level);
             const levelProgress = progress.find((p) => p.module === mod.id && p.level === level);

@@ -17,7 +17,7 @@ export default function Modules() {
     <div className="min-h-screen pb-24">
       <Header title={t('mod_title')} showBack />
 
-      <div className="px-4 py-5 max-w-lg md:max-w-3xl lg:max-w-5xl mx-auto grid gap-3 md:grid-cols-2">
+      <div className="px-4 py-5 max-w-lg wmd:max-w-3xl wlg:max-w-5xl mx-auto grid grid-cols-1 gap-3 wmd:grid-cols-2">
         {MODULES.map((mod, i) => {
           const modProgress = progress.filter((p) => p.module === mod.id);
           const completedLevels = modProgress.filter((p) => p.stars > 0).length;

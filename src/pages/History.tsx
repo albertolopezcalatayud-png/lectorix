@@ -54,7 +54,7 @@ export default function History() {
     <div className="min-h-screen pb-24">
       <Header title={t('hist_title')} />
 
-      <div className="px-4 py-5 max-w-lg md:max-w-2xl mx-auto">
+      <div className="px-4 py-5 max-w-lg wmd:max-w-2xl mx-auto">
         {sessionHistory.length === 0 ? (
           <motion.div
             initial={{ opacity: 0, y: 20 }}

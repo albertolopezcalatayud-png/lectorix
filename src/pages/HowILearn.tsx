@@ -31,7 +31,7 @@ export default function HowILearn() {
   return (
     <div className="min-h-screen pb-28">
       <Header title={s.title} showBack />
-      <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-3">
+      <div className="px-4 py-4 max-w-lg wmd:max-w-2xl mx-auto space-y-3">
         <p className="text-sm text-fg-muted text-center">{s.intro}</p>
 
         <Card>
@@ -110,7 +110,7 @@ export function FamilyGuide() {
   return (
     <div className="min-h-screen pb-28">
       <Header title={f.title} showBack />
-      <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-3">
+      <div className="px-4 py-4 max-w-lg wmd:max-w-2xl mx-auto space-y-3">
         <p className="text-sm text-fg-muted">{f.intro}</p>
         {f.sections.map((sec) => (
           <Card key={sec.title}>

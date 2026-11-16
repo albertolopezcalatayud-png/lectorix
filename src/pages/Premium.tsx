@@ -11,7 +11,7 @@ export default function Premium() {
   return (
     <div className="min-h-screen pb-24">
       <Header title={t('prem_title')} showBack />
-      <div className="px-4 py-8 max-w-lg md:max-w-2xl mx-auto space-y-4 text-center">
+      <div className="px-4 py-8 max-w-lg wmd:max-w-2xl mx-auto space-y-4 text-center">
         <span className="text-6xl block">🌱</span>
         <Card className="text-left space-y-2">
           <p className="text-sm">{t('plans_now')}</p>

@@ -150,7 +150,7 @@ export default function Voices() {
   return (
     <div className="min-h-screen pb-28">
       <Header title={t('voice_title')} showBack />
-      <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-3">
+      <div className="px-4 py-4 max-w-lg wmd:max-w-2xl mx-auto space-y-3">
         <p className="text-sm text-fg-muted">{t('voice_intro')}</p>
         <Card>
           <ul className="space-y-2">

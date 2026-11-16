@@ -30,7 +30,7 @@ export default function Profile() {
     <div className="min-h-screen pb-24">
       <Header title={t('prof_title')} />
 
-      <div className="px-4 py-5 max-w-lg md:max-w-2xl lg:max-w-5xl mx-auto space-y-4 lg-cols-2">
+      <div className="px-4 py-5 max-w-lg wmd:max-w-2xl wlg:max-w-5xl mx-auto space-y-4 lg-cols-2">
         {/* Avatar & Name */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

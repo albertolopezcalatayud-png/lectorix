@@ -33,7 +33,7 @@ export default function Notebook() {
   return (
     <div className="min-h-screen pb-24">
       <Header title={t('nb_title')} showBack />
-      <div className="px-4 py-5 max-w-lg md:max-w-2xl mx-auto space-y-4">
+      <div className="px-4 py-5 max-w-lg wmd:max-w-2xl mx-auto space-y-4">
         <p className="text-sm text-fg-muted">{t('nb_desc')}</p>
 
         {pending.length === 0 ? (

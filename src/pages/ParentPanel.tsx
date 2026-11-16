@@ -60,7 +60,7 @@ export default function ParentPanel() {
     <div className="min-h-screen pb-24">
       <Header title={t('parent_title')} showBack />
 
-      <div className="px-4 py-5 max-w-lg md:max-w-2xl lg:max-w-5xl mx-auto space-y-4 lg-cols-2">
+      <div className="px-4 py-5 max-w-lg wmd:max-w-2xl wlg:max-w-5xl mx-auto space-y-4 lg-cols-2">
         {/* Export buttons */}
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex gap-2 justify-end">
           {!isNativeApp && (

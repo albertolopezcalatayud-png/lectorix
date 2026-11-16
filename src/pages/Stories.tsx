@@ -132,7 +132,7 @@ export default function Stories() {
     return (
       <div className="min-h-screen pb-28">
         <Header title={t('sto_title')} showBack />
-        <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-3">
+        <div className="px-4 py-4 max-w-lg wmd:max-w-2xl mx-auto space-y-3">
           <h2 className="font-heading font-black text-xl text-center">{HEROES.find((h) => h.id === story.hero)!.emoji} {title}</h2>
           <div className="flex gap-1.5 justify-center">
             <button onClick={() => void tts.speakIn(text.replace(/\n+/g, ' '), TAG[story.lang], 0.85)} className="px-3 py-1.5 rounded-full bg-accent text-white text-xs font-bold">🔊 {t('hw_listen_all')}</button>
@@ -163,7 +163,7 @@ export default function Stories() {
     return (
       <div className="min-h-screen">
         <Header title={title} showBack />
-        <div className="px-4 py-6 max-w-lg md:max-w-2xl mx-auto">
+        <div className="px-4 py-6 max-w-lg wmd:max-w-2xl mx-auto">
           <ExerciseCard key={quiz[qi].id} exercise={quiz[qi]} questionNumber={qi + 1} totalQuestions={quiz.length} onAnswer={onAnswer} />
         </div>
       </div>
@@ -175,7 +175,7 @@ export default function Stories() {
     return (
       <div className="min-h-screen pb-24">
         <Header title={t('sto_title')} />
-        <div className="px-4 py-8 max-w-lg md:max-w-2xl mx-auto space-y-4 text-center">
+        <div className="px-4 py-8 max-w-lg wmd:max-w-2xl mx-auto space-y-4 text-center">
           <motion.div initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="text-6xl">📖</motion.div>
           <h2 className="font-heading font-black text-xl">{t('st_done', { right, total: answers.length })}</h2>
           {xp > 0 && <p className="font-heading font-black text-2xl text-mint">{t('pts_plus', { n: xp })}</p>}
@@ -205,7 +205,7 @@ export default function Stories() {
   return (
     <div className="min-h-screen pb-24">
       <Header title={t('sto_title')} showBack />
-      <div className="px-4 py-5 max-w-lg md:max-w-2xl mx-auto space-y-5">
+      <div className="px-4 py-5 max-w-lg wmd:max-w-2xl mx-auto space-y-5">
         <p className="text-sm text-fg-muted text-center">{t('sto_desc')}</p>
         <Row label={t('sto_pick_hero')} value={hero} set={setHero} items={HEROES.map((h) => ({ id: h.id, emoji: h.emoji, label: heroName(h, lang) }))} />
         <Row label={t('sto_pick_place')} value={place} set={setPlace} items={PLACES.map((p) => ({ id: p.id, emoji: p.emoji, label: cap(p.t[lang].the) }))} />

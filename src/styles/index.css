@@ -268,13 +268,18 @@ h1, h2, h3, h4, h5, h6 {
 /* Notebook margin: a coloured strip on the left of list cards */
 .card-margin { border-left: 6px solid var(--tab, var(--color-coral)) !important; }
 
-/* ---------- Computers and large tablets ----------
-   The app was drawn for phones. On big screens: a little larger overall (all sizes are in rem),
-   navigation on the left (SideNav), wider pages and, where it helps, several columns. */
-@media (min-width: 1024px) { html { font-size: 106.25%; } }
-@media (min-width: 1440px) { html { font-size: 112.5%; } }
+/* ---------- Web on computers and large tablets ----------
+   Only on the web (html.web, set in main.tsx), never in the Android app, whose design stays as it is.
+   Navigation on the left (SideNav), wider pages and, where it helps, several columns.
+   Variants: wmd: (from 768px), wlg: (from 1024px), wxl: (from 1280px), only on the web. */
+@custom-variant wmd { @media (min-width: 48rem) { html.web & { @slot; } } }
+@custom-variant wlg { @media (min-width: 64rem) { html.web & { @slot; } } }
+@custom-variant wxl { @media (min-width: 80rem) { html.web & { @slot; } } }
+/* A little larger overall on big screens (all sizes are in rem) */
+@media (min-width: 1024px) { html.web { font-size: 106.25%; } }
+@media (min-width: 1440px) { html.web { font-size: 112.5%; } }
 /* Cards in two columns, top to bottom (the reading order does not change). For pages made of separate cards. */
 @media (min-width: 1024px) {
-  .lg-cols-2 { columns: 2; column-gap: 1.5rem; }
-  .lg-cols-2 > * { break-inside: avoid; }
+  html.web .lg-cols-2 { columns: 2; column-gap: 1.5rem; }
+  html.web .lg-cols-2 > * { break-inside: avoid; }
 }
