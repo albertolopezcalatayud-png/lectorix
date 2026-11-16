@@ -40,7 +40,7 @@ const BASE = 'http://localhost:4173/lectorix/';
     for (let i = 0; i < 12; i++) {
       const s = await p.evaluate(() => { try { return JSON.parse(localStorage.getItem('lectorix-store')).state.onboardingDone; } catch { return false; } });
       if (s) break;
-      const btn = p.getByRole('button', { name: /Saltar tutorial|Siguiente|Empezar/ }).first();
+      const btn = p.getByRole('button', { name: /Para mí|Saltar tutorial|Siguiente|Empezar/ }).first();
       if (await btn.count()) await btn.click().catch(() => {}); else break;
       await p.waitForTimeout(700);
     }
