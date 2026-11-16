@@ -1,0 +1,1 @@
+{"engine":"vosk","models":{"es":"vosk-model-small-es-0.42","ca":"vosk-model-small-ca-0.4","en":"vosk-model-small-en-us-0.15"},"license":"Apache-2.0","source":"https://alphacephei.com/vosk/models"}
