@@ -27,6 +27,8 @@ LANGS = {
 }
 NB_PER_WORD = int(os.environ.get('NB_PER_WORD', '6'))
 TOP = int(os.environ.get('NB_TOP', '40000'))
+MIN_LEN = int(os.environ.get('NB_MIN_LEN', '3'))      # shorter words get no rivals
+SKIP_TOP = int(os.environ.get('NB_SKIP_TOP', '0'))    # nor do the N most frequent words (el, la, de, que...)
 norm = lambda w: re.sub(r"[^\w'·-]", '', w.lower(), flags=re.U).strip("'-")
 def words(s): return [w for w in (norm(x) for x in s.split()) if w]
 
@@ -42,6 +44,19 @@ def lcs_matched(target, hyp):
         else: j += 1
     return out
 
+def lcs_pairs(target, hyp, eq):
+    """{target index: hyp index}, in order, where eq(target word, heard word)."""
+    n, m = len(target), len(hyp); dp = [[0] * (m + 1) for _ in range(n + 1)]
+    for i in range(n - 1, -1, -1):
+        for j in range(m - 1, -1, -1):
+            dp[i][j] = dp[i + 1][j + 1] + 1 if eq(target[i], hyp[j]) else max(dp[i + 1][j], dp[i][j + 1])
+    i = j = 0; out = {}
+    while i < n and j < m:
+        if eq(target[i], hyp[j]): out[i] = j; i += 1; j += 1
+        elif dp[i + 1][j] >= dp[i][j + 1]: i += 1
+        else: j += 1
+    return out
+
 def near(w):
     swaps = {'p': 'b', 'b': 'p', 't': 'd', 'd': 't', 'c': 'g', 'g': 'c', 'm': 'n', 'n': 'm', 'r': 'l', 'l': 'r', 's': 'f', 'f': 's'}
     for i, ch in enumerate(w):
@@ -50,7 +65,7 @@ def near(w):
 
 def rivals(w, rank, abc, limit):
     """Real words one letter away from w (changed, added or removed), most frequent first. Same rule as the app."""
-    if len(w) < 3: return []
+    if len(w) < MIN_LEN or rank.get(w, 10**9) < SKIP_TOP: return []
     out = set()
     for i in range(len(w) + 1):
         if i < len(w):
@@ -80,7 +95,7 @@ def vosk_run(model, pcm, grammar=None):
     return [(norm(r['word']), r.get('conf', 1.0)) for r in out if r['word'] != '[unk]' and norm(r['word'])]
 
 THRESH = [0.5, 0.7, 0.85, 0.95, 1.0]
-ENGINES = ['text', 'text+nb'] + [f'text+nb@{t}' for t in THRESH] + [f'text@{t}' for t in (0.7, 0.95)] + ['two-pass']
+ENGINES = ['text', 'text+nb', 'nb:doubt'] + [f'text+nb@{t}' for t in THRESH] + [f'text@{t}' for t in (0.7, 0.95)] + ['two-pass']
 report = {}
 for lang, c in LANGS.items():
     freq = gzip.open(os.path.join(DICT, lang + '.frz')).read().decode('utf-8').split('\n')
@@ -105,7 +120,8 @@ for lang, c in LANGS.items():
             if len(cands) < 3: cands = list(range(len(tgt)))
             pos = sorted(random.sample(cands, 3))
             base = sorted(set(tgt))
-            nb = sorted({x for w in base for x in rivals(w, rank, c['abc'], NB_PER_WORD)} - set(base))
+            riv = {w: set(rivals(w, rank, c['abc'], NB_PER_WORD)) - set(base) for w in base}
+            nb = sorted({x for r in riv.values() for x in r})
             nb_sizes.append(len(nb))
             # a close real word for one of the words, if there is one that is not already in the sentence
             real_i, real_w = None, None
@@ -130,8 +146,12 @@ for lang, c in LANGS.items():
                 hyps = {'text': [w for w, _ in h_text], 'text+nb': [w for w, _ in h_nb]}
                 for t in THRESH: hyps[f'text+nb@{t}'] = [w for w, cf in h_nb if cf >= t]
                 for t in (0.7, 0.95): hyps[f'text@{t}'] = [w for w, cf in h_text if cf >= t]
+                # the app's plan: a rival heard where the word was expected = "doubtful" (shown for review), not "read"
+                pairs = lcs_pairs(tgt, hyps['text+nb'], lambda t, h: h == t or h in riv[t])
+                doubt = {i for i, j in pairs.items() if hyps['text+nb'][j] != tgt[i]}
                 for e in ENGINES:
-                    if e == 'two-pass': hit = lcs_matched(tgt, hyps['text']) & lcs_matched(tgt, [w for w, _ in h_free])
+                    if e == 'nb:doubt': hit = doubt
+                    elif e == 'two-pass': hit = lcs_matched(tgt, hyps['text']) & lcs_matched(tgt, [w for w, _ in h_free])
                     else: hit = lcs_matched(tgt, hyps[e])
                     st = stats[e]
                     if kind == 'ok': st['ok_hit'] += len(hit); st['ok_tot'] += len(tgt)
@@ -143,6 +163,6 @@ for lang, c in LANGS.items():
     pct = lambda a, b: round(100 * a / b, 1) if b else None
     report[lang] = {e: [pct(st['ok_hit'], st['ok_tot']), pct(st['near_acc'], st['near_tot']), pct(st['real_acc'], st['real_tot']), pct(st['fake_acc'], st['fake_tot']), pct(st['skip_acc'], st['skip_tot']), pct(st['gib_acc'], st['gib_tot'])] for e, st in stats.items()}
     print(f"\n{lang}: {stats['text']['near_tot']} sentences x voices, rivals per sentence avg {sum(nb_sizes) / max(1, len(nb_sizes)):.0f}; speed x realtime: " + ', '.join(f"{k} {audio / v:.0f}" for k, v in secs.items() if v))
-    print(f"{'engine':14} {'ok%':>6} {'near%':>6} {'real%':>6} {'fake%':>6} {'skip%':>6} {'gib%':>6}   (ok = right words recognised; the rest = wrong words accepted)")
+    print(f"{'engine':14} {'ok%':>6} {'near%':>6} {'real%':>6} {'fake%':>6} {'skip%':>6} {'gib%':>6}   (ok = right words recognised; the rest = wrong words accepted. Row nb:doubt = words flagged as doubtful)")
     for e in ENGINES: print(f"{e:14} " + ' '.join(f"{'' if v is None else v:>6}" for v in report[lang][e]), flush=True)
 print('\nJSON', json.dumps(report))

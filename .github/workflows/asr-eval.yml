@@ -2,15 +2,15 @@ name: Reading recogniser comparison
 
 on:
   workflow_dispatch:
-    inputs:
-      nb:
-        description: Rivals per word
-        default: '6'
 
 jobs:
   eval:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        cfg: ['6 3 0', '4 4 150', '3 4 300', '3 5 500']
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,6 +27,7 @@ jobs:
             curl -sfL "https://alphacephei.com/vosk/models/$m.zip" -o /tmp/m.zip && unzip -q /tmp/m.zip -d /tmp/vosk && du -sh /tmp/vosk/$m
           done
       - name: Compare
-        env:
-          NB_PER_WORD: ${{ inputs.nb }}
-        run: python scripts/asr/eval2.py /tmp/voices /tmp/vosk
+        run: |
+          set -- ${{ matrix.cfg }}
+          echo "CONFIG rivals=$1 minlen=$2 skiptop=$3"
+          NB_PER_WORD=$1 NB_MIN_LEN=$2 NB_SKIP_TOP=$3 python scripts/asr/eval2.py /tmp/voices /tmp/vosk 2>/dev/null
