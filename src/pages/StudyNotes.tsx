@@ -56,7 +56,7 @@ export default function StudyNotes() {
     return (
       <div className="min-h-screen pb-24">
         <Header title={t('st_title')} showBack />
-        <div className="px-4 py-10 max-w-lg mx-auto text-center space-y-4">
+        <div className="px-4 py-10 max-w-lg md:max-w-2xl mx-auto text-center space-y-4">
           <div className="text-5xl">📄</div>
           <p className="text-sm text-fg-muted">{t('st_too_short')}</p>
           <Button fullWidth onClick={() => navigate(-1)}>{t('back')}</Button>
@@ -69,7 +69,7 @@ export default function StudyNotes() {
     return (
       <div className="min-h-screen pb-24">
         <Header title={t('st_title')} showBack />
-        <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
+        <div className="px-4 py-5 max-w-lg md:max-w-2xl mx-auto space-y-4">
           <div className="text-center">
             <span className="text-5xl block mb-2">🎓</span>
             {title && <p className="text-xs font-bold text-fg-muted">{title}</p>}
@@ -95,7 +95,7 @@ export default function StudyNotes() {
     return (
       <div className="min-h-screen pb-24">
         <Header title={t('st_title')} />
-        <div className="px-4 py-6 max-w-lg mx-auto space-y-4 text-center">
+        <div className="px-4 py-6 max-w-lg md:max-w-2xl mx-auto space-y-4 text-center">
           <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="text-6xl">{right / answers.length >= 0.8 ? '🏆' : right / answers.length >= 0.5 ? '👍' : '💪'}</motion.div>
           <h2 className="font-heading font-black text-xl">{t('st_done', { right, total: answers.length })}</h2>
           {xp > 0 && <p className="font-heading font-black text-2xl text-mint">{t('pts_plus', { n: xp })}</p>}
@@ -128,7 +128,7 @@ export default function StudyNotes() {
           {title && <p className="text-[10px] text-fg-muted truncate">{title}</p>}
         </div>
       </div>
-      <div className="px-4 py-6 max-w-lg mx-auto">
+      <div className="px-4 py-6 max-w-lg md:max-w-2xl mx-auto">
         {ex.type === 'write' ? (
           <WriteExercise key={ex.id} exercise={ex} questionNumber={index + 1} totalQuestions={study.exercises.length} onAnswer={onAnswer} />
         ) : ex.type === 'drag_order' ? (

@@ -120,7 +120,7 @@ export default function Essay() {
   return (
     <div className="min-h-screen pb-28">
       <Header title={t('es_title')} showBack />
-      <div className="px-4 py-4 max-w-lg mx-auto space-y-4">
+      <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-4">
         {step !== 'pick' && (
           <div className="flex items-center gap-1.5" aria-label={t('es_step', { n: idx, total: 3 })}>
             {(['plan', 'write', 'check'] as Step[]).map((s, i) => (

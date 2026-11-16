@@ -128,7 +128,7 @@ export default function Achievements() {
     totalStars: progress.reduce((sum, p) => sum + p.stars, 0),
     completedLevels: progress.filter((p) => p.stars > 0).length,
     streak: user?.streak_days || 0,
-    attempts: progress.reduce((sum, p) => sum + p.attempts, 0),
+    attempts: progress.reduce((sum, p) => sum + (p.attempts ?? 0), 0),
     modulesStarted: new Set(progress.map((p) => p.module)).size,
   };
 
@@ -140,7 +140,7 @@ export default function Achievements() {
     <div className="min-h-screen pb-24">
       <Header title={t('ach_title')} />
 
-      <div className="px-4 py-5 max-w-lg mx-auto">
+      <div className="px-4 py-5 max-w-lg md:max-w-3xl lg:max-w-5xl mx-auto">
         {/* Summary */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -164,7 +164,7 @@ export default function Achievements() {
             <h3 className="font-heading font-extrabold text-xs uppercase text-fg-muted mb-3">
               {t('ach_section_unlocked')}
             </h3>
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
               {unlocked.map((a, i) => (
                 <motion.div
                   key={a.id}
@@ -212,7 +212,7 @@ export default function Achievements() {
             <h3 className="font-heading font-extrabold text-xs uppercase text-fg-muted mb-3">
               {t('ach_section_locked')}
             </h3>
-            <div className="space-y-2">
+            <div className="grid gap-2 md:grid-cols-2">
               {locked.map((a, i) => {
                 const prog = a.progress?.(stats);
                 const pct = prog ? prog.current / prog.target : 0;

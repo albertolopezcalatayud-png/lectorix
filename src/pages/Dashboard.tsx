@@ -34,7 +34,8 @@ export default function Dashboard() {
     <div className="min-h-screen pb-24">
       <Header />
 
-      <div className="px-4 py-5 max-w-lg mx-auto space-y-5">
+      <div className="px-4 py-5 max-w-lg md:max-w-2xl lg:max-w-6xl mx-auto space-y-5 lg:space-y-0 lg:grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-8 lg:items-start">
+        <div className="space-y-5">
         {/* Welcome + Mascot */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
           className="flex items-center gap-4"
@@ -132,6 +133,8 @@ export default function Dashboard() {
           </button>
         </motion.div>
 
+        </div>
+        <div className="space-y-5">
         {/* Dictation & guided reading */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.18 }}
           className="grid grid-cols-2 gap-2.5"
@@ -182,7 +185,7 @@ export default function Dashboard() {
             </button>
           </div>
 
-          <div className="space-y-2.5">
+          <div className="space-y-2.5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-2.5">
             {MODULES.map((mod, i) => {
               const modProgress = progress.filter((p) => p.module === mod.id);
               const completedLevels = modProgress.filter((p) => p.stars > 0).length;
@@ -215,6 +218,7 @@ export default function Dashboard() {
               );
             })}
           </div>
+        </div>
         </div>
       </div>
     </div>

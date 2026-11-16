@@ -88,7 +88,7 @@ export default function Reading() {
         )}
       </div>
 
-      <div className="px-4 max-w-lg mx-auto">
+      <div className="px-4 max-w-lg md:max-w-2xl mx-auto">
         {phase === 'reading' ? (
           <>
             <h1 className="font-heading font-black text-2xl text-center mt-5 mb-1">

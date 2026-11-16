@@ -66,7 +66,7 @@ export default function ReadingList() {
   return (
     <div className="min-h-screen pb-24">
       <Header title={t('read_title')} showBack />
-      <div className="px-4 py-5 max-w-lg mx-auto space-y-6">
+      <div className="px-4 py-5 max-w-lg md:max-w-3xl lg:max-w-6xl mx-auto space-y-6">
         <p className="text-sm text-fg-muted">{t('read_desc')}</p>
         <Card>
           <h3 className="font-heading font-extrabold text-sm mb-1">💭 {t('int_title')}</h3>
@@ -84,7 +84,7 @@ export default function ReadingList() {
           <section>
             <h3 className="font-heading font-extrabold text-sm mb-2.5">✨ {t('int_for_you')}</h3>
             {forYou.length > 0
-              ? <div className="space-y-2.5">{forYou.map((r, i) => <Item key={r.id} r={r} i={i} />)}</div>
+              ? <div className="grid gap-2.5 md:grid-cols-2 lg:grid-cols-3">{forYou.map((r, i) => <Item key={r.id} r={r} i={i} />)}</div>
               : <p className="text-xs text-fg-muted">{t('int_none')}</p>}
           </section>
         )}
@@ -100,7 +100,7 @@ export default function ReadingList() {
                 </button>
               ))}
             </div>
-            <div className="space-y-2.5">
+            <div className="grid gap-2.5 md:grid-cols-2 lg:grid-cols-3">
               {subjectReadings.filter((r) => subject === 'all' || r.subject === subject).sort((a, b) => a.level - b.level).map((r, i) => <Item key={r.id} r={r} i={i} />)}
             </div>
           </section>
@@ -110,7 +110,7 @@ export default function ReadingList() {
             <h3 className="font-heading font-extrabold text-sm mb-2.5">
               {t('dash_level', { level })} · {t(levelNameKey(level))}{levelTag(lang, level)}
             </h3>
-            <div className="space-y-2.5">
+            <div className="grid gap-2.5 md:grid-cols-2 lg:grid-cols-3">
               {general.filter((r) => r.level === level).map((r, i) => <Item key={r.id} r={r} i={i} />)}
             </div>
           </section>

@@ -1264,6 +1264,9 @@ export const es = {
   pf_none_yet: 'Todavía no hay alumnos. Un adulto puede añadirlos en la zona docente.',
   pf_to_picker: 'Ir a «¿Quién va a practicar?»',
   pf_next_student: 'He terminado: turno de otro alumno',
+
+  // Side navigation
+  nav_main: 'Menú principal',
 } as const;
 
 export type TranslationKey = keyof typeof es;

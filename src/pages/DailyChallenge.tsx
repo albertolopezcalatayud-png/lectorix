@@ -144,7 +144,7 @@ export default function DailyChallenge() {
         </span>
       </div>
 
-      <div className="px-4 py-6 max-w-lg mx-auto">
+      <div className="px-4 py-6 max-w-lg md:max-w-2xl mx-auto">
         <ExerciseCard
           key={exercises[currentIndex].id}
           exercise={exercises[currentIndex]}

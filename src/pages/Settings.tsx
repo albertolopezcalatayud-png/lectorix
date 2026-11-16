@@ -77,7 +77,7 @@ export default function Settings() {
     <div className="min-h-screen pb-24">
       <Header title={t('set_title')} showBack />
 
-      <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
+      <div className="px-4 py-5 max-w-lg md:max-w-2xl lg:max-w-5xl mx-auto space-y-4 lg-cols-2">
         {/* Theme */}
         <Card>
           <h3 className="font-heading font-extrabold text-sm mb-3">{t('set_display')}</h3>

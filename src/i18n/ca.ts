@@ -1266,4 +1266,7 @@ export const ca: Record<TranslationKey, string> = {
   pf_none_yet: 'Encara no hi ha alumnes. Un adult pot afegir-los en la zona docent.',
   pf_to_picker: 'Anar a «Qui practicarà?»',
   pf_next_student: 'He acabat: torn d\'un altre alumne',
+
+  // Side navigation
+  nav_main: 'Menú principal',
 };

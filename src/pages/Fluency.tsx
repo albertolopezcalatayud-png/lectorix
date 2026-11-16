@@ -178,7 +178,7 @@ export default function Fluency() {
   return (
     <div className="min-h-screen pb-24">
       <Header title={t('flu_title')} showBack />
-      <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
+      <div className="px-4 py-5 max-w-lg md:max-w-2xl mx-auto space-y-4">
         {phase === 'setup' && (
           <>
             <p className="text-sm text-fg-muted">{t('flu_desc')}</p>

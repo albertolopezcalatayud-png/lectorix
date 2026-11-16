@@ -142,7 +142,7 @@ export default function Placement() {
     return (
       <div className="min-h-screen pb-24">
         <Header title={t('plc_title')} showBack />
-        <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
+        <div className="px-4 py-5 max-w-lg md:max-w-2xl mx-auto space-y-4">
           <div className="text-center">
             <span className="text-5xl block mb-2">🧭</span>
             <p className="text-sm text-fg-muted">{t('plc_desc')}</p>
@@ -180,7 +180,7 @@ export default function Placement() {
     return (
       <div className="min-h-screen pb-24">
         <Header title={t('plc_title')} />
-        <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
+        <div className="px-4 py-5 max-w-lg md:max-w-2xl mx-auto space-y-4">
           <div className="text-center">
             <span className="text-5xl block mb-2">🎉</span>
             <h2 className="font-heading font-black text-xl">{t('plc_done_title')}</h2>
@@ -226,7 +226,7 @@ export default function Placement() {
           <p className="text-[10px] text-fg-muted">{t('plc_max_note', { n: PER_STEP * MAX_STEPS })}</p>
         </div>
       </div>
-      <div className="px-4 py-5 max-w-lg mx-auto">
+      <div className="px-4 py-5 max-w-lg md:max-w-2xl mx-auto">
         {q ? (
           <ExerciseCard key={qKey} exercise={q} questionNumber={area!.asked + 1} totalQuestions={PER_STEP * MAX_STEPS}
             onAnswer={onAnswer} examMode />

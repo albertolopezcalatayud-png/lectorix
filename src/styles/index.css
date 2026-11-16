@@ -267,3 +267,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Notebook margin: a coloured strip on the left of list cards */
 .card-margin { border-left: 6px solid var(--tab, var(--color-coral)) !important; }
+
+/* ---------- Computers and large tablets ----------
+   The app was drawn for phones. On big screens: a little larger overall (all sizes are in rem),
+   navigation on the left (SideNav), wider pages and, where it helps, several columns. */
+@media (min-width: 1024px) { html { font-size: 106.25%; } }
+@media (min-width: 1440px) { html { font-size: 112.5%; } }
+/* Cards in two columns, top to bottom (the reading order does not change). For pages made of separate cards. */
+@media (min-width: 1024px) {
+  .lg-cols-2 { columns: 2; column-gap: 1.5rem; }
+  .lg-cols-2 > * { break-inside: avoid; }
+}

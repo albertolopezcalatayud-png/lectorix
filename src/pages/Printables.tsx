@@ -74,7 +74,7 @@ export default function Printables() {
   return (
     <div className="min-h-screen pb-28">
       <Header title={t('ws_title')} showBack />
-      <div className="px-4 py-4 max-w-lg mx-auto space-y-3">
+      <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-3">
         <p className="text-sm text-fg-muted">{t('ws_desc')}</p>
         <Card>
           <h3 className="font-heading font-extrabold text-sm mb-2">{t('ws_areas')}</h3>

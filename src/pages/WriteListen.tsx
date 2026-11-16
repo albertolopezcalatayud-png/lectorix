@@ -124,7 +124,7 @@ export default function WriteListen() {
   return (
     <div className="min-h-screen pb-28">
       <Header title={t('wl_title')} showBack />
-      <div className="px-4 py-4 max-w-lg mx-auto space-y-3">
+      <div className="px-4 py-4 max-w-lg md:max-w-2xl mx-auto space-y-3">
         <div className="flex gap-1.5 justify-center" role="group" aria-label={t('wl_lang')}>
           {(['es', 'ca', 'en'] as SpellLang[]).map((l) => (
             <button key={l} onClick={() => { setLang(l); setMode('write'); }} aria-pressed={lang === l}

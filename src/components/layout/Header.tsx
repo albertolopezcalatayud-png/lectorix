@@ -30,7 +30,7 @@ export function Header({ title, showBack = false, showXP = true }: HeaderProps) 
         {title ? (
           <h1 className={`font-heading font-bold leading-tight ${title.length > 20 ? 'text-base' : 'text-lg'}`}><span className="ink-underline">{title}</span></h1>
         ) : (
-          <span className="font-heading font-black text-xl text-accent">Lectorix</span>
+          <span className="font-heading font-black text-xl text-accent lg:hidden">Lectorix</span>
         )}
       </div>
 

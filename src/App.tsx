@@ -5,6 +5,7 @@ import { ProfilePicker } from '@/components/profiles/ProfilePicker';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BottomNav } from '@/components/layout/BottomNav';
+import { SideNav, NavOffset } from '@/components/layout/SideNav';
 import { OfflineBanner } from '@/components/ui/OfflineBanner';
 import { Onboarding } from '@/components/onboarding/Onboarding';
 import { PageTransition } from '@/components/layout/PageTransition';
@@ -187,11 +188,14 @@ export default function App() {
     <HashRouter>
       <div className="min-h-screen bg-bg text-fg">
         <OfflineBanner />
-        <ErrorBoundaryWithRoute>
-          <Suspense fallback={<LoadingSpinner />}>
-            <AnimatedRoutes />
-          </Suspense>
-        </ErrorBoundaryWithRoute>
+        <SideNav />
+        <NavOffset>
+          <ErrorBoundaryWithRoute>
+            <Suspense fallback={<LoadingSpinner />}>
+              <AnimatedRoutes />
+            </Suspense>
+          </ErrorBoundaryWithRoute>
+        </NavOffset>
         <RulerHost />
         <NoVoiceNotice />
         <BottomNav />

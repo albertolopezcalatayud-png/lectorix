@@ -48,7 +48,7 @@ export default function Together() {
   return (
     <div className="min-h-screen pb-24">
       <Header title={t('tg_title')} showBack />
-      <div className="px-4 py-5 max-w-lg mx-auto space-y-4">
+      <div className="px-4 py-5 max-w-lg md:max-w-2xl mx-auto space-y-4">
         <button onClick={() => navigate('/reto-lectura')} className="w-full text-left rounded-2xl bg-accent-pale/50 border border-accent/30 px-4 py-3 flex items-center gap-3 mb-1">
           <span className="text-2xl">🏆</span>
           <span className="flex-1"><span className="block font-heading font-extrabold text-sm">{t('rc_title')}</span><span className="block text-xs text-fg-muted">{t('rc_card_desc')}</span></span>
@@ -66,7 +66,7 @@ export default function Together() {
                 ))}
               </div>
             </Card>
-            <div className="grid grid-cols-2 gap-2.5">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2.5">
               {GAMES.map((g) => (
                 <Card key={g.id} hover onClick={() => setGame(g.id)}>
                   <span className="text-3xl">{g.icon}</span>

@@ -1266,4 +1266,7 @@ export const en: Record<TranslationKey, string> = {
   pf_none_yet: 'There are no students yet. An adult can add them in the adults\' area.',
   pf_to_picker: 'Go to “Who is going to practise?”',
   pf_next_student: 'I have finished: another student\'s turn',
+
+  // Side navigation
+  nav_main: 'Main menu',
 };

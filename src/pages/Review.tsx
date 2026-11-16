@@ -98,7 +98,7 @@ export default function Review() {
     return (
       <div className="min-h-screen pb-24">
         <Header title={t('srs_title')} showBack />
-        <div className="px-4 py-8 max-w-lg mx-auto space-y-4">
+        <div className="px-4 py-8 max-w-lg md:max-w-2xl mx-auto space-y-4">
           <LapiNote title={t('srs_none_title')}>{t('srs_none_desc')}</LapiNote>
           <Button fullWidth onClick={() => navigate('/', { replace: true })}>{t('res_home')}</Button>
         </div>
@@ -125,7 +125,7 @@ export default function Review() {
           {t('ex_question', { n: currentIndex + 1, total: exercises.length })}
         </span>
       </div>
-      <div className="px-4 py-6 max-w-lg mx-auto">
+      <div className="px-4 py-6 max-w-lg md:max-w-2xl mx-auto">
         {ex.type === 'write' ? (
           <WriteExercise key={ex.id} exercise={ex} questionNumber={currentIndex + 1} totalQuestions={exercises.length} onAnswer={handleAnswer} />
         ) : ex.type === 'drag_order' || ex.type === 'drag_fill' ? (
@@ -136,7 +136,7 @@ export default function Review() {
         )}
       </div>
       {currentIndex === 0 && (
-        <div className="px-4 max-w-lg mx-auto">
+        <div className="px-4 max-w-lg md:max-w-2xl mx-auto">
           <Card className="text-xs text-fg-muted">💡 {t('srs_how')}</Card>
         </div>
       )}

@@ -73,13 +73,13 @@ export default function Profiles({ onExit }: { onExit?: () => void } = {}) {
   return (
     <div className="min-h-screen pb-28">
       <Header title={title} showBack={!onExit} showXP={false} />
-      <div className="px-4 py-4 max-w-lg mx-auto space-y-3">
+      <div className="px-4 py-4 max-w-lg md:max-w-3xl lg:max-w-5xl mx-auto space-y-3">
         {onExit && <Button variant="secondary" fullWidth disabled={list.length === 0} onClick={onExit}>👋 {t('pf_to_picker')}</Button>}
         <p className="text-sm text-fg-muted">{t(group ? 'pf_intro_group' : 'pf_intro')}</p>
         {group && list.length === 0 && <p className="text-sm font-bold rounded-xl bg-yellow-pale px-3 py-2">👇 {t('pf_first')}</p>}
         {msg && <p role="status" className="text-sm font-bold rounded-xl bg-mint-pale px-3 py-2">{msg}</p>}
 
-        <ul className="space-y-2">
+        <ul className="grid gap-2 md:grid-cols-2">
           {list.map((p) => {
             const isActive = single || p.id === active?.id;
             const s = p.summary;
