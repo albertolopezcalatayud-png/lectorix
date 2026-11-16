@@ -18,7 +18,7 @@ const fake = (langs) => `(() => {
     await ctx.addInitScript(fake(langs));
     const p = await ctx.newPage(); p.on('pageerror', (e) => errors.push(e.message));
     await p.goto('http://localhost:4173/lectorix/');
-    await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'ca', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); });
+    await p.evaluate(() => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'ca', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); });
     await p.goto('http://localhost:4173/lectorix/#/enunciados'); await p.reload(); await p.waitForTimeout(2000);
     await p.locator('button[aria-expanded]').first().click(); await p.waitForTimeout(300);
     await p.getByText(/Escolta/).first().click(); await p.waitForTimeout(800);

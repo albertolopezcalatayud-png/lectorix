@@ -29,7 +29,7 @@ const ESSAY = {
   await p.evaluate(({ history, LANG, L }) => {
     localStorage.clear();
     const sl = { fonologia: 3, memoria_visual: 3, comprension_lectora: 3, escritura: 3, retos_rapidos: 3 };
-    localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: LANG, practiceLanguage: 'auto', progress: [{ module: 'fonologia', level: 3, best_score: 80, stars: 2 }], sessionHistory: history, startLevels: { [LANG]: sl }, placementDone: { [LANG]: true }, schoolStage: 'p56',
+    (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: LANG, practiceLanguage: 'auto', progress: [{ module: 'fonologia', level: 3, best_score: 80, stars: 2 }], sessionHistory: history, startLevels: { [LANG]: sl }, placementDone: { [LANG]: true }, schoolStage: 'p56',
       user: { id: 'u', display_name: 'Leo', total_xp: 640, streak_days: 6, last_session: new Date().toISOString(), avatar: '🦊' } }, version: 0 }));
     localStorage.setItem('lectorix-interests', JSON.stringify({ state: { interests: L.interests }, version: 0 }));
     const items = {}; L.words.forEach((w, i) => { items['nb' + i] = { id: 'nb' + i, lang: LANG, word: w, box: 1, due: 0, misses: 2, added: 0 }; });

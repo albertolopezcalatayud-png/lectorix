@@ -12,7 +12,7 @@ for (const lang of (process.env.LANGS || 'es,ca').split(',')) {
 }
 const seed = (lang, extra = {}) => (args) => {
   localStorage.clear();
-  localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: args.lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], ...args.extra }, version: 0 }));
+  (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: args.lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], ...args.extra }, version: 0 }));
 };
 
 const COUNTERS = [];

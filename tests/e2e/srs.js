@@ -19,7 +19,7 @@ const BASE = 'http://localhost:4173/lectorix/';
         const key = `${lang}:${id}`;
         items[key] = { key, id, lang, module, level, box: 1, due: y, misses: i + 1, lastMiss: y, word };
       });
-      localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 }));
+      (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 }));
       localStorage.setItem('lectorix-review', JSON.stringify({ state: { items }, version: 0 }));
     }, [lang, ids]);
     await p.reload(); await p.waitForTimeout(700);

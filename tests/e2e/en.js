@@ -14,7 +14,7 @@ const mcs = bank.filter((e) => e.type === 'multiple_choice');
   const hist = [{ id: 's1', module: 'escritura', level: 6, total_questions: 8, correct_answers: 1, score_percent: 12, stars: 0, xp_earned: 5, time_ms: 60000,
     answers: transfer.map((e, i) => ({ exercise_id: e.id, selected: 0, correct: 0, is_correct: i === 0, time_ms: 3000 })), completed_at: '2026-11-10T10:00:00.000Z', mode: 'normal' }];
   await p.goto(BASE);
-  await p.evaluate((h) => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'en', progress: [], sessionHistory: h }, version: 0 })); }, hist);
+  await p.evaluate((h) => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'en', progress: [], sessionHistory: h }, version: 0 })); }, hist);
   await p.reload(); await p.waitForTimeout(1200);
   await p.goto(BASE + '#/modulos/escritura'); await p.waitForTimeout(1000);
   let body = await p.innerText('body');

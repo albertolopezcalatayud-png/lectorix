@@ -19,7 +19,7 @@ const BASE = 'http://localhost:4173/lectorix/';
   });
   const p = await ctx.newPage(); p.on('pageerror', (e) => errors.push(e.message));
   await p.goto(BASE);
-  await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); });
+  await p.evaluate(() => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); });
   await p.goto(BASE + '#/lectura/lectura_l1_gato'); await p.reload(); await p.waitForTimeout(1500);
   await p.getByRole('button', { name: /Escuchar|Leer en voz alta|▶/ }).first().click();
   const seen = new Set();

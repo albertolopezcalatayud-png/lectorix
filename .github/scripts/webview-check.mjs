@@ -52,7 +52,7 @@ await ev(`(() => {
     answers: [...Array(ok)].map((_, i) => ({ exercise_id: 'es_' + module + '_l1_m00' + i, selected: 0, correct: 0, is_correct: true, time_ms: 3000 }))
       .concat([...Array(bad)].map((_, i) => ({ exercise_id: 'es_' + module + '_l1_m10' + i, selected: 1, correct: 0, is_correct: false, time_ms: 3000 }))),
     completed_at: new Date(now - d * D).toISOString(), mode: 'normal' });
-  localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], syllableColors: true,
+  (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], syllableColors: true,
     sessionHistory: [mk(0, 'fonologia', 8, 2), mk(1, 'escritura', 4, 6)] }, version: 0 }));
   return true; })()`);
 await ev('location.hash = "#/"; location.reload(); true');

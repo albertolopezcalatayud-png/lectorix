@@ -19,7 +19,7 @@ const OUT = __dirname + '/hil-';
     p.on('pageerror', (e) => errors.push(`${lang} pageerror ${e.message}`));
     p.on('console', (m) => { if (m.type() === 'error') errors.push(`${lang} console ${m.text()}`); });
     await p.goto(BASE);
-    await p.evaluate(({ lang, session }) => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [session] }, version: 0 })); }, { lang, session });
+    await p.evaluate(({ lang, session }) => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [session] }, version: 0 })); }, { lang, session });
     await p.reload(); await p.waitForTimeout(600);
     await p.goto(BASE + '#/perfil'); await p.waitForTimeout(700);
     await p.getByText(/Entiendo cómo aprendo|Entenc com aprenc|How I learn/).click(); await p.waitForTimeout(1200);

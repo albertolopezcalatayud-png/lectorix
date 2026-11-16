@@ -30,7 +30,7 @@ const BASE = 'http://localhost:4173/lectorix/';
   const p = await ctx.newPage();
   p.on('pageerror', (e) => errors.push(`pageerror ${e.message}`));
   await p.goto(BASE);
-  await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); localStorage.setItem('lectorix-ra-probe', JSON.stringify({ langs: { 'es-ES': 'available' } })); localStorage.setItem('lectorix-readaloud', JSON.stringify({ state: { enabled: true }, version: 0 })); });
+  await p.evaluate(() => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); localStorage.setItem('lectorix-ra-probe', JSON.stringify({ langs: { 'es-ES': 'available' } })); localStorage.setItem('lectorix-readaloud', JSON.stringify({ state: { enabled: true }, version: 0 })); });
   await p.goto(BASE + '#/leer-en-voz-alta/lectura_l1_gato'); await p.reload(); await p.waitForTimeout(900);
   await p.getByText('Empezar a leer').click();
   await p.waitForTimeout(1200);

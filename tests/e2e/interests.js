@@ -14,7 +14,7 @@ const OUT = __dirname + '/int-';
     await p.evaluate(({ lang, level }) => {
       localStorage.clear();
       const sl = { fonologia: level, memoria_visual: level, comprension_lectora: level, escritura: level, retos_rapidos: level };
-      localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], startLevels: { [lang]: sl }, placementDone: { [lang]: true } }, version: 0 }));
+      (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], startLevels: { [lang]: sl }, placementDone: { [lang]: true } }, version: 0 }));
     }, { lang, level });
     await p.reload(); await p.waitForTimeout(600);
     await p.goto(BASE + '#/lectura'); await p.waitForTimeout(900);

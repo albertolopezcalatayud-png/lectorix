@@ -1246,6 +1246,24 @@ export const es = {
   pf_tip_alias: 'Usa alias o iniciales en lugar de nombres completos.',
   pf_tip_backup: 'Si el dispositivo se rompe o se desinstala la app, los perfiles se pierden. Guarda una «Copia de todos» de vez en cuando.',
   pf_tip_home: 'Para que un alumno siga en casa: guarda su «Copia», envíala a la familia y que la importen en Lectorix desde esta misma pantalla. No se sincroniza: vale la última copia importada.',
+
+  // How the device is used: one student or several
+  mode_title: '¿Cómo vas a usar Lectorix?',
+  mode_solo: 'Para mí',
+  mode_solo_desc: 'Soy yo quien va a practicar (o es para mi hijo o hija).',
+  mode_group: 'Con varios alumnos',
+  mode_group_desc: 'Para adultos: docentes, Orientación o familias con varios hijos. Cada alumno tendrá su propio espacio.',
+  mode_change_later: 'Se puede cambiar después en Ajustes. No se pierde nada.',
+  mode_set_title: 'Modo de uso',
+  mode_set_solo: 'Ahora: «Para mí» (un alumno en este dispositivo).',
+  mode_set_group: 'Ahora: «Con varios alumnos» (la app se abre preguntando quién va a practicar).',
+  mode_set_change: 'Cambiar el modo de uso',
+  pf_zone: 'Zona docente',
+  pf_intro_group: 'Para adultos. Aquí se crean los perfiles de los alumnos y se ve el resumen de cada uno. Cada perfil es un espacio completo e independiente. Todo se guarda solo en este dispositivo.',
+  pf_first: 'Empieza añadiendo a tu primer alumno. La primera vez que entre hará la bienvenida y la prueba de nivel.',
+  pf_none_yet: 'Todavía no hay alumnos. Un adulto puede añadirlos en la zona docente.',
+  pf_to_picker: 'Ir a «¿Quién va a practicar?»',
+  pf_next_student: 'He terminado: turno de otro alumno',
 } as const;
 
 export type TranslationKey = keyof typeof es;

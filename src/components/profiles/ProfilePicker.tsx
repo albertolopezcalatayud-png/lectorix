@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { profiles, activeProfile, switchTo, pickerAnswered, hasPin, type Profile } from '@/services/profiles';
+import { profiles, activeProfile, switchTo, pickerAnswered, hasPin, mode, type Profile } from '@/services/profiles';
 import { PinPrompt } from './PinPrompt';
 import { useI18n } from '@/i18n';
 
@@ -7,14 +7,14 @@ import { useI18n } from '@/i18n';
  * "Who is going to practise?" Shown when the app opens on a device with several students.
  * With an adult PIN, an adult chooses (so a student cannot open someone else's space).
  */
-export function ProfilePicker({ onDone }: { onDone: () => void }) {
+export function ProfilePicker({ onDone, onZone }: { onDone: () => void; onZone: () => void }) {
   const { t } = useI18n();
   const list = profiles();
   const active = activeProfile();
   const [pending, setPending] = useState<Profile | 'manage' | null>(null);
   const [busy, setBusy] = useState(false);
   const enter = async (p: Profile | 'manage') => {
-    if (p === 'manage') { pickerAnswered(); window.location.hash = '#/perfiles'; onDone(); return; }
+    if (p === 'manage') { onZone(); return; }
     if (p.id === active?.id) { pickerAnswered(); onDone(); return; }
     setBusy(true);
     try { await switchTo(p.id); } catch { setBusy(false); }
@@ -24,7 +24,8 @@ export function ProfilePicker({ onDone }: { onDone: () => void }) {
     <div className="min-h-screen bg-bg text-fg px-4 py-8">
       <div className="max-w-lg mx-auto space-y-5">
         <h1 className="font-heading font-black text-2xl text-center">👋 {t('pf_who')}</h1>
-        {hasPin() && <p className="text-sm text-fg-muted text-center">🔒 {t('pf_who_pin')}</p>}
+        {hasPin() && list.length > 0 && <p className="text-sm text-fg-muted text-center">🔒 {t('pf_who_pin')}</p>}
+        {list.length === 0 && <p className="text-sm text-center">{t('pf_none_yet')}</p>}
         <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           {list.map((p) => (
             <li key={p.id}>
@@ -36,7 +37,7 @@ export function ProfilePicker({ onDone }: { onDone: () => void }) {
             </li>
           ))}
         </ul>
-        <button disabled={busy} onClick={() => choose('manage')} className="block mx-auto text-sm font-bold text-accent underline underline-offset-4">⚙️ {t('pf_manage')}</button>
+        <button disabled={busy} onClick={() => choose('manage')} className="block mx-auto rounded-xl border border-border bg-bg-card px-4 py-2.5 text-sm font-bold">🧑‍🏫 {t(mode() === 'group' ? 'pf_zone' : 'pf_manage')}</button>
       </div>
       {pending && <PinPrompt onCancel={() => setPending(null)} onOk={() => { const p = pending; setPending(null); void enter(p); }} />}
     </div>

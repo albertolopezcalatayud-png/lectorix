@@ -13,13 +13,30 @@ const REG = 'lectorix-profiles';
 const CHOSEN = 'lectorix-profile-chosen';      // sessionStorage: the picker was already answered in this run
 const FALLBACK = 'lectorix-profile-data-';     // localStorage copy when IndexedDB is not available
 const DEVICE_KEYS = new Set(['lectorix-voice-prefs', 'lectorix-natural-voice', 'lectorix-natural-voice-choice', 'lectorix-ra-probe', 'lectorix-ra-probing',
-  'lectorix-push-key', 'lectorix-notifications-enabled', 'lectorix-reminder-hour', 'lectorix-readaloud', 'lectorix-errors', 'lectorix-asr']);
+  'lectorix-push-key', 'lectorix-notifications-enabled', 'lectorix-reminder-hour', 'lectorix-readaloud', 'lectorix-errors', 'lectorix-asr', 'lectorix-mode']);
 const isProfileKey = (k: string) => k.startsWith('lectorix-') && k !== REG && !k.startsWith(FALLBACK) && !k.startsWith('lectorix-asr-') && !DEVICE_KEYS.has(k);
 
 export interface ProfileSummary { xp: number; streak: number; last: string | null; wcpm: number | null; sessions: number }
 export interface Profile { id: string; name: string; avatar: string; created: string; summary?: ProfileSummary }
 interface Registry { v: 1; active: string; pin?: { salt: string; hash: string }; list: Profile[] }
 export type Data = Record<string, string>;
+/**
+ * How this device is used. 'solo': one student (or a family with one child): the app is theirs.
+ * 'group': an adult lends it to several students (school support, a classroom, brothers and sisters):
+ * the app opens on "Who is going to practise?" and the adult has no profile of their own.
+ * null: not answered yet; the app asks once, to everyone (also after updating).
+ */
+export type Mode = 'solo' | 'group';
+const MODE = 'lectorix-mode';
+export const mode = (): Mode | null => { const m = localStorage.getItem(MODE); return m === 'solo' || m === 'group' ? m : null; };
+/** Nobody has used this data yet (no welcome done, no student): typical of an adult who has just installed the app */
+const untouched = (data: Data) => { try { const st = (JSON.parse(data['lectorix-store'] || '{}') as { state?: { user?: unknown; onboardingDone?: boolean } }).state; return !st?.user && !st?.onboardingDone; } catch { return true; } };
+export function setMode(m: Mode | null) {
+  if (!m) { localStorage.removeItem(MODE); return; }
+  localStorage.setItem(MODE, m);
+  // Changing to "several students" with a student already on the device: that student becomes the first profile
+  if (m === 'group' && !registry() && !untouched(snapshot())) ensure();
+}
 export const AVATARS = ['🦊', '🐼', '🦁', '🐸', '🐙', '🦉', '🐢', '🦄', '🐝', '🐬', '🦖', '🐨', '🚀', '⚽', '🎨', '🎸'];
 
 /* ---------- registry ---------- */
@@ -99,9 +116,24 @@ function ensure(): Registry {
 }
 const reload = (path = '/') => { sessionStorage.setItem(CHOSEN, '1'); window.location.hash = `#${path}`; window.location.reload(); };
 
-export async function addProfile(name: string, avatar: string, data: Data = {}): Promise<Profile> {
-  const reg = ensure();
+/** The language the app is in right now, so a new student starts in the language the adult chose */
+function currentLanguage(): string | null {
+  try { return (JSON.parse(localStorage.getItem('lectorix-store') || '{}') as { state?: { language?: string } }).state?.language ?? null; } catch { return null; }
+}
+export async function addProfile(name: string, avatar: string, given: Data = {}): Promise<Profile> {
+  const lang = currentLanguage();
+  const data: Data = given['lectorix-store'] || !lang ? given : { ...given, 'lectorix-store': JSON.stringify({ state: { language: lang }, version: 0 }) };
   const p: Profile = { id: newId(), name: name.trim().slice(0, 30), avatar, created: new Date().toISOString(), summary: summarise(data) };
+  // An adult setting the device up for students: there is nobody on it yet, so the first student takes the
+  // (empty) working space instead of leaving a profile that belongs to no one
+  if (!registry() && mode() === 'group' && untouched(snapshot())) {
+    load({ ...snapshot(), ...data });
+    save({ v: 1, active: p.id, list: [p] });
+    patchName(p.name);
+    try { void navigator.storage?.persist?.(); } catch { /* ignore */ }
+    return p;
+  }
+  const reg = ensure();
   await put(p.id, data);
   reg.list.push(p); save(reg);
   return p;
@@ -144,7 +176,9 @@ export async function removeProfile(id: string): Promise<void> {
 export function refreshActiveSummary() { const reg = registry(); const p = reg?.list.find((x) => x.id === reg.active); if (reg && p) { p.summary = summarise(snapshot()); save(reg); } }
 
 /** Shown when the app opens and there is more than one profile */
-export const needsPicker = () => profiles().length > 1 && sessionStorage.getItem(CHOSEN) !== '1';
+export const needsPicker = () => (mode() === 'group' || profiles().length > 1) && sessionStorage.getItem(CHOSEN) !== '1';
+/** Back to "Who is going to practise?" (the next student's turn) */
+export const backToPicker = () => { sessionStorage.removeItem(CHOSEN); window.location.hash = '#/'; window.location.reload(); };
 export const pickerAnswered = () => sessionStorage.setItem(CHOSEN, '1');
 
 /* ---------- adult PIN (a child lock, not strong security: everything is on the device anyway) ---------- */

@@ -10,7 +10,7 @@ const [wav, id, minRead, maxRead] = process.argv.slice(2);
   p.on('pageerror', (e) => errors.push(e.message));
   p.on('console', (m) => { if (m.type() === 'error' || m.type() === 'warning') console.log('console:', m.text().slice(0, 300)); });
   await p.goto('http://localhost:4173/lectorix/');
-  await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); localStorage.setItem('lectorix-readaloud', JSON.stringify({ state: { enabled: true }, version: 0 })); });
+  await p.evaluate(() => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); localStorage.setItem('lectorix-readaloud', JSON.stringify({ state: { enabled: true }, version: 0 })); });
   await p.goto(`http://localhost:4173/lectorix/#/leer-en-voz-alta/${id}`); await p.reload(); await p.waitForTimeout(2500);
   const dl = p.getByRole('button', { name: 'Descargar el idioma' });
   if (await dl.count()) { const t0 = Date.now(); await dl.click(); await p.getByRole('button', { name: /Empezar a leer/ }).waitFor({ timeout: 240000 }); console.log('model downloaded and loaded in', Math.round((Date.now() - t0) / 1000), 's'); }

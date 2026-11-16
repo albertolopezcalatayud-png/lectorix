@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 import { PinPrompt } from '@/components/profiles/PinPrompt';
 import {
   profiles, activeProfile, registry, addProfile, renameProfile, removeProfile, switchTo, refreshActiveSummary,
-  exportProfile, exportAll, readCopy, replaceProfile, hasPin, setPin, AVATARS, type Profile, type Data,
+  exportProfile, exportAll, readCopy, replaceProfile, hasPin, setPin, mode, AVATARS, type Profile, type Data,
 } from '@/services/profiles';
 import { saveTextFile } from '@/services/saveFile';
 import { useAppStore } from '@/stores/useAppStore';
@@ -14,7 +14,7 @@ import { useI18n, dateLocale } from '@/i18n';
 const fileName = (name: string) => `lectorix-${(name || 'perfil').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'perfil'}-${new Date().toISOString().slice(0, 10)}.json`;
 
 /** Students on this device: one space each, a summary of all of them, reports and copies. For adults. */
-export default function Profiles() {
+export default function Profiles({ onExit }: { onExit?: () => void } = {}) {
   const { t, language } = useI18n();
   const user = useAppStore((s) => s.user);
   const [unlocked, setUnlocked] = useState(!hasPin());
@@ -32,8 +32,11 @@ export default function Profiles() {
   useEffect(() => { refreshActiveSummary(); refresh(); }, []);
   const active = activeProfile();
   // Before profiles are used there is just the current student
-  const list: Profile[] = registry() ? profiles() : [{ id: '', name: user?.display_name ?? '', avatar: AVATARS[0], created: '' }];
+  const group = mode() === 'group';
+  // In "several students" mode an adult who has just installed the app has no students yet (and no profile of their own)
+  const list: Profile[] = registry() ? profiles() : group ? [] : [{ id: '', name: user?.display_name ?? '', avatar: AVATARS[0], created: '' }];
   const single = !registry();
+  const title = t(group ? 'pf_zone' : 'pf_title');
   const day = (iso: string | null | undefined) => (iso ? new Date(iso).toLocaleDateString(dateLocale(language), { day: 'numeric', month: 'short' }) : t('pf_never'));
   const run = async (f: () => Promise<void>) => { setBusy(true); setMsg(null); try { await f(); } catch { setMsg(t('pf_error')); } refreshActiveSummary(); setBusy(false); refresh(); };
 
@@ -62,16 +65,18 @@ export default function Profiles() {
   const importAsNew = () => run(async () => { for (const c of copy ?? []) await addProfile(c.name || t('student_default'), c.avatar, c.data); setMsg(t('pf_imported', { n: copy?.length ?? 0 })); setCopy(null); });
 
   if (!unlocked) return (
-    <div className="min-h-screen pb-24"><Header title={t('pf_title')} showBack showXP={false} />
-      <PinPrompt onOk={() => setUnlocked(true)} onCancel={() => window.history.back()} />
+    <div className="min-h-screen pb-24"><Header title={title} showBack={!onExit} showXP={false} />
+      <PinPrompt onOk={() => setUnlocked(true)} onCancel={() => (onExit ? onExit() : window.history.back())} />
     </div>
   );
 
   return (
     <div className="min-h-screen pb-28">
-      <Header title={t('pf_title')} showBack showXP={false} />
+      <Header title={title} showBack={!onExit} showXP={false} />
       <div className="px-4 py-4 max-w-lg mx-auto space-y-3">
-        <p className="text-sm text-fg-muted">{t('pf_intro')}</p>
+        {onExit && <Button variant="secondary" fullWidth disabled={list.length === 0} onClick={onExit}>👋 {t('pf_to_picker')}</Button>}
+        <p className="text-sm text-fg-muted">{t(group ? 'pf_intro_group' : 'pf_intro')}</p>
+        {group && list.length === 0 && <p className="text-sm font-bold rounded-xl bg-yellow-pale px-3 py-2">👇 {t('pf_first')}</p>}
         {msg && <p role="status" className="text-sm font-bold rounded-xl bg-mint-pale px-3 py-2">{msg}</p>}
 
         <ul className="space-y-2">
@@ -106,7 +111,7 @@ export default function Profiles() {
         <Button fullWidth disabled={busy} onClick={() => setForm({ id: null, name: '', avatar: AVATARS[(list.length) % AVATARS.length] })}>➕ {t('pf_add')}</Button>
         <div className="grid grid-cols-2 gap-2">
           <Button variant="secondary" disabled={busy} onClick={() => fileRef.current?.click()}>📥 {t('pf_import')}</Button>
-          <Button variant="secondary" disabled={busy || single} onClick={doExportAll}>💾 {t('pf_export_all')}</Button>
+          <Button variant="secondary" disabled={busy || single || list.length === 0} onClick={doExportAll}>💾 {t('pf_export_all')}</Button>
         </div>
         <input ref={fileRef} type="file" accept="application/json,.json" className="hidden" aria-label={t('pf_import')} onChange={(e) => void onFile(e.target.files?.[0])} />
 

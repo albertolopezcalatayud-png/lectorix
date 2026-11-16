@@ -12,7 +12,7 @@ const TXT = { es: 'Ayer fui aver a mi ermano. El pinguino bolaba.', ca: 'Hui he 
     p.on('pageerror', (e) => errors.push(`${lang} pageerror ${e.message}`));
     p.on('console', (m) => { if (m.type() === 'error') errors.push(`${lang} console ${m.text()}`); });
     await p.goto(BASE);
-    await p.evaluate((lang) => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); }, lang);
+    await p.evaluate((lang) => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); }, lang);
     await p.reload(); await p.waitForTimeout(700);
     check(/Escribe y escúchalo|Escriu i escolta-ho|Write and listen/.test(await p.innerText('body')), `${lang}: dashboard card`);
     await p.goto(BASE + '#/escribe'); await p.waitForTimeout(800);

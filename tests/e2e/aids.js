@@ -9,7 +9,7 @@ const BASE = 'http://localhost:4173/lectorix/';
     p.on('pageerror', e => errors.push(`${lang} pageerror ${e.message}`));
     p.on('console', m => { if (m.type() === 'error') errors.push(`${lang} console ${m.text()}`); });
     await p.goto(BASE);
-    await p.evaluate((lang) => localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], syllableColors: true, readingRuler: true, letterSpacing: 'wide', lineSpacing: 'relaxed' }, version: 0 })), lang);
+    await p.evaluate((lang) => (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], syllableColors: true, readingRuler: true, letterSpacing: 'wide', lineSpacing: 'relaxed' }, version: 0 })), lang);
     await p.reload(); await p.waitForTimeout(600);
     await p.goto(BASE + '#/ajustes'); await p.waitForTimeout(700);
     const card = await p.$('text=' + ({ es: 'Ayudas de lectura', ca: 'Ajudes de lectura', en: 'Reading aids' })[lang]);

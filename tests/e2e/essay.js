@@ -25,7 +25,7 @@ const TEXT = {
     const p = await b.newPage({ viewport: { width: 390, height: 844 } });
     p.on('pageerror', (e) => errors.push(lang + ' ' + e.message));
     await p.goto(BASE);
-    await p.evaluate((lang) => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, placementDismissed: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Ana', total_xp: 0, streak_days: 0, last_session: '2020-01-01T00:00:00Z' } }, version: 0 })); }, lang);
+    await p.evaluate((lang) => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, placementDismissed: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Ana', total_xp: 0, streak_days: 0, last_session: '2020-01-01T00:00:00Z' } }, version: 0 })); }, lang);
     await p.reload(); await p.waitForTimeout(600);
     await p.goto(BASE + '#/redaccion'); await p.waitForTimeout(900);
     await p.screenshot({ path: __dirname + `/essay-${lang}-pick.png`, fullPage: true });

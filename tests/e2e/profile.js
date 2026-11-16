@@ -22,7 +22,7 @@ const BASE = 'http://localhost:4173/lectorix/';
   {
     const p = await (await b.newContext({ viewport: { width: 390, height: 844 } })).newPage(); p.on('pageerror', (e) => errors.push(e.message));
     await p.goto(BASE);
-    await p.evaluate(() => { const now = Date.now(); localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', progress: [], user: null,
+    await p.evaluate(() => { const now = Date.now(); localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', progress: [], user: null,
       sessionHistory: [0, 1, 2].map((i) => ({ id: 's' + i, module: 'fonologia', level: 1, total_questions: 10, correct_answers: 8, score_percent: 80, stars: 2, xp_earned: 35, time_ms: 1000, answers: [], completed_at: new Date(now - i * 86400000).toISOString(), mode: 'normal' })) }, version: 0 })); });
     await p.reload(); await p.waitForTimeout(1500);
     const s = await state(p);

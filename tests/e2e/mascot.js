@@ -11,7 +11,7 @@ const BGS = ['bosque', 'playa', 'espacio', 'castillo', 'arcoiris'];
   const p = await b.newPage({ viewport: { width: 390, height: 900 }, reducedMotion: 'reduce' }); p.on('pageerror', (e) => errors.push(e.message));
   await p.goto('http://localhost:4173/lectorix/');
   const show = async (m) => {
-    await p.evaluate((m) => localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', progress: [], sessionHistory: [], mascot: m }, version: 0 })), m);
+    await p.evaluate((m) => (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', progress: [], sessionHistory: [], mascot: m }, version: 0 })), m);
     await p.goto('http://localhost:4173/lectorix/#/mascota'); await p.reload(); await p.waitForTimeout(700);
     return p.evaluate(() => {
       const svg = document.querySelector('svg[viewBox="-4 -8 128 128"]');

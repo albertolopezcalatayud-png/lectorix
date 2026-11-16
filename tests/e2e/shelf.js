@@ -11,7 +11,7 @@ const OUT = __dirname + '/sh-';
     p.on('pageerror', (e) => errors.push(`${lang} pageerror ${e.message}`));
     p.on('console', (m) => { if (m.type() === 'error') errors.push(`${lang} console ${m.text()}`); });
     await p.goto(BASE);
-    await p.evaluate((lang) => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Lucía', total_xp: 0, streak_days: 0, last_session: '2020-01-01T00:00:00Z' } }, version: 0 })); }, lang);
+    await p.evaluate((lang) => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Lucía', total_xp: 0, streak_days: 0, last_session: '2020-01-01T00:00:00Z' } }, version: 0 })); }, lang);
     await p.reload(); await p.waitForTimeout(700);
     await p.screenshot({ path: OUT + lang + '-dash.png', fullPage: true });
     await p.goto(BASE + '#/estanteria'); await p.waitForTimeout(700);

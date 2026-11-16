@@ -4,7 +4,7 @@ const { chromium } = require('playwright');
   p.on('pageerror', (e) => errors.push(e.message)); p.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
   const BASE = 'http://localhost:4173/lectorix/';
   await p.goto(BASE);
-  await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', placementDismissed: true }, version: 0 })); });
+  await p.evaluate(() => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', placementDismissed: true }, version: 0 })); });
   await p.reload(); await p.waitForTimeout(800);
   await p.goto(BASE + '#/adaptar'); await p.waitForTimeout(1200);
   const text = 'La fotosíntesis es el proceso por el que las plantas fabrican su alimento. Las hojas captan la luz del sol gracias a la clorofila, un pigmento de color verde. Además, las raíces absorben agua y sales minerales del suelo. Con la luz, el agua y el dióxido de carbono, la planta produce glucosa y libera oxígeno. Por eso las plantas son imprescindibles para la vida en la Tierra.';

@@ -20,7 +20,7 @@ const MODS = ['fonologia', 'memoria_visual', 'comprension_lectora', 'escritura',
       p.on('console', (m) => { if (m.type() === 'error') errors.push(`${lang} r${round} console ${m.text().slice(0, 200)}`); });
       await p.goto(BASE);
       await p.evaluate(({ lang, items }) => { localStorage.clear();
-        localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: lang, progress: [], sessionHistory: [], placementDismissed: true }, version: 0 }));
+        (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: lang, progress: [], sessionHistory: [], placementDismissed: true }, version: 0 }));
         localStorage.setItem('lectorix-review', JSON.stringify({ state: { items }, version: 0 })); }, { lang, items });
       await p.reload(); await p.waitForTimeout(800);
       for (const route of ['#/repaso', '#/reto-diario']) {

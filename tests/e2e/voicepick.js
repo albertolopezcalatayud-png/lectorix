@@ -24,7 +24,7 @@ const fake = `(() => {
   const ctx = await b.newContext({ viewport: { width: 390, height: 844 } }); await ctx.addInitScript(fake);
   const p = await ctx.newPage(); p.on('pageerror', (e) => errors.push(e.message));
   await p.goto('http://localhost:4173/lectorix/');
-  await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); });
+  await p.evaluate(() => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); });
   await p.goto('http://localhost:4173/lectorix/#/enunciados'); await p.reload(); await p.waitForTimeout(1500);
   await p.locator('button[aria-expanded]').first().click(); await p.waitForTimeout(300);
   await p.getByText(/Escuchar/).first().click(); await p.waitForTimeout(500);
@@ -46,7 +46,7 @@ const fake = `(() => {
   sp = await p.evaluate(() => window.__spoken.slice(-1)[0]);
   ok(sp && /Helena/.test(sp.voice), `the family's choice is used (${sp && sp.voice})`);
   // Valencian practice uses the natural Catalan voice
-  await p.evaluate(() => { const s = JSON.parse(localStorage.getItem('lectorix-store')); s.state.language = 'ca'; localStorage.setItem('lectorix-store', JSON.stringify(s)); });
+  await p.evaluate(() => { const s = JSON.parse(localStorage.getItem('lectorix-store')); s.state.language = 'ca'; (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify(s)); });
   await p.reload(); await p.waitForTimeout(1500);
   await p.locator('button[aria-expanded]').first().click(); await p.waitForTimeout(300);
   await p.getByText(/Escolta/).first().click(); await p.waitForTimeout(500);

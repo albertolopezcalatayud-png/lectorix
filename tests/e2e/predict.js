@@ -5,7 +5,7 @@ const { chromium } = require('playwright');
     const p = await b.newPage({ viewport: { width: 390, height: 844 } });
     p.on('pageerror', (e) => errors.push(e.message));
     await p.goto('http://localhost:4173/lectorix/');
-    await p.evaluate((lang) => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); }, lang);
+    await p.evaluate((lang) => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); }, lang);
     await p.goto('http://localhost:4173/lectorix/#/escribe'); await p.reload(); await p.waitForTimeout(1500);
     await p.click('textarea'); await p.keyboard.type(typed, { delay: 20 }); await p.waitForTimeout(600);
     const chips = await p.locator('[role=group] button:not([aria-label])').allInnerTexts();

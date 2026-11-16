@@ -19,7 +19,7 @@ const LEVELS = { es: [1, 5, 9], ca: [1, 5, 9], en: [1, 4, 7] };
     await p.evaluate((lang) => {
       localStorage.clear();
       const all = { fonologia: 9, memoria_visual: 9, comprension_lectora: 9, escritura: 9, retos_rapidos: 9 };
-      localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, placementDismissed: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], startLevels: { [lang]: all }, placementDone: { [lang]: true },
+      (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, placementDismissed: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], startLevels: { [lang]: all }, placementDone: { [lang]: true },
         user: { id: 'u', display_name: 'Ana', total_xp: 0, streak_days: 0, last_session: '2020-01-01T00:00:00Z' } }, version: 0 }));
     }, lang);
     await p.reload(); await p.waitForTimeout(600);

@@ -1,4 +1,6 @@
 import { Feedback } from '@/components/system/Feedback';
+import { Button } from '@/components/ui/Button';
+import { mode as deviceMode, setMode } from '@/services/profiles';
 import { ErrorReport } from '@/components/system/ErrorReport';
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -482,6 +484,13 @@ export default function Settings() {
           </a>
         </Card>
 
+        {/* One student or several on this device (services/profiles.ts) */}
+        <Card>
+          <h3 className="font-heading font-extrabold text-sm mb-1">👥 {t('mode_set_title')}</h3>
+          <p className="text-xs text-fg-muted mb-3">{t(deviceMode() === 'group' ? 'mode_set_group' : 'mode_set_solo')} {t('mode_change_later').split('. ').slice(-1)[0]}</p>
+          <Button variant="secondary" size="sm" onClick={() => { setMode(null); window.location.hash = '#/'; window.location.reload(); }}>{t('mode_set_change')}</Button>
+        </Card>
+
         {/* Danger zone */}
         <Card>
           <h3 className="font-heading font-extrabold text-sm mb-3 text-red">{t('set_danger')}</h3>
@@ -496,6 +505,7 @@ export default function Settings() {
                     Object.keys(localStorage)
                       .filter((k) => k.startsWith('lectorix'))
                       .forEach((k) => localStorage.removeItem(k));
+                    indexedDB.deleteDatabase('lectorix-profiles'); // the other students of this device
                   } catch {
                     // ignore
                   }

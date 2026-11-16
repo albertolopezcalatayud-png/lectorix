@@ -14,7 +14,7 @@ const OUT = __dirname + '/sto-';
     await p.evaluate(({ lang, level, withWords }) => {
       localStorage.clear();
       const sl = { fonologia: level, memoria_visual: level, comprension_lectora: level, escritura: level, retos_rapidos: level };
-      localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], startLevels: { [lang]: sl }, placementDone: { [lang]: true } }, version: 0 }));
+      (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], startLevels: { [lang]: sl }, placementDone: { [lang]: true } }, version: 0 }));
       if (withWords) {
         const items = {};
         const ws = lang === 'en' ? ['because', 'beautiful'] : ['hormiga', 'vaca'];

@@ -11,7 +11,7 @@ const BASE = 'http://localhost:4173/lectorix/';
   await p.goto(BASE);
   await p.evaluate(() => {
     localStorage.clear(); sessionStorage.clear(); indexedDB.deleteDatabase('lectorix-profiles');
-    localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [{ module: 'fonologia', level: 3, best_score: 80, stars: 2 }], sessionHistory: [], placementDone: { es: true },
+    (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [{ module: 'fonologia', level: 3, best_score: 80, stars: 2 }], sessionHistory: [], placementDone: { es: true },
       user: { id: 'u', display_name: 'Leo', total_xp: 640, streak_days: 6, last_session: new Date().toISOString(), avatar: '🦊' } }, version: 0 }));
     localStorage.setItem('lectorix-review', JSON.stringify({ state: { items: { a: { id: 'a', lang: 'es', word: 'hormiga', box: 1, due: 0, misses: 2, added: 0 } } }, version: 0 }));
     localStorage.setItem('lectorix-readaloud', JSON.stringify({ state: { enabled: true }, version: 0 })); // a device setting
@@ -46,7 +46,7 @@ const BASE = 'http://localhost:4173/lectorix/';
   ok(await p.evaluate(() => JSON.parse(localStorage.getItem('lectorix-readaloud')).state.enabled) === true, 'device settings are shared');
   ok(await p.getByText(/Lectorix/).count() > 0 && await p.getByText('¿Quién va a practicar?').count() === 0, 'Ana gets the welcome screens, and the picker does not come back');
   // Ana finishes the welcome and earns something
-  await p.evaluate(() => { localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [], placementDone: { es: true }, user: { id: 'u2', display_name: '', total_xp: 15, streak_days: 1, last_session: new Date().toISOString() } }, version: 0 })); });
+  await p.evaluate(() => { (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [], placementDone: { es: true }, user: { id: 'u2', display_name: '', total_xp: 15, streak_days: 1, last_session: new Date().toISOString() } }, version: 0 })); });
   await go('/');
   ok(await p.getByText('¡Hola, Ana!').count() > 0, 'the profile name is the name the app greets with');
 

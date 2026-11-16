@@ -26,7 +26,7 @@ const BAD = /\bundefined\b|\bNaN\b|\[object Object\]|\{[a-z]+\}|\b(?:ev|es|st|st
         const now = Date.now();
         const used = profile === 'used';
         const hist = used ? Array.from({ length: 12 }, (_, i) => ({ id: 's' + i, module: ['fonologia', 'escritura', 'comprension_lectora'][i % 3], level: 2, total_questions: 10, correct_answers: 7, score_percent: 70, stars: 2, xp_earned: 20, time_ms: 200000, answers: [], completed_at: new Date(now - i * 86400000).toISOString(), mode: i % 4 === 0 ? 'reading' : 'normal' })) : [];
-        localStorage.setItem('lectorix-store', JSON.stringify({ state: {
+        (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: {
           onboardingDone: true, placementDismissed: true, language: lang, practiceLanguage: 'auto',
           progress: used ? [{ module: 'fonologia', level: 1, best_score: 90, stars: 3, attempts: 3, completed: true }, { module: 'fonologia', level: 2, best_score: 70, stars: 2, attempts: 2, completed: true }] : [],
           sessionHistory: hist,

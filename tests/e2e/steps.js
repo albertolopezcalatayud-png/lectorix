@@ -35,7 +35,7 @@ const load = (lang, m) => JSON.parse(fs.readFileSync(`${ROOT}/${lang === 'es' ? 
     await p.goto(BASE);
     await p.evaluate(({ lang, history, progress }) => {
       localStorage.clear();
-      localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress, sessionHistory: history, placementDismissed: true }, version: 0 }));
+      (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress, sessionHistory: history, placementDismissed: true }, version: 0 }));
     }, { lang, history, progress });
     await p.reload(); await p.waitForTimeout(1500);
 
@@ -89,7 +89,7 @@ const load = (lang, m) => JSON.parse(fs.readFileSync(`${ROOT}/${lang === 'es' ? 
 
     // Parent panel: skill map. The session just played added random answers, so start again from the seeded history
     await p.evaluate(({ lang, history, progress }) => {
-      localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress, sessionHistory: history, placementDismissed: true }, version: 0 }));
+      (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress, sessionHistory: history, placementDismissed: true }, version: 0 }));
     }, { lang, history, progress });
     await p.goto(BASE + '#/panel-padres'); await p.reload(); await p.waitForTimeout(1500);
     body = await p.innerText('body');

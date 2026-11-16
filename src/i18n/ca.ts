@@ -1248,4 +1248,22 @@ export const ca: Record<TranslationKey, string> = {
   pf_tip_alias: 'Usa àlies o inicials en lloc de noms complets.',
   pf_tip_backup: 'Si el dispositiu es trenca o es desinstal·la l\'app, els perfils es perden. Guarda una «Còpia de tots» de tant en tant.',
   pf_tip_home: 'Perquè un alumne continue a casa: guarda la seua «Còpia», envia-la a la família i que la importen en Lectorix des d\'esta mateixa pantalla. No se sincronitza: val l\'última còpia importada.',
+
+  // How the device is used: one student or several
+  mode_title: 'Com usaràs Lectorix?',
+  mode_solo: 'Per a mi',
+  mode_solo_desc: 'Soc jo qui practicarà (o és per al meu fill o filla).',
+  mode_group: 'Amb diversos alumnes',
+  mode_group_desc: 'Per a adults: docents, Orientació o famílies amb diversos fills. Cada alumne tindrà el seu propi espai.',
+  mode_change_later: 'Es pot canviar després en Ajustos. No es perd res.',
+  mode_set_title: 'Mode d\'ús',
+  mode_set_solo: 'Ara: «Per a mi» (un alumne en este dispositiu).',
+  mode_set_group: 'Ara: «Amb diversos alumnes» (l\'app s\'obri preguntant qui practicarà).',
+  mode_set_change: 'Canviar el mode d\'ús',
+  pf_zone: 'Zona docent',
+  pf_intro_group: 'Per a adults. Ací es creen els perfils dels alumnes i es veu el resum de cada un. Cada perfil és un espai complet i independent. Tot es guarda només en este dispositiu.',
+  pf_first: 'Comença afegint el teu primer alumne. La primera vegada que entre farà la benvinguda i la prova de nivell.',
+  pf_none_yet: 'Encara no hi ha alumnes. Un adult pot afegir-los en la zona docent.',
+  pf_to_picker: 'Anar a «Qui practicarà?»',
+  pf_next_student: 'He acabat: torn d\'un altre alumne',
 };

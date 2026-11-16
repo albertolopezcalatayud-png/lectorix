@@ -4,7 +4,7 @@ const { chromium } = require('playwright');
   const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, hasTouch: true });
   const p = await ctx.newPage();
   await p.goto('http://localhost:4173/lectorix/');
-  await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); });
+  await p.evaluate(() => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 })); });
   await p.goto('http://localhost:4173/lectorix/#/escribe'); await p.reload(); await p.waitForTimeout(1500);
   const cdp = await ctx.newCDPSession(p);
   const compose = async (t) => { await cdp.send('Input.imeSetComposition', { text: t, selectionStart: t.length, selectionEnd: t.length }); await p.waitForTimeout(80); };

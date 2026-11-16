@@ -27,7 +27,7 @@ const fakeRec = () => {
 (async () => {
   const b = await chromium.launch(); let fails = 0; const errors = [];
   const ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); if (!c) fails++; };
-  const seed = (mic) => (m) => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 }));
+  const seed = (mic) => (m) => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [] }, version: 0 }));
     if (m) { localStorage.setItem('lectorix-ra-probe', JSON.stringify({ langs: { 'es-ES': 'available' } })); localStorage.setItem('lectorix-readaloud', JSON.stringify({ state: { enabled: true }, version: 0 })); } };
   const open = async (mic) => {
     const ctx = await b.newContext({ viewport: { width: 390, height: 844 } }); if (mic) await ctx.addInitScript(fakeRec);

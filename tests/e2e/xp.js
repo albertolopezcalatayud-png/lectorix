@@ -6,7 +6,7 @@ const BASE = 'http://localhost:4173/lectorix/';
   const errors = []; p.on('pageerror', (e) => errors.push(e.message));
   const check = (c, m) => { console.log(c ? 'PASS' : 'FAIL', m); if (!c) errors.push(m); };
   await p.goto(BASE);
-  await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, placementDismissed: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Ana', total_xp: 40, streak_days: 0, last_session: '2020-01-01T00:00:00Z' } }, version: 0 })); });
+  await p.evaluate(() => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, placementDismissed: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Ana', total_xp: 40, streak_days: 0, last_session: '2020-01-01T00:00:00Z' } }, version: 0 })); });
   await p.reload(); await p.waitForTimeout(800);
   const xp = () => p.evaluate(() => JSON.parse(localStorage.getItem('lectorix-store')).state.user.total_xp);
   const shown = async () => { const m = (await p.innerText('body')).match(/\+(\d+) (?:puntos|punts|points)/); return m ? Number(m[1]) : 0; };

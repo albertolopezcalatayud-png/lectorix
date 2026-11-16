@@ -6,7 +6,7 @@ const fs = require('fs');
     const p = await b.newPage({ viewport: { width: 390, height: 844 } }); p.on('pageerror', (e) => errors.push(e.message));
     await p.goto('http://localhost:4173/lectorix/');
     await p.evaluate(({ lang, level }) => { localStorage.clear(); const sl = { fonologia: level, memoria_visual: level, comprension_lectora: level, escritura: level, retos_rapidos: level };
-      localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], startLevels: { [lang]: sl }, placementDone: { [lang]: true } }, version: 0 })); }, { lang, level });
+      (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], startLevels: { [lang]: sl }, placementDone: { [lang]: true } }, version: 0 })); }, { lang, level });
     await p.goto('http://localhost:4173/lectorix/#/fichas'); await p.reload(); await p.waitForTimeout(1000);
     await p.evaluate(() => { window.__html = null; window.open = () => ({ document: { write: (h) => { window.__html = h; }, close() {} }, focus() {}, print() {} }); });
     await p.getByRole('button', { name: /Crear la (ficha|fitxa)|Create and print/ }).click();

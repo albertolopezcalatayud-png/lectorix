@@ -1,5 +1,6 @@
 import { lazy, Suspense, useEffect, useState, type ReactNode } from 'react';
-import { needsPicker, activeProfile } from '@/services/profiles';
+import { needsPicker, activeProfile, mode as deviceMode, profiles as deviceProfiles } from '@/services/profiles';
+import { ModeChoice } from '@/components/profiles/ModeChoice';
 import { ProfilePicker } from '@/components/profiles/ProfilePicker';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -163,6 +164,9 @@ export default function App() {
   }, []);
 
   // Several students on this device: ask who is going to practise (services/profiles.ts)
+  const [mode, setModeState] = useState(deviceMode);
+  // The adults' zone on a device for several students; it opens by itself while there are no students yet
+  const [zone, setZone] = useState(() => deviceMode() === 'group' && deviceProfiles().length === 0);
   const [picking, setPicking] = useState(needsPicker);
   // A profile created by an adult keeps its name when the student finishes the welcome screens
   const user = useAppStore((s) => s.user);
@@ -170,7 +174,10 @@ export default function App() {
     const name = activeProfile()?.name;
     if (user && !user.display_name && name) useAppStore.getState().setUser({ ...user, display_name: name });
   }, [user]);
-  if (picking) return <ProfilePicker onDone={() => setPicking(false)} />;
+  // Asked once to everyone: is this device for one student or for several? (services/profiles.ts)
+  if (!mode) return <ModeChoice onChosen={(m) => { setModeState(m); if (m === 'group') { setZone(true); setPicking(true); } }} />;
+  if (zone) return <HashRouter><Suspense fallback={<LoadingSpinner />}><Profiles onExit={() => { setZone(false); setPicking(true); }} /></Suspense></HashRouter>;
+  if (picking) return <ProfilePicker onDone={() => setPicking(false)} onZone={() => setZone(true)} />;
 
   if (!onboardingDone) {
     return <Onboarding onComplete={() => setOnboardingDone(true)} />;

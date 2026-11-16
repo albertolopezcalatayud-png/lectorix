@@ -10,7 +10,7 @@ const txt = async (p) => (await p.innerText('body')).replace(/\s+/g, ' ').slice(
     p.on('pageerror', e => errors.push(`${lang} pageerror ${e.message}`));
     p.on('console', m => { if (m.type() === 'error') errors.push(`${lang} console ${m.text()}`); });
     await p.goto(BASE);
-    await p.evaluate((lang) => localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], syllableColors: true } , version: 0 })), lang);
+    await p.evaluate((lang) => (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: [], syllableColors: true } , version: 0 })), lang);
     await p.reload(); await p.waitForTimeout(600);
     await p.screenshot({ path: `${lang}-dash2.png`, fullPage: true });
     // Fluency

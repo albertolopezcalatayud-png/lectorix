@@ -18,7 +18,7 @@ const BASE = 'http://localhost:4173/lectorix/';
         return { id: 'x' + Math.random(), module, level: 1, total_questions: nOk + nBad, correct_answers: nOk, score_percent: 0, stars: 1, xp_earned: 10, time_ms: (nOk + nBad) * 5000, answers, completed_at: new Date(now - daysAgo * D).toISOString(), mode };
       };
       const hist = [mk(0, 'fonologia', 'normal', 9, 1), mk(1, 'escritura', 'normal', 4, 6), mk(3, 'memoria_visual', 'normal', 8, 2), mk(3, 'escritura', 'dictation', 3, 3), mk(9, 'fonologia', 'normal', 5, 5), mk(10, 'fonologia', 'normal', 5, 5)];
-      localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: hist, user: { id: '1', display_name: 'Lucía', email: '', plan: 'free', total_xp: 120, streak_days: 2, last_session: new Date().toISOString(), created_at: new Date().toISOString() } }, version: 0 }));
+      (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: lang, practiceLanguage: 'auto', progress: [], sessionHistory: hist, user: { id: '1', display_name: 'Lucía', email: '', plan: 'free', total_xp: 120, streak_days: 2, last_session: new Date().toISOString(), created_at: new Date().toISOString() } }, version: 0 }));
       const key = `${lang}:${lang}_memoria_visual_l2_m013`;
       localStorage.setItem('lectorix-review', JSON.stringify({ state: { items: { [key]: { key, id: `${lang}_memoria_visual_l2_m013`, lang, module: 'memoria_visual', level: 2, box: 1, due: now, misses: 2, lastMiss: now, word: lang === 'en' ? 'friend' : lang === 'ca' ? 'vaques' : 'llave' } } }, version: 0 }));
     }, lang);

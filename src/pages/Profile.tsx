@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { mode, backToPicker } from '@/services/profiles';
 import { motion } from 'framer-motion';
 import { useAppStore, useLevelCount } from '@/stores/useAppStore';
 import { calculateXPLevel, stickerCount, stickerText } from '@/services/gamification';
@@ -170,12 +171,22 @@ export default function Profile() {
             <span className="text-sm font-bold">{t('prof_parents')}</span>
             <span className="ml-auto text-fg-muted">→</span>
           </button>
+          {mode() === 'group' && (
+            <button
+              onClick={backToPicker}
+              className="w-full text-left px-4 py-3 rounded-xl bg-accent-pale border border-border flex items-center gap-3"
+            >
+              <span>👋</span>
+              <span className="text-sm font-bold">{t('pf_next_student')}</span>
+              <span className="ml-auto text-fg-muted">→</span>
+            </button>
+          )}
           <button
             onClick={() => navigate('/perfiles')}
             className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
           >
             <span>👥</span>
-            <span className="text-sm font-bold">{t('pf_title')}</span>
+            <span className="text-sm font-bold">{t(mode() === 'group' ? 'pf_zone' : 'pf_title')}</span>
             <span className="ml-auto text-fg-muted">→</span>
           </button>
         </div>

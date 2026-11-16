@@ -11,7 +11,7 @@ const ROUTES = ['/onb', '/', '/modulos', '/modulos/fonologia', '/ejercicio/fonol
     const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, colorScheme: scheme });
     const p = await ctx.newPage();
     await p.goto(BASE);
-    await p.evaluate(() => { localStorage.clear(); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, placementDismissed: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Ana', total_xp: 50, streak_days: 2, last_session: new Date().toISOString() } }, version: 0 })); });
+    await p.evaluate(() => { localStorage.clear(); (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, placementDismissed: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Ana', total_xp: 50, streak_days: 2, last_session: new Date().toISOString() } }, version: 0 })); });
     await p.reload(); await p.waitForTimeout(800);
     for (const r of ROUTES) {
       await p.goto(BASE + '#' + r); await p.waitForTimeout(2200);
