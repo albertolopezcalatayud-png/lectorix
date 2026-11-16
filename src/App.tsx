@@ -1,4 +1,6 @@
-import { lazy, Suspense, useEffect, type ReactNode } from 'react';
+import { lazy, Suspense, useEffect, useState, type ReactNode } from 'react';
+import { needsPicker, activeProfile } from '@/services/profiles';
+import { ProfilePicker } from '@/components/profiles/ProfilePicker';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BottomNav } from '@/components/layout/BottomNav';
@@ -42,6 +44,7 @@ const Essay = lazy(() => import('@/pages/Essay'));
 const WriteListen = lazy(() => import('@/pages/WriteListen'));
 const Shelf = lazy(() => import('@/pages/Shelf'));
 const Voices = lazy(() => import('@/pages/Voices'));
+const Profiles = lazy(() => import('@/pages/Profiles'));
 const Printables = lazy(() => import('@/pages/Printables'));
 const ReadingChallenge = lazy(() => import('@/pages/ReadingChallenge'));
 const ReadAloud = lazy(() => import('@/pages/ReadAloud'));
@@ -96,6 +99,7 @@ function AnimatedRoutes() {
         <Route path="/leer-en-voz-alta/:id" element={<PageTransition><ReadAloud /></PageTransition>} />
         <Route path="/reto-lectura" element={<PageTransition><ReadingChallenge /></PageTransition>} />
         <Route path="/fichas" element={<PageTransition><Printables /></PageTransition>} />
+        <Route path="/perfiles" element={<PageTransition><Profiles /></PageTransition>} />
         <Route path="/voces" element={<PageTransition><Voices /></PageTransition>} />
         <Route path="/estanteria" element={<PageTransition><Shelf /></PageTransition>} />
         <Route path="/escribe" element={<PageTransition><WriteListen /></PageTransition>} />
@@ -157,6 +161,16 @@ export default function App() {
       document.documentElement.setAttribute('data-theme', theme);
     }
   }, []);
+
+  // Several students on this device: ask who is going to practise (services/profiles.ts)
+  const [picking, setPicking] = useState(needsPicker);
+  // A profile created by an adult keeps its name when the student finishes the welcome screens
+  const user = useAppStore((s) => s.user);
+  useEffect(() => {
+    const name = activeProfile()?.name;
+    if (user && !user.display_name && name) useAppStore.getState().setUser({ ...user, display_name: name });
+  }, [user]);
+  if (picking) return <ProfilePicker onDone={() => setPicking(false)} />;
 
   if (!onboardingDone) {
     return <Onboarding onComplete={() => setOnboardingDone(true)} />;

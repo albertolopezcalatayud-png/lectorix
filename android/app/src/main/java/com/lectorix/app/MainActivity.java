@@ -16,6 +16,7 @@ public class MainActivity extends BridgeActivity {
         registerPlugin(ShareReceiverPlugin.class);
         registerPlugin(HtmlPrintPlugin.class);
         registerPlugin(SystemBarsPlugin.class);
+        registerPlugin(SaveFilePlugin.class);
         super.onCreate(savedInstanceState);
         // Until the app says which theme it is using, follow the phone: dark buttons on the cream
         // background, light buttons on the dark one (never light on light)
