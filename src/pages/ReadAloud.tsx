@@ -5,7 +5,7 @@ import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { useReading } from '@/data/readings';
 import { useReviewStore } from '@/services/review';
-import { availability, installLanguage, listen, align, norm, useReadAloud, SPEECH_TAG, type Availability, type Listening } from '@/services/readAloud';
+import { availability, installLanguage, listen, align, norm, useReadAloud, SPEECH_TAG, type Availability, type Listening, type Rivals } from '@/services/readAloud';
 import tts from '@/services/tts';
 import { useI18n } from '@/i18n';
 import { awardActivityXP } from '@/services/session';
@@ -26,6 +26,7 @@ export default function ReadAloud() {
   const [error, setError] = useState<string | null>(null);
   const [saved, setSaved] = useState<Set<string>>(new Set());
   const session = useRef<Listening | null>(null);
+  const [rivals, setRivals] = useState<Rivals | undefined>(undefined);
   const [xp, setXp] = useState(0);
   const scored = useRef(false);
 
@@ -33,7 +34,7 @@ export default function ReadAloud() {
   useEffect(() => () => { session.current?.stop(); session.current = null; }, []);
 
   const words = useMemo(() => (reading ? reading.text.split(/\s+/).filter(Boolean) : []), [reading]);
-  const { states, position } = useMemo(() => align(words, heard), [words, heard]);
+  const { states, position } = useMemo(() => align(words, heard, rivals), [words, heard, rivals]);
   const read = states.filter((s) => s === 'read').length;
   // Words to practise: jumped over, or not reached when the student stopped (only if they got past the first lines)
   const missed = useMemo(() => {
@@ -41,11 +42,18 @@ export default function ReadAloud() {
     states.forEach((s, i) => { if (s === 'missed') out.push(words[i]); });
     return [...new Set(out.map((w) => w.replace(/^[^\p{L}]+|[^\p{L}]+$/gu, '')).filter((w) => norm(w).length > 1))];
   }, [states, words]);
+  // Words where something very close was heard instead: to look at again, neither right nor wrong
+  const doubtful = useMemo(() => {
+    const out: string[] = [];
+    states.forEach((s, i) => { if (s === 'doubt') out.push(words[i]); });
+    return [...new Set(out.map((w) => w.replace(/^[^\p{L}]+|[^\p{L}]+$/gu, '')).filter((w) => norm(w).length > 1))].filter((w) => !missed.includes(w));
+  }, [states, words, missed]);
 
   const start = async () => {
     setError(null); setHeard(''); setSaved(new Set()); setXp(0); scored.current = false;
     try {
       session.current = await listen(lang, setHeard, (code) => { setError(code); session.current?.stop(); session.current = null; setPhase('done'); }, words);
+      setRivals(session.current.rivals);
       setPhase('listening');
     } catch (e) {
       setError(String((e as { message?: string })?.message ?? e).includes('permission') ? 'permission' : 'unavailable');
@@ -57,7 +65,7 @@ export default function ReadAloud() {
   useEffect(() => {
     if (phase !== 'done' || scored.current || words.length === 0) return;
     scored.current = true;
-    if (read >= Math.ceil(words.length / 2)) setXp(awardActivityXP('readaloud', 15, 3));
+    if (read + states.filter((s) => s === 'doubt').length >= Math.ceil(words.length / 2)) setXp(awardActivityXP('readaloud', 15, 3));
   }, [phase, read, words.length]);
 
   // All read: stop on its own
@@ -100,7 +108,7 @@ export default function ReadAloud() {
                 {words.map((w, i) => (
                   <span key={i}>
                     <span className={`rounded px-0.5 transition-colors ${
-                      states[i] === 'read' ? 'bg-mint-pale text-fg' : states[i] === 'missed' ? 'bg-peach-pale' : phase === 'listening' && i === position ? 'bg-yellow-pale ring-2 ring-yellow' : ''}`}>{w}</span>{' '}
+                      states[i] === 'read' ? 'bg-mint-pale text-fg' : states[i] === 'missed' ? 'bg-peach-pale' : states[i] === 'doubt' ? 'bg-yellow-pale underline decoration-dotted decoration-2 underline-offset-4' : phase === 'listening' && i === position ? 'bg-yellow-pale ring-2 ring-yellow' : ''}`}>{w}</span>{' '}
                   </span>
                 ))}
               </p>
@@ -130,7 +138,21 @@ export default function ReadAloud() {
                       ))}
                     </div>
                   </>
-                ) : read > 0 ? <p className="text-sm text-center">🌟 {t('ra_all')}</p> : null}
+                ) : read > 0 && doubtful.length === 0 ? <p className="text-sm text-center">🌟 {t('ra_all')}</p> : null}
+                {doubtful.length > 0 && (
+                  <>
+                    <p className="text-sm">🤔 {t('ra_doubt')}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {doubtful.slice(0, 12).map((w) => (
+                        <span key={w} className="inline-flex rounded-xl overflow-hidden border border-border bg-yellow-pale/60">
+                          <button onClick={() => void tts.speakIn(w, SPEECH_TAG[lang], 0.8)} className="px-3 py-1.5 text-sm font-bold">🔊 {w}</button>
+                          <button disabled={saved.has(w)} onClick={() => { useReviewStore.getState().addWord(w, lang as never); setSaved(new Set([...saved, w])); }}
+                            aria-label={t('wl_save', { word: w })} className="px-2 border-l border-border text-sm disabled:opacity-50">{saved.has(w) ? '✓' : '📒'}</button>
+                        </span>
+                      ))}
+                    </div>
+                  </>
+                )}
                 <p className="text-[11px] text-fg-muted">{t('ra_caveat')}</p>
                 <Button fullWidth onClick={() => { setPhase('ready'); setHeard(''); }}>{t('ra_again')}</Button>
               </Card>

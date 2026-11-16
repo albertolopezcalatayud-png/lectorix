@@ -1187,4 +1187,8 @@ export const en: Record<TranslationKey, string> = {
   // Fluency mic download
   flu_mic_download: 'Download the microphone check (once, about 50 MB)',
   flu_mic_downloading: 'Downloading… this can take a couple of minutes',
+
+  // Reading recogniser: doubtful words
+  ra_doubt: 'I am not sure I heard these properly: it sounded like another, very similar word. Listen to them and read them again:',
+  flu_mic_doubt: 'In yellow: the microphone thought it heard another, very similar word. They count as errors; if the word was read correctly, tap it under “Errors” to remove the mark.',
 };

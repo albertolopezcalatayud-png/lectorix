@@ -1185,6 +1185,10 @@ export const es = {
   // Fluency mic download
   flu_mic_download: 'Descargar la comprobación por micrófono (una sola vez, unos 50 MB)',
   flu_mic_downloading: 'Descargando… puede tardar un par de minutos',
+
+  // Reading recogniser: doubtful words
+  ra_doubt: 'Estas no estoy seguro de haberlas oído bien: me ha parecido oír otra palabra muy parecida. Escúchalas y vuelve a leerlas:',
+  flu_mic_doubt: 'En amarillo: al micrófono le ha parecido oír otra palabra muy parecida. Cuentan como error; si se leyó bien, toca la palabra en «Errores» para quitarlo.',
 } as const;
 
 export type TranslationKey = keyof typeof es;

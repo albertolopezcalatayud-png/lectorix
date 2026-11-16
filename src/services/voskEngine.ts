@@ -58,14 +58,15 @@ export async function voskInstall(lang: string): Promise<boolean> {
   try { await model(lang); return true; } catch { return false; }
 }
 
-const clean = (w: string) => w.toLowerCase().replace(/[^\p{L}\p{N}'·-]/gu, '').replace(/^['-]+|['-]+$/g, '');
+export const clean = (w: string) => w.toLowerCase().replace(/[^\p{L}\p{N}'·-]/gu, '').replace(/^['-]+|['-]+$/g, '');
 
 /**
  * Listens until stop(). onText gets the whole transcript so far. `words` are the words of the text being
  * read: the recogniser then only looks for those (anything else is heard as "unknown" and dropped).
+ * `rivals` are close real words it may also hear (rivals.ts); they come back in the transcript like any other word.
  */
 export async function voskListen(
-  lang: string, onText: (text: string) => void, onError: (code: string) => void, words?: string[],
+  lang: string, onText: (text: string) => void, onError: (code: string) => void, words?: string[], rivals?: string[],
 ): Promise<{ stop: () => void }> {
   if (!isLang(lang) || !voskSupported()) throw new Error('unavailable');
   let stream: MediaStream;
@@ -77,7 +78,7 @@ export async function voskListen(
 
   const Ctx = window.AudioContext ?? (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
   const ctx = new Ctx();
-  const grammar = words?.length ? JSON.stringify([...new Set(words.map(clean).filter(Boolean)), '[unk]']) : undefined;
+  const grammar = words?.length ? JSON.stringify([...new Set([...words.map(clean), ...(rivals ?? [])].filter(Boolean)), '[unk]']) : undefined;
   const rec = new m.KaldiRecognizer(ctx.sampleRate, grammar);
   let done = '';
   const tidy = (s: string) => s.replace(/\[unk\]/g, ' ').replace(/\s+/g, ' ').trim();

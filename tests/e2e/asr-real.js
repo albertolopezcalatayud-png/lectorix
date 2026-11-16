@@ -22,8 +22,11 @@ const [wav, id, minRead, maxRead] = process.argv.slice(2);
   const body = await p.innerText('body');
   const m = body.match(/Ha reconocido (\d+) de (\d+) palabras/);
   const read = m ? +m[1] : -1;
-  const ok = read >= +minRead && read <= +maxRead && errors.length === 0;
+  // words shown as doubtful (a close word was heard instead): MIN_DOUBT / MAX_DOUBT set the expected range
+  const doubt = await p.locator('.reading-text span.decoration-dotted').count();
+  const minDoubt = +(process.env.MIN_DOUBT || 0), maxDoubt = +(process.env.MAX_DOUBT || 9999);
+  const ok = read >= +minRead && read <= +maxRead && doubt >= minDoubt && doubt <= maxDoubt && errors.length === 0;
   if (!m) console.log('Page says:', body.slice(0, 900));
-  console.log((ok ? 'PASS ' : 'FAIL ') + `${wav.split('/').pop()}: recognised ${read} of ${m ? m[2] : '?'} (expected ${minRead}–${maxRead})`, errors);
+  console.log((ok ? 'PASS ' : 'FAIL ') + `${wav.split('/').pop()}: recognised ${read} of ${m ? m[2] : '?'} (expected ${minRead}–${maxRead}), doubtful ${doubt} (expected ${minDoubt}–${maxDoubt})`, errors);
   await b.close(); process.exit(ok ? 0 : 1);
 })();

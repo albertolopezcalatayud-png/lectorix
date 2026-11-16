@@ -1187,4 +1187,8 @@ export const ca: Record<TranslationKey, string> = {
   // Fluency mic download
   flu_mic_download: 'Descarregar la comprovació per micròfon (una sola vegada, uns 50 MB)',
   flu_mic_downloading: 'Descarregant… pot tardar un parell de minuts',
+
+  // Reading recogniser: doubtful words
+  ra_doubt: 'Estes no estic segur d\'haver-les sentides bé: m\'ha paregut sentir una altra paraula molt pareguda. Escolta-les i torna a llegir-les:',
+  flu_mic_doubt: 'En groc: al micròfon li ha paregut sentir una altra paraula molt pareguda. Compten com a error; si es va llegir bé, toca la paraula en «Errors» per a llevar-lo.',
 };

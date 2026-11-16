@@ -10,7 +10,9 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { Capacitor, registerPlugin, type PluginListenerHandle } from '@capacitor/core';
-import { voskState, voskInstall, voskListen, voskReady } from './voskEngine';
+import { voskState, voskInstall, voskListen, voskReady, clean } from './voskEngine';
+import { rivalsFor, type Rivals } from './rivals';
+export type { Rivals };
 
 /** Lectorix's own recogniser is used when the device can run it and its models are published */
 const own = async (lang: string) => (await voskReady()) && voskState(lang) !== 'unavailable';
@@ -107,14 +109,19 @@ export async function installLanguage(lang: string): Promise<boolean> {
   }
 }
 
-export interface Listening { stop: () => void }
+/** `rivals`: close words the recogniser was also listening for (only Lectorix's own recogniser); pass them to align() */
+export interface Listening { stop: () => void; rivals?: Rivals }
 
 /**
  * Listens until stop() is called. onText receives the whole transcript so far (finished parts + the
  * part being recognised). Android stops after a pause, so it is restarted while the session is on.
  */
 export async function listen(lang: string, onText: (text: string) => void, onError: (code: string) => void, words?: string[]): Promise<Listening> {
-  if (await own(lang)) return voskListen(lang, onText, onError, words);
+  if (await own(lang)) {
+    const rivals = words?.length ? await rivalsFor(lang, [...new Set(words.map(clean).filter(Boolean))]) : undefined;
+    const session = await voskListen(lang, onText, onError, words, rivals ? [...new Set([...rivals.values()].flatMap((r) => [...r]))] : undefined);
+    return { ...session, rivals };
+  }
   const tag = SPEECH_TAG[lang] ?? lang;
   let done = '';
   let active = true;
@@ -196,31 +203,46 @@ function close(a: string, b: string): boolean {
   return edits + (a.length - i) + (b.length - j) <= 1;
 }
 
-export type WordState = 'pending' | 'read' | 'missed';
+/** 'doubt': a close word was heard instead ("pato" for "gato"); shown for review, neither right nor wrong */
+export type WordState = 'pending' | 'read' | 'missed' | 'doubt';
 
 /**
  * Walks through the text following what was heard. A heard word moves the position forward when it
  * matches one of the next few words of the text; text words jumped over are marked as missed.
+ * With `rivals` (Lectorix's own recogniser), a rival heard where its word was expected marks that word
+ * as doubtful, and rivals never count as the word itself.
  */
-export function align(textWords: string[], heard: string): { states: WordState[]; position: number } {
+export function align(textWords: string[], heard: string, rivals?: Rivals): { states: WordState[]; position: number } {
   const target = textWords.map(norm);
   const states: WordState[] = textWords.map(() => 'pending');
+  // rivals by the normalised form of their word
+  const rivalOf = new Map<string, Set<string>>();
+  const anyRival = new Set<string>();
+  rivals?.forEach((set, w) => {
+    const k = norm(w); const mine = rivalOf.get(k) ?? new Set<string>();
+    set.forEach((r) => { const n = norm(r); if (n && n !== k) { mine.add(n); anyRival.add(n); } });
+    rivalOf.set(k, mine);
+  });
+  const isWord = (t: string, h: string) => t === h || (!anyRival.has(h) && close(t, h));
   let pos = 0;
   for (const raw of heard.split(/\s+/)) {
     const h = norm(raw);
     if (!h) continue;
     // A number can be said in several words ("mil ochocientos sesenta y tres"): while on it, wait for the next word
     if (/\d/.test(target[pos] ?? '') && !/\d/.test(h)) {
-      if (pos + 1 < target.length && close(target[pos + 1], h)) { states[pos] = 'read'; states[pos + 1] = 'read'; pos += 2; }
+      if (pos + 1 < target.length && isWord(target[pos + 1], h)) { states[pos] = 'read'; states[pos + 1] = 'read'; pos += 2; }
       continue;
     }
-    for (let k = pos; k < Math.min(target.length, pos + 4); k++) {
-      if (target[k] && close(target[k], h)) {
-        for (let m = pos; m < k; m++) if (states[m] === 'pending') states[m] = target[m] && !/\d/.test(target[m]) ? 'missed' : 'read'; // numbers can be said in many ways
-        states[k] = 'read';
-        pos = k + 1;
-        break;
-      }
+    const end = Math.min(target.length, pos + 4);
+    let at = -1; let state: WordState = 'read';
+    for (let k = pos; k < end && at < 0; k++) if (target[k] && isWord(target[k], h)) at = k;
+    if (at < 0 && anyRival.has(h)) {
+      for (let k = pos; k < end && at < 0; k++) if (rivalOf.get(target[k])?.has(h)) { at = k; state = 'doubt'; }
+    }
+    if (at >= 0) {
+      for (let m = pos; m < at; m++) if (states[m] === 'pending') states[m] = target[m] && !/\d/.test(target[m]) ? 'missed' : 'read'; // numbers can be said in many ways
+      states[at] = state;
+      pos = at + 1;
     }
   }
   return { states, position: pos };

@@ -10,7 +10,7 @@ import { Button } from '@/components/ui/Button';
 import { SyllableWord, useSyllableColoring } from '@/components/reading/SyllableText';
 import { useI18n } from '@/i18n';
 import { awardActivityXP } from '@/services/session';
-import { availability, installLanguage, listen, align, useReadAloud, type Availability, type Listening } from '@/services/readAloud';
+import { availability, installLanguage, listen, align, useReadAloud, type Availability, type Listening, type Rivals } from '@/services/readAloud';
 
 const TEST_SECONDS = 60;
 /** Faster than this is not reading aloud (fluent adults read about 150–180 words a minute aloud) */
@@ -72,13 +72,15 @@ export default function Fluency() {
   const [heard, setHeard] = useState('');
   const [micLimit, setMicLimit] = useState(-1);   // last word the device heard
   const [micMissed, setMicMissed] = useState<Set<number>>(new Set());
+  const [micDoubt, setMicDoubt] = useState<Set<number>>(new Set()); // a close word was heard: marked, but can be unmarked
+  const [rivals, setRivals] = useState<Rivals | undefined>(undefined);
   const [micError, setMicError] = useState(false);
   const [tooFast, setTooFast] = useState(false);
   const listening = useRef<Listening | null>(null);
   useEffect(() => () => { listening.current?.stop(); listening.current = null; }, []);
 
   const words = useMemo(() => (reading ? reading.text.split(/\s+/).filter(Boolean) : []), [reading]);
-  const live = useMemo(() => (micMode ? align(words, heard) : null), [micMode, words, heard]);
+  const live = useMemo(() => (micMode ? align(words, heard, rivals) : null), [micMode, words, heard, rivals]);
 
   // Pick a text of the level, preferring one not used recently
   const pick = () => {
@@ -93,7 +95,7 @@ export default function Fluency() {
     setErrors(new Set());
     setLeft(TEST_SECONDS);
     setResult(null);
-    setHeard(''); setMicLimit(-1); setMicMissed(new Set()); setMicError(false); setTooFast(false);
+    setHeard(''); setMicLimit(-1); setMicMissed(new Set()); setMicDoubt(new Set()); setMicError(false); setTooFast(false);
   };
 
   /** End of the minute (or of the text): with the microphone, the result comes from what was heard */
@@ -101,13 +103,14 @@ export default function Fluency() {
     setElapsed(secs);
     if (micMode) {
       listening.current?.stop(); listening.current = null;
-      const { states, position } = align(words, heard);
-      const missed = new Set<number>();
-      states.forEach((st, i) => { if (st === 'missed' && i < position) missed.add(i); });
+      const { states, position } = align(words, heard, rivals);
+      const missed = new Set<number>(); const doubt = new Set<number>();
+      states.forEach((st, i) => { if (i >= position) return; if (st === 'missed') missed.add(i); else if (st === 'doubt') doubt.add(i); });
       setMicLimit(position - 1);
       setMicMissed(missed);
+      setMicDoubt(doubt);
       setLastWord(position > 0 ? position - 1 : null);
-      setErrors(missed);
+      setErrors(new Set([...missed, ...doubt]));
     } else {
       setLastWord(early ? words.length - 1 : null);
     }
@@ -130,6 +133,7 @@ export default function Fluency() {
     if (micMode) {
       try {
         listening.current = await listen(lang, setHeard, () => { setMicError(true); }, words);
+        setRivals(listening.current.rivals);
       } catch { setMicError(true); return; }
     }
     startRef.current = Date.now();
@@ -257,7 +261,10 @@ export default function Fluency() {
                   </button>
                 </div>
                 {micMode
-                  ? <p className="text-[11px] text-fg-muted">🎤 {t('flu_mic_checked')}</p>
+                  ? <>
+                      <p className="text-[11px] text-fg-muted">🎤 {t('flu_mic_checked')}</p>
+                      {micDoubt.size > 0 && <p className="text-[11px] font-bold"><span className="rounded px-1 bg-yellow-pale underline decoration-dotted">🤔</span> {t('flu_mic_doubt')}</p>}
+                    </>
                   : <p className="text-[11px] font-bold">👂 {t('flu_adult_needed')}</p>}
               </Card>
             )}
@@ -271,11 +278,12 @@ export default function Fluency() {
                     const err = errors.has(i);
                     const last = i === lastWord;
                     const heardOk = phase === 'reading' && live?.states[i] === 'read';
+                    const doubt = phase === 'mark' && micMode && micDoubt.has(i);
                     return (
                       <span key={i}>
                         <span
                           onClick={() => tapWord(i)}
-                          className={`rounded px-0.5 ${phase === 'mark' ? 'cursor-pointer' : ''} ${after ? 'opacity-35' : ''} ${err ? 'bg-red/25 line-through decoration-red' : ''} ${last ? 'ring-2 ring-accent bg-accent-pale' : ''} ${heardOk ? 'bg-mint/30' : ''}`}
+                          className={`rounded px-0.5 ${phase === 'mark' ? 'cursor-pointer' : ''} ${after ? 'opacity-35' : ''} ${err && !doubt ? 'bg-red/25 line-through decoration-red' : ''} ${doubt ? `bg-yellow-pale underline decoration-dotted decoration-2 underline-offset-4 ${err ? 'line-through' : ''}` : ''} ${last ? 'ring-2 ring-accent bg-accent-pale' : ''} ${heardOk ? 'bg-mint/30' : ''}`}
                         >
                           {sylLang ? <SyllableWord word={w} lang={sylLang} /> : w}
                         </span>{' '}

@@ -33,6 +33,7 @@ jobs:
       - name: Build the app with the models
         run: |
           npm ci
+          npx --yes tsx tests/unit/align.test.ts
           npm run build
           cp -r asr dist/asr
       - name: Test audio (synthetic readings)
@@ -48,6 +49,29 @@ jobs:
           print(len(words), 'words')
           fake = ['tururú', 'pimpampum', 'zorfino', 'mertaco', 'lupendo', 'brinfa']
           cases = {'ok': ' '.join(words), 'gibberish': ' '.join(fake[i % 6] for i in range(len(words))), 'half': ' '.join(words[:len(words) // 2])}
+          # near misses: a few words changed for a close real word ("pato" for "gato"); the app must show them as doubtful
+          import gzip, re
+          freq = gzip.open('public/dict/es.frz').read().decode().split('\n')[:40000]
+          rank = {w: i for i, w in enumerate(freq) if w}
+          clean = lambda w: re.sub(r"[^\w]", '', w.lower())
+          intext = {clean(w) for w in words}
+          abc = 'abcdefghijlmnñopqrstuvzáéíóú'
+          def rival(w):
+              out = set()
+              for i in range(len(w) + 1):
+                  if i < len(w):
+                      out.add(w[:i] + w[i + 1:])
+                      out.update(w[:i] + ch + w[i + 1:] for ch in abc)
+                  out.update(w[:i] + ch + w[i:] for ch in abc)
+              out = sorted((x for x in out if x in rank and x not in intext and x != w), key=lambda x: rank[x])
+              return out[0] if out else None
+          swapped, n, last = list(words), 0, -5
+          for i, w in enumerate(words):
+              c = clean(w)
+              if n < 4 and i - last >= 4 and len(c) >= 4 and rank.get(c, 10**9) >= 150 and rival(c):
+                  swapped[i] = rival(c); n += 1; last = i; print('swap', w, '->', swapped[i])
+          cases['swap'] = ' '.join(swapped)
+          open('/tmp/swaps.txt', 'w').write(str(n))
           for name, text in cases.items():
               subprocess.run(['piper', '-m', '/tmp/v.onnx', '-c', '/tmp/v.onnx.json', '-f', f'/tmp/{name}.raw.wav'], input=text.encode(), check=True)
               subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', f'/tmp/{name}.raw.wav', '-ar', '48000', '-ac', '1', f'/tmp/{name}.wav'], check=True)
@@ -62,6 +86,9 @@ jobs:
           node asr-real.cjs /tmp/ok.wav lectura_l1_gato $((N * 80 / 100)) $N
           node asr-real.cjs /tmp/gibberish.wav lectura_l1_gato 0 $((N * 12 / 100))
           node asr-real.cjs /tmp/half.wav lectura_l1_gato $((N * 38 / 100)) $((N * 55 / 100))
+          S=$(cat /tmp/swaps.txt)
+          MIN_DOUBT=$((S / 2)) node asr-real.cjs /tmp/swap.wav lectura_l1_gato $((N * 60 / 100)) $((N - S / 2))
+          MAX_DOUBT=$((N * 10 / 100)) node asr-real.cjs /tmp/ok.wav lectura_l1_gato $((N * 80 / 100)) $N
       - name: Publish the models
         run: |
           cd asr && git init -q && git checkout -q -b asr-models
