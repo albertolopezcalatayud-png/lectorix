@@ -68,6 +68,31 @@ def vosk_run(model, pcm, grammar):
     out.append(json.loads(rec.FinalResult()).get('text', ''))
     return [norm(w) for w in ' '.join(out).split() if w != '[unk]' and norm(w)]
 
+def pairs(target, hyp):
+    """{text index: heard index} of the longest common subsequence"""
+    n, m = len(target), len(hyp); dp = [[0] * (m + 1) for _ in range(n + 1)]
+    for i in range(n - 1, -1, -1):
+        for j in range(m - 1, -1, -1):
+            dp[i][j] = dp[i + 1][j + 1] + 1 if target[i] == hyp[j] else max(dp[i + 1][j], dp[i][j + 1])
+    i = j = 0; out = {}
+    while i < n and j < m:
+        if target[i] == hyp[j]: out[i] = j; i += 1; j += 1
+        elif dp[i + 1][j] >= dp[i][j + 1]: i += 1
+        else: j += 1
+    return out
+
+def contradicted(target, free, maxd, same_start=False):
+    """text words for which the free listen heard, in their place, a different word close to them"""
+    pr = pairs(target, free); out = set()
+    for i in range(len(target)):
+        if i in pr: continue
+        a = max([pr[k] for k in pr if k < i], default=-1); b = min([pr[k] for k in pr if k > i], default=len(free))
+        for h in free[a + 1:b]:
+            d = Levenshtein.distance(h, target[i])
+            if 1 <= d <= maxd and min(len(h), len(target[i])) >= 3 and (not same_start or h[0] == target[i][0] or d == 1):
+                out.add(i); break
+    return out
+
 def matched(target, hyp):
     """indices of the text read exactly, in order (longest common subsequence)"""
     n, m = len(target), len(hyp); dp = [[0] * (m + 1) for _ in range(n + 1)]
@@ -103,7 +128,7 @@ def mutate(w, n, vset):
         if x != w and x not in vset: return x
     return None
 
-GRAMMARS = os.environ.get('GRAMMARS', 'text,spell4,sound6,common2k,common10k,free,two-pass,two-pass6').split(',')
+GRAMMARS = os.environ.get('GRAMMARS', 'spell4,free,tp4,tp4-sub1,tp4-sub2,tp4-sub2s').split(',')
 import time
 for lang in ONLY:
     c = LANGS[lang]
@@ -170,11 +195,12 @@ for lang in ONLY:
                 pcm = synth(voice, ' '.join(toks)); audio[0] += len(pcm) / 16000
                 hyp = {}
                 for g in GRAMMARS:
-                    if g.startswith('two-pass'):
-                        a = 'text' if g == 'two-pass' else 'sound6'
-                        for need in (a, 'free'):
+                    if g.startswith('tp4'):
+                        for need in ('spell4', 'free'):
                             if need not in hyp: hyp[need] = vosk_run(model, pcm, gr[need])
-                        hit = matched(tgt, hyp[a]) & matched(tgt, hyp['free'])
+                        first = matched(tgt, hyp['spell4'])
+                        if g == 'tp4': hit = first & matched(tgt, hyp['free'])
+                        else: hit = first - contradicted(tgt, hyp['free'], 1 if g == 'tp4-sub1' else 2, g.endswith('s'))
                     else:
                         t0 = time.time(); hyp[g] = vosk_run(model, pcm, gr[g]); secs[g] = secs.get(g, 0) + time.time() - t0
                         hit = matched(tgt, hyp[g])
