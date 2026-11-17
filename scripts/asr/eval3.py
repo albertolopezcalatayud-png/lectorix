@@ -61,7 +61,7 @@ def synth(voice, text):
     return (np.interp(idx, np.arange(len(audio)), audio) * 32767).astype(np.int16)
 
 def vosk_run(model, pcm, grammar):
-    rec = KaldiRecognizer(model, 16000, json.dumps(grammar, ensure_ascii=False))
+    rec = KaldiRecognizer(model, 16000, json.dumps(grammar, ensure_ascii=False)) if grammar else KaldiRecognizer(model, 16000)
     out = []
     for i in range(0, len(pcm), 8000):
         if rec.AcceptWaveform(pcm[i:i + 8000].tobytes()): out.append(json.loads(rec.Result()).get('text', ''))
@@ -103,7 +103,8 @@ def mutate(w, n, vset):
         if x != w and x not in vset: return x
     return None
 
-GRAMMARS = ['text', 'spell4', 'sound6', 'sound12', 'sound24', 'sound12+spell4']
+GRAMMARS = os.environ.get('GRAMMARS', 'text,spell4,sound6,common2k,common10k,free,two-pass,two-pass6').split(',')
+import time
 for lang in ONLY:
     c = LANGS[lang]
     mdir = os.path.join(models_dir, c['vosk'])
@@ -138,6 +139,8 @@ for lang in ONLY:
                 if x != w and x not in cands: cands[x] = (0 if len(q) == len(p) else 1, rank.get(x, 10**8))
         return sorted(cands, key=lambda x: cands[x])[:limit]
     model = Model(mdir)
+    secs = {}; audio = [0.0]
+    common = [w for w in freq if w in vset and len(w) > 1][:10000]
     st = {g: dict(ok=0, okn=0, p1=0, p1n=0, p2=0, p2n=0, real=0, realn=0, size=0, sizen=0) for g in GRAMMARS}
     for vname in c['voices']:
         vp = os.path.join(voices_dir, vname + '.onnx')
@@ -150,8 +153,10 @@ for lang in ONLY:
             so = {w: sound_rivals(w, 24) for w in base}
             gr['spell4'] = base + [x for w in base for x in sp[w]]
             for k in (6, 12, 24): gr[f'sound{k}'] = base + [x for w in base for x in so[w][:k]]
+            for k in (2000, 10000): gr[f'common{k // 1000}k'] = base + [x for w in base for x in so[w][:6]] + common[:k]
             gr['sound12+spell4'] = base + [x for w in base for x in so[w][:12] + sp[w]]
             gr = {g: sorted(set(v) - {''}) + ['[unk]'] for g, v in gr.items()}
+            gr['free'] = None
             cands = [i for i, w in enumerate(tgt) if len(w) >= 4]
             if not cands: continue
             i = random.choice(cands)
@@ -162,16 +167,25 @@ for lang in ONLY:
             rl = [x for x in spell_rivals(tgt[i], rank, c['abc'], 3, 4, 0) + so[tgt[i]][:3] if x not in base]
             if rl: cases.append(('real', tgt[:i] + [rl[0]] + tgt[i + 1:], i))
             for key, toks, at in cases:
-                pcm = synth(voice, ' '.join(toks))
+                pcm = synth(voice, ' '.join(toks)); audio[0] += len(pcm) / 16000
+                hyp = {}
                 for g in GRAMMARS:
-                    hit = matched(tgt, vosk_run(model, pcm, gr[g]))
+                    if g.startswith('two-pass'):
+                        a = 'text' if g == 'two-pass' else 'sound6'
+                        for need in (a, 'free'):
+                            if need not in hyp: hyp[need] = vosk_run(model, pcm, gr[need])
+                        hit = matched(tgt, hyp[a]) & matched(tgt, hyp['free'])
+                    else:
+                        t0 = time.time(); hyp[g] = vosk_run(model, pcm, gr[g]); secs[g] = secs.get(g, 0) + time.time() - t0
+                        hit = matched(tgt, hyp[g])
                     S = st[g]
-                    if key == 'ok': S['ok'] += len(hit); S['okn'] += len(tgt); S['size'] += len(gr[g]); S['sizen'] += 1
+                    if key == 'ok': S['ok'] += len(hit); S['okn'] += len(tgt); S['size'] += len(gr.get(g) or []); S['sizen'] += 1
                     else: S[key] += int(at in hit); S[key + 'n'] += 1
             if lang == ONLY[0] and vname == c['voices'][0] and sents.index(s) < 3:
                 print('  e.g.', tgt[i], 'sound rivals:', so[tgt[i]][:12], 'spell:', sp[tgt[i]], flush=True)
     pct = lambda a, b: f'{100 * a / b:5.1f}' if b else '  -  '
     print(f"{'grammar':16} {'words':>6} {'ok read':>8} | wrongly read: {'1 letter':>9} {'2 letters':>9} {'real word':>9}")
+    print('speed x real time:', {g: round(audio[0] / v, 1) for g, v in secs.items() if v})
     for g in GRAMMARS:
         S = st[g]
         print(f"{g:16} {S['size'] / max(1, S['sizen']):6.0f} {pct(S['ok'], S['okn']):>8} | {'':14}{pct(S['p1'], S['p1n']):>9} {pct(S['p2'], S['p2n']):>9} {pct(S['real'], S['realn']):>9}", flush=True)
