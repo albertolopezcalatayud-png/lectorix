@@ -24,10 +24,11 @@ HERE = os.path.dirname(__file__)
 ROOT = os.path.join(HERE, '..', '..', 'src', 'data')
 DICT = os.path.join(HERE, '..', '..', 'public', 'dict')
 N_SENT = int(os.environ.get('N_SENT', '30'))
+ONLY = os.environ.get('LANGS', 'es,ca,en').split(',')
 LANGS = {
-    'es': dict(readings='lecturas.json', voices=['es_ES-davefx-medium', 'es_ES-sharvard-medium'], models=['stt_es_citrinet_512', 'nvidia/stt_es_conformer_ctc_large'], abc='abcdefghijlmnñopqrstuvzáéíóú'),
-    'ca': dict(readings='lectures.ca.json', voices=['ca_ES-upc_ona-medium', 'ca_ES-upc_pau-x_low'], models=['hf:projecte-aina/stt-ca-citrinet-512/stt-ca-citrinet-512.nemo'], abc='abcçdefghijlmnopqrstuvxzàèéíòóú'),
-    'en': dict(readings='readings.en.json', voices=['en_GB-cori-high', 'en_GB-northern_english_male-medium'], models=['stt_en_citrinet_512', 'nvidia/stt_en_conformer_ctc_small'], abc='abcdefghijklmnopqrstuvwxyz'),
+    'es': dict(readings='lecturas.json', voices=['es_ES-davefx-medium', 'es_ES-sharvard-medium'], models=os.environ.get('M_ES', 'stt_es_citrinet_512').split(','), abc='abcdefghijlmnñopqrstuvzáéíóú'),
+    'ca': dict(readings='lectures.ca.json', voices=['ca_ES-upc_ona-medium', 'ca_ES-upc_pau-x_low'], models=os.environ.get('M_CA', 'stt_ca_conformer_ctc_large').split(','), abc='abcçdefghijlmnopqrstuvxzàèéíòóú'),
+    'en': dict(readings='readings.en.json', voices=['en_GB-cori-high', 'en_GB-northern_english_male-medium'], models=os.environ.get('M_EN', 'stt_en_citrinet_512').split(','), abc='abcdefghijklmnopqrstuvwxyz'),
 }
 SWAP = {'t': 'd', 'd': 't', 'p': 'b', 'b': 'p', 'c': 'g', 'g': 'c', 'k': 'g', 'm': 'n', 'n': 'm', 'r': 'l', 'l': 'r', 's': 'z', 'z': 's', 'f': 'v', 'v': 'f', 'a': 'e', 'e': 'a', 'o': 'u', 'u': 'o', 'i': 'e'}
 norm = lambda w: re.sub(r"[^\w'·-]", '', w.lower(), flags=re.U).strip("'-")
@@ -71,7 +72,7 @@ def logprobs(m, audio16):
     lp, _, _ = m.forward(input_signal=x, input_signal_length=torch.tensor([x.shape[1]]))
     return lp[0]
 
-def word_scores(lp, ids, owner, nwords, blank):
+def word_scores(lp, ids, owner, nwords, blank, spans=None):
     """Per word: mean over its frames of (log p of the forced label) - (log p of the best label)"""
     T = lp.shape[0]
     if T < len(ids) + 1: return None
@@ -91,11 +92,44 @@ def word_scores(lp, ids, owner, nwords, blank):
         fr = sorted({f for i in toks for f in tok_frames[i]})
         if not fr: out.append(None); continue
         a, b = fr[0], fr[-1] + 1
+        if spans is not None: spans[wi] = (a, b)
         span = range(a, b)
         tgt = sum(float(lp[f, ali[f]]) for f in span)
         free = sum(float(best[f]) for f in span)
         out.append((tgt - free) / max(1, b - a))
     return out
+
+def edits1(w, abc):
+    out = set()
+    for i in range(len(w) + 1):
+        if i < len(w):
+            out.add(w[:i] + w[i + 1:]); out.update(w[:i] + ch + w[i + 1:] for ch in abc)
+        out.update(w[:i] + ch + w[i:] for ch in abc)
+    out.discard(w)
+    return [x for x in out if x]
+
+def word_ids(m, kind, vocab, w):
+    if kind == 'bpe': return m.tokenizer.text_to_ids(w)
+    w2 = w.replace('ñ', 'ny') if 'ñ' not in vocab else w
+    return [vocab.index(ch) for ch in w2 if ch in vocab]
+
+def competitor(lp, span, w, m, kind, vocab, abc, blank):
+    """log P(word) - max log P(any word one letter away), over the word's frames (CTC forward, all paths)"""
+    a, b = span; a = max(0, a - 2); b = min(lp.shape[0], b + 2)
+    seg = lp[a:b]
+    cands = [w] + edits1(w, abc)
+    tok = [word_ids(m, kind, vocab, x) for x in cands]
+    keep = [i for i, t in enumerate(tok) if 0 < len(t) <= seg.shape[0]]
+    if 0 not in keep: return None
+    tok = [tok[i] for i in keep]
+    n = len(tok)
+    targets = torch.tensor([x for t in tok for x in t], dtype=torch.long)
+    lens = torch.tensor([len(t) for t in tok])
+    lpb = seg[:, None, :].expand(-1, n, -1)
+    nll = torch.nn.functional.ctc_loss(lpb, targets, torch.full((n,), seg.shape[0], dtype=torch.long), lens, blank=blank, reduction='none', zero_infinity=True)
+    ll = -nll
+    if (nll[0] == 0) and seg.shape[0] < len(tok[0]): return None
+    return float(ll[0] - ll[1:].max()) if n > 1 else None
 
 def neighbours(w, rank, abc):
     out = set()
@@ -133,6 +167,7 @@ def augment(a, kind):
 AUGS = ['clean', 'child', 'noise']
 report = {}
 for lang, c in LANGS.items():
+    if lang not in ONLY: continue
     name, m = load_model(c['models']); kind, vocab = vocab_of(m)
     blank = m.decoder.num_classes_with_blank - 1 if hasattr(m.decoder, 'num_classes_with_blank') else len(m.decoder.vocabulary)
     params = sum(p.numel() for p in m.parameters()) / 1e6
@@ -147,6 +182,8 @@ for lang, c in LANGS.items():
             if 7 <= len(words(s)) <= 16: sents.append(s)
     sents = random.sample(sents, min(N_SENT, len(sents)))
     S = {a: {'ok': [], 'real': [], 'pseudo1': [], 'pseudo2': []} for a in AUGS}
+    C = {a: {'ok': [], 'real': [], 'pseudo1': [], 'pseudo2': []} for a in AUGS}  # competitor test
+    G = {a: {'ok': [0, 0], 'real': [0, 0], 'pseudo1': [0, 0], 'pseudo2': [0, 0]} for a in AUGS}  # free decoding differs
     secs_audio = secs_model = 0.0
     for vname in c['voices']:
         vp = os.path.join(voices_dir, vname + '.onnx')
@@ -166,10 +203,22 @@ for lang, c in LANGS.items():
                 base = synth(voice, spoken)
                 for a in AUGS:
                     au = augment(base, a); t0 = time.time(); lp = logprobs(m, au); secs_model += time.time() - t0; secs_audio += len(au) / 16000
-                    sc = word_scores(lp, ids, owner, len(tgt), blank)
+                    spans = {}
+                    sc = word_scores(lp, ids, owner, len(tgt), blank, spans)
                     if sc is None: continue
-                    if kv == 'ok': S[a]['ok'] += [x for x in sc if x is not None]
-                    elif sc[i] is not None: S[a][kv].append(sc[i])
+                    check = [j for j in range(len(tgt)) if len(tgt[j]) >= 3] if kv == 'ok' else [i]
+                    for j in check:
+                        if sc[j] is None or j not in spans: continue
+                        cp = competitor(lp, spans[j], tgt[j], m, kind, vocab, c['abc'], blank)
+                        a0, b0 = spans[j]; a0 = max(0, a0 - 2); b0 = min(lp.shape[0], b0 + 2)
+                        g = lp[a0:b0].argmax(1).tolist(); dec = []; pv = None
+                        for x in g:
+                            if x != blank and x != pv: dec.append(x)
+                            pv = x
+                        txt = m.tokenizer.ids_to_text(dec) if kind == 'bpe' else ''.join(vocab[x] for x in dec)
+                        G[a][kv][0] += int(norm(txt.replace(' ', '')) != tgt[j].replace('ñ', 'ny' if kind == 'char' and 'ñ' not in vocab else 'ñ')); G[a][kv][1] += 1
+                        if kv == 'ok': S[a]['ok'].append(sc[j]); (cp is not None) and C[a]['ok'].append(cp)
+                        else: S[a][kv].append(sc[j]); (cp is not None) and C[a][kv].append(cp)
     res = {}
     for a in AUGS:
         ok = np.array(S[a]['ok'])
@@ -179,7 +228,16 @@ for lang, c in LANGS.items():
             row[f'th@{fa}'] = round(th, 3)
             for kv in ('real', 'pseudo1', 'pseudo2'):
                 v = np.array(S[a][kv]); row[f'{kv}@{fa}'] = round(100 * float(np.mean(v < th)), 1) if len(v) else None
+        okc = np.array(C[a]['ok'])
+        for fa in (0.02, 0.05, 0.10):
+            th = float(np.quantile(okc, fa)) if len(okc) else 0
+            for kv in ('real', 'pseudo1', 'pseudo2'):
+                v = np.array(C[a][kv]); row[f'C_{kv}@{fa}'] = round(100 * float(np.mean(v < th)), 1) if len(v) else None
+        for kv in ('ok', 'real', 'pseudo1', 'pseudo2'):
+            row[f'G_{kv}'] = round(100 * G[a][kv][0] / max(1, G[a][kv][1]), 1)
         res[a] = row
+        print(f"{lang} {a:6} COMPETITOR | FA 2%: real {row['C_real@0.02']}% pseudo1 {row['C_pseudo1@0.02']}% pseudo2 {row['C_pseudo2@0.02']}% | FA 5%: real {row['C_real@0.05']}% pseudo1 {row['C_pseudo1@0.05']}% pseudo2 {row['C_pseudo2@0.05']}% | FA 10%: real {row['C_real@0.1']}% pseudo1 {row['C_pseudo1@0.1']}% pseudo2 {row['C_pseudo2@0.1']}%", flush=True)
+        print(f"{lang} {a:6} FREE-DECODE differs: ok {row['G_ok']}% real {row['G_real']}% pseudo1 {row['G_pseudo1']}% pseudo2 {row['G_pseudo2']}%", flush=True)
         print(f"{lang} {a:6} okwords={len(ok)} | FA 2%: real {row['real@0.02']}% pseudo1 {row['pseudo1@0.02']}% pseudo2 {row['pseudo2@0.02']}% | FA 5%: real {row['real@0.05']}% pseudo1 {row['pseudo1@0.05']}% pseudo2 {row['pseudo2@0.05']}% | FA 10%: real {row['real@0.1']}% pseudo1 {row['pseudo1@0.1']}% pseudo2 {row['pseudo2@0.1']}%", flush=True)
     print(f'{lang} model speed on this CPU: x{secs_audio / max(1e-6, secs_model):.0f} real time', flush=True)
     report[lang] = {'model': name, 'params_M': round(params), 'kind': kind, 'res': res}

@@ -6,6 +6,15 @@ on:
       sentences:
         description: Sentences per language and voice
         default: '30'
+      m_es:
+        description: Spanish models to try (first that loads)
+        default: 'stt_es_citrinet_512'
+      m_ca:
+        default: 'stt_ca_conformer_ctc_large'
+      m_en:
+        default: 'stt_en_citrinet_512'
+      langs:
+        default: 'es,ca,en'
 
 jobs:
   eval:
@@ -29,4 +38,8 @@ jobs:
       - name: Compare
         env:
           N_SENT: ${{ inputs.sentences }}
+          M_ES: ${{ inputs.m_es }}
+          M_CA: ${{ inputs.m_ca }}
+          M_EN: ${{ inputs.m_en }}
+          LANGS: ${{ inputs.langs }}
         run: python scripts/asr/verify_eval.py /tmp/voices 2>&1 | grep -v -E "^\[NeMo W|warnings.warn|^ *$"
