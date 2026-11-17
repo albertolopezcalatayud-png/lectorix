@@ -210,9 +210,10 @@ export function confirm(textWords: string[], states: WordState[], second: string
   };
   const review = new Set<number>();
   const out = states.map((st, i) => {
-    // missed or only close in the first listen, heard exactly in the second (alone or said together with the
-    // next word): read. Mostly short words like «a», «en», «un»
-    if ((st === 'missed' || st === 'doubt') && at.has(i) && !rivalHeard[i]) return 'read' as WordState;
+    // only close in the first listen, or a short word it missed («a», «en», «un»: it often drops them), heard
+    // exactly by the second (alone or said together with the next word): read. A longer word the first
+    // listen could not fit at all stays missed: the second listen also turns made-up words into real ones.
+    if (((st === 'missed' && t[i].length <= 3) || st === 'doubt') && at.has(i) && !rivalHeard[i]) return 'read' as WordState;
     if (st !== 'read' || at.has(i) || /\d/.test(t[i]) || names.has(t[i])) return st;
     if (mode === 'strict' || (mode === 'close' && contradicted(i))) return 'doubt' as WordState;
     review.add(i); return st;

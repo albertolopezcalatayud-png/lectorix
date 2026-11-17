@@ -103,7 +103,9 @@ async function run(wav, seconds, n) {
   ok(r1.tabs >= 1 && r1.played >= 1, `every word can be listened back (tab ${r1.tabs}, played ${r1.played})`);
   const r2 = await run('/tmp/flu_swap.wav', d2, n);
   console.log('with swapped words:', JSON.stringify(r2));
-  ok(r2.struck >= Math.min(2, swaps.length), `swapped words count as errors (${r2.struck} marked, ${swaps.length} swapped)`);
+  // the recogniser catches about half of the made-up words one letter away (scripts/asr/eval3.py): at least one of three
+  const caught = swaps.filter(([w]) => r2.marked.some((m) => m.toLowerCase().includes(':' + w))).length;
+  ok(caught >= 1, `swapped words count as errors (${caught} of ${swaps.length} swapped words marked; ${r2.struck} marked in all)`);
   ok(r1.errors.length === 0 && r2.errors.length === 0, 'no page errors ' + [...r1.errors, ...r2.errors].join(' | '));
   process.exit(fails ? 1 : 0);
 })();
