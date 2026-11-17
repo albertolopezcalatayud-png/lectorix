@@ -160,18 +160,30 @@ export async function voskSecondListen(lang: string, rec: Recording, maxMs?: num
   try { m = await model(lang); } catch { return null; }
   const secs = rec.samples.length / rec.rate;
   const limit = maxMs ?? Math.max(8000, secs * 1500);
-  const free = new m.KaldiRecognizer(rec.rate);
+  // the recogniser works at 16 kHz: sending it 16 kHz audio saves time on modest phones
+  const RATE = 16000;
+  const pcm = rec.rate > RATE ? (() => {
+    const r = rec.rate / RATE; const out = new Float32Array(Math.floor(rec.samples.length / r));
+    for (let i = 0; i < out.length; i++) {
+      const a = Math.floor(i * r), b = Math.min(rec.samples.length, Math.floor((i + 1) * r)); let sum = 0;
+      for (let k = a; k < b; k++) sum += rec.samples[k];
+      out[i] = sum / Math.max(1, b - a); // average over the stretch: a simple low-pass before keeping 1 in r
+    }
+    return out;
+  })() : rec.samples;
+  const pr = rec.rate > RATE ? RATE : rec.rate;
+  const free = new m.KaldiRecognizer(pr);
   const parts: string[] = [];
   free.on('result', (msg) => {
     const t = ((msg as { result: { text?: string } }).result.text ?? '').replace(/\[unk\]/g, ' ').trim();
     if (t) parts.push(t);
   });
-  const step = Math.round(rec.rate / 2);
-  for (let i = 0; i < rec.samples.length; i += step) free.acceptWaveformFloat(rec.samples.slice(i, i + step), rec.rate);
+  const step = Math.round(pr / 2);
+  for (let i = 0; i < pcm.length; i += step) free.acceptWaveformFloat(pcm.slice(i, i + step), pr);
   free.retrieveFinalResult();
   // The model's worker answers in order: when this second, empty recogniser answers, the first one has
   // already given its last words.
-  const probe = new m.KaldiRecognizer(rec.rate, '["[unk]"]');
+  const probe = new m.KaldiRecognizer(pr, '["[unk]"]');
   const finished = await new Promise<boolean>((res) => {
     const timer = setTimeout(() => res(false), limit);
     probe.on('result', () => { clearTimeout(timer); res(true); });

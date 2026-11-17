@@ -93,6 +93,14 @@ export default function Fluency() {
   const setHeard = (t: string) => { heardRef.current = t; setHeardState(t); };
   const [micLimit, setMicLimit] = useState(-1);   // last word the device heard
   const [micMissed, setMicMissed] = useState<Set<number>>(new Set());
+  const skipCheck = useRef<(() => void) | null>(null); // see the result without waiting for the second listen
+  const checkStart = useRef(0);
+  const [canSkip, setCanSkip] = useState(false);
+  useEffect(() => {
+    if (phase !== 'checking') { setCanSkip(false); return; }
+    const id = setTimeout(() => setCanSkip(true), 6000);
+    return () => clearTimeout(id);
+  }, [phase]);
   const [micReview, setMicReview] = useState<Set<number>>(new Set()); // not confirmed by the second listen: not counted
   const [micDoubt, setMicDoubt] = useState<Set<number>>(new Set()); // a close word was heard: marked, but can be unmarked
   const [rivals, setRivals] = useState<Rivals | undefined>(undefined);
@@ -141,8 +149,12 @@ export default function Fluency() {
       // a second, closer listen to the recording catches close made-up words the first one let through
       if (rec && session?.secondListen && position > 0) {
         setPhase('checking');
-        const second = await session.secondListen(rec).catch(() => null);
-        if (second !== null) { const c = confirm(words, states, second, STRICT_SECOND_LISTEN.has(lang)); states = c.states; review = c.review; }
+        checkStart.current = Date.now();
+        const skipped = new Promise<null>((res) => { skipCheck.current = () => res(null); });
+        const second = await Promise.race([session.secondListen(rec).catch(() => null), skipped]);
+        skipCheck.current = null;
+        (window as unknown as { __lxCheckMs?: number }).__lxCheckMs = Date.now() - checkStart.current;
+        if (second !== null) { const c = confirm(words, states, second, STRICT_SECOND_LISTEN.has(lang), lang); states = c.states; review = c.review; }
       }
       setSpans(rec ? wordSpans(rec, from) : []);
       const missed = new Set<number>(); const doubt = new Set<number>();
@@ -316,6 +328,7 @@ export default function Fluency() {
               <Card className="text-center space-y-2" role="status" aria-live="polite">
                 <p className="text-2xl animate-pulse" aria-hidden>🔎</p>
                 <p className="text-sm font-bold">{t('flu_checking')}</p>
+                {canSkip && <button onClick={() => skipCheck.current?.()} className="text-xs font-bold text-accent underline underline-offset-4">{t('flu_checking_skip')}</button>}
               </Card>
             )}
 

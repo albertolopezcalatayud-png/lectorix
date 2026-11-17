@@ -59,7 +59,11 @@ async function run(wav, seconds, n) {
   await p.waitForTimeout(seconds * 1000 + 1500);
   const fin = p.getByRole('button', { name: L.finished });
   if (await fin.count()) await fin.click(); // the test may already have ended on its own
-  await p.waitForTimeout(3000);
+  await p.waitForTimeout(1500);
+  // the second listen (checking word by word) can take a while on a slow machine
+  await p.waitForFunction(() => !document.body.innerText.includes('🔎'), null, { timeout: 240000 }).catch(() => console.log('still checking after 4 min'));
+  await p.waitForTimeout(800);
+  console.log('second listen took', await p.evaluate(() => window.__lxCheckMs), 'ms for', Math.round(seconds), 's of reading');
   const body = await p.innerText('body');
   console.log('page:', body.replace(/\s+/g, ' ').slice(0, 400));
   const info = await p.evaluate(() => {

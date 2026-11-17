@@ -1290,4 +1290,7 @@ export const ca: Record<TranslationKey, string> = {
 
   // Fluency: words to review
   flu_mic_review: 'Subratllades sense ratllar: en el repàs no s’han sentit clares. No compten com a error: escolta-les i, si s’han llegit malament, marca-les a «Errors».',
+
+  // Fluency: skip second listen
+  flu_checking_skip: 'Veure el resultat sense aquest repàs',
 };

@@ -131,6 +131,17 @@ export interface Listening {
  */
 export const STRICT_SECOND_LISTEN = new Set(['es']);
 
+/**
+ * Spelling folded to how it sounds, so the second listen is not doubted for writing a word that sounds the
+ * same («bola» for «vola» in Valencian, «aya» for «haya»): b/v, silent h, qu/c/k, ll/y (Spanish only).
+ */
+export function soundKey(lang: string, w: string): string {
+  if (lang !== 'es' && lang !== 'ca') return w;
+  let x = w.replace(/v/g, 'b').replace(/(^|[^c])h/g, '$1').replace(/qu(?=[ei])/g, 'k').replace(/c(?=[aou]|$|[^eihaou])/g, 'k');
+  if (lang === 'es') x = x.replace(/ll/g, 'y');
+  return x;
+}
+
 /** Letters apart (insertions, deletions, changes) */
 function distance(a: string, b: string): number {
   const d = Array.from({ length: b.length + 1 }, (_, j) => j);
@@ -148,9 +159,9 @@ function distance(a: string, b: string): number {
  * never doubted: the second listen spells them in its own way.
  * Returns the new states (doubtful = counts as an error) and the words to review (not counted).
  */
-export function confirm(textWords: string[], states: WordState[], second: string, strict = true): { states: WordState[]; review: Set<number> } {
-  const t = textWords.map(norm);
-  const h = second.split(/\s+/).map(norm).filter(Boolean);
+export function confirm(textWords: string[], states: WordState[], second: string, strict = true, lang = ''): { states: WordState[]; review: Set<number> } {
+  const t = textWords.map((w) => soundKey(lang, norm(w)));
+  const h = second.split(/\s+/).map((w) => soundKey(lang, norm(w))).filter(Boolean);
   const names = new Set<string>();
   textWords.forEach((w, i) => { if (i > 0 && /^\p{Lu}/u.test(w) && !/[.!?…:»"]$/.test(textWords[i - 1])) names.add(t[i]); });
   const n = t.length, m = h.length;

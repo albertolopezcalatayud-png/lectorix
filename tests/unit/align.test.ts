@@ -56,6 +56,12 @@ ok(ns.states.join(' ') === 'read doubt read read' || ns.states[1] === 'doubt', '
 ok(ns.states[2] === 'read' && ns.review.has(2), 'not strict: «come», simply not heard, is left to review, not counted');
 ok(confirm(sw, first, 'el keto pescado', true).states[2] === 'doubt', 'strict: a word not heard counts');
 
+// sounds the same: not doubted
+const vola = 'el estel vola alt'.split(' ');
+ok(confirm(vola, vola.map(() => 'read' as const), 'el estel bola alt', false, 'ca').states.every((x) => x === 'read'), '«bola» heard for «vola» (Valencian, same sound): still read');
+ok(confirm(['Hay', 'un', 'yate'], ['read', 'read', 'read'], 'ay un yate', true, 'es').states.every((x) => x === 'read'), '«ay» heard for «hay»: still read');
+ok(confirm(['el', 'gato'], ['read', 'read'], 'el gata', true, 'es').states[1] === 'doubt', '…but «gata» for «gato» is still doubtful');
+
 // neighbours from the real word list
 for (const [lang, abc, word, want] of [['es', 'abcdefghijlmnñopqrstuvzáéíóú', 'gato', 'pato'], ['ca', 'abcçdefghijlmnopqrstuvxzàèéíòóú', 'casa', 'cosa'], ['en', 'abcdefghijklmnopqrstuvwxyz', 'house', 'horse']] as const) {
   const words = gunzipSync(readFileSync(`public/dict/${lang}.frz`)).toString('utf8').split('\n').slice(0, 40000);

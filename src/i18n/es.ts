@@ -1288,6 +1288,9 @@ export const es = {
 
   // Fluency: words to review
   flu_mic_review: 'Subrayadas sin tachar: en el repaso no se oyeron claras. No cuentan como error: escúchalas y, si se leyeron mal, márcalas en «Errores».',
+
+  // Fluency: skip second listen
+  flu_checking_skip: 'Ver el resultado sin este repaso',
 } as const;
 
 export type TranslationKey = keyof typeof es;
