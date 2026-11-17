@@ -18,6 +18,8 @@ const txt = async (p) => (await p.innerText('body')).replace(/\s+/g, ' ').slice(
     await p.click('button:has-text("2")');
     await p.click({ es: 'text=Preparar el texto', ca: 'text=Preparar el text', en: 'text=Get the text ready' }[lang]);
     await p.waitForTimeout(300);
+    // the adult listens (the microphone check is tested in fluency.js and fluency-real.js)
+    const adult = p.locator('button:has-text("👂")').first(); if (await adult.count()) { await adult.click(); await p.waitForTimeout(200); }
     await p.click({ es: 'button:has-text("Empezar")', ca: 'button:has-text("Començar")', en: 'button:has-text("Start")' }[lang]);
     await p.waitForTimeout(2500);
     await p.click({ es: 'text=He terminado el texto', ca: 'text=He acabat el text', en: 'text=I have finished the text' }[lang]);
