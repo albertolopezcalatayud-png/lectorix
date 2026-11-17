@@ -38,7 +38,8 @@ cards = []
 for f, spk, name, desc, lic in VOICES:
     p = os.path.join(voices_dir, f + '.onnx')
     if not os.path.exists(p): print('missing', f); continue
-    v = PiperVoice.load(p, p + '.json')
+    try: v = PiperVoice.load(p, p + '.json')
+    except Exception as e: print('cannot load', f, e); continue
     rows = []
     for kind, items in (('word', WORDS), ('sent', SENTS)):
         for t in items:
