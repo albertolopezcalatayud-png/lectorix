@@ -206,7 +206,7 @@ for lang, c in LANGS.items():
                     spans = {}
                     sc = word_scores(lp, ids, owner, len(tgt), blank, spans)
                     if sc is None: continue
-                    check = [j for j in range(len(tgt)) if len(tgt[j]) >= 3] if kv == 'ok' else [i]
+                    check = [j for j in range(len(tgt)) if len(tgt[j]) >= 4 and rank.get(tgt[j], 10**9) >= 150] if kv == 'ok' else [i]  # like with like: the same kind of words that are swapped
                     for j in check:
                         if sc[j] is None or j not in spans: continue
                         cp = competitor(lp, spans[j], tgt[j], m, kind, vocab, c['abc'], blank)
@@ -217,8 +217,8 @@ for lang, c in LANGS.items():
                             pv = x
                         txt = m.tokenizer.ids_to_text(dec) if kind == 'bpe' else ''.join(vocab[x] for x in dec)
                         G[a][kv][0] += int(norm(txt.replace(' ', '')) != tgt[j].replace('ñ', 'ny' if kind == 'char' and 'ñ' not in vocab else 'ñ')); G[a][kv][1] += 1
-                        if kv == 'ok': S[a]['ok'].append(sc[j]); (cp is not None) and C[a]['ok'].append(cp)
-                        else: S[a][kv].append(sc[j]); (cp is not None) and C[a][kv].append(cp)
+                        if cp is None: continue
+                        S[a]['ok' if kv == 'ok' else kv].append(sc[j]); C[a]['ok' if kv == 'ok' else kv].append(cp)
     res = {}
     for a in AUGS:
         ok = np.array(S[a]['ok'])
@@ -235,6 +235,19 @@ for lang, c in LANGS.items():
                 v = np.array(C[a][kv]); row[f'C_{kv}@{fa}'] = round(100 * float(np.mean(v < th)), 1) if len(v) else None
         for kv in ('ok', 'real', 'pseudo1', 'pseudo2'):
             row[f'G_{kv}'] = round(100 * G[a][kv][0] / max(1, G[a][kv][1]), 1)
+        # combined: an error if either test is clearly low (each scaled by its spread on correctly read words)
+        if len(S[a]['ok']) == len(C[a]['ok']) and len(C[a]['ok']) > 10:
+            ls, cs = np.array(S[a]['ok']), np.array(C[a]['ok'])
+            z = lambda v, ref: (np.array(v) - np.median(ref)) / (np.quantile(ref, 0.75) - np.quantile(ref, 0.25) + 1e-6)
+            comb_ok = np.minimum(z(ls, ls), z(cs, ls * 0 + cs))
+            parts = []
+            for fa in (0.02, 0.05, 0.10):
+                th = float(np.quantile(comb_ok, fa)); vals = {}
+                for kv in ('real', 'pseudo1', 'pseudo2'):
+                    if len(S[a][kv]) == len(C[a][kv]) and len(S[a][kv]):
+                        vals[kv] = round(100 * float(np.mean(np.minimum(z(S[a][kv], ls), z(C[a][kv], cs)) < th)), 1)
+                parts.append(f"FA {int(fa * 100)}%: " + ' '.join(f'{k} {v}%' for k, v in vals.items()))
+            print(f"{lang} {a:6} COMBINED   | " + ' | '.join(parts), flush=True)
         res[a] = row
         print(f"{lang} {a:6} COMPETITOR | FA 2%: real {row['C_real@0.02']}% pseudo1 {row['C_pseudo1@0.02']}% pseudo2 {row['C_pseudo2@0.02']}% | FA 5%: real {row['C_real@0.05']}% pseudo1 {row['C_pseudo1@0.05']}% pseudo2 {row['C_pseudo2@0.05']}% | FA 10%: real {row['C_real@0.1']}% pseudo1 {row['C_pseudo1@0.1']}% pseudo2 {row['C_pseudo2@0.1']}%", flush=True)
         print(f"{lang} {a:6} FREE-DECODE differs: ok {row['G_ok']}% real {row['G_real']}% pseudo1 {row['G_pseudo1']}% pseudo2 {row['G_pseudo2']}%", flush=True)
