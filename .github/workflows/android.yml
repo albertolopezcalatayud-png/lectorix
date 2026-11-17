@@ -60,10 +60,10 @@ jobs:
           retention-days: 7
       - name: Publish unsigned bundle to android-build branch
         run: |
-          mkdir -p /tmp/out && cp android/app/build/outputs/bundle/release/*.aab /tmp/out/app-release-unsigned.aab
+          mkdir -p /tmp/out && cp android/app/build/outputs/bundle/release/*.aab /tmp/out/app-release-unsigned.aab && cd /tmp/out && split -b 60m -d app-release-unsigned.aab app-release-unsigned.aab.part && rm app-release-unsigned.aab && sha256sum app-release-unsigned.aab.part* > parts.sha256 && cd - > /dev/null
           cd /tmp/out && git init -q && git checkout -q -b android-build
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          echo "Unsigned build of ${GITHUB_SHA} (versionCode ${{ github.event.inputs.version_code || '20' }})" > README.md
+          echo "Unsigned build of ${GITHUB_SHA} (in parts: cat app-release-unsigned.aab.part* > app.aab) (versionCode ${{ github.event.inputs.version_code || '20' }})" > README.md
           git add . && git commit -q -m "Unsigned AAB from ${GITHUB_SHA}"
           git push -q -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" android-build
