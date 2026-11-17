@@ -73,9 +73,16 @@ export const clean = (w: string) => w.toLowerCase().replace(/[^\p{L}\p{N}'·-]/g
  * read: the recogniser then only looks for those (anything else is heard as "unknown" and dropped).
  * `rivals` are close real words it may also hear (rivals.ts); they come back in the transcript like any other word.
  */
+/**
+ * What the child read, kept only in memory while the test is on screen (never saved, never sent), so an
+ * adult can tap a word and hear how it was read. `words`: each recognised word with its time in seconds.
+ */
+export interface Recording { samples: Float32Array; rate: number; words: { word: string; start: number; end: number }[] }
+
 export async function voskListen(
   lang: string, onText: (text: string) => void, onError: (code: string) => void, words?: string[], rivals?: string[],
-): Promise<{ stop: () => void }> {
+  capture = false,
+): Promise<{ stop: () => void; finish: () => Promise<void>; recording: () => Recording | null }> {
   if (!isLang(lang) || !voskSupported()) throw new Error('unavailable');
   let stream: MediaStream;
   try {
@@ -88,26 +95,54 @@ export async function voskListen(
   const ctx = new Ctx();
   const grammar = words?.length ? JSON.stringify([...new Set([...words.map(clean), ...(rivals ?? [])].filter(Boolean)), '[unk]']) : undefined;
   const rec = new m.KaldiRecognizer(ctx.sampleRate, grammar);
+  if (capture) { try { rec.setWords(true); } catch { /* older library */ } }
+  const timed: Recording['words'] = [];
+  const chunks: Float32Array[] = [];
+  let finalWaiter: (() => void) | null = null;
   let done = '';
   const tidy = (s: string) => s.replace(/\[unk\]/g, ' ').replace(/\s+/g, ' ').trim();
   const join = (a: string, b: string) => (a && b ? `${a} ${b}` : a || b);
-  rec.on('result', (msg) => { const t = tidy((msg as { result: { text?: string } }).result.text ?? ''); if (t) { done = join(done, t); onText(done); } });
+  rec.on('result', (msg) => {
+    const r = (msg as { result: { text?: string; result?: { word: string; start: number; end: number }[] } }).result;
+    for (const w of r.result ?? []) if (w.word !== '[unk]') timed.push({ word: w.word, start: w.start, end: w.end });
+    const t = tidy(r.text ?? ''); if (t) { done = join(done, t); onText(done); }
+    if (finalWaiter) { finalWaiter(); finalWaiter = null; }
+  });
   rec.on('partialresult', (msg) => { const t = tidy((msg as { result: { partial?: string } }).result.partial ?? ''); onText(join(done, t)); });
 
   const source = ctx.createMediaStreamSource(stream);
   // ScriptProcessor is old but works everywhere the app runs, including Android's WebView
   const node = ctx.createScriptProcessor(4096, 1, 1);
-  node.onaudioprocess = (e) => { try { rec.acceptWaveform(e.inputBuffer); } catch { /* recogniser closed */ } };
+  node.onaudioprocess = (e) => {
+    if (capture) chunks.push(new Float32Array(e.inputBuffer.getChannelData(0)));
+    try { rec.acceptWaveform(e.inputBuffer); } catch { /* recogniser closed */ }
+  };
   const mute = ctx.createGain(); mute.gain.value = 0;
   source.connect(node); node.connect(mute); mute.connect(ctx.destination);
   if (ctx.state === 'suspended') void ctx.resume();
 
+  let stopped = false;
+  const stop = () => {
+    if (stopped) return; stopped = true;
+    try { node.disconnect(); source.disconnect(); mute.disconnect(); } catch { /* ignore */ }
+    stream.getTracks().forEach((t) => t.stop());
+    try { rec.remove(); } catch { /* ignore */ }
+    void ctx.close().catch(() => undefined);
+  };
   return {
-    stop: () => {
-      try { node.disconnect(); source.disconnect(); mute.disconnect(); } catch { /* ignore */ }
-      stream.getTracks().forEach((t) => t.stop());
-      try { rec.remove(); } catch { /* ignore */ }
-      void ctx.close().catch(() => undefined);
+    stop,
+    /** Stops listening after the recogniser has given its last words (with their times) */
+    finish: async () => {
+      if (stopped) return;
+      try { node.disconnect(); } catch { /* ignore */ }
+      await new Promise<void>((res) => { finalWaiter = res; try { rec.retrieveFinalResult(); } catch { res(); } setTimeout(res, 1500); });
+      stop();
+    },
+    recording: () => {
+      if (!capture || !chunks.length) return null;
+      const n = chunks.reduce((a, c) => a + c.length, 0); const samples = new Float32Array(n); let o = 0;
+      for (const c of chunks) { samples.set(c, o); o += c.length; }
+      return { samples, rate: ctx.sampleRate, words: timed };
     },
   };
 }

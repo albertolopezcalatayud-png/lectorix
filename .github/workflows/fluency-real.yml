@@ -1,0 +1,37 @@
+name: Fluency test with the real checker
+
+# The fluency test in a real browser with Lectorix's own recogniser and synthetic readings
+# (tests/e2e/fluency-real.js). Runs when the reading check changes, or by hand.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/pages/Fluency.tsx', 'src/services/readAloud.ts', 'src/services/voskEngine.ts', 'src/services/rivals.ts', 'src/services/listenBack.ts', 'tests/e2e/fluency-real.js']
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Build the web with the checker models
+        run: |
+          npm ci && npm run build
+          git fetch --depth 1 origin asr-models && mkdir -p dist/asr && git archive FETCH_HEAD | tar -x -C dist/asr
+          ls -la dist/asr
+      - name: Voice
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q piper-tts
+          HF=https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/es/es_ES/davefx/medium/es_ES-davefx-medium
+          curl -sfL "$HF.onnx" -o /tmp/v.onnx && curl -sfL "$HF.onnx.json" -o /tmp/v.onnx.json
+      - name: Real test in the browser
+        run: |
+          npm i --no-save --no-audit --no-fund playwright@1 > /dev/null && npx playwright install --with-deps chromium > /dev/null
+          (npx vite preview --port 4173 > /dev/null 2>&1 &) ; sleep 5
+          cp tests/e2e/fluency-real.js fluency-real.cjs
+          node fluency-real.cjs /tmp/v.onnx

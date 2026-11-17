@@ -1,0 +1,86 @@
+// Real end-to-end check of the fluency test with Lectorix's own recogniser (runs in GitHub Actions, asr.yml).
+// 1) opens the test to see which text it gives, 2) synthesises that text (correct, and with close words
+// swapped in), 3) feeds it to Chromium's microphone and checks: the checker gets ready by itself, the
+// words are checked, swapped words are doubtful and count as errors, and every word can be listened back.
+//   node fluency-real.js <piper-model.onnx>
+const { chromium } = require('playwright');
+const { execFileSync } = require('child_process');
+const fs = require('fs');
+const voice = process.argv[2];
+const BASE = 'http://localhost:4173/lectorix/';
+const seed = () => {
+  localStorage.clear();
+  localStorage.setItem('lectorix-mode', 'solo');
+  localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Ana', total_xp: 0, streak_days: 0 } }, version: 0 }));
+};
+const fixRandom = () => { Math.random = () => 0.01; };
+let fails = 0;
+const ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); if (!c) fails++; };
+
+async function shownText() {
+  const b = await chromium.launch(); const ctx = await b.newContext(); await ctx.addInitScript(fixRandom);
+  const p = await ctx.newPage(); await p.goto(BASE); await p.evaluate(seed);
+  await p.goto(BASE + '#/fluidez'); await p.reload(); await p.waitForTimeout(1500);
+  await p.getByRole('button', { name: 'Preparar el texto' }).click(); await p.waitForTimeout(800);
+  const words = await p.evaluate(() => [...document.querySelectorAll('.reading-text > span > span')].map((s) => s.textContent.trim()));
+  await b.close(); return words;
+}
+function synth(text, name) {
+  fs.writeFileSync(`/tmp/${name}.txt`, text);
+  execFileSync('piper', ['-m', voice, '-c', voice + '.json', '-f', `/tmp/${name}.raw.wav`], { input: text });
+  execFileSync('ffmpeg', ['-loglevel', 'error', '-y', '-i', `/tmp/${name}.raw.wav`, '-af', 'adelay=1500,apad=pad_dur=3', '-ar', '48000', '-ac', '1', `/tmp/${name}.wav`]);
+  return Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', `/tmp/${name}.wav`]).toString());
+}
+async function run(wav, seconds, n) {
+  const b = await chromium.launch({ args: ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', `--use-file-for-fake-audio-capture=${wav}%noloop`, '--autoplay-policy=no-user-gesture-required'] });
+  const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, permissions: ['microphone'] });
+  await ctx.addInitScript(fixRandom);
+  await ctx.addInitScript(() => { window.__played = 0; const s = AudioBufferSourceNode.prototype.start; AudioBufferSourceNode.prototype.start = function (...a) { window.__played++; return s.apply(this, a); }; });
+  const p = await ctx.newPage(); const errors = []; p.on('pageerror', (e) => errors.push(e.message));
+  await p.goto(BASE); await p.evaluate(seed);
+  await p.goto(BASE + '#/fluidez'); await p.reload(); await p.waitForTimeout(1500);
+  await p.getByRole('button', { name: 'Preparar el texto' }).click();
+  const t0 = Date.now();
+  await p.waitForFunction(() => { const b = [...document.querySelectorAll('button')].find((x) => /Empezar/.test(x.textContent)); return b && !b.disabled; }, null, { timeout: 300000 });
+  console.log('checker ready by itself in', Math.round((Date.now() - t0) / 1000), 's');
+  ok(/El dispositivo escuchará la lectura/.test(await p.innerText('body')), 'microphone check on, with no button to find');
+  await p.getByRole('button', { name: /Empezar/ }).click();
+  await p.waitForTimeout(seconds * 1000 + 1500);
+  await p.getByRole('button', { name: 'He terminado el texto' }).click();
+  await p.waitForTimeout(3000);
+  const info = await p.evaluate(() => {
+    const spans = [...document.querySelectorAll('.reading-text > span > span')];
+    const last = spans.findIndex((s) => s.className.includes('ring-2'));
+    return { last, doubt: spans.filter((s) => s.className.includes('decoration-dotted')).length, struck: spans.filter((s) => s.className.includes('line-through')).length };
+  });
+  const tabs = await p.getByRole('button', { name: /Escuchar/ }).count();
+  await p.getByRole('button', { name: /^🔊 Escuchar$/ }).click().catch(() => {});
+  await p.locator('.reading-text > span > span').nth(2).click(); await p.waitForTimeout(1500);
+  const played = await p.evaluate(() => window.__played);
+  await b.close();
+  return { ...info, tabs, played, errors, n };
+}
+(async () => {
+  const words = await shownText();
+  const n = Math.min(words.length, 40);
+  const read = words.slice(0, n).join(' ');
+  // close real words, from the app's own rival rule: change one letter of a few longer words
+  const swaps = [];
+  const swapped = words.slice(0, n).map((w, i) => {
+    const c = w.toLowerCase().replace(/[^a-záéíóúüñ]/g, '');
+    if (swaps.length < 3 && i % 6 === 3 && c.length >= 5) { const x = c.slice(0, 1) + (c[1] === 'a' ? 'e' : 'a') + c.slice(2); swaps.push([c, x]); return x; }
+    return w;
+  }).join(' ');
+  console.log('text:', read.slice(0, 120), '…'); console.log('swaps:', JSON.stringify(swaps));
+  const d1 = synth(read, 'flu_ok'); const d2 = synth(swapped, 'flu_swap');
+  const r1 = await run('/tmp/flu_ok.wav', d1, n);
+  console.log('correct reading:', JSON.stringify(r1));
+  ok(r1.last >= Math.floor(n * 0.75), `correct reading: last word heard ${r1.last + 1} of ${n}`);
+  ok(r1.struck <= Math.ceil(n * 0.12), `correct reading: few words marked (${r1.struck})`);
+  ok(r1.tabs >= 1 && r1.played >= 1, `every word can be listened back (tab ${r1.tabs}, played ${r1.played})`);
+  const r2 = await run('/tmp/flu_swap.wav', d2, n);
+  console.log('with swapped words:', JSON.stringify(r2));
+  ok(r2.struck >= Math.min(2, swaps.length), `swapped words count as errors (${r2.struck} marked, ${swaps.length} swapped)`);
+  ok(r1.errors.length === 0 && r2.errors.length === 0, 'no page errors ' + [...r1.errors, ...r2.errors].join(' | '));
+  process.exit(fails ? 1 : 0);
+})();

@@ -522,7 +522,7 @@ export const en: Record<TranslationKey, string> = {
   flu_step2: 'Press “Start” and read aloud at your own pace, without rushing.',
   flu_step3: 'When the minute is up, tap the last word you read.',
   flu_step4: 'The adult marks the words read wrongly: only words read correctly count.',
-  flu_privacy: 'No audio is recorded: only the result is saved on this device.',
+  flu_privacy: 'The audio of the reading is only kept in memory while the test is on screen, so it can be listened to; it is not sent anywhere and is deleted when you leave. Only the numbers of the result are kept, on this device.',
   flu_choose_level: 'Choose the text level',
   flu_prepare: 'Get the text ready',
   flu_ready: 'When you are ready, press “Start”. The text will appear and the minute will begin.',
@@ -1168,7 +1168,7 @@ export const en: Record<TranslationKey, string> = {
   stk_how: 'Every time you collect enough points, you earn a sticker for your notebook.',
 
   // Fluency: checked reading
-  flu_mic_on: 'The device will listen to the reading: only words it hears correctly count. Nothing is recorded.',
+  flu_mic_on: 'The device will listen to the reading and check every word. At the end, an adult can listen to how each word was read.',
   flu_adult_listen: 'This device cannot check the reading with the microphone, so an adult needs to listen and, at the end, mark the words read wrongly.',
   flu_mic_checked: 'Checked with the microphone: crossed-out words were not heard correctly. An adult can mark more mistakes.',
   flu_adult_needed: 'Without the microphone, Lectorix cannot tell what was read correctly: the adult who listened marks the last word and the mistakes.',
@@ -1278,4 +1278,10 @@ export const en: Record<TranslationKey, string> = {
   flu_adult_unmarked: 'Words that are not marked will count as read correctly.',
   flu_checked_mic: 'Checked by the microphone',
   flu_checked_adult: 'Marked by an adult (not checked by the app)',
+
+  // Fluency: listen back
+  flu_tab_listen: 'Listen',
+  flu_listen_help: 'Tap a word to hear how it was read. If it is wrong, go to “Errors” and mark it.',
+  flu_listen_doubtful: 'Listen to the doubtful ones ({n})',
+  flu_listen_privacy: 'The audio is only in memory while this test is on screen: it is not saved or sent.',
 };

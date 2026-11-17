@@ -522,7 +522,7 @@ export const ca: Record<TranslationKey, string> = {
   flu_step2: 'Prem «Començar» i llig en veu alta al teu ritme, sense córrer.',
   flu_step3: 'Quan acabe el minut, toca l’última paraula que has llegit.',
   flu_step4: 'L’adult marca les paraules que s’han llegit malament: només compten les que es lligen bé.',
-  flu_privacy: 'No es grava cap àudio: només es guarda el resultat en este dispositiu.',
+  flu_privacy: "L'àudio de la lectura només es guarda en la memòria mentre la prova està en pantalla, per a poder escoltar-la; no s'envia enlloc i s'esborra en eixir. Del resultat només es guarden els números, en este dispositiu.",
   flu_choose_level: 'Tria el nivell del text',
   flu_prepare: 'Preparar el text',
   flu_ready: 'Quan vulgues, prem «Començar». El text apareixerà i començarà a comptar el minut.',
@@ -1168,7 +1168,7 @@ export const ca: Record<TranslationKey, string> = {
   stk_how: 'Cada vegada que reuneixes prou punts, guanyes una enganxina per a la teua llibreta.',
 
   // Fluency: checked reading
-  flu_mic_on: 'El dispositiu escoltarà la lectura: només compten les paraules que se senten bé. No es grava res.',
+  flu_mic_on: "El dispositiu escoltarà la lectura i comprovarà cada paraula. En acabar, un adult podrà escoltar com s'ha llegit cada una.",
   flu_adult_listen: 'Este dispositiu no pot comprovar la lectura amb el micròfon, així que un adult ha d’escoltar i, al final, marcar les paraules mal llegides.',
   flu_mic_checked: 'Ho ha comprovat el micròfon: les paraules ratllades no s’han sentit bé. Un adult pot marcar més errors.',
   flu_adult_needed: 'Sense micròfon, Lectorix no sap què s’ha llegit bé: l’adult que ha escoltat marca l’última paraula i els errors.',
@@ -1278,4 +1278,10 @@ export const ca: Record<TranslationKey, string> = {
   flu_adult_unmarked: 'Les paraules que no es marquen comptaran com a ben llegides.',
   flu_checked_mic: 'Comprovat pel micròfon',
   flu_checked_adult: 'Corregit per un adult (l\'app no ho ha comprovat)',
+
+  // Fluency: listen back
+  flu_tab_listen: 'Escoltar',
+  flu_listen_help: 'Toca una paraula per a escoltar com s\'ha llegit. Si està malament, passa a «Errors» i marca-la.',
+  flu_listen_doubtful: 'Escoltar les dubtoses ({n})',
+  flu_listen_privacy: 'L\'àudio només està en la memòria mentre veus esta prova: no es guarda ni s\'envia.',
 };

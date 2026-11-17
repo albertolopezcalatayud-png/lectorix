@@ -520,7 +520,7 @@ export const es = {
   flu_step2: 'Pulsa «Empezar» y lee en voz alta a tu ritmo, sin correr.',
   flu_step3: 'Cuando acabe el minuto, toca la última palabra que has leído.',
   flu_step4: 'El adulto marca las palabras que se han leído mal: solo cuentan las que se leen bien.',
-  flu_privacy: 'No se graba ningún audio: solo se guarda el resultado en este dispositivo.',
+  flu_privacy: 'El audio de la lectura solo se guarda en la memoria mientras la prueba está en pantalla, para poder escucharla; no se envía a ningún sitio y se borra al salir. Del resultado solo se guardan los números, en este dispositivo.',
   flu_choose_level: 'Elige el nivel del texto',
   flu_prepare: 'Preparar el texto',
   flu_ready: 'Cuando quieras, pulsa «Empezar». El texto aparecerá y empezará a contar el minuto.',
@@ -1166,7 +1166,7 @@ export const es = {
   stk_how: 'Cada vez que juntas puntos suficientes, ganas una pegatina para tu libreta.',
 
   // Fluency: checked reading
-  flu_mic_on: 'El dispositivo escuchará la lectura: solo cuentan las palabras que se oyen bien. No se graba nada.',
+  flu_mic_on: 'El dispositivo escuchará la lectura y comprobará cada palabra. Al terminar, un adulto podrá escuchar cómo se ha leído cada una.',
   flu_adult_listen: 'Este dispositivo no puede comprobar la lectura con el micrófono, así que un adulto tiene que escuchar y, al final, marcar las palabras mal leídas.',
   flu_mic_checked: 'Lo ha comprobado el micrófono: las palabras tachadas no se han oído bien. Un adulto puede marcar más errores.',
   flu_adult_needed: 'Sin micrófono, Lectorix no sabe qué se ha leído bien: el adulto que ha escuchado marca la última palabra y los errores.',
@@ -1276,6 +1276,12 @@ export const es = {
   flu_adult_unmarked: 'Las palabras que no se marquen contarán como bien leídas.',
   flu_checked_mic: 'Comprobado por el micrófono',
   flu_checked_adult: 'Corregido por un adulto (la app no lo ha comprobado)',
+
+  // Fluency: listen back
+  flu_tab_listen: 'Escuchar',
+  flu_listen_help: 'Toca una palabra para escuchar cómo se ha leído. Si está mal, pasa a «Errores» y márcala.',
+  flu_listen_doubtful: 'Escuchar las dudosas ({n})',
+  flu_listen_privacy: 'El audio solo está en la memoria mientras ves esta prueba: no se guarda ni se envía.',
 } as const;
 
 export type TranslationKey = keyof typeof es;

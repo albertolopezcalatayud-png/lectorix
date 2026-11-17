@@ -10,7 +10,8 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { Capacitor, registerPlugin, type PluginListenerHandle } from '@capacitor/core';
-import { voskState, voskInstall, voskListen, voskReady, clean } from './voskEngine';
+import { voskState, voskInstall, voskListen, voskReady, clean, type Recording } from './voskEngine';
+export type { Recording };
 import { rivalsFor, type Rivals } from './rivals';
 export type { Rivals };
 
@@ -110,16 +111,17 @@ export async function installLanguage(lang: string): Promise<boolean> {
 }
 
 /** `rivals`: close words the recogniser was also listening for (only Lectorix's own recogniser); pass them to align() */
-export interface Listening { stop: () => void; rivals?: Rivals }
+export interface Listening { stop: () => void; rivals?: Rivals; finish?: () => Promise<void>; recording?: () => Recording | null }
 
 /**
  * Listens until stop() is called. onText receives the whole transcript so far (finished parts + the
  * part being recognised). Android stops after a pause, so it is restarted while the session is on.
  */
-export async function listen(lang: string, onText: (text: string) => void, onError: (code: string) => void, words?: string[]): Promise<Listening> {
+/** `capture`: keep the audio in memory while the test is on screen, so an adult can listen back (Lectorix's own recogniser only) */
+export async function listen(lang: string, onText: (text: string) => void, onError: (code: string) => void, words?: string[], capture = false): Promise<Listening> {
   if (await own(lang)) {
     const rivals = words?.length ? await rivalsFor(lang, [...new Set(words.map(clean).filter(Boolean))]) : undefined;
-    const session = await voskListen(lang, onText, onError, words, rivals ? [...new Set([...rivals.values()].flatMap((r) => [...r]))] : undefined);
+    const session = await voskListen(lang, onText, onError, words, rivals ? [...new Set([...rivals.values()].flatMap((r) => [...r]))] : undefined, capture);
     return { ...session, rivals };
   }
   const tag = SPEECH_TAG[lang] ?? lang;
@@ -214,9 +216,11 @@ export type WordState = 'pending' | 'read' | 'missed' | 'doubt';
  * With `rivals` (Lectorix's own recogniser), a rival heard where its word was expected also marks that word
  * as doubtful, and rivals never count as the word itself.
  */
-export function align(textWords: string[], heard: string, rivals?: Rivals): { states: WordState[]; position: number } {
+export function align(textWords: string[], heard: string, rivals?: Rivals): { states: WordState[]; position: number; from: number[] } {
   const target = textWords.map(norm);
   const states: WordState[] = textWords.map(() => 'pending');
+  const from: number[] = textWords.map(() => -1); // index of the heard word that matched each text word
+  let hi = -1;
   // rivals by the normalised form of their word
   const rivalOf = new Map<string, Set<string>>();
   const anyRival = new Set<string>();
@@ -229,10 +233,12 @@ export function align(textWords: string[], heard: string, rivals?: Rivals): { st
   let pos = 0;
   for (const raw of heard.split(/\s+/)) {
     const h = norm(raw);
+    if (!raw) continue;
+    hi++;
     if (!h) continue;
     // A number can be said in several words ("mil ochocientos sesenta y tres"): while on it, wait for the next word
     if (/\d/.test(target[pos] ?? '') && !/\d/.test(h)) {
-      if (pos + 1 < target.length && isWord(target[pos + 1], h)) { states[pos] = 'read'; states[pos + 1] = 'read'; pos += 2; }
+      if (pos + 1 < target.length && isWord(target[pos + 1], h)) { states[pos] = 'read'; states[pos + 1] = 'read'; from[pos + 1] = hi; pos += 2; }
       continue;
     }
     const end = Math.min(target.length, pos + 4);
@@ -245,8 +251,9 @@ export function align(textWords: string[], heard: string, rivals?: Rivals): { st
     if (at >= 0) {
       for (let m = pos; m < at; m++) if (states[m] === 'pending') states[m] = target[m] && !/\d/.test(target[m]) ? 'missed' : 'read'; // numbers can be said in many ways
       states[at] = state;
+      from[at] = hi;
       pos = at + 1;
     }
   }
-  return { states, position: pos };
+  return { states, position: pos, from };
 }
