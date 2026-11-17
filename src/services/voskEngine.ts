@@ -178,5 +178,7 @@ export async function voskSecondListen(lang: string, rec: Recording, maxMs?: num
     probe.retrieveFinalResult();
   });
   try { free.remove(); probe.remove(); } catch { /* ignore */ }
-  return finished ? parts.join(' ').replace(/\s+/g, ' ').trim() : null;
+  const out = finished ? parts.join(' ').replace(/\s+/g, ' ').trim() : null;
+  (window as unknown as { __lxSecond?: string | null }).__lxSecond = out;
+  return out;
 }

@@ -61,7 +61,7 @@ async function run(wav, seconds, n) {
     const last = spans.findIndex((s) => s.className.includes('ring-2'));
     return { last, doubt: spans.filter((s) => s.className.includes('decoration-dotted')).length, struck: spans.filter((s) => s.className.includes('line-through')).length,
       marked: spans.map((s, i) => (s.className.includes('line-through') ? (s.className.includes('decoration-dotted') ? '?' : 'x') + i + ':' + s.textContent.trim() : '')).filter(Boolean),
-      heard: window.__lxHeard };
+      heard: window.__lxHeard, second: window.__lxSecond };
   });
   const tabs = await p.getByRole('button', { name: /Escuchar/ }).count();
   await p.getByRole('button', { name: /^🔊 Escuchar$/ }).click().catch(() => {});
