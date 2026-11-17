@@ -1,0 +1,36 @@
+name: Phone-level check comparison
+
+on:
+  workflow_dispatch:
+    inputs:
+      sentences:
+        default: '25'
+      langs:
+        default: 'es,ca,en'
+      model:
+        default: 'facebook/wav2vec2-lv-60-espeak-cv-ft'
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Tools and voices
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng libsndfile1 > /dev/null
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q transformers phonemizer piper-tts
+          mkdir -p /tmp/voices
+          HF=https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0
+          for p in es/es_ES/davefx/medium/es_ES-davefx-medium es/es_ES/sharvard/medium/es_ES-sharvard-medium ca/ca_ES/upc_ona/medium/ca_ES-upc_ona-medium ca/ca_ES/upc_pau/x_low/ca_ES-upc_pau-x_low en/en_GB/cori/high/en_GB-cori-high en/en_GB/northern_english_male/medium/en_GB-northern_english_male-medium; do
+            for e in .onnx .onnx.json; do curl -sfL "$HF/$p$e" -o "/tmp/voices/$(basename $p)$e"; done
+          done
+      - name: Compare
+        env:
+          N_SENT: ${{ inputs.sentences }}
+          LANGS: ${{ inputs.langs }}
+          PHONE_MODEL: ${{ inputs.model }}
+        run: python scripts/asr/verify_phone.py /tmp/voices 2>&1 | grep -v -E "warn|^ *$"
