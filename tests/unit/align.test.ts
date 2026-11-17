@@ -27,6 +27,13 @@ ok(align(text, 'el pato come', rivals).position === 3, 'a doubtful word moves th
 const acc = align(['Ella', 'está', 'aquí'], 'ella esta aquí', new Map([['está', new Set(['esta'])]]));
 ok(acc.states.join(' ') === 'read read read', 'a rival that only differs in the accent is ignored');
 
+// two words said together, as in fluent reading: both read
+const tom = 'Tom es un gato gris. Vive en una casa con jardín. Por la noche, duerme en su cama.'.split(' ');
+ok(align(tom, 'tom es un gato gris viven una casa con jardín por la noche duermen su cama').states.every((x) => x === 'read'), '"vive en" heard as "viven" and "duerme en" as "duermen": all read');
+ok(align(['Vive', 'en', 'una', 'casa'], 'viven una casa').from.slice(0, 2).join() === '0,0', '…and both words listen back to the same stretch');
+ok(align(['Vive', 'en', 'una', 'casa'], 'vive una casa').states.join(' ') === 'read missed read read', 'a word really left out is still missed');
+ok(align(['la', 'casa', 'de', 'el', 'tío'], 'la casa del tío').states.every((x) => x === 'read'), '"de el" heard as "del": both read');
+
 // neighbours from the real word list
 for (const [lang, abc, word, want] of [['es', 'abcdefghijlmnñopqrstuvzáéíóú', 'gato', 'pato'], ['ca', 'abcçdefghijlmnopqrstuvxzàèéíòóú', 'casa', 'cosa'], ['en', 'abcdefghijklmnopqrstuvwxyz', 'house', 'horse']] as const) {
   const words = gunzipSync(readFileSync(`public/dict/${lang}.frz`)).toString('utf8').split('\n').slice(0, 40000);

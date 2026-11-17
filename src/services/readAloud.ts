@@ -216,6 +216,17 @@ export type WordState = 'pending' | 'read' | 'missed' | 'doubt';
  * With `rivals` (Lectorix's own recogniser), a rival heard where its word was expected also marks that word
  * as doubtful, and rivals never count as the word itself.
  */
+/** How two neighbouring words can sound when said together: "vive"+"en" -> "viven", "de"+"el" -> "del". */
+function joined(a: string, b: string): Set<string> {
+  const out = new Set<string>();
+  if (/\d/.test(a + b) || a.length + b.length < 4) return out;
+  out.add(a + b);
+  const v = /[aeiou]/;
+  if (a.at(-1) === b[0]) out.add(a + b.slice(1));
+  if (v.test(a.at(-1) ?? '') && v.test(b[0])) { out.add(a.slice(0, -1) + b); out.add(a + b.slice(1)); }
+  return out;
+}
+
 export function align(textWords: string[], heard: string, rivals?: Rivals): { states: WordState[]; position: number; from: number[] } {
   const target = textWords.map(norm);
   const states: WordState[] = textWords.map(() => 'pending');
@@ -244,6 +255,18 @@ export function align(textWords: string[], heard: string, rivals?: Rivals): { st
     const end = Math.min(target.length, pos + 4);
     let at = -1; let state: WordState = 'read';
     for (let k = pos; k < end && at < 0; k++) if (target[k] && target[k] === h) at = k;
+    // Two words said together, as everyone does when reading fluently ("vive en" heard as "viven",
+    // "duerme en" as "duermen"): both were read. Checked before near matches, which would wrongly doubt the first.
+    if (at < 0) {
+      let k2 = -1;
+      for (let k = pos; k + 1 < end && k2 < 0; k++) if (target[k] && target[k + 1] && joined(target[k], target[k + 1]).has(h)) k2 = k;
+      if (k2 >= 0) {
+        for (let m = pos; m < k2; m++) if (states[m] === 'pending') states[m] = target[m] && !/\d/.test(target[m]) ? 'missed' : 'read';
+        states[k2] = 'read'; states[k2 + 1] = 'read'; from[k2] = hi; from[k2 + 1] = hi;
+        pos = k2 + 2;
+        continue;
+      }
+    }
     if (at < 0) for (let k = pos; k < end && at < 0; k++) if (target[k] && isWord(target[k], h)) { at = k; state = /\d/.test(target[k]) ? 'read' : 'doubt'; }
     if (at < 0 && anyRival.has(h)) {
       for (let k = pos; k < end && at < 0; k++) if (rivalOf.get(target[k])?.has(h)) { at = k; state = 'doubt'; }

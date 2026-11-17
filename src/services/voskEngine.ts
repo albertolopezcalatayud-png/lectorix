@@ -11,7 +11,8 @@ import { Capacitor } from '@capacitor/core';
 type Lang = 'es' | 'ca' | 'en';
 type State = 'available' | 'downloadable' | 'downloading' | 'unavailable';
 const REMOTE = 'https://albertolopezcalatayud-png.github.io/lectorix/asr/';
-const LOCAL = (() => { try { return new URL(`${import.meta.env.BASE_URL}asr/`, window.location.href).href; } catch { return `${import.meta.env.BASE_URL}asr/`; } })();
+const BASE = import.meta.env?.BASE_URL ?? '/';
+const LOCAL = (() => { try { return new URL(`${BASE}asr/`, window.location.href).href; } catch { return `${BASE}asr/`; } })();
 /** Models installed with the Android app (found at start-up in voskReady) */
 let bundled = false;
 const base = () => (Capacitor.isNativePlatform() && !bundled ? REMOTE : LOCAL);
