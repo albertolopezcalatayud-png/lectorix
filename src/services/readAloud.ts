@@ -127,10 +127,36 @@ export const SECOND_LISTEN = new Set(['es']);
 
 /**
  * Words the first listen took as read but the second listen did not hear as that word become doubtful.
+ * The second transcript is matched against the text as a whole (longest common sequence), so one word
+ * heard differently does not throw the rest out of step; two words said together count for both.
+ * Names (capitalised in the middle of a sentence, like «Tom») and numbers are not doubted: the second
+ * listen spells them in its own way.
  */
 export function confirm(textWords: string[], states: WordState[], second: string): WordState[] {
-  const again = align(textWords, second).states;
-  return states.map((st, i) => (st === 'read' && again[i] !== 'read' && !/\d/.test(norm(textWords[i])) ? 'doubt' : st));
+  const t = textWords.map(norm);
+  const h = second.split(/\s+/).map(norm).filter(Boolean);
+  const names = new Set<string>();
+  textWords.forEach((w, i) => { if (i > 0 && /^\p{Lu}/u.test(w) && !/[.!?…:»"]$/.test(textWords[i - 1])) names.add(t[i]); });
+  const n = t.length, m = h.length;
+  // dp[i][j]: most text words matched from t[i..] and h[j..]
+  const dp: number[][] = Array.from({ length: n + 1 }, () => new Array<number>(m + 1).fill(0));
+  const pair = (i: number, j: number) => i + 1 < n && !!t[i] && !!t[i + 1] && joined(t[i], t[i + 1]).has(h[j]);
+  for (let i = n - 1; i >= 0; i--) {
+    for (let j = m - 1; j >= 0; j--) {
+      let best = Math.max(dp[i + 1][j], dp[i][j + 1]);
+      if (t[i] && t[i] === h[j]) best = Math.max(best, dp[i + 1][j + 1] + 1);
+      if (pair(i, j)) best = Math.max(best, dp[i + 2][j + 1] + 2);
+      dp[i][j] = best;
+    }
+  }
+  const heard = new Set<number>();
+  for (let i = 0, j = 0; i < n && j < m;) {
+    if (t[i] && t[i] === h[j] && dp[i][j] === dp[i + 1][j + 1] + 1) { heard.add(i); i++; j++; }
+    else if (pair(i, j) && dp[i][j] === dp[i + 2][j + 1] + 2) { heard.add(i); heard.add(i + 1); i += 2; j++; }
+    else if (dp[i + 1][j] >= dp[i][j + 1]) i++;
+    else j++;
+  }
+  return states.map((st, i) => (st === 'read' && !heard.has(i) && !/\d/.test(t[i]) && !names.has(t[i]) ? 'doubt' : st));
 }
 
 /**

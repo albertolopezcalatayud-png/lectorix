@@ -43,6 +43,13 @@ ok(confirm(sw, align(sw, 'el come pescado').states, 'el come pescado').join(' ')
 ok(confirm(['Tiene', '3', 'gatos'], align(['Tiene', '3', 'gatos'], 'tiene 3 gatos').states, 'tiene tres gatos').join(' ') === 'read read read', 'numbers are not doubted by the second listen');
 ok(confirm(['vive', 'en', 'casa'], ['read', 'read', 'read'], 'viven casa').every((x) => x === 'read'), 'words said together in the second listen are fine');
 
+// the real case (fluency-real): the second listen starts badly but the rest still lines up; names are not doubted
+const tomT = 'Tom es un gato gris. Vive en una casa con jardín. Por la mañana, Tom toma leche.'.split(' ');
+const c2 = confirm(tomT, tomT.map(() => 'read' as const), 'tome son keto gris vive en una cesa con jardín por la mañana toma toma leche');
+ok(c2[3] === 'doubt' && c2[8] === 'doubt', 'second listen: «keto» and «cesa» make «gato» and «casa» doubtful');
+ok(c2[4] === 'read' && c2.slice(9).every((x) => x === 'read'), '…and the words after them, heard well, stay read');
+ok(c2[0] === 'read' && c2[13] === 'read', '«Tom», a name, is not doubted');
+
 // neighbours from the real word list
 for (const [lang, abc, word, want] of [['es', 'abcdefghijlmnñopqrstuvzáéíóú', 'gato', 'pato'], ['ca', 'abcçdefghijlmnopqrstuvxzàèéíòóú', 'casa', 'cosa'], ['en', 'abcdefghijklmnopqrstuvwxyz', 'house', 'horse']] as const) {
   const words = gunzipSync(readFileSync(`public/dict/${lang}.frz`)).toString('utf8').split('\n').slice(0, 40000);
