@@ -51,16 +51,22 @@ ok(c2[4] === 'read' && c2.slice(9).every((x) => x === 'read'), '…and the words
 ok(c2[0] === 'read' && c2[13] === 'read', '«Tom», a name, is not doubted');
 
 // not strict (Valencian, English): only a close different word heard in its place counts; a word not heard is to review
-const ns = confirm(sw, first, 'el keto pescado', false);
+const ns = confirm(sw, first, 'el keto pescado', 'close');
 ok(ns.states.join(' ') === 'read doubt read read' || ns.states[1] === 'doubt', 'not strict: «keto» heard for «gato» counts');
 ok(ns.states[2] === 'read' && ns.review.has(2), 'not strict: «come», simply not heard, is left to review, not counted');
-ok(confirm(sw, first, 'el keto pescado', true).states[2] === 'doubt', 'strict: a word not heard counts');
+ok(confirm(sw, first, 'el keto pescado', 'strict').states[2] === 'doubt', 'strict: a word not heard counts');
 
 // sounds the same: not doubted
 const vola = 'el estel vola alt'.split(' ');
-ok(confirm(vola, vola.map(() => 'read' as const), 'el estel bola alt', false, 'ca').states.every((x) => x === 'read'), '«bola» heard for «vola» (Valencian, same sound): still read');
-ok(confirm(['Hay', 'un', 'yate'], ['read', 'read', 'read'], 'ay un yate', true, 'es').states.every((x) => x === 'read'), '«ay» heard for «hay»: still read');
-ok(confirm(['el', 'gato'], ['read', 'read'], 'el gata', true, 'es').states[1] === 'doubt', '…but «gata» for «gato» is still doubtful');
+ok(confirm(vola, vola.map(() => 'read' as const), 'el estel bola alt', 'close', 'ca').states.every((x) => x === 'read'), '«bola» heard for «vola» (Valencian, same sound): still read');
+ok(confirm(['Hay', 'un', 'yate'], ['read', 'read', 'read'], 'ay un yate', 'strict', 'es').states.every((x) => x === 'read'), '«ay» heard for «hay»: still read');
+ok(confirm(['el', 'gato'], ['read', 'read'], 'el gata', 'strict', 'es').states[1] === 'doubt', '…but «gata» for «gato» is still doubtful');
+
+// rescue: a short word the first listen missed, heard exactly by the second
+const res = confirm(['Ben', 'has', 'a', 'red', 'kite'], ['read', 'read', 'missed', 'missed', 'doubt'], 'ben has a red kite', 'review', 'en');
+ok(res.states.every((x) => x === 'read'), 'missed by the first listen, heard exactly by the second: read');
+ok(confirm(['el', 'gato'], ['read', 'doubt'], 'el gato', 'strict', 'es', [false, true]).states[1] === 'doubt', '…but not when the first listen heard a rival there («pato»)');
+ok(confirm(['his', 'mum'], ['read', 'read'], 'his mom', 'review', 'en').states[1] === 'read' && confirm(['his', 'mum'], ['read', 'read'], 'his mom', 'review', 'en').review.has(1), 'English: «mom» for «mum» is only to review');
 
 // neighbours from the real word list
 for (const [lang, abc, word, want] of [['es', 'abcdefghijlmnñopqrstuvzáéíóú', 'gato', 'pato'], ['ca', 'abcçdefghijlmnopqrstuvxzàèéíòóú', 'casa', 'cosa'], ['en', 'abcdefghijklmnopqrstuvwxyz', 'house', 'horse']] as const) {

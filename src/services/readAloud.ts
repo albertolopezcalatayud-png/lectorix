@@ -129,7 +129,21 @@ export interface Listening {
  *   words one letter away counted as read 79% -> 64% (Valencian) and 66% -> 59% (English); correct words
  *   kept 87.9% -> 82.5% and 92.1% -> 88.0%. The rest of the gain is in the words left to review.
  */
-export const STRICT_SECOND_LISTEN = new Set(['es']);
+export type SecondMode = 'strict' | 'close' | 'review';
+/**
+ * Spanish: strict. Valencian: only a close different word heard in its place counts. English: nothing the
+ * second listen hears counts on its own, it is only shown to review: the free English model is American
+ * and hears British vowels as other words («mum» as «mom»), which would mark good readings.
+ * In every language, a word the first listen missed but the second heard exactly is counted as read.
+ */
+export const SECOND_MODE: Record<string, SecondMode> = { es: 'strict', ca: 'close', en: 'review' };
+
+/** For each text word, whether the first listen heard one of its rivals (a real close word) in its place */
+export function rivalHeard(heard: string, from: number[], rivals?: Rivals): boolean[] {
+  const h = heard.split(/\s+/).filter(Boolean).map(norm);
+  const all = new Set<string>(); rivals?.forEach((set) => set.forEach((r) => all.add(norm(r))));
+  return from.map((k) => k >= 0 && all.has(h[k] ?? ''));
+}
 
 /**
  * Spelling folded to how it sounds, so the second listen is not doubted for writing a word that sounds the
@@ -159,7 +173,7 @@ function distance(a: string, b: string): number {
  * never doubted: the second listen spells them in its own way.
  * Returns the new states (doubtful = counts as an error) and the words to review (not counted).
  */
-export function confirm(textWords: string[], states: WordState[], second: string, strict = true, lang = ''): { states: WordState[]; review: Set<number> } {
+export function confirm(textWords: string[], states: WordState[], second: string, mode: SecondMode = 'strict', lang = '', rivalHeard: boolean[] = []): { states: WordState[]; review: Set<number> } {
   const t = textWords.map((w) => soundKey(lang, norm(w)));
   const h = second.split(/\s+/).map((w) => soundKey(lang, norm(w))).filter(Boolean);
   const names = new Set<string>();
@@ -192,8 +206,10 @@ export function confirm(textWords: string[], states: WordState[], second: string
   };
   const review = new Set<number>();
   const out = states.map((st, i) => {
+    // missed or only close in the first listen, heard exactly in the second: read (short words like «a», «en»)
+    if ((st === 'missed' || st === 'doubt') && at.has(i) && h[at.get(i)!] === t[i] && !rivalHeard[i]) return 'read' as WordState;
     if (st !== 'read' || at.has(i) || /\d/.test(t[i]) || names.has(t[i])) return st;
-    if (strict || contradicted(i)) return 'doubt' as WordState;
+    if (mode === 'strict' || (mode === 'close' && contradicted(i))) return 'doubt' as WordState;
     review.add(i); return st;
   });
   return { states: out, review };

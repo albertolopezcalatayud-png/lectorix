@@ -76,7 +76,8 @@ async function run(wav, seconds, n) {
   });
   const tabs = await p.getByRole('button', { name: L.listen }).count();
   await p.getByRole('button', { name: L.listen }).click().catch(() => {});
-  await p.locator('.reading-text > span > span').nth(2).click(); await p.waitForTimeout(1500);
+  const idx = await p.evaluate(() => [...document.querySelectorAll('.reading-text > span > span')].findIndex((s, i) => i >= 2 && !s.className.includes('line-through') && !s.className.includes('decoration-dotted')));
+  await p.locator('.reading-text > span > span').nth(Math.max(2, idx)).click(); await p.waitForTimeout(1500);
   const played = await p.evaluate(() => window.__played);
   await b.close();
   return { ...info, tabs, played, errors, n };

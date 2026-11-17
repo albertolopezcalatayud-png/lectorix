@@ -10,7 +10,7 @@ import { Button } from '@/components/ui/Button';
 import { SyllableWord, useSyllableColoring } from '@/components/reading/SyllableText';
 import { useI18n } from '@/i18n';
 import { awardActivityXP } from '@/services/session';
-import { availability, installLanguage, listen, align, confirm, STRICT_SECOND_LISTEN, useReadAloud, type Availability, type Listening, type Rivals, type Recording } from '@/services/readAloud';
+import { availability, installLanguage, listen, align, confirm, SECOND_MODE, rivalHeard, useReadAloud, type Availability, type Listening, type Rivals, type Recording } from '@/services/readAloud';
 import { wordSpans, playSpan, type Span } from '@/services/listenBack';
 
 const TEST_SECONDS = 60;
@@ -154,7 +154,7 @@ export default function Fluency() {
         const second = await Promise.race([session.secondListen(rec).catch(() => null), skipped]);
         skipCheck.current = null;
         (window as unknown as { __lxCheckMs?: number }).__lxCheckMs = Date.now() - checkStart.current;
-        if (second !== null) { const c = confirm(words, states, second, STRICT_SECOND_LISTEN.has(lang), lang); states = c.states; review = c.review; }
+        if (second !== null) { const c = confirm(words, states, second, SECOND_MODE[lang] ?? 'review', lang, rivalHeard(text, from, rivals)); states = c.states; review = c.review; }
       }
       setSpans(rec ? wordSpans(rec, from) : []);
       const missed = new Set<number>(); const doubt = new Set<number>();
