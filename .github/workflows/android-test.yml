@@ -40,19 +40,30 @@ jobs:
           npm run build:app
           npx cap sync android
           rm -rf android/app/src/main/assets/public/tesseract/lang
+      - name: Reading checker models, installed with the app
+        run: |
+          mkdir -p android/asr_pack/src/main/assets/public/asr
+          git fetch --depth 1 origin asr-models
+          mkdir -p /tmp/asrm && git archive FETCH_HEAD | tar -x -C /tmp/asrm
+          cp /tmp/asrm/*.tar.gz android/asr_pack/src/main/assets/public/asr/
+          echo '{"engine":"vosk","bundled":true}' > android/asr_pack/src/main/assets/public/asr/ready.json
+          ls -la android/asr_pack/src/main/assets/public/asr/
       - name: Build release and debug APKs
         working-directory: android
         run: |
           echo "sdk.dir=$ANDROID_HOME" > local.properties
           yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36" "build-tools;36.0.0" > /dev/null || true
           chmod +x gradlew
-          ./gradlew bundleRelease assembleDebug --no-daemon
+          # Both from bundles, so the install-time asset pack (reading checker models) is in both
+          ./gradlew bundleRelease bundleDebug --no-daemon
           curl -sSL -o /tmp/bundletool.jar https://github.com/google/bundletool/releases/download/1.17.2/bundletool-all-1.17.2.jar
           keytool -genkeypair -keystore /tmp/test.jks -storepass android -keypass android -alias test -keyalg RSA -dname "CN=test" -validity 100
           java -jar /tmp/bundletool.jar build-apks --bundle=app/build/outputs/bundle/release/app-release.aab \
             --output=/tmp/app.apks --mode=universal --ks=/tmp/test.jks --ks-pass=pass:android --ks-key-alias=test --key-pass=pass:android
-          cd /tmp && unzip -o app.apks universal.apk
-          cp "$GITHUB_WORKSPACE/android/app/build/outputs/apk/debug/app-debug.apk" /tmp/debug.apk
+          java -jar /tmp/bundletool.jar build-apks --bundle=app/build/outputs/bundle/debug/app-debug.aab \
+            --output=/tmp/debug.apks --mode=universal --ks=/tmp/test.jks --ks-pass=pass:android --ks-key-alias=test --key-pass=pass:android
+          cd /tmp && unzip -o app.apks universal.apk && mkdir -p dbg && unzip -o debug.apks universal.apk -d dbg && cp dbg/universal.apk /tmp/debug.apk
+          ls -la /tmp/universal.apk /tmp/debug.apk
       - name: Enable KVM
         run: |
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules

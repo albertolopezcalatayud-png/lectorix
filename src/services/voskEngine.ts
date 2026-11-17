@@ -3,14 +3,18 @@
  * The audio is analysed on the device and never leaves it; nothing is recorded or stored.
  * It listens only for the words of the text being read (plus "unknown"), which makes it fast on modest
  * phones, good at following a correct reading and strict with made-up or skipped words.
- * The language model (40–60 MB) is downloaded once per language and kept for offline use.
+ * Android app: the language models come installed with the app (asr_pack, install-time asset pack), so
+ * there is nothing to download. Web: the model (about 40 MB) is downloaded once per language and kept.
  */
 import { Capacitor } from '@capacitor/core';
 
 type Lang = 'es' | 'ca' | 'en';
 type State = 'available' | 'downloadable' | 'downloading' | 'unavailable';
 const REMOTE = 'https://albertolopezcalatayud-png.github.io/lectorix/asr/';
-const base = () => (Capacitor.isNativePlatform() ? REMOTE : `${import.meta.env.BASE_URL}asr/`);
+const LOCAL = (() => { try { return new URL(`${import.meta.env.BASE_URL}asr/`, window.location.href).href; } catch { return `${import.meta.env.BASE_URL}asr/`; } })();
+/** Models installed with the Android app (found at start-up in voskReady) */
+let bundled = false;
+const base = () => (Capacitor.isNativePlatform() && !bundled ? REMOTE : LOCAL);
 const FLAG = (l: string) => `lectorix-asr-${l}`;
 const isLang = (l: string): l is Lang => l === 'es' || l === 'ca' || l === 'en';
 
@@ -28,7 +32,10 @@ let ready: Promise<boolean> | null = null;
 export function voskReady(): Promise<boolean> {
   if (!voskSupported()) return Promise.resolve(false);
   if (!ready) {
-    ready = fetch(`${base()}ready.json`, { cache: 'no-cache' })
+    ready = (Capacitor.isNativePlatform()
+      ? fetch(`${LOCAL}ready.json`).then(async (r) => { bundled = r.ok && ((await r.json().catch(() => null)) as { bundled?: boolean } | null)?.bundled === true; }).catch(() => { bundled = false; })
+      : Promise.resolve())
+      .then(() => fetch(`${base()}ready.json`, { cache: 'no-cache' }))
       .then(async (r) => { const ok = r.ok && ((await r.json().catch(() => null)) as { engine?: string } | null)?.engine === 'vosk'; try { localStorage.setItem('lectorix-asr', ok ? 'on' : 'off'); } catch { /* ignore */ } return ok; })
       .catch(() => { try { return localStorage.getItem('lectorix-asr') === 'on'; } catch { return false; } });
   }
@@ -38,6 +45,7 @@ export function voskReady(): Promise<boolean> {
 export function voskState(lang: string): State {
   if (!isLang(lang) || !voskSupported()) return 'unavailable';
   if (loading.has(lang)) return 'downloading';
+  if (bundled) return 'available'; // installed with the app: it only has to be opened (a few seconds, the first time)
   try { return localStorage.getItem(FLAG(lang)) === 'ready' ? 'available' : 'downloadable'; } catch { return 'downloadable'; }
 }
 

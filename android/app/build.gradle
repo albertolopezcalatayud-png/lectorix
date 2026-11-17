@@ -1,6 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
+    // Reading checker models, installed with the app (see asr_pack/build.gradle)
+    assetPacks = [":asr_pack"]
     namespace "com.lectorix.app"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {

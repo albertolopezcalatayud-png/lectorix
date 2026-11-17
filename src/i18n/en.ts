@@ -1271,7 +1271,7 @@ export const en: Record<TranslationKey, string> = {
   nav_main: 'Main menu',
 
   // Fluency: microphone check by default
-  flu_mic_needed: 'For the app to check the reading, download the microphone checker. It is only needed once and everything stays on the device.',
+  flu_mic_needed: 'Getting the microphone checker ready. On the web it is downloaded once (about 40 MB) and then stays on the device; the Android app already includes it.',
   flu_choose_adult: 'I would rather an adult listens and marks it',
   flu_choose_mic: 'Let the microphone check it instead',
   flu_adult_chosen: 'An adult marks it: they must listen to the whole reading and, at the end, mark every word that was misread or made up. The app will not check anything.',

@@ -1269,7 +1269,7 @@ export const es = {
   nav_main: 'Menú principal',
 
   // Fluency: microphone check by default
-  flu_mic_needed: 'Para que la app compruebe la lectura, descarga el comprobador por micrófono. Solo hay que hacerlo una vez y todo se queda en el dispositivo.',
+  flu_mic_needed: 'Preparando el comprobador por micrófono. En la web se descarga una sola vez (unos 40 MB) y después se queda en el dispositivo; en la app de Android ya viene incluido.',
   flu_choose_adult: 'Prefiero que lo corrija un adulto escuchando',
   flu_choose_mic: 'Mejor que lo compruebe el micrófono',
   flu_adult_chosen: 'Lo corrige un adulto: tiene que escuchar toda la lectura y, al final, marcar cada palabra mal leída o inventada. La app no comprobará nada.',

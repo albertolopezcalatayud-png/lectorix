@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 dist-app
 __pycache__/
+
+# Reading checker models, copied in by CI from the asr-models branch
+android/asr_pack/src/main/assets/

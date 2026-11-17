@@ -1,0 +1,13 @@
+// The reading checker's language models (Vosk, Apache 2.0; about 40 MB per language), delivered with the app
+// at install time: nothing to download inside the app. CI copies them into src/main/assets/public/asr/
+// from the "asr-models" branch (they are not kept in the repository).
+plugins {
+    id 'com.android.asset-pack'
+}
+
+assetPack {
+    packName = "asr_pack"
+    dynamicDelivery {
+        deliveryType = "install-time"
+    }
+}

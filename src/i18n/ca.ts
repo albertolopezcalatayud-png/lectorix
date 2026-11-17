@@ -1271,7 +1271,7 @@ export const ca: Record<TranslationKey, string> = {
   nav_main: 'Menú principal',
 
   // Fluency: microphone check by default
-  flu_mic_needed: 'Perquè l\'app comprove la lectura, descarrega el comprovador per micròfon. Només cal fer-ho una vegada i tot es queda en el dispositiu.',
+  flu_mic_needed: "Preparant el comprovador per micròfon. En la web es descarrega una sola vegada (uns 40 MB) i després es queda en el dispositiu; en l'app d'Android ja ve inclòs.",
   flu_choose_adult: 'Preferisc que ho corregisca un adult escoltant',
   flu_choose_mic: 'Millor que ho comprove el micròfon',
   flu_adult_chosen: 'Ho corregix un adult: ha d\'escoltar tota la lectura i, al final, marcar cada paraula mal llegida o inventada. L\'app no comprovarà res.',

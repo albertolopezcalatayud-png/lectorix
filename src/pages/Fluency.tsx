@@ -75,6 +75,12 @@ export default function Fluency() {
   const canMic = avail === 'available' || avail === 'downloadable' || avail === 'downloading' || avail === 'unchecked';
   const micMode = avail === 'available' && !adultChoice;
   const needsDownload = !adultChoice && (avail === 'downloadable' || avail === 'downloading' || avail === 'unchecked');
+  const getChecker = () => { setRaEnabled(true); setAvail('downloading'); void installLanguage(lang).then(() => availability(lang, true)).then(setAvail); };
+  // The checker is needed: on the web it starts downloading as soon as the test is prepared (no button to find).
+  // In the Android app it comes installed with the app and this never happens.
+  useEffect(() => { if (phase === 'ready' && !adultChoice && avail === 'downloadable') getChecker(); },
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  [phase, avail, adultChoice]);
   const [heard, setHeard] = useState('');
   const [micLimit, setMicLimit] = useState(-1);   // last word the device heard
   const [micMissed, setMicMissed] = useState<Set<number>>(new Set());
@@ -246,7 +252,7 @@ export default function Fluency() {
                   <div className="rounded-xl bg-accent-pale/60 p-3 space-y-2 text-left">
                     <p className="text-sm font-bold">🎤 {t('flu_mic_needed')}</p>
                     <Button fullWidth disabled={avail === 'downloading'}
-                      onClick={() => { setRaEnabled(true); setAvail('downloading'); void installLanguage(lang).then(() => availability(lang, true)).then(setAvail); }}>
+                      onClick={getChecker}>
                       {avail === 'downloading' ? `⏳ ${t('flu_mic_downloading')}` : `🎤 ${t('flu_mic_download')}`}
                     </Button>
                     <button onClick={() => setAdultChoice(true)} className="block mx-auto text-xs font-bold text-accent underline underline-offset-4">👂 {t('flu_choose_adult')}</button>

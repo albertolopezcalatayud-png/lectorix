@@ -43,7 +43,7 @@ const fakeRec = () => {
   // 1. Without microphone: the adult must listen; finishing the whole text in a few seconds is rejected
   {
     const p = await open(false);
-    ok(/descarga el comprobador por micrófono/.test(await p.innerText('body')), 'the microphone check is offered first');
+    ok(/Preparando el comprobador por micrófono/.test(await p.innerText('body')), 'the microphone check comes first');
     ok(await p.getByRole('button', { name: /Empezar/ }).isDisabled(), 'it cannot start unchecked without choosing');
     await p.getByRole('button', { name: /Prefiero que lo corrija un adulto/ }).click(); await p.waitForTimeout(300);
     ok(/Lo corrige un adulto: tiene que escuchar toda la lectura/.test(await p.innerText('body')), 'adult mode is an explicit choice and says the app checks nothing');

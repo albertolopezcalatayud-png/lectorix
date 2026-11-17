@@ -36,6 +36,14 @@ jobs:
           npx cap sync android
           # OCR reading data is downloaded on first use (see Homework.tsx), not shipped in the app
           rm -rf android/app/src/main/assets/public/tesseract/lang
+      - name: Reading checker models, installed with the app
+        run: |
+          mkdir -p android/asr_pack/src/main/assets/public/asr
+          git fetch --depth 1 origin asr-models
+          mkdir -p /tmp/asrm && git archive FETCH_HEAD | tar -x -C /tmp/asrm
+          cp /tmp/asrm/*.tar.gz android/asr_pack/src/main/assets/public/asr/
+          echo '{"engine":"vosk","bundled":true}' > android/asr_pack/src/main/assets/public/asr/ready.json
+          ls -la android/asr_pack/src/main/assets/public/asr/
       - name: Build release bundle
         working-directory: android
         env:

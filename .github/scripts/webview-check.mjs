@@ -59,6 +59,10 @@ await ev('location.hash = "#/"; location.reload(); true');
 await sleep(5000);
 
 const routes = ['/', '/modulos', '/ejercicio/fonologia/1', '/lectura', '/dictado', '/fluidez', '/adaptar', '/juntos', '/panel-padres', '/ajustes', '/mis-palabras', '/cuentos', '/escribe', '/estanteria', '/como-aprendo', '/guia-familias', '/leer-en-voz-alta/lectura_l1_gato', '/voces', '/fichas'];
+// The reading checker models must come installed with the app (asr_pack): no download
+results.asrBundled = await ev(`fetch('/asr/ready.json').then((r) => r.json()).then((j) => j.bundled === true).catch(() => false)`);
+results.asrModelBytes = await ev(`fetch('/asr/es.tar.gz').then((r) => r.ok ? r.arrayBuffer() : null).then((b) => (b ? b.byteLength : 0)).catch(() => -1)`, 120000);
+log('ASR', results.asrBundled, results.asrModelBytes);
 results.routes = {};
 for (const r of routes) {
   await ev(`location.hash = '#${r}'; true`);
@@ -154,7 +158,7 @@ log('BLANK', JSON.stringify(blank));
 const top = Number((String(results.webviewBounds).match(/ \d+,(\d+)-\d+,\d+ /) || [])[1]);
 results.underStatusBar = !(top > 0);
 log('UNDER_STATUS_BAR', results.underStatusBar, top);
-const ok = !results.underStatusBar && blank.length === 0 && results.native && !results.speechSynthesisInWebView !== undefined && String(results.ocr).startsWith('OK') && errors.length === 0
+const ok = results.asrBundled === true && results.asrModelBytes > 10000000 && !results.underStatusBar && blank.length === 0 && results.native && !results.speechSynthesisInWebView !== undefined && String(results.ocr).startsWith('OK') && errors.length === 0
   && Object.values(results.onDeviceSpeech).every((v) => ['available', 'downloadable', 'downloading', 'unavailable'].includes(v)) && String(results.dict).includes('gzip true') && results.spell === 'flagged: ermano' && results.shareText === '#/adaptar | text shown' && !String(results.plugins).includes('false');
 log('RESULT', ok ? 'PASS' : 'CHECK');
 ws.close();
