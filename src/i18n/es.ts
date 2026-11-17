@@ -1285,6 +1285,9 @@ export const es = {
 
   // Fluency: second listen
   flu_checking: 'Comprobando la lectura palabra por palabra…',
+
+  // Fluency: words to review
+  flu_mic_review: 'Subrayadas sin tachar: en el repaso no se oyeron claras. No cuentan como error: escúchalas y, si se leyeron mal, márcalas en «Errores».',
 } as const;
 
 export type TranslationKey = keyof typeof es;

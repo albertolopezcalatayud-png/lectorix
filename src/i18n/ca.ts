@@ -1287,4 +1287,7 @@ export const ca: Record<TranslationKey, string> = {
 
   // Fluency: second listen
   flu_checking: 'Comprovant la lectura paraula per paraula…',
+
+  // Fluency: words to review
+  flu_mic_review: 'Subratllades sense ratllar: en el repàs no s’han sentit clares. No compten com a error: escolta-les i, si s’han llegit malament, marca-les a «Errors».',
 };

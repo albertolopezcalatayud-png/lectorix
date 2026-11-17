@@ -2,16 +2,22 @@
 // 1) opens the test to see which text it gives, 2) synthesises that text (correct, and with close words
 // swapped in), 3) feeds it to Chromium's microphone and checks: the checker gets ready by itself, the
 // words are checked, swapped words are doubtful and count as errors, and every word can be listened back.
-//   node fluency-real.js <piper-model.onnx>
+//   LANG_UNDER_TEST=es|ca|en node fluency-real.js <piper-model.onnx>
 const { chromium } = require('playwright');
 const { execFileSync } = require('child_process');
 const fs = require('fs');
 const voice = process.argv[2];
 const BASE = 'http://localhost:4173/lectorix/';
-const seed = () => {
+const LANG = process.env.LANG_UNDER_TEST || 'es';
+const L = {
+  es: { prepare: 'Preparar el texto', adult: /Prefiero que lo corrija un adulto/, start: /Empezar/, startRe: 'Empezar', finished: 'He terminado el texto', listen: /^🔊 Escuchar$/, micOn: /El dispositivo escuchará la lectura/ },
+  ca: { prepare: 'Preparar el text', adult: /Preferisc que ho corregisca un adult/, start: /Començar/, startRe: 'Començar', finished: 'He acabat el text', listen: /^🔊 Escoltar$/, micOn: /El dispositiu escoltarà la lectura/ },
+  en: { prepare: 'Get the text ready', adult: /I would rather an adult listens/, start: /^▶ Start$/, startRe: 'Start', finished: 'I have finished the text', listen: /^🔊 Listen$/, micOn: /The device will listen to the reading/ },
+}[LANG];
+const seed = (LANG_SEED) => {
   localStorage.clear();
   localStorage.setItem('lectorix-mode', 'solo');
-  localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Ana', total_xp: 0, streak_days: 0 } }, version: 0 }));
+  localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: LANG_SEED, practiceLanguage: 'auto', progress: [], sessionHistory: [], user: { id: 'u', display_name: 'Ana', total_xp: 0, streak_days: 0 } }, version: 0 }));
 };
 const fixRandom = () => { Math.random = () => 0.01; };
 let fails = 0;
@@ -19,12 +25,12 @@ const ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); if (!c) fails++
 
 async function shownText() {
   const b = await chromium.launch(); const ctx = await b.newContext(); await ctx.addInitScript(fixRandom);
-  const p = await ctx.newPage(); await p.goto(BASE); await p.evaluate(seed);
+  const p = await ctx.newPage(); await p.goto(BASE); await p.evaluate(seed, LANG);
   await p.goto(BASE + '#/fluidez'); await p.reload(); await p.waitForTimeout(1500);
-  await p.getByRole('button', { name: 'Preparar el texto' }).click(); await p.waitForTimeout(800);
+  await p.getByRole('button', { name: L.prepare }).click(); await p.waitForTimeout(800);
   // the text is shown once the test starts: start it in adult mode just to read it
-  await p.getByRole('button', { name: /Prefiero que lo corrija un adulto/ }).click(); await p.waitForTimeout(300);
-  await p.getByRole('button', { name: /Empezar/ }).click(); await p.waitForTimeout(800);
+  await p.getByRole('button', { name: L.adult }).click(); await p.waitForTimeout(300);
+  await p.getByRole('button', { name: L.start }).click(); await p.waitForTimeout(800);
   const words = await p.evaluate(() => [...document.querySelectorAll('.reading-text > span > span')].map((s) => s.textContent.trim()));
   await b.close();
   if (!words.length) throw new Error('no text shown');
@@ -42,16 +48,16 @@ async function run(wav, seconds, n) {
   await ctx.addInitScript(fixRandom);
   await ctx.addInitScript(() => { window.__played = 0; const s = AudioBufferSourceNode.prototype.start; AudioBufferSourceNode.prototype.start = function (...a) { window.__played++; return s.apply(this, a); }; });
   const p = await ctx.newPage(); const errors = []; p.on('pageerror', (e) => errors.push(e.message));
-  await p.goto(BASE); await p.evaluate(seed);
+  await p.goto(BASE); await p.evaluate(seed, LANG);
   await p.goto(BASE + '#/fluidez'); await p.reload(); await p.waitForTimeout(1500);
-  await p.getByRole('button', { name: 'Preparar el texto' }).click();
+  await p.getByRole('button', { name: L.prepare }).click();
   const t0 = Date.now();
-  await p.waitForFunction(() => { const b = [...document.querySelectorAll('button')].find((x) => /Empezar/.test(x.textContent)); return b && !b.disabled; }, null, { timeout: 300000 });
+  await p.waitForFunction((st) => { const b = [...document.querySelectorAll('button')].find((x) => x.textContent.includes(st)); return b && !b.disabled; }, L.startRe, { timeout: 300000 });
   console.log('checker ready by itself in', Math.round((Date.now() - t0) / 1000), 's');
-  ok(/El dispositivo escuchará la lectura/.test(await p.innerText('body')), 'microphone check on, with no button to find');
-  await p.getByRole('button', { name: /Empezar/ }).click();
+  ok(L.micOn.test(await p.innerText('body')), 'microphone check on, with no button to find');
+  await p.getByRole('button', { name: L.start }).click();
   await p.waitForTimeout(seconds * 1000 + 1500);
-  const fin = p.getByRole('button', { name: 'He terminado el texto' });
+  const fin = p.getByRole('button', { name: L.finished });
   if (await fin.count()) await fin.click(); // the test may already have ended on its own
   await p.waitForTimeout(3000);
   const body = await p.innerText('body');
@@ -60,11 +66,12 @@ async function run(wav, seconds, n) {
     const spans = [...document.querySelectorAll('.reading-text > span > span')];
     const last = spans.findIndex((s) => s.className.includes('ring-2'));
     return { last, doubt: spans.filter((s) => s.className.includes('decoration-dotted')).length, struck: spans.filter((s) => s.className.includes('line-through')).length,
+      review: spans.map((s, i) => (s.className.includes('decoration-dotted') && !s.className.includes('line-through') ? i + ':' + s.textContent.trim() : '')).filter(Boolean),
       marked: spans.map((s, i) => (s.className.includes('line-through') ? (s.className.includes('decoration-dotted') ? '?' : 'x') + i + ':' + s.textContent.trim() : '')).filter(Boolean),
       heard: window.__lxHeard, second: window.__lxSecond };
   });
-  const tabs = await p.getByRole('button', { name: /Escuchar/ }).count();
-  await p.getByRole('button', { name: /^🔊 Escuchar$/ }).click().catch(() => {});
+  const tabs = await p.getByRole('button', { name: L.listen }).count();
+  await p.getByRole('button', { name: L.listen }).click().catch(() => {});
   await p.locator('.reading-text > span > span').nth(2).click(); await p.waitForTimeout(1500);
   const played = await p.evaluate(() => window.__played);
   await b.close();
@@ -77,11 +84,11 @@ async function run(wav, seconds, n) {
   // close real words, from the app's own rival rule: change one letter of a few longer words
   const swaps = [];
   const swapped = words.slice(0, n).map((w, i) => {
-    const c = w.toLowerCase().replace(/[^a-záéíóúüñ]/g, '');
+    const c = w.toLowerCase().replace(/[^a-záéíóúüñàèòïç]/g, '');
     if (swaps.length < 3 && i >= 3 && i % 5 === 3 && c.length >= 4) { const x = c.slice(0, 1) + (c[1] === 'a' ? 'e' : 'a') + c.slice(2); swaps.push([c, x]); return x; }
     return w;
   }).join(' ');
-  console.log('text:', read.slice(0, 120), '…'); console.log('swaps:', JSON.stringify(swaps));
+  console.log('lang:', LANG); console.log('text:', read.slice(0, 120), '…'); console.log('swaps:', JSON.stringify(swaps));
   const d1 = synth(read, 'flu_ok'); const d2 = synth(swapped, 'flu_swap');
   const r1 = await run('/tmp/flu_ok.wav', d1, n);
   console.log('correct reading:', JSON.stringify(r1));

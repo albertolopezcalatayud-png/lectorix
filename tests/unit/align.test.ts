@@ -37,18 +37,24 @@ ok(align(['la', 'casa', 'de', 'el', 'tío'], 'la casa del tío').states.every((x
 // second listen: a word the first listen took as read but the second did not hear becomes doubtful
 const sw = 'El gato come pescado'.split(' ');
 const first = align(sw, 'el gato come pescado').states;
-ok(confirm(sw, first, 'el geto come pescado').join(' ') === 'read doubt read read', 'second listen hears «geto»: «gato» doubtful');
-ok(confirm(sw, first, 'el gato come pescado').every((x) => x === 'read'), 'second listen agrees: all read');
-ok(confirm(sw, align(sw, 'el come pescado').states, 'el come pescado').join(' ') === 'read missed read read', 'a missed word stays missed');
-ok(confirm(['Tiene', '3', 'gatos'], align(['Tiene', '3', 'gatos'], 'tiene 3 gatos').states, 'tiene tres gatos').join(' ') === 'read read read', 'numbers are not doubted by the second listen');
-ok(confirm(['vive', 'en', 'casa'], ['read', 'read', 'read'], 'viven casa').every((x) => x === 'read'), 'words said together in the second listen are fine');
+ok(confirm(sw, first, 'el geto come pescado').states.join(' ') === 'read doubt read read', 'second listen hears «geto»: «gato» doubtful');
+ok(confirm(sw, first, 'el gato come pescado').states.every((x) => x === 'read'), 'second listen agrees: all read');
+ok(confirm(sw, align(sw, 'el come pescado').states, 'el come pescado').states.join(' ') === 'read missed read read', 'a missed word stays missed');
+ok(confirm(['Tiene', '3', 'gatos'], align(['Tiene', '3', 'gatos'], 'tiene 3 gatos').states, 'tiene tres gatos').states.join(' ') === 'read read read', 'numbers are not doubted by the second listen');
+ok(confirm(['vive', 'en', 'casa'], ['read', 'read', 'read'], 'viven casa').states.every((x) => x === 'read'), 'words said together in the second listen are fine');
 
 // the real case (fluency-real): the second listen starts badly but the rest still lines up; names are not doubted
 const tomT = 'Tom es un gato gris. Vive en una casa con jardín. Por la mañana, Tom toma leche.'.split(' ');
-const c2 = confirm(tomT, tomT.map(() => 'read' as const), 'tome son keto gris vive en una cesa con jardín por la mañana toma toma leche');
+const c2 = confirm(tomT, tomT.map(() => 'read' as const), 'tome son keto gris vive en una cesa con jardín por la mañana toma toma leche').states;
 ok(c2[3] === 'doubt' && c2[8] === 'doubt', 'second listen: «keto» and «cesa» make «gato» and «casa» doubtful');
 ok(c2[4] === 'read' && c2.slice(9).every((x) => x === 'read'), '…and the words after them, heard well, stay read');
 ok(c2[0] === 'read' && c2[13] === 'read', '«Tom», a name, is not doubted');
+
+// not strict (Valencian, English): only a close different word heard in its place counts; a word not heard is to review
+const ns = confirm(sw, first, 'el keto pescado', false);
+ok(ns.states.join(' ') === 'read doubt read read' || ns.states[1] === 'doubt', 'not strict: «keto» heard for «gato» counts');
+ok(ns.states[2] === 'read' && ns.review.has(2), 'not strict: «come», simply not heard, is left to review, not counted');
+ok(confirm(sw, first, 'el keto pescado', true).states[2] === 'doubt', 'strict: a word not heard counts');
 
 // neighbours from the real word list
 for (const [lang, abc, word, want] of [['es', 'abcdefghijlmnñopqrstuvzáéíóú', 'gato', 'pato'], ['ca', 'abcçdefghijlmnopqrstuvxzàèéíòóú', 'casa', 'cosa'], ['en', 'abcdefghijklmnopqrstuvwxyz', 'house', 'horse']] as const) {

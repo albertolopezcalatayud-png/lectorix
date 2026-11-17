@@ -118,21 +118,37 @@ export interface Listening {
 }
 
 /**
- * Languages where the second listen is used. Measured with synthetic readings (scripts/asr/eval3.py):
- * in Spanish it lets through far fewer close made-up words (1 letter: 87% -> 67%; 2 letters: 62% -> 36%)
- * at no cost for correct readings (93.8% -> 93.7%). In Valencian and English it still costs too many
- * correct words (89 -> 80% and 93 -> 86%), so it stays off there for now.
+ * The second listen runs in every language. How much a word it does not confirm counts depends on the
+ * language, as measured with synthetic readings (scripts/asr/eval3.py, 60 sentences x 2 voices):
+ * - Spanish: any word it does not confirm counts as an error (doubtful, can be unmarked). Made-up words
+ *   one letter away let through 82% -> 65%, two letters 67% -> 34%, real close words 25% -> 9%; correct
+ *   words kept 95.3% -> 91.8%.
+ * - Valencian and English: the same would cost too many correct words (88 -> 78%, 92 -> 82%), so only a
+ *   word where the second listen heard a *different, close* word in its place counts as an error; words it
+ *   simply did not hear are shown for the adult to listen to and decide, without counting. Measured: made-up
+ *   words one letter away counted as read 79% -> 64% (Valencian) and 66% -> 59% (English); correct words
+ *   kept 87.9% -> 82.5% and 92.1% -> 88.0%. The rest of the gain is in the words left to review.
  */
-export const SECOND_LISTEN = new Set(['es']);
+export const STRICT_SECOND_LISTEN = new Set(['es']);
+
+/** Letters apart (insertions, deletions, changes) */
+function distance(a: string, b: string): number {
+  const d = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    let prev = d[0]; d[0] = i;
+    for (let j = 1; j <= b.length; j++) { const tmp = d[j]; d[j] = Math.min(d[j] + 1, d[j - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1)); prev = tmp; }
+  }
+  return d[b.length];
+}
 
 /**
- * Words the first listen took as read but the second listen did not hear as that word become doubtful.
- * The second transcript is matched against the text as a whole (longest common sequence), so one word
- * heard differently does not throw the rest out of step; two words said together count for both.
- * Names (capitalised in the middle of a sentence, like «Tom») and numbers are not doubted: the second
- * listen spells them in its own way.
+ * Checks the first listen against the second. The second transcript is matched against the text as a whole
+ * (longest common sequence), so one word heard differently does not throw the rest out of step; two words
+ * said together count for both. Names (capitalised in the middle of a sentence, like «Tom») and numbers are
+ * never doubted: the second listen spells them in its own way.
+ * Returns the new states (doubtful = counts as an error) and the words to review (not counted).
  */
-export function confirm(textWords: string[], states: WordState[], second: string): WordState[] {
+export function confirm(textWords: string[], states: WordState[], second: string, strict = true): { states: WordState[]; review: Set<number> } {
   const t = textWords.map(norm);
   const h = second.split(/\s+/).map(norm).filter(Boolean);
   const names = new Set<string>();
@@ -149,14 +165,27 @@ export function confirm(textWords: string[], states: WordState[], second: string
       dp[i][j] = best;
     }
   }
-  const heard = new Set<number>();
+  const at = new Map<number, number>(); // text word -> heard word
   for (let i = 0, j = 0; i < n && j < m;) {
-    if (t[i] && t[i] === h[j] && dp[i][j] === dp[i + 1][j + 1] + 1) { heard.add(i); i++; j++; }
-    else if (pair(i, j) && dp[i][j] === dp[i + 2][j + 1] + 2) { heard.add(i); heard.add(i + 1); i += 2; j++; }
+    if (t[i] && t[i] === h[j] && dp[i][j] === dp[i + 1][j + 1] + 1) { at.set(i, j); i++; j++; }
+    else if (pair(i, j) && dp[i][j] === dp[i + 2][j + 1] + 2) { at.set(i, j); at.set(i + 1, j); i += 2; j++; }
     else if (dp[i + 1][j] >= dp[i][j + 1]) i++;
     else j++;
   }
-  return states.map((st, i) => (st === 'read' && !heard.has(i) && !/\d/.test(t[i]) && !names.has(t[i]) ? 'doubt' : st));
+  /** a different word, close to the text word, heard in its place (between the neighbours that were heard) */
+  const contradicted = (i: number) => {
+    let a = -1, b = m;
+    for (let k = i - 1; k >= 0; k--) if (at.has(k)) { a = at.get(k)!; break; }
+    for (let k = i + 1; k < n; k++) if (at.has(k)) { b = at.get(k)!; break; }
+    return h.slice(a + 1, b).some((x) => { const d = distance(x, t[i]); return d >= 1 && d <= 2 && Math.min(x.length, t[i].length) >= 3; });
+  };
+  const review = new Set<number>();
+  const out = states.map((st, i) => {
+    if (st !== 'read' || at.has(i) || /\d/.test(t[i]) || names.has(t[i])) return st;
+    if (strict || contradicted(i)) return 'doubt' as WordState;
+    review.add(i); return st;
+  });
+  return { states: out, review };
 }
 
 /**
@@ -168,7 +197,7 @@ export async function listen(lang: string, onText: (text: string) => void, onErr
   if (await own(lang)) {
     const rivals = words?.length ? await rivalsFor(lang, [...new Set(words.map(clean).filter(Boolean))]) : undefined;
     const session = await voskListen(lang, onText, onError, words, rivals ? [...new Set([...rivals.values()].flatMap((r) => [...r]))] : undefined, capture);
-    return { ...session, rivals, secondListen: SECOND_LISTEN.has(lang) ? (rec) => voskSecondListen(lang, rec) : undefined };
+    return { ...session, rivals, secondListen: (rec) => voskSecondListen(lang, rec) };
   }
   const tag = SPEECH_TAG[lang] ?? lang;
   let done = '';

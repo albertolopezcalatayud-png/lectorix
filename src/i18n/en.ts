@@ -1287,4 +1287,7 @@ export const en: Record<TranslationKey, string> = {
 
   // Fluency: second listen
   flu_checking: 'Checking the reading word by word…',
+
+  // Fluency: words to review
+  flu_mic_review: 'Underlined but not crossed out: the second check did not hear them clearly. They do not count as mistakes: listen to them and, if they were misread, mark them in «Errors».',
 };

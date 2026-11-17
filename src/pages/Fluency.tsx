@@ -10,7 +10,7 @@ import { Button } from '@/components/ui/Button';
 import { SyllableWord, useSyllableColoring } from '@/components/reading/SyllableText';
 import { useI18n } from '@/i18n';
 import { awardActivityXP } from '@/services/session';
-import { availability, installLanguage, listen, align, confirm, useReadAloud, type Availability, type Listening, type Rivals, type Recording } from '@/services/readAloud';
+import { availability, installLanguage, listen, align, confirm, STRICT_SECOND_LISTEN, useReadAloud, type Availability, type Listening, type Rivals, type Recording } from '@/services/readAloud';
 import { wordSpans, playSpan, type Span } from '@/services/listenBack';
 
 const TEST_SECONDS = 60;
@@ -93,6 +93,7 @@ export default function Fluency() {
   const setHeard = (t: string) => { heardRef.current = t; setHeardState(t); };
   const [micLimit, setMicLimit] = useState(-1);   // last word the device heard
   const [micMissed, setMicMissed] = useState<Set<number>>(new Set());
+  const [micReview, setMicReview] = useState<Set<number>>(new Set()); // not confirmed by the second listen: not counted
   const [micDoubt, setMicDoubt] = useState<Set<number>>(new Set()); // a close word was heard: marked, but can be unmarked
   const [rivals, setRivals] = useState<Rivals | undefined>(undefined);
   const [micError, setMicError] = useState(false);
@@ -116,7 +117,7 @@ export default function Fluency() {
     setErrors(new Set());
     setLeft(TEST_SECONDS);
     setResult(null);
-    setHeard(''); setMicLimit(-1); setMicMissed(new Set()); setMicDoubt(new Set()); setMicError(false); setTooFast(false);
+    setHeard(''); setMicLimit(-1); setMicMissed(new Set()); setMicDoubt(new Set()); setMicReview(new Set()); setMicError(false); setTooFast(false);
     setSpans([]); recRef.current = null; setTab('last');
   };
 
@@ -136,20 +137,23 @@ export default function Fluency() {
       const first = align(words, text, rivals);
       const { position, from } = first;
       let states = first.states;
+      let review = new Set<number>(); // not confirmed by the second listen: shown to listen to, not counted
       // a second, closer listen to the recording catches close made-up words the first one let through
       if (rec && session?.secondListen && position > 0) {
         setPhase('checking');
         const second = await session.secondListen(rec).catch(() => null);
-        if (second !== null) states = confirm(words, states, second);
+        if (second !== null) { const c = confirm(words, states, second, STRICT_SECOND_LISTEN.has(lang)); states = c.states; review = c.review; }
       }
       setSpans(rec ? wordSpans(rec, from) : []);
       const missed = new Set<number>(); const doubt = new Set<number>();
       states.forEach((st, i) => { if (i >= position) return; if (st === 'missed') missed.add(i); else if (st === 'doubt') doubt.add(i); });
       setMicLimit(position - 1);
       setMicMissed(missed);
+      review.forEach((i) => { if (i < position) doubt.add(i); });
       setMicDoubt(doubt);
+      setMicReview(new Set([...review].filter((i) => i < position)));
       setLastWord(position > 0 ? position - 1 : null);
-      setErrors(new Set([...missed, ...doubt]));
+      setErrors(new Set([...missed, ...[...doubt].filter((i) => !review.has(i))]));
     } else {
       setLastWord(early ? words.length - 1 : null);
     }
@@ -337,7 +341,8 @@ export default function Fluency() {
                 {micMode
                   ? <>
                       <p className="text-[11px] text-fg-muted">🎤 {t('flu_mic_checked')}</p>
-                      {micDoubt.size > 0 && <p className="text-[11px] font-bold"><span className="rounded px-1 bg-yellow-pale underline decoration-dotted">🤔</span> {t('flu_mic_doubt')}</p>}
+                      {micDoubt.size > micReview.size && <p className="text-[11px] font-bold"><span className="rounded px-1 bg-yellow-pale underline decoration-dotted line-through">🤔</span> {t('flu_mic_doubt')}</p>}
+                      {micReview.size > 0 && <p className="text-[11px] font-bold"><span className="rounded px-1 bg-yellow-pale underline decoration-dotted">👂</span> {t('flu_mic_review')}</p>}
                       {micDoubt.size > 0 && spans.some(Boolean) && (
                         <Button size="sm" variant="secondary" onClick={() => { setTab('listen'); void listenDoubtful(); }}>🔊 {t('flu_listen_doubtful', { n: micDoubt.size })}</Button>
                       )}
