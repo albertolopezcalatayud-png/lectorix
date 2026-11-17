@@ -68,6 +68,10 @@ ok(res.states.every((x) => x === 'read'), 'missed by the first listen, heard exa
 ok(confirm(['el', 'gato'], ['read', 'doubt'], 'el gato', 'strict', 'es', [false, true]).states[1] === 'doubt', '…but not when the first listen heard a rival there («pato»)');
 ok(confirm(['his', 'mum'], ['read', 'read'], 'his mom', 'review', 'en').states[1] === 'read' && confirm(['his', 'mum'], ['read', 'read'], 'his mom', 'review', 'en').review.has(1), 'English: «mom» for «mum» is only to review');
 
+// a name that only appears starting sentences
+const pau = 'Pau té un estel. Pau i sa mare pugen.'.split(' ');
+ok(confirm(pau, pau.map(() => 'read' as const), 'pau té un estel au i sa mare pugen', 'strict', 'ca').states[4] === 'read', '«Pau», always capitalised, is a name: not doubted');
+
 // neighbours from the real word list
 for (const [lang, abc, word, want] of [['es', 'abcdefghijlmnñopqrstuvzáéíóú', 'gato', 'pato'], ['ca', 'abcçdefghijlmnopqrstuvxzàèéíòóú', 'casa', 'cosa'], ['en', 'abcdefghijklmnopqrstuvwxyz', 'house', 'horse']] as const) {
   const words = gunzipSync(readFileSync(`public/dict/${lang}.frz`)).toString('utf8').split('\n').slice(0, 40000);

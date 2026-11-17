@@ -178,6 +178,10 @@ export function confirm(textWords: string[], states: WordState[], second: string
   const h = second.split(/\s+/).map((w) => soundKey(lang, norm(w))).filter(Boolean);
   const names = new Set<string>();
   textWords.forEach((w, i) => { if (i > 0 && /^\p{Lu}/u.test(w) && !/[.!?…:»"]$/.test(textWords[i - 1])) names.add(t[i]); });
+  // also a word that comes more than once and is always capitalised («Pau» starting every sentence)
+  const caps = new Map<string, number>(); const lower = new Set<string>();
+  textWords.forEach((w, i) => { if (/^\p{Lu}/u.test(w)) caps.set(t[i], (caps.get(t[i]) ?? 0) + 1); else lower.add(t[i]); });
+  caps.forEach((k, w) => { if (k > 1 && !lower.has(w)) names.add(w); });
   const n = t.length, m = h.length;
   // dp[i][j]: most text words matched from t[i..] and h[j..]
   const dp: number[][] = Array.from({ length: n + 1 }, () => new Array<number>(m + 1).fill(0));

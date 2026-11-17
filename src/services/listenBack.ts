@@ -9,7 +9,7 @@ export interface Span { start: number; end: number }
 /**
  * Time span of each word of the text, from the matches found by align() (`from`: index of the heard word).
  * Words that were not heard (skipped) get the gap between their neighbours, so the adult can hear what
- * was said there instead.
+ * was said there instead (or the neighbours with it, when there is no gap).
  */
 export function wordSpans(rec: Recording, from: number[]): (Span | null)[] {
   const own = from.map((k) => (k >= 0 && rec.words[k] ? { start: rec.words[k].start, end: rec.words[k].end } : null));
@@ -20,7 +20,9 @@ export function wordSpans(rec: Recording, from: number[]): (Span | null)[] {
     for (let j = i + 1; j < own.length; j++) if (own[j]) { b = j; break; }
     if (a < 0 || b < 0) return null;
     const start = own[a]!.end, end = own[b]!.start;
-    return end - start > 0.15 ? { start, end } : null;
+    // no room between them (a short word said quickly, or found only by the second listen): play the
+    // neighbours too, so it can still be heard in context
+    return end - start > 0.15 ? { start, end } : { start: own[a]!.start, end: own[b]!.end };
   });
 }
 
