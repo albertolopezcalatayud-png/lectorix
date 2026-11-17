@@ -105,7 +105,7 @@ export async function voskListen(
   rec.on('result', (msg) => {
     const r = (msg as { result: { text?: string; result?: { word: string; start: number; end: number }[] } }).result;
     for (const w of r.result ?? []) if (w.word !== '[unk]') timed.push({ word: w.word, start: w.start, end: w.end });
-    const t = tidy(r.text ?? ''); if (t) { done = join(done, t); onText(done); }
+    const t = tidy(r.text ?? ''); if (t) { done = join(done, t); onText(done); (window as unknown as { __lxHeard?: string }).__lxHeard = done; }
     if (finalWaiter) { finalWaiter(); finalWaiter = null; }
   });
   rec.on('partialresult', (msg) => { const t = tidy((msg as { result: { partial?: string } }).result.partial ?? ''); onText(join(done, t)); });

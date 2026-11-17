@@ -59,7 +59,9 @@ async function run(wav, seconds, n) {
   const info = await p.evaluate(() => {
     const spans = [...document.querySelectorAll('.reading-text > span > span')];
     const last = spans.findIndex((s) => s.className.includes('ring-2'));
-    return { last, doubt: spans.filter((s) => s.className.includes('decoration-dotted')).length, struck: spans.filter((s) => s.className.includes('line-through')).length };
+    return { last, doubt: spans.filter((s) => s.className.includes('decoration-dotted')).length, struck: spans.filter((s) => s.className.includes('line-through')).length,
+      marked: spans.map((s, i) => (s.className.includes('line-through') ? (s.className.includes('decoration-dotted') ? '?' : 'x') + i + ':' + s.textContent.trim() : '')).filter(Boolean),
+      heard: window.__lxHeard };
   });
   const tabs = await p.getByRole('button', { name: /Escuchar/ }).count();
   await p.getByRole('button', { name: /^🔊 Escuchar$/ }).click().catch(() => {});
