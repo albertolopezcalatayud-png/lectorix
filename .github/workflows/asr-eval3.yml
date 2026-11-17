@@ -1,0 +1,38 @@
+name: Near-miss rivals comparison
+
+# scripts/asr/eval3.py: rivals chosen by sound from the recogniser's own vocabulary, against the app's current rule
+on:
+  workflow_dispatch:
+    inputs:
+      sentences:
+        default: '40'
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        lang: [es, ca, en]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Tools, voices and models
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng > /dev/null
+          pip install -q piper-tts vosk numpy rapidfuzz
+          mkdir -p /tmp/voices /tmp/vosk
+          HF=https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0
+          for p in es/es_ES/davefx/medium/es_ES-davefx-medium es/es_ES/sharvard/medium/es_ES-sharvard-medium ca/ca_ES/upc_ona/medium/ca_ES-upc_ona-medium ca/ca_ES/upc_pau/x_low/ca_ES-upc_pau-x_low en/en_GB/cori/high/en_GB-cori-high en/en_GB/northern_english_male/medium/en_GB-northern_english_male-medium; do
+            for e in .onnx .onnx.json; do curl -sfL "$HF/$p$e" -o "/tmp/voices/$(basename $p)$e"; done
+          done
+          for m in vosk-model-small-es-0.42 vosk-model-small-ca-0.4 vosk-model-small-en-us-0.15; do
+            curl -sfL "https://alphacephei.com/vosk/models/$m.zip" -o /tmp/m.zip && unzip -q /tmp/m.zip -d /tmp/vosk
+          done
+      - name: Compare
+        env:
+          LANGS: ${{ matrix.lang }}
+          N_SENT: ${{ inputs.sentences }}
+        run: python scripts/asr/eval3.py /tmp/voices /tmp/vosk
