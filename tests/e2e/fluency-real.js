@@ -22,8 +22,13 @@ async function shownText() {
   const p = await ctx.newPage(); await p.goto(BASE); await p.evaluate(seed);
   await p.goto(BASE + '#/fluidez'); await p.reload(); await p.waitForTimeout(1500);
   await p.getByRole('button', { name: 'Preparar el texto' }).click(); await p.waitForTimeout(800);
+  // the text is shown once the test starts: start it in adult mode just to read it
+  await p.getByRole('button', { name: /Prefiero que lo corrija un adulto/ }).click(); await p.waitForTimeout(300);
+  await p.getByRole('button', { name: /Empezar/ }).click(); await p.waitForTimeout(800);
   const words = await p.evaluate(() => [...document.querySelectorAll('.reading-text > span > span')].map((s) => s.textContent.trim()));
-  await b.close(); return words;
+  await b.close();
+  if (!words.length) throw new Error('no text shown');
+  return words;
 }
 function synth(text, name) {
   fs.writeFileSync(`/tmp/${name}.txt`, text);
