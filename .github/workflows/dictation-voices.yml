@@ -4,6 +4,9 @@ name: Dictation voice samples
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   samples:
     runs-on: ubuntu-latest
@@ -22,5 +25,10 @@ jobs:
           done
       - name: Page
         run: python scripts/audio/dictation_samples.py /tmp/voices /tmp/Lectorix-voces-dictado.html
-      - uses: actions/upload-artifact@v4
-        with: { name: dictation-voices, path: /tmp/Lectorix-voces-dictado.html }
+      - name: Save to the dictation-samples branch
+        run: |
+          mkdir /tmp/pub && cd /tmp/pub && git init -q && git checkout -q -b dictation-samples
+          split -b 40m -d /tmp/Lectorix-voces-dictado.html Lectorix-voces-dictado.html.part
+          git config user.name lectorix-bot; git config user.email actions@users.noreply.github.com
+          git add -A && git commit -qm samples
+          git push -qf https://x-access-token:${{ github.token }}@github.com/${{ github.repository }} HEAD:dictation-samples
