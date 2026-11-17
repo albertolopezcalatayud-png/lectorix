@@ -3,7 +3,7 @@
 // shown as doubtful, never accepted; and nothing changes for recognisers without rivals.
 import { gunzipSync } from 'node:zlib';
 import { readFileSync } from 'node:fs';
-import { align } from '../../src/services/readAloud';
+import { align, confirm } from '../../src/services/readAloud';
 import { neighbours, RIVALS_PER_WORD } from '../../src/services/rivals';
 
 let fails = 0;
@@ -33,6 +33,15 @@ ok(align(tom, 'tom es un gato gris viven una casa con jardín por la noche duerm
 ok(align(['Vive', 'en', 'una', 'casa'], 'viven una casa').from.slice(0, 2).join() === '0,0', '…and both words listen back to the same stretch');
 ok(align(['Vive', 'en', 'una', 'casa'], 'vive una casa').states.join(' ') === 'read missed read read', 'a word really left out is still missed');
 ok(align(['la', 'casa', 'de', 'el', 'tío'], 'la casa del tío').states.every((x) => x === 'read'), '"de el" heard as "del": both read');
+
+// second listen: a word the first listen took as read but the second did not hear becomes doubtful
+const sw = 'El gato come pescado'.split(' ');
+const first = align(sw, 'el gato come pescado').states;
+ok(confirm(sw, first, 'el geto come pescado').join(' ') === 'read doubt read read', 'second listen hears «geto»: «gato» doubtful');
+ok(confirm(sw, first, 'el gato come pescado').every((x) => x === 'read'), 'second listen agrees: all read');
+ok(confirm(sw, align(sw, 'el come pescado').states, 'el come pescado').join(' ') === 'read missed read read', 'a missed word stays missed');
+ok(confirm(['Tiene', '3', 'gatos'], align(['Tiene', '3', 'gatos'], 'tiene 3 gatos').states, 'tiene tres gatos').join(' ') === 'read read read', 'numbers are not doubted by the second listen');
+ok(confirm(['vive', 'en', 'casa'], ['read', 'read', 'read'], 'viven casa').every((x) => x === 'read'), 'words said together in the second listen are fine');
 
 // neighbours from the real word list
 for (const [lang, abc, word, want] of [['es', 'abcdefghijlmnñopqrstuvzáéíóú', 'gato', 'pato'], ['ca', 'abcçdefghijlmnopqrstuvxzàèéíòóú', 'casa', 'cosa'], ['en', 'abcdefghijklmnopqrstuvwxyz', 'house', 'horse']] as const) {

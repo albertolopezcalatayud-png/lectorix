@@ -1282,6 +1282,9 @@ export const es = {
   flu_listen_help: 'Toca una palabra para escuchar cómo se ha leído. Si está mal, pasa a «Errores» y márcala.',
   flu_listen_doubtful: 'Escuchar las dudosas ({n})',
   flu_listen_privacy: 'El audio solo está en la memoria mientras ves esta prueba: no se guarda ni se envía.',
+
+  // Fluency: second listen
+  flu_checking: 'Comprobando la lectura palabra por palabra…',
 } as const;
 
 export type TranslationKey = keyof typeof es;

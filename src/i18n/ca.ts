@@ -1284,4 +1284,7 @@ export const ca: Record<TranslationKey, string> = {
   flu_listen_help: 'Toca una paraula per a escoltar com s\'ha llegit. Si està malament, passa a «Errors» i marca-la.',
   flu_listen_doubtful: 'Escoltar les dubtoses ({n})',
   flu_listen_privacy: 'L\'àudio només està en la memòria mentre veus esta prova: no es guarda ni s\'envia.',
+
+  // Fluency: second listen
+  flu_checking: 'Comprovant la lectura paraula per paraula…',
 };

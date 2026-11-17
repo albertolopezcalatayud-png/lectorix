@@ -10,13 +10,13 @@ import { Button } from '@/components/ui/Button';
 import { SyllableWord, useSyllableColoring } from '@/components/reading/SyllableText';
 import { useI18n } from '@/i18n';
 import { awardActivityXP } from '@/services/session';
-import { availability, installLanguage, listen, align, useReadAloud, type Availability, type Listening, type Rivals, type Recording } from '@/services/readAloud';
+import { availability, installLanguage, listen, align, confirm, useReadAloud, type Availability, type Listening, type Rivals, type Recording } from '@/services/readAloud';
 import { wordSpans, playSpan, type Span } from '@/services/listenBack';
 
 const TEST_SECONDS = 60;
 /** Faster than this is not reading aloud (fluent adults read about 150–180 words a minute aloud) */
 const MAX_PLAUSIBLE_WCPM = 200;
-type Phase = 'setup' | 'ready' | 'reading' | 'mark' | 'done';
+type Phase = 'setup' | 'ready' | 'reading' | 'checking' | 'mark' | 'done';
 
 /** Small line chart of words-correct-per-minute over time */
 export function FluencyChart({ results }: { results: FluencyResult[] }) {
@@ -133,7 +133,15 @@ export default function Fluency() {
       if (session?.finish) { await session.finish(); text = heardRef.current; } else session?.stop();
       const rec = session?.recording?.() ?? null;
       recRef.current = rec;
-      const { states, position, from } = align(words, text, rivals);
+      const first = align(words, text, rivals);
+      const { position, from } = first;
+      let states = first.states;
+      // a second, closer listen to the recording catches close made-up words the first one let through
+      if (rec && session?.secondListen && position > 0) {
+        setPhase('checking');
+        const second = await session.secondListen(rec).catch(() => null);
+        if (second !== null) states = confirm(words, states, second);
+      }
       setSpans(rec ? wordSpans(rec, from) : []);
       const missed = new Set<number>(); const doubt = new Set<number>();
       states.forEach((st, i) => { if (i >= position) return; if (st === 'missed') missed.add(i); else if (st === 'doubt') doubt.add(i); });
@@ -297,6 +305,13 @@ export default function Fluency() {
                 {micMode && <button onClick={() => setAdultChoice(true)} className="text-xs font-bold text-fg-muted underline underline-offset-4">👂 {t('flu_choose_adult')}</button>}
                 <Button fullWidth onClick={start} disabled={needsDownload}>▶ {t('flu_start')}</Button>
                 <button onClick={pick} className="text-xs font-bold text-accent">{t('flu_other_text')}</button>
+              </Card>
+            )}
+
+            {phase === 'checking' && (
+              <Card className="text-center space-y-2" role="status" aria-live="polite">
+                <p className="text-2xl animate-pulse" aria-hidden>🔎</p>
+                <p className="text-sm font-bold">{t('flu_checking')}</p>
               </Card>
             )}
 

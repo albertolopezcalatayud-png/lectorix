@@ -10,7 +10,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { Capacitor, registerPlugin, type PluginListenerHandle } from '@capacitor/core';
-import { voskState, voskInstall, voskListen, voskReady, clean, type Recording } from './voskEngine';
+import { voskState, voskInstall, voskListen, voskSecondListen, voskReady, clean, type Recording } from './voskEngine';
 export type { Recording };
 import { rivalsFor, type Rivals } from './rivals';
 export type { Rivals };
@@ -111,7 +111,27 @@ export async function installLanguage(lang: string): Promise<boolean> {
 }
 
 /** `rivals`: close words the recogniser was also listening for (only Lectorix's own recogniser); pass them to align() */
-export interface Listening { stop: () => void; rivals?: Rivals; finish?: () => Promise<void>; recording?: () => Recording | null }
+export interface Listening {
+  stop: () => void; rivals?: Rivals; finish?: () => Promise<void>; recording?: () => Recording | null;
+  /** Second listen to the recording, with no list of words (see confirm()) */
+  secondListen?: (rec: Recording) => Promise<string | null>;
+}
+
+/**
+ * Languages where the second listen is used. Measured with synthetic readings (scripts/asr/eval3.py):
+ * in Spanish it lets through far fewer close made-up words (1 letter: 87% -> 67%; 2 letters: 62% -> 36%)
+ * at no cost for correct readings (93.8% -> 93.7%). In Valencian and English it still costs too many
+ * correct words (89 -> 80% and 93 -> 86%), so it stays off there for now.
+ */
+export const SECOND_LISTEN = new Set(['es']);
+
+/**
+ * Words the first listen took as read but the second listen did not hear as that word become doubtful.
+ */
+export function confirm(textWords: string[], states: WordState[], second: string): WordState[] {
+  const again = align(textWords, second).states;
+  return states.map((st, i) => (st === 'read' && again[i] !== 'read' && !/\d/.test(norm(textWords[i])) ? 'doubt' : st));
+}
 
 /**
  * Listens until stop() is called. onText receives the whole transcript so far (finished parts + the
@@ -122,7 +142,7 @@ export async function listen(lang: string, onText: (text: string) => void, onErr
   if (await own(lang)) {
     const rivals = words?.length ? await rivalsFor(lang, [...new Set(words.map(clean).filter(Boolean))]) : undefined;
     const session = await voskListen(lang, onText, onError, words, rivals ? [...new Set([...rivals.values()].flatMap((r) => [...r]))] : undefined, capture);
-    return { ...session, rivals };
+    return { ...session, rivals, secondListen: SECOND_LISTEN.has(lang) ? (rec) => voskSecondListen(lang, rec) : undefined };
   }
   const tag = SPEECH_TAG[lang] ?? lang;
   let done = '';

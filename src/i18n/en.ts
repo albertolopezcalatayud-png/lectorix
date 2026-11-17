@@ -1284,4 +1284,7 @@ export const en: Record<TranslationKey, string> = {
   flu_listen_help: 'Tap a word to hear how it was read. If it is wrong, go to “Errors” and mark it.',
   flu_listen_doubtful: 'Listen to the doubtful ones ({n})',
   flu_listen_privacy: 'The audio is only in memory while this test is on screen: it is not saved or sent.',
+
+  // Fluency: second listen
+  flu_checking: 'Checking the reading word by word…',
 };

@@ -147,3 +147,36 @@ export async function voskListen(
     },
   };
 }
+
+/**
+ * Second listen, after the test, to the reading kept in memory: this time with no list of words, so the
+ * recogniser writes what it really heard. A made-up word close to the text ("geto" for "gato") is often
+ * taken for the word of the text by the first listen (which only knows the text), but much less often by
+ * this one. Returns the transcript, or null if it could not finish in time (the first listen then stands).
+ */
+export async function voskSecondListen(lang: string, rec: Recording, maxMs?: number): Promise<string | null> {
+  if (!isLang(lang) || !rec.samples.length) return null;
+  let m: VoskModel;
+  try { m = await model(lang); } catch { return null; }
+  const secs = rec.samples.length / rec.rate;
+  const limit = maxMs ?? Math.max(8000, secs * 1500);
+  const free = new m.KaldiRecognizer(rec.rate);
+  const parts: string[] = [];
+  free.on('result', (msg) => {
+    const t = ((msg as { result: { text?: string } }).result.text ?? '').replace(/\[unk\]/g, ' ').trim();
+    if (t) parts.push(t);
+  });
+  const step = Math.round(rec.rate / 2);
+  for (let i = 0; i < rec.samples.length; i += step) free.acceptWaveformFloat(rec.samples.slice(i, i + step), rec.rate);
+  free.retrieveFinalResult();
+  // The model's worker answers in order: when this second, empty recogniser answers, the first one has
+  // already given its last words.
+  const probe = new m.KaldiRecognizer(rec.rate, '["[unk]"]');
+  const finished = await new Promise<boolean>((res) => {
+    const timer = setTimeout(() => res(false), limit);
+    probe.on('result', () => { clearTimeout(timer); res(true); });
+    probe.retrieveFinalResult();
+  });
+  try { free.remove(); probe.remove(); } catch { /* ignore */ }
+  return finished ? parts.join(' ').replace(/\s+/g, ' ').trim() : null;
+}
