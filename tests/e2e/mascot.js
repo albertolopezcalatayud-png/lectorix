@@ -14,7 +14,7 @@ const BGS = ['bosque', 'playa', 'espacio', 'castillo', 'arcoiris'];
     await p.evaluate((m) => (localStorage.setItem('lectorix-mode', 'solo'), localStorage).setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: 'es', progress: [], sessionHistory: [], mascot: m }, version: 0 })), m);
     await p.goto('http://localhost:4173/lectorix/#/mascota'); await p.reload(); await p.waitForTimeout(700);
     return p.evaluate(() => {
-      const svg = document.querySelector('svg[viewBox="-4 -8 128 128"]');
+      const svg = [...document.querySelectorAll('svg[viewBox="-4 -8 128 128"]')].find((s) => s.getBoundingClientRect().width > 0); // the side menu's avatar is hidden on phones
       const box = (sel) => { const e = svg.querySelector(sel); if (!e) return null; const r = e.getBoundingClientRect(); return { x: r.x, y: r.y, w: r.width, h: r.height, b: r.y + r.height, cx: r.x + r.width / 2, cy: r.y + r.height / 2 }; };
       const wrap = svg.parentElement;
       const emoji = [...wrap.querySelectorAll('span')].map((s) => s.textContent).join('');
