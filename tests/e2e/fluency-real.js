@@ -51,8 +51,11 @@ async function run(wav, seconds, n) {
   ok(/El dispositivo escuchará la lectura/.test(await p.innerText('body')), 'microphone check on, with no button to find');
   await p.getByRole('button', { name: /Empezar/ }).click();
   await p.waitForTimeout(seconds * 1000 + 1500);
-  await p.getByRole('button', { name: 'He terminado el texto' }).click();
+  const fin = p.getByRole('button', { name: 'He terminado el texto' });
+  if (await fin.count()) await fin.click(); // the test may already have ended on its own
   await p.waitForTimeout(3000);
+  const body = await p.innerText('body');
+  console.log('page:', body.replace(/\s+/g, ' ').slice(0, 400));
   const info = await p.evaluate(() => {
     const spans = [...document.querySelectorAll('.reading-text > span > span')];
     const last = spans.findIndex((s) => s.className.includes('ring-2'));
@@ -73,7 +76,7 @@ async function run(wav, seconds, n) {
   const swaps = [];
   const swapped = words.slice(0, n).map((w, i) => {
     const c = w.toLowerCase().replace(/[^a-záéíóúüñ]/g, '');
-    if (swaps.length < 3 && i % 6 === 3 && c.length >= 5) { const x = c.slice(0, 1) + (c[1] === 'a' ? 'e' : 'a') + c.slice(2); swaps.push([c, x]); return x; }
+    if (swaps.length < 3 && i >= 3 && i % 5 === 3 && c.length >= 4) { const x = c.slice(0, 1) + (c[1] === 'a' ? 'e' : 'a') + c.slice(2); swaps.push([c, x]); return x; }
     return w;
   }).join(' ');
   console.log('text:', read.slice(0, 120), '…'); console.log('swaps:', JSON.stringify(swaps));
