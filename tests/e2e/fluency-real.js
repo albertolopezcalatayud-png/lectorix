@@ -72,13 +72,14 @@ async function run(wav, seconds, n) {
     return { last, doubt: spans.filter((s) => s.className.includes('decoration-dotted')).length, struck: spans.filter((s) => s.className.includes('line-through')).length,
       review: spans.map((s, i) => (s.className.includes('decoration-dotted') && !s.className.includes('line-through') ? i + ':' + s.textContent.trim() : '')).filter(Boolean),
       marked: spans.map((s, i) => (s.className.includes('line-through') ? (s.className.includes('decoration-dotted') ? '?' : 'x') + i + ':' + s.textContent.trim() : '')).filter(Boolean),
-      heard: window.__lxHeard, second: window.__lxSecond };
+      heard: window.__lxHeard, second: window.__lxSecond, spans: window.__lxSpans };
   });
   const tabs = await p.getByRole('button', { name: L.listen }).count();
   await p.getByRole('button', { name: L.listen }).click().catch(() => {});
   const idx = await p.evaluate(() => [...document.querySelectorAll('.reading-text > span > span')].findIndex((s, i) => i >= 2 && !s.className.includes('line-through') && !s.className.includes('decoration-dotted')));
   await p.locator('.reading-text > span > span').nth(Math.max(2, idx)).click(); await p.waitForTimeout(1500);
   const played = await p.evaluate(() => window.__played);
+  console.log('clicked word', idx, 'played', played);
   await b.close();
   return { ...info, tabs, played, errors, n };
 }

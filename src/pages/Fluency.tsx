@@ -156,7 +156,9 @@ export default function Fluency() {
         (window as unknown as { __lxCheckMs?: number }).__lxCheckMs = Date.now() - checkStart.current;
         if (second !== null) { const c = confirm(words, states, second, SECOND_MODE[lang] ?? 'review', lang, rivalHeard(text, from, rivals)); states = c.states; review = c.review; }
       }
-      setSpans(rec ? wordSpans(rec, from) : []);
+      const sp = rec ? wordSpans(rec, from) : [];
+      setSpans(sp);
+      (window as unknown as { __lxSpans?: string }).__lxSpans = `${sp.filter(Boolean).length}/${sp.length} timed ${rec?.words.length ?? 0}`;
       const missed = new Set<number>(); const doubt = new Set<number>();
       states.forEach((st, i) => { if (i >= position) return; if (st === 'missed') missed.add(i); else if (st === 'doubt') doubt.add(i); });
       setMicLimit(position - 1);
