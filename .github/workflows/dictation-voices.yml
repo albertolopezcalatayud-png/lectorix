@@ -1,0 +1,26 @@
+name: Dictation voice samples
+
+# A listening page (artifact) to choose the Spanish dictation voice: scripts/audio/dictation_samples.py
+on:
+  workflow_dispatch:
+
+jobs:
+  samples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Voices
+        run: |
+          pip install -q piper-tts lameenc numpy
+          mkdir -p /tmp/voices
+          HF=https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0
+          for p in es/es_ES/davefx/medium/es_ES-davefx-medium es/es_ES/sharvard/medium/es_ES-sharvard-medium es/es_ES/carlfm/x_low/es_ES-carlfm-x_low es/es_ES/mls_9972/low/es_ES-mls_9972-low es/es_ES/mls_10246/low/es_ES-mls_10246-low es/es_MX/claude/high/es_MX-claude-high es/es_MX/ald/medium/es_MX-ald-medium; do
+            for e in .onnx .onnx.json; do curl -sfL "$HF/$p$e" -o "/tmp/voices/$(basename $p)$e" || echo "missing $p$e"; done
+          done
+      - name: Page
+        run: python scripts/audio/dictation_samples.py /tmp/voices /tmp/Lectorix-voces-dictado.html
+      - uses: actions/upload-artifact@v4
+        with: { name: dictation-voices, path: /tmp/Lectorix-voces-dictado.html }
