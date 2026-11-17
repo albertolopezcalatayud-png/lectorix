@@ -1269,4 +1269,13 @@ export const en: Record<TranslationKey, string> = {
 
   // Side navigation
   nav_main: 'Main menu',
+
+  // Fluency: microphone check by default
+  flu_mic_needed: 'For the app to check the reading, download the microphone checker. It is only needed once and everything stays on the device.',
+  flu_choose_adult: 'I would rather an adult listens and marks it',
+  flu_choose_mic: 'Let the microphone check it instead',
+  flu_adult_chosen: 'An adult marks it: they must listen to the whole reading and, at the end, mark every word that was misread or made up. The app will not check anything.',
+  flu_adult_unmarked: 'Words that are not marked will count as read correctly.',
+  flu_checked_mic: 'Checked by the microphone',
+  flu_checked_adult: 'Marked by an adult (not checked by the app)',
 };

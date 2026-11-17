@@ -209,7 +209,9 @@ export type WordState = 'pending' | 'read' | 'missed' | 'doubt';
 /**
  * Walks through the text following what was heard. A heard word moves the position forward when it
  * matches one of the next few words of the text; text words jumped over are marked as missed.
- * With `rivals` (Lectorix's own recogniser), a rival heard where its word was expected marks that word
+ * Only an exact match counts as read. Something close but different ("gatos" or "gado" for "gato", which
+ * some recognisers write) marks the word as doubtful: it is never accepted silently.
+ * With `rivals` (Lectorix's own recogniser), a rival heard where its word was expected also marks that word
  * as doubtful, and rivals never count as the word itself.
  */
 export function align(textWords: string[], heard: string, rivals?: Rivals): { states: WordState[]; position: number } {
@@ -235,7 +237,8 @@ export function align(textWords: string[], heard: string, rivals?: Rivals): { st
     }
     const end = Math.min(target.length, pos + 4);
     let at = -1; let state: WordState = 'read';
-    for (let k = pos; k < end && at < 0; k++) if (target[k] && isWord(target[k], h)) at = k;
+    for (let k = pos; k < end && at < 0; k++) if (target[k] && target[k] === h) at = k;
+    if (at < 0) for (let k = pos; k < end && at < 0; k++) if (target[k] && isWord(target[k], h)) { at = k; state = /\d/.test(target[k]) ? 'read' : 'doubt'; }
     if (at < 0 && anyRival.has(h)) {
       for (let k = pos; k < end && at < 0; k++) if (rivalOf.get(target[k])?.has(h)) { at = k; state = 'doubt'; }
     }

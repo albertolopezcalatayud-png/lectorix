@@ -1269,4 +1269,13 @@ export const ca: Record<TranslationKey, string> = {
 
   // Side navigation
   nav_main: 'Menú principal',
+
+  // Fluency: microphone check by default
+  flu_mic_needed: 'Perquè l\'app comprove la lectura, descarrega el comprovador per micròfon. Només cal fer-ho una vegada i tot es queda en el dispositiu.',
+  flu_choose_adult: 'Preferisc que ho corregisca un adult escoltant',
+  flu_choose_mic: 'Millor que ho comprove el micròfon',
+  flu_adult_chosen: 'Ho corregix un adult: ha d\'escoltar tota la lectura i, al final, marcar cada paraula mal llegida o inventada. L\'app no comprovarà res.',
+  flu_adult_unmarked: 'Les paraules que no es marquen comptaran com a ben llegides.',
+  flu_checked_mic: 'Comprovat pel micròfon',
+  flu_checked_adult: 'Corregit per un adult (l\'app no ho ha comprovat)',
 };

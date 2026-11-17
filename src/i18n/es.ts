@@ -1267,6 +1267,15 @@ export const es = {
 
   // Side navigation
   nav_main: 'Menú principal',
+
+  // Fluency: microphone check by default
+  flu_mic_needed: 'Para que la app compruebe la lectura, descarga el comprobador por micrófono. Solo hay que hacerlo una vez y todo se queda en el dispositivo.',
+  flu_choose_adult: 'Prefiero que lo corrija un adulto escuchando',
+  flu_choose_mic: 'Mejor que lo compruebe el micrófono',
+  flu_adult_chosen: 'Lo corrige un adulto: tiene que escuchar toda la lectura y, al final, marcar cada palabra mal leída o inventada. La app no comprobará nada.',
+  flu_adult_unmarked: 'Las palabras que no se marquen contarán como bien leídas.',
+  flu_checked_mic: 'Comprobado por el micrófono',
+  flu_checked_adult: 'Corregido por un adulto (la app no lo ha comprobado)',
 } as const;
 
 export type TranslationKey = keyof typeof es;

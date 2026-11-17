@@ -43,7 +43,10 @@ const fakeRec = () => {
   // 1. Without microphone: the adult must listen; finishing the whole text in a few seconds is rejected
   {
     const p = await open(false);
-    ok(/un adulto tiene que escuchar/.test(await p.innerText('body')), 'without microphone it says an adult must listen');
+    ok(/descarga el comprobador por micrófono/.test(await p.innerText('body')), 'the microphone check is offered first');
+    ok(await p.getByRole('button', { name: /Empezar/ }).isDisabled(), 'it cannot start unchecked without choosing');
+    await p.getByRole('button', { name: /Prefiero que lo corrija un adulto/ }).click(); await p.waitForTimeout(300);
+    ok(/Lo corrige un adulto: tiene que escuchar toda la lectura/.test(await p.innerText('body')), 'adult mode is an explicit choice and says the app checks nothing');
     await p.getByRole('button', { name: /Empezar/ }).click(); await p.waitForTimeout(1500);
     await p.getByRole('button', { name: 'He terminado el texto' }).click(); await p.waitForTimeout(500);
     ok(/el adulto que ha escuchado marca/.test(await p.innerText('body')), 'mark step explains the adult marks');
@@ -84,6 +87,27 @@ const fakeRec = () => {
     await p.getByRole('button', { name: 'Ver el resultado' }).click(); await p.waitForTimeout(800);
     const r = await p.evaluate(() => JSON.parse(localStorage.getItem('lectorix-fluency')).state.results.slice(-1)[0]);
     ok(r && r.wordsRead === 12 && r.errors === 0, `saved 12 words read, 0 errors (${r && r.wordsRead}, ${r && r.errors})`);
+    ok(r && r.checked === 'mic' && /Comprobado por el micrófono/.test(await p.innerText('body')), 'the result says it was checked by the microphone');
+    await p.context().close();
+  }
+  // 4. Microphone: a near word written by the recogniser ("gado" for "gato") is never accepted
+  {
+    const p = await open(true);
+    await p.getByRole('button', { name: /Empezar/ }).click(); await p.waitForTimeout(300);
+    const w = await textWords(p);
+    const clean = (x) => x.toLowerCase().replace(/[^a-záéíóúüñ]/g, '');
+    const idx = w.findIndex((x, i) => i < 10 && clean(x).length >= 5);
+    const word = clean(w[idx]);
+    const near = word.slice(0, 2) + (word[2] === 'r' ? 'l' : 'r') + word.slice(3);
+    const spoken = w.slice(0, 12).map((x, i) => (i === idx ? near : x)).join(' ');
+    await p.evaluate((s) => { window.__script = s; }, spoken);
+    await p.waitForTimeout(5000);
+    await p.getByRole('button', { name: 'He terminado el texto' }).click(); await p.waitForTimeout(500);
+    const cls = await p.evaluate((i) => document.querySelectorAll('.reading-text > span > span')[i].className, idx);
+    ok(/decoration-dotted/.test(cls) && /line-through/.test(cls), `"${near}" heard for "${word}": marked doubtful and counted as an error`);
+    await p.getByRole('button', { name: 'Ver el resultado' }).click(); await p.waitForTimeout(800);
+    const r = await p.evaluate(() => JSON.parse(localStorage.getItem('lectorix-fluency')).state.results.slice(-1)[0]);
+    ok(r && r.errors === 1 && r.wordsRead === 12, `saved with 1 error (${r && r.errors})`);
     await p.context().close();
   }
   console.log('ERRORS', fails, errors); await b.close();

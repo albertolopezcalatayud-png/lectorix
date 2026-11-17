@@ -65,10 +65,16 @@ export default function Fluency() {
 
   // When the family has turned on «read aloud» and the device can recognise speech offline, the device
   // listens during the minute: only words it actually hears count, so made-up words are not counted as read.
-  const raEnabled = useReadAloud((s) => s.enabled);
+  // The microphone check is the default wherever the device can do it (before, it had to be turned on in
+  // Settings, and without it nothing was checked unless an adult marked the errors). An adult can still choose
+  // to listen and mark the errors instead.
+  const setRaEnabled = useReadAloud((s) => s.setEnabled);
   const [avail, setAvail] = useState<Availability | 'unchecked' | null>(null);
   useEffect(() => { let off = false; void availability(lang).then((a) => { if (!off) setAvail(a); }); return () => { off = true; }; }, [lang]);
-  const micMode = raEnabled && avail === 'available';
+  const [adultChoice, setAdultChoice] = useState(false);
+  const canMic = avail === 'available' || avail === 'downloadable' || avail === 'downloading' || avail === 'unchecked';
+  const micMode = avail === 'available' && !adultChoice;
+  const needsDownload = !adultChoice && (avail === 'downloadable' || avail === 'downloading' || avail === 'unchecked');
   const [heard, setHeard] = useState('');
   const [micLimit, setMicLimit] = useState(-1);   // last word the device heard
   const [micMissed, setMicMissed] = useState<Set<number>>(new Set());
@@ -166,7 +172,7 @@ export default function Fluency() {
     const correct = lastWord + 1 - errors.size;
     if (elapsed > 0 && (correct * 60) / elapsed > MAX_PLAUSIBLE_WCPM) { setTooFast(true); return; }
     setPrevBefore(mine.length ? mine[mine.length - 1] : null);
-    const r = add({ lang, level, readingId: reading.id, wordsRead: lastWord + 1, errors: errors.size, seconds: elapsed });
+    const r = add({ lang, level, readingId: reading.id, wordsRead: lastWord + 1, errors: errors.size, seconds: elapsed, checked: micMode ? 'mic' : 'adult' });
     setResult(r);
     setXp(awardActivityXP('fluency', 20, 2));
     setPhase('done');
@@ -234,15 +240,26 @@ export default function Fluency() {
             {phase === 'ready' && (
               <Card className="text-center space-y-3">
                 <p className="text-sm">{t('flu_ready')}</p>
-                <p className="text-xs text-fg-muted">{micMode ? `🎤 ${t('flu_mic_on')}` : `👂 ${t('flu_adult_listen')}`}</p>
+                {micMode && <p className="text-xs text-fg-muted">🎤 {t('flu_mic_on')}</p>}
                 {micError && <p className="text-xs text-red font-bold">{t('ra_err')}</p>}
-                {raEnabled && (avail === 'downloadable' || avail === 'downloading') && (
-                  <Button fullWidth variant="secondary" disabled={avail === 'downloading'}
-                    onClick={() => { setAvail('downloading'); void installLanguage(lang).then(() => availability(lang, true)).then(setAvail); }}>
-                    {avail === 'downloading' ? `⏳ ${t('flu_mic_downloading')}` : `🎤 ${t('flu_mic_download')}`}
-                  </Button>
+                {needsDownload && (
+                  <div className="rounded-xl bg-accent-pale/60 p-3 space-y-2 text-left">
+                    <p className="text-sm font-bold">🎤 {t('flu_mic_needed')}</p>
+                    <Button fullWidth disabled={avail === 'downloading'}
+                      onClick={() => { setRaEnabled(true); setAvail('downloading'); void installLanguage(lang).then(() => availability(lang, true)).then(setAvail); }}>
+                      {avail === 'downloading' ? `⏳ ${t('flu_mic_downloading')}` : `🎤 ${t('flu_mic_download')}`}
+                    </Button>
+                    <button onClick={() => setAdultChoice(true)} className="block mx-auto text-xs font-bold text-accent underline underline-offset-4">👂 {t('flu_choose_adult')}</button>
+                  </div>
                 )}
-                <Button fullWidth onClick={start}>▶ {t('flu_start')}</Button>
+                {!micMode && !needsDownload && (
+                  <div className="rounded-xl bg-yellow-pale/70 p-3 text-left space-y-2">
+                    <p className="text-sm font-bold">👂 {t(canMic ? 'flu_adult_chosen' : 'flu_adult_listen')}</p>
+                    {canMic && <button onClick={() => setAdultChoice(false)} className="text-xs font-bold text-accent underline underline-offset-4">🎤 {t('flu_choose_mic')}</button>}
+                  </div>
+                )}
+                {micMode && <button onClick={() => setAdultChoice(true)} className="text-xs font-bold text-fg-muted underline underline-offset-4">👂 {t('flu_choose_adult')}</button>}
+                <Button fullWidth onClick={start} disabled={needsDownload}>▶ {t('flu_start')}</Button>
                 <button onClick={pick} className="text-xs font-bold text-accent">{t('flu_other_text')}</button>
               </Card>
             )}
@@ -265,7 +282,7 @@ export default function Fluency() {
                       <p className="text-[11px] text-fg-muted">🎤 {t('flu_mic_checked')}</p>
                       {micDoubt.size > 0 && <p className="text-[11px] font-bold"><span className="rounded px-1 bg-yellow-pale underline decoration-dotted">🤔</span> {t('flu_mic_doubt')}</p>}
                     </>
-                  : <p className="text-[11px] font-bold">👂 {t('flu_adult_needed')}</p>}
+                  : <p className="text-[11px] font-bold">👂 {t('flu_adult_needed')} {t('flu_adult_unmarked')}</p>}
               </Card>
             )}
 
@@ -322,6 +339,7 @@ export default function Fluency() {
                   <p className="text-xs text-fg-muted">
                     {t('flu_detail', { words: result.wordsRead, errors: result.errors, s: result.seconds })}
                   </p>
+                  <p className="text-xs font-bold">{result.checked === 'mic' ? `🎤 ${t('flu_checked_mic')}` : `👂 ${t('flu_checked_adult')}`}</p>
                   {prevBefore && (
                     <p className="text-sm">
                       {result.wcpm > prevBefore.wcpm ? t('flu_better', { n: result.wcpm - prevBefore.wcpm }) : result.wcpm === prevBefore.wcpm ? t('flu_same') : t('flu_lower')}

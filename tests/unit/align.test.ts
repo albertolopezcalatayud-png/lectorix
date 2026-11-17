@@ -17,8 +17,10 @@ ok(st('el pato come pescado en la cocina de casa', rivals).split(' ')[1] === 'do
 ok(st('el pato come pescado en la cocina de casa', rivals).split(' ').filter((x) => x === 'read').length === 8, '…and the other eight words read');
 ok(st('el gato come pesado en la cocina de cosa', rivals) === 'read read read doubt read read read read doubt', 'two close words: two doubtful, in their places');
 ok(st('el come pescado', rivals) === 'read missed read read pending pending pending pending pending', 'a skipped word is still missed');
-ok(st('el pato', undefined).split(' ')[1] === 'read', 'without rivals (other recognisers) nothing changes: the one-letter tolerance stays');
-ok(st('el gatos come', undefined).split(' ')[1] === 'read', 'without rivals, long words keep the one-letter tolerance');
+ok(st('el pato', undefined).split(' ')[1] === 'doubt', 'without rivals (other recognisers): a close word is doubtful, never read');
+ok(st('el gatos come', undefined).split(' ')[1] === 'doubt', 'without rivals, a near spelling is doubtful too');
+ok(st('el gado come pescado', rivals).split(' ')[1] === 'doubt', 'a made-up near word written by the recogniser ("gado") is doubtful');
+ok(st('el gato come', undefined).split(' ').slice(0, 3).join(' ') === 'read read read', 'exact words are read');
 ok(st('el gata come', rivals).split(' ')[1] === 'doubt', 'with rivals, a rival is never taken for the word');
 ok(align(text, 'el pato come', rivals).position === 3, 'a doubtful word moves the position on');
 // accents: «esta» heard for «está» is the same word for the check, so it cannot be a rival

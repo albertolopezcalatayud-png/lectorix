@@ -13,6 +13,8 @@ export interface FluencyResult {
   errors: number;
   seconds: number;
   wcpm: number;        // words correct per minute
+  /** How the errors were found: by the microphone, or by an adult listening (older results: unknown) */
+  checked?: 'mic' | 'adult';
 }
 
 interface FluencyState {
