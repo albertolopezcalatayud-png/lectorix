@@ -96,7 +96,9 @@ const fakeRec = () => {
     await p.getByRole('button', { name: /Empezar/ }).click(); await p.waitForTimeout(300);
     const w = await textWords(p);
     const clean = (x) => x.toLowerCase().replace(/[^a-záéíóúüñ]/g, '');
-    const idx = w.findIndex((x, i) => i < 10 && clean(x).length >= 5);
+    // the text is picked at random: take a long word among the first 12, or a shorter one if there is none
+    let idx = w.findIndex((x, i) => i < 12 && clean(x).length >= 5);
+    if (idx < 0) idx = w.findIndex((x, i) => i < 12 && clean(x).length >= 3);
     const word = clean(w[idx]);
     const near = word.slice(0, 2) + (word[2] === 'r' ? 'l' : 'r') + word.slice(3);
     const spoken = w.slice(0, 12).map((x, i) => (i === idx ? near : x)).join(' ');

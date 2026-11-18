@@ -1,8 +1,18 @@
 // Natural-voice clips: when the app has a clip for the exact text, it plays it (not the device voice),
 // highlights words with the clip's timings, and falls back to the device voice for texts without a clip.
-// Needs test clips in dist/audio (see scripts/audio; the test run creates tone clips for one reading).
+// Uses test clips in dist/audio: if there are none, it makes tone clips for one reading (tests/e2e/mockclips.py, needs ffmpeg).
 const { chromium } = require('playwright');
 const BASE = 'http://localhost:4173/lectorix/';
+// Test clips: made here (tones with even timings) if the build has none yet
+{
+  const fs = require('fs'); const { execSync } = require('child_process');
+  const REPO = '/home/claude/lectorix', OUT = REPO + '/dist/audio';
+  if (!fs.existsSync(OUT + '/es/mock/manifest.json')) {
+    const texts = require('os').tmpdir() + '/lectorix-audio-texts.json';
+    execSync(`npx tsx --tsconfig tsconfig.app.json scripts/audio/collect.ts > ${texts}`, { cwd: REPO, stdio: ['ignore', 'ignore', 'inherit'] });
+    execSync(`python3 tests/e2e/mockclips.py ${texts} ${OUT}`, { cwd: REPO, stdio: 'inherit' });
+  }
+}
 (async () => {
   const b = await chromium.launch({ args: ['--autoplay-policy=no-user-gesture-required'] }); let fails = 0; const errors = [];
   const ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); if (!c) fails++; };
