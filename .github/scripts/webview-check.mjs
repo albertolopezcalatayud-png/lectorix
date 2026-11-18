@@ -155,6 +155,8 @@ execSync('adb shell svc wifi disable; adb shell svc data disable; true'); await 
 await ev(`(() => { const s = JSON.parse(localStorage.getItem('lectorix-store')); s.state.language = 'en'; localStorage.setItem('lectorix-store', JSON.stringify(s)); performance.clearResourceTimings(); location.hash = '#/dictado'; location.reload(); return true; })()`);
 await sleep(5000);
 results.dictationOffline = await ev(`(async () => {
+  for (let i = 0; i < 40 && !/Lift-off/.test(document.body.innerText); i++) await new Promise((r) => setTimeout(r, 1000));
+  if (!/Lift-off/.test(document.body.innerText)) return 'page did not load offline: ' + document.body.innerText.slice(0, 80);
   const start = [...document.querySelectorAll('button, a, div')].find((e) => /^\s*1\s*Lift-off/.test(e.innerText || '') && e.querySelector) || [...document.querySelectorAll('*')].find((e) => e.childElementCount === 0 && /Lift-off/.test(e.textContent));
   start && start.click(); await new Promise((r) => setTimeout(r, 3000));
   const slow = [...document.querySelectorAll('button')].find((b) => /Slower/.test(b.innerText)); slow && slow.click();
