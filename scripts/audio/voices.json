@@ -9,7 +9,7 @@
     {"id": "mx-pau", "name": "Pau", "engine": "matxa", "speaker": 39, "espeak": "ca-va", "license": "GPL-3.0 / CC BY-SA", "credit": "Veu «pau» de Matxa multilocutor (Projecte AINA, Barcelona Supercomputing Center), GPL-3.0; dades: corpus FestCat de la Universitat Politècnica de Catalunya (CC BY-SA 3.0 ES) i OpenSLR 69 de Google (CC BY-SA 4.0); pronunciació valenciana amb eSpeak NG"}
   ],
   "en": [
-    { "id": "cori", "name": "Cori", "model": "en/en_GB/cori/high/en_GB-cori-high", "speaker": null, "license": "Public domain", "credit": "Voice «cori» from Piper (rhasspy/piper-voices), LibriVox recordings, public domain" },
-    { "id": "northern", "name": "Northern English", "model": "en/en_GB/northern_english_male/medium/en_GB-northern_english_male-medium", "speaker": null, "license": "CC BY-SA 4.0", "credit": "Voice «northern_english_male» from Piper (rhasspy/piper-voices), CC BY-SA 4.0" }
+    { "id": "kk-lewis", "name": "Lewis", "engine": "kokoro", "speaker": "bm_lewis", "license": "Apache 2.0", "credit": "Kokoro-82M (hexgrad), Apache 2.0; voice «bm_lewis»" },
+    { "id": "kk-isabella", "name": "Isabella", "engine": "kokoro", "speaker": "bf_isabella", "license": "Apache 2.0", "credit": "Kokoro-82M (hexgrad), Apache 2.0; voice «bf_isabella»" }
   ]
 }

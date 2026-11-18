@@ -157,7 +157,7 @@ export type DictationPace = 'slow' | 'slower';
  * Mar and Pau), so the children get used to more than one voice. The same text always gets the same voice (repeating it does
  * not change the voice). Other languages use the family's chosen voice.
  */
-const DICTATION_VOICES: Partial<Record<Lang, string[]>> = { es: ['davefx', 'sharvard'], ca: ['mx-pol', 'mx-mar', 'mx-pau'] };
+const DICTATION_VOICES: Partial<Record<Lang, string[]>> = { es: ['davefx', 'sharvard'], ca: ['mx-pol', 'mx-mar', 'mx-pau'], en: ['kk-lewis', 'kk-isabella'] };
 const slowManifests = new Map<string, Promise<Set<string>>>();
 function slowManifest(lang: Lang, voice: string, pace: DictationPace): Promise<Set<string>> {
   const k = `${lang}/${voice}/${pace}`;
