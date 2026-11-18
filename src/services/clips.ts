@@ -153,11 +153,11 @@ export async function playClip(
 // text slowly ('slow' for the normal button, 'slower' for 🐢), played as it is.
 export type DictationPace = 'slow' | 'slower';
 /**
- * Spanish dictation alternates between the two voices the teachers chose (Davefx and Sharvard), so the
- * children get used to more than one voice. The same text always gets the same voice (repeating it does
+ * Dictation alternates between the voices the teachers chose (Spanish: Davefx and Sharvard; Valencian: Pol,
+ * Mar and Pau), so the children get used to more than one voice. The same text always gets the same voice (repeating it does
  * not change the voice). Other languages use the family's chosen voice.
  */
-const DICTATION_VOICES: Partial<Record<Lang, string[]>> = { es: ['davefx', 'sharvard'] };
+const DICTATION_VOICES: Partial<Record<Lang, string[]>> = { es: ['davefx', 'sharvard'], ca: ['mx-pol', 'mx-mar', 'mx-pau'] };
 const slowManifests = new Map<string, Promise<Set<string>>>();
 function slowManifest(lang: Lang, voice: string, pace: DictationPace): Promise<Set<string>> {
   const k = `${lang}/${voice}/${pace}`;

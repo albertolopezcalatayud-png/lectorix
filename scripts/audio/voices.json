@@ -4,8 +4,9 @@
     { "id": "sharvard", "name": "Sharvard", "model": "es/es_ES/sharvard/medium/es_ES-sharvard-medium", "speaker": 0, "license": "CC BY 3.0", "credit": "Voz «sharvard» de Piper (rhasspy/piper-voices), corpus Sharvard, CC BY 3.0" }
   ],
   "ca": [
-    { "id": "ona", "name": "Ona", "model": "ca/ca_ES/upc_ona/medium/ca_ES-upc_ona-medium", "speaker": null, "license": "CC BY-SA 3.0 ES", "credit": "Veu «upc_ona» de Piper (rhasspy/piper-voices), corpus Festcat de la Universitat Politècnica de Catalunya, CC BY-SA 3.0 ES" },
-    { "id": "pau", "name": "Pau", "model": "ca/ca_ES/upc_pau/x_low/ca_ES-upc_pau-x_low", "speaker": null, "license": "CC BY-SA 3.0 ES", "credit": "Veu «upc_pau» de Piper (rhasspy/piper-voices), corpus Festcat de la Universitat Politècnica de Catalunya, CC BY-SA 3.0 ES" }
+    {"id": "mx-pol", "name": "Pol", "engine": "matxa", "speaker": 6, "espeak": "ca-va", "license": "GPL-3.0 / CC BY-SA", "credit": "Veu «pol» de Matxa multilocutor (Projecte AINA, Barcelona Supercomputing Center), GPL-3.0; dades: corpus FestCat de la Universitat Politècnica de Catalunya (CC BY-SA 3.0 ES) i OpenSLR 69 de Google (CC BY-SA 4.0); pronunciació valenciana amb eSpeak NG"},
+    {"id": "mx-mar", "name": "Mar", "engine": "matxa", "speaker": 26, "espeak": "ca-va", "license": "GPL-3.0 / CC BY-SA", "credit": "Veu «mar» de Matxa multilocutor (Projecte AINA, Barcelona Supercomputing Center), GPL-3.0; dades: corpus FestCat de la Universitat Politècnica de Catalunya (CC BY-SA 3.0 ES) i OpenSLR 69 de Google (CC BY-SA 4.0); pronunciació valenciana amb eSpeak NG"},
+    {"id": "mx-pau", "name": "Pau", "engine": "matxa", "speaker": 39, "espeak": "ca-va", "license": "GPL-3.0 / CC BY-SA", "credit": "Veu «pau» de Matxa multilocutor (Projecte AINA, Barcelona Supercomputing Center), GPL-3.0; dades: corpus FestCat de la Universitat Politècnica de Catalunya (CC BY-SA 3.0 ES) i OpenSLR 69 de Google (CC BY-SA 4.0); pronunciació valenciana amb eSpeak NG"}
   ],
   "en": [
     { "id": "cori", "name": "Cori", "model": "en/en_GB/cori/high/en_GB-cori-high", "speaker": null, "license": "Public domain", "credit": "Voice «cori» from Piper (rhasspy/piper-voices), LibriVox recordings, public domain" },

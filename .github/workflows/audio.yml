@@ -32,7 +32,7 @@ jobs:
         with: { python-version: '3.11' }
       - name: Tools and voices
         run: |
-          pip install -q piper-tts onnx lameenc numpy
+          pip install -q piper-tts onnx onnxruntime vosk lameenc numpy
           npm i --no-save --no-audit --no-fund tsx@4 > /dev/null
           mkdir -p /tmp/voices
           python - <<'PY'
@@ -40,11 +40,18 @@ jobs:
           HF = 'https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/'
           for lang, voices in json.load(open('scripts/audio/voices.json')).items():
               for v in voices:
+                  if v.get('engine') == 'matxa': continue
                   for ext in ('.onnx', '.onnx.json'):
                       dst = '/tmp/voices/' + os.path.basename(v['model']) + ext
                       if not os.path.exists(dst): urllib.request.urlretrieve(HF + v['model'] + ext, dst)
                   print('voice', v['id'])
           PY
+          # Matxa multispeaker (Valencian voices) and the Catalan recogniser that times their words
+          if grep -q '"engine": "matxa"' scripts/audio/voices.json; then
+            curl -sfL https://huggingface.co/projecte-aina/matxa-tts-cat-multispeaker/resolve/main/matcha_hifigan_simply.onnx -o /tmp/voices/matxa_hifigan_simply.onnx
+            git fetch -q origin asr-models && mkdir -p /tmp/vosk-ca && git show FETCH_HEAD:ca.tar.gz | tar -xz -C /tmp/vosk-ca
+            echo "VOSK_CA=$(ls -d /tmp/vosk-ca/*/ | head -1)" >> $GITHUB_ENV
+          fi
       - name: Texts
         run: npx tsx --tsconfig tsconfig.app.json scripts/audio/collect.ts > /tmp/texts.json
       - name: Generate
@@ -62,3 +69,8 @@ jobs:
         if: env.changed == '1'
         env: { GH_TOKEN: '${{ github.token }}' }
         run: gh workflow run deploy.yml --ref main
+      - name: Carry on if time ran out
+        if: always()
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          if [ -f /tmp/audio-stop ] && grep -q time /tmp/audio-stop; then echo "time ran out: next run"; gh workflow run audio.yml --ref main; fi
