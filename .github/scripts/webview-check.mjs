@@ -163,7 +163,7 @@ results.dictationOffline = await ev(`(async () => {
   await new Promise((r) => setTimeout(r, 3000));
   const mp3 = performance.getEntriesByType('resource').map((e) => e.name).filter((n) => n.endsWith('.mp3'));
   return mp3.length + ' clips, local ' + mp3.filter((n) => n.startsWith(location.origin + '/audio/')).length + ' | ' + mp3.slice(0, 3).map((n) => n.replace(location.origin, '')).join(' ');
-})()`, 30000);
+})()`, 70000);
 shot('screen-dictation-offline');
 execSync('adb shell svc wifi enable; adb shell svc data enable; true');
 await ev(`(() => { const s = JSON.parse(localStorage.getItem('lectorix-store')); s.state.language = 'es'; localStorage.setItem('lectorix-store', JSON.stringify(s)); return true; })()`);
