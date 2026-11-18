@@ -107,6 +107,19 @@ export default function Profiles({ onExit }: { onExit?: () => void } = {}) {
             );
           })}
         </ul>
+        {(() => {
+          // how often the microphone got it wrong, over all the students (only readings an adult reviewed)
+          const all = list.map((p) => p.summary?.review).filter(Boolean) as NonNullable<NonNullable<typeof list[number]['summary']>['review']>[];
+          if (!all.length) return null;
+          const a = all.reduce((x, r) => ({ readings: x.readings + r.readings, words: x.words + r.words, marked: x.marked + r.marked, unmarked: x.unmarked + r.unmarked, added: x.added + r.added }));
+          return (
+            <Card>
+              <h3 className="font-heading font-extrabold text-sm mb-1">🎯 {t('flu_acc_title')}</h3>
+              <p className="text-xs">{t('flu_acc_text', { n: a.readings, words: a.words, marked: a.marked, unmarked: a.unmarked, added: a.added })}</p>
+              <p className="text-[10px] text-fg-muted mt-2">{t('pf_acc_note')}</p>
+            </Card>
+          );
+        })()}
 
         <Button fullWidth disabled={busy} onClick={() => setForm({ id: null, name: '', avatar: AVATARS[(list.length) % AVATARS.length] })}>➕ {t('pf_add')}</Button>
         <div className="grid grid-cols-2 gap-2">

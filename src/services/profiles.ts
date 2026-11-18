@@ -16,7 +16,11 @@ const DEVICE_KEYS = new Set(['lectorix-voice-prefs', 'lectorix-natural-voice', '
   'lectorix-push-key', 'lectorix-notifications-enabled', 'lectorix-reminder-hour', 'lectorix-readaloud', 'lectorix-errors', 'lectorix-asr', 'lectorix-mode']);
 const isProfileKey = (k: string) => k.startsWith('lectorix-') && k !== REG && !k.startsWith(FALLBACK) && !k.startsWith('lectorix-asr-') && !DEVICE_KEYS.has(k);
 
-export interface ProfileSummary { xp: number; streak: number; last: string | null; wcpm: number | null; sessions: number }
+export interface ProfileSummary {
+  xp: number; streak: number; last: string | null; wcpm: number | null; sessions: number;
+  /** adult reviews of the microphone's marks in fluency (see FluencyResult.review) */
+  review?: { readings: number; words: number; marked: number; unmarked: number; added: number };
+}
 export interface Profile { id: string; name: string; avatar: string; created: string; summary?: ProfileSummary }
 interface Registry { v: 1; active: string; pin?: { salt: string; hash: string }; list: Profile[] }
 export type Data = Record<string, string>;
@@ -65,8 +69,11 @@ export function summarise(data: Data): ProfileSummary {
     out.xp = st?.user?.total_xp ?? 0; out.streak = st?.user?.streak_days ?? 0; out.last = st?.user?.last_session ?? null; out.sessions = st?.sessionHistory?.length ?? 0;
   } catch { /* unreadable: empty summary */ }
   try {
-    const fl = (JSON.parse(data['lectorix-fluency'] || '{}') as { state?: { results?: { wcpm?: number; date?: string }[] } }).state?.results;
+    type R = { wcpm?: number; date?: string; review?: { words: number; marked: number; unmarked: number; added: number } };
+    const fl = (JSON.parse(data['lectorix-fluency'] || '{}') as { state?: { results?: R[] } }).state?.results;
     if (fl?.length) out.wcpm = [...fl].sort((a, b) => String(a.date).localeCompare(String(b.date))).pop()?.wcpm ?? null;
+    const rv = (fl ?? []).filter((r) => r.review);
+    if (rv.length) out.review = rv.reduce((a, r) => ({ readings: a.readings + 1, words: a.words + r.review!.words, marked: a.marked + r.review!.marked, unmarked: a.unmarked + r.review!.unmarked, added: a.added + r.review!.added }), { readings: 0, words: 0, marked: 0, unmarked: 0, added: 0 });
   } catch { /* ignore */ }
   return out;
 }

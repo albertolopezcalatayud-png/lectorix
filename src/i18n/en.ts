@@ -1293,4 +1293,12 @@ export const en: Record<TranslationKey, string> = {
 
   // Fluency: skip second listen
   flu_checking_skip: 'See the result without this check',
+
+  // Fluency: checker accuracy
+  flu_acc_title: 'How accurate is the microphone?',
+  flu_acc_text: 'In {n} readings checked by an adult ({words} words), the microphone marked {marked} mistakes. The adult removed {unmarked} (they were read well) and added {added} the microphone missed.',
+  flu_acc_note: 'Only readings where an adult tapped or listened to words count. No audio is kept.',
+
+  // Profiles: checker accuracy
+  pf_acc_note: 'All the students on this device, in the fluency test. Only readings where an adult tapped or listened to words count. No audio is kept.',
 };

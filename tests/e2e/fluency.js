@@ -110,6 +110,31 @@ const fakeRec = () => {
     await p.getByRole('button', { name: 'Ver el resultado' }).click(); await p.waitForTimeout(800);
     const r = await p.evaluate(() => JSON.parse(localStorage.getItem('lectorix-fluency')).state.results.slice(-1)[0]);
     ok(r && r.errors === 1 && r.wordsRead === 12, `saved with 1 error (${r && r.errors})`);
+    ok(r && !r.review, 'no adult review counted when nobody touched the marks');
+    await p.context().close();
+  }
+  // 5. The adult reviews the microphone's marks: what changes is counted, no audio kept
+  {
+    const p = await open(true);
+    await p.getByRole('button', { name: /Empezar/ }).click(); await p.waitForTimeout(300);
+    const w = await textWords(p);
+    const clean = (x) => x.toLowerCase().replace(/[^a-záéíóúüñ]/g, '');
+    let idx = w.findIndex((x, i) => i < 12 && clean(x).length >= 5);
+    if (idx < 0) idx = w.findIndex((x, i) => i < 12 && clean(x).length >= 3);
+    const word = clean(w[idx]);
+    const near = word.slice(0, 2) + (word[2] === 'r' ? 'l' : 'r') + word.slice(3);
+    await p.evaluate((s) => { window.__script = s; }, w.slice(0, 12).map((x, i) => (i === idx ? near : x)).join(' '));
+    await p.waitForTimeout(5000);
+    await p.getByRole('button', { name: 'He terminado el texto' }).click(); await p.waitForTimeout(500);
+    await p.getByRole('button', { name: /Errores/ }).first().click(); await p.waitForTimeout(200);
+    await p.locator('.reading-text > span > span').nth(idx).click();          // the adult heard it well: unmarked
+    const other = idx === 0 ? 1 : 0;
+    await p.locator('.reading-text > span > span').nth(other).click();        // and marks one the mic did not
+    await p.getByRole('button', { name: 'Ver el resultado' }).click(); await p.waitForTimeout(800);
+    const r = await p.evaluate(() => JSON.parse(localStorage.getItem('lectorix-fluency')).state.results.slice(-1)[0]);
+    ok(r && r.review && r.review.marked === 1 && r.review.unmarked === 1 && r.review.added === 1 && r.review.words === 12, `the adult's review is counted (${JSON.stringify(r && r.review)})`);
+    await p.goto(BASE + '#/fluidez'); await p.reload(); await p.waitForTimeout(800);
+    ok(/¿Cuánto acierta el micrófono\?/.test(await p.innerText('body')) && /El adulto quitó 1/.test(await p.innerText('body')), 'accuracy shown on the fluency page');
     await p.context().close();
   }
   console.log('ERRORS', fails, errors); await b.close();

@@ -1291,6 +1291,14 @@ export const es = {
 
   // Fluency: skip second listen
   flu_checking_skip: 'Ver el resultado sin este repaso',
+
+  // Fluency: checker accuracy
+  flu_acc_title: '¿Cuánto acierta el micrófono?',
+  flu_acc_text: 'En {n} lecturas revisadas por un adulto ({words} palabras), el micrófono marcó {marked} errores. El adulto quitó {unmarked} (estaban bien leídas) y añadió {added} que el micrófono no detectó.',
+  flu_acc_note: 'Cuenta solo las lecturas en las que un adulto tocó o escuchó palabras. No se guarda ningún audio.',
+
+  // Profiles: checker accuracy
+  pf_acc_note: 'Todos los alumnos de este dispositivo, en la prueba de fluidez. Solo cuenta las lecturas en las que un adulto tocó o escuchó palabras. No se guarda ningún audio.',
 } as const;
 
 export type TranslationKey = keyof typeof es;

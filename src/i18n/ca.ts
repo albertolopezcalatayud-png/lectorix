@@ -1293,4 +1293,12 @@ export const ca: Record<TranslationKey, string> = {
 
   // Fluency: skip second listen
   flu_checking_skip: 'Veure el resultat sense aquest repàs',
+
+  // Fluency: checker accuracy
+  flu_acc_title: 'Quant encerta el micròfon?',
+  flu_acc_text: 'En {n} lectures revisades per un adult ({words} paraules), el micròfon va marcar {marked} errors. L’adult en va llevar {unmarked} (estaven ben llegides) i en va afegir {added} que el micròfon no va detectar.',
+  flu_acc_note: 'Compta només les lectures en què un adult va tocar o escoltar paraules. No es guarda cap àudio.',
+
+  // Profiles: checker accuracy
+  pf_acc_note: 'Tot l’alumnat d’aquest dispositiu, en la prova de fluïdesa. Només compta les lectures en què un adult va tocar o escoltar paraules. No es guarda cap àudio.',
 };

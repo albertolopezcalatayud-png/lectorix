@@ -15,6 +15,18 @@ export interface FluencyResult {
   wcpm: number;        // words correct per minute
   /** How the errors were found: by the microphone, or by an adult listening (older results: unknown) */
   checked?: 'mic' | 'adult';
+  /**
+   * Only when an adult reviewed the microphone's marks (tapped words or listened to them): how the marks
+   * changed. No audio is kept. Used to see how often the checker gets it wrong with real children.
+   */
+  review?: { words: number; marked: number; unmarked: number; added: number };
+}
+
+/** Totals of the adult reviews of the microphone's marks, for one language (or all) */
+export function checkerAccuracy(results: FluencyResult[], lang?: string) {
+  const r = results.filter((x) => x.review && (!lang || x.lang === lang));
+  const sum = (k: 'words' | 'marked' | 'unmarked' | 'added') => r.reduce((a, x) => a + x.review![k], 0);
+  return { readings: r.length, words: sum('words'), marked: sum('marked'), unmarked: sum('unmarked'), added: sum('added') };
 }
 
 interface FluencyState {

@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { usePracticeLang } from '@/stores/useAppStore';
 import { useReadings, type Reading } from '@/data/readings';
-import { useFluencyStore, type FluencyResult } from '@/services/fluency';
+import { useFluencyStore, checkerAccuracy, type FluencyResult } from '@/services/fluency';
 import { levelNameKey } from '@/data/modules';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
@@ -61,6 +61,8 @@ export default function Fluency() {
   
   // Listening back: how each word was read (audio kept in memory only while this test is on screen)
   const [tab, setTab] = useState<'last' | 'errors' | 'listen'>('last');
+  const micMarks = useRef<Set<number>>(new Set()); // the microphone's own marks, to count what the adult changes
+  const reviewed = useRef(false);                  // the adult tapped or listened to words
   const markErrors = tab === 'errors';
   const [spans, setSpans] = useState<(Span | null)[]>([]);
   const [playingWord, setPlayingWord] = useState<number | null>(null);
@@ -167,7 +169,9 @@ export default function Fluency() {
       setMicDoubt(doubt);
       setMicReview(new Set([...review].filter((i) => i < position)));
       setLastWord(position > 0 ? position - 1 : null);
-      setErrors(new Set([...missed, ...[...doubt].filter((i) => !review.has(i))]));
+      const marks = new Set([...missed, ...[...doubt].filter((i) => !review.has(i))]);
+      micMarks.current = new Set(marks); reviewed.current = false;
+      setErrors(marks);
     } else {
       setLastWord(early ? words.length - 1 : null);
     }
@@ -211,12 +215,13 @@ export default function Fluency() {
     try { await playSpan(rec, sp); } finally { setPlayingWord((w) => (w === i ? null : w)); }
   };
   /** Plays the doubtful words one after another */
-  const listenDoubtful = async () => { for (const i of [...micDoubt].sort((a, b) => a - b)) await listenTo(i); };
+  const listenDoubtful = async () => { reviewed.current = true; for (const i of [...micDoubt].sort((a, b) => a - b)) await listenTo(i); };
 
   const tapWord = (i: number) => {
     if (phase !== 'mark') return;
-    if (tab === 'listen') { void listenTo(i); return; }
+    if (tab === 'listen') { reviewed.current = true; void listenTo(i); return; }
     if (markErrors) {
+      reviewed.current = true;
       if (lastWord !== null && i > lastWord) return;
       if (micMode && micMissed.has(i)) return; // words the device did not hear stay as errors
       const n = new Set(errors);
@@ -234,13 +239,21 @@ export default function Fluency() {
     const correct = lastWord + 1 - errors.size;
     if (elapsed > 0 && (correct * 60) / elapsed > MAX_PLAUSIBLE_WCPM) { setTooFast(true); return; }
     setPrevBefore(mine.length ? mine[mine.length - 1] : null);
-    const r = add({ lang, level, readingId: reading.id, wordsRead: lastWord + 1, errors: errors.size, seconds: elapsed, checked: micMode ? 'mic' : 'adult' });
+    const m = micMarks.current;
+    const review = micMode && reviewed.current ? {
+      words: lastWord + 1,
+      marked: [...m].filter((i) => i <= lastWord).length,
+      unmarked: [...m].filter((i) => i <= lastWord && !errors.has(i)).length,
+      added: [...errors].filter((i) => !m.has(i)).length,
+    } : undefined;
+    const r = add({ lang, level, readingId: reading.id, wordsRead: lastWord + 1, errors: errors.size, seconds: elapsed, checked: micMode ? 'mic' : 'adult', review });
     setResult(r);
     setXp(awardActivityXP('fluency', 20, 2));
     setPhase('done');
   };
 
   const prev = mine.length > 0 ? mine[mine.length - 1] : null;
+  const acc = checkerAccuracy(results, lang);
   const best = mine.length ? Math.max(...mine.map((r) => r.wcpm)) : 0;
 
   return (
@@ -280,6 +293,13 @@ export default function Fluency() {
                 <p className="text-xs text-fg-muted mb-2">{t('flu_last_best', { last: prev!.wcpm, best })}</p>
                 <FluencyChart results={mine} />
                 <p className="text-[10px] text-fg-muted mt-2">{t('flu_compare_note')}</p>
+              </Card>
+            )}
+            {acc.readings > 0 && (
+              <Card>
+                <h3 className="font-heading font-extrabold text-sm mb-1">🎯 {t('flu_acc_title')}</h3>
+                <p className="text-xs">{t('flu_acc_text', { n: acc.readings, words: acc.words, marked: acc.marked, unmarked: acc.unmarked, added: acc.added })}</p>
+                <p className="text-[10px] text-fg-muted mt-2">{t('flu_acc_note')}</p>
               </Card>
             )}
           </>
