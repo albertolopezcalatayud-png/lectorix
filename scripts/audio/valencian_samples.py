@@ -92,8 +92,9 @@ if matxa_path and os.path.exists(matxa_path):
             elif i.name == 'x_lengths': feed['x_lengths'] = np.array([x.shape[1]], dtype=np.int64)
             elif i.name == 'scales': feed['scales'] = np.array([0.667, 1.35 if slow else 1.05], dtype=np.float32)
             elif i.name == 'spks': feed['spks'] = np.array([spk], dtype=np.int64)
-        res = sess.run(None, feed)
-        wav = res[0].squeeze()
+        outs = [o.name for o in sess.get_outputs()]
+        res = dict(zip(outs, sess.run(None, feed)))
+        wav = np.asarray(res.get('hfaudio', res.get('wav', list(res.values())[-1]))).squeeze()
         if wav.ndim > 1: wav = wav[0]
         return enc(wav / max(1e-4, float(np.abs(wav).max())) * 0.9, 22050)
     SPK = {"ona": 5, "pol": 6, "jan": 9, "eva": 20, "uri": 25, "mar": 26, "teo": 28, "bet": 30, "pau": 39, "pep": 41, "eli": 43,
