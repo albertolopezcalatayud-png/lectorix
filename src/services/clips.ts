@@ -147,3 +147,53 @@ export async function playClip(
     audio.play().catch(() => { if (current?.audio === audio) { current = null; URL.revokeObjectURL(url); } resolve(null); });
   });
 }
+
+// ── Dictation, recorded slow by the voice itself ─────
+// Slowing a normal clip down in the phone smears the sounds; for dictation each voice also records the
+// text slowly ('slow' for the normal button, 'slower' for 🐢), played as it is.
+export type DictationPace = 'slow' | 'slower';
+/**
+ * Spanish dictation alternates between the two voices the teachers chose (Davefx and Sharvard), so the
+ * children get used to more than one voice. The same text always gets the same voice (repeating it does
+ * not change the voice). Other languages use the family's chosen voice.
+ */
+const DICTATION_VOICES: Partial<Record<Lang, string[]>> = { es: ['davefx', 'sharvard'] };
+const slowManifests = new Map<string, Promise<Set<string>>>();
+function slowManifest(lang: Lang, voice: string, pace: DictationPace): Promise<Set<string>> {
+  const k = `${lang}/${voice}/${pace}`;
+  if (!slowManifests.has(k)) {
+    slowManifests.set(k, cachedFetch(`${base()}${k}/manifest.json`)
+      .then(async (r) => new Set(Object.keys(((r ? await r.json() : {}) as { items?: Record<string, 1> }).items ?? {})))
+      .catch(() => new Set<string>()));
+  }
+  return slowManifests.get(k)!;
+}
+function hash(s: string): number { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; }
+export async function dictationVoice(lang: string, text: string): Promise<string | null> {
+  const l = lang as Lang;
+  const list = ((await naturalVoices())[l] ?? []).map((v) => v.id);
+  const mix = (DICTATION_VOICES[l] ?? []).filter((id) => list.includes(id));
+  if (mix.length > 1) return mix[hash(clipKey(lang, text)) % mix.length];
+  return voiceFor(l);
+}
+/** Plays the slow dictation clip for a text; null when there is none (the caller then uses the normal clip) */
+export async function playDictationClip(lang: string, text: string, pace: DictationPace): Promise<{ interrupted: boolean } | null> {
+  if (!naturalVoiceEnabled() || !(lang === 'es' || lang === 'ca' || lang === 'en')) return null;
+  const voice = await dictationVoice(lang, text);
+  if (!voice) return null;
+  const key = clipKey(lang, text);
+  if (!(await slowManifest(lang, voice, pace)).has(key)) return null;
+  const res = await cachedFetch(`${base()}${lang}/${voice}/${pace}/${key}.mp3`);
+  if (!res) return null;
+  const blob = await res.blob();
+  stopClip();
+  return new Promise((resolve) => {
+    const url = URL.createObjectURL(blob);
+    const audio = new Audio(url);
+    const finish = (interrupted: boolean) => { if (current?.audio === audio) { current = null; URL.revokeObjectURL(url); } resolve({ interrupted }); };
+    current = { audio, url, done: finish };
+    audio.onended = () => finish(false);
+    audio.onerror = () => { if (current?.audio === audio) { current = null; URL.revokeObjectURL(url); } resolve(null); };
+    audio.play().catch(() => { if (current?.audio === audio) { current = null; URL.revokeObjectURL(url); } resolve(null); });
+  });
+}

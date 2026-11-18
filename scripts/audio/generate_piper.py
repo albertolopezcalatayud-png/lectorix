@@ -49,6 +49,33 @@ def estimate_word_starts(text, total_s):
     for w in weights: out.append(t); t += usable * w / tot
     return out
 
+# Dictation, recorded slow by the voice itself: slowing a normal clip down in the phone smears the sounds.
+# 'slow' for the normal dictation button (the app asks rate 0.7 / 0.75), 'slower' for the 🐢 button.
+SLOW_SETS = {'slow': {'word': 1.32, 'sentence': 1.25}, 'slower': {'word': 1.6, 'sentence': 1.5}}
+PAD_S = 0.15  # a little silence before and after: the first sound is not cut on any phone
+
+def make_slow_sets(voice, v, lang, d):
+    wanted = TEXTS.get('_dictation', {}).get(lang, {})
+    for name, scales in SLOW_SETS.items():
+        sd = os.path.join(d, name); os.makedirs(sd, exist_ok=True)
+        mf = os.path.join(sd, 'manifest.json')
+        man = json.load(open(mf)) if os.path.exists(mf) else {'voice': v['id'], 'pace': name, 'items': {}}
+        man['items'] = {k: 1 for k in man['items'] if k in wanted and os.path.exists(os.path.join(sd, k + '.mp3'))}
+        todo = [(k, t) for k, t in wanted.items() if k not in man['items']]
+        for k, text in todo:
+            try:
+                scale = scales['sentence' if ' ' in text.strip() else 'word']
+                ch = list(voice.synthesize(text, syn_config=SynthesisConfig(speaker_id=v['speaker'], length_scale=scale)))
+                rate = ch[0].sample_rate; pad = np.zeros(int(PAD_S * rate), dtype=np.float32)
+                gap = np.zeros(int(GAP_S * rate), dtype=np.float32)
+                audio = np.concatenate([pad] + [x for c in ch for x in (c.audio_float_array, gap)][:-1] + [pad])
+                open(os.path.join(sd, k + '.mp3'), 'wb').write(encode_mp3(audio, rate))
+                man['items'][k] = 1
+            except Exception as e:
+                print('  slow failed', repr(text[:40]), e, flush=True)
+        json.dump(man, open(mf, 'w'))
+        print(f'  {lang}/{v["id"]}/{name}: {len(man["items"])} dictation clips ({len(todo)} new)', flush=True)
+
 SAMPLE = {
     'es': 'Había una vez una niña que quería aprender a leer cuentos de dragones. Cada día leía un poquito más.',
     'ca': 'Hi havia una vegada una xiqueta que volia aprendre a llegir contes de dracs. Cada dia llegia un poquet més.',
@@ -70,6 +97,7 @@ for lang, voices in VOICES.items():
             ch = list(voice.synthesize(SAMPLE[lang], syn_config=cfg))
             g = np.zeros(int(GAP_S * ch[0].sample_rate), dtype=np.float32)
             open(smp, 'wb').write(encode_mp3(np.concatenate([x for c in ch for x in (c.audio_float_array, g)][:-1]), ch[0].sample_rate))
+        make_slow_sets(voice, v, lang, d)
         mf = os.path.join(d, 'manifest.json')
         manifest = json.load(open(mf)) if os.path.exists(mf) else {'voice': v['id'], 'items': {}}
         wanted = TEXTS.get(lang, {})

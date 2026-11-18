@@ -14,6 +14,8 @@ import { verbCards } from '../../src/data/examVerbs';
 type Lang = 'es' | 'ca' | 'en';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..', 'src', 'data');
 const out: Record<Lang, Map<string, string>> = { es: new Map(), ca: new Map(), en: new Map() };
+/** Dictation texts: also recorded slow by the voice itself (clips.ts plays them without slowing them down) */
+const dictation: Record<Lang, Map<string, string>> = { es: new Map(), ca: new Map(), en: new Map() };
 const add = (lang: Lang, text?: string | null) => {
   if (!text) return;
   const t = clipText(text);
@@ -39,9 +41,14 @@ for (const [lang, file] of READINGS) {
 const EX: [Lang, string][] = [['es', 'exercises'], ['ca', join('exercises', 'ca')], ['en', join('exercises', 'en')]];
 for (const [lang, dir] of EX) {
   for (const f of readdirSync(join(ROOT, dir)).filter((x) => x.endsWith('.json'))) {
-    const data = JSON.parse(readFileSync(join(ROOT, dir, f), 'utf8')) as { exercises: { word?: string; syllables?: string[] | string; prompt?: string; passage?: string }[] };
+    const data = JSON.parse(readFileSync(join(ROOT, dir, f), 'utf8')) as { exercises: { type?: string; dictation?: boolean; word?: string; syllables?: string[] | string; prompt?: string; passage?: string }[] };
     for (const e of data.exercises) {
       add(lang, e.word);
+      // same rule as isDictationExercise (src/data/content.ts)
+      if (e.type === 'write' && e.word && (e.dictation === true || /^(escucha|escolta|listen)/i.test(e.prompt ?? ''))) {
+        const t = clipText(e.word);
+        if (t && /\p{L}/u.test(t)) dictation[lang].set(clipKey(lang, t), t);
+      }
       if (Array.isArray(e.syllables)) e.syllables.forEach((s) => add(lang, s));
       add(lang, e.prompt);
       add(lang, e.passage);
@@ -52,7 +59,8 @@ for (const [lang, dir] of EX) {
 // Exam question verbs
 for (const lang of ['es', 'ca', 'en'] as Lang[]) for (const c of verbCards(lang)) add(lang, `${c.word}. ${c.meaning} ${c.how}`);
 
-const result = Object.fromEntries((Object.keys(out) as Lang[]).map((l) => [l, Object.fromEntries(out[l])]));
+const result: Record<string, unknown> = Object.fromEntries((Object.keys(out) as Lang[]).map((l) => [l, Object.fromEntries(out[l])]));
+result._dictation = Object.fromEntries((Object.keys(dictation) as Lang[]).map((l) => [l, Object.fromEntries(dictation[l])]));
 const chars = Object.fromEntries((Object.keys(out) as Lang[]).map((l) => [l, [...out[l].values()].reduce((a, t) => a + t.length, 0)]));
 process.stderr.write(`texts: ${JSON.stringify(Object.fromEntries((Object.keys(out) as Lang[]).map((l) => [l, out[l].size])))} chars: ${JSON.stringify(chars)}\n`);
 process.stdout.write(JSON.stringify(result));

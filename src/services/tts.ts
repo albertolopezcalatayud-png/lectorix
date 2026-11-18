@@ -7,7 +7,7 @@
 
 import { isNative, nativeHas, nativeSpeak, nativeSpeakTracked, nativeStop, nativeCheck } from './nativeTts';
 import { bestVoice } from './voices';
-import { playClip, stopClip, preloadClips } from './clips';
+import { playClip, stopClip, preloadClips, playDictationClip, type DictationPace } from './clips';
 
 const STORAGE_KEY = 'lectorix-tts-enabled';
 const RATE_KEY = 'lectorix-tts-rate';
@@ -318,9 +318,11 @@ function deviceSpeakIn(text: string, tag: string, rate = 0.9): Promise<void> {
 // ── Natural-voice clips first, then the device's voice ─────
 // A clip generated in advance with a neural voice is used when it exists for exactly this text.
 
-export async function speak(text: string, options?: { rate?: number; pitch?: number }): Promise<void> {
+export async function speak(text: string, options?: { rate?: number; pitch?: number; dictation?: DictationPace }): Promise<void> {
   if (!isTTSEnabled()) return;
   stopSpeaking();
+  // dictation: the clip the voice itself recorded slowly, if there is one
+  if (options?.dictation && await playDictationClip(speechLang, text, options.dictation)) return;
   const r = await playClip(speechLang, text, options?.rate ?? getTTSRate());
   if (r) return;
   return deviceSpeak(text, options);

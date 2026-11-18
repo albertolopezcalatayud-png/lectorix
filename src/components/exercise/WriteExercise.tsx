@@ -83,13 +83,13 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
     if (isDictation && tts.isAvailable()) {
       playTimer = setTimeout(async () => {
         setIsSpeaking(true);
-        try { await tts.speak(exercise.word!, { rate: dictationRate }); } finally { setIsSpeaking(false); }
+        try { await tts.speak(exercise.word!, { rate: dictationRate, dictation: 'slow' }); } finally { setIsSpeaking(false); }
       }, 500);
     }
     return () => { clearTimeout(focusTimer); if (playTimer) clearTimeout(playTimer); };
   }, [exercise.id]);
 
-  const handleSpeak = useCallback(async (text: string, rate?: number) => {
+  const handleSpeak = useCallback(async (text: string, rate?: number, dictation?: 'slow' | 'slower') => {
     if (isSpeaking) {
       tts.stop();
       setIsSpeaking(false);
@@ -97,7 +97,7 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
     }
     setIsSpeaking(true);
     try {
-      await tts.speak(text, rate ? { rate } : undefined);
+      await tts.speak(text, rate ? { rate, dictation } : undefined);
     } finally {
       setIsSpeaking(false);
     }
@@ -180,7 +180,7 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
         {isDictation && (
           <div className="flex justify-center items-center gap-3">
             <button
-              onClick={() => handleSpeak(exercise.word!, dictationRate)}
+              onClick={() => handleSpeak(exercise.word!, dictationRate, 'slow')}
               className={`w-20 h-20 rounded-full text-3xl flex items-center justify-center transition-colors ${
                 isSpeaking ? 'bg-accent text-white' : 'bg-accent-pale text-accent hover:bg-accent/20'
               }`}
@@ -190,7 +190,7 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
             </button>
             {tts.isAvailable() && (
               <button
-                onClick={() => handleSpeak(exercise.word!, 0.5)}
+                onClick={() => handleSpeak(exercise.word!, 0.5, 'slower')}
                 className="h-11 px-3 rounded-full bg-mint-pale text-mint text-sm font-bold hover:bg-mint/20 transition-colors"
                 aria-label={t('dict_slow')}
               >
@@ -361,7 +361,7 @@ export function WriteExercise({ exercise, questionNumber, totalQuestions, onAnsw
           <div className="flex gap-2">
             {isDictation && tts.isAvailable() && (
               <button
-                onClick={() => handleSpeak(exercise.word!, 0.5)}
+                onClick={() => handleSpeak(exercise.word!, 0.5, 'slower')}
                 className="flex-1 py-3 rounded-[14px] bg-accent-pale text-accent font-heading font-extrabold text-sm"
               >
                 🔊 {t('dict_listen_again')}
