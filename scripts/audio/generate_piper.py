@@ -90,6 +90,32 @@ class MatxaVoice:
             out.append((off, part, self.audio(part, scale)))
         return out
 
+class KokoroVoice:
+    """Kokoro-82M (Apache-2.0), natural British English voices (bf_*, bm_*). kokoro-onnx; files in voices_dir."""
+    _k = None; _esp = None
+    RATE = 24000
+    def __init__(self, name, lang='en-gb'):
+        from kokoro_onnx import Kokoro
+        from piper.phonemize_espeak import EspeakPhonemizer
+        if KokoroVoice._k is None:
+            KokoroVoice._k = Kokoro(os.path.join(voices_dir, 'kokoro-v1.0.onnx'), os.path.join(voices_dir, 'voices-v1.0.bin'))
+            KokoroVoice._esp = EspeakPhonemizer()
+        self.name = name; self.lang = lang
+    def phonemes(self, text):
+        # only to weigh how long each word sounds (word timings)
+        return ' '.join(''.join(s) for s in KokoroVoice._esp.phonemize('en-gb-x-rp' if self.lang == 'en-gb' else 'en-us', text)).strip()
+    def audio(self, text, scale):
+        a, sr = KokoroVoice._k.create(text, voice=self.name, speed=1.0 / scale, lang=self.lang)
+        a = np.asarray(a, dtype=np.float32)
+        return a / max(1e-4, float(np.abs(a).max())) * 0.9
+    def sentences(self, text, scale):
+        out, pos = [], 0
+        for part in SENT_SPLIT.split(text.strip()):
+            if not part.strip(): continue
+            off = text.find(part, pos); pos = off + len(part)
+            out.append((off, part, self.audio(part, scale)))
+        return out
+
 _vosk = {}
 def vosk_word_times(lang, audio, rate, words):
     """Start (s) of the words of a sentence, found by the recogniser listening for exactly those words; None where not found"""
@@ -160,7 +186,7 @@ def make_slow_sets(voice, v, lang, d):
         for k, text in todo:
             try:
                 scale = scales['sentence' if ' ' in text.strip() else 'word']
-                if isinstance(voice, MatxaVoice):
+                if isinstance(voice, (MatxaVoice, KokoroVoice)):
                     rate = voice.RATE; gap = np.zeros(int(GAP_S * rate), dtype=np.float32)
                     parts = [a for _, _, a in voice.sentences(text, scale * v.get('scale', 1.0))]
                     body = [x for a in parts for x in (a, gap)][:-1]
@@ -188,8 +214,9 @@ for lang, voices in VOICES.items():
     index[lang] = []
     for v in voices:
         if time.time() > DEADLINE: stop = 'time'; break
-        matxa = v.get('engine') == 'matxa'
-        if matxa: voice = MatxaVoice(v['speaker'], v.get('espeak', 'ca-va'))
+        matxa = v.get('engine') in ('matxa', 'kokoro')   # engines without phoneme alignments: same path
+        if v.get('engine') == 'matxa': voice = MatxaVoice(v['speaker'], v.get('espeak', 'ca-va'))
+        elif v.get('engine') == 'kokoro': voice = KokoroVoice(v['speaker'], v.get('espeak', 'en-gb'))
         else:
             base = os.path.join(voices_dir, os.path.basename(v['model']))
             voice = PiperVoice.load(base + '.onnx', base + '.onnx.json', include_alignments=True)

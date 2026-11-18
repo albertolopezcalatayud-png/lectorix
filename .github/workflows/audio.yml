@@ -52,6 +52,14 @@ jobs:
             git fetch -q origin asr-models && mkdir -p /tmp/vosk-ca && git show FETCH_HEAD:ca.tar.gz | tar -xz -C /tmp/vosk-ca
             echo "VOSK_CA=$(ls -d /tmp/vosk-ca/*/ | head -1)" >> $GITHUB_ENV
           fi
+          # Kokoro (natural English voices)
+          if grep -q '"engine": "kokoro"' scripts/audio/voices.json; then
+            pip install -q kokoro-onnx
+            R=https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0
+            curl -sfL $R/kokoro-v1.0.onnx -o /tmp/voices/kokoro-v1.0.onnx && curl -sfL $R/voices-v1.0.bin -o /tmp/voices/voices-v1.0.bin
+            git fetch -q origin asr-models && mkdir -p /tmp/vosk-en && git show FETCH_HEAD:en.tar.gz | tar -xz -C /tmp/vosk-en
+            echo "VOSK_EN=$(ls -d /tmp/vosk-en/*/ | head -1)" >> $GITHUB_ENV
+          fi
       - name: Texts
         run: npx tsx --tsconfig tsconfig.app.json scripts/audio/collect.ts > /tmp/texts.json
       - name: Generate
