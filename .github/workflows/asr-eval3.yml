@@ -6,6 +6,12 @@ on:
     inputs:
       sentences:
         default: '40'
+      reader:
+        description: "'' = Piper voices; matxa-va = Valencian pronunciation (Matxa multispeaker)"
+        default: ''
+      langs:
+        description: 'JSON list'
+        default: '["es","ca","en"]'
 
 jobs:
   eval:
@@ -14,7 +20,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        lang: [es, ca, en]
+        lang: ${{ fromJSON(inputs.langs) }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,7 +28,8 @@ jobs:
       - name: Tools, voices and models
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng > /dev/null
-          pip install -q piper-tts vosk numpy rapidfuzz
+          pip install -q piper-tts vosk numpy rapidfuzz onnxruntime
+          [ "${{ inputs.reader }}" = matxa-va ] && curl -sfL https://huggingface.co/projecte-aina/matxa-tts-cat-multispeaker/resolve/main/matcha_hifigan_simply.onnx -o /tmp/matxa.onnx
           mkdir -p /tmp/voices /tmp/vosk
           HF=https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0
           for p in es/es_ES/davefx/medium/es_ES-davefx-medium es/es_ES/sharvard/medium/es_ES-sharvard-medium ca/ca_ES/upc_ona/medium/ca_ES-upc_ona-medium ca/ca_ES/upc_pau/x_low/ca_ES-upc_pau-x_low en/en_GB/cori/high/en_GB-cori-high en/en_GB/northern_english_male/medium/en_GB-northern_english_male-medium; do
@@ -34,5 +41,6 @@ jobs:
       - name: Compare
         env:
           LANGS: ${{ matrix.lang }}
+          READER: ${{ inputs.reader }}
           N_SENT: ${{ inputs.sentences }}
         run: python scripts/asr/eval3.py /tmp/voices /tmp/vosk

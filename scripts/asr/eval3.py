@@ -53,7 +53,32 @@ def ipa(voice, ws):
     out = [re.sub(r"[ˈˌːˑ\s_-]", '', x) for x in out]
     return out[:len(ws)] if len(out) >= len(ws) else out + [''] * (len(ws) - len(out))
 
+# READER=matxa-va: the readings are said with Valencian pronunciation by Matxa multispeaker voices (GPL-3.0)
+READER = os.environ.get('READER', '')
+MATXA = os.environ.get('MATXA_ONNX', '/tmp/matxa.onnx')
+class MatxaReader:
+    def __init__(self, spk):
+        import onnxruntime as ort
+        from piper.phonemize_espeak import EspeakPhonemizer
+        self.spk = spk; self.sess = ort.InferenceSession(MATXA); self.esp = EspeakPhonemizer()
+        sym = ['_'] + list(';:,.!?¡¿—…"«»“” ') + list('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz') + list("ɑɐɒæɓʙβɔɕçɗɖðʤəɘɚɛɜɝɞɟʄɡɠɢʛɦɧħɥʜɨɪʝɭɬɫɮʟɱɯɰŋɳɲɴøɵɸθœɶʘɹɺɾɻʀʁɽʂʃʈʧʉʊʋⱱʌɣɤʍχʎʏʑʐʒʔʡʕʢǀǁǂǃˈˌːˑʼʴʰʱʲʷˠˤ˞↓↑→↗↘'̩'ᵻ")
+        self.sid = {c: i for i, c in enumerate(sym)}
+    def say(self, text):
+        ph = []
+        for s in self.esp.phonemize('ca-va', text):
+            ph += [('b' if (i == 0 or s[i - 1] in (' ', 'm', 'n')) else 'β') if c == 'v' else c for i, c in enumerate(s)] + [' ']
+        seq = [self.sid[c] for c in ''.join(ph).strip() if c in self.sid]
+        x = [0] * (len(seq) * 2 + 1); x[1::2] = seq
+        feed = {'x': np.array([x], dtype=np.int64), 'x_lengths': np.array([len(x)], dtype=np.int64),
+                'scales': np.array([0.667, 1.1], dtype=np.float32), 'spks': np.array([self.spk], dtype=np.int64)}
+        outs = [o.name for o in self.sess.get_outputs()]
+        a = np.asarray(dict(zip(outs, self.sess.run(None, feed)))['hfaudio']).squeeze().astype(np.float32)
+        a = a / max(1e-4, float(np.abs(a).max())) * 0.9
+        idx = np.linspace(0, len(a) - 1, int(len(a) * 16000 / 22050))
+        return (np.interp(idx, np.arange(len(a)), a) * 32767).astype(np.int16)
+
 def synth(voice, text):
+    if isinstance(voice, MatxaReader): return voice.say(text)
     cfg = SynthesisConfig(length_scale=1.1, speaker_id=0) if voice.config.num_speakers > 1 else SynthesisConfig(length_scale=1.1)
     chunks = list(voice.synthesize(text, syn_config=cfg))
     audio = np.concatenate([c.audio_float_array for c in chunks]); rate = chunks[0].sample_rate
@@ -167,10 +192,13 @@ for lang in ONLY:
     secs = {}; audio = [0.0]
     common = [w for w in freq if w in vset and len(w) > 1][:10000]
     st = {g: dict(ok=0, okn=0, p1=0, p1n=0, p2=0, p2n=0, real=0, realn=0, size=0, sizen=0) for g in GRAMMARS}
-    for vname in c['voices']:
-        vp = os.path.join(voices_dir, vname + '.onnx')
-        if not os.path.exists(vp): print('missing voice', vname); continue
-        voice = PiperVoice.load(vp, vp + '.json')
+    readers = [('matxa', k) for k in (5, 39, 30, 41)] if READER == 'matxa-va' else [(v, None) for v in c['voices']]
+    for vname, spk in readers:
+        if spk is not None: voice = MatxaReader(spk)
+        else:
+            vp = os.path.join(voices_dir, vname + '.onnx')
+            if not os.path.exists(vp): print('missing voice', vname); continue
+            voice = PiperVoice.load(vp, vp + '.json')
         for s in sents:
             tgt = words(s); base = sorted(set(tgt))
             gr = {'text': base}
@@ -207,7 +235,7 @@ for lang in ONLY:
                     S = st[g]
                     if key == 'ok': S['ok'] += len(hit); S['okn'] += len(tgt); S['size'] += len(gr.get(g) or []); S['sizen'] += 1
                     else: S[key] += int(at in hit); S[key + 'n'] += 1
-            if lang == ONLY[0] and vname == c['voices'][0] and sents.index(s) < 3:
+            if lang == ONLY[0] and vname == readers[0][0] and sents.index(s) < 3:
                 print('  e.g.', tgt[i], 'sound rivals:', so[tgt[i]][:12], 'spell:', sp[tgt[i]], flush=True)
     pct = lambda a, b: f'{100 * a / b:5.1f}' if b else '  -  '
     print(f"{'grammar':16} {'words':>6} {'ok read':>8} | wrongly read: {'1 letter':>9} {'2 letters':>9} {'real word':>9}")
