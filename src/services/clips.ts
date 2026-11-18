@@ -59,7 +59,9 @@ async function cachedFetch(url: string): Promise<Response | null> {
   try {
     const cache = 'caches' in window ? await caches.open(CACHE) : null;
     const hit = cache ? await cache.match(url) : undefined;
-    if (hit && !url.endsWith('manifest.json')) return hit;
+    // The voice list and the clip lists change when voices are replaced: always asked again (the cache only
+    // serves them offline). The clips themselves never change, so they come straight from the cache.
+    if (hit && !/(manifest|voices)\.json$/.test(url)) return hit;
     try {
       const res = await fetch(url, { cache: 'no-cache' });
       if (res.ok) { if (cache) await cache.put(url, res.clone()); return res; }
@@ -157,7 +159,7 @@ export type DictationPace = 'slow' | 'slower';
  * Mar and Pau), so the children get used to more than one voice. The same text always gets the same voice (repeating it does
  * not change the voice). Other languages use the family's chosen voice.
  */
-const DICTATION_VOICES: Partial<Record<Lang, string[]>> = { es: ['davefx', 'sharvard'], ca: ['mx-pol', 'mx-mar', 'mx-pau'], en: ['kk-lewis', 'kk-isabella'] };
+const DICTATION_VOICES: Partial<Record<Lang, string[]>> = { es: ['davefx', 'sharvard'], ca: ['mx-pol', 'mx-mar', 'mx-pau'], en: ['kk-lewis', 'kk-isabella', 'kk-fable', 'kk-lily', 'kk-alice'] };
 const slowManifests = new Map<string, Promise<Set<string>>>();
 function slowManifest(lang: Lang, voice: string, pace: DictationPace): Promise<Set<string>> {
   const k = `${lang}/${voice}/${pace}`;
