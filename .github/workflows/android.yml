@@ -44,6 +44,8 @@ jobs:
           cp /tmp/asrm/*.tar.gz android/asr_pack/src/main/assets/public/asr/
           echo '{"engine":"vosk","bundled":true}' > android/asr_pack/src/main/assets/public/asr/ready.json
           ls -la android/asr_pack/src/main/assets/public/asr/
+      - name: Dictation clips, installed with the app
+        run: bash .github/scripts/bundle-dictation.sh
       - name: Build release bundle
         working-directory: android
         env:

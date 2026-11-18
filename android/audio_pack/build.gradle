@@ -1,0 +1,13 @@
+// The dictation clips (slow and 🐢 recordings of every dictation voice, about 45 MB), delivered with the app at
+// install time so dictation works offline from the first day. CI copies them into src/main/assets/public/audio/
+// from the "audio" branch (they are not kept in the repository). Readings and exercises still download on use.
+plugins {
+    id 'com.android.asset-pack'
+}
+
+assetPack {
+    packName = "audio_pack"
+    dynamicDelivery {
+        deliveryType = "install-time"
+    }
+}

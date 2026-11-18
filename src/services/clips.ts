@@ -160,6 +160,27 @@ export type DictationPace = 'slow' | 'slower';
  * not change the voice). Other languages use the family's chosen voice.
  */
 const DICTATION_VOICES: Partial<Record<Lang, string[]>> = { es: ['davefx', 'sharvard'], ca: ['mx-pol', 'mx-mar', 'mx-pau'], en: ['kk-lewis', 'kk-isabella', 'kk-fable', 'kk-lily', 'kk-alice'] };
+// In the Android app the dictation clips of these voices come inside the app (audio_pack), so dictation works
+// offline from the first day; audio/dictation.json lists the voices that came with it.
+const LOCAL_AUDIO = (() => { try { return new URL(`${import.meta.env.BASE_URL}audio/`, window.location.href).href; } catch { return `${import.meta.env.BASE_URL}audio/`; } })();
+let bundledIndex: Promise<Partial<Record<Lang, string[]>>> | null = null;
+function bundledDictation(): Promise<Partial<Record<Lang, string[]>>> {
+  if (!bundledIndex) {
+    bundledIndex = Capacitor.isNativePlatform()
+      ? fetch(`${LOCAL_AUDIO}dictation.json`).then(async (r) => (r.ok ? ((await r.json()) as Partial<Record<Lang, string[]>>) : {})).catch(() => ({}))
+      : Promise.resolve({});
+  }
+  return bundledIndex;
+}
+const localManifests = new Map<string, Promise<Set<string>>>();
+function localSlowManifest(k: string): Promise<Set<string>> {
+  if (!localManifests.has(k)) {
+    localManifests.set(k, fetch(`${LOCAL_AUDIO}${k}/manifest.json`)
+      .then(async (r) => new Set(Object.keys((r.ok ? ((await r.json()) as { items?: Record<string, 1> }) : {}).items ?? {})))
+      .catch(() => new Set<string>()));
+  }
+  return localManifests.get(k)!;
+}
 const slowManifests = new Map<string, Promise<Set<string>>>();
 function slowManifest(lang: Lang, voice: string, pace: DictationPace): Promise<Set<string>> {
   const k = `${lang}/${voice}/${pace}`;
@@ -173,7 +194,8 @@ function slowManifest(lang: Lang, voice: string, pace: DictationPace): Promise<S
 function hash(s: string): number { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; }
 export async function dictationVoice(lang: string, text: string): Promise<string | null> {
   const l = lang as Lang;
-  const list = ((await naturalVoices())[l] ?? []).map((v) => v.id);
+  const [published, bundled] = await Promise.all([naturalVoices(), bundledDictation()]);
+  const list = [...((published[l] ?? []).map((v) => v.id)), ...(bundled[l] ?? [])];
   const mix = (DICTATION_VOICES[l] ?? []).filter((id) => list.includes(id));
   if (mix.length > 1) return mix[hash(clipKey(lang, text)) % mix.length];
   return voiceFor(l);
@@ -184,18 +206,27 @@ export async function playDictationClip(lang: string, text: string, pace: Dictat
   const voice = await dictationVoice(lang, text);
   if (!voice) return null;
   const key = clipKey(lang, text);
-  if (!(await slowManifest(lang, voice, pace)).has(key)) return null;
-  const res = await cachedFetch(`${base()}${lang}/${voice}/${pace}/${key}.mp3`);
-  if (!res) return null;
-  const blob = await res.blob();
+  const k = `${lang}/${voice}/${pace}`;
+  const inApp = (await bundledDictation())[lang as Lang] ?? [];
+  const localUrl = async (v: string) => ((await localSlowManifest(`${lang}/${v}/${pace}`)).has(key) ? `${LOCAL_AUDIO}${lang}/${v}/${pace}/${key}.mp3` : null);
+  let url: string | null = inApp.includes(voice) ? await localUrl(voice) : null;   // inside the app: no network needed
+  if (!url && (await slowManifest(lang as Lang, voice, pace)).has(key)) {
+    const res = await cachedFetch(`${base()}${k}/${key}.mp3`);
+    if (res) url = URL.createObjectURL(await res.blob());
+  }
+  // offline and this voice did not come with the app: another voice that did
+  for (const v of inApp) { if (url) break; url = await localUrl(v); }
+  if (!url) return null;
   stopClip();
+  const local = !url.startsWith('blob:');
+  const revoke = (u: string) => { if (!local) URL.revokeObjectURL(u); };
+  const src = url;
   return new Promise((resolve) => {
-    const url = URL.createObjectURL(blob);
-    const audio = new Audio(url);
-    const finish = (interrupted: boolean) => { if (current?.audio === audio) { current = null; URL.revokeObjectURL(url); } resolve({ interrupted }); };
-    current = { audio, url, done: finish };
+    const audio = new Audio(src);
+    const finish = (interrupted: boolean) => { if (current?.audio === audio) { current = null; revoke(src); } resolve({ interrupted }); };
+    current = { audio, url: src, done: finish };
     audio.onended = () => finish(false);
-    audio.onerror = () => { if (current?.audio === audio) { current = null; URL.revokeObjectURL(url); } resolve(null); };
-    audio.play().catch(() => { if (current?.audio === audio) { current = null; URL.revokeObjectURL(url); } resolve(null); });
+    audio.onerror = () => { if (current?.audio === audio) { current = null; revoke(src); } resolve(null); };
+    audio.play().catch(() => { if (current?.audio === audio) { current = null; revoke(src); } resolve(null); });
   });
 }

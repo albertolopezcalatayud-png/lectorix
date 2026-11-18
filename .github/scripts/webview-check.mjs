@@ -149,6 +149,23 @@ await ev(`location.hash = '#/ajustes'; true`); await sleep(1200);
 execSync('adb shell input keyevent 4'); await sleep(1500);
 results.backButton = await ev('location.hash');
 
+// Dictation offline: the clips come inside the app (audio_pack), so with no network the natural voice still dictates
+results.dictationBundled = await ev(`fetch('audio/dictation.json').then(r => r.json()).then(j => Object.entries(j).map(([l, v]) => l + ':' + v.length).join(' '))`);
+execSync('adb shell svc wifi disable; adb shell svc data disable; true'); await sleep(2500);
+await ev(`(() => { const s = JSON.parse(localStorage.getItem('lectorix-store')); s.state.language = 'en'; localStorage.setItem('lectorix-store', JSON.stringify(s)); performance.clearResourceTimings(); location.hash = '#/dictado'; location.reload(); return true; })()`);
+await sleep(5000);
+results.dictationOffline = await ev(`(async () => {
+  const start = [...document.querySelectorAll('button, a, div')].find((e) => /^\s*1\s*Lift-off/.test(e.innerText || '') && e.querySelector) || [...document.querySelectorAll('*')].find((e) => e.childElementCount === 0 && /Lift-off/.test(e.textContent));
+  start && start.click(); await new Promise((r) => setTimeout(r, 3000));
+  const slow = [...document.querySelectorAll('button')].find((b) => /Slower/.test(b.innerText)); slow && slow.click();
+  await new Promise((r) => setTimeout(r, 3000));
+  const mp3 = performance.getEntriesByType('resource').map((e) => e.name).filter((n) => n.endsWith('.mp3'));
+  return mp3.length + ' clips, local ' + mp3.filter((n) => n.startsWith(location.origin + '/audio/')).length + ' | ' + mp3.slice(0, 3).map((n) => n.replace(location.origin, '')).join(' ');
+})()`, 30000);
+shot('screen-dictation-offline');
+execSync('adb shell svc wifi enable; adb shell svc data enable; true');
+await ev(`(() => { const s = JSON.parse(localStorage.getItem('lectorix-store')); s.state.language = 'es'; localStorage.setItem('lectorix-store', JSON.stringify(s)); return true; })()`);
+
 results.errors = errors;
 const blank = Object.entries(results.routes).filter(([, t]) => typeof t !== 'string' || t.trim().length === 0 || /^🏠 Inicio 📚 Módulos 📝 Tarea 🏆 Logros 👤 Perfil$/.test(t.trim())).map(([r]) => r);
 results.blankRoutes = blank;
@@ -159,7 +176,8 @@ const top = Number((String(results.webviewBounds).match(/ \d+,(\d+)-\d+,\d+ /) |
 results.underStatusBar = !(top > 0);
 log('UNDER_STATUS_BAR', results.underStatusBar, top);
 const ok = results.asrBundled === true && results.asrModelBytes > 10000000 && !results.underStatusBar && blank.length === 0 && results.native && !results.speechSynthesisInWebView !== undefined && String(results.ocr).startsWith('OK') && errors.length === 0
-  && Object.values(results.onDeviceSpeech).every((v) => ['available', 'downloadable', 'downloading', 'unavailable'].includes(v)) && String(results.dict).includes('gzip true') && results.spell === 'flagged: ermano' && results.shareText === '#/adaptar | text shown' && !String(results.plugins).includes('false');
+  && Object.values(results.onDeviceSpeech).every((v) => ['available', 'downloadable', 'downloading', 'unavailable'].includes(v)) && String(results.dict).includes('gzip true') && results.spell === 'flagged: ermano' && results.shareText === '#/adaptar | text shown' && !String(results.plugins).includes('false')
+  && /es:2 ca:3 en:\d/.test(String(results.dictationBundled)) && /^([1-9]\d*) clips, local \1 /.test(String(results.dictationOffline));
 log('RESULT', ok ? 'PASS' : 'CHECK');
 ws.close();
 process.exit(0);

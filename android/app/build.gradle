@@ -2,7 +2,8 @@ apply plugin: 'com.android.application'
 
 android {
     // Reading checker models, installed with the app (see asr_pack/build.gradle)
-    assetPacks = [":asr_pack"]
+    // Dictation clips, installed with the app (see audio_pack/build.gradle)
+    assetPacks = [":asr_pack", ":audio_pack"]
     namespace "com.lectorix.app"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
