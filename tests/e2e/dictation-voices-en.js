@@ -1,5 +1,5 @@
-// English dictation plays the Kokoro clips recorded slowly and alternates Lewis and Isabella.
-// Needs the audio in the preview: git archive origin/audio voices.json en/kk-lewis en/kk-isabella | tar -x -C dist/audio
+// English dictation plays the Kokoro clips recorded slowly and alternates the five dictation voices (Lewis, Isabella, Fable, Lily, Alice).
+// Needs the audio in the preview: git archive origin/audio voices.json en | tar -x -C dist/audio
 const { chromium } = require('playwright');
 (async () => {
   const b = await chromium.launch({ args: ['--autoplay-policy=no-user-gesture-required'] });
@@ -30,7 +30,9 @@ const { chromium } = require('playwright');
   console.log(reqs.join('\n')); console.log('errors', errs);
   const ok = (c, m) => console.log((c ? 'PASS ' : 'FAIL ') + m);
   ok(reqs.length > 0 && reqs.every((u) => /\/(slow|slower)\//.test(u)), 'dictation uses the slow clips only');
-  ok(reqs.some((u) => u.startsWith('en/kk-lewis/')) && reqs.some((u) => u.startsWith('en/kk-isabella/')), 'both English voices (Lewis, Isabella) are used');
+  const EN = ['kk-lewis', 'kk-isabella', 'kk-fable', 'kk-lily', 'kk-alice'];
+  const used = new Set(reqs.map((u) => u.split('/')[1]));
+  ok(used.size > 1 && [...used].every((v) => EN.includes(v)), `dictation alternates the English dictation voices (${[...used].join(', ')})`);
   ok(reqs.some((u) => u.includes('/slower/')), '🐢 plays the slower clip');
   ok(errs.length === 0, 'no page errors');
   await b.close();
