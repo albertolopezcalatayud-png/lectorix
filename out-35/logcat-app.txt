@@ -1,0 +1,300 @@
+11-19 12:01:24.453  5209  5250 I Finsky  : [57] UCtl: For package com.google.android.tts, latest version update discovery timestamp is set to: 2026-11-19T12:01:24.453Z, old timestamp: 1970-01-01T00:00:00Z, old discovered version: 0, new discovered version: 210693739
+11-19 12:01:24.453  5209  5250 I Finsky  : [57] UCtl: Package com.google.android.tts client staleness timestamp changed from 1970-01-01T00:00:00Z to 2026-11-19T12:01:24.453Z, available version changed from 0 to 210693739 or in-app update priority changed from 0 to 0, Server update discovery timestamp is changed from 1970-01-01T00:00:00Z to 2026-11-19T12:01:23.462026Z
+11-19 12:01:24.636  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:01:24.999  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Exercise-BS-AQfH2.js
+11-19 12:01:25.007  4910  4967 D Capacitor: Handling local request: https://localhost/assets/steps-BJYCqNZz.js
+11-19 12:01:25.010  4910  4967 D Capacitor: Handling local request: https://localhost/assets/ExerciseCard-DvAVGyA7.js
+11-19 12:01:25.011  4910  4967 D Capacitor: Handling local request: https://localhost/assets/sounds-Dz7cy2TD.js
+11-19 12:01:25.011  4910  4970 D Capacitor: Handling local request: https://localhost/assets/SyllableText-KMnVdNVo.js
+11-19 12:01:25.012  4910  4970 D Capacitor: Handling local request: https://localhost/assets/DragDropExercise-CH1iamRa.js
+11-19 12:01:25.013  4910  4967 D Capacitor: Handling local request: https://localhost/assets/WriteExercise-CNjabUBI.js
+11-19 12:01:25.013  4910  4972 D Capacitor: Handling local request: https://localhost/assets/session-CSxgdQB9.js
+11-19 12:01:25.013  4910  4970 D Capacitor: Handling local request: https://localhost/assets/notifications-BBtv9yQr.js
+11-19 12:01:25.056  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865523, pluginId: LocalNotifications, methodName: checkPermissions
+11-19 12:01:25.057  4910  4910 V Capacitor: callback: 865523, pluginId: LocalNotifications, methodName: checkPermissions, methodData: {}
+11-19 12:01:25.330  4910  4967 D Capacitor: Handling local request: https://localhost/assets/lexend-latin-600-normal-CnenkszJ.woff2
+11-19 12:01:25.820  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865524, pluginId: TextToSpeech, methodName: stop
+11-19 12:01:25.820  4910  4910 V Capacitor: callback: 865524, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-19 12:01:25.864  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:01:26.190   542   556 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:01:27.299  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865525, pluginId: TextToSpeech, methodName: stop
+11-19 12:01:27.299  4910  4910 V Capacitor: callback: 865525, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-19 12:01:27.309  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:01:27.343  1169  1184 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:01:28.175  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:01:28.487  4910  4967 D Capacitor: Handling local request: https://localhost/assets/ReadingList-C9GHE3ez.js
+11-19 12:01:28.500  4910  4970 D Capacitor: Handling local request: https://localhost/assets/readings-DZ4UBe0O.js
+11-19 12:01:28.747  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865526, pluginId: TextToSpeech, methodName: stop
+11-19 12:01:28.750  4910  4910 V Capacitor: callback: 865526, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-19 12:01:28.800  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:01:28.829  4910  4967 D Capacitor: Handling local request: https://localhost/assets/lecturas-C4_jab9E.js
+11-19 12:01:30.498  1169  1184 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:01:31.854  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:01:32.756  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Dictation-l9LrtcMz.js
+11-19 12:01:35.935  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:01:36.319  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Fluency-pMvcw7-n.js
+11-19 12:01:36.328  4910  4968 D Capacitor: Handling local request: https://localhost/assets/readAloud-BfkjkZJB.js
+11-19 12:01:36.332  4910  4970 D Capacitor: Handling local request: https://localhost/assets/spell-BKbt1lew.js
+11-19 12:01:36.332  4910  4967 D Capacitor: Handling local request: https://localhost/assets/fluency-D0mu-ucR.js
+11-19 12:01:36.701  4910  4967 D Capacitor: Handling local request: https://localhost/asr/ready.json
+11-19 12:01:36.758  4910  4967 D Capacitor: Handling local request: https://localhost/asr/ready.json
+11-19 12:01:39.452  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:01:39.741  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Homework-6Ms-39iD.js
+11-19 12:01:42.854  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:01:43.178  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Together-CjSwBfYC.js
+11-19 12:01:46.327  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:01:46.638  4910  4967 D Capacitor: Handling local request: https://localhost/assets/ParentPanel-EZQ937rh.js
+11-19 12:01:46.646  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Stars-B5AC086V.js
+11-19 12:01:46.668  4910  4968 D Capacitor: Handling local request: https://localhost/assets/printDoc-BG4kfOdB.js
+11-19 12:01:47.130  4910  4967 D Capacitor: Handling local request: https://localhost/assets/lexend-latin-ext-700-normal-BqyU7xwf.woff2
+11-19 12:01:47.821   542   556 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:01:49.939  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:01:50.188  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Settings-9x4aU5Jy.js
+11-19 12:01:50.520  4910  4967 D Capacitor: Handling local request: https://localhost/assets/opendyslexic-latin-700-normal-Bnmt45Ln.woff2
+11-19 12:01:52.355   542   573 W ProcessStats: Tracking association SourceState{802ef81 system/1000 ImpFg #7180} whose proc state 5 is better than process ProcessState{95fdd17 com.google.android.tts/10150 pkg=com.google.android.tts} proc state 14 (156 skipped)
+11-19 12:01:52.572   542   556 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:01:53.075  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:01:53.284  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Notebook-B-YRV7fg.js
+11-19 12:01:53.287  4910  4967 D Capacitor: Handling local request: https://localhost/assets/LapiNote-C-7OvFPa.js
+11-19 12:01:56.683  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:01:56.933  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Stories-DeGVzC2e.js
+11-19 12:02:00.038  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:00.273  4910  4967 D Capacitor: Handling local request: https://localhost/assets/WriteListen-COdcBF5D.js
+11-19 12:02:00.283  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865527, pluginId: TextToSpeech, methodName: stop
+11-19 12:02:00.283  4910  4910 V Capacitor: callback: 865527, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-19 12:02:00.304  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:02:00.575  4910  4967 D Capacitor: Handling local request: https://localhost/dict/es.frz
+11-19 12:02:00.579  4910  4967 D Capacitor: Handling local request: https://localhost/dict/es.fcz
+11-19 12:02:03.214  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:03.446  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Shelf-DAgoTSCD.js
+11-19 12:02:03.446  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Confetti-Dv6-WrfU.js
+11-19 12:02:03.472  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865528, pluginId: TextToSpeech, methodName: stop
+11-19 12:02:03.472  4910  4910 V Capacitor: callback: 865528, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-19 12:02:03.489  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:02:06.400  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:06.646  4910  4967 D Capacitor: Handling local request: https://localhost/assets/HowILearn-Hgwjkg_p.js
+11-19 12:02:09.570  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:10.896   542   596 W ProcessStats: Tracking association SourceState{802ef81 system/1000 ImpFg #7243} whose proc state 5 is better than process ProcessState{95fdd17 com.google.android.tts/10150 pkg=com.google.android.tts} proc state 14 (41 skipped)
+11-19 12:02:11.155   542   556 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:12.822  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:13.063  4910  4967 D Capacitor: Handling local request: https://localhost/assets/ReadAloud-VaYKaPL8.js
+11-19 12:02:13.360  4910  4967 D Capacitor: Handling local request: https://localhost/assets/lectures.ca-B1LiAKWU.js
+11-19 12:02:13.361  4910  4967 D Capacitor: Handling local request: https://localhost/assets/readings.en-0HR8ypsv.js
+11-19 12:02:14.086   542   556 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:14.862  6215  6263 I Finsky  : [56] ItemStore: Not cached: com.google.android.tts
+11-19 12:02:15.239  6215  6263 E Finsky  : [56] ItemStore: getItems RPC failed for item com.google.android.tts
+11-19 12:02:15.976  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:16.202  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Voices-DwsNxLbA.js
+11-19 12:02:16.511  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865529, pluginId: TextToSpeech, methodName: getSupportedVoices
+11-19 12:02:16.512  4910  4910 V Capacitor: callback: 865529, pluginId: TextToSpeech, methodName: getSupportedVoices, methodData: {}
+11-19 12:02:16.568   542   556 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:16.802  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865530, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-19 12:02:16.803  4910  4910 V Capacitor: callback: 865530, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"ca-ES"}
+11-19 12:02:16.803  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865531, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-19 12:02:16.803  4910  4910 V Capacitor: callback: 865531, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"es-ES"}
+11-19 12:02:16.809  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865532, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-19 12:02:16.810  4910  4910 V Capacitor: callback: 865532, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"en-GB"}
+11-19 12:02:16.821  2475  3824 I GoogleTTSServiceImpl: currentLocale = ca-ES
+11-19 12:02:16.823  2475  3824 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-19 12:02:16.836  2475  3824 I GoogleTTSServiceImpl: currentLocale = en-GB
+11-19 12:02:18.640   542   556 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:19.313  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:19.537  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Printables-D2NIHbfN.js
+11-19 12:02:22.499  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865533, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-19 12:02:22.500  4910  4910 V Capacitor: callback: 865533, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"es-ES"}
+11-19 12:02:22.501  2475  3824 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-19 12:02:22.507  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865534, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-19 12:02:22.507  4910  4910 V Capacitor: callback: 865534, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"ca-ES"}
+11-19 12:02:22.509  2475  3824 I GoogleTTSServiceImpl: currentLocale = ca-ES
+11-19 12:02:22.556  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865535, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-19 12:02:22.556  4910  4910 V Capacitor: callback: 865535, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"en-GB"}
+11-19 12:02:22.558  2475  3824 I GoogleTTSServiceImpl: currentLocale = en-GB
+11-19 12:02:22.601  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865536, pluginId: TextToSpeech, methodName: speak
+11-19 12:02:22.601  4910  4910 V Capacitor: callback: 865536, pluginId: TextToSpeech, methodName: speak, methodData: {"text":"Hola, esto es una prueba de voz.","lang":"es-ES","rate":1}
+11-19 12:02:22.602  2475  3824 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-19 12:02:22.604  2475  3824 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-19 12:02:22.604  2475  2490 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-19 12:02:22.605  2475  2490 I GoogleTTSServiceImpl: For default lang es-es is name es-ES-language (es-es-x-eed-server)
+11-19 12:02:22.607  2475  2490 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-19 12:02:22.686  2475  4997 I GoogleTTSServiceImpl: Synthesis request for locale spa-ESP and name es-ES-language
+11-19 12:02:22.688  2475  4997 I GoogleTTSServiceImpl: TTS dispatch: es-es-x-eed-server
+11-19 12:02:22.781  2475  2762 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v26/es-es/es-es-x-multi-r50.zvoice to es-es-x-multi-r50.zvoice.fetched (constraints: m:b:u:l)
+11-19 12:02:22.884  2475  2762 I SP      : Requesting download of URL https://redirector.gvt1.com/edgedl/android/tts/v26/es-us/es-us-x-multi-r55.zvoice to es-us-x-multi-r55.zvoice.fetched (constraints: m:b:u:l)
+11-19 12:02:22.910  2475  6582 I hmsg    : Unable to retrieve flag snapshot for com.google.android.gms.providerinstaller#com.google.android.tts, using defaults.
+11-19 12:02:22.957  2475  6582 W hmsg    : Failed to update snapshot for com.google.android.gms.providerinstaller#com.google.android.tts flags may be stale.
+11-19 12:02:22.957  2475  6582 W hmsg    : java.io.IOException: Unable to create parent directories of /data/user/0/com.google.android.gms/files/phenotype/shared/com.google.android.gms.providerinstaller#com.google.android.tts.pb
+11-19 12:02:22.962  2475  6582 W FlagStore: Failed to commit to updated flags for com.google.android.gms.providerinstaller#com.google.android.tts
+11-19 12:02:23.144  2475  2480 I gle.android.tts: Background concurrent mark compact GC freed 3201KB AllocSpace bytes, 1(68KB) LOS objects, 49% free, 6106KB/11MB, paused 4.016ms,2.040ms total 124.634ms
+11-19 12:02:23.452  4910  5066 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:23.452  4910  5066 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-19 12:02:23.618  4910  5876 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:23.618  4910  5876 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-19 12:02:23.754  4910  5876 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:23.754  4910  5876 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-19 12:02:23.836  4910  5066 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:23.836  4910  5066 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-19 12:02:23.912  4910  4923 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:23.912  4910  4923 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-19 12:02:24.094  4910  5876 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:24.094  4910  5876 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-19 12:02:24.128  4910  5876 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:24.131  4910  5876 D Capacitor/TextToSpeechPlugin: No listeners found for event onRangeStart
+11-19 12:02:25.598  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:02:25.612  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865537, pluginId: TextToSpeech, methodName: addListener
+11-19 12:02:25.612  4910  4910 V Capacitor: callback: 865537, pluginId: TextToSpeech, methodName: addListener, methodData: {"eventName":"onRangeStart"}
+11-19 12:02:25.618  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865538, pluginId: TextToSpeech, methodName: speak
+11-19 12:02:25.618  4910  4910 V Capacitor: callback: 865538, pluginId: TextToSpeech, methodName: speak, methodData: {"text":"El gato come pescado en la cocina.","lang":"es-ES","rate":1}
+11-19 12:02:25.622  2475  2490 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-19 12:02:25.623  2475  3824 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-19 12:02:25.625  2475  2490 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-19 12:02:25.626  2475  2490 I GoogleTTSServiceImpl: For default lang es-es is name es-ES-language (es-es-x-eed-server)
+11-19 12:02:25.630  2475  2490 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-19 12:02:25.983  2475  4997 I GoogleTTSServiceImpl: Synthesis request for locale spa-ESP and name es-ES-language
+11-19 12:02:25.986  2475  4997 I GoogleTTSServiceImpl: TTS dispatch: es-es-x-eed-server
+11-19 12:02:26.277   542   556 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:26.362  6050  6058 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:26.374  4910  4923 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:26.442  4910  5066 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:26.608  4910  5066 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:26.737  4910  5066 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:27.018  4910  5066 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:27.064  4910  5066 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:27.131  4910  5066 V Capacitor/TextToSpeechPlugin: Notifying listeners for event onRangeStart
+11-19 12:02:27.865  6436  6442 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:28.265  6050  6058 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:28.743  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:02:28.747  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865539, pluginId: TextToSpeech, methodName: removeListener
+11-19 12:02:28.747  4910  4910 V Capacitor: callback: 865539, pluginId: TextToSpeech, methodName: removeListener, methodData: {"eventName":"onRangeStart","callbackId":"865537"}
+11-19 12:02:28.751  4910  4967 D Capacitor: Handling local request: https://localhost/dict/es.fcz
+11-19 12:02:28.770  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:29.693  2475  2475 I PhenotypeBackgroundRecv: Skipping com.google.android.libraries.search.device#com.google.android.tts which doesn't use ProcessStable flags.
+11-19 12:02:29.694   542   573 W ProcessStats: Tracking association SourceState{802ef81 system/1000 ImpFg #8097} whose proc state 5 is better than process ProcessState{95fdd17 com.google.android.tts/10150 pkg=com.google.android.tts} proc state 14 (6 skipped)
+11-19 12:02:29.703  6436  6442 W .apps.wellbeing: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:29.768  2475  2475 I PhenotypeBackgroundRecv: Skipping com.google.android.gms.providerinstaller#com.google.android.tts which doesn't use ProcessStable flags.
+11-19 12:02:31.790  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865540, pluginId: TextToSpeech, methodName: stop
+11-19 12:02:31.791  4910  4910 V Capacitor: callback: 865540, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-19 12:02:31.809  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:02:31.858   542   556 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:32.720  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865541, pluginId: OnDeviceSpeech, methodName: availability
+11-19 12:02:32.720  4910  4910 V Capacitor: callback: 865541, pluginId: OnDeviceSpeech, methodName: availability, methodData: {"lang":"es-ES"}
+11-19 12:02:32.921  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865542, pluginId: OnDeviceSpeech, methodName: availability
+11-19 12:02:32.921  4910  4910 V Capacitor: callback: 865542, pluginId: OnDeviceSpeech, methodName: availability, methodData: {"lang":"ca-ES"}
+11-19 12:02:33.001  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865543, pluginId: OnDeviceSpeech, methodName: availability
+11-19 12:02:33.002  4910  4910 V Capacitor: callback: 865543, pluginId: OnDeviceSpeech, methodName: availability, methodData: {"lang":"en-GB"}
+11-19 12:02:33.122  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:33.369  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865544, pluginId: TextToSpeech, methodName: stop
+11-19 12:02:33.369  4910  4910 V Capacitor: callback: 865544, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-19 12:02:33.372  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:02:33.380  6050  6058 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:33.931  6050  6058 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:34.492  6050  6058 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:35.674  4910  4967 D Capacitor: Handling local request: https://localhost/assets/src-BX_HuAdg.js
+11-19 12:02:35.709  4910  4968 D Capacitor: Handling local request: https://localhost/tesseract/worker.min.js
+11-19 12:02:35.737  6050  6058 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:35.896  4910  4967 D Capacitor: Handling local request: https://localhost/tesseract/tesseract-core-simd-lstm.wasm.js
+11-19 12:02:38.849  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865545, pluginId: LocalNotifications, methodName: checkPermissions
+11-19 12:02:38.849  4910  4910 V Capacitor: callback: 865545, pluginId: LocalNotifications, methodName: checkPermissions, methodData: {}
+11-19 12:02:38.861  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865546, pluginId: LocalNotifications, methodName: schedule
+11-19 12:02:38.862  4910  4910 V Capacitor: callback: 865546, pluginId: LocalNotifications, methodName: schedule, methodData: {"notifications":[{"id":4242,"title":"Prueba Lectorix","body":"Recordatorio de prueba","schedule":{"at":"2026-11-19T12:02:42.857Z"},"smallIcon":"ic_stat_lectorix"}]}
+11-19 12:02:38.926  4910  4993 W Capacitor/LocalNotification: Exact alarms not allowed in user settings.  Notification scheduled with non-exact alarm.
+11-19 12:02:38.983   542   556 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+11-19 12:02:43.929  4910  4910 V Capacitor/LocalNotificationsPlugin: Notifying listeners for event localNotificationReceived
+11-19 12:02:43.929  4910  4910 D Capacitor/LocalNotificationsPlugin: No listeners found for event localNotificationReceived
+11-19 12:02:47.627  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:48.532  4910  4910 V Capacitor/AppPlugin: Notifying listeners for event pause
+11-19 12:02:48.532  4910  4910 D Capacitor/AppPlugin: No listeners found for event pause
+11-19 12:02:48.532  4910  4910 D Capacitor: App paused
+11-19 12:02:48.533  4910  4910 V Capacitor/ShareReceiverPlugin: Notifying listeners for event shared
+11-19 12:02:48.533  4910  4910 D Capacitor/LN: LocalNotification received: null
+11-19 12:02:48.533  4910  4910 D Capacitor/LN: Activity started without notification attached
+11-19 12:02:48.533  4910  4910 D Capacitor/AppPlugin: Firing change: true
+11-19 12:02:48.533  4910  4910 V Capacitor/AppPlugin: Notifying listeners for event appStateChange
+11-19 12:02:48.533  4910  4910 D Capacitor/AppPlugin: No listeners found for event appStateChange
+11-19 12:02:48.533  4910  4910 V Capacitor/AppPlugin: Notifying listeners for event resume
+11-19 12:02:48.533  4910  4910 D Capacitor: App resumed
+11-19 12:02:48.553  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:02:48.569  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 865547, pluginId: SystemBars, methodName: set
+11-19 12:02:48.569  4910  4910 V Capacitor: callback: 865547, pluginId: SystemBars, methodName: set, methodData: {"color":"#FBF8F1","dark":false}
+11-19 12:02:48.586  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:02:48.591   542   564 W ProcessStats: Tracking association SourceState{802ef81 system/1000 ImpFg #10099} whose proc state 5 is better than process ProcessState{95fdd17 com.google.android.tts/10150 pkg=com.google.android.tts} proc state 14 (4 skipped)
+11-19 12:02:48.604  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:52.162  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:53.363  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:54.598  4910  4910 V Capacitor/AppPlugin: Notifying listeners for event backButton
+11-19 12:02:54.611  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:56.106  4910  4967 D Capacitor: Handling local request: https://localhost/audio/dictation.json
+11-19 12:02:58.715  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:02:58.716  4910  4968 D Capacitor: Handling local request: https://localhost/#/dictado
+11-19 12:03:01.729  4910  4977 D Capacitor: Handling local request: https://localhost/assets/index-BqYyhQEj.js
+11-19 12:03:01.731  4910  4967 D Capacitor: Handling local request: https://localhost/assets/rolldown-runtime-BCiCTKAo.js
+11-19 12:03:01.731  4910  4968 D Capacitor: Handling local request: https://localhost/assets/chunk-6KYCQHYJ-CxtBGf6p.js
+11-19 12:03:01.734  4910  4970 D Capacitor: Handling local request: https://localhost/assets/index-BOZZaJSm.css
+11-19 12:03:01.780  4910  4967 D Capacitor: Handling local request: https://localhost/assets/esm-DafkI90E.js
+11-19 12:03:01.781  4910  4970 D Capacitor: Handling local request: https://localhost/assets/esm-CZ9hognE.js
+11-19 12:03:01.781  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584129, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-19 12:03:01.781  4910  4910 V Capacitor: callback: 29584129, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"es-ES"}
+11-19 12:03:01.782  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584130, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-19 12:03:01.782  4910  4910 V Capacitor: callback: 29584130, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"ca-ES"}
+11-19 12:03:01.782  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584131, pluginId: TextToSpeech, methodName: isLanguageSupported
+11-19 12:03:01.782  4910  4910 V Capacitor: callback: 29584131, pluginId: TextToSpeech, methodName: isLanguageSupported, methodData: {"lang":"en-GB"}
+11-19 12:03:01.782  4910  4967 D Capacitor: Handling local request: https://localhost/assets/esm-BqCYA4hr.js
+11-19 12:03:01.787  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584132, pluginId: TextToSpeech, methodName: getSupportedVoices
+11-19 12:03:01.787  4910  4910 V Capacitor: callback: 29584132, pluginId: TextToSpeech, methodName: getSupportedVoices, methodData: {}
+11-19 12:03:01.788  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584133, pluginId: ShareReceiver, methodName: addListener
+11-19 12:03:01.788  4910  4910 V Capacitor: callback: 29584133, pluginId: ShareReceiver, methodName: addListener, methodData: {"eventName":"shared"}
+11-19 12:03:01.788  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584134, pluginId: ShareReceiver, methodName: takePending
+11-19 12:03:01.788  4910  4910 V Capacitor: callback: 29584134, pluginId: ShareReceiver, methodName: takePending, methodData: {}
+11-19 12:03:01.799  2475  3896 I GoogleTTSServiceImpl: currentLocale = es-ES
+11-19 12:03:01.800  2475  3896 I GoogleTTSServiceImpl: currentLocale = ca-ES
+11-19 12:03:01.802  2475  4994 I GoogleTTSServiceImpl: currentLocale = en-GB
+11-19 12:03:01.809  4910  4972 D Capacitor: Handling local request: https://localhost/assets/Dictation-l9LrtcMz.js
+11-19 12:03:01.809  4910  4970 D Capacitor: Handling local request: https://localhost/assets/gamification-BDEmmTCS.js
+11-19 12:03:01.809  4910  4970 D Capacitor: Handling local request: https://localhost/assets/session-CSxgdQB9.js
+11-19 12:03:01.809  4910  4967 D Capacitor: Handling local request: https://localhost/assets/notifications-BBtv9yQr.js
+11-19 12:03:01.810  4910  4978 D Capacitor: Handling local request: https://localhost/assets/Header-CRwWPn2_.js
+11-19 12:03:01.810  4910  4967 D Capacitor: Handling local request: https://localhost/assets/Card-yBOoYik6.js
+11-19 12:03:01.810  4910  4978 D Capacitor: Handling local request: https://localhost/assets/WriteExercise-CNjabUBI.js
+11-19 12:03:01.812  4910  4968 D Capacitor: Handling local request: https://localhost/assets/content-D8LVfZo3.js
+11-19 12:03:01.813  4910  4970 D Capacitor: Handling local request: https://localhost/assets/sounds-Dz7cy2TD.js
+11-19 12:03:01.818  4910  4977 D Capacitor: Handling local request: https://localhost/assets/review-BJomH1DF.js
+11-19 12:03:01.822  4910  4972 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:03:01.838  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
+11-19 12:03:01.858  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584135, pluginId: SystemBars, methodName: set
+11-19 12:03:01.858  4910  4910 V Capacitor: callback: 29584135, pluginId: SystemBars, methodName: set, methodData: {"color":"#FBF8F1","dark":false}
+11-19 12:03:01.860  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584136, pluginId: App, methodName: addListener
+11-19 12:03:01.860  4910  4910 V Capacitor: callback: 29584136, pluginId: App, methodName: addListener, methodData: {"eventName":"resume"}
+11-19 12:03:01.862  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584137, pluginId: App, methodName: addListener
+11-19 12:03:01.862  4910  4910 V Capacitor: callback: 29584137, pluginId: App, methodName: addListener, methodData: {"eventName":"backButton"}
+11-19 12:03:01.864  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584138, pluginId: LocalNotifications, methodName: checkPermissions
+11-19 12:03:01.864  4910  4910 V Capacitor: callback: 29584138, pluginId: LocalNotifications, methodName: checkPermissions, methodData: {}
+11-19 12:03:01.920  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:03:02.006  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584139, pluginId: SplashScreen, methodName: hide
+11-19 12:03:02.006  4910  4910 V Capacitor: callback: 29584139, pluginId: SplashScreen, methodName: hide, methodData: {"fadeOutDuration":250}
+11-19 12:03:02.007  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:03:02.116  4910  4967 D Capacitor: Handling local request: https://localhost/assets/fonologia-Bls--_D4.js
+11-19 12:03:02.117  4910  4970 D Capacitor: Handling local request: https://localhost/assets/escritura-CvqEcgfI.js
+11-19 12:03:02.146  4910  4968 D Capacitor: Handling local request: https://localhost/assets/lexend-latin-800-normal-CnQOEYd9.woff2
+11-19 12:03:02.146  4910  4967 D Capacitor: Handling local request: https://localhost/assets/lexend-latin-400-normal-4kmgQazr.woff2
+11-19 12:03:02.148  4910  4968 D Capacitor: Handling local request: https://localhost/assets/lexend-latin-700-normal-zYJ_wVsA.woff2
+11-19 12:03:02.478  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584140, pluginId: SystemBars, methodName: set
+11-19 12:03:02.478  4910  4910 V Capacitor: callback: 29584140, pluginId: SystemBars, methodName: set, methodData: {"color":"#FBF8F1","dark":false}
+11-19 12:03:02.512  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:03:03.729  4910  4967 D Capacitor: Handling local request: https://localhost/assets/lexend-latin-600-normal-CnenkszJ.woff2
+11-19 12:03:03.857  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584141, pluginId: SystemBars, methodName: set
+11-19 12:03:03.857  4910  4910 V Capacitor: callback: 29584141, pluginId: SystemBars, methodName: set, methodData: {"color":"#FBF8F1","dark":false}
+11-19 12:03:03.877  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:03:04.239  4910  4967 D Capacitor: Handling local request: https://localhost/audio/dictation.json
+11-19 12:03:04.247  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584142, pluginId: TextToSpeech, methodName: stop
+11-19 12:03:04.247  4910  4910 V Capacitor: callback: 29584142, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-19 12:03:04.250  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:03:04.252  4910  4967 D Capacitor: Handling local request: https://localhost/audio/en/kk-alice/slow/manifest.json
+11-19 12:03:04.257  4910  4967 D Capacitor: Handling local request: https://localhost/audio/en/kk-alice/slow/1evmll3irg5.mp3
+11-19 12:03:06.724  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584143, pluginId: TextToSpeech, methodName: stop
+11-19 12:03:06.724  4910  4910 V Capacitor: callback: 29584143, pluginId: TextToSpeech, methodName: stop, methodData: {}
+11-19 12:03:06.725  4910  4967 D Capacitor: Handling local request: https://localhost/audio/en/kk-alice/slower/manifest.json
+11-19 12:03:06.728  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:03:06.731  4910  4967 D Capacitor: Handling local request: https://localhost/audio/en/kk-alice/slower/1evmll3irg5.mp3
+11-19 12:03:06.856  4910  4910 V Capacitor/Plugin: To native (Capacitor plugin): callbackId: 29584144, pluginId: SystemBars, methodName: set
+11-19 12:03:06.856  4910  4910 V Capacitor: callback: 29584144, pluginId: SystemBars, methodName: set, methodData: {"color":"#FBF8F1","dark":false}
+11-19 12:03:06.861  4910  4910 I Capacitor/Console: File:  - Line 333 - Msg: undefined
+11-19 12:03:09.947  4910  4967 D Capacitor: Handling local request: https://localhost/favicon.svg
