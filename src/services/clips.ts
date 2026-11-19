@@ -42,8 +42,8 @@ export async function playVoiceSample(lang: string, id: string): Promise<void> {
   await new Promise<void>((resolve) => {
     const audio = new Audio(url);
     current = { audio, url, done: () => resolve() };
-    audio.onended = () => { if (current?.audio === audio) current = null; URL.revokeObjectURL(url); resolve(); };
-    audio.play().catch(() => resolve());
+    audio.onended = () => { if (current?.audio === audio) current = null; release(audio, url); resolve(); };
+    audio.play().catch(() => { if (current?.audio === audio) { current = null; release(audio, url); } resolve(); });
   });
 }
 
@@ -97,11 +97,16 @@ export async function hasClip(lang: string, text: string): Promise<boolean> {
 }
 
 let current: { audio: HTMLAudioElement; url: string; done: (interrupted: boolean) => void } | null = null;
+/** Lets go of a clip: the element stops loading it before its blob URL is revoked (else the browser logs a failed load) */
+function release(audio: HTMLAudioElement, url: string) {
+  audio.onerror = null;
+  try { audio.pause(); audio.removeAttribute('src'); audio.load(); } catch { /* ignore */ }
+  if (url.startsWith('blob:')) URL.revokeObjectURL(url);
+}
 export function stopClip() {
   if (!current) return;
   const c = current; current = null;
-  try { c.audio.pause(); } catch { /* ignore */ }
-  URL.revokeObjectURL(c.url);
+  release(c.audio, c.url);
   c.done(true);
 }
 
@@ -139,14 +144,14 @@ export async function playClip(
     };
     const finish = (interrupted: boolean) => {
       cancelAnimationFrame(raf);
-      if (current?.audio === audio) { current = null; URL.revokeObjectURL(url); }
+      if (current?.audio === audio) { current = null; release(audio, url); }
       resolve({ interrupted });
     };
     current = { audio, url, done: finish };
     audio.onplay = () => { hooks.onStart?.(); if (hooks.onWord && words.length) raf = requestAnimationFrame(tick); };
     audio.onended = () => finish(false);
-    audio.onerror = () => { if (current?.audio === audio) { current = null; URL.revokeObjectURL(url); } resolve(null); };
-    audio.play().catch(() => { if (current?.audio === audio) { current = null; URL.revokeObjectURL(url); } resolve(null); });
+    audio.onerror = () => { if (current?.audio === audio) { current = null; release(audio, url); } resolve(null); };
+    audio.play().catch(() => { if (current?.audio === audio) { current = null; release(audio, url); } resolve(null); });
   });
 }
 
@@ -218,15 +223,13 @@ export async function playDictationClip(lang: string, text: string, pace: Dictat
   for (const v of inApp) { if (url) break; url = await localUrl(v); }
   if (!url) return null;
   stopClip();
-  const local = !url.startsWith('blob:');
-  const revoke = (u: string) => { if (!local) URL.revokeObjectURL(u); };
   const src = url;
   return new Promise((resolve) => {
     const audio = new Audio(src);
-    const finish = (interrupted: boolean) => { if (current?.audio === audio) { current = null; revoke(src); } resolve({ interrupted }); };
+    const finish = (interrupted: boolean) => { if (current?.audio === audio) { current = null; release(audio, src); } resolve({ interrupted }); };
     current = { audio, url: src, done: finish };
     audio.onended = () => finish(false);
-    audio.onerror = () => { if (current?.audio === audio) { current = null; revoke(src); } resolve(null); };
-    audio.play().catch(() => { if (current?.audio === audio) { current = null; revoke(src); } resolve(null); });
+    audio.onerror = () => { if (current?.audio === audio) { current = null; release(audio, src); } resolve(null); };
+    audio.play().catch(() => { if (current?.audio === audio) { current = null; release(audio, src); } resolve(null); });
   });
 }
