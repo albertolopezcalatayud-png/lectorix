@@ -1,4 +1,4 @@
-// English dictation plays the Kokoro clips recorded slowly and alternates the five dictation voices (Lewis, Isabella, Fable, Lily, Alice).
+// English dictation plays the Kokoro clips recorded slowly and alternates the five dictation voices (Lewis, Isabella, Fable, Alice; not Lily).
 // Needs the audio in the preview: git archive origin/audio voices.json en | tar -x -C dist/audio
 const { chromium } = require('playwright');
 (async () => {
@@ -30,9 +30,10 @@ const { chromium } = require('playwright');
   console.log(reqs.join('\n')); console.log('errors', errs);
   const ok = (c, m) => console.log((c ? 'PASS ' : 'FAIL ') + m);
   ok(reqs.length > 0 && reqs.every((u) => /\/(slow|slower)\//.test(u)), 'dictation uses the slow clips only');
-  const EN = ['kk-lewis', 'kk-isabella', 'kk-fable', 'kk-lily', 'kk-alice'];
+  const EN = ['kk-lewis', 'kk-isabella', 'kk-fable', 'kk-alice'];
   const used = new Set(reqs.map((u) => u.split('/')[1]));
   ok(used.size > 1 && [...used].every((v) => EN.includes(v)), `dictation alternates the English dictation voices (${[...used].join(', ')})`);
+  ok(!used.has('kk-lily'), 'Lily is not used for dictation');
   ok(reqs.some((u) => u.includes('/slower/')), '🐢 plays the slower clip');
   ok(errs.length === 0, 'no page errors');
   await b.close();

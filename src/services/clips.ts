@@ -164,7 +164,9 @@ export type DictationPace = 'slow' | 'slower';
  * Mar and Pau), so the children get used to more than one voice. The same text always gets the same voice (repeating it does
  * not change the voice). Other languages use the family's chosen voice.
  */
-const DICTATION_VOICES: Partial<Record<Lang, string[]>> = { es: ['davefx', 'sharvard'], ca: ['mx-pol', 'mx-mar', 'mx-pau'], en: ['kk-lewis', 'kk-isabella', 'kk-fable', 'kk-lily', 'kk-alice'] };
+// Lily is left out of the dictation: on single words she stretches the first sound (a long noisy burst before the vowel)
+// and is the hardest to understand (77-88 % recognised against 92-98 % for the others). She still reads the texts.
+const DICTATION_VOICES: Partial<Record<Lang, string[]>> = { es: ['davefx', 'sharvard'], ca: ['mx-pol', 'mx-mar', 'mx-pau'], en: ['kk-lewis', 'kk-isabella', 'kk-fable', 'kk-alice'] };
 // In the Android app the dictation clips of these voices come inside the app (audio_pack), so dictation works
 // offline from the first day; audio/dictation.json lists the voices that came with it.
 const LOCAL_AUDIO = (() => { try { return new URL(`${import.meta.env.BASE_URL}audio/`, window.location.href).href; } catch { return `${import.meta.env.BASE_URL}audio/`; } })();
