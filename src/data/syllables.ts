@@ -88,3 +88,47 @@ export const MIRROR_WORDS: Record<Lang, [string, string][]> = {
   en: [['ball', '⚽'], ['bed', '🛏️'], ['bus', '🚌'], ['bee', '🐝'], ['dog', '🐶'], ['duck', '🦆'], ['door', '🚪'], ['pig', '🐷'], ['pen', '🖊️'], ['pear', '🍐'], ['queen', '👑']],
 };
 export const MIRROR = ['b', 'd', 'p', 'q'] as const;
+
+/**
+ * "Build the word": the child hears a word, sees its picture and puts its pieces in order.
+ * English: graphemes as UK phonics teaches them (Phase 2 CVC, then digraphs and trigraphs of Phase 3: sh, ck, ee, igh…).
+ * Spanish and Valencian: syllables.
+ */
+export const BUILD_WORDS: Record<Lang, [string[], string][]> = {
+  en: [
+    [['c', 'a', 't'], '🐱'], [['d', 'o', 'g'], '🐶'], [['p', 'i', 'g'], '🐷'], [['s', 'u', 'n'], '☀️'], [['b', 'u', 's'], '🚌'], [['h', 'a', 't'], '🎩'],
+    [['m', 'a', 'p'], '🗺️'], [['p', 'i', 'n'], '📌'], [['b', 'e', 'd'], '🛏️'], [['c', 'u', 'p'], '☕'], [['b', 'o', 'x'], '📦'], [['f', 'o', 'x'], '🦊'],
+    [['h', 'e', 'n'], '🐔'], [['v', 'a', 'n'], '🚐'], [['w', 'e', 'b'], '🕸️'], [['t', 'e', 'n'], '🔟'],
+    [['sh', 'i', 'p'], '🚢'], [['f', 'i', 'sh'], '🐟'], [['sh', 'e', 'll'], '🐚'], [['ch', 'i', 'ck'], '🐥'], [['d', 'u', 'ck'], '🦆'], [['s', 'o', 'ck'], '🧦'],
+    [['r', 'i', 'ng'], '💍'], [['k', 'i', 'ng'], '🤴'], [['b', 'a', 'th'], '🛁'], [['r', 'ai', 'n'], '🌧️'], [['t', 'r', 'ee'], '🌳'], [['b', 'ee'], '🐝'],
+    [['b', 'oa', 't'], '⛵'], [['g', 'oa', 't'], '🐐'], [['m', 'oo', 'n'], '🌙'], [['b', 'oo', 'k'], '📖'], [['c', 'ar'], '🚗'], [['s', 't', 'ar'], '⭐'],
+    [['f', 'or', 'k'], '🍴'], [['n', 'igh', 't'], '🌃'], [['l', 'igh', 't'], '💡'], [['c', 'ow'], '🐄'], [['c', 'oi', 'n'], '🪙'], [['ch', 'air'], '🪑'],
+    [['qu', 'ee', 'n'], '👑'], [['f', 'r', 'o', 'g'], '🐸'], [['c', 'r', 'a', 'b'], '🦀'], [['d', 'r', 'u', 'm'], '🥁'], [['t', 'e', 'n', 't'], '⛺'], [['h', 'a', 'n', 'd'], '✋'],
+  ],
+  es: [
+    [['ma', 'no'], '✋'], [['ga', 'to'], '🐱'], [['pa', 'to'], '🦆'], [['ca', 'sa'], '🏠'], [['lu', 'na'], '🌙'], [['so', 'pa'], '🍲'], [['pe', 'rro'], '🐶'],
+    [['pi', 'ña'], '🍍'], [['va', 'ca'], '🐄'], [['fo', 'ca'], '🦭'], [['mo', 'no'], '🐒'], [['ve', 'la'], '🕯️'], [['bar', 'co'], '⛵'], [['ra', 'tón'], '🐭'],
+    [['to', 'ma', 'te'], '🍅'], [['za', 'pa', 'to'], '👟'], [['pe', 'lo', 'ta'], '⚽'], [['ca', 'ba', 'llo'], '🐴'], [['co', 'ne', 'jo'], '🐰'], [['ga', 'lle', 'ta'], '🍪'],
+    [['pa', 'ta', 'ta'], '🥔'], [['he', 'la', 'do'], '🍦'], [['ji', 'ra', 'fa'], '🦒'], [['a', 'be', 'ja'], '🐝'], [['ca', 'ra', 'col'], '🐌'],
+  ],
+  ca: [
+    [['ca', 'sa'], '🏠'], [['po', 'ma'], '🍎'], [['va', 'ca'], '🐄'], [['fo', 'ca'], '🦭'], [['mo', 'na'], '🐒'], [['ve', 'la'], '🕯️'], [['bar', 'ca'], '⛵'],
+    [['llu', 'na'], '🌙'], [['pi', 'nya'], '🍍'], [['ca', 'ball'], '🐴'], [['co', 'nill'], '🐰'], [['ge', 'lat'], '🍦'],
+    [['pa', 'ta', 'ta'], '🥔'], [['to', 'ma', 'ca'], '🍅'], [['sa', 'ba', 'ta'], '👟'], [['pi', 'lo', 'ta'], '⚽'], [['ra', 'to', 'lí'], '🐭'], [['ga', 'le', 'ta'], '🍪'],
+    [['gi', 'ra', 'fa'], '🦒'], [['a', 'be', 'lla'], '🐝'], [['ca', 'ra', 'gol'], '🐌'], [['ca', 'ra', 'bas', 'sa'], '🎃'],
+  ],
+};
+/** Pieces that look or sound close, offered as extra tiles (English: the graphemes children mix up) */
+const NEAR_EN: Record<string, string[]> = {
+  b: ['d', 'p'], d: ['b', 'p'], p: ['b', 'q'], m: ['n', 'w'], n: ['m', 'h'], e: ['a', 'i'], a: ['e', 'u'], i: ['e', 'y'], o: ['u', 'a'], u: ['o', 'a'],
+  sh: ['ch', 's'], ch: ['sh', 'th'], th: ['f', 'sh'], ck: ['k', 'c'], ng: ['n', 'nk'], ee: ['ea', 'e'], ai: ['ay', 'a'], oa: ['ow', 'o'], igh: ['ie', 'i'],
+  oo: ['o', 'u'], ar: ['a', 'or'], or: ['ar', 'o'], ow: ['oa', 'o'], oi: ['oy', 'o'], air: ['ear', 'ar'], qu: ['kw', 'q'], ll: ['l', 'il'],
+};
+export function buildTiles(lang: Lang, pieces: string[], others: string[][]): string[] {
+  const extra: string[] = [];
+  const pool = lang === 'en'
+    ? pieces.flatMap((p) => NEAR_EN[p] ?? [])
+    : others.flat();
+  for (const x of shuffle(pool)) if (extra.length < 2 && !pieces.includes(x) && !extra.includes(x)) extra.push(x);
+  return shuffle([...pieces, ...extra]);
+}

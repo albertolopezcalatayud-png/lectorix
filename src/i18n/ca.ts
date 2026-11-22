@@ -1355,7 +1355,7 @@ export const ca: Record<TranslationKey, string> = {
   sy_title: 'Lletres i síl·labes',
   sy_card_desc: 'Cada lletra amb les seues síl·labes',
   sy_tab_explore: 'Explora',
-  sy_tab_game: 'Escolta i toca',
+  sy_tab_game: 'Escolta',
   sy_intro: 'Toca una lletra per a escoltar les seues síl·labes i una paraula que la porta.',
   sy_play_all: '▶ Totes seguides',
   sy_trace: '✏️ Traça-la',
@@ -1379,4 +1379,8 @@ export const ca: Record<TranslationKey, string> = {
   mi_missing_intro: 'Quina lletra falta? Escolta la paraula.',
   mi_result: 'Acabat, amb {n} errades.',
   mi_perfect: 'Perfecte, sense cap errada!',
+
+  // Build the word (Syllables.tsx)
+  bw_tab: 'Forma',
+  bw_intro: 'Escolta i forma la paraula',
 };

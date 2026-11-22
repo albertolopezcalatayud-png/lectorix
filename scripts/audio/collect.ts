@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 import { parseText } from '../../src/services/textModel';
 import { clipKey, clipText } from '../../src/services/clipKey';
 import { verbCards } from '../../src/data/examVerbs';
-import { syllableTexts, MIRROR_WORDS } from '../../src/data/syllables';
+import { syllableTexts, MIRROR_WORDS, BUILD_WORDS } from '../../src/data/syllables';
 import { EXAMPLES } from '../../src/data/strokes';
 
 type Lang = 'es' | 'ca' | 'en';
@@ -63,6 +63,7 @@ for (const lang of ['es', 'ca', 'en'] as Lang[]) {
   for (const t of syllableTexts(lang)) add(lang, t);
   for (const [w] of Object.values(EXAMPLES[lang])) add(lang, w);
   for (const [w] of MIRROR_WORDS[lang]) add(lang, w);
+  for (const [pieces] of BUILD_WORDS[lang]) add(lang, pieces.join(''));
 }
 
 // Exam question verbs

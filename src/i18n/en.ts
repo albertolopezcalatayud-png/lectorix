@@ -1355,7 +1355,7 @@ export const en: Record<TranslationKey, string> = {
   sy_title: 'Letters and words',
   sy_card_desc: 'Each letter with a word',
   sy_tab_explore: 'Explore',
-  sy_tab_game: 'Listen and tap',
+  sy_tab_game: 'Listen',
   sy_intro: 'Tap a letter to hear a word that starts with it.',
   sy_play_all: '▶ All in a row',
   sy_trace: '✏️ Trace it',
@@ -1379,4 +1379,8 @@ export const en: Record<TranslationKey, string> = {
   mi_missing_intro: 'Which letter is missing? Listen to the word.',
   mi_result: 'Finished, with {n} mistakes.',
   mi_perfect: 'Perfect, no mistakes!',
+
+  // Build the word (Syllables.tsx)
+  bw_tab: 'Build',
+  bw_intro: 'Listen and build the word',
 };

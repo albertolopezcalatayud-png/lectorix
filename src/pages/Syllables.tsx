@@ -5,7 +5,7 @@ import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { usePracticeLang } from '@/stores/useAppStore';
 import { useI18n } from '@/i18n';
-import { FAMILIES, MIRROR, MIRROR_WORDS, makeRounds, ROUNDS, type Family, type Round } from '@/data/syllables';
+import { FAMILIES, MIRROR, MIRROR_WORDS, BUILD_WORDS, buildTiles, makeRounds, ROUNDS, type Family, type Round } from '@/data/syllables';
 import type { Lang } from '@/data/strokes';
 import sounds from '@/services/sounds';
 import tts from '@/services/tts';
@@ -20,7 +20,7 @@ export default function Syllables() {
   const lang = usePracticeLang() as Lang;
   const navigate = useNavigate();
   const fams = FAMILIES[lang];
-  const [tab, setTab] = useState<'explore' | 'game' | 'mirror'>('explore');
+  const [tab, setTab] = useState<'explore' | 'game' | 'mirror' | 'build'>('explore');
   const [open, setOpen] = useState<Family | null>(null);
   useEffect(() => () => tts.stop(), []);
   useEffect(() => { setOpen(null); }, [lang]);
@@ -32,16 +32,16 @@ export default function Syllables() {
     <div className="pb-28">
       <Header title={t('sy_title')} showBack />
       <div className="max-w-2xl mx-auto px-4 space-y-4">
-        <div className="grid grid-cols-[1fr_1.4fr_1fr] gap-1" role="tablist">
-          {(['explore', 'game', 'mirror'] as const).map((id) => (
+        <div className="grid grid-cols-4 gap-1" role="tablist">
+          {(['explore', 'game', 'mirror', 'build'] as const).map((id) => (
             <button key={id} role="tab" aria-selected={tab === id} onClick={() => { setTab(id); tts.stop(); }}
-              className={`py-1.5 rounded-full text-sm font-bold ${tab === id ? 'bg-accent text-white' : 'bg-surface-alt text-fg'}`}>
-              {id === 'mirror' ? 'b d p q' : t(id === 'explore' ? 'sy_tab_explore' : 'sy_tab_game')}
+              className={`py-1.5 px-1 rounded-full text-[13px] font-bold whitespace-nowrap ${tab === id ? 'bg-accent text-white' : 'bg-surface-alt text-fg'}`}>
+              {id === 'mirror' ? 'b d p q' : t(id === 'explore' ? 'sy_tab_explore' : id === 'game' ? 'sy_tab_game' : 'bw_tab')}
             </button>
           ))}
         </div>
 
-        {tab === 'mirror' ? <Mirror key={lang} lang={lang} /> : tab === 'game' ? <Game key={lang} lang={lang} fams={fams} /> : open ? (
+        {tab === 'build' ? <Build key={lang} lang={lang} /> : tab === 'mirror' ? <Mirror key={lang} lang={lang} /> : tab === 'game' ? <Game key={lang} lang={lang} fams={fams} /> : open ? (
           <Card className="!p-4 space-y-4">
             <div className="flex items-center justify-between">
               <button onClick={() => setOpen(null)} className="text-sm font-bold text-accent">{t('tr_back_list')}</button>
@@ -243,6 +243,71 @@ function MissingRound({ lang, round, onMistake, onDone }: { lang: Lang; round: n
             className={`aspect-square rounded-2xl border-2 font-heading font-extrabold text-4xl ${picked === o ? (o === first ? 'bg-mint-pale border-mint' : 'bg-red-pale border-red') : 'bg-bg-card border-border'}`}>{o}</button>
         ))}
       </div>
+    </Card>
+  );
+}
+
+const BUILD_ROUNDS = 8;
+/** Eight words. English: four short ones (s-a-t) and four with digraphs (sh-i-p), in that order. */
+function pickBuild(lang: Lang) {
+  const all = BUILD_WORDS[lang];
+  if (lang !== 'en') return shuffleArr(all).slice(0, BUILD_ROUNDS);
+  const simple = all.filter(([p]) => p.every((x) => x.length === 1));
+  const rest = all.filter(([p]) => p.some((x) => x.length > 1));
+  return [...shuffleArr(simple).slice(0, 4), ...shuffleArr(rest).slice(0, 4)];
+}
+
+function Build({ lang }: { lang: Lang }) {
+  const { t } = useI18n();
+  const [words, setWords] = useState(() => pickBuild(lang));
+  const [n, setN] = useState(0);
+  const [mistakes, setMistakes] = useState(0);
+  if (n >= words.length) {
+    return (
+      <Card className="!p-5 text-center space-y-3">
+        <p className="font-heading font-extrabold text-xl" aria-live="polite">{mistakes === 1 ? t('mi_result_one') : mistakes ? t('mi_result', { n: mistakes }) : t('mi_perfect')} {mistakes ? '' : '🌟'}</p>
+        <Button fullWidth onClick={() => { setWords(pickBuild(lang)); setN(0); setMistakes(0); }}>{t('sy_again')}</Button>
+      </Card>
+    );
+  }
+  return <BuildRound key={n} lang={lang} n={n} word={words[n]} others={words.filter((_, i) => i !== n).map(([p]) => p)}
+    onMistake={() => setMistakes((x) => x + 1)} onDone={() => setN(n + 1)} />;
+}
+
+function BuildRound({ lang, n, word, others, onMistake, onDone }: { lang: Lang; n: number; word: [string[], string]; others: string[][]; onMistake: () => void; onDone: () => void }) {
+  const { t } = useI18n();
+  const [pieces, emoji] = word;
+  const text = pieces.join('');
+  const [tiles] = useState(() => buildTiles(lang, pieces, others).map((p, i) => ({ p, i })));
+  const [used, setUsed] = useState<number[]>([]);
+  const [wrong, setWrong] = useState<number | null>(null);
+  const done = used.length === pieces.length;
+  useEffect(() => { tts.stop(); void tts.speak(text); }, [text]);
+  const tap = (k: number) => {
+    if (done || used.includes(k)) return;
+    // the next piece; two tiles may be the same piece (pa-ta-ta): any of them is right
+    if (tiles[k].p !== pieces[used.length]) { setWrong(k); onMistake(); sounds.incorrect(); window.setTimeout(() => setWrong(null), 600); return; }
+    const next = [...used, k]; setUsed(next); sounds.click();
+    if (next.length === pieces.length) { sounds.correct(); window.setTimeout(() => { tts.stop(); void tts.speak(text); }, 300); window.setTimeout(onDone, 1600); }
+  };
+  return (
+    <Card className="!p-4 space-y-4 text-center">
+      <div className="flex justify-between text-sm font-bold"><span>{t('bw_intro')}</span><span>{n + 1} / {BUILD_ROUNDS}</span></div>
+      <button onClick={() => { tts.stop(); void tts.speak(text); }} className="text-6xl" aria-label={`${t('sy_replay')}`}>{emoji}</button>
+      <div className="flex justify-center gap-1.5" data-testid="bw-slots">
+        {pieces.map((p, i) => (
+          <span key={i} className={`min-w-[3rem] h-14 px-2 rounded-xl border-2 flex items-center justify-center font-heading font-extrabold text-3xl ${i < used.length ? 'border-mint bg-mint-pale' : 'border-dashed border-border'}`}>
+            {i < used.length ? p : ''}
+          </span>
+        ))}
+      </div>
+      <div className="flex flex-wrap justify-center gap-2" data-testid="bw-tiles">
+        {tiles.map(({ p }, k) => (
+          <button key={k} onClick={() => tap(k)} disabled={used.includes(k) || done}
+            className={`min-w-[3.2rem] h-14 px-3 rounded-xl border-2 font-heading font-extrabold text-3xl ${used.includes(k) ? 'opacity-25' : wrong === k ? 'bg-red-pale border-red' : 'bg-bg-card border-border hover:border-accent'}`}>{p}</button>
+        ))}
+      </div>
+      <Button size="sm" variant="secondary" onClick={() => { tts.stop(); void tts.speak(text); }}>{t('sy_replay')}</Button>
     </Card>
   );
 }

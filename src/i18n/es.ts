@@ -1353,7 +1353,7 @@ export const es = {
   sy_title: 'Letras y sílabas',
   sy_card_desc: 'Cada letra con sus sílabas',
   sy_tab_explore: 'Explora',
-  sy_tab_game: 'Escucha y toca',
+  sy_tab_game: 'Escucha',
   sy_intro: 'Toca una letra para oír sus sílabas y una palabra que la lleva.',
   sy_play_all: '▶ Todas seguidas',
   sy_trace: '✏️ Trázala',
@@ -1377,6 +1377,10 @@ export const es = {
   mi_missing_intro: '¿Qué letra falta? Escucha la palabra.',
   mi_result: 'Terminado, con {n} fallos.',
   mi_perfect: '¡Perfecto, sin fallos!',
+
+  // Build the word (Syllables.tsx)
+  bw_tab: 'Forma',
+  bw_intro: 'Escucha y forma la palabra',
 } as const;
 
 export type TranslationKey = keyof typeof es;

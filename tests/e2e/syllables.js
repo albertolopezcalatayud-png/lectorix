@@ -33,7 +33,7 @@ const { chromium } = require('playwright');
 
   // The game: 10 rounds; tap what was said
   await p.goto('http://localhost:4173/lectorix/#/silabas'); await p.waitForTimeout(800);
-  await p.getByRole('tab', { name: 'Escucha y toca' }).click();
+  await p.getByRole('tab', { name: 'Escucha' }).click();
   await p.getByRole('button', { name: 'Empezar' }).click();
   let rounds = 0;
   for (let i = 0; i < 10; i++) {
@@ -53,7 +53,7 @@ const { chromium } = require('playwright');
   // English: words and their first letter
   await setLang('en'); await p.goto('http://localhost:4173/lectorix/#/silabas'); await p.reload(); await p.waitForTimeout(1200);
   ok((await p.getByRole('button', { name: /^d: dog/ }).count()) === 1 && (await p.locator('.grid-cols-5').count()) === 0, 'English: letters with their word, no syllables');
-  await p.getByRole('tab', { name: 'Listen and tap' }).click(); await p.getByRole('button', { name: 'Start' }).click(); await p.waitForTimeout(400);
+  await p.getByRole('tab', { name: 'Listen' }).click(); await p.getByRole('button', { name: 'Start' }).click(); await p.waitForTimeout(400);
   const w = (await said()).slice(-1)[0]; const opts = await p.locator('[data-testid=sy-options] button').allInnerTexts();
   ok(opts.length === 4 && opts.includes(w[0]), `English game: hear «${w}», tap its first letter among ${opts.join(' ')}`);
 
@@ -75,6 +75,38 @@ const { chromium } = require('playwright');
     await p.locator('[data-testid=mi-options] button', { hasText: new RegExp(`^${word[0]}$`) }).click(); await p.waitForTimeout(1300);
   }
   ok(/Perfecto, sin fallos/.test(await p.locator('body').innerText()), 'missing letter: eight words, the first letter heard and chosen');
+
+  // Build the word: hear it, tap its pieces in order (graphemes in English, syllables in Spanish)
+  const build = async (rounds, wrongFirst) => {
+    for (let r = 0; r < rounds; r++) {
+      await p.waitForTimeout(300);
+      let rest = (await said()).slice(-1)[0];
+      const slots = await p.locator('[data-testid=bw-slots] span').count();
+      for (let k = 0; k < slots; k++) {
+        const tiles = p.locator('[data-testid=bw-tiles] button:not([disabled])');
+        const texts = await tiles.allInnerTexts();
+        const best = texts.filter((x) => rest.startsWith(x)).sort((x, y) => y.length - x.length)[0];
+        if (wrongFirst && r === 0 && k === 0) { await tiles.nth(texts.findIndex((x) => !rest.startsWith(x))).click(); await p.waitForTimeout(700); }
+        await tiles.nth(texts.indexOf(best)).click(); rest = rest.slice(best.length);
+      }
+      await p.waitForTimeout(1700);
+    }
+  };
+  await p.goto('http://localhost:4173/lectorix/#/silabas'); await p.waitForTimeout(800);
+  await p.getByRole('tab', { name: 'Forma' }).click(); await p.waitForTimeout(400);
+  const firstSlots = await p.locator('[data-testid=bw-slots] span').count();
+  ok(firstSlots >= 2 && firstSlots <= 4, `Spanish build: syllable slots (${firstSlots})`);
+  await build(8, true);
+  ok(/Terminado, con 1 fallo/.test(await p.locator('body').innerText()), 'Spanish build: eight words, the wrong tile counted once');
+  await setLang('en'); await p.goto('http://localhost:4173/lectorix/#/silabas'); await p.reload(); await p.waitForTimeout(1200);
+  await p.getByRole('tab', { name: 'Build' }).click(); await p.waitForTimeout(400);
+  const seen = [];
+  for (let r = 0; r < 8; r++) {
+    await p.waitForTimeout(300); seen.push((await p.locator('[data-testid=bw-tiles] button').allInnerTexts()).join(','));
+    await build(1, false);
+  }
+  ok(/Perfect, no mistakes/.test(await p.locator('body').innerText()), 'English build: eight words built from their graphemes');
+  ok(seen.slice(4).some((t) => /\b(sh|ch|th|ck|ng|ee|ai|oa|igh|oo|ar|or|ow|oi|air|qu|ll)\b/.test(t)), 'English: the last four words have digraph tiles');
 
   // Valencian: ça ce ci ço çu and ny
   await setLang('ca'); await p.goto('http://localhost:4173/lectorix/#/silabas'); await p.reload(); await p.waitForTimeout(1200);
