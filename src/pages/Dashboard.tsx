@@ -19,6 +19,8 @@ export default function Dashboard() {
   const user = useAppStore((s) => s.user);
   const levelCount = useLevelCount();
   const progress = useAppStore((s) => s.progress);
+  // 1.º-4.º of Primaria: letter tracing takes the place of the essay planner, meant for older students
+  const young = useAppStore((s) => s.schoolStage === 'p12' || s.schoolStage === 'p34');
   const mascot = useAppStore((s) => s.mascot);
   const { t } = useI18n();
   const lang = usePracticeLang();
@@ -163,7 +165,7 @@ export default function Dashboard() {
               { to: '/escribe', icon: '✍️', title: 'wl_title', desc: 'wl_card_desc' },
               { to: '/estanteria', icon: '📚', title: 'sh_title', desc: 'sh_card_desc' },
               { to: '/enunciados', icon: '🧩', title: 'ev_title', desc: 'ev_card_desc' },
-              { to: '/redaccion', icon: '📝', title: 'es_title', desc: 'es_card_desc' },
+              young ? ({ to: '/trazo', icon: '✏️', title: 'tr_title', desc: 'tr_card_desc' } as const) : ({ to: '/redaccion', icon: '📝', title: 'es_title', desc: 'es_card_desc' } as const),
               { to: '/lectura', icon: '🎓', title: 'subj_title', desc: 'subj_card_desc', state: { subjects: true } },
             ] as const).map((x, i) => (
               <Card key={x.title} hover onClick={() => navigate(x.to, 'state' in x ? { state: x.state } : undefined)} className="!p-3 card-tab"
