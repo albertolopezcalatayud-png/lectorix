@@ -80,3 +80,11 @@ export function makeRounds(lang: Lang, fams: Family[]): Round[] {
     return { answer, say: answer, options: shuffle([answer, ...picked]) };
   });
 }
+
+/** Words that start with b, d, p or q, with a picture, for "which letter is missing?" (mirror letters) */
+export const MIRROR_WORDS: Record<Lang, [string, string][]> = {
+  es: [['barco', '⛵'], ['bota', '👢'], ['ballena', '🐋'], ['búho', '🦉'], ['dado', '🎲'], ['dedo', '☝️'], ['delfín', '🐬'], ['diente', '🦷'], ['pato', '🦆'], ['pera', '🍐'], ['pez', '🐟'], ['perro', '🐶'], ['queso', '🧀']],
+  ca: [['barca', '⛵'], ['bota', '👢'], ['balena', '🐋'], ['dau', '🎲'], ['dofí', '🐬'], ['dent', '🦷'], ['poma', '🍎'], ['peix', '🐟'], ['pera', '🍐'], ['quadern', '📓'], ['quatre', '4️⃣']],
+  en: [['ball', '⚽'], ['bed', '🛏️'], ['bus', '🚌'], ['bee', '🐝'], ['dog', '🐶'], ['duck', '🦆'], ['door', '🚪'], ['pig', '🐷'], ['pen', '🖊️'], ['pear', '🍐'], ['queen', '👑']],
+};
+export const MIRROR = ['b', 'd', 'p', 'q'] as const;

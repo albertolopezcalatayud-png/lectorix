@@ -57,6 +57,25 @@ const { chromium } = require('playwright');
   const w = (await said()).slice(-1)[0]; const opts = await p.locator('[data-testid=sy-options] button').allInnerTexts();
   ok(opts.length === 4 && opts.includes(w[0]), `English game: hear «${w}», tap its first letter among ${opts.join(' ')}`);
 
+  // Mirror letters b d p q: find every one in the grid (one wrong tap on purpose), 5 rounds
+  await setLang('es'); await p.goto('http://localhost:4173/lectorix/#/silabas'); await p.reload(); await p.waitForTimeout(1200);
+  await p.getByRole('tab', { name: 'b d p q' }).click(); await p.waitForTimeout(300);
+  for (let r = 0; r < 5; r++) {
+    const title = await p.locator('h2').innerText(); const target = /«(.)»/.exec(title)[1];
+    const cells = p.locator('[data-testid=mi-grid] button');
+    const letters = await cells.evaluateAll((els) => els.map((e) => e.dataset.letter));
+    if (r === 0) { await cells.nth(letters.findIndex((l) => l !== target)).click(); await p.waitForTimeout(200); }
+    for (let i = 0; i < letters.length; i++) if (letters[i] === target) await cells.nth(i).click();
+    await p.waitForTimeout(900);
+  }
+  ok(/Terminado, con 1 fallo\./.test(await p.locator('body').innerText()), 'find: five grids, one mistake counted (singular)');
+  await p.getByRole('radio', { name: '¿Cuál falta?' }).click(); await p.waitForTimeout(500);
+  for (let r = 0; r < 8; r++) {
+    const word = (await said()).slice(-1)[0];
+    await p.locator('[data-testid=mi-options] button', { hasText: new RegExp(`^${word[0]}$`) }).click(); await p.waitForTimeout(1300);
+  }
+  ok(/Perfecto, sin fallos/.test(await p.locator('body').innerText()), 'missing letter: eight words, the first letter heard and chosen');
+
   // Valencian: ça ce ci ço çu and ny
   await setLang('ca'); await p.goto('http://localhost:4173/lectorix/#/silabas'); await p.reload(); await p.waitForTimeout(1200);
   await p.getByRole('button', { name: /^ç: braç/ }).click(); await p.waitForTimeout(300);

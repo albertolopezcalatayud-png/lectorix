@@ -5,7 +5,7 @@ import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { usePracticeLang } from '@/stores/useAppStore';
 import { useI18n } from '@/i18n';
-import { FAMILIES, makeRounds, ROUNDS, type Family, type Round } from '@/data/syllables';
+import { FAMILIES, MIRROR, MIRROR_WORDS, makeRounds, ROUNDS, type Family, type Round } from '@/data/syllables';
 import type { Lang } from '@/data/strokes';
 import sounds from '@/services/sounds';
 import tts from '@/services/tts';
@@ -20,7 +20,7 @@ export default function Syllables() {
   const lang = usePracticeLang() as Lang;
   const navigate = useNavigate();
   const fams = FAMILIES[lang];
-  const [tab, setTab] = useState<'explore' | 'game'>('explore');
+  const [tab, setTab] = useState<'explore' | 'game' | 'mirror'>('explore');
   const [open, setOpen] = useState<Family | null>(null);
   useEffect(() => () => tts.stop(), []);
   useEffect(() => { setOpen(null); }, [lang]);
@@ -32,16 +32,16 @@ export default function Syllables() {
     <div className="pb-28">
       <Header title={t('sy_title')} showBack />
       <div className="max-w-2xl mx-auto px-4 space-y-4">
-        <div className="grid grid-cols-2 gap-1" role="tablist">
-          {(['explore', 'game'] as const).map((id) => (
+        <div className="grid grid-cols-[1fr_1.4fr_1fr] gap-1" role="tablist">
+          {(['explore', 'game', 'mirror'] as const).map((id) => (
             <button key={id} role="tab" aria-selected={tab === id} onClick={() => { setTab(id); tts.stop(); }}
               className={`py-1.5 rounded-full text-sm font-bold ${tab === id ? 'bg-accent text-white' : 'bg-surface-alt text-fg'}`}>
-              {t(id === 'explore' ? 'sy_tab_explore' : 'sy_tab_game')}
+              {id === 'mirror' ? 'b d p q' : t(id === 'explore' ? 'sy_tab_explore' : 'sy_tab_game')}
             </button>
           ))}
         </div>
 
-        {tab === 'game' ? <Game key={lang} lang={lang} fams={fams} /> : open ? (
+        {tab === 'mirror' ? <Mirror key={lang} lang={lang} /> : tab === 'game' ? <Game key={lang} lang={lang} fams={fams} /> : open ? (
           <Card className="!p-4 space-y-4">
             <div className="flex items-center justify-between">
               <button onClick={() => setOpen(null)} className="text-sm font-bold text-accent">{t('tr_back_list')}</button>
@@ -141,6 +141,108 @@ function Game({ lang, fams }: { lang: Lang; fams: Family[] }) {
         })}
       </div>
       <p className="text-center font-bold min-h-[1.5rem]" aria-live="polite">{msg}</p>
+    </Card>
+  );
+}
+
+const shuffleArr = <T,>(a: T[]) => { const r = [...a]; for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; };
+type Mirror = (typeof MIRROR)[number];
+
+/**
+ * Mirror letters b d p q: find every b among the four (seeing), and fill the first letter of a word with a
+ * picture (seeing and hearing). The tip uses the stroke order of letter tracing: b, the stick first; d, the tummy first.
+ */
+function Mirror({ lang }: { lang: Lang }) {
+  const { t } = useI18n();
+  const [mode, setMode] = useState<'find' | 'missing'>('find');
+  const [mistakes, setMistakes] = useState(0);
+  const [round, setRound] = useState(0);
+  const [done, setDone] = useState(false);
+  const restart = (m = mode) => { setMode(m); setMistakes(0); setRound(0); setDone(false); };
+  return (
+    <div className="space-y-3">
+      <div className="flex justify-center">
+        <div className="flex rounded-full bg-surface-alt p-0.5" role="radiogroup">
+          {(['find', 'missing'] as const).map((m) => (
+            <button key={m} role="radio" aria-checked={mode === m} onClick={() => restart(m)}
+              className={`px-4 py-1 rounded-full text-sm font-bold ${mode === m ? 'bg-accent text-white' : 'text-fg'}`}>{t(m === 'find' ? 'mi_mode_find' : 'mi_mode_missing')}</button>
+          ))}
+        </div>
+      </div>
+      <p className="text-xs text-fg-muted text-center">{t('mi_tip')}</p>
+      {done ? (
+        <Card className="!p-5 text-center space-y-3">
+          <p className="font-heading font-extrabold text-xl" aria-live="polite">{mistakes === 1 ? t('mi_result_one') : mistakes ? t('mi_result', { n: mistakes }) : t('mi_perfect')} {mistakes ? '' : '🌟'}</p>
+          <Button fullWidth onClick={() => restart()}>{t('sy_again')}</Button>
+        </Card>
+      ) : mode === 'find' ? (
+        <FindRound key={`f${round}`} round={round} onMistake={() => setMistakes((x) => x + 1)} onDone={() => (round >= 4 ? setDone(true) : setRound(round + 1))} />
+      ) : (
+        <MissingRound key={`m${round}`} lang={lang} round={round} onMistake={() => setMistakes((x) => x + 1)} onDone={() => (round >= 7 ? setDone(true) : setRound(round + 1))} />
+      )}
+    </div>
+  );
+}
+
+function FindRound({ round, onMistake, onDone }: { round: number; onMistake: () => void; onDone: () => void }) {
+  const { t } = useI18n();
+  const [target] = useState<Mirror>(() => MIRROR[(round + Math.floor(Math.random() * 4)) % 4]);
+  const [cells] = useState<Mirror[]>(() => {
+    const n = 4 + Math.floor(Math.random() * 3);
+    const others = MIRROR.filter((x) => x !== target);
+    return shuffleArr([...Array(n).fill(target), ...Array.from({ length: 16 - n }, () => others[Math.floor(Math.random() * 3)])]);
+  });
+  const [found, setFound] = useState<Set<number>>(new Set());
+  const [wrong, setWrong] = useState<number | null>(null);
+  const left = cells.filter((c) => c === target).length - found.size;
+  const tap = (i: number) => {
+    if (found.has(i)) return;
+    if (cells[i] !== target) { setWrong(i); onMistake(); sounds.incorrect(); window.setTimeout(() => setWrong(null), 600); return; }
+    const next = new Set(found); next.add(i); setFound(next); sounds.click();
+    if (next.size === cells.filter((c) => c === target).length) { sounds.correct(); window.setTimeout(onDone, 700); }
+  };
+  return (
+    <Card className="!p-4 space-y-3">
+      <div>
+        <h2 className="font-heading font-extrabold text-xl">{t('mi_find_title', { x: target })}</h2>
+        <p className="text-xs font-bold text-fg-muted">{round + 1} / 5 · {t('mi_left', { n: left })}</p>
+      </div>
+      <div className="grid grid-cols-4 gap-2" data-testid="mi-grid">
+        {cells.map((c, i) => (
+          <button key={i} onClick={() => tap(i)} aria-pressed={found.has(i)}
+            data-letter={c}
+            className={`aspect-square rounded-2xl border-2 font-heading font-extrabold text-4xl ${found.has(i) ? 'bg-mint-pale border-mint' : wrong === i ? 'bg-red-pale border-red' : 'bg-bg-card border-border'}`}>{c}</button>
+        ))}
+      </div>
+    </Card>
+  );
+}
+
+function MissingRound({ lang, round, onMistake, onDone }: { lang: Lang; round: number; onMistake: () => void; onDone: () => void }) {
+  const { t } = useI18n();
+  const [word] = useState(() => { const list = MIRROR_WORDS[lang]; return list[(round * 5 + Math.floor(Math.random() * list.length)) % list.length]; });
+  const [picked, setPicked] = useState<string | null>(null);
+  const first = word[0][0];
+  useEffect(() => { tts.stop(); void tts.speak(word[0]); }, [word]);
+  const choose = (o: string) => {
+    if (picked === first) return;
+    setPicked(o);
+    if (o === first) { sounds.correct(); window.setTimeout(onDone, 1100); } else { sounds.incorrect(); onMistake(); }
+  };
+  return (
+    <Card className="!p-4 space-y-4 text-center">
+      <span className="text-sm font-bold block text-right">{round + 1} / 8</span>
+      <p className="text-6xl" aria-hidden>{word[1]}</p>
+      <button onClick={() => { tts.stop(); void tts.speak(word[0]); }} className="font-heading font-extrabold text-4xl tracking-wide" aria-label={`${t('mi_missing_intro')} 🔊`}>
+        <span className={`inline-block min-w-[1.2em] border-b-4 ${picked === first ? 'border-mint text-accent' : 'border-accent'}`}>{picked === first ? first : '\u00a0'}</span>{word[0].slice(1)} <span aria-hidden className="text-2xl">🔊</span>
+      </button>
+      <p className="text-sm">{t('mi_missing_intro')}</p>
+      <div className="grid grid-cols-4 gap-2" data-testid="mi-options">
+        {MIRROR.map((o) => (
+          <button key={o} onClick={() => choose(o)} disabled={picked === first}
+            className={`aspect-square rounded-2xl border-2 font-heading font-extrabold text-4xl ${picked === o ? (o === first ? 'bg-mint-pale border-mint' : 'bg-red-pale border-red') : 'bg-bg-card border-border'}`}>{o}</button>
+        ))}
+      </div>
     </Card>
   );
 }

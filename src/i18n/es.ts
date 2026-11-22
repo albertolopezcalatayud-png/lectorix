@@ -1366,6 +1366,17 @@ export const es = {
   sy_score: '{n} de {total} bien',
   sy_again: 'Jugar otra vez',
   sy_start: 'Empezar',
+
+  // Mirror letters b d p q (Syllables.tsx)
+  mi_mode_find: 'Busca',
+  mi_mode_missing: '¿Cuál falta?',
+  mi_tip: 'Pista: la b, primero el palo y luego la barriga; la d, primero la barriga y luego el palo.',
+  mi_find_title: 'Busca todas las «{x}»',
+  mi_left: 'quedan {n}',
+  mi_result_one: 'Terminado, con 1 fallo.',
+  mi_missing_intro: '¿Qué letra falta? Escucha la palabra.',
+  mi_result: 'Terminado, con {n} fallos.',
+  mi_perfect: '¡Perfecto, sin fallos!',
 } as const;
 
 export type TranslationKey = keyof typeof es;

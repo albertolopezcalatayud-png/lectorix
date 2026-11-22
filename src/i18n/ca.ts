@@ -1368,4 +1368,15 @@ export const ca: Record<TranslationKey, string> = {
   sy_score: '{n} de {total} bé',
   sy_again: 'Tornar a jugar',
   sy_start: 'Comença',
+
+  // Mirror letters b d p q (Syllables.tsx)
+  mi_mode_find: 'Busca',
+  mi_mode_missing: 'Quina falta?',
+  mi_tip: 'Pista: la b, primer el pal i després la panxa; la d, primer la panxa i després el pal.',
+  mi_find_title: 'Busca totes les «{x}»',
+  mi_left: 'en queden {n}',
+  mi_result_one: 'Acabat, amb 1 errada.',
+  mi_missing_intro: 'Quina lletra falta? Escolta la paraula.',
+  mi_result: 'Acabat, amb {n} errades.',
+  mi_perfect: 'Perfecte, sense cap errada!',
 };

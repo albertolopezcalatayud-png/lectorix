@@ -1368,4 +1368,15 @@ export const en: Record<TranslationKey, string> = {
   sy_score: '{n} out of {total} right',
   sy_again: 'Play again',
   sy_start: 'Start',
+
+  // Mirror letters b d p q (Syllables.tsx)
+  mi_mode_find: 'Find',
+  mi_mode_missing: 'Missing letter',
+  mi_tip: 'Tip: b is the stick first, then the tummy; d is the tummy first, then the stick.',
+  mi_find_title: 'Find every «{x}»',
+  mi_left: '{n} left',
+  mi_result_one: 'Finished, with 1 mistake.',
+  mi_missing_intro: 'Which letter is missing? Listen to the word.',
+  mi_result: 'Finished, with {n} mistakes.',
+  mi_perfect: 'Perfect, no mistakes!',
 };
