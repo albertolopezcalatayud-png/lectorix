@@ -10,6 +10,8 @@ import { fileURLToPath } from 'node:url';
 import { parseText } from '../../src/services/textModel';
 import { clipKey, clipText } from '../../src/services/clipKey';
 import { verbCards } from '../../src/data/examVerbs';
+import { syllableTexts } from '../../src/data/syllables';
+import { EXAMPLES } from '../../src/data/strokes';
 
 type Lang = 'es' | 'ca' | 'en';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..', 'src', 'data');
@@ -54,6 +56,12 @@ for (const [lang, dir] of EX) {
       add(lang, e.passage);
     }
   }
+}
+
+// Letters and syllables (Syllables.tsx) and the example words of letter tracing (Trace.tsx)
+for (const lang of ['es', 'ca', 'en'] as Lang[]) {
+  for (const t of syllableTexts(lang)) add(lang, t);
+  for (const [w] of Object.values(EXAMPLES[lang])) add(lang, w);
 }
 
 // Exam question verbs

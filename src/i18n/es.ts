@@ -1348,6 +1348,24 @@ export const es = {
   tr_add: 'Añadir',
   tr_word_bad: 'Solo letras, sin espacios (10 como máximo).',
   tr_remove: 'Quitar',
+
+  // Letters and syllables (Syllables.tsx)
+  sy_title: 'Letras y sílabas',
+  sy_card_desc: 'Cada letra con sus sílabas',
+  sy_tab_explore: 'Explora',
+  sy_tab_game: 'Escucha y toca',
+  sy_intro: 'Toca una letra para oír sus sílabas y una palabra que la lleva.',
+  sy_play_all: '▶ Todas seguidas',
+  sy_trace: '✏️ Trázala',
+  sy_game_intro: 'Escucha y toca la sílaba que has oído. Son 10.',
+  sy_game_intro_en: 'Escucha la palabra y toca la letra por la que empieza. Son 10.',
+  sy_replay: '🔊 Otra vez',
+  sy_round: '{n} de {total}',
+  sy_right: '¡Bien!',
+  sy_wrong: 'Era «{x}».',
+  sy_score: '{n} de {total} bien',
+  sy_again: 'Jugar otra vez',
+  sy_start: 'Empezar',
 } as const;
 
 export type TranslationKey = keyof typeof es;

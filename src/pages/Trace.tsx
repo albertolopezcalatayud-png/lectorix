@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type PointerEvent as RPointerEvent } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
@@ -79,6 +80,14 @@ export default function Trace() {
   }, [set, lang, style, mine, name]);
   const [stars, setStars] = useState<Stars>(readStars);
   const [idx, setIdx] = useState<number | null>(null);
+  // Coming from "Letters and syllables" with a letter: open it in the lowercase set
+  const wanted = (useLocation().state as { letter?: string } | null)?.letter;
+  useEffect(() => {
+    if (!wanted) return;
+    setSet('lower');
+    const i = traceSet('lower', lang).findIndex((g) => g.char === wanted);
+    if (i >= 0) setIdx(i);
+  }, [wanted, lang]);
   const glyph = idx === null ? null : glyphs[idx];
 
   const label = (g: Glyph) => (g.char ? g.char : t(patternKey(g)));

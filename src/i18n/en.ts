@@ -1350,4 +1350,22 @@ export const en: Record<TranslationKey, string> = {
   tr_add: 'Add',
   tr_word_bad: 'Letters only, no spaces (10 at most).',
   tr_remove: 'Remove',
+
+  // Letters and syllables (Syllables.tsx)
+  sy_title: 'Letters and words',
+  sy_card_desc: 'Each letter with a word',
+  sy_tab_explore: 'Explore',
+  sy_tab_game: 'Listen and tap',
+  sy_intro: 'Tap a letter to hear a word that starts with it.',
+  sy_play_all: '▶ All in a row',
+  sy_trace: '✏️ Trace it',
+  sy_game_intro: 'Listen and tap the syllable you heard. There are 10.',
+  sy_game_intro_en: 'Listen to the word and tap the letter it starts with. There are 10.',
+  sy_replay: '🔊 Again',
+  sy_round: '{n} of {total}',
+  sy_right: 'Well done!',
+  sy_wrong: 'It was «{x}».',
+  sy_score: '{n} out of {total} right',
+  sy_again: 'Play again',
+  sy_start: 'Start',
 };

@@ -52,6 +52,7 @@ const ReadingChallenge = lazy(() => import('@/pages/ReadingChallenge'));
 const ReadAloud = lazy(() => import('@/pages/ReadAloud'));
 const HowILearn = lazy(() => import('@/pages/HowILearn'));
 const Trace = lazy(() => import('@/pages/Trace'));
+const Syllables = lazy(() => import('@/pages/Syllables'));
 const FamilyGuide = lazy(() => import('@/pages/HowILearn').then((m) => ({ default: m.FamilyGuide })));
 
 function LoadingSpinner() {
@@ -109,6 +110,7 @@ function AnimatedRoutes() {
         <Route path="/cuentos" element={<PageTransition><Stories /></PageTransition>} />
         <Route path="/enunciados" element={<PageTransition><ExamWords /></PageTransition>} />
         <Route path="/redaccion" element={<PageTransition><Essay /></PageTransition>} />
+        <Route path="/silabas" element={<PageTransition><Syllables /></PageTransition>} />
         <Route path="/trazo" element={<PageTransition><Trace /></PageTransition>} />
         <Route path="/estudiar" element={<PageTransition><StudyNotes /></PageTransition>} />
       </Routes>

@@ -1350,4 +1350,22 @@ export const ca: Record<TranslationKey, string> = {
   tr_add: 'Afegeix',
   tr_word_bad: 'Només lletres, sense espais (10 com a màxim).',
   tr_remove: 'Lleva',
+
+  // Letters and syllables (Syllables.tsx)
+  sy_title: 'Lletres i síl·labes',
+  sy_card_desc: 'Cada lletra amb les seues síl·labes',
+  sy_tab_explore: 'Explora',
+  sy_tab_game: 'Escolta i toca',
+  sy_intro: 'Toca una lletra per a escoltar les seues síl·labes i una paraula que la porta.',
+  sy_play_all: '▶ Totes seguides',
+  sy_trace: '✏️ Traça-la',
+  sy_game_intro: 'Escolta i toca la síl·laba que has sentit. Són 10.',
+  sy_game_intro_en: 'Escolta la paraula i toca la lletra per la qual comença. Són 10.',
+  sy_replay: '🔊 Una altra vegada',
+  sy_round: '{n} de {total}',
+  sy_right: 'Molt bé!',
+  sy_wrong: 'Era «{x}».',
+  sy_score: '{n} de {total} bé',
+  sy_again: 'Tornar a jugar',
+  sy_start: 'Comença',
 };

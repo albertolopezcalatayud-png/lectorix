@@ -1,0 +1,66 @@
+// Letters and syllables (#/silabas): the letters, their syllables, the link to tracing and the listening game.
+// The voice is stubbed: every text the app says is recorded, so the test knows which syllable to tap.
+const { chromium } = require('playwright');
+(async () => {
+  const b = await chromium.launch();
+  const p = await b.newPage({ viewport: { width: 390, height: 800 } });
+  const errs = [];
+  p.on('pageerror', (e) => errs.push(e.message));
+  const ok = (c, m) => console.log((c ? 'PASS ' : 'FAIL ') + m);
+  await p.addInitScript(() => {
+    window.__said = [];
+    const real = window.speechSynthesis;
+    const fake = { speak: (u) => { window.__said.push(u.text); setTimeout(() => u.onend && u.onend(), 30); }, cancel: () => {}, getVoices: () => real.getVoices(), pause() {}, resume() {}, speaking: false, pending: false, addEventListener() {}, removeEventListener() {}, onvoiceschanged: null };
+    Object.defineProperty(window, 'speechSynthesis', { value: fake });
+  });
+  const setLang = (language) => p.evaluate((l) => { localStorage.setItem('lectorix-mode', 'solo'); localStorage.setItem('lectorix-store', JSON.stringify({ state: { onboardingDone: true, language: l, practiceLanguage: 'auto', schoolStage: 'p12', progress: [], sessionHistory: [] }, version: 0 })); }, language);
+  const said = () => p.evaluate(() => window.__said.slice());
+  await p.goto('http://localhost:4173/lectorix/'); await setLang('es'); await p.reload(); await p.waitForTimeout(1500);
+  ok((await p.getByText('Letras y sílabas').count()) > 0, 'dashboard shows Letters and syllables for 1.º-2.º');
+  await p.getByText('Letras y sílabas').first().click(); await p.waitForTimeout(1000);
+  ok(/#\/silabas$/.test(p.url()), 'the card opens #/silabas');
+  ok((await p.getByRole('button', { name: /^m: mano/ }).count()) === 1 && (await p.getByRole('button', { name: /^ll: llave/ }).count()) === 1, 'Spanish families: m (mano), ll (llave)');
+  await p.getByRole('button', { name: /^c: casa/ }).click(); await p.waitForTimeout(500);
+  const sylls = await p.locator('.grid-cols-5 button').allInnerTexts();
+  ok(sylls.join(' ') === 'ca que qui co cu', `c keeps its spelling: ${sylls.join(' ')}`);
+  await p.locator('.grid-cols-5 button').nth(1).click(); await p.waitForTimeout(300);
+  ok((await said()).includes('que'), 'tapping a syllable says it');
+  await p.getByRole('button', { name: /Todas seguidas/ }).click(); await p.waitForTimeout(1200);
+  const s = (await said()).join(' ');
+  ok(/ca que qui co cu$/.test(s), `▶ says the five in order (${s.slice(-30)})`);
+  await p.getByRole('button', { name: /Trázala/ }).click(); await p.waitForTimeout(900);
+  ok(/#\/trazo$/.test(p.url()) && (await p.locator('h2').innerText()) === 'c', 'Trace it opens the tracing of that letter');
+
+  // The game: 10 rounds; tap what was said
+  await p.goto('http://localhost:4173/lectorix/#/silabas'); await p.waitForTimeout(800);
+  await p.getByRole('tab', { name: 'Escucha y toca' }).click();
+  await p.getByRole('button', { name: 'Empezar' }).click();
+  let rounds = 0;
+  for (let i = 0; i < 10; i++) {
+    await p.waitForTimeout(250);
+    const last = (await said()).slice(-1)[0];
+    const opts = await p.locator('[data-testid=sy-options] button').allInnerTexts();
+    if (opts.length !== 4 || !opts.includes(last)) { console.log('round', i, last, opts); break; }
+    // first round answered wrong on purpose
+    await p.locator('.grid-cols-2 button', { hasText: new RegExp(`^${i === 0 ? opts.find((o) => o !== last) : last}$`) }).click();
+    if (i === 0) { await p.waitForTimeout(300); ok(/^Era «/.test(await p.locator('[aria-live=polite]').last().innerText()), 'a wrong answer shows the right one'); await p.waitForTimeout(1700); }
+    else await p.waitForTimeout(1000);
+    rounds++;
+  }
+  ok(rounds === 10, `10 rounds, each with 4 options and the said syllable among them (${rounds})`);
+  ok(/9 de 10 bien/.test(await p.locator('body').innerText()), 'the score counts 9 of 10');
+
+  // English: words and their first letter
+  await setLang('en'); await p.goto('http://localhost:4173/lectorix/#/silabas'); await p.reload(); await p.waitForTimeout(1200);
+  ok((await p.getByRole('button', { name: /^d: dog/ }).count()) === 1 && (await p.locator('.grid-cols-5').count()) === 0, 'English: letters with their word, no syllables');
+  await p.getByRole('tab', { name: 'Listen and tap' }).click(); await p.getByRole('button', { name: 'Start' }).click(); await p.waitForTimeout(400);
+  const w = (await said()).slice(-1)[0]; const opts = await p.locator('[data-testid=sy-options] button').allInnerTexts();
+  ok(opts.length === 4 && opts.includes(w[0]), `English game: hear «${w}», tap its first letter among ${opts.join(' ')}`);
+
+  // Valencian: ça ce ci ço çu and ny
+  await setLang('ca'); await p.goto('http://localhost:4173/lectorix/#/silabas'); await p.reload(); await p.waitForTimeout(1200);
+  await p.getByRole('button', { name: /^ç: braç/ }).click(); await p.waitForTimeout(300);
+  ok((await p.locator('.grid-cols-5 button').allInnerTexts()).join(' ') === 'ça ce ci ço çu', 'Valencian ç: ça ce ci ço çu');
+  ok(errs.length === 0, 'no page errors ' + errs.join(' | '));
+  await b.close();
+})();
