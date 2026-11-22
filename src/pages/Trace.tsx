@@ -10,6 +10,7 @@ import { cursiveWord } from '@/data/cursive';
 import { wordGlyph, type HandStyle } from '@/data/traceWords';
 import { samplePath, advance, verdict, startOk, isDot, RULES, type Pt, type Tracker } from '@/services/trace';
 import { printHtml } from '@/services/printDoc';
+import { traceRow } from '@/services/traceRows';
 import sounds from '@/services/sounds';
 import tts from '@/services/tts';
 
@@ -180,8 +181,8 @@ export default function Trace() {
   );
 }
 
-function Practice({ glyph, lang, label, stars, onStars, onList, onNext, isWord }: {
-  glyph: Glyph; lang: Lang; label: string; stars: number; onStars: (n: number) => void; onList: () => void; onNext?: () => void; isWord?: boolean;
+export function Practice({ glyph, lang, label, stars, onStars, onList, onNext, isWord }: {
+  glyph: Glyph; lang: Lang; label: string; stars: number; onStars: (n: number) => void; onList?: () => void; onNext?: () => void; isWord?: boolean;
 }) {
   const { t } = useI18n();
   const models = useMemo(() => glyph.strokes.map((d) => samplePath(d)), [glyph]);
@@ -304,7 +305,7 @@ function Practice({ glyph, lang, label, stars, onStars, onList, onNext, isWord }
   return (
     <div className="space-y-3">
       <div className="flex items-center justify-between gap-2">
-        <button onClick={onList} className="text-sm font-bold text-accent">{t('tr_back_list')}</button>
+        {onList ? <button onClick={onList} className="text-sm font-bold text-accent">{t('tr_back_list')}</button> : <span />}
         <h2 className="font-heading font-extrabold text-lg">{label}</h2>
         <span className="text-sm" aria-label={t('tr_stars', { n: stars })}>{[1, 2, 3].map((n) => (stars >= n ? '★' : '☆')).join('')}</span>
       </div>
@@ -351,10 +352,10 @@ function Practice({ glyph, lang, label, stars, onStars, onList, onNext, isWord }
         </button>
       )}
 
-      <div className="grid grid-cols-3 gap-2">
+      <div className={`grid gap-2 ${onNext || onList ? "grid-cols-3" : "grid-cols-2"}`}>
         <Button variant="secondary" size="sm" onClick={watch} disabled={!!demo}>{t('tr_watch')}</Button>
         <Button variant="secondary" size="sm" onClick={reset} disabled={!!demo}>{t('tr_clear')}</Button>
-        <Button size="sm" onClick={onNext ?? onList}>{onNext ? t('tr_next') : t('tr_back_list')}</Button>
+        {(onNext || onList) && <Button size="sm" onClick={onNext ?? onList}>{onNext ? t('tr_next') : t('tr_back_list')}</Button>}
       </div>
     </div>
   );
@@ -371,25 +372,7 @@ function highlight(word: string, ch: string) {
 /** Printable sheet: each model, then rows of dotted copies to trace on paper, with the start of each stroke */
 function printSheet(glyphs: Glyph[], lang: Lang) {
   const tl = getTranslator(lang);
-  const rowW = 600; // about 27 mm per 100 units on A4
-  const row = (g: Glyph, first: boolean) => {
-    const n = Math.max(1, Math.floor(rowW / (g.w + 12)));
-    let body = '';
-    for (let k = 0; k < n; k++) {
-      const x = k * (g.w + 12);
-      body += `<g transform="translate(${x} 0)">${g.strokes.map((d) => `<path d="${d}" fill="none" stroke="${first && k === 0 ? '#34437A' : '#6f7899'}" stroke-width="${first && k === 0 ? 3 : 2}" stroke-linecap="round" ${first && k === 0 ? '' : 'stroke-dasharray="0.1 2.6"'}/>`).join('')}`;
-      if (first && k === 0) {
-        g.strokes.forEach((d, i) => {
-          const m = /^M([\d.-]+) ([\d.-]+)/.exec(d);
-          if (m) body += `<circle cx="${m[1]}" cy="${m[2]}" r="4.2" fill="#3BB273"/><text x="${m[1]}" y="${+m[2] + 1.8}" font-size="5.2" text-anchor="middle" fill="#fff" font-weight="700">${i + 1}</text>`;
-        });
-      }
-      body += '</g>';
-    }
-    const lines = [LINES.top, LINES.mid, LINES.base, LINES.desc].map((y) => `<line x1="-6" x2="${rowW}" y1="${y}" y2="${y}" stroke="#c9cfe0" stroke-width="${y === LINES.base ? 0.8 : 0.4}"/>`).join('');
-    return `<svg viewBox="-8 -4 ${rowW + 12} 104" width="100%" style="display:block;margin:0 0 2mm">${lines}${body}</svg>`;
-  };
-  const items = glyphs.map((g) => `<div class="g">${row(g, true)}${row(g, false)}</div>`).join('');
+  const items = glyphs.map((g) => `<div class="g">${traceRow(g, true)}${traceRow(g, false)}</div>`).join('');
   const html = `<!doctype html><html lang="${lang === 'ca' ? 'ca-ES-valencia' : lang === 'en' ? 'en-GB' : 'es'}"><head><meta charset="utf-8"><title>${tl('tr_sheet_title')}</title>
 <style>@page{size:A4;margin:12mm}body{font-family:system-ui,sans-serif;color:#2b2b3a}h1{font-size:18pt;margin:0 0 2mm}.meta{display:flex;gap:10mm;font-size:11pt;margin-bottom:3mm}.meta span{flex:1;border-bottom:1px solid #999}p{font-size:11pt;margin:0 0 4mm}.g{break-inside:avoid;margin-bottom:4mm}</style></head>
 <body><h1>✏️ ${tl('tr_sheet_title')}</h1><div class="meta"><span>${tl('ws_name')}:</span><span>${tl('ws_date')}:</span></div><p>${tl('tr_sheet_hint')}</p>${items}</body></html>`;

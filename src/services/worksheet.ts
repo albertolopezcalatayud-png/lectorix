@@ -18,7 +18,7 @@ export interface SheetLabels {
 
 const LISTEN = /^(escucha|escolta|listen|¿qu[ée] (oyes|sonido)|qu[eè] (sents|sona)|oye|what (do you hear|sound))/i;
 
-const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+export const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const shuffle = <T,>(a: T[]) => { const r = [...a]; for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; };
 
 /** Can this exercise be done on paper without giving away the answer? */
@@ -46,7 +46,7 @@ export function pickForSheet(pool: Exercise[], count: number): Exercise[] {
   return [...order, ...rest].slice(0, count);
 }
 
-function itemHtml(e: Exercise, n: number, L: SheetLabels): { q: string; a: string } {
+export function itemHtml(e: Exercise, n: number, L: SheetLabels): { q: string; a: string } {
   const letters = 'abcdefgh';
   if (e.type === 'multiple_choice') {
     const passage = e.passage ? `<div class="passage">${esc(e.passage)}</div>` : '';
@@ -109,7 +109,17 @@ export function buildWorksheet(args: {
   const size = args.bigText ? 17 : 14.5;
   return `<!doctype html><html lang="${args.lang === 'ca' ? 'ca' : args.lang}"><head><meta charset="utf-8"><title>${esc(L.title)}</title>
 <style>
-  @page { size: A4; margin: 16mm 14mm; }
+${sheetCss(size)}</style></head><body>
+<header><h1>📚 ${esc(L.title)}</h1><div class="fields">${esc(L.name)}: ______________________<br>${esc(L.date)}: ____________</div></header>
+${sections}${reading}${dict}
+<div class="adult"><h2>👨‍👩‍👧 ${esc(L.forAdult)}</h2>${dictAdult}<h3>${esc(L.answers)}</h3><div class="ans">${answers.map((a) => `<div>${a}</div>`).join('')}</div></div>
+<footer>${esc(L.footer)}</footer>
+</body></html>`;
+}
+
+/** The styles of a paper sheet (also used by the classroom booklet) */
+export function sheetCss(size: number): string {
+  return `  @page { size: A4; margin: 16mm 14mm; }
   body { font-family: Verdana, Tahoma, Arial, sans-serif; font-size: ${size}pt; line-height: 1.65; letter-spacing: .02em; color: #222; margin: 0; }
   header { display: flex; justify-content: space-between; gap: 12px; border-bottom: 2px solid #34437a; padding-bottom: 6px; margin-bottom: 12px; }
   header h1 { font-size: 1.25em; margin: 0; color: #34437a; }
@@ -137,10 +147,5 @@ export function buildWorksheet(args: {
   .adult .ans div { break-inside: avoid; }
   footer { margin-top: 18px; font-size: .7em; color: #888; text-align: center; }
   .break-avoid { break-inside: auto; }
-</style></head><body>
-<header><h1>📚 ${esc(L.title)}</h1><div class="fields">${esc(L.name)}: ______________________<br>${esc(L.date)}: ____________</div></header>
-${sections}${reading}${dict}
-<div class="adult"><h2>👨‍👩‍👧 ${esc(L.forAdult)}</h2>${dictAdult}<h3>${esc(L.answers)}</h3><div class="ans">${answers.map((a) => `<div>${a}</div>`).join('')}</div></div>
-<footer>${esc(L.footer)}</footer>
-</body></html>`;
+`;
 }

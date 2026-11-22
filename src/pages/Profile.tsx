@@ -189,6 +189,13 @@ export default function Profile() {
             <span className="text-sm font-bold">{t(mode() === 'group' ? 'pf_zone' : 'pf_title')}</span>
             <span className="ml-auto text-fg-muted">→</span>
           </button>
+          <button
+            onClick={() => navigate('/aula')}
+            className="w-full text-left px-4 py-3 rounded-xl bg-bg-card border border-border flex items-center gap-3"
+          >
+            <span className="text-sm font-bold">{t('cl_link')}</span>
+            <span className="ml-auto text-fg-muted">→</span>
+          </button>
         </div>
       </div>
     </div>

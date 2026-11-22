@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
@@ -16,6 +17,7 @@ const fileName = (name: string) => `lectorix-${(name || 'perfil').toLowerCase().
 /** Students on this device: one space each, a summary of all of them, reports and copies. For adults. */
 export default function Profiles({ onExit }: { onExit?: () => void } = {}) {
   const { t, language } = useI18n();
+  const navigate = useNavigate();
   const user = useAppStore((s) => s.user);
   const [unlocked, setUnlocked] = useState(!hasPin());
   const [, bump] = useState(0);
@@ -75,6 +77,7 @@ export default function Profiles({ onExit }: { onExit?: () => void } = {}) {
       <Header title={title} showBack={!onExit} showXP={false} />
       <div className="px-4 py-4 max-w-lg wmd:max-w-3xl wlg:max-w-5xl mx-auto space-y-3">
         {onExit && <Button variant="secondary" fullWidth disabled={list.length === 0} onClick={onExit}>👋 {t('pf_to_picker')}</Button>}
+        <Button variant="secondary" fullWidth onClick={() => navigate('/aula')}>{t('cl_link')}</Button>
         <p className="text-sm text-fg-muted">{t(group ? 'pf_intro_group' : 'pf_intro')}</p>
         {group && list.length === 0 && <p className="text-sm font-bold rounded-xl bg-yellow-pale px-3 py-2">👇 {t('pf_first')}</p>}
         {msg && <p role="status" className="text-sm font-bold rounded-xl bg-mint-pale px-3 py-2">{msg}</p>}

@@ -122,6 +122,17 @@ export default function ParentPanel() {
           </div>
         </Card>
 
+        <Card hover onClick={() => navigate('/aula')}>
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">🧑‍🏫</span>
+            <div className="flex-1">
+              <h3 className="font-heading font-extrabold text-sm">{t('cl_title')}</h3>
+              <p className="text-xs text-fg-muted">{t('mode_teacher_desc')}</p>
+            </div>
+            <span className="text-accent font-extrabold">→</span>
+          </div>
+        </Card>
+
         <Card hover onClick={() => navigate('/fichas')}>
           <div className="flex items-center gap-3">
             <span className="text-2xl">🖨️</span>

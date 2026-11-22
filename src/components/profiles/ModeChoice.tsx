@@ -12,11 +12,11 @@ const LANGS = [
  * First screen, shown once to everyone (also after updating): is this device for one student,
  * or will an adult use it with several students? It can be changed later in Settings.
  */
-export function ModeChoice({ onChosen }: { onChosen: (m: Mode) => void }) {
+export function ModeChoice({ onChosen }: { onChosen: (m: Mode, teacher?: boolean) => void }) {
   const { t } = useI18n();
   const language = useAppStore((s) => s.language);
   const setLanguage = useAppStore((s) => s.setLanguage);
-  const choose = (m: Mode) => { setMode(m); onChosen(m); };
+  const choose = (m: Mode, teacher = false) => { setMode(m); onChosen(m, teacher); };
   return (
     <div className="min-h-screen bg-bg text-fg px-5 py-8 flex flex-col items-center justify-center">
       <div className="w-full max-w-sm space-y-5">
@@ -39,6 +39,13 @@ export function ModeChoice({ onChosen }: { onChosen: (m: Mode) => void }) {
           <span>
             <span className="block font-heading font-extrabold text-lg">{t('mode_group')}</span>
             <span className="block text-sm text-fg-muted">{t('mode_group_desc')}</span>
+          </span>
+        </button>
+        <button onClick={() => choose('group', true)} className="w-full text-left rounded-3xl border border-border bg-bg-card px-5 py-4 flex items-center gap-4 focus-visible:ring-2 focus-visible:ring-accent">
+          <span className="text-4xl" aria-hidden>📒</span>
+          <span>
+            <span className="block font-heading font-extrabold text-lg">{t('mode_teacher')}</span>
+            <span className="block text-sm text-fg-muted">{t('mode_teacher_desc')}</span>
           </span>
         </button>
         <p className="text-xs text-fg-muted text-center">{t('mode_change_later')}</p>

@@ -94,7 +94,7 @@ function Highlight({ word, part }: { word: string; part: string }) {
   return <span>{word.slice(0, i)}<span className="text-accent underline decoration-2 underline-offset-4">{word.slice(i, i + part.length)}</span>{word.slice(i + part.length)}</span>;
 }
 
-function Game({ lang, fams }: { lang: Lang; fams: Family[] }) {
+export function Game({ lang, fams, onFinish }: { lang: Lang; fams: Family[]; onFinish?: (right: number, total: number) => void }) {
   const { t } = useI18n();
   const [rounds, setRounds] = useState<Round[] | null>(null);
   const [n, setN] = useState(0);
@@ -113,6 +113,7 @@ function Game({ lang, fams }: { lang: Lang; fams: Family[] }) {
   };
   const total = rounds?.length ?? ROUNDS;
   const finished = rounds && n >= rounds.length;
+  useEffect(() => { if (finished) onFinish?.(right, total); }, [finished]); // eslint-disable-line react-hooks/exhaustive-deps
   const msg = useMemo(() => (!r || !picked ? '' : picked === r.answer ? t('sy_right') : t('sy_wrong', { x: r.answer })), [r, picked, t]);
 
   if (!rounds || finished) {
@@ -152,23 +153,24 @@ type Mirror = (typeof MIRROR)[number];
  * Mirror letters b d p q: find every b among the four (seeing), and fill the first letter of a word with a
  * picture (seeing and hearing). The tip uses the stroke order of letter tracing: b, the stick first; d, the tummy first.
  */
-function Mirror({ lang }: { lang: Lang }) {
+export function Mirror({ lang, only, onFinish }: { lang: Lang; only?: 'find' | 'missing'; onFinish?: (mistakes: number) => void }) {
   const { t } = useI18n();
-  const [mode, setMode] = useState<'find' | 'missing'>('find');
+  const [mode, setMode] = useState<'find' | 'missing'>(only ?? 'find');
   const [mistakes, setMistakes] = useState(0);
   const [round, setRound] = useState(0);
   const [done, setDone] = useState(false);
   const restart = (m = mode) => { setMode(m); setMistakes(0); setRound(0); setDone(false); };
+  useEffect(() => { if (done) onFinish?.(mistakes); }, [done]); // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <div className="space-y-3">
-      <div className="flex justify-center">
+      {!only && <div className="flex justify-center">
         <div className="flex rounded-full bg-surface-alt p-0.5" role="radiogroup">
           {(['find', 'missing'] as const).map((m) => (
             <button key={m} role="radio" aria-checked={mode === m} onClick={() => restart(m)}
               className={`px-4 py-1 rounded-full text-sm font-bold ${mode === m ? 'bg-accent text-white' : 'text-fg'}`}>{t(m === 'find' ? 'mi_mode_find' : 'mi_mode_missing')}</button>
           ))}
         </div>
-      </div>
+      </div>}
       <p className="text-xs text-fg-muted text-center">{t('mi_tip')}</p>
       {done ? (
         <Card className="!p-5 text-center space-y-3">
@@ -257,12 +259,14 @@ function pickBuild(lang: Lang) {
   return [...shuffleArr(simple).slice(0, 4), ...shuffleArr(rest).slice(0, 4)];
 }
 
-function Build({ lang }: { lang: Lang }) {
+export function Build({ lang, onFinish }: { lang: Lang; onFinish?: (mistakes: number) => void }) {
   const { t } = useI18n();
   const [words, setWords] = useState(() => pickBuild(lang));
   const [n, setN] = useState(0);
   const [mistakes, setMistakes] = useState(0);
-  if (n >= words.length) {
+  const over = n >= words.length;
+  useEffect(() => { if (over) onFinish?.(mistakes); }, [over]); // eslint-disable-line react-hooks/exhaustive-deps
+  if (over) {
     return (
       <Card className="!p-5 text-center space-y-3">
         <p className="font-heading font-extrabold text-xl" aria-live="polite">{mistakes === 1 ? t('mi_result_one') : mistakes ? t('mi_result', { n: mistakes }) : t('mi_perfect')} {mistakes ? '' : '🌟'}</p>

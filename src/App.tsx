@@ -53,6 +53,9 @@ const ReadAloud = lazy(() => import('@/pages/ReadAloud'));
 const HowILearn = lazy(() => import('@/pages/HowILearn'));
 const Trace = lazy(() => import('@/pages/Trace'));
 const Syllables = lazy(() => import('@/pages/Syllables'));
+const Listen = lazy(() => import('@/pages/Listen'));
+const Deber = lazy(() => import('@/pages/Deber'));
+const Classroom = lazy(() => import('@/pages/Classroom'));
 const FamilyGuide = lazy(() => import('@/pages/HowILearn').then((m) => ({ default: m.FamilyGuide })));
 
 function LoadingSpinner() {
@@ -110,6 +113,8 @@ function AnimatedRoutes() {
         <Route path="/cuentos" element={<PageTransition><Stories /></PageTransition>} />
         <Route path="/enunciados" element={<PageTransition><ExamWords /></PageTransition>} />
         <Route path="/redaccion" element={<PageTransition><Essay /></PageTransition>} />
+        <Route path="/aula" element={<PageTransition><Classroom /></PageTransition>} />
+        <Route path="/deber/:code" element={<PageTransition><Deber /></PageTransition>} />
         <Route path="/silabas" element={<PageTransition><Syllables /></PageTransition>} />
         <Route path="/trazo" element={<PageTransition><Trace /></PageTransition>} />
         <Route path="/estudiar" element={<PageTransition><StudyNotes /></PageTransition>} />
@@ -168,6 +173,17 @@ export default function App() {
     }
   }, []);
 
+  // Opened from a QR code of the classroom material (a dictation, a reading, a homework strip): straight to it,
+  // on any phone, without the welcome screens or choosing a profile. Only what to open is in the link.
+  const [hash, setHash] = useState(() => window.location.hash);
+  useEffect(() => { const f = () => setHash(window.location.hash); window.addEventListener('hashchange', f); return () => window.removeEventListener('hashchange', f); }, []);
+  const fromQr = /^#\/(escucha|deber)\/(es|ca|en)?/.exec(hash);
+  const qrLang = (fromQr?.[2] ?? 'es') as 'es' | 'ca' | 'en';
+  useEffect(() => {
+    // a device that has not been set up shows the material in the language of the material
+    if (fromQr?.[2] && !useAppStore.getState().onboardingDone) useAppStore.getState().setLanguage(qrLang);
+  }, [fromQr?.[2]]); // eslint-disable-line react-hooks/exhaustive-deps
+
   // Several students on this device: ask who is going to practise (services/profiles.ts)
   const [mode, setModeState] = useState(deviceMode);
   // The adults' zone on a device for several students; it opens by itself while there are no students yet
@@ -179,9 +195,36 @@ export default function App() {
     const name = activeProfile()?.name;
     if (user && !user.display_name && name) useAppStore.getState().setUser({ ...user, display_name: name });
   }, [user]);
+  // listening is always on its own screen; a homework opens inside the app when the device is already set up
+  if (fromQr && (fromQr[1] === 'escucha' || !(mode && !zone && !picking && onboardingDone))) {
+    setSpeechLang(qrLang);
+    return (
+      <HashRouter>
+        <Suspense fallback={<LoadingSpinner />}>
+          <Routes>
+            <Route path="/escucha/:lang/:kind/:ids" element={<Listen />} />
+            <Route path="/deber/:code" element={<Deber />} />
+          </Routes>
+        </Suspense>
+      </HashRouter>
+    );
+  }
   // Asked once to everyone: is this device for one student or for several? (services/profiles.ts)
-  if (!mode) return <ModeChoice onChosen={(m) => { setModeState(m); if (m === 'group') { setZone(true); setPicking(true); } }} />;
-  if (zone) return <HashRouter><Suspense fallback={<LoadingSpinner />}><Profiles onExit={() => { setZone(false); setPicking(true); }} /></Suspense></HashRouter>;
+  if (!mode) return <ModeChoice onChosen={(m, teacher) => { if (teacher) window.location.hash = '#/aula'; setModeState(m); if (m === 'group') { setZone(true); setPicking(true); } }} />;
+  if (zone) {
+    const exit = () => { setZone(false); setPicking(true); window.location.hash = '#/'; };
+    return (
+      <HashRouter>
+        <Suspense fallback={<LoadingSpinner />}>
+          <Routes>
+            <Route path="/aula" element={<Classroom />} />
+            <Route path="/deber/:code" element={<Deber />} />
+            <Route path="*" element={<Profiles onExit={exit} />} />
+          </Routes>
+        </Suspense>
+      </HashRouter>
+    );
+  }
   if (picking) return <ProfilePicker onDone={() => setPicking(false)} onZone={() => setZone(true)} />;
 
   if (!onboardingDone) {
