@@ -12,7 +12,6 @@
     { "id": "kk-lewis", "name": "Lewis", "engine": "kokoro", "speaker": "bm_lewis", "license": "Apache 2.0", "credit": "Kokoro-82M (hexgrad), Apache 2.0; voice «bm_lewis»" },
     { "id": "kk-isabella", "name": "Isabella", "engine": "kokoro", "speaker": "bf_isabella", "license": "Apache 2.0", "credit": "Kokoro-82M (hexgrad), Apache 2.0; voice «bf_isabella»" },
     { "id": "kk-fable", "name": "Fable", "engine": "kokoro", "speaker": "bm_fable", "license": "Apache 2.0", "credit": "Kokoro-82M (hexgrad), Apache 2.0; voice «bm_fable»" },
-    { "id": "kk-lily", "name": "Lily", "engine": "kokoro", "speaker": "bf_lily", "license": "Apache 2.0", "credit": "Kokoro-82M (hexgrad), Apache 2.0; voice «bf_lily»" },
     { "id": "kk-alice", "name": "Alice", "engine": "kokoro", "speaker": "bf_alice", "license": "Apache 2.0", "credit": "Kokoro-82M (hexgrad), Apache 2.0; voice «bf_alice»" }
   ]
 }

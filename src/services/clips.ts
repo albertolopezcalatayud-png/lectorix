@@ -80,16 +80,6 @@ function manifest(lang: Lang): Promise<{ voice: string | null; items: Set<string
   }
   return manifests[lang]!;
 }
-/** Voices that stretch the first sound of a word said on its own (measured: 77-88 % recognised against 92-98 %) */
-const WEAK_ON_WORDS = new Set(['kk-lily']);
-const otherManifests: Record<string, Promise<Set<string>>> = {};
-function voiceItems(lang: Lang, voice: string): Promise<Set<string>> {
-  const k = `${lang}/${voice}`;
-  otherManifests[k] ??= cachedFetch(`${base()}${k}/manifest.json`)
-    .then(async (r) => new Set(Object.keys(((r ? await r.json() : {}) as { items?: Record<string, 1> }).items ?? {})))
-    .catch(() => new Set<string>());
-  return otherManifests[k];
-}
 /** Start loading the list of clips for a language (cheap; called when the language is chosen) */
 export function preloadClips(lang: string) { if (lang === 'es' || lang === 'ca' || lang === 'en') void manifest(lang); }
 
@@ -130,12 +120,7 @@ export async function playClip(
 ): Promise<{ interrupted: boolean } | null> {
   if (!(await hasClip(lang, text))) return null;
   const key = clipKey(lang, text);
-  let voice = (await manifest(lang as Lang)).voice;
-  // A voice that is hard to understand on single words (Lily): a word or syllable on its own is said by the first dictation voice
-  if (voice && WEAK_ON_WORDS.has(voice) && !/\s/.test(text.trim())) {
-    const other = DICTATION_VOICES[lang as Lang]?.[0];
-    if (other && (await voiceItems(lang as Lang, other)).has(key)) voice = other;
-  }
+  const voice = (await manifest(lang as Lang)).voice;
   const dir = `${base()}${lang}/${voice}/`;
   const [audioRes, timingRes] = await Promise.all([
     cachedFetch(`${dir}${key}.mp3`),
@@ -179,8 +164,6 @@ export type DictationPace = 'slow' | 'slower';
  * Mar and Pau), so the children get used to more than one voice. The same text always gets the same voice (repeating it does
  * not change the voice). Other languages use the family's chosen voice.
  */
-// Lily is left out of the dictation: on single words she stretches the first sound (a long noisy burst before the vowel)
-// and is the hardest to understand (77-88 % recognised against 92-98 % for the others). She still reads the texts.
 const DICTATION_VOICES: Partial<Record<Lang, string[]>> = { es: ['davefx', 'sharvard'], ca: ['mx-pol', 'mx-mar', 'mx-pau'], en: ['kk-lewis', 'kk-isabella', 'kk-fable', 'kk-alice'] };
 // In the Android app the dictation clips of these voices come inside the app (audio_pack), so dictation works
 // offline from the first day; audio/dictation.json lists the voices that came with it.

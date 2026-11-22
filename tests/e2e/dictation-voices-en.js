@@ -1,4 +1,4 @@
-// English dictation plays the Kokoro clips recorded slowly and alternates the five dictation voices (Lewis, Isabella, Fable, Alice; not Lily).
+// English dictation plays the Kokoro clips recorded slowly and alternates the four English voices (Lewis, Isabella, Fable, Alice).
 // Needs the audio in the preview: git archive origin/audio voices.json en | tar -x -C dist/audio
 const { chromium } = require('playwright');
 (async () => {

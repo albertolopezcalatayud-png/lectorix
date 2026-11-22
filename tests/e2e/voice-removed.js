@@ -1,5 +1,5 @@
-// A family that chose Lily keeps her for texts, but a word said on its own (letters and words, tracing examples)
-// is played by the first dictation voice: Lily stretches the first sound of single words.
+// Lily was removed from the app. A family that had chosen her gets the first English voice (Lewis), and her
+// clips are never asked for.
 const { chromium } = require('playwright');
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 390, height: 800 } });
@@ -13,6 +13,6 @@ const { chromium } = require('playwright');
   });
   await p.goto('http://localhost:4173/lectorix/#/silabas'); await p.reload(); await p.waitForTimeout(1500);
   await p.getByRole('button', { name: /^d: dog/ }).click(); await p.waitForTimeout(1200);
-  ok(reqs.length > 0 && reqs.every((u) => u.startsWith('en/kk-lewis/')), `a single word is played by Lewis, not Lily (${reqs.join(' ')})`);
+  ok(reqs.length > 0 && reqs.every((u) => u.startsWith('en/kk-lewis/')), `with Lily chosen before, Lewis speaks (${reqs.join(' ')})`);
   await b.close();
 })();
