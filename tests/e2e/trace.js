@@ -59,14 +59,14 @@ const { chromium } = require('playwright');
   await p.getByRole('button', { name: /^a,/ }).click(); await p.waitForTimeout(500);
   const circle = await p.evaluate(() => {
     // the first model stroke of a, as drawn on the pad (guide path)
-    return document.querySelectorAll('[data-testid=trace-pad] path[stroke-width="9"]')[0].getAttribute('d');
+    return document.querySelectorAll('[data-testid=trace-pad] path[data-guide]')[0].getAttribute('d');
   });
   const C = await modelPts(circle);
   await drag([C[0], ...C.slice(1).reverse()]);
   ok(!/Ahora el trazo 2/.test(await msg()), 'the circle the wrong way round is not accepted');
   await drag(C);
   ok(/Ahora el trazo 2/.test(await msg()), 'the circle the right way round is accepted, now stroke 2');
-  const stick = await p.evaluate(() => document.querySelectorAll('[data-testid=trace-pad] path[stroke-width="9"]')[1].getAttribute('d'));
+  const stick = await p.evaluate(() => document.querySelectorAll('[data-testid=trace-pad] path[data-guide]')[1].getAttribute('d'));
   await drag(await modelPts(stick));
   ok(/Muy bien/.test(await msg()), 'the stick finishes the a');
 
@@ -84,7 +84,7 @@ const { chromium } = require('playwright');
   await p.getByRole('button', { name: /Mira cómo se hace/ }).click(); await p.waitForTimeout(700);
   ok((await p.locator('[data-testid=trace-pad] circle[fill="var(--color-coral)"]').count()) === 1, 'watch shows the moving dot');
   await p.waitForTimeout(2500);
-  const waves = await p.evaluate(() => document.querySelector('[data-testid=trace-pad] path[stroke-width="9"]').getAttribute('d'));
+  const waves = await p.evaluate(() => document.querySelector('[data-testid=trace-pad] path[data-guide]').getAttribute('d'));
   await drag(await modelPts(waves));
   ok(/Muy bien/.test(await msg()), 'the waves can be traced');
 
@@ -93,6 +93,44 @@ const { chromium } = require('playwright');
   const [popup] = await Promise.all([p.waitForEvent('popup'), p.getByRole('button', { name: /Ficha para imprimir/ }).click()]);
   await popup.waitForLoadState(); const html = await popup.content();
   ok(/Ficha de trazo/.test(html) && (html.match(/<svg/g) || []).length === 20, `the sheet has two rows per pattern (${(html.match(/<svg/g) || []).length} rows)`);
+
+  // Joined handwriting and words. Traces every stroke of the guide in order (dots are taps).
+  const traceAll = async () => {
+    const ds = await p.evaluate(() => [...document.querySelectorAll('[data-testid=trace-pad] path[data-guide]')].map((e) => e.getAttribute('d')));
+    for (const d of ds) {
+      const pts = await modelPts(d);
+      const len = Math.hypot(pts[pts.length - 1][0] - pts[0][0], pts[pts.length - 1][1] - pts[0][1]);
+      if (pts.length <= 2 && len < 3) { await p.mouse.click(pts[0][0], pts[0][1]); await p.waitForTimeout(200); } else await drag(pts);
+    }
+    return ds.length;
+  };
+  await p.evaluate(() => { const s = JSON.parse(localStorage.getItem('lectorix-store')); s.state.user = { display_name: 'Sofía', total_xp: 0 }; localStorage.setItem('lectorix-store', JSON.stringify(s)); });
+  await p.reload(); await p.waitForTimeout(1200);
+  await p.getByRole('tab', { name: 'minúsculas' }).click();
+  await p.getByRole('radio', { name: 'Ligada' }).click(); await p.waitForTimeout(300);
+  ok((await p.locator('button[aria-label^="a,"] svg').count()) === 1, 'joined letters are shown as drawings');
+  await p.getByRole('button', { name: /^a,/ }).click(); await p.waitForTimeout(400);
+  ok(await traceAll() === 1, 'the joined a is one stroke (with its lead-in)');
+  ok(/Muy bien/.test(await msg()), 'the joined a can be traced');
+  await p.getByRole('button', { name: /‹ Todas/ }).first().click();
+  await p.getByRole('tab', { name: 'Palabras' }).click(); await p.waitForTimeout(300);
+  ok((await p.getByRole('radio', { name: 'Ligada' }).getAttribute('aria-checked')) === 'true', 'the handwriting choice is remembered');
+  const first = await p.locator('.grid.gap-2 button[aria-label]').first().getAttribute('aria-label');
+  ok(/^Sofía,/.test(first), `the child's name comes first (${first})`);
+  await p.getByRole('button', { name: /^Sofía,/ }).click(); await p.waitForTimeout(400);
+  const n = await traceAll();
+  ok(n === 3 && /Muy bien/.test(await msg()), `Sofía in joined handwriting: print S, the joined word and the accent (${n} strokes)`);
+  await p.getByRole('button', { name: /‹ Todas/ }).first().click();
+  await p.getByRole('textbox', { name: 'Añade una palabra' }).fill('dos palabras'); await p.getByRole('button', { name: 'Añadir' }).click();
+  ok((await p.getByRole('alert').count()) === 1, 'two words are not accepted');
+  await p.getByRole('textbox', { name: 'Añade una palabra' }).fill('pez'); await p.getByRole('button', { name: 'Añadir' }).click(); await p.waitForTimeout(200);
+  ok((await p.getByRole('button', { name: /^pez,/ }).count()) === 1, 'an added word appears');
+  await p.getByRole('radio', { name: 'Imprenta' }).click(); await p.waitForTimeout(200);
+  await p.getByRole('button', { name: /^pez,/ }).click(); await p.waitForTimeout(400);
+  ok(await traceAll() === 4 && /Muy bien/.test(await msg()), 'pez in print: p (2 strokes), e, z');
+  await p.getByRole('button', { name: /‹ Todas/ }).first().click();
+  await p.getByRole('button', { name: 'Quitar pez' }).click(); await p.waitForTimeout(200);
+  ok((await p.getByRole('button', { name: /^pez,/ }).count()) === 0, 'an added word can be removed');
 
   // English: different examples, no ñ
   await p.evaluate(() => { const s = JSON.parse(localStorage.getItem('lectorix-store')); s.state.language = 'en'; localStorage.setItem('lectorix-store', JSON.stringify(s)); });

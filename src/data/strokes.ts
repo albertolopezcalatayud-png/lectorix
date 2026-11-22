@@ -161,3 +161,30 @@ export const EXAMPLES: Record<Lang, Record<string, [string, string]>> = {
   ca: { a: ['abella', '🐝'], b: ['barca', '⛵'], c: ['casa', '🏠'], ç: ['braç', '💪'], d: ['dau', '🎲'], e: ['estrela', '⭐'], f: ['foca', '🦭'], g: ['gat', '🐱'], h: ['hipopòtam', '🦛'], i: ['illa', '🏝️'], j: ['joguet', '🧸'], k: ['kiwi', '🥝'], l: ['lluna', '🌙'], m: ['mà', '✋'], n: ['núvol', '☁️'], o: ['ós', '🐻'], p: ['poma', '🍎'], q: ['quadern', '📓'], r: ['ratolí', '🐭'], s: ['sol', '☀️'], t: ['tomaca', '🍅'], u: ['ull', '👁️'], v: ['vaca', '🐄'], w: ['wifi', '📶'], x: ['xocolate', '🍫'], y: ['ioió', '🪀'], z: ['zebra', '🦓'] },
   en: { a: ['apple', '🍎'], b: ['ball', '⚽'], c: ['cat', '🐱'], d: ['dog', '🐶'], e: ['egg', '🥚'], f: ['fish', '🐟'], g: ['goat', '🐐'], h: ['hat', '🎩'], i: ['insect', '🐞'], j: ['juice', '🧃'], k: ['kite', '🪁'], l: ['lion', '🦁'], m: ['moon', '🌙'], n: ['nose', '👃'], o: ['octopus', '🐙'], p: ['pig', '🐷'], q: ['queen', '👑'], r: ['rabbit', '🐰'], s: ['sun', '☀️'], t: ['tree', '🌳'], u: ['umbrella', '☂️'], v: ['van', '🚐'], w: ['whale', '🐳'], x: ['fox', '🦊'], y: ['yo-yo', '🪀'], z: ['zebra', '🦓'] },
 };
+
+/** Accent strokes over a print letter, centred on it (lowercase: over the x-height; capitals: over the top) */
+const PRINT_ACCENT: Record<string, [string, 'acute' | 'grave' | 'diaeresis']> = {
+  á: ['a', 'acute'], é: ['e', 'acute'], í: ['i', 'acute'], ó: ['o', 'acute'], ú: ['u', 'acute'],
+  à: ['a', 'grave'], è: ['e', 'grave'], ò: ['o', 'grave'], ü: ['u', 'diaeresis'], ï: ['i', 'diaeresis'],
+  Á: ['A', 'acute'], É: ['E', 'acute'], Í: ['I', 'acute'], Ó: ['O', 'acute'], Ú: ['U', 'acute'], À: ['A', 'grave'], È: ['E', 'grave'], Ò: ['O', 'grave'],
+};
+function accentStrokes(kind: 'acute' | 'grave' | 'diaeresis', cx: number, upper: boolean): string[] {
+  const y = upper ? 0 : 28;
+  if (kind === 'acute') return [line(cx - 3, y + 7, cx + 3, y)];
+  if (kind === 'grave') return [line(cx - 3, y, cx + 3, y + 7)];
+  return [dot(cx - 5, y + 3), dot(cx + 5, y + 3)];
+}
+/** The glyph of one print character (letters, accented vowels, digits), or null */
+export function printChar(ch: string): Glyph | null {
+  if (L[ch]) return L[ch];
+  if (U[ch]) return U[ch];
+  if (D[ch]) return D[ch];
+  const acc = PRINT_ACCENT[ch];
+  if (!acc) return null;
+  const base = L[acc[0]] ?? U[acc[0]];
+  // an accent on i replaces its dot
+  const strokes = acc[0] === 'i' ? base.strokes.slice(0, 1) : base.strokes;
+  const cx = acc[0] === 'i' ? 12 : base.w / 2 - (acc[0] === 'a' || acc[0] === 'd' ? 2 : 0);
+  return { id: `p-${ch}`, char: ch, w: base.w, strokes: [...strokes, ...accentStrokes(acc[1], cx, acc[0] !== acc[0].toLowerCase())] };
+}
+export const printable = (word: string) => [...word].every((c) => printChar(c));

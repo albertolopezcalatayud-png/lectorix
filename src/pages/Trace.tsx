@@ -2,9 +2,11 @@ import { useCallback, useEffect, useMemo, useRef, useState, type PointerEvent as
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
-import { usePracticeLang } from '@/stores/useAppStore';
+import { useAppStore, usePracticeLang } from '@/stores/useAppStore';
 import { useI18n, getTranslator, type TranslationKey } from '@/i18n';
 import { traceSet, EXAMPLES, LINES, type Glyph, type TraceSet, type Lang } from '@/data/strokes';
+import { cursiveWord } from '@/data/cursive';
+import { wordGlyph, type HandStyle } from '@/data/traceWords';
 import { samplePath, advance, verdict, startOk, isDot, RULES, type Pt, type Tracker } from '@/services/trace';
 import { printHtml } from '@/services/printDoc';
 import sounds from '@/services/sounds';
@@ -14,12 +16,20 @@ const STORE = 'lectorix-trace';
 type Stars = Record<string, number>;
 const readStars = (): Stars => { try { return JSON.parse(localStorage.getItem(STORE) || '{}') as Stars; } catch { return {}; } };
 const writeStars = (s: Stars) => { try { localStorage.setItem(STORE, JSON.stringify(s)); } catch { /* storage unavailable */ } };
+const read = <T,>(k: string, fallback: T): T => { try { const v = localStorage.getItem(k); return v ? (JSON.parse(v) as T) : fallback; } catch { return fallback; } };
+const write = (k: string, v: unknown) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* storage unavailable */ } };
+const STYLE_KEY = 'lectorix-trace-style';   // print or joined handwriting: what the child's school teaches
+const WORDS_KEY = 'lectorix-trace-words';   // words the family added
+type SetId = TraceSet | 'words';
 
 // Short labels a child who cannot read yet still recognises; the full name is for screen readers
-const SETS: { id: TraceSet; key: TranslationKey; short?: string }[] = [
+const SETS: { id: SetId; key: TranslationKey; short?: string }[] = [
   { id: 'patterns', key: 'tr_set_patterns' }, { id: 'lower', key: 'tr_set_lower', short: 'abc' },
   { id: 'upper', key: 'tr_set_upper', short: 'ABC' }, { id: 'digits', key: 'tr_set_digits', short: '123' },
+  { id: 'words', key: 'tr_set_words' },
 ];
+/** A word is accepted if it can be drawn in the chosen style (letters only, 10 at most) */
+const WORD_RE = /^[\p{L}·]{1,10}$/u;
 const STEPS = ['trace', 'dots', 'alone'] as const;
 type Step = (typeof STEPS)[number];
 const STEP_KEY: Record<Step, TranslationKey> = { trace: 'tr_step_trace', dots: 'tr_step_dots', alone: 'tr_step_alone' };
@@ -50,22 +60,46 @@ function Arrow({ pts }: { pts: Pt[] }) {
 export default function Trace() {
   const { t } = useI18n();
   const lang = usePracticeLang() as Lang;
-  const [set, setSet] = useState<TraceSet>('patterns');
-  const glyphs = useMemo(() => traceSet(set, lang), [set, lang]);
+  const [set, setSet] = useState<SetId>('patterns');
+  const [style, setStyleState] = useState<HandStyle>(() => read<HandStyle>(STYLE_KEY, 'print'));
+  const setStyle = (v: HandStyle) => { setStyleState(v); write(STYLE_KEY, v); };
+  const [mine, setMine] = useState<string[]>(() => read<string[]>(WORDS_KEY, []));
+  const [draft, setDraft] = useState('');
+  const [bad, setBad] = useState(false);
+  const name = useAppStore((s) => s.user?.display_name?.trim() ?? '');
+  const glyphs = useMemo<Glyph[]>(() => {
+    if (set === 'words') {
+      const examples = Object.values(EXAMPLES[lang]).map(([w]) => w).filter((w) => w.length <= 6 && !w.includes('-'));
+      const list = [...new Set([...(name ? [name] : []), ...mine, ...examples])];
+      return list.map((w) => wordGlyph(w, style)).filter((g): g is Glyph => !!g);
+    }
+    const base = traceSet(set, lang);
+    if (set === 'lower' && style === 'cursive') return base.map((g) => cursiveWord(g.char)).filter((g): g is Glyph => !!g);
+    return base;
+  }, [set, lang, style, mine, name]);
   const [stars, setStars] = useState<Stars>(readStars);
   const [idx, setIdx] = useState<number | null>(null);
   const glyph = idx === null ? null : glyphs[idx];
 
   const label = (g: Glyph) => (g.char ? g.char : t(patternKey(g)));
+  // Print letters and numbers show as text; patterns, joined letters and words as a small drawing
+  const asText = (g: Glyph) => !!g.char && set !== 'words' && !(set === 'lower' && style === 'cursive');
+  const addWord = () => {
+    const w = draft.trim();
+    if (!WORD_RE.test(w) || !wordGlyph(w, style)) { setBad(true); return; }
+    const next = [w, ...mine.filter((x) => x !== w)].slice(0, 12);
+    setMine(next); write(WORDS_KEY, next); setDraft(''); setBad(false);
+  };
+  const removeWord = (w: string) => { const next = mine.filter((x) => x !== w); setMine(next); write(WORDS_KEY, next); };
 
   return (
     <div className="pb-28">
       <Header title={t('tr_title')} showBack />
       <div className="max-w-2xl mx-auto px-4 space-y-4">
-        <div className="grid grid-cols-[1.7fr_1fr_1fr_1fr] gap-1" role="tablist">
+        <div className="grid grid-cols-[1.6fr_1fr_1fr_1fr_1.6fr] gap-1" role="tablist">
           {SETS.map((s) => (
             <button key={s.id} role="tab" aria-selected={set === s.id} aria-label={t(s.key)} onClick={() => { setSet(s.id); setIdx(null); }}
-              className={`px-1 py-1.5 rounded-full text-sm font-bold whitespace-nowrap ${set === s.id ? 'bg-accent text-white' : 'bg-surface-alt text-fg'}`}>
+              className={`px-1 py-1.5 rounded-full text-[13px] font-bold whitespace-nowrap ${set === s.id ? 'bg-accent text-white' : 'bg-surface-alt text-fg'}`}>
               {s.short ?? t(s.key)}
             </button>
           ))}
@@ -75,29 +109,58 @@ export default function Trace() {
           <Practice key={`${glyph.id}-${lang}`} glyph={glyph} lang={lang} label={label(glyph)} stars={stars[glyph.id] ?? 0}
             onStars={(n) => setStars((s) => { const next = { ...s, [glyph.id]: Math.max(s[glyph.id] ?? 0, n) }; writeStars(next); return next; })}
             onList={() => setIdx(null)}
-            onNext={idx! < glyphs.length - 1 ? () => setIdx(idx! + 1) : undefined} />
+            onNext={idx! < glyphs.length - 1 ? () => setIdx(idx! + 1) : undefined} isWord={set === 'words'} />
         ) : (
           <>
             <Card className="!p-3">
               <p className="text-sm">{t('tr_intro')}</p>
               <p className="text-xs text-fg-muted mt-1">{t('tr_tip')}</p>
             </Card>
-            <div className={`grid gap-2 ${set === 'patterns' ? 'grid-cols-2 sm:grid-cols-3' : 'grid-cols-4 sm:grid-cols-6'}`}>
+            {(set === 'lower' || set === 'words') && (
+              <div className="flex items-center justify-center gap-2 text-sm">
+                <span className="font-bold">{t('tr_style')}</span>
+                <div className="flex rounded-full bg-surface-alt p-0.5" role="radiogroup" aria-label={t('tr_style')}>
+                  {(['print', 'cursive'] as const).map((v) => (
+                    <button key={v} role="radio" aria-checked={style === v} onClick={() => setStyle(v)}
+                      className={`px-3 py-1 rounded-full font-bold ${style === v ? 'bg-accent text-white' : 'text-fg'}`}>
+                      {t(v === 'print' ? 'tr_style_print' : 'tr_style_cursive')}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+            {style === 'cursive' && (set === 'lower' || set === 'words') && <p className="text-xs text-fg-muted text-center -mt-2">{t('tr_cursive_note')}</p>}
+            {set === 'words' && (
+              <form className="flex gap-2" onSubmit={(e) => { e.preventDefault(); addWord(); }}>
+                <input value={draft} onChange={(e) => { setDraft(e.target.value); setBad(false); }} maxLength={10} aria-label={t('tr_add_word')} placeholder={t('tr_add_word')}
+                  autoCapitalize="off" autoCorrect="off" spellCheck={false}
+                  className="flex-1 min-w-0 rounded-xl border border-border bg-surface px-3 py-2 text-base" />
+                <Button type="submit" size="sm" variant="secondary">{t('tr_add')}</Button>
+              </form>
+            )}
+            {bad && <p className="text-xs font-bold -mt-2" role="alert">⚠️ {t('tr_word_bad')}</p>}
+            <div className={`grid gap-2 ${set === 'patterns' || set === 'words' ? 'grid-cols-2 sm:grid-cols-3' : 'grid-cols-4 sm:grid-cols-6'}`}>
               {glyphs.map((g, i) => (
-                <button key={g.id} onClick={() => setIdx(i)} aria-label={`${label(g)}, ${t('tr_stars', { n: stars[g.id] ?? 0 })}`}
-                  className="rounded-2xl bg-surface border border-border p-2 flex flex-col items-center hover:border-accent">
-                  {g.char ? (
+                <div key={g.id} className="relative">
+                <button onClick={() => setIdx(i)} aria-label={`${label(g)}, ${t('tr_stars', { n: stars[g.id] ?? 0 })}`}
+                  className="w-full rounded-2xl bg-surface border border-border p-2 flex flex-col items-center hover:border-accent">
+                  {asText(g) ? (
                     <span className="font-heading font-extrabold text-3xl leading-none py-1">{g.char}</span>
                   ) : (
                     <>
-                      <svg viewBox={viewBox(g)} className="w-full h-12 text-fg" aria-hidden>
+                      <svg viewBox={viewBox(g)} className={`w-full text-fg ${set === 'words' || set === 'lower' ? 'h-14' : 'h-12'}`} aria-hidden>
                         {g.strokes.map((d, k) => <path key={k} d={d} fill="none" stroke="currentColor" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" opacity={0.6} />)}
                       </svg>
-                      <span className="text-[11px] font-bold">{label(g)}</span>
+                      {!g.char && <span className="text-[11px] font-bold">{label(g)}</span>}
                     </>
                   )}
                   <span className="text-xs tracking-tight" aria-hidden>{[1, 2, 3].map((n) => ((stars[g.id] ?? 0) >= n ? '★' : '☆')).join('')}</span>
                 </button>
+                {set === 'words' && mine.includes(g.char) && (
+                  <button onClick={() => removeWord(g.char)} aria-label={`${t('tr_remove')} ${g.char}`}
+                    className="absolute -top-1.5 -right-1.5 w-6 h-6 rounded-full bg-surface-alt border border-border text-xs font-bold">×</button>
+                )}
+                </div>
               ))}
             </div>
             <Button variant="secondary" fullWidth onClick={() => printSheet(glyphs, lang)}>{t('tr_print')}</Button>
@@ -108,8 +171,8 @@ export default function Trace() {
   );
 }
 
-function Practice({ glyph, lang, label, stars, onStars, onList, onNext }: {
-  glyph: Glyph; lang: Lang; label: string; stars: number; onStars: (n: number) => void; onList: () => void; onNext?: () => void;
+function Practice({ glyph, lang, label, stars, onStars, onList, onNext, isWord }: {
+  glyph: Glyph; lang: Lang; label: string; stars: number; onStars: (n: number) => void; onList: () => void; onNext?: () => void; isWord?: boolean;
 }) {
   const { t } = useI18n();
   const models = useMemo(() => glyph.strokes.map((d) => samplePath(d)), [glyph]);
@@ -124,8 +187,16 @@ function Practice({ glyph, lang, label, stars, onStars, onList, onNext }: {
   const track = useRef<Tracker | null>(null);
   const last = useRef<Pt | null>(null);
   const timer = useRef<number>(0);
-  const rules = RULES[step];
-  const example = glyph.char ? EXAMPLES[lang][glyph.char.toLowerCase()] : undefined;
+  // The tolerance is about a finger's width on screen: wider (in units) when a long word is drawn small
+  const [scale, setScale] = useState(3);
+  useEffect(() => {
+    const measure = () => { const m = svg.current?.getScreenCTM(); if (m?.a) setScale(m.a); };
+    measure(); window.addEventListener('resize', measure);
+    return () => window.removeEventListener('resize', measure);
+  }, []);
+  const base = RULES[step];
+  const rules = { ...base, tol: Math.max(base.tol, 26 / scale), startTol: Math.max(base.startTol, 32 / scale) };
+  const example: [string, string] | undefined = isWord ? [glyph.char, ''] : glyph.char ? EXAMPLES[lang][glyph.char.toLowerCase()] : undefined;
 
   useEffect(() => () => { cancelAnimationFrame(timer.current); window.clearTimeout(timer.current); tts.stop(); }, []);
 
@@ -197,8 +268,9 @@ function Practice({ glyph, lang, label, stars, onStars, onList, onNext }: {
   const watch = () => {
     reset();
     let s = 0; let i = 0;
+    const speed = Math.max(1.4, models.reduce((n, m) => n + m.length, 0) / 220); // a long word does not take ages
     const tick = () => {
-      i += 1.4;
+      i += speed;
       if (i >= models[s].length) { s += 1; i = 0; }
       if (s >= models.length) { setDemo(null); return; }
       setDemo({ s, i: Math.floor(i) });
@@ -210,11 +282,14 @@ function Practice({ glyph, lang, label, stars, onStars, onList, onNext }: {
 
   const poly = (pts: Pt[]) => pts.map((q, i) => `${i ? 'L' : 'M'}${q.x.toFixed(1)} ${q.y.toFixed(1)}`).join(' ');
   const guide = (d: string, k: number) => step === 'trace'
-    ? <path key={k} d={d} fill="none" stroke="currentColor" strokeOpacity={0.16} strokeWidth={9} strokeLinecap="round" strokeLinejoin="round" />
+    ? <path key={k} d={d} fill="none" stroke="currentColor" strokeOpacity={0.16} strokeWidth={wide ? 6 : 9} strokeLinecap="round" strokeLinejoin="round" data-guide />
     : step === 'dots'
-      ? <path key={k} d={d} fill="none" stroke="currentColor" strokeOpacity={0.45} strokeWidth={2.2} strokeLinecap="round" strokeDasharray="0.1 4.5" />
+      ? <path key={k} d={d} fill="none" stroke="currentColor" strokeOpacity={0.45} strokeWidth={2.2} strokeLinecap="round" strokeDasharray="0.1 4.5" data-guide />
       : null;
   const cur = models[stroke];
+  // A word is wider than tall: the pad takes the word's proportions (no empty band) and the start dot keeps a finger's size
+  const wide = glyph.w > 80;
+  const dotR = Math.max(4, 10 / scale);
   const showStart = !finished && !demo && cur;
 
   return (
@@ -236,7 +311,7 @@ function Practice({ glyph, lang, label, stars, onStars, onList, onNext }: {
       </div>
 
       <div className="rounded-3xl bg-surface border border-border p-2 select-none">
-        <svg ref={svg} viewBox={viewBox(glyph)} className="w-full text-fg" style={{ height: 'min(58vh, 520px)', touchAction: 'none' }}
+        <svg ref={svg} viewBox={viewBox(glyph)} className="w-full text-fg" style={wide ? { aspectRatio: `${glyph.w + PAD * 2} / 108`, maxHeight: 'min(58vh, 520px)', touchAction: 'none' } : { height: 'min(58vh, 520px)', touchAction: 'none' }}
           onPointerDown={onDown} onPointerMove={onMove} onPointerUp={onUp} onPointerCancel={onUp} data-testid="trace-pad">
           <Pauta w={glyph.w} />
           {glyph.strokes.map(guide)}
@@ -252,8 +327,8 @@ function Practice({ glyph, lang, label, stars, onStars, onList, onNext }: {
           {showStart && (
             <g>
               {step !== 'alone' && <Arrow pts={cur} />}
-              <circle cx={cur[0].x} cy={cur[0].y} r={4} fill="#3BB273" />
-              <text x={cur[0].x} y={cur[0].y + 1.6} textAnchor="middle" fontSize={4.6} fontWeight={800} fill="#fff">{stroke + 1}</text>
+              <circle cx={cur[0].x} cy={cur[0].y} r={dotR} fill="#3BB273" />
+              <text x={cur[0].x} y={cur[0].y + dotR * 0.4} textAnchor="middle" fontSize={dotR * 1.15} fontWeight={800} fill="#fff">{stroke + 1}</text>
             </g>
           )}
         </svg>
@@ -263,7 +338,7 @@ function Practice({ glyph, lang, label, stars, onStars, onList, onNext }: {
 
       {finished && example && (
         <button onClick={() => void tts.speak(example[0])} className="mx-auto flex items-center gap-2 rounded-2xl bg-surface-alt px-4 py-2 text-lg font-bold">
-          <span className="text-3xl" aria-hidden>{example[1]}</span>{highlight(example[0], glyph.char)}
+          {example[1] && <span className="text-3xl" aria-hidden>{example[1]}</span>}{isWord ? <span>{example[0]} 🔊</span> : highlight(example[0], glyph.char)}
         </button>
       )}
 

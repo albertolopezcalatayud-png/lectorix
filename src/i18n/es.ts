@@ -1337,6 +1337,17 @@ export const es = {
   tr_p_circles: 'Círculos',
   tr_p_loops: 'Bucles',
   tr_p_spiral: 'Espiral',
+
+  // Letter tracing: joined handwriting and words
+  tr_set_words: 'Palabras',
+  tr_style: 'Letra:',
+  tr_style_print: 'Imprenta',
+  tr_style_cursive: 'Ligada',
+  tr_cursive_note: 'En letra ligada, la palabra se escribe de un solo trazo; los puntos, las rayas y las tildes van al final.',
+  tr_add_word: 'Añade una palabra',
+  tr_add: 'Añadir',
+  tr_word_bad: 'Solo letras, sin espacios (10 como máximo).',
+  tr_remove: 'Quitar',
 } as const;
 
 export type TranslationKey = keyof typeof es;

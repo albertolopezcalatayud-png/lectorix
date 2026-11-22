@@ -1339,4 +1339,15 @@ export const en: Record<TranslationKey, string> = {
   tr_p_circles: 'Circles',
   tr_p_loops: 'Loops',
   tr_p_spiral: 'Spiral',
+
+  // Letter tracing: joined handwriting and words
+  tr_set_words: 'Words',
+  tr_style: 'Handwriting:',
+  tr_style_print: 'Print',
+  tr_style_cursive: 'Joined',
+  tr_cursive_note: 'In joined handwriting the word is one stroke; dots, crosses and accents come at the end.',
+  tr_add_word: 'Add a word',
+  tr_add: 'Add',
+  tr_word_bad: 'Letters only, no spaces (10 at most).',
+  tr_remove: 'Remove',
 };

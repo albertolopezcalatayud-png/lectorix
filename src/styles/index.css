@@ -33,6 +33,9 @@
   --color-border: #E7DFCF;
   --color-coral: #F2A28B;
   --color-paper-line: #EFE8DA;
+  /* Card and soft-chip backgrounds by name; they follow the light and dark values above */
+  --color-surface: var(--color-bg-card);
+  --color-surface-alt: var(--color-accent-pale);
 
   --font-heading: 'Lexend', sans-serif;
   --font-body: 'Lexend', sans-serif;

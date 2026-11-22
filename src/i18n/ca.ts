@@ -1339,4 +1339,15 @@ export const ca: Record<TranslationKey, string> = {
   tr_p_circles: 'Cercles',
   tr_p_loops: 'Bucles',
   tr_p_spiral: 'Espiral',
+
+  // Letter tracing: joined handwriting and words
+  tr_set_words: 'Paraules',
+  tr_style: 'Lletra:',
+  tr_style_print: 'Impremta',
+  tr_style_cursive: 'Lligada',
+  tr_cursive_note: 'En lletra lligada, la paraula s\'escriu d\'un sol traç; els punts, les ratlles i els accents van al final.',
+  tr_add_word: 'Afegeix una paraula',
+  tr_add: 'Afegeix',
+  tr_word_bad: 'Només lletres, sense espais (10 com a màxim).',
+  tr_remove: 'Lleva',
 };
