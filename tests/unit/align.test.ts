@@ -79,4 +79,8 @@ for (const [lang, abc, word, want] of [['es', 'abcdefghijlmnñopqrstuvzáéíó�
   const n = neighbours(word, rank, abc, 12);
   ok(n.includes(want) && !n.includes(word) && n.every((x) => rank.has(x)), `${lang}: neighbours of "${word}" include "${want}" (${n.slice(0, RIVALS_PER_WORD).join(', ')})`);
 }
-process.exit(fails ? 1 : 0);
+// Run with tsx (CI, asr.yml): the exit code says if it passed. Run with vitest: one test that fails if any check failed.
+if (process.env.VITEST) {
+  const { test, expect } = await import('vitest');
+  test('reading check: every case passes', () => expect(fails).toBe(0));
+} else process.exit(fails ? 1 : 0);
