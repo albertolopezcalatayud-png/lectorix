@@ -80,6 +80,16 @@ function manifest(lang: Lang): Promise<{ voice: string | null; items: Set<string
   }
   return manifests[lang]!;
 }
+/** Voices that stretch the first sound of a word said on its own (measured: 77-88 % recognised against 92-98 %) */
+const WEAK_ON_WORDS = new Set(['kk-lily']);
+const otherManifests: Record<string, Promise<Set<string>>> = {};
+function voiceItems(lang: Lang, voice: string): Promise<Set<string>> {
+  const k = `${lang}/${voice}`;
+  otherManifests[k] ??= cachedFetch(`${base()}${k}/manifest.json`)
+    .then(async (r) => new Set(Object.keys(((r ? await r.json() : {}) as { items?: Record<string, 1> }).items ?? {})))
+    .catch(() => new Set<string>());
+  return otherManifests[k];
+}
 /** Start loading the list of clips for a language (cheap; called when the language is chosen) */
 export function preloadClips(lang: string) { if (lang === 'es' || lang === 'ca' || lang === 'en') void manifest(lang); }
 
@@ -120,7 +130,12 @@ export async function playClip(
 ): Promise<{ interrupted: boolean } | null> {
   if (!(await hasClip(lang, text))) return null;
   const key = clipKey(lang, text);
-  const voice = (await manifest(lang as Lang)).voice;
+  let voice = (await manifest(lang as Lang)).voice;
+  // A voice that is hard to understand on single words (Lily): a word or syllable on its own is said by the first dictation voice
+  if (voice && WEAK_ON_WORDS.has(voice) && !/\s/.test(text.trim())) {
+    const other = DICTATION_VOICES[lang as Lang]?.[0];
+    if (other && (await voiceItems(lang as Lang, other)).has(key)) voice = other;
+  }
   const dir = `${base()}${lang}/${voice}/`;
   const [audioRes, timingRes] = await Promise.all([
     cachedFetch(`${dir}${key}.mp3`),
