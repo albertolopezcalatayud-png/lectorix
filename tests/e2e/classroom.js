@@ -14,7 +14,7 @@ const BASE = 'http://localhost:4173/lectorix/';
     const real = window.speechSynthesis;
     Object.defineProperty(window, 'speechSynthesis', { value: { speak: (u) => { window.__said.push(u.text); setTimeout(() => u.onend && u.onend(), 30); }, cancel() {}, getVoices: () => real.getVoices(), pause() {}, resume() {}, speaking: false, pending: false, addEventListener() {}, removeEventListener() {} } });
   };
-  const fresh = async () => { const c = await b.newContext({ viewport: { width: 390, height: 800 }, locale: 'es-ES' }); await c.addInitScript(stubVoice); const p = await c.newPage(); p.on('pageerror', (e) => errs.push(e.message)); return p; };
+  const fresh = async () => { const c = await b.newContext({ viewport: { width: 390, height: 800 }, locale: 'es-ES' }); await c.addInitScript(stubVoice); await c.route('**/audio/**', (r) => r.abort()); /* stubbed voice: no recorded clips */ const p = await c.newPage(); p.on('pageerror', (e) => errs.push(e.message)); return p; };
 
   // 1. First screen: "I am a teacher" opens the classroom section
   let p = await fresh();

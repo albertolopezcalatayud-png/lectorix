@@ -4,6 +4,7 @@ const { chromium } = require('playwright');
 (async () => {
   const b = await chromium.launch();
   const p = await b.newPage({ viewport: { width: 390, height: 800 } });
+  await p.route('**/audio/**', (r) => r.abort()); // the voice is stubbed: no recorded clips, even when the preview has them
   const errs = [];
   p.on('pageerror', (e) => errs.push(e.message));
   const ok = (c, m) => console.log((c ? 'PASS ' : 'FAIL ') + m);
