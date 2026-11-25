@@ -52,6 +52,7 @@ const ReadingChallenge = lazy(() => import('@/pages/ReadingChallenge'));
 const ReadAloud = lazy(() => import('@/pages/ReadAloud'));
 const HowILearn = lazy(() => import('@/pages/HowILearn'));
 const Trace = lazy(() => import('@/pages/Trace'));
+const Prewriting = lazy(() => import('@/pages/Prewriting'));
 const Syllables = lazy(() => import('@/pages/Syllables'));
 const Listen = lazy(() => import('@/pages/Listen'));
 const Deber = lazy(() => import('@/pages/Deber'));
@@ -117,6 +118,7 @@ function AnimatedRoutes() {
         <Route path="/deber/:code" element={<PageTransition><Deber /></PageTransition>} />
         <Route path="/silabas" element={<PageTransition><Syllables /></PageTransition>} />
         <Route path="/trazo" element={<PageTransition><Trace /></PageTransition>} />
+        <Route path="/antes-de-escribir" element={<PageTransition><Prewriting /></PageTransition>} />
         <Route path="/estudiar" element={<PageTransition><StudyNotes /></PageTransition>} />
       </Routes>
     </AnimatePresence>

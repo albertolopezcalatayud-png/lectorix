@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type PointerEvent as RPointerEvent } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
@@ -62,6 +62,7 @@ function Arrow({ pts }: { pts: Pt[] }) {
 export default function Trace() {
   const { t } = useI18n();
   const lang = usePracticeLang() as Lang;
+  const navigate = useNavigate();
   const [set, setSet] = useState<SetId>('patterns');
   const [style, setStyleState] = useState<HandStyle>(() => read<HandStyle>(STYLE_KEY, 'print'));
   const setStyle = (v: HandStyle) => { setStyleState(v); write(STYLE_KEY, v); };
@@ -122,6 +123,10 @@ export default function Trace() {
             onNext={idx! < glyphs.length - 1 ? () => setIdx(idx! + 1) : undefined} isWord={set === 'words'} />
         ) : (
           <>
+            <button onClick={() => navigate('/antes-de-escribir')} data-testid="to-prewriting"
+              className="w-full rounded-2xl p-3 text-left font-bold text-sm" style={{ background: 'var(--color-mint)', color: '#1f2a44' }}>
+              {t('pw_start_here')} ›
+            </button>
             <Card className="!p-3">
               <p className="text-sm">{t('tr_intro')}</p>
               <p className="text-xs text-fg-muted mt-1">{t('tr_tip')}</p>

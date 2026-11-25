@@ -18,7 +18,7 @@ const pt = (cx: number, cy: number, rx: number, ry: number, deg: number) => {
   return [f(cx + rx * Math.cos(a)), f(cy - ry * Math.sin(a))] as const;
 };
 /** Arc of an ellipse from one angle to another (degrees, 0 = right, 90 = top). Rising angle = anticlockwise. */
-function arc(cx: number, cy: number, rx: number, ry: number, from: number, to: number, move = true) {
+export function arc(cx: number, cy: number, rx: number, ry: number, from: number, to: number, move = true) {
   const steps = Math.max(1, Math.ceil(Math.abs(to - from) / 90));
   const sweep = to > from ? 0 : 1; // SVG sweep 1 = clockwise on screen
   let d = '';
@@ -30,7 +30,7 @@ function arc(cx: number, cy: number, rx: number, ry: number, from: number, to: n
   return d;
 }
 /** Straight lines through the points */
-const line = (...p: number[]) => {
+export const line = (...p: number[]) => {
   let d = `M${p[0]} ${p[1]}`;
   for (let i = 2; i < p.length; i += 2) d += ` L${p[i]} ${p[i + 1]}`;
   return d;
