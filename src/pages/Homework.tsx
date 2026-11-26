@@ -13,6 +13,8 @@ import tts from '@/services/tts';
 import { isNativeApp } from '@/native/app';
 import { useShareInbox } from '@/native/share';
 import { useI18n, dateLocale } from '@/i18n';
+import { readPhoto as readPhotoText, type Crop, type OcrLang } from '@/services/ocr';
+import { PhotoCrop } from '@/components/reading/PhotoCrop';
 
 interface SavedText { id: string; title: string; text: string; lang: string; date: string }
 
@@ -27,7 +29,6 @@ const useHomeworkStore = create<{ texts: SavedText[]; save: (t: SavedText) => vo
   )
 );
 
-const OCR_LANG = { es: 'spa', ca: 'cat', en: 'eng' } as const;
 
 /** Adapt any text — typed, pasted or from a photo of a page — with the reading aids */
 const OCR_REMOTE = 'https://albertolopezcalatayud-png.github.io/lectorix/tesseract/lang';
@@ -53,40 +54,35 @@ export default function Homework() {
   const [picked, setPicked] = useState<{ p: number; w: number; word: string } | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
+  const [photo, setPhoto] = useState<File | null>(null);
+  const [cropping, setCropping] = useState(false);
+  const [ocrLang, setOcrLangState] = useState<OcrLang>(() => {
+    try { const v = localStorage.getItem('lectorix-ocr-lang'); if (v === 'es' || v === 'ca' || v === 'en') return v; } catch { /* private mode */ }
+    return lang as OcrLang;
+  });
+  const setOcrLang = (l: OcrLang) => { setOcrLangState(l); try { localStorage.setItem('lectorix-ocr-lang', l); } catch { /* private mode */ } };
+  const pickPhoto = (f: File) => { setOcrError(false); setPhoto(f); setCropping(true); };
 
   const showToast = (m: string) => {
     setToast(m);
     setTimeout(() => setToast(null), 1800);
   };
 
-  const readPhoto = async (file: File) => {
+  const readPhoto = async (file: File, crop?: Crop) => {
+    setCropping(false);
     setOcrError(false);
     setOcr({ progress: 0, status: t('hw_ocr_loading') });
     try {
-      const { createWorker } = await import('tesseract.js');
       const base = `${import.meta.env.BASE_URL}tesseract/`;
-      const worker = await createWorker(OCR_LANG[lang], 1, {
-        workerPath: `${base}worker.min.js`,
-        corePath: base,
-        // The Android app does not carry the reading data of the three languages (about 6 MB):
-        // the first photo in a language downloads it from the Lectorix website and it is kept
-        // on the device for the next times. No photo or text leaves the device.
-        langPath: isNativeApp ? OCR_REMOTE : `${base}lang`,
-        workerBlobURL: false,
-        gzip: true,
-        logger: (m: { status: string; progress: number }) => {
-          if (m.status === 'recognizing text') setOcr({ progress: m.progress, status: t('hw_ocr_reading') });
-        },
+      // The Android app does not carry the reading data of the three languages (about 6 MB):
+      // the first photo in a language downloads it from the Lectorix website and it is kept
+      // on the device for the next times. No photo or text leaves the device.
+      const text = await readPhotoText(file, ocrLang, {
+        crop, workerPath: `${base}worker.min.js`, corePath: base, langPath: isNativeApp ? OCR_REMOTE : `${base}lang`,
+        progress: (p) => setOcr({ progress: p, status: t('hw_ocr_reading') }),
       });
-      const { data } = await worker.recognize(file);
-      await worker.terminate();
-      // join lines broken mid-paragraph, keep paragraph breaks, undo end-of-line hyphenation
-      const text = data.text
-        .replace(/-\n(\p{Ll})/gu, '$1')
-        .replace(/([^\n])\n(?!\n)/g, '$1 ')
-        .replace(/[ \t]+/g, ' ')
-        .trim();
-      setDraft((d) => (d ? d + '\n\n' : '') + text);
+      if (text) setDraft((d) => (d ? d + '\n\n' : '') + text);
+      else setOcrError(true);
       setOcr(null);
     } catch {
       setOcr(null);
@@ -108,7 +104,7 @@ export default function Homework() {
       save(saved);
       setView(saved);
     } else if (item.kind === 'image') {
-      void fetch(item.dataUrl).then((r) => r.blob()).then((b) => readPhoto(new File([b], 'shared', { type: b.type })));
+      void fetch(item.dataUrl).then((r) => r.blob()).then((b) => pickPhoto(new File([b], 'shared', { type: b.type })));
     } else {
       setOcrError(true);
     }
@@ -216,10 +212,30 @@ export default function Homework() {
 
         <Card className="space-y-3">
           <input ref={fileRef} type="file" accept="image/*" capture="environment" className="hidden"
-            onChange={(e) => { const f = e.target.files?.[0]; if (f) void readPhoto(f); e.target.value = ''; }} />
-          <Button fullWidth variant="secondary" onClick={() => fileRef.current?.click()} disabled={!!ocr}>
-            📷 {t('hw_photo')}
-          </Button>
+            onChange={(e) => { const f = e.target.files?.[0]; if (f) pickPhoto(f); e.target.value = ''; }} />
+          <div className="flex items-center gap-2 flex-wrap" role="radiogroup" aria-label={t('hw_text_lang')}>
+            <span className="text-sm font-bold">{t('hw_text_lang')}:</span>
+            {(['es', 'ca', 'en'] as OcrLang[]).map((l) => (
+              <button key={l} type="button" role="radio" aria-checked={ocrLang === l} onClick={() => setOcrLang(l)} data-testid={`ocr-lang-${l}`}
+                className={`px-3 py-1.5 rounded-full text-xs font-bold border ${ocrLang === l ? 'bg-accent-pale border-accent text-accent' : 'bg-bg-card border-border'}`}>
+                {l === 'es' ? 'Castellano' : l === 'ca' ? 'Valencià' : 'English'}
+              </button>
+            ))}
+          </div>
+          {cropping && photo ? (
+            <PhotoCrop file={photo} title={t('hw_crop_title')} help={t('hw_crop_help')} readLabel={t('hw_crop_read')} allLabel={t('hw_crop_all')}
+              cancelLabel={t('cancel')} onRead={(c) => void readPhoto(photo, c)} onCancel={() => { setCropping(false); setPhoto(null); }} />
+          ) : (
+            <>
+              <Button fullWidth variant="secondary" onClick={() => fileRef.current?.click()} disabled={!!ocr}>
+                📷 {t('hw_photo')}
+              </Button>
+              {photo && !ocr && (
+                <Button fullWidth variant="secondary" onClick={() => setCropping(true)}>➕ {t('hw_crop_more')}</Button>
+              )}
+              <p className="text-[11px] text-fg-muted">💡 {t('hw_ocr_tip')}</p>
+            </>
+          )}
           {ocr && (
             <div>
               <p className="text-xs text-fg-muted mb-1">{ocr.status}</p>
