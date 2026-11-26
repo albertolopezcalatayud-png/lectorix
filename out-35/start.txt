@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.lectorix.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.lectorix.app/.MainActivity
+TotalTime: 4643
+WaitTime: 4668
+Complete
