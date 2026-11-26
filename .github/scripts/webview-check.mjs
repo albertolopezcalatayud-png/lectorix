@@ -123,6 +123,9 @@ results.ocr = await ev(`(async () => {
   const blob = await new Promise((r) => c.toBlob(r, 'image/png'));
   const dt = new DataTransfer(); dt.items.add(new File([blob], 'page.png', { type: 'image/png' }));
   const input = document.querySelector('input[type=file]'); input.files = dt.files; input.dispatchEvent(new Event('change', { bubbles: true }));
+  // since 1.15.0 the pupil first marks the text on the photo: read the whole photo
+  for (let i = 0; i < 20 && !document.querySelector('[data-testid=crop-all]'); i++) await new Promise((r) => setTimeout(r, 500));
+  document.querySelector('[data-testid=crop-all]')?.click();
   for (let i = 0; i < 90; i++) { await new Promise((r) => setTimeout(r, 1000)); const v = document.querySelector('textarea')?.value; if (v) return 'OK: ' + v; if (/No se ha podido/.test(document.body.innerText)) return 'FAIL: error message'; }
   return 'FAIL: timeout'; })()`, 120000);
 shot('screen-ocr');
