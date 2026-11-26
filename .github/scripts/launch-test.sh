@@ -58,5 +58,5 @@ adb logcat -d > "$OUT/logcat-debug.txt"
 grep -E -A40 'FATAL EXCEPTION' "$OUT/logcat-debug.txt" > "$OUT/crash-debug.txt"
 grep -i -E 'Capacitor|TextToSpeech|TTS|Console' "$OUT/logcat-debug.txt" | tail -300 > "$OUT/logcat-app.txt"
 # a failed check fails the step, so the workflow tries once more on a fresh emulator
-grep -q 'RESULT PASS' "$OUT/webview-check.txt" || exit 1
+grep -q 'RESULT PASS' "$OUT/webview-check.txt" || { echo '--- webview-check ---'; cat "$OUT/webview-check.txt" | tail -120; exit 1; }
 exit 0
