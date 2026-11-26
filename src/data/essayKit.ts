@@ -103,7 +103,7 @@ export type EssayLength = keyof typeof LENGTHS;
 // Very common words that are fine to repeat
 const COMMON: Record<EssayLang, Set<string>> = {
   es: new Set('porque cuando donde entre sobre tiene tienen hacer puede pueden estos estas otros otras mucho muchos muchas todos todas porque también siempre nunca mientras aunque desde hasta están estaba eran había quiero creo'.split(' ')),
-  ca: new Set('perquè quan entre sobre tenen tenim poden aquests aquestes altres molts moltes tots totes també sempre mentre encara estan estava eren havia vull crec'.split(' ')),
+  ca: new Set('perquè quan entre sobre tenen tenim poden aquests aquestes estos estes altres molts moltes tots totes també sempre mentre encara estan estava eren havia vull crec'.split(' ')),
   en: new Set('because there their which would could should about other these those every always never while although where people really things think'.split(' ')),
 };
 

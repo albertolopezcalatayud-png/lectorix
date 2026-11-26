@@ -18,7 +18,7 @@ export const en: Record<TranslationKey, string> = {
 
   // Dashboard
   dash_hello: 'Hi, {name}! 👋',
-  dash_ready: 'Ready to practice today?',
+  dash_ready: 'Ready to practise today?',
   dash_level: 'Level {level}',
   dash_xp: '{xp} points in total',
   dash_streak: '{days} days in a row',
@@ -247,7 +247,7 @@ export const en: Record<TranslationKey, string> = {
   reward_blue: 'Sky blue',
   reward_green: 'Mint green',
   reward_orange: 'Orange',
-  reward_pink: 'Pink',
+  reward_pink: 'Lilac',
   reward_gorra: 'Cap',
   reward_corona: 'Crown',
   reward_sombrero: 'Top hat',
@@ -328,7 +328,7 @@ export const en: Record<TranslationKey, string> = {
   exam_time_up: '⏰ Time\'s up!',
   exam_btn: '📝 Exam mode',
   exam_results: 'Exam result',
-  exam_grade: 'Grade',
+  exam_grade: 'Mark',
   exam_passed: '✅ Passed',
   exam_failed: '❌ Failed',
 
@@ -1186,7 +1186,7 @@ export const en: Record<TranslationKey, string> = {
 
   // Natural voices
   nv_title: 'Lectorix natural voices',
-  nv_desc: 'Readings, dictations and exercises are heard with natural voices prepared for the app (free voices; for now the Valencian voices have a central Catalan accent) instead of the device’s voice. They download when needed and then work offline. What the student writes and new texts are read with the device’s voice.',
+  nv_desc: 'Readings, dictations and exercises are heard with natural voices prepared for the app (openly licensed voices; for now the Valencian voices have a central Catalan accent) instead of the device’s voice. They download when needed and then work offline. What the student writes and new texts are read with the device’s voice.',
 
   // Voice credits
   nv_credits: 'Where the voices come from',

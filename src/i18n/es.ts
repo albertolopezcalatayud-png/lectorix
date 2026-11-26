@@ -245,7 +245,7 @@ export const es = {
   reward_blue: 'Azul cielo',
   reward_green: 'Verde menta',
   reward_orange: 'Naranja',
-  reward_pink: 'Rosa',
+  reward_pink: 'Lila',
   reward_gorra: 'Gorra',
   reward_corona: 'Corona',
   reward_sombrero: 'Sombrero',

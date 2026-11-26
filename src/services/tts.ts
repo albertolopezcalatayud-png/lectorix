@@ -5,6 +5,7 @@
  * prompts, and passages they're working with.
  */
 
+import { forSpeech } from './forSpeech';
 import { isNative, nativeHas, nativeSpeak, nativeSpeakTracked, nativeStop, nativeCheck } from './nativeTts';
 import { bestVoice } from './voices';
 import { playClip, stopClip, preloadClips, playDictationClip, type DictationPace } from './clips';
@@ -141,7 +142,8 @@ export function hasVoiceFor(lang: SpeechLang): boolean {
  * Speak text aloud in the current practice language.
  * Returns a promise that resolves when speaking finishes.
  */
-function deviceSpeak(text: string, options?: { rate?: number; pitch?: number }): Promise<void> {
+function deviceSpeak(written: string, options?: { rate?: number; pitch?: number }): Promise<void> {
+  const text = forSpeech(speechLang, written); // never letter by letter, never «barra»
   return new Promise((resolve) => {
     if (!isTTSAvailable() || !isTTSEnabled()) {
       resolve();
@@ -298,7 +300,8 @@ export async function spellWord(word: string, delayMs = 350): Promise<void> {
 }
 
 /** Speak in any language tag (used by the family panel). Resolves when finished. */
-function deviceSpeakIn(text: string, tag: string, rate = 0.9): Promise<void> {
+function deviceSpeakIn(written: string, tag: string, rate = 0.9): Promise<void> {
+  const text = forSpeech(tag.slice(0, 2), written);
   if (missingVoice(tag)) return Promise.resolve();
   if (isNative) return nativeSpeak(text, tag, natural(rate), 1, nativeVoice(tag)).then(() => undefined);
   return new Promise((resolve) => {

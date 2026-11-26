@@ -61,6 +61,9 @@ function sameSyllable(a: string, b: string, prev: string | undefined, lang: Syll
   b = b.toLowerCase();
   if (lang === 'es') {
     if (ES_STRONG.has(a) && ES_STRONG.has(b)) return false;
+    // two weak vowels always stay together, even with a written accent (construí, huí, veintiún)
+    const weak = (x: string) => 'iuíúü'.includes(x);
+    if (weak(a) && weak(b)) return a !== b;
     if ((a === 'í' || a === 'ú') || (b === 'í' || b === 'ú')) return false;
     if (a === b) return false;
     return true;
@@ -104,7 +107,16 @@ export function syllabify(word: string, lang: SyllableLang): string[] {
     out.push(u.slice(from, c).map((x) => x.s).join(''));
     from = c;
   }
-  return out.filter(Boolean);
+  return prefixes(out.filter(Boolean), lang);
+}
+
+/** A few prefixes that the general rules cannot see (sub-ra-yar, re-u-ti-lit-zar) and Valencian initial i + vowel (io-gurt) */
+function prefixes(s: string[], lang: SyllableLang): string[] {
+  const w = s.join('');
+  if (lang === 'es' && /^subr/i.test(w) && s.length > 1 && /^su$/i.test(s[0]) && /^br/i.test(s[1])) return [s[0] + s[1][0], s[1].slice(1), ...s.slice(2)];
+  if (lang === 'ca' && /^reu[ntb]/i.test(w) && /^reu$/i.test(s[0])) return [s[0].slice(0, 2), s[0][2], ...s.slice(1)];
+  if (lang === 'ca' && s.length > 1 && /^i$/i.test(s[0]) && /^[aeoàèéò]/i.test(s[1])) return [s[0] + s[1], ...s.slice(2)];
+  return s;
 }
 
 /** Splits a text token into [leading punctuation, word, trailing punctuation] */

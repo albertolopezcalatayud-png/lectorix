@@ -46,6 +46,7 @@ export function loadDict(lang: SpellLang): Promise<Dict> {
       .then((r) => { if (!r.ok) throw new Error(`dict ${lang} ${r.status}`); return r.arrayBuffer(); })
       .then(gunzip)
       .then(decode);
+    void loadFrequent(lang).catch(() => undefined); // ranks the suggestions
     p.catch(() => cache.delete(lang));
     cache.set(lang, p);
   }
@@ -117,9 +118,19 @@ const LETTERS: Record<SpellLang, string> = {
 /** Typical confusions for students with reading and writing difficulties (sound alike, look alike) */
 const SWAPS: Record<SpellLang, [string, string][]> = {
   es: [['b', 'v'], ['v', 'b'], ['ll', 'y'], ['y', 'll'], ['g', 'j'], ['j', 'g'], ['c', 'z'], ['z', 'c'], ['s', 'c'], ['c', 's'], ['qu', 'c'], ['c', 'qu'], ['q', 'qu'], ['k', 'c'], ['rr', 'r'], ['r', 'rr'], ['gu', 'g'], ['g', 'gu'], ['gu', 'gü'], ['x', 's'], ['b', 'd'], ['d', 'b'], ['p', 'q'], ['m', 'n'], ['n', 'm']],
-  ca: [['b', 'v'], ['v', 'b'], ['g', 'j'], ['j', 'g'], ['ç', 's'], ['s', 'ç'], ['ss', 's'], ['s', 'ss'], ['c', 's'], ['s', 'c'], ['z', 's'], ['s', 'z'], ['x', 'ix'], ['ix', 'x'], ['tx', 'ig'], ['ig', 'tx'], ['ny', 'n'], ['l·l', 'l'], ['l', 'l·l'], ['ll', 'l·l'], ['qu', 'c'], ['c', 'qu'], ['gu', 'g'], ['g', 'gu'], ['b', 'd'], ['d', 'b'], ['m', 'n'], ['n', 'm']],
-  en: [['ie', 'ei'], ['ei', 'ie'], ['f', 'ph'], ['ph', 'f'], ['c', 'k'], ['k', 'c'], ['ck', 'k'], ['s', 'c'], ['c', 's'], ['ee', 'ea'], ['ea', 'ee'], ['b', 'd'], ['d', 'b'], ['p', 'q'], ['ou', 'ow'], ['er', 'or'], ['or', 'er'], ['ai', 'ay'], ['ay', 'ai'], ['tion', 'sion'], ['sion', 'tion'], ['wh', 'w'], ['w', 'wh'], ['gh', ''], ['kn', 'n'], ['n', 'kn'], ['wr', 'r'], ['r', 'wr']],
+  ca: [['b', 'v'], ['v', 'b'], ['g', 'j'], ['j', 'g'], ['ç', 's'], ['s', 'ç'], ['ss', 's'], ['s', 'ss'], ['c', 's'], ['s', 'c'], ['z', 's'], ['s', 'z'], ['x', 'ix'], ['ix', 'x'], ['tx', 'ig'], ['ig', 'tx'], ['ny', 'n'], ['l·l', 'l'], ['l', 'l·l'], ['ll', 'l·l'], ['qu', 'c'], ['c', 'qu'], ['gu', 'g'], ['g', 'gu'], ['j', 'tj'], ['tj', 'j'], ['g', 'tg'], ['tg', 'g'], ['x', 'tx'], ['tx', 'x'], ['ch', 'tx'], ['b', 'd'], ['d', 'b'], ['m', 'n'], ['n', 'm']],
+  en: [['ie', 'ei'], ['ei', 'ie'], ['f', 'ph'], ['ph', 'f'], ['c', 'k'], ['k', 'c'], ['ck', 'k'], ['s', 'c'], ['c', 's'], ['ee', 'ea'], ['ea', 'ee'], ['b', 'd'], ['d', 'b'], ['p', 'q'], ['ou', 'ow'], ['er', 'or'], ['or', 'er'], ['ai', 'ay'], ['ay', 'ai'], ['tion', 'sion'], ['sion', 'tion'], ['wh', 'w'], ['w', 'wh'], ['gh', ''], ['kn', 'n'], ['n', 'kn'], ['wr', 'r'], ['r', 'wr'], ['l', 'll'], ['ll', 'l'], ['t', 'tt'], ['tt', 't'], ['m', 'mm'], ['mm', 'm'], ['el', 'le'], ['le', 'el']],
 };
+
+/** Frequent errors that no letter change explains well (irregular forms, Spanish words in Valencian, sound-spelling) */
+const KNOWN: Record<SpellLang, Record<string, string[]>> = {
+  es: { haiga: ['haya'], haigan: ['hayan'], andé: ['anduve'], andó: ['anduvo'], andaste: ['anduviste'], dijistes: ['dijiste'], fuistes: ['fuiste'], hicistes: ['hiciste'], cocreta: ['croqueta'], murciégalo: ['murciélago'], amoto: ['moto'], asín: ['así'], nadien: ['nadie'], pograma: ['programa'], aereopuerto: ['aeropuerto'], preveer: ['prever'], perjuicio: ['prejuicio'], dentrar: ['entrar'] },
+  ca: { coche: ['cotxe'], bueno: ['bé', 'doncs'], almorzar: ['esmorzar'], chica: ['xica'], chicas: ['xiques'], chico: ['xic'], chicos: ['xics'], pues: ['doncs'], vale: ['d’acord'], entonces: ['aleshores', 'llavors'], hasta: ['fins'], luego: ['després'], aixina: ['així'], enterar: ['assabentar'], gasto: ['despesa'], tenir: ['tindre'], venir: ['vindre'], cumpleanys: ['aniversari'], cumpleaños: ['aniversari'], dacord: ['d’acord'] },
+  en: { teached: ['taught'], buyed: ['bought'], goed: ['went'], runned: ['ran'], catched: ['caught'], thinked: ['thought'], bringed: ['brought'], writed: ['wrote'], eated: ['ate'], swimmed: ['swam'], childs: ['children'], sheeps: ['sheep'], mouses: ['mice'], foots: ['feet'], tooths: ['teeth'], mans: ['men'], womans: ['women'], alot: ['a lot'], tommorow: ['tomorrow'], tomorow: ['tomorrow'], becos: ['because'], becuz: ['because'], cos: ['because'], sed: ['said'], wos: ['was'], wot: ['what'], wen: ['when'], wer: ['were', 'where'], wiv: ['with'], fink: ['think'], didnt: ['didn’t'], dont: ['don’t'], doesnt: ['doesn’t'], dosent: ['doesn’t'], cant: ['can’t'], wont: ['won’t'], isnt: ['isn’t'], im: ['I’m'], ive: ['I’ve'], thats: ['that’s'], realy: ['really'], wich: ['which'], whitch: ['which'], dosen: ['doesn'], beatiful: ['beautiful'], freinds: ['friends'], wierd: ['weird'], untill: ['until'], becouse: ['because'], favorite: ['favourite'], color: ['colour'], center: ['centre'], neighbor: ['neighbour'], theater: ['theatre'] },
+};
+
+/** Frequency rank of the common words (loaded with loadFrequent): frequent words are better guesses */
+const RANK = new Map<SpellLang, Map<string, number>>();
 
 function edits1(w: string, letters: string): Set<string> {
   const out = new Set<string>();
@@ -174,11 +185,16 @@ export function suggest(d: Dict, lang: SpellLang, word: string, common: Set<stri
     }
     let s = score;
     if (common.has(c)) s -= 3;
+    if (!capital && /^\p{Lu}/u.test(c)) s += 2; // a name (Seb, Roche) is rarely what a lower-case word meant
+    const r = RANK.get(lang)?.get(c.toLocaleLowerCase());
+    s += r === undefined ? 0.75 : r < 1000 ? -1.25 : r < 5000 ? -0.75 : r < 20000 ? -0.25 : 0;
     if (plain(c) === plain(w)) s -= 4; // only the accent was missing or wrong
+    if (c.includes('l·l') && c.replace(/l·l/g, 'l') === w) s -= 2; // tranquila → tranquil·la
     if (c[0] === w[0]) s -= 0.5;
     const prev = scored.get(c);
     if (prev === undefined || s < prev) scored.set(c, s);
   };
+  for (const k of KNOWN[lang][w] ?? KNOWN[lang][plain(w)] ?? []) scored.set(k, -10 + (KNOWN[lang][w] ?? KNOWN[lang][plain(w)])!.indexOf(k));
   for (const c of swaps(w, lang)) add(c, 1);
   const e1 = edits1(w, LETTERS[lang]);
   for (const c of e1) add(c, 2);
@@ -217,7 +233,11 @@ export function loadFrequent(lang: SpellLang) {
     p = fetch(`${import.meta.env.BASE_URL}dict/${lang}.frz`)
       .then((r) => { if (!r.ok) throw new Error(`freq ${lang} ${r.status}`); return r.arrayBuffer(); })
       .then(gunzip)
-      .then((txt) => { const words = txt.split('\n'); return { words, plain: words.map((w) => plain(w.toLocaleLowerCase())) }; });
+      .then((txt) => {
+        const words = txt.split('\n');
+        RANK.set(lang, new Map(words.map((w, i) => [w.toLocaleLowerCase(), i] as [string, number]).reverse()));
+        return { words, plain: words.map((w) => plain(w.toLocaleLowerCase())) };
+      });
     p.catch(() => freqCache.delete(lang));
     freqCache.set(lang, p);
   }

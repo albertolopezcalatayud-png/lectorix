@@ -2735,7 +2735,7 @@
    "options": [
     "hilo",
     "humo",
-    "hoja",
+    "hucha",
     "ola"
    ],
    "correct": 3,
@@ -3756,16 +3756,16 @@
    "module": "fonologia",
    "level": 4,
    "type": "multiple_choice",
-   "prompt": "¿Qué palabra rima con «murciélago»?",
+   "prompt": "¿Qué palabra rima con «Santiago»?",
    "options": [
-    "mundo",
-    "música",
-    "muro",
+    "santo",
+    "sandía",
+    "sano",
     "lago"
    ],
    "correct": 3,
-   "explanation": "«murciélago» y «lago» terminan con el mismo sonido.",
-   "word": "murciélago",
+   "explanation": "Santiago y lago acaban igual: -ago.",
+   "word": "Santiago",
    "skill": "fon_rhyme",
    "step": 3
   },

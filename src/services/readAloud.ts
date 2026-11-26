@@ -335,8 +335,26 @@ function joined(a: string, b: string): Set<string> {
   return out;
 }
 
+/** Words that can be said in many ways: numbers, Roman numerals (Jaime I), abbreviations (Dr., nº, Mr, U.K.) */
+const FLEX_ABBR = /^(?:mr|mrs|ms|dr|dra|sr|sra|srta|st|nº|n\.º|núm|pàg|pág|etc|ud|uds|vd|vds|av|avda|c|pl)\.?$/i;
+function flexible(w: string): boolean {
+  const c = w.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}.º]+$/gu, '');
+  return /\d/.test(c) || /^[IVXLCDM]{1,5}\.?$/.test(c) || FLEX_ABBR.test(c) || /[ºª]/.test(c) || /^(?:\p{Lu}\.){2,}$/u.test(c);
+}
+
 export function align(textWords: string[], heard: string, rivals?: Rivals): { states: WordState[]; position: number; from: number[] } {
   const target = textWords.map(norm);
+  const english = !/[ñáéíóúàèòçï¿¡·]/i.test(textWords.join(' ')); // only there can a lone «I» be the pronoun
+  const flex = textWords.map((w, i) => {
+    if (!flexible(w)) return false;
+    // a one-letter Roman numeral only after a name in the middle of a sentence (Jaime I, Carlos V), never the English "I"
+    if (/^[IVX]\.?$/.test(w.replace(/[^\p{L}.]/gu, ''))) {
+      const prev = textWords[i - 1] ?? '';
+      if (!english) return i > 0 && /^\p{Lu}[\p{Ll}]/u.test(prev) && !/[.!?:;,]$/.test(prev);
+      return i > 1 && /^\p{Lu}[\p{Ll}]/u.test(prev) && !/[.!?:;,]$/.test(prev) && !/[.!?:]$/.test(textWords[i - 2] ?? '.');
+    }
+    return true;
+  });
   const states: WordState[] = textWords.map(() => 'pending');
   const from: number[] = textWords.map(() => -1); // index of the heard word that matched each text word
   let hi = -1;
@@ -350,14 +368,26 @@ export function align(textWords: string[], heard: string, rivals?: Rivals): { st
   });
   const isWord = (t: string, h: string) => t === h || (!anyRival.has(h) && close(t, h));
   let pos = 0;
-  for (const raw of heard.split(/\s+/)) {
+  let saidOnFlex = 0; // heard words spent on a number or abbreviation still open
+  // Recognisers sometimes split an elision: "l aigua", "d octubre" -> "laigua", "doctubre"
+  const pieces = heard.split(/\s+/);
+  const words: string[] = [];
+  for (let i = 0; i < pieces.length; i++) {
+    if (/^(?:l|d|s|m|n|t|qu)['’]?$/i.test(pieces[i]) && i + 1 < pieces.length && /^[aeiouhàèéíòóú]/i.test(pieces[i + 1])) { words.push(pieces[i] + pieces[i + 1]); words.push(''); i++; }
+    else words.push(pieces[i]);
+  }
+  for (const raw of words) {
     const h = norm(raw);
-    if (!raw) continue;
     hi++;
-    if (!h) continue;
-    // A number can be said in several words ("mil ochocientos sesenta y tres"): while on it, wait for the next word
-    if (/\d/.test(target[pos] ?? '') && !/\d/.test(h)) {
-      if (pos + 1 < target.length && isWord(target[pos + 1], h)) { states[pos] = 'read'; states[pos + 1] = 'read'; from[pos + 1] = hi; pos += 2; }
+    if (!raw || !h) continue;
+    // A number or an abbreviation can be said in several words ("mil ochocientos sesenta y tres", "número cinco"):
+    // while on it, wait until a word of the text after it is heard
+    if (flex[pos] && !/\d/.test(h)) {
+      let next = pos; while (next < target.length && flex[next]) next++;
+      if (next < target.length && next - pos <= 3 && isWord(target[next], h)) {
+        for (let m = pos; m < next; m++) states[m] = 'read';
+        states[next] = 'read'; from[next] = hi; pos = next + 1; saidOnFlex = 0;
+      } else saidOnFlex++;
       continue;
     }
     const end = Math.min(target.length, pos + 4);
@@ -369,7 +399,7 @@ export function align(textWords: string[], heard: string, rivals?: Rivals): { st
       let k2 = -1;
       for (let k = pos; k + 1 < end && k2 < 0; k++) if (target[k] && target[k + 1] && joined(target[k], target[k + 1]).has(h)) k2 = k;
       if (k2 >= 0) {
-        for (let m = pos; m < k2; m++) if (states[m] === 'pending') states[m] = target[m] && !/\d/.test(target[m]) ? 'missed' : 'read';
+        for (let m = pos; m < k2; m++) if (states[m] === 'pending') states[m] = target[m] && !flex[m] ? 'missed' : 'read';
         states[k2] = 'read'; states[k2 + 1] = 'read'; from[k2] = hi; from[k2 + 1] = hi;
         pos = k2 + 2;
         continue;
@@ -380,11 +410,14 @@ export function align(textWords: string[], heard: string, rivals?: Rivals): { st
       for (let k = pos; k < end && at < 0; k++) if (rivalOf.get(target[k])?.has(h)) { at = k; state = 'doubt'; }
     }
     if (at >= 0) {
-      for (let m = pos; m < at; m++) if (states[m] === 'pending') states[m] = target[m] && !/\d/.test(target[m]) ? 'missed' : 'read'; // numbers can be said in many ways
+      for (let m = pos; m < at; m++) if (states[m] === 'pending') states[m] = target[m] && !flex[m] ? 'missed' : 'read'; // numbers can be said in many ways
       states[at] = state;
       from[at] = hi;
       pos = at + 1;
+      saidOnFlex = 0;
     }
   }
+  // the text ends with a number or abbreviation and something was said for it ("...en mil doscientos treinta y ocho")
+  if (saidOnFlex > 0) while (pos < target.length && flex[pos]) states[pos++] = 'read';
   return { states, position: pos, from };
 }

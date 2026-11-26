@@ -102,7 +102,7 @@ export default function Reading() {
                   {reading.glossary.map(([term, def]) => (
                     <div key={term} className="text-sm">
                       <dt className="inline font-extrabold"><button onClick={() => { tts.stop(); void tts.speakIn(`${term}. ${def}`, readingVoice(reading.id), 0.85); }}
-                        aria-label={t('read_glossary_listen', { word: term })} className="mr-1.5">🔊</button>{term}:</dt> <dd className="inline">{def}</dd>
+                        aria-label={t('read_glossary_listen', { word: term })} className="mr-1.5 inline-flex w-8 h-8 items-center justify-center rounded-full bg-accent-pale align-middle">🔊</button>{term}:</dt> <dd className="inline">{def}</dd>
                     </div>
                   ))}
                 </dl>

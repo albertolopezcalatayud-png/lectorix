@@ -286,3 +286,9 @@ h1, h2, h3, h4, h5, h6 {
   html.web .lg-cols-2 { columns: 2; column-gap: 1.5rem; }
   html.web .lg-cols-2 > * { break-inside: avoid; }
 }
+
+/* Every button and disclosure is at least 32 px high, so small fingers and shaky hands hit it (text links like
+   «Ver todos →» were 16 px). Layout keeps its look: the text stays centred in the taller box. */
+@layer base {
+  button:not([role="switch"]), summary { min-height: 2rem; }
+}

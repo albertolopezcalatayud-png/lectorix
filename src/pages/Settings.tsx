@@ -477,7 +477,7 @@ export default function Settings() {
             href={`${import.meta.env.BASE_URL}privacidad.html`}
             target="_blank"
             rel="noopener"
-            className="flex items-center justify-between text-sm font-bold text-accent"
+            className="flex items-center justify-between min-h-[2.5rem] text-sm font-bold text-accent"
           >
             <span>🔒 {t('set_privacy')}</span>
             <span>↗</span>

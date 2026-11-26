@@ -23,6 +23,10 @@ export function sentencesOf(text: string): string[] {
     .filter((s) => s.split(' ').length >= 4);
 }
 
+const ELIDED: Record<string, RegExp> = { ca: /^(?:[ldsnmt]|qu)['’]/i, en: /^$/, es: /^$/ };
+/** Adverbs (-ment, -mente, -ly) are never the key idea of a text */
+const ADVERB: Record<string, RegExp> = { ca: /ment$/, es: /mente$/, en: /ly$/ };
+
 /** Key words: longer, repeated, or names that appear in the middle of a sentence */
 export function keyWords(text: string, lang: string, max = 12): string[] {
   const stop = STOP[lang] ?? STOP.es;
@@ -30,12 +34,14 @@ export function keyWords(text: string, lang: string, max = 12): string[] {
   const score = new Map<string, { w: string; s: number }>();
   for (const sentence of sentencesOf(text)) {
     sentence.split(' ').forEach((raw, i) => {
-      const w = clean(raw);
+      // the word itself, without an elided article or pronoun (l’aigua → aigua, s’evapora → evapora) or an English 's
+      const w = clean(raw).replace(ELIDED[lang] ?? /^$/, '').replace(/['’]s$/i, '');
       const n = w.toLowerCase();
-      if (n.length < minLen || stop.has(n) || /\d/.test(n)) return;
-      const cur = score.get(n) ?? { w, s: 0 };
+      if (n.length < minLen || stop.has(n) || /\d/.test(n) || ADVERB[lang]?.test(n)) return;
+      const mid = i > 0 || w !== clean(raw); // not just capitalised because it starts the sentence
+      const cur = score.get(n) ?? { w: n, s: 0 };
       cur.s += 2 + Math.min(n.length, 12) / 4;
-      if (i > 0 && /^\p{Lu}/u.test(w)) cur.s += 2; // a name in the middle of a sentence
+      if (mid && /\p{Lu}/u.test(w)) { cur.s += 2; cur.w = w; } // a name in the middle of a sentence keeps its capitals (al-Ándalus)
       score.set(n, cur);
     });
   }
@@ -65,8 +71,8 @@ export function buildStudy(text: string, lang: string, labels: StudyLabels): { w
   const usedSentences = new Set<string>();
   for (const w of shuffle(words)) {
     if (exercises.length >= 5) break;
-    const rx = new RegExp(`(^|[^\\p{L}])(${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})(?=$|[^\\p{L}])`, 'iu');
-    const s = sentences.find((x) => rx.test(x) && !usedSentences.has(x));
+    const rx = new RegExp(`(^|[^\\p{L}])(${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})(?=$|[^\\p{L}])`, 'giu');
+    const s = sentences.find((x) => { rx.lastIndex = 0; return rx.test(x) && !usedSentences.has(x); });
     if (!s) continue;
     // Distractors: other key words that are not in this sentence and do not share the start of the answer
     // (so "Roman" / "Romans" never appear together and only one option fits)

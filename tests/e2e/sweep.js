@@ -3,7 +3,7 @@
 // (undefined, NaN, raw i18n keys, {placeholders}, [object Object]).
 const { chromium } = require('playwright');
 const BASE = process.env.BASE || 'http://localhost:4173/lectorix/';
-const ROUTES = ['/', '/modulos', '/modulos/fonologia', '/modulos/comprension_lectora', '/ejercicio/fonologia/1', '/ejercicio/escritura/3', '/reto-diario', '/logros', '/perfil', '/ajustes', '/premium', '/historial', '/mascota', '/panel-padres', '/dictado', '/lectura', '/repaso', '/mis-palabras', '/fluidez', '/adaptar', '/juntos', '/prueba-nivel', '/como-aprendo', '/guia-familias', '/reto-lectura', '/fichas', '/voces', '/estanteria', '/escribe', '/cuentos', '/enunciados', '/redaccion', '/entrenar/comp_vocab'];
+const ROUTES = ['/', '/modulos', '/modulos/fonologia', '/modulos/comprension_lectora', '/ejercicio/fonologia/1', '/ejercicio/escritura/3', '/reto-diario', '/logros', '/perfil', '/ajustes', '/premium', '/historial', '/mascota', '/panel-padres', '/dictado', '/lectura', '/repaso', '/mis-palabras', '/fluidez', '/adaptar', '/juntos', '/prueba-nivel', '/como-aprendo', '/guia-familias', '/reto-lectura', '/fichas', '/voces', '/estanteria', '/escribe', '/cuentos', '/enunciados', '/redaccion', '/entrenar/comp_vocab', '/perfiles', '/aula', '/silabas', '/trazo', '/antes-de-escribir', '/estudiar', '/leer-en-voz-alta/lectura_l1_gato'];
 const READ = { es: ['lectura_l1_gato', 'lectura_eso_newton'], ca: ['lectura_ca_l1_estel', 'lectura_ca_eso_adn'], en: ['reading_en_l1_kite', 'reading_en_eso_dna'] };
 const BAD = /\bundefined\b|\bNaN\b|\[object Object\]|\{[a-z]+\}|\b(?:ev|es|st|sto|hw|rc|ws|wl|sh|flu|tg|subj|read|dash|set|voice|ach|prof|hist|res|ex|lvl|sk|hdr|onb)_[a-z_]{3,}\b/;
 
@@ -45,6 +45,20 @@ const BAD = /\bundefined\b|\bNaN\b|\[object Object\]|\{[a-z]+\}|\b(?:ev|es|st|st
         broken.forEach((x) => issues.push(`${tag()} BROKEN-IMG ${x}`));
         const overflow = await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
         if (overflow > 2) issues.push(`${tag()} HORIZONTAL-SCROLL ${overflow}px`);
+        // text cut off inside its box, and buttons too small to tap
+        const layout = await p.evaluate(() => {
+          const out = [];
+          for (const el of document.querySelectorAll('button, a, h1, h2, h3, p, span, label, li')) {
+            const r = el.getBoundingClientRect(); const cs = getComputedStyle(el);
+            if (!r.width || cs.visibility === 'hidden') continue;
+            if (el.scrollWidth > el.clientWidth + 2 && /hidden|clip/.test(cs.overflowX) && !/ellipsis/.test(cs.textOverflow) && el.textContent.trim()) out.push('CLIPPED “' + el.textContent.trim().slice(0, 50) + '”');
+            if (r.right > window.innerWidth + 2 && cs.position !== 'fixed' && el.textContent.trim() && !el.closest('[class*="overflow-x"]')) out.push('OFFSCREEN “' + el.textContent.trim().slice(0, 50) + '”');
+            if ((el.tagName === 'BUTTON' || el.tagName === 'A') && el.getAttribute('role') !== 'switch' && (r.width < 28 || r.height < 28) && !el.closest('nav')) out.push('TINY ' + Math.round(r.width) + 'x' + Math.round(r.height) + ' “' + (el.textContent.trim() || el.getAttribute('aria-label') || '').slice(0, 30) + '”');
+          }
+          return [...new Set(out)].slice(0, 8);
+        });
+        layout.forEach((x) => issues.push(`${tag()} ${x}`));
+        if (process.env.SHOTS && profile === 'used') await p.screenshot({ path: `${process.env.SHOTS}/${lang}${r.replace(/[/:]/g, '_')}.png`, fullPage: true });
       }
       await ctx.close();
     }

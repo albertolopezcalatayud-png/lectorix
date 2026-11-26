@@ -20,7 +20,7 @@ const MASCOT_COLORS: Record<string, { body: string; stripe: string; ribbon: stri
   blue: { body: '#8FB7E0', stripe: '#77A3D1', ribbon: '#F2A28B' },
   green: { body: '#7CC4B1', stripe: '#63B19C', ribbon: '#F2A28B' },
   orange: { body: '#F4B183', stripe: '#EA9C66', ribbon: '#8FB7E0' },
-  pink: { body: '#F4B6C8', stripe: '#EA9DB3', ribbon: '#7CC4B1' },
+  pink: { body: '#C9B8EC', stripe: '#B3A0E0', ribbon: '#7CC4B1' }, // lilac (id kept for saved choices)
 };
 
 const INK = '#28324A';
@@ -197,7 +197,7 @@ export const REWARD_CATALOG: RewardItem[] = [
   { id: 'color_blue', category: 'color', nameKey: 'reward_blue', emoji: '🔵', requirementKey: 'reward_req_stars', requirementParams: { n: 10 }, check: (s) => s.stars >= 10 },
   { id: 'color_green', category: 'color', nameKey: 'reward_green', emoji: '🟢', requirementKey: 'reward_req_stars', requirementParams: { n: 25 }, check: (s) => s.stars >= 25 },
   { id: 'color_orange', category: 'color', nameKey: 'reward_orange', emoji: '🟠', requirementKey: 'reward_req_stars', requirementParams: { n: 50 }, check: (s) => s.stars >= 50 },
-  { id: 'color_pink', category: 'color', nameKey: 'reward_pink', emoji: '🩷', requirementKey: 'reward_req_stars', requirementParams: { n: 75 }, check: (s) => s.stars >= 75 },
+  { id: 'color_pink', category: 'color', nameKey: 'reward_pink', emoji: '💜', requirementKey: 'reward_req_stars', requirementParams: { n: 75 }, check: (s) => s.stars >= 75 },
 
   // Hats
   { id: 'hat_gorra', category: 'hat', nameKey: 'reward_gorra', emoji: '🧢', requirementKey: 'reward_req_levels', requirementParams: { n: 3 }, check: (s) => s.levels >= 3 },

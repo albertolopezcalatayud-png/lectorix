@@ -2030,7 +2030,7 @@
    "explanation": "pel-lí-cu-la = 4 síl·labes",
    "word": "pel·lícula",
    "syllables": [
-    "pel",
+    "pel·",
     "lí",
     "cu",
     "la"
@@ -2311,13 +2311,13 @@
    "type": "drag_order",
    "prompt": "Ordena les síl·labes per a formar la paraula",
    "pieces": [
-    "pel",
+    "pel·",
     "lí",
     "cu",
     "la"
    ],
    "correctOrder": [
-    "pel",
+    "pel·",
     "lí",
     "cu",
     "la"
@@ -2480,13 +2480,13 @@
    "type": "multiple_choice",
    "prompt": "Quina paraula comença amb el mateix so que «hora»?",
    "options": [
-    "olla",
-    "hort",
-    "home",
-    "herba"
+    "ona",
+    "herba",
+    "hivern",
+    "humit"
    ],
    "correct": 0,
-   "explanation": "La h no sona: hora comença pel so de la o, com olla.",
+   "explanation": "La h no sona: hora comença pel so de la o, com ona.",
    "word": "hora",
    "skill": "fon_sounds",
    "step": 2
@@ -2823,7 +2823,7 @@
    "explanation": "col-le-gi = 3 síl·labes",
    "word": "col·legi",
    "syllables": [
-    "col",
+    "col·",
     "le",
     "gi"
    ],
@@ -3017,7 +3017,7 @@
    "word": "intel·ligent",
    "syllables": [
     "in",
-    "tel",
+    "tel·",
     "li",
     "gent"
    ],
@@ -3089,7 +3089,7 @@
    "word": "tranquil·la",
    "syllables": [
     "tran",
-    "quil",
+    "quil·",
     "la"
    ],
    "skill": "fon_syllables",
@@ -3102,12 +3102,12 @@
    "type": "drag_order",
    "prompt": "Ordena les síl·labes per a formar la paraula",
    "pieces": [
-    "col",
+    "col·",
     "le",
     "gi"
    ],
    "correctOrder": [
-    "col",
+    "col·",
     "le",
     "gi"
    ],
@@ -3305,13 +3305,13 @@
    "prompt": "Ordena les síl·labes per a formar la paraula",
    "pieces": [
     "in",
-    "tel",
+    "tel·",
     "li",
     "gent"
    ],
    "correctOrder": [
     "in",
-    "tel",
+    "tel·",
     "li",
     "gent"
    ],
@@ -3440,7 +3440,7 @@
     "interior",
     "valent",
     "illa",
-    "intent"
+    "inici"
    ],
    "correct": 1,
    "explanation": "«intel·ligent» i «valent» acaben amb el mateix so.",
@@ -3995,7 +3995,7 @@
    "explanation": "il-lus-tra-ci-ó = 5 síl·labes",
    "word": "il·lustració",
    "syllables": [
-    "il",
+    "il·",
     "lus",
     "tra",
     "ci",
@@ -4309,14 +4309,14 @@
    "type": "drag_order",
    "prompt": "Ordena les síl·labes per a formar la paraula",
    "pieces": [
-    "il",
+    "il·",
     "lus",
     "tra",
     "ci",
     "ó"
    ],
    "correctOrder": [
-    "il",
+    "il·",
     "lus",
     "tra",
     "ci",

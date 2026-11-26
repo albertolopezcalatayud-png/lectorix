@@ -22,7 +22,7 @@ export const ca: Record<TranslationKey, string> = {
   dash_level: 'Nivell {level}',
   dash_xp: '{xp} punts en total',
   dash_streak: '{days} dies seguits',
-  dash_daily: 'Tasca d’avui',
+  dash_daily: 'Tasca d’hui',
   dash_daily_desc: '5 preguntes · 50 punts extra una vegada al dia',
   dash_play: 'Jugar →',
   dash_modules: 'Mòduls',
@@ -194,10 +194,10 @@ export const ca: Record<TranslationKey, string> = {
   onb_start: 'Començar!',
 
   // Daily Challenge
-  daily_title: '📝 Tasca d’avui',
+  daily_title: '📝 Tasca d’hui',
   daily_subtitle: '5 preguntes variades',
   daily_no_exercises: 'Sense exercicis',
-  daily_no_exercises_desc: 'No s’han pogut carregar els exercicis de la tasca d’avui.',
+  daily_no_exercises_desc: 'No s’han pogut carregar els exercicis de la tasca d’hui.',
   daily_back: '← Tornar a l\'inici',
 
   // Login
@@ -247,7 +247,7 @@ export const ca: Record<TranslationKey, string> = {
   reward_blue: 'Blau cel',
   reward_green: 'Verd menta',
   reward_orange: 'Taronja',
-  reward_pink: 'Rosa',
+  reward_pink: 'Lila',
   reward_gorra: 'Gorra',
   reward_corona: 'Corona',
   reward_sombrero: 'Barret de copa',
@@ -447,7 +447,7 @@ export const ca: Record<TranslationKey, string> = {
 
   // Spaced review, notebook and adaptive difficulty
   srs_title: 'Repàs',
-  srs_today: 'Repàs de hui',
+  srs_today: 'Repàs d’hui',
   srs_due: '{n} exercicis per a repassar hui',
   srs_up_to_date: 'Al dia! El que falles tornarà ací per a repassar-ho.',
   srs_session_desc: 'El que et va costar altres dies',
@@ -666,7 +666,7 @@ export const ca: Record<TranslationKey, string> = {
   skill_map_weak: 'Per a entrenar',
   skill_map_strong: 'Punts forts',
   skill_map_more: 'Veure les altres ({n})',
-  skill_today: 'El teu entrenament de hui',
+  skill_today: 'El teu entrenament d’hui',
   skill_today_desc: '10 preguntes pensades per a tu',
   sk_fon_syllables: 'Síl·labes',
   sk_fon_rhyme: 'Rimes',
@@ -927,7 +927,7 @@ export const ca: Record<TranslationKey, string> = {
   plans_later: 'Més avant tindrà plans de subscripció opcionals. Abans que arriben, ho explicarem dins de l’aplicació.',
 
   // Daily bonus
-  daily_bonus_got: 'Inclou +{n} punts de la tasca d’avui',
+  daily_bonus_got: 'Inclou +{n} punts de la tasca d’hui',
   daily_done_today: 'Feta hui! La pots repetir; els 50 punts extra tornen demà',
 
   // Device voices
@@ -1052,7 +1052,7 @@ export const ca: Record<TranslationKey, string> = {
   ev_found: 'Et demanen {n} coses:',
   ev_all_done: 'Tot fet! Repassa la resposta abans d’entregar.',
   ev_split_note: 'Marca cada tasca quan la tingues. Si alguna cosa no encaixa, fia’t de l’enunciat: això és una ajuda, no el substitueix.',
-  ev_q_what: 'Què et demana aquest enunciat?',
+  ev_q_what: 'Què et demana este enunciat?',
   ev_q_answer: 'Quina resposta fa el que demanen?',
   ev_q_count: 'Quantes coses et demanen?',
   ev_done_tip: 'Abans de respondre en un examen, encercla el verb de l’enunciat i pregunta’t: què em demanen exactament?',
@@ -1299,7 +1299,7 @@ export const ca: Record<TranslationKey, string> = {
   flu_mic_review: 'Subratllades sense ratllar: en el repàs no s’han sentit clares. No compten com a error: escolta-les i, si s’han llegit malament, marca-les a «Errors».',
 
   // Fluency: skip second listen
-  flu_checking_skip: 'Veure el resultat sense aquest repàs',
+  flu_checking_skip: 'Veure el resultat sense este repàs',
 
   // Fluency: checker accuracy
   flu_acc_title: 'Quant encerta el micròfon?',
@@ -1307,7 +1307,7 @@ export const ca: Record<TranslationKey, string> = {
   flu_acc_note: 'Compta només les lectures en què un adult va tocar o escoltar paraules. No es guarda cap àudio.',
 
   // Profiles: checker accuracy
-  pf_acc_note: 'Tot l’alumnat d’aquest dispositiu, en la prova de fluïdesa. Només compta les lectures en què un adult va tocar o escoltar paraules. No es guarda cap àudio.',
+  pf_acc_note: 'Tot l’alumnat d’este dispositiu, en la prova de fluïdesa. Només compta les lectures en què un adult va tocar o escoltar paraules. No es guarda cap àudio.',
 
   // Letter tracing (Trace.tsx)
   tr_title: 'Traç de lletres',

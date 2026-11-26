@@ -9,6 +9,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseText } from '../../src/services/textModel';
 import { clipKey, clipText } from '../../src/services/clipKey';
+import { forSpeech } from '../../src/services/forSpeech';
 import { verbCards } from '../../src/data/examVerbs';
 import { syllableTexts, MIRROR_WORDS, BUILD_WORDS } from '../../src/data/syllables';
 import { EXAMPLES } from '../../src/data/strokes';
@@ -22,7 +23,7 @@ const add = (lang: Lang, text?: string | null) => {
   if (!text) return;
   const t = clipText(text);
   if (!t || !/\p{L}/u.test(t)) return;
-  out[lang].set(clipKey(lang, t), t);
+  out[lang].set(clipKey(lang, t), forSpeech(lang, t)); // the voice reads the spoken form (no letter-by-letter capitals, no «barra»)
 };
 const cleanWord = (w: string) => w.replace(/^[«"“(¿¡—-]+|[»"”).,;:!?…—-]+$/g, '');
 
